@@ -1,0 +1,194 @@
+ID,País,Región,Cargo,Nombre Completo,Inicio Mandato,Fin Mandato,Partido,N° Mandato,Estado,Notas
+CAN-01,Canadá,América del Norte,Primer Ministro,Jean Chrétien,1993-11-04,2003-12-12,Partido Liberal,3 mandatos,Finalizado,En el cargo desde 1993; abarca 2000-2003
+CAN-02,Canadá,América del Norte,Primer Ministro,Paul Martin,2003-12-12,2006-02-06,Partido Liberal,1,Finalizado,NA
+CAN-03,Canadá,América del Norte,Primer Ministro,Stephen Harper,2006-02-06,2015-11-04,Partido Conservador,3 mandatos,Finalizado,NA
+CAN-04,Canadá,América del Norte,Primer Ministro,Justin Trudeau,2015-11-04,2025-03-14,Partido Liberal,3 mandatos,Finalizado,Renunció; sucedido por Carney
+CAN-05,Canadá,América del Norte,Primer Ministro,Mark Carney,2025-03-14,NA,Partido Liberal,1,En curso,Exgobernador Banco de Canadá e Inglaterra
+USA-01,Estados Unidos,América del Norte,Presidente,Bill Clinton,1993-01-20,2001-01-20,Partido Demócrata,2 mandatos,Finalizado,En el cargo desde 1993; abarca 2000-2001
+USA-02,Estados Unidos,América del Norte,Presidente,George W. Bush,2001-01-20,2009-01-20,Partido Republicano,2 mandatos,Finalizado,NA
+USA-03,Estados Unidos,América del Norte,Presidente,Barack Obama,2009-01-20,2017-01-20,Partido Demócrata,2 mandatos,Finalizado,NA
+USA-04,Estados Unidos,América del Norte,Presidente,Donald Trump,2017-01-20,2021-01-20,Partido Republicano,1,Finalizado,Primer mandato
+USA-05,Estados Unidos,América del Norte,Presidente,Joe Biden,2021-01-20,2025-01-20,Partido Demócrata,1,Finalizado,NA
+USA-06,Estados Unidos,América del Norte,Presidente,Donald Trump,2025-01-20,NA,Partido Republicano,2 (no consecutivo),En curso,Segundo mandato no consecutivo (47º presidente)
+MEX-01,México,América del Norte,Presidente,Ernesto Zedillo,1994-12-01,2000-12-01,PRI,1,Finalizado,En el cargo desde 1994; abarca 2000
+MEX-02,México,América del Norte,Presidente,Vicente Fox,2000-12-01,2006-12-01,PAN,1,Finalizado,Fin de 71 años de hegemonía del PRI
+MEX-03,México,América del Norte,Presidente,Felipe Calderón,2006-12-01,2012-12-01,PAN,1,Finalizado,NA
+MEX-04,México,América del Norte,Presidente,Enrique Peña Nieto,2012-12-01,2018-12-01,PRI,1,Finalizado,NA
+MEX-05,México,América del Norte,Presidente,Andrés Manuel López Obrador,2018-12-01,2024-10-01,Morena,1,Finalizado,'AMLO'
+MEX-06,México,América del Norte,Presidente,Claudia Sheinbaum,2024-10-01,NA,Morena,1,En curso,Primera mujer presidenta de México
+GTM-01,Guatemala,América Central,Presidente,Alfonso Portillo,2000-01-14,2004-01-14,FRG,1,Finalizado,NA
+GTM-02,Guatemala,América Central,Presidente,Óscar Berger,2004-01-14,2008-01-14,GANA,1,Finalizado,NA
+GTM-03,Guatemala,América Central,Presidente,Álvaro Colom,2008-01-14,2012-01-14,UNE,1,Finalizado,NA
+GTM-04,Guatemala,América Central,Presidente,Otto Pérez Molina,2012-01-14,2015-09-03,Partido Patriota,1,Finalizado,Renunció por caso de corrupción 'La Línea'
+GTM-05,Guatemala,América Central,Presidente,Alejandro Maldonado,2015-09-03,2016-01-14,Independiente,1,Finalizado,Presidente interino
+GTM-06,Guatemala,América Central,Presidente,Jimmy Morales,2016-01-14,2020-01-14,FCN-Nación,1,Finalizado,NA
+GTM-07,Guatemala,América Central,Presidente,Alejandro Giammattei,2020-01-14,2024-01-15,Vamos,1,Finalizado,NA
+GTM-08,Guatemala,América Central,Presidente,Bernardo Arévalo,2024-01-15,NA,Movimiento Semilla,1,En curso,Hijo de Juan José Arévalo
+BLZ-01,Belice,América Central,Primer Ministro,Said Musa,1998-08-28,2008-02-08,PUP,2 mandatos,Finalizado,En el cargo desde 1998; abarca 2000-2008
+BLZ-02,Belice,América Central,Primer Ministro,Dean Barrow,2008-02-08,2020-11-12,UDP,3 mandatos,Finalizado,Primer PM afrodescendiente de Belice
+BLZ-03,Belice,América Central,Primer Ministro,Johnny Briceño,2020-11-12,NA,PUP,2 mandatos,En curso,Reelecto en 2025
+HND-01,Honduras,América Central,Presidente,Carlos Roberto Flores,1998-01-27,2002-01-27,Partido Liberal,1,Finalizado,En el cargo desde 1998; abarca 2000-2002
+HND-02,Honduras,América Central,Presidente,Ricardo Maduro,2002-01-27,2006-01-27,Partido Nacional,1,Finalizado,NA
+HND-03,Honduras,América Central,Presidente,Manuel Zelaya,2006-01-27,2009-06-28,Partido Liberal,1,Finalizado,Derrocado por golpe de Estado
+HND-04,Honduras,América Central,Presidente,Roberto Micheletti,2009-06-28,2010-01-27,Partido Liberal,1,Finalizado,Presidente de facto tras el golpe
+HND-05,Honduras,América Central,Presidente,Porfirio Lobo,2010-01-27,2014-01-27,Partido Nacional,1,Finalizado,'Pepe' Lobo
+HND-06,Honduras,América Central,Presidente,Juan Orlando Hernández,2014-01-27,2022-01-27,Partido Nacional,2 mandatos,Finalizado,'JOH'; luego condenado en EE.UU. por narcotráfico
+HND-07,Honduras,América Central,Presidente,Xiomara Castro,2022-01-27,2026-01-27,LIBRE,1,Finalizado,Primera mujer presidenta; esposa de Zelaya
+HND-08,Honduras,América Central,Presidente,Nasry Asfura,2026-01-27,NA,Partido Nacional,1,En curso,'Tito' Asfura; exalcalde de Tegucigalpa
+SLV-01,El Salvador,América Central,Presidente,Francisco Flores,1999-06-01,2004-06-01,ARENA,1,Finalizado,En el cargo desde 1999; abarca 2000-2004
+SLV-02,El Salvador,América Central,Presidente,Antonio Saca,2004-06-01,2009-06-01,ARENA,1,Finalizado,NA
+SLV-03,El Salvador,América Central,Presidente,Mauricio Funes,2009-06-01,2014-06-01,FMLN,1,Finalizado,NA
+SLV-04,El Salvador,América Central,Presidente,Salvador Sánchez Cerén,2014-06-01,2019-06-01,FMLN,1,Finalizado,NA
+SLV-05,El Salvador,América Central,Presidente,Nayib Bukele,2019-06-01,NA,Nuevas Ideas,2 mandatos,En curso,Reelecto en 2024
+NIC-01,Nicaragua,América Central,Presidente,Arnoldo Alemán,1997-01-10,2002-01-10,PLC,1,Finalizado,En el cargo desde 1997; abarca 2000-2002
+NIC-02,Nicaragua,América Central,Presidente,Enrique Bolaños,2002-01-10,2007-01-10,PLC,1,Finalizado,NA
+NIC-03,Nicaragua,América Central,Presidente,Daniel Ortega,2007-01-10,NA,FSLN,4 mandatos,En curso,Copresidencia con Rosario Murillo (2025)
+CRI-01,Costa Rica,América Central,Presidente,Miguel Ángel Rodríguez,1998-05-08,2002-05-08,PUSC,1,Finalizado,En el cargo desde 1998; abarca 2000-2002
+CRI-02,Costa Rica,América Central,Presidente,Abel Pacheco,2002-05-08,2006-05-08,PUSC,1,Finalizado,NA
+CRI-03,Costa Rica,América Central,Presidente,Óscar Arias,2006-05-08,2010-05-08,PLN,2 (no consecutivo),Finalizado,Nobel de la Paz 1987; ya había sido presidente 1986-90
+CRI-04,Costa Rica,América Central,Presidente,Laura Chinchilla,2010-05-08,2014-05-08,PLN,1,Finalizado,Primera mujer presidenta de Costa Rica
+CRI-05,Costa Rica,América Central,Presidente,Luis Guillermo Solís,2014-05-08,2018-05-08,PAC,1,Finalizado,NA
+CRI-06,Costa Rica,América Central,Presidente,Carlos Alvarado,2018-05-08,2022-05-08,PAC,1,Finalizado,NA
+CRI-07,Costa Rica,América Central,Presidente,Rodrigo Chaves,2022-05-08,NA,PPSD,1,En curso,Mandato hasta 2026
+PAN-01,Panamá,América Central,Presidente,Mireya Moscoso,1999-09-01,2004-09-01,Partido Arnulfista,1,Finalizado,Primera mujer presidenta; abarca 2000-2004
+PAN-02,Panamá,América Central,Presidente,Martín Torrijos,2004-09-01,2009-07-01,PRD,1,Finalizado,Hijo de Omar Torrijos
+PAN-03,Panamá,América Central,Presidente,Ricardo Martinelli,2009-07-01,2014-07-01,Cambio Democrático,1,Finalizado,Luego asilado por casos judiciales
+PAN-04,Panamá,América Central,Presidente,Juan Carlos Varela,2014-07-01,2019-07-01,Partido Panameñista,1,Finalizado,NA
+PAN-05,Panamá,América Central,Presidente,Laurentino Cortizo,2019-07-01,2024-07-01,PRD,1,Finalizado,'Nito' Cortizo
+PAN-06,Panamá,América Central,Presidente,José Raúl Mulino,2024-07-01,NA,Realizando Metas,1,En curso,Mandato hasta 2029
+CUB-01,Cuba,Caribe,Presidente,Fidel Castro,1976-12-02,2008-02-24,PCC,1,Finalizado,Jefe de Estado desde 1976; abarca 2000-2008
+CUB-02,Cuba,Caribe,Presidente,Raúl Castro,2008-02-24,2018-04-19,PCC,2 mandatos,Finalizado,NA
+CUB-03,Cuba,Caribe,Presidente,Miguel Díaz-Canel,2018-04-19,NA,PCC,2 mandatos,En curso,Primer no-Castro desde 1976
+DOM-01,República Dominicana,Caribe,Presidente,Leonel Fernández,1996-08-16,2000-08-16,PLD,1,Finalizado,En el cargo desde 1996; abarca 2000
+DOM-02,República Dominicana,Caribe,Presidente,Hipólito Mejía,2000-08-16,2004-08-16,PRD,1,Finalizado,NA
+DOM-03,República Dominicana,Caribe,Presidente,Leonel Fernández,2004-08-16,2012-08-16,PLD,2 y 3 (no consec.),Finalizado,Volvió al poder por 2 mandatos
+DOM-04,República Dominicana,Caribe,Presidente,Danilo Medina,2012-08-16,2020-08-16,PLD,2 mandatos,Finalizado,NA
+DOM-05,República Dominicana,Caribe,Presidente,Luis Abinader,2020-08-16,NA,PRM,2 mandatos,En curso,Reelecto en 2024
+HTI-01,Haití,Caribe,Presidente,René Préval,1996-02-07,2001-02-07,Lavalas,1,Finalizado,Primer mandato; abarca 2000-2001
+HTI-02,Haití,Caribe,Presidente,Jean-Bertrand Aristide,2001-02-07,2004-02-29,Fanmi Lavalas,2 (no consecutivo),Finalizado,Derrocado y exiliado en 2004
+HTI-03,Haití,Caribe,Presidente,Boniface Alexandre,2004-02-29,2006-05-14,Independiente,1,Finalizado,Presidente provisional
+HTI-04,Haití,Caribe,Presidente,René Préval,2006-05-14,2011-05-14,Lespwa / Inite,2 (no consecutivo),Finalizado,Segundo mandato
+HTI-05,Haití,Caribe,Presidente,Michel Martelly,2011-05-14,2016-02-07,PHTK,1,Finalizado,'Sweet Micky'
+HTI-06,Haití,Caribe,Presidente,Jocelerme Privert,2016-02-14,2017-02-07,Independiente,1,Finalizado,Presidente provisional
+HTI-07,Haití,Caribe,Presidente,Jovenel Moïse,2017-02-07,2021-07-07,PHTK,1,Finalizado,Asesinado en el cargo en julio 2021
+HTI-08,Haití,Caribe,Primer Ministro,Ariel Henry,2021-07-20,2024-04-25,Independiente,1,Finalizado,Lideró el Ejecutivo de facto tras magnicidio; renunció
+HTI-09,Haití,Caribe,Consejo Presidencial,Consejo Presidencial de Transición,2024-04-25,NA,Transición,1,En curso,Órgano colegiado; presidencia rotativa
+JAM-01,Jamaica,Caribe,Primer Ministro,P. J. Patterson,1992-03-30,2006-03-30,PNP,3 mandatos,Finalizado,En el cargo desde 1992; abarca 2000-2006
+JAM-02,Jamaica,Caribe,Primer Ministro,Portia Simpson-Miller,2006-03-30,2007-09-11,PNP,1,Finalizado,Primera mujer PM de Jamaica
+JAM-03,Jamaica,Caribe,Primer Ministro,Bruce Golding,2007-09-11,2011-10-23,JLP,1,Finalizado,NA
+JAM-04,Jamaica,Caribe,Primer Ministro,Andrew Holness,2011-10-23,2012-01-05,JLP,1,Finalizado,Primer mandato breve
+JAM-05,Jamaica,Caribe,Primer Ministro,Portia Simpson-Miller,2012-01-05,2016-03-03,PNP,2 (no consecutivo),Finalizado,Segundo mandato
+JAM-06,Jamaica,Caribe,Primer Ministro,Andrew Holness,2016-03-03,NA,JLP,2 y 3 mandatos,En curso,Reelecto en 2020 y 2025
+TTO-01,Trinidad y Tobago,Caribe,Primer Ministro,Basdeo Panday,1995-11-09,2001-12-24,UNC,1,Finalizado,En el cargo desde 1995; abarca 2000-2001
+TTO-02,Trinidad y Tobago,Caribe,Primer Ministro,Patrick Manning,2001-12-24,2010-05-26,PNM,2 mandatos,Finalizado,NA
+TTO-03,Trinidad y Tobago,Caribe,Primer Ministro,Kamla Persad-Bissessar,2010-05-26,2015-09-09,UNC,1,Finalizado,Primera mujer PM
+TTO-04,Trinidad y Tobago,Caribe,Primer Ministro,Keith Rowley,2015-09-09,2025-03-17,PNM,2 mandatos,Finalizado,Renunció en marzo 2025
+TTO-05,Trinidad y Tobago,Caribe,Primer Ministro,Stuart Young,2025-03-17,2025-05-01,PNM,1,Finalizado,Breve mandato hasta elecciones
+TTO-06,Trinidad y Tobago,Caribe,Primer Ministro,Kamla Persad-Bissessar,2025-05-01,NA,UNC,2 (no consecutivo),En curso,Volvió al poder tras elecciones 2025
+BHS-01,Bahamas,Caribe,Primer Ministro,Hubert Ingraham,1992-08-19,2002-05-03,FNM,2 mandatos,Finalizado,En el cargo desde 1992; abarca 2000-2002
+BHS-02,Bahamas,Caribe,Primer Ministro,Perry Christie,2002-05-03,2007-05-04,PLP,1,Finalizado,NA
+BHS-03,Bahamas,Caribe,Primer Ministro,Hubert Ingraham,2007-05-04,2012-05-08,FNM,3 (no consecutivo),Finalizado,Tercer mandato
+BHS-04,Bahamas,Caribe,Primer Ministro,Perry Christie,2012-05-08,2017-05-11,PLP,2 (no consecutivo),Finalizado,Segundo mandato
+BHS-05,Bahamas,Caribe,Primer Ministro,Hubert Minnis,2017-05-11,2021-09-17,FNM,1,Finalizado,NA
+BHS-06,Bahamas,Caribe,Primer Ministro,Philip Davis,2021-09-17,NA,PLP,1,En curso,Mandato hasta 2026
+BRB-01,Barbados,Caribe,Primer Ministro,Owen Arthur,1994-09-07,2008-01-15,BLP,3 mandatos,Finalizado,En el cargo desde 1994; abarca 2000-2008
+BRB-02,Barbados,Caribe,Primer Ministro,David Thompson,2008-01-15,2010-10-23,DLP,1,Finalizado,Falleció en el cargo
+BRB-03,Barbados,Caribe,Primer Ministro,Freundel Stuart,2010-10-23,2018-05-25,DLP,2 mandatos,Finalizado,NA
+BRB-04,Barbados,Caribe,Primer Ministro,Mia Mottley,2018-05-25,NA,BLP,2 mandatos,En curso,Barbados se hizo república en nov 2021
+GUY-01,Guyana,Caribe,Presidente,Bharrat Jagdeo,1999-08-11,2011-12-03,PPP/C,2 mandatos,Finalizado,En el cargo desde 1999; abarca 2000-2011
+GUY-02,Guyana,Caribe,Presidente,Donald Ramotar,2011-12-03,2015-05-16,PPP/C,1,Finalizado,NA
+GUY-03,Guyana,Caribe,Presidente,David Granger,2015-05-16,2020-08-02,APNU+AFC,1,Finalizado,NA
+GUY-04,Guyana,Caribe,Presidente,Irfaan Ali,2020-08-02,NA,PPP/C,2 mandatos,En curso,Reelecto en 2025; boom petrolero
+SUR-01,Surinam,Caribe,Presidente,Jules Wijdenbosch,1996-09-15,2000-08-12,NDP,1,Finalizado,En el cargo desde 1996; abarca 2000
+SUR-02,Surinam,Caribe,Presidente,Ronald Venetiaan,2000-08-12,2010-08-12,Nuevo Frente,2 mandatos,Finalizado,NA
+SUR-03,Surinam,Caribe,Presidente,Dési Bouterse,2010-08-12,2020-07-16,NDP,2 mandatos,Finalizado,Exdictador; luego condenado
+SUR-04,Surinam,Caribe,Presidente,Chan Santokhi,2020-07-16,2025-07-16,VHP,1,Finalizado,NA
+SUR-05,Surinam,Caribe,Presidente,Jennifer Geerlings-Simons,2025-07-16,NA,NDP,1,En curso,Primera mujer presidenta de Surinam
+ATG-01,Antigua y Barbuda,Caribe,Primer Ministro,Lester Bird,1994-03-09,2004-03-24,ALP,1,Finalizado,Abarca 2000-2004
+ATG-02,Antigua y Barbuda,Caribe,Primer Ministro,Baldwin Spencer,2004-03-24,2014-06-13,UPP,1,Finalizado,NA
+ATG-03,Antigua y Barbuda,Caribe,Primer Ministro,Gaston Browne,2014-06-13,NA,ABLP,3 mandatos,En curso,NA
+DMA-01,Dominica,Caribe,Primer Ministro,Roosevelt Skerrit,2004-01-08,NA,Partido Laborista,5 mandatos,En curso,Uno de los PM más longevos del Caribe
+GRD-01,Granada,Caribe,Primer Ministro,Keith Mitchell,1995-06-22,2008-07-09,NNP,1,Finalizado,Abarca 2000-2008
+GRD-02,Granada,Caribe,Primer Ministro,Tillman Thomas,2008-07-09,2013-02-20,NDC,1,Finalizado,NA
+GRD-03,Granada,Caribe,Primer Ministro,Keith Mitchell,2013-02-20,2022-06-24,NNP,2 (no consec.),Finalizado,Volvió al poder
+GRD-04,Granada,Caribe,Primer Ministro,Dickon Mitchell,2022-06-24,NA,NDC,1,En curso,NA
+KNA-01,San Cristóbal y Nieves,Caribe,Primer Ministro,Denzil Douglas,1995-07-07,2015-02-18,Partido Laborista,1,Finalizado,Abarca 2000-2015
+KNA-02,San Cristóbal y Nieves,Caribe,Primer Ministro,Timothy Harris,2015-02-18,2022-08-06,Team Unity,1,Finalizado,NA
+KNA-03,San Cristóbal y Nieves,Caribe,Primer Ministro,Terrance Drew,2022-08-06,NA,Partido Laborista,1,En curso,NA
+LCA-01,Santa Lucía,Caribe,Primer Ministro,Kenny Anthony,1997-05-24,2006-12-15,Partido Laborista,1,Finalizado,Abarca 2000-2006
+LCA-02,Santa Lucía,Caribe,Primer Ministro,John Compton,2006-12-15,2007-09-07,UWP,1,Finalizado,Falleció en el cargo
+LCA-03,Santa Lucía,Caribe,Primer Ministro,Stephenson King,2007-09-09,2011-11-30,UWP,1,Finalizado,NA
+LCA-04,Santa Lucía,Caribe,Primer Ministro,Kenny Anthony,2011-11-30,2016-06-07,Partido Laborista,2 (no consec.),Finalizado,NA
+LCA-05,Santa Lucía,Caribe,Primer Ministro,Allen Chastanet,2016-06-07,2021-07-28,UWP,1,Finalizado,NA
+LCA-06,Santa Lucía,Caribe,Primer Ministro,Philip J. Pierre,2021-07-28,NA,Partido Laborista,1,En curso,NA
+VCT-01,San Vicente y las Granadinas,Caribe,Primer Ministro,Ralph Gonsalves,2001-03-29,NA,ULP,5 mandatos,En curso,'Comrade Ralph'; desde 2001
+ARG-01,Argentina,América del Sur,Presidente,Fernando de la Rúa,1999-12-10,2001-12-21,Alianza (UCR),1,Finalizado,Renunció en la crisis de 2001
+ARG-02,Argentina,América del Sur,Presidente,Adolfo Rodríguez Saá,2001-12-23,2001-12-30,PJ,1,Finalizado,Presidente interino (una semana)
+ARG-03,Argentina,América del Sur,Presidente,Eduardo Duhalde,2002-01-02,2003-05-25,PJ,1,Finalizado,Designado por la Asamblea Legislativa
+ARG-04,Argentina,América del Sur,Presidente,Néstor Kirchner,2003-05-25,2007-12-10,FPV (PJ),1,Finalizado,NA
+ARG-05,Argentina,América del Sur,Presidente,Cristina Fernández de Kirchner,2007-12-10,2015-12-10,FPV (PJ),2 mandatos,Finalizado,'CFK'
+ARG-06,Argentina,América del Sur,Presidente,Mauricio Macri,2015-12-10,2019-12-10,PRO / Cambiemos,1,Finalizado,NA
+ARG-07,Argentina,América del Sur,Presidente,Alberto Fernández,2019-12-10,2023-12-10,Frente de Todos (PJ),1,Finalizado,NA
+ARG-08,Argentina,América del Sur,Presidente,Javier Milei,2023-12-10,NA,La Libertad Avanza,1,En curso,Libertario; mandato hasta 2027
+BRA-01,Brasil,América del Sur,Presidente,Fernando Henrique Cardoso,1995-01-01,2003-01-01,PSDB,2 mandatos,Finalizado,En el cargo desde 1995; 2º mandato abarca 2000-2003
+BRA-02,Brasil,América del Sur,Presidente,Luiz Inácio Lula da Silva,2003-01-01,2011-01-01,PT,2 mandatos,Finalizado,Primeros dos mandatos
+BRA-03,Brasil,América del Sur,Presidente,Dilma Rousseff,2011-01-01,2016-08-31,PT,2 mandatos,Finalizado,Destituida por impeachment
+BRA-04,Brasil,América del Sur,Presidente,Michel Temer,2016-08-31,2019-01-01,MDB,1,Finalizado,Vicepresidente que asumió tras impeachment
+BRA-05,Brasil,América del Sur,Presidente,Jair Bolsonaro,2019-01-01,2023-01-01,PL / PSL,1,Finalizado,NA
+BRA-06,Brasil,América del Sur,Presidente,Luiz Inácio Lula da Silva,2023-01-01,NA,PT,3 (no consecutivo),En curso,Tercer mandato; hasta 2027
+CHL-01,Chile,América del Sur,Presidente,Ricardo Lagos,2000-03-11,2006-03-11,PPD / Concertación,1,Finalizado,NA
+CHL-02,Chile,América del Sur,Presidente,Michelle Bachelet,2006-03-11,2010-03-11,PS / Concertación,1,Finalizado,Primera mujer presidenta de Chile
+CHL-03,Chile,América del Sur,Presidente,Sebastián Piñera,2010-03-11,2014-03-11,RN / Coalición,1,Finalizado,NA
+CHL-04,Chile,América del Sur,Presidente,Michelle Bachelet,2014-03-11,2018-03-11,PS / Nueva Mayoría,2 (no consecutivo),Finalizado,Segundo mandato
+CHL-05,Chile,América del Sur,Presidente,Sebastián Piñera,2018-03-11,2022-03-11,RN / Chile Vamos,2 (no consecutivo),Finalizado,Falleció en 2024
+CHL-06,Chile,América del Sur,Presidente,Gabriel Boric,2022-03-11,2026-03-11,Convergencia Social,1,Finalizado,Presidente más joven de la historia de Chile
+CHL-07,Chile,América del Sur,Presidente,José Antonio Kast,2026-03-11,NA,Partido Republicano,1,En curso,NA
+URY-01,Uruguay,América del Sur,Presidente,Jorge Batlle,2000-03-01,2005-03-01,Partido Colorado,1,Finalizado,Último presidente colorado a la fecha
+URY-02,Uruguay,América del Sur,Presidente,Tabaré Vázquez,2005-03-01,2010-03-01,Frente Amplio,1,Finalizado,Primer presidente de izquierda
+URY-03,Uruguay,América del Sur,Presidente,José Mujica,2010-03-01,2015-03-01,Frente Amplio,1,Finalizado,'Pepe' Mujica; falleció en 2025
+URY-04,Uruguay,América del Sur,Presidente,Tabaré Vázquez,2015-03-01,2020-03-01,Frente Amplio,2 (no consecutivo),Finalizado,Falleció en dic 2020
+URY-05,Uruguay,América del Sur,Presidente,Luis Lacalle Pou,2020-03-01,2025-03-01,Partido Nacional,1,Finalizado,NA
+URY-06,Uruguay,América del Sur,Presidente,Yamandú Orsi,2025-03-01,NA,Frente Amplio,1,En curso,Mandato hasta 2030
+PRY-01,Paraguay,América del Sur,Presidente,Luis Ángel González Macchi,1999-03-28,2003-08-15,Partido Colorado,1,Finalizado,En el cargo desde 1999; abarca 2000-2003
+PRY-02,Paraguay,América del Sur,Presidente,Nicanor Duarte Frutos,2003-08-15,2008-08-15,Partido Colorado,1,Finalizado,NA
+PRY-03,Paraguay,América del Sur,Presidente,Fernando Lugo,2008-08-15,2012-06-22,Alianza Patriótica,1,Finalizado,Destituido por juicio político
+PRY-04,Paraguay,América del Sur,Presidente,Federico Franco,2012-06-22,2013-08-15,PLRA,1,Finalizado,Vicepresidente que asumió
+PRY-05,Paraguay,América del Sur,Presidente,Horacio Cartes,2013-08-15,2018-08-15,Partido Colorado,1,Finalizado,NA
+PRY-06,Paraguay,América del Sur,Presidente,Mario Abdo Benítez,2018-08-15,2023-08-15,Partido Colorado,1,Finalizado,'Marito'
+PRY-07,Paraguay,América del Sur,Presidente,Santiago Peña,2023-08-15,NA,Partido Colorado,1,En curso,Mandato hasta 2028
+BOL-01,Bolivia,América del Sur,Presidente,Hugo Banzer,1997-08-06,2001-08-07,ADN,1,Finalizado,Renunció por enfermedad; abarca 2000-2001
+BOL-02,Bolivia,América del Sur,Presidente,Jorge Quiroga,2001-08-07,2002-08-06,ADN,1,Finalizado,'Tuto' Quiroga
+BOL-03,Bolivia,América del Sur,Presidente,Gonzalo Sánchez de Lozada,2002-08-06,2003-10-17,MNR,2 (no consec.),Finalizado,Renunció en la 'guerra del gas'
+BOL-04,Bolivia,América del Sur,Presidente,Carlos Mesa,2003-10-17,2005-06-09,Independiente,1,Finalizado,Renunció en medio de protestas
+BOL-05,Bolivia,América del Sur,Presidente,Eduardo Rodríguez Veltzé,2005-06-09,2006-01-22,Independiente,1,Finalizado,Presidente interino
+BOL-06,Bolivia,América del Sur,Presidente,Evo Morales,2006-01-22,2019-11-10,MAS,3 mandatos,Finalizado,Primer presidente indígena; renunció en crisis 2019
+BOL-07,Bolivia,América del Sur,Presidente,Jeanine Áñez,2019-11-12,2020-11-08,Demócratas,1,Finalizado,Presidenta interina
+BOL-08,Bolivia,América del Sur,Presidente,Luis Arce,2020-11-08,2025-11-08,MAS,1,Finalizado,NA
+BOL-09,Bolivia,América del Sur,Presidente,Rodrigo Paz,2025-11-08,NA,Partido Demócrata Cristiano,1,En curso,Fin de ~20 años de gobierno del MAS
+PER-01,Perú,América del Sur,Presidente,Alberto Fujimori,1990-07-28,2000-11-21,Perú 2000,3 mandatos,Finalizado,Renunció por fax desde Japón; abarca 2000
+PER-02,Perú,América del Sur,Presidente,Valentín Paniagua,2000-11-22,2001-07-28,Acción Popular,1,Finalizado,Presidente de transición
+PER-03,Perú,América del Sur,Presidente,Alejandro Toledo,2001-07-28,2006-07-28,Perú Posible,1,Finalizado,Luego condenado por corrupción
+PER-04,Perú,América del Sur,Presidente,Alan García,2006-07-28,2011-07-28,APRA,2 (no consecutivo),Finalizado,Se suicidó en 2019 ante detención
+PER-05,Perú,América del Sur,Presidente,Ollanta Humala,2011-07-28,2016-07-28,Partido Nacionalista,1,Finalizado,Luego condenado
+PER-06,Perú,América del Sur,Presidente,Pedro Pablo Kuczynski,2016-07-28,2018-03-23,Peruanos Por el Kambio,1,Finalizado,'PPK'; renunció ante vacancia
+PER-07,Perú,América del Sur,Presidente,Martín Vizcarra,2018-03-23,2020-11-09,Independiente,1,Finalizado,Destituido por el Congreso
+PER-08,Perú,América del Sur,Presidente,Manuel Merino,2020-11-10,2020-11-15,Acción Popular,1,Finalizado,Renunció tras 5 días (protestas)
+PER-09,Perú,América del Sur,Presidente,Francisco Sagasti,2020-11-17,2021-07-28,Partido Morado,1,Finalizado,Presidente de transición
+PER-10,Perú,América del Sur,Presidente,Pedro Castillo,2021-07-28,2022-12-07,Perú Libre,1,Finalizado,Destituido y detenido tras autogolpe fallido
+PER-11,Perú,América del Sur,Presidente,Dina Boluarte,2022-12-07,2025-10-10,Independiente,1,Finalizado,Primera mujer presidenta; destituida
+PER-12,Perú,América del Sur,Presidente,José Jerí,2025-10-10,NA,Somos Perú,1,En curso,Presidente de transición hasta jul 2026
+ECU-01,Ecuador,América del Sur,Presidente,Jamil Mahuad,1998-08-10,2000-01-21,DP,1,Finalizado,Derrocado; abarca enero 2000
+ECU-02,Ecuador,América del Sur,Presidente,Gustavo Noboa,2000-01-22,2003-01-15,Independiente,1,Finalizado,Vicepresidente que asumió
+ECU-03,Ecuador,América del Sur,Presidente,Lucio Gutiérrez,2003-01-15,2005-04-20,PSP,1,Finalizado,Destituido
+ECU-04,Ecuador,América del Sur,Presidente,Alfredo Palacio,2005-04-20,2007-01-15,Independiente,1,Finalizado,Vicepresidente que asumió
+ECU-05,Ecuador,América del Sur,Presidente,Rafael Correa,2007-01-15,2017-05-24,Alianza PAIS,3 mandatos,Finalizado,NA
+ECU-06,Ecuador,América del Sur,Presidente,Lenín Moreno,2017-05-24,2021-05-24,Alianza PAIS / luego ruptura,1,Finalizado,NA
+ECU-07,Ecuador,América del Sur,Presidente,Guillermo Lasso,2021-05-24,2023-11-23,CREO,1,Finalizado,Aplicó 'muerte cruzada'; adelantó elecciones
+ECU-08,Ecuador,América del Sur,Presidente,Daniel Noboa,2023-11-23,NA,ADN,2 mandatos,En curso,Asumió por elección anticipada; reelecto 2025
+COL-01,Colombia,América del Sur,Presidente,Andrés Pastrana,1998-08-07,2002-08-07,Conservador,1,Finalizado,En el cargo desde 1998; abarca 2000-2002
+COL-02,Colombia,América del Sur,Presidente,Álvaro Uribe,2002-08-07,2010-08-07,Primero Colombia / U,2 mandatos,Finalizado,NA
+COL-03,Colombia,América del Sur,Presidente,Juan Manuel Santos,2010-08-07,2018-08-07,Partido de la U,2 mandatos,Finalizado,Nobel de la Paz 2016 (acuerdo FARC)
+COL-04,Colombia,América del Sur,Presidente,Iván Duque,2018-08-07,2022-08-07,Centro Democrático,1,Finalizado,NA
+COL-05,Colombia,América del Sur,Presidente,Gustavo Petro,2022-08-07,NA,Pacto Histórico,1,En curso,Primer presidente de izquierda; hasta 2026
+VEN-01,Venezuela,América del Sur,Presidente,Hugo Chávez,1999-02-02,2013-03-05,MVR / PSUV,3 mandatos,Finalizado,Falleció en el cargo; abarca 2000-2013
+VEN-02,Venezuela,América del Sur,Presidente,Nicolás Maduro,2013-03-05,NA,PSUV,3 mandatos,En curso,Reelección 2024 cuestionada internacionalmente

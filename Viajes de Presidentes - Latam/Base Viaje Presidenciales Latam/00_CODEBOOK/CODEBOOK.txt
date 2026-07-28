@@ -1,0 +1,367 @@
+================================================================================
+CODEBOOK — VIAJES PRESIDENCIALES DE AMÉRICA (2000–2026)
+================================================================================
+Versión: 1.4
+Fecha: 2026-07-07 (v1.3: 2026-07-07; v1.2: 2026-07-07; v1.1: 2026-07-06; v1.0: 2026-06-28)
+Formato de datos canónico: CSV UTF-8 (minimalista, listo para R / Python / SPSS / Stata)
+
+Este CODEBOOK es el documento de referencia del proyecto. Define qué se mide,
+cómo se mide, qué valores son válidos y cómo replicar el trabajo para otras
+regiones del mundo. Cualquier duda metodológica se resuelve acá.
+
+--------------------------------------------------------------------------------
+1. PROPÓSITO
+--------------------------------------------------------------------------------
+Construir una base de datos exhaustiva, verificable y reproducible de TODOS los
+viajes internacionales oficiales de los jefes de gobierno de América, realizados
+ESTRICTAMENTE durante su mandato, entre 2000-01-01 y la FECHA DE CORTE vigente.
+FECHA DE CORTE: 2026-07-07 (extendida desde 2026-06-28 el 2026-07-07, por decisión
+del usuario). POLÍTICA DE CORTE MÓVIL: el corte se extiende formalmente a medida
+que avanza el proyecto; cada extensión implica actualización incremental de los
+mandatos EN CURSO (re-verificación de los últimos 2-3 meses + alta de viajes
+nuevos) y queda registrada en la bitácora. Viajes "anunciados" posteriores al
+corte NO se cargan (solo cancelaciones formales con destino anunciado).
+
+Pregunta analítica central: ¿cómo cambia en el tiempo el peso de cada región
+en la agenda internacional de cada país? (p. ej., ¿Argentina viaja cada vez más
+a Sudamérica, a Norteamérica, a Europa, etc.?)
+
+--------------------------------------------------------------------------------
+2. ESTRUCTURA DE CARPETAS (replicable)
+--------------------------------------------------------------------------------
+proyecto_viajes_presidenciales/
+  00_CODEBOOK/              Este documento.
+  01_INSTRUCCIONES/         Instrucciones originales del encargo (TXT).
+  02_TABLA_MAESTRA/         Catálogo de mandatarios (esqueleto). CSV.
+  03_MODULOS_PAIS/<pais>/   Un CSV de viajes por país: <pais>_viajes.csv
+  04_BASE_FINAL/            base_consolidada.csv (todos los países integrados).
+  05_BITACORA/              bitacora.txt (registro cronológico del trabajo) +
+                            hallazgos_analiticos.txt (patrones cualitativos por presidente) +
+                            PENDIENTES_VERIFICACION.txt (brechas y datos a validar por país).
+  06_SCRIPTS/               schema.py, validate.py, integrate.py, build_module_template.py
+  07_ARCHIVO_TRABAJO_PREVIO/ Módulos antiguos (formato viejo) conservados como insumo.
+
+Para REPLICAR en otra región (Europa, Asia, África): copiar esta carpeta, vaciar
+03 y 04, reemplazar 02_TABLA_MAESTRA por los mandatarios de la nueva región,
+ajustar REGION_MAP en schema.py si aparecen países nuevos, y seguir el flujo (sección 6).
+
+--------------------------------------------------------------------------------
+3. UNIDAD DE OBSERVACIÓN
+--------------------------------------------------------------------------------
+La FILA = un TRAMO de viaje en un país de destino.
+  - Una gira que visita varios países genera VARIAS filas (una por país).
+  - Todas las filas de una misma salida física comparten un Journey_ID.
+
+Esto permite dos niveles de análisis sin doble conteo:
+  - "Países visitados" / "tramos"   = contar FILAS.
+  - "Viajes realizados" (salidas)   = contar Journey_ID distintos.
+
+--------------------------------------------------------------------------------
+4. DICCIONARIO DE VARIABLES (22 columnas, en este orden)
+--------------------------------------------------------------------------------
+01. Journey_ID         Texto. Identificador del VIAJE FÍSICO (una salida del país).
+                       Agrupa las filas de una misma gira. Convención:
+                       {COD_PAIS}-{COD_PRESIDENTE}-J{NNN}  (ej. ARG-DLR-J001).
+02. Trip_ID            Entero secuencial (1,2,3...). Identifica cada FILA. Al integrar
+                       la base final se renumera global. Sin comas.
+03. President          Texto. Nombre del mandatario (igual que en la tabla maestra).
+04. Origin_Country     Texto. País del mandatario (en español; ej. "Argentina").
+05. Trip_Status        {Completed, Canceled}. Los viajes cancelados SE INCLUYEN.
+06. Start_Date         YYYY-MM-DD. Inicio de la estancia en ESTE país. "NA" si se ignora.
+07. End_Date           YYYY-MM-DD. Fin de la estancia en ESTE país. "NA" si se ignora.
+08. Duration_Days      Entero. Días en ESTE país (NO el total de la gira).
+                       "NA" obligatorio si Trip_Status = Canceled.
+09. Destination_Country Texto EN INGLÉS (clave del REGION_MAP; ej. "United States").
+10. Destination_Region {South America, Central America, North America, Caribbean,
+                       Europe, Asia-Pacific, Africa, Middle East, Antarctica}.
+                       Se completa AUTOMÁTICAMENTE desde Destination_Country.
+11. Destination_City   Texto. Ciudad principal del tramo.
+12. Visit_Category     {Bilateral, Multilateral, Other}.
+13. Visit_Subtype      {State Visit, Working Visit, Regional Summit, Global Forum,
+                       Inauguration/Funeral, Transit/Medical}.
+14. Sideline_Bilaterals {TRUE, FALSE, NA}. Ver regla en sección 5.4.
+15. Counterpart_Event  Texto. Funcionario visitado o nombre de la cumbre/evento.
+16. Counterpart_Type   {Jefe de Estado/Gobierno, Ex-mandatario/Opositor,
+                       Premio/Distinción/Honor académico, Movimiento partidario/
+                       ideológico, Otro actor no estatal, NA}. Naturaleza de la
+                       contraparte de una visita Bilateral. SOLO aplica a
+                       Visit_Category = Bilateral; en Multilateral/Other es "NA"
+                       obligatorio (decisión 2026-07-27). Ver reglas en sección 5.8.
+17. Trip_Objective     Texto (máx. 30 palabras). Resumen factual. Si Canceled, indicar
+                       el objetivo original Y el motivo de cancelación.
+18. Source_Verification Texto. URL oficial real; si no es oficial, link de Wayback
+                       Machine; si no hay link, "Search Query: [términos exactos]".
+                       NUNCA inventar URLs.
+19. Source_Reliability {High, Medium, Low}. Ver sección 5.5.
+20. Methodological_Notes Texto. Aclarar si la fecha fue estimada (usar YYYY-MM-01) o
+                       si el dato está incompleto.
+21. Tema_Foro          {Comercio/Integración Económica, Seguridad, Medio Ambiente/Clima,
+                       Derechos Humanos, Salud, Energía, Cooperación Política General,
+                       Otro, NA}. Tema PRINCIPAL del foro multilateral. SOLO aplica a
+                       Visit_Category = Multilateral; en Bilateral/Other es "NA"
+                       obligatorio (decisión 2026-07-06). Ver reglas en sección 5.7.
+22. Verificacion_Status {Verificada-URL, Solo-Query, No-verificable}. Estado de la
+                       fuente (campaña de verificación iniciada 2026-07-07):
+                       - Verificada-URL : Source_Verification es una URL consultable.
+                       - Solo-Query     : aún tiene "Search Query"; pendiente de campaña.
+                       - No-verificable : se buscó activamente y no se halló fuente
+                         consultable; se conserva el Search Query original.
+                       Regla: toda fila con Source_Verification http => Verificada-URL.
+                       El objetivo del proyecto es llevar todas las filas Solo-Query a
+                       Verificada-URL o, en su defecto, a No-verificable documentado.
+
+Valor faltante: SIEMPRE "NA" (en cualquier columna). Sin celdas vacías.
+ADVERTENCIA DE ANÁLISIS: pandas/R leen el texto "NA" como valor nulo por defecto;
+eso NO significa que la celda esté vacía en el CSV (falso positivo de auditoría
+registrado en bitácora el 2026-07-06). Para auditar el crudo usar csv/grep o
+pandas con keep_default_na=False.
+
+--------------------------------------------------------------------------------
+5. REGLAS DE CLASIFICACIÓN Y DECISIÓN
+--------------------------------------------------------------------------------
+5.1 INCLUSIÓN / EXCLUSIÓN (de las instrucciones originales)
+    - INCLUIR: todo viaje internacional oficial DURANTE el mandato (completado o cancelado).
+    - INCLUIR: visitas repetidas (son datos válidos y obligatorios).
+    - EXCLUIR: viajes antes de asumir (candidato/electo) o después de terminar (ex presidente).
+    - EXCLUIR: escalas técnicas de reabastecimiento (no diplomáticas).
+
+5.2 DURACIÓN
+    - Duration_Days = días en ESE país (extremos incluidos: llegada y salida cuentan).
+    - En giras multi-país, cada fila lleva los días de SU país, no el total.
+    - Cancelados: Duration_Days = NA (no distorsionar promedios).
+    - Todo análisis cuantitativo de duración/frecuencia debe filtrar Trip_Status = Completed.
+
+5.3 REGIONES (objetivo: medir variación temporal por región)
+    - Asignación automática vía REGION_MAP (schema.py). No asignar a mano.
+    - EE.UU. se aísla SIEMPRE filtrando Destination_Country = "United States"
+      (queda dentro de "North America", junto con Canadá y México).
+    - "Latinoamérica" se reconstruye, si se desea, sumando South America +
+      Central America + Caribbean + México.
+    - Casos transcontinentales (criterio fijado): Rusia=Europe; Turquía=Middle East;
+      Egipto=Africa; Kazajistán=Asia-Pacific; Israel/Palestina=Middle East.
+    - Si aparece un país no mapeado, region_for() devuelve "NA" y el validador lo marca:
+      agregar el país a REGION_MAP (no improvisar).
+
+5.4 SIDELINE_BILATERALS (reunión bilateral al margen de un evento multilateral)
+    - TRUE  : la fuente confirma EXPLÍCITAMENTE un bilateral al margen del evento.
+    - FALSE : la fuente confirma que NO hubo bilaterales al margen.
+    - NA    : no verificable con las fuentes disponibles (caso por defecto).
+    Nota honesta: por su naturaleza, esta columna quedará mayormente en "NA";
+    sólo se marca TRUE/FALSE cuando hay evidencia directa.
+    DECISIÓN 2026-07-06: la verificación retroactiva de bilaterales al margen
+    (331 filas en NA) queda DIFERIDA por volumen de trabajo y debilidad de fuentes
+    para eventos antiguos. Registrada como tarea futura en PENDIENTES_VERIFICACION.
+
+5.5 CONFIABILIDAD DE LA FUENTE
+    - High   : fuente oficial primaria (presidencia/cancillería, boletín/registro oficial,
+               archivo institucional). URL directa.
+    - Medium : prensa de referencia o enciclopedia con datos consistentes y cruzados.
+    - Low    : fuente única, secundaria, o dato reconstruido por "Search Query".
+
+5.6 VISIT_CATEGORY y VISIT_SUBTYPE — guía rápida
+    BILATERAL vs MULTILATERAL (definición de las instrucciones originales):
+    - Bilateral   : visita entre DOS naciones.
+    - Multilateral: involucra 3+ naciones o un organismo internacional.
+    - Other       : categoría RESIDUAL ESTRICTA (auditada 2026-07-07). Solo para
+      viajes sin carácter intergubernamental ni de organismo: premios personales,
+      salidas sin agenda oficial, eventos deportivos sin agenda intergubernamental.
+      NO van en Other: foros ideológicos partidarios con líderes internacionales
+      (CPAC, actos de Vox, Foro de São Paulo, Cumbres Progresistas -> Multilateral,
+      tema Cooperación Política General); foros económicos privados (Davos, Milken,
+      Boao -> Multilateral, tema Comercio/Integración Económica); visitas a
+      organismos internacionales (CERN, OMS, COI -> Multilateral, por la propia
+      definición). Reclasificación retroactiva de 8 filas aplicada el 2026-07-07;
+      quedan 4 Other legítimos en la base.
+    Subtipos:
+    - State Visit         : máximo protocolo, anfitrión Jefe de Estado, honores/banquete.
+    - Working Visit       : bilateral con agenda específica, menor protocolo.
+    - Regional Summit     : cumbre de organismo regional (MERCOSUR, CELAC, OEA, UNASUR, etc.).
+    - Global Forum        : evento global/temático (Asamblea ONU, G20, COP, Davos, G7/G8).
+    - Inauguration/Funeral: asunciones, funerales de Estado, coronaciones, actos protocolares.
+    - Transit/Medical     : tránsito diplomático o motivo médico (las escalas de
+                            reabastecimiento NO se registran; ver 5.1).
+
+
+5.7 TEMA_FORO — clasificación temática de foros multilaterales (agregada 2026-07-06)
+    Objetivo analítico: leer los TÓPICOS DE INTERÉS de la diplomacia presidencial
+    (¿a qué van los presidentes cuando van a foros?: comercio, clima, DDHH, etc.).
+
+    TAXONOMÍA CERRADA (8 categorías + NA):
+      Comercio/Integración Económica | Seguridad | Medio Ambiente/Clima |
+      Derechos Humanos | Salud | Energía | Cooperación Política General | Otro
+
+    ALCANCE: solo Visit_Category = Multilateral. Bilateral/Other -> "NA" obligatorio
+    (aunque la visita bilateral tenga agenda temática clara; decisión del usuario).
+
+    REGLA MAESTRA — doctrina del "mandato fundacional" (consistencia interna):
+      - Foros de AGENDA AMPLIA (política+economía+seguridad+clima a la vez)
+        -> Cooperación Política General.
+      - Foros cuyo MANDATO FUNDACIONAL es económico-comercial
+        -> Comercio/Integración Económica.
+    En consecuencia (casos resueltos y verificados, investigación 2026-07-06):
+      -> Cooperación Política General: AGNU, G20 (todas las ediciones), G7/G8,
+         BRICS, CELAC, UNASUR, ALBA, Grupo de Río/do Rio, G-15, G77+China,
+         Cumbres Iberoamericanas, Cumbres de las Américas, cumbres birregionales
+         UE-ALC/CELAC-UE, CALC y Cumbre de la Unidad (precursoras de CELAC),
+         ASEAN, CPLP, Unión Africana (aniversarios), Cumbre del Milenio,
+         Cumbre Mundial 2005, foros ideológicos (Cumbre Progresista, Gobiernos
+         Progresistas, Tercera Vía, Foro de São Paulo), Cumbre de los Pueblos,
+         iniciativas contra el hambre y la pobreza (Hambre Cero, Cúpula da Ação
+         contra a Fome), foros ideológicos de derecha (CPAC en todas sus sedes,
+         actos internacionales de Vox como "Europa Viva") — simétrico a los foros
+         de izquierda ya clasificados —, asunciones presidenciales, funerales de Estado,
+         coronaciones, misas inaugurales papales, conmemoraciones de Estado
+         (Día D), reuniones político-regionales ad hoc.
+      -> Comercio/Integración Económica: MERCOSUR/MERCOSUL, APEC, APEP, Alianza del
+         Pacífico, Davos (Foro Económico Mundial), Foro de Boao, CARICOM
+         (mercado común), CEDEAO/ECOWAS, ASPA, ASA, IBAS/IBSA, Franja y la
+         Ruta (OBOR), conferencias de Financiación para el Desarrollo
+         (Monterrey, Doha), Nuevo Pacto Financiero Global (París 2023),
+         Global Compact, foros empresariales y seminarios de inversión.
+      -> Medio Ambiente/Clima: toda COP, Río+20, Johannesburgo 2002 (Río+10),
+         cumbres de Acción/Ambición Climática, firma del Acuerdo de París,
+         Cumbre de la Amazonía (OTCA).
+      -> Seguridad: Cumbres de Seguridad Nuclear; cumbres de paz sobre conflictos
+         armados (ej. Cumbre por la Paz en Ucrania, Bürgenstock 2024 — decision
+         2026-07-07: temática de guerra/paz, no cooperación genérica).
+      -> Derechos Humanos: foros de memoria del Holocausto (Estocolmo 2000,
+         Yad Vashem 2020).
+      -> Energía: Cumbre Energética Sudamericana.
+      -> Otro: Conferencia de la OIT (Pacto Mundial por el Empleo) — temática
+         laboral sin categoría propia. Si aparecen más casos laborales o de
+         desarrollo/pobreza, evaluar ampliar la taxonomía (registrado en
+         PENDIENTES_VERIFICACION).
+
+    EVENTOS COMBINADOS (ej. "64ª AGNU + Cúpula do G20", "Cumbre APEC / COP25"):
+      clasificar por el evento PRIMARIO (el primero mencionado en
+      Counterpart_Event); el secundario no se clasifica por separado.
+
+    IMPLEMENTACIÓN: 06_SCRIPTS/add_tema_foro.py aplica (a) una tabla de match
+    exacto para los eventos verificados por investigación y (b) reglas por
+    patrón de keywords (normalizadas sin acentos, ES/PT). Todo evento sin match
+    queda en "NA" y validate.py lo marca como error (fila Multilateral requiere
+    categoría), forzando revisión manual: cero clasificación silenciosa.
+    Clasificaciones de confianza Media revisables listadas en
+    PENDIENTES_VERIFICACION (ASPA/ASA/IBAS, CARICOM, G77+China, OIT->Otro).
+
+5.8 COUNTERPART_TYPE — naturaleza de la contraparte en visitas Bilaterales (agregada 2026-07-27)
+    OBJETIVO ANALÍTICO: la diplomacia presidencial incluye, cada vez más, viajes
+    que formalmente son Bilateral (involucran a un solo país tercero) pero cuyo
+    motivo real NO es una relación Estado-a-Estado: visitas a un ex-mandatario o
+    dirigente opositor que no gobierna (ej. Lula visitando a Cristina Fernández
+    de Kirchner, presa/ex-presidenta), o viajes para recibir un premio o
+    distinción (ej. Milei viajando a España a recibir un premio). Esta columna
+    permite distinguir esa modalidad de la visita bilateral "clásica" sin tener
+    que reclasificar Visit_Category (que sigue midiendo si hay 1, 2+ países o
+    un organismo involucrado).
+
+    TAXONOMÍA CERRADA (5 categorías + NA):
+      - Jefe de Estado/Gobierno          : la contraparte es la autoridad oficial
+        en funciones del país de destino (presidente, primer ministro, rey/reina
+        en su rol de jefe de Estado, etc.). CASO POR DEFECTO — la inmensa mayoría
+        de las filas Bilateral caen acá.
+      - Ex-mandatario/Opositor           : ex-presidente, dirigente opositor o
+        líder partidario del país de destino que NO está gobernando al momento
+        de la visita. Ej.: Lula-Cristina Fernández de Kirchner (2023-2025,
+        Cristina ya no era presidenta).
+      - Premio/Distinción/Honor académico: el motivo central del viaje es recibir
+        un premio, título honoris causa, o distinción cultural/académica —
+        aunque en la agenda haya además una reunión protocolar breve.
+      - Movimiento partidario/ideológico : el viaje es a un evento de un partido
+        o movimiento político (no un acto de Estado ni una cumbre intergubernamental
+        con 3+ países, que seguiría siendo Multilateral por la regla de 5.6).
+      - Otro actor no estatal            : la contraparte es una empresa, ONG,
+        institución religiosa que no es jefe de Estado, think tank, universidad
+        (fuera del caso de premio/honor), etc.
+      - NA: obligatorio si Visit_Category != Bilateral (Multilateral/Other).
+
+    ALCANCE: solo Visit_Category = Bilateral. Las filas Multilateral (incluidos
+    los foros ideológicos como CPAC/Vox/Foro de São Paulo, que por tener 3+
+    países se clasifican Multilateral según 5.6) NO llevan Counterpart_Type;
+    su naturaleza "no estatal" ya queda capturada en Tema_Foro = Cooperación
+    Política General. Tampoco aplica a Other (que por 5.6 ya es la categoría
+    residual estricta para premios/salidas sin agenda oficial cuando NO hay ni
+    siquiera un país tercero identificable con claridad).
+
+    IMPLEMENTACIÓN: migración retroactiva 2026-07-27 sobre las filas Bilateral
+    existentes (columna agregada con default "Jefe de Estado/Gobierno" y luego
+    revisada fila por fila para identificar las excepciones). validate.py exige
+    Counterpart_Type no-NA en toda fila Bilateral y NA obligatorio fuera de
+    Bilateral — sin clasificación silenciosa.
+
+--------------------------------------------------------------------------------
+6. FLUJO DE TRABAJO POR MANDATARIO (ciclo estándar)
+--------------------------------------------------------------------------------
+Orden del proyecto: PAÍS COMPLETO, mandatario por mandatario en orden cronológico.
+Una vez controlados TODOS los mandatarios de un país, se integra a la base final.
+
+Pasos por mandatario (cada uno con criterio de "hecho"):
+  PASO 1 — TOMAR: siguiente mandatario según la tabla maestra (02_TABLA_MAESTRA).
+  PASO 2 — INVESTIGAR: viajes con fuente oficial del país + cruces de prensa.
+  PASO 3 — CARGAR: una fila por país de destino, con Journey_ID por salida física,
+           usando el formato de 19 columnas (ver build_module_template.py).
+  PASO 4 — CONTROL (QC automático): correr validate.py -> 0 errores obligatorio.
+  PASO 5 — CHEQUEO DE COMPLETITUD: segundo cruce contra una fuente independiente;
+           registrar faltantes detectados (como hicimos en Argentina/Chile/Uruguay).
+  PASO 6 — BITÁCORA: registrar el mandatario procesado (ver formato en 05_BITACORA).
+Al terminar el país:
+  PASO 7 — INTEGRAR: correr integrate.py (valida todo y arma base_consolidada.csv).
+
+--------------------------------------------------------------------------------
+7. CONTEO Y ANÁLISIS (evitar doble conteo)
+--------------------------------------------------------------------------------
+  - Nº de VIAJES (salidas)      = count(distinct Journey_ID), filtrando Completed.
+  - Nº de PAÍSES VISITADOS      = count(distinct Destination_Country).
+  - Nº de TRAMOS                = count(filas).
+  - Días en el exterior         = sum(Duration_Days) sobre filas Completed.
+       (ojo: si una gira solapa fechas entre países, los días por país no se solapan;
+        para "días fuera del país de origen" usar la primera/última fecha por Journey_ID).
+  - Peso por región en el tiempo = agrupar por (año de Start_Date, Destination_Region).
+
+--------------------------------------------------------------------------------
+8. SCRIPTS
+--------------------------------------------------------------------------------
+  schema.py                Esquema canónico (columnas, dominios, REGION_MAP, validación).
+  validate.py <csv>        QC de un módulo. Devuelve 0 si OK.
+  build_module_template.py Plantilla de carga por mandatario (con ejemplo).
+  integrate.py             Valida e integra todos los módulos en la base final.
+  add_tema_foro.py         Migración 19->20 col.: clasifica Tema_Foro (match exacto +
+                           patrones) y sanea celdas vacías. Idempotente; reporta sin-match.
+
+--------------------------------------------------------------------------------
+9. DECISIONES DE DISEÑO (registro de criterio)
+--------------------------------------------------------------------------------
+  - Se agregó Journey_ID como columna 1 (no estaba en las instrucciones originales)
+    para poder distinguir "viajes físicos" de "tramos por país" y evitar el doble
+    conteo que provoca la regla "una fila por país de destino".
+  - Duration_Days se define por país (no total de gira), por pedido explícito.
+  - Cancelados sin duración; se excluyen de los promedios.
+  - Regiones rediseñadas respecto del borrador original para que sean mutuamente
+    excluyentes y exhaustivas, con foco en medir variación temporal por región.
+  - Formato CSV minimalista (no Excel con formato) para portabilidad estadística.
+  - 2026-07-06: se agregó Tema_Foro como columna 20 (al FINAL, para retro-
+    compatibilidad de scripts: new_row() completa con NA lo no informado).
+    Solo Multilateral; taxonomía cerrada de 8 categorías; doctrina del
+    "mandato fundacional" (ver 5.7). Reclasificación retroactiva completa
+    de las 252 filas multilaterales de la base (ARG+BRA+CHL parcial).
+  - 2026-07-06: verificación de Sideline_Bilaterals (331 NA) DIFERIDA
+    (decisión del usuario; tarea futura en PENDIENTES_VERIFICACION).
+  - 2026-07-27: se agregó Counterpart_Type como columna 16 (después de
+    Counterpart_Event, antes de Trip_Objective) a pedido del usuario, para
+    distinguir la diplomacia bilateral "clásica" (con el jefe de Estado/
+    Gobierno en funciones) de una modalidad más nueva: visitas a ex-mandatarios/
+    opositores o viajes para recibir premios/distinciones. Solo Bilateral;
+    taxonomía cerrada de 5 categorías + NA (ver 5.8). Migración retroactiva de
+    las ~550 filas Bilateral de la base (default "Jefe de Estado/Gobierno",
+    revisado y corregido fila por fila).
+
+--------------------------------------------------------------------------------
+10. ESTADO Y PRÓXIMOS PASOS
+--------------------------------------------------------------------------------
+  - Andamiaje del flujo: COMPLETO (esta entrega).
+  - Tabla maestra: 193 mandatos de 35 países (en 02_TABLA_MAESTRA).
+  - Trabajo previo (formato viejo de 13-14 col.): conservado en 07_ y pendiente de
+    reconstrucción al nuevo formato MÁS ADELANTE (decisión del usuario).
+  - Próximo: arrancar Argentina, mandatario por mandatario en orden cronológico,
+    empezando por Fernando de la Rúa.
+================================================================================

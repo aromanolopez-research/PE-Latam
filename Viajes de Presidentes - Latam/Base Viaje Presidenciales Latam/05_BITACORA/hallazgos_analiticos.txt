@@ -1,0 +1,467 @@
+================================================================================
+HALLAZGOS ANALÍTICOS — VIAJES PRESIDENCIALES DE AMÉRICA (2000–2026)
+================================================================================
+Documento narrativo complementario a la base de datos. Registra los patrones
+cualitativos, rasgos distintivos y datos de color de la agenda internacional de
+cada mandatario, detectados durante la investigación. Es el "costado interpretativo"
+de la base: la base dice CUÁNTO y ADÓNDE; este documento dice QUÉ SIGNIFICA.
+
+Convención: un bloque por país; dentro, un apartado por mandatario en orden
+cronológico. Cada apartado incluye: perfil viajero, orientación regional dominante,
+rasgos distintivos y datos verificables de interés.
+
+################################################################################
+## ARGENTINA
+################################################################################
+Cobertura: 8 mandatarios (2000–2026). 194 viajes físicos / 227 tramos-país.
+Distribución regional global (tramos completados): Sudamérica 76, Europa 55,
+Norteamérica 47 (de los cuales EE.UU. 39), Asia-Pacífico 16, Medio Oriente 9,
+Caribe 6, África 6, Centroamérica 4.
+Lectura de conjunto: la agenda argentina es primero regional (Sudamérica), con
+Europa como fuerte segundo polo histórico y EE.UU. como destino individual central.
+Asia-Pacífico y Medio Oriente aparecen sobre todo en giras comerciales puntuales.
+
+--------------------------------------------------------------------------------
+FERNANDO DE LA RÚA (UCR, 1999–2001) — 11 viajes físicos
+--------------------------------------------------------------------------------
+- Perfil: agenda breve (registro desde 2000) e intensamente MULTILATERAL. Predominan
+  cumbres y foros por sobre visitas de Estado bilaterales.
+- Orientación: repartida entre cumbres regionales (MERCOSUR, Grupo de Río, Cumbre
+  de las Américas) y foros globales (Davos, Cumbre del Milenio, Iberoamericanas).
+- Rasgo distintivo: su primer viaje fue a Estocolmo (Foro del Holocausto) + Davos,
+  ya mostrando el perfil de foros globales. Su último viaje internacional fue a la
+  Cumbre Iberoamericana de Lima (23-24 nov 2001), donde buscó respaldo regional
+  contra el default semanas antes de caer.
+- Dato de color: en la Asamblea ONU post-11S (nov 2001) mantuvo bilaterales con
+  Bush y Fox buscando apoyo económico de urgencia.
+
+--------------------------------------------------------------------------------
+ADOLFO RODRÍGUEZ SAÁ (PJ interino, dic 2001) — 0 viajes
+--------------------------------------------------------------------------------
+- Perfil: NULO. Mandato de 7 días, íntegramente en Argentina (Buenos Aires/Chapadmalal).
+- Rasgo distintivo: registro NEGATIVO verificado (no es un hueco de datos). Sus
+  contactos con líderes y con el FMI fueron telefónicos. Declaró el default y renunció.
+- Valor metodológico: ejemplo de que "cero viajes" también es un dato.
+
+--------------------------------------------------------------------------------
+EDUARDO DUHALDE (PJ, 2002–2003) — 11 viajes físicos (+1 cancelado)
+--------------------------------------------------------------------------------
+- Perfil: política exterior "de emergencia" post-crisis 2001, marcadamente REGIONAL.
+- Orientación: Brasil dominante (4 viajes a Brasilia). Davos (ene 2003) fue su
+  ÚNICA salida a Europa. Fuerte eje sudamericano (Chile, Ecuador, etc.).
+- Rasgo distintivo: primer presidente que reconstruyó el vínculo con Brasil tras la
+  crisis; acompañó la transición Cardoso→Lula (asunción de Lula 1/1/2003).
+- Dato de color: en Davos 2003 cuestionó el "doble estándar" del FMI en un panel
+  con Soros y Rogoff. Tuvo 1 viaje cancelado (Chile, ago 2002, por urgencias internas).
+
+--------------------------------------------------------------------------------
+NÉSTOR KIRCHNER (FPV-PJ, 2003–2007) — 30 viajes físicos
+--------------------------------------------------------------------------------
+- Perfil: presidente POCO VIAJERO por elección; priorizó la gestión interna y
+  delegó parte de la diplomacia. ~30 viajes en 4,5 años.
+- Orientación: fuertemente REGIONAL (Brasil, Venezuela, Bolivia) + Nueva York/ONU.
+  China (2004) fue su ÚNICA salida extra-regional relevante.
+- Ritmo: pico en 2004 (12 viajes, único año con Memoria oficial de Cancillería);
+  MÍNIMO en 2006 (1 solo viaje: la asunción de Evo Morales).
+- Rasgo distintivo: célebre por sus AUSENCIAS. No fue al funeral de Juan Pablo II
+  (2005), ni a la Cumbre de Cusco (2004), ni a la Iberoamericana de Montevideo (2006):
+  envió reemplazos. La escala en Moscú (2004) para reunirse con Putin se frustró.
+- Dato de color: única visita de Estado del kirchnerismo a Washington (Bush, jul 2003).
+
+--------------------------------------------------------------------------------
+CRISTINA FERNÁNDEZ DE KIRCHNER (FPV-PJ, 2007–2015, dos mandatos) — 63 viajes físicos
+--------------------------------------------------------------------------------
+- Perfil: MUY viajera, la más internacionalista del período kirchnerista. La Nación,
+  vía Boletín Oficial, contabiliza 99 viajes totales (60 en el 1er mandato).
+- Orientación: Nueva York (ONU, todos los años) fue su destino más frecuente,
+  seguido de Brasilia y Caracas (estrecha diplomacia con Chávez/Venezuela).
+- Diversificación: giras de gran alcance a mundos no tradicionales — África del Norte
+  (2008: Argelia, Túnez, Egipto, Libia), el Golfo (2011: Kuwait, Qatar, Turquía),
+  y Asia (2013: Cuba, EAU, Indonesia, Vietnam). Giro fuerte a China y Rusia (visitas
+  de Estado en 2015) con swaps de monedas, centrales nucleares y represas.
+- Ejes temáticos: crisis financiera global y creación del G20 (2008 en adelante);
+  fondos buitre / holdouts (discursos ONU 2012, 2014, 2015); relación con el Papa
+  Francisco desde 2013.
+- Salud y agenda: sus problemas de salud marcaron ausencias. NO fue a varias cumbres
+  tras la operación de hematoma subdural (8/10/2013). IMPORTANTE (corrección de mito):
+  SÍ asistió a la ONU y al G20 de San Petersburgo en septiembre 2013; la operación
+  fue POSTERIOR.
+- Dato de color: en 2009 ordenó a la delegación argentina retirarse del discurso de
+  Ahmadineyad en la ONU. Su hija Florencia la acompañó a Egipto (2008).
+
+--------------------------------------------------------------------------------
+MAURICIO MACRI (PRO/Cambiemos, 2015–2019) — 36 viajes físicos (+2 cancelados)
+--------------------------------------------------------------------------------
+- Perfil: política de "reinserción al mundo" y desendeudamiento; muy activo en foros
+  globales y con fuerte agenda de atracción de inversiones (giras multipaís largas).
+- Orientación: EE.UU. su destino individual más frecuente; fuerte eje europeo
+  (Francia, Alemania, España, Bélgica) y acercamiento a China y Rusia.
+- Rasgo distintivo: primer presidente argentino en Davos desde Duhalde (2003), pero
+  CORRECCIÓN de un mito: solo asistió en 2016 y 2018, no todos los años. Argentina
+  presidió el G20 (cumbre en Buenos Aires 2018, excluida por ser en el país).
+- Logro diplomático: impulsó el acuerdo MERCOSUR-UE, cerrado en junio 2019.
+- Correcciones registradas: NO fue a la asunción de Bolsonaro (1/1/2019); lo visitó
+  el 16/1. NO fue a las Iberoamericanas de 2016 y 2018 ni a la ONU 2017 (fue Michetti).
+- Cancelados: gira Francia-Bélgica (abr 2019, por la crisis cambiaria/inflación) y
+  APEC+COP25 en Chile (nov 2019, canceladas por el estallido social chileno).
+
+--------------------------------------------------------------------------------
+ALBERTO FERNÁNDEZ (Frente de Todos-PJ, 2019–2023) — 19 viajes físicos (+1 cancelado)
+--------------------------------------------------------------------------------
+- Perfil: agenda partida en dos por la PANDEMIA. Arranque internacional intenso,
+  parate casi total, y reactivación gradual.
+- El dato más elocuente de la base: entre marzo y noviembre de 2020 NO hay ningún
+  viaje. El 15/3/2020 cerró fronteras; retomó recién el 7/11/2020 (asunción de Arce
+  en Bolivia). El hueco es visible en los datos.
+- Orientación: fuerte eje europeo por la renegociación de la DEUDA (FMI y Club de
+  París: giras 2021 y 2022 a Portugal, España, Francia, Italia, Alemania). Giro a
+  Rusia y China (feb 2022, adhesión a la Franja y la Ruta).
+- Rasgo distintivo: como presidente pro tempore de la CELAC (2022-2023) tuvo agenda
+  regional intensa. Su primer viaje fue a Israel (Foro del Holocausto, ene 2020).
+- Gesto político: NO asistió a la Cumbre de las Américas de Los Ángeles (2022) en
+  protesta por la exclusión de Cuba, Venezuela y Nicaragua; envió al canciller.
+
+--------------------------------------------------------------------------------
+JAVIER MILEI (LLA, 2023–, en curso) — 23 viajes físicos (a jun 2026)
+--------------------------------------------------------------------------------
+- Perfil: altísima frecuencia de viajes en proporción al tiempo de mandato, con un
+  patrón IDEOLÓGICO inédito: prioriza vínculos afines por sobre las cumbres regionales.
+- Orientación: EE.UU. destino dominante y recurrente (CPAC, Mar-a-Lago con Trump,
+  reuniones con Musk, ONU). Israel (2 veces) y el Vaticano como ejes simbólicos.
+  Presencia libertaria/conservadora: Davos (3 años seguidos), CPAC (EE.UU. y Brasil),
+  acto de Vox en Madrid.
+- Rasgo distintivo: subordina las cumbres regionales tradicionales (MERCOSUR, CELAC)
+  a la afinidad ideológica; tensión con Lula. Primer líder extranjero en visitar a
+  Trump tras su elección (Mar-a-Lago, nov 2024) y en su investidura (ene 2025).
+- Datos de color: entregó una "motosierra" simbólica a Musk en la CPAC 2025; su acto
+  con Vox (may 2024) desató una crisis diplomática con España. Vínculo con el Vaticano
+  en transición: canonización de Mama Antula (2024), funeral de Francisco (abr 2025),
+  asunción de León XIV (may 2025).
+
+--------------------------------------------------------------------------------
+NOTAS TRANSVERSALES DE ARGENTINA
+--------------------------------------------------------------------------------
+- Contraste de perfiles viajeros: el eje va de Néstor Kirchner (austero, regional,
+  hogareño) y De la Rúa (breve) a CFK y Macri (intensos, globales). Milei marca un
+  extremo nuevo: mucha frecuencia con lógica ideológica.
+- EE.UU. como constante: 39 tramos a lo largo de todo el período, con picos en Macri
+  y Milei y un uso más "multilateral" (ONU) en el kirchnerismo.
+- La pandemia dejó una huella medible: el vacío 2020 en Alberto Fernández.
+- Correcciones de mitos registradas: Davos de Macri (solo 2016/2018); CFK en la ONU
+  2013 (sí asistió); visita de Estado de CFK a Rusia (2008, no 2010).
+
+################################################################################
+## BRASIL
+################################################################################
+Cobertura en curso. Fuente primaria: Biblioteca da Presidência da República + Itamaraty.
+
+--------------------------------------------------------------------------------
+FERNANDO HENRIQUE CARDOSO (PSDB, 1995–2003; ventana 2000–2003) — 23 viajes físicos
+--------------------------------------------------------------------------------
+- Perfil: MUY viajero y multilateralista. Sociólogo de prestigio internacional y
+  ex canciller, hizo de la "diplomacia presidencial" una marca de gobierno. Solo en
+  la ventana 2000-2002 (últimos 3 años) hizo ~23 salidas; en total del mandato llegó
+  a 99 viajes al exterior (su última salida, a NY en dic 2002, fue la nº99).
+- Orientación: fuertemente EUROPEA y global (Portugal, Francia, Alemania, España,
+  Suecia, Polonia, Eslovaquia, Rusia) combinada con el eje sudamericano (MERCOSUR,
+  Grupo de Río, asunciones de Lagos, Fox, Toledo) y foros globales (Cumbre del
+  Milenio, Monterrey, Rio+10 en Johannesburgo).
+- Rasgo distintivo: pilares de multilateralismo, universalismo e integración
+  regional; buscó posicionar a Brasil como "global player". Impulsó la I Cumbre
+  Sudamericana (Brasilia 2000, no computada por ser en Brasil).
+- Quiebre: la crisis energética (apagão) de 2001 lo obligó a cancelar viajes al
+  exterior ("refém do apagão").
+- Dato de color: en la Cúpula do Rio de Cartagena (2000) "dançou porro" en la fiesta
+  de la cumbre (Folha). En enero 2002 su viaje a Rusia fue registrado como su 85ª
+  salida al exterior, medida de su intensa agenda diplomática.
+
+--------------------------------------------------------------------------------
+LUIZ INÁCIO LULA DA SILVA (PT, 2003–2011, dos mandatos) — 73 viajes físicos cargados
+(de ~139 giras oficiales; núcleo verificado)
+--------------------------------------------------------------------------------
+- Perfil: el presidente MÁS VIAJERO de la historia brasileña hasta entonces: 139
+  giras a ~80 países (~250 visitas-país) y ~490 días fuera en 8 años (216 el 1er
+  mandato, 276 el 2do; 2009 récord con 92 días). La "diplomacia presidencial" fue
+  el instrumento central de su política exterior.
+- Orientación: activismo SUR-SUR sistemático. África como marca registrada (~25
+  países visitados; giras multipaís en 2003, 2004, 2005, 2007 y 2010), mundo árabe
+  (gira 2003 que sembró la cumbre ASPA), eje IBSA (India-Brasil-Sudáfrica) y BRIC
+  (fundador en Ekaterimburgo 2009). En paralelo, plena inserción en los foros de
+  poder global: G8+5 recurrente (Evian, San Petersburgo, Heiligendamm, Toyako,
+  L'Aquila) y G20 financiero desde su creación (Washington 2008).
+- Sudamérica: Argentina fue su destino más visitado; motor de la Comunidad
+  Sudamericana (Cusco 2004) y UNASUR; bombero regional (crisis boliviana 2008,
+  cumbre extraordinaria de Santiago).
+- Hitos únicos: mediación nuclear con Irán junto a Turquía (Declaración de Teherán,
+  17/5/2010); primera visita de un presidente brasileño a Israel (Knesset, mar 2010);
+  la elección olímpica de Río 2016 ganada en Copenhague (oct 2009); el "este é o cara"
+  de Gordon Brown en el G20 de Londres (abr 2009).
+- Quiebres: canceló Davos 2010 (motivo con versiones discrepantes en las fuentes) y
+  el G20 de Toronto 2010 por las inundaciones de Pernambuco/Alagoas (envió a Mantega).
+  NO asistió a la 65ª AGNU (2010), delegó en Amorim: inusual para quien abrió la
+  Asamblea casi todos los años.
+- Dato de color: en 2010 encadenó Moscú → Teherán → Madrid en una sola gira de
+  mediación y cumbres; y cerró el mandato despidiéndose en la Iberoamericana de Mar
+  del Plata con homenaje a Néstor Kirchner.
+
+--------------------------------------------------------------------------------
+DILMA ROUSSEFF (PT, 2011 - suspensión 12/5/2016) — 40 viajes físicos cargados
+(de ~60 oficiales; núcleo verificado)
+--------------------------------------------------------------------------------
+- Perfil: la "retracción de la diplomacia presidencial". Viajó muchísimo menos que
+  Lula (estudios académicos miden -31% a -55% según el indicador): priorizó la agenda
+  interna, delegó en el Itamaraty y redujo las giras bilaterales; su agenda externa
+  quedó anclada en los foros fijos (BRICS, G20, AGNU, cumbres regionales).
+- Hito de género: primera mujer en abrir el debate de la Asamblea General de la ONU
+  (21/9/2011), tradición que Brasil inaugura cada año.
+- El conflicto que definió su política exterior: el espionaje de la NSA (caso
+  Snowden) sobre su teléfono y Petrobras. Canceló la visita de Estado a Washington
+  prevista para el 23/10/2013 —probablemente el desplante diplomático más famoso de
+  la historia reciente brasileña; era la única visita de Estado ofrecida por Obama
+  ese año— y pronunció el discurso de apertura de la ONU 2013 como denuncia. La
+  "reparación" llegó en junio-julio 2015: NY + Casa Blanca + Silicon Valley.
+- Toque personal: la visita a Bulgaria (oct 2011), tierra de su padre Pedro Rousseff,
+  con parada en Gabrovo.
+- El final: el impeachment paralizó su agenda externa. Su último viaje fue a Nueva
+  York el 22/4/2016 a firmar el Acuerdo de París, apenas cinco días después de que
+  Diputados aprobara abrir el juicio político; el 12/5 quedó suspendida.
+- Dato de color: en 2014 combinó la inauguración del puerto cubano de Mariel
+  (financiado por el BNDES) con la cumbre CELAC de La Habana, símbolo de la
+  proyección económica regional del ciclo PT.
+
+--------------------------------------------------------------------------------
+MICHEL TEMER (MDB, 12/5/2016 - 1/1/2019) — 16 viajes físicos cargados (de 21 oficiales)
+--------------------------------------------------------------------------------
+- Perfil: el menos viajero del ciclo brasileño post-2000 en términos absolutos:
+  21 desplazamientos en ~2,6 años, con agenda pragmático-comercial ("diplomacia dos
+  resultados") orientada a recuperar la confianza de los inversores tras el
+  impeachment y la recesión.
+- Dato negativo valioso: CERO viajes internacionales durante sus 111 días como
+  presidente interino (12/5 - 31/8/2016); no salió del país hasta ser efectivizado.
+- Su agenda externa se redujo casi por completo a los foros fijos: las tres AGNU
+  (que abrió cada año, la primera defendiendo la legalidad del impeachment), los
+  tres G20 (Hangzhou, Hamburgo, Buenos Aires) y los tres BRICS (Goa, Xiamen,
+  Johannesburgo) de su período. Bilaterales contadas: Argentina/Macri, Rusia/Putin,
+  Japón, China (visita de Estado), Noruega.
+- Simbolismo de apertura y cierre: debutó en el G20 de Hangzhou a los pocos días de
+  la destitución de Dilma (buscando legitimación externa) y cerró en la cumbre del
+  MERCOSUR de Montevideo (dic 2018), ya con Bolsonaro electo.
+- Tensiones: la visita a Noruega (jun 2017) ocurrió en plena reducción noruega del
+  Fondo Amazonía por la deforestación; las crisis internas (denuncias de 2017, huelga
+  de camioneros de 2018) mantuvieron su agenda exterior al mínimo.
+- Ausencias verificadas: la Iberoamericana de Cartagena 2016 y Davos 2017.
+
+--------------------------------------------------------------------------------
+JAIR BOLSONARO (PSL/PL, 2019-2023) — 22 viajes físicos cargados (de ~25 oficiales)
+--------------------------------------------------------------------------------
+- Perfil: agenda exterior IDEOLOGIZADA y de bajo volumen, deprimida además por la
+  pandemia. EE.UU. fue su destino dominante (Trump: Casa Blanca 2019, Mar-a-Lago
+  2020; Biden: una única bilateral, en la Cumbre de las Américas 2022). Ejes
+  afines: Israel (2019), el Golfo (dos giras), Hungría/Orbán y la Rusia de Putin.
+- Datos negativos elocuentes: CERO viajes a África y Centroamérica en todo el
+  mandato (contraste extremo con Lula); una sola visita a la Argentina (a Macri,
+  jun-2019 y la cumbre de Santa Fe) y nunca al gobierno de Alberto Fernández;
+  Brasil se retiró de la CELAC (2020). No fue a la COP26, ni al G20 de Bali (tras
+  perder la elección), ni a la posse de Boric.
+- El giro pragmático: pese a la retórica de campaña contra China, visitó a Xi
+  Jinping en octubre de 2019 y mantuvo la relación comercial.
+- La pandemia partió el mandato: el viaje a Mar-a-Lago (mar-2020) terminó con la
+  comitiva contagiada (el "brote de Mar-a-Lago") y abrió un parate de ~14 meses
+  sin salidas, hasta la posse de Lasso (may-2021).
+- Aislamiento creciente: en el G20 de Roma (2021) casi no participó de la agenda
+  y visitó Anguillara Veneta (pueblo de sus ancestros); en NY 2021 protagonizó el
+  episodio de la pizza en la vereda por no estar vacunado.
+- Final atípico único en la serie: funeral de Isabel II y última AGNU en plena
+  campaña (sep-2022); tras la derrota, voló a Orlando el 30/12/2022, dos días antes
+  del fin del mandato, para no traspasar la banda presidencial a Lula.
+- El contraste Rusia: visitó a Putin el 15-16/2/2022, ocho días antes de la
+  invasión a Ucrania, declarándose "solidario con Rusia" — probablemente el viaje
+  más criticado de su mandato.
+
+--------------------------------------------------------------------------------
+LUIZ INÁCIO LULA DA SILVA — TERCER MANDATO (PT, 2023 - en curso) — 28 viajes físicos
+cargados (de ~46 oficiales; núcleo verificado, mandato en curso)
+--------------------------------------------------------------------------------
+- Perfil: el regreso de la diplomacia presidencial intensa bajo el lema "Brasil está
+  de volta". Tras el repliegue de Bolsonaro, Lula reconstruyó la agenda global en
+  tiempo récord: solo en 2023 encadenó más de 20 giras (Biden, Xi con visita de
+  Estado, coronación de Carlos III, G7 de Hiroshima como invitado, Papa Francisco,
+  CELAC-UE en Bruselas, BRICS ampliado, G20 de Nueva Delhi, COP28).
+- Orientación: recuperó los ejes de sus primeros mandatos —Sur Global, África,
+  BRICS, integración sudamericana (regreso a la CELAC)— y sumó un rol de mediador
+  aspiracional en Ucrania (el "club de la paz" con China) que no prosperó.
+- Choques y polémicas: la comparación entre Gaza y el Holocausto en la Unión
+  Africana (feb 2024) lo hizo declarar persona non grata en Israel; el desfile del
+  Día de la Victoria en Moscú junto a Putin (may 2025) y la relación tensa con Milei
+  y con Trump (aranceles del 50%, distendidos en la reunión de Kuala Lumpur, oct 2025)
+  marcaron el período.
+- Salud como límite: una caída doméstica con traumatismo craneal (oct 2024) lo obligó
+  a cancelar la cumbre BRICS de Kazán (participó por video) y derivó en una cirugía de
+  emergencia en diciembre; también una cirugía de cadera condicionó fines de 2023.
+- Continuidad histórica: al igual que en 2003-2010, Argentina y el vecindario siguen
+  siendo destinos frecuentes, aunque la relación con Milei introdujo una tensión
+  inédita en el eje bilateral más importante de Brasil.
+
+################################################################################
+## SÍNTESIS COMPARADA BRASIL (2000-2026) — 202 viajes físicos, 7 mandatos
+################################################################################
+- Distribución regional (tramos completados): Europa 65, Sudamérica 61, Norteamérica
+  46 (EE.UU. 38), Asia-Pacífico 31, África 31, Medio Oriente 21, Caribe 6,
+  Centroamérica 5. A diferencia de Argentina (donde Sudamérica encabeza), en Brasil
+  Europa y Sudamérica van casi parejas, y África pesa muchísimo más (31 vs 6),
+  reflejo del ciclo Sur-Sur de Lula.
+- Contraste de perfiles: el eje va de los presidentes hiperviajeros y globalistas
+  (Lula, con 101 viajes físicos sumando sus tres mandatos; Cardoso) a los repliegues
+  deliberados o forzados (Dilma por decisión y crisis; Temer, el más austero; Bolsonaro,
+  ideologizado y frenado por la pandemia). Lula concentra la mitad de todos los viajes
+  físicos del país en el período.
+- EE.UU. es el destino individual número uno también en Brasil (38 tramos), igual que
+  en Argentina, pero con un uso más multilateral (AGNU, G20) que bilateral.
+
+################################################################################
+## CHILE
+################################################################################
+Cobertura en curso. Método: modo research (búsqueda profunda) desde el inicio, para
+capturar viajes menores. Fuente primaria: Prensa Presidencia (Wayback), MINREL, ARLE-UDP.
+
+--------------------------------------------------------------------------------
+RICARDO LAGOS (PPD/PS, 2000-2006) — 27 viajes físicos cargados (de ~50-70 estimados)
+--------------------------------------------------------------------------------
+- Perfil: presidente librecambista por excelencia y el más orientado a Asia-Pacífico
+  de la serie chilena. Su política exterior giró en torno a los tratados de libre
+  comercio: firmó con la Unión Europea (2002), Estados Unidos (2003), Corea del Sur,
+  el P4 y China (firmado al margen de la APEC de Busan, 2005, siendo Chile el primer
+  país sudamericano en lograrlo).
+- Orientación: doble eje Europa-Asia sostenido por la agenda comercial, más el
+  circuito regional (Cumbres de las Américas, Iberoamericanas, Grupo de Río). La APEC
+  fue su foro distintivo: asistió a Brunei, Los Cabos, Bangkok y Busan (la de Santiago
+  2004 no computa por ser en Chile).
+- Rasgo distintivo: Chile como "país puente" y su papel en el Consejo de Seguridad de
+  la ONU, desde donde se opuso a la guerra de Irak en 2003 —posición que lo enfrentó
+  a Washington aun mientras negociaba el TLC—.
+- Sobre la completitud: es el primer caso trabajado íntegramente con modo research.
+  La búsqueda profunda elevó la reconstrucción de ~24 a más de 40 viajes verificables,
+  recuperando visitas menores (la gira europea de 2001, el tramo Bélgica/Reino Unido
+  interrumpido por el 11-S, asunciones regionales) que las búsquedas superficiales
+  perdían. Aun así, el período 2000-2006 arrastra un límite de digitalización: buena
+  parte de la fuente oficial solo sobrevive en el Wayback Machine.
+
+--------------------------------------------------------------------------------
+MICHELLE BACHELET — PRIMER MANDATO (PS, 2006-2010) — 26 viajes físicos cargados
+(de ~35-45 estimados; núcleo verificado)
+--------------------------------------------------------------------------------
+- Perfil: primera mujer presidenta de Chile; su primer mandato dio continuidad a la
+  matriz librecambista y de Asia-Pacífico de Lagos (asistió a las cuatro APEC del
+  período: Hanoi, Sídney, Lima y Singapur) y le sumó un fuerte perfil multilateral y
+  regional.
+- Hito institucional: fue la primera presidenta pro tempore de UNASUR, tras firmar el
+  tratado constitutivo en Brasilia en mayo de 2008; el bloque nació con fuerte impronta
+  chilena en su conducción inicial.
+- Hito diplomático: la visita a Cuba de febrero de 2009 la convirtió en la primera
+  jefa de Estado chilena en pisar la isla desde Salvador Allende, un gesto cargado de
+  simbolismo en la relación con la "marea rosa" regional.
+- Continuidad hemisférica: mantuvo el vínculo con Washington en los dos signos
+  (reunión con Bush en 2006 y con Obama en 2009), sin abandonar la cercanía con los
+  gobiernos de izquierda sudamericanos.
+- El cierre partido por la catástrofe: su último viaje completado fue la Cumbre de la
+  Unidad de América Latina en Cancún (22-23 de febrero de 2010); apenas cuatro días
+  después, el terremoto del 27F la obligó a cancelar el viaje a la asunción de Mujica
+  en Uruguay y a cerrar el mandato gestionando la emergencia.
+
+--------------------------------------------------------------------------------
+SEBASTIÁN PIÑERA — PRIMER MANDATO (RN/centroderecha, 2010-2014) — 23 viajes físicos
+cargados (de ~31 estimados; núcleo verificado)
+--------------------------------------------------------------------------------
+- Perfil: primer presidente de derecha electo democráticamente desde 1958, muy
+  viajero y con una política exterior explícitamente pro-comercio. Asumió tras el
+  terremoto del 27F y proyectó internacionalmente el rescate de los 33 mineros
+  (octubre 2010), que capitalizó en su gira europea de ese mes.
+- Hito estructural: la creación de la Alianza del Pacífico (Lima, abril 2011, con
+  México, Perú y Colombia) fue el sello de su política exterior: un bloque de
+  integración profunda y de libre comercio, de signo pro-mercado, que operó como
+  contrapeso de centroderecha al Mercosur y al ALBA.
+- Continuidad de la matriz Asia-Pacífico: como Lagos y Bachelet, asistió a las cuatro
+  APEC de su período (Yokohama, Honolulu, Vladivostok, Bali), confirmando que la
+  inserción en el Pacífico es una política de Estado chilena que trasciende signos.
+- Pragmatismo regional: mantuvo trato con la "marea rosa" (bilaterales con CFK, Lula,
+  Mujica) sin compartir su signo, y asistió a los funerales de Néstor Kirchner y de
+  Hugo Chávez y a asunciones de distinto color político (Humala, Cartes).
+- Nota de método: en este mandato se detectó y corrigió un error de fecha —un viaje a
+  la Casa Blanca atribuido a marzo de 2011 (cuando en realidad fue Obama quien visitó
+  Chile) que correspondía en verdad al 4 de junio de 2013—, un recordatorio del valor
+  del control cruzado incluso sobre datos aparentemente firmes.
+
+--------------------------------------------------------------------------------
+MICHELLE BACHELET — SEGUNDO MANDATO (Nueva Mayoría/PS, 2014-2018) — 24 viajes físicos
+cargados (de ~29-31 estimados; núcleo verificado)
+--------------------------------------------------------------------------------
+- Perfil: mandato menos viajero que el primero, con la energía puesta en las reformas
+  internas (educacional, tributaria, proceso constitucional). La agenda externa se
+  concentró en los circuitos fijos heredados: Alianza del Pacífico (que Piñera creó y
+  ella continuó sin fisuras: Punta Mita, Paracas, Cali) y APEC (Manila, Lima, Da Nang).
+- Perfil climático y multilateral: su sello distintivo del período fue la agenda
+  global "blanda": la COP21 que adoptó el Acuerdo de París (2015), la Cumbre de la
+  Agenda 2030 (2015) y el Foro de la Franja y la Ruta en Beijing (2017), donde fue la
+  única presidenta sudamericana invitada.
+- Continuidad de Estado confirmada: con Bachelet II ya son cuatro mandatos chilenos
+  consecutivos asistiendo a prácticamente todas las APEC y cumbres de la Alianza del
+  Pacífico: la inserción Asia-Pacífico y el regionalismo abierto trascienden el signo
+  político del gobierno de turno, un contraste marcado con las oscilaciones argentinas
+  y brasileñas.
+- Simetría personal: cerró su segundo mandato como cerró temáticamente el primero, en
+  Cuba (visita a Raúl Castro, enero 2018), la isla que ella misma había reabierto para
+  los presidentes chilenos en 2009.
+- Nota de método: dos giras canceladas mencionadas por el research quedaron SIN cargar
+  por no tener destino ni motivo confirmados —aplicación estricta de la regla
+  anti-alucinación—; están en pendientes para verificación.
+
+[Documento iniciado el 2026-07-01. Se ampliará con Brasil, Chile, Uruguay y el resto
+de América a medida que se procesen los países.]
+================================================================================
+
+=== CHILE — PINERA II (2026-07-07) ===
+- Mandato partido en dos por shocks: arranque hiperactivo (11 de 15 salidas entre abr-2018 y sep-2019: Cumbre de las Americas, dos G20 como invitado, APEC, PRIMER mandatario chileno invitado al G7, visita de Estado a China como unico latinoamericano en Franja y la Ruta II, Cucuta) y apagon de ~18 meses (mar-2020 a ago-2021) por estallido social + pandemia, el hiato mas largo de toda la serie chilena.
+- Primer bloque chileno con mayoria BILATERAL (20 bi vs 14 multi en filas): consistente con la caida de cumbres presenciales en pandemia. Dato relevante para el pendiente del sesgo de deteccion: la proporcion multilateral chilena (~69% pre-SP2) baja al incorporar este mandato.
+- El rebrote final (sep-2021 a ene-2022) tiene perfil de gira de despedida con agenda sanitaria (donacion de vacunas a Paraguay, MOU salud con Uruguay) y climatica (transicion COP25->COP26 con Johnson).
+- Paradoja climatica: lidero la agenda pre-COP25 (Cumbre de Accion Climatica NY 2019) pero no asistio ni a la COP25 reubicada en Madrid ni a la COP26 de Glasgow (ambas cargadas como canceladas; la presidencia de la COP la entrego la ministra Schmidt).
+- Cucuta (feb-2019) como apuesta regional fallida: operativo humanitario multilateral sin cumbre formal (Multilateral/Working Visit, caso atipico en el esquema).
+
+=== CHILE — BORIC (2026-07-07) ===
+- Presidente mas viajero de la serie chilena post-pandemia: 31 salidas fisicas en 4 anios (vs 15 de Pinera II), con AGNU los cuatro anios, APEC x3, G20 y BRICS como invitado y COP30. La densidad de asunciones regionales (7: Petro, Lula, Penia, Milei, Arevalo, Orsi, Paz) confirma el eje latinoamericanista.
+- Termometro Argentina: de la calidez con Fernandez (primer destino, tradicion) al congelamiento con Milei (ni una bilateral tras la asuncion de dic-2023; cruce tenso en La Paz nov-2025). Brasil-Lula reemplaza a Argentina como socio regional dominante: 5 viajes (asuncion, cumbre sudamericana, Estado, BRICS, COP30).
+- Apertura asiatica sostenida: China x2 (Estado 2023 con Franja y la Ruta III; trabajo 2025 con Foro China-CELAC) e India (Estado 2025, negociaciones CEPA, primera visita chilena en 16 anios).
+- Paradoja climatico-oceanica: perfil discursivo verde-oceanico fuerte, pero se ausento de COP28 (cancelado), Conferencia de Oceanos de Niza y CELAC-UE Santa Marta; si asistio a COP30 Belem. Patron de delegacion ministerial en foros tematicos, presencia personal en foros de poder (G20, BRICS, APEC).
+- 2026 (ene-11/mar): sin viajes detectados en el tramo final (transicion electoral) — inusual: Lagos, Bachelet y Pinera viajaron hasta el final de sus mandatos. Verificar con decretos de ausencia.
+- Sesgo de deteccion (seguimiento): con Boric cargado, la proporcion multilateral chilena se modera respecto del 69% marcado como alerta (25 multi vs 15 bi en Boric ~62%; modulo completo a recalcular al cierre).
+
+=== KAST (primeros meses) + MILEI/LULA3 2026 (2026-07-07) ===
+- Kast replico la tradicion chilena del primer viaje a Argentina (6/4/2026) pero con signo ideologico invertido respecto de Boric: afinidad con Milei, agenda de seguridad/migracion e incluso apoyo explicito a la soberania argentina sobre Malvinas — un giro notable para la diplomacia chilena. Ritmo inicial moderado y 100% sudamericano (3 paises en ~4 meses), coherente con su autodefinido "gobierno de emergencia".
+- Quiebre en el patron de Milei: tras un ritmo record (17 viajes a EEUU desde dic-2023 segun el relevamiento de P. Salinas citado por Perfil), la ventana del corte muestra DOS cancelaciones consecutivas (MERCOSUR Asuncion y 4 de julio con Trump) por crisis de gabinete — primera vez que la politica domestica frena su hiperactividad internacional.
+- Lula en anio electoral: agenda reducida y de sesgo economico (Hannover Messe, MERCOSUR-FOCEM) mas una bilateral defensiva con Trump por el tarifaço (Washington, mayo). El calendario externo se cierra el 4/7 por la restriccion electoral: ultima salida el 30/6 (Asuncion).
+- La LXVIII Cumbre del MERCOSUR (Asuncion, 30/6/2026) como foto de epoca: asistieron Lula y Kast (con bilateral entre ambos), falto Milei (cancelo). El eje regional pasa por Brasilia y ahora tambien por Santiago, no por Buenos Aires.
+
+=== HALLAZGO METODOLOGICO — LA VERIFICACION DETECTA ERRORES DE DATOS (2026-07-08) ===
+- La campaña de verificacion de fuentes no solo agrego URLs: destapo 5 errores de integridad que estaban en la base desde su carga (1 viaje inexistente-Milei Asuncion; 1 viaje que no ocurrio-Bachelet CELAC Punta Cana; 3 errores de anio-Bachelet Francia/Indonesia/Peru). Todos en tramos que originalmente estaban como "Search Query" sin URL. Leccion: las filas sin fuente verificable concentran no solo baja confiabilidad sino tambien mayor tasa de error factico. Prioridad de la campaña sobre las 369 Solo-Query restantes: no es solo cosmetica, es control de calidad de datos.
+- Patron de error: 3 de los 4 errores de fecha son de Bachelet y son confusiones de anio con viajes similares (visitas de Estado a Europa/Asia que se repiten). El cuarto (Milei) es una confusion evento-destino (CPAC Brasil mal geolocalizada en Paraguay por coincidencia temporal con la Cumbre Mercosur que Milei desairo).
+
+=== HALLAZGOS ANALITICOS — MODULO URUGUAY (2026-07-08) ===
+- PERFIL PAIS: Uruguay es el pais foco de menor huella viajera de la base (133 viajes vs Argentina 198, Brasil 206, Chile 152), pero con altisima densidad regional. Refleja estructuralmente su tamanio y una diplomacia presidencial mas selectiva.
+- RANKING DE VIAJEROS URUGUAYOS (por giras): Lacalle Pou 30 > Vazquez I 24 > Mujica 23 > Batlle 19 > Vazquez II 14 > Orsi 18 (mandato en curso, parcial). El mas viajero es el unico presidente NO frenteamplista del periodo post-2005.
+- LA PARADOJA MUJICA: es el hallazgo mas contraintuitivo. Icono global (Rio+20, 'Soy del Sur'), pero su proyeccion fue DISCURSIVA, no itinerante: 65 salidas del pais concentradas en vecinos y apenas 4 giras extra-regionales en 5 anios. Su influencia se ejercio por el peso simbolico de pocas apariciones. Ademas cancelo 2 viajes por salud.
+- EFECTO PASTERAS (Vazquez I): un conflicto BILATERAL con Argentina (Botnia) produjo una reorientacion GLOBAL de la politica exterior: acercamiento a Bush/EEUU (mayo 2006) y diversificacion a Asia/Medio Oriente. Caso de manual de como una disputa vecinal empuja a un pais pequenio a buscar contrapesos extra-regionales.
+- EFECTO PANDEMIA (Lacalle Pou): vacio total de ~11 meses (asumio 1-mar-2020, primer viaje 3-feb-2021). Es el corte mas nitido de toda la base para medir el impacto del COVID sobre la diplomacia presidencial.
+- ALTERNANCIA IDEOLOGICA Y DESTINOS: Lacalle Pou giro hacia Asia-Pacifico, Europa y Oriente Medio (agenda comercial, TLC con China, flexibilizacion del MERCOSUR); Orsi retomo el patron frenteamplista regional/ideologico (CELAC, MERCOSUR, BRICS, cumbres progresistas) pero CONSERVO el pragmatismo comercial (Panama como primer destino, Visita de Estado a China, firma del acuerdo MERCOSUR-UE). Sugiere que la apertura comercial dejo de ser una politica de partido y paso a ser politica de Estado.
+- CONSTANTE INSTITUCIONAL: Uruguay es el unico de los 4 paises donde cada salida presidencial deja rastro documental obligatorio (venia parlamentaria del art.170). Es la mejor fuente estructural de la base, aunque su digitalizacion es parcial y quedo subexplotada.
+
+=== HALLAZGO — DOS MODELOS DIPLOMATICOS ANTAGONICOS (nov-2025 a mar-2026) ===
+- MILEI: 6 de sus 9 viajes del periodo fueron a EEUU (4 desplazamientos distintos en 5 meses), mas una red de derecha regional (Bolivia, Chile/Kast, Cumbre Escudo de las Americas). Politica exterior subordinada al alineamiento con Trump.
+- LULA: apuesta al Sur Global (gira asiatica de 8 dias por India, Corea del Sur y Emiratos; visita a Mozambique) y a foros multilaterales (G20, CELAC, CAF). Diversificacion de socios frente a la presion arancelaria de Washington, con ritmo reducido por ser anio electoral.
+- DESENCUENTRO BILATERAL DOCUMENTADO: frio saludo en la cumbre MERCOSUR de Foz de Iguazu (dic-2025) sin bilateral; ausencia de Lula en la firma MERCOSUR-UE que Milei si celebro (ene-2026); ausencias mutuas en asunciones y cumbres de signo ideologico contrario. Relacion rota entre las dos mayores economias del Cono Sur.
+- VALOR DE LAS AUSENCIAS CONFIRMADAS: se documentaron 6 ausencias de alto valor analitico (NO son filas de la base, son metadato). MILEI no fue al G20 de Johannesburgo (envio al canciller Quirno y al sherpa Pinedo, alineandose con el boicot de Trump), ni a la COP30 de Belem (delegacion minima de Cancilleria), ni a la Cumbre CELAC-UE de Santa Marta. LULA no fue a la firma MERCOSUR-UE de Asuncion (unico jefe de Estado pleno ausente; delego en el canciller Mauro Vieira por malestar con la demora del acuerdo), ni a Davos (priorizo el Foro CAF de Panama), ni a la asuncion de Kast en Chile (porque Kast invito al opositor Flavio Bolsonaro). Documentar ausencias evita futuros falsos positivos y revela patrones diplomaticos.
+- DATO DE CONTEXTO: la X Cumbre CELAC de Bogota (21-mar-2026) reunio solo a 5 de los 33 jefes de Estado, senial de debilitamiento del foro.
+
+=== HALLAZGO METODOLOGICO — EL VALOR DE LA FUENTE OFICIAL EXHAUSTIVA (2026-07-08) ===
+- Las dos tandas de Lula (70 tramos) dieron resultados opuestos y muy instructivos. TANDA 1 (2003-2007): 34/35 verificados, 1 sola correccion menor de fecha, 0 viajes inexistentes. TANDA 2 (2008-2010): 32 verificados pero DOS viajes que la base daba por realizados y no ocurrieron (Davos 2010 y G20 Toronto 2010), mas un tramo que mezclaba dos ciudades.
+- La diferencia no esta en la calidad del research original sino en el TIPO DE EVENTO: los viajes fantasma de la tanda 2 son casos donde el presidente estaba ANUNCIADO y CONFIRMADO en un evento de alto perfil (recibir un premio en Davos; una cumbre del G20) y cancelo a ultimo momento. Las fuentes secundarias siguen registrando el anuncio, no la cancelacion.
+- LECCION OPERATIVA: los eventos multilaterales de agenda fija (cumbres periodicas, premios, foros) son los MAS PROPENSOS a generar viajes fantasma en una base construida desde prensa. Es exactamente donde una fuente oficial EXHAUSTIVA (que lista lo que efectivamente ocurrio, no lo anunciado) tiene mas valor: la ausencia de una entrada en la lista de viajes de la Biblioteca da Presidencia fue lo que delato ambos casos.
+- Corolario para el diseño de futuras verificaciones: priorizar el cruce contra listados oficiales completos por sobre la busqueda evento por evento, porque el listado permite razonar por AUSENCIA (si el viaje no esta, no ocurrio), algo imposible con fuentes fragmentarias.

@@ -1,0 +1,48 @@
+Act as a senior lead researcher in International Relations. Your task is to exhaustively extract, structure, and document every official international trip planned or executed by President [President Name] of [Country] strictly during their mandate, from 2000-01-01 to 2026-06-28.
+
+FOCUS COUNTRIES: Argentina, Brazil, Chile, Uruguay (These are your primary priority).
+
+CRITICAL METHODOLOGICAL RULES:
+1. EXHAUSTIVENESS: Include every trip (completed or formally planned/canceled). Repeated visits are mandatory data points.
+2. STRICT EXCLUSIONS: 
+   - DO NOT include trips made before the official inauguration day (e.g., as candidate/president-elect).
+   - DO NOT include trips made after the official end of the mandate (e.g., as former president).
+   - DO NOT include transit stops for refueling (non-diplomatic).
+3. CANCELED TRIPS: Must be included. State the original objective and the reason for cancellation in the "Trip_Objective" column.
+4. TRANSPARENCY & REPLICABILITY: If a source is not official, use Wayback Machine links. If no link exists, write "Search Query: [exact terms used]". NEVER hallucinate URLs.
+
+CONCEPTUAL DEFINITIONS (Must be followed strictly for classification):
+- STATE VISIT: Highest diplomatic protocol. Formally hosted by a Head of State, includes state banquets/honors.
+- WORKING/OFFICIAL VISIT: Bilateral visit focused on a specific agenda (trade, security, etc.) with less formal protocol than a State Visit.
+- REGIONAL SUMMIT: Multilateral meeting of a geographically bounded organization (e.g., MERCOSUR, CELAC, OAS, UNASUR).
+- GLOBAL FORUM: Broad international gatherings without regional limits, or thematic global events (e.g., UN General Assembly, G20, COP, Davos).
+- BILATERAL VS. MULTILATERAL: A Bilateral visit is between two nations. A Multilateral visit involves 3+ nations or an international organization.
+
+OUTPUT FORMAT:
+Output the data ONLY as a Markdown table with the following 18 columns:
+
+1. Trip_ID: Integer (1, 2, 3...).
+2. President: Name.
+3. Origin_Country: [Country].
+4. Trip_Status: [Completed, Canceled].
+5. Start_Date: YYYY-MM-DD.
+6. End_Date: YYYY-MM-DD.
+7. Duration_Days: Integer.
+8. Destination_Country: (If multi-stop, one row per country).
+9. Destination_Region: [Latin America, North America, Europe, Asia-Pacific, Africa, Middle East].
+10. Destination_City: Main city.
+11. Visit_Category: [Bilateral, Multilateral, Other].
+12. Visit_Subtype: [State Visit, Working Visit, Regional Summit, Global Forum, Inauguration/Funeral, Transit/Medical].
+13. Sideline_Bilaterals: [TRUE, FALSE, NA].
+14. Counterpart_Event: Name of official visited or summit.
+15. Trip_Objective: Factual summary (max 30 words). Include reason for cancellation if applicable.
+16. Source_Verification: Real URL or "Search Query: [exact keywords]".
+17. Source_Reliability: [High, Medium, Low].
+18. Methodological_Notes: Briefly note if the date was estimated (use YYYY-MM-01) or if data is incomplete.
+
+STATISTICAL CLEANLINESS:
+- No commas in numbers.
+- Missing data MUST be "NA".
+- Do not add any conversational text. Just the table.
+
+Begin extraction for: [President Name] of [Country], period [2000-2026].
