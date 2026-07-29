@@ -1,0 +1,79 @@
+# ==============================================================================
+# PROYECTO: DIPLOMACIA PRESIDENCIAL EN AMÉRICA LATINA
+# OBJETIVO: Tabla Resumen por Mandato Presidencial (Orden Cronológico)
+# ==============================================================================
+
+# 1. Cargar librerías necesarias
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(tidyverse, lubricate)
+
+# 2. Ruta de la base de datos consolidada
+csv_path <- "C:/Users/alejo/OneDrive/Escritorio/PE Latam/PE-Latam/Viajes de Presidentes - Latam/Base Viaje Presidenciales Latam/04_BASE_FINAL/base_consolidada.csv"
+
+# 3. Cargar base de datos
+df_raw <- read_csv(csv_path, show_col_types = FALSE)
+
+# 4. Filtrar viajes completados y parsear fechas para ordenamiento cronológico
+df_completed <- df_raw %>%
+  filter(Trip_Status == "Completed") %>%
+  mutate(
+    Duration_Days = as.numeric(Duration_Days),
+    # Convertir fecha de inicio a formato Date para determinar la cronología exacta
+    Start_Date = ymd(Start_Date)
+  )
+
+# 5. Identificador de Mandato y Período
+# Nota: Si tu base consolidada usa 'Mandate_ID' o 'President_Term', la usará automáticamente;
+# de lo contrario, creará 'Presidente_Mandato' uniendo el nombre y el número/ID de mandato.
+df_mandatos <- df_completed %>%
+  mutate(
+    # Se asegura de distinguir mandatos (ej. Lula I, Lula II, Lula III)
+    ID_Mandato = if ("Mandate_ID" %in% colnames(.)) Mandate_ID 
+    else if ("Term" %in% colnames(.)) paste(President, Term, sep = " - ")
+    else President
+  )
+
+# 6. Calcular la Región Modal por cada Mandato individual
+modal_region <- df_mandatos %>%
+  group_by(Origin_Country, ID_Mandato, President, Destination_Region) %>%
+  summarise(tramos_region = n_distinct(Trip_ID), .groups = "drop") %>%
+  group_by(Origin_Country, ID_Mandato) %>%
+  slice_max(order_by = tramos_region, n = 1, with_ties = FALSE) %>%
+  select(Origin_Country, ID_Mandato, Modal_Region = Destination_Region)
+
+# 7. Generar la Tabla Resumen final ordenada cronológicamente
+tabla_resumen_cronologica <- df_mandatos %>%
+  group_by(Origin_Country, ID_Mandato, President) %>%
+  summarise(
+    `Fecha Primer Viaje` = min(Start_Date, na.rm = TRUE),
+    `Fecha Último Viaje` = max(Start_Date, na.rm = TRUE),
+    `Visitas (Tramos)`   = n_distinct(Trip_ID),
+    `Días Totales`      = sum(Duration_Days, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  left_join(modal_region, by = c("Origin_Country", "ID_Mandato")) %>%
+  # Ordenar cronológicamente por País y por Fecha de inicio de los viajes del mandato
+  arrange(Origin_Country, `Fecha Primer Viaje`) %>%
+  select(
+    `País` = Origin_Country,
+    `Mandato / Período` = ID_Mandato,
+    `Presidente` = President,
+    `Visitas (Tramos)`,
+    `Días Totales`,
+    `Región Modal` = Modal_Region,
+    `Fecha Primer Viaje`,
+    `Fecha Último Viaje`
+  )
+
+# ==============================================================================
+# SALIDA Y VISUALIZACIÓN EN R
+# ==============================================================================
+
+# Ver la tabla completa en la consola de R
+print(tabla_resumen_cronologica, n = Inf)
+
+# Ver en el visor interactivo de RStudio
+View(tabla_resumen_cronologica)
+
+# OPCIONAL: Guardar la tabla resumen procesada como CSV
+# write_csv(tabla_resumen_cronologica, "C:/Users/alejo/OneDrive/Escritorio/PE Latam/PE-Latam/Viajes de Presidentes - Latam/tabla_resumen_mandatos.csv")
