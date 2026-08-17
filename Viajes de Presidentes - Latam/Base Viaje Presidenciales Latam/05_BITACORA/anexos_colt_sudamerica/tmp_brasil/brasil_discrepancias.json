@@ -1,0 +1,3134 @@
+[
+ {
+  "colt_TripID": "994-BRA-PRT-36593",
+  "our_Trip_ID": "1",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Portugal",
+  "our_Start_Date": "2000-03-07",
+  "our_End_Date": "2000-03-08",
+  "colt_Start": "2000-03-08",
+  "colt_End": "2000-03-09",
+  "discrepancias": "TripStartDate: nuestro=2000-03-07 COLT=2000-03-08 (dif 1d) | TripEndDate: nuestro=2000-03-08 COLT=2000-03-09 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N86_1Sem_2000.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-CHL-36594",
+  "our_Trip_ID": "2",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Chile",
+  "our_Start_Date": "2000-03-11",
+  "our_End_Date": "2000-03-11",
+  "colt_Start": "2000-03-09",
+  "colt_End": "2000-03-12",
+  "discrepancias": "TripStartDate: nuestro=2000-03-11 COLT=2000-03-09 (dif 2d) | TripEndDate: nuestro=2000-03-11 COLT=2000-03-12 (dif 1d)",
+  "colt_links": [
+   "http://www1.folha.uol.com.br/fol/pol/ult10032000028.htm"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-COL-36692",
+  "our_Trip_ID": "4",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Colombia",
+  "our_Start_Date": "2000-06-15",
+  "our_End_Date": "2000-06-17",
+  "colt_Start": "2000-06-15",
+  "colt_End": "2000-06-15",
+  "discrepancias": "TripEndDate: nuestro=2000-06-17 COLT=2000-06-15 (dif 2d)",
+  "colt_links": [
+   "http://www1.folha.uol.com.br/fsp/brasil/fc1706200010.htm",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N86_1Sem_2000.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-DEU-36676",
+  "our_Trip_ID": "5",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Germany",
+  "our_Start_Date": "2000-05-31",
+  "our_End_Date": "2000-06-02",
+  "colt_Start": "2000-05-30",
+  "colt_End": "2000-06-03",
+  "discrepancias": "TripStartDate: nuestro=2000-05-31 COLT=2000-05-30 (dif 1d) | TripEndDate: nuestro=2000-06-02 COLT=2000-06-03 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N86_1Sem_2000.pdf",
+   "http://www.dgabc.com.br/noticia/228846/fhc-viaja-para-a-alemanha"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-MEX-36859",
+  "our_Trip_ID": "8",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Mexico",
+  "our_Start_Date": "2000-11-30",
+  "our_End_Date": "2000-12-01",
+  "colt_Start": "2000-11-29",
+  "colt_End": "2000-12-02",
+  "discrepancias": "TripStartDate: nuestro=2000-11-30 COLT=2000-11-29 (dif 1d) | TripEndDate: nuestro=2000-12-01 COLT=2000-12-02 (dif 1d)",
+  "colt_links": [
+   "http://www1.folha.uol.com.br/folha/mundo/ult94u13800.shtml"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-KOR-36906",
+  "our_Trip_ID": "9",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "South Korea",
+  "our_Start_Date": "2001-01-19",
+  "our_End_Date": "2001-01-21",
+  "colt_Start": "2001-01-15",
+  "colt_End": "2001-01-20",
+  "discrepancias": "TripStartDate: nuestro=2001-01-19 COLT=2001-01-15 (dif 4d) | TripEndDate: nuestro=2001-01-21 COLT=2001-01-20 (dif 1d)",
+  "colt_links": [
+   "http://www1.folha.uol.com.br/fsp/brasil/fc2001200109.htm",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N88_1Sem_2001.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-CAN-37000",
+  "our_Trip_ID": "11",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Canada",
+  "our_Start_Date": "2001-04-20",
+  "our_End_Date": "2001-04-22",
+  "colt_Start": "2001-04-19",
+  "colt_End": "2001-04-22",
+  "discrepancias": "TripStartDate: nuestro=2001-04-20 COLT=2001-04-19 (dif 1d)",
+  "colt_links": [
+   "\"Roadblocks to trade seen U.S.-Brazil Disputes Could Derail Talks\" Chacon;Richard. Boston Globe. 21 APR 2001: A.10",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N88_1Sem_2001.pdf",
+   "Rioters hit Summit of Americas free trade talks David Mahoney in Quebec Scotland on Sunday 22 APR 2001: 21"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-PER-37099",
+  "our_Trip_ID": "12",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Peru",
+  "our_Start_Date": "2001-07-28",
+  "our_End_Date": "2001-07-29",
+  "colt_Start": "2001-07-27",
+  "colt_End": "2001-07-29",
+  "discrepancias": "TripStartDate: nuestro=2001-07-28 COLT=2001-07-27 (dif 1d)",
+  "colt_links": [
+   "http://www1.folha.uol.com.br/folha/brasil/ult96u22800.shtml"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-VEN-37116",
+  "our_Trip_ID": "13",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Venezuela",
+  "our_Start_Date": "2001-08-12",
+  "our_End_Date": "2001-08-13",
+  "colt_Start": "2001-08-13",
+  "colt_End": "2001-08-13",
+  "discrepancias": "TripStartDate: nuestro=2001-08-12 COLT=2001-08-13 (dif 1d)",
+  "colt_links": [
+   "http://politica.estadao.com.br/noticias/geral,fhc-inaugura-interligacao-eletrica-com-venezuela,20010812p39284",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N89_2Sem_2001.pdf",
+   "http://www1.folha.uol.com.br/fsp/brasil/fc1308200120.htm"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-ECU-37164",
+  "our_Trip_ID": "14",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Ecuador",
+  "our_Start_Date": "2001-09-27",
+  "our_End_Date": "2001-09-28",
+  "colt_Start": "2001-09-30",
+  "colt_End": "2001-10-02",
+  "discrepancias": "TripStartDate: nuestro=2001-09-27 COLT=2001-09-30 (dif 3d) | TripEndDate: nuestro=2001-09-28 COLT=2001-10-02 (dif 4d)",
+  "colt_links": [
+   "http://www1.folha.uol.com.br/folha/brasil/ult96u24678.shtml"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-ESP-37189",
+  "our_Trip_ID": "15",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2001-10-25",
+  "our_End_Date": "2001-10-27",
+  "colt_Start": "2001-10-25",
+  "colt_End": "2001-11-01",
+  "discrepancias": "TripEndDate: nuestro=2001-10-27 COLT=2001-11-01 (dif 5d)",
+  "colt_links": [
+   "\"Brazil: President Cardoso's visits to Spain;France previewed\". BBC Monitoring Americas-Political 25 OCT 2001"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-FRA-37193",
+  "our_Trip_ID": "16",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "France",
+  "our_Start_Date": "2001-10-27",
+  "our_End_Date": "2001-10-29",
+  "colt_Start": "2001-10-29",
+  "colt_End": "2001-10-29",
+  "discrepancias": "TripStartDate: nuestro=2001-10-27 COLT=2001-10-29 (dif 2d)",
+  "colt_links": [
+   "Brazil: President Cardoso's visits to Spain;France previewed. BBC Monitoring Americas-Political 25 OCT 2001"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-USA-37202",
+  "our_Trip_ID": "17",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2001-11-08",
+  "our_End_Date": "2001-11-09",
+  "colt_Start": "2001-11-07",
+  "colt_End": "2001-11-11",
+  "discrepancias": "TripStartDate: nuestro=2001-11-08 COLT=2001-11-07 (dif 1d) | TripEndDate: nuestro=2001-11-09 COLT=2001-11-11 (dif 2d)",
+  "colt_links": [
+   "http://www1.folha.uol.com.br/folha/brasil/ult96u26573.shtml",
+   "http://politica.estadao.com.br/noticias/geral,fhc-e-bush-discutiram-argentina-e-onu,20011108p40917",
+   "https://wnc-eastview-com.du.idm.oclc.org/wnc/article?id=36550366"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-RUS-37268",
+  "our_Trip_ID": "18",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Russia",
+  "our_Start_Date": "2002-01-13",
+  "our_End_Date": "2002-01-15",
+  "colt_Start": "2002-01-12",
+  "colt_End": "2002-01-16",
+  "discrepancias": "TripStartDate: nuestro=2002-01-13 COLT=2002-01-12 (dif 1d) | TripEndDate: nuestro=2002-01-15 COLT=2002-01-16 (dif 1d)",
+  "colt_links": [
+   "http://politica.estadao.com.br/noticias/geral,fhc-embarca-para-a-russia-em-sua-85-viagem-ao-exterior,20020111p54670",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N90_1Sem_2002.pdf",
+   "http://www1.folha.uol.com.br/fsp/brasil/fc1301200221.htm"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-SWE-37309",
+  "our_Trip_ID": "19",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Sweden",
+  "our_Start_Date": "2002-02-20",
+  "our_End_Date": "2002-02-21",
+  "colt_Start": "2002-02-22",
+  "colt_End": "2002-02-24",
+  "discrepancias": "TripStartDate: nuestro=2002-02-20 COLT=2002-02-22 (dif 2d) | TripEndDate: nuestro=2002-02-21 COLT=2002-02-24 (dif 3d)",
+  "colt_links": [
+   "http://www1.folha.uol.com.br/fsp/brasil/fc1301200221.htm",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N90_1Sem_2002.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-POL-37312",
+  "our_Trip_ID": "20",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Poland",
+  "our_Start_Date": "2002-02-25",
+  "our_End_Date": "2002-02-25",
+  "colt_Start": "2002-02-25",
+  "colt_End": "2002-02-26",
+  "discrepancias": "TripEndDate: nuestro=2002-02-25 COLT=2002-02-26 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N90_1Sem_2002.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-ZAF-37500",
+  "our_Trip_ID": "24",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "South Africa",
+  "our_Start_Date": "2002-08-31",
+  "our_End_Date": "2002-09-02",
+  "colt_Start": "2002-09-01",
+  "colt_End": "2002-09-05",
+  "discrepancias": "TripStartDate: nuestro=2002-08-31 COLT=2002-09-01 (dif 1d) | TripEndDate: nuestro=2002-09-02 COLT=2002-09-05 (dif 3d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/505b0690-c296-48f6-9024-1a51b7fd6426/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b7ff89a7-1ed9-4b06-ba0e-7928363b6a8f/?context=1516831",
+   "https://du.idm.oclc.org/login?url=https://www.proquest.com/wire-feeds/un-global-humanitarian-fund-financial-institution/docview/443900222/se-2?accountid=14608",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e7c40e9a-cdd1-483f-ac98-9c55bdbf663e/?context=1516831"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-PRT-37569",
+  "our_Trip_ID": "25",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Portugal",
+  "our_Start_Date": "2002-11-11",
+  "our_End_Date": "2002-11-12",
+  "colt_Start": "2002-11-09",
+  "colt_End": "2002-11-13",
+  "discrepancias": "TripStartDate: nuestro=2002-11-11 COLT=2002-11-09 (dif 2d) | TripEndDate: nuestro=2002-11-12 COLT=2002-11-13 (dif 1d)",
+  "colt_links": [
+   "http://memoria.ebc.com.br/agenciabrasil/node/573336"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-USA-37597",
+  "our_Trip_ID": "26",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2002-12-08",
+  "our_End_Date": "2002-12-10",
+  "colt_Start": "2002-12-07",
+  "colt_End": "2002-12-12",
+  "discrepancias": "TripStartDate: nuestro=2002-12-08 COLT=2002-12-07 (dif 1d) | TripEndDate: nuestro=2002-12-10 COLT=2002-12-12 (dif 2d)",
+  "colt_links": [
+   "http://www1.folha.uol.com.br/fsp/brasil/fc1710200206.htm",
+   "http://www.bbc.com/portuguese/noticias/2002/021208_fhcebc.shtml"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-CHE-37645",
+  "our_Trip_ID": "28",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Switzerland",
+  "our_Start_Date": "2003-01-25",
+  "our_End_Date": "2003-01-26",
+  "colt_Start": "2003-01-24",
+  "colt_End": "2003-01-27",
+  "discrepancias": "TripStartDate: nuestro=2003-01-25 COLT=2003-01-24 (dif 1d) | TripEndDate: nuestro=2003-01-26 COLT=2003-01-27 (dif 1d)",
+  "colt_links": [
+   "http://wnc.eastview.com/wnc/article?id=36282551",
+   "\"A Choice in South America\" LA Times. Jan 28 2003"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-DEU-37649",
+  "our_Trip_ID": "29",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Germany",
+  "our_Start_Date": "2003-01-27",
+  "our_End_Date": "2003-01-27",
+  "colt_Start": "2003-01-28",
+  "colt_End": "2003-01-28",
+  "discrepancias": "TripStartDate: nuestro=2003-01-27 COLT=2003-01-28 (dif 1d) | TripEndDate: nuestro=2003-01-27 COLT=2003-01-28 (dif 1d)",
+  "colt_links": [
+   "http://imprensaacervo.planalto.gov.br/download/pdf/Viagens%20internacionais03.pdf",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-FRA-37650",
+  "our_Trip_ID": "30",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "France",
+  "our_Start_Date": "2003-01-28",
+  "our_End_Date": "2003-01-28",
+  "colt_Start": "2003-01-29",
+  "colt_End": "2003-01-29",
+  "discrepancias": "TripStartDate: nuestro=2003-01-28 COLT=2003-01-29 (dif 1d) | TripEndDate: nuestro=2003-01-28 COLT=2003-01-29 (dif 1d)",
+  "colt_links": [
+   "http://imprensaacervo.planalto.gov.br/download/pdf/Viagens%20internacionais03.pdf",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-PER-37763",
+  "our_Trip_ID": "31",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Peru",
+  "our_Start_Date": "2003-05-22",
+  "our_End_Date": "2003-05-24",
+  "colt_Start": "2003-05-22",
+  "colt_End": "2003-05-25",
+  "discrepancias": "TripEndDate: nuestro=2003-05-24 COLT=2003-05-25 (dif 1d)",
+  "colt_links": [
+   "http://www.voanews.com/content/a-13-a-2003-05-23-31-rio/395750.html"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-FRA-37772",
+  "our_Trip_ID": "32",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "France",
+  "our_Start_Date": "2003-06-01",
+  "our_End_Date": "2003-06-03",
+  "colt_Start": "2003-05-31",
+  "colt_End": "2003-06-02",
+  "discrepancias": "TripStartDate: nuestro=2003-06-01 COLT=2003-05-31 (dif 1d) | TripEndDate: nuestro=2003-06-03 COLT=2003-06-02 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/index?crid=02411177-9f3c-43aa-9f63-c177083d6a00&pdpermalink=a057d958-b8e0-49d0-81cf-56298ef8220b&pdmfid=1516831&pdisurlapi=true",
+   "https://advance-lexis-com.du.idm.oclc.org/document/index?crid=d646cc8c-9588-45ee-8df2-e255c34c1d90&pdpermalink=15aea0ee-ed5b-466e-8fba-2aa6b62550ae&pdmfid=1516831&pdisurlapi=true",
+   "https://www.gettyimages.com/detail/news-photo/japanese-prime-minister-junichiro-koizumi-british-prime-news-photo/169590808#/japanese-prime-minister-junichiro-koizumi-british-prime-minister-tony-picture-id169590808"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-37791",
+  "our_Trip_ID": "33",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2003-06-20",
+  "our_End_Date": "2003-06-20",
+  "colt_Start": "2003-06-19",
+  "colt_End": "2003-06-20",
+  "discrepancias": "TripStartDate: nuestro=2003-06-20 COLT=2003-06-19 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-37888",
+  "our_Trip_ID": "34",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2003-09-23",
+  "our_End_Date": "2003-09-23",
+  "colt_Start": "2003-09-24",
+  "colt_End": "2003-09-25",
+  "discrepancias": "TripStartDate: nuestro=2003-09-23 COLT=2003-09-24 (dif 1d) | TripEndDate: nuestro=2003-09-23 COLT=2003-09-25 (dif 2d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N93_2Sem_2003.pdf",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-NAM-37931",
+  "our_Trip_ID": "39",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Namibia",
+  "our_Start_Date": "2003-11-06",
+  "our_End_Date": "2003-11-06",
+  "colt_Start": "2003-11-06",
+  "colt_End": "2003-11-07",
+  "discrepancias": "TripEndDate: nuestro=2003-11-06 COLT=2003-11-07 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-BOL-37939",
+  "our_Trip_ID": "41",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Bolivia",
+  "our_Start_Date": "2003-11-14",
+  "our_End_Date": "2003-11-15",
+  "colt_Start": "2003-11-14",
+  "colt_End": "2003-11-14",
+  "discrepancias": "TripEndDate: nuestro=2003-11-15 COLT=2003-11-14 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-LBN-37959",
+  "our_Trip_ID": "43",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Lebanon",
+  "our_Start_Date": "2003-12-05",
+  "our_End_Date": "2003-12-05",
+  "colt_Start": "2003-12-04",
+  "colt_End": "2003-12-05",
+  "discrepancias": "TripStartDate: nuestro=2003-12-05 COLT=2003-12-04 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ARE-37961",
+  "our_Trip_ID": "44",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United Arab Emirates",
+  "our_Start_Date": "2003-12-07",
+  "our_End_Date": "2003-12-07",
+  "colt_Start": "2003-12-06",
+  "colt_End": "2003-12-07",
+  "discrepancias": "TripStartDate: nuestro=2003-12-07 COLT=2003-12-06 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-LBY-37964",
+  "our_Trip_ID": "46",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Libya",
+  "our_Start_Date": "2003-12-10",
+  "our_End_Date": "2003-12-11",
+  "colt_Start": "2003-12-09",
+  "colt_End": "2003-12-10",
+  "discrepancias": "TripStartDate: nuestro=2003-12-10 COLT=2003-12-09 (dif 1d) | TripEndDate: nuestro=2003-12-11 COLT=2003-12-10 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-MEX-37998",
+  "our_Trip_ID": "48",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Mexico",
+  "our_Start_Date": "2004-01-11",
+  "our_End_Date": "2004-01-14",
+  "colt_Start": "2004-01-12",
+  "colt_End": "2004-01-13",
+  "discrepancias": "TripStartDate: nuestro=2004-01-11 COLT=2004-01-12 (dif 1d) | TripEndDate: nuestro=2004-01-14 COLT=2004-01-13 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-IND-38011",
+  "our_Trip_ID": "49",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "India",
+  "our_Start_Date": "2004-01-24",
+  "our_End_Date": "2004-01-28",
+  "colt_Start": "2004-01-25",
+  "colt_End": "2004-01-28",
+  "discrepancias": "TripStartDate: nuestro=2004-01-24 COLT=2004-01-25 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-CHE-38014",
+  "our_Trip_ID": "50",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Switzerland",
+  "our_Start_Date": "2004-01-29",
+  "our_End_Date": "2004-01-30",
+  "colt_Start": "2004-01-28",
+  "colt_End": "2004-01-30",
+  "discrepancias": "TripStartDate: nuestro=2004-01-29 COLT=2004-01-28 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-VEN-38043",
+  "our_Trip_ID": "51",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Venezuela",
+  "our_Start_Date": "2004-02-26",
+  "our_End_Date": "2004-02-28",
+  "colt_Start": "2004-02-26",
+  "colt_End": "2004-02-27",
+  "discrepancias": "TripEndDate: nuestro=2004-02-28 COLT=2004-02-27 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-CHN-38129",
+  "our_Trip_ID": "52",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "China",
+  "our_Start_Date": "2004-05-21",
+  "our_End_Date": "2004-05-27",
+  "colt_Start": "2004-05-22",
+  "colt_End": "2004-05-25",
+  "discrepancias": "TripStartDate: nuestro=2004-05-21 COLT=2004-05-22 (dif 1d) | TripEndDate: nuestro=2004-05-27 COLT=2004-05-25 (dif 2d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-MEX-38134",
+  "our_Trip_ID": "53",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Mexico",
+  "our_Start_Date": "2004-05-28",
+  "our_End_Date": "2004-05-29",
+  "colt_Start": "2004-05-27",
+  "colt_End": "2004-05-28",
+  "discrepancias": "TripStartDate: nuestro=2004-05-28 COLT=2004-05-27 (dif 1d) | TripEndDate: nuestro=2004-05-29 COLT=2004-05-28 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-GAB-38195",
+  "our_Trip_ID": "56",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Gabon",
+  "our_Start_Date": "2004-07-27",
+  "our_End_Date": "2004-07-27",
+  "colt_Start": "2004-07-27",
+  "colt_End": "2004-07-28",
+  "discrepancias": "TripEndDate: nuestro=2004-07-27 COLT=2004-07-28 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-PER-38329",
+  "our_Trip_ID": "60",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Peru",
+  "our_Start_Date": "2004-12-07",
+  "our_End_Date": "2004-12-09",
+  "colt_Start": "2004-12-08",
+  "colt_End": "2004-12-08",
+  "discrepancias": "TripStartDate: nuestro=2004-12-07 COLT=2004-12-08 (dif 1d) | TripEndDate: nuestro=2004-12-09 COLT=2004-12-08 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-URY-38412",
+  "our_Trip_ID": "61",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Uruguay",
+  "our_Start_Date": "2005-03-01",
+  "our_End_Date": "2005-03-01",
+  "colt_Start": "2005-03-01",
+  "colt_End": "2005-03-02",
+  "discrepancias": "TripEndDate: nuestro=2005-03-01 COLT=2005-03-02 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-KOR-38495",
+  "our_Trip_ID": "62",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "South Korea",
+  "our_Start_Date": "2005-05-24",
+  "our_End_Date": "2005-05-26",
+  "colt_Start": "2005-05-23",
+  "colt_End": "2005-05-25",
+  "discrepancias": "TripStartDate: nuestro=2005-05-24 COLT=2005-05-23 (dif 1d) | TripEndDate: nuestro=2005-05-26 COLT=2005-05-25 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N96_1Sem_2005.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-PRT-38637",
+  "our_Trip_ID": "63",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Portugal",
+  "our_Start_Date": "2005-10-13",
+  "our_End_Date": "2005-10-13",
+  "colt_Start": "2005-10-12",
+  "colt_End": "2005-10-13",
+  "discrepancias": "TripStartDate: nuestro=2005-10-13 COLT=2005-10-12 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N97_2Sem_2005.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ESP-38638",
+  "our_Trip_ID": "64",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2005-10-14",
+  "our_End_Date": "2005-10-15",
+  "colt_Start": "2005-10-13",
+  "colt_End": "2005-10-15",
+  "discrepancias": "TripStartDate: nuestro=2005-10-14 COLT=2005-10-13 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ITA-38640",
+  "our_Trip_ID": "65",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Italy",
+  "our_Start_Date": "2005-10-16",
+  "our_End_Date": "2005-10-17",
+  "colt_Start": "2005-10-15",
+  "colt_End": "2005-10-17",
+  "discrepancias": "TripStartDate: nuestro=2005-10-16 COLT=2005-10-15 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N97_2Sem_2005.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-COL-38699",
+  "our_Trip_ID": "70",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Colombia",
+  "our_Start_Date": "2005-12-13",
+  "our_End_Date": "2005-12-15",
+  "colt_Start": "2005-12-13",
+  "colt_End": "2005-12-14",
+  "discrepancias": "TripEndDate: nuestro=2005-12-15 COLT=2005-12-14 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-RUS-38913",
+  "our_Trip_ID": "73",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Russia",
+  "our_Start_Date": "2006-07-17",
+  "our_End_Date": "2006-07-17",
+  "colt_Start": "2006-07-15",
+  "colt_End": "2006-07-17",
+  "discrepancias": "TripStartDate: nuestro=2006-07-17 COLT=2006-07-15 (dif 2d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2006pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-NGA-39049",
+  "our_Trip_ID": "76",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Nigeria",
+  "our_Start_Date": "2006-11-30",
+  "our_End_Date": "2006-11-30",
+  "colt_Start": "2006-11-28",
+  "colt_End": "2006-11-30",
+  "discrepancias": "TripStartDate: nuestro=2006-11-30 COLT=2006-11-28 (dif 2d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2006pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-39171",
+  "our_Trip_ID": "79",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2007-03-31",
+  "our_End_Date": "2007-03-31",
+  "colt_Start": "2007-03-30",
+  "colt_End": "2007-03-31",
+  "discrepancias": "TripStartDate: nuestro=2007-03-31 COLT=2007-03-30 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-DEU-39238",
+  "our_Trip_ID": "81",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Germany",
+  "our_Start_Date": "2007-06-07",
+  "our_End_Date": "2007-06-08",
+  "colt_Start": "2007-06-05",
+  "colt_End": "2007-06-08",
+  "discrepancias": "TripStartDate: nuestro=2007-06-07 COLT=2007-06-05 (dif 2d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-PRT-39267",
+  "our_Trip_ID": "82",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Portugal",
+  "our_Start_Date": "2007-07-04",
+  "our_End_Date": "2007-07-04",
+  "colt_Start": "2007-07-04",
+  "colt_End": "2007-07-05",
+  "discrepancias": "TripEndDate: nuestro=2007-07-04 COLT=2007-07-05 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-SWE-39336",
+  "our_Trip_ID": "83",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Sweden",
+  "our_Start_Date": "2007-09-11",
+  "our_End_Date": "2007-09-11",
+  "colt_Start": "2007-09-11",
+  "colt_End": "2007-09-12",
+  "discrepancias": "TripEndDate: nuestro=2007-09-11 COLT=2007-09-12 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N101_2Sem_2007.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-DNK-39337",
+  "our_Trip_ID": "84",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Denmark",
+  "our_Start_Date": "2007-09-12",
+  "our_End_Date": "2007-09-12",
+  "colt_Start": "2007-09-12",
+  "colt_End": "2007-09-13",
+  "discrepancias": "TripEndDate: nuestro=2007-09-12 COLT=2007-09-13 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-NOR-39338",
+  "our_Trip_ID": "85",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Norway",
+  "our_Start_Date": "2007-09-13",
+  "our_End_Date": "2007-09-13",
+  "colt_Start": "2007-09-13",
+  "colt_End": "2007-09-14",
+  "discrepancias": "TripEndDate: nuestro=2007-09-13 COLT=2007-09-14 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-39349",
+  "our_Trip_ID": "86",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2007-09-25",
+  "our_End_Date": "2007-09-25",
+  "colt_Start": "2007-09-24",
+  "colt_End": "2007-09-25",
+  "discrepancias": "TripStartDate: nuestro=2007-09-25 COLT=2007-09-24 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-COG-39370",
+  "our_Trip_ID": "88",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Congo-Brazzaville",
+  "our_Start_Date": "2007-10-16",
+  "our_End_Date": "2007-10-16",
+  "colt_Start": "2007-10-15",
+  "colt_End": "2007-10-16",
+  "discrepancias": "TripStartDate: nuestro=2007-10-16 COLT=2007-10-15 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N101_2Sem_2007.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-AGO-39372",
+  "our_Trip_ID": "90",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Angola",
+  "our_Start_Date": "2007-10-18",
+  "our_End_Date": "2007-10-18",
+  "colt_Start": "2007-10-17",
+  "colt_End": "2007-10-18",
+  "discrepancias": "TripStartDate: nuestro=2007-10-18 COLT=2007-10-17 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-JPN-39636",
+  "our_Trip_ID": "92",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Japan",
+  "our_Start_Date": "2008-07-08",
+  "our_End_Date": "2008-07-09",
+  "colt_Start": "2008-07-07",
+  "colt_End": "2008-07-09",
+  "discrepancias": "TripStartDate: nuestro=2008-07-08 COLT=2008-07-07 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-VNM-39639",
+  "our_Trip_ID": "93",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Vietnam",
+  "our_Start_Date": "2008-07-09",
+  "our_End_Date": "2008-07-10",
+  "colt_Start": "2008-07-10",
+  "colt_End": "2008-07-10",
+  "discrepancias": "TripStartDate: nuestro=2008-07-09 COLT=2008-07-10 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-IDN-39641",
+  "our_Trip_ID": "95",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Indonesia",
+  "our_Start_Date": "2008-07-11",
+  "our_End_Date": "2008-07-12",
+  "colt_Start": "2008-07-12",
+  "colt_End": "2008-07-12",
+  "discrepancias": "TripStartDate: nuestro=2008-07-11 COLT=2008-07-12 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_numero_103_2_2008.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-BOL-39647",
+  "our_Trip_ID": "96",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Bolivia",
+  "our_Start_Date": "2008-07-18",
+  "our_End_Date": "2008-07-18",
+  "colt_Start": "2008-07-18",
+  "colt_End": "2008-07-19",
+  "discrepancias": "TripEndDate: nuestro=2008-07-18 COLT=2008-07-19 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-PRT-39653",
+  "our_Trip_ID": "98",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Portugal",
+  "our_Start_Date": "2008-07-24",
+  "our_End_Date": "2008-07-25",
+  "colt_Start": "2008-07-24",
+  "colt_End": "2008-07-26",
+  "discrepancias": "TripEndDate: nuestro=2008-07-25 COLT=2008-07-26 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-CHN-39666",
+  "our_Trip_ID": "100",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "China",
+  "our_Start_Date": "2008-08-05",
+  "our_End_Date": "2008-08-08",
+  "colt_Start": "2008-08-06",
+  "colt_End": "2008-08-09",
+  "discrepancias": "TripStartDate: nuestro=2008-08-05 COLT=2008-08-06 (dif 1d) | TripEndDate: nuestro=2008-08-08 COLT=2008-08-09 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-39712",
+  "our_Trip_ID": "103",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2008-09-21",
+  "our_End_Date": "2008-09-25",
+  "colt_Start": "2008-09-21",
+  "colt_End": "2008-09-24",
+  "discrepancias": "TripEndDate: nuestro=2008-09-25 COLT=2008-09-24 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ESP-39733",
+  "our_Trip_ID": "104",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2008-10-12",
+  "our_End_Date": "2008-10-14",
+  "colt_Start": "2008-10-12",
+  "colt_End": "2008-10-13",
+  "discrepancias": "TripEndDate: nuestro=2008-10-14 COLT=2008-10-13 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-SLV-39750",
+  "our_Trip_ID": "107",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "El Salvador",
+  "our_Start_Date": "2008-10-29",
+  "our_End_Date": "2008-10-31",
+  "colt_Start": "2008-10-29",
+  "colt_End": "2008-10-30",
+  "discrepancias": "TripEndDate: nuestro=2008-10-31 COLT=2008-10-30 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-39765",
+  "our_Trip_ID": "108",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2008-11-14",
+  "our_End_Date": "2008-11-15",
+  "colt_Start": "2008-11-13",
+  "colt_End": "2008-11-14",
+  "discrepancias": "TripStartDate: nuestro=2008-11-14 COLT=2008-11-13 (dif 1d) | TripEndDate: nuestro=2008-11-15 COLT=2008-11-14 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-39885",
+  "our_Trip_ID": "109",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2009-03-14",
+  "our_End_Date": "2009-03-14",
+  "colt_Start": "2009-03-13",
+  "colt_End": "2009-03-16",
+  "discrepancias": "TripStartDate: nuestro=2009-03-14 COLT=2009-03-13 (dif 1d) | TripEndDate: nuestro=2009-03-14 COLT=2009-03-16 (dif 2d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-QAT-39901",
+  "our_Trip_ID": "110",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Qatar",
+  "our_Start_Date": "2009-03-30",
+  "our_End_Date": "2009-03-31",
+  "colt_Start": "2009-03-29",
+  "colt_End": "2009-03-31",
+  "discrepancias": "TripStartDate: nuestro=2009-03-30 COLT=2009-03-29 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_numero_104_1_2009.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-GBR-39904",
+  "our_Trip_ID": "111",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United Kingdom",
+  "our_Start_Date": "2009-04-01",
+  "our_End_Date": "2009-04-02",
+  "colt_Start": "2009-04-01",
+  "colt_End": "2009-04-03",
+  "discrepancias": "TripEndDate: nuestro=2009-04-02 COLT=2009-04-03 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-TUR-39953",
+  "our_Trip_ID": "115",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Turkiye",
+  "our_Start_Date": "2009-05-21",
+  "our_End_Date": "2009-05-22",
+  "colt_Start": "2009-05-20",
+  "colt_End": "2009-05-21",
+  "discrepancias": "TripStartDate: nuestro=2009-05-21 COLT=2009-05-20 (dif 1d) | TripEndDate: nuestro=2009-05-22 COLT=2009-05-21 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_numero_104_1_2009.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-CHE-39977",
+  "our_Trip_ID": "116",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Switzerland",
+  "our_Start_Date": "2009-06-15",
+  "our_End_Date": "2009-06-15",
+  "colt_Start": "2009-06-13",
+  "colt_End": "2009-06-15",
+  "discrepancias": "TripStartDate: nuestro=2009-06-15 COLT=2009-06-13 (dif 2d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_numero_104_1_2009.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ITA-40001",
+  "our_Trip_ID": "118",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Italy",
+  "our_Start_Date": "2009-07-08",
+  "our_End_Date": "2009-07-10",
+  "colt_Start": "2009-07-07",
+  "colt_End": "2009-07-10",
+  "discrepancias": "TripStartDate: nuestro=2009-07-08 COLT=2009-07-07 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-40077",
+  "our_Trip_ID": "119",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2009-09-23",
+  "our_End_Date": "2009-09-23",
+  "colt_Start": "2009-09-21",
+  "colt_End": "2009-09-25",
+  "discrepancias": "TripStartDate: nuestro=2009-09-23 COLT=2009-09-21 (dif 2d) | TripEndDate: nuestro=2009-09-23 COLT=2009-09-25 (dif 2d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-VEN-40081",
+  "our_Trip_ID": "120",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Venezuela",
+  "our_Start_Date": "2009-09-26",
+  "our_End_Date": "2009-09-27",
+  "colt_Start": "2009-09-25",
+  "colt_End": "2009-09-27",
+  "discrepancias": "TripStartDate: nuestro=2009-09-26 COLT=2009-09-25 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-DNK-40085",
+  "our_Trip_ID": "121",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Denmark",
+  "our_Start_Date": "2009-10-01",
+  "our_End_Date": "2009-10-02",
+  "colt_Start": "2009-09-29",
+  "colt_End": "2009-10-03",
+  "discrepancias": "TripStartDate: nuestro=2009-10-01 COLT=2009-09-29 (dif 2d) | TripEndDate: nuestro=2009-10-02 COLT=2009-10-03 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/resenha105_2_2009.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-DNK-40162",
+  "our_Trip_ID": "122",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Denmark",
+  "our_Start_Date": "2009-12-17",
+  "our_End_Date": "2009-12-18",
+  "colt_Start": "2009-12-15",
+  "colt_End": "2009-12-18",
+  "discrepancias": "TripStartDate: nuestro=2009-12-17 COLT=2009-12-15 (dif 2d)",
+  "colt_links": [
+   "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/openurl?ctx_ver=z39.88-2004&rft_id=info%3Asid/infoweb.newsbank.com&svc_dat=WORLDNEWS&req_dat=756A2F2418E841258B15CB5C2C5A3A92&rft_val_format=info%3Aofi/fmt%3Akev%3Amtx%3Actx&rft_dat=document_id%3Anews%252F12CA859406DD4748",
+   "https://www.gettyimages.com/detail/news-photo/luiz-inacio-lula-da-silva-brazils-president-addresses-the-news-photo/94683065?phrase=Luiz%20Inacio%20Lula%20da%20Silva&adppopup=true",
+   "https://www.gettyimages.com/detail/news-photo/british-prime-minister-gordon-brown-meets-with-brazilian-news-photo/94528661?phrase=Luiz%20Inacio%20Lula%20da%20Silva&adppopup=true",
+   "https://www.gettyimages.com/detail/news-photo/salam-fayyad-prime-minister-of-the-palestinian-authority-news-photo/94528820?phrase=Luiz%20Inacio%20Lula%20da%20Silva&adppopup=true",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/89ba1574-1663-40ef-a494-9f1b91a36faa/?context=1516831",
+   "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/openurl?ctx_ver=z39.88-2004&rft_id=info%3Asid/infoweb.newsbank.com&svc_dat=WORLDNEWS&req_dat=756A2F2418E841258B15CB5C2C5A3A92&rft_val_format=info%3Aofi/fmt%3Akev%3Amtx%3Actx&rft_dat=document_id%3Anews%252F12CB29841AA4E858",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=edaa62b1-6509-4816-8bf4-1941fb97c58b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7XBH-H5F1-2PP8-S3N3-00000-00&pdcontentcomponentid=10903&pdteaserkey=sr2&pditab=allpods&ecomp=tmnyk&earg=sr2&prid=1ae3db67-4053-4fca-8d05-e09b8705508b"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-MEX-40230",
+  "our_Trip_ID": "124",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Mexico",
+  "our_Start_Date": "2010-02-22",
+  "our_End_Date": "2010-02-23",
+  "colt_Start": "2010-02-21",
+  "colt_End": "2010-02-23",
+  "discrepancias": "TripStartDate: nuestro=2010-02-22 COLT=2010-02-21 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ISR-40251",
+  "our_Trip_ID": "126",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Israel",
+  "our_Start_Date": "2010-03-15",
+  "our_End_Date": "2010-03-16",
+  "colt_Start": "2010-03-14",
+  "colt_End": "2010-03-16",
+  "discrepancias": "TripStartDate: nuestro=2010-03-15 COLT=2010-03-14 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-PSE-40253",
+  "our_Trip_ID": "127",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Palestine",
+  "our_Start_Date": "2010-03-17",
+  "our_End_Date": "2010-03-17",
+  "colt_Start": "2010-03-16",
+  "colt_End": "2010-03-17",
+  "discrepancias": "TripStartDate: nuestro=2010-03-17 COLT=2010-03-16 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-40279",
+  "our_Trip_ID": "129",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2010-04-12",
+  "our_End_Date": "2010-04-13",
+  "colt_Start": "2010-04-11",
+  "colt_End": "2010-04-13",
+  "discrepancias": "TripStartDate: nuestro=2010-04-12 COLT=2010-04-11 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-IRN-40313",
+  "our_Trip_ID": "131",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Iran",
+  "our_Start_Date": "2010-05-16",
+  "our_End_Date": "2010-05-17",
+  "colt_Start": "2010-05-15",
+  "colt_End": "2010-05-17",
+  "discrepancias": "TripStartDate: nuestro=2010-05-16 COLT=2010-05-15 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ESP-40315",
+  "our_Trip_ID": "132",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2010-05-18",
+  "our_End_Date": "2010-05-18",
+  "colt_Start": "2010-05-17",
+  "colt_End": "2010-05-19",
+  "discrepancias": "TripStartDate: nuestro=2010-05-18 COLT=2010-05-17 (dif 1d) | TripEndDate: nuestro=2010-05-18 COLT=2010-05-19 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-CPV-40361",
+  "our_Trip_ID": "135",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Cabo Verde",
+  "our_Start_Date": "2010-07-02",
+  "our_End_Date": "2010-07-04",
+  "colt_Start": "2010-07-02",
+  "colt_End": "2010-07-03",
+  "discrepancias": "TripEndDate: nuestro=2010-07-04 COLT=2010-07-03 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-KEN-40364",
+  "our_Trip_ID": "137",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Kenya",
+  "our_Start_Date": "2010-07-06",
+  "our_End_Date": "2010-07-06",
+  "colt_Start": "2010-07-05",
+  "colt_End": "2010-07-06",
+  "discrepancias": "TripStartDate: nuestro=2010-07-06 COLT=2010-07-05 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/resenha107_2_2010.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ZAF-40367",
+  "our_Trip_ID": "140",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "South Africa",
+  "our_Start_Date": "2010-07-09",
+  "our_End_Date": "2010-07-10",
+  "colt_Start": "2010-07-08",
+  "colt_End": "2010-07-09",
+  "discrepancias": "TripStartDate: nuestro=2010-07-09 COLT=2010-07-08 (dif 1d) | TripEndDate: nuestro=2010-07-10 COLT=2010-07-09 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/resenha107_2_2010.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-MOZ-40490",
+  "our_Trip_ID": "141",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Mozambique",
+  "our_Start_Date": "2010-11-09",
+  "our_End_Date": "2010-11-10",
+  "colt_Start": "2010-11-08",
+  "colt_End": "2010-11-10",
+  "discrepancias": "TripStartDate: nuestro=2010-11-09 COLT=2010-11-08 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-CHN-40643",
+  "our_Trip_ID": "146",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "China",
+  "our_Start_Date": "2011-04-11",
+  "our_End_Date": "2011-04-16",
+  "colt_Start": "2011-04-10",
+  "colt_End": "2011-04-16",
+  "discrepancias": "TripStartDate: nuestro=2011-04-11 COLT=2011-04-10 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-USA-40807",
+  "our_Trip_ID": "147",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2011-09-19",
+  "our_End_Date": "2011-09-21",
+  "colt_Start": "2011-09-21",
+  "colt_End": "2011-09-22",
+  "discrepancias": "TripStartDate: nuestro=2011-09-19 COLT=2011-09-21 (dif 2d) | TripEndDate: nuestro=2011-09-21 COLT=2011-09-22 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=cd0ff8cf-db64-461a-a55b-602ceb3feed5&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A546P-WPB1-JBF5-T2GV-00000-00&pdcontentcomponentid=299488&pdteaserkey=sr1&pditab=allpods&ecomp=hmnyk&earg=sr1&prid=d890b69e-0599-47f5-b8d7-c2bf83bbb6e3",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=aa5e56a7-ea35-4447-90e2-b949454163fc&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A53VM-YBJ1-JCV0-1305-00000-00&pdcontentcomponentid=312415&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=d890b69e-0599-47f5-b8d7-c2bf83bbb6e3"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-BEL-40818",
+  "our_Trip_ID": "148",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Belgium",
+  "our_Start_Date": "2011-10-03",
+  "our_End_Date": "2011-10-04",
+  "colt_Start": "2011-10-02",
+  "colt_End": "2011-10-04",
+  "discrepancias": "TripStartDate: nuestro=2011-10-03 COLT=2011-10-02 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-ZAF-40833",
+  "our_Trip_ID": "150",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "South Africa",
+  "our_Start_Date": "2011-10-18",
+  "our_End_Date": "2011-10-18",
+  "colt_Start": "2011-10-17",
+  "colt_End": "2011-10-18",
+  "discrepancias": "TripStartDate: nuestro=2011-10-18 COLT=2011-10-17 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-FRA-40848",
+  "our_Trip_ID": "151",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "France",
+  "our_Start_Date": "2011-11-03",
+  "our_End_Date": "2011-11-04",
+  "colt_Start": "2011-11-01",
+  "colt_End": "2011-11-05",
+  "discrepancias": "TripStartDate: nuestro=2011-11-03 COLT=2011-11-01 (dif 2d) | TripEndDate: nuestro=2011-11-04 COLT=2011-11-05 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-VEN-40878",
+  "our_Trip_ID": "152",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Venezuela",
+  "our_Start_Date": "2011-12-02",
+  "our_End_Date": "2011-12-03",
+  "colt_Start": "2011-12-01",
+  "colt_End": "2011-12-02",
+  "discrepancias": "TripStartDate: nuestro=2011-12-02 COLT=2011-12-01 (dif 1d) | TripEndDate: nuestro=2011-12-03 COLT=2011-12-02 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-IND-40995",
+  "our_Trip_ID": "155",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "India",
+  "our_Start_Date": "2012-03-28",
+  "our_End_Date": "2012-03-29",
+  "colt_Start": "2012-03-27",
+  "colt_End": "2012-03-31",
+  "discrepancias": "TripStartDate: nuestro=2012-03-28 COLT=2012-03-27 (dif 1d) | TripEndDate: nuestro=2012-03-29 COLT=2012-03-31 (dif 2d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2012/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-USA-41007",
+  "our_Trip_ID": "156",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2012-04-09",
+  "our_End_Date": "2012-04-10",
+  "colt_Start": "2012-04-08",
+  "colt_End": "2012-04-09",
+  "discrepancias": "TripStartDate: nuestro=2012-04-09 COLT=2012-04-08 (dif 1d) | TripEndDate: nuestro=2012-04-10 COLT=2012-04-09 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2012/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-PER-41184",
+  "our_Trip_ID": "161",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Peru",
+  "our_Start_Date": "2012-10-01",
+  "our_End_Date": "2012-10-02",
+  "colt_Start": "2012-10-02",
+  "colt_End": "2012-10-02",
+  "discrepancias": "TripStartDate: nuestro=2012-10-01 COLT=2012-10-02 (dif 1d)",
+  "colt_links": [
+   "https://www.proquest.com/internationalnews1/docview/1081502695/DE8681A258E64322PQ/2?accountid=14608",
+   "https://kingabdullah.jo/en/news/king-south-american-leaders-discuss-trade-ties-region",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=47434178-2028-4da4-a3cc-2149aa69b465&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A56R6-V001-DY91-H28C-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr2&pditab=allpods&ecomp=kmnyk&earg=sr2&prid=76ec89a3-dbf8-4636-a33a-547c97fd6515"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-CHL-41300",
+  "our_Trip_ID": "162",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Chile",
+  "our_Start_Date": "2013-01-26",
+  "our_End_Date": "2013-01-28",
+  "colt_Start": "2013-01-26",
+  "colt_End": "2013-01-26",
+  "discrepancias": "TripEndDate: nuestro=2013-01-28 COLT=2013-01-26 (dif 2d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-VAT-41352",
+  "our_Trip_ID": "163",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Holy See",
+  "our_Start_Date": "2013-03-19",
+  "our_End_Date": "2013-03-19",
+  "colt_Start": "2013-03-19",
+  "colt_End": "2013-03-20",
+  "discrepancias": "TripEndDate: nuestro=2013-03-19 COLT=2013-03-20 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-ETH-41418",
+  "our_Trip_ID": "165",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Ethiopia",
+  "our_Start_Date": "2013-05-25",
+  "our_End_Date": "2013-05-25",
+  "colt_Start": "2013-05-24",
+  "colt_End": "2013-05-25",
+  "discrepancias": "TripStartDate: nuestro=2013-05-25 COLT=2013-05-24 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-RUS-41520",
+  "our_Trip_ID": "166",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Russia",
+  "our_Start_Date": "2013-09-05",
+  "our_End_Date": "2013-09-06",
+  "colt_Start": "2013-09-03",
+  "colt_End": "2013-09-06",
+  "discrepancias": "TripStartDate: nuestro=2013-09-05 COLT=2013-09-03 (dif 2d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-USA-41540",
+  "our_Trip_ID": "167",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2013-09-24",
+  "our_End_Date": "2013-09-24",
+  "colt_Start": "2013-09-23",
+  "colt_End": "2013-09-25",
+  "discrepancias": "TripStartDate: nuestro=2013-09-24 COLT=2013-09-23 (dif 1d) | TripEndDate: nuestro=2013-09-24 COLT=2013-09-25 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-CUB-41666",
+  "our_Trip_ID": "169",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Cuba",
+  "our_Start_Date": "2014-01-27",
+  "our_End_Date": "2014-01-29",
+  "colt_Start": "2014-01-27",
+  "colt_End": "2014-01-28",
+  "discrepancias": "TripEndDate: nuestro=2014-01-29 COLT=2014-01-28 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2014/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-USA-41905",
+  "our_Trip_ID": "171",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2014-09-24",
+  "our_End_Date": "2014-09-24",
+  "colt_Start": "2014-09-23",
+  "colt_End": "2014-09-24",
+  "discrepancias": "TripStartDate: nuestro=2014-09-24 COLT=2014-09-23 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2014/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-AUS-41956",
+  "our_Trip_ID": "172",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Australia",
+  "our_Start_Date": "2014-11-15",
+  "our_End_Date": "2014-11-16",
+  "colt_Start": "2014-11-13",
+  "colt_End": "2014-11-16",
+  "discrepancias": "TripStartDate: nuestro=2014-11-15 COLT=2014-11-13 (dif 2d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b1fa4afb-ce63-458c-86b0-858b8fa1d565/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/0c9b6b0b-3cb8-4932-b8c8-b3128143de35/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/1eb3c8d8-2b12-4f9b-a498-9cb8a1907398/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/19fb3e20-cab5-41ef-924b-12c425094a45/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/83f19ba3-cc0e-41ff-a047-6a2ff4fdf535/?context=1516831"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-PAN-42104",
+  "our_Trip_ID": "175",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Panama",
+  "our_Start_Date": "2015-04-10",
+  "our_End_Date": "2015-04-11",
+  "colt_Start": "2015-04-10",
+  "colt_End": "2015-04-10",
+  "discrepancias": "TripEndDate: nuestro=2015-04-11 COLT=2015-04-10 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-RUS-42192",
+  "our_Trip_ID": "178",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Russia",
+  "our_Start_Date": "2015-07-08",
+  "our_End_Date": "2015-07-09",
+  "colt_Start": "2015-07-07",
+  "colt_End": "2015-07-09",
+  "discrepancias": "TripStartDate: nuestro=2015-07-08 COLT=2015-07-07 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-SWE-42295",
+  "our_Trip_ID": "180",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Sweden",
+  "our_Start_Date": "2015-10-19",
+  "our_End_Date": "2015-10-19",
+  "colt_Start": "2015-10-18",
+  "colt_End": "2015-10-19",
+  "discrepancias": "TripStartDate: nuestro=2015-10-19 COLT=2015-10-18 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-FIN-42297",
+  "our_Trip_ID": "181",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Finland",
+  "our_Start_Date": "2015-10-20",
+  "our_End_Date": "2015-10-21",
+  "colt_Start": "2015-10-20",
+  "colt_End": "2015-10-20",
+  "discrepancias": "TripEndDate: nuestro=2015-10-21 COLT=2015-10-20 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-TUR-42322",
+  "our_Trip_ID": "182",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Turkiye",
+  "our_Start_Date": "2015-11-15",
+  "our_End_Date": "2015-11-16",
+  "colt_Start": "2015-11-14",
+  "colt_End": "2015-11-16",
+  "discrepancias": "TripStartDate: nuestro=2015-11-15 COLT=2015-11-14 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-FRA-42336",
+  "our_Trip_ID": "183",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "France",
+  "our_Start_Date": "2015-11-30",
+  "our_End_Date": "2015-11-30",
+  "colt_Start": "2015-11-28",
+  "colt_End": "2015-11-30",
+  "discrepancias": "TripStartDate: nuestro=2015-11-30 COLT=2015-11-28 (dif 2d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-ECU-42395",
+  "our_Trip_ID": "185",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Ecuador",
+  "our_Start_Date": "2016-01-27",
+  "our_End_Date": "2016-01-27",
+  "colt_Start": "2016-01-26",
+  "colt_End": "2016-01-27",
+  "discrepancias": "TripStartDate: nuestro=2016-01-27 COLT=2016-01-26 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1760227009?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "3224-BRA-USA-42633",
+  "our_Trip_ID": "188",
+  "President": "Michel Temer",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2016-09-20",
+  "our_End_Date": "2016-09-20",
+  "colt_Start": "2016-09-20",
+  "colt_End": "2016-09-21",
+  "discrepancias": "TripEndDate: nuestro=2016-09-20 COLT=2016-09-21 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1824498229?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1824497789?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "3224-BRA-JPN-42660",
+  "our_Trip_ID": "191",
+  "President": "Michel Temer",
+  "Destination_Country": "Japan",
+  "our_Start_Date": "2016-10-18",
+  "our_End_Date": "2016-10-19",
+  "colt_Start": "2016-10-17",
+  "colt_End": "2016-10-18",
+  "discrepancias": "TripStartDate: nuestro=2016-10-18 COLT=2016-10-17 (dif 1d) | TripEndDate: nuestro=2016-10-19 COLT=2016-10-18 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1828668508?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1830191743?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "3224-BRA-RUS-42906",
+  "our_Trip_ID": "193",
+  "President": "Michel Temer",
+  "Destination_Country": "Russia",
+  "our_Start_Date": "2017-06-20",
+  "our_End_Date": "2017-06-21",
+  "colt_Start": "2017-06-20",
+  "colt_End": "2017-06-22",
+  "discrepancias": "TripEndDate: nuestro=2017-06-21 COLT=2017-06-22 (dif 1d)",
+  "colt_links": [
+   "https://search-proquest-com.du.idm.oclc.org/central/docview/1913552825/6FEBE884C0A14178PQ/4?accountid=14608",
+   "https://search-proquest-com.du.idm.oclc.org/central/docview/1926998589/6FEBE884C0A14178PQ/5?accountid=14608",
+   "https://search-proquest-com.du.idm.oclc.org/central/docview/1926997577/6FEBE884C0A14178PQ/7?accountid=14608",
+   "https://search-proquest-com.du.idm.oclc.org/central/docview/1926997577/6FEBE884C0A14178PQ/7?accountid=14608",
+   "https://search-proquest-com.du.idm.oclc.org/central/docview/1911184916/6FEBE884C0A14178PQ/10?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "3224-BRA-NOR-42908",
+  "our_Trip_ID": "194",
+  "President": "Michel Temer",
+  "Destination_Country": "Norway",
+  "our_Start_Date": "2017-06-22",
+  "our_End_Date": "2017-06-23",
+  "colt_Start": "2017-06-22",
+  "colt_End": "2017-06-24",
+  "discrepancias": "TripEndDate: nuestro=2017-06-23 COLT=2017-06-24 (dif 1d)",
+  "colt_links": [
+   "https://search-proquest-com.du.idm.oclc.org/central/docview/1911184916/6FEBE884C0A14178PQ/10?accountid=14608",
+   "https://search-proquest-com.du.idm.oclc.org/central/docview/1910811979/6FEBE884C0A14178PQ/18?accountid=14608",
+   "https://search-proquest-com.du.idm.oclc.org/central/docview/1913429036/6FEBE884C0A14178PQ/22?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "3224-BRA-CHE-43123",
+  "our_Trip_ID": "198",
+  "President": "Michel Temer",
+  "Destination_Country": "Switzerland",
+  "our_Start_Date": "2018-01-24",
+  "our_End_Date": "2018-01-24",
+  "colt_Start": "2018-01-23",
+  "colt_End": "2018-01-24",
+  "discrepancias": "TripStartDate: nuestro=2018-01-24 COLT=2018-01-23 (dif 1d)",
+  "colt_links": [
+   "https://www.gettyimages.com/event/day-two-of-the-world-economic-Forum-2018-775099932#/jamie-dimon-chief-executive-officer-of-jpmorgan-chase-co-poses-for-a-picture-id909684938",
+   "https://search-proquest-com.du.idm.oclc.org/docview/2007606603/2A24674D433A486BPQ/1?accountid=14608",
+   "https://search-proquest-com.du.idm.oclc.org/docview/2007606603/FC1E3BF9A4E042ABPQ/4?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "3224-BRA-ZAF-43306",
+  "our_Trip_ID": "200",
+  "President": "Michel Temer",
+  "Destination_Country": "South Africa",
+  "our_Start_Date": "2018-07-26",
+  "our_End_Date": "2018-07-27",
+  "colt_Start": "2018-07-25",
+  "colt_End": "2018-07-26",
+  "discrepancias": "TripStartDate: nuestro=2018-07-26 COLT=2018-07-25 (dif 1d) | TripEndDate: nuestro=2018-07-27 COLT=2018-07-26 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/9fbb1490-11d7-4d7f-b667-aeb0d886f772/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/125520c4-fec7-4053-9ea3-bac77d1a0419/?context=1516831",
+   "https://search-proquest-com.du.idm.oclc.org/docview/2076018442/707F4B43BADC420FPQ/2?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "3224-BRA-USA-43367",
+  "our_Trip_ID": "202",
+  "President": "Michel Temer",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2018-09-25",
+  "our_End_Date": "2018-09-25",
+  "colt_Start": "2018-09-24",
+  "colt_End": "2018-09-28",
+  "discrepancias": "TripStartDate: nuestro=2018-09-25 COLT=2018-09-24 (dif 1d) | TripEndDate: nuestro=2018-09-25 COLT=2018-09-28 (dif 3d)",
+  "colt_links": [
+   "http://wwwbrazilgovnewsgovbr/news/2018/09/brazilian-president-defends-integration-between-countries-2030-agenda-and-immigration-at-the-un",
+   "http://www.brazilgovnews.gov.br/news/2018/09/in-Meeting-president-highlights-qualities-that-make-brazil-attractive-for-investments"
+  ]
+ },
+ {
+  "colt_TripID": "3224-BRA-ARG-43434",
+  "our_Trip_ID": "203",
+  "President": "Michel Temer",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2018-11-30",
+  "our_End_Date": "2018-12-01",
+  "colt_Start": "2018-11-30",
+  "colt_End": "2018-12-02",
+  "discrepancias": "TripEndDate: nuestro=2018-12-01 COLT=2018-12-02 (dif 1d)",
+  "colt_links": [
+   "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/president-of-argentina-mauricio-macri-greets-photo-dactualit%C3%A9/1075004698"
+  ]
+ },
+ {
+  "colt_TripID": "3224-BRA-URY-43452",
+  "our_Trip_ID": "204",
+  "President": "Michel Temer",
+  "Destination_Country": "Uruguay",
+  "our_Start_Date": "2018-12-18",
+  "our_End_Date": "2018-12-18",
+  "colt_Start": "2018-12-18",
+  "colt_End": "2018-12-20",
+  "discrepancias": "TripEndDate: nuestro=2018-12-18 COLT=2018-12-20 (dif 2d)",
+  "colt_links": [
+   "https://wwwgettyimagescom/detail/news-photo/michel-temer-brazils-president-left-shakes-hands-with-news-photo/1074358702"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-CHE-43487",
+  "our_Trip_ID": "205",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "Switzerland",
+  "our_Start_Date": "2019-01-22",
+  "our_End_Date": "2019-01-23",
+  "colt_Start": "2019-01-22",
+  "colt_End": "2019-01-25",
+  "discrepancias": "TripEndDate: nuestro=2019-01-23 COLT=2019-01-25 (dif 2d)",
+  "colt_links": [
+   "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/japanese-prime-minister-shinzo-abe-and-brazilian-photo-dactualit%C3%A9/1124622038",
+   "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/jair-bolsonaro-brazils-president-pauses-as-he-photo-dactualit%C3%A9/1086354270",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4ed1b357-7957-4bba-aa32-3a4387cb63fd&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5V80-SF01-JCMP-543B-00000-00&pddocid=urn%3AcontentItem%3A5V80-SF01-JCMP-543B-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr68&pditab=allpods&ecomp=3fyk&earg=sr68&prid=f5306695-ec1c-499c-867a-7d947401bb13"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-43542",
+  "our_Trip_ID": "206",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2019-03-18",
+  "our_End_Date": "2019-03-19",
+  "colt_Start": "2019-03-18",
+  "colt_End": "2019-03-20",
+  "discrepancias": "TripEndDate: nuestro=2019-03-19 COLT=2019-03-20 (dif 1d)",
+  "colt_links": [
+   "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/president-donald-trump-and-brazilian-president-jair-photo-dactualit%C3%A9/1136874706",
+   "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/jair-bolsonaro-brazils-president-speaks-during-a-photo-dactualit%C3%A9/1131459629"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-CHL-43546",
+  "our_Trip_ID": "207",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "Chile",
+  "our_Start_Date": "2019-03-22",
+  "our_End_Date": "2019-03-23",
+  "colt_Start": "2019-03-22",
+  "colt_End": "2019-03-24",
+  "discrepancias": "TripEndDate: nuestro=2019-03-23 COLT=2019-03-24 (dif 1d)",
+  "colt_links": [
+   "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/president-of-brazil-jair-bolsonaro-speaks-after-a-photo-dactualit%C3%A9/1137791699",
+   "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/president-of-brazil-jair-bolsonaro-president-of-peru-photo-dactualit%C3%A9/1137605335"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-ISR-43554",
+  "our_Trip_ID": "208",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "Israel",
+  "our_Start_Date": "2019-03-31",
+  "our_End_Date": "2019-04-02",
+  "colt_Start": "2019-03-30",
+  "colt_End": "2019-03-31",
+  "discrepancias": "TripStartDate: nuestro=2019-03-31 COLT=2019-03-30 (dif 1d) | TripEndDate: nuestro=2019-04-02 COLT=2019-03-31 (dif 2d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=48f2fda4-68a0-4a5e-ace2-5dade59de5c5&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5VS8-D001-JCMP-5077-00000-00&pddocid=urn%3AcontentItem%3A5VS8-D001-JCMP-5077-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=1fyk&earg=sr0&prid=29ad16ae-1102-4b4c-915d-8c9ba39cef50",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=78d9c3eb-7504-4d86-a2bd-1148c366a3bb&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5VSF-4X91-JCMN-Y181-00000-00&pddocid=urn%3AcontentItem%3A5VSF-4X91-JCMN-Y181-00000-00&pdcontentcomponentid=299488&pdteaserkey=sr7&pditab=allpods&ecomp=1fyk&earg=sr7&prid=29ad16ae-1102-4b4c-915d-8c9ba39cef50"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-ARG-43622",
+  "our_Trip_ID": "209",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2019-06-06",
+  "our_End_Date": "2019-06-06",
+  "colt_Start": "2019-06-06",
+  "colt_End": "2019-06-07",
+  "discrepancias": "TripEndDate: nuestro=2019-06-06 COLT=2019-06-07 (dif 1d)",
+  "colt_links": [
+   "https://wwwgettyimagescom/detail/news-photo/president-of-argentina-mauricio-macri-and-president-of-news-photo/1148468130?adppopup=true",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=aa8d62f5-8da6-460a-9e4b-32928e679cc1&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5W8W-RV81-F03R-W528-00000-00&pddocid=urn%3AcontentItem%3A5W8W-RV81-F03R-W528-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=1fyk&earg=sr1&prid=3a9b5bd9-2552-49b3-89c4-d978f2cc34f6",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=6408e651-ce17-4991-a576-67fe28daee48&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5W8S-GN31-F03R-W3BY-00000-00&pddocid=urn%3AcontentItem%3A5W8S-GN31-F03R-W3BY-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr6&pditab=allpods&ecomp=1fyk&earg=sr6&prid=3a9b5bd9-2552-49b3-89c4-d978f2cc34f6"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-JPN-43643",
+  "our_Trip_ID": "210",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "Japan",
+  "our_Start_Date": "2019-06-28",
+  "our_End_Date": "2019-06-29",
+  "colt_Start": "2019-06-27",
+  "colt_End": "2019-06-30",
+  "discrepancias": "TripStartDate: nuestro=2019-06-28 COLT=2019-06-27 (dif 1d) | TripEndDate: nuestro=2019-06-29 COLT=2019-06-30 (dif 1d)",
+  "colt_links": [
+   "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-and-japanese-prime-news-photo/1159135139?adppopup=true",
+   "https://www.gettyimages.com/detail/news-photo/brazils-president-jair-bolsonaro-meets-with-us-president-news-photo/1152461137?adppopup=true",
+   "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-shakes-hands-with-south-news-photo/1152459937?adppopup=true",
+   "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-shakes-hands-with-news-photo/1152459936?adppopup=true",
+   "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-shakes-hands-with-indias-news-photo/1152459928?adppopup=true",
+   "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-shakes-hands-with-indias-news-photo/1152459926?adppopup=true",
+   "https://twitter.com/jairbolsonaro/status/1145040149660753921",
+   "https://twitter.com/jairbolsonaro/status/1144943709466890240"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-43731",
+  "our_Trip_ID": "212",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2019-09-24",
+  "our_End_Date": "2019-09-24",
+  "colt_Start": "2019-09-23",
+  "colt_End": "2019-09-25",
+  "discrepancias": "TripStartDate: nuestro=2019-09-24 COLT=2019-09-23 (dif 1d) | TripEndDate: nuestro=2019-09-24 COLT=2019-09-25 (dif 1d)",
+  "colt_links": [
+   "https://twitter.com/jairbolsonaro/status/1176263904223272961",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/3f9cd853-197a-4f34-aa43-389e5141d0da/?context=1516831"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-JPN-43759",
+  "our_Trip_ID": "213",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "Japan",
+  "our_Start_Date": "2019-10-22",
+  "our_End_Date": "2019-10-23",
+  "colt_Start": "2019-10-21",
+  "colt_End": "2019-10-23",
+  "discrepancias": "TripStartDate: nuestro=2019-10-22 COLT=2019-10-21 (dif 1d)",
+  "colt_links": [
+   "https://wwwgovbr/planalto/pt-br/acompanhe-o-planalto/noticias/2019/10/estamos-reconquistando-a-confianca-do-mundo-diz-o-presidente-da-republica-ao-chegar-a-toquio",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/58c5ccc8-701a-423f-bd47-7f097674d90c/?context=1516831",
+   "https://www.gettyimages.com/detail/news-photo/brazils-president-jair-bolsonaro-arrives-at-the-imperial-news-photo/1182657767?adppopup=true",
+   "https://twitter.com/jairbolsonaro/status/1187177796159840257",
+   "https://wwwgettyimagescom/detail/news-photo/japanese-prime-minister-shinzo-abe-and-brazilian-president-news-photo/1177832398?adppopup=true"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-QAT-43766",
+  "our_Trip_ID": "216",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "Qatar",
+  "our_Start_Date": "2019-10-28",
+  "our_End_Date": "2019-10-28",
+  "colt_Start": "2019-10-28",
+  "colt_End": "2019-10-29",
+  "discrepancias": "TripEndDate: nuestro=2019-10-28 COLT=2019-10-29 (dif 1d)",
+  "colt_links": [
+   "https://wwwgovbr/planalto/pt-br/acompanhe-o-planalto/noticias/2019/10/estamos-reconquistando-a-confianca-do-mundo-diz-o-presidente-da-republica-ao-chegar-a-toquio",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=2fd6b468-8760-4473-bacc-b5872d4670a0&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCN-6WS1-JDJN-62YG-00000-00&pddocid=urn%3AcontentItem%3A5XCN-6WS1-JDJN-62YG-00000-00&pdcontentcomponentid=399277&pdteaserkey=sr2&pditab=allpods&ecomp=wp79k&earg=sr2&prid=6380f318-a4a7-4f30-b512-2ca8ff7fb36a",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=d126fd91-a4af-4d96-aeb2-e2c2ad830ad4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCM-R491-F04Y-T2R4-00000-00&pddocid=urn%3AcontentItem%3A5XCM-R491-F04Y-T2R4-00000-00&pdcontentcomponentid=300954&pdteaserkey=sr5&pditab=allpods&ecomp=wp79k&earg=sr5&prid=271e9749-6e96-4eba-917a-ece27c256d48"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-SAU-43767",
+  "our_Trip_ID": "217",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "Saudi Arabia",
+  "our_Start_Date": "2019-10-29",
+  "our_End_Date": "2019-10-30",
+  "colt_Start": "2019-10-29",
+  "colt_End": "2019-10-29",
+  "discrepancias": "TripEndDate: nuestro=2019-10-30 COLT=2019-10-29 (dif 1d)",
+  "colt_links": [
+   "https://wwwgovbr/planalto/pt-br/acompanhe-o-planalto/noticias/2019/10/estamos-reconquistando-a-confianca-do-mundo-diz-o-presidente-da-republica-ao-chegar-a-toquio",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=b6b629fa-f786-43f1-87b1-814fd3d2b481&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCK-X471-JDJN-60C9-00000-00&pddocid=urn%3AcontentItem%3A5XCK-X471-JDJN-60C9-00000-00&pdcontentcomponentid=343613&pdteaserkey=sr0&pditab=allpods&ecomp=wp79k&earg=sr0&prid=646d9f68-e083-4ade-8010-bf5bb9bd3d53",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=bb514f69-9f3a-4af5-88a5-0b5a0ac40f23&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCN-J781-JCW7-N3X0-00000-00&pddocid=urn%3AcontentItem%3A5XCN-J781-JCW7-N3X0-00000-00&pdcontentcomponentid=318666&pdteaserkey=sr1&pditab=allpods&ecomp=wp79k&earg=sr1&prid=271e9749-6e96-4eba-917a-ece27c256d48",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=d126fd91-a4af-4d96-aeb2-e2c2ad830ad4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCM-R491-F04Y-T2R4-00000-00&pddocid=urn%3AcontentItem%3A5XCM-R491-F04Y-T2R4-00000-00&pdcontentcomponentid=300954&pdteaserkey=sr5&pditab=allpods&ecomp=wp79k&earg=sr5&prid=271e9749-6e96-4eba-917a-ece27c256d48",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=aed6e15a-73e4-4e6a-a049-7b898d29087b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCM-GH31-JB0G-F1V9-00000-00&pddocid=urn%3AcontentItem%3A5XCM-GH31-JB0G-F1V9-00000-00&pdcontentcomponentid=144245&pdteaserkey=sr23&pditab=allpods&ecomp=wp79k&earg=sr23&prid=96c831d4-b070-42c3-a06c-91e9c087acde"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-IND-43855",
+  "our_Trip_ID": "218",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "India",
+  "our_Start_Date": "2020-01-24",
+  "our_End_Date": "2020-01-27",
+  "colt_Start": "2020-01-25",
+  "colt_End": "2020-01-27",
+  "discrepancias": "TripStartDate: nuestro=2020-01-24 COLT=2020-01-25 (dif 1d)",
+  "colt_links": [
+   "https://www.gettyimages.com/detail/news-photo/indias-prime-minister-narendra-modi-president-ram-nath-news-photo/1196446736?adppopup=true",
+   "https://www.gettyimages.com/detail/news-photo/brazilian-president-jair-bolsonaro-poses-for-pictures-as-he-news-photo/1196686533?adppopup=true",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=2fb50b03-820e-4ab6-8955-75f0f8e1c7cc&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5Y26-27M1-DY1R-B2WW-00000-00&pddocid=urn%3AcontentItem%3A5Y26-27M1-DY1R-B2WW-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=sp79k&earg=sr0&prid=f8532909-7762-4147-b8db-91b2c3359994",
+   "https://www.pmindia.gov.in/en/news_updates/list-of-mous-agreements-exchanged-during-state-visit-of-president-of-brazil-to-india/?comment=disable"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-URY-43891",
+  "our_Trip_ID": "219",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "Uruguay",
+  "our_Start_Date": "2020-03-01",
+  "our_End_Date": "2020-03-01",
+  "colt_Start": "2020-03-01",
+  "colt_End": "2020-03-02",
+  "discrepancias": "TripEndDate: nuestro=2020-03-01 COLT=2020-03-02 (dif 1d)",
+  "colt_links": [
+   "https://www.gob.cl/en/news/president-pinera-attends-inauguration-new-uruguayan-president/",
+   "https://www.dailysabah.com/world/americas/uruguay-shifts-to-right-with-new-presidents-inauguration"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-ECU-44339",
+  "our_Trip_ID": "221",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "Ecuador",
+  "our_Start_Date": "2021-05-24",
+  "our_End_Date": "2021-05-24",
+  "colt_Start": "2021-05-23",
+  "colt_End": "2021-05-24",
+  "discrepancias": "TripStartDate: nuestro=2021-05-24 COLT=2021-05-23 (dif 1d)",
+  "colt_links": [
+   "https://www.france24.com/en/live-news/20210524-lasso-inaugurated-as-first-right-wing-ecuador-president-in-14-years",
+   "http://www.bta.bg/en/gallery/image/7651340",
+   "https://riotimesonline.com/brazil-news/rio-politics/bolsonaro-confirms-his-attendance-to-the-inauguration-of-ecuadors-president/"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-44458",
+  "our_Trip_ID": "222",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2021-09-19",
+  "our_End_Date": "2021-09-21",
+  "colt_Start": "2021-09-19",
+  "colt_End": "2021-09-22",
+  "discrepancias": "TripEndDate: nuestro=2021-09-21 COLT=2021-09-22 (dif 1d)",
+  "colt_links": [
+   "https://www.theguardian.com/politics/2021/sep/20/boris-johnson-uses-bolsonaro-meeting-to-promote-astrazeneca-jab",
+   "https://www.cnn.com/2021/09/21/americas/bolsonaro-brazil-un-speech-2021-intl-latam/index.html",
+   "https://www.reuters.com/world/americas/brazils-bolsonaro-covid-isolation-after-trip-un-2021-09-22/",
+   "https://www.un.org/sg/en/node/259244"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-ITA-44498",
+  "our_Trip_ID": "223",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "Italy",
+  "our_Start_Date": "2021-10-29",
+  "our_End_Date": "2021-11-01",
+  "colt_Start": "2021-10-29",
+  "colt_End": "2021-11-02",
+  "discrepancias": "TripEndDate: nuestro=2021-11-01 COLT=2021-11-02 (dif 1d)",
+  "colt_links": [
+   "https://www.bloomberg.com/news/articles/2021-10-29/brazil-s-bolsonaro-gets-g-20-cold-shoulder-as-amazon-fires-rage",
+   "https://www.reuters.com/world/americas/bolsonaros-security-press-altercation-brazil-leader-isolated-g20-2021-10-31/",
+   "https://agenciabrasil.ebc.com.br/en/politica/noticia/2021-10/bolsonaro-attend-g20-summit-meeting-italy",
+   "https://www.agefotostock.com/age/en/details-news-photo/president-jair-bolsonaro-arrives-at-the-la-nuvola-conference-center-for-the-g20-summit-rome-italy-30-october-2021/TIE-FOT301021-112",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/90854e71-b755-442d-bd38-ff090857adf5/?context=1516831",
+   "https://www.facebook.com/jairmessias.bolsonaro/videos/3123964727887656/"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-QAT-44517",
+  "our_Trip_ID": "226",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "Qatar",
+  "our_Start_Date": "2021-11-17",
+  "our_End_Date": "2021-11-17",
+  "colt_Start": "2021-11-17",
+  "colt_End": "2021-11-18",
+  "discrepancias": "TripEndDate: nuestro=2021-11-17 COLT=2021-11-18 (dif 1d)",
+  "colt_links": [
+   "https://twitter.com/jairbolsonaro/status/1460993519808569344",
+   "https://www.gettyimages.com/detail/news-photo/brazilian-president-jair-bolsonaro-and-fifa-president-news-photo/1236620626?adppopup=true",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/7b9f9a22-dfce-4bd5-add5-75a397ebaf47/?context=1516831"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-RUS-44607",
+  "our_Trip_ID": "227",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "Russia",
+  "our_Start_Date": "2022-02-15",
+  "our_End_Date": "2022-02-16",
+  "colt_Start": "2022-02-15",
+  "colt_End": "2022-02-17",
+  "discrepancias": "TripEndDate: nuestro=2022-02-16 COLT=2022-02-17 (dif 1d)",
+  "colt_links": [
+   "https://apnews.com/article/russia-ukraine-jair-bolsonaro-russia-friendships-vladimir-putin-584b473855f62ba106df15f5340583b1",
+   "https://agenciabrasil.ebc.com.br/en/politica/noticia/2022-02/president-jair-bolsonaro-lands-in-russia",
+   "https://news.sky.com/story/vladimir-putin-shakes-hands-with-brazilian-president-jair-bolsonaro-at-russia-meeting-after-making-macron-sit-20ft-away-12543571",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/30af91bc-d3a6-4945-aef3-cee7bdbb5c9b/?context=1516831",
+   "https://www.facebook.com/watch/live/?ref=watch_permalink&v=1575494136151698"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-44719",
+  "our_Trip_ID": "229",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2022-06-08",
+  "our_End_Date": "2022-06-10",
+  "colt_Start": "2022-06-07",
+  "colt_End": "2022-06-11",
+  "discrepancias": "TripStartDate: nuestro=2022-06-08 COLT=2022-06-07 (dif 1d) | TripEndDate: nuestro=2022-06-10 COLT=2022-06-11 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/a4071ee0-e2ad-407a-a9e9-7db262b93fda/?context=1516831",
+   "https://valor.globo.com/politica/noticia/2022/06/03/aps-cpula-das-amricas-bolsonaro-ir-a-orlando.ghtml",
+   "https://reliefweb.int/report/world/los-angeles-declaration-could-represent-big-step-real-migration-cooperation-across-americas#:~:text=The%20Los%20Angeles%20Declaration%20was,the%20United%20States%2C%20and%20Uruguay.",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=25014936-f9b8-46dd-9a9e-91823fdcf3a4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A65NH-67F1-JDJN-60HR-00000-00&pdcontentcomponentid=407769&pdteaserkey=sr27&pditab=allpods&ecomp=szznk&earg=sr27&prid=3898ff37-0ad5-484e-b95d-4098e09679da"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-GBR-44823",
+  "our_Trip_ID": "231",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "United Kingdom",
+  "our_Start_Date": "2022-09-18",
+  "our_End_Date": "2022-09-19",
+  "colt_Start": "2022-09-19",
+  "colt_End": "2022-09-19",
+  "discrepancias": "TripStartDate: nuestro=2022-09-18 COLT=2022-09-19 (dif 1d)",
+  "colt_links": [
+   "https://twitter.com/jairbolsonaro/status/1571876105383985154",
+   "https://www.theguardian.com/world/2022/sep/18/bolsonaro-uses-visit-to-london-for-queens-funeral-as-election-soapbox",
+   "https://www.independent.co.uk/news/uk/brazil-bolsonaro-queen-elizabeth-funeral-b2170241.html"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-44823",
+  "our_Trip_ID": "232",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2022-09-20",
+  "our_End_Date": "2022-09-20",
+  "colt_Start": "2022-09-19",
+  "colt_End": "2022-09-21",
+  "discrepancias": "TripStartDate: nuestro=2022-09-20 COLT=2022-09-19 (dif 1d) | TripEndDate: nuestro=2022-09-20 COLT=2022-09-21 (dif 1d)",
+  "colt_links": [
+   "https://gadebate.un.org/en/77/brazil",
+   "https://dam.media.un.org/asset-management/2AM9LO3H1KG?FR_=1&W=1500&H=881",
+   "https://www.cnn.com/2022/09/20/americas/unga-bolsonaro-brazil-intl-latam/index.html"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-44925",
+  "our_Trip_ID": "233",
+  "President": "Jair Bolsonaro",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2022-12-30",
+  "our_End_Date": "2023-01-01",
+  "colt_Start": "2022-12-30",
+  "colt_End": "2023-03-30",
+  "discrepancias": "TripEndDate: nuestro=2023-01-01 COLT=2023-03-30 (dif 88d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=252d9b3b-6bed-464b-bac3-4e7b17acaeae&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A676R-H681-JBNF-W4X8-00000-00&pdcontentcomponentid=397135&pdteaserkey=sr1&pditab=allpods&ecomp=zznyk&earg=sr1&prid=11d34b4a-894a-43af-99a9-40b595db60db",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ef9ef7a8-d192-4fef-8eac-789160ae6744&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A67X1-H151-DXMS-80R6-00000-00&pdcontentcomponentid=404625&pdteaserkey=sr0&pditab=allpods&ecomp=zznyk&earg=sr0&prid=11d34b4a-894a-43af-99a9-40b595db60db",
+   "https://www.reuters.com/world/americas/brazils-bolsonaro-says-no-justification-attempted-terrorist-act-capital-2022-12-30/",
+   "https://www.npr.org/2023/03/30/1167040880/bolsonaro-returns-brazil-from-florida"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ARG-44948",
+  "our_Trip_ID": "235",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2023-01-23",
+  "our_End_Date": "2023-01-24",
+  "colt_Start": "2023-01-22",
+  "colt_End": "2023-01-25",
+  "discrepancias": "TripStartDate: nuestro=2023-01-23 COLT=2023-01-22 (dif 1d) | TripEndDate: nuestro=2023-01-24 COLT=2023-01-25 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/c7ce418b-5f52-472e-a06e-d9cdcafdacb5/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e0af5431-3a86-4ac1-8c3a-8015d924b2c4/?context=1516831",
+   "https://www.reuters.com/world/americas/lula-says-brazil-argentina-will-study-common-currency-trade-2023-01-23/",
+   "https://media.gettyimages.com/id/1246545761/photo/calac-summit-in-buenos-aires.jpg?s=612x612&w=gi&k=20&c=7eFk1RSAWCR2Ig5Xc8buiuGNl1PoRTY1nPmFhFjbl8k=",
+   "https://twitter.com/LulaOficial/status/1618010354109513728?cxt=HHwWgIDQ-YX2qfQsAAAA"
+  ]
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-44925",
+  "our_Trip_ID": "237",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2023-02-10",
+  "our_End_Date": "2023-02-10",
+  "colt_Start": "2022-12-30",
+  "colt_End": "2023-03-30",
+  "discrepancias": "TripStartDate: nuestro=2023-02-10 COLT=2022-12-30 (dif 42d) | TripEndDate: nuestro=2023-02-10 COLT=2023-03-30 (dif 48d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=252d9b3b-6bed-464b-bac3-4e7b17acaeae&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A676R-H681-JBNF-W4X8-00000-00&pdcontentcomponentid=397135&pdteaserkey=sr1&pditab=allpods&ecomp=zznyk&earg=sr1&prid=11d34b4a-894a-43af-99a9-40b595db60db",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ef9ef7a8-d192-4fef-8eac-789160ae6744&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A67X1-H151-DXMS-80R6-00000-00&pdcontentcomponentid=404625&pdteaserkey=sr0&pditab=allpods&ecomp=zznyk&earg=sr0&prid=11d34b4a-894a-43af-99a9-40b595db60db",
+   "https://www.reuters.com/world/americas/brazils-bolsonaro-says-no-justification-attempted-terrorist-act-capital-2022-12-30/",
+   "https://www.npr.org/2023/03/30/1167040880/bolsonaro-returns-brazil-from-florida"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-CHN-45028",
+  "our_Trip_ID": "238",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "China",
+  "our_Start_Date": "2023-04-12",
+  "our_End_Date": "2023-04-15",
+  "colt_Start": "2023-04-12",
+  "colt_End": "2023-04-14",
+  "discrepancias": "TripEndDate: nuestro=2023-04-15 COLT=2023-04-14 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4265c25a-1948-4cfd-bffc-27aaa6f8018c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6811-6PT1-JB72-134W-00000-00&pdcontentcomponentid=437338&pdteaserkey=sr0&pditab=allpods&ecomp=-znyk&earg=sr0&prid=27f060a9-ea78-4d09-8cae-5735b61101d8",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=50d9417f-6671-42bc-b91f-f897ff2b484a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A680C-9JX1-JBSS-S507-00000-00&pdcontentcomponentid=385157&pdteaserkey=sr1&pditab=allpods&ecomp=-znyk&earg=sr1&prid=27f060a9-ea78-4d09-8cae-5735b61101d8",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=fbff26da-ec82-4b3b-9cf1-71e8575b7604&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A680Y-M921-DYY9-00DG-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr18&pditab=allpods&ecomp=-znyk&earg=sr18&prid=4180cb69-6634-42d3-a90b-e5ef3819b064",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e2d30c04-8b62-4906-80d8-bd4ea6fc532f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A680T-RCT1-F12M-D0R8-00000-00&pdcontentcomponentid=429280&pdteaserkey=sr2&pditab=allpods&ecomp=-znyk&earg=sr2&prid=27f060a9-ea78-4d09-8cae-5735b61101d8",
+   "https://twitter.com/LulaOficial/status/1646421910157238272?cxt=HHwWgIC9laKAotktAAAA",
+   "https://twitter.com/LulaOficial/status/1646719944535470082?cxt=HHwWhMCzqZPEqdotAAAA",
+   "https://twitter.com/LulaOficial/status/1646855286060113920?cxt=HHwWgICzoYiK59otAAAA"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ARE-45031",
+  "our_Trip_ID": "239",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United Arab Emirates",
+  "our_Start_Date": "2023-04-15",
+  "our_End_Date": "2023-04-16",
+  "colt_Start": "2023-04-15",
+  "colt_End": "2023-04-15",
+  "discrepancias": "TripEndDate: nuestro=2023-04-16 COLT=2023-04-15 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/teaserdocument/?pdmfid=1516831&crid=aac24b2b-eea5-43c1-abb8-940892684d1f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6803-R1F1-DYY9-02MD-00000-00&pddocid=urn%3AcontentItem%3A6803-R1F1-DYY9-02MD-00000-00&pdcontentcomponentid=443607&pdteaserkey=h2&pditab=allpods&ecomp=-znyk&earg=sr4&prid=6c1e6238-1855-4259-a6d0-28d4afdc4a10",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e1ab1a6b-548b-4aa2-96de-c7e06cffdd20&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6815-K931-JCG7-800G-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr11&pditab=allpods&ecomp=-znyk&earg=sr11&prid=734f4c2f-be2a-4889-9607-1e85ae40e9b3",
+   "https://www.barrons.com/articles/trends-shaping-economy-inflation-labor-market-energy-613a493b",
+   "https://twitter.com/LulaOficial/status/1647264900941488134?cxt=HHwWjICx-eSsodwtAAAA"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-GBR-45051",
+  "our_Trip_ID": "242",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United Kingdom",
+  "our_Start_Date": "2023-05-05",
+  "our_End_Date": "2023-05-07",
+  "colt_Start": "2023-05-05",
+  "colt_End": "2023-05-06",
+  "discrepancias": "TripEndDate: nuestro=2023-05-07 COLT=2023-05-06 (dif 1d)",
+  "colt_links": [
+   "https://bnn.network/politics/president-lula-travels-to-london-for-king-charles-iiis-coronation-and-meets-with-sunak/",
+   "https://twitter.com/RishiSunak/status/1654535819875479556",
+   "https://www.barrons.com/news/brazil-s-lula-says-king-charles-urged-him-to-protect-amazon-42e0e854"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-JPN-45064",
+  "our_Trip_ID": "243",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Japan",
+  "our_Start_Date": "2023-05-19",
+  "our_End_Date": "2023-05-21",
+  "colt_Start": "2023-05-18",
+  "colt_End": "2023-05-22",
+  "discrepancias": "TripStartDate: nuestro=2023-05-19 COLT=2023-05-18 (dif 1d) | TripEndDate: nuestro=2023-05-21 COLT=2023-05-22 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4d5d4b4c-297f-4ecf-9a78-b62f70913c54&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A688M-JX01-DYY9-0560-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr16&pditab=allpods&ecomp=kmnyk&earg=sr16&prid=dfa8a0ee-32f9-494c-8574-72da0615bc1a",
+   "https://www.gettyimages.com/detail/news-photo/frances-president-emmanuel-macron-shakes-hands-with-brazils-news-photo/1256353831?adppopup=true",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=b2de057d-afbf-4081-b03e-132c6b121ce2&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A688W-1701-JCG7-84MB-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=-znyk&earg=sr1&prid=37ffb544-97e0-4bed-92b6-73152822b33f",
+   "https://www.gov.br/planalto/en/latest-news/lula-meets-with-prominent-businesspersons-in-japan",
+   "https://www.gov.br/planalto/en/latest-news/lula-announces-that-brazil-will-back-the-african-unions-entry-to-g20",
+   "https://www.gov.br/planalto/en/latest-news/lula-and-the-prime-minister-of-vietnam-discuss-the-expansion-of-trade",
+   "https://www.gov.br/planalto/en/latest-news/lula-discusses-paths-toward-world-peace-with-un-secretary-general-antonio-guterres",
+   "https://www.gov.br/planalto/en/latest-news/lula-and-the-prime-minister-of-india-discuss-peace-at-a-bilateral-meeting-in-japan",
+   "https://www.gov.br/planalto/en/latest-news/speech-by-president-lula-at-session-8-of-g7",
+   "https://www.gov.br/planalto/en/latest-news/lula-discusses-trade-and-climate-change-with-justin-trudeau",
+   "https://www.gov.br/planalto/en/latest-news/president-lula-talks-with-the-imf-managing-director-at-the-g7-summit",
+   "https://www.gov.br/planalto/en/latest-news/brazil-signs-joint-declaration-on-food-security-at-g7-summit",
+   "https://www.gov.br/planalto/en/latest-news/lula-highlights-the-protection-of-the-worlds-tropical-rainforests-in-meeting-with-the-president-of-indonesia"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-FRA-45098",
+  "our_Trip_ID": "245",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "France",
+  "our_Start_Date": "2023-06-22",
+  "our_End_Date": "2023-06-23",
+  "colt_Start": "2023-06-21",
+  "colt_End": "2023-06-24",
+  "discrepancias": "TripStartDate: nuestro=2023-06-22 COLT=2023-06-21 (dif 1d) | TripEndDate: nuestro=2023-06-23 COLT=2023-06-24 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=77bd179b-8aa4-4365-b702-7e0bf83aaa88&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68J3-J5P1-DYY9-032X-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=kmnyk&earg=sr2&prid=aea9830f-7c57-4689-b45e-865e9c69beef",
+   "https://www.gettyimages.com/detail/news-photo/french-president-emmanuel-macron-escorts-brazils-president-news-photo/1258967761?adppopup=true",
+   "https://www.gettyimages.com/detail/news-photo/brazilian-president-luiz-inacio-lula-da-silva-shakes-hands-news-photo/1259092590?adppopup=true",
+   "https://euro.eseuro.com/lifestyle/520457.html",
+   "https://www.dw.com/en/lula-in-paris-the-eus-uncomfortable-preferred-partner/a-65945936"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-BEL-45123",
+  "our_Trip_ID": "246",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Belgium",
+  "our_Start_Date": "2023-07-17",
+  "our_End_Date": "2023-07-18",
+  "colt_Start": "2023-07-16",
+  "colt_End": "2023-07-19",
+  "discrepancias": "TripStartDate: nuestro=2023-07-17 COLT=2023-07-16 (dif 1d) | TripEndDate: nuestro=2023-07-18 COLT=2023-07-19 (dif 1d)",
+  "colt_links": [
+   "https://www.pbs.org/newshour/world/eu-and-latin-american-leaders-hold-a-summit-hoping-to-rekindle-a-long-lost-relationship",
+   "https://www.rfi.fr/es/am%C3%A9ricas/20230716-el-presidente-brasile%C3%B1o-lula-da-silva-llega-a-bruselas-para-cumbre-celac-ue",
+   "https://elpais.com/internacional/2023-07-19/lula-da-silva-pocas-veces-he-visto-tanto-interes-economico-y-politico-de-la-ue-hacia-america-latina.html",
+   "https://www.elpais.com.uy/informacion/politica/cumbre-union-europea-celac-lacalle-pou-espera-por-avance-en-la-negociacion-del-acuerdo-con-el-mercosur",
+   "https://twitter.com/miaamormottley/status/1680926800308850689"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ZAF-45159",
+  "our_Trip_ID": "247",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "South Africa",
+  "our_Start_Date": "2023-08-22",
+  "our_End_Date": "2023-08-24",
+  "colt_Start": "2023-08-21",
+  "colt_End": "2023-08-24",
+  "discrepancias": "TripStartDate: nuestro=2023-08-22 COLT=2023-08-21 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=552881c6-7c5a-4846-86b6-e4a8d1adad6a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6913-SFM1-DYY9-02P1-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr17&pditab=allpods&ecomp=kmnyk&earg=sr17&prid=6082eb1c-c32e-45ca-b903-6640b026ede5",
+   "https://twitter.com/LulaOficial/status/1694062152196161726?s=20",
+   "https://www.gettyimages.com/detail/news-photo/brazils-president-luiz-inacio-lula-da-silva-chinas-news-photo/1618750786",
+   "https://www.gettyimages.com/detail/news-photo/iranian-president-ebrahim-raisi-meets-with-brazilian-news-photo/1621818967?adppopup=true"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-IND-45176",
+  "our_Trip_ID": "248",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "India",
+  "our_Start_Date": "2023-09-08",
+  "our_End_Date": "2023-09-11",
+  "colt_Start": "2023-09-07",
+  "colt_End": "2023-09-11",
+  "discrepancias": "TripStartDate: nuestro=2023-09-08 COLT=2023-09-07 (dif 1d)",
+  "colt_links": [
+   "https://www.gettyimages.com/detail/news-photo/prime-minister-narendra-modi-of-india-welcomes-president-of-news-photo/1669160378?adppopup=true",
+   "https://x.com/LulaOficial/status/1700847089159119290?s=20",
+   "https://media.gettyimages.com/id/1658540762/photo/brazilian-president-luiz-inacio-lula-da-silva-speaks-at-a-press-conference-a-day-after-the.jpg?s=612x612&w=0&k=20&c=3kO6QbNxBkAbbyCtJnePCXdrNn7Z3hPCsijxo82PJGw=",
+   "https://www.cnbc.com/2023/09/09/g20-african-union-au.html",
+   "https://www.gov.br/mre/en/contact-us/press-area/press-releases/joint-declaration-between-brazil-india-south-africa-and-the-united-states"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-45186",
+  "our_Trip_ID": "250",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2023-09-18",
+  "our_End_Date": "2023-09-21",
+  "colt_Start": "2023-09-17",
+  "colt_End": "2023-09-23",
+  "discrepancias": "TripStartDate: nuestro=2023-09-18 COLT=2023-09-17 (dif 1d) | TripEndDate: nuestro=2023-09-21 COLT=2023-09-23 (dif 2d)",
+  "colt_links": [
+   "https://gadebate.un.org/en/78/brazil",
+   "https://www.gettyimages.com/detail/news-photo/president-joe-biden-meets-with-brazilian-president-luiz-news-photo/1677851983?adppopup=true",
+   "https://www.pressdemocrat.com/article/news/brazils-lula-pitches-his-nation-and-himself-as-fresh-leader-for-global/",
+   "https://www.gettyimages.com/detail/news-photo/brazilian-president-luiz-inacio-lula-da-silva-meets-with-news-photo/1676995930?adppopup=true"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-DEU-45263",
+  "our_Trip_ID": "253",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Germany",
+  "our_Start_Date": "2023-12-03",
+  "our_End_Date": "2023-12-04",
+  "colt_Start": "2023-12-03",
+  "colt_End": "2023-12-05",
+  "discrepancias": "TripEndDate: nuestro=2023-12-04 COLT=2023-12-05 (dif 1d)",
+  "colt_links": [
+   "https://www.reuters.com/world/lula-berlin-first-brazil-germany-talks-eight-years-2023-12-03/",
+   "https://www.gov.br/planalto/en/latest-news/lula-visits-berlin-to-consolidate-resumption-of-strategic-partnership-between-brazil-and-germany",
+   "https://www.gov.br/planalto/en/latest-news/lula-and-olaf-scholz-defend-ecological-transition-while-also-promoting-social-justice"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ETH-45337",
+  "our_Trip_ID": "255",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Ethiopia",
+  "our_Start_Date": "2024-02-17",
+  "our_End_Date": "2024-02-18",
+  "colt_Start": "2024-02-15",
+  "colt_End": "2024-02-18",
+  "discrepancias": "TripStartDate: nuestro=2024-02-17 COLT=2024-02-15 (dif 2d)",
+  "colt_links": [
+   "https://www.gov.br/planalto/en/latest-news/2024/02/official-trip-to-egypt-and-ethiopia-is-on-president-lula2019s-agenda-next-week",
+   "https://www.gov.br/planalto/en/latest-news/2024/02/lula-begins-visit-to-ethiopia-to-take-part-in-the-african-union-summit",
+   "https://www.gov.br/planalto/en/latest-news/2024/02/lula-se-encontra-com-primeiro-ministro-da-autoridade-palestina-mohammad-shtayyeh",
+   "https://www.gov.br/planalto/en/latest-news/2024/02/lula-desenvolvimento-nao-pode-continuar-sendo-privilegio-de-poucos",
+   "https://twitter.com/govbr/status/1758777857096974700"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-GUY-45350",
+  "our_Trip_ID": "256",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Guyana",
+  "our_Start_Date": "2024-02-28",
+  "our_End_Date": "2024-02-29",
+  "colt_Start": "2024-02-28",
+  "colt_End": "2024-02-28",
+  "discrepancias": "TripEndDate: nuestro=2024-02-29 COLT=2024-02-28 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=3fefb345-f3b9-4793-b8a0-3775968bdab0&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BFD-DY01-DYY9-01DV-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=tmnyk&earg=sr2&prid=e9c9e9c2-b39b-4f5f-b2e3-977bd99e28a2",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=832979bf-75c2-4532-a241-1e8debcbafc2&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BFD-DXJ1-JCG7-832H-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=tmnyk&earg=sr4&prid=e023b1b1-6ef6-420d-920a-6fabf8b6421d",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=0b4b2fbd-fe0b-4b4c-b71a-cc956a600732&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BFM-5491-DYRV-30NR-00000-00&pdcontentcomponentid=10962&pdteaserkey=sr2&pditab=allpods&ecomp=tmnyk&earg=sr2&prid=e023b1b1-6ef6-420d-920a-6fabf8b6421d"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-VCT-45351",
+  "our_Trip_ID": "257",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Saint Vincent and the Grenadines",
+  "our_Start_Date": "2024-03-01",
+  "our_End_Date": "2024-03-01",
+  "colt_Start": "2024-02-29",
+  "colt_End": "2024-03-01",
+  "discrepancias": "TripStartDate: nuestro=2024-03-01 COLT=2024-02-29 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=956626af-35ac-463b-96be-d99f7456bb20&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BFV-CBX1-JCG7-82SC-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=tmnyk&earg=sr0&prid=854b006d-9313-4ade-a566-606fc62ca7e5",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=83f8960e-d70c-42b8-9b57-11cd0031dc0a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BF0-GXB1-DYY9-04Y8-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=tmnyk&earg=sr2&prid=854b006d-9313-4ade-a566-606fc62ca7e5",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=2721cb6c-9f7b-483c-b379-af276d21ec51&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BFV-CB01-DYY9-0157-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=tmnyk&earg=sr4&prid=854b006d-9313-4ade-a566-606fc62ca7e5"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-CHL-45508",
+  "our_Trip_ID": "259",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Chile",
+  "our_Start_Date": "2024-08-05",
+  "our_End_Date": "2024-08-06",
+  "colt_Start": "2024-08-04",
+  "colt_End": "2024-08-06",
+  "discrepancias": "TripStartDate: nuestro=2024-08-05 COLT=2024-08-04 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=6d5e26a7-bf29-4cdb-8ade-a6a39b84eac4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CMN-P9R1-DYY9-01BP-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=1c83d683-393c-4af3-95e9-56dbd3d7792e",
+   "https://twitter.com/LulaOficial/status/1820519749089959968",
+   "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-08-04",
+   "https://twitter.com/LulaOficial/status/1820601463540003225",
+   "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-08-05",
+   "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-08-06"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-45556",
+  "our_Trip_ID": "260",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2024-09-22",
+  "our_End_Date": "2024-09-24",
+  "colt_Start": "2024-09-21",
+  "colt_End": "2024-09-29",
+  "discrepancias": "TripStartDate: nuestro=2024-09-22 COLT=2024-09-21 (dif 1d) | TripEndDate: nuestro=2024-09-24 COLT=2024-09-29 (dif 5d)",
+  "colt_links": [
+   "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-09-21",
+   "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-09-23",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=e64c069d-d4a4-4f2f-9c3f-8aa2a9dfada6&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6D26-4WD1-DYY9-03PR-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=5657d7f6-75df-4e29-99e4-b305f8015be8"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-URY-45716",
+  "our_Trip_ID": "262",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Uruguay",
+  "our_Start_Date": "2025-03-01",
+  "our_End_Date": "2025-03-01",
+  "colt_Start": "2025-02-28",
+  "colt_End": "2025-03-01",
+  "discrepancias": "TripStartDate: nuestro=2025-03-01 COLT=2025-02-28 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=80a357b4-5dc9-4207-bb38-f02c2dcb90a1&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6F7D-DB83-RSK4-R1F3-00000-00&pdcontentcomponentid=475001&pdteaserkey=sr6&pditab=allpods&ecomp=hc-yk&earg=sr6&prid=ea634b0d-c6da-4829-9055-cee6b08ba9d7",
+   "https://www.gov.br/planalto/en/latest-news/2025/03/lula-reinforces-historic-partnership-between-brazil-and-uruguay-to-promote-south-american-integration",
+   "https://apnews.com/article/uruguay-president-inauguration-congress-elections-rightwing-leftist-a5d37022c0bbb9615c5bc8f18eaecb29"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-HND-45755",
+  "our_Trip_ID": "265",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Honduras",
+  "our_Start_Date": "2025-04-09",
+  "our_End_Date": "2025-04-09",
+  "colt_Start": "2025-04-08",
+  "colt_End": "2025-04-09",
+  "discrepancias": "TripStartDate: nuestro=2025-04-09 COLT=2025-04-08 (dif 1d)",
+  "colt_links": [
+   "https://www.gov.br/planalto/en/latest-news/2025/04/president-lula-attends-celac-summit-in-honduras-strengthening-regional-integration",
+   "https://www.gov.br/planalto/en/latest-news/2025/04/lula-latin-america-and-the-caribbean-must-redefine-their-place-in-the-new-global-order",
+   "https://x.com/govbr/status/1909917820353208727",
+   "https://www.gov.br/planalto/en/latest-news/2025/04/lula-proposes-brazil2013mexico-business-events-in-talks-with-president-sheinbaum",
+   "https://x.com/LulaOficial/status/1910069458594373920"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-RUS-45783",
+  "our_Trip_ID": "266",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Russia",
+  "our_Start_Date": "2025-05-08",
+  "our_End_Date": "2025-05-10",
+  "colt_Start": "2025-05-06",
+  "colt_End": "2025-05-10",
+  "discrepancias": "TripStartDate: nuestro=2025-05-08 COLT=2025-05-06 (dif 2d)",
+  "colt_links": [
+   "https://x.com/LulaOficial/status/1920154001544269868",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=82def379-ee77-4e9e-bdf4-dd278fb5430f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6FSB-H9Y3-RS0T-04WS-00000-00&pdcontentcomponentid=8058&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=2dcd9e67-dec7-42a1-a9af-fcb2bd500356",
+   "https://www.gov.br/planalto/en/latest-news/2025/05/lula-at-bilateral-meeting-with-putin-201cstrengthening-the-construction-of-a-strategic-partnership201d",
+   "https://www.gov.br/planalto/en/latest-news/2025/05/lula-on-foreign-trade-with-russia-201cbrazil-cannot-miss-any-opportunity201d",
+   "https://x.com/LulaOficial/status/1920904439604334830"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-CHN-45787",
+  "our_Trip_ID": "267",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "China",
+  "our_Start_Date": "2025-05-12",
+  "our_End_Date": "2025-05-13",
+  "colt_Start": "2025-05-10",
+  "colt_End": "2025-05-13",
+  "discrepancias": "TripStartDate: nuestro=2025-05-12 COLT=2025-05-10 (dif 2d)",
+  "colt_links": [
+   "https://x.com/LulaOficial/status/1921256746082820485",
+   "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2025/05/primeiro-compromisso-oficial-de-lula-na-china-resulta-no-anuncio-de-investimentos-de-us-1-bi-para-producao-de-saf-no-brasil",
+   "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2025/05/na-china-lula-participa-de-assinatura-de-acordos-com-empresas-chinesas-na-area-de-saude",
+   "https://www.gov.br/planalto/en/latest-news/2025/05/lula-celebrates-results-of-his-visit-to-china-201cour-relationship-is-very-strategic201d",
+   "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2025/05/forum-empresarial-brasil-china-celebra-r-27-bilhoes-em-investimentos-de-empresas-dos-dois-paises",
+   "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2025/05/201cdefesa-do-multilateralismo-e-uma-tarefa-urgente-e-necessaria201d-afirma-lula-em-assinatura-de-atos-de-cooperacao-com-a-china",
+   "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2025/05/201co-apoio-chines-e-decisivo-para-tirar-do-papel-rodovias-ferrovias-portos-e-linhas-de-transmissao201d-diz-lula-em-pequim",
+   "https://x.com/LulaOficial/status/1922331150661636606"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-FRA-45811",
+  "our_Trip_ID": "268",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "France",
+  "our_Start_Date": "2025-06-05",
+  "our_End_Date": "2025-06-06",
+  "colt_Start": "2025-06-03",
+  "colt_End": "2025-06-09",
+  "discrepancias": "TripStartDate: nuestro=2025-06-05 COLT=2025-06-03 (dif 2d) | TripEndDate: nuestro=2025-06-06 COLT=2025-06-09 (dif 3d)",
+  "colt_links": [
+   "https://x.com/LulaOficial/status/1930049773983191328",
+   "https://www.gov.br/planalto/en/latest-news/2025/06/lula-and-macron-strengthen-bilateral-relations-humanism-at-the-service-of-progress",
+   "https://www.gov.br/planalto/en/latest-news/2025/06/tribute-with-eiffel-tower-in-brazilian-colors-marks-the-end-of-lula2019s-first-day-on-state-visit-to-france",
+   "https://www.gov.br/planalto/en/latest-news/2025/06/lula-emphasizes-the-emancipating-potential-of-education-upon-receiving-honorary-doctorate-in-france",
+   "https://www.gov.br/planalto/en/latest-news/2025/06/brazil-france-business-forum-lula-is-determined-to-elevate-strategic-partnership-with-european-country",
+   "https://www.gov.br/planalto/en/latest-news/2025/06/lula-french-businesspeople-announce-brl-100-billion-in-investments-in-brazil-in-the-next-five-years",
+   "https://x.com/LulaOficial/status/1931702959609417785",
+   "https://www.gov.br/planalto/en/latest-news/2025/06/lula-strengthens-partnership-with-interpol-to-counter-organized-crime"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-45922",
+  "our_Trip_ID": "269",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2025-09-23",
+  "our_End_Date": "2025-09-24",
+  "colt_Start": "2025-09-22",
+  "colt_End": "2025-09-26",
+  "discrepancias": "TripStartDate: nuestro=2025-09-23 COLT=2025-09-22 (dif 1d) | TripEndDate: nuestro=2025-09-24 COLT=2025-09-26 (dif 2d)",
+  "colt_links": [
+   "https://www.gettyimages.com/detail/news-photo/president-of-brazil-luiz-in%C3%A1cio-lula-da-silva-speaks-during-news-photo/2236918234?adppopup=true",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=a8a4ab4b-79df-475d-8232-cd4618a864cc&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6GTK-HTK3-RT5S-D3XP-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr12&pditab=allpods&ecomp=hc-yk&earg=sr12&prid=1d244af8-5b28-4da8-b761-3b162eebc197",
+   "https://www.instagram.com/p/DPEK-jvjsYj/?img_index=1",
+   "https://news.un.org/en/story/2025/09/1165920",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=e2de4012-79f6-49f6-b773-e64e8107d99c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6GTT-H533-RYDP-G3KH-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=f8c69def-21f3-4b96-afb7-438d2c055d03"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ZAF-45982",
+  "our_Trip_ID": "279",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "South Africa",
+  "our_Start_Date": "2025-11-21",
+  "our_End_Date": "2025-11-23",
+  "colt_Start": "2025-11-21",
+  "colt_End": "2025-11-24",
+  "discrepancias": "TripEndDate: nuestro=2025-11-23 COLT=2025-11-24 (dif 1d)",
+  "colt_links": [
+   "https://www.facebook.com/Lula/posts/pfbid0NCwgShVVd7EaMB1Ka6BYuXmShFj5B8fXXFctyTmq2ZcCM5Te1NDyG65GA4wA66Kal",
+   "https://www.facebook.com/Lula/posts/pfbid0258dDhgf1jbAEzndsSUVABopM7bYVAQFeRkTnALnzB8ctBja3HCa4NUxk43uyGxcHl",
+   "https://x.com/bundeskanzler/status/1992250814694600846?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1992250814694600846%7Ctwgr%5Ee7d94e2b0f1d067e17836edf0fe43f69a1880eef%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.dw.com%2Fen%2Fgermanys-merz-brazils-lula-reconcile-after-belem-comments%2Fa-74850206",
+   "https://www.facebook.com/reel/1329820405586882/",
+   "https://en.baochinhphu.vn/prime-minister-meets-foreign-leaders-on-sidelines-of-g20-summit-111251122204526559.htm",
+   "https://x.com/LulaOficial/status/1992522863924969821",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=d6e5dea9-4720-4921-8700-e00efba728c3&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6H8D-F6N3-RYX5-8062-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr52&pditab=allpods&ecomp=hc-yk&earg=sr52&prid=b3c7b65b-36e8-42b2-b75f-701436f8e2df",
+   "https://www.pm.gc.ca/en/news/readouts/2025/11/23/prime-minister-carney-meets-president-brazil-luiz-inacio-lula-da-silva",
+   "https://www.facebook.com/MFAEthiopia/posts/pfbid0rwi4F3txEuoGSZfW6ho8MYxhUZfHuxA32ZibffUoDZhzCRYCUZ5PwL6y3i89NYqWl"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-40077",
+  "our_Trip_ID": "286",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2009-09-24",
+  "our_End_Date": "2009-09-25",
+  "colt_Start": "2009-09-21",
+  "colt_End": "2009-09-25",
+  "discrepancias": "TripStartDate: nuestro=2009-09-24 COLT=2009-09-21 (dif 3d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-BOL-45481",
+  "our_Trip_ID": "287",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Bolivia",
+  "our_Start_Date": "2024-07-09",
+  "our_End_Date": "2024-07-09",
+  "colt_Start": "2024-07-08",
+  "colt_End": "2024-07-09",
+  "discrepancias": "TripStartDate: nuestro=2024-07-09 COLT=2024-07-08 (dif 1d)",
+  "colt_links": [
+   "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-07-09",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=73f87b27-95b9-49c3-9b50-628e5a015f90&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CFJ-CTJ1-DYY9-01YH-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=53f189fc-3151-42d2-9e97-cfc099349a35"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-PRY-39261",
+  "our_Trip_ID": "290",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Paraguay",
+  "our_Start_Date": "2007-06-27",
+  "our_End_Date": "2007-06-27",
+  "colt_Start": "2007-06-28",
+  "colt_End": "2007-06-29",
+  "discrepancias": "TripStartDate: nuestro=2007-06-27 COLT=2007-06-28 (dif 1d) | TripEndDate: nuestro=2007-06-27 COLT=2007-06-29 (dif 2d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-MEX-39299",
+  "our_Trip_ID": "291",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Mexico",
+  "our_Start_Date": "2007-08-06",
+  "our_End_Date": "2007-08-06",
+  "colt_Start": "2007-08-05",
+  "colt_End": "2007-08-07",
+  "discrepancias": "TripStartDate: nuestro=2007-08-06 COLT=2007-08-05 (dif 1d) | TripEndDate: nuestro=2007-08-06 COLT=2007-08-07 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-NIC-39301",
+  "our_Trip_ID": "293",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Nicaragua",
+  "our_Start_Date": "2007-08-08",
+  "our_End_Date": "2007-08-08",
+  "colt_Start": "2007-08-07",
+  "colt_End": "2007-08-08",
+  "discrepancias": "TripStartDate: nuestro=2007-08-08 COLT=2007-08-07 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N101_2Sem_2007.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-PAN-39303",
+  "our_Trip_ID": "295",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Panama",
+  "our_Start_Date": "2007-08-10",
+  "our_End_Date": "2007-08-10",
+  "colt_Start": "2007-08-09",
+  "colt_End": "2007-08-10",
+  "discrepancias": "TripStartDate: nuestro=2007-08-10 COLT=2007-08-09 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-BOL-39432",
+  "our_Trip_ID": "296",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Bolivia",
+  "our_Start_Date": "2007-12-17",
+  "our_End_Date": "2007-12-17",
+  "colt_Start": "2007-12-16",
+  "colt_End": "2007-12-17",
+  "discrepancias": "TripStartDate: nuestro=2007-12-17 COLT=2007-12-16 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-URY-39433",
+  "our_Trip_ID": "297",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Uruguay",
+  "our_Start_Date": "2007-12-18",
+  "our_End_Date": "2007-12-18",
+  "colt_Start": "2007-12-17",
+  "colt_End": "2007-12-18",
+  "discrepancias": "TripStartDate: nuestro=2007-12-18 COLT=2007-12-17 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-PRY-40018",
+  "our_Trip_ID": "298",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Paraguay",
+  "our_Start_Date": "2009-07-24",
+  "our_End_Date": "2009-07-24",
+  "colt_Start": "2009-07-24",
+  "colt_End": "2009-07-25",
+  "discrepancias": "TripEndDate: nuestro=2009-07-24 COLT=2009-07-25 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/resenha105_2_2009.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ECU-40034",
+  "our_Trip_ID": "299",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Ecuador",
+  "our_Start_Date": "2009-08-10",
+  "our_End_Date": "2009-08-10",
+  "colt_Start": "2009-08-09",
+  "colt_End": "2009-08-10",
+  "discrepancias": "TripStartDate: nuestro=2009-08-10 COLT=2009-08-09 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ARG-40052",
+  "our_Trip_ID": "301",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2009-08-28",
+  "our_End_Date": "2009-08-28",
+  "colt_Start": "2009-08-27",
+  "colt_End": "2009-08-28",
+  "discrepancias": "TripStartDate: nuestro=2009-08-28 COLT=2009-08-27 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-CUB-39461",
+  "our_Trip_ID": "304",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Cuba",
+  "our_Start_Date": "2008-01-15",
+  "our_End_Date": "2008-01-15",
+  "colt_Start": "2008-01-14",
+  "colt_End": "2008-01-15",
+  "discrepancias": "TripStartDate: nuestro=2008-01-15 COLT=2008-01-14 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-COL-40396",
+  "our_Trip_ID": "309",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Colombia",
+  "our_Start_Date": "2010-08-07",
+  "our_End_Date": "2010-08-07",
+  "colt_Start": "2010-08-06",
+  "colt_End": "2010-08-07",
+  "discrepancias": "TripStartDate: nuestro=2010-08-07 COLT=2010-08-06 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-NLD-39547",
+  "our_Trip_ID": "310",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Netherlands",
+  "our_Start_Date": "2008-04-10",
+  "our_End_Date": "2008-04-11",
+  "colt_Start": "2008-04-09",
+  "colt_End": "2008-04-11",
+  "discrepancias": "TripStartDate: nuestro=2008-04-10 COLT=2008-04-09 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-GHA-39557",
+  "our_Trip_ID": "312",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Ghana",
+  "our_Start_Date": "2008-04-20",
+  "our_End_Date": "2008-04-21",
+  "colt_Start": "2008-04-19",
+  "colt_End": "2008-04-21",
+  "discrepancias": "TripStartDate: nuestro=2008-04-20 COLT=2008-04-19 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ITA-39761",
+  "our_Trip_ID": "313",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Italy",
+  "our_Start_Date": "2008-11-10",
+  "our_End_Date": "2008-11-12",
+  "colt_Start": "2008-11-09",
+  "colt_End": "2008-11-12",
+  "discrepancias": "TripStartDate: nuestro=2008-11-10 COLT=2008-11-09 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-KAZ-39980",
+  "our_Trip_ID": "314",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Kazakhstan",
+  "our_Start_Date": "2009-06-17",
+  "our_End_Date": "2009-06-17",
+  "colt_Start": "2009-06-16",
+  "colt_End": "2009-06-17",
+  "discrepancias": "TripStartDate: nuestro=2009-06-17 COLT=2009-06-16 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_numero_104_1_2009.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-SLV-39964",
+  "our_Trip_ID": "315",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "El Salvador",
+  "our_Start_Date": "2009-06-01",
+  "our_End_Date": "2009-06-01",
+  "colt_Start": "2009-05-31",
+  "colt_End": "2009-06-01",
+  "discrepancias": "TripStartDate: nuestro=2009-06-01 COLT=2009-05-31 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-PRT-40146",
+  "our_Trip_ID": "316",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Portugal",
+  "our_Start_Date": "2009-11-29",
+  "our_End_Date": "2009-12-01",
+  "colt_Start": "2009-11-29",
+  "colt_End": "2009-11-30",
+  "discrepancias": "TripEndDate: nuestro=2009-12-01 COLT=2009-11-30 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-VEN-41340",
+  "our_Trip_ID": "317",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Venezuela",
+  "our_Start_Date": "2013-03-08",
+  "our_End_Date": "2013-03-08",
+  "colt_Start": "2013-03-07",
+  "colt_End": "2013-03-07",
+  "discrepancias": "TripStartDate: nuestro=2013-03-08 COLT=2013-03-07 (dif 1d) | TripEndDate: nuestro=2013-03-08 COLT=2013-03-07 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+  ]
+ },
+ {
+  "colt_TripID": "2652-BRA-CHL-41709",
+  "our_Trip_ID": "318",
+  "President": "Dilma Rousseff",
+  "Destination_Country": "Chile",
+  "our_Start_Date": "2014-03-10",
+  "our_End_Date": "2014-03-11",
+  "colt_Start": "2014-03-11",
+  "colt_End": "2014-03-11",
+  "discrepancias": "TripStartDate: nuestro=2014-03-10 COLT=2014-03-11 (dif 1d)",
+  "colt_links": [
+   "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2014/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-PRT-37811",
+  "our_Trip_ID": "323",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Portugal",
+  "our_Start_Date": "2003-07-10",
+  "our_End_Date": "2003-07-12",
+  "colt_Start": "2003-07-09",
+  "colt_End": "2003-07-10",
+  "discrepancias": "TripStartDate: nuestro=2003-07-10 COLT=2003-07-09 (dif 1d) | TripEndDate: nuestro=2003-07-12 COLT=2003-07-10 (dif 2d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-GBR-37813",
+  "our_Trip_ID": "324",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United Kingdom",
+  "our_Start_Date": "2003-07-13",
+  "our_End_Date": "2003-07-14",
+  "colt_Start": "2003-07-11",
+  "colt_End": "2003-07-14",
+  "discrepancias": "TripStartDate: nuestro=2003-07-13 COLT=2003-07-11 (dif 2d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ESP-37817",
+  "our_Trip_ID": "325",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2003-07-14",
+  "our_End_Date": "2003-07-16",
+  "colt_Start": "2003-07-15",
+  "colt_End": "2003-07-16",
+  "discrepancias": "TripStartDate: nuestro=2003-07-14 COLT=2003-07-15 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-VEN-37858",
+  "our_Trip_ID": "328",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Venezuela",
+  "our_Start_Date": "2003-08-26",
+  "our_End_Date": "2003-08-26",
+  "colt_Start": "2003-08-25",
+  "colt_End": "2003-08-26",
+  "discrepancias": "TripStartDate: nuestro=2003-08-26 COLT=2003-08-25 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-MEX-37886",
+  "our_Trip_ID": "329",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Mexico",
+  "our_Start_Date": "2003-09-25",
+  "our_End_Date": "2003-09-26",
+  "colt_Start": "2003-09-22",
+  "colt_End": "2003-09-23",
+  "discrepancias": "TripStartDate: nuestro=2003-09-25 COLT=2003-09-22 (dif 3d) | TripEndDate: nuestro=2003-09-26 COLT=2003-09-23 (dif 3d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N93_2Sem_2003.pdf",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ARG-37909",
+  "our_Trip_ID": "330",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2003-10-16",
+  "our_End_Date": "2003-10-17",
+  "colt_Start": "2003-10-15",
+  "colt_End": "2003-10-18",
+  "discrepancias": "TripStartDate: nuestro=2003-10-16 COLT=2003-10-15 (dif 1d) | TripEndDate: nuestro=2003-10-17 COLT=2003-10-18 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N93_2Sem_2003.pdf",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ESP-37918",
+  "our_Trip_ID": "331",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2003-10-23",
+  "our_End_Date": "2003-10-24",
+  "colt_Start": "2003-10-24",
+  "colt_End": "2003-10-24",
+  "discrepancias": "TripStartDate: nuestro=2003-10-23 COLT=2003-10-24 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-UKR-38129",
+  "our_Trip_ID": "332",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Ukraine",
+  "our_Start_Date": "2004-05-21",
+  "our_End_Date": "2004-05-21",
+  "colt_Start": "2004-05-22",
+  "colt_End": "2004-05-22",
+  "discrepancias": "TripStartDate: nuestro=2004-05-21 COLT=2004-05-22 (dif 1d) | TripEndDate: nuestro=2004-05-21 COLT=2004-05-22 (dif 1d)",
+  "colt_links": [
+   "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-BOL-38176",
+  "our_Trip_ID": "334",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Bolivia",
+  "our_Start_Date": "2004-07-09",
+  "our_End_Date": "2004-07-09",
+  "colt_Start": "2004-07-08",
+  "colt_End": "2004-07-08",
+  "discrepancias": "TripStartDate: nuestro=2004-07-09 COLT=2004-07-08 (dif 1d) | TripEndDate: nuestro=2004-07-09 COLT=2004-07-08 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N95_2Sem_2004.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-DOM-38214",
+  "our_Trip_ID": "336",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Dominican Republic",
+  "our_Start_Date": "2004-08-16",
+  "our_End_Date": "2004-08-17",
+  "colt_Start": "2004-08-15",
+  "colt_End": "2004-08-18",
+  "discrepancias": "TripStartDate: nuestro=2004-08-16 COLT=2004-08-15 (dif 1d) | TripEndDate: nuestro=2004-08-17 COLT=2004-08-18 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view",
+   "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N95_2Sem_2004.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-CHL-38221",
+  "our_Trip_ID": "338",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Chile",
+  "our_Start_Date": "2004-08-23",
+  "our_End_Date": "2004-08-24",
+  "colt_Start": "2004-08-22",
+  "colt_End": "2004-08-24",
+  "discrepancias": "TripStartDate: nuestro=2004-08-23 COLT=2004-08-22 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-CHE-38379",
+  "our_Trip_ID": "341",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Switzerland",
+  "our_Start_Date": "2005-01-28",
+  "our_End_Date": "2005-01-29",
+  "colt_Start": "2005-01-27",
+  "colt_End": "2005-01-29",
+  "discrepancias": "TripStartDate: nuestro=2005-01-28 COLT=2005-01-27 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-CMR-38452",
+  "our_Trip_ID": "342",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Cameroon",
+  "our_Start_Date": "2005-04-10",
+  "our_End_Date": "2005-04-10",
+  "colt_Start": "2005-04-10",
+  "colt_End": "2005-04-11",
+  "discrepancias": "TripEndDate: nuestro=2005-04-10 COLT=2005-04-11 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-38608",
+  "our_Trip_ID": "347",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2005-09-14",
+  "our_End_Date": "2005-09-14",
+  "colt_Start": "2005-09-13",
+  "colt_End": "2005-09-15",
+  "discrepancias": "TripStartDate: nuestro=2005-09-14 COLT=2005-09-13 (dif 1d) | TripEndDate: nuestro=2005-09-14 COLT=2005-09-15 (dif 1d)",
+  "colt_links": [
+   "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-USA-37202",
+  "our_Trip_ID": "350",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2001-11-10",
+  "our_End_Date": "2001-11-10",
+  "colt_Start": "2001-11-07",
+  "colt_End": "2001-11-11",
+  "discrepancias": "TripStartDate: nuestro=2001-11-10 COLT=2001-11-07 (dif 3d) | TripEndDate: nuestro=2001-11-10 COLT=2001-11-11 (dif 1d)",
+  "colt_links": [
+   "http://www1.folha.uol.com.br/folha/brasil/ult96u26573.shtml",
+   "http://politica.estadao.com.br/noticias/geral,fhc-e-bush-discutiram-argentina-e-onu,20011108p40917",
+   "https://wnc-eastview-com.du.idm.oclc.org/wnc/article?id=36550366"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-BOL-37069",
+  "our_Trip_ID": "354",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Bolivia",
+  "our_Start_Date": "2001-06-26",
+  "our_End_Date": "2001-06-27",
+  "colt_Start": "2001-06-27",
+  "colt_End": "2001-06-28",
+  "discrepancias": "TripStartDate: nuestro=2001-06-26 COLT=2001-06-27 (dif 1d) | TripEndDate: nuestro=2001-06-27 COLT=2001-06-28 (dif 1d)",
+  "colt_links": [
+   "http://www1.folha.uol.com.br/fsp/brasil/fc2206200117.htm",
+   "Bolivia: Press Highlights 26 June 01 BBC Monitoring Americas"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-ARG-36705",
+  "our_Trip_ID": "355",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2000-06-29",
+  "our_End_Date": "2000-06-30",
+  "colt_Start": "2000-06-28",
+  "colt_End": "2000-06-30",
+  "discrepancias": "TripStartDate: nuestro=2000-06-29 COLT=2000-06-28 (dif 1d)",
+  "colt_links": [
+   "http://www.mercosur.int/msweb/portal%20intermediario/normas/listados/DECISIONES.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-URY-37245",
+  "our_Trip_ID": "356",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Uruguay",
+  "our_Start_Date": "2001-12-21",
+  "our_End_Date": "2001-12-21",
+  "colt_Start": "2001-12-20",
+  "colt_End": "2001-12-21",
+  "discrepancias": "TripStartDate: nuestro=2001-12-21 COLT=2001-12-20 (dif 1d)",
+  "colt_links": [
+   "http://www.mercosur.int/msweb/portal%20intermediario/normas/listados/DECISIONES.pdf"
+  ]
+ },
+ {
+  "colt_TripID": "994-BRA-ARG-37304",
+  "our_Trip_ID": "357",
+  "President": "Fernando Henrique Cardoso",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2002-02-18",
+  "our_End_Date": "2002-02-18",
+  "colt_Start": "2002-02-17",
+  "colt_End": "2002-02-18",
+  "discrepancias": "TripStartDate: nuestro=2002-02-18 COLT=2002-02-17 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/4ba4f76c-75ac-4f8e-ab9e-958a05082761/?context=1516831",
+   "https://du.idm.oclc.org/login?url=https://www.proquest.com/newspapers/mercosur-summit-begin-argentina/docview/203129177/se-2?accountid=14608",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e41b31d8-e12a-4ed3-8fff-8f55b35c6094/?context=1516831"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-BEN-38757",
+  "our_Trip_ID": "360",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Benin",
+  "our_Start_Date": "2006-02-10",
+  "our_End_Date": "2006-02-10",
+  "colt_Start": "2006-02-09",
+  "colt_End": "2006-02-10",
+  "discrepancias": "TripStartDate: nuestro=2006-02-10 COLT=2006-02-09 (dif 1d)",
+  "colt_links": [
+   "https://www.gettyimages.com/detail/news-photo/brazilian-president-luiz-inacio-lula-da-silva-is-greeted-by-news-photo/56802339?phrase=lula%20da%20silva&adppopup=true",
+   "https://www.gettyimages.com/detail/news-photo/politicians-and-dignitaries-pose-for-a-group-photo-10-news-photo/56814572?phrase=lula%20da%20silva",
+   "https://www.gettyimages.com/detail/news-photo/brazilian-foreign-minister-celso-amorim-listens-to-rogatien-news-photo/56815588?phrase=lula%20da%20silva",
+   "https://www.gettyimages.com/detail/news-photo/brazilian-president-luiz-inacio-lula-da-silva-ouidah-lays-a-news-photo/56822752?phrase=lula%20da%20silva&adppopup=true",
+   "https://www.gettyimages.com/detail/news-photo/the-8th-chacha-local-chief-greets-brazilian-president-luiz-news-photo/56816999?phrase=lula%20da%20silva"
+  ]
+ },
+ {
+  "colt_TripID": "1780-BRA-ARG-45841",
+  "our_Trip_ID": "363",
+  "President": "Luiz Inácio Lula da Silva",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2025-07-02",
+  "our_End_Date": "2025-07-03",
+  "colt_Start": "2025-07-03",
+  "colt_End": "2025-07-03",
+  "discrepancias": "TripStartDate: nuestro=2025-07-02 COLT=2025-07-03 (dif 1d)",
+  "colt_links": [
+   "https://www.gov.br/planalto/en/follow-the-government/speeches-statements/2025/07/statement-by-president-lula-at-the-66th-mercosur-summit",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=9ae66cad-086f-4da5-982b-014c792d7fd7&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6G5W-YKR3-RRTS-04X9-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=hc-yk&earg=sr3&prid=681f1027-5c8c-40ac-be4d-88c66aefd445",
+   "https://www.instagram.com/p/DLpy8iuOvgE/?img_index=1",
+   "https://agenciabrasil.ebc.com.br/en/internacional/noticia/2025-07/brazil-takes-mercosur-presidency-aiming-deeper-integration"
+  ]
+ }
+]

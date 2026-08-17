@@ -1,0 +1,1546 @@
+{
+ "discrepancias": [
+  {
+   "colt_TripID": "2652-BRA-CHN-40643",
+   "our_Trip_ID": "146",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "China",
+   "our_Start_Date": "2011-04-11",
+   "our_End_Date": "2011-04-16",
+   "colt_Start": "2011-04-10",
+   "colt_End": "2011-04-16",
+   "discrepancias": "TripStartDate: nuestro=2011-04-11 COLT=2011-04-10 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-USA-40807",
+   "our_Trip_ID": "147",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2011-09-19",
+   "our_End_Date": "2011-09-21",
+   "colt_Start": "2011-09-21",
+   "colt_End": "2011-09-22",
+   "discrepancias": "TripStartDate: nuestro=2011-09-19 COLT=2011-09-21 (dif 2d) | TripEndDate: nuestro=2011-09-21 COLT=2011-09-22 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=cd0ff8cf-db64-461a-a55b-602ceb3feed5&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A546P-WPB1-JBF5-T2GV-00000-00&pdcontentcomponentid=299488&pdteaserkey=sr1&pditab=allpods&ecomp=hmnyk&earg=sr1&prid=d890b69e-0599-47f5-b8d7-c2bf83bbb6e3",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=aa5e56a7-ea35-4447-90e2-b949454163fc&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A53VM-YBJ1-JCV0-1305-00000-00&pdcontentcomponentid=312415&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=d890b69e-0599-47f5-b8d7-c2bf83bbb6e3"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-BEL-40818",
+   "our_Trip_ID": "148",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Belgium",
+   "our_Start_Date": "2011-10-03",
+   "our_End_Date": "2011-10-04",
+   "colt_Start": "2011-10-02",
+   "colt_End": "2011-10-04",
+   "discrepancias": "TripStartDate: nuestro=2011-10-03 COLT=2011-10-02 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-ZAF-40833",
+   "our_Trip_ID": "150",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "South Africa",
+   "our_Start_Date": "2011-10-18",
+   "our_End_Date": "2011-10-18",
+   "colt_Start": "2011-10-17",
+   "colt_End": "2011-10-18",
+   "discrepancias": "TripStartDate: nuestro=2011-10-18 COLT=2011-10-17 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-FRA-40848",
+   "our_Trip_ID": "151",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "France",
+   "our_Start_Date": "2011-11-03",
+   "our_End_Date": "2011-11-04",
+   "colt_Start": "2011-11-01",
+   "colt_End": "2011-11-05",
+   "discrepancias": "TripStartDate: nuestro=2011-11-03 COLT=2011-11-01 (dif 2d) | TripEndDate: nuestro=2011-11-04 COLT=2011-11-05 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-VEN-40878",
+   "our_Trip_ID": "152",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Venezuela",
+   "our_Start_Date": "2011-12-02",
+   "our_End_Date": "2011-12-03",
+   "colt_Start": "2011-12-01",
+   "colt_End": "2011-12-02",
+   "discrepancias": "TripStartDate: nuestro=2011-12-02 COLT=2011-12-01 (dif 1d) | TripEndDate: nuestro=2011-12-03 COLT=2011-12-02 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-IND-40995",
+   "our_Trip_ID": "155",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "India",
+   "our_Start_Date": "2012-03-28",
+   "our_End_Date": "2012-03-29",
+   "colt_Start": "2012-03-27",
+   "colt_End": "2012-03-31",
+   "discrepancias": "TripStartDate: nuestro=2012-03-28 COLT=2012-03-27 (dif 1d) | TripEndDate: nuestro=2012-03-29 COLT=2012-03-31 (dif 2d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2012/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-USA-41007",
+   "our_Trip_ID": "156",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2012-04-09",
+   "our_End_Date": "2012-04-10",
+   "colt_Start": "2012-04-08",
+   "colt_End": "2012-04-09",
+   "discrepancias": "TripStartDate: nuestro=2012-04-09 COLT=2012-04-08 (dif 1d) | TripEndDate: nuestro=2012-04-10 COLT=2012-04-09 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2012/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-PER-41184",
+   "our_Trip_ID": "161",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Peru",
+   "our_Start_Date": "2012-10-01",
+   "our_End_Date": "2012-10-02",
+   "colt_Start": "2012-10-02",
+   "colt_End": "2012-10-02",
+   "discrepancias": "TripStartDate: nuestro=2012-10-01 COLT=2012-10-02 (dif 1d)",
+   "colt_links": [
+    "https://www.proquest.com/internationalnews1/docview/1081502695/DE8681A258E64322PQ/2?accountid=14608",
+    "https://kingabdullah.jo/en/news/king-south-american-leaders-discuss-trade-ties-region",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=47434178-2028-4da4-a3cc-2149aa69b465&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A56R6-V001-DY91-H28C-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr2&pditab=allpods&ecomp=kmnyk&earg=sr2&prid=76ec89a3-dbf8-4636-a33a-547c97fd6515"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-CHL-41300",
+   "our_Trip_ID": "162",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Chile",
+   "our_Start_Date": "2013-01-26",
+   "our_End_Date": "2013-01-28",
+   "colt_Start": "2013-01-26",
+   "colt_End": "2013-01-26",
+   "discrepancias": "TripEndDate: nuestro=2013-01-28 COLT=2013-01-26 (dif 2d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-VAT-41352",
+   "our_Trip_ID": "163",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Holy See",
+   "our_Start_Date": "2013-03-19",
+   "our_End_Date": "2013-03-19",
+   "colt_Start": "2013-03-19",
+   "colt_End": "2013-03-20",
+   "discrepancias": "TripEndDate: nuestro=2013-03-19 COLT=2013-03-20 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-ETH-41418",
+   "our_Trip_ID": "165",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Ethiopia",
+   "our_Start_Date": "2013-05-25",
+   "our_End_Date": "2013-05-25",
+   "colt_Start": "2013-05-24",
+   "colt_End": "2013-05-25",
+   "discrepancias": "TripStartDate: nuestro=2013-05-25 COLT=2013-05-24 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-RUS-41520",
+   "our_Trip_ID": "166",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Russia",
+   "our_Start_Date": "2013-09-05",
+   "our_End_Date": "2013-09-06",
+   "colt_Start": "2013-09-03",
+   "colt_End": "2013-09-06",
+   "discrepancias": "TripStartDate: nuestro=2013-09-05 COLT=2013-09-03 (dif 2d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-USA-41540",
+   "our_Trip_ID": "167",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2013-09-24",
+   "our_End_Date": "2013-09-24",
+   "colt_Start": "2013-09-23",
+   "colt_End": "2013-09-25",
+   "discrepancias": "TripStartDate: nuestro=2013-09-24 COLT=2013-09-23 (dif 1d) | TripEndDate: nuestro=2013-09-24 COLT=2013-09-25 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-CUB-41666",
+   "our_Trip_ID": "169",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Cuba",
+   "our_Start_Date": "2014-01-27",
+   "our_End_Date": "2014-01-29",
+   "colt_Start": "2014-01-27",
+   "colt_End": "2014-01-28",
+   "discrepancias": "TripEndDate: nuestro=2014-01-29 COLT=2014-01-28 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2014/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-USA-41905",
+   "our_Trip_ID": "171",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2014-09-24",
+   "our_End_Date": "2014-09-24",
+   "colt_Start": "2014-09-23",
+   "colt_End": "2014-09-24",
+   "discrepancias": "TripStartDate: nuestro=2014-09-24 COLT=2014-09-23 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2014/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-AUS-41956",
+   "our_Trip_ID": "172",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Australia",
+   "our_Start_Date": "2014-11-15",
+   "our_End_Date": "2014-11-16",
+   "colt_Start": "2014-11-13",
+   "colt_End": "2014-11-16",
+   "discrepancias": "TripStartDate: nuestro=2014-11-15 COLT=2014-11-13 (dif 2d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b1fa4afb-ce63-458c-86b0-858b8fa1d565/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/0c9b6b0b-3cb8-4932-b8c8-b3128143de35/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/1eb3c8d8-2b12-4f9b-a498-9cb8a1907398/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/19fb3e20-cab5-41ef-924b-12c425094a45/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/83f19ba3-cc0e-41ff-a047-6a2ff4fdf535/?context=1516831"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-PAN-42104",
+   "our_Trip_ID": "175",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Panama",
+   "our_Start_Date": "2015-04-10",
+   "our_End_Date": "2015-04-11",
+   "colt_Start": "2015-04-10",
+   "colt_End": "2015-04-10",
+   "discrepancias": "TripEndDate: nuestro=2015-04-11 COLT=2015-04-10 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-RUS-42192",
+   "our_Trip_ID": "178",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Russia",
+   "our_Start_Date": "2015-07-08",
+   "our_End_Date": "2015-07-09",
+   "colt_Start": "2015-07-07",
+   "colt_End": "2015-07-09",
+   "discrepancias": "TripStartDate: nuestro=2015-07-08 COLT=2015-07-07 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-SWE-42295",
+   "our_Trip_ID": "180",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Sweden",
+   "our_Start_Date": "2015-10-19",
+   "our_End_Date": "2015-10-19",
+   "colt_Start": "2015-10-18",
+   "colt_End": "2015-10-19",
+   "discrepancias": "TripStartDate: nuestro=2015-10-19 COLT=2015-10-18 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-FIN-42297",
+   "our_Trip_ID": "181",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Finland",
+   "our_Start_Date": "2015-10-20",
+   "our_End_Date": "2015-10-21",
+   "colt_Start": "2015-10-20",
+   "colt_End": "2015-10-20",
+   "discrepancias": "TripEndDate: nuestro=2015-10-21 COLT=2015-10-20 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-TUR-42322",
+   "our_Trip_ID": "182",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Turkiye",
+   "our_Start_Date": "2015-11-15",
+   "our_End_Date": "2015-11-16",
+   "colt_Start": "2015-11-14",
+   "colt_End": "2015-11-16",
+   "discrepancias": "TripStartDate: nuestro=2015-11-15 COLT=2015-11-14 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-FRA-42336",
+   "our_Trip_ID": "183",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "France",
+   "our_Start_Date": "2015-11-30",
+   "our_End_Date": "2015-11-30",
+   "colt_Start": "2015-11-28",
+   "colt_End": "2015-11-30",
+   "discrepancias": "TripStartDate: nuestro=2015-11-30 COLT=2015-11-28 (dif 2d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-ECU-42395",
+   "our_Trip_ID": "185",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Ecuador",
+   "our_Start_Date": "2016-01-27",
+   "our_End_Date": "2016-01-27",
+   "colt_Start": "2016-01-26",
+   "colt_End": "2016-01-27",
+   "discrepancias": "TripStartDate: nuestro=2016-01-27 COLT=2016-01-26 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1760227009?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "3224-BRA-USA-42633",
+   "our_Trip_ID": "188",
+   "President": "Michel Temer",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2016-09-20",
+   "our_End_Date": "2016-09-20",
+   "colt_Start": "2016-09-20",
+   "colt_End": "2016-09-21",
+   "discrepancias": "TripEndDate: nuestro=2016-09-20 COLT=2016-09-21 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1824498229?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1824497789?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "3224-BRA-JPN-42660",
+   "our_Trip_ID": "191",
+   "President": "Michel Temer",
+   "Destination_Country": "Japan",
+   "our_Start_Date": "2016-10-18",
+   "our_End_Date": "2016-10-19",
+   "colt_Start": "2016-10-17",
+   "colt_End": "2016-10-18",
+   "discrepancias": "TripStartDate: nuestro=2016-10-18 COLT=2016-10-17 (dif 1d) | TripEndDate: nuestro=2016-10-19 COLT=2016-10-18 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1828668508?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1830191743?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "3224-BRA-RUS-42906",
+   "our_Trip_ID": "193",
+   "President": "Michel Temer",
+   "Destination_Country": "Russia",
+   "our_Start_Date": "2017-06-20",
+   "our_End_Date": "2017-06-21",
+   "colt_Start": "2017-06-20",
+   "colt_End": "2017-06-22",
+   "discrepancias": "TripEndDate: nuestro=2017-06-21 COLT=2017-06-22 (dif 1d)",
+   "colt_links": [
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/1913552825/6FEBE884C0A14178PQ/4?accountid=14608",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/1926998589/6FEBE884C0A14178PQ/5?accountid=14608",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/1926997577/6FEBE884C0A14178PQ/7?accountid=14608",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/1926997577/6FEBE884C0A14178PQ/7?accountid=14608",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/1911184916/6FEBE884C0A14178PQ/10?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "3224-BRA-NOR-42908",
+   "our_Trip_ID": "194",
+   "President": "Michel Temer",
+   "Destination_Country": "Norway",
+   "our_Start_Date": "2017-06-22",
+   "our_End_Date": "2017-06-23",
+   "colt_Start": "2017-06-22",
+   "colt_End": "2017-06-24",
+   "discrepancias": "TripEndDate: nuestro=2017-06-23 COLT=2017-06-24 (dif 1d)",
+   "colt_links": [
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/1911184916/6FEBE884C0A14178PQ/10?accountid=14608",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/1910811979/6FEBE884C0A14178PQ/18?accountid=14608",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/1913429036/6FEBE884C0A14178PQ/22?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "3224-BRA-CHE-43123",
+   "our_Trip_ID": "198",
+   "President": "Michel Temer",
+   "Destination_Country": "Switzerland",
+   "our_Start_Date": "2018-01-24",
+   "our_End_Date": "2018-01-24",
+   "colt_Start": "2018-01-23",
+   "colt_End": "2018-01-24",
+   "discrepancias": "TripStartDate: nuestro=2018-01-24 COLT=2018-01-23 (dif 1d)",
+   "colt_links": [
+    "https://www.gettyimages.com/event/day-two-of-the-world-economic-Forum-2018-775099932#/jamie-dimon-chief-executive-officer-of-jpmorgan-chase-co-poses-for-a-picture-id909684938",
+    "https://search-proquest-com.du.idm.oclc.org/docview/2007606603/2A24674D433A486BPQ/1?accountid=14608",
+    "https://search-proquest-com.du.idm.oclc.org/docview/2007606603/FC1E3BF9A4E042ABPQ/4?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "3224-BRA-ZAF-43306",
+   "our_Trip_ID": "200",
+   "President": "Michel Temer",
+   "Destination_Country": "South Africa",
+   "our_Start_Date": "2018-07-26",
+   "our_End_Date": "2018-07-27",
+   "colt_Start": "2018-07-25",
+   "colt_End": "2018-07-26",
+   "discrepancias": "TripStartDate: nuestro=2018-07-26 COLT=2018-07-25 (dif 1d) | TripEndDate: nuestro=2018-07-27 COLT=2018-07-26 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/9fbb1490-11d7-4d7f-b667-aeb0d886f772/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/125520c4-fec7-4053-9ea3-bac77d1a0419/?context=1516831",
+    "https://search-proquest-com.du.idm.oclc.org/docview/2076018442/707F4B43BADC420FPQ/2?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "3224-BRA-USA-43367",
+   "our_Trip_ID": "202",
+   "President": "Michel Temer",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2018-09-25",
+   "our_End_Date": "2018-09-25",
+   "colt_Start": "2018-09-24",
+   "colt_End": "2018-09-28",
+   "discrepancias": "TripStartDate: nuestro=2018-09-25 COLT=2018-09-24 (dif 1d) | TripEndDate: nuestro=2018-09-25 COLT=2018-09-28 (dif 3d)",
+   "colt_links": [
+    "http://wwwbrazilgovnewsgovbr/news/2018/09/brazilian-president-defends-integration-between-countries-2030-agenda-and-immigration-at-the-un",
+    "http://www.brazilgovnews.gov.br/news/2018/09/in-Meeting-president-highlights-qualities-that-make-brazil-attractive-for-investments"
+   ]
+  },
+  {
+   "colt_TripID": "3224-BRA-ARG-43434",
+   "our_Trip_ID": "203",
+   "President": "Michel Temer",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2018-11-30",
+   "our_End_Date": "2018-12-01",
+   "colt_Start": "2018-11-30",
+   "colt_End": "2018-12-02",
+   "discrepancias": "TripEndDate: nuestro=2018-12-01 COLT=2018-12-02 (dif 1d)",
+   "colt_links": [
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/president-of-argentina-mauricio-macri-greets-photo-dactualit%C3%A9/1075004698"
+   ]
+  },
+  {
+   "colt_TripID": "3224-BRA-URY-43452",
+   "our_Trip_ID": "204",
+   "President": "Michel Temer",
+   "Destination_Country": "Uruguay",
+   "our_Start_Date": "2018-12-18",
+   "our_End_Date": "2018-12-18",
+   "colt_Start": "2018-12-18",
+   "colt_End": "2018-12-20",
+   "discrepancias": "TripEndDate: nuestro=2018-12-18 COLT=2018-12-20 (dif 2d)",
+   "colt_links": [
+    "https://wwwgettyimagescom/detail/news-photo/michel-temer-brazils-president-left-shakes-hands-with-news-photo/1074358702"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-CHE-43487",
+   "our_Trip_ID": "205",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Switzerland",
+   "our_Start_Date": "2019-01-22",
+   "our_End_Date": "2019-01-23",
+   "colt_Start": "2019-01-22",
+   "colt_End": "2019-01-25",
+   "discrepancias": "TripEndDate: nuestro=2019-01-23 COLT=2019-01-25 (dif 2d)",
+   "colt_links": [
+    "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/japanese-prime-minister-shinzo-abe-and-brazilian-photo-dactualit%C3%A9/1124622038",
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/jair-bolsonaro-brazils-president-pauses-as-he-photo-dactualit%C3%A9/1086354270",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4ed1b357-7957-4bba-aa32-3a4387cb63fd&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5V80-SF01-JCMP-543B-00000-00&pddocid=urn%3AcontentItem%3A5V80-SF01-JCMP-543B-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr68&pditab=allpods&ecomp=3fyk&earg=sr68&prid=f5306695-ec1c-499c-867a-7d947401bb13"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-43542",
+   "our_Trip_ID": "206",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2019-03-18",
+   "our_End_Date": "2019-03-19",
+   "colt_Start": "2019-03-18",
+   "colt_End": "2019-03-20",
+   "discrepancias": "TripEndDate: nuestro=2019-03-19 COLT=2019-03-20 (dif 1d)",
+   "colt_links": [
+    "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/president-donald-trump-and-brazilian-president-jair-photo-dactualit%C3%A9/1136874706",
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/jair-bolsonaro-brazils-president-speaks-during-a-photo-dactualit%C3%A9/1131459629"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-CHL-43546",
+   "our_Trip_ID": "207",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Chile",
+   "our_Start_Date": "2019-03-22",
+   "our_End_Date": "2019-03-23",
+   "colt_Start": "2019-03-22",
+   "colt_End": "2019-03-24",
+   "discrepancias": "TripEndDate: nuestro=2019-03-23 COLT=2019-03-24 (dif 1d)",
+   "colt_links": [
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/president-of-brazil-jair-bolsonaro-speaks-after-a-photo-dactualit%C3%A9/1137791699",
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/president-of-brazil-jair-bolsonaro-president-of-peru-photo-dactualit%C3%A9/1137605335"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-ISR-43554",
+   "our_Trip_ID": "208",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Israel",
+   "our_Start_Date": "2019-03-31",
+   "our_End_Date": "2019-04-02",
+   "colt_Start": "2019-03-30",
+   "colt_End": "2019-03-31",
+   "discrepancias": "TripStartDate: nuestro=2019-03-31 COLT=2019-03-30 (dif 1d) | TripEndDate: nuestro=2019-04-02 COLT=2019-03-31 (dif 2d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=48f2fda4-68a0-4a5e-ace2-5dade59de5c5&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5VS8-D001-JCMP-5077-00000-00&pddocid=urn%3AcontentItem%3A5VS8-D001-JCMP-5077-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=1fyk&earg=sr0&prid=29ad16ae-1102-4b4c-915d-8c9ba39cef50",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=78d9c3eb-7504-4d86-a2bd-1148c366a3bb&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5VSF-4X91-JCMN-Y181-00000-00&pddocid=urn%3AcontentItem%3A5VSF-4X91-JCMN-Y181-00000-00&pdcontentcomponentid=299488&pdteaserkey=sr7&pditab=allpods&ecomp=1fyk&earg=sr7&prid=29ad16ae-1102-4b4c-915d-8c9ba39cef50"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-ARG-43622",
+   "our_Trip_ID": "209",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2019-06-06",
+   "our_End_Date": "2019-06-06",
+   "colt_Start": "2019-06-06",
+   "colt_End": "2019-06-07",
+   "discrepancias": "TripEndDate: nuestro=2019-06-06 COLT=2019-06-07 (dif 1d)",
+   "colt_links": [
+    "https://wwwgettyimagescom/detail/news-photo/president-of-argentina-mauricio-macri-and-president-of-news-photo/1148468130?adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=aa8d62f5-8da6-460a-9e4b-32928e679cc1&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5W8W-RV81-F03R-W528-00000-00&pddocid=urn%3AcontentItem%3A5W8W-RV81-F03R-W528-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=1fyk&earg=sr1&prid=3a9b5bd9-2552-49b3-89c4-d978f2cc34f6",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=6408e651-ce17-4991-a576-67fe28daee48&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5W8S-GN31-F03R-W3BY-00000-00&pddocid=urn%3AcontentItem%3A5W8S-GN31-F03R-W3BY-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr6&pditab=allpods&ecomp=1fyk&earg=sr6&prid=3a9b5bd9-2552-49b3-89c4-d978f2cc34f6"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-JPN-43643",
+   "our_Trip_ID": "210",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Japan",
+   "our_Start_Date": "2019-06-28",
+   "our_End_Date": "2019-06-29",
+   "colt_Start": "2019-06-27",
+   "colt_End": "2019-06-30",
+   "discrepancias": "TripStartDate: nuestro=2019-06-28 COLT=2019-06-27 (dif 1d) | TripEndDate: nuestro=2019-06-29 COLT=2019-06-30 (dif 1d)",
+   "colt_links": [
+    "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-and-japanese-prime-news-photo/1159135139?adppopup=true",
+    "https://www.gettyimages.com/detail/news-photo/brazils-president-jair-bolsonaro-meets-with-us-president-news-photo/1152461137?adppopup=true",
+    "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-shakes-hands-with-south-news-photo/1152459937?adppopup=true",
+    "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-shakes-hands-with-news-photo/1152459936?adppopup=true",
+    "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-shakes-hands-with-indias-news-photo/1152459928?adppopup=true",
+    "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-shakes-hands-with-indias-news-photo/1152459926?adppopup=true",
+    "https://twitter.com/jairbolsonaro/status/1145040149660753921",
+    "https://twitter.com/jairbolsonaro/status/1144943709466890240"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-43731",
+   "our_Trip_ID": "212",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2019-09-24",
+   "our_End_Date": "2019-09-24",
+   "colt_Start": "2019-09-23",
+   "colt_End": "2019-09-25",
+   "discrepancias": "TripStartDate: nuestro=2019-09-24 COLT=2019-09-23 (dif 1d) | TripEndDate: nuestro=2019-09-24 COLT=2019-09-25 (dif 1d)",
+   "colt_links": [
+    "https://twitter.com/jairbolsonaro/status/1176263904223272961",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/3f9cd853-197a-4f34-aa43-389e5141d0da/?context=1516831"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-JPN-43759",
+   "our_Trip_ID": "213",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Japan",
+   "our_Start_Date": "2019-10-22",
+   "our_End_Date": "2019-10-23",
+   "colt_Start": "2019-10-21",
+   "colt_End": "2019-10-23",
+   "discrepancias": "TripStartDate: nuestro=2019-10-22 COLT=2019-10-21 (dif 1d)",
+   "colt_links": [
+    "https://wwwgovbr/planalto/pt-br/acompanhe-o-planalto/noticias/2019/10/estamos-reconquistando-a-confianca-do-mundo-diz-o-presidente-da-republica-ao-chegar-a-toquio",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/58c5ccc8-701a-423f-bd47-7f097674d90c/?context=1516831",
+    "https://www.gettyimages.com/detail/news-photo/brazils-president-jair-bolsonaro-arrives-at-the-imperial-news-photo/1182657767?adppopup=true",
+    "https://twitter.com/jairbolsonaro/status/1187177796159840257",
+    "https://wwwgettyimagescom/detail/news-photo/japanese-prime-minister-shinzo-abe-and-brazilian-president-news-photo/1177832398?adppopup=true"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-QAT-43766",
+   "our_Trip_ID": "216",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Qatar",
+   "our_Start_Date": "2019-10-28",
+   "our_End_Date": "2019-10-28",
+   "colt_Start": "2019-10-28",
+   "colt_End": "2019-10-29",
+   "discrepancias": "TripEndDate: nuestro=2019-10-28 COLT=2019-10-29 (dif 1d)",
+   "colt_links": [
+    "https://wwwgovbr/planalto/pt-br/acompanhe-o-planalto/noticias/2019/10/estamos-reconquistando-a-confianca-do-mundo-diz-o-presidente-da-republica-ao-chegar-a-toquio",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=2fd6b468-8760-4473-bacc-b5872d4670a0&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCN-6WS1-JDJN-62YG-00000-00&pddocid=urn%3AcontentItem%3A5XCN-6WS1-JDJN-62YG-00000-00&pdcontentcomponentid=399277&pdteaserkey=sr2&pditab=allpods&ecomp=wp79k&earg=sr2&prid=6380f318-a4a7-4f30-b512-2ca8ff7fb36a",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=d126fd91-a4af-4d96-aeb2-e2c2ad830ad4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCM-R491-F04Y-T2R4-00000-00&pddocid=urn%3AcontentItem%3A5XCM-R491-F04Y-T2R4-00000-00&pdcontentcomponentid=300954&pdteaserkey=sr5&pditab=allpods&ecomp=wp79k&earg=sr5&prid=271e9749-6e96-4eba-917a-ece27c256d48"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-SAU-43767",
+   "our_Trip_ID": "217",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Saudi Arabia",
+   "our_Start_Date": "2019-10-29",
+   "our_End_Date": "2019-10-30",
+   "colt_Start": "2019-10-29",
+   "colt_End": "2019-10-29",
+   "discrepancias": "TripEndDate: nuestro=2019-10-30 COLT=2019-10-29 (dif 1d)",
+   "colt_links": [
+    "https://wwwgovbr/planalto/pt-br/acompanhe-o-planalto/noticias/2019/10/estamos-reconquistando-a-confianca-do-mundo-diz-o-presidente-da-republica-ao-chegar-a-toquio",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=b6b629fa-f786-43f1-87b1-814fd3d2b481&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCK-X471-JDJN-60C9-00000-00&pddocid=urn%3AcontentItem%3A5XCK-X471-JDJN-60C9-00000-00&pdcontentcomponentid=343613&pdteaserkey=sr0&pditab=allpods&ecomp=wp79k&earg=sr0&prid=646d9f68-e083-4ade-8010-bf5bb9bd3d53",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=bb514f69-9f3a-4af5-88a5-0b5a0ac40f23&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCN-J781-JCW7-N3X0-00000-00&pddocid=urn%3AcontentItem%3A5XCN-J781-JCW7-N3X0-00000-00&pdcontentcomponentid=318666&pdteaserkey=sr1&pditab=allpods&ecomp=wp79k&earg=sr1&prid=271e9749-6e96-4eba-917a-ece27c256d48",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=d126fd91-a4af-4d96-aeb2-e2c2ad830ad4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCM-R491-F04Y-T2R4-00000-00&pddocid=urn%3AcontentItem%3A5XCM-R491-F04Y-T2R4-00000-00&pdcontentcomponentid=300954&pdteaserkey=sr5&pditab=allpods&ecomp=wp79k&earg=sr5&prid=271e9749-6e96-4eba-917a-ece27c256d48",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=aed6e15a-73e4-4e6a-a049-7b898d29087b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCM-GH31-JB0G-F1V9-00000-00&pddocid=urn%3AcontentItem%3A5XCM-GH31-JB0G-F1V9-00000-00&pdcontentcomponentid=144245&pdteaserkey=sr23&pditab=allpods&ecomp=wp79k&earg=sr23&prid=96c831d4-b070-42c3-a06c-91e9c087acde"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-VEN-41340",
+   "our_Trip_ID": "317",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Venezuela",
+   "our_Start_Date": "2013-03-08",
+   "our_End_Date": "2013-03-08",
+   "colt_Start": "2013-03-07",
+   "colt_End": "2013-03-07",
+   "discrepancias": "TripStartDate: nuestro=2013-03-08 COLT=2013-03-07 (dif 1d) | TripEndDate: nuestro=2013-03-08 COLT=2013-03-07 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "colt_TripID": "2652-BRA-CHL-41709",
+   "our_Trip_ID": "318",
+   "President": "Dilma Rousseff",
+   "Destination_Country": "Chile",
+   "our_Start_Date": "2014-03-10",
+   "our_End_Date": "2014-03-11",
+   "colt_Start": "2014-03-11",
+   "colt_End": "2014-03-11",
+   "discrepancias": "TripStartDate: nuestro=2014-03-10 COLT=2014-03-11 (dif 1d)",
+   "colt_links": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2014/view"
+   ]
+  }
+ ],
+ "colt_unico": [
+  {
+   "TripID": "2652-BRA-AGO-40836",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Angola",
+   "CityVisited": "None",
+   "TripYear": "2011",
+   "TripStartDate": "2011-10-20T00:00:00",
+   "TripEndDate": "2011-10-20T00:00:00",
+   "Notes": "Laid wreath at monument to first Angolan President Antonio Neto",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-ARG-40886",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2011",
+   "TripStartDate": "2011-12-09T00:00:00",
+   "TripEndDate": "2011-12-10T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-ARG-41241",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-11-28T00:00:00",
+   "TripEndDate": "2012-11-28T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2012/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-ARG-41389",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-04-25T00:00:00",
+   "TripEndDate": "2013-04-25T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-BEL-41693",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Belgium",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-02-23T00:00:00",
+   "TripEndDate": "2014-02-24T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2014/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-BEL-42165",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Belgium",
+   "CityVisited": "None",
+   "TripYear": "2015",
+   "TripStartDate": "2015-06-10T00:00:00",
+   "TripEndDate": "2015-06-11T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-BOL-42026",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Bolivia",
+   "CityVisited": "None",
+   "TripYear": "2015",
+   "TripStartDate": "2015-01-22T00:00:00",
+   "TripEndDate": "2015-01-22T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-BOL-42360",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Bolivia",
+   "CityVisited": "None",
+   "TripYear": "2015",
+   "TripStartDate": "2015-12-22T00:00:00",
+   "TripEndDate": "2015-12-22T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+   ]
+  },
+  {
+   "TripID": "3224-BRA-CPV-43298",
+   "LeaderFullName": "Michel Temer",
+   "CountryVisited": "Cabo Verde",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-07-17T00:00:00",
+   "TripEndDate": "2018-07-18T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://search-proquest-com.du.idm.oclc.org/docview/2070851290/3FDCFA057C004D23PQ/3?accountid=14608",
+    "https://search-proquest-com.du.idm.oclc.org/docview/2070933472/CA3CF536FA834530PQ/2?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-CHL-42426",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2016",
+   "TripStartDate": "2016-02-26T00:00:00",
+   "TripEndDate": "2016-02-26T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1768404717?accountid=14608",
+    "http://www.gettyimages.com/license/512759540",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1767334154?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "3224-BRA-CHL-43142",
+   "LeaderFullName": "Michel Temer",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-02-11T00:00:00",
+   "TripEndDate": "2018-02-12T00:00:00",
+   "Notes": "attended President Pinera Inaugeration",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "https://www.gettyimages.com/license/930535212"
+   ]
+  },
+  {
+   "TripID": "3224-BRA-CHL-43425",
+   "LeaderFullName": "Michel Temer",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-11-21T00:00:00",
+   "TripEndDate": "2018-11-22T00:00:00",
+   "Notes": "signing of Free Trade Agreement",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/president-of-chile-sebasti%C3%A1n-pi%C3%B1era-gives-speech-photo-dactualit%C3%A9/1070699814"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-COL-42286",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Colombia",
+   "CityVisited": "None",
+   "TripYear": "2015",
+   "TripStartDate": "2015-10-09T00:00:00",
+   "TripEndDate": "2015-10-09T00:00:00",
+   "Notes": "Participated in wreath-laying ceremony",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-CUB-40938",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Cuba",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-01-30T00:00:00",
+   "TripEndDate": "2012-02-01T00:00:00",
+   "Notes": "Laid wreath at memorial to Jose Marti",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2012/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-ECU-41977",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Ecuador",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-12-04T00:00:00",
+   "TripEndDate": "2014-12-05T00:00:00",
+   "Notes": "Attended artistic and cultural presentation in Quito",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2014/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-GNQ-41327",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Equatorial Guinea",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-02-22T00:00:00",
+   "TripEndDate": "2013-02-22T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-FRA-41253",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "France",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-12-10T00:00:00",
+   "TripEndDate": "2012-12-12T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2012/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-GRC-40642",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Greece",
+   "CityVisited": "None",
+   "TripYear": "2011",
+   "TripStartDate": "2011-04-09T00:00:00",
+   "TripEndDate": "2011-04-09T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www1.folha.uol.com.br/poder/900583-antes-da-china-dilma-visita-grecia-e-discute-economia-e-olimpiada-com-premie.shtml"
+   ]
+  },
+  {
+   "TripID": "3224-BRA-GTM-43419",
+   "LeaderFullName": "Michel Temer",
+   "CountryVisited": "Guatemala",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-11-15T00:00:00",
+   "TripEndDate": "2018-11-16T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=696c1823-59fc-4e20-afb6-f00c5a2e41d0&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5TRK-RJW1-F07F-809N-00000-00&pddocid=urn%3AcontentItem%3A5TRK-RJW1-F07F-809N-00000-00&pdcontentcomponentid=398829&pdteaserkey=sr243&pditab=allpods&ecomp=bynk&earg=sr243&prid=3a2751bb-a0d7-4565-a653-8ccf25705b6c"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-HTI-40940",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Haiti",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-02-01T00:00:00",
+   "TripEndDate": "2012-02-01T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2012/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/resenha110_1Sem_2012.pdf"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-VAT-41691",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Holy See",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-02-21T00:00:00",
+   "TripEndDate": "2014-02-22T00:00:00",
+   "Notes": "Attended ceremony for new Cardinals",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2014/view"
+   ]
+  },
+  {
+   "TripID": "3531-BRA-ISR-43556",
+   "LeaderFullName": "Jair Bolsonaro",
+   "CountryVisited": "Israel",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-04-01T00:00:00",
+   "TripEndDate": "2019-04-03T00:00:00",
+   "Notes": "visited Western Wall",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c47c0877-06fc-4899-a2e7-fbc0ad646791&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5VSP-KNW1-F03R-N1TW-00000-00&pddocid=urn%3AcontentItem%3A5VSP-KNW1-F03R-N1TW-00000-00&pdcontentcomponentid=299488&pdteaserkey=sr2&pditab=allpods&ecomp=1fyk&earg=sr2&prid=54b15a36-9cf5-414b-95dc-64f5ff87a1ad"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-ITA-41350",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Italy",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-03-17T00:00:00",
+   "TripEndDate": "2013-03-19T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-ITA-42195",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Italy",
+   "CityVisited": "None",
+   "TripYear": "2015",
+   "TripStartDate": "2015-07-10T00:00:00",
+   "TripEndDate": "2015-07-11T00:00:00",
+   "Notes": "Also met Prime Minister Matteo Renzi. Visited the Brazilian pavilion at the Milan Expo 2015",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+   ]
+  },
+  {
+   "TripID": "3531-BRA-KAZ-43643",
+   "LeaderFullName": "Jair Bolsonaro",
+   "CountryVisited": "Kazakhstan",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-06-27T00:00:00",
+   "TripEndDate": "2019-06-27T00:00:00",
+   "Notes": "stop-over en route to G20 in Japan",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://twitter.com/jairbolsonaro/status/1143994602912985088",
+    "https://twitter.com/jairbolsonaro/status/1144422960171835395",
+    "https://twitter.com/jairbolsonaro/status/1144426483634581504"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-MEX-41046",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Mexico",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-05-17T00:00:00",
+   "TripEndDate": "2012-05-19T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2012/view"
+   ]
+  },
+  {
+   "TripID": "3224-BRA-MEX-43304",
+   "LeaderFullName": "Michel Temer",
+   "CountryVisited": "Mexico",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-07-23T00:00:00",
+   "TripEndDate": "2018-07-25T00:00:00",
+   "Notes": "Signed agreements with Mexico on customs cooporation;Signed declaration with summit countries on trade;Attended summit dinner reception",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f19b94f3-4b9f-4e8d-a003-59c3a0ee2bf0&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5SVY-P5G1-JBJH-J20D-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=nzvnk&earg=sr0&prid=fe95782a-8522-4f4e-a136-e19cdebbc5d1",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=edfd96fc-0fb7-459e-a2fb-acbc33eb001f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5SWJ-T7X1-JB5M-W0PM-00000-00&pdcontentcomponentid=459492&pdteaserkey=sr9&pditab=allpods&ecomp=nzvnk&earg=sr9&prid=b941c59d-fba6-47e1-a9b9-3e679b531ae3",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=676ebdc0-a138-4691-9c37-a6a0e334178e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5SW5-N831-DY1K-83RB-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr8&pditab=allpods&ecomp=nzvnk&earg=sr8&prid=b941c59d-fba6-47e1-a9b9-3e679b531ae3",
+    "https://www-proquest-com.du.idm.oclc.org/internationalnews1/docview/2074511420/522C699FA1564B09PQ/9?accountid=14608",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=badfbc30-c3ee-4ab5-a36c-81300f3b89a3&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5SW5-N831-DY1K-850K-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=nzvnk&earg=sr3&prid=07ba8c00-2bd3-4af3-a35a-245bcd7a6d32"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-MOZ-40835",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Mozambique",
+   "CityVisited": "None",
+   "TripYear": "2011",
+   "TripStartDate": "2011-10-19T00:00:00",
+   "TripEndDate": "2011-10-19T00:00:00",
+   "Notes": "Flower offering ceremony at Samora Machel",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-NGA-41327",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Nigeria",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-02-22T00:00:00",
+   "TripEndDate": "2013-02-23T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N112_1Sem_2013.pdf"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-PRY-40722",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2011",
+   "TripStartDate": "2011-06-28T00:00:00",
+   "TripEndDate": "2011-06-29T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-PRY-41500",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-08-14T00:00:00",
+   "TripEndDate": "2013-08-15T00:00:00",
+   "Notes": "Attended celebration marking 476th anniversary of foundation of city of Asuncion",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "TripID": "3224-BRA-PRY-43269",
+   "LeaderFullName": "Michel Temer",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-06-18T00:00:00",
+   "TripEndDate": "2018-06-19T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "https://www.gettyimages.com/license/978047780",
+    "https://search-proquest-com.du.idm.oclc.org/docview/2056554912/749ED18F168148CEPQ/57?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "3224-BRA-PRY-43455",
+   "LeaderFullName": "Michel Temer",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-12-21T00:00:00",
+   "TripEndDate": "2018-12-22T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.gettyimages.com/detail/news-photo/paraguayan-president-mario-abdo-benitez-speaks-after-news-photo/1074553204",
+    "https://www.gettyimages.com/detail/news-photo/paraguayan-president-mario-abdo-benitez-speaks-after-news-photo/1074553200"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-PER-40752",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2011",
+   "TripStartDate": "2011-07-28T00:00:00",
+   "TripEndDate": "2011-07-28T00:00:00",
+   "Notes": "Visited Museum of the Inquisition",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-PER-41382",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-04-18T00:00:00",
+   "TripEndDate": "2013-04-18T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-PER-41589",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-11-11T00:00:00",
+   "TripEndDate": "2013-11-11T00:00:00",
+   "Notes": "Received keys to the city of Lima",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-PRT-40631",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Portugal",
+   "CityVisited": "None",
+   "TripYear": "2011",
+   "TripStartDate": "2011-03-29T00:00:00",
+   "TripEndDate": "2011-03-30T00:00:00",
+   "Notes": "Visited National Museum Machado de Castro",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-PRT-41434",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Portugal",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-06-09T00:00:00",
+   "TripEndDate": "2013-06-10T00:00:00",
+   "Notes": "Also met President Ana­bal Cavaco Silva",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-PRT-41664",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Portugal",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-01-25T00:00:00",
+   "TripEndDate": "2014-01-25T00:00:00",
+   "Notes": "Passed through on way back to Brazil",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2014/view"
+   ]
+  },
+  {
+   "TripID": "3531-BRA-PRT-43642",
+   "LeaderFullName": "Jair Bolsonaro",
+   "CountryVisited": "Portugal",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-06-26T00:00:00",
+   "TripEndDate": "2019-06-26T00:00:00",
+   "Notes": "stop-over en route to G20 in Japan",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://twitter.com/jairbolsonaro/status/1143849581756780545"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-QAT-41954",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Qatar",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-11-11T00:00:00",
+   "TripEndDate": "2014-11-12T00:00:00",
+   "Notes": "Visited the Museum of Islamic art",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2014/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-RUS-41255",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Russia",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-12-12T00:00:00",
+   "TripEndDate": "2012-12-15T00:00:00",
+   "Notes": "Also met Prime Minister Dmitri Medvedev and laid wreath at Tomb of Unknown Soldier",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-ZAF-41618",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "South Africa",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-12-10T00:00:00",
+   "TripEndDate": "2013-12-10T00:00:00",
+   "Notes": "Attended funeral ceremony for Nelson Mandela",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "TripID": "3224-BRA-ZAF-43307",
+   "LeaderFullName": "Michel Temer",
+   "CountryVisited": "South Africa",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-07-26T00:00:00",
+   "TripEndDate": "2018-07-27T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://search-proquest-com.du.idm.oclc.org/docview/2082295966/DE666B2335E745A0PQ/10?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-ESP-41228",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Spain",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-11-15T00:00:00",
+   "TripEndDate": "2012-11-19T00:00:00",
+   "Notes": "Also met King Juan Carlos I",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2012/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-SUR-41516",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Suriname",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-08-30T00:00:00",
+   "TripEndDate": "2013-08-30T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-CHE-41662",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Switzerland",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-01-23T00:00:00",
+   "TripEndDate": "2014-01-25T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2014/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-TUR-40823",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Turkiye",
+   "CityVisited": "None",
+   "TripYear": "2011",
+   "TripStartDate": "2011-10-07T00:00:00",
+   "TripEndDate": "2011-10-07T00:00:00",
+   "Notes": "Visited Ataturk Memorial",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+   ]
+  },
+  {
+   "TripID": "3531-BRA-ARE-43771",
+   "LeaderFullName": "Jair Bolsonaro",
+   "CountryVisited": "United Arab Emirates",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-11-02T00:00:00",
+   "TripEndDate": "2019-11-02T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e06ffc4b-2fdb-44eb-8407-38f8b9a6378c/?context=1516831"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-GBR-41115",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "United Kingdom",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-07-25T00:00:00",
+   "TripEndDate": "2012-07-28T00:00:00",
+   "Notes": "Attended ceremony to launch the Campaign for Tourism Promotion in Brazil Abroad",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2012/view"
+   ]
+  },
+  {
+   "TripID": "3531-BRA-USA-43593",
+   "LeaderFullName": "Jair Bolsonaro",
+   "CountryVisited": "United States",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-05-08T00:00:00",
+   "TripEndDate": "2019-05-09T00:00:00",
+   "Notes": "accepting award in Dallas;meets with former President George W. Bush",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8e7e223e-2bc3-48de-8814-e794fd888c55&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5W3N-7Y01-DYRV-346C-00000-00&pddocid=urn%3AcontentItem%3A5W3N-7Y01-DYRV-346C-00000-00&pdcontentcomponentid=10962&pdteaserkey=sr6&pditab=allpods&ecomp=bfyk&earg=sr6&prid=59a19ac6-3fba-4323-afa8-e316d6078e0b",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=16d68bc2-adaa-473a-9862-86323e0409a9&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5W47-2YD1-JDVB-H0H2-00000-00&pddocid=urn%3AcontentItem%3A5W47-2YD1-JDVB-H0H2-00000-00&pdcontentcomponentid=427585&pdteaserkey=sr4&pditab=allpods&ecomp=bfyk&earg=sr4&prid=6dfd8cd1-6ca7-4784-a8e7-41f10a0898cb"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-URY-40693",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2011",
+   "TripStartDate": "2011-05-30T00:00:00",
+   "TripEndDate": "2011-05-30T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2011/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-URY-41466",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-07-11T00:00:00",
+   "TripEndDate": "2013-07-12T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-URY-42063",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2015",
+   "TripStartDate": "2015-02-28T00:00:00",
+   "TripEndDate": "2015-03-01T00:00:00",
+   "Notes": "Attended ceremony inaugurating Parque Ealico Artilleros",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2015.pdf/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-VEN-41383",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Venezuela",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-04-19T00:00:00",
+   "TripEndDate": "2013-04-19T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2013/view"
+   ]
+  },
+  {
+   "TripID": "2652-BRA-VEN-41849",
+   "LeaderFullName": "Dilma Rousseff",
+   "CountryVisited": "Venezuela",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-07-29T00:00:00",
+   "TripEndDate": "2014-07-29T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www2.planalto.gov.br/area-de-imprensa/relatorios-da-secretaria-de-imprensa/viagens-internacionais-2014/view"
+   ]
+  }
+ ],
+ "nuestro_unico": [
+  {
+   "Trip_ID": "158",
+   "President": "Dilma Rousseff",
+   "Start_Date": "2012-06-18",
+   "End_Date": "2012-06-19",
+   "Destination_Country": "Mexico",
+   "Destination_City": "Los Cabos",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "Cúpula do G20 de Los Cabos",
+   "Trip_Objective": "G20 de Los Cabos.",
+   "Source_Verification": "https://en.wikipedia.org/wiki/2012_G20_Los_Cabos_summit",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "170",
+   "President": "Dilma Rousseff",
+   "Start_Date": "2014-06-14",
+   "End_Date": "2014-06-15",
+   "Destination_Country": "Bolivia",
+   "Destination_City": "Santa Cruz de la Sierra",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "Cúpula do G77+China (50 anos)",
+   "Trip_Objective": "Cumbre extraordinaria del G77+China en Santa Cruz.",
+   "Source_Verification": "Search Query: Dilma G77 China Santa Cruz junho 2014",
+   "Source_Reliability": "Low"
+  },
+  {
+   "Trip_ID": "184",
+   "President": "Dilma Rousseff",
+   "Start_Date": "2015-12-21",
+   "End_Date": "2015-12-21",
+   "Destination_Country": "Paraguay",
+   "Destination_City": "Asunción",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "Cúpula do MERCOSUL",
+   "Trip_Objective": "Cumbre del Mercosur en Asuncion; primera con Macri.",
+   "Source_Verification": "http://www.biblioteca.presidencia.gov.br/presidencia/ex-presidentes/dilma-rousseff/discursos/discursos-da-presidenta/discurso-da-presidenta-da-republica-dilma-rousseff-durante-a-xlix-cupula-dos-estados-partes-do-mercosul-e-estados-associados-assuncao-paraguai",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "189",
+   "President": "Michel Temer",
+   "Start_Date": "2016-10-03",
+   "End_Date": "2016-10-03",
+   "Destination_Country": "Argentina",
+   "Destination_City": "Buenos Aires",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Mauricio Macri",
+   "Trip_Objective": "Primera bilateral con Macri; relanzamiento del eje Brasil-Argentina y flexibilizacion del Mercosur.",
+   "Source_Verification": "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/visita-do-presidente-da-republica-a-argentina-buenos-aires-3-de-outubro-de-2016",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "201",
+   "President": "Michel Temer",
+   "Start_Date": "2018-08-15",
+   "End_Date": "2018-08-15",
+   "Destination_Country": "Paraguay",
+   "Destination_City": "Asunción",
+   "Visit_Subtype": "Inauguration/Funeral",
+   "Counterpart_Event": "Posse de Mario Abdo Benítez",
+   "Trip_Objective": "Asuncion de Mario Abdo Benitez en Paraguay.",
+   "Source_Verification": "https://agenciabrasil.ebc.com.br/politica/noticia/2018-08/temer-participa-da-cerimonia-de-posse-do-presidente-eleito-do-paraguai",
+   "Source_Reliability": "High"
+  }
+ ]
+}

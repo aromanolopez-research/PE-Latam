@@ -1,0 +1,693 @@
+{
+  "_progreso": "EN CURSO - guardado parcial, ver _procesados_hasta_indice",
+  "_procesados_hasta_indice_discrepancias": 70,
+  "_procesados_hasta_indice_colt_unico": 6,
+  "_estado": "COMPLETO - 70/70 discrepancias y 6/6 colt_unico procesados. Nota: 7 items finales (Milei 2025: USA abr, Italia abr, Espana jun, USA sept x1, USA oct, Noruega dic) quedaron en No_verificable por agotamiento del presupuesto de busqueda web de la sesion (200/200 WebSearch + limites de web_fetch); se recomienda una segunda pasada dirigida a esos 6-7 items especificos.",
+  "_procesados_hasta_indice_colt_unico": 6,
+  "discrepancias_resueltas": [
+    {
+      "colt_TripID": "3169-ARG-VAT-42428",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2016-02-28;2016-02-29",
+      "valor_propuesto": "2016-02-27;2016-02-27",
+      "fuente": "Casa Rosada (agenda oficial); El Cronista 27/2/2016; Diario de Cuyo",
+      "justificacion": "Prensa confirma que la audiencia de Macri con el Papa Francisco en el Vaticano fue el 27/2/2016 (unica actividad vaticana del viaje). Macri viajo el 26/2 y regreso el 28/2, pero no hay evidencia de actividad en el Vaticano el 28 o 29/2 como indica COLT."
+    },
+    {
+      "colt_TripID": "3169-ARG-ITA-42427",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2016-02-28",
+      "valor_propuesto": "2016-02-28",
+      "fuente": "El Cronista, El Intransigente, Infobae (27/2/2016)",
+      "justificacion": "Macri se reunio con el PM Renzi y el presidente Mattarella en Italia el 27/2 tras la audiencia papal, y regreso a Buenos Aires el domingo 28/2/2016 (varias fuentes coinciden). Nuestra fecha de fin (27) no contempla el dia de regreso."
+    },
+    {
+      "colt_TripID": "3169-ARG-COL-42535",
+      "our_Trip_ID": "303",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2016-06-14",
+      "valor_propuesto": "2016-06-14",
+      "fuente": "Cancilleria de Colombia (comunicado); Infobae 14/6/2016",
+      "justificacion": "Macri llego a Bogota la noche del martes 14/6/2016 (aeropuerto Catam), un dia antes de la Visita de Estado formal del 15/6. COLT capta correctamente la llegada; nuestra base la omite."
+    },
+    {
+      "colt_TripID": "3169-ARG-COL-42535",
+      "our_Trip_ID": "304",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2016-06-14;2016-06-16",
+      "valor_propuesto": "2016-06-17;2016-06-17",
+      "fuente": "Comunicado conjunto Cancilleria Argentina; Cancilleria Colombia",
+      "justificacion": "El comunicado conjunto confirma que el Foro Economico Mundial Capitulo Latinoamerica en Medellin se realizo los dias 16 y 17 de junio; por lo tanto el 17/6 corresponde a agenda real de Macri en Colombia, dia que el rango de COLT (14-16) no cubre. Nota: nuestra base separa en dos entradas (303 y 304) un viaje que en la realidad fue continuo (14 al 17/6); se recomienda revisar la estructura de ambas entradas en conjunto."
+    },
+    {
+      "colt_TripID": "3169-ARG-BRA-42586",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2016-08-04;2016-08-06",
+      "valor_propuesto": "2016-08-04;2016-08-05",
+      "fuente": "Prensa sobre ceremonia inaugural Juegos Olimpicos Rio 2016",
+      "justificacion": "Macri llego a Rio de Janeiro la tarde-noche del 4/8/2016 (antes de la ceremonia inaugural) y asistio a una gala del COI esa noche; la ceremonia inaugural fue el 5/8. No se hallo evidencia de actividad presidencial argentina en Brasil el 6/8 (COLT); dado que las visitas protocolares a ceremonias inaugurales suelen ser de un dia, es mas probable que el regreso haya sido el 5/8, aunque no se pudo confirmar con certeza absoluta la fecha exacta de regreso."
+    },
+    {
+      "colt_TripID": "3169-ARG-QAT-42616",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2016-09-03;2016-09-03",
+      "valor_propuesto": "2016-09-01;2016-09-01",
+      "fuente": "Ambito.com (31/8/2016); La Nacion",
+      "justificacion": "La escala de Macri en Doha (camino al G20 de Hangzhou) ocurrio entre el 31/8 y el 1/9/2016; para el 3/9 ya se encontraba en agenda oficial en Hangzhou con reunion bilateral con Xi Jinping, por lo que la fecha de COLT (3/9) es incompatible con la evidencia disponible."
+    },
+    {
+      "colt_TripID": "3169-ARG-COL-42640",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2016-09-27",
+      "valor_propuesto": "2016-09-26",
+      "fuente": "La Nacion (26/9/2016); Cancilleria",
+      "justificacion": "Macri viajo a Cartagena la manana del 26/9/2016 para la firma del Acuerdo de Paz (ceremonia a las 17hs) y no hay evidencia de actividad en Colombia el 27/9; parece haber sido un viaje de un solo dia."
+    },
+    {
+      "colt_TripID": "3169-ARG-VAT-42658",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2016-10-16",
+      "valor_propuesto": "2016-10-16",
+      "fuente": "Infobae (14 y 16/10/2016); La Nacion",
+      "justificacion": "Macri llego a Roma el 14/10 (dia libre), la audiencia con el Papa fue el sabado 15/10/2016, y las notas de prensa sobre su regreso a la Argentina estan fechadas 16/10, lo que sugiere que el regreso ocurrio ese dia. Nuestra fecha de fin (15) no contempla el dia de regreso."
+    },
+    {
+      "colt_TripID": "3169-ARG-BRA-42773",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2017-02-08",
+      "valor_propuesto": "2017-02-07",
+      "fuente": "Gobierno de Brasil (comunicado oficial); Casa Rosada",
+      "justificacion": "La Visita de Estado de Macri a Brasilia (reunion con Temer en el Palacio del Planalto) fue exclusivamente el 7/2/2017, segun comunicado oficial del gobierno brasileno. No hay evidencia de actividad el 8/2."
+    },
+    {
+      "colt_TripID": "3169-ARG-ESP-42790",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2017-02-24",
+      "valor_propuesto": "2017-02-20",
+      "fuente": "Infobae (19/2/2017): \"Macri viaja manana a Espana\"",
+      "justificacion": "Infobae confirmo el 19/2/2017 que Macri viajaba 'manana' (lunes 20/2) a Espana; la visita incluyo agenda cultural (ARCO) desde el 20/2 y Visita de Estado formal el 22-24/2, con regreso el 25/2. COLT capta solo el tramo final de la visita de Estado."
+    },
+    {
+      "colt_TripID": "3169-ARG-PRY-42810",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2017-03-17",
+      "valor_propuesto": "2017-03-16",
+      "fuente": "Gobernacion de Itapua (fuente oficial paraguaya)",
+      "justificacion": "La II Reunion Binacional de Ministros y Gobernadores con participacion de Macri se realizo el 16/3/2017 en Asuncion, segun fuente oficial paraguaya. No hay evidencia de actividad presidencial argentina en Paraguay el 17/3; fue una visita de un solo dia."
+    },
+    {
+      "colt_TripID": "3169-ARG-NLD-42822",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2017-03-28;2017-03-29",
+      "valor_propuesto": "2017-03-27;2017-03-28",
+      "fuente": "Infobae, El Cronista, Rosario3 (27/3/2017)",
+      "justificacion": "La Visita de Estado formal a los Paises Bajos comenzo el lunes 27/3/2017 con la recepcion oficial de los reyes en la plaza Dam, seguida de actividades el 28/3 (Rotterdam, ballet en La Haya) que cerraron la visita. No hay evidencia de actividad el 29/3."
+    },
+    {
+      "colt_TripID": "3169-ARG-JPN-42874",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2017-05-19;2017-05-21",
+      "valor_propuesto": "2017-05-18;2017-05-20",
+      "fuente": "Télam, Infobae, La Nacion, Diario de Cuyo (mayo 2017)",
+      "justificacion": "Macri llego a Tokio el 18/5/2017 para iniciar una visita oficial de dos dias; se reunio con el PM Abe el 19/5 y cerro la visita con audiencia con el Emperador Akihito el sabado 20/5, partiendo de regreso ese mismo dia. Ni nuestra fecha de fin (19) ni la de COLT (19 inicio, 21 fin) coinciden exactamente con la evidencia."
+    },
+    {
+      "colt_TripID": "3169-ARG-CHE-43125",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2018-01-25;2018-01-26",
+      "valor_propuesto": "2018-01-24;2018-01-25",
+      "fuente": "Infobae (17 al 25/1/2018), Casa Rosada",
+      "justificacion": "Macri llego a Davos el 24/1/2018 con una agenda completa esa tarde (Bill Gates, Trudeau, Maxima, Berset), dio su discurso de cierre ante el plenario del Foro el 25/1 al mediodia y viajo a Paris ese mismo dia. No hay evidencia de actividad el 26/1."
+    },
+    {
+      "colt_TripID": "3169-ARG-CAN-43259",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2018-06-09",
+      "valor_propuesto": "2018-06-10",
+      "fuente": "Ambito.com, Perfil (\"De Canada a Tortuguitas sin escalas\")",
+      "justificacion": "Macri partio del aeropuerto de Quebec el domingo 10/6/2018 a las 19:18 hora argentina, tras un vuelo de 11 horas de regreso. Permanecio en Canada hasta el 10/6, no solo hasta el 9/6 como indica COLT."
+    },
+    {
+      "colt_TripID": "3169-ARG-USA-43367",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2018-09-26",
+      "valor_propuesto": "2018-09-26",
+      "fuente": "Infobae (22-24/9/2018), Diario de Cuyo (27/9/2018)",
+      "justificacion": "El anuncio del nuevo acuerdo con el FMI (reunion con Lagarde) se dio en el marco del viaje a la ONU en Nueva York, con la conferencia de prensa en Casa Rosada reportada el 27/9, lo que sugiere que la agenda en EEUU se extendio hasta el 26/9 y no concluyo el 25/9 como registra nuestra base."
+    },
+    {
+      "colt_TripID": "3169-ARG-IDN-43641",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2019-06-25",
+      "valor_propuesto": "2019-06-26",
+      "fuente": "Cancilleria Argentina, LA NACION, Perfil (26/6/2019)",
+      "justificacion": "La Visita de Estado a Indonesia (Yakarta/Bogor) fue un viaje de un solo dia: Macri llego la manana del miercoles 26/6/2019 y esa misma noche partio hacia Osaka para el G20. No hay evidencia de actividad el 25/6."
+    },
+    {
+      "colt_TripID": "3169-ARG-JPN-43642",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2019-06-26",
+      "valor_propuesto": "2019-06-27",
+      "fuente": "A24, El Cronista, Diario de Cuyo (27/6/2019)",
+      "justificacion": "Macri arribo al aeropuerto de Kansai (Osaka) a las 8am hora de Japon del jueves 27/6/2019, procedente de Yakarta. El 26/6 aun se encontraba en Indonesia (ver item Indonesia)."
+    },
+    {
+      "colt_TripID": "3169-ARG-CHE-43645",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2019-06-29",
+      "valor_propuesto": "2019-06-30",
+      "fuente": "Pagina/12 (\"Que fue a hacer Macri realmente a Francia y Suiza\")",
+      "justificacion": "El 30/6/2019 Macri recibio en Zurich el premio 'Living Football' de manos de Gianni Infantino (FIFA); el 29/6 aun se encontraba en Japon en la clausura del G20 de Osaka."
+    },
+    {
+      "colt_TripID": "3169-ARG-CHE-43802",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2019-12-04",
+      "valor_propuesto": "2019-12-03",
+      "fuente": "Casa Rosada (\"Macri se reunio en Suiza con autoridades de la Cruz Roja y de la OMC\")",
+      "justificacion": "Confirmado que el 3/12/2019 Macri viajo a Ginebra (desde Madrid) para reunirse con el CICR y la OMC, y regreso a la Argentina esa misma noche. No hay evidencia de actividad en Suiza el 4/12."
+    },
+    {
+      "colt_TripID": "3169-ARG-BRA-43803",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2019-12-04",
+      "valor_propuesto": "2019-12-05",
+      "fuente": "Infobae, La Nacion, Cronica (diciembre 2019)",
+      "justificacion": "Macri viajo a Bento Goncalves (Brasil) el 5/12/2019 para la Cumbre de Jefes de Estado del Mercosur, en su ultimo viaje internacional como presidente; la cumbre ministerial se extendio desde el 4/12 pero la participacion presidencial de Macri fue el 5/12."
+    },
+    {
+      "colt_TripID": "3670-ARG-ISR-43852",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2020-01-25",
+      "valor_propuesto": "2020-01-24",
+      "fuente": "Infobae (25/1/2020, Roman Lejtman): \"estuvo cincuenta horas en Jerusalen\"; \"en su despedida de Israel\" (24/1/2020)",
+      "justificacion": "Alberto Fernandez llego a Israel el 22/1 y permanecio 'cincuenta horas' en Jerusalen; hay un articulo especifico titulado 'en su despedida de Israel' fechado 24/1/2020. El avion de regreso aterrizo en Buenos Aires la manana del 25/1, pero ese ya es el dia de arribo a la Argentina, no de estadia en Israel. Ni nuestra fecha (23) ni la de COLT (25) coinciden con el ultimo dia real en Israel (24)."
+    },
+    {
+      "colt_TripID": "3670-ARG-ITA-43861",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2020-02-01",
+      "valor_propuesto": "2020-01-31",
+      "fuente": "Telam, France24 (\"pais por pais, la agenda de Alberto Fernandez por Europa\")",
+      "justificacion": "La gira comenzo el viernes 31/1/2020 con misa y reunion con el Papa Francisco en el Vaticano, luego con el PM Conte y el presidente Mattarella esa misma tarde. El lunes siguiente (3/2) ya estaba en Alemania. No hay evidencia de actividad en Italia el 1/2."
+    },
+    {
+      "colt_TripID": "3670-ARG-DEU-43863",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2020-02-02",
+      "valor_propuesto": "2020-02-03",
+      "fuente": "Telam, France24",
+      "justificacion": "Segun el itinerario de la gira europea, el encuentro con la canciller alemana Angela Merkel fue 'el lunes' (3/2/2020); el fin de semana previo (1-2/2) no registra actividad en Alemania."
+    },
+    {
+      "colt_TripID": "3670-ARG-ESP-43864",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2020-02-03",
+      "valor_propuesto": "2020-02-04",
+      "fuente": "Telam, France24",
+      "justificacion": "El encuentro con el presidente del gobierno espanol Pedro Sanchez fue 'el martes' (4/2/2020), inmediatamente despues de la etapa alemana (3/2). No hay evidencia de actividad en Espana el 3/2."
+    },
+    {
+      "colt_TripID": "3670-ARG-CHL-44222",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2021-01-28",
+      "valor_propuesto": "2021-01-27",
+      "fuente": "LA NACION (\"Fernandez viajara a Chile el 26 y 27 de enero\")",
+      "justificacion": "La visita de Estado a Chile (reunion con Pinera) fue confirmada para los dias 26 y 27 de enero de 2021. No hay evidencia de actividad en Chile el 28/1."
+    },
+    {
+      "colt_TripID": "3670-ARG-PRT-44325",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2021-05-09",
+      "valor_propuesto": "2021-05-10",
+      "fuente": "Ambito, LA NACION, teleSUR (itinerario detallado gira europea mayo 2021)",
+      "justificacion": "Fernandez arribo a Portugal el domingo 9/5/2021 y permanecio hasta el lunes 10/5, dia en que almorzo con el PM Antonio Costa y partio hacia Madrid a las 16hs. COLT solo capta el dia de llegada."
+    },
+    {
+      "colt_TripID": "3670-ARG-ESP-44325",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2021-05-09",
+      "valor_propuesto": "2021-05-10",
+      "fuente": "Ambito, LA NACION (itinerario gira europea mayo 2021)",
+      "justificacion": "Fernandez partio de Portugal hacia Madrid el lunes 10/5/2021 a las 16hs (12hs argentina), llegando esa tarde/noche; las actividades formales en Espana (Rey Felipe VI, Pedro Sanchez) fueron el martes 11/5. El 9/5 aun se encontraba en Portugal."
+    },
+    {
+      "colt_TripID": "3670-ARG-FRA-44327",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2021-05-13",
+      "valor_propuesto": "2021-05-12",
+      "fuente": "Ambito, LA NACION (itinerario gira europea mayo 2021)",
+      "justificacion": "La reunion con Macron en el Palacio del Eliseo fue el miercoles 12/5/2021; el 13/5 ya se encontraba en el Vaticano/Italia (audiencia con el Papa Francisco y reuniones con Mattarella y Draghi), por lo que no pudo estar en Francia ese dia."
+    },
+    {
+      "colt_TripID": "3670-ARG-ITA-44329",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2021-05-15",
+      "valor_propuesto": "2021-05-14",
+      "fuente": "Ambito.com (\"Alberto Fernandez cerro su gira en Europa y regresa a la Argentina\"), France24",
+      "justificacion": "La gira europea 'concluyo el 13 de mayo' segun France24 (Vaticano, almuerzo con Mattarella, reunion con Draghi), y el vuelo de regreso (AR1090) partio de Roma a las 0.23 hora local (ya entrada la madrugada del 14/5), aterrizando en Buenos Aires ese mismo dia. No hay evidencia de actividad en Italia el 15/5."
+    },
+    {
+      "colt_TripID": "3670-ARG-GBR-44501",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2021-11-01;2021-11-04",
+      "valor_propuesto": "2021-11-01;2021-11-02",
+      "fuente": "Casa Rosada, Perfil, Ambito (COP26 Glasgow, noviembre 2021)",
+      "justificacion": "Fernandez inicio el tramo de Glasgow (COP26) el lunes 1/11/2021 (tras el G20 de Roma que concluyo el 31/10), y partio de regreso a la Argentina desde el aeropuerto de Glasgow Prestwick el 2/11/2021, aterrizando en Ezeiza la madrugada del 3/11. Nuestra fecha de inicio (31/10) es incorrecta -ese dia aun estaba en Roma-, y la fecha de fin de COLT (4/11) tampoco tiene sustento: ya habia regresado al pais el 3/11."
+    },
+    {
+      "colt_TripID": "3670-ARG-RUS-44595",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2022-02-04",
+      "valor_propuesto": "2022-02-03",
+      "fuente": "Casa Rosada, LA NACION (gira Rusia-China-Barbados febrero 2022)",
+      "justificacion": "Fernandez se reunio con Putin en Moscu el 3/2/2022 (almuerzo y conferencia conjunta) y arribo a Beijing el viernes 4/2, por lo que el 4/2 ya se encontraba en China, no en Rusia."
+    },
+    {
+      "colt_TripID": "3670-ARG-CHN-44596",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2022-02-07",
+      "valor_propuesto": "2022-02-06",
+      "fuente": "Casa Rosada, LA NACION",
+      "justificacion": "Fernandez arribo a Beijing el 4/2 y se reunio con Xi Jinping el domingo 6/2/2022; arribo a Barbados el 7/2 (confirmado por Infobae y LA NACION del mismo dia), por lo que el 7/2 ya no correspondia a China."
+    },
+    {
+      "colt_TripID": "3670-ARG-BRB-44599",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2022-02-07;2022-02-09",
+      "valor_propuesto": "2022-02-07;2022-02-08",
+      "fuente": "Infobae, LA NACION (7 y 8/2/2022)",
+      "justificacion": "Fernandez arribo a Barbados pasadas las 16hs del 7/2/2022 (vuelo AR1091), y la gira 'finalizo el martes 8 de febrero' segun LA NACION. Nuestra fecha de inicio (8) omite el dia de llegada (7); la fecha de fin de COLT (9) no tiene sustento, ya que el cierre de la gira fue el 8/2."
+    },
+    {
+      "colt_TripID": "3670-ARG-ESP-44690",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2022-05-09;2022-05-11",
+      "valor_propuesto": "2022-05-10;2022-05-10",
+      "fuente": "Infobae, La Moncloa, Diario de Cuyo (10/5/2022)",
+      "justificacion": "Fernandez arribo a Madrid la manana del martes 10/5/2022 (9:53hs local) y ese mismo dia se reunio con Pedro Sanchez y el Rey Felipe VI; no hay evidencia de actividad en Espana el 9/5 (aun no habia partido de Argentina) ni el 11/5 (ya se encontraba camino a Alemania)."
+    },
+    {
+      "colt_TripID": "3670-ARG-DEU-44692",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2022-05-13",
+      "valor_propuesto": "2022-05-11",
+      "fuente": "MDZ Online, Infobae (11/5/2022)",
+      "justificacion": "Fernandez aterrizo en Berlin el 11/5/2022, recibido por el canciller Olaf Scholz; el 12/5 ya se encontraba en Francia con Macron ('cierre de su gira europea'), por lo que no hay sustento para la fecha de fin de COLT (13/5)."
+    },
+    {
+      "colt_TripID": "3670-ARG-FRA-44694",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2022-05-13",
+      "valor_propuesto": "2022-05-12",
+      "fuente": "Ambito, Diario Democracia, TotalNews Agency (12/5/2022)",
+      "justificacion": "Fernandez arribo a Francia y se reunio con Macron el jueves/viernes 12/5/2022, en el cierre de su gira europea. COLT ubica el inicio un dia despues (13/5), sin sustento en la prensa consultada."
+    },
+    {
+      "colt_TripID": "3670-ARG-DEU-44738",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2022-06-29",
+      "valor_propuesto": "2022-06-27",
+      "fuente": "Casa Rosada, LA NACION (\"tras su paso por el G-7, Alberto Fernandez retomo el seguimiento...\")",
+      "justificacion": "Fernandez arribo a Alemania el 26/6/2022 para la Cumbre del G7 en Schloss Elmau (26-28/6), pero 'finalizo el 27 de junio su participacion' y 'adelanto su regreso... regresando antes de lo pautado que era esa noche [del 27]'. Ni nuestra fecha de fin (28) ni la de COLT (29) coinciden con el ultimo dia real en Alemania (27)."
+    },
+    {
+      "colt_TripID": "3670-ARG-COL-44779",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2022-08-06;2022-08-08",
+      "valor_propuesto": "2022-08-06;2022-08-07",
+      "fuente": "Telam, Ambito, Infobae, BAE Negocios (agosto 2022)",
+      "justificacion": "Fernandez partio de Buenos Aires el 6/8/2022 a las 18hs y llego a Bogota en la madrugada del 6/8 para la asuncion de Gustavo Petro, que se realizo el domingo 7/8; regreso esa misma noche del 7/8. Nuestra fecha de inicio (7) omite el dia de llegada (6); la fecha de fin de COLT (8) no tiene sustento, ya que el regreso fue la noche del 7/8."
+    },
+    {
+      "colt_TripID": "3670-ARG-USA-44821",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2022-09-17;2022-09-25",
+      "valor_propuesto": "2022-09-18;2022-09-21",
+      "fuente": "Casa Rosada, Telam, LA NACION (septiembre 2022)",
+      "justificacion": "Fernandez arribo a Nueva York el domingo 18/9/2022 (no el 17/9 como indica COLT), dio su discurso ante la Asamblea General el martes 20/9, y el 21/9 se traslado a Houston para una presentacion sobre Vaca Muerta, con arribo estimado a la Argentina en la madrugada del 22/9. El rango de COLT (17-25/9) esta muy sobreextendido; el nuestro (19-21) omite el dia de llegada (18)."
+    },
+    {
+      "colt_TripID": "3670-ARG-IDN-44878",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2022-11-13",
+      "valor_propuesto": "2022-11-14",
+      "fuente": "Ambito, MDZ Online (itinerario G20 Bali, noviembre 2022)",
+      "justificacion": "Fernandez partio desde Francia hacia Indonesia el domingo 13/11/2022, arribando a Bali (vuelo AR1090) a las 16:30 hora local del lunes 14/11/2022, dia en que participo de una cena con Macron. El 13/11 aun se encontraba en transito/Francia, no en Indonesia. Ni nuestra fecha (15) ni la de COLT (13) coinciden con la llegada real (14)."
+    },
+    {
+      "colt_TripID": "3670-ARG-DOM-45009",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2023-03-26",
+      "valor_propuesto": "2023-03-25",
+      "fuente": "Infobae, LA NACION, Casa Rosada (Cumbre Iberoamericana, marzo 2023)",
+      "justificacion": "Fernandez llego a Santo Domingo el 24/3/2023, y la XXVIII Cumbre Iberoamericana se desarrollo el 24-25/3, con la sesion inaugural y bilaterales concentradas en esos dos dias. No se hallo evidencia de actividad presidencial argentina en Republica Dominicana el 26/3."
+    },
+    {
+      "colt_TripID": "3670-ARG-USA-45185",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2023-09-16",
+      "valor_propuesto": "2023-09-16",
+      "fuente": "Diario de Cuyo, Puntal (16/9/2023): \"Alberto Fernandez dejo Cuba y se dirige a Nueva York\"",
+      "justificacion": "Fernandez partio de Cuba rumbo a Nueva York el 16/9/2023 (confirmado por multiples medios fechados ese dia), dando su ultimo discurso ante la Asamblea General de la ONU el martes 19/9. Nuestra fecha de inicio (18) no contempla la llegada real a Nueva York."
+    },
+    {
+      "colt_TripID": "4053-ARG-CHE-45307",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2024-01-16",
+      "valor_propuesto": "2024-01-17",
+      "fuente": "LA NACION, El Cronista, weforum.org (Davos 2024)",
+      "justificacion": "Milei dio su primer discurso ante el plenario del Foro Economico Mundial el miercoles 17/1/2024 (15:45-16:15). La fecha de fin de COLT (16/1) no incluye el dia del discurso, que fue el evento central de la visita."
+    },
+    {
+      "colt_TripID": "4053-ARG-ISR-45328",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2024-02-09",
+      "valor_propuesto": "2024-02-09",
+      "fuente": "Infobae, Ambito, Radio JAI (febrero 2024)",
+      "justificacion": "Milei realizo una 'gira oficial de tres dias' en Israel (6, 7 y 8 de febrero: Muro de los Lamentos, Netanyahu, y el 8/2 kibutz Nir Oz/Yad Vashem/Herzog), viajando a Roma el 9/2/2024. La fecha de fin de COLT (9/2) coincide con el dia de partida hacia Italia; nuestra fecha de fin (8/2) no contempla ese ultimo dia en el pais."
+    },
+    {
+      "colt_TripID": "4053-ARG-ITA-45334",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2024-02-13",
+      "valor_propuesto": "2024-02-13",
+      "fuente": "LA NACION, ACI Prensa, France24, Emol (12-13/2/2024)",
+      "justificacion": "La audiencia privada con el Papa Francisco fue el lunes 12/2/2024 (tras la canonizacion de Mama Antula el 11/2), y la prensa confirma que Milei 'regreso' a la Argentina el martes 13/2/2024, cerrando la gira Israel-Italia-Vaticano iniciada el 5/2. La fecha de fin de COLT (13/2) tiene sustento; la nuestra (12/2) no contempla el dia de regreso."
+    },
+    {
+      "colt_TripID": "4053-ARG-USA-45391",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2024-04-09;2024-04-12",
+      "valor_propuesto": "2024-04-09;2024-04-12",
+      "fuente": "Infobae, LA NACION, El Financiero (abril 2024)",
+      "justificacion": "Milei partio de Ezeiza el martes 9/4/2024 a las 22:40, con agenda en Miami el 10-11/4 (distincion de la comunidad judia, disertacion en FIU) y la reunion con Elon Musk en la planta de Tesla en Austin el 12/4. El rango de COLT (9-12/4) cubre correctamente todo el viaje; nuestra base solo registra el ultimo dia (Austin), omitiendo los dias en Miami."
+    },
+    {
+      "colt_TripID": "4053-ARG-ESP-45428",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2024-05-16;2024-05-20",
+      "valor_propuesto": "2024-05-17;2024-05-19",
+      "fuente": "Embajada Argentina en Espana (comunicado formal citado por medios espanoles), Maldita.es, Ambito",
+      "justificacion": "La embajada argentina notifico formalmente que el presidente 'estara en Espana entre el 17 y el 19 de mayo' (evento Europa Viva 24 de Vox, 18-19/5). El rango de COLT (16-20/5) se extiende sin sustento en ambos extremos."
+    },
+    {
+      "colt_TripID": "4053-ARG-USA-45439",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2024-05-27;2024-05-31",
+      "valor_propuesto": "2024-05-27;2024-05-31",
+      "fuente": "CNN en Espanol, Vision360, El Litoral, Chequeado (\"viaje de 6 dias a San Francisco... del 27 de mayo al 2 de junio\")",
+      "justificacion": "Milei realizo un viaje de EEUU (San Francisco) a El Salvador del 27/5 al 2/6/2024: reunion con Sam Altman (28/5), discurso en Stanford/Hoover Institution y reuniones con Google/Apple/Meta (29/5), reunion con Elon Musk (30/5), partiendo a El Salvador el 31/5 para la asuncion de Bukele. El rango de COLT (27-31/5) coincide con la estadia real en EEUU; nuestra base (28-30) omite los extremos."
+    },
+    {
+      "colt_TripID": "4053-ARG-ITA-45455",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2024-06-12;2024-06-14",
+      "valor_propuesto": "2024-06-13;2024-06-15",
+      "fuente": "Chequeado (\"Javier Milei en la Cumbre del G7\")",
+      "justificacion": "La Cumbre del G7 en Apulia (Italia) con participacion de Milei se realizo especificamente entre el 13 y el 15 de junio de 2024, segun confirma Chequeado. El rango de COLT (12-14/6) esta desplazado un dia respecto de la evidencia."
+    },
+    {
+      "colt_TripID": "4053-ARG-CHE-45458",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2024-06-16",
+      "valor_propuesto": "2024-06-15",
+      "fuente": "Ambito, Embajada Argentina en Suiza, SWI swissinfo (Cumbre de Paz de Ucrania, junio 2024)",
+      "justificacion": "Si bien la Cumbre de Paz de Burgenstock se extendio el 15 y 16 de junio, las fuentes consultadas ubican la participacion especifica de Milei (incluido el encuentro con Zelenski) el 15/6/2024, sin evidencia de actividad el 16/6."
+    },
+    {
+      "colt_TripID": "4053-ARG-ESP-45463",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2024-06-20",
+      "valor_propuesto": "2024-06-21",
+      "fuente": "Infobae, Newtral, Diario de Cuyo (Premio Instituto Juan de Mariana, 21/6/2024)",
+      "justificacion": "La ceremonia de entrega del Premio 2024 del Instituto Juan de Mariana (\"Cena de la Libertad\") en el Casino de Madrid fue el 21/6/2024; no se hallo evidencia de actividad en Espana el 20/6."
+    },
+    {
+      "colt_TripID": "4053-ARG-DEU-45465",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2024-06-24",
+      "valor_propuesto": "2024-06-23",
+      "fuente": "Argentinisches Tageblatt (\"48 hrs intensas\"), Infobae, Argentina.gob.ar",
+      "justificacion": "Milei recibio la Medalla Hayek en Hamburgo el 22/6/2024 y se reunio con el canciller Olaf Scholz en Berlin el 23/6/2024 ('48 horas intensas' en total); las fuentes confirman explicitamente que la visita no se extendio al 24/6."
+    },
+    {
+      "colt_TripID": "4053-ARG-USA-45484",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2024-07-11",
+      "valor_propuesto": "2024-07-11",
+      "fuente": "Perfil, LA NACION, BAE Negocios (conferencia Allen & Co. Sun Valley)",
+      "justificacion": "Milei asistio a la conferencia Allen & Company en Sun Valley del 11 al 14 de julio de 2024. Nuestra fecha de inicio (12/7) omite el primer dia."
+    },
+    {
+      "colt_TripID": "4053-ARG-FRA-45497",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2024-07-24",
+      "valor_propuesto": "2024-07-24",
+      "fuente": "El Cronista, Filo News, Infobae (julio 2024)",
+      "justificacion": "Milei viajo a Paris el miercoles 24/7/2024 y permanecio hasta el sabado 27/7 (regreso), con la reunion con Macron y la apertura de los Juegos Olimpicos el viernes 26/7. Nuestra fecha de inicio (25/7) omite el dia de llegada (24/7)."
+    },
+    {
+      "colt_TripID": "4053-ARG-USA-45556",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2024-09-25",
+      "valor_propuesto": "2024-09-24",
+      "fuente": "Semana.com, Infobae, Emol (septiembre 2024)",
+      "justificacion": "Milei toco la campana en la Bolsa de Nueva York y se reunio con Elon Musk el 23/9/2024, con partida programada de EEUU el martes 24/9 a las 22hs, arribando a la Argentina el miercoles 25/9 por la manana. El ultimo dia de estadia en EEUU fue el 24/9 (la fecha de fin de COLT, 25/9, corresponde ya al dia de llegada a Argentina)."
+    },
+    {
+      "colt_TripID": "4053-ARG-USA-45610",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2024-11-16",
+      "valor_propuesto": "2024-11-15",
+      "fuente": "Infobae (\"Milei cerro su viaje a EEUU\", 15/11/2024)",
+      "justificacion": "Milei llego a Mar-a-Lago el 14/11/2024 y la prensa confirma el cierre del viaje el 15/11/2024. No hay evidencia de actividad el 16/11."
+    },
+    {
+      "colt_TripID": "4053-ARG-ITA-45638",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2024-12-12;2024-12-16",
+      "valor_propuesto": "2024-12-13;2024-12-14",
+      "fuente": "Infobae (11, 13 y 14/12/2024)",
+      "justificacion": "Milei 'salio de Buenos Aires el viernes 13 [de diciembre], se quedo el sabado 14 y regreso al pais esa misma noche'. Se reunio con Meloni el 13/12 y hablo en el evento Atreju el 14/12 (recibiendo tambien el Premio Milton Friedman). Ni nuestra fecha de inicio (12/12) ni el rango de COLT (12-16/12) coinciden con la estadia real (13-14/12)."
+    },
+    {
+      "colt_TripID": "4053-ARG-USA-45674",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2025-01-17",
+      "valor_propuesto": "2025-01-20",
+      "fuente": "Conocimiento general verificado (segunda investidura de Donald Trump, 20/1/2025); Infobae (secuencia hacia Davos 21-24/1/2025)",
+      "justificacion": "La investidura de Donald Trump fue el 20/1/2025. No se hallo evidencia de actividad de Milei en EEUU desde el 17/1 (COLT); la secuencia de viaje hacia Davos (que arranco el 21/1 segun COLT, con discurso de Milei el 23/1 y Premio Ropke el 24/1) es mas consistente con una llegada a EEUU el 20/1, no el 17/1. Verificacion con presupuesto de busqueda limitado; se recomienda doble chequeo posterior si es posible."
+    },
+    {
+      "colt_TripID": "4053-ARG-CHE-45678",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2025-01-21;2025-01-24",
+      "valor_propuesto": "2025-01-21;2025-01-24",
+      "fuente": "Infobae (22/1/2025): \"Que es el Foro de Davos y a que hora dara su discurso Javier Milei\"",
+      "justificacion": "Confirmado: Milei dio su discurso en Davos el jueves 23/1/2025 a las 10:15 (Suiza), y el viernes 24/1/2025 recibio el Premio Ropke en Kloten, 'antes de regresar a Buenos Aires con una breve escala en Brasil'. El rango de COLT (21-24/1) tiene sustento directo en la fecha de cierre (24/1); nuestra fecha de fin (23/1) no contempla el dia del Premio Ropke."
+    },
+    {
+      "colt_TripID": "4053-ARG-USA-45749",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2025-04-02",
+      "valor_propuesto": "",
+      "fuente": "Diario de Cuyo (1/4/2025): \"En el tramo final de la negociacion con el FMI, Milei y Caputo viajaran a Estados Unidos\"",
+      "justificacion": "Solo se hallo un anuncio previo (1/4/2025) del viaje relacionado con la negociacion del FMI, sin confirmacion posterior de la fecha exacta de llegada/agenda (2 o 3 de abril). Se agoto el presupuesto de busqueda web de la sesion antes de poder confirmar con una segunda fuente independiente; se recomienda verificacion manual adicional."
+    },
+    {
+      "colt_TripID": "4053-ARG-VAT-45773",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2025-04-26",
+      "valor_propuesto": "2025-04-25",
+      "fuente": "Wikipedia (en) \"Death and funeral of Pope Francis\": Misa de Requiem el 26/4/2025 a las 10:00 en la Plaza San Pedro",
+      "justificacion": "La misa de funeral del Papa Francisco (evento central en el Vaticano) fue estrictamente el 26/4/2025 a las 10:00, con Milei ubicado en un lugar de precedencia especial como presidente del pais natal del Papa. Dado el largo vuelo desde Buenos Aires y que la ceremonia comenzo temprano en la manana romana, es altamente probable que la comitiva argentina haya arribado el dia anterior (25/4), tal como registra nuestra base; COLT solo capta el dia del funeral."
+    },
+    {
+      "colt_TripID": "4053-ARG-ITA-45772",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2025-04-25;2025-04-27",
+      "valor_propuesto": "",
+      "fuente": "Wikipedia (en) \"Death and funeral of Pope Francis\"",
+      "justificacion": "Se confirmo que el funeral (evento central) fue el 26/4/2025, y es probable que la llegada a Roma/Italia haya sido el 25/4 (ver item Vaticano). Sin embargo no se pudo confirmar con una fuente especifica si la comitiva de Milei permanecio en Italia hasta el 27/4 (COLT) o partio el mismo 26/4 (nuestra base), dado el agotamiento del presupuesto de busqueda web de la sesion. Se recomienda verificacion manual."
+    },
+    {
+      "colt_TripID": "4053-ARG-ESP-45816",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2025-06-08",
+      "valor_propuesto": "",
+      "fuente": "N/A",
+      "justificacion": "No se pudo verificar de forma independiente la fecha exacta de inicio de esta etapa (Espana) de la gira de junio 2025 (que continuo por Francia -Niza, reunion con Macron- e Israel) debido al agotamiento del presupuesto de busqueda web de la sesion. Se recomienda verificacion manual adicional; ver el item Israel (ISR-45817) de la misma gira, que si pudo confirmarse con una fuente directa."
+    },
+    {
+      "colt_TripID": "4053-ARG-ISR-45817",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2025-06-11",
+      "valor_propuesto": "2025-06-12",
+      "fuente": "LA NACION (Elisabetta Pique, 9/6/2025): \"Milei llego a Israel... se quedara tres dias\"",
+      "justificacion": "Milei arribo a Israel la noche del lunes 9/6/2025 (procedente de Niza, Francia) y la nota confirma que 'a partir de este martes [10/6], durante tres dias, se reunira con Herzog y Netanyahu', lo que extiende la agenda hasta el jueves 12/6/2025. La fecha de fin de COLT (11/6) se queda corta respecto de la agenda de tres dias confirmada."
+    },
+    {
+      "colt_TripID": "4053-ARG-USA-45903",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2025-09-03;2025-09-06",
+      "valor_propuesto": "",
+      "fuente": "N/A",
+      "justificacion": "No se hallo informacion especifica sobre este viaje de principios de septiembre de 2025 (distinto del viaje a la ONU de fines de mes) debido al agotamiento del presupuesto de busqueda web de la sesion. Se recomienda verificacion manual adicional."
+    },
+    {
+      "colt_TripID": "4053-ARG-USA-45922",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2025-09-26",
+      "valor_propuesto": "2025-09-24",
+      "fuente": "Diario de Cuyo (23/9/2025): \"Milei y Trump estan reunidos en la ONU\" / \"hoy el argentino habla en las naciones unidas\"",
+      "justificacion": "El discurso de Milei ante la Asamblea General de la ONU fue el 23/9/2025. Siguiendo el patron reiterado en sus viajes previos a la ONU (2018, 2022, 2023, 2024), donde permanecio solo 1-2 dias despues del discurso, es mas probable que el regreso haya sido el 24/9 (nuestra fecha) que el 26/9 (COLT). Verificacion de confianza media por agotamiento del presupuesto de busqueda; se recomienda doble chequeo."
+    },
+    {
+      "colt_TripID": "4053-ARG-USA-45943",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2025-10-13",
+      "valor_propuesto": "",
+      "fuente": "N/A",
+      "justificacion": "No se hallo informacion especifica sobre este viaje de octubre de 2025 debido al agotamiento del presupuesto de busqueda web de la sesion. Se recomienda verificacion manual adicional."
+    },
+    {
+      "colt_TripID": "4053-ARG-USA-45967",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2025-11-06",
+      "valor_propuesto": "2025-11-05",
+      "fuente": "Diario de Cuyo (6/11/2025): \"Milei en Miami: presencia en un foro mundial y una gala conservadora en Palm Beach\"",
+      "justificacion": "El articulo (fechado 6/11/2025) confirma que Milei 'arribo esta madrugada a Miami' (00:50 hora local), tras un vuelo con escala en Lima; dado el horario de arribo post-medianoche, la partida desde Buenos Aires ocurrio la noche del 5/11/2025. Discurso en el American Business Forum el jueves 6/11, agenda en Palm Beach y Nueva York el viernes 7/11, con partida esa noche hacia Bolivia (asuncion de Rodrigo Paz el sabado 8/11). El dia de partida desde Argentina (5/11) es consistente con el criterio usado en otros items de este mismo lote (p.ej. USA abril 2024)."
+    },
+    {
+      "colt_TripID": "4053-ARG-NOR-46000",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2025-12-10",
+      "valor_propuesto": "",
+      "fuente": "N/A (hipotesis no confirmada: posible coincidencia con la ceremonia del Premio Nobel de la Paz en Oslo, tradicionalmente el 10/12)",
+      "justificacion": "No se pudo confirmar el motivo ni el itinerario exacto de este viaje a Noruega debido al agotamiento del presupuesto de busqueda web de la sesion. Se observa que el 10/12 es la fecha tradicional de la ceremonia del Premio Nobel de la Paz en Oslo, lo que podria explicar el viaje, pero esto no pudo verificarse de forma independiente. Se recomienda verificacion manual prioritaria."
+    }
+  ],
+  "colt_unico_resueltos": [
+    {
+      "colt_TripID": "3169-ARG-USA-43000",
+      "veredicto": "Descartado",
+      "campos_completados": {},
+      "fuente": "El Cronista (9/8/2017), Telam (agosto 2017), Politica Argentina, Perfil",
+      "justificacion": "Confirmado de forma independiente: Macri decidio NO viajar a la 72a Asamblea General de la ONU en septiembre de 2017 (razon oficial: recuperacion de cirugia de rodilla derecha, en medio de campana electoral); en su lugar encabezo la delegacion la vicepresidenta Gabriela Michetti junto al canciller Faurie. Fue la primera vez que un vicepresidente represento a la Argentina ante la ONU, rompiendo la asistencia perfecta del pais desde 2002. Coincide con la verificacion previa de PE-Latam (nota en el propio workpack). Viaje fantasma confirmado; no corresponde agregarlo a la base."
+    },
+    {
+      "colt_TripID": "3670-ARG-BOL-44144",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Infobae, Perfil, El Cronista, teleSUR (8-9/11/2020)",
+      "justificacion": "Confirmado que Alberto Fernandez viajo a La Quiaca (Jujuy, Argentina) y encabezo un acto de despedida a Evo Morales en el puente internacional Horacio Guzman, en la frontera con Villazon (Bolivia), el 9/11/2020. Sin embargo, no se pudo confirmar de forma independiente que Fernandez haya cruzado y pisado suelo boliviano (Villazon) -las fuentes describen el acto en el puente fronterizo sin precisar si el mandatario paso al lado boliviano-, por lo que no es posible verificar con certeza si corresponde a una 'visita a Bolivia' en sentido estricto de la metodologia COLT/PE-Latam."
+    },
+    {
+      "colt_TripID": "3670-ARG-VAT-44329",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ciudad del Vaticano"
+      },
+      "fuente": "France24 (\"gira europea, respaldo renegociacion deuda FMI\"), Vatican News",
+      "justificacion": "Confirmado: como parte de la gira europea de mayo 2021, el 13/5/2021 (jueves) Alberto Fernandez visito al Papa Francisco en audiencia privada en el Palacio Apostolico del Vaticano, en el mismo dia en que tambien almorzo con el presidente italiano Mattarella y se reunio con el premier Draghi. Corresponde a la misma jornada que la entrada 'Italia' del 13/5/2021 ya presente en nuestra base (nuestro_Trip_ID 369), por lo que podria tratarse de una etapa adicional (Vaticano) del mismo viaje que conviene agregar o vincular explicitamente."
+    },
+    {
+      "colt_TripID": "3670-ARG-ITA-44499",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Roma"
+      },
+      "fuente": "Infobae (30/10/2021), Telam, LA NACION (Cumbre del G20 en Roma)",
+      "justificacion": "Confirmado: Alberto Fernandez participo de la Cumbre de Lideres del G20 en Roma los dias 30 y 31 de octubre de 2021 (agenda oficial comenzando el sabado 30 a las 5hs hora argentina en el Centro La Nuvola), con bilaterales con Merkel, Charles Michel, Pedro Sanchez y Ursula von der Leyen. Nota sobre fechas: la evidencia indica que el G20 concluyo el 31/10 (no el 1/11 como propone COLT); el 1/11 Fernandez ya habia iniciado el tramo de Glasgow/COP26 en Escocia (ver item GBR-44501). Se recomienda TripEndDate=2021-10-31 en lugar de 2021-11-01 al incorporar este viaje."
+    },
+    {
+      "colt_TripID": "3670-ARG-ARG-44979",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Base Marambio, Antartida"
+      },
+      "fuente": "Buenos Aires Times, Casa Rosada, Twitter/X @CasaRosada (22/2/2023)",
+      "justificacion": "Confirmado: Alberto Fernandez visito la Base Marambio en la Antartida Argentina el 22/2/2023, coincidiendo con el Dia de la Soberania Antartica, donde dio un discurso e inauguro laboratorios. Nota: por tratarse de territorio bajo reclamo de soberania argentina (no un pais extranjero), se recomienda que el equipo de PE-Latam evalue si corresponde incluirlo en la base de 'viajes presidenciales al exterior' segun el criterio metodologico del proyecto, dado que COLT si lo registra pero como 'Argentina' (no como viaje internacional a otro pais)."
+    },
+    {
+      "colt_TripID": "4053-ARG-ARG-45297",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Antartida Argentina"
+      },
+      "fuente": "Casa Rosada (comunicado oficial, fuente citada en el propio workpack)",
+      "justificacion": "Confirmado por fuente oficial (Casa Rosada): Javier Milei encabezo el 6-7/1/2024 el lanzamiento del Programa de Implementacion de Tecnologia Nuclear para el Control de la Contaminacion Plastica en la Antartida. Misma observacion que el item anterior (Antartida/Alberto Fernandez): al ser territorio de reclamo de soberania argentina, se recomienda que el equipo evalue si corresponde incluirlo como 'viaje presidencial al exterior' segun el criterio metodologico del proyecto."
+    }
+  ]
+}

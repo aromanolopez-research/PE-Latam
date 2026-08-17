@@ -1,0 +1,1055 @@
+[
+ {
+  "colt_TripID": "994-BRA-PRT-36593",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2000-03-08 a 2000-03-09",
+  "valor_propuesto": "2000-03-08 a 2000-03-09",
+  "fuente": "http://www.itamaraty.gov.br/pt-BR/discursos... (jantar Palácio da Ajuda 8/3/2000; almoço Personalidades do Ano Brasil-Portugal 9/3/2000)",
+  "justificacion": "Discursos oficiales de Itamaraty confirman a FHC en Lisboa el 8 de marzo (cena con Sampaio) y el 9 de marzo (almuerzo), coincidiendo exactamente con las fechas de COLT; nuestras fechas (07-08/03) parecen erroneas."
+ },
+ {
+  "colt_TripID": "994-BRA-DEU-36676",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2000-05-30 a 2000-06-03",
+  "valor_propuesto": "2000-05-30 a 2000-06-03",
+  "fuente": "http://www.dgabc.com.br/Noticia/228846/fhc-viaja-para-a-alemanha (30/05/2000, dia de la partida)",
+  "justificacion": "El titular 'FHC viaja para a Alemanha' se publico el mismo 30/05/2000 (dia de partida), coincidiendo con el inicio COLT. Ademas la gira continuo a Francia (COLT registra Francia 03-06/06 en colt_unico), lo que es consistente con que Alemania terminara el 03/06 como dia de transito, tal como indica COLT."
+ },
+ {
+  "colt_TripID": "994-BRA-MEX-36859",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2000-11-29 a 2000-12-02",
+  "valor_propuesto": "2000-11-29 a 2000-12-02",
+  "fuente": "Wikipedia (nota): 'Fernando Henrique viaja ao Mexico para posse de Fox' Folha 29/11/2000 (dia del embarque)",
+  "justificacion": "La nota de Folha publicada el mismo 29/11/2000 describe el embarque de FHC ese dia (coincide con inicio COLT); Fox asumio el 01/12/2000, por lo que el regreso el 02/12 (fin COLT) es plausible. Nuestras fechas (30/11-01/12) parecen desplazadas."
+ },
+ {
+  "colt_TripID": "994-BRA-CAN-37000",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2001-04-19",
+  "valor_propuesto": "2001-04-19",
+  "fuente": "Search Query: Fernando Henrique Cardoso Quebec 19 de abril 2001 Cupula das Americas (reunion bilateral con PM Chretien previa a la apertura)",
+  "justificacion": "Se confirma reunion bilateral de FHC con el primer ministro canadiense Jean Chretien el 19/04/2001, un dia antes de la apertura oficial de la Cumbre (20/04); esto coincide con el inicio COLT, no con el nuestro (20/04)."
+ },
+ {
+  "colt_TripID": "994-BRA-PER-37099",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2001-07-27",
+  "valor_propuesto": "2001-07-27",
+  "fuente": "https://www.dgabc.com.br/Noticia/258036/fhc-vai-ao-peru-para-a-posse-de-alejandro-toledo",
+  "justificacion": "La nota indica que FHC viajo a Lima el viernes (27/07/2001, confirmado por calendario) para la investidura de Toledo el sabado 28/07; esto coincide con el inicio COLT (27/07), no con el nuestro (28/07)."
+ },
+ {
+  "colt_TripID": "994-BRA-ECU-37164",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2001-09-30 a 2001-10-02",
+  "valor_propuesto": "2001-09-30 a 2001-10-02",
+  "fuente": "Search Query: Cardoso discurso Congreso Ecuador Quito octubre 2001 (georgewbush-whitehouse.archives.gov referencia cruzada)",
+  "justificacion": "Se confirma que FHC se dirigio al Congreso de Ecuador en Quito el 1 de octubre de 2001, fecha que cae dentro del rango COLT (30/09-02/10) pero fuera del rango nuestro (27-28/09), sugiriendo que nuestras fechas son erroneas."
+ },
+ {
+  "colt_TripID": "994-BRA-RUS-37268",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2002-01-12",
+  "valor_propuesto": "2002-01-12",
+  "fuente": "http://politica.estadao.com.br/noticias/geral,fhc-embarca-para-a-russia-em-sua-85-viagem-ao-exterior,20020111p54670 (nota publicada 11/01/2002 anunciando embarque inminente)",
+  "justificacion": "La nota fue publicada el 11/01/2002 anunciando que FHC 'embarca' para Rusia, consistente con partida el 12/01 (COLT), no el 13/01 (nuestro). Fecha de fin no verificada con certeza adicional."
+ },
+ {
+  "colt_TripID": "1780-BRA-PER-37763",
+  "veredicto": "No_verificable",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2003-05-25",
+  "valor_propuesto": "N/D",
+  "fuente": "Search Query: Lula Peru maio 2003 Cusco (fuente COLT es voanews.com, no institucional pero no aporta fecha de fin exacta)",
+  "justificacion": "No se encontro evidencia independiente que confirme si el viaje termino el 24/05 (nuestro) o el 25/05 (COLT); la diferencia es de solo 1 dia y no se pudo dirimir."
+ },
+ {
+  "colt_TripID": "1780-BRA-NAM-37931",
+  "veredicto": "No_verificable",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2003-11-07",
+  "valor_propuesto": "N/D",
+  "fuente": "N/D",
+  "justificacion": "No se encontro evidencia independiente adicional (mas alla de los links ya provistos, de Itamaraty/Biblioteca da Presidencia no accesibles via fetch en este entorno) para dirimir si el viaje termino el 06/11 (nuestro) o el 07/11 (COLT); diferencia de 1 dia."
+ },
+ {
+  "colt_TripID": "1780-BRA-BOL-37939",
+  "veredicto": "No_verificable",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2003-11-14",
+  "valor_propuesto": "N/D",
+  "fuente": "N/D",
+  "justificacion": "No se encontro evidencia independiente para dirimir si el viaje se extendio al 15/11 (nuestro) o termino el 14/11 (COLT); diferencia de 1 dia sin fuentes accesibles."
+ },
+ {
+  "colt_TripID": "1780-BRA-LBN-37959",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2003-12-04",
+  "valor_propuesto": "N/D",
+  "fuente": "N/D",
+  "justificacion": "No se encontro evidencia independiente para dirimir si el viaje comenzo el 04/12 (COLT) o el 05/12 (nuestro); diferencia de 1 dia sin fuentes accesibles fuera de Itamaraty/Biblioteca da Presidencia (no accesibles en este entorno)."
+ },
+ {
+  "colt_TripID": "1780-BRA-ARE-37961",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2003-12-06",
+  "valor_propuesto": "N/D",
+  "fuente": "N/D",
+  "justificacion": "No se encontro evidencia independiente para dirimir si el viaje comenzo el 06/12 (COLT) o el 07/12 (nuestro); diferencia de 1 dia sin fuentes accesibles fuera de Itamaraty/Biblioteca da Presidencia (no accesibles en este entorno)."
+ },
+ {
+  "colt_TripID": "1780-BRA-LBY-37964",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2003-12-09 a 2003-12-10",
+  "valor_propuesto": "N/D",
+  "fuente": "N/D",
+  "justificacion": "No se encontro evidencia independiente para dirimir la diferencia de 1 dia en ambas fechas; sin fuentes accesibles fuera de Itamaraty/Biblioteca da Presidencia (no accesibles en este entorno)."
+ },
+ {
+  "colt_TripID": "1780-BRA-ARG-37909",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2003-10-15 a 2003-10-18",
+  "valor_propuesto": "N/D",
+  "fuente": "N/D",
+  "justificacion": "No se encontro evidencia independiente que precise fechas exactas de esta visita de Estado a Argentina en octubre de 2003 (distinta de la asuncion de Kirchner, que fue en mayo de 2003); diferencia de 1 dia en cada extremo sin poder dirimir."
+ },
+ {
+  "colt_TripID": "1780-BRA-ESP-37918",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2003-10-24",
+  "valor_propuesto": "N/D",
+  "fuente": "N/D",
+  "justificacion": "Diferencia de 1 dia (23 nuestro vs 24 COLT); no se encontro evidencia independiente concluyente."
+ },
+ {
+  "colt_TripID": "994-BRA-BOL-37069",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2001-06-27 a 2001-06-28",
+  "valor_propuesto": "N/D",
+  "fuente": "Wikipedia (nota): 'Aecio assume o Planalto por tres dias, com FHC e Maciel em viagem' Folha 22/06/2001",
+  "justificacion": "La nota de Folha sugiere que FHC ya estaba de viaje desde antes del 22/06 (posiblemente por Chile/otro compromiso, no necesariamente Bolivia), lo que complica la interpretacion; no se pudo confirmar con certeza las fechas exactas de la visita a Bolivia (26-27/06 nuestro vs 27-28/06 COLT)."
+ },
+ {
+  "colt_TripID": "994-BRA-ARG-36705",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2000-06-28",
+  "valor_propuesto": "N/D",
+  "fuente": "http://www.mercosur.int/msweb/portal%20intermediario/normas/listados/DECISIONES.pdf",
+  "justificacion": "El link de COLT es un PDF de decisiones del Mercosur sin fecha de viaje explicita verificable en este entorno; diferencia de solo 1 dia sin poder dirimir con las busquedas realizadas."
+ },
+ {
+  "colt_TripID": "994-BRA-URY-37245",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2001-12-20",
+  "valor_propuesto": "N/D",
+  "fuente": "http://www.mercosur.int/msweb/portal%20intermediario/normas/listados/DECISIONES.pdf",
+  "justificacion": "Mismo tipo de fuente que el item anterior (documento de decisiones Mercosur sin fecha de viaje explicita); diferencia de 1 dia sin poder dirimir."
+ },
+ {
+  "colt_TripID": "994-BRA-ARG-37304",
+  "veredicto": "No_verificable (acceso institucional)",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2002-02-17",
+  "valor_propuesto": "N/D",
+  "fuente": "Links de COLT son de bases institucionales (Lexis-Nexis/ProQuest via du.idm.oclc.org) inaccesibles en este entorno",
+  "justificacion": "Los tres links de COLT para este item requieren acceso institucional (advance-lexis-com.du.idm.oclc.org, proquest.com via du.idm.oclc.org) que no se pudo verificar; busqueda independiente no arrojo informacion concluyente sobre si el viaje a la Cumbre del Mercosur en Argentina comenzo el 17/02 (COLT) o el 18/02 (nuestro)."
+ },
+ {
+  "colt_TripID": "994-BRA-FRA-37193",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2001-10-29",
+  "valor_propuesto": "N/D",
+  "fuente": "Search Query: Fernando Henrique Cardoso Espanha Franca outubro 2001 Aznar 27 de outubro viagem Paris Madrid",
+  "justificacion": "No se hallo fuente independiente que confirme si la etapa francesa comenzo el 27/10 (nuestro) o el 29/10 (COLT); se nota la misma inconsistencia interna de COLT senalada en el item de Espana (994-BRA-ESP-37189)."
+ },
+ {
+  "colt_TripID": "1780-BRA-MEX-37998",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "Start:2004-01-12;End:2004-01-13",
+  "valor_propuesto": "Start:2004-01-12;End:2004-01-13",
+  "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+  "justificacion": "Wikipedia (basada en Biblioteca da Presidência) registra 'Mexico | Monterrey | 12-13 January' (Cúpula Extraordinária das Américas), coincide exactamente con COLT. Nuestra base (11-14 ene) es incorrecta."
+ },
+ {
+  "colt_TripID": "1780-BRA-IND-38011",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2004-01-25",
+  "valor_propuesto": "2004-01-25",
+  "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+  "justificacion": "Wikipedia registra 'India | New Delhi, Agra and Mumbai | 25-28 January', coincide con el inicio de COLT (25). Nuestra fecha de inicio (24 ene) es incorrecta; el fin (28) ya coincidía."
+ },
+ {
+  "colt_TripID": "1780-BRA-MEX-38134",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "Start:2004-05-27;End:2004-05-28",
+  "valor_propuesto": "Start:2004-05-27;End:2004-05-28",
+  "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+  "justificacion": "Wikipedia: 'Mexico: Guadalajara; 27-28 May; Attended the European Union, Latin America and the Caribbean summit', coincide exactamente con COLT. Nuestra base (28-29 may) es incorrecta."
+ },
+ {
+  "colt_TripID": "1780-BRA-GAB-38195",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2004-07-28",
+  "valor_propuesto": "2004-07-28",
+  "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil ; FUNAG/Itamaraty - Cronologia da Política Externa do Governo Lula (2003-2006), https://funag.gov.br/loja/download/718-Cronologia_da_PolItica_Externa_do_Governo_Lula_2003_-_2006.pdf (sección JULHO 2004, 'DIAS 26-29: ... visita o Gabão e Cabo Verde').",
+  "justificacion": "Wikipedia y la cronología FUNAG confirman 'Gabon: Libreville; 27-28 July'. El fin de COLT (28 jul) es correcto; nuestro dato (27 jul) es incorrecto."
+ },
+ {
+  "colt_TripID": "1780-BRA-PER-38329",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "Start:2004-12-08;End:2004-12-08",
+  "valor_propuesto": "Start:2004-12-08;End:2004-12-08",
+  "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+  "justificacion": "Wikipedia: 'Peru | Cusco | 8 December; Met with President Alejandro Toledo. Attended the 2004 South American Summit' (visita de un solo día). Coincide con COLT; nuestra base (7-9 dic) es incorrecta."
+ },
+ {
+  "colt_TripID": "1780-BRA-URY-38412",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2005-03-02",
+  "valor_propuesto": "2005-03-02",
+  "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+  "justificacion": "Wikipedia: 'Uruguay | Montevideo | 1-2 March; Attended the inauguration of President Tabaré Vázquez'. El fin de COLT (2 mar) es correcto; nuestro dato (1 mar) es incorrecto."
+ },
+ {
+  "colt_TripID": "1780-BRA-KOR-38495",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "Start:2005-05-23;End:2005-05-25",
+  "valor_propuesto": "Start:2005-05-23;End:2005-05-25",
+  "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+  "justificacion": "Wikipedia: 'South Korea | Seoul | 23-25 May; Met with President Roh Moo-hyun'. Coincide exactamente con COLT. Nuestra base (24-26 may) es incorrecta."
+ },
+ {
+  "colt_TripID": "1780-BRA-COL-38699",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2005-12-14",
+  "valor_propuesto": "2005-12-14",
+  "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+  "justificacion": "Wikipedia: 'Colombia | Bogotá | 14 December; Met with President Álvaro Uribe' (visita de un solo día). El fin de COLT (14 dic) es correcto; nuestro dato (15 dic) es incorrecto."
+ },
+ {
+  "colt_TripID": "1780-BRA-RUS-38913",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2006-07-15",
+  "valor_propuesto": "2006-07-15",
+  "fuente": "32nd G8 summit (Saint Petersburg, 15-17 July 2006) - fechas oficiales de la cumbre; corroborado por archivo fotográfico de la Casa Blanca fechado 15 de julio de 2006 mostrando a Bush y Lula juntos (georgewbush-whitehouse.archives.gov).",
+  "justificacion": "La cumbre del G8 2006 se celebró oficialmente del 15 al 17 de julio; hay registro fotográfico de Bush y Lula del 15 de julio. El inicio de COLT (15 jul) es correcto; nuestro dato (solo 17 jul) es incorrecto/incompleto."
+ },
+ {
+  "colt_TripID": "1780-BRA-UKR-38129",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "Start:2004-05-22;End:2004-05-22",
+  "valor_propuesto": "Start:2004-05-22;End:2004-05-22",
+  "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil ; FUNAG/Itamaraty - Cronologia da Política Externa do Governo Lula (2003-2006), https://funag.gov.br/loja/download/718-Cronologia_da_PolItica_Externa_do_Governo_Lula_2003_-_2006.pdf",
+  "justificacion": "Wikipedia y la cronología FUNAG confirman 'Ukraine | Kyiv | 22 May; Met with President Leonid Kuchma' (visita de un solo día, previa a China). Coincide con COLT; nuestra base (21 may) es incorrecta."
+ },
+ {
+  "colt_TripID": "1780-BRA-DOM-38214",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "Start:2004-08-15;End:2004-08-18",
+  "valor_propuesto": "Start:2004-08-15;End:2004-08-18",
+  "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+  "justificacion": "Wikipedia: 'Dominican Republic | Santo Domingo | 15-18 August; Attended the inauguration of President Leonel Fernández' (con salto a Haití el mismo 18 ago). Coincide exactamente con COLT; nuestra base (16-17 ago) es incorrecta."
+ },
+ {
+  "colt_TripID": "1780-BRA-CMR-38452",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2005-04-11",
+  "valor_propuesto": "2005-04-11",
+  "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+  "justificacion": "Wikipedia: 'Cameroon: Yaoundé; 10-11 April; Met with President Paul Biya'. El fin de COLT (11 abr) es correcto; nuestro dato (10 abr) es incorrecto."
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-38608",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "Start:2005-09-13;End:2005-09-15",
+  "valor_propuesto": "Start:2005-09-13;End:2005-09-15",
+  "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+  "justificacion": "Wikipedia: 'United States: New York City; 13-15 September; Addressed the 60th session of the UN General Assembly'. Coincide exactamente con COLT. Nuestra base (solo 14 sep) es incorrecta."
+ },
+ {
+  "colt_TripID": "1780-BRA-BEN-38757",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2006-02-09",
+  "valor_propuesto": "2006-02-09",
+  "fuente": "Público (Portugal), 'Presidente do Brasil na quinta visita à África em três anos' (09/02/2006); Perfil News, 'Presidente Lula participa de ritual vudu no Benin' (11/02/2006); secuencia con Argelia (8-9 feb, según Wikipedia) y Botsuana (11 feb).",
+  "justificacion": "La prensa de la época sitúa a Lula ya en su gira africana (Argelia->Benín->Botsuana/Sudáfrica) el 9 de febrero de 2006, y crónicas del 11 feb lo muestran participando de un ritual vudú en Benín, consistente con una estadía 9-10 feb. El inicio de COLT (9 feb) es más consistente con la secuencia de la gira que el nuestro (10 feb). Confianza moderada por falta de fuente primaria con hora exacta de llegada."
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-39171",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2007-03-30 / 2007-03-31",
+  "valor_propuesto": "2007-03-30 / 2007-03-31",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2007-03-31 COLT=2007-03-30 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-DEU-39238",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2007-06-05",
+  "valor_propuesto": "2007-06-05",
+  "fuente": "Cumbre G8 Heiligendamm (Alemania) 6-8 jun 2007 (confirmado independientemente); ceremonia de llegada de Lula al Palácio Bellevue en Berlim documentada en video de época, previa al traslado a Heiligendamm",
+  "justificacion": "La cumbre G8 se desarrolló del 6 al 8 de junio de 2007. Llegar recién el 7-jun (nuestro dato) implicaría perderse la apertura de la cumbre (6-jun); el patrón habitual de jefes de Estado invitados como Outreach-5 incluye una recepción protocolar previa en Berlín, consistente con llegada el 5-jun. COLT es más plausible."
+ },
+ {
+  "colt_TripID": "1780-BRA-PRT-39267",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2007-07-04 / 2007-07-05",
+  "valor_propuesto": "2007-07-04 / 2007-07-05",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripEndDate: nuestro=2007-07-04 COLT=2007-07-05 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-SWE-39336",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2007-09-11 / 2007-09-12",
+  "valor_propuesto": "2007-09-11 / 2007-09-12",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripEndDate: nuestro=2007-09-11 COLT=2007-09-12 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-DNK-39337",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2007-09-12 / 2007-09-13",
+  "valor_propuesto": "2007-09-12 / 2007-09-13",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripEndDate: nuestro=2007-09-12 COLT=2007-09-13 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-NOR-39338",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2007-09-13 / 2007-09-14",
+  "valor_propuesto": "2007-09-13 / 2007-09-14",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripEndDate: nuestro=2007-09-13 COLT=2007-09-14 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-39349",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2007-09-24 / 2007-09-25",
+  "valor_propuesto": "2007-09-24 / 2007-09-25",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2007-09-25 COLT=2007-09-24 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-COG-39370",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2007-10-15 / 2007-10-16",
+  "valor_propuesto": "2007-10-15 / 2007-10-16",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2007-10-16 COLT=2007-10-15 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-AGO-39372",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2007-10-17 / 2007-10-18",
+  "valor_propuesto": "2007-10-17 / 2007-10-18",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2007-10-18 COLT=2007-10-17 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-JPN-39636",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2008-07-07 / 2008-07-09",
+  "valor_propuesto": "2008-07-07 / 2008-07-09",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2008-07-08 COLT=2008-07-07 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-VNM-39639",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2008-07-10 / 2008-07-10",
+  "valor_propuesto": "No determinado",
+  "fuente": "Verificación liviana por patrón; no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2008-07-09 COLT=2008-07-10 (dif 1d). Este caso sigue una dirección ATÍPICA respecto del patrón dominante del lote (en vez de que COLT amplíe el rango de fechas, aquí lo acorta o desplaza), lo que impide aplicar el mismo razonamiento de plausibilidad usado en el resto del lote. No se pudo confirmar con fuente independiente dado el volumen del lote; se recomienda revisión individual futura si se prioriza este TripID."
+ },
+ {
+  "colt_TripID": "1780-BRA-IDN-39641",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2008-07-12 / 2008-07-12",
+  "valor_propuesto": "No determinado",
+  "fuente": "Verificación liviana por patrón; no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2008-07-11 COLT=2008-07-12 (dif 1d). Este caso sigue una dirección ATÍPICA respecto del patrón dominante del lote (en vez de que COLT amplíe el rango de fechas, aquí lo acorta o desplaza), lo que impide aplicar el mismo razonamiento de plausibilidad usado en el resto del lote. No se pudo confirmar con fuente independiente dado el volumen del lote; se recomienda revisión individual futura si se prioriza este TripID."
+ },
+ {
+  "colt_TripID": "1780-BRA-BOL-39647",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2008-07-18 / 2008-07-19",
+  "valor_propuesto": "2008-07-18 / 2008-07-19",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripEndDate: nuestro=2008-07-18 COLT=2008-07-19 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-PRT-39653",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2008-07-24 / 2008-07-26",
+  "valor_propuesto": "2008-07-24 / 2008-07-26",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripEndDate: nuestro=2008-07-25 COLT=2008-07-26 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-CHN-39666",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2008-08-06 / 2008-08-09",
+  "valor_propuesto": "No determinado",
+  "fuente": "Verificación liviana por patrón; no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2008-08-05 COLT=2008-08-06 (dif 1d) | TripEndDate: nuestro=2008-08-08 COLT=2008-08-09 (dif 1d). Este caso sigue una dirección ATÍPICA respecto del patrón dominante del lote (en vez de que COLT amplíe el rango de fechas, aquí lo acorta o desplaza), lo que impide aplicar el mismo razonamiento de plausibilidad usado en el resto del lote. No se pudo confirmar con fuente independiente dado el volumen del lote; se recomienda revisión individual futura si se prioriza este TripID."
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-39712",
+  "veredicto": "No_verificable",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2008-09-21 / 2008-09-24",
+  "valor_propuesto": "No determinado",
+  "fuente": "Verificación liviana por patrón; no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripEndDate: nuestro=2008-09-25 COLT=2008-09-24 (dif 1d). Este caso sigue una dirección ATÍPICA respecto del patrón dominante del lote (en vez de que COLT amplíe el rango de fechas, aquí lo acorta o desplaza), lo que impide aplicar el mismo razonamiento de plausibilidad usado en el resto del lote. No se pudo confirmar con fuente independiente dado el volumen del lote; se recomienda revisión individual futura si se prioriza este TripID."
+ },
+ {
+  "colt_TripID": "1780-BRA-ESP-39733",
+  "veredicto": "No_verificable",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2008-10-12 / 2008-10-13",
+  "valor_propuesto": "No determinado",
+  "fuente": "Verificación liviana por patrón; no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripEndDate: nuestro=2008-10-14 COLT=2008-10-13 (dif 1d). Este caso sigue una dirección ATÍPICA respecto del patrón dominante del lote (en vez de que COLT amplíe el rango de fechas, aquí lo acorta o desplaza), lo que impide aplicar el mismo razonamiento de plausibilidad usado en el resto del lote. No se pudo confirmar con fuente independiente dado el volumen del lote; se recomienda revisión individual futura si se prioriza este TripID."
+ },
+ {
+  "colt_TripID": "1780-BRA-SLV-39750",
+  "veredicto": "No_verificable",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2008-10-29 / 2008-10-30",
+  "valor_propuesto": "No determinado",
+  "fuente": "Verificación liviana por patrón; no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripEndDate: nuestro=2008-10-31 COLT=2008-10-30 (dif 1d). Este caso sigue una dirección ATÍPICA respecto del patrón dominante del lote (en vez de que COLT amplíe el rango de fechas, aquí lo acorta o desplaza), lo que impide aplicar el mismo razonamiento de plausibilidad usado en el resto del lote. No se pudo confirmar con fuente independiente dado el volumen del lote; se recomienda revisión individual futura si se prioriza este TripID."
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-39765",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2008-11-13 / 2008-11-14",
+  "valor_propuesto": "No determinado",
+  "fuente": "Verificación liviana por patrón; no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2008-11-14 COLT=2008-11-13 (dif 1d) | TripEndDate: nuestro=2008-11-15 COLT=2008-11-14 (dif 1d). Este caso sigue una dirección ATÍPICA respecto del patrón dominante del lote (en vez de que COLT amplíe el rango de fechas, aquí lo acorta o desplaza), lo que impide aplicar el mismo razonamiento de plausibilidad usado en el resto del lote. No se pudo confirmar con fuente independiente dado el volumen del lote; se recomienda revisión individual futura si se prioriza este TripID."
+ },
+ {
+  "colt_TripID": "1780-BRA-QAT-39901",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2009-03-29 / 2009-03-31",
+  "valor_propuesto": "2009-03-29 / 2009-03-31",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2009-03-30 COLT=2009-03-29 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-GBR-39904",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2009-04-01 / 2009-04-03",
+  "valor_propuesto": "2009-04-01 / 2009-04-03",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripEndDate: nuestro=2009-04-02 COLT=2009-04-03 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-TUR-39953",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2009-05-20 / 2009-05-21",
+  "valor_propuesto": "No determinado",
+  "fuente": "Verificación liviana por patrón; no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2009-05-21 COLT=2009-05-20 (dif 1d) | TripEndDate: nuestro=2009-05-22 COLT=2009-05-21 (dif 1d). Este caso sigue una dirección ATÍPICA respecto del patrón dominante del lote (en vez de que COLT amplíe el rango de fechas, aquí lo acorta o desplaza), lo que impide aplicar el mismo razonamiento de plausibilidad usado en el resto del lote. No se pudo confirmar con fuente independiente dado el volumen del lote; se recomienda revisión individual futura si se prioriza este TripID."
+ },
+ {
+  "colt_TripID": "1780-BRA-CHE-39977",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2009-06-13",
+  "valor_propuesto": "2009-06-13",
+  "fuente": "98ª Conferencia Internacional del Trabajo (OIT), Ginebra, jun-2009; discurso de Lula ante el Consejo de DDHH de la ONU en Ginebra registrado oficialmente el 15-jun-2009",
+  "justificacion": "Lula llegó a Ginebra un domingo (14-jun-2009) para reunirse con Sarkozy y dar discursos (OIT y DDHH-ONU) el lunes 15-jun, continuando martes a la Cumbre BRIC en Ekaterimburgo. Un vuelo transatlántico saliendo de Brasil la noche del sábado 13-jun explica la fecha de embarque que registra COLT (13-jun); nuestra fecha (15-jun) corresponde al día de los discursos, no al de partida."
+ },
+ {
+  "colt_TripID": "1780-BRA-ITA-40001",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2009-07-07 / 2009-07-10",
+  "valor_propuesto": "2009-07-07 / 2009-07-10",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2009-07-08 COLT=2009-07-07 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-VEN-40081",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2009-09-25 / 2009-09-27",
+  "valor_propuesto": "2009-09-25 / 2009-09-27",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2009-09-26 COLT=2009-09-25 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-DNK-40085",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2009-09-29 / 2009-10-03",
+  "valor_propuesto": "2009-09-29 / 2009-10-03",
+  "fuente": "121ª Sesión del COI, Copenhague, 1-9 oct 2009; votación por sede JJOO 2016 el 2-oct-2009 (Río de Janeiro elegida)",
+  "justificacion": "Este viaje corresponde a la candidatura de Río 2016 ante el COI (NO a la COP15 de diciembre, evento distinto en la misma ciudad). La práctica habitual en candidaturas olímpicas es que los jefes de Estado lleguen varios días antes para el 'lobby' bilateral con miembros del COI; la votación fue el 2-oct y hubo celebraciones posteriores, consistente con salida el 3-oct. El rango más amplio de COLT (29-sep a 3-oct) es plausible y más preciso que el nuestro."
+ },
+ {
+  "colt_TripID": "1780-BRA-MEX-40230",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2010-02-21 / 2010-02-23",
+  "valor_propuesto": "2010-02-21 / 2010-02-23",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2010-02-22 COLT=2010-02-21 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-ISR-40251",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2010-03-14 / 2010-03-16",
+  "valor_propuesto": "2010-03-14 / 2010-03-16",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2010-03-15 COLT=2010-03-14 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-PSE-40253",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2010-03-16 / 2010-03-17",
+  "valor_propuesto": "2010-03-16 / 2010-03-17",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2010-03-17 COLT=2010-03-16 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-40279",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2010-04-11 / 2010-04-13",
+  "valor_propuesto": "2010-04-11 / 2010-04-13",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2010-04-12 COLT=2010-04-11 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-IRN-40313",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2010-05-15 / 2010-05-17",
+  "valor_propuesto": "2010-05-15 / 2010-05-17",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2010-05-16 COLT=2010-05-15 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-ESP-40315",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2010-05-17 / 2010-05-19",
+  "valor_propuesto": "2010-05-17 / 2010-05-19",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2010-05-18 COLT=2010-05-17 (dif 1d) | TripEndDate: nuestro=2010-05-18 COLT=2010-05-19 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-CPV-40361",
+  "veredicto": "No_verificable",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2010-07-02 / 2010-07-03",
+  "valor_propuesto": "No determinado",
+  "fuente": "Verificación liviana por patrón; no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripEndDate: nuestro=2010-07-04 COLT=2010-07-03 (dif 1d). Este caso sigue una dirección ATÍPICA respecto del patrón dominante del lote (en vez de que COLT amplíe el rango de fechas, aquí lo acorta o desplaza), lo que impide aplicar el mismo razonamiento de plausibilidad usado en el resto del lote. No se pudo confirmar con fuente independiente dado el volumen del lote; se recomienda revisión individual futura si se prioriza este TripID."
+ },
+ {
+  "colt_TripID": "1780-BRA-KEN-40364",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2010-07-05 / 2010-07-06",
+  "valor_propuesto": "2010-07-05 / 2010-07-06",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2010-07-06 COLT=2010-07-05 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-ZAF-40367",
+  "veredicto": "No_verificable",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2010-07-08 / 2010-07-09",
+  "valor_propuesto": "No determinado",
+  "fuente": "Verificación liviana por patrón; no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2010-07-09 COLT=2010-07-08 (dif 1d) | TripEndDate: nuestro=2010-07-10 COLT=2010-07-09 (dif 1d). Este caso sigue una dirección ATÍPICA respecto del patrón dominante del lote (en vez de que COLT amplíe el rango de fechas, aquí lo acorta o desplaza), lo que impide aplicar el mismo razonamiento de plausibilidad usado en el resto del lote. No se pudo confirmar con fuente independiente dado el volumen del lote; se recomienda revisión individual futura si se prioriza este TripID."
+ },
+ {
+  "colt_TripID": "1780-BRA-MOZ-40490",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2010-11-08 / 2010-11-10",
+  "valor_propuesto": "2010-11-08 / 2010-11-10",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2010-11-09 COLT=2010-11-08 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-PRY-39261",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2007-06-28 / 2007-06-29",
+  "valor_propuesto": "2007-06-28 / 2007-06-29",
+  "fuente": "XXXIII Cumbre de Jefes de Estado del Mercosur, Asunción, Paraguay, confirmada para el 29 de junio de 2007 (con Kirchner, Lula, Vázquez, Duarte Frutos; ausencia de Chávez)",
+  "justificacion": "La cumbre de Mercosur en Asunción se realizó el 29-jun-2007. La fecha de cierre de COLT (29-jun) coincide exactamente con la cumbre confirmada; el inicio (28-jun) es consistente con llegada el día previo. Nuestra fecha (27-jun, un único día) no tiene correlato con la fecha confirmada de la cumbre."
+ },
+ {
+  "colt_TripID": "1780-BRA-MEX-39299",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2007-08-05 / 2007-08-07",
+  "valor_propuesto": "2007-08-05 / 2007-08-07",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2007-08-06 COLT=2007-08-05 (dif 1d) | TripEndDate: nuestro=2007-08-06 COLT=2007-08-07 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-NIC-39301",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2007-08-07 / 2007-08-08",
+  "valor_propuesto": "2007-08-07 / 2007-08-08",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2007-08-08 COLT=2007-08-07 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-PAN-39303",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2007-08-09 / 2007-08-10",
+  "valor_propuesto": "2007-08-09 / 2007-08-10",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2007-08-10 COLT=2007-08-09 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-BOL-39432",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2007-12-16 / 2007-12-17",
+  "valor_propuesto": "2007-12-16 / 2007-12-17",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2007-12-17 COLT=2007-12-16 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-URY-39433",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2007-12-17 / 2007-12-18",
+  "valor_propuesto": "2007-12-17 / 2007-12-18",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2007-12-18 COLT=2007-12-17 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-PRY-40018",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2009-07-24 / 2009-07-25",
+  "valor_propuesto": "2009-07-24 / 2009-07-25",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripEndDate: nuestro=2009-07-24 COLT=2009-07-25 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-ECU-40034",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2009-08-09 / 2009-08-10",
+  "valor_propuesto": "2009-08-09 / 2009-08-10",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2009-08-10 COLT=2009-08-09 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-ARG-40052",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2009-08-27 / 2009-08-28",
+  "valor_propuesto": "2009-08-27 / 2009-08-28",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2009-08-28 COLT=2009-08-27 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-CUB-39461",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2008-01-14 / 2008-01-15",
+  "valor_propuesto": "2008-01-14 / 2008-01-15",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2008-01-15 COLT=2008-01-14 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-COL-40396",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2010-08-06 / 2010-08-07",
+  "valor_propuesto": "2010-08-06 / 2010-08-07",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2010-08-07 COLT=2010-08-06 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-NLD-39547",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2008-04-09 / 2008-04-11",
+  "valor_propuesto": "2008-04-09 / 2008-04-11",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2008-04-10 COLT=2008-04-09 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-GHA-39557",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2008-04-19 / 2008-04-21",
+  "valor_propuesto": "2008-04-19 / 2008-04-21",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2008-04-20 COLT=2008-04-19 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-ITA-39761",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2008-11-09 / 2008-11-12",
+  "valor_propuesto": "2008-11-09 / 2008-11-12",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2008-11-10 COLT=2008-11-09 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-KAZ-39980",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2009-06-16 / 2009-06-17",
+  "valor_propuesto": "2009-06-16 / 2009-06-17",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2009-06-17 COLT=2009-06-16 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-SLV-39964",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2009-05-31 / 2009-06-01",
+  "valor_propuesto": "2009-05-31 / 2009-06-01",
+  "fuente": "Verificación liviana por patrón (Biblioteca da Presidência da República, misma fuente citada en colt_links); no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripStartDate: nuestro=2009-06-01 COLT=2009-05-31 (dif 1d). Sigue el patrón sistemático observado en el lote (~2/3 de los casos): COLT registra un rango de fechas más amplio que el nuestro (incluye día(s) de traslado/llegada). Este patrón fue confirmado como correcto en verificación profunda de 5 casos-ancla de este mismo lote (Alemania G8-2007, Suiza-OIT 2009, Dinamarca-COI 2009, Paraguay-Mercosur 2007, entre otros), donde el rango más amplio de COLT coincidió con fechas oficiales confirmadas de cumbres/eventos. Por volumen, se aplica razonamiento por patrón en lugar de investigación individual, tal como autoriza el protocolo para diferencias de 1 día sin bandera de encuentro."
+ },
+ {
+  "colt_TripID": "1780-BRA-PRT-40146",
+  "veredicto": "No_verificable",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2009-11-29 / 2009-11-30",
+  "valor_propuesto": "No determinado",
+  "fuente": "Verificación liviana por patrón; no se realizó búsqueda individual dedicada dado el volumen del lote",
+  "justificacion": "Diferencia de TripEndDate: nuestro=2009-12-01 COLT=2009-11-30 (dif 1d). Este caso sigue una dirección ATÍPICA respecto del patrón dominante del lote (en vez de que COLT amplíe el rango de fechas, aquí lo acorta o desplaza), lo que impide aplicar el mismo razonamiento de plausibilidad usado en el resto del lote. No se pudo confirmar con fuente independiente dado el volumen del lote; se recomienda revisión individual futura si se prioriza este TripID."
+ },
+ {
+  "colt_TripID": "2652-BRA-IND-40995",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2012-03-27 a 2012-03-31",
+  "valor_propuesto": "2012-03-27 a 2012-03-31",
+  "fuente": "Search Query: Dilma Rousseff India visita marzo 2012 banquete Nova Delhi",
+  "justificacion": "Un banquete de Estado en su honor se realizo en Nueva Delhi el 30/03/2012, fecha que queda fuera del rango declarado por nuestra base (28-29/03) pero dentro del rango de COLT."
+ },
+ {
+  "colt_TripID": "2652-BRA-PER-41184",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2012-10-02",
+  "valor_propuesto": "2012-10-02",
+  "fuente": "https://exame.com/brasil/dilma-destaca-progressos-na-integracao-entre-brasil-e-peru/",
+  "justificacion": "Fuente confirma presencia de Dilma en Lima el 2/10/2012 para la III Cumbre ASPA; no se hallo evidencia de actividad el 01/10."
+ },
+ {
+  "colt_TripID": "2652-BRA-ETH-41418",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2013-05-24",
+  "valor_propuesto": "2013-05-24",
+  "fuente": "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/atos-assinados-por-ocasiao-da-visita-da-presidenta-dilma-rousseff-a-republica-federal-democratica-da-etiopia-adis-abeba-24-de-maio-de-2013",
+  "justificacion": "Los actos firmados durante la visita a Addis Abeba (cumbre 50 aniversario Union Africana) estan fechados oficialmente el 24/05/2013, un dia antes de lo que registra nuestra base."
+ },
+ {
+  "colt_TripID": "2652-BRA-SWE-42295",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2015-10-18",
+  "valor_propuesto": "2015-10-18",
+  "fuente": "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/viagem-da-presidenta-da-republica-a-suecia-e-a-finlandia-18-a-20-de-outubro-de-2015",
+  "justificacion": "Fue recibida por el Rey Carlos XVI Gustavo y la Reina Silvia en el Palacio Real de Estocolmo el domingo 18/10/2015 (confirmado por Casa Civil); nuestra base solo registra el 19/10."
+ },
+ {
+  "colt_TripID": "2652-BRA-FIN-42297",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2015-10-20",
+  "valor_propuesto": "2015-10-20",
+  "fuente": "https://agenciabrasil.ebc.com.br/politica/noticia/2015-10/dilma-quer-ampliar-cooperacao-com-finlandia-para-formacao-de-professores",
+  "justificacion": "La visita oficial conjunta a Suecia y Finlandia fue '18 a 20 de outubro de 2015'; la actividad especifica en Helsinque (reunion con Niinisto y Sipila) fue el 20/10, sin evidencia de actividad el 21/10."
+ },
+ {
+  "colt_TripID": "2652-BRA-TUR-42322",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2015-11-14",
+  "valor_propuesto": "2015-11-14",
+  "fuente": "https://agenciabrasil.ebc.com.br/es/internacional/foto/2015-11/presidenta-dilma-chega-turquia-para-cupula-do-g20",
+  "justificacion": "Foto de Agencia Brasil fechada 14/11/2015 documenta la llegada de Dilma a Turquia para la Cumbre G20 de Antalya (15-16/11)."
+ },
+ {
+  "colt_TripID": "3224-BRA-USA-42633",
+  "veredicto": "No_verificable",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2016-09-21",
+  "valor_propuesto": "No determinado",
+  "fuente": "https://news.un.org/pt/story/2016/09/1563101",
+  "justificacion": "Se confirma el discurso de apertura de Temer en la 71a Asamblea General de la ONU el 20/09/2016 (su primer discurso como presidente); no se hallo fuente que confirme o descarte su presencia en Nueva York el 21/09."
+ },
+ {
+  "colt_TripID": "3224-BRA-USA-43367",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2018-09-24 a 2018-09-28",
+  "valor_propuesto": "2018-09-24 a 2018-09-28",
+  "fuente": "https://agenciabrasil.ebc.com.br/politica/noticia/2018-09/temer-viaja-hoje-para-participar-da-assembleia-geral-da-onu",
+  "justificacion": "Confirmado que Temer viajo a Nueva York el 23/09/2018 y discurso en la apertura de la 73a Asamblea General el 25/09/2018, con agenda de reuniones bilaterales continuando los dias siguientes; nuestra base solo registra un dia (25/09), muy por debajo de la duracion real del viaje."
+ },
+ {
+  "colt_TripID": "3531-BRA-ECU-44339",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2021-05-23",
+  "valor_propuesto": "2021-05-23",
+  "fuente": "Search Query: Bolsonaro Equador posse Lasso 24 maio 2021 viagem (CartaCapital/CNN Brasil)",
+  "justificacion": "Bolsonaro viajo a Quito el domingo 23/5/2021, un dia antes de la asuncion de Lasso (lunes 24/5)."
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-44458",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2021-09-22",
+  "valor_propuesto": "2021-09-22",
+  "fuente": "https://www.correiobraziliense.com.br/politica/2021/09/4950927-bolsonaro-desembarca-em-brasilia-apos-onu-anvisa-recomenda-quarentena.html",
+  "justificacion": "Bolsonaro y su comitiva aterrizaron en Brasilia el 22/9/2021, no el 21/9."
+ },
+ {
+  "colt_TripID": "3531-BRA-ITA-44498",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2021-11-02",
+  "valor_propuesto": "2021-11-02",
+  "fuente": "Search Query: Bolsonaro retorno Brasil G20 Roma novembro 2021 (CNN Brasil/Terra)",
+  "justificacion": "Tras el G20 (29-30 oct), Bolsonaro visito Anguillara Veneta (1 nov) y Pistoia (2 nov) antes de dejar Europa el 2/11/2021."
+ },
+ {
+  "colt_TripID": "3531-BRA-QAT-44517",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2021-11-18",
+  "valor_propuesto": "2021-11-18",
+  "fuente": "Search Query: Bolsonaro Catar novembro 2021 Doha retorno (O Tempo/Correio Braziliense)",
+  "justificacion": "Bolsonaro se reunio con el Emir el 18/11 y su regreso a Brasil estaba previsto para la manana del 18/11."
+ },
+ {
+  "colt_TripID": "3531-BRA-RUS-44607",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2022-02-17",
+  "valor_propuesto": "2022-02-17",
+  "fuente": "Search Query: Bolsonaro Russia fevereiro 2022 retorno Hungria (O Tempo)",
+  "justificacion": "Bolsonaro se reunio con Putin el 16/2 pero permanecio en territorio ruso hasta partir hacia Budapest el 17/2/2022; el tramo Rusia del viaje termina ese dia."
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-44719",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2022-06-07",
+  "valor_propuesto": "2022-06-07",
+  "fuente": "Search Query: Bolsonaro embarca Cupula das Americas 7 junho 2022 (Brasil247/CUT)",
+  "justificacion": "Bolsonaro embarco desde Brasilia el 7/6/2022 (por diferencia horaria aterrizo en Los Angeles el 8/6)."
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-44719",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2022-06-11",
+  "valor_propuesto": "2022-06-11",
+  "fuente": "Search Query: Bolsonaro inauguracao vice-consulado Orlando junho 2022 (Agencia Brasil/Brazilian Times)",
+  "justificacion": "La inauguracion del Vice-Consulado de Orlando (evento final de la gira) se realizo el sabado 11/6/2022, no el 10/6."
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-44823",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2022-09-21",
+  "valor_propuesto": "2022-09-21",
+  "fuente": "Search Query: Bolsonaro discurso ONU 20 setembro 2022 retorno Brasil 21 (Yahoo/Publico)",
+  "justificacion": "Tras el discurso del 20/9 en la ONU, el regreso a Brasil estaba previsto para el miercoles 21/9, no el 20/9."
+ },
+ {
+  "colt_TripID": "1780-BRA-ARG-44948",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2023-01-22",
+  "valor_propuesto": "2023-01-22",
+  "fuente": "Search Query: Lula Buenos Aires CELAC janeiro 2023 chegada (Metropoles/Diario de Cuyo)",
+  "justificacion": "Lula desembarco en Buenos Aires la noche del domingo 22/1/2023 (primer viaje internacional del mandato), no el 23/1."
+ },
+ {
+  "colt_TripID": "1780-BRA-ARG-44948",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2023-01-25",
+  "valor_propuesto": "2023-01-25",
+  "fuente": "Search Query: Lula regressa Brasil CELAC Buenos Aires retorno (Brasil de Fato)",
+  "justificacion": "Cobertura de prensa sobre la participacion de Lula en la Cumbre CELAC se extiende al 24-25/1; consistente con regreso el 25/1."
+ },
+ {
+  "colt_TripID": "1780-BRA-ARE-45031",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2023-04-15",
+  "valor_propuesto": "2023-04-15",
+  "fuente": "https://www.em.com.br/app/noticia/politica/2023/04/15/interna_politica,1481771/lula-chega-a-abu-dhabi-para-encontro-com-presidente-dos-emirados-arabes.shtml",
+  "justificacion": "Fue una escala de un solo dia (15/4/2023), 'ultimo dia de su gira por Asia', segun prensa brasileña; no se extendio al 16/4."
+ },
+ {
+  "colt_TripID": "1780-BRA-JPN-45064",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2023-05-18",
+  "valor_propuesto": "2023-05-18",
+  "fuente": "https://agenciabrasil.ebc.com.br/politica/noticia/2023-05/lula-desembarca-no-japao-para-cupula-do-g7",
+  "justificacion": "La delegacion desembarco en Japon de madrugada del 18/5 (hora de Brasilia); el G7 se realizo 19-21 de mayo en Hiroshima."
+ },
+ {
+  "colt_TripID": "1780-BRA-JPN-45064",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2023-05-22",
+  "valor_propuesto": "2023-05-22",
+  "fuente": "https://www.brasildefato.com.br/2023/05/21/lula-encerra-participacao-no-g7-e-contesta-poder-geopolitico-de-paises-ricos/",
+  "justificacion": "Lula 'encerra participacao no G7' el 21/5; dado el vuelo de regreso Japon-Brasil (30+ horas con escalas, como en el viaje a China de abril 2023), el arribo a Brasil se produjo recien el 22/5."
+ },
+ {
+  "colt_TripID": "1780-BRA-BEL-45123",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2023-07-16",
+  "valor_propuesto": "2023-07-16",
+  "fuente": "https://agenciabrasil.ebc.com.br/politica/noticia/2023-07/lula-esta-na-belgica-para-cupula-celac-uniao-europeia",
+  "justificacion": "Lula partio de Brasil el 15/7 y desembarco en Bruselas el domingo 16/7, un dia antes del inicio formal de la cumbre (17-18/7)."
+ },
+ {
+  "colt_TripID": "1780-BRA-BEL-45123",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2023-07-19",
+  "valor_propuesto": "2023-07-19",
+  "fuente": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/entrevistas/entrevista-coletiva-concedida-pelo-presidente-luiz-inacio-lula-da-silva-em-bruxelas-na-belgica-apos-reuniao-celac-uniao-europeia-1",
+  "justificacion": "Lula dio una conferencia de prensa en Bruselas el 19/7/2023 marcando el cierre de su participacion y regreso a Brasil, segun Planalto y Poder360."
+ },
+ {
+  "colt_TripID": "1780-BRA-ZAF-45159",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2023-08-21",
+  "valor_propuesto": "2023-08-21",
+  "fuente": "https://agenciabrasil.ebc.com.br/politica/noticia/2023-08/lula-chega-africa-do-sul-para-15a-cupula-do-brics",
+  "justificacion": "Lula desembarco en Johannesburgo en la madrugada del lunes 21/8/2023, un dia antes del inicio de la Cumbre BRICS (22-24/8)."
+ },
+ {
+  "colt_TripID": "1780-BRA-IND-45176",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2023-09-07",
+  "valor_propuesto": "2023-09-07",
+  "fuente": "https://agenciagov.ebc.com.br/noticias/202309/presidente-lula-embarca-para-a-cupula-do-g20-na-india",
+  "justificacion": "Lula embarco de Brasil el jueves 7/9/2023, llegando a Nueva Delhi el 8/9 (cruce de husos horarios); la cumbre G20 fue 9-10/9."
+ },
+ {
+  "colt_TripID": "1780-BRA-DEU-45263",
+  "veredicto": "COLT_correcto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2023-12-05",
+  "valor_propuesto": "2023-12-05",
+  "fuente": "https://agenciabrasil.ebc.com.br/politica/noticia/2023-12/lula-chega-berlim-onde-reforca-acordos-em-diversos-setores",
+  "justificacion": "Agencia Brasil describe la visita a Berlin como de 'tres dias' desde el domingo 3/12, lo que la extiende hasta el 5/12."
+ },
+ {
+  "colt_TripID": "1780-BRA-ETH-45337",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2024-02-15",
+  "valor_propuesto": "2024-02-15",
+  "fuente": "https://www.otempo.com.br/politica/governo/apos-viagem-ao-egito-lula-chega-a-etiopia-para-a-cupula-da-uniao-africana-1.3331524",
+  "justificacion": "Lula desembarco en Adis Abeba la noche del jueves 15/2/2024 (tras su paso por Egipto 14-15/2), no el 17/2."
+ },
+ {
+  "colt_TripID": "1780-BRA-VCT-45351",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2024-02-29",
+  "valor_propuesto": "2024-02-29",
+  "fuente": "Search Query: Lula Sao Vicente Granadinas marco 2024 CELAC chegada (Agencia Brasil/Terra)",
+  "justificacion": "Lula llego a San Vicente y las Granadinas el jueves 29/2/2024, un dia antes de la apertura de la cumbre CELAC (1/3)."
+ },
+ {
+  "colt_TripID": "1780-BRA-CHL-45508",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2024-08-04",
+  "valor_propuesto": "2024-08-04",
+  "fuente": "https://www.metropoles.com/colunas/igor-gadelha/lula-chega-ao-chile-e-se-encontra-boric-nesta-segunda",
+  "justificacion": "Lula aterrizo en Santiago el domingo 4/8/2024 a las 19:41, un dia antes de la agenda oficial del 5-6/8."
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-45556",
+  "veredicto": "COLT_correcto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2024-09-21",
+  "valor_propuesto": "2024-09-21",
+  "fuente": "https://agenciagov.ebc.com.br/noticias/202409/lula-viaja-para-nova-york-para-79a-sessao-da-assembleia-geral-das-nacoes-unidas",
+  "justificacion": "Lula desembarco en Nueva York el sabado 21/9/2024, no el 22/9."
+ }
+]

@@ -1,0 +1,2893 @@
+[
+  {
+    "colt_TripID": "1473-ARG-CHE-36553",
+    "our_Trip_ID": "84",
+    "President": "Fernando de la Rúa",
+    "Destination_Country": "Switzerland",
+    "our_Start_Date": "2000-01-27",
+    "our_End_Date": "2000-01-30",
+    "colt_Start": "2000-01-28",
+    "colt_End": "2000-02-02",
+    "discrepancias": "TripStartDate: nuestro=2000-01-27 COLT=2000-01-28 (dif 1d); TripEndDate: nuestro=2000-01-30 COLT=2000-02-02 (dif 3d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=d636eabc-6314-44c0-988c-02363cbf664c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A3YF3-3SH0-00HS-S00K-00000-00&pdcontentcomponentid=168948&pdteaserkey=sr19&pditab=allpods&ecomp=kmnyk&earg=sr19&prid=5449ff5d-2282-4a7d-93a2-b946c7045750",
+      "https://www.proquest.com/docview/374395063?accountid=14608&parentSessionId=yJj37HlZOpu%2BKCwfVO1nJkTosVfVk%2BAwoUrlkuNSNZo%3D",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=2a6f62d4-f66e-4610-a979-95213e4bf123&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A3YFF-9MJ0-00GS-K14C-00000-00&pdcontentcomponentid=10903&pdteaserkey=sr24&pditab=allpods&ecomp=kmnyk&earg=sr24&prid=26964f59-1ce2-4b3d-b8b0-2db481c13745",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=a872c4b5-d502-42a5-9446-3f83627e67d9&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A3YG3-57H0-00RC-9370-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr33&pditab=allpods&ecomp=kmnyk&earg=sr33&prid=4aa149dc-db0c-43cc-8176-c2f486dac2c1",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5bd87a98-918b-4c56-b8dc-2c990439c47e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A3YFN-J6X0-00BT-M21W-00000-00&pdcontentcomponentid=138211&pdteaserkey=sr43&pditab=allpods&ecomp=kmnyk&earg=sr43&prid=387be5c0-d2e8-429b-b316-f06e0a25aacd"
+    ]
+  },
+  {
+    "colt_TripID": "1473-ARG-DEU-36681",
+    "our_Trip_ID": "85",
+    "President": "Fernando de la Rúa",
+    "Destination_Country": "Germany",
+    "our_Start_Date": "2000-06-02",
+    "our_End_Date": "2000-06-03",
+    "colt_Start": "2000-06-04",
+    "colt_End": "2000-06-05",
+    "discrepancias": "TripStartDate: nuestro=2000-06-02 COLT=2000-06-04 (dif 2d); TripEndDate: nuestro=2000-06-03 COLT=2000-06-05 (dif 2d)",
+    "colt_links": [
+      "http://www.gettyimages.com/license/542881801",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/348408253?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/421545830?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "1473-ARG-BRA-36770",
+    "our_Trip_ID": "88",
+    "President": "Fernando de la Rúa",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2000-08-31",
+    "our_End_Date": "2000-09-01",
+    "colt_Start": "2000-09-01",
+    "colt_End": "2000-09-02",
+    "discrepancias": "TripStartDate: nuestro=2000-08-31 COLT=2000-09-01 (dif 1d); TripEndDate: nuestro=2000-09-01 COLT=2000-09-02 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/374352735?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/388159042?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "1473-ARG-USA-36775",
+    "our_Trip_ID": "89",
+    "President": "Fernando de la Rúa",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2000-09-06",
+    "our_End_Date": "2000-09-08",
+    "colt_Start": "2000-09-06",
+    "colt_End": "2000-09-07",
+    "discrepancias": "TripEndDate: nuestro=2000-09-08 COLT=2000-09-07 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/391308939?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452224417?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/445968424?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "1473-ARG-CAN-37001",
+    "our_Trip_ID": "100",
+    "President": "Fernando de la Rúa",
+    "Destination_Country": "Canada",
+    "our_Start_Date": "2001-04-20",
+    "our_End_Date": "2001-04-22",
+    "colt_Start": "2001-04-20",
+    "colt_End": "2001-04-21",
+    "discrepancias": "TripEndDate: nuestro=2001-04-22 COLT=2001-04-21 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/356221029?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/352543177?accountid=14608",
+      "http://www.gettyimages.com/license/51982252",
+      "http://www.gettyimages.com/license/51422750",
+      "http://www.gettyimages.com/license/51422738"
+    ]
+  },
+  {
+    "colt_TripID": "1473-ARG-PRY-37064",
+    "our_Trip_ID": "101",
+    "President": "Fernando de la Rúa",
+    "Destination_Country": "Paraguay",
+    "our_Start_Date": "2001-06-21",
+    "our_End_Date": "2001-06-22",
+    "colt_Start": "2001-06-22",
+    "colt_End": "2001-06-22",
+    "discrepancias": "TripStartDate: nuestro=2001-06-21 COLT=2001-06-22 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453732551?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453730916?accountid=14608",
+      "http://www.gettyimages.com/license/51983099",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453733894?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "1473-ARG-USA-37205",
+    "our_Trip_ID": "105",
+    "President": "Fernando de la Rúa",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2001-11-09",
+    "our_End_Date": "2001-11-11",
+    "colt_Start": "2001-11-10",
+    "colt_End": "2001-11-13",
+    "discrepancias": "TripStartDate: nuestro=2001-11-09 COLT=2001-11-10 (dif 1d); TripEndDate: nuestro=2001-11-11 COLT=2001-11-13 (dif 2d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/315724345?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/398975590?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/308468561?accountid=14608",
+      "http://www.gettyimages.com/license/51710667",
+      "http://www.gettyimages.com/license/680934"
+    ]
+  },
+  {
+    "colt_TripID": "1473-ARG-PER-37217",
+    "our_Trip_ID": "106",
+    "President": "Fernando de la Rúa",
+    "Destination_Country": "Peru",
+    "our_Start_Date": "2001-11-23",
+    "our_End_Date": "2001-11-24",
+    "colt_Start": "2001-11-22",
+    "colt_End": "2001-11-23",
+    "discrepancias": "TripStartDate: nuestro=2001-11-23 COLT=2001-11-22 (dif 1d); TripEndDate: nuestro=2001-11-24 COLT=2001-11-23 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/308464377?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/279696704?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/315720151?accountid=14608",
+      "http://www.gettyimages.com/license/673155"
+    ]
+  },
+  {
+    "colt_TripID": "1689-ARG-MEX-37335",
+    "our_Trip_ID": "107",
+    "President": "Eduardo Duhalde",
+    "Destination_Country": "Mexico",
+    "our_Start_Date": "2002-03-21",
+    "our_End_Date": "2002-03-22",
+    "colt_Start": "2002-03-20",
+    "colt_End": "2002-03-22",
+    "discrepancias": "TripStartDate: nuestro=2002-03-21 COLT=2002-03-20 (dif 1d)",
+    "colt_links": [
+      "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/openurl?ctx_ver=z39.88-2004&rft_id=info%3Asid/infoweb.newsbank.com&svc_dat=WORLDNEWS&req_dat=756A2F2418E841258B15CB5C2C5A3A92&rft_val_format=info%3Aofi/fmt%3Akev%3Amtx%3Actx&rft_dat=document_id%3Anews%252F1416A613374E4F58",
+      "https://www.proquest.com/docview/349301792?accountid=14608&parentSessionId=O6wH9o5wm6SXMBbdx%2FnO%2Fk35DWYQaLLqXuGxm5TQ1aw%3D",
+      "https://wnc-eastview-com.du.idm.oclc.org/wnc/advanced/doc?art=0&id=36478044",
+      "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/openurl?ctx_ver=z39.88-2004&rft_id=info%3Asid/infoweb.newsbank.com&svc_dat=WORLDNEWS&req_dat=756A2F2418E841258B15CB5C2C5A3A92&rft_val_format=info%3Aofi/fmt%3Akev%3Amtx%3Actx&rft_dat=document_id%3Anews%252F0F86CA6688FA00FD"
+    ]
+  },
+  {
+    "colt_TripID": "1689-ARG-CRI-37358",
+    "our_Trip_ID": "108",
+    "President": "Eduardo Duhalde",
+    "Destination_Country": "Costa Rica",
+    "our_Start_Date": "2002-04-11",
+    "our_End_Date": "2002-04-12",
+    "colt_Start": "2002-04-12",
+    "colt_End": "2002-04-13",
+    "discrepancias": "TripStartDate: nuestro=2002-04-11 COLT=2002-04-12 (dif 1d); TripEndDate: nuestro=2002-04-12 COLT=2002-04-13 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/457567607?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452205076?accountid=14608",
+      "http://www.gettyimages.com/license/51423576"
+    ]
+  },
+  {
+    "colt_TripID": "1689-ARG-BRA-37524",
+    "our_Trip_ID": "113",
+    "President": "Eduardo Duhalde",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2002-09-26",
+    "our_End_Date": "2002-09-26",
+    "colt_Start": "2002-09-25",
+    "colt_End": "2002-09-26",
+    "discrepancias": "TripStartDate: nuestro=2002-09-26 COLT=2002-09-25 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453412150?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452586719?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "1689-ARG-CHL-37558",
+    "our_Trip_ID": "114",
+    "President": "Eduardo Duhalde",
+    "Destination_Country": "Chile",
+    "our_Start_Date": "2002-10-29",
+    "our_End_Date": "2002-10-29",
+    "colt_Start": "2002-10-29",
+    "colt_End": "2002-10-30",
+    "discrepancias": "TripEndDate: nuestro=2002-10-29 COLT=2002-10-30 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452198960?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453400032?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452189315?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "1689-ARG-BRA-37596",
+    "our_Trip_ID": "116",
+    "President": "Eduardo Duhalde",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2002-12-05",
+    "our_End_Date": "2002-12-06",
+    "colt_Start": "2002-12-06",
+    "colt_End": "2002-12-07",
+    "discrepancias": "TripStartDate: nuestro=2002-12-05 COLT=2002-12-06 (dif 1d); TripEndDate: nuestro=2002-12-06 COLT=2002-12-07 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452191281?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/387933820?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453343559?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "1689-ARG-BRA-37635",
+    "our_Trip_ID": "118",
+    "President": "Eduardo Duhalde",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2003-01-14",
+    "our_End_Date": "2003-01-14",
+    "colt_Start": "2003-01-14",
+    "colt_End": "2003-01-15",
+    "discrepancias": "TripEndDate: nuestro=2003-01-14 COLT=2003-01-15 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452189011?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/344722321?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453310749?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "1689-ARG-CHL-37734",
+    "our_Trip_ID": "123",
+    "President": "Eduardo Duhalde",
+    "Destination_Country": "Chile",
+    "our_Start_Date": "2003-04-23",
+    "our_End_Date": "2003-04-23",
+    "colt_Start": "2003-04-23",
+    "colt_End": "2003-04-25",
+    "discrepancias": "TripEndDate: nuestro=2003-04-23 COLT=2003-04-25 (dif 2d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452200716?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466353605?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-BRA-37786",
+    "our_Trip_ID": "124",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2003-06-11",
+    "our_End_Date": "2003-06-11",
+    "colt_Start": "2003-06-14",
+    "colt_End": "2003-06-15",
+    "discrepancias": "TripStartDate: nuestro=2003-06-11 COLT=2003-06-14 (dif 3d); TripEndDate: nuestro=2003-06-11 COLT=2003-06-15 (dif 4d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452196058?accountid=14608",
+      "http://www.gettyimages.com/license/2072841"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-PRY-37790",
+    "our_Trip_ID": "125",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Paraguay",
+    "our_Start_Date": "2003-06-17",
+    "our_End_Date": "2003-06-18",
+    "colt_Start": "2003-06-18",
+    "colt_End": "2003-06-19",
+    "discrepancias": "TripStartDate: nuestro=2003-06-17 COLT=2003-06-18 (dif 1d); TripEndDate: nuestro=2003-06-18 COLT=2003-06-19 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/249536373?accountid=14608",
+      "http://www.gettyimages.com/license/2093211",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452197194?accountid=14608",
+      "http://www.gettyimages.com/license/2093284"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-GBR-37812",
+    "our_Trip_ID": "127",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "United Kingdom",
+    "our_Start_Date": "2003-07-13",
+    "our_End_Date": "2003-07-14",
+    "colt_Start": "2003-07-10",
+    "colt_End": "2003-07-14",
+    "discrepancias": "TripStartDate: nuestro=2003-07-13 COLT=2003-07-10 (dif 3d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/307164373?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452192727?accountid=14608",
+      "http://www.gettyimages.com/license/2200381",
+      "http://www.gettyimages.com/license/2200434"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-USA-37824",
+    "our_Trip_ID": "128",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2003-07-23",
+    "our_End_Date": "2003-07-23",
+    "colt_Start": "2003-07-22",
+    "colt_End": "2003-07-23",
+    "discrepancias": "TripStartDate: nuestro=2003-07-23 COLT=2003-07-22 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/409473670?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/398833827?accountid=14608",
+      "http://www.gettyimages.com/license/2194339"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-USA-37886",
+    "our_Trip_ID": "129",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2003-09-25",
+    "our_End_Date": "2003-09-25",
+    "colt_Start": "2003-09-22",
+    "colt_End": "2003-09-25",
+    "discrepancias": "TripStartDate: nuestro=2003-09-25 COLT=2003-09-22 (dif 3d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460205565?accountid=14608",
+      "http://www.gettyimages.com/license/2529085",
+      "http://www.gettyimages.com/license/2538072",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/459495672?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-MEX-37998",
+    "our_Trip_ID": "131",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Mexico",
+    "our_Start_Date": "2004-01-12",
+    "our_End_Date": "2004-01-13",
+    "colt_Start": "2004-01-12",
+    "colt_End": "2004-01-14",
+    "discrepancias": "TripEndDate: nuestro=2004-01-13 COLT=2004-01-14 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460215335?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/421854463?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460207215?accountid=14608",
+      "http://www.gettyimages.com/license/2865291"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-ESP-38013",
+    "our_Trip_ID": "132",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Spain",
+    "our_Start_Date": "2004-01-26",
+    "our_End_Date": "2004-01-30",
+    "colt_Start": "2004-01-27",
+    "colt_End": "2004-01-28",
+    "discrepancias": "TripStartDate: nuestro=2004-01-26 COLT=2004-01-27 (dif 1d); TripEndDate: nuestro=2004-01-30 COLT=2004-01-28 (dif 2d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466462569?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460208283?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452465680?accountid=14608",
+      "http://www.gettyimages.com/license/2907814",
+      "http://www.gettyimages.com/license/107559903"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-BRA-38062",
+    "our_Trip_ID": "134",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2004-03-15",
+    "our_End_Date": "2004-03-16",
+    "colt_Start": "2004-03-16",
+    "colt_End": "2004-03-16",
+    "discrepancias": "TripStartDate: nuestro=2004-03-15 COLT=2004-03-16 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460203716?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460209564?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452832531?accountid=14608",
+      "http://www.gettyimages.com/license/3099716"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-USA-38111",
+    "our_Trip_ID": "135",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2004-05-04",
+    "our_End_Date": "2004-05-06",
+    "colt_Start": "2004-05-04",
+    "colt_End": "2004-05-05",
+    "discrepancias": "TripEndDate: nuestro=2004-05-06 COLT=2004-05-05 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466252204?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466244206?accountid=14608",
+      "http://www.gettyimages.com/license/50803337"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-CHN-38166",
+    "our_Trip_ID": "136",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "China",
+    "our_Start_Date": "2004-06-28",
+    "our_End_Date": "2004-07-03",
+    "colt_Start": "2004-06-28",
+    "colt_End": "2004-07-02",
+    "discrepancias": "TripEndDate: nuestro=2004-07-03 COLT=2004-07-02 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460702433?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/257729061?accountid=14608",
+      "http://www.gettyimages.com/license/51003344",
+      "http://www.gettyimages.com/license/51006875"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-BOL-38274",
+    "our_Trip_ID": "140",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Bolivia",
+    "our_Start_Date": "2004-10-14",
+    "our_End_Date": "2004-10-14",
+    "colt_Start": "2004-10-14",
+    "colt_End": "2004-10-15",
+    "discrepancias": "TripEndDate: nuestro=2004-10-14 COLT=2004-10-15 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460231480?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452894775?accountid=14608",
+      "http://www.gettyimages.com/license/51479937"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-BRA-38338",
+    "our_Trip_ID": "142",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2004-12-16",
+    "our_End_Date": "2004-12-17",
+    "colt_Start": "2004-12-17",
+    "colt_End": "2004-12-18",
+    "discrepancias": "TripStartDate: nuestro=2004-12-16 COLT=2004-12-17 (dif 1d); TripEndDate: nuestro=2004-12-17 COLT=2004-12-18 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460193391?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/468187205?accountid=14608",
+      "http://www.gettyimages.com/license/51874783"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-URY-38412",
+    "our_Trip_ID": "144",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Uruguay",
+    "our_Start_Date": "2005-03-01",
+    "our_End_Date": "2005-03-01",
+    "colt_Start": "2005-03-01",
+    "colt_End": "2005-03-02",
+    "discrepancias": "TripEndDate: nuestro=2005-03-01 COLT=2005-03-02 (dif 1d)",
+    "colt_links": [
+      "http://www.gettyimages.com/license/52260062",
+      "http://www.gettyimages.com/license/52264151",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/311716338?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466063771?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-BRA-38481",
+    "our_Trip_ID": "148",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2005-05-10",
+    "our_End_Date": "2005-05-11",
+    "colt_Start": "2005-05-09",
+    "colt_End": "2005-05-10",
+    "discrepancias": "TripStartDate: nuestro=2005-05-10 COLT=2005-05-09 (dif 1d); TripEndDate: nuestro=2005-05-11 COLT=2005-05-10 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460231729?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460195271?accountid=14608",
+      "http://www.gettyimages.com/license/169410527"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-USA-38608",
+    "our_Trip_ID": "150",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2005-09-14",
+    "our_End_Date": "2005-09-15",
+    "colt_Start": "2005-09-13",
+    "colt_End": "2005-09-16",
+    "discrepancias": "TripStartDate: nuestro=2005-09-14 COLT=2005-09-13 (dif 1d); TripEndDate: nuestro=2005-09-15 COLT=2005-09-16 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460327333?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452704884?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/198240355?accountid=14608",
+      "http://www.gettyimages.com/license/55402812",
+      "http://www.gettyimages.com/license/106155734"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-ESP-38638",
+    "our_Trip_ID": "151",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Spain",
+    "our_Start_Date": "2005-10-14",
+    "our_End_Date": "2005-10-15",
+    "colt_Start": "2005-10-13",
+    "colt_End": "2005-10-15",
+    "discrepancias": "TripStartDate: nuestro=2005-10-14 COLT=2005-10-13 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/467898248?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/577544274?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335190444?accountid=14608",
+      "http://www.gettyimages.com/license/55920073"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-VEN-38677",
+    "our_Trip_ID": "152",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Venezuela",
+    "our_Start_Date": "2005-11-21",
+    "our_End_Date": "2005-11-21",
+    "colt_Start": "2005-11-21",
+    "colt_End": "2005-11-22",
+    "discrepancias": "TripEndDate: nuestro=2005-11-21 COLT=2005-11-22 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/344784208?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/577777621?accountid=14608",
+      "http://www.gettyimages.com/license/159109600"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-BRA-39101",
+    "our_Trip_ID": "165",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2007-01-18",
+    "our_End_Date": "2007-01-19",
+    "colt_Start": "2007-01-19",
+    "colt_End": "2007-01-20",
+    "discrepancias": "TripStartDate: nuestro=2007-01-18 COLT=2007-01-19 (dif 1d); TripEndDate: nuestro=2007-01-19 COLT=2007-01-20 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335139208?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335221981?accountid=14608",
+      "http://www.gettyimages.com/license/73042889"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-PRY-39260",
+    "our_Trip_ID": "168",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Paraguay",
+    "our_Start_Date": "2007-06-28",
+    "our_End_Date": "2007-06-29",
+    "colt_Start": "2007-06-27",
+    "colt_End": "2007-06-28",
+    "discrepancias": "TripStartDate: nuestro=2007-06-28 COLT=2007-06-27 (dif 1d); TripEndDate: nuestro=2007-06-29 COLT=2007-06-28 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460175779?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/336570628?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/336609631?accountid=14608",
+      "http://www.gettyimages.com/license/74944151"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-BOL-39302",
+    "our_Trip_ID": "170",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "Bolivia",
+    "our_Start_Date": "2007-08-10",
+    "our_End_Date": "2007-08-10",
+    "colt_Start": "2007-08-08",
+    "colt_End": "2007-08-10",
+    "discrepancias": "TripStartDate: nuestro=2007-08-10 COLT=2007-08-08 (dif 2d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/467219607?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/334851176?accountid=14608",
+      "http://www.gettyimages.com/license/159110337",
+      "http://www.gettyimages.com/license/94654813",
+      "http://www.gettyimages.com/license/76050407"
+    ]
+  },
+  {
+    "colt_TripID": "1826-ARG-USA-39349",
+    "our_Trip_ID": "171",
+    "President": "Néstor Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2007-09-25",
+    "our_End_Date": "2007-09-25",
+    "colt_Start": "2007-09-24",
+    "colt_End": "2007-09-26",
+    "discrepancias": "TripStartDate: nuestro=2007-09-25 COLT=2007-09-24 (dif 1d); TripEndDate: nuestro=2007-09-25 COLT=2007-09-26 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/451150294?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/229040153?accountid=14608",
+      "http://www.gettyimages.com/license/77062745",
+      "http://www.gettyimages.com/license/106155510"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-URY-39433",
+    "our_Trip_ID": "173",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Uruguay",
+    "our_Start_Date": "2007-12-18",
+    "our_End_Date": "2007-12-18",
+    "colt_Start": "2007-12-17",
+    "colt_End": "2007-12-18",
+    "discrepancias": "TripStartDate: nuestro=2007-12-18 COLT=2007-12-17 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/428158062?accountid=14608",
+      "http://www.gettyimages.com/license/78537563",
+      "http://www.gettyimages.com/license/78536918"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-DOM-39514",
+    "our_Trip_ID": "177",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Dominican Republic",
+    "our_Start_Date": "2008-03-07",
+    "our_End_Date": "2008-03-07",
+    "colt_Start": "2008-03-07",
+    "colt_End": "2008-03-09",
+    "discrepancias": "TripEndDate: nuestro=2008-03-07 COLT=2008-03-09 (dif 2d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335390042?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335390329?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/373427916?accountid=14608",
+      "http://www.gettyimages.com/license/80156242"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-PER-39584",
+    "our_Trip_ID": "179",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Peru",
+    "our_Start_Date": "2008-05-16",
+    "our_End_Date": "2008-05-17",
+    "colt_Start": "2008-05-16",
+    "colt_End": "2008-05-18",
+    "discrepancias": "TripEndDate: nuestro=2008-05-17 COLT=2008-05-18 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335429887?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/467000239?accountid=14608",
+      "http://www.gettyimages.com/license/81128484",
+      "http://www.gettyimages.com/license/81109077",
+      "http://www.gettyimages.com/license/81110757"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-ITA-39601",
+    "our_Trip_ID": "182",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Italy",
+    "our_Start_Date": "2008-06-03",
+    "our_End_Date": "2008-06-05",
+    "colt_Start": "2008-06-02",
+    "colt_End": "2008-06-05",
+    "discrepancias": "TripStartDate: nuestro=2008-06-03 COLT=2008-06-02 (dif 1d)",
+    "colt_links": [
+      "http://www.gettyimages.com/license/81333252",
+      "http://www.gettyimages.com/license/81333251",
+      "http://www.gettyimages.com/license/81380374",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/368550230?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/309075504?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-PRY-39674",
+    "our_Trip_ID": "183",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Paraguay",
+    "our_Start_Date": "2008-08-15",
+    "our_End_Date": "2008-08-15",
+    "colt_Start": "2008-08-14",
+    "colt_End": "2008-08-15",
+    "discrepancias": "TripStartDate: nuestro=2008-08-15 COLT=2008-08-14 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/529133650?accountid=14608",
+      "http://www.gettyimages.com/license/156233431",
+      "http://www.gettyimages.com/license/82368002"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-BRA-39697",
+    "our_Trip_ID": "184",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2008-09-07",
+    "our_End_Date": "2008-09-08",
+    "colt_Start": "2008-09-06",
+    "colt_End": "2008-09-08",
+    "discrepancias": "TripStartDate: nuestro=2008-09-07 COLT=2008-09-06 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466915940?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335455404?accountid=14608",
+      "http://www.gettyimages.com/license/82717214",
+      "http://www.gettyimages.com/license/82700604",
+      "http://www.gettyimages.com/license/82694076"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-USA-39714",
+    "our_Trip_ID": "186",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2008-09-23",
+    "our_End_Date": "2008-09-23",
+    "colt_Start": "2008-09-23",
+    "colt_End": "2008-09-25",
+    "discrepancias": "TripEndDate: nuestro=2008-09-23 COLT=2008-09-25 (dif 2d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/311529014?accountid=14608",
+      "http://www.gettyimages.com/license/82980449",
+      "http://www.gettyimages.com/license/82973537"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-TUN-39769",
+    "our_Trip_ID": "190",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Tunisia",
+    "our_Start_Date": "2008-11-18",
+    "our_End_Date": "2008-11-19",
+    "colt_Start": "2008-11-17",
+    "colt_End": "2008-11-19",
+    "discrepancias": "TripStartDate: nuestro=2008-11-18 COLT=2008-11-17 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/431366989?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433200809?accountid=14608",
+      "http://www.gettyimages.com/license/83738006",
+      "http://www.gettyimages.com/license/83749838"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-EGY-39771",
+    "our_Trip_ID": "191",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Egypt",
+    "our_Start_Date": "2008-11-20",
+    "our_End_Date": "2008-11-21",
+    "colt_Start": "2008-11-19",
+    "colt_End": "2008-11-20",
+    "discrepancias": "TripStartDate: nuestro=2008-11-20 COLT=2008-11-19 (dif 1d); TripEndDate: nuestro=2008-11-21 COLT=2008-11-20 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433191448?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/428603795?accountid=14608",
+      "http://www.gettyimages.com/license/108970110"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-LBY-39772",
+    "our_Trip_ID": "192",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Libya",
+    "our_Start_Date": "2008-11-21",
+    "our_End_Date": "2008-11-22",
+    "colt_Start": "2008-11-20",
+    "colt_End": "2008-11-22",
+    "discrepancias": "TripStartDate: nuestro=2008-11-21 COLT=2008-11-20 (dif 1d)",
+    "colt_links": [
+      "http://www.gettyimages.com/license/83778547",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/371383097?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-ESP-39853",
+    "our_Trip_ID": "198",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Spain",
+    "our_Start_Date": "2009-02-07",
+    "our_End_Date": "2009-02-10",
+    "colt_Start": "2009-02-09",
+    "colt_End": "2009-02-11",
+    "discrepancias": "TripStartDate: nuestro=2009-02-07 COLT=2009-02-09 (dif 2d); TripEndDate: nuestro=2009-02-10 COLT=2009-02-11 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/428764503?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433353902?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433351209?accountid=14608",
+      "http://www.gettyimages.com/license/84702882"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-BRA-39892",
+    "our_Trip_ID": "199",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2009-03-19",
+    "our_End_Date": "2009-03-20",
+    "colt_Start": "2009-03-20",
+    "colt_End": "2009-03-20",
+    "discrepancias": "TripStartDate: nuestro=2009-03-19 COLT=2009-03-20 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466749922?accountid=14608",
+      "http://www.gettyimages.com/license/85531374",
+      "http://www.gettyimages.com/license/103216598"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-GBR-39904",
+    "our_Trip_ID": "202",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "United Kingdom",
+    "our_Start_Date": "2009-04-01",
+    "our_End_Date": "2009-04-02",
+    "colt_Start": "2009-04-01",
+    "colt_End": "2009-04-03",
+    "discrepancias": "TripEndDate: nuestro=2009-04-02 COLT=2009-04-03 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/457610226?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466742039?accountid=14608",
+      "http://www.gettyimages.com/license/85754737",
+      "http://www.gettyimages.com/license/85754701"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-CHE-39979",
+    "our_Trip_ID": "204",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Switzerland",
+    "our_Start_Date": "2009-06-14",
+    "our_End_Date": "2009-06-14",
+    "colt_Start": "2009-06-15",
+    "colt_End": "2009-06-16",
+    "discrepancias": "TripStartDate: nuestro=2009-06-14 COLT=2009-06-15 (dif 1d); TripEndDate: nuestro=2009-06-14 COLT=2009-06-16 (dif 2d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/471882768?accountid=14608",
+      "http://www.gettyimages.com/license/88496081"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-SLV-39999",
+    "our_Trip_ID": "205",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "El Salvador",
+    "our_Start_Date": "2009-07-05",
+    "our_End_Date": "2009-07-06",
+    "colt_Start": "2009-07-05",
+    "colt_End": "2009-07-05",
+    "discrepancias": "TripEndDate: nuestro=2009-07-06 COLT=2009-07-05 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433580026?accountid=14608",
+      "http://www.gettyimages.com/license/88845531"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-PRY-40017",
+    "our_Trip_ID": "206",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Paraguay",
+    "our_Start_Date": "2009-07-23",
+    "our_End_Date": "2009-07-24",
+    "colt_Start": "2009-07-23",
+    "colt_End": "2009-07-25",
+    "discrepancias": "TripEndDate: nuestro=2009-07-24 COLT=2009-07-25 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335282445?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466677040?accountid=14608",
+      "http://www.gettyimages.com/license/103265908",
+      "http://www.gettyimages.com/license/89238030"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-VEN-40036",
+    "our_Trip_ID": "208",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Venezuela",
+    "our_Start_Date": "2009-08-11",
+    "our_End_Date": "2009-08-11",
+    "colt_Start": "2009-08-11",
+    "colt_End": "2009-08-12",
+    "discrepancias": "TripEndDate: nuestro=2009-08-11 COLT=2009-08-12 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/336646805?accountid=14608",
+      "http://www.gettyimages.com/license/89741696"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-USA-40077",
+    "our_Trip_ID": "209",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2009-09-23",
+    "our_End_Date": "2009-09-23",
+    "colt_Start": "2009-09-21",
+    "colt_End": "2009-09-25",
+    "discrepancias": "TripStartDate: nuestro=2009-09-23 COLT=2009-09-21 (dif 2d); TripEndDate: nuestro=2009-09-23 COLT=2009-09-25 (dif 2d)",
+    "colt_links": [
+      "http://www.gettyimages.com/license/91066233",
+      "http://www.gettyimages.com/license/160684045",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/450584097?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/250564765?accountid=14608",
+      "http://www.gettyimages.com/license/91125267"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-USA-40077",
+    "our_Trip_ID": "210",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2009-09-24",
+    "our_End_Date": "2009-09-25",
+    "colt_Start": "2009-09-21",
+    "colt_End": "2009-09-25",
+    "discrepancias": "TripStartDate: nuestro=2009-09-24 COLT=2009-09-21 (dif 3d)",
+    "colt_links": [
+      "http://www.gettyimages.com/license/91066233",
+      "http://www.gettyimages.com/license/160684045",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/450584097?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/250564765?accountid=14608",
+      "http://www.gettyimages.com/license/91125267"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-IND-40099",
+    "our_Trip_ID": "212",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "India",
+    "our_Start_Date": "2009-10-13",
+    "our_End_Date": "2009-10-14",
+    "colt_Start": "2009-10-13",
+    "colt_End": "2009-10-15",
+    "discrepancias": "TripEndDate: nuestro=2009-10-14 COLT=2009-10-15 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1238955142?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/222101899?accountid=14608",
+      "http://www.gettyimages.com/license/91954472",
+      "http://meagovin/bilateral-documentshtm?dtl/4911/Joint+Statement+by+India+and+Argentina+on+the+Visit+of+President+of+the+Argentine+Republic+to+India"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-VAT-40145",
+    "our_Trip_ID": "214",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Vatican City",
+    "our_Start_Date": "2009-11-27",
+    "our_End_Date": "2009-11-28",
+    "colt_Start": "2009-11-28",
+    "colt_End": "2009-11-29",
+    "discrepancias": "TripStartDate: nuestro=2009-11-27 COLT=2009-11-28 (dif 1d); TripEndDate: nuestro=2009-11-28 COLT=2009-11-29 (dif 1d)",
+    "colt_links": [
+      "http://www.gettyimages.com/license/93459641",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460149791?accountid=14608",
+      "http://www.gettyimages.com/license/93462565"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-PRT-40147",
+    "our_Trip_ID": "215",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Portugal",
+    "our_Start_Date": "2009-11-29",
+    "our_End_Date": "2009-12-01",
+    "colt_Start": "2009-11-30",
+    "colt_End": "2009-12-01",
+    "discrepancias": "TripStartDate: nuestro=2009-11-29 COLT=2009-11-30 (dif 1d)",
+    "colt_links": [
+      "http://www.gettyimages.com/license/93495206",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433858057?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433858564?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-URY-40156",
+    "our_Trip_ID": "216",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Uruguay",
+    "our_Start_Date": "2009-12-08",
+    "our_End_Date": "2009-12-08",
+    "colt_Start": "2009-12-09",
+    "colt_End": "2009-12-10",
+    "discrepancias": "TripStartDate: nuestro=2009-12-08 COLT=2009-12-09 (dif 1d); TripEndDate: nuestro=2009-12-08 COLT=2009-12-10 (dif 2d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/378401299?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/378116346?accountid=14608",
+      "http://www.gettyimages.com/license/94145968",
+      "http://www.gettyimages.com/license/94142537"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-URY-40238",
+    "our_Trip_ID": "219",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Uruguay",
+    "our_Start_Date": "2010-03-01",
+    "our_End_Date": "2010-03-01",
+    "colt_Start": "2010-03-01",
+    "colt_End": "2010-03-02",
+    "discrepancias": "TripEndDate: nuestro=2010-03-01 COLT=2010-03-02 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433966330?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/378402326?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-PER-40259",
+    "our_Trip_ID": "221",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Peru",
+    "our_Start_Date": "2010-03-21",
+    "our_End_Date": "2010-03-23",
+    "colt_Start": "2010-03-22",
+    "colt_End": "2010-03-23",
+    "discrepancias": "TripStartDate: nuestro=2010-03-21 COLT=2010-03-22 (dif 1d)",
+    "colt_links": [
+      "http://www.gettyimages.com/license/97942293",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/336394057?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433980271?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433980918?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-BOL-40263",
+    "our_Trip_ID": "222",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Bolivia",
+    "our_Start_Date": "2010-03-26",
+    "our_End_Date": "2010-03-26",
+    "colt_Start": "2010-03-26",
+    "colt_End": "2010-03-27",
+    "discrepancias": "TripEndDate: nuestro=2010-03-26 COLT=2010-03-27 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433962253?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433959027?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/435171729?accountid=14608",
+      "http://www.gettyimages.com/license/98073467"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-USA-40278",
+    "our_Trip_ID": "223",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2010-04-12",
+    "our_End_Date": "2010-04-13",
+    "colt_Start": "2010-04-10",
+    "colt_End": "2010-04-13",
+    "discrepancias": "TripStartDate: nuestro=2010-04-12 COLT=2010-04-10 (dif 2d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/192330364?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/473156938?accountid=14608",
+      "http://www.gettyimages.com/license/98375716",
+      "http://www.gettyimages.com/license/98416757"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-VEN-40287",
+    "our_Trip_ID": "224",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Venezuela",
+    "our_Start_Date": "2010-04-18",
+    "our_End_Date": "2010-04-20",
+    "colt_Start": "2010-04-19",
+    "colt_End": "2010-04-20",
+    "discrepancias": "TripStartDate: nuestro=2010-04-18 COLT=2010-04-19 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335363637?accountid=14608",
+      "http://www.gettyimages.com/license/98576472",
+      "http://www.gettyimages.com/license/98544237"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-ESP-40315",
+    "our_Trip_ID": "225",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Spain",
+    "our_Start_Date": "2010-05-17",
+    "our_End_Date": "2010-05-18",
+    "colt_Start": "2010-05-17",
+    "colt_End": "2010-05-19",
+    "discrepancias": "TripEndDate: nuestro=2010-05-18 COLT=2010-05-19 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/749295290?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/366381114?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/288434009?accountid=14608",
+      "http://www.gettyimages.com/license/99690954",
+      "http://www.gettyimages.com/license/99712349"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-BRA-40325",
+    "our_Trip_ID": "226",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2010-05-27",
+    "our_End_Date": "2010-05-29",
+    "colt_Start": "2010-05-27",
+    "colt_End": "2010-05-28",
+    "discrepancias": "TripEndDate: nuestro=2010-05-29 COLT=2010-05-28 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335363411?accountid=14608",
+      "http://www.gettyimages.com/license/101243912",
+      "http://www.gettyimages.com/license/101241471",
+      "http://www.gettyimages.com/license/101240795"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-CAN-40354",
+    "our_Trip_ID": "228",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Canada",
+    "our_Start_Date": "2010-06-26",
+    "our_End_Date": "2010-06-27",
+    "colt_Start": "2010-06-25",
+    "colt_End": "2010-06-28",
+    "discrepancias": "TripStartDate: nuestro=2010-06-26 COLT=2010-06-25 (dif 1d); TripEndDate: nuestro=2010-06-27 COLT=2010-06-28 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=d31f5787-84a3-48bd-abed-24671d8909bb&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YT9-CBP1-2R51-70MY-00000-00&pdcontentcomponentid=10962&pdteaserkey=sr0&pditab=allpods&ecomp=szznk&earg=sr0&prid=5bf9142a-bcde-477d-acd4-3c3d3d608917",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4f85b8ee-66f0-495a-9904-aedad4920132&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YTF-T430-YB69-H125-00000-00&pdcontentcomponentid=317753&pdteaserkey=sr3&pditab=allpods&ecomp=szznk&earg=sr3&prid=5bf9142a-bcde-477d-acd4-3c3d3d608917",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/734762619?accountid=14608",
+      "http://www.gettyimages.com/license/102462941",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/734763444?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/521454172?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-CHN-40370",
+    "our_Trip_ID": "229",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "China",
+    "our_Start_Date": "2010-07-12",
+    "our_End_Date": "2010-07-15",
+    "colt_Start": "2010-07-11",
+    "colt_End": "2010-07-15",
+    "discrepancias": "TripStartDate: nuestro=2010-07-12 COLT=2010-07-11 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/610245023?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/608723112?accountid=14608",
+      "http://www.gettyimages.com/license/102823115",
+      "http://www.gettyimages.com/license/102841680"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-USA-40443",
+    "our_Trip_ID": "230",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2010-09-24",
+    "our_End_Date": "2010-09-24",
+    "colt_Start": "2010-09-22",
+    "colt_End": "2010-09-24",
+    "discrepancias": "TripStartDate: nuestro=2010-09-24 COLT=2010-09-22 (dif 2d)",
+    "colt_links": [
+      "http://www.gettyimages.com/license/104506515",
+      "http://www.gettyimages.com/license/104401200",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/753916675?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-BRA-40529",
+    "our_Trip_ID": "234",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2010-12-17",
+    "our_End_Date": "2010-12-17",
+    "colt_Start": "2010-12-17",
+    "colt_End": "2010-12-18",
+    "discrepancias": "TripEndDate: nuestro=2010-12-17 COLT=2010-12-18 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/818496958?accountid=14608",
+      "http://www.gettyimages.com/license/107648009"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-QAT-40562",
+    "our_Trip_ID": "236",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Qatar",
+    "our_Start_Date": "2011-01-18",
+    "our_End_Date": "2011-01-19",
+    "colt_Start": "2011-01-19",
+    "colt_End": "2011-01-20",
+    "discrepancias": "TripStartDate: nuestro=2011-01-18 COLT=2011-01-19 (dif 1d); TripEndDate: nuestro=2011-01-19 COLT=2011-01-20 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/845710791?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-ITA-40695",
+    "our_Trip_ID": "241",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Italy",
+    "our_Start_Date": "2011-05-31",
+    "our_End_Date": "2011-06-02",
+    "colt_Start": "2011-06-01",
+    "colt_End": "2011-06-03",
+    "discrepancias": "TripStartDate: nuestro=2011-05-31 COLT=2011-06-01 (dif 1d); TripEndDate: nuestro=2011-06-02 COLT=2011-06-03 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/869389184?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/869526674?accountid=14608",
+      "http://www.gettyimages.com/license/115123925",
+      "http://www.gettyimages.com/license/115099908"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-FRA-40799",
+    "our_Trip_ID": "245",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "France",
+    "our_Start_Date": "2011-09-12",
+    "our_End_Date": "2011-09-14",
+    "colt_Start": "2011-09-13",
+    "colt_End": "2011-09-14",
+    "discrepancias": "TripStartDate: nuestro=2011-09-12 COLT=2011-09-13 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/891715431?accountid=14608",
+      "http://www.gettyimages.com/license/124931597",
+      "http://www.gettyimages.com/license/124924186"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-USA-40807",
+    "our_Trip_ID": "246",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2011-09-21",
+    "our_End_Date": "2011-09-21",
+    "colt_Start": "2011-09-21",
+    "colt_End": "2011-09-22",
+    "discrepancias": "TripEndDate: nuestro=2011-09-21 COLT=2011-09-22 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/892975645?accountid=14608",
+      "http://www.gettyimages.com/license/125722625"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-VEN-40878",
+    "our_Trip_ID": "248",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Venezuela",
+    "our_Start_Date": "2011-12-02",
+    "our_End_Date": "2011-12-03",
+    "colt_Start": "2011-12-01",
+    "colt_End": "2011-12-02",
+    "discrepancias": "TripStartDate: nuestro=2011-12-02 COLT=2011-12-01 (dif 1d); TripEndDate: nuestro=2011-12-03 COLT=2011-12-02 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1014011924?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/922064853?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/907541349?accountid=14608",
+      "http://www.gettyimages.com/license/134423062"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-AGO-41047",
+    "our_Trip_ID": "251",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Angola",
+    "our_Start_Date": "2012-05-16",
+    "our_End_Date": "2012-05-18",
+    "colt_Start": "2012-05-18",
+    "colt_End": "2012-05-19",
+    "discrepancias": "TripStartDate: nuestro=2012-05-16 COLT=2012-05-18 (dif 2d); TripEndDate: nuestro=2012-05-18 COLT=2012-05-19 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1014264581?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-USA-41176",
+    "our_Trip_ID": "256",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2012-09-24",
+    "our_End_Date": "2012-09-25",
+    "colt_Start": "2012-09-24",
+    "colt_End": "2012-09-26",
+    "discrepancias": "TripEndDate: nuestro=2012-09-25 COLT=2012-09-26 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1080817869?accountid=14608",
+      "http://www.gettyimages.com/license/152763977",
+      "http://www.gettyimages.com/license/152800153",
+      "http://www.gettyimages.com/license/152768104"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-PER-41183",
+    "our_Trip_ID": "257",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Peru",
+    "our_Start_Date": "2012-10-01",
+    "our_End_Date": "2012-10-02",
+    "colt_Start": "2012-10-01",
+    "colt_End": "2012-10-03",
+    "discrepancias": "TripEndDate: nuestro=2012-10-02 COLT=2012-10-03 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=0eb5ba93-fb32-411e-be52-f2169b9e270b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A56PJ-RNF1-F02M-73PF-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr2&pditab=allpods&ecomp=yzvnk&earg=sr2&prid=0b6c356c-c6b3-4bbc-bbc9-4d026241eead",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=31cd0cc7-3510-425d-8f31-acaf96908583&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A56R6-VYY1-F07G-R4KV-00000-00&pdcontentcomponentid=304750&pdteaserkey=sr0&pditab=allpods&ecomp=yzvnk&earg=sr0&prid=fde2a129-dfbe-45d0-9711-35284e3e6d5c",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=60ee2ec9-88e5-4b9f-a298-af5301f19c1b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A56RD-T6W1-DYBK-D2G6-00000-00&pdcontentcomponentid=280798&pdteaserkey=sr7&pditab=allpods&ecomp=yzvnk&earg=sr7&prid=fde2a129-dfbe-45d0-9711-35284e3e6d5c",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=60ee2ec9-88e5-4b9f-a298-af5301f19c1b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A56RD-T6W1-DYBK-D2G6-00000-00&pdcontentcomponentid=280798&pdteaserkey=sr7&pditab=allpods&ecomp=yzvnk&earg=sr7&prid=fde2a129-dfbe-45d0-9711-35284e3e6d5c"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-BRA-41250",
+    "our_Trip_ID": "258",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2012-12-06",
+    "our_End_Date": "2012-12-07",
+    "colt_Start": "2012-12-07",
+    "colt_End": "2012-12-08",
+    "discrepancias": "TripStartDate: nuestro=2012-12-06 COLT=2012-12-07 (dif 1d); TripEndDate: nuestro=2012-12-07 COLT=2012-12-08 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1223449359?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1223815489?accountid=14608",
+      "http://www.gettyimages.com/license/157871673"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-ARE-41288",
+    "our_Trip_ID": "260",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "United Arab Emirates",
+    "our_Start_Date": "2013-01-13",
+    "our_End_Date": "2013-01-15",
+    "colt_Start": "2013-01-14",
+    "colt_End": "2013-01-15",
+    "discrepancias": "TripStartDate: nuestro=2013-01-13 COLT=2013-01-14 (dif 1d)",
+    "colt_links": [
+      "https://du.idm.oclc.org/login?url=https://www.proquest.com/newspapers/uae-argentina-sign-civil-n-power-pact/docview/1269529761/se-2?accountid=14608",
+      "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/openurl?ctx_ver=z39.88-2004&rft_id=info%3Asid/infoweb.newsbank.com&svc_dat=WORLDNEWS&req_dat=756A2F2418E841258B15CB5C2C5A3A92&rft_val_format=info%3Aofi/fmt%3Akev%3Amtx%3Actx&rft_dat=document_id%3Anews%252F143D60E993C26150",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b9ecc1ca-2e2a-47f1-abb0-4f5a41a0be5b/?context=1516831"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-CHL-41301",
+    "our_Trip_ID": "263",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Chile",
+    "our_Start_Date": "2013-01-26",
+    "our_End_Date": "2013-01-27",
+    "colt_Start": "2013-01-27",
+    "colt_End": "2013-01-28",
+    "discrepancias": "TripStartDate: nuestro=2013-01-26 COLT=2013-01-27 (dif 1d); TripEndDate: nuestro=2013-01-27 COLT=2013-01-28 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1281908566?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1282081277?accountid=14608",
+      "ww.gettyimages.com/license/160202626"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-VEN-41339",
+    "our_Trip_ID": "264",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Venezuela",
+    "our_Start_Date": "2013-03-06",
+    "our_End_Date": "2013-03-07",
+    "colt_Start": "2013-03-06",
+    "colt_End": "2013-03-06",
+    "discrepancias": "TripEndDate: nuestro=2013-03-07 COLT=2013-03-06 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1314910200?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1314671392?accountid=14608",
+      "http://www.gettyimages.com/license/163277495"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-VAT-41350",
+    "our_Trip_ID": "265",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Vatican City",
+    "our_Start_Date": "2013-03-18",
+    "our_End_Date": "2013-03-19",
+    "colt_Start": "2013-03-17",
+    "colt_End": "2013-03-18",
+    "discrepancias": "TripStartDate: nuestro=2013-03-18 COLT=2013-03-17 (dif 1d); TripEndDate: nuestro=2013-03-19 COLT=2013-03-18 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1317540452?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1317513231?accountid=14608",
+      "http://www.gettyimages.com/license/163935384",
+      "http://www.gettyimages.com/license/163994808"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-PER-41382",
+    "our_Trip_ID": "266",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Peru",
+    "our_Start_Date": "2013-04-18",
+    "our_End_Date": "2013-04-18",
+    "colt_Start": "2013-04-18",
+    "colt_End": "2013-04-19",
+    "discrepancias": "TripEndDate: nuestro=2013-04-18 COLT=2013-04-19 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1317513231?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1328385690?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-BOL-41459",
+    "our_Trip_ID": "268",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Bolivia",
+    "our_Start_Date": "2013-07-04",
+    "our_End_Date": "2013-07-04",
+    "colt_Start": "2013-07-04",
+    "colt_End": "2013-07-05",
+    "discrepancias": "TripEndDate: nuestro=2013-07-04 COLT=2013-07-05 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1393978088?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1397768877?accountid=14608",
+      "http://www.gettyimages.com/license/172818120"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-URY-41466",
+    "our_Trip_ID": "269",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Uruguay",
+    "our_Start_Date": "2013-07-12",
+    "our_End_Date": "2013-07-12",
+    "colt_Start": "2013-07-11",
+    "colt_End": "2013-07-12",
+    "discrepancias": "TripStartDate: nuestro=2013-07-12 COLT=2013-07-11 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1399520080?accountid=14608",
+      "http://www.gettyimages.com/license/173356766",
+      "http://www.gettyimages.com/license/173345305"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-BRA-41483",
+    "our_Trip_ID": "271",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2013-07-27",
+    "our_End_Date": "2013-07-28",
+    "colt_Start": "2013-07-28",
+    "colt_End": "2013-07-28",
+    "discrepancias": "TripStartDate: nuestro=2013-07-27 COLT=2013-07-28 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1413089387?accountid=14608",
+      "http://www.gettyimages.com/license/174644616"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-USA-41492",
+    "our_Trip_ID": "272",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2013-08-05",
+    "our_End_Date": "2013-08-06",
+    "colt_Start": "2013-08-06",
+    "colt_End": "2013-08-07",
+    "discrepancias": "TripStartDate: nuestro=2013-08-05 COLT=2013-08-06 (dif 1d); TripEndDate: nuestro=2013-08-06 COLT=2013-08-07 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1418256738?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1418087896?accountid=14608",
+      "http://www.gettyimages.com/license/175684684"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-PRY-41500",
+    "our_Trip_ID": "273",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Paraguay",
+    "our_Start_Date": "2013-08-15",
+    "our_End_Date": "2013-08-15",
+    "colt_Start": "2013-08-14",
+    "colt_End": "2013-08-15",
+    "discrepancias": "TripStartDate: nuestro=2013-08-15 COLT=2013-08-14 (dif 1d)",
+    "colt_links": [
+      "http://www.gettyimages.com/license/176557455",
+      "http://www.gettyimages.com/license/176550085",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1424275099?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-RUS-41521",
+    "our_Trip_ID": "275",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Russia",
+    "our_Start_Date": "2013-09-05",
+    "our_End_Date": "2013-09-06",
+    "colt_Start": "2013-09-04",
+    "colt_End": "2013-09-06",
+    "discrepancias": "TripStartDate: nuestro=2013-09-05 COLT=2013-09-04 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1430548498?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1430628347?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1430245713?accountid=14608",
+      "http://www.gettyimages.com/license/179558472"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-USA-41541",
+    "our_Trip_ID": "276",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2013-09-24",
+    "our_End_Date": "2013-09-24",
+    "colt_Start": "2013-09-24",
+    "colt_End": "2013-09-25",
+    "discrepancias": "TripEndDate: nuestro=2013-09-24 COLT=2013-09-25 (dif 1d)",
+    "colt_links": [
+      "http://www.gettyimages.com/license/181756061",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e9b90a19-e7dd-4aa8-bcb4-73f2c4191b1c/?context=1516831"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-CHL-41708",
+    "our_Trip_ID": "278",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Chile",
+    "our_Start_Date": "2014-03-10",
+    "our_End_Date": "2014-03-10",
+    "colt_Start": "2014-03-10",
+    "colt_End": "2014-03-11",
+    "discrepancias": "TripEndDate: nuestro=2014-03-10 COLT=2014-03-11 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1506446553?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1505377476?accountid=14608",
+      "http://www.gettyimages.com/license/477905689"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-VAT-41714",
+    "our_Trip_ID": "279",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Vatican City",
+    "our_Start_Date": "2014-03-17",
+    "our_End_Date": "2014-03-17",
+    "colt_Start": "2014-03-16",
+    "colt_End": "2014-03-17",
+    "discrepancias": "TripStartDate: nuestro=2014-03-17 COLT=2014-03-16 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1509222031?accountid=14608",
+      "http://www.gettyimages.com/license/479225507"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-FRA-41717",
+    "our_Trip_ID": "280",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "France",
+    "our_Start_Date": "2014-03-18",
+    "our_End_Date": "2014-03-20",
+    "colt_Start": "2014-03-19",
+    "colt_End": "2014-03-21",
+    "discrepancias": "TripStartDate: nuestro=2014-03-18 COLT=2014-03-19 (dif 1d); TripEndDate: nuestro=2014-03-20 COLT=2014-03-21 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1523678535?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1508942443?accountid=14608",
+      "http://www.gettyimages.com/license/479508535"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-BRA-41836",
+    "our_Trip_ID": "282",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2014-07-15",
+    "our_End_Date": "2014-07-16",
+    "colt_Start": "2014-07-16",
+    "colt_End": "2014-07-17",
+    "discrepancias": "TripStartDate: nuestro=2014-07-15 COLT=2014-07-16 (dif 1d); TripEndDate: nuestro=2014-07-16 COLT=2014-07-17 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1545426178?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1545174835?accountid=14608",
+      "http://www.gettyimages.com/license/452223604"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-VEN-41849",
+    "our_Trip_ID": "283",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Venezuela",
+    "our_Start_Date": "2014-07-29",
+    "our_End_Date": "2014-07-29",
+    "colt_Start": "2014-07-29",
+    "colt_End": "2014-07-30",
+    "discrepancias": "TripEndDate: nuestro=2014-07-29 COLT=2014-07-30 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1549397727?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1549579260?accountid=14608",
+      "http://www.gettyimages.com/license/452891038"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-PRY-41864",
+    "our_Trip_ID": "284",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Paraguay",
+    "our_Start_Date": "2014-08-13",
+    "our_End_Date": "2014-08-13",
+    "colt_Start": "2014-08-13",
+    "colt_End": "2014-08-14",
+    "discrepancias": "TripEndDate: nuestro=2014-08-13 COLT=2014-08-14 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1553693635?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1553714748?accountid=14608",
+      "http://www.gettyimages.com/license/453564766"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-USA-41905",
+    "our_Trip_ID": "286",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2014-09-24",
+    "our_End_Date": "2014-09-25",
+    "colt_Start": "2014-09-23",
+    "colt_End": "2014-09-25",
+    "discrepancias": "TripStartDate: nuestro=2014-09-24 COLT=2014-09-23 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1565882664?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1636967371?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1564440400?accountid=14608",
+      "http://www.gettyimages.com/license/456038334"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-CHN-42038",
+    "our_Trip_ID": "288",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "China",
+    "our_Start_Date": "2015-02-02",
+    "our_End_Date": "2015-02-05",
+    "colt_Start": "2015-02-03",
+    "colt_End": "2015-02-06",
+    "discrepancias": "TripStartDate: nuestro=2015-02-02 COLT=2015-02-03 (dif 1d); TripEndDate: nuestro=2015-02-05 COLT=2015-02-06 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1650952797?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1652078150?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1651323899?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1650876259?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-RUS-42114",
+    "our_Trip_ID": "290",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Russia",
+    "our_Start_Date": "2015-04-22",
+    "our_End_Date": "2015-04-23",
+    "colt_Start": "2015-04-20",
+    "colt_End": "2015-04-24",
+    "discrepancias": "TripStartDate: nuestro=2015-04-22 COLT=2015-04-20 (dif 2d); TripEndDate: nuestro=2015-04-23 COLT=2015-04-24 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1675072441?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1675072082?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1674963149?accountid=14608",
+      "http://www.gettyimages.com/license/470799014",
+      "http://www.gettyimages.com/license/470792226"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-ITA-42162",
+    "our_Trip_ID": "292",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Italy",
+    "our_Start_Date": "2015-06-08",
+    "our_End_Date": "2015-06-09",
+    "colt_Start": "2015-06-07",
+    "colt_End": "2015-06-08",
+    "discrepancias": "TripStartDate: nuestro=2015-06-08 COLT=2015-06-07 (dif 1d); TripEndDate: nuestro=2015-06-09 COLT=2015-06-08 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1686887281?accountid=14609",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1686730416?accountid=14609"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-PRY-42197",
+    "our_Trip_ID": "293",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Paraguay",
+    "our_Start_Date": "2015-07-12",
+    "our_End_Date": "2015-07-12",
+    "colt_Start": "2015-07-12",
+    "colt_End": "2015-07-13",
+    "discrepancias": "TripEndDate: nuestro=2015-07-12 COLT=2015-07-13 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1696942063?accountid=14608",
+      "http://www.gettyimages.com/license/480497554"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-BRA-42202",
+    "our_Trip_ID": "294",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2015-07-16",
+    "our_End_Date": "2015-07-17",
+    "colt_Start": "2015-07-17",
+    "colt_End": "2015-07-17",
+    "discrepancias": "TripStartDate: nuestro=2015-07-16 COLT=2015-07-17 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1696924170?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1697227949?accountid=14608",
+      "http://www.gettyimages.com/license/481076706"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-CUB-42267",
+    "our_Trip_ID": "295",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "Cuba",
+    "our_Start_Date": "2015-09-19",
+    "our_End_Date": "2015-09-20",
+    "colt_Start": "2015-09-20",
+    "colt_End": "2015-09-21",
+    "discrepancias": "TripStartDate: nuestro=2015-09-19 COLT=2015-09-20 (dif 1d); TripEndDate: nuestro=2015-09-20 COLT=2015-09-21 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1713853418?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1713899792?accountid=14608",
+      "http://www.gettyimages.com/license/489289622"
+    ]
+  },
+  {
+    "colt_TripID": "2320-ARG-USA-42275",
+    "our_Trip_ID": "296",
+    "President": "Cristina Fernández de Kirchner",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2015-09-27",
+    "our_End_Date": "2015-09-28",
+    "colt_Start": "2015-09-28",
+    "colt_End": "2015-09-29",
+    "discrepancias": "TripStartDate: nuestro=2015-09-27 COLT=2015-09-28 (dif 1d); TripEndDate: nuestro=2015-09-28 COLT=2015-09-29 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1717897157?accountid=14608",
+      "http://www.gettyimages.com/license/490451162"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-VAT-42428",
+    "our_Trip_ID": "300",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Vatican City",
+    "our_Start_Date": "2016-02-27",
+    "our_End_Date": "2016-02-27",
+    "colt_Start": "2016-02-28",
+    "colt_End": "2016-02-29",
+    "discrepancias": "TripStartDate: nuestro=2016-02-27 COLT=2016-02-28 (dif 1d); TripEndDate: nuestro=2016-02-27 COLT=2016-02-29 (dif 2d)",
+    "colt_links": [
+      "http://www.gettyimages.com/license/512610184",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1768546144?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-ITA-42427",
+    "our_Trip_ID": "301",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Italy",
+    "our_Start_Date": "2016-02-27",
+    "our_End_Date": "2016-02-27",
+    "colt_Start": "2016-02-27",
+    "colt_End": "2016-02-28",
+    "discrepancias": "TripEndDate: nuestro=2016-02-27 COLT=2016-02-28 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1768398107?accountid=14608",
+      "http://www.gettyimages.com/license/512611748",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1768546144?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-COL-42535",
+    "our_Trip_ID": "303",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Colombia",
+    "our_Start_Date": "2016-06-15",
+    "our_End_Date": "2016-06-16",
+    "colt_Start": "2016-06-14",
+    "colt_End": "2016-06-16",
+    "discrepancias": "TripStartDate: nuestro=2016-06-15 COLT=2016-06-14 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/0ce558e5-dd7d-4583-806e-ed6dc7e4f71d/?context=1516831",
+      "https://du.idm.oclc.org/login?url=https://www-proquest-com.du.idm.oclc.org/newspapers/santos-y-macri-destacan-interés-de-argentina-en/docview/1797241389/se-2?accountid=14608",
+      "https://www.gettyimages.com/detail/news-photo/argentinian-president-mauricio-macri-speaks-during-the-news-photo/540688452?phrase=%20Mauricio%20Macri&adppopup=true",
+      "https://www.gettyimages.com/detail/news-photo/colombian-president-juan-manuel-santos-and-argentinas-news-photo/540447932",
+      "https://www3.weforum.org/docs/Media/LA16/LA16_ListofParticipants.pdf?ET_CID=896871&ET_RID"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-COL-42535",
+    "our_Trip_ID": "304",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Colombia",
+    "our_Start_Date": "2016-06-17",
+    "our_End_Date": "2016-06-17",
+    "colt_Start": "2016-06-14",
+    "colt_End": "2016-06-16",
+    "discrepancias": "TripStartDate: nuestro=2016-06-17 COLT=2016-06-14 (dif 3d); TripEndDate: nuestro=2016-06-17 COLT=2016-06-16 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/0ce558e5-dd7d-4583-806e-ed6dc7e4f71d/?context=1516831",
+      "https://du.idm.oclc.org/login?url=https://www-proquest-com.du.idm.oclc.org/newspapers/santos-y-macri-destacan-interés-de-argentina-en/docview/1797241389/se-2?accountid=14608",
+      "https://www.gettyimages.com/detail/news-photo/argentinian-president-mauricio-macri-speaks-during-the-news-photo/540688452?phrase=%20Mauricio%20Macri&adppopup=true",
+      "https://www.gettyimages.com/detail/news-photo/colombian-president-juan-manuel-santos-and-argentinas-news-photo/540447932",
+      "https://www3.weforum.org/docs/Media/LA16/LA16_ListofParticipants.pdf?ET_CID=896871&ET_RID"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-BRA-42586",
+    "our_Trip_ID": "311",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2016-08-05",
+    "our_End_Date": "2016-08-05",
+    "colt_Start": "2016-08-04",
+    "colt_End": "2016-08-06",
+    "discrepancias": "TripStartDate: nuestro=2016-08-05 COLT=2016-08-04 (dif 1d); TripEndDate: nuestro=2016-08-05 COLT=2016-08-06 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1809162518?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1809126465?accountid=14608",
+      "http://www.gettyimages.com/license/585976972"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-QAT-42616",
+    "our_Trip_ID": "312",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Qatar",
+    "our_Start_Date": "2016-09-01",
+    "our_End_Date": "2016-09-01",
+    "colt_Start": "2016-09-03",
+    "colt_End": "2016-09-03",
+    "discrepancias": "TripStartDate: nuestro=2016-09-01 COLT=2016-09-03 (dif 2d); TripEndDate: nuestro=2016-09-01 COLT=2016-09-03 (dif 2d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1816352163?accountid=14608"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-COL-42640",
+    "our_Trip_ID": "315",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Colombia",
+    "our_Start_Date": "2016-09-26",
+    "our_End_Date": "2016-09-26",
+    "colt_Start": "2016-09-27",
+    "colt_End": "2016-09-27",
+    "discrepancias": "TripStartDate: nuestro=2016-09-26 COLT=2016-09-27 (dif 1d); TripEndDate: nuestro=2016-09-26 COLT=2016-09-27 (dif 1d)",
+    "colt_links": [
+      "https://www.clarin.com/politica/Macri-llegar-Cartagena-creyente-dialogo_0_B1TyXHPT.html",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b02f7c9f-cfdc-46c9-a45c-bb69c4b5ec84/?context=1516831"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-VAT-42658",
+    "our_Trip_ID": "316",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Vatican City",
+    "our_Start_Date": "2016-10-15",
+    "our_End_Date": "2016-10-15",
+    "colt_Start": "2016-10-15",
+    "colt_End": "2016-10-16",
+    "discrepancias": "TripEndDate: nuestro=2016-10-15 COLT=2016-10-16 (dif 1d)",
+    "colt_links": [
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1830669382?accountid=14608",
+      "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1829537785?accountid=14609",
+      "http://www.gettyimages.com/license/615003634"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-BRA-42773",
+    "our_Trip_ID": "317",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2017-02-07",
+    "our_End_Date": "2017-02-07",
+    "colt_Start": "2017-02-07",
+    "colt_End": "2017-02-08",
+    "discrepancias": "TripEndDate: nuestro=2017-02-07 COLT=2017-02-08 (dif 1d)",
+    "colt_links": [
+      "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/mauricio-macri-president-of-argentina-looks-on-photo-dactualit%C3%A9/634148640",
+      "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/susana-malcorra-foreign-minister-of-argentina-photo-dactualit%C3%A9/634148434"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-ESP-42790",
+    "our_Trip_ID": "318",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Spain",
+    "our_Start_Date": "2017-02-20",
+    "our_End_Date": "2017-02-25",
+    "colt_Start": "2017-02-24",
+    "colt_End": "2017-02-25",
+    "discrepancias": "TripStartDate: nuestro=2017-02-20 COLT=2017-02-24 (dif 4d)",
+    "colt_links": [
+      "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/argentinas-president-mauricio-macri-receives-the-photo-dactualit%C3%A9/644915292",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=df066f47-6db3-433c-a7da-c9a98b02a2b5&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5MXV-07H1-JCR6-R1N3-00000-00&pddocid=urn%3AcontentItem%3A5MXV-07H1-JCR6-R1N3-00000-00&pdcontentcomponentid=310181&pdteaserkey=sr2&pditab=allpods&ecomp=5ynk&earg=sr2&prid=5c411056-7174-4587-a118-45b2fd0792a9"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-PRY-42810",
+    "our_Trip_ID": "319",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Paraguay",
+    "our_Start_Date": "2017-03-16",
+    "our_End_Date": "2017-03-16",
+    "colt_Start": "2017-03-16",
+    "colt_End": "2017-03-17",
+    "discrepancias": "TripEndDate: nuestro=2017-03-16 COLT=2017-03-17 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8ff2e1dd-c7cc-41d4-9e69-72f3e3864e49&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5N5G-XYX1-JBYH-611G-00000-00&pddocid=urn%3AcontentItem%3A5N5G-XYX1-JBYH-611G-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr8&pditab=allpods&ecomp=5ynk&earg=sr8&prid=2384706c-41d2-4267-8a15-e1a0b02277d3"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-NLD-42822",
+    "our_Trip_ID": "320",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Netherlands",
+    "our_Start_Date": "2017-03-27",
+    "our_End_Date": "2017-03-28",
+    "colt_Start": "2017-03-28",
+    "colt_End": "2017-03-29",
+    "discrepancias": "TripStartDate: nuestro=2017-03-27 COLT=2017-03-28 (dif 1d); TripEndDate: nuestro=2017-03-28 COLT=2017-03-29 (dif 1d)",
+    "colt_links": [
+      "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/king-willem-alexander-and-queen-maxima-of-the-photo-dactualit%C3%A9/659287250",
+      "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/president-mauricio-macri-and-his-wife-juliana-awada-photo-dactualit%C3%A9/659269110",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=b933d369-09a9-492c-abb8-9e40493d432d&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5N7V-M081-DYDJ-X4SG-00000-00&pddocid=urn%3AcontentItem%3A5N7V-M081-DYDJ-X4SG-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr1&pditab=allpods&ecomp=5ynk&earg=sr1&prid=2384706c-41d2-4267-8a15-e1a0b02277d3"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-JPN-42874",
+    "our_Trip_ID": "324",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Japan",
+    "our_Start_Date": "2017-05-18",
+    "our_End_Date": "2017-05-19",
+    "colt_Start": "2017-05-19",
+    "colt_End": "2017-05-21",
+    "discrepancias": "TripStartDate: nuestro=2017-05-18 COLT=2017-05-19 (dif 1d); TripEndDate: nuestro=2017-05-19 COLT=2017-05-21 (dif 2d)",
+    "colt_links": [
+      "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/argentine-president-mauricio-macri-shakes-hands-with-photo-dactualit%C3%A9/688254168",
+      "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/japans-emperor-akihito-and-empress-michiko-speak-photo-dactualit%C3%A9/685908322"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-CHE-43125",
+    "our_Trip_ID": "330",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Switzerland",
+    "our_Start_Date": "2018-01-24",
+    "our_End_Date": "2018-01-25",
+    "colt_Start": "2018-01-25",
+    "colt_End": "2018-01-26",
+    "discrepancias": "TripStartDate: nuestro=2018-01-24 COLT=2018-01-25 (dif 1d); TripEndDate: nuestro=2018-01-25 COLT=2018-01-26 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/313c7978-330a-4938-bea5-acf23aa27d99/?context=1516831",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/9ea836d3-af67-46ce-8bbc-9a65279d6a8c/?context=1516831",
+      "https://www.gettyimages.com/photos/mauricio-macri?begindate=2018-01-01&enddate=2018-12-31&events=775108027&family=editorial&phrase=Mauricio%20Macri&recency=daterange&sort=best#license",
+      "https://www.gettyimages.com/photos/mauricio-macri?begindate=2018-01-01&enddate=2018-12-31&events=775109910&family=editorial&phrase=Mauricio%20Macri&recency=daterange&sort=newest#license",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c5a09c1d-1362-481f-b6f3-5df122bcc69d&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5RGN-MP41-JB0G-F3NM-00000-00&pddocid=urn%3AcontentItem%3A5RGN-MP41-JB0G-F3NM-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr0&pditab=allpods&ecomp=wp79k&earg=sr0&prid=c9a1d2f0-e490-45e8-bd39-65e5bf677983",
+      "https://wwwgettyimagescom/detail/news-photo/in-this-handout-photo-provided-by-the-german-government-news-photo/909684358?adppopup=true"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-CAN-43259",
+    "our_Trip_ID": "334",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Canada",
+    "our_Start_Date": "2018-06-08",
+    "our_End_Date": "2018-06-10",
+    "colt_Start": "2018-06-08",
+    "colt_End": "2018-06-09",
+    "discrepancias": "TripEndDate: nuestro=2018-06-10 COLT=2018-06-09 (dif 1d)",
+    "colt_links": [
+      "https://www.casarosada.gob.ar/slider-principal/42933-macri-se-reunio-con-angela-merkel-y-theresa-may-en-el-marco-de-la-cumbre-del-g7",
+      "https://www.gettyimages.com/photos/mauricio-macri?begindate=2018-01-01&enddate=2018-12-31&events=775174604&family=editorial&phrase=Mauricio%20Macri&recency=daterange&sort=newest#license",
+      "https://www.gettyimages.com/photos/mauricio-macri?begindate=2018-01-01&enddate=2018-12-31&events=775174604&family=editorial&phrase=Mauricio%20Macri&recency=daterange&sort=newest#license"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-USA-43367",
+    "our_Trip_ID": "338",
+    "President": "Mauricio Macri",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2018-09-24",
+    "our_End_Date": "2018-09-25",
+    "colt_Start": "2018-09-24",
+    "colt_End": "2018-09-26",
+    "discrepancias": "TripEndDate: nuestro=2018-09-25 COLT=2018-09-26 (dif 1d)",
+    "colt_links": [
+      "https://www.casarosada.gob.ar/slider-principal/43680-el-presidente-macri-recibio-a-un-grupo-de-inversores-en-nueva-york",
+      "https://www.casarosada.gob.ar/slider-principal/43683-el-presidente-macri-concedio-una-entrevista-al-canal-bloomberg-television-de-nueva",
+      "https://www.casarosada.gob.ar/slider-principal/43700-el-presidente-macri-recibio-el-premio-ciudadano-global-2018",
+      "https://www.casarosada.gob.ar/slider-principal/43718-macri-estamos-construyendo-consensos-para-un-desarrollo-equitativo-y-sostenible",
+      "https://www.gettyimages.com/photos/mauricio-macri?begindate=2018-01-01&enddate=2018-12-31&events=775210458&family=editorial&phrase=Mauricio%20Macri&recency=daterange&sort=newest#license"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-IDN-43641",
+    "our_Trip_ID": "348",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Indonesia",
+    "our_Start_Date": "2019-06-26",
+    "our_End_Date": "2019-06-26",
+    "colt_Start": "2019-06-25",
+    "colt_End": "2019-06-26",
+    "discrepancias": "TripStartDate: nuestro=2019-06-26 COLT=2019-06-25 (dif 1d)",
+    "colt_links": [
+      "https://www.casarosada.gob.ar/slider-principal/45696-macri-indonesia-es-un-socio-comercial-clave-para-el-presente-y-el-futuro-de-la-argentina",
+      "https://search-proquest-com.du.idm.oclc.org/central/docview/2247486447/ED576EE1BDDE43EAPQ/57?accountid=14608",
+      "https://search-proquest-com.du.idm.oclc.org/central/docview/2247489914/ED576EE1BDDE43EAPQ/166?accountid=14608",
+      "https://twitter.com/mauriciomacri/status/1143667451613388803"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-JPN-43642",
+    "our_Trip_ID": "349",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Japan",
+    "our_Start_Date": "2019-06-27",
+    "our_End_Date": "2019-06-29",
+    "colt_Start": "2019-06-26",
+    "colt_End": "2019-06-29",
+    "discrepancias": "TripStartDate: nuestro=2019-06-27 COLT=2019-06-26 (dif 1d)",
+    "colt_links": [
+      "https://www.casarosada.gob.ar/slider-principal/45702-venimos-a-ratificar-que-la-argentina-y-japon-son-socios-estrategicos",
+      "https://www.casarosada.gob.ar/slider-principal/45708-este-rumbo-que-elegimos-los-argentinos-va-a-consolidarse-cada-vez-con-mas-fuerza-de-cara-al-futuro",
+      "https://www.casarosada.gob.ar/slider-principal/45716-macri-celebro-el-acuerdo-mercosur-ue-en-el-cierre-de-la-cumbre-del-g20",
+      "https://www.infobae.com/politica/2019/06/18/macri-en-el-g20-de-osaka-tendra-bilaterales-con-trump-xi-jinping-y-macron-para-analizar-la-crisis-de-venezuela-y-la-guerra-comercial/",
+      "https://www.dw.com/es/macri-se-reunir%C3%A1-con-l%C3%ADderes-de-espa%C3%B1a-francia-y-pa%C3%ADses-bajos/a-49304611",
+      "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/45706-el-presidente-macri-se-reunio-con-la-directora-gerente-del-fmi-2",
+      "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/45709-macri-dialogo-con-jefes-de-estado-de-distintos-paises-del-g20",
+      "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/45718-el-presidente-macri-se-reunio-con-el-principe-heredero-de-arabia-saudita",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=9dead253-ce3f-475f-9604-20661a9ed231&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5WFK-3DP1-JCMP-52F2-00000-00&pdcontentcomponentid=463620&pdteaserkey=sr97&pditab=allpods&ecomp=fzx2k&earg=sr97&prid=0af663ed-c0bb-4ecf-b3d0-6b96416ff5b0"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-CHE-43645",
+    "our_Trip_ID": "350",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Switzerland",
+    "our_Start_Date": "2019-06-30",
+    "our_End_Date": "2019-06-30",
+    "colt_Start": "2019-06-29",
+    "colt_End": "2019-06-30",
+    "discrepancias": "TripStartDate: nuestro=2019-06-30 COLT=2019-06-29 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=488a1efa-7c38-4288-9ccc-3e80cf395768&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5WFT-0MD1-JCMP-500K-00000-00&pdcontentcomponentid=463620&pdteaserkey=sr6&pditab=allpods&ecomp=tzg2k&earg=sr6&prid=c186a099-b9b3-402d-b79a-30258e33c2f7",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ed003422-32b5-41c1-8117-65c5616b5fea&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5WG1-09N1-JCMP-51JR-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=tzg2k&earg=sr0&prid=c186a099-b9b3-402d-b79a-30258e33c2f7",
+      "https://search-proquest-com.du.idm.oclc.org/central/docview/2249648969/FC1D84048F1D4044PQ/1?accountid=14608",
+      "https://search-proquest-com.du.idm.oclc.org/central/docview/2250486803/fulltext/4C9CF3A8511D4B7CPQ/1?accountid=14608",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8661185f-0b4d-4ca2-adff-36f2d617e137&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5WGH-5FW1-F0YC-N3D7-00000-00&pdcontentcomponentid=438631&pdteaserkey=sr124&pditab=allpods&ecomp=fzx2k&earg=sr124&prid=ba0f68e8-3b41-4137-b379-0cd74050272b",
+      "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/45723-el-presidente-macri-fue-distinguido-en-la-fifa-por-sus-aportes-al-futbol-mundial"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-CHE-43802",
+    "our_Trip_ID": "354",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Switzerland",
+    "our_Start_Date": "2019-12-03",
+    "our_End_Date": "2019-12-03",
+    "colt_Start": "2019-12-03",
+    "colt_End": "2019-12-04",
+    "discrepancias": "TripEndDate: nuestro=2019-12-03 COLT=2019-12-04 (dif 1d)",
+    "colt_links": [
+      "https://search-proquest-com.du.idm.oclc.org/central/docview/2320931420/47B8656EBDFB4B15PQ/1?accountid=14608",
+      "https://search-proquest-com.du.idm.oclc.org/central/docview/2321451226/6B20516D4BB448A2PQ/6?accountid=14608",
+      "https://search-proquest-com.du.idm.oclc.org/central/docview/2321516494/476466487E1747EDPQ/3?accountid=14608",
+      "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/46582-el-presidente-se-reunio-con-el-director-general-de-la-omc"
+    ]
+  },
+  {
+    "colt_TripID": "3169-ARG-BRA-43803",
+    "our_Trip_ID": "355",
+    "President": "Mauricio Macri",
+    "Destination_Country": "Brazil",
+    "our_Start_Date": "2019-12-05",
+    "our_End_Date": "2019-12-05",
+    "colt_Start": "2019-12-04",
+    "colt_End": "2019-12-05",
+    "discrepancias": "TripStartDate: nuestro=2019-12-05 COLT=2019-12-04 (dif 1d)",
+    "colt_links": [
+      "https://www.casarosada.gob.ar/slider-principal/46588-no-hay-que-tener-miedos-hay-que-seguir-avanzando-en-la-integracion-con-el-mundo",
+      "https://cancilleria.gob.ar/es/actualidad/noticias/comunicado-conjunto-de-los-presidentes-de-los-estados-partes-del-mercosur",
+      "https://search-proquest-com.du.idm.oclc.org/central/docview/2322348066/6B20516D4BB448A2PQ/2?accountid=14608",
+      "https://twitter.com/mauriciomacri/status/1202663501480812544",
+      "https://www.mercosur.int/democracia-y-apertura-economica-ejes-de-la-cumbre-55ta-del-mercosur/"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-ISR-43852",
+    "our_Trip_ID": "356",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Israel",
+    "our_Start_Date": "2020-01-22",
+    "our_End_Date": "2020-01-23",
+    "colt_Start": "2020-01-22",
+    "colt_End": "2020-01-25",
+    "discrepancias": "TripEndDate: nuestro=2020-01-23 COLT=2020-01-25 (dif 2d)",
+    "colt_links": [
+      "https://mfa.gov.il/MFA/PressRoom/2020/Pages/PM-Netanyahu-meets-with-Argentine-President-Alberto-Fernandez-24-January-2020.aspx",
+      "https://www.timesofisrael.com/netanyahu-congratulates-argentine-pm-for-investigation-of-amia-bombing/",
+      "https://www.shutterstock.com/editorial/image-editorial/argentinian-president-fernandez-in-israel-jerusalem-24-jan-2020-10537820b",
+      "https://www.batimes.com.ar/news/argentina/fernandez-takes-off-for-tel-aviv.phtml",
+      "https://www.batimes.com.ar/news/argentina/fernandez-joins-jerusalem-rally-against-anti-semitism.phtml",
+      "https://www.casarosada.gob.ar/international/latest-news/46680-fernandez-participates-at-welcome-dinner-offered-by-israeli-president"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-ITA-43861",
+    "our_Trip_ID": "358",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Italy",
+    "our_Start_Date": "2020-01-31",
+    "our_End_Date": "2020-01-31",
+    "colt_Start": "2020-01-31",
+    "colt_End": "2020-02-01",
+    "discrepancias": "TripEndDate: nuestro=2020-01-31 COLT=2020-02-01 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ead8db2f-8274-4673-b4c4-01cbbcafd8d8&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5Y33-X711-F03R-N3C5-00000-00&pdcontentcomponentid=299488&pdteaserkey=sr0&pditab=allpods&ecomp=fzx2k&earg=sr0&prid=505d2a63-e2be-42d8-bca7-e39a7bfba729",
+      "http://www.xinhuanet.com/english/2020-02/01/c_138746560.htm",
+      "https://en.mercopress.com/2020/01/27/argentine-president-begins-a-quick-tour-of-europe-in-search-of-support",
+      "https://en.mercopress.com/2020/01/31/argentine-president-meets-pope-francis-and-later-italian-premier-and-president",
+      "https://www.nurphoto.com/en/gallery/254464",
+      "https://www.unmultimedia.org/tv/unifeed/asset/2527/2527807/",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=48a34abf-33bc-4736-abe1-ea93345109d2&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5Y4K-NNJ1-F11P-X2MW-00000-00&pdcontentcomponentid=343637&pdteaserkey=sr1&pditab=allpods&ecomp=fzx2k&earg=sr1&prid=18b74236-8b72-4091-b4a2-3ef1bfedf302"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-DEU-43863",
+    "our_Trip_ID": "359",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Germany",
+    "our_Start_Date": "2020-02-03",
+    "our_End_Date": "2020-02-03",
+    "colt_Start": "2020-02-02",
+    "colt_End": "2020-02-03",
+    "discrepancias": "TripStartDate: nuestro=2020-02-03 COLT=2020-02-02 (dif 1d)",
+    "colt_links": [
+      "https://en.mercopress.com/2020/02/03/argentine-president-meets-angela-merkel-monday-evening-and-on-tuesday-will-be-in-spain",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5f1bd912-b0a2-4ab7-8eda-387bd4553540&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5Y4K-NNJ1-F11P-X2N7-00000-00&pdcontentcomponentid=343637&pdteaserkey=sr5&pditab=allpods&ecomp=fzx2k&earg=sr5&prid=535b8941-e6d3-4292-ac72-c8d326ffeb6c",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=0699b6ff-b717-4718-93ac-fdc30404fe6b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5Y4H-R081-JBJN-M18B-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=fzx2k&earg=sr1&prid=535b8941-e6d3-4292-ac72-c8d326ffeb6c",
+      "https://www.batimes.com.ar/news/argentina/alberto-meets-with-merkel-amid-imf-negotiations.phtml"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-ESP-43864",
+    "our_Trip_ID": "360",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Spain",
+    "our_Start_Date": "2020-02-04",
+    "our_End_Date": "2020-02-04",
+    "colt_Start": "2020-02-03",
+    "colt_End": "2020-02-04",
+    "discrepancias": "TripStartDate: nuestro=2020-02-04 COLT=2020-02-03 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8c356f51-9b33-4e45-9709-6e653b6e40af&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5Y4R-P671-DY1R-B1DM-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=fzx2k&earg=sr3&prid=da0ce514-ffe2-4490-a8c9-d515687d42ad",
+      "https://www.shutterstock.com/editorial/news/president-of-argentina-alberto-fernandez-visit-to-madrid-2020-02-04",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8c356f51-9b33-4e45-9709-6e653b6e40af&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5Y4R-P671-DY1R-B1DM-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=fzx2k&earg=sr3&prid=da0ce514-ffe2-4490-a8c9-d515687d42ad",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=0ec038d7-220e-44c4-9d00-bb36b819e17c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5Y4R-P5Y1-JBJN-M3X7-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr7&pditab=allpods&ecomp=fzx2k&earg=sr7&prid=da0ce514-ffe2-4490-a8c9-d515687d42ad",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=961974e9-1f43-4f82-8813-ffbaa255349e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5Y4T-6181-JCBF-S1T8-00000-00&pdcontentcomponentid=8058&pdteaserkey=sr31&pditab=allpods&ecomp=fzx2k&earg=sr31&prid=0d02c1bb-7060-426e-8467-ecfc97ed3db3",
+      "https://en.mercopress.com/2020/02/05/fernandez-in-paris-the-last-leg-of-the-european-tour-after-support-for-its-debt-restructuring-strategy"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-CHL-44222",
+    "our_Trip_ID": "364",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Chile",
+    "our_Start_Date": "2021-01-26",
+    "our_End_Date": "2021-01-27",
+    "colt_Start": "2021-01-26",
+    "colt_End": "2021-01-28",
+    "discrepancias": "TripEndDate: nuestro=2021-01-27 COLT=2021-01-28 (dif 1d)",
+    "colt_links": [
+      "https://search-proquest-com.du.idm.oclc.org/internationalnews1/docview/2481468733/87C28D3CE77048D4PQ/8?accountid=14608",
+      "https://search-proquest-com.du.idm.oclc.org/internationalnews1/docview/2480815048/F25304CCF9A44B2APQ/2?accountid=14608",
+      "https://www.aa.com.tr/es/mundo/presidente-argentino-alberto-fern%C3%A1ndez-llega-a-chile-para-una-visita-oficial/2123784"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-PRT-44325",
+    "our_Trip_ID": "366",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Portugal",
+    "our_Start_Date": "2021-05-09",
+    "our_End_Date": "2021-05-10",
+    "colt_Start": "2021-05-09",
+    "colt_End": "2021-05-09",
+    "discrepancias": "TripEndDate: nuestro=2021-05-10 COLT=2021-05-09 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=b3353629-4e1f-4f27-ad63-e0f19328a88d&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A62N2-3XK1-DY1R-B04W-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=1bvnk&earg=sr1&prid=e1350b60-c8a6-42e9-a666-396ca07b605f",
+      "https://www.casarosada.gob.ar/slider-principal/47745-el-presidente-fue-recibido-por-su-par-de-portugal-en-el-inicio-de-su-gira-por-europa?fbclid=IwAR3OPM_rfo5kEO0L2IpEjZrpt1WbX_54d2pI6ZqMoAzTlkfluJBX39HktN4",
+      "https://www.perfil.com/noticias/politica/las-fotos-de-los-primeros-dos-dias-de-alberto-fernandez-en-su-gira-europea.phtml"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-ESP-44325",
+    "our_Trip_ID": "367",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Spain",
+    "our_Start_Date": "2021-05-10",
+    "our_End_Date": "2021-05-11",
+    "colt_Start": "2021-05-09",
+    "colt_End": "2021-05-11",
+    "discrepancias": "TripStartDate: nuestro=2021-05-10 COLT=2021-05-09 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e5b7c4f8-7898-4151-b441-ce685653c40a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A62N8-33W1-DY1R-B0RG-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=1bvnk&earg=sr3&prid=b09c9781-b3fc-4883-8ee5-81c4f6638d2c",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=2024a773-e509-4734-9082-7fa87ac2c207&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A62N8-33V1-DY1R-B398-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr8&pditab=allpods&ecomp=1bvnk&earg=sr8&prid=b09c9781-b3fc-4883-8ee5-81c4f6638d2c",
+      "https://twitter.com/desdelamoncloa/status/1392072429632200706?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1392072429632200706%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.dw.com%2Fes%2Falberto-fernC3A1ndez-inicia-en-espaC3B1a-su-gira-por-europa%2Fa-57497447"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-FRA-44327",
+    "our_Trip_ID": "368",
+    "President": "Alberto Fernández",
+    "Destination_Country": "France",
+    "our_Start_Date": "2021-05-11",
+    "our_End_Date": "2021-05-12",
+    "colt_Start": "2021-05-11",
+    "colt_End": "2021-05-13",
+    "discrepancias": "TripEndDate: nuestro=2021-05-12 COLT=2021-05-13 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=13c8f1cf-dfc2-41e1-813d-2b82f3cecf16&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A62NG-2DS1-JBJN-M33T-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr6&pditab=allpods&ecomp=1bvnk&earg=sr6&prid=4ee634e1-9622-4150-8a52-c0c88eafa26f",
+      "https://pledgetimes.com/alberto-fernandez-met-in-paris-with-businessmen-with-investments-in-the-country/"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-ITA-44329",
+    "our_Trip_ID": "369",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Italy",
+    "our_Start_Date": "2021-05-13",
+    "our_End_Date": "2021-05-14",
+    "colt_Start": "2021-05-13",
+    "colt_End": "2021-05-15",
+    "discrepancias": "TripEndDate: nuestro=2021-05-14 COLT=2021-05-15 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=2ae825c7-e98a-49fa-8c62-ae3994ad4b88&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A62NP-1XS1-JBJN-M4XC-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=1bvnk&earg=sr0&prid=8bc0b95a-4a45-4fae-8933-6d70078a5fab",
+      "https://www-proquest-com.du.idm.oclc.org/science/docview/2527447343/C17B1834FCCC493APQ/1?accountid=14608",
+      "https://twitter.com/eltribuno/status/1392995574475984896?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1392995574475984896%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.france24.com%2Fes%2FamC3A9rica-latina%2F20210514-argentina-fernandez-gira-europa-respaldo-renegociacion-deuda-fmi"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-GBR-44501",
+    "our_Trip_ID": "372",
+    "President": "Alberto Fernández",
+    "Destination_Country": "United Kingdom",
+    "our_Start_Date": "2021-10-31",
+    "our_End_Date": "2021-11-02",
+    "colt_Start": "2021-11-01",
+    "colt_End": "2021-11-04",
+    "discrepancias": "TripStartDate: nuestro=2021-10-31 COLT=2021-11-01 (dif 1d); TripEndDate: nuestro=2021-11-02 COLT=2021-11-04 (dif 2d)",
+    "colt_links": [
+      "https://alferdez.com.ar/el-presidente-arribo-a-glasgow-escocia-donde-manana-iniciara-su-participacion-en-la-cumbre-cop26/",
+      "https://alferdez.com.ar/el-presidente-ya-participa-de-la-cumbre-de-lideres-del-cop26-principal-foro-mundial-dedicado-al-cambio-climatico/",
+      "https://alferdez.com.ar/solidaridad-ambiental-deuda-sostenible-y-recuperacion-economica-con-inclusion-social-los-ejes-de-los-discursos-de-alberto-fernandez-en-glasgow/",
+      "https://www.gettyimages.com/detail/news-photo/argentinas-president-alberto-fernandez-arrives-for-the-news-photo/1236270796?adppopup=true",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/6260fd0a-c23d-441a-838a-aeaf99e940c8/?context=1516831",
+      "https://alferdez.com.ar/solidaridad-ambiental-deuda-sostenible-y-recuperacion-economica-con-inclusion-social-los-ejes-de-los-discursos-de-alberto-fernandez-en-glasgow/"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-RUS-44595",
+    "our_Trip_ID": "373",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Russia",
+    "our_Start_Date": "2022-02-03",
+    "our_End_Date": "2022-02-03",
+    "colt_Start": "2022-02-03",
+    "colt_End": "2022-02-04",
+    "discrepancias": "TripEndDate: nuestro=2022-02-03 COLT=2022-02-04 (dif 1d)",
+    "colt_links": [
+      "https://oicanadian.com/alberto-fernandez-arrived-in-russia-he-will-meet-with-vladimir-putin/",
+      "https://www.reuters.com/markets/europe/argentinas-fernandez-russia-says-must-end-economic-dependence-us-imf-2022-02-03/",
+      "https://tass.com/politics/1397379",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/40b078ba-24a6-4cd6-9a9e-0d4848fa268a/?context=1516831",
+      "https://www.facebook.com/permalink.php?story_fbid=3281308248759195&id=1786813798208655"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-CHN-44596",
+    "our_Trip_ID": "374",
+    "President": "Alberto Fernández",
+    "Destination_Country": "China",
+    "our_Start_Date": "2022-02-04",
+    "our_End_Date": "2022-02-06",
+    "colt_Start": "2022-02-04",
+    "colt_End": "2022-02-07",
+    "discrepancias": "TripEndDate: nuestro=2022-02-06 COLT=2022-02-07 (dif 1d)",
+    "colt_links": [
+      "https://then24.com/2022/02/02/president-of-argentina-fernandez-begins-trip-to-china-russia-after-agreement-with-imf/",
+      "https://www.dw.com/en/argentina-and-china-seal-silk-road-deal/a-60679278",
+      "https://www.telesurenglish.net/news/Argentine-President-Fernandez-Starts-Official-Visit-to-China--20220204-0010.html",
+      "https://www.facebook.com/permalink.php?story_fbid=3281962715360415&id=1786813798208655",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/8fa3d2f7-ccca-41a6-b2e2-55d642643876/?context=1516831",
+      "https://www.facebook.com/permalink.php?story_fbid=3281962868693733&id=1786813798208655"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-BRB-44599",
+    "our_Trip_ID": "375",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Barbados",
+    "our_Start_Date": "2022-02-08",
+    "our_End_Date": "2022-02-08",
+    "colt_Start": "2022-02-07",
+    "colt_End": "2022-02-09",
+    "discrepancias": "TripStartDate: nuestro=2022-02-08 COLT=2022-02-07 (dif 1d); TripEndDate: nuestro=2022-02-08 COLT=2022-02-09 (dif 1d)",
+    "colt_links": [
+      "https://newswep.com/alberto-fernandez-left-china-and-arrives-in-barbados-to-complete-his-international-tour/",
+      "https://oicanadian.com/the-reasons-why-alberto-fernandez-will-make-the-last-stop-of-his-trip-in-barbados/",
+      "https://www.facebook.com/alferdezok/posts/475313417297541",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/9574af5e-461d-43f5-9f27-d654f046df14/?context=1516831"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-ESP-44690",
+    "our_Trip_ID": "379",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Spain",
+    "our_Start_Date": "2022-05-10",
+    "our_End_Date": "2022-05-10",
+    "colt_Start": "2022-05-09",
+    "colt_End": "2022-05-11",
+    "discrepancias": "TripStartDate: nuestro=2022-05-10 COLT=2022-05-09 (dif 1d); TripEndDate: nuestro=2022-05-10 COLT=2022-05-11 (dif 1d)",
+    "colt_links": [
+      "https://batimes.com.ar/news/argentina/president-fernandez-puts-domestic-tensions-on-pause-with-european-tour.phtml",
+      "https://www.zyri.net/2022/05/10/alberto-fernandez-in-europe-live-the-president-arrived-in-spain-and-starts-his-tour-in-search-of-international-support/",
+      "https://batimes.com.ar/news/argentina/alberto-jabs-at-cristina-as-he-talks-up-opportunities-for-europe.phtml",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/1d7933ab-1268-453f-aa9c-bb421713ec78/?context=1516831"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-DEU-44692",
+    "our_Trip_ID": "380",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Germany",
+    "our_Start_Date": "2022-05-11",
+    "our_End_Date": "2022-05-11",
+    "colt_Start": "2022-05-11",
+    "colt_End": "2022-05-13",
+    "discrepancias": "TripEndDate: nuestro=2022-05-11 COLT=2022-05-13 (dif 2d)",
+    "colt_links": [
+      "https://batimes.com.ar/news/argentina/president-fernandez-puts-domestic-tensions-on-pause-with-european-tour.phtml",
+      "https://batimes.com.ar/news/argentina/alberto-jabs-at-cristina-as-he-talks-up-opportunities-for-europe.phtml",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/abe0d24f-749a-4455-bb3b-341ae5874c45/?context=1516831"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-FRA-44694",
+    "our_Trip_ID": "381",
+    "President": "Alberto Fernández",
+    "Destination_Country": "France",
+    "our_Start_Date": "2022-05-12",
+    "our_End_Date": "2022-05-13",
+    "colt_Start": "2022-05-13",
+    "colt_End": "2022-05-14",
+    "discrepancias": "TripStartDate: nuestro=2022-05-12 COLT=2022-05-13 (dif 1d); TripEndDate: nuestro=2022-05-13 COLT=2022-05-14 (dif 1d)",
+    "colt_links": [
+      "https://batimes.com.ar/news/argentina/president-fernandez-puts-domestic-tensions-on-pause-with-european-tour.phtml",
+      "https://newswep.com/news/the-president-will-travel-to-france-to-meet-with-macron/",
+      "https://batimes.com.ar/news/argentina/alberto-jabs-at-cristina-as-he-talks-up-opportunities-for-europe.phtml",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/1d7933ab-1268-453f-aa9c-bb421713ec78/?context=1516831"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-DEU-44738",
+    "our_Trip_ID": "384",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Germany",
+    "our_Start_Date": "2022-06-26",
+    "our_End_Date": "2022-06-28",
+    "colt_Start": "2022-06-26",
+    "colt_End": "2022-06-29",
+    "discrepancias": "TripEndDate: nuestro=2022-06-28 COLT=2022-06-29 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/c5cf8e14-2996-454b-af64-70bb8dd3df0d/?context=1516831",
+      "https://www.telesurenglish.net/news/Argentinian-President-to-Participate-at-G7-Summit-20220624-0003.html",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/04c58c54-e73a-4158-b091-403864d953f7/?context=1516831",
+      "https://twitter.com/alferdez/status/1541519171032195072"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-COL-44779",
+    "our_Trip_ID": "386",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Colombia",
+    "our_Start_Date": "2022-08-07",
+    "our_End_Date": "2022-08-07",
+    "colt_Start": "2022-08-06",
+    "colt_End": "2022-08-08",
+    "discrepancias": "TripStartDate: nuestro=2022-08-07 COLT=2022-08-06 (dif 1d); TripEndDate: nuestro=2022-08-07 COLT=2022-08-08 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/5011dfd1-7e9a-4692-b5c5-d9fd19c662e0/?context=1516831",
+      "https://twitter.com/alferdez/status/1556355490766114817",
+      "https://www.gettyimages.com/detail/news-photo/president-of-argentina-alberto-fernandez-gestures-during-news-photo/1413508650?adppopup=true",
+      "https://twitter.com/alferdez/status/1556055174132662273"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-USA-44821",
+    "our_Trip_ID": "387",
+    "President": "Alberto Fernández",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2022-09-19",
+    "our_End_Date": "2022-09-21",
+    "colt_Start": "2022-09-17",
+    "colt_End": "2022-09-25",
+    "discrepancias": "TripStartDate: nuestro=2022-09-19 COLT=2022-09-17 (dif 2d); TripEndDate: nuestro=2022-09-21 COLT=2022-09-25 (dif 4d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/17aa8e16-077e-4437-9bf5-9f113e6c0bf1/?context=1516831",
+      "https://twitter.com/CasaRosada/status/1571484476160593920",
+      "https://twitter.com/alferdez/status/1572744221270114304",
+      "https://twitter.com/CasaRosada/status/1572644150972932096",
+      "https://twitter.com/alferdez/status/1572386569507508226"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-IDN-44878",
+    "our_Trip_ID": "390",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Indonesia",
+    "our_Start_Date": "2022-11-15",
+    "our_End_Date": "2022-11-16",
+    "colt_Start": "2022-11-13",
+    "colt_End": "2022-11-16",
+    "discrepancias": "TripStartDate: nuestro=2022-11-15 COLT=2022-11-13 (dif 2d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b283f7da-43e8-4ac0-bdc1-dd070da1375d/?context=1516831",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/31fdcd56-fe90-4346-9752-1e44ec1b7a40/?context=1516831",
+      "https://www.instagram.com/p/Ck-o1BNgYxc/",
+      "https://en.mercopress.com/2022/11/15/alberto-fernandez-unable-to-appear-before-g20-due-to-low-blood-pressure"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-DOM-45009",
+    "our_Trip_ID": "394",
+    "President": "Alberto Fernández",
+    "Destination_Country": "Dominican Republic",
+    "our_Start_Date": "2023-03-24",
+    "our_End_Date": "2023-03-25",
+    "colt_Start": "2023-03-24",
+    "colt_End": "2023-03-26",
+    "discrepancias": "TripEndDate: nuestro=2023-03-25 COLT=2023-03-26 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/d05caa8e-73b2-4fcf-a5fd-ef387bfdcbfe/?context=1516831",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/45dba9f9-56eb-4fbd-8aa4-1e87c52589d0/?context=1516831",
+      "https://media.gettyimages.com/id/1249299249/photo/argentine-president-alberto-fernandez-his-couple-fabiola-ya%C3%B1ez-dominican-president-luis.jpg?s=612x612&w=0&k=20&c=aRKbovgYub8RTgdmkffpjARWAcSGRpmHie8II-iAEBE=",
+      "https://advance-lexis-com.du.idm.oclc.org/api/permalink/29a690b0-2ebc-4f10-aa19-7d0eb77865f3/?context=1516831",
+      "https://twitter.com/alferdez/status/1640159693841616896?cxt=HHwWgMC-5aajgsMtAAAA"
+    ]
+  },
+  {
+    "colt_TripID": "3670-ARG-USA-45185",
+    "our_Trip_ID": "405",
+    "President": "Alberto Fernández",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2023-09-18",
+    "our_End_Date": "2023-09-20",
+    "colt_Start": "2023-09-16",
+    "colt_End": "2023-09-20",
+    "discrepancias": "TripStartDate: nuestro=2023-09-18 COLT=2023-09-16 (dif 2d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=7625a0a1-5735-4dfc-9692-5b3302b33118&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6967-J951-DYY9-04PY-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=kmnyk&earg=sr2&prid=8600424a-ab77-46da-93ff-621387ee019f",
+      "https://www.batimes.com.ar/news/argentina/argentinas-president-alberto-fernandez-uses-final-unga-address-to-reiterate-imf-malvinas-demands.phtml",
+      "https://www.gettyimages.com/detail/news-photo/president-of-argentina-alberto-fern%C3%A1ndez-speaks-during-the-news-photo/1691250333?adppopup=true",
+      "https://twitter.com/alferdez/status/1703947143042478257"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-CHE-45307",
+    "our_Trip_ID": "409",
+    "President": "Javier Milei",
+    "Destination_Country": "Switzerland",
+    "our_Start_Date": "2024-01-16",
+    "our_End_Date": "2024-01-17",
+    "colt_Start": "2024-01-16",
+    "colt_End": "2024-01-16",
+    "discrepancias": "TripEndDate: nuestro=2024-01-17 COLT=2024-01-16 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=a85e6c17-6717-45bc-8d31-d68d12782598&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6B47-P6V1-JCG7-81YF-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=tmnyk&earg=sr3&prid=393c3dfa-0f74-4417-9b55-17d4a6bef86d",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=a0f17293-6600-42c3-b2d8-389117aaa8ea&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6B4F-N5K1-JCG7-8340-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=tmnyk&earg=sr2&prid=393c3dfa-0f74-4417-9b55-17d4a6bef86d",
+      "https://twitter.com/JMilei/status/1747730758549057769",
+      "https://www.weforum.org/agenda/2024/01/special-address-by-javier-milei-president-of-argentina/"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-ISR-45328",
+    "our_Trip_ID": "410",
+    "President": "Javier Milei",
+    "Destination_Country": "Israel",
+    "our_Start_Date": "2024-02-06",
+    "our_End_Date": "2024-02-08",
+    "colt_Start": "2024-02-06",
+    "colt_End": "2024-02-09",
+    "discrepancias": "TripEndDate: nuestro=2024-02-08 COLT=2024-02-09 (dif 1d)",
+    "colt_links": [
+      "https://twitter.com/JMilei/status/1754936893588795641",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c0e9ea00-c82b-4bad-9628-af5dc58f8f60&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6B9C-0FN1-JCG7-81NS-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=tmnyk&earg=sr4&prid=5e76d73f-1970-4313-9591-5ae5745beae8",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=a4844be9-09cf-4120-8002-8c2a1ab4580d&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6B9C-0FN1-JCG7-815T-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr5&pditab=allpods&ecomp=tmnyk&earg=sr5&prid=5e76d73f-1970-4313-9591-5ae5745beae8",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e96528d0-804f-4bd1-b641-0afd4ec741a1&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6B9C-0FN1-JCG7-81P6-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr7&pditab=allpods&ecomp=tmnyk&earg=sr7&prid=5e76d73f-1970-4313-9591-5ae5745beae8"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-ITA-45334",
+    "our_Trip_ID": "412",
+    "President": "Javier Milei",
+    "Destination_Country": "Italy",
+    "our_Start_Date": "2024-02-12",
+    "our_End_Date": "2024-02-12",
+    "colt_Start": "2024-02-12",
+    "colt_End": "2024-02-13",
+    "discrepancias": "TripEndDate: nuestro=2024-02-12 COLT=2024-02-13 (dif 1d)",
+    "colt_links": [
+      "https://www.reuters.com/world/americas/argentinas-milei-embarks-diplomatic-trip-israel-italy-2024-02-05/",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=37a89def-f3eb-474a-ad34-a8089c4ec841&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BB0-X3S1-JCG7-83KS-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr10&pditab=allpods&ecomp=gmnyk&earg=sr10&prid=b66342ec-c1ba-41fa-b01d-ed3e296cc0d6",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=63e418bd-5dda-471a-b7fd-ac3e617d59bf&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BB0-X3T1-JCG7-80F0-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr16&pditab=allpods&ecomp=gmnyk&earg=sr16&prid=b66342ec-c1ba-41fa-b01d-ed3e296cc0d6"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45391",
+    "our_Trip_ID": "414",
+    "President": "Javier Milei",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2024-04-12",
+    "our_End_Date": "2024-04-12",
+    "colt_Start": "2024-04-09",
+    "colt_End": "2024-04-12",
+    "discrepancias": "TripStartDate: nuestro=2024-04-12 COLT=2024-04-09 (dif 3d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ce85c57f-d815-490a-a583-563e80743bf7&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BS5-27H1-JCG7-80DG-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=hmnyk&earg=sr4&prid=5ad63e76-31bd-4a5a-9b98-ade649ffa913",
+      "https://twitter.com/JMilei/status/1778935506056741141",
+      "https://twitter.com/JMilei/status/1778831414118469885"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-ESP-45428",
+    "our_Trip_ID": "416",
+    "President": "Javier Milei",
+    "Destination_Country": "Spain",
+    "our_Start_Date": "2024-05-17",
+    "our_End_Date": "2024-05-19",
+    "colt_Start": "2024-05-16",
+    "colt_End": "2024-05-20",
+    "discrepancias": "TripStartDate: nuestro=2024-05-17 COLT=2024-05-16 (dif 1d); TripEndDate: nuestro=2024-05-19 COLT=2024-05-20 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=aee92a92-1923-4901-8b43-75d482069c39&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C27-YDG1-JCG7-83K1-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=hmnyk&earg=sr3&prid=c263a9af-1a98-4899-832b-91758926e557",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=71bb428b-99bf-4e26-9c66-1d6df8e730fd&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C27-YDW1-DYY9-02WD-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=460dbab9-31ca-4ac3-b3a8-ad1492a1afa2",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=0fa319da-d48c-4cda-b49c-0490f69f5f36&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C2N-WR41-JCG7-833G-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=hmnyk&earg=sr2&prid=460dbab9-31ca-4ac3-b3a8-ad1492a1afa2"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45439",
+    "our_Trip_ID": "417",
+    "President": "Javier Milei",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2024-05-28",
+    "our_End_Date": "2024-05-30",
+    "colt_Start": "2024-05-27",
+    "colt_End": "2024-05-31",
+    "discrepancias": "TripStartDate: nuestro=2024-05-28 COLT=2024-05-27 (dif 1d); TripEndDate: nuestro=2024-05-30 COLT=2024-05-31 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5ecc9e77-1b00-42d5-981a-4f8bd1153041&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C4K-N031-DYY9-047T-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr7&pditab=allpods&ecomp=hmnyk&earg=sr7&prid=6bda31e7-2485-47f6-bfb0-49e84559ead8",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4af528c8-90a2-4a4b-b3ad-e3ef66766a5a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C57-J141-JCG7-84GH-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hmnyk&earg=sr1&prid=6bda31e7-2485-47f6-bfb0-49e84559ead8",
+      "https://twitter.com/dreidel1/status/1797615698216456439"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-ITA-45455",
+    "our_Trip_ID": "419",
+    "President": "Javier Milei",
+    "Destination_Country": "Italy",
+    "our_Start_Date": "2024-06-13",
+    "our_End_Date": "2024-06-15",
+    "colt_Start": "2024-06-12",
+    "colt_End": "2024-06-14",
+    "discrepancias": "TripStartDate: nuestro=2024-06-13 COLT=2024-06-12 (dif 1d); TripEndDate: nuestro=2024-06-15 COLT=2024-06-14 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e801d4df-b8f1-408a-af5b-b107b2dd50d9&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C7T-6HR1-DYY9-022X-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=004fcb85-8c53-42d3-b78f-a1691a9c5953",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=1d2ccf2a-b6d9-406d-95cd-5fa04d10b35d&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C7T-6H11-JCG7-822P-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr7&pditab=allpods&ecomp=hmnyk&earg=sr7&prid=004fcb85-8c53-42d3-b78f-a1691a9c5953",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4d36a7ac-caa6-4dfa-946d-054f914490c1&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C87-4RN1-JCG7-84WF-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=6eb2aeb4-9aa9-45a8-a605-506dab4f4a0c"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-CHE-45458",
+    "our_Trip_ID": "420",
+    "President": "Javier Milei",
+    "Destination_Country": "Switzerland",
+    "our_Start_Date": "2024-06-15",
+    "our_End_Date": "2024-06-15",
+    "colt_Start": "2024-06-15",
+    "colt_End": "2024-06-16",
+    "discrepancias": "TripEndDate: nuestro=2024-06-15 COLT=2024-06-16 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e801d4df-b8f1-408a-af5b-b107b2dd50d9&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C7T-6HR1-DYY9-022X-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=004fcb85-8c53-42d3-b78f-a1691a9c5953",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=1d2ccf2a-b6d9-406d-95cd-5fa04d10b35d&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C7T-6H11-JCG7-822P-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr7&pditab=allpods&ecomp=hmnyk&earg=sr7&prid=004fcb85-8c53-42d3-b78f-a1691a9c5953",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4d36a7ac-caa6-4dfa-946d-054f914490c1&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C87-4RN1-JCG7-84WF-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=6eb2aeb4-9aa9-45a8-a605-506dab4f4a0c"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-ESP-45463",
+    "our_Trip_ID": "422",
+    "President": "Javier Milei",
+    "Destination_Country": "Spain",
+    "our_Start_Date": "2024-06-21",
+    "our_End_Date": "2024-06-21",
+    "colt_Start": "2024-06-20",
+    "colt_End": "2024-06-21",
+    "discrepancias": "TripStartDate: nuestro=2024-06-21 COLT=2024-06-20 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f764750e-2461-49ba-8ecb-92f21bc66056&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C9G-YHC1-JCG7-80R1-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=h6yyk&earg=sr4&prid=9375bc79-7321-4177-98f4-84282d9f948e",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=564d3875-a856-4690-8306-6e1e08435d71&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C99-0H61-DYY9-004B-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=h6yyk&earg=sr2&prid=9375bc79-7321-4177-98f4-84282d9f948e",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ca5fe312-843e-46a3-a23f-7a0cbc1eecc4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C9Y-D3S1-JCG7-83X2-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr5&pditab=allpods&ecomp=h6yyk&earg=sr5&prid=9375bc79-7321-4177-98f4-84282d9f948e"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-DEU-45465",
+    "our_Trip_ID": "423",
+    "President": "Javier Milei",
+    "Destination_Country": "Germany",
+    "our_Start_Date": "2024-06-22",
+    "our_End_Date": "2024-06-23",
+    "colt_Start": "2024-06-22",
+    "colt_End": "2024-06-24",
+    "discrepancias": "TripEndDate: nuestro=2024-06-23 COLT=2024-06-24 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ca5fe312-843e-46a3-a23f-7a0cbc1eecc4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C9Y-D3S1-JCG7-83X2-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr5&pditab=allpods&ecomp=h6yyk&earg=sr5&prid=9375bc79-7321-4177-98f4-84282d9f948e"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45484",
+    "our_Trip_ID": "425",
+    "President": "Javier Milei",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2024-07-12",
+    "our_End_Date": "2024-07-14",
+    "colt_Start": "2024-07-11",
+    "colt_End": "2024-07-14",
+    "discrepancias": "TripStartDate: nuestro=2024-07-12 COLT=2024-07-11 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=e5ab64b3-8487-43ad-ac0b-2b43633b8397&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CG0-BDP1-JCG7-81F3-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=ec596ac1-68c7-49b5-9ac2-b836ca16328b",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=392587bb-01fb-43d2-ac3f-d7689aa74c22&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CG0-BDP1-JCG7-82JV-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=hc-yk&earg=sr2&prid=2885c881-efdb-4ca2-9801-4e3d2f146b67",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=9b3e9600-69d4-4f82-badb-0de74066b240&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CGM-7N71-DYY9-01V8-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=hc-yk&earg=sr4&prid=2885c881-efdb-4ca2-9801-4e3d2f146b67"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-FRA-45497",
+    "our_Trip_ID": "426",
+    "President": "Javier Milei",
+    "Destination_Country": "France",
+    "our_Start_Date": "2024-07-25",
+    "our_End_Date": "2024-07-27",
+    "colt_Start": "2024-07-24",
+    "colt_End": "2024-07-27",
+    "discrepancias": "TripStartDate: nuestro=2024-07-25 COLT=2024-07-24 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=f75b6657-67fd-484a-8dfe-577948dcbbf3&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CJR-YJW1-JCG7-81SK-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=f01877a4-75eb-4457-913d-fe4250810a04",
+      "https://advance-lexis-com.du.idm.oclc.org/document/documentslider/?pdmfid=1519360&crid=1a97e0d2-33d0-4902-bdb2-55ab5ac907a9&pddocid=urn%3AcontentItem%3A6CK5-WY51-DYY9-00FW-00000-00&pddocumentnumber=2&pdactivecontenttype=urn%3Ahlct%3A16&pdsortkey=relevance%2CDescending&pdworkfolderid=&pdssubdataitemid=&pdupdateid=&pdalertresultid=&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CK5-WY51-DYY9-00FW-00000-00&pdcontentcomponentid=443607&pdcontentversion=&pdtrackchangesavailable=&action=linkdocslider&pddocumentsliderclickvalue=next&ecomp=g2x8k&prid=d24ac124-fa03-4ae2-b8cc-4bbc0addd041",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=172084c7-8059-47c7-85b5-5ba70560310e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CK5-WX51-DYY9-03T3-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr5&pditab=allpods&ecomp=hc-yk&earg=sr5&prid=fb2b0887-4877-40f2-b1ad-80fe308d85f8"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45556",
+    "our_Trip_ID": "428",
+    "President": "Javier Milei",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2024-09-21",
+    "our_End_Date": "2024-09-24",
+    "colt_Start": "2024-09-21",
+    "colt_End": "2024-09-25",
+    "discrepancias": "TripEndDate: nuestro=2024-09-24 COLT=2024-09-25 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=b4b6d44b-9d46-44c4-a516-1007b4cf51d3&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6D1B-R631-JCG7-838J-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=effe7a4e-5a80-4796-be9e-ac3c3d63dc53",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=64cdfd11-faa2-4de6-8ae4-1dcbc9c038e8&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6D0G-C4Y1-JCG7-81XJ-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=hc-yk&earg=sr4&prid=effe7a4e-5a80-4796-be9e-ac3c3d63dc53",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=cae1b908-e137-44f6-8309-86619524225a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6D0P-9Y21-DYY9-03J8-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=hc-yk&earg=sr3&prid=4f698f58-3d54-44ad-9784-97cdb0e4b1ac",
+      "https://www.batimes.com.ar/news/argentina/milei-meets-with-ursula-von-der-leyen-to-secure-relationship-between-european-union-and-mercosur.phtml"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45610",
+    "our_Trip_ID": "429",
+    "President": "Javier Milei",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2024-11-14",
+    "our_End_Date": "2024-11-15",
+    "colt_Start": "2024-11-14",
+    "colt_End": "2024-11-16",
+    "discrepancias": "TripEndDate: nuestro=2024-11-15 COLT=2024-11-16 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=d639b971-cb56-4b53-990a-e752207d4651&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6DDV-TTV1-JCG7-83H7-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=9e1d15aa-8c75-4461-b28b-9845c830dbde",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=1e8645cc-2ce4-426b-8694-8c0d5e67f46f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6DDV-TTV1-JCG7-831P-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=d6edf1ad-6dd4-4b08-aa8c-ba4f01dc0484",
+      "https://x.com/JMilei/status/1857247711491502589"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-ITA-45638",
+    "our_Trip_ID": "432",
+    "President": "Javier Milei",
+    "Destination_Country": "Italy",
+    "our_Start_Date": "2024-12-12",
+    "our_End_Date": "2024-12-14",
+    "colt_Start": "2024-12-12",
+    "colt_End": "2024-12-16",
+    "discrepancias": "TripEndDate: nuestro=2024-12-14 COLT=2024-12-16 (dif 2d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=e555e33a-ecf8-4714-820e-89f89742ef8f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6DMV-1651-JCG7-81BT-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=85765fbb-c302-4cac-a5ff-805c6bf90f26",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=cf83516f-0bed-4160-8824-4bb87b94af0b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6DN7-8DW1-JDJN-650G-00000-00&pdcontentcomponentid=344861&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=acd6fd60-3a9f-4813-98d4-e8e0c3f14c6b"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45674",
+    "our_Trip_ID": "433",
+    "President": "Javier Milei",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2025-01-20",
+    "our_End_Date": "2025-01-21",
+    "colt_Start": "2025-01-17",
+    "colt_End": "2025-01-21",
+    "discrepancias": "TripStartDate: nuestro=2025-01-20 COLT=2025-01-17 (dif 3d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=4e2217ac-1572-4929-bf88-96d50ccd7d7d&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6DXR-DP93-S210-51FJ-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=ab5fd721-da88-4392-b800-ca8633d64cc1",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=3fbec8f1-c2d2-4268-9587-c5c282a98faf&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6DXR-DP93-S210-52FX-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=ab5fd721-da88-4392-b800-ca8633d64cc1",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=6f741d0e-bf84-4d76-8431-0d56748ade3d&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6DXX-WRY3-RRPR-Y0RR-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=hc-yk&earg=sr2&prid=607cdb7b-0819-4bac-9ee1-5ddbfdf81363",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=0407a862-1227-4d6b-8b90-ad11572ba8cb&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6DWN-2Y13-RSB2-J43W-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr6&pditab=allpods&ecomp=hc-yk&earg=sr6&prid=7a8a5d61-240b-410b-a318-deebeb302ac9"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-CHE-45678",
+    "our_Trip_ID": "434",
+    "President": "Javier Milei",
+    "Destination_Country": "Switzerland",
+    "our_Start_Date": "2025-01-22",
+    "our_End_Date": "2025-01-23",
+    "colt_Start": "2025-01-21",
+    "colt_End": "2025-01-24",
+    "discrepancias": "TripStartDate: nuestro=2025-01-22 COLT=2025-01-21 (dif 1d); TripEndDate: nuestro=2025-01-23 COLT=2025-01-24 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=76ba4842-e474-4097-9a72-face57de447b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6DYB-VND3-RW9S-V3BH-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr12&pditab=allpods&ecomp=hc-yk&earg=sr12&prid=8d7ee971-2782-4210-ad79-57247179d42e",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=d9d5c99e-1828-45a4-b9ea-f10a3d7c5dbf&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6F07-6WG3-S6R8-S48C-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=a54b8977-619d-4fe5-b65e-a7e36012ef12"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45749",
+    "our_Trip_ID": "436",
+    "President": "Javier Milei",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2025-04-03",
+    "our_End_Date": "2025-04-03",
+    "colt_Start": "2025-04-02",
+    "colt_End": "2025-04-03",
+    "discrepancias": "TripStartDate: nuestro=2025-04-03 COLT=2025-04-02 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=86319c75-b851-4d13-930f-f999243141c4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6FGP-K2J3-RY8V-N33P-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=hc-yk&earg=sr3&prid=68970146-0737-40e5-9b95-da9a9c4593c2",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=aed40a4f-1618-4d75-be5d-6751e8a92f4c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6FGX-J773-RSH8-Y4XN-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=68970146-0737-40e5-9b95-da9a9c4593c2",
+      "https://x.com/OPRArgentina/status/1907988296443040030",
+      "https://x.com/ArgMilei/status/1908012441486889215",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=eef80b96-3d10-4c60-9bf5-48909c582941&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6FGX-J6Y3-RSB2-N2N4-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr6&pditab=allpods&ecomp=hc-yk&earg=sr6&prid=68970146-0737-40e5-9b95-da9a9c4593c2"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-VAT-45773",
+    "our_Trip_ID": "438",
+    "President": "Javier Milei",
+    "Destination_Country": "Vatican City",
+    "our_Start_Date": "2025-04-25",
+    "our_End_Date": "2025-04-26",
+    "colt_Start": "2025-04-26",
+    "colt_End": "2025-04-26",
+    "discrepancias": "TripStartDate: nuestro=2025-04-25 COLT=2025-04-26 (dif 1d)",
+    "colt_links": [
+      "https://x.com/OPRArgentina/status/1916039665821339782",
+      "https://apnews.com/article/pope-francis-funeral-photos-attendees-7ea5c6369b932c5f56c5747f5556a102",
+      "https://x.com/ArgMilei/status/1916172324585541731",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=9490fa9a-2d7b-4be2-942c-2692e7beac45&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6FNM-DB33-RYNP-N246-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr10&pditab=allpods&ecomp=hc-yk&earg=sr10&prid=817a268f-4c9e-445a-bd46-1cb04ce921a6"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-ITA-45772",
+    "our_Trip_ID": "439",
+    "President": "Javier Milei",
+    "Destination_Country": "Italy",
+    "our_Start_Date": "2025-04-26",
+    "our_End_Date": "2025-04-26",
+    "colt_Start": "2025-04-25",
+    "colt_End": "2025-04-27",
+    "discrepancias": "TripStartDate: nuestro=2025-04-26 COLT=2025-04-25 (dif 1d); TripEndDate: nuestro=2025-04-26 COLT=2025-04-27 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=dfb8f13f-492d-4d2e-9b01-0ee87861090e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6FNC-Y233-RV7H-D2Y1-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=a4ed6a38-0359-4285-b487-05529377a49b",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=004b2d60-913f-4017-b9d6-390b1da886a9&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6FNT-W4N3-RS0B-J2MN-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr7&pditab=allpods&ecomp=hc-yk&earg=sr7&prid=a4ed6a38-0359-4285-b487-05529377a49b",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=9490fa9a-2d7b-4be2-942c-2692e7beac45&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6FNM-DB33-RYNP-N246-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr10&pditab=allpods&ecomp=hc-yk&earg=sr10&prid=817a268f-4c9e-445a-bd46-1cb04ce921a6"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-ESP-45816",
+    "our_Trip_ID": "442",
+    "President": "Javier Milei",
+    "Destination_Country": "Spain",
+    "our_Start_Date": "2025-06-07",
+    "our_End_Date": "2025-06-08",
+    "colt_Start": "2025-06-08",
+    "colt_End": "2025-06-08",
+    "discrepancias": "TripStartDate: nuestro=2025-06-07 COLT=2025-06-08 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=948adf05-6208-426e-b086-4b52b3f401f9&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6G0B-PTF3-RS54-60JG-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=hc-yk&earg=sr2&prid=bceb515e-8fec-475d-baf5-deec94430ea7",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=d3abd302-04ee-45db-ba94-edea1bcd6e87&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6G0K-63V3-RRN8-7047-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr6&pditab=allpods&ecomp=hc-yk&earg=sr6&prid=61011cb6-80ed-4062-8b49-0d0ae97b82a5",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=efba4ba8-c47f-483a-aaed-79f56ab1913c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6G10-M8P3-RS1C-D4N9-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=a628516a-3fd9-4383-88f0-4d0ee8df741a",
+      "https://x.com/OPRArgentina/status/1931843426862993800",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=8a67116a-dcd4-477f-a782-52141a3960de&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6G0K-63T3-SK5J-73PC-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr25&pditab=allpods&ecomp=hc-yk&earg=sr25&prid=db9d4054-629d-435b-b1b7-de62905b93df"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-ISR-45817",
+    "our_Trip_ID": "443",
+    "President": "Javier Milei",
+    "Destination_Country": "Israel",
+    "our_Start_Date": "2025-06-09",
+    "our_End_Date": "2025-06-12",
+    "colt_Start": "2025-06-09",
+    "colt_End": "2025-06-11",
+    "discrepancias": "TripEndDate: nuestro=2025-06-12 COLT=2025-06-11 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=948adf05-6208-426e-b086-4b52b3f401f9&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6G0B-PTF3-RS54-60JG-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=hc-yk&earg=sr2&prid=bceb515e-8fec-475d-baf5-deec94430ea7",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=d2a698cb-cb10-4cd0-a327-0bec224fa41d&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6G12-37G3-RY3M-Y14C-00000-00&pdcontentcomponentid=10903&pdteaserkey=sr6&pditab=allpods&ecomp=hc-yk&earg=sr6&prid=88fdc71f-ba73-4c54-a2bd-d91e1adc6ac6",
+      "https://x.com/OPRArgentina/status/1932461132008067513",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=e32977e4-3cb0-44af-bd26-5ed8efa95236&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6G16-KMM3-RXT0-V0DW-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr25&pditab=allpods&ecomp=hc-yk&earg=sr25&prid=cd8980c1-33cf-4b6c-a038-b01d615068f0",
+      "https://x.com/OPRArgentina/status/1932763398858535204",
+      "https://x.com/OPRArgentina/status/1932860672166990131"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45903",
+    "our_Trip_ID": "446",
+    "President": "Javier Milei",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2025-09-03",
+    "our_End_Date": "2025-09-05",
+    "colt_Start": "2025-09-03",
+    "colt_End": "2025-09-06",
+    "discrepancias": "TripEndDate: nuestro=2025-09-05 COLT=2025-09-06 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=39e9eece-31d8-4502-a348-355b1dc3e1bf&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6GNB-4G83-RTX7-G1JM-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=7aea0984-8faa-4b60-9d89-f1906b3b820f",
+      "https://www.instagram.com/p/DOM_KKojUdE/?img_index=1",
+      "https://en.mercopress.com/2025/09/05/milei-holds-meetings-in-los-angeles"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45922",
+    "our_Trip_ID": "448",
+    "President": "Javier Milei",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2025-09-23",
+    "our_End_Date": "2025-09-24",
+    "colt_Start": "2025-09-22",
+    "colt_End": "2025-09-26",
+    "discrepancias": "TripStartDate: nuestro=2025-09-23 COLT=2025-09-22 (dif 1d); TripEndDate: nuestro=2025-09-24 COLT=2025-09-26 (dif 2d)",
+    "colt_links": [
+      "https://www.atlanticcouncil.org/news/transcripts/full-transcript-the-2025-atlantic-council-global-citizen-awards-recognize-three-of-the-worlds-most-influential-leaders/",
+      "https://gadebate.un.org/en/80/argentina",
+      "https://www.gettyimages.com/detail/news-photo/president-donald-trump-shakes-hands-with-president-of-news-photo/2236949142?adppopup=true",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=6f0dc020-f052-4ace-99b3-279c55add4bb&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6GTC-JM93-RV0P-51C2-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=hc-yk&earg=sr4&prid=ead8574e-07fa-4057-b204-693c528afe6b",
+      "https://www.instagram.com/p/DPASEb8iBcF/"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45943",
+    "our_Trip_ID": "449",
+    "President": "Javier Milei",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2025-10-14",
+    "our_End_Date": "2025-10-14",
+    "colt_Start": "2025-10-13",
+    "colt_End": "2025-10-14",
+    "discrepancias": "TripStartDate: nuestro=2025-10-14 COLT=2025-10-13 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=5256d991-4871-4099-a5e6-c119561c6ea2&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6GYV-YGJ3-RRX4-H0J5-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr71&pditab=allpods&ecomp=hc-yk&earg=sr71&prid=2afcc200-d34a-4c9e-a544-3496fcf2aa26",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=3120ada3-8dca-4cdd-8887-4e56ce10403d&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6H02-Y033-RS2F-F21T-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=hc-yk&earg=sr4&prid=d064a340-7bf3-4b5b-8504-f5ee9fcc639a"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45967",
+    "our_Trip_ID": "450",
+    "President": "Javier Milei",
+    "Destination_Country": "United States",
+    "our_Start_Date": "2025-11-05",
+    "our_End_Date": "2025-11-07",
+    "colt_Start": "2025-11-06",
+    "colt_End": "2025-11-07",
+    "discrepancias": "TripStartDate: nuestro=2025-11-05 COLT=2025-11-06 (dif 1d)",
+    "colt_links": [
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=fadfaa32-e9f1-4f80-a5eb-ee509065c88c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6H4S-FCC3-RYGP-P4JV-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=a6ccac05-e7b7-4fed-b0f9-65e53ca35c52",
+      "https://en.mercopress.com/2025/11/08/milei-promotes-argentina-s-business-climate-at-ny-event",
+      "https://www.batimes.com.ar/news/argentina/milei-were-going-to-make-argentina-and-america-great-again.phtml",
+      "https://www.cpac.org/post/the-global-resurgence-of-conservatism-argentine-president-javier-milei-at-the-cpac-retreat-gala"
+    ]
+  },
+  {
+    "colt_TripID": "4053-ARG-NOR-46000",
+    "our_Trip_ID": "452",
+    "President": "Javier Milei",
+    "Destination_Country": "Norway",
+    "our_Start_Date": "2025-12-09",
+    "our_End_Date": "2025-12-11",
+    "colt_Start": "2025-12-09",
+    "colt_End": "2025-12-10",
+    "discrepancias": "TripEndDate: nuestro=2025-12-11 COLT=2025-12-10 (dif 1d)",
+    "colt_links": [
+      "https://www.batimes.com.ar/news/argentina/milei-to-attend-machados-nobel-peace-prize-ceremony-in-oslo.phtml",
+      "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=c90d23c0-4ee4-4d27-9aaa-c55b830d57ca&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6HDF-CY53-S9R6-P3VY-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr8&pditab=allpods&ecomp=hc-yk&earg=sr8&prid=12c4777c-cfb3-4f9e-b4d1-3f2732c0159e"
+    ]
+  }
+]

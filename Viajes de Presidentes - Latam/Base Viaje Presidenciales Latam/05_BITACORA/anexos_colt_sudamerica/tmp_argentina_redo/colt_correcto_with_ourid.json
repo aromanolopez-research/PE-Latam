@@ -1,0 +1,232 @@
+[
+  {
+    "colt_TripID": "1473-ARG-DEU-36681",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate;TripEndDate",
+    "valor_colt_original": "2000-06-04;2000-06-05",
+    "valor_propuesto": "2000-06-04;2000-06-05",
+    "fuente": "https://www.wsws.org/en/articles/2000/06/3way-j08.html ; https://www.lanacion.com.ar/politica/respaldo-de-clinton-a-de-la-rua-por-el-ajuste-nid20389/",
+    "justificacion": "La cumbre 'Progressive Governance in the 21st Century' en Berlín, a la que Clinton confirmó (en entrevista con La Nación) haber conversado con de la Rúa, se realizó el 5 de junio de 2000 (fuente WSWS, con Fernando de la Rúa nombrado explícitamente entre los invitados junto a Cardoso y Lagos). Nuestra fecha (2-3 de junio) no coincide con el día real del evento; la fecha de COLT (4-5 de junio) sí es consistente con una llegada el día previo y la participación el día de la cumbre.",
+    "our_Trip_ID": "85"
+  },
+  {
+    "colt_TripID": "1826-ARG-USA-37824",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate",
+    "valor_colt_original": "2003-07-22",
+    "valor_propuesto": "2003-07-22",
+    "fuente": "El Dia 23-jul-2003; El Cuco Digital",
+    "justificacion": "Kirchner llego a Washington la noche del 22/7/2003, reunion con Bush el 23/7.",
+    "our_Trip_ID": "128"
+  },
+  {
+    "colt_TripID": "1826-ARG-CHN-38166",
+    "veredicto": "COLT_correcto",
+    "campo": "TripEndDate",
+    "valor_colt_original": "2004-07-02",
+    "valor_propuesto": "2004-07-02",
+    "fuente": "Cancilleria Argentina; MFA China",
+    "justificacion": "Visita de Estado a China fue 28 junio-2 julio 2004 segun fuentes oficiales de ambos paises.",
+    "our_Trip_ID": "136"
+  },
+  {
+    "colt_TripID": "1826-ARG-BRA-38338",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate;TripEndDate",
+    "valor_colt_original": "2004-12-17;2004-12-18",
+    "valor_propuesto": "2004-12-17;2004-12-18",
+    "fuente": "Agrositio",
+    "justificacion": "Cumbre Mercosur en Ouro Preto (duras criticas de Kirchner) se realizo el 18/12/2004.",
+    "our_Trip_ID": "142"
+  },
+  {
+    "colt_TripID": "1826-ARG-URY-38412",
+    "veredicto": "COLT_correcto",
+    "campo": "TripEndDate",
+    "valor_colt_original": "2005-03-02",
+    "valor_propuesto": "2005-03-02",
+    "fuente": "Infobae",
+    "justificacion": "Asuncion de Tabare Vazquez 1/3/2005; firma de acuerdo bilateral de DDHH estaba prevista para el dia siguiente (2/3), indicando permanencia de Kirchner hasta esa fecha.",
+    "our_Trip_ID": "144"
+  },
+  {
+    "colt_TripID": "2320-ARG-URY-39433",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate",
+    "valor_colt_original": "2007-12-17",
+    "valor_propuesto": "2007-12-17",
+    "fuente": "Prensa (recopilacion viajes CFK)",
+    "justificacion": "El primer viaje de CFK como presidenta fue el 17/12/2007 a la cumbre del Mercosur en Uruguay, siete dias despues de asumir; coincide con COLT.",
+    "our_Trip_ID": "173"
+  },
+  {
+    "colt_TripID": "2320-ARG-PRY-39674",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate",
+    "valor_colt_original": "2008-08-14",
+    "valor_propuesto": "2008-08-14",
+    "fuente": "Infobae; patron de viajes a asunciones presidenciales en Paraguay (confirmado para Cartes 2013)",
+    "justificacion": "Fernando Lugo asumio el 15/8/2008; por el patron observado en visitas similares (ej. asuncion de Cartes 2013, donde CFK llego la noche anterior), es probable que Kirchner tambien haya llegado el dia previo (14/8).",
+    "our_Trip_ID": "183"
+  },
+  {
+    "colt_TripID": "2320-ARG-USA-40077",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate;TripEndDate",
+    "valor_colt_original": "2009-09-21;2009-09-25",
+    "valor_propuesto": "2009-09-21;2009-09-25",
+    "fuente": "CFKArgentina; prensa (discurso 23/9/2009)",
+    "justificacion": "Nuestra base parece tener el mismo viaje partido en dos registros (23/9 y 24-25/9). El discurso de CFK ante la 64 Asamblea General de la ONU fue el 23/9/2009; el rango completo de COLT (21-25/9) es mas consistente con una semana de Asamblea General que incluye llegada previa y actividades posteriores al discurso. [our_Trip_ID=209]",
+    "our_Trip_ID": "210"
+  },
+  {
+    "colt_TripID": "2320-ARG-USA-40077",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate;TripEndDate",
+    "valor_colt_original": "2009-09-21;2009-09-25",
+    "valor_propuesto": "2009-09-21;2009-09-25",
+    "fuente": "CFKArgentina; prensa (discurso 23/9/2009)",
+    "justificacion": "Nuestra base parece tener el mismo viaje partido en dos registros (23/9 y 24-25/9). El discurso de CFK ante la 64 Asamblea General de la ONU fue el 23/9/2009; el rango completo de COLT (21-25/9) es mas consistente con una semana de Asamblea General que incluye llegada previa y actividades posteriores al discurso. [our_Trip_ID=210]",
+    "our_Trip_ID": "210"
+  },
+  {
+    "colt_TripID": "2320-ARG-PRY-41500",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate",
+    "valor_colt_original": "2013-08-14",
+    "valor_propuesto": "2013-08-14",
+    "fuente": "ABC Color 'Llego Cristina Fernandez'",
+    "justificacion": "CFK arribo al aeropuerto Silvio Pettirossi de Asuncion el 14/8/2013 a las 20:30, vispera de la asuncion de Horacio Cartes (15/8).",
+    "our_Trip_ID": "273"
+  },
+  {
+    "colt_TripID": "2320-ARG-CHL-41708",
+    "veredicto": "COLT_correcto",
+    "campo": "TripEndDate",
+    "valor_colt_original": "2014-03-11",
+    "valor_propuesto": "2014-03-11",
+    "fuente": "Asuncion de Michelle Bachelet",
+    "justificacion": "La asuncion de Michelle Bachelet como presidenta de Chile fue el 11 de marzo de 2014; la fecha de COLT incluye el dia real del evento, mientras la nuestra (10/3) lo excluye.",
+    "our_Trip_ID": "278"
+  },
+  {
+    "colt_TripID": "3169-ARG-ITA-42427",
+    "veredicto": "COLT_correcto",
+    "campo": "TripEndDate",
+    "valor_colt_original": "2016-02-28",
+    "valor_propuesto": "2016-02-28",
+    "fuente": "El Cronista, El Intransigente, Infobae (27/2/2016)",
+    "justificacion": "Macri se reunio con el PM Renzi y el presidente Mattarella en Italia el 27/2 tras la audiencia papal, y regreso a Buenos Aires el domingo 28/2/2016 (varias fuentes coinciden). Nuestra fecha de fin (27) no contempla el dia de regreso.",
+    "our_Trip_ID": "301"
+  },
+  {
+    "colt_TripID": "3169-ARG-COL-42535",
+    "our_Trip_ID": "304",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate",
+    "valor_colt_original": "2016-06-14",
+    "valor_propuesto": "2016-06-14",
+    "fuente": "Cancilleria de Colombia (comunicado); Infobae 14/6/2016",
+    "justificacion": "Macri llego a Bogota la noche del martes 14/6/2016 (aeropuerto Catam), un dia antes de la Visita de Estado formal del 15/6. COLT capta correctamente la llegada; nuestra base la omite."
+  },
+  {
+    "colt_TripID": "3169-ARG-VAT-42658",
+    "veredicto": "COLT_correcto",
+    "campo": "TripEndDate",
+    "valor_colt_original": "2016-10-16",
+    "valor_propuesto": "2016-10-16",
+    "fuente": "Infobae (14 y 16/10/2016); La Nacion",
+    "justificacion": "Macri llego a Roma el 14/10 (dia libre), la audiencia con el Papa fue el sabado 15/10/2016, y las notas de prensa sobre su regreso a la Argentina estan fechadas 16/10, lo que sugiere que el regreso ocurrio ese dia. Nuestra fecha de fin (15) no contempla el dia de regreso.",
+    "our_Trip_ID": "316"
+  },
+  {
+    "colt_TripID": "3169-ARG-USA-43367",
+    "veredicto": "COLT_correcto",
+    "campo": "TripEndDate",
+    "valor_colt_original": "2018-09-26",
+    "valor_propuesto": "2018-09-26",
+    "fuente": "Infobae (22-24/9/2018), Diario de Cuyo (27/9/2018)",
+    "justificacion": "El anuncio del nuevo acuerdo con el FMI (reunion con Lagarde) se dio en el marco del viaje a la ONU en Nueva York, con la conferencia de prensa en Casa Rosada reportada el 27/9, lo que sugiere que la agenda en EEUU se extendio hasta el 26/9 y no concluyo el 25/9 como registra nuestra base.",
+    "our_Trip_ID": "338"
+  },
+  {
+    "colt_TripID": "3670-ARG-USA-45185",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate",
+    "valor_colt_original": "2023-09-16",
+    "valor_propuesto": "2023-09-16",
+    "fuente": "Diario de Cuyo, Puntal (16/9/2023): \"Alberto Fernandez dejo Cuba y se dirige a Nueva York\"",
+    "justificacion": "Fernandez partio de Cuba rumbo a Nueva York el 16/9/2023 (confirmado por multiples medios fechados ese dia), dando su ultimo discurso ante la Asamblea General de la ONU el martes 19/9. Nuestra fecha de inicio (18) no contempla la llegada real a Nueva York.",
+    "our_Trip_ID": "405"
+  },
+  {
+    "colt_TripID": "4053-ARG-ISR-45328",
+    "veredicto": "COLT_correcto",
+    "campo": "TripEndDate",
+    "valor_colt_original": "2024-02-09",
+    "valor_propuesto": "2024-02-09",
+    "fuente": "Infobae, Ambito, Radio JAI (febrero 2024)",
+    "justificacion": "Milei realizo una 'gira oficial de tres dias' en Israel (6, 7 y 8 de febrero: Muro de los Lamentos, Netanyahu, y el 8/2 kibutz Nir Oz/Yad Vashem/Herzog), viajando a Roma el 9/2/2024. La fecha de fin de COLT (9/2) coincide con el dia de partida hacia Italia; nuestra fecha de fin (8/2) no contempla ese ultimo dia en el pais.",
+    "our_Trip_ID": "410"
+  },
+  {
+    "colt_TripID": "4053-ARG-ITA-45334",
+    "veredicto": "COLT_correcto",
+    "campo": "TripEndDate",
+    "valor_colt_original": "2024-02-13",
+    "valor_propuesto": "2024-02-13",
+    "fuente": "LA NACION, ACI Prensa, France24, Emol (12-13/2/2024)",
+    "justificacion": "La audiencia privada con el Papa Francisco fue el lunes 12/2/2024 (tras la canonizacion de Mama Antula el 11/2), y la prensa confirma que Milei 'regreso' a la Argentina el martes 13/2/2024, cerrando la gira Israel-Italia-Vaticano iniciada el 5/2. La fecha de fin de COLT (13/2) tiene sustento; la nuestra (12/2) no contempla el dia de regreso.",
+    "our_Trip_ID": "412"
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45391",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate;TripEndDate",
+    "valor_colt_original": "2024-04-09;2024-04-12",
+    "valor_propuesto": "2024-04-09;2024-04-12",
+    "fuente": "Infobae, LA NACION, El Financiero (abril 2024)",
+    "justificacion": "Milei partio de Ezeiza el martes 9/4/2024 a las 22:40, con agenda en Miami el 10-11/4 (distincion de la comunidad judia, disertacion en FIU) y la reunion con Elon Musk en la planta de Tesla en Austin el 12/4. El rango de COLT (9-12/4) cubre correctamente todo el viaje; nuestra base solo registra el ultimo dia (Austin), omitiendo los dias en Miami.",
+    "our_Trip_ID": "414"
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45439",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate;TripEndDate",
+    "valor_colt_original": "2024-05-27;2024-05-31",
+    "valor_propuesto": "2024-05-27;2024-05-31",
+    "fuente": "CNN en Espanol, Vision360, El Litoral, Chequeado (\"viaje de 6 dias a San Francisco... del 27 de mayo al 2 de junio\")",
+    "justificacion": "Milei realizo un viaje de EEUU (San Francisco) a El Salvador del 27/5 al 2/6/2024: reunion con Sam Altman (28/5), discurso en Stanford/Hoover Institution y reuniones con Google/Apple/Meta (29/5), reunion con Elon Musk (30/5), partiendo a El Salvador el 31/5 para la asuncion de Bukele. El rango de COLT (27-31/5) coincide con la estadia real en EEUU; nuestra base (28-30) omite los extremos.",
+    "our_Trip_ID": "417"
+  },
+  {
+    "colt_TripID": "4053-ARG-USA-45484",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate",
+    "valor_colt_original": "2024-07-11",
+    "valor_propuesto": "2024-07-11",
+    "fuente": "Perfil, LA NACION, BAE Negocios (conferencia Allen & Co. Sun Valley)",
+    "justificacion": "Milei asistio a la conferencia Allen & Company en Sun Valley del 11 al 14 de julio de 2024. Nuestra fecha de inicio (12/7) omite el primer dia.",
+    "our_Trip_ID": "425"
+  },
+  {
+    "colt_TripID": "4053-ARG-FRA-45497",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate",
+    "valor_colt_original": "2024-07-24",
+    "valor_propuesto": "2024-07-24",
+    "fuente": "El Cronista, Filo News, Infobae (julio 2024)",
+    "justificacion": "Milei viajo a Paris el miercoles 24/7/2024 y permanecio hasta el sabado 27/7 (regreso), con la reunion con Macron y la apertura de los Juegos Olimpicos el viernes 26/7. Nuestra fecha de inicio (25/7) omite el dia de llegada (24/7).",
+    "our_Trip_ID": "426"
+  },
+  {
+    "colt_TripID": "4053-ARG-CHE-45678",
+    "veredicto": "COLT_correcto",
+    "campo": "TripStartDate;TripEndDate",
+    "valor_colt_original": "2025-01-21;2025-01-24",
+    "valor_propuesto": "2025-01-21;2025-01-24",
+    "fuente": "Infobae (22/1/2025): \"Que es el Foro de Davos y a que hora dara su discurso Javier Milei\"",
+    "justificacion": "Confirmado: Milei dio su discurso en Davos el jueves 23/1/2025 a las 10:15 (Suiza), y el viernes 24/1/2025 recibio el Premio Ropke en Kloten, 'antes de regresar a Buenos Aires con una breve escala en Brasil'. El rango de COLT (21-24/1) tiene sustento directo en la fecha de cierre (24/1); nuestra fecha de fin (23/1) no contempla el dia del Premio Ropke.",
+    "our_Trip_ID": "434"
+  }
+]

@@ -1,0 +1,1474 @@
+{
+ "discrepancias": [
+  {
+   "colt_TripID": "1516-CHL-CAN-37000",
+   "our_Trip_ID": "5",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Canada",
+   "our_Start_Date": "2001-04-20",
+   "our_End_Date": "2001-04-22",
+   "colt_Start": "2001-04-19",
+   "colt_End": "2001-04-22",
+   "discrepancias": "TripStartDate: nuestro=2001-04-20 COLT=2001-04-19 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/240448651?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/889990631?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1125509740?accountid=14608",
+    "ttp://du.idm.oclc.org/login?url=http://search.proquest.com/docview/368322726?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/412737007?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-ESP-37046",
+   "our_Trip_ID": "6",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2001-06-03",
+   "our_End_Date": "2001-06-06",
+   "colt_Start": "2001-06-04",
+   "colt_End": "2001-06-06",
+   "discrepancias": "TripStartDate: nuestro=2001-06-03 COLT=2001-06-04 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452514816?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452215439?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452230359?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453741734?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453736529?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-PER-37100",
+   "our_Trip_ID": "8",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Peru",
+   "our_Start_Date": "2001-07-27",
+   "our_End_Date": "2001-07-31",
+   "colt_Start": "2001-07-28",
+   "colt_End": "2001-07-31",
+   "discrepancias": "TripStartDate: nuestro=2001-07-27 COLT=2001-07-28 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/391198005?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/419355549?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/248999275?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453706412?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-ESP-37392",
+   "our_Trip_ID": "13",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2002-05-16",
+   "our_End_Date": "2002-05-17",
+   "colt_Start": "2002-05-16",
+   "colt_End": "2002-05-18",
+   "discrepancias": "TripEndDate: nuestro=2002-05-17 COLT=2002-05-18 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1084DBF7883AC776?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0F3B2B6E1E6602C6?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0FC4BC48A8A6906E?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/432077960?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/224034322?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-MEX-37555",
+   "our_Trip_ID": "15",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Mexico",
+   "our_Start_Date": "2002-10-26",
+   "our_End_Date": "2002-10-27",
+   "colt_Start": "2002-10-26",
+   "colt_End": "2002-10-28",
+   "discrepancias": "TripEndDate: nuestro=2002-10-27 COLT=2002-10-28 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/285847497?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453366069?accountid=14608",
+    "http://www.lexisnexis.com/lnacui2api/api/version1/getDocCui?lni=473F-4SP0-007K-G44H&csi=158208&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/307028935?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/337879429?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-THA-37912",
+   "our_Trip_ID": "18",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Thailand",
+   "our_Start_Date": "2003-10-20",
+   "our_End_Date": "2003-10-21",
+   "colt_Start": "2003-10-18",
+   "colt_End": "2003-10-21",
+   "discrepancias": "TripStartDate: nuestro=2003-10-20 COLT=2003-10-18 (dif 2d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0FE563845C0C7892?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0FF42C5F29EDF62C?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/456378716?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453115675?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-MEX-37997",
+   "our_Trip_ID": "20",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Mexico",
+   "our_Start_Date": "2004-01-12",
+   "our_End_Date": "2004-01-13",
+   "colt_Start": "2004-01-11",
+   "colt_End": "2004-01-13",
+   "discrepancias": "TripStartDate: nuestro=2004-01-12 COLT=2004-01-11 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460212282?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/146985A9D390B678?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14F1B1F4892BEA68?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1000FE6DB5E85103?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-URY-38411",
+   "our_Trip_ID": "25",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Uruguay",
+   "our_Start_Date": "2005-03-01",
+   "our_End_Date": "2005-03-01",
+   "colt_Start": "2005-02-28",
+   "colt_End": "2005-03-01",
+   "discrepancias": "TripStartDate: nuestro=2005-03-01 COLT=2005-02-28 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f65364fb-f69d-4178-9cc2-091b465a86f7&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4FKP-8XN0-TWS7-F3D9-00000-00&pdcontentcomponentid=279495&pdteaserkey=sr8&pditab=allpods&ecomp=zznyk&earg=sr8&prid=ba0b9f53-8b8b-4e72-bbde-c2aa6664c056",
+    "https://www.proquest.com/central/docview/460191050/24A30B55FE2C480BPQ/7?accountid=14608&parentSessionId=dsL8IKEjLEdzrdFNJ%2BO0oB%2FJAD1vFDTkYApjv4dDsEY%3D",
+    "https://www.apimages.com/metadata/Index/Associated-Press-International-News-Uruguay-URU-/9702df12d8e4da11af9f0014c2589dfb/3/0",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=fb2c30c6-4ed6-4ed0-a093-83c4226833a7&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4FKR-2MJ0-TWMB-136K-00000-00&pdcontentcomponentid=259320&pdteaserkey=sr2&pditab=allpods&ecomp=zznyk&earg=sr2&prid=ba0b9f53-8b8b-4e72-bbde-c2aa6664c056",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f3766876-667b-411b-bf7d-1455738ace45&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4FKN-Y670-TWMD-42SR-00000-00&pdcontentcomponentid=241709&pdteaserkey=sr38&pditab=allpods&ecomp=zznyk&earg=sr38&prid=a2cd6fac-d9e4-44fb-b71c-fbcf4944ec11",
+    "https://www.apimages.com/metadata/Index/Associated-Press-International-News-Uruguay-V-C-/fff939bbbee4da11af9f0014c2589dfb/5/0"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-ESP-38637",
+   "our_Trip_ID": "26",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2005-10-14",
+   "our_End_Date": "2005-10-15",
+   "colt_Start": "2005-10-12",
+   "colt_End": "2005-10-15",
+   "discrepancias": "TripStartDate: nuestro=2005-10-14 COLT=2005-10-12 (dif 2d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10D196341DB05398?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10D38C5BAD3EBF98?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11D80BD29DDB18D0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11D80BD323DA4C88?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-KOR-38674",
+   "our_Trip_ID": "28",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "South Korea",
+   "our_Start_Date": "2005-11-18",
+   "our_End_Date": "2005-11-19",
+   "colt_Start": "2005-11-18",
+   "colt_End": "2005-11-20",
+   "discrepancias": "TripEndDate: nuestro=2005-11-19 COLT=2005-11-20 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14A534BF247B0510?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10DF71848A995160?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10E0BB28A758DC58?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10DFC5DC84242A58?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-PRT-37144",
+   "our_Trip_ID": "190",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Portugal",
+   "our_Start_Date": "2001-09-09",
+   "our_End_Date": "2001-09-11",
+   "colt_Start": "2001-09-10",
+   "colt_End": "2001-09-11",
+   "discrepancias": "TripStartDate: nuestro=2001-09-09 COLT=2001-09-10 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453668291?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/451964618?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453663123?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/451964618?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-DEU-36678",
+   "our_Trip_ID": "196",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Germany",
+   "our_Start_Date": "2000-06-02",
+   "our_End_Date": "2000-06-03",
+   "colt_Start": "2000-06-01",
+   "colt_End": "2000-06-03",
+   "discrepancias": "TripStartDate: nuestro=2000-06-02 COLT=2000-06-01 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/449855288?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/209874942?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/454038502?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-NZL-36842",
+   "our_Trip_ID": "201",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "New Zealand",
+   "our_Start_Date": "2000-11-12",
+   "our_End_Date": "2000-11-12",
+   "colt_Start": "2000-11-12",
+   "colt_End": "2000-11-13",
+   "discrepancias": "TripEndDate: nuestro=2000-11-12 COLT=2000-11-13 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453900130?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/449855288?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/450049259?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453002768?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-IDN-36842",
+   "our_Trip_ID": "202",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Indonesia",
+   "our_Start_Date": "2000-11-13",
+   "our_End_Date": "2000-11-13",
+   "colt_Start": "2000-11-12",
+   "colt_End": "2000-11-14",
+   "discrepancias": "TripStartDate: nuestro=2000-11-13 COLT=2000-11-12 (dif 1d) | TripEndDate: nuestro=2000-11-13 COLT=2000-11-14 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453900130?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/288287187?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453904570?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-TLS-36844",
+   "our_Trip_ID": "203",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Timor Leste",
+   "our_Start_Date": "2000-11-14",
+   "our_End_Date": "2000-11-14",
+   "colt_Start": "2000-11-14",
+   "colt_End": "2000-11-15",
+   "discrepancias": "TripEndDate: nuestro=2000-11-14 COLT=2000-11-15 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453900130?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453904570?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453945506?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/315418412?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-MEX-36858",
+   "our_Trip_ID": "205",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Mexico",
+   "our_Start_Date": "2000-11-30",
+   "our_End_Date": "2000-12-05",
+   "colt_Start": "2000-11-28",
+   "colt_End": "2000-12-04",
+   "discrepancias": "TripStartDate: nuestro=2000-11-30 COLT=2000-11-28 (dif 2d) | TripEndDate: nuestro=2000-12-05 COLT=2000-12-04 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/368366310?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/310523246?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/315942383?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453881694?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-DOM-37003",
+   "our_Trip_ID": "209",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Dominican Republic",
+   "our_Start_Date": "2001-04-22",
+   "our_End_Date": "2001-04-23",
+   "colt_Start": "2001-04-22",
+   "colt_End": "2001-04-24",
+   "discrepancias": "TripEndDate: nuestro=2001-04-23 COLT=2001-04-24 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453779543?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453764446?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-CHN-37185",
+   "our_Trip_ID": "212",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "China",
+   "our_Start_Date": "2001-10-19",
+   "our_End_Date": "2001-10-21",
+   "colt_Start": "2001-10-21",
+   "colt_End": "2001-10-24",
+   "discrepancias": "TripStartDate: nuestro=2001-10-19 COLT=2001-10-21 (dif 2d) | TripEndDate: nuestro=2001-10-21 COLT=2001-10-24 (dif 3d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/449975190?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452184577?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/281472740?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452211996?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452520507?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-CHN-37185",
+   "our_Trip_ID": "213",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "China",
+   "our_Start_Date": "2001-10-22",
+   "our_End_Date": "2001-10-24",
+   "colt_Start": "2001-10-21",
+   "colt_End": "2001-10-24",
+   "discrepancias": "TripStartDate: nuestro=2001-10-22 COLT=2001-10-21 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/449975190?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452184577?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/281472740?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452211996?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452520507?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-USA-37205",
+   "our_Trip_ID": "214",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2001-11-08",
+   "our_End_Date": "2001-11-11",
+   "colt_Start": "2001-11-10",
+   "colt_End": "2001-11-11",
+   "discrepancias": "TripStartDate: nuestro=2001-11-08 COLT=2001-11-10 (dif 2d)",
+   "colt_links": [
+    "https://wnc-eastview-com.du.idm.oclc.org/wnc/article?id=36550366",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=40988f91-62f0-4ca0-a8a2-a00600b76d40&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A44DP-6KT0-00RC-91DT-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr1&pditab=allpods&ecomp=zznyk&earg=sr1&prid=34e8efb9-cc0a-4086-83ac-8fc8a43d2bfe",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=83bbacf9-fcfb-49a5-be41-7bb4f5b08fc5&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A44DG-7NC0-00RC-9154-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr0&pditab=allpods&ecomp=zznyk&earg=sr0&prid=34e8efb9-cc0a-4086-83ac-8fc8a43d2bfe"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-ARG-37305",
+   "our_Trip_ID": "216",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2002-02-18",
+   "our_End_Date": "2002-02-18",
+   "colt_Start": "2002-02-18",
+   "colt_End": "2002-02-19",
+   "discrepancias": "TripEndDate: nuestro=2002-02-18 COLT=2002-02-19 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453566481?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453543642?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/457576845?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-SWE-37308",
+   "our_Trip_ID": "217",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Sweden",
+   "our_Start_Date": "2002-02-21",
+   "our_End_Date": "2002-02-23",
+   "colt_Start": "2002-02-21",
+   "colt_End": "2002-02-22",
+   "discrepancias": "TripEndDate: nuestro=2002-02-23 COLT=2002-02-22 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452616763?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452219139?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452928924?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12E646D3423A34A8?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-FIN-37312",
+   "our_Trip_ID": "218",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Finland",
+   "our_Start_Date": "2002-02-24",
+   "our_End_Date": "2002-02-26",
+   "colt_Start": "2002-02-25",
+   "colt_End": "2002-02-26",
+   "discrepancias": "TripStartDate: nuestro=2002-02-24 COLT=2002-02-25 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452546278?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452923172?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-BOL-37382",
+   "our_Trip_ID": "221",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Bolivia",
+   "our_Start_Date": "2002-05-06",
+   "our_End_Date": "2002-05-06",
+   "colt_Start": "2002-05-06",
+   "colt_End": "2002-05-07",
+   "discrepancias": "TripEndDate: nuestro=2002-05-06 COLT=2002-05-07 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10A038F65DC4AA13?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1555AC3231C4DC28?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452211154?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-VAT-37392",
+   "our_Trip_ID": "222",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Holy See",
+   "our_Start_Date": "2002-05-15",
+   "our_End_Date": "2002-05-16",
+   "colt_Start": "2002-05-16",
+   "colt_End": "2002-05-17",
+   "discrepancias": "TripStartDate: nuestro=2002-05-15 COLT=2002-05-16 (dif 1d) | TripEndDate: nuestro=2002-05-16 COLT=2002-05-17 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/457568338?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/451803882?accountid=14608",
+    "https://zenit.org/articles/john-paul-ii-receives-chilean-president/"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-ECU-37462",
+   "our_Trip_ID": "224",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Ecuador",
+   "our_Start_Date": "2002-07-26",
+   "our_End_Date": "2002-07-27",
+   "colt_Start": "2002-07-25",
+   "colt_End": "2002-07-30",
+   "discrepancias": "TripStartDate: nuestro=2002-07-26 COLT=2002-07-25 (dif 1d) | TripEndDate: nuestro=2002-07-27 COLT=2002-07-30 (dif 3d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c01bdea6-00b9-46df-a88d-f2db741b9190&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FB-7W60-00J7-K43V-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr62&pditab=allpods&ecomp=zznyk&earg=sr62&prid=3247ba7d-3830-4f33-8572-9560e00ba604",
+    "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/document-view?p=AWNB&f=advanced&docref=news/0F97E47702D17E07",
+    "https://www.gettyimages.com/detail/news-photo/chilean-president-ricardo-lagos-waves-as-he-leaves-the-news-photo/51424344?phrase=ricardo%20lagos&adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f09f4cc9-5e86-49e8-8dd3-9b6a18c2f6f8&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46DX-C7N0-00J7-K2G7-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr15&pditab=allpods&ecomp=zznyk&earg=sr15&prid=252c38c1-6a34-471c-9ca4-f402e6047e0d",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e738b7b2-b3ea-49e3-a257-39263ac8dafa&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46D0-55S0-01G8-14WG-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr23&pditab=allpods&ecomp=zznyk&earg=sr23&prid=5a061ce8-36cf-48aa-b545-4e4e4a9296d3",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=346f9b26-1002-4991-b4ca-7af68786196e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46F4-8KX0-00J7-K3CT-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr38&pditab=allpods&ecomp=zznyk&earg=sr38&prid=1151481b-ea37-482b-9463-dac2adecd39e",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c8a52216-1c67-4270-9ebd-fd9f69e7a866&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FB-7W50-00J7-K439-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr56&pditab=allpods&ecomp=zznyk&earg=sr56&prid=d62566f0-06ee-40bd-ad83-89077664d9d4",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=31e11204-0c0e-4111-8183-d14efc0907a3&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FJ-7WX0-00J7-K0FS-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr64&pditab=allpods&ecomp=zznyk&earg=sr64&prid=3247ba7d-3830-4f33-8572-9560e00ba604",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c6721718-5fd7-45ab-a604-bddda4271a09&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FS-69F0-00J7-K0H2-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr85&pditab=allpods&ecomp=zznyk&earg=sr85&prid=49caac8f-6c92-4c8c-aa41-7cb65da889b7",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=fea0d9ac-0085-430e-a773-869989b3ae9a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A490H-26B0-01G8-12M8-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr93&pditab=allpods&ecomp=zznyk&earg=sr93&prid=37348d39-019d-47a8-9c83-53e299922292"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-ECU-37462",
+   "our_Trip_ID": "225",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Ecuador",
+   "our_Start_Date": "2002-07-28",
+   "our_End_Date": "2002-07-30",
+   "colt_Start": "2002-07-25",
+   "colt_End": "2002-07-30",
+   "discrepancias": "TripStartDate: nuestro=2002-07-28 COLT=2002-07-25 (dif 3d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c01bdea6-00b9-46df-a88d-f2db741b9190&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FB-7W60-00J7-K43V-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr62&pditab=allpods&ecomp=zznyk&earg=sr62&prid=3247ba7d-3830-4f33-8572-9560e00ba604",
+    "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/document-view?p=AWNB&f=advanced&docref=news/0F97E47702D17E07",
+    "https://www.gettyimages.com/detail/news-photo/chilean-president-ricardo-lagos-waves-as-he-leaves-the-news-photo/51424344?phrase=ricardo%20lagos&adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f09f4cc9-5e86-49e8-8dd3-9b6a18c2f6f8&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46DX-C7N0-00J7-K2G7-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr15&pditab=allpods&ecomp=zznyk&earg=sr15&prid=252c38c1-6a34-471c-9ca4-f402e6047e0d",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e738b7b2-b3ea-49e3-a257-39263ac8dafa&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46D0-55S0-01G8-14WG-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr23&pditab=allpods&ecomp=zznyk&earg=sr23&prid=5a061ce8-36cf-48aa-b545-4e4e4a9296d3",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=346f9b26-1002-4991-b4ca-7af68786196e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46F4-8KX0-00J7-K3CT-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr38&pditab=allpods&ecomp=zznyk&earg=sr38&prid=1151481b-ea37-482b-9463-dac2adecd39e",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c8a52216-1c67-4270-9ebd-fd9f69e7a866&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FB-7W50-00J7-K439-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr56&pditab=allpods&ecomp=zznyk&earg=sr56&prid=d62566f0-06ee-40bd-ad83-89077664d9d4",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=31e11204-0c0e-4111-8183-d14efc0907a3&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FJ-7WX0-00J7-K0FS-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr64&pditab=allpods&ecomp=zznyk&earg=sr64&prid=3247ba7d-3830-4f33-8572-9560e00ba604",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c6721718-5fd7-45ab-a604-bddda4271a09&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FS-69F0-00J7-K0H2-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr85&pditab=allpods&ecomp=zznyk&earg=sr85&prid=49caac8f-6c92-4c8c-aa41-7cb65da889b7",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=fea0d9ac-0085-430e-a773-869989b3ae9a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A490H-26B0-01G8-12M8-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr93&pditab=allpods&ecomp=zznyk&earg=sr93&prid=37348d39-019d-47a8-9c83-53e299922292"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-HUN-37536",
+   "our_Trip_ID": "227",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Hungary",
+   "our_Start_Date": "2002-10-06",
+   "our_End_Date": "2002-10-07",
+   "colt_Start": "2002-10-07",
+   "colt_End": "2002-10-09",
+   "discrepancias": "TripStartDate: nuestro=2002-10-06 COLT=2002-10-07 (dif 1d) | TripEndDate: nuestro=2002-10-07 COLT=2002-10-09 (dif 2d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452494073?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/451529210?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452200492?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-POL-37538",
+   "our_Trip_ID": "228",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Poland",
+   "our_Start_Date": "2002-10-08",
+   "our_End_Date": "2002-10-09",
+   "colt_Start": "2002-10-09",
+   "colt_End": "2002-10-10",
+   "discrepancias": "TripStartDate: nuestro=2002-10-08 COLT=2002-10-09 (dif 1d) | TripEndDate: nuestro=2002-10-09 COLT=2002-10-10 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452200492?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453420554?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452194318?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/451524965?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-ECU-37636",
+   "our_Trip_ID": "232",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Ecuador",
+   "our_Start_Date": "2003-01-15",
+   "our_End_Date": "2003-01-15",
+   "colt_Start": "2003-01-15",
+   "colt_End": "2003-01-16",
+   "discrepancias": "TripEndDate: nuestro=2003-01-15 COLT=2003-01-16 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0F95E4DBA7698DDA?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1081EFBB7A4787B0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0F8A492B0CFAB68D?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/368346653?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-JAM-37804",
+   "our_Trip_ID": "238",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Jamaica",
+   "our_Start_Date": "2003-07-01",
+   "our_End_Date": "2003-07-03",
+   "colt_Start": "2003-07-02",
+   "colt_End": "2003-07-03",
+   "discrepancias": "TripStartDate: nuestro=2003-07-01 COLT=2003-07-02 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f53c35f9-27b5-4526-86d9-f4612105e3a5&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A492J-FKP0-00J7-K33S-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr58&pditab=allpods&ecomp=zznyk&earg=sr58&prid=3f8a6242-9566-4e63-9a04-0656c0894159",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f03fa2be-258a-4565-880a-ea4964465339&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A492J-FKK0-00J7-K1TY-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr11&pditab=allpods&ecomp=ybvnk&earg=sr11&prid=70af789d-8e29-4c7d-8abe-4b44bd6144f2",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=072862a4-fa7b-48e2-84b5-aa918c7f8bd1&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4900-Y720-00KX-9287-00000-00&pdcontentcomponentid=241709&pdteaserkey=sr21&pditab=allpods&ecomp=zznyk&earg=sr21&prid=cb5a970a-c985-40c1-b38e-2ce862dc6cb8",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5f7b9c04-ab91-4658-b6c6-c70efd2c2613&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4930-D200-00J7-K08R-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr3&pditab=allpods&ecomp=ybvnk&earg=sr3&prid=d73d3304-0fcc-4c49-a485-c4c0a33029d9",
+    "https://www-proquest-com.du.idm.oclc.org/central/docview/374540130/9E809C519F4C4C2CPQ/2?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-IRL-37812",
+   "our_Trip_ID": "239",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Ireland",
+   "our_Start_Date": "2003-07-10",
+   "our_End_Date": "2003-07-11",
+   "colt_Start": "2003-07-10",
+   "colt_End": "2003-07-12",
+   "discrepancias": "TripEndDate: nuestro=2003-07-11 COLT=2003-07-12 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/747217694?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/749343643?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-GBR-37811",
+   "our_Trip_ID": "240",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "United Kingdom",
+   "our_Start_Date": "2003-07-12",
+   "our_End_Date": "2003-07-14",
+   "colt_Start": "2003-07-09",
+   "colt_End": "2003-07-14",
+   "discrepancias": "TripStartDate: nuestro=2003-07-12 COLT=2003-07-09 (dif 3d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10264F2E6585F60D?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0FC06F9730CEB071?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0FE959E00E55F2B1?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0FC3555FC5FCADDB?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-BRA-37851",
+   "our_Trip_ID": "243",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Brazil",
+   "our_Start_Date": "2003-08-19",
+   "our_End_Date": "2003-08-19",
+   "colt_Start": "2003-08-18",
+   "colt_End": "2003-08-19",
+   "discrepancias": "TripStartDate: nuestro=2003-08-19 COLT=2003-08-18 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10264F8A1766E3CB?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1084DD201FD9403C?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460217111?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453159292?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-ARG-37860",
+   "our_Trip_ID": "244",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2003-08-27",
+   "our_End_Date": "2003-08-29",
+   "colt_Start": "2003-08-27",
+   "colt_End": "2003-08-30",
+   "discrepancias": "TripEndDate: nuestro=2003-08-29 COLT=2003-08-30 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460212359?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460212551?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460219795?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-USA-37996",
+   "our_Trip_ID": "246",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2004-01-09",
+   "our_End_Date": "2004-01-09",
+   "colt_Start": "2004-01-10",
+   "colt_End": "2004-01-11",
+   "discrepancias": "TripStartDate: nuestro=2004-01-09 COLT=2004-01-10 (dif 1d) | TripEndDate: nuestro=2004-01-09 COLT=2004-01-11 (dif 2d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/272245216?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/421911393?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-FRA-38013",
+   "our_Trip_ID": "248",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "France",
+   "our_Start_Date": "2004-01-28",
+   "our_End_Date": "2004-01-28",
+   "colt_Start": "2004-01-27",
+   "colt_End": "2004-01-28",
+   "discrepancias": "TripStartDate: nuestro=2004-01-28 COLT=2004-01-27 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1084DF24CEC8D4F6?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12E646EEC9A7A248?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-CHE-38016",
+   "our_Trip_ID": "250",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Switzerland",
+   "our_Start_Date": "2004-01-30",
+   "our_End_Date": "2004-01-30",
+   "colt_Start": "2004-01-30",
+   "colt_End": "2004-01-31",
+   "discrepancias": "TripEndDate: nuestro=2004-01-30 COLT=2004-01-31 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1007418CF7111D66?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1564A95C4F6F2FE8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/100B8837184A3455?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/443767834?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-ESP-38131",
+   "our_Trip_ID": "255",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2004-05-25",
+   "our_End_Date": "2004-05-27",
+   "colt_Start": "2004-05-24",
+   "colt_End": "2004-05-27",
+   "discrepancias": "TripStartDate: nuestro=2004-05-25 COLT=2004-05-24 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/102E1B5C9A1958CC?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/102D732BE7DE0612?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1084D78EC19ACB7E?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1084E0BB2F67A45C?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-GTM-38136",
+   "our_Trip_ID": "256",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Guatemala",
+   "our_Start_Date": "2004-05-30",
+   "our_End_Date": "2004-05-31",
+   "colt_Start": "2004-05-29",
+   "colt_End": "2004-05-31",
+   "discrepancias": "TripStartDate: nuestro=2004-05-30 COLT=2004-05-29 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460237179?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/102F1A8B1B3434D7?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1084E0D653CC1DC3?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1084E0D0B0B38141?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1084E0BB2F67A45C?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-SLV-38138",
+   "our_Trip_ID": "257",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "El Salvador",
+   "our_Start_Date": "2004-06-01",
+   "our_End_Date": "2004-06-01",
+   "colt_Start": "2004-05-31",
+   "colt_End": "2004-06-01",
+   "discrepancias": "TripStartDate: nuestro=2004-06-01 COLT=2004-05-31 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1084E0B5C5D6069E?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1084D78EAC91FF5A?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1084E0BA5E144338?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-USA-38186",
+   "our_Trip_ID": "259",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2004-07-19",
+   "our_End_Date": "2004-07-20",
+   "colt_Start": "2004-07-18",
+   "colt_End": "2004-07-19",
+   "discrepancias": "TripStartDate: nuestro=2004-07-19 COLT=2004-07-18 (dif 1d) | TripEndDate: nuestro=2004-07-20 COLT=2004-07-19 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/448633526?accountid=14608",
+    "https://history.state.gov/departmenthistory/visits/chile",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/103FF3ABC3F6AEFA?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-HTI-38188",
+   "our_Trip_ID": "261",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Haiti",
+   "our_Start_Date": "2004-07-20",
+   "our_End_Date": "2004-07-21",
+   "colt_Start": "2004-07-20",
+   "colt_End": "2004-07-22",
+   "discrepancias": "TripEndDate: nuestro=2004-07-21 COLT=2004-07-22 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460198781?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/387716259?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452946068?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/103FF3ABC3F6AEFA?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-USA-38249",
+   "our_Trip_ID": "264",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2004-09-20",
+   "our_End_Date": "2004-09-22",
+   "colt_Start": "2004-09-19",
+   "colt_End": "2004-09-22",
+   "discrepancias": "TripStartDate: nuestro=2004-09-20 COLT=2004-09-19 (dif 1d)",
+   "colt_links": [
+    "https://www.proquest.com/internationalnews1/docview/468269359/BADA2711AB05447DPQ/23?accountid=14608",
+    "https://www.gettyimages.com/detail/news-photo/ricardo-lagos-escobar-president-of-chile-united-nations-news-photo/51329342?adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5e63185c-d231-46b7-ba77-a0883434db87&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4DCJ-D1C0-TWMB-331D-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr0&pditab=allpods&ecomp=kmnyk&earg=sr0&prid=9b2b0846-a715-4a04-a7eb-cd900f03d451",
+    "https://www.gettyimages.com/detail/news-photo/united-nations-un-secretary-general-kofi-annan-shakes-hands-news-photo/51333080?adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=0938979a-731f-423b-9a24-b76d6cbafe27&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4DCS-C6N0-TWMB-32PS-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr1&pditab=allpods&ecomp=kmnyk&earg=sr1&prid=9b2b0846-a715-4a04-a7eb-cd900f03d451",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=969edd42-9c71-4789-b8e6-26c6f0e41798&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4DD0-BCR0-TWMB-337D-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr3&pditab=allpods&ecomp=kmnyk&earg=sr3&prid=52a4894b-8f28-4bb9-9460-355af772939e"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-ROU-38270",
+   "our_Trip_ID": "266",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Romania",
+   "our_Start_Date": "2004-10-11",
+   "our_End_Date": "2004-10-11",
+   "colt_Start": "2004-10-10",
+   "colt_End": "2004-10-11",
+   "discrepancias": "TripStartDate: nuestro=2004-10-11 COLT=2004-10-10 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/459700366?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/105AECF6EA9B1ADD?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/105AF40556FED87F?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10599D4AE995B3B7?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-TUR-38271",
+   "our_Trip_ID": "267",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Turkiye",
+   "our_Start_Date": "2004-10-12",
+   "our_End_Date": "2004-10-13",
+   "colt_Start": "2004-10-11",
+   "colt_End": "2004-10-14",
+   "discrepancias": "TripStartDate: nuestro=2004-10-12 COLT=2004-10-11 (dif 1d) | TripEndDate: nuestro=2004-10-13 COLT=2004-10-14 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/459436657?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/457525480?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/457527868?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/105B9367A3F8B1E2?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-BRA-38294",
+   "our_Trip_ID": "269",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Brazil",
+   "our_Start_Date": "2004-11-04",
+   "our_End_Date": "2004-11-05",
+   "colt_Start": "2004-11-03",
+   "colt_End": "2004-11-05",
+   "discrepancias": "TripStartDate: nuestro=2004-11-04 COLT=2004-11-03 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=698ee52e-1f60-4f39-b384-f0c738501da7&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4DPP-WMB0-00BT-M003-00000-00&pdcontentcomponentid=138211&pdteaserkey=sr13&pditab=allpods&ecomp=szznk&earg=sr13&prid=c376d10c-5b13-48d3-9123-53b4826b0aea",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=9c75e505-8714-479c-bcf2-b180128d061e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4DRJ-Y760-TWDH-N1WR-00000-00&pdcontentcomponentid=11810&pdteaserkey=sr17&pditab=allpods&ecomp=szznk&earg=sr17&prid=c376d10c-5b13-48d3-9123-53b4826b0aea"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-PER-38328",
+   "our_Trip_ID": "270",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Peru",
+   "our_Start_Date": "2004-12-09",
+   "our_End_Date": "2004-12-09",
+   "colt_Start": "2004-12-07",
+   "colt_End": "2004-12-09",
+   "discrepancias": "TripStartDate: nuestro=2004-12-09 COLT=2004-12-07 (dif 2d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/106E0DABC84C3295?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/106E1466614ECFC6?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/107207DDD37A0DAB?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1071AF754B47B081?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-EGY-38367",
+   "our_Trip_ID": "272",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Egypt",
+   "our_Start_Date": "2005-01-16",
+   "our_End_Date": "2005-01-18",
+   "colt_Start": "2005-01-15",
+   "colt_End": "2005-01-18",
+   "discrepancias": "TripStartDate: nuestro=2005-01-16 COLT=2005-01-15 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/107AE86A9D6ABF77?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/107B3E8A444D81BC?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/107B3CC85687FE06?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-IND-38370",
+   "our_Trip_ID": "273",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "India",
+   "our_Start_Date": "2005-01-19",
+   "our_End_Date": "2005-01-22",
+   "colt_Start": "2005-01-18",
+   "colt_End": "2005-01-22",
+   "discrepancias": "TripStartDate: nuestro=2005-01-19 COLT=2005-01-18 (dif 1d)",
+   "colt_links": [
+    "http://www.gettyimages.com/event/chilean-president-ricardo-lagos-visits-india-52036474#indian-prime-minister-manmohan-singh-luisa-duran-de-lagos-chilean-picture-id52037118",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460193454?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452444010?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467859327?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-DEU-38374",
+   "our_Trip_ID": "274",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Germany",
+   "our_Start_Date": "2005-01-23",
+   "our_End_Date": "2005-01-25",
+   "colt_Start": "2005-01-22",
+   "colt_End": "2005-01-25",
+   "discrepancias": "TripStartDate: nuestro=2005-01-23 COLT=2005-01-22 (dif 1d)",
+   "colt_links": [
+    "http://wwwgettyimagescom/event/chilean-president-escobar-visits-germany-52055212#chilean-president-ricardo-lagos-escobar-and-german-chancellor-gerhard-picture-id52055575",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460193454?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/468180918?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/459695265?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-GUY-38401",
+   "our_Trip_ID": "275",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Guyana",
+   "our_Start_Date": "2005-02-18",
+   "our_End_Date": "2005-02-19",
+   "colt_Start": "2005-02-18",
+   "colt_End": "2005-02-20",
+   "discrepancias": "TripEndDate: nuestro=2005-02-19 COLT=2005-02-20 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1085CB278244AF2B?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10896AAE9F2EAFAD?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10892EAF03A24C34?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-BRB-38403",
+   "our_Trip_ID": "277",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Barbados",
+   "our_Start_Date": "2005-02-20",
+   "our_End_Date": "2005-02-20",
+   "colt_Start": "2005-02-20",
+   "colt_End": "2005-02-21",
+   "discrepancias": "TripEndDate: nuestro=2005-02-20 COLT=2005-02-21 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1086C0FD8A9B2534?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10866BF1E263FD74?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10892F2957E09BE2?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-TTO-38404",
+   "our_Trip_ID": "278",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Trinidad and Tobago",
+   "our_Start_Date": "2005-02-22",
+   "our_End_Date": "2005-02-22",
+   "colt_Start": "2005-02-21",
+   "colt_End": "2005-02-22",
+   "discrepancias": "TripStartDate: nuestro=2005-02-22 COLT=2005-02-21 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12FD4D9217F35130?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1086C0F5F42EBFBF?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1086C0FD8A9B2534?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1087154D712FA44F?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10892F2957E09BE2?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-VEN-38461",
+   "our_Trip_ID": "280",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Venezuela",
+   "our_Start_Date": "2005-04-20",
+   "our_End_Date": "2005-04-21",
+   "colt_Start": "2005-04-19",
+   "colt_End": "2005-04-21",
+   "discrepancias": "TripStartDate: nuestro=2005-04-20 COLT=2005-04-19 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467915347?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/192340396?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460236499?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/336631456?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-SWE-38516",
+   "our_Trip_ID": "284",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Sweden",
+   "our_Start_Date": "2005-06-12",
+   "our_End_Date": "2005-06-14",
+   "colt_Start": "2005-06-13",
+   "colt_End": "2005-06-14",
+   "discrepancias": "TripStartDate: nuestro=2005-06-12 COLT=2005-06-13 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10AC00CCC23D3D8C?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10AC00CCC23D3D8C?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10AC00CD80A34004?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-PRY-38522",
+   "our_Trip_ID": "285",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Paraguay",
+   "our_Start_Date": "2005-06-20",
+   "our_End_Date": "2005-06-20",
+   "colt_Start": "2005-06-19",
+   "colt_End": "2005-06-20",
+   "discrepancias": "TripStartDate: nuestro=2005-06-20 COLT=2005-06-19 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=49a0b186-ffea-45b9-b2e4-6357f110454b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4GFH-W110-00BT-M3GH-00000-00&pdcontentcomponentid=138211&pdteaserkey=sr0&pditab=allpods&ecomp=zz2yk&earg=sr0&prid=5e673c8f-00bc-4e46-ba37-132de9168338",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=14597065-6d64-4674-a1d5-d04f9ecb1890&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4GFV-W3J0-001G-V40M-00000-00&pdcontentcomponentid=8001&pdteaserkey=sr2&pditab=allpods&ecomp=zz2yk&earg=sr2&prid=5e673c8f-00bc-4e46-ba37-132de9168338"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-PAN-38531",
+   "our_Trip_ID": "286",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Panama",
+   "our_Start_Date": "2005-06-28",
+   "our_End_Date": "2005-06-29",
+   "colt_Start": "2005-06-28",
+   "colt_End": "2005-06-30",
+   "discrepancias": "TripEndDate: nuestro=2005-06-29 COLT=2005-06-30 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/336523306?accountid=14608",
+    "http://wwwalamycom/stock-photo-president-martin-torrijos-of-panama-r-wave-at-the-media-with-president-121695570html?pv=1&stamp=2&imageid=4CA156BA-9489-4E0E-9B58-5931BC834092&p=307842&n=2&orientation=0&pn=1&searchtype=0&IsFromSearch=1&srch=foo%3Dbar%26st%3D0%26sortby%3D2%26qt%3Dtorrijos%2520and%2520lagos%2520escobar%2520panama%26qt_raw%3Dtorrijos%2520and%2520lagos%2520escobar%2520panama%26qn%3D%26lic%3D3%26mr%3D0%26pr%3D0%26aoa%3D1%26creative%3D%26videos%3D%26nu%3D%26ccc%3D%26bespoke%3D%26apalib%3D%26ag%3D0%26hc%3D0%26et%3D0x000000000000000000000%26vp%3D0%26loc%3D0%26ot%3D0%26imgt%3D0%26dtfr%3D%26dtto%3D%26size%3D0xFF%26blackwhite%3D%26cutout%3D%26archive%3D1%26name%3D%26groupid%3D%26pseudoid%3D%26userid%3D%26id%3D%26a%3D%26xstx%3D0%26cbstore%3D1%26resultview%3DsortbyPopular%26lightbox%3D%26gname%3D%26gtype%3D%26apalic%3D%26tbar%3D1%26pc%3D%26simid%3D%26cap%3D1%26customgeoip%3D%26vd%3D0%26cid%3D%26pe%3D%26so%3D%26saveQry%3D%26editorial%3D1%26t%3D0%26edoptin%3D",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467897824?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/336517604?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-USA-38609",
+   "our_Trip_ID": "289",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2005-09-14",
+   "our_End_Date": "2005-09-17",
+   "colt_Start": "2005-09-14",
+   "colt_End": "2005-09-16",
+   "discrepancias": "TripEndDate: nuestro=2005-09-17 COLT=2005-09-16 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/472082534?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/472082488?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/458754124?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-GBR-38636",
+   "our_Trip_ID": "292",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "United Kingdom",
+   "our_Start_Date": "2005-10-11",
+   "our_End_Date": "2005-10-11",
+   "colt_Start": "2005-10-11",
+   "colt_End": "2005-10-12",
+   "discrepancias": "TripEndDate: nuestro=2005-10-11 COLT=2005-10-12 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10D196341DB05398?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452589298?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "1516-CHL-ESP-38637",
+   "our_Trip_ID": "293",
+   "President": "Ricardo Lagos",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2005-10-12",
+   "our_End_Date": "2005-10-13",
+   "colt_Start": "2005-10-12",
+   "colt_End": "2005-10-15",
+   "discrepancias": "TripEndDate: nuestro=2005-10-13 COLT=2005-10-15 (dif 2d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10D196341DB05398?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/10D38C5BAD3EBF98?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11D80BD29DDB18D0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11D80BD323DA4C88?p=AWNB"
+   ]
+  }
+ ],
+ "colt_unico": [
+  {
+   "TripID": "1516-CHL-CHL-37685",
+   "LeaderFullName": "Ricardo Lagos Escobar",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2003",
+   "TripStartDate": "2003-03-05T00:00:00",
+   "TripEndDate": "2003-03-05T00:00:00",
+   "Notes": "Antarctica;President Lagos visited the Bernardo O'Higgins army base.",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0F99E857B99B9FF3?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452202556?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "1516-CHL-COL-37097",
+   "LeaderFullName": "Ricardo Lagos Escobar",
+   "CountryVisited": "Colombia",
+   "CityVisited": "None",
+   "TripYear": "2001",
+   "TripStartDate": "2001-07-25T00:00:00",
+   "TripEndDate": "2001-07-26T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "3",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452209388?accountid=14608",
+    "infoweb.newsbank.com/resources/doc/nb/news/0F97A35F68D73882?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "1516-CHL-COL-37596",
+   "LeaderFullName": "Ricardo Lagos Escobar",
+   "CountryVisited": "Colombia",
+   "CityVisited": "None",
+   "TripYear": "2002",
+   "TripStartDate": "2002-12-06T00:00:00",
+   "TripEndDate": "2002-12-07T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452193791?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/279849142?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/279849142?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "1516-CHL-FRA-38111",
+   "LeaderFullName": "Ricardo Lagos Escobar",
+   "CountryVisited": "France",
+   "CityVisited": "None",
+   "TripYear": "2004",
+   "TripStartDate": "2004-05-04T00:00:00",
+   "TripEndDate": "2004-05-05T00:00:00",
+   "Notes": "Visit to French Polynesia",
+   "Confidence(1-5)": "4",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452454993?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452454993?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "1516-CHL-SWE-37148",
+   "LeaderFullName": "Ricardo Lagos Escobar",
+   "CountryVisited": "Sweden",
+   "CityVisited": "None",
+   "TripYear": "2001",
+   "TripStartDate": "2001-09-14T00:00:00",
+   "TripEndDate": "2001-09-14T00:00:00",
+   "Notes": "President Lagos met with Nicole Fontaine;president of the European Parliament.",
+   "Confidence(1-5)": "3",
+   "SourceLinks": [
+    "http://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//TEXT+PRESS+NA-20010907-1+0+DOC+XML+V0//EN",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453663123?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "1516-CHL-URY-38047",
+   "LeaderFullName": "Ricardo Lagos Escobar",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2004",
+   "TripStartDate": "2004-03-01T00:00:00",
+   "TripEndDate": "2004-03-01T00:00:00",
+   "Notes": "Attened the inauguration of Tabare Vazquez;Inaugurated a new embassy in Montevideo",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.proquest.com/docview/460191050?accountid=14608&parentSessionId=KH0aABdWUPOKcOrZ7%2FVG1tcmERxqkWrM9fGhHqCxERU%3D",
+    "https://www.gettyimages.com/detail/news-photo/el-presidente-de-chile-ricardo-lagos-inaugura-la-nueva-news-photo/52259268?adppopup=true",
+    "https://www.gettyimages.com/detail/news-photo/el-nuevo-presidente-de-uruguay-tabare-vazquez-es-saludado-news-photo/52260838?adppopup=true"
+   ]
+  },
+  {
+   "TripID": "1516-CHL-VNM-37915",
+   "LeaderFullName": "Ricardo Lagos Escobar",
+   "CountryVisited": "Vietnam",
+   "CityVisited": "None",
+   "TripYear": "2003",
+   "TripStartDate": "2003-10-21T00:00:00",
+   "TripEndDate": "2003-10-23T00:00:00",
+   "Notes": "President Lagos also met with Prime Minister Phan Van Khai and laid a wreath at Ho Chi Minh's Mausoleum",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0FF42C9FC3B45D66?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0FE60E600A80E244?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0FF42CEC4F654B5F?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0FF42D04645034C0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/0FF42D09856EA339?p=AWNB"
+   ]
+  }
+ ],
+ "nuestro_unico": [
+  {
+   "Trip_ID": "1",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2000-06-29",
+   "End_Date": "2000-06-30",
+   "Destination_Country": "Argentina",
+   "Destination_City": "Buenos Aires",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "Cumbre del MERCOSUR (Chile asociado)",
+   "Trip_Objective": "Primer viaje internacional del mandato: cumbre del Mercosur; Chile como Estado asociado.",
+   "Source_Verification": "https://arle.udp.cl/index.php/programa-de-actividades-de-presidente-de-la-republica-para-xviii-cumbre-mercosur-en-buenos-aires",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "7",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2001-06-07",
+   "End_Date": "2001-06-08",
+   "Destination_Country": "France",
+   "Destination_City": "Paris",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Jacques Chirac",
+   "Trip_Objective": "Relaciones bilaterales; acuerdo Chile-UE. Tramo 2 de gira europea.",
+   "Source_Verification": "Search Query: Lagos Francia Chirac junio 2001",
+   "Source_Reliability": "Low"
+  },
+  {
+   "Trip_ID": "12",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2002-03-21",
+   "End_Date": "2002-03-22",
+   "Destination_Country": "Mexico",
+   "Destination_City": "Monterrey",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "Conferencia sobre Financiación para el Desarrollo",
+   "Trip_Objective": "Conferencia de Monterrey (Consenso de Monterrey).",
+   "Source_Verification": "https://www.un.org/es/conf/ffd/2002/",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "16",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2002-11-15",
+   "End_Date": "2002-11-16",
+   "Destination_Country": "Dominican Republic",
+   "Destination_City": "Bávaro",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XII Cumbre Iberoamericana",
+   "Trip_Objective": "Cumbre Iberoamericana de Bavaro.",
+   "Source_Verification": "https://segib.org/es/cumbre/xii-cumbre-iberoamericana/",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "24",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2004-11-19",
+   "End_Date": "2004-11-20",
+   "Destination_Country": "Costa Rica",
+   "Destination_City": "San José",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XIV Cumbre Iberoamericana",
+   "Trip_Objective": "Cumbre Iberoamericana de San Jose.",
+   "Source_Verification": "https://www.segib.org/?summit=xiv-cumbre-iberoamericana-san-jose-2004",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "206",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2000-12-14",
+   "End_Date": "2000-12-15",
+   "Destination_Country": "Brazil",
+   "Destination_City": "Florianópolis",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XIX Cumbre de Jefes de Estado del MERCOSUR, Bolivia y Chile",
+   "Trip_Objective": "Participación en la XIX Cumbre de Jefes de Estado del MERCOSUR.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2000",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "215",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2001-12-20",
+   "End_Date": "2001-12-21",
+   "Destination_Country": "Uruguay",
+   "Destination_City": "Montevideo",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XX Cumbre de Jefes de Estado del MERCOSUR, Bolivia y Chile",
+   "Trip_Objective": "Participación en la XX Cumbre de Jefes de Estado del MERCOSUR en Montevideo.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2001",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "220",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2002-04-11",
+   "End_Date": "2002-04-12",
+   "Destination_Country": "Costa Rica",
+   "Destination_City": "San José",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "Cumbre del Grupo de Río",
+   "Trip_Objective": "Participación en la Cumbre del Grupo de Río en San José.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2002",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "229",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2002-11-14",
+   "End_Date": "2002-11-14",
+   "Destination_Country": "Honduras",
+   "Destination_City": "Tegucigalpa",
+   "Visit_Subtype": "State Visit",
+   "Counterpart_Event": "Ricardo Maduro",
+   "Trip_Objective": "Visita oficial a Honduras, previa a la XII Cumbre Iberoamericana en República Dominicana.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2002",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "236",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2003-05-25",
+   "End_Date": "2003-05-25",
+   "Destination_Country": "Argentina",
+   "Destination_City": "Buenos Aires",
+   "Visit_Subtype": "Inauguration/Funeral",
+   "Counterpart_Event": "Transmisión del Mando de Néstor Kirchner",
+   "Trip_Objective": "Asistencia a la asunción de Néstor Kirchner.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2003",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "237",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2003-06-18",
+   "End_Date": "2003-06-18",
+   "Destination_Country": "Paraguay",
+   "Destination_City": "Asunción",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XXIV Cumbre de Jefes de Estado del MERCOSUR, Bolivia y Chile",
+   "Trip_Objective": "Participación en la XXIV Cumbre de Jefes de Estado del MERCOSUR en Asunción.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2003",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "245",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2003-12-15",
+   "End_Date": "2003-12-16",
+   "Destination_Country": "Uruguay",
+   "Destination_City": "Montevideo",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XXV Cumbre de Jefes de Estado del MERCOSUR, Bolivia y Chile",
+   "Trip_Objective": "Participación en la XXV Cumbre de Jefes de Estado del MERCOSUR en Montevideo.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2003",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "251",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2004-04-25",
+   "End_Date": "2004-04-27",
+   "Destination_Country": "South Africa",
+   "Destination_City": "Pretoria",
+   "Visit_Subtype": "Inauguration/Funeral",
+   "Counterpart_Event": "Transmisión del Mando de Thabo Mbeki (segundo mandato) / 10º aniversario de la democracia",
+   "Trip_Objective": "Asistencia a la investidura de Thabo Mbeki y conmemoración de los 10 años del fin del apartheid; primer tramo de gira Sudáfrica-Indonesia-Singapur-Nueva Zelanda.",
+   "Source_Verification": "https://www.emol.com/noticias/nacional/2004/04/25/145881/presidente-lagos-inicia-gira-internacional.html",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "258",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2004-07-07",
+   "End_Date": "2004-07-08",
+   "Destination_Country": "Argentina",
+   "Destination_City": "Puerto Iguazú",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XXVI Cumbre de Jefes de Estado del MERCOSUR, Bolivia y Chile",
+   "Trip_Objective": "Participación en la XXVI Cumbre de Jefes de Estado del MERCOSUR en Puerto Iguazú.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2004",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "262",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2004-08-31",
+   "End_Date": "2004-08-31",
+   "Destination_Country": "Argentina",
+   "Destination_City": "Buenos Aires",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Néstor Kirchner",
+   "Trip_Objective": "Visita de trabajo a Argentina, previa a la asunción de Martín Torrijos en Panamá.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2004",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "263",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2004-09-01",
+   "End_Date": "2004-09-01",
+   "Destination_Country": "Panama",
+   "Destination_City": "Panama City",
+   "Visit_Subtype": "Inauguration/Funeral",
+   "Counterpart_Event": "Transmisión del Mando de Martín Torrijos",
+   "Trip_Objective": "Asistencia a la asunción de Martín Torrijos.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2004",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "265",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2004-09-22",
+   "End_Date": "2004-09-22",
+   "Destination_Country": "Mexico",
+   "Destination_City": "Mexico City",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Vicente Fox",
+   "Trip_Objective": "Visita de trabajo a México, tras la Asamblea General de la ONU en Nueva York.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2004",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "283",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2005-05-14",
+   "End_Date": "2005-05-15",
+   "Destination_Country": "United States",
+   "Destination_City": "Durham",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Universidad de Duke",
+   "Trip_Objective": "Visita a la Universidad de Duke, Carolina del Norte.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2005",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "288",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2005-09-01",
+   "End_Date": "2005-09-03",
+   "Destination_Country": "Colombia",
+   "Destination_City": "Bogotá",
+   "Visit_Subtype": "State Visit",
+   "Counterpart_Event": "Álvaro Uribe",
+   "Trip_Objective": "Visita de Estado a Colombia (Bogotá y Cartagena de Indias).",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2005",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "290",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2005-09-29",
+   "End_Date": "2005-09-30",
+   "Destination_Country": "Brazil",
+   "Destination_City": "Brasília",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "II Cumbre Sudamericana (Comunidad Sudamericana de Naciones)",
+   "Trip_Objective": "Participación en la II Cumbre Sudamericana en Brasilia.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2005",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "291",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2005-10-06",
+   "End_Date": "2005-10-06",
+   "Destination_Country": "United States",
+   "Destination_City": "New York",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "Council of the Americas",
+   "Trip_Objective": "Participación en foro del Council of the Americas en Nueva York.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2005",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "294",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2005-10-21",
+   "End_Date": "2005-10-23",
+   "Destination_Country": "Vatican City",
+   "Destination_City": "Vatican City",
+   "Visit_Subtype": "State Visit",
+   "Counterpart_Event": "Canonización del Padre Alberto Hurtado (Benedicto XVI)",
+   "Trip_Objective": "Asistencia a la canonización de San Alberto Hurtado en el Vaticano.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2005",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "295",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2005-10-24",
+   "End_Date": "2005-10-25",
+   "Destination_Country": "France",
+   "Destination_City": "Strasbourg",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Parlamento Europeo / actividades en Estrasburgo",
+   "Trip_Objective": "Visita de trabajo a Estrasburgo, tras la canonización del Padre Hurtado en el Vaticano.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2005",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "296",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2005-10-25",
+   "End_Date": "2005-10-25",
+   "Destination_Country": "Spain",
+   "Destination_City": "Salamanca",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Universidad de Salamanca",
+   "Trip_Objective": "Actividad académica en la Universidad de Salamanca, cierre de gira Vaticano-Estrasburgo-Salamanca.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2005",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "299",
+   "President": "Ricardo Lagos",
+   "Start_Date": "2005-12-08",
+   "End_Date": "2005-12-09",
+   "Destination_Country": "Uruguay",
+   "Destination_City": "Montevideo",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XXIX Cumbre de Jefes de Estado del MERCOSUR, Bolivia y Chile",
+   "Trip_Objective": "Participación en la XXIX Cumbre de Jefes de Estado del MERCOSUR en Montevideo; último viaje multilateral del mandato.",
+   "Source_Verification": "https://arle.udp.cl/index.php/giras-internacionales-de-su-excelencia-el-presidente-de-la-republica-don-ricardo-lagos-y-senora-luisa-duran-de-lagos-ano-2005",
+   "Source_Reliability": "High"
+  }
+ ]
+}

@@ -1,0 +1,704 @@
+{
+ "discrepancias": [
+  {
+   "colt_TripID": "3909-CHL-ARG-44654",
+   "our_Trip_ID": "145",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2022-04-03",
+   "our_End_Date": "2022-04-05",
+   "colt_Start": "2022-04-03",
+   "colt_End": "2022-04-06",
+   "discrepancias": "TripEndDate: nuestro=2022-04-05 COLT=2022-04-06 (dif 1d)",
+   "colt_links": [
+    "https://www.courthousenews.com/chiles-new-president-visits-argentina-in-first-foreign-trip-to-rebuild-regional-relations/",
+    "https://labsnews.com/en/news/society/boric-visits-argentina/",
+    "https://www.saltwire.com/nova-scotia/news/chiles-boric-pledges-energy-cooperation-on-trip-to-argentina-100714425/",
+    "https://www.telesurenglish.net/news/President-of-Chile-Arrives-in-Argentina-on-First-Official-Visit-20220404-0003.html",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e94722ec-6fb0-44da-a711-203c2a2719b4/?context=1516831"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-CAN-44718",
+   "our_Trip_ID": "146",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Canada",
+   "our_Start_Date": "2022-06-06",
+   "our_End_Date": "2022-06-06",
+   "colt_Start": "2022-06-06",
+   "colt_End": "2022-06-07",
+   "discrepancias": "TripEndDate: nuestro=2022-06-06 COLT=2022-06-07 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/196bc832-2d9c-4767-9a19-508faea189fd/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/380ca85a-f582-4f30-a8ba-2b31d89bf087/?context=1516831"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-USA-44719",
+   "our_Trip_ID": "147",
+   "President": "Gabriel Boric",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2022-06-07",
+   "our_End_Date": "2022-06-10",
+   "colt_Start": "2022-06-07",
+   "colt_End": "2022-06-11",
+   "discrepancias": "TripEndDate: nuestro=2022-06-10 COLT=2022-06-11 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/380ca85a-f582-4f30-a8ba-2b31d89bf087/?context=1516831",
+    "https://reliefweb.int/report/world/los-angeles-declaration-could-represent-big-step-real-migration-cooperation-across-americas#:~:text=The%20Los%20Angeles%20Declaration%20was,the%20United%20States%2C%20and%20Uruguay.",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/196bc832-2d9c-4767-9a19-508faea189fd/?context=1516831",
+    "https://www.gettyimages.com/detail/news-photo/president-gabriel-boric-of-chile-gestures-as-he-gives-news-photo/1401775894?phrase=Gabriel%20Boric&adppopup=true"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-USA-44824",
+   "our_Trip_ID": "149",
+   "President": "Gabriel Boric",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2022-09-19",
+   "our_End_Date": "2022-09-21",
+   "colt_Start": "2022-09-20",
+   "colt_End": "2022-09-24",
+   "discrepancias": "TripStartDate: nuestro=2022-09-19 COLT=2022-09-20 (dif 1d) | TripEndDate: nuestro=2022-09-21 COLT=2022-09-24 (dif 3d)",
+   "colt_links": [
+    "https://prensa.presidencia.cl/fotonoticia.aspx?id=201215",
+    "https://twitter.com/gabrielboric/status/1572189782985285632",
+    "https://twitter.com/Presidencia_cl/status/1572599376819757062",
+    "https://twitter.com/GobiernodeChile/status/1573417899179532294"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-THA-44882",
+   "our_Trip_ID": "150",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Thailand",
+   "our_Start_Date": "2022-11-16",
+   "our_End_Date": "2022-11-19",
+   "colt_Start": "2022-11-17",
+   "colt_End": "2022-11-20",
+   "discrepancias": "TripStartDate: nuestro=2022-11-16 COLT=2022-11-17 (dif 1d) | TripEndDate: nuestro=2022-11-19 COLT=2022-11-20 (dif 1d)",
+   "colt_links": [
+    "https://twitter.com/gabrielboric/status/1592887964400775168",
+    "https://twitter.com/gabrielboric/status/1593335250788106240",
+    "https://twitter.com/gabrielboric/status/1593275708222177280",
+    "https://twitter.com/gabrielboric/status/1593589162459865088"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-MEX-44887",
+   "our_Trip_ID": "151",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Mexico",
+   "our_Start_Date": "2022-11-22",
+   "our_End_Date": "2022-11-24",
+   "colt_Start": "2022-11-22",
+   "colt_End": "2022-11-25",
+   "discrepancias": "TripEndDate: nuestro=2022-11-24 COLT=2022-11-25 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/4a4d9e1b-203c-47dc-9ae6-15c4a0faa25a/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/13d49f6a-9582-4344-b8d4-ab1fde55f6e2/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/f50cfb65-072a-4706-a03d-345e1ebf6c91/?context=1516831",
+    "https://en.mercopress.com/2022/11/24/mexico-chile-agree-to-boost-bilateral-cooperation"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-ARG-44949",
+   "our_Trip_ID": "153",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2023-01-24",
+   "our_End_Date": "2023-01-24",
+   "colt_Start": "2023-01-23",
+   "colt_End": "2023-01-24",
+   "discrepancias": "TripStartDate: nuestro=2023-01-24 COLT=2023-01-23 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/692075ce-14e0-48ac-8514-2ea5034645da/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/6590389c-1628-45fa-a48b-8dda8175833c/?context=1516831",
+    "https://peoplesdispatch.org/2023/01/23/buenos-aires-hosts-historic-meeting-of-latin-american-and-caribbean-leaders/",
+    "https://media.gettyimages.com/id/1246499701/photo/key-speakers-at-community-of-latin-american-and-caribbean-states-summit.jpg?s=612x612&w=gi&k=20&c=5XwHIH98tB4Kd9_glMiFQ36waokRJxQlbZsIK3cUTpM="
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-DOM-45008",
+   "our_Trip_ID": "154",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Dominican Republic",
+   "our_Start_Date": "2023-03-24",
+   "our_End_Date": "2023-03-25",
+   "colt_Start": "2023-03-23",
+   "colt_End": "2023-03-26",
+   "discrepancias": "TripStartDate: nuestro=2023-03-24 COLT=2023-03-23 (dif 1d) | TripEndDate: nuestro=2023-03-25 COLT=2023-03-26 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/a5242727-4d83-4eb3-b9c8-cc3e25fb5a03/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/3857483f-9550-4f33-b61d-d5d828882cbf/?context=1516831",
+    "https://media.gettyimages.com/id/1476219221/photo/the-king-of-spain-felipe-vi-the-president-of-the-dominican-republic-luis-abinader-the-head-of.jpg?s=612x612&w=0&k=20&c=me9s7KqGruZ6SqHqkiC69S30LBL_krnRkKqD3RFN6_w=",
+    "https://www.instagram.com/reel/CqLlMPruqNY/?utm_source=ig_web_copy_link"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-ESP-45121",
+   "our_Trip_ID": "156",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2023-07-13",
+   "our_End_Date": "2023-07-15",
+   "colt_Start": "2023-07-14",
+   "colt_End": "2023-07-16",
+   "discrepancias": "TripStartDate: nuestro=2023-07-13 COLT=2023-07-14 (dif 1d) | TripEndDate: nuestro=2023-07-15 COLT=2023-07-16 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/teaserdocument/?pdmfid=1516831&crid=867fa510-e26e-4134-868f-06a412880be9&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68PK-D611-DYY9-023V-00000-00&pddocid=urn%3AcontentItem%3A68PK-D611-DYY9-023V-00000-00&pdcontentcomponentid=443607&pdteaserkey=h1&pditab=allpods&ecomp=kmnyk&earg=sr2&prid=576fe568-698d-48b9-a0bb-b93c310f5da2",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=74898302-d13e-4edc-8768-71cef12dec12&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68PT-CPC1-JCG7-83WJ-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=kmnyk&earg=sr0&prid=576fe568-698d-48b9-a0bb-b93c310f5da2",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5cb90ee4-7489-43b8-b825-79b2036ed4ec&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68PK-DD01-JCG7-82F1-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr5&pditab=allpods&ecomp=kmnyk&earg=sr5&prid=576fe568-698d-48b9-a0bb-b93c310f5da2",
+    "https://www.gettyimages.com/detail/news-photo/the-president-of-the-republic-of-chile-gabriel-boric-news-photo/1534015793?adppopup=true",
+    "https://www.gettyimages.com/detail/news-photo/the-president-of-the-spanish-government-pedro-sanchez-and-news-photo/1532794073?adppopup=true",
+    "https://www.gettyimages.com/detail/news-photo/the-ambassador-of-chile-to-spain-javier-velasco-the-news-photo/1542944226?adppopup=true"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-BEL-45123",
+   "our_Trip_ID": "157",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Belgium",
+   "our_Start_Date": "2023-07-17",
+   "our_End_Date": "2023-07-18",
+   "colt_Start": "2023-07-16",
+   "colt_End": "2023-07-18",
+   "discrepancias": "TripStartDate: nuestro=2023-07-17 COLT=2023-07-16 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ef47dcc8-050a-445f-a8e5-12faf89fe73f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68R6-VHN1-JCG7-802J-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=kmnyk&earg=sr0&prid=0b7529f8-e595-47a0-b870-8f0d49f1af4f",
+    "https://www.gettyimages.com/detail/news-photo/his-majesty-king-philippe-receives-his-excellency-gabriel-news-photo/1540485013?adppopup=true",
+    "https://www.gob.cl/en/news/president-boric-at-eu-celac-summit-2023-what-is-happening-in-ukraine-is-an-unacceptable-war-of-imperial-aggression/"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-PRY-45153",
+   "our_Trip_ID": "160",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Paraguay",
+   "our_Start_Date": "2023-08-14",
+   "our_End_Date": "2023-08-15",
+   "colt_Start": "2023-08-15",
+   "colt_End": "2023-08-15",
+   "discrepancias": "TripStartDate: nuestro=2023-08-14 COLT=2023-08-15 (dif 1d)",
+   "colt_links": [
+    "https://www.facebook.com/gabrielboric/posts/pfbid0G6DNquHw5uzjMPSbbPEzzLKnY3Pa5yiJ9azaxfEnPLMQiqWYqiLLuGt7H9gbV3Wvl",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=049b660f-6e1b-46df-8feb-06028e4dedb3&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68Y6-1SH1-DYY9-0455-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr8&pditab=allpods&ecomp=kmnyk&earg=sr8&prid=95064a41-e855-44cb-ad98-ef33a829709d"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-USA-45189",
+   "our_Trip_ID": "161",
+   "President": "Gabriel Boric",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2023-09-19",
+   "our_End_Date": "2023-09-20",
+   "colt_Start": "2023-09-20",
+   "colt_End": "2023-09-22",
+   "discrepancias": "TripStartDate: nuestro=2023-09-19 COLT=2023-09-20 (dif 1d) | TripEndDate: nuestro=2023-09-20 COLT=2023-09-22 (dif 2d)",
+   "colt_links": [
+    "https://gadebate.un.org/en/78/chile",
+    "https://en.mercopress.com/2023/09/21/ukrainian-leader-holds-meetings-with-lula-and-boric",
+    "https://andina.pe/ingles/noticia-president-of-peru-meets-with-chilean-counterpart-boric-956075.aspx",
+    "https://x.com/GabrielBoric/status/1704676870992609434?s=20",
+    "https://www.goshennews.com/news/national_news/us-chile/image_287f4ced-7878-590d-b9dc-1c67f688c8bf.html",
+    "https://x.com/GabrielBoric/status/1705290756863226354?s=20",
+    "https://x.com/Presidencia_cl/status/1705355234640322608?s=20"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-CHN-45213",
+   "our_Trip_ID": "162",
+   "President": "Gabriel Boric",
+   "Destination_Country": "China",
+   "our_Start_Date": "2023-10-14",
+   "our_End_Date": "2023-10-18",
+   "colt_Start": "2023-10-14",
+   "colt_End": "2023-10-19",
+   "discrepancias": "TripEndDate: nuestro=2023-10-18 COLT=2023-10-19 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=cadf0bb9-839e-4b3f-b159-3a2282b7182a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A69FF-0761-F11P-X223-00000-00&pdcontentcomponentid=343637&pdteaserkey=sr2&pditab=allpods&ecomp=hmnyk&earg=sr2&prid=47463fe2-8f7a-4277-99c5-6560a764d4c3",
+    "http://in.china-embassy.gov.cn/eng/zgxw/202310/t20231024_11166726.htm",
+    "https://twitter.com/GabrielBoric/status/1714223062546014403",
+    "https://twitter.com/GabrielBoric/status/1713523219439980895",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f0f9a5d2-bd03-4b98-ae1b-eee8a94b8b3a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A69CJ-BVH1-DYY9-03MJ-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr9&pditab=allpods&ecomp=hmnyk&earg=sr9&prid=47463fe2-8f7a-4277-99c5-6560a764d4c3"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-GTM-45307",
+   "our_Trip_ID": "167",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Guatemala",
+   "our_Start_Date": "2024-01-14",
+   "our_End_Date": "2024-01-15",
+   "colt_Start": "2024-01-16",
+   "colt_End": "2024-01-16",
+   "discrepancias": "TripStartDate: nuestro=2024-01-14 COLT=2024-01-16 (dif 2d) | TripEndDate: nuestro=2024-01-15 COLT=2024-01-16 (dif 1d)",
+   "colt_links": [
+    "https://www.cbsnews.com/news/guatemala-president-bernardo-arevalo-sworn-in-averting-authoritarian-setback/",
+    "https://www.reuters.com/world/americas/reformist-arevalo-assumes-guatemalan-presidency-after-opposition-delays-2024-01-15/"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-DEU-45452",
+   "our_Trip_ID": "168",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Germany",
+   "our_Start_Date": "2024-06-10",
+   "our_End_Date": "2024-06-12",
+   "colt_Start": "2024-06-09",
+   "colt_End": "2024-06-12",
+   "discrepancias": "TripStartDate: nuestro=2024-06-10 COLT=2024-06-09 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=9678c991-8923-47f3-907a-b6a5d284a9c4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C80-2RS1-JDJN-60YM-00000-00&pdcontentcomponentid=475523&pdteaserkey=sr1&pditab=allpods&ecomp=hmnyk&earg=sr1&prid=19edcf19-6521-4060-aa50-a82e915be7bb",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8240c87d-7500-49a0-82a5-fe758d0564d8&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C8N-2N71-DYY9-00YC-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=b39157d2-e6d2-46e9-81e6-041045e78826",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4cfdded7-3ee4-4fbc-88e1-c635121bd2fa&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C8W-26J1-DYY9-04NN-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=hmnyk&earg=sr3&prid=b39157d2-e6d2-46e9-81e6-041045e78826"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-FRA-45459",
+   "our_Trip_ID": "171",
+   "President": "Gabriel Boric",
+   "Destination_Country": "France",
+   "our_Start_Date": "2024-06-17",
+   "our_End_Date": "2024-06-18",
+   "colt_Start": "2024-06-16",
+   "colt_End": "2024-06-17",
+   "discrepancias": "TripStartDate: nuestro=2024-06-17 COLT=2024-06-16 (dif 1d) | TripEndDate: nuestro=2024-06-18 COLT=2024-06-17 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8240c87d-7500-49a0-82a5-fe758d0564d8&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C8N-2N71-DYY9-00YC-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=b39157d2-e6d2-46e9-81e6-041045e78826",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4cfdded7-3ee4-4fbc-88e1-c635121bd2fa&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C8W-26J1-DYY9-04NN-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=hmnyk&earg=sr3&prid=b39157d2-e6d2-46e9-81e6-041045e78826"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-USA-45557",
+   "our_Trip_ID": "173",
+   "President": "Gabriel Boric",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2024-09-23",
+   "our_End_Date": "2024-09-25",
+   "colt_Start": "2024-09-22",
+   "colt_End": "2024-09-25",
+   "discrepancias": "TripStartDate: nuestro=2024-09-23 COLT=2024-09-22 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=e25de772-4966-45a3-a2e0-a2787ab3d790&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6D1B-R661-DYY9-010D-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=cd53f3f5-3f1a-4dad-b0ce-8ddc1ee8c18c",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=bd5d5488-f92e-4e0d-8499-996d0bef3f21&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6D14-87V1-JCG7-84NC-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=cd53f3f5-3f1a-4dad-b0ce-8ddc1ee8c18c"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-URY-45691",
+   "our_Trip_ID": "176",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Uruguay",
+   "our_Start_Date": "2025-02-03",
+   "our_End_Date": "2025-02-04",
+   "colt_Start": "2025-02-03",
+   "colt_End": "2025-02-03",
+   "discrepancias": "TripEndDate: nuestro=2025-02-04 COLT=2025-02-03 (dif 1d)",
+   "colt_links": [
+    "https://x.com/GabrielBoric/status/1886382965820678153",
+    "https://prensa.presidencia.cl/fotonoticia.aspx?id=295519",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=295523",
+    "https://prensa.presidencia.cl/fotonoticia.aspx?id=295572"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-IND-45746",
+   "our_Trip_ID": "178",
+   "President": "Gabriel Boric",
+   "Destination_Country": "India",
+   "our_Start_Date": "2025-04-01",
+   "our_End_Date": "2025-04-05",
+   "colt_Start": "2025-03-30",
+   "colt_End": "2025-04-06",
+   "discrepancias": "TripStartDate: nuestro=2025-04-01 COLT=2025-03-30 (dif 2d) | TripEndDate: nuestro=2025-04-05 COLT=2025-04-06 (dif 1d)",
+   "colt_links": [
+    "https://prensa.presidencia.cl/comunicado.aspx?id=296404",
+    "https://x.com/GabrielBoric/status/1907126042243830093",
+    "https://x.com/GabrielBoric/status/1906960120258719902",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=297148",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=297458",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=297459",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=297935",
+    "https://x.com/GabrielBoric/status/1908540737735491949"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-JPN-45787",
+   "our_Trip_ID": "180",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Japan",
+   "our_Start_Date": "2025-05-11",
+   "our_End_Date": "2025-05-12",
+   "colt_Start": "2025-05-10",
+   "colt_End": "2025-05-12",
+   "discrepancias": "TripStartDate: nuestro=2025-05-11 COLT=2025-05-10 (dif 1d)",
+   "colt_links": [
+    "https://x.com/GabrielBoric/status/1921387141667451219",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=299355",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=299417",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=299530",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=299604"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-USA-45922",
+   "our_Trip_ID": "183",
+   "President": "Gabriel Boric",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2025-09-22",
+   "our_End_Date": "2025-09-25",
+   "colt_Start": "2025-09-22",
+   "colt_End": "2025-09-26",
+   "discrepancias": "TripEndDate: nuestro=2025-09-25 COLT=2025-09-26 (dif 1d)",
+   "colt_links": [
+    "https://www.gettyimages.com/detail/news-photo/president-of-chile-gabriel-boric-font-speaks-during-the-news-photo/2236992535?adppopup=true",
+    "https://webtv.un.org/en/asset/k1k/k1kd2sdyvq",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=854babcd-2373-4a55-b5e1-5c2b5bd7aaab&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6GTT-H593-RYT5-23N8-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=hc-yk&earg=sr4&prid=c80586bf-8d91-45c3-8201-caa9831f0ebb",
+    "https://www.instagram.com/p/DO_h9-Djkhr/?img_index=1",
+    "https://casar.house.gov/media/press-releases/news-casar-meets-world-leaders-oppose-authoritarianism-around-world"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-BRA-45966",
+   "our_Trip_ID": "184",
+   "President": "Gabriel Boric",
+   "Destination_Country": "Brazil",
+   "our_Start_Date": "2025-11-06",
+   "our_End_Date": "2025-11-07",
+   "colt_Start": "2025-11-05",
+   "colt_End": "2025-11-07",
+   "discrepancias": "TripStartDate: nuestro=2025-11-06 COLT=2025-11-05 (dif 1d)",
+   "colt_links": [
+    "https://www.gob.cl/en/news/there-is-no-time-to-lose-president-boric-arrives-at-cop30-and-highlights-chiles-leadership-with-70-renewable-energy-generation/",
+    "https://x.com/GabrielBoric/status/1986234626906726699",
+    "https://x.com/GabrielBoric/status/1986445748087464175",
+    "https://x.com/GabrielBoric/status/1986468437174968511",
+    "https://x.com/GabrielBoric/status/1986809183497253161",
+    "https://x.com/GabrielBoric/status/1986823412321333686",
+    "https://www.facebook.com/gobiernodechile/posts/pfbid02dhWy9M39SeWnHAVXeymnbmHZPcaU2TPpqLoVh1ANW5RBsMMkop9Xqt2pJjHTgarl"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-ARE-45501",
+   "our_Trip_ID": "192",
+   "President": "Gabriel Boric",
+   "Destination_Country": "United Arab Emirates",
+   "our_Start_Date": "2024-07-29",
+   "our_End_Date": "2024-07-30",
+   "colt_Start": "2024-07-28",
+   "colt_End": "2024-07-30",
+   "discrepancias": "TripStartDate: nuestro=2024-07-29 COLT=2024-07-28 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=64936d47-5b09-4cb7-a152-fae571de643e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CKK-V4Y1-JCG7-84WR-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=ab2c98d9-0994-4e5b-bfb9-0cd6384f631f",
+    "https://advance-lexis-com.du.idm.oclc.org/document/documentslider/?pdmfid=1519360&crid=52bd3f56-816d-47a7-b398-99bd29f23dba&pddocid=urn%3AcontentItem%3A6CK5-WX51-DYY9-0319-00000-00&pddocumentnumber=1&pdactivecontenttype=urn%3Ahlct%3A16&pdworkfolderid=&pdssubdataitemid=&pdupdateid=&pdalertresultid=&pdsortkey=relevance%2CDescending&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CK5-WX51-DYY9-0319-00000-00&pdcontentcomponentid=443607&pdcontentversion=&pdtrackchangesavailable=&action=linkdocslider&pddocumentsliderclickvalue=prev&ecomp=g2x8k&prid=64936d47-5b09-4cb7-a152-fae571de643e",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=287990"
+   ]
+  },
+  {
+   "colt_TripID": "3909-CHL-USA-45189",
+   "our_Trip_ID": "193",
+   "President": "Gabriel Boric",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2023-09-22",
+   "our_End_Date": "2023-09-23",
+   "colt_Start": "2023-09-20",
+   "colt_End": "2023-09-22",
+   "discrepancias": "TripStartDate: nuestro=2023-09-22 COLT=2023-09-20 (dif 2d) | TripEndDate: nuestro=2023-09-23 COLT=2023-09-22 (dif 1d)",
+   "colt_links": [
+    "https://gadebate.un.org/en/78/chile",
+    "https://en.mercopress.com/2023/09/21/ukrainian-leader-holds-meetings-with-lula-and-boric",
+    "https://andina.pe/ingles/noticia-president-of-peru-meets-with-chilean-counterpart-boric-956075.aspx",
+    "https://x.com/GabrielBoric/status/1704676870992609434?s=20",
+    "https://www.goshennews.com/news/national_news/us-chile/image_287f4ced-7878-590d-b9dc-1c67f688c8bf.html",
+    "https://x.com/GabrielBoric/status/1705290756863226354?s=20",
+    "https://x.com/Presidencia_cl/status/1705355234640322608?s=20"
+   ]
+  }
+ ],
+ "colt_unico": [
+  {
+   "TripID": "3909-CHL-CHL-45099",
+   "LeaderFullName": "Gabriel Boric",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2023",
+   "TripStartDate": "2023-06-22T00:00:00",
+   "TripEndDate": "2023-06-23T00:00:00",
+   "Notes": "Trip to semi-autonomous Chilean territory in Antarctica",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4c5cf24f-621b-4348-b5b2-5f83c98c982a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68JP-BX11-JDJN-617K-00000-00&pdcontentcomponentid=475523&pdteaserkey=sr1&pditab=allpods&ecomp=kmnyk&earg=sr1&prid=5b7fdee6-052f-4e9e-bd94-e34f4a128e37",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c7aeca65-1ecc-4051-94b5-7ecd7b70b33b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68HW-K1C1-DYY9-02NV-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=kmnyk&earg=sr4&prid=5b7fdee6-052f-4e9e-bd94-e34f4a128e37",
+    "https://www.facebook.com/gabrielboric/posts/pfbid024ywvXXuE9uKqGgB5psGfoqk3YpuRLRGQ1G5ZsDqQs3Pj2MhTohQ52PRVbbvkjtr2l",
+    "https://www.facebook.com/gabrielboric/posts/pfbid0ooViMdEBe1AfKtww7oTFDXSgL9uZ5UhXKH5Jk8bnADTzDctXdj34bu2vkDmNbuJul"
+   ]
+  },
+  {
+   "TripID": "3909-CHL-CHL-45253",
+   "LeaderFullName": "Gabriel Boric",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2023",
+   "TripStartDate": "2023-11-23T00:00:00",
+   "TripEndDate": "2023-11-25T00:00:00",
+   "Notes": "Trip to semi-autonomous Chilean territory in Antarctica;accompanied by United Nations (UN) Secretary-General Antonio Guterres",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.reuters.com/business/environment/un-chief-chiles-boric-visit-antarctica-before-cop28-climate-summit-2023-11-20/",
+    "https://www.facebook.com/gabrielboric/posts/pfbid0zDqmJpFJ6utCAVs6AH1HfFVwN8haEhf4jcP4WjaxEDMMrb2fA3mwsSSowpd8LFMtl",
+    "https://www.facebook.com/gabrielboric/posts/pfbid029GVDjfdhpwLkz4ZT4seEnCbTwSn4VgWMADJMa5nxCC3XCJNsJGxTL6wjt6dzhEKMl",
+    "https://press.un.org/en/2023/sgt3371.doc.htm"
+   ]
+  },
+  {
+   "TripID": "3909-CHL-CHL-45660",
+   "LeaderFullName": "Gabriel Boric",
+   "CountryVisited": "Chile",
+   "CityVisited": "Amundsen-Scott American Base",
+   "TripYear": "2025",
+   "TripStartDate": "2025-01-03T00:00:00",
+   "TripEndDate": "2025-01-04T00:00:00",
+   "Notes": "President Gabriel Boric visited semiautonomous region of Antarctica",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=dc5bb26b-4837-4161-b801-b040eb1ddd1f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6DTH-CV43-RRT2-X3P6-00000-00&pdcontentcomponentid=427593&pdteaserkey=sr2&pditab=allpods&ecomp=hc-yk&earg=sr2&prid=90fed930-2d09-42eb-9797-ae189c2444ca",
+    "https://twitter.com/CNNChile/status/1875565158376075789"
+   ]
+  },
+  {
+   "TripID": "3909-CHL-SLV-45443",
+   "LeaderFullName": "Gabriel Boric",
+   "CountryVisited": "El Salvador",
+   "CityVisited": "None",
+   "TripYear": "2024",
+   "TripStartDate": "2024-05-31T00:00:00",
+   "TripEndDate": "2024-06-01T00:00:00",
+   "Notes": "Attended the presidential inauguration ceremony of President re-elect Nayib Bukele.",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=3cd3929d-4c6a-41f1-bfe0-55197d8f1173&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C57-J141-JCG7-84GH-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hmnyk&earg=sr1&prid=8d6e6652-29c4-46f6-a671-fe4c1cc2390c",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e3263f90-838c-4021-94be-3f2e3c6e8bda&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C57-J141-JCG7-84T4-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=8d6e6652-29c4-46f6-a671-fe4c1cc2390c"
+   ]
+  },
+  {
+   "TripID": "3909-CHL-VAT-45943",
+   "LeaderFullName": "Gabriel Boric",
+   "CountryVisited": "Holy See",
+   "CityVisited": "Vatican City",
+   "TripYear": "2025",
+   "TripStartDate": "2025-10-13T00:00:00",
+   "TripEndDate": "2025-10-13T00:00:00",
+   "Notes": "Visited the Sistine Chapel and the Raphael Rooms;Met with the Cardinal Secretary of State Pietro Parolin and discussed Chile's socio-political situation",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.gob.cl/en/news/president-gabriel-boric-received-in-private-audience-by-pope-leo-xiv-during-official-visit-to-the-holy-see/",
+    "https://en.mercopress.com/2025/10/14/boric-welcomed-at-holy-see-by-leo-xiv"
+   ]
+  },
+  {
+   "TripID": "3909-CHL-ITA-45943",
+   "LeaderFullName": "Gabriel Boric",
+   "CountryVisited": "Italy",
+   "CityVisited": "Rome",
+   "TripYear": "2025",
+   "TripStartDate": "2025-10-13T00:00:00",
+   "TripEndDate": "2025-10-15T00:00:00",
+   "Notes": "Delivered a speech at the opening ceremony of the Hand-in-Hand Initiative Investment Forum where he called for strengthening international cooperation to address food insecurity;Attended the Chile-Italy Business Meeting;Met with President Sergio Mattarella and discussed strengthening bilateral relations;Visited the Papal Basilica Saint Mary Major and laid a rose on the tomb of Pope Francis;Led the commemoration of the 50th anniversary of the attack against Chilean politician Bernardo Leighton and his wife Ana Maria Fresno",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.gob.cl/en/news/working-visit-to-italy-president-gabriel-boric-inaugurates-fao-investment-forum/",
+    "https://prensa.presidencia.cl/fotonoticia.aspx?id=304802",
+    "https://www.facebook.com/gabrielboric/posts/pfbid02X3Z6yBkqTM456pUiwRdhSBN4v5UrL5yGC1nrqrNMvTjLLuSuQ5zUznDL3i6C2oyAl",
+    "https://www.facebook.com/gabrielboric/posts/pfbid02nGQfZZ2vPtLwP7r6JdwaXk3ZiZaPnWQKhZR1sdkbuKZUvSM1ovLTKdw7h9AhXo7Nl",
+    "https://www.facebook.com/reel/2033741390772972/",
+    "https://www.instagram.com/p/DP1yr99AYKM/?img_index=1"
+   ]
+  },
+  {
+   "TripID": "3909-CHL-MEX-45564",
+   "LeaderFullName": "Gabriel Boric",
+   "CountryVisited": "Mexico",
+   "CityVisited": "None",
+   "TripYear": "2024",
+   "TripStartDate": "2024-09-29T00:00:00",
+   "TripEndDate": "2024-10-02T00:00:00",
+   "Notes": "Travelled to Mexico to attend the inauguration of Claudia Sheinbaum, Mexico's first female president",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=d322b748-4bcd-4e61-82aa-e4dcf00df5ab&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6D2M-2GJ1-DYY9-03MF-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=7e669cc8-8beb-4498-957a-38ab214ffe7b",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=0d1216af-8164-4ab8-a0b3-eaf6a3df047d&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6D38-04W1-JCG7-81R0-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=86cf5333-e442-4615-9bd4-0b3e8adfd103",
+    "https://x.com/GabrielBoric/status/1841275102207627268"
+   ]
+  },
+  {
+   "TripID": "3909-CHL-PRY-45479",
+   "LeaderFullName": "Gabriel Boric",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2024",
+   "TripStartDate": "2024-07-06T00:00:00",
+   "TripEndDate": "2024-07-08T00:00:00",
+   "Notes": "Nature of visit unclear;No evidence of Boric's participation in any MERCOSUR events nor any evidence outside of this article of his presence in Paraguay",
+   "Confidence(1-5)": "3",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=5951368a-e884-45c2-ac54-39680f1fee69&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CF4-FDF1-JCG7-81FR-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=e2362d4f-0b95-402b-a919-c837b2700722"
+   ]
+  },
+  {
+   "TripID": "3909-CHL-KOR-45960",
+   "LeaderFullName": "Gabriel Boric",
+   "CountryVisited": "South Korea",
+   "CityVisited": "Seoul;Gyeongju",
+   "TripYear": "2025",
+   "TripStartDate": "2025-10-30T00:00:00",
+   "TripEndDate": "2025-11-01T00:00:00",
+   "Notes": "Delivered a speech at the APEC Summit where he called for an end to war and protectionism;Participated in the Chile-Korea Business Forum;Met with former United Nations Secretary-General Ban Ki-moon and discussed current global challenges;Signed two memorandums of understanding between ProChile, InvestChile and the International Trade Association of Korea (KITA) aimed at strengthening bilateral investment;Signed the renewal of the Canada-Chile Strategic Partnership Framework;Visited the Korea Institute of Science and Technology (KIST);Led the launch of the Green Economy Partnership Agreement (GEPA) with Prime Minister Lawrence Wong and Prime Minister Christopher Luxon;Disputed between South Korea and North Korea",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.gob.cl/noticias/presidente-gabriel-boric-firma-acuerdos-inversiones-exportaciones-republica-corea/",
+    "https://www.instagram.com/p/DQheqJZifkX/?img_index=6",
+    "https://www.msn.com/en-us/news/world/chiles-boric-says-war-and-protectionism-elephants-in-the-room-at-apec-summit/vi-AA1PzvCl",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=4d200a54-bad3-4041-8116-eef45e728333&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6H3P-JX13-RSSH-42R6-00000-00&pdcontentcomponentid=8351&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=04d7b2fe-6b5c-4a8d-ad2e-be19bf810dd2",
+    "https://www.facebook.com/BongbongMarcos/posts/a-productive-meeting-with-president-gabriel-boric-as-we-move-toward-finalizing-a/1382542993240277/",
+    "https://www.facebook.com/gobiernodechile/posts/pfbid0AACnmjsJtPXYX2pRivKvqjo8yye7cUSDGaC8AKGCozr5Q7xVK6VRhFfgHbXq4Z9il",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=7c9255fd-32dd-402e-b6a3-2a0e507b8b48&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6H3Y-3S43-S3JC-V34J-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=d169ced7-2600-4785-9fa9-7239e86a5448"
+   ]
+  },
+  {
+   "TripID": "3909-CHL-ESP-45212",
+   "LeaderFullName": "Gabriel Boric",
+   "CountryVisited": "Spain",
+   "CityVisited": "None",
+   "TripYear": "2023",
+   "TripStartDate": "2023-10-13T00:00:00",
+   "TripEndDate": "2023-10-13T00:00:00",
+   "Notes": "Stopover;met with Chilean air force crew",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://twitter.com/GabrielBoric/status/1712777636643008873"
+   ]
+  },
+  {
+   "TripID": "3909-CHL-URY-45792",
+   "LeaderFullName": "Gabriel Boric",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "Montevideo",
+   "TripYear": "2025",
+   "TripStartDate": "2025-05-15T00:00:00",
+   "TripEndDate": "2025-05-15T00:00:00",
+   "Notes": "Attended the wake of former Uruguayan President Jose Mujica",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=f012ff5c-5152-4810-955e-0a2cdc4ef846&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6FTN-C0J3-RW18-03KR-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=hc-yk&earg=sr4&prid=1570a4a8-bd0a-4352-90bb-c4a640664c3d",
+    "https://x.com/GabrielBoric/status/1923133065573847458",
+    "https://x.com/compresidencia/status/1923074169740140951"
+   ]
+  }
+ ],
+ "nuestro_unico": [
+  {
+   "Trip_ID": "152",
+   "President": "Gabriel Boric",
+   "Start_Date": "2023-01-01",
+   "End_Date": "2023-01-02",
+   "Destination_Country": "Brazil",
+   "Destination_City": "Brasília",
+   "Visit_Subtype": "Inauguration/Funeral",
+   "Counterpart_Event": "Asunción de Luiz Inácio Lula da Silva",
+   "Trip_Objective": "Investidura de Lula.",
+   "Source_Verification": "https://www.biobiochile.cl/noticias/nacional/chile/2023/01/01/presidente-boric-ya-esta-en-brasil-para-investidura-de-lula-da-silva-viajo-junto-a-ricardo-lagos-e.shtml",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "158",
+   "President": "Gabriel Boric",
+   "Start_Date": "2023-07-19",
+   "End_Date": "2023-07-20",
+   "Destination_Country": "Switzerland",
+   "Destination_City": "Ginebra",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "CERN / OMS (Tedros Adhanom)",
+   "Trip_Objective": "Visita al CERN (Chile miembro asociado) y encuentro con el director general de la OMS.",
+   "Source_Verification": "https://www.emol.com/noticias/Nacional/2023/07/07/1100363/gira-europa-presidente-gabriel-boric.html",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "159",
+   "President": "Gabriel Boric",
+   "Start_Date": "2023-07-21",
+   "End_Date": "2023-07-21",
+   "Destination_Country": "France",
+   "Destination_City": "París",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Emmanuel Macron",
+   "Trip_Objective": "Cierre de la gira europea; bilateral con Macron.",
+   "Source_Verification": "https://www.emol.com/noticias/Nacional/2023/07/07/1100363/gira-europa-presidente-gabriel-boric.html",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "177",
+   "President": "Gabriel Boric",
+   "Start_Date": "2025-02-28",
+   "End_Date": "2025-03-01",
+   "Destination_Country": "Uruguay",
+   "Destination_City": "Montevideo",
+   "Visit_Subtype": "Inauguration/Funeral",
+   "Counterpart_Event": "Asunción de Yamandú Orsi",
+   "Trip_Objective": "Investidura de Orsi; bilaterales con Arce y Penia; cena de lideres progresistas.",
+   "Source_Verification": "https://www.df.cl/economia-y-politica/gobierno/boric-viaja-a-uruguay-a-transmision-del-mando-en-que-asumira-el-presidente",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "186",
+   "President": "José Antonio Kast",
+   "Start_Date": "2026-04-05",
+   "End_Date": "2026-04-06",
+   "Destination_Country": "Argentina",
+   "Destination_City": "Buenos Aires",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Javier Milei",
+   "Trip_Objective": "Primer viaje internacional; comercio, energia, seguridad, mineria e integracion fronteriza; apoyo a soberania argentina sobre Malvinas.",
+   "Source_Verification": "https://www.gob.cl/noticias/presidente-jose-antonio-kast-realiza-primer-viaje-internacional-reunion-trabajo-presidente-argentina-javier-milei/",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "187",
+   "President": "José Antonio Kast",
+   "Start_Date": "2026-06-29",
+   "End_Date": "2026-06-30",
+   "Destination_Country": "Paraguay",
+   "Destination_City": "Asunción",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "LXVIII Cumbre del MERCOSUR",
+   "Trip_Objective": "Debut en cumbre regional; lucha coordinada contra el crimen organizado y comercio seguro; bilaterales con Penia, Lula y el canciller aleman Wadephul.",
+   "Source_Verification": "https://prensa.presidencia.cl/fotonoticia.aspx?id=333191",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "188",
+   "President": "José Antonio Kast",
+   "Start_Date": "2026-07-01",
+   "End_Date": "2026-07-01",
+   "Destination_Country": "Uruguay",
+   "Destination_City": "Montevideo",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Yamandú Orsi",
+   "Trip_Objective": "Visita oficial; firma de dos acuerdos (firma digital; MOU Instituto Artigas-Academia Andres Bello); invitacion al Compromiso de Santiago.",
+   "Source_Verification": "https://prensa.presidencia.cl/fotonoticia.aspx?id=333293",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "191",
+   "President": "Gabriel Boric",
+   "Start_Date": "2024-07-24",
+   "End_Date": "2024-07-28",
+   "Destination_Country": "France",
+   "Destination_City": "París",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "Juegos Olímpicos París 2024 (ceremonia inaugural) / Cumbre por el Deporte y el Desarrollo Sostenible (convocada por Macron)",
+   "Trip_Objective": "Ceremonia inaugural JJOO Paris 2024 (invitacion COCh); participacion en Cumbre por el Deporte y Desarrollo Sostenible de Macron con 60+ jefes de Estado; recepcion a deportistas chilenos.",
+   "Source_Verification": "https://www.latercera.com/politica/noticia/boric-visitara-francia-para-participar-de-ceremonia-inaugural-y-actividades-oficiales-de-los-juegos-olimpicos-2024/2JB5ZOILERBUZOBSYT56OK6ADU/",
+   "Source_Reliability": "Medium"
+  }
+ ]
+}

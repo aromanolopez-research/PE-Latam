@@ -1,0 +1,1692 @@
+{
+  "discrepancias": [
+    {
+      "colt_TripID": "1826-ARG-BRA-37786",
+      "our_Trip_ID": "124",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2003-06-11",
+      "our_End_Date": "2003-06-11",
+      "colt_Start": "2003-06-14",
+      "colt_End": "2003-06-15",
+      "discrepancias": "TripStartDate: nuestro=2003-06-11 COLT=2003-06-14 (dif 3d); TripEndDate: nuestro=2003-06-11 COLT=2003-06-15 (dif 4d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452196058?accountid=14608",
+        "http://www.gettyimages.com/license/2072841"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-PRY-37790",
+      "our_Trip_ID": "125",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Paraguay",
+      "our_Start_Date": "2003-06-17",
+      "our_End_Date": "2003-06-18",
+      "colt_Start": "2003-06-18",
+      "colt_End": "2003-06-19",
+      "discrepancias": "TripStartDate: nuestro=2003-06-17 COLT=2003-06-18 (dif 1d); TripEndDate: nuestro=2003-06-18 COLT=2003-06-19 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/249536373?accountid=14608",
+        "http://www.gettyimages.com/license/2093211",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452197194?accountid=14608",
+        "http://www.gettyimages.com/license/2093284"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-GBR-37812",
+      "our_Trip_ID": "127",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "United Kingdom",
+      "our_Start_Date": "2003-07-13",
+      "our_End_Date": "2003-07-14",
+      "colt_Start": "2003-07-10",
+      "colt_End": "2003-07-14",
+      "discrepancias": "TripStartDate: nuestro=2003-07-13 COLT=2003-07-10 (dif 3d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/307164373?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452192727?accountid=14608",
+        "http://www.gettyimages.com/license/2200381",
+        "http://www.gettyimages.com/license/2200434"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-USA-37824",
+      "our_Trip_ID": "128",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2003-07-23",
+      "our_End_Date": "2003-07-23",
+      "colt_Start": "2003-07-22",
+      "colt_End": "2003-07-23",
+      "discrepancias": "TripStartDate: nuestro=2003-07-23 COLT=2003-07-22 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/409473670?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/398833827?accountid=14608",
+        "http://www.gettyimages.com/license/2194339"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-USA-37886",
+      "our_Trip_ID": "129",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2003-09-25",
+      "our_End_Date": "2003-09-25",
+      "colt_Start": "2003-09-22",
+      "colt_End": "2003-09-25",
+      "discrepancias": "TripStartDate: nuestro=2003-09-25 COLT=2003-09-22 (dif 3d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460205565?accountid=14608",
+        "http://www.gettyimages.com/license/2529085",
+        "http://www.gettyimages.com/license/2538072",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/459495672?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-MEX-37998",
+      "our_Trip_ID": "131",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Mexico",
+      "our_Start_Date": "2004-01-12",
+      "our_End_Date": "2004-01-13",
+      "colt_Start": "2004-01-12",
+      "colt_End": "2004-01-14",
+      "discrepancias": "TripEndDate: nuestro=2004-01-13 COLT=2004-01-14 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460215335?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/421854463?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460207215?accountid=14608",
+        "http://www.gettyimages.com/license/2865291"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-ESP-38013",
+      "our_Trip_ID": "132",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Spain",
+      "our_Start_Date": "2004-01-26",
+      "our_End_Date": "2004-01-30",
+      "colt_Start": "2004-01-27",
+      "colt_End": "2004-01-28",
+      "discrepancias": "TripStartDate: nuestro=2004-01-26 COLT=2004-01-27 (dif 1d); TripEndDate: nuestro=2004-01-30 COLT=2004-01-28 (dif 2d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466462569?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460208283?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452465680?accountid=14608",
+        "http://www.gettyimages.com/license/2907814",
+        "http://www.gettyimages.com/license/107559903"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-BRA-38062",
+      "our_Trip_ID": "134",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2004-03-15",
+      "our_End_Date": "2004-03-16",
+      "colt_Start": "2004-03-16",
+      "colt_End": "2004-03-16",
+      "discrepancias": "TripStartDate: nuestro=2004-03-15 COLT=2004-03-16 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460203716?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460209564?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452832531?accountid=14608",
+        "http://www.gettyimages.com/license/3099716"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-USA-38111",
+      "our_Trip_ID": "135",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2004-05-04",
+      "our_End_Date": "2004-05-06",
+      "colt_Start": "2004-05-04",
+      "colt_End": "2004-05-05",
+      "discrepancias": "TripEndDate: nuestro=2004-05-06 COLT=2004-05-05 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466252204?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466244206?accountid=14608",
+        "http://www.gettyimages.com/license/50803337"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-CHN-38166",
+      "our_Trip_ID": "136",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "China",
+      "our_Start_Date": "2004-06-28",
+      "our_End_Date": "2004-07-03",
+      "colt_Start": "2004-06-28",
+      "colt_End": "2004-07-02",
+      "discrepancias": "TripEndDate: nuestro=2004-07-03 COLT=2004-07-02 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460702433?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/257729061?accountid=14608",
+        "http://www.gettyimages.com/license/51003344",
+        "http://www.gettyimages.com/license/51006875"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-BOL-38274",
+      "our_Trip_ID": "140",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Bolivia",
+      "our_Start_Date": "2004-10-14",
+      "our_End_Date": "2004-10-14",
+      "colt_Start": "2004-10-14",
+      "colt_End": "2004-10-15",
+      "discrepancias": "TripEndDate: nuestro=2004-10-14 COLT=2004-10-15 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460231480?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452894775?accountid=14608",
+        "http://www.gettyimages.com/license/51479937"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-BRA-38338",
+      "our_Trip_ID": "142",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2004-12-16",
+      "our_End_Date": "2004-12-17",
+      "colt_Start": "2004-12-17",
+      "colt_End": "2004-12-18",
+      "discrepancias": "TripStartDate: nuestro=2004-12-16 COLT=2004-12-17 (dif 1d); TripEndDate: nuestro=2004-12-17 COLT=2004-12-18 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460193391?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/468187205?accountid=14608",
+        "http://www.gettyimages.com/license/51874783"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-URY-38412",
+      "our_Trip_ID": "144",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Uruguay",
+      "our_Start_Date": "2005-03-01",
+      "our_End_Date": "2005-03-01",
+      "colt_Start": "2005-03-01",
+      "colt_End": "2005-03-02",
+      "discrepancias": "TripEndDate: nuestro=2005-03-01 COLT=2005-03-02 (dif 1d)",
+      "colt_links": [
+        "http://www.gettyimages.com/license/52260062",
+        "http://www.gettyimages.com/license/52264151",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/311716338?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466063771?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-BRA-38481",
+      "our_Trip_ID": "148",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2005-05-10",
+      "our_End_Date": "2005-05-11",
+      "colt_Start": "2005-05-09",
+      "colt_End": "2005-05-10",
+      "discrepancias": "TripStartDate: nuestro=2005-05-10 COLT=2005-05-09 (dif 1d); TripEndDate: nuestro=2005-05-11 COLT=2005-05-10 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460231729?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460195271?accountid=14608",
+        "http://www.gettyimages.com/license/169410527"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-USA-38608",
+      "our_Trip_ID": "150",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2005-09-14",
+      "our_End_Date": "2005-09-15",
+      "colt_Start": "2005-09-13",
+      "colt_End": "2005-09-16",
+      "discrepancias": "TripStartDate: nuestro=2005-09-14 COLT=2005-09-13 (dif 1d); TripEndDate: nuestro=2005-09-15 COLT=2005-09-16 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460327333?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452704884?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/198240355?accountid=14608",
+        "http://www.gettyimages.com/license/55402812",
+        "http://www.gettyimages.com/license/106155734"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-ESP-38638",
+      "our_Trip_ID": "151",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Spain",
+      "our_Start_Date": "2005-10-14",
+      "our_End_Date": "2005-10-15",
+      "colt_Start": "2005-10-13",
+      "colt_End": "2005-10-15",
+      "discrepancias": "TripStartDate: nuestro=2005-10-14 COLT=2005-10-13 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/467898248?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/577544274?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335190444?accountid=14608",
+        "http://www.gettyimages.com/license/55920073"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-VEN-38677",
+      "our_Trip_ID": "152",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Venezuela",
+      "our_Start_Date": "2005-11-21",
+      "our_End_Date": "2005-11-21",
+      "colt_Start": "2005-11-21",
+      "colt_End": "2005-11-22",
+      "discrepancias": "TripEndDate: nuestro=2005-11-21 COLT=2005-11-22 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/344784208?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/577777621?accountid=14608",
+        "http://www.gettyimages.com/license/159109600"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-BRA-39101",
+      "our_Trip_ID": "165",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2007-01-18",
+      "our_End_Date": "2007-01-19",
+      "colt_Start": "2007-01-19",
+      "colt_End": "2007-01-20",
+      "discrepancias": "TripStartDate: nuestro=2007-01-18 COLT=2007-01-19 (dif 1d); TripEndDate: nuestro=2007-01-19 COLT=2007-01-20 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335139208?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335221981?accountid=14608",
+        "http://www.gettyimages.com/license/73042889"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-PRY-39260",
+      "our_Trip_ID": "168",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Paraguay",
+      "our_Start_Date": "2007-06-28",
+      "our_End_Date": "2007-06-29",
+      "colt_Start": "2007-06-27",
+      "colt_End": "2007-06-28",
+      "discrepancias": "TripStartDate: nuestro=2007-06-28 COLT=2007-06-27 (dif 1d); TripEndDate: nuestro=2007-06-29 COLT=2007-06-28 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460175779?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/336570628?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/336609631?accountid=14608",
+        "http://www.gettyimages.com/license/74944151"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-BOL-39302",
+      "our_Trip_ID": "170",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "Bolivia",
+      "our_Start_Date": "2007-08-10",
+      "our_End_Date": "2007-08-10",
+      "colt_Start": "2007-08-08",
+      "colt_End": "2007-08-10",
+      "discrepancias": "TripStartDate: nuestro=2007-08-10 COLT=2007-08-08 (dif 2d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/467219607?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/334851176?accountid=14608",
+        "http://www.gettyimages.com/license/159110337",
+        "http://www.gettyimages.com/license/94654813",
+        "http://www.gettyimages.com/license/76050407"
+      ]
+    },
+    {
+      "colt_TripID": "1826-ARG-USA-39349",
+      "our_Trip_ID": "171",
+      "President": "Néstor Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2007-09-25",
+      "our_End_Date": "2007-09-25",
+      "colt_Start": "2007-09-24",
+      "colt_End": "2007-09-26",
+      "discrepancias": "TripStartDate: nuestro=2007-09-25 COLT=2007-09-24 (dif 1d); TripEndDate: nuestro=2007-09-25 COLT=2007-09-26 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/451150294?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/229040153?accountid=14608",
+        "http://www.gettyimages.com/license/77062745",
+        "http://www.gettyimages.com/license/106155510"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-URY-39433",
+      "our_Trip_ID": "173",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Uruguay",
+      "our_Start_Date": "2007-12-18",
+      "our_End_Date": "2007-12-18",
+      "colt_Start": "2007-12-17",
+      "colt_End": "2007-12-18",
+      "discrepancias": "TripStartDate: nuestro=2007-12-18 COLT=2007-12-17 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/428158062?accountid=14608",
+        "http://www.gettyimages.com/license/78537563",
+        "http://www.gettyimages.com/license/78536918"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-DOM-39514",
+      "our_Trip_ID": "177",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Dominican Republic",
+      "our_Start_Date": "2008-03-07",
+      "our_End_Date": "2008-03-07",
+      "colt_Start": "2008-03-07",
+      "colt_End": "2008-03-09",
+      "discrepancias": "TripEndDate: nuestro=2008-03-07 COLT=2008-03-09 (dif 2d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335390042?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335390329?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/373427916?accountid=14608",
+        "http://www.gettyimages.com/license/80156242"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-PER-39584",
+      "our_Trip_ID": "179",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Peru",
+      "our_Start_Date": "2008-05-16",
+      "our_End_Date": "2008-05-17",
+      "colt_Start": "2008-05-16",
+      "colt_End": "2008-05-18",
+      "discrepancias": "TripEndDate: nuestro=2008-05-17 COLT=2008-05-18 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335429887?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/467000239?accountid=14608",
+        "http://www.gettyimages.com/license/81128484",
+        "http://www.gettyimages.com/license/81109077",
+        "http://www.gettyimages.com/license/81110757"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-ITA-39601",
+      "our_Trip_ID": "182",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Italy",
+      "our_Start_Date": "2008-06-03",
+      "our_End_Date": "2008-06-05",
+      "colt_Start": "2008-06-02",
+      "colt_End": "2008-06-05",
+      "discrepancias": "TripStartDate: nuestro=2008-06-03 COLT=2008-06-02 (dif 1d)",
+      "colt_links": [
+        "http://www.gettyimages.com/license/81333252",
+        "http://www.gettyimages.com/license/81333251",
+        "http://www.gettyimages.com/license/81380374",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/368550230?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/309075504?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-PRY-39674",
+      "our_Trip_ID": "183",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Paraguay",
+      "our_Start_Date": "2008-08-15",
+      "our_End_Date": "2008-08-15",
+      "colt_Start": "2008-08-14",
+      "colt_End": "2008-08-15",
+      "discrepancias": "TripStartDate: nuestro=2008-08-15 COLT=2008-08-14 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/529133650?accountid=14608",
+        "http://www.gettyimages.com/license/156233431",
+        "http://www.gettyimages.com/license/82368002"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-39697",
+      "our_Trip_ID": "184",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2008-09-07",
+      "our_End_Date": "2008-09-08",
+      "colt_Start": "2008-09-06",
+      "colt_End": "2008-09-08",
+      "discrepancias": "TripStartDate: nuestro=2008-09-07 COLT=2008-09-06 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466915940?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335455404?accountid=14608",
+        "http://www.gettyimages.com/license/82717214",
+        "http://www.gettyimages.com/license/82700604",
+        "http://www.gettyimages.com/license/82694076"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-39714",
+      "our_Trip_ID": "186",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2008-09-23",
+      "our_End_Date": "2008-09-23",
+      "colt_Start": "2008-09-23",
+      "colt_End": "2008-09-25",
+      "discrepancias": "TripEndDate: nuestro=2008-09-23 COLT=2008-09-25 (dif 2d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/311529014?accountid=14608",
+        "http://www.gettyimages.com/license/82980449",
+        "http://www.gettyimages.com/license/82973537"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-TUN-39769",
+      "our_Trip_ID": "190",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Tunisia",
+      "our_Start_Date": "2008-11-18",
+      "our_End_Date": "2008-11-19",
+      "colt_Start": "2008-11-17",
+      "colt_End": "2008-11-19",
+      "discrepancias": "TripStartDate: nuestro=2008-11-18 COLT=2008-11-17 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/431366989?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433200809?accountid=14608",
+        "http://www.gettyimages.com/license/83738006",
+        "http://www.gettyimages.com/license/83749838"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-EGY-39771",
+      "our_Trip_ID": "191",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Egypt",
+      "our_Start_Date": "2008-11-20",
+      "our_End_Date": "2008-11-21",
+      "colt_Start": "2008-11-19",
+      "colt_End": "2008-11-20",
+      "discrepancias": "TripStartDate: nuestro=2008-11-20 COLT=2008-11-19 (dif 1d); TripEndDate: nuestro=2008-11-21 COLT=2008-11-20 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433191448?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/428603795?accountid=14608",
+        "http://www.gettyimages.com/license/108970110"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-LBY-39772",
+      "our_Trip_ID": "192",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Libya",
+      "our_Start_Date": "2008-11-21",
+      "our_End_Date": "2008-11-22",
+      "colt_Start": "2008-11-20",
+      "colt_End": "2008-11-22",
+      "discrepancias": "TripStartDate: nuestro=2008-11-21 COLT=2008-11-20 (dif 1d)",
+      "colt_links": [
+        "http://www.gettyimages.com/license/83778547",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/371383097?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-ESP-39853",
+      "our_Trip_ID": "198",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Spain",
+      "our_Start_Date": "2009-02-07",
+      "our_End_Date": "2009-02-10",
+      "colt_Start": "2009-02-09",
+      "colt_End": "2009-02-11",
+      "discrepancias": "TripStartDate: nuestro=2009-02-07 COLT=2009-02-09 (dif 2d); TripEndDate: nuestro=2009-02-10 COLT=2009-02-11 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/428764503?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433353902?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433351209?accountid=14608",
+        "http://www.gettyimages.com/license/84702882"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-39892",
+      "our_Trip_ID": "199",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2009-03-19",
+      "our_End_Date": "2009-03-20",
+      "colt_Start": "2009-03-20",
+      "colt_End": "2009-03-20",
+      "discrepancias": "TripStartDate: nuestro=2009-03-19 COLT=2009-03-20 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466749922?accountid=14608",
+        "http://www.gettyimages.com/license/85531374",
+        "http://www.gettyimages.com/license/103216598"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-GBR-39904",
+      "our_Trip_ID": "202",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "United Kingdom",
+      "our_Start_Date": "2009-04-01",
+      "our_End_Date": "2009-04-02",
+      "colt_Start": "2009-04-01",
+      "colt_End": "2009-04-03",
+      "discrepancias": "TripEndDate: nuestro=2009-04-02 COLT=2009-04-03 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/457610226?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466742039?accountid=14608",
+        "http://www.gettyimages.com/license/85754737",
+        "http://www.gettyimages.com/license/85754701"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-CHE-39979",
+      "our_Trip_ID": "204",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Switzerland",
+      "our_Start_Date": "2009-06-14",
+      "our_End_Date": "2009-06-14",
+      "colt_Start": "2009-06-15",
+      "colt_End": "2009-06-16",
+      "discrepancias": "TripStartDate: nuestro=2009-06-14 COLT=2009-06-15 (dif 1d); TripEndDate: nuestro=2009-06-14 COLT=2009-06-16 (dif 2d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/471882768?accountid=14608",
+        "http://www.gettyimages.com/license/88496081"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-SLV-39999",
+      "our_Trip_ID": "205",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "El Salvador",
+      "our_Start_Date": "2009-07-05",
+      "our_End_Date": "2009-07-06",
+      "colt_Start": "2009-07-05",
+      "colt_End": "2009-07-05",
+      "discrepancias": "TripEndDate: nuestro=2009-07-06 COLT=2009-07-05 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433580026?accountid=14608",
+        "http://www.gettyimages.com/license/88845531"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-PRY-40017",
+      "our_Trip_ID": "206",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Paraguay",
+      "our_Start_Date": "2009-07-23",
+      "our_End_Date": "2009-07-24",
+      "colt_Start": "2009-07-23",
+      "colt_End": "2009-07-25",
+      "discrepancias": "TripEndDate: nuestro=2009-07-24 COLT=2009-07-25 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335282445?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466677040?accountid=14608",
+        "http://www.gettyimages.com/license/103265908",
+        "http://www.gettyimages.com/license/89238030"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-VEN-40036",
+      "our_Trip_ID": "208",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Venezuela",
+      "our_Start_Date": "2009-08-11",
+      "our_End_Date": "2009-08-11",
+      "colt_Start": "2009-08-11",
+      "colt_End": "2009-08-12",
+      "discrepancias": "TripEndDate: nuestro=2009-08-11 COLT=2009-08-12 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/336646805?accountid=14608",
+        "http://www.gettyimages.com/license/89741696"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-40077",
+      "our_Trip_ID": "209",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2009-09-23",
+      "our_End_Date": "2009-09-23",
+      "colt_Start": "2009-09-21",
+      "colt_End": "2009-09-25",
+      "discrepancias": "TripStartDate: nuestro=2009-09-23 COLT=2009-09-21 (dif 2d); TripEndDate: nuestro=2009-09-23 COLT=2009-09-25 (dif 2d)",
+      "colt_links": [
+        "http://www.gettyimages.com/license/91066233",
+        "http://www.gettyimages.com/license/160684045",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/450584097?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/250564765?accountid=14608",
+        "http://www.gettyimages.com/license/91125267"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-40077",
+      "our_Trip_ID": "210",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2009-09-24",
+      "our_End_Date": "2009-09-25",
+      "colt_Start": "2009-09-21",
+      "colt_End": "2009-09-25",
+      "discrepancias": "TripStartDate: nuestro=2009-09-24 COLT=2009-09-21 (dif 3d)",
+      "colt_links": [
+        "http://www.gettyimages.com/license/91066233",
+        "http://www.gettyimages.com/license/160684045",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/450584097?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/250564765?accountid=14608",
+        "http://www.gettyimages.com/license/91125267"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-IND-40099",
+      "our_Trip_ID": "212",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "India",
+      "our_Start_Date": "2009-10-13",
+      "our_End_Date": "2009-10-14",
+      "colt_Start": "2009-10-13",
+      "colt_End": "2009-10-15",
+      "discrepancias": "TripEndDate: nuestro=2009-10-14 COLT=2009-10-15 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1238955142?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/222101899?accountid=14608",
+        "http://www.gettyimages.com/license/91954472",
+        "http://meagovin/bilateral-documentshtm?dtl/4911/Joint+Statement+by+India+and+Argentina+on+the+Visit+of+President+of+the+Argentine+Republic+to+India"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-VAT-40145",
+      "our_Trip_ID": "214",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Vatican City",
+      "our_Start_Date": "2009-11-27",
+      "our_End_Date": "2009-11-28",
+      "colt_Start": "2009-11-28",
+      "colt_End": "2009-11-29",
+      "discrepancias": "TripStartDate: nuestro=2009-11-27 COLT=2009-11-28 (dif 1d); TripEndDate: nuestro=2009-11-28 COLT=2009-11-29 (dif 1d)",
+      "colt_links": [
+        "http://www.gettyimages.com/license/93459641",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460149791?accountid=14608",
+        "http://www.gettyimages.com/license/93462565"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-PRT-40147",
+      "our_Trip_ID": "215",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Portugal",
+      "our_Start_Date": "2009-11-29",
+      "our_End_Date": "2009-12-01",
+      "colt_Start": "2009-11-30",
+      "colt_End": "2009-12-01",
+      "discrepancias": "TripStartDate: nuestro=2009-11-29 COLT=2009-11-30 (dif 1d)",
+      "colt_links": [
+        "http://www.gettyimages.com/license/93495206",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433858057?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433858564?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-URY-40156",
+      "our_Trip_ID": "216",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Uruguay",
+      "our_Start_Date": "2009-12-08",
+      "our_End_Date": "2009-12-08",
+      "colt_Start": "2009-12-09",
+      "colt_End": "2009-12-10",
+      "discrepancias": "TripStartDate: nuestro=2009-12-08 COLT=2009-12-09 (dif 1d); TripEndDate: nuestro=2009-12-08 COLT=2009-12-10 (dif 2d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/378401299?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/378116346?accountid=14608",
+        "http://www.gettyimages.com/license/94145968",
+        "http://www.gettyimages.com/license/94142537"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-URY-40238",
+      "our_Trip_ID": "219",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Uruguay",
+      "our_Start_Date": "2010-03-01",
+      "our_End_Date": "2010-03-01",
+      "colt_Start": "2010-03-01",
+      "colt_End": "2010-03-02",
+      "discrepancias": "TripEndDate: nuestro=2010-03-01 COLT=2010-03-02 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433966330?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/378402326?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-PER-40259",
+      "our_Trip_ID": "221",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Peru",
+      "our_Start_Date": "2010-03-21",
+      "our_End_Date": "2010-03-23",
+      "colt_Start": "2010-03-22",
+      "colt_End": "2010-03-23",
+      "discrepancias": "TripStartDate: nuestro=2010-03-21 COLT=2010-03-22 (dif 1d)",
+      "colt_links": [
+        "http://www.gettyimages.com/license/97942293",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/336394057?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433980271?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433980918?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-BOL-40263",
+      "our_Trip_ID": "222",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Bolivia",
+      "our_Start_Date": "2010-03-26",
+      "our_End_Date": "2010-03-26",
+      "colt_Start": "2010-03-26",
+      "colt_End": "2010-03-27",
+      "discrepancias": "TripEndDate: nuestro=2010-03-26 COLT=2010-03-27 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433962253?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433959027?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/435171729?accountid=14608",
+        "http://www.gettyimages.com/license/98073467"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-40278",
+      "our_Trip_ID": "223",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2010-04-12",
+      "our_End_Date": "2010-04-13",
+      "colt_Start": "2010-04-10",
+      "colt_End": "2010-04-13",
+      "discrepancias": "TripStartDate: nuestro=2010-04-12 COLT=2010-04-10 (dif 2d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/192330364?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/473156938?accountid=14608",
+        "http://www.gettyimages.com/license/98375716",
+        "http://www.gettyimages.com/license/98416757"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-VEN-40287",
+      "our_Trip_ID": "224",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Venezuela",
+      "our_Start_Date": "2010-04-18",
+      "our_End_Date": "2010-04-20",
+      "colt_Start": "2010-04-19",
+      "colt_End": "2010-04-20",
+      "discrepancias": "TripStartDate: nuestro=2010-04-18 COLT=2010-04-19 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335363637?accountid=14608",
+        "http://www.gettyimages.com/license/98576472",
+        "http://www.gettyimages.com/license/98544237"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-ESP-40315",
+      "our_Trip_ID": "225",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Spain",
+      "our_Start_Date": "2010-05-17",
+      "our_End_Date": "2010-05-18",
+      "colt_Start": "2010-05-17",
+      "colt_End": "2010-05-19",
+      "discrepancias": "TripEndDate: nuestro=2010-05-18 COLT=2010-05-19 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/749295290?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/366381114?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/288434009?accountid=14608",
+        "http://www.gettyimages.com/license/99690954",
+        "http://www.gettyimages.com/license/99712349"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-40325",
+      "our_Trip_ID": "226",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2010-05-27",
+      "our_End_Date": "2010-05-29",
+      "colt_Start": "2010-05-27",
+      "colt_End": "2010-05-28",
+      "discrepancias": "TripEndDate: nuestro=2010-05-29 COLT=2010-05-28 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/335363411?accountid=14608",
+        "http://www.gettyimages.com/license/101243912",
+        "http://www.gettyimages.com/license/101241471",
+        "http://www.gettyimages.com/license/101240795"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-CAN-40354",
+      "our_Trip_ID": "228",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Canada",
+      "our_Start_Date": "2010-06-26",
+      "our_End_Date": "2010-06-27",
+      "colt_Start": "2010-06-25",
+      "colt_End": "2010-06-28",
+      "discrepancias": "TripStartDate: nuestro=2010-06-26 COLT=2010-06-25 (dif 1d); TripEndDate: nuestro=2010-06-27 COLT=2010-06-28 (dif 1d)",
+      "colt_links": [
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=d31f5787-84a3-48bd-abed-24671d8909bb&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YT9-CBP1-2R51-70MY-00000-00&pdcontentcomponentid=10962&pdteaserkey=sr0&pditab=allpods&ecomp=szznk&earg=sr0&prid=5bf9142a-bcde-477d-acd4-3c3d3d608917",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4f85b8ee-66f0-495a-9904-aedad4920132&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YTF-T430-YB69-H125-00000-00&pdcontentcomponentid=317753&pdteaserkey=sr3&pditab=allpods&ecomp=szznk&earg=sr3&prid=5bf9142a-bcde-477d-acd4-3c3d3d608917",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/734762619?accountid=14608",
+        "http://www.gettyimages.com/license/102462941",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/734763444?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/521454172?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-CHN-40370",
+      "our_Trip_ID": "229",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "China",
+      "our_Start_Date": "2010-07-12",
+      "our_End_Date": "2010-07-15",
+      "colt_Start": "2010-07-11",
+      "colt_End": "2010-07-15",
+      "discrepancias": "TripStartDate: nuestro=2010-07-12 COLT=2010-07-11 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/610245023?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/608723112?accountid=14608",
+        "http://www.gettyimages.com/license/102823115",
+        "http://www.gettyimages.com/license/102841680"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-40443",
+      "our_Trip_ID": "230",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2010-09-24",
+      "our_End_Date": "2010-09-24",
+      "colt_Start": "2010-09-22",
+      "colt_End": "2010-09-24",
+      "discrepancias": "TripStartDate: nuestro=2010-09-24 COLT=2010-09-22 (dif 2d)",
+      "colt_links": [
+        "http://www.gettyimages.com/license/104506515",
+        "http://www.gettyimages.com/license/104401200",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/753916675?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-40529",
+      "our_Trip_ID": "234",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2010-12-17",
+      "our_End_Date": "2010-12-17",
+      "colt_Start": "2010-12-17",
+      "colt_End": "2010-12-18",
+      "discrepancias": "TripEndDate: nuestro=2010-12-17 COLT=2010-12-18 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/818496958?accountid=14608",
+        "http://www.gettyimages.com/license/107648009"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-QAT-40562",
+      "our_Trip_ID": "236",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Qatar",
+      "our_Start_Date": "2011-01-18",
+      "our_End_Date": "2011-01-19",
+      "colt_Start": "2011-01-19",
+      "colt_End": "2011-01-20",
+      "discrepancias": "TripStartDate: nuestro=2011-01-18 COLT=2011-01-19 (dif 1d); TripEndDate: nuestro=2011-01-19 COLT=2011-01-20 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/845710791?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-ITA-40695",
+      "our_Trip_ID": "241",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Italy",
+      "our_Start_Date": "2011-05-31",
+      "our_End_Date": "2011-06-02",
+      "colt_Start": "2011-06-01",
+      "colt_End": "2011-06-03",
+      "discrepancias": "TripStartDate: nuestro=2011-05-31 COLT=2011-06-01 (dif 1d); TripEndDate: nuestro=2011-06-02 COLT=2011-06-03 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/869389184?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/869526674?accountid=14608",
+        "http://www.gettyimages.com/license/115123925",
+        "http://www.gettyimages.com/license/115099908"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-FRA-40799",
+      "our_Trip_ID": "245",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "France",
+      "our_Start_Date": "2011-09-12",
+      "our_End_Date": "2011-09-14",
+      "colt_Start": "2011-09-13",
+      "colt_End": "2011-09-14",
+      "discrepancias": "TripStartDate: nuestro=2011-09-12 COLT=2011-09-13 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/891715431?accountid=14608",
+        "http://www.gettyimages.com/license/124931597",
+        "http://www.gettyimages.com/license/124924186"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-40807",
+      "our_Trip_ID": "246",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2011-09-21",
+      "our_End_Date": "2011-09-21",
+      "colt_Start": "2011-09-21",
+      "colt_End": "2011-09-22",
+      "discrepancias": "TripEndDate: nuestro=2011-09-21 COLT=2011-09-22 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/892975645?accountid=14608",
+        "http://www.gettyimages.com/license/125722625"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-VEN-40878",
+      "our_Trip_ID": "248",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Venezuela",
+      "our_Start_Date": "2011-12-02",
+      "our_End_Date": "2011-12-03",
+      "colt_Start": "2011-12-01",
+      "colt_End": "2011-12-02",
+      "discrepancias": "TripStartDate: nuestro=2011-12-02 COLT=2011-12-01 (dif 1d); TripEndDate: nuestro=2011-12-03 COLT=2011-12-02 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1014011924?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/922064853?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/907541349?accountid=14608",
+        "http://www.gettyimages.com/license/134423062"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-AGO-41047",
+      "our_Trip_ID": "251",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Angola",
+      "our_Start_Date": "2012-05-16",
+      "our_End_Date": "2012-05-18",
+      "colt_Start": "2012-05-18",
+      "colt_End": "2012-05-19",
+      "discrepancias": "TripStartDate: nuestro=2012-05-16 COLT=2012-05-18 (dif 2d); TripEndDate: nuestro=2012-05-18 COLT=2012-05-19 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1014264581?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-41176",
+      "our_Trip_ID": "256",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2012-09-24",
+      "our_End_Date": "2012-09-25",
+      "colt_Start": "2012-09-24",
+      "colt_End": "2012-09-26",
+      "discrepancias": "TripEndDate: nuestro=2012-09-25 COLT=2012-09-26 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1080817869?accountid=14608",
+        "http://www.gettyimages.com/license/152763977",
+        "http://www.gettyimages.com/license/152800153",
+        "http://www.gettyimages.com/license/152768104"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-PER-41183",
+      "our_Trip_ID": "257",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Peru",
+      "our_Start_Date": "2012-10-01",
+      "our_End_Date": "2012-10-02",
+      "colt_Start": "2012-10-01",
+      "colt_End": "2012-10-03",
+      "discrepancias": "TripEndDate: nuestro=2012-10-02 COLT=2012-10-03 (dif 1d)",
+      "colt_links": [
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=0eb5ba93-fb32-411e-be52-f2169b9e270b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A56PJ-RNF1-F02M-73PF-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr2&pditab=allpods&ecomp=yzvnk&earg=sr2&prid=0b6c356c-c6b3-4bbc-bbc9-4d026241eead",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=31cd0cc7-3510-425d-8f31-acaf96908583&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A56R6-VYY1-F07G-R4KV-00000-00&pdcontentcomponentid=304750&pdteaserkey=sr0&pditab=allpods&ecomp=yzvnk&earg=sr0&prid=fde2a129-dfbe-45d0-9711-35284e3e6d5c",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=60ee2ec9-88e5-4b9f-a298-af5301f19c1b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A56RD-T6W1-DYBK-D2G6-00000-00&pdcontentcomponentid=280798&pdteaserkey=sr7&pditab=allpods&ecomp=yzvnk&earg=sr7&prid=fde2a129-dfbe-45d0-9711-35284e3e6d5c",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=60ee2ec9-88e5-4b9f-a298-af5301f19c1b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A56RD-T6W1-DYBK-D2G6-00000-00&pdcontentcomponentid=280798&pdteaserkey=sr7&pditab=allpods&ecomp=yzvnk&earg=sr7&prid=fde2a129-dfbe-45d0-9711-35284e3e6d5c"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-41250",
+      "our_Trip_ID": "258",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2012-12-06",
+      "our_End_Date": "2012-12-07",
+      "colt_Start": "2012-12-07",
+      "colt_End": "2012-12-08",
+      "discrepancias": "TripStartDate: nuestro=2012-12-06 COLT=2012-12-07 (dif 1d); TripEndDate: nuestro=2012-12-07 COLT=2012-12-08 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1223449359?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1223815489?accountid=14608",
+        "http://www.gettyimages.com/license/157871673"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-ARE-41288",
+      "our_Trip_ID": "260",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "United Arab Emirates",
+      "our_Start_Date": "2013-01-13",
+      "our_End_Date": "2013-01-15",
+      "colt_Start": "2013-01-14",
+      "colt_End": "2013-01-15",
+      "discrepancias": "TripStartDate: nuestro=2013-01-13 COLT=2013-01-14 (dif 1d)",
+      "colt_links": [
+        "https://du.idm.oclc.org/login?url=https://www.proquest.com/newspapers/uae-argentina-sign-civil-n-power-pact/docview/1269529761/se-2?accountid=14608",
+        "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/openurl?ctx_ver=z39.88-2004&rft_id=info%3Asid/infoweb.newsbank.com&svc_dat=WORLDNEWS&req_dat=756A2F2418E841258B15CB5C2C5A3A92&rft_val_format=info%3Aofi/fmt%3Akev%3Amtx%3Actx&rft_dat=document_id%3Anews%252F143D60E993C26150",
+        "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b9ecc1ca-2e2a-47f1-abb0-4f5a41a0be5b/?context=1516831"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-CHL-41301",
+      "our_Trip_ID": "263",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Chile",
+      "our_Start_Date": "2013-01-26",
+      "our_End_Date": "2013-01-27",
+      "colt_Start": "2013-01-27",
+      "colt_End": "2013-01-28",
+      "discrepancias": "TripStartDate: nuestro=2013-01-26 COLT=2013-01-27 (dif 1d); TripEndDate: nuestro=2013-01-27 COLT=2013-01-28 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1281908566?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1282081277?accountid=14608",
+        "ww.gettyimages.com/license/160202626"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-VEN-41339",
+      "our_Trip_ID": "264",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Venezuela",
+      "our_Start_Date": "2013-03-06",
+      "our_End_Date": "2013-03-07",
+      "colt_Start": "2013-03-06",
+      "colt_End": "2013-03-06",
+      "discrepancias": "TripEndDate: nuestro=2013-03-07 COLT=2013-03-06 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1314910200?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1314671392?accountid=14608",
+        "http://www.gettyimages.com/license/163277495"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-VAT-41350",
+      "our_Trip_ID": "265",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Vatican City",
+      "our_Start_Date": "2013-03-18",
+      "our_End_Date": "2013-03-19",
+      "colt_Start": "2013-03-17",
+      "colt_End": "2013-03-18",
+      "discrepancias": "TripStartDate: nuestro=2013-03-18 COLT=2013-03-17 (dif 1d); TripEndDate: nuestro=2013-03-19 COLT=2013-03-18 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1317540452?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1317513231?accountid=14608",
+        "http://www.gettyimages.com/license/163935384",
+        "http://www.gettyimages.com/license/163994808"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-PER-41382",
+      "our_Trip_ID": "266",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Peru",
+      "our_Start_Date": "2013-04-18",
+      "our_End_Date": "2013-04-18",
+      "colt_Start": "2013-04-18",
+      "colt_End": "2013-04-19",
+      "discrepancias": "TripEndDate: nuestro=2013-04-18 COLT=2013-04-19 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1317513231?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1328385690?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-BOL-41459",
+      "our_Trip_ID": "268",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Bolivia",
+      "our_Start_Date": "2013-07-04",
+      "our_End_Date": "2013-07-04",
+      "colt_Start": "2013-07-04",
+      "colt_End": "2013-07-05",
+      "discrepancias": "TripEndDate: nuestro=2013-07-04 COLT=2013-07-05 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1393978088?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1397768877?accountid=14608",
+        "http://www.gettyimages.com/license/172818120"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-URY-41466",
+      "our_Trip_ID": "269",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Uruguay",
+      "our_Start_Date": "2013-07-12",
+      "our_End_Date": "2013-07-12",
+      "colt_Start": "2013-07-11",
+      "colt_End": "2013-07-12",
+      "discrepancias": "TripStartDate: nuestro=2013-07-12 COLT=2013-07-11 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1399520080?accountid=14608",
+        "http://www.gettyimages.com/license/173356766",
+        "http://www.gettyimages.com/license/173345305"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-41483",
+      "our_Trip_ID": "271",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2013-07-27",
+      "our_End_Date": "2013-07-28",
+      "colt_Start": "2013-07-28",
+      "colt_End": "2013-07-28",
+      "discrepancias": "TripStartDate: nuestro=2013-07-27 COLT=2013-07-28 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1413089387?accountid=14608",
+        "http://www.gettyimages.com/license/174644616"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-41492",
+      "our_Trip_ID": "272",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2013-08-05",
+      "our_End_Date": "2013-08-06",
+      "colt_Start": "2013-08-06",
+      "colt_End": "2013-08-07",
+      "discrepancias": "TripStartDate: nuestro=2013-08-05 COLT=2013-08-06 (dif 1d); TripEndDate: nuestro=2013-08-06 COLT=2013-08-07 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1418256738?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1418087896?accountid=14608",
+        "http://www.gettyimages.com/license/175684684"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-PRY-41500",
+      "our_Trip_ID": "273",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Paraguay",
+      "our_Start_Date": "2013-08-15",
+      "our_End_Date": "2013-08-15",
+      "colt_Start": "2013-08-14",
+      "colt_End": "2013-08-15",
+      "discrepancias": "TripStartDate: nuestro=2013-08-15 COLT=2013-08-14 (dif 1d)",
+      "colt_links": [
+        "http://www.gettyimages.com/license/176557455",
+        "http://www.gettyimages.com/license/176550085",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1424275099?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-RUS-41521",
+      "our_Trip_ID": "275",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Russia",
+      "our_Start_Date": "2013-09-05",
+      "our_End_Date": "2013-09-06",
+      "colt_Start": "2013-09-04",
+      "colt_End": "2013-09-06",
+      "discrepancias": "TripStartDate: nuestro=2013-09-05 COLT=2013-09-04 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1430548498?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1430628347?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1430245713?accountid=14608",
+        "http://www.gettyimages.com/license/179558472"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-41541",
+      "our_Trip_ID": "276",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2013-09-24",
+      "our_End_Date": "2013-09-24",
+      "colt_Start": "2013-09-24",
+      "colt_End": "2013-09-25",
+      "discrepancias": "TripEndDate: nuestro=2013-09-24 COLT=2013-09-25 (dif 1d)",
+      "colt_links": [
+        "http://www.gettyimages.com/license/181756061",
+        "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e9b90a19-e7dd-4aa8-bcb4-73f2c4191b1c/?context=1516831"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-CHL-41708",
+      "our_Trip_ID": "278",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Chile",
+      "our_Start_Date": "2014-03-10",
+      "our_End_Date": "2014-03-10",
+      "colt_Start": "2014-03-10",
+      "colt_End": "2014-03-11",
+      "discrepancias": "TripEndDate: nuestro=2014-03-10 COLT=2014-03-11 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1506446553?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1505377476?accountid=14608",
+        "http://www.gettyimages.com/license/477905689"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-VAT-41714",
+      "our_Trip_ID": "279",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Vatican City",
+      "our_Start_Date": "2014-03-17",
+      "our_End_Date": "2014-03-17",
+      "colt_Start": "2014-03-16",
+      "colt_End": "2014-03-17",
+      "discrepancias": "TripStartDate: nuestro=2014-03-17 COLT=2014-03-16 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1509222031?accountid=14608",
+        "http://www.gettyimages.com/license/479225507"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-FRA-41717",
+      "our_Trip_ID": "280",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "France",
+      "our_Start_Date": "2014-03-18",
+      "our_End_Date": "2014-03-20",
+      "colt_Start": "2014-03-19",
+      "colt_End": "2014-03-21",
+      "discrepancias": "TripStartDate: nuestro=2014-03-18 COLT=2014-03-19 (dif 1d); TripEndDate: nuestro=2014-03-20 COLT=2014-03-21 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1523678535?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1508942443?accountid=14608",
+        "http://www.gettyimages.com/license/479508535"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-41836",
+      "our_Trip_ID": "282",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2014-07-15",
+      "our_End_Date": "2014-07-16",
+      "colt_Start": "2014-07-16",
+      "colt_End": "2014-07-17",
+      "discrepancias": "TripStartDate: nuestro=2014-07-15 COLT=2014-07-16 (dif 1d); TripEndDate: nuestro=2014-07-16 COLT=2014-07-17 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1545426178?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1545174835?accountid=14608",
+        "http://www.gettyimages.com/license/452223604"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-VEN-41849",
+      "our_Trip_ID": "283",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Venezuela",
+      "our_Start_Date": "2014-07-29",
+      "our_End_Date": "2014-07-29",
+      "colt_Start": "2014-07-29",
+      "colt_End": "2014-07-30",
+      "discrepancias": "TripEndDate: nuestro=2014-07-29 COLT=2014-07-30 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1549397727?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1549579260?accountid=14608",
+        "http://www.gettyimages.com/license/452891038"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-PRY-41864",
+      "our_Trip_ID": "284",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Paraguay",
+      "our_Start_Date": "2014-08-13",
+      "our_End_Date": "2014-08-13",
+      "colt_Start": "2014-08-13",
+      "colt_End": "2014-08-14",
+      "discrepancias": "TripEndDate: nuestro=2014-08-13 COLT=2014-08-14 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1553693635?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1553714748?accountid=14608",
+        "http://www.gettyimages.com/license/453564766"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-41905",
+      "our_Trip_ID": "286",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2014-09-24",
+      "our_End_Date": "2014-09-25",
+      "colt_Start": "2014-09-23",
+      "colt_End": "2014-09-25",
+      "discrepancias": "TripStartDate: nuestro=2014-09-24 COLT=2014-09-23 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1565882664?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1636967371?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1564440400?accountid=14608",
+        "http://www.gettyimages.com/license/456038334"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-CHN-42038",
+      "our_Trip_ID": "288",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "China",
+      "our_Start_Date": "2015-02-02",
+      "our_End_Date": "2015-02-05",
+      "colt_Start": "2015-02-03",
+      "colt_End": "2015-02-06",
+      "discrepancias": "TripStartDate: nuestro=2015-02-02 COLT=2015-02-03 (dif 1d); TripEndDate: nuestro=2015-02-05 COLT=2015-02-06 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1650952797?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1652078150?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1651323899?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1650876259?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-RUS-42114",
+      "our_Trip_ID": "290",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Russia",
+      "our_Start_Date": "2015-04-22",
+      "our_End_Date": "2015-04-23",
+      "colt_Start": "2015-04-20",
+      "colt_End": "2015-04-24",
+      "discrepancias": "TripStartDate: nuestro=2015-04-22 COLT=2015-04-20 (dif 2d); TripEndDate: nuestro=2015-04-23 COLT=2015-04-24 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1675072441?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1675072082?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1674963149?accountid=14608",
+        "http://www.gettyimages.com/license/470799014",
+        "http://www.gettyimages.com/license/470792226"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-ITA-42162",
+      "our_Trip_ID": "292",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Italy",
+      "our_Start_Date": "2015-06-08",
+      "our_End_Date": "2015-06-09",
+      "colt_Start": "2015-06-07",
+      "colt_End": "2015-06-08",
+      "discrepancias": "TripStartDate: nuestro=2015-06-08 COLT=2015-06-07 (dif 1d); TripEndDate: nuestro=2015-06-09 COLT=2015-06-08 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1686887281?accountid=14609",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1686730416?accountid=14609"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-PRY-42197",
+      "our_Trip_ID": "293",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Paraguay",
+      "our_Start_Date": "2015-07-12",
+      "our_End_Date": "2015-07-12",
+      "colt_Start": "2015-07-12",
+      "colt_End": "2015-07-13",
+      "discrepancias": "TripEndDate: nuestro=2015-07-12 COLT=2015-07-13 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1696942063?accountid=14608",
+        "http://www.gettyimages.com/license/480497554"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-42202",
+      "our_Trip_ID": "294",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2015-07-16",
+      "our_End_Date": "2015-07-17",
+      "colt_Start": "2015-07-17",
+      "colt_End": "2015-07-17",
+      "discrepancias": "TripStartDate: nuestro=2015-07-16 COLT=2015-07-17 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1696924170?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1697227949?accountid=14608",
+        "http://www.gettyimages.com/license/481076706"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-CUB-42267",
+      "our_Trip_ID": "295",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "Cuba",
+      "our_Start_Date": "2015-09-19",
+      "our_End_Date": "2015-09-20",
+      "colt_Start": "2015-09-20",
+      "colt_End": "2015-09-21",
+      "discrepancias": "TripStartDate: nuestro=2015-09-19 COLT=2015-09-20 (dif 1d); TripEndDate: nuestro=2015-09-20 COLT=2015-09-21 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1713853418?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1713899792?accountid=14608",
+        "http://www.gettyimages.com/license/489289622"
+      ]
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-42275",
+      "our_Trip_ID": "296",
+      "President": "Cristina Fernández de Kirchner",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2015-09-27",
+      "our_End_Date": "2015-09-28",
+      "colt_Start": "2015-09-28",
+      "colt_End": "2015-09-29",
+      "discrepancias": "TripStartDate: nuestro=2015-09-27 COLT=2015-09-28 (dif 1d); TripEndDate: nuestro=2015-09-28 COLT=2015-09-29 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/1717897157?accountid=14608",
+        "http://www.gettyimages.com/license/490451162"
+      ]
+    }
+  ],
+  "colt_unico": [
+    {
+      "TripID": "1826-ARG-VEN-37807",
+      "LeaderFullName": "Nestor Kirchner",
+      "CountryVisited": "Venezuela",
+      "CityVisited": "None",
+      "TripYear": "2003",
+      "TripStartDate": "2003-07-05",
+      "TripEndDate": "2003-07-07",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452190590?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1826-ARG-BEL-37817",
+      "LeaderFullName": "Nestor Kirchner",
+      "CountryVisited": "Belgium",
+      "CityVisited": "None",
+      "TripYear": "2003",
+      "TripStartDate": "2003-07-15",
+      "TripEndDate": "2003-07-15",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452183081?accountid=14608",
+        "http://www.gettyimages.com/license/2169657",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/451494408?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1826-ARG-FRA-37817",
+      "LeaderFullName": "Nestor Kirchner",
+      "CountryVisited": "France",
+      "CityVisited": "None",
+      "TripYear": "2003",
+      "TripStartDate": "2003-07-15",
+      "TripEndDate": "2003-07-16",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/451816825?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453172439?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1826-ARG-ESP-37818",
+      "LeaderFullName": "Nestor Kirchner",
+      "CountryVisited": "Spain",
+      "CityVisited": "None",
+      "TripYear": "2003",
+      "TripStartDate": "2003-07-16",
+      "TripEndDate": "2003-07-17",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://www.gettyimages.com/license/2353383",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453173493?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/315920056?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1826-ARG-URY-37969",
+      "LeaderFullName": "Nestor Kirchner",
+      "CountryVisited": "Uruguay",
+      "CityVisited": "None",
+      "TripYear": "2003",
+      "TripStartDate": "2003-12-14",
+      "TripEndDate": "2003-12-17",
+      "Notes": "Attended a Common Market of the South (MERCOSUR) Summit in Montevideo",
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/234976880?accountid=14608",
+        "http://www.gettyimages.com/license/2814725",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/398851594?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1826-ARG-CHL-38058",
+      "LeaderFullName": "Nestor Kirchner",
+      "CountryVisited": "Chile",
+      "CityVisited": "None",
+      "TripYear": "2004",
+      "TripStartDate": "2004-03-12",
+      "TripEndDate": "2004-03-13",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460211334?accountid=14608",
+        "http://www.gettyimages.com/license/3080276"
+      ]
+    },
+    {
+      "TripID": "1826-ARG-URY-38444",
+      "LeaderFullName": "Nestor Kirchner",
+      "CountryVisited": "Uruguay",
+      "CityVisited": "None",
+      "TripYear": "2005",
+      "TripStartDate": "2005-04-02",
+      "TripEndDate": "2005-04-02",
+      "Notes": null,
+      "Confidence(1-5)": "3",
+      "SourceLinks": [
+        "http://www.gettyimages.com/license/57253263"
+      ]
+    },
+    {
+      "TripID": "1826-ARG-CHL-38513",
+      "LeaderFullName": "Nestor Kirchner",
+      "CountryVisited": "Chile",
+      "CityVisited": "None",
+      "TripYear": "2005",
+      "TripStartDate": "2005-06-10",
+      "TripEndDate": "2005-06-11",
+      "Notes": "Delivered a speech at the Argentina-Chile border after meeting with President Ricardo Lagos Escobar;Oversaw the signing of a gas pipeline agreement",
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466012141?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/336515722?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1826-ARG-BRA-38624",
+      "LeaderFullName": "Nestor Kirchner",
+      "CountryVisited": "Brazil",
+      "CityVisited": "None",
+      "TripYear": "2005",
+      "TripStartDate": "2005-09-29",
+      "TripEndDate": "2005-09-30",
+      "Notes": "Attended a South American Community of Nations Summit in Brasilia;Oversaw the signing of an energy agreement",
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/467435467?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/465949092?accountid=14608",
+        "http://www.gettyimages.com/license/55827443"
+      ]
+    },
+    {
+      "TripID": "1826-ARG-URY-38812",
+      "LeaderFullName": "Nestor Kirchner",
+      "CountryVisited": "Uruguay",
+      "CityVisited": "None",
+      "TripYear": "2006",
+      "TripStartDate": "2006-04-05",
+      "TripEndDate": "2006-04-05",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452402238?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "2320-ARG-ECU-39558",
+      "LeaderFullName": "Cristina Fernandez de Kirchner",
+      "CountryVisited": "Ecuador",
+      "CityVisited": "None",
+      "TripYear": "2008",
+      "TripStartDate": "2008-04-20",
+      "TripEndDate": "2008-04-21",
+      "Notes": "Visited Argentenian UN Peacekeeping troops in the region.",
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/378076652?accountid=14608",
+        "http://www.gettyimages.com/license/80797377"
+      ]
+    },
+    {
+      "TripID": "2320-ARG-VEN-39923",
+      "LeaderFullName": "Cristina Fernandez de Kirchner",
+      "CountryVisited": "Venezuela",
+      "CityVisited": "None",
+      "TripYear": "2009",
+      "TripStartDate": "2009-04-20",
+      "TripEndDate": "2009-04-20",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/460151210?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "2320-ARG-BRA-40133",
+      "LeaderFullName": "Cristina Fernandez de Kirchner",
+      "CountryVisited": "Brazil",
+      "CityVisited": "None",
+      "TripYear": "2009",
+      "TripStartDate": "2009-11-16",
+      "TripEndDate": "2009-11-17",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/433796841?accountid=14608",
+        "http://www.gettyimages.com/license/104377725"
+      ]
+    },
+    {
+      "TripID": "2320-ARG-CAN-40355",
+      "LeaderFullName": "Cristina Fernandez de Kirchner",
+      "CountryVisited": "Canada",
+      "CityVisited": "None",
+      "TripYear": "2010",
+      "TripStartDate": "2010-06-26",
+      "TripEndDate": "2010-06-27",
+      "Notes": "Attended and spoke at G20 Summit",
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "https://wnc-eastview-com.du.idm.oclc.org/wnc/advanced/doc?art=114&id=31647770",
+        "https://wnc-eastview-com.du.idm.oclc.org/wnc/article?id=31720854",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=07fb8c68-a8b6-4b6f-b150-32342dc811cb&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YTB-XCY0-Y95B-D00P-00000-00&pdcontentcomponentid=241709&pdteaserkey=sr3&pditab=allpods&ecomp=wzvnk&earg=sr3&prid=4ecac383-b3ab-47cd-8059-e7657fa8091c",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=7a8f79dc-f8f4-4553-9cd5-b81bdab9a9df&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YTP-WV90-YBKJ-B02N-00000-00&pdcontentcomponentid=323561&pdteaserkey=sr5&pditab=allpods&ecomp=wzvnk&earg=sr5&prid=4ecac383-b3ab-47cd-8059-e7657fa8091c"
+      ]
+    }
+  ]
+}

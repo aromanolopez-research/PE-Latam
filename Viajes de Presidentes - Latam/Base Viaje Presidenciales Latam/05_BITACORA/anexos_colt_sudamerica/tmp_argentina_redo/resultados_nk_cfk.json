@@ -1,0 +1,924 @@
+{
+  "discrepancias_resueltas": [
+    {
+      "colt_TripID": "1826-ARG-BRA-37786",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2003-06-14;2003-06-15",
+      "valor_propuesto": "2003-06-11;2003-06-11",
+      "fuente": "Casa Rosada; La Nacion",
+      "justificacion": "Kirchner visito Brasilia el 11/6/2003 (primer viaje oficial), confirmado por fuentes oficiales y prensa."
+    },
+    {
+      "colt_TripID": "1826-ARG-PRY-37790",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2003-06-18;2003-06-19",
+      "valor_propuesto": "",
+      "fuente": "Cancilleria; prensa regional",
+      "justificacion": "XXIV Cumbre Mercosur en Asuncion fue el 18/6/2003, dentro de ambos rangos; no se pudo precisar llegada/salida exacta."
+    },
+    {
+      "colt_TripID": "1826-ARG-GBR-37812",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2003-07-10",
+      "valor_propuesto": "2003-07-13",
+      "fuente": "Pagina/12 14-jul-2003",
+      "justificacion": "Cronica confirma encuentro informal con Blair el 13/7 tras cena inaugural Cumbre Progresista Surrey."
+    },
+    {
+      "colt_TripID": "1826-ARG-USA-37824",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2003-07-22",
+      "valor_propuesto": "2003-07-22",
+      "fuente": "El Dia 23-jul-2003; El Cuco Digital",
+      "justificacion": "Kirchner llego a Washington la noche del 22/7/2003, reunion con Bush el 23/7."
+    },
+    {
+      "colt_TripID": "1826-ARG-USA-37886",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2003-09-22;2003-09-25",
+      "valor_propuesto": "2003-09-23;2003-09-25",
+      "fuente": "Pagina/12 24-sep-2003",
+      "justificacion": "Nota confirma llegada 23/9 a NY y discurso ante Asamblea General el 25/9."
+    },
+    {
+      "colt_TripID": "1826-ARG-MEX-37998",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2004-01-14",
+      "valor_propuesto": "2004-01-13",
+      "fuente": "Wikipedia Cumbre Extraordinaria de las Americas de Monterrey",
+      "justificacion": "Cumbre en Monterrey fue 12-13 enero 2004."
+    },
+    {
+      "colt_TripID": "1826-ARG-ESP-38013",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2004-01-27;2004-01-28",
+      "valor_propuesto": "",
+      "fuente": "El Cronista 15-ene-2004; Infobae",
+      "justificacion": "Se confirma viaje a España en enero 2004 (CEOE, FITUR) pero no fechas exactas de llegada/salida."
+    },
+    {
+      "colt_TripID": "1826-ARG-BRA-38062",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2004-03-16",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura con fecha exacta de viaje a Brasil 15-16 marzo 2004."
+    },
+    {
+      "colt_TripID": "1826-ARG-USA-38111",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2004-05-05",
+      "valor_propuesto": "2004-05-07",
+      "fuente": "Pagina/12 03-may-2004",
+      "justificacion": "Gira de 'cuatro dias' (mar-vier): NY miercoles 5/5, Washington jueves 6/5 (BID+AJC), regreso previsto viernes 7/5 temprano."
+    },
+    {
+      "colt_TripID": "1826-ARG-CHN-38166",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2004-07-02",
+      "valor_propuesto": "2004-07-02",
+      "fuente": "Cancilleria Argentina; MFA China",
+      "justificacion": "Visita de Estado a China fue 28 junio-2 julio 2004 segun fuentes oficiales de ambos paises."
+    },
+    {
+      "colt_TripID": "1826-ARG-BOL-38274",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2004-10-15",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura que confirme viaje a Bolivia 14-15 octubre 2004 (solo acuerdo de gas abril 2004 en Bs As, evento distinto)."
+    },
+    {
+      "colt_TripID": "1826-ARG-BRA-38338",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2004-12-17;2004-12-18",
+      "valor_propuesto": "2004-12-17;2004-12-18",
+      "fuente": "Agrositio",
+      "justificacion": "Cumbre Mercosur en Ouro Preto (duras criticas de Kirchner) se realizo el 18/12/2004."
+    },
+    {
+      "colt_TripID": "1826-ARG-URY-38412",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2005-03-02",
+      "valor_propuesto": "2005-03-02",
+      "fuente": "Infobae",
+      "justificacion": "Asuncion de Tabare Vazquez 1/3/2005; firma de acuerdo bilateral de DDHH estaba prevista para el dia siguiente (2/3), indicando permanencia de Kirchner hasta esa fecha."
+    },
+    {
+      "colt_TripID": "1826-ARG-BRA-38481",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2005-05-09;2005-05-10",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura con fecha exacta de visita a Brasil 9-11 mayo 2005."
+    },
+    {
+      "colt_TripID": "1826-ARG-USA-38608",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2005-09-13;2005-09-16",
+      "valor_propuesto": "",
+      "fuente": "ONU; CFKArgentina",
+      "justificacion": "Cumbre Mundial 2005 (60 aniversario ONU) fue 14-16 sept 2005, discurso de Kirchner el 14/9, pero no se preciso llegada/salida exacta."
+    },
+    {
+      "colt_TripID": "1826-ARG-ESP-38638",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2005-10-13;2005-10-15",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fechas exactas para este viaje a España octubre 2005 (posible Cumbre Iberoamericana Salamanca, no confirmado)."
+    },
+    {
+      "colt_TripID": "1826-ARG-VEN-38677",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2005-11-21;2005-11-22",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Venezuela noviembre 2005."
+    },
+    {
+      "colt_TripID": "1826-ARG-BRA-39101",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2007-01-19;2007-01-20",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Brasil enero 2007."
+    },
+    {
+      "colt_TripID": "1826-ARG-PRY-39260",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2007-06-27;2007-06-28",
+      "valor_propuesto": "2007-06-28;2007-06-29",
+      "fuente": "Real Instituto Elcano; prensa",
+      "justificacion": "XXXIII Cumbre Mercosur en Asuncion se realizo el 29 de junio de 2007, coincidiendo con nuestra fecha de fin; COLT (27-28/6) no incluye el dia real de la cumbre."
+    },
+    {
+      "colt_TripID": "1826-ARG-BOL-39302",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2007-08-08",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Bolivia agosto 2007."
+    },
+    {
+      "colt_TripID": "1826-ARG-USA-39349",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2007-09-24;2007-09-26",
+      "valor_propuesto": "2007-09-22;2007-09-25",
+      "fuente": "Pagina/12 22-sep-2007 'Kirchner parte a Nueva York con Iran en la cabeza'; Casa Rosada (discurso 62 Asamblea General, 25/9/2007, su ultimo mensaje como Presidente)",
+      "justificacion": "La nota del 22/9/2007 indica que Kirchner partia ese dia hacia Nueva York; su discurso final ante la ONU fue el 25/9/2007. Ni nuestra fecha (solo 25/9) ni la de COLT (24-26/9) reflejan con precision el inicio real del viaje."
+    },
+    {
+      "colt_TripID": "2320-ARG-URY-39433",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2007-12-17",
+      "valor_propuesto": "2007-12-17",
+      "fuente": "Prensa (recopilacion viajes CFK)",
+      "justificacion": "El primer viaje de CFK como presidenta fue el 17/12/2007 a la cumbre del Mercosur en Uruguay, siete dias despues de asumir; coincide con COLT."
+    },
+    {
+      "colt_TripID": "2320-ARG-DOM-39514",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2008-03-09",
+      "valor_propuesto": "2008-03-07",
+      "fuente": "Cumbre de Rio (Grupo de Rio) Santo Domingo",
+      "justificacion": "La cumbre de emergencia del Grupo de Rio en Santo Domingo por la crisis Colombia-Ecuador-Venezuela fue un evento de un solo dia, el 7 de marzo de 2008."
+    },
+    {
+      "colt_TripID": "2320-ARG-PER-39584",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2008-05-18",
+      "valor_propuesto": "2008-05-17",
+      "fuente": "V Cumbre UE-ALC Lima",
+      "justificacion": "La V Cumbre Union Europea-America Latina y Caribe se realizo en Lima los dias 16 y 17 de mayo de 2008."
+    },
+    {
+      "colt_TripID": "2320-ARG-ITA-39601",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2008-06-02",
+      "valor_propuesto": "2008-06-03",
+      "fuente": "Cumbre Mundial sobre Seguridad Alimentaria FAO, Roma",
+      "justificacion": "La Cumbre de la FAO sobre seguridad alimentaria en Roma se realizo del 3 al 5 de junio de 2008."
+    },
+    {
+      "colt_TripID": "2320-ARG-PRY-39674",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2008-08-14",
+      "valor_propuesto": "2008-08-14",
+      "fuente": "Infobae; patron de viajes a asunciones presidenciales en Paraguay (confirmado para Cartes 2013)",
+      "justificacion": "Fernando Lugo asumio el 15/8/2008; por el patron observado en visitas similares (ej. asuncion de Cartes 2013, donde CFK llego la noche anterior), es probable que Kirchner tambien haya llegado el dia previo (14/8)."
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-39697",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2008-09-06",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Brasil septiembre 2008."
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-39714",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2008-09-25",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "UNGA63 (discurso CFK 23/9/2008) confirmado, pero no se preciso fecha exacta de partida (24 o 25/9)."
+    },
+    {
+      "colt_TripID": "2320-ARG-TUN-39769",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2008-11-17",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Tunez noviembre 2008."
+    },
+    {
+      "colt_TripID": "2320-ARG-EGY-39771",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2008-11-19",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Egipto noviembre 2008."
+    },
+    {
+      "colt_TripID": "2320-ARG-LBY-39772",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2008-11-20",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Libia noviembre 2008."
+    },
+    {
+      "colt_TripID": "2320-ARG-ESP-39853",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2009-02-09;2009-02-11",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a España febrero 2009."
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-39892",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2009-03-20",
+      "valor_propuesto": "2009-03-19",
+      "fuente": "Casa Rosada (conferencia de prensa San Pablo); Diario de Cuyo",
+      "justificacion": "CFK se reunio con Lula en San Pablo (FIESP) el 20/3/2009; prensa indica que arribo a Brasil el 19/3."
+    },
+    {
+      "colt_TripID": "2320-ARG-GBR-39904",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2009-04-03",
+      "valor_propuesto": "2009-04-02",
+      "fuente": "Cumbre G20 Londres",
+      "justificacion": "La Cumbre del G20 en Londres se realizo el 2 de abril de 2009."
+    },
+    {
+      "colt_TripID": "2320-ARG-CHE-39979",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2009-06-15;2009-06-16",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Suiza junio 2009."
+    },
+    {
+      "colt_TripID": "2320-ARG-SLV-39999",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2009-07-05",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a El Salvador julio 2009."
+    },
+    {
+      "colt_TripID": "2320-ARG-PRY-40017",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2009-07-23;2009-07-25",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Paraguay julio 2009."
+    },
+    {
+      "colt_TripID": "2320-ARG-VEN-40036",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2009-08-11",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Venezuela agosto 2009."
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-40077",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2009-09-21;2009-09-25",
+      "valor_propuesto": "2009-09-21;2009-09-25",
+      "fuente": "CFKArgentina; prensa (discurso 23/9/2009)",
+      "justificacion": "Nuestra base parece tener el mismo viaje partido en dos registros (23/9 y 24-25/9). El discurso de CFK ante la 64 Asamblea General de la ONU fue el 23/9/2009; el rango completo de COLT (21-25/9) es mas consistente con una semana de Asamblea General que incluye llegada previa y actividades posteriores al discurso. [our_Trip_ID=209]"
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-40077",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2009-09-21;2009-09-25",
+      "valor_propuesto": "2009-09-21;2009-09-25",
+      "fuente": "CFKArgentina; prensa (discurso 23/9/2009)",
+      "justificacion": "Nuestra base parece tener el mismo viaje partido en dos registros (23/9 y 24-25/9). El discurso de CFK ante la 64 Asamblea General de la ONU fue el 23/9/2009; el rango completo de COLT (21-25/9) es mas consistente con una semana de Asamblea General que incluye llegada previa y actividades posteriores al discurso. [our_Trip_ID=210]"
+    },
+    {
+      "colt_TripID": "2320-ARG-IND-40099",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2009-10-13;2009-10-15",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a India octubre 2009."
+    },
+    {
+      "colt_TripID": "2320-ARG-VAT-40145",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2009-11-28;2009-11-29",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje al Vaticano noviembre 2009."
+    },
+    {
+      "colt_TripID": "2320-ARG-PRT-40147",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2009-11-30;2009-12-01",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Portugal noviembre-diciembre 2009."
+    },
+    {
+      "colt_TripID": "2320-ARG-URY-40156",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2009-12-09",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Uruguay diciembre 2009."
+    },
+    {
+      "colt_TripID": "2320-ARG-URY-40238",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2010-03-02",
+      "valor_propuesto": "2010-03-01",
+      "fuente": "Mercopress; prensa internacional",
+      "justificacion": "Asuncion de Jose Mujica confirmada para el 1 de marzo de 2010, con CFK entre los presidentes asistentes; no se hallo evidencia de una segunda jornada."
+    },
+    {
+      "colt_TripID": "2320-ARG-PER-40259",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2010-03-22",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Peru marzo 2010."
+    },
+    {
+      "colt_TripID": "2320-ARG-BOL-40263",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2010-03-27",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Bolivia marzo 2010."
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-40278",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2010-04-10",
+      "valor_propuesto": "2010-04-12",
+      "fuente": "Cumbre de Seguridad Nuclear, Washington",
+      "justificacion": "La Cumbre de Seguridad Nuclear en Washington se realizo el 12-13 de abril de 2010, coincidiendo exactamente con nuestra fecha."
+    },
+    {
+      "colt_TripID": "2320-ARG-VEN-40287",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2010-04-19",
+      "valor_propuesto": "2010-04-18",
+      "fuente": "Diario de Cuyo 'La presidenta viaja hacia Venezuela' 17-abr-2010",
+      "justificacion": "CFK partio el 17/4 y llego a Caracas el 18/4/2010 para el bicentenario venezolano; bilateral con Chavez y firma de acuerdos el 20/4."
+    },
+    {
+      "colt_TripID": "2320-ARG-ESP-40315",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2010-05-19",
+      "valor_propuesto": "2010-05-18",
+      "fuente": "Cancilleria Argentina; VI Cumbre UE-ALC Madrid",
+      "justificacion": "La VI Cumbre Union Europea-America Latina y Caribe en Madrid se realizo el 18 de mayo de 2010."
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-40325",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2010-05-27;2010-05-28",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Brasil mayo 2010."
+    },
+    {
+      "colt_TripID": "2320-ARG-CAN-40354",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2010-06-25;2010-06-28",
+      "valor_propuesto": "2010-06-26;2010-06-27",
+      "fuente": "Cumbre G20 Toronto",
+      "justificacion": "La Cumbre del G20 en Toronto se realizo los dias 26 y 27 de junio de 2010, coincidiendo exactamente con nuestras fechas."
+    },
+    {
+      "colt_TripID": "2320-ARG-CHN-40370",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2010-07-11",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de llegada a China julio 2010 (Expo Shanghai)."
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-40443",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2010-09-22",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "UNGA65 (discurso CFK 24/9/2010) confirmado, pero no se preciso con exactitud fecha de llegada (22 o 23/9)."
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-40529",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2010-12-18",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Brasil diciembre 2010 (posible Cumbre Mercosur Foz do Iguacu)."
+    },
+    {
+      "colt_TripID": "2320-ARG-QAT-40562",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2011-01-19;2011-01-20",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Qatar enero 2011 (no corresponde a Cumbre ASPA, que fue en 2009)."
+    },
+    {
+      "colt_TripID": "2320-ARG-ITA-40695",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2011-06-01;2011-06-03",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Italia mayo-junio 2011."
+    },
+    {
+      "colt_TripID": "2320-ARG-FRA-40799",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2011-09-13",
+      "valor_propuesto": "2011-09-12",
+      "fuente": "Diario de Cuyo 'La presidenta llego a Paris para reunirse con Sarkozy' 12-sep-2011",
+      "justificacion": "CFK arribo a Paris el lunes 12/9/2011 (10hs) para una visita oficial de tres dias."
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-40807",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2011-09-22",
+      "valor_propuesto": "2011-09-21",
+      "fuente": "Casa Rosada; CFKArgentina (discurso 66 Asamblea General ONU)",
+      "justificacion": "El discurso de CFK ante la 66 Asamblea General de la ONU fue el 21/9/2011; no se hallo evidencia de permanencia hasta el 22/9."
+    },
+    {
+      "colt_TripID": "2320-ARG-VEN-40878",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2011-12-01;2011-12-02",
+      "valor_propuesto": "2011-12-02;2011-12-03",
+      "fuente": "Cumbre fundacional CELAC, Caracas",
+      "justificacion": "La cumbre fundacional de la CELAC en Caracas se realizo los dias 2 y 3 de diciembre de 2011, coincidiendo con nuestras fechas."
+    },
+    {
+      "colt_TripID": "2320-ARG-AGO-41047",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2012-05-19",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Angola mayo 2012."
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-41176",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2012-09-26",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "UNGA67 confirmado en septiembre 2012 pero no se preciso fecha exacta de partida."
+    },
+    {
+      "colt_TripID": "2320-ARG-PER-41183",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2012-10-03",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Peru octubre 2012."
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-41250",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2012-12-07;2012-12-08",
+      "valor_propuesto": "2012-12-06;2012-12-07",
+      "fuente": "Infobae; Perfil (Cumbre Mercosur Brasilia)",
+      "justificacion": "Cumbre Mercosur en Brasilia (ingreso de Venezuela) se realizo el viernes 7/12/2012; prensa confirma que CFK llego antes de la cumbre y regreso a Argentina inmediatamente despues de que cerrara ese mismo dia."
+    },
+    {
+      "colt_TripID": "2320-ARG-ARE-41288",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2013-01-14",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Emiratos Arabes enero 2013."
+    },
+    {
+      "colt_TripID": "2320-ARG-CHL-41301",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2013-01-27;2013-01-28",
+      "valor_propuesto": "2013-01-26;2013-01-27",
+      "fuente": "CFKArgentina; Telam",
+      "justificacion": "La I Cumbre CELAC-UE en Santiago de Chile se realizo el 26 y 27 de enero de 2013, coincidiendo con nuestras fechas."
+    },
+    {
+      "colt_TripID": "2320-ARG-VEN-41339",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2013-03-06",
+      "valor_propuesto": "2013-03-07",
+      "fuente": "Diario de Cuyo 'Cristina Kirchner y Mujica llegaron a Caracas' 06-mar-2013; La Capital",
+      "justificacion": "CFK llego a Caracas el 6/3/2013 para el funeral de Hugo Chavez y decidio regresar 'el jueves por la noche' (7/3/2013)."
+    },
+    {
+      "colt_TripID": "2320-ARG-VAT-41350",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2013-03-17;2013-03-18",
+      "valor_propuesto": "2013-03-18;2013-03-19",
+      "fuente": "Vaticano (Misa inaugural del pontificado)",
+      "justificacion": "La misa de inicio del pontificado del Papa Francisco fue el 19 de marzo de 2013; CFK habria llegado el dia previo."
+    },
+    {
+      "colt_TripID": "2320-ARG-PER-41382",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2013-04-19",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Peru abril 2013."
+    },
+    {
+      "colt_TripID": "2320-ARG-BOL-41459",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2013-07-05",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Bolivia julio 2013."
+    },
+    {
+      "colt_TripID": "2320-ARG-URY-41466",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2013-07-11",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Uruguay julio 2013."
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-41483",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2013-07-28",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Brasil julio 2013."
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-41492",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2013-08-06",
+      "valor_propuesto": "2013-08-05",
+      "fuente": "Diario de Cuyo 'Cristina llego a Nueva York para nueva reunion de la ONU' 05-ago-2013",
+      "justificacion": "Articulo del 5/8/2013 confirma llegada a Nueva York ese dia (sesion del Consejo de Seguridad, presidencia rotativa argentina)."
+    },
+    {
+      "colt_TripID": "2320-ARG-PRY-41500",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2013-08-14",
+      "valor_propuesto": "2013-08-14",
+      "fuente": "ABC Color 'Llego Cristina Fernandez'",
+      "justificacion": "CFK arribo al aeropuerto Silvio Pettirossi de Asuncion el 14/8/2013 a las 20:30, vispera de la asuncion de Horacio Cartes (15/8)."
+    },
+    {
+      "colt_TripID": "2320-ARG-RUS-41521",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2013-09-04",
+      "valor_propuesto": "2013-09-05",
+      "fuente": "Cumbre G20 San Petersburgo",
+      "justificacion": "La Cumbre del G20 en San Petersburgo se realizo el 5 y 6 de septiembre de 2013, coincidiendo con nuestra fecha de inicio."
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-41541",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2013-09-25",
+      "valor_propuesto": "",
+      "fuente": "CFKArgentina",
+      "justificacion": "Discurso ante la 68 Asamblea General de la ONU confirmado el 24/9/2013, pero no se preciso fecha exacta de partida (24 o 25/9)."
+    },
+    {
+      "colt_TripID": "2320-ARG-CHL-41708",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2014-03-11",
+      "valor_propuesto": "2014-03-11",
+      "fuente": "Asuncion de Michelle Bachelet",
+      "justificacion": "La asuncion de Michelle Bachelet como presidenta de Chile fue el 11 de marzo de 2014; la fecha de COLT incluye el dia real del evento, mientras la nuestra (10/3) lo excluye."
+    },
+    {
+      "colt_TripID": "2320-ARG-VAT-41714",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2014-03-16",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje al Vaticano marzo 2014."
+    },
+    {
+      "colt_TripID": "2320-ARG-FRA-41717",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2014-03-19;2014-03-21",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Francia marzo 2014."
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-41836",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2014-07-16;2014-07-17",
+      "valor_propuesto": "2014-07-15;2014-07-16",
+      "fuente": "Cumbre BRICS Fortaleza",
+      "justificacion": "La Cumbre de los BRICS en Fortaleza se realizo el 15 y 16 de julio de 2014, coincidiendo con nuestras fechas."
+    },
+    {
+      "colt_TripID": "2320-ARG-VEN-41849",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2014-07-30",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Venezuela julio 2014."
+    },
+    {
+      "colt_TripID": "2320-ARG-PRY-41864",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2014-08-14",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Paraguay agosto 2014."
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-41905",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2014-09-23",
+      "valor_propuesto": "2014-09-24",
+      "fuente": "CFKArgentina; Microjuris (discurso fondos buitre)",
+      "justificacion": "El discurso de CFK ante la 69 Asamblea General de la ONU fue el 24/9/2014, coincidiendo con nuestra fecha de inicio."
+    },
+    {
+      "colt_TripID": "2320-ARG-CHN-42038",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2015-02-03;2015-02-06",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a China febrero 2015."
+    },
+    {
+      "colt_TripID": "2320-ARG-RUS-42114",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2015-04-20;2015-04-24",
+      "valor_propuesto": "2015-04-21;2015-04-23",
+      "fuente": "RT Actualidad; Infobae; Microjuris",
+      "justificacion": "La visita oficial de CFK a Rusia (reunion con Putin en el Kremlin, firma de 20 acuerdos) fue del 21 al 23 de abril de 2015, segun multiples fuentes. Ni nuestra fecha (22-23/4) ni la de COLT (20-24/4) son exactas."
+    },
+    {
+      "colt_TripID": "2320-ARG-ITA-42162",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2015-06-08",
+      "valor_propuesto": "2015-06-09",
+      "fuente": "La Nacion; Diario Registrado; La Gaceta",
+      "justificacion": "CFK inauguro el pabellon argentino en la Expo Milan el martes 9/6/2015, cerrando asi su visita a Italia."
+    },
+    {
+      "colt_TripID": "2320-ARG-PRY-42197",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2015-07-13",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Paraguay julio 2015."
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-42202",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2015-07-17",
+      "valor_propuesto": "",
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica con fecha exacta de este viaje a Brasil julio 2015 (posible Cumbre Mercosur Brasilia)."
+    },
+    {
+      "colt_TripID": "2320-ARG-CUB-42267",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2015-09-20;2015-09-21",
+      "valor_propuesto": "2015-09-19;2015-09-20",
+      "fuente": "Diario de Cuyo; La Nacion; Telam",
+      "justificacion": "CFK llego a La Habana el 19/9/2015 y permanecio 'dos dias' para presenciar la misa del Papa Francisco el domingo 20/9/2015."
+    },
+    {
+      "colt_TripID": "2320-ARG-USA-42275",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2015-09-28;2015-09-29",
+      "valor_propuesto": "2015-09-27;2015-09-28",
+      "fuente": "La Nacion; Casa Rosada",
+      "justificacion": "El ultimo discurso de CFK ante la Asamblea General de la ONU (70a sesion) fue el lunes 28/9/2015; la practica habitual de llegar el dia previo es consistente con nuestra fecha de inicio (27/9)."
+    }
+  ],
+  "colt_unico_resueltos": [
+    {
+      "colt_TripID": "1826-ARG-VEN-37807",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo evidencia de una visita de Kirchner a Venezuela en julio de 2003; las fuentes revisadas ubican el primer viaje documentado de Kirchner a Venezuela en 2004."
+    },
+    {
+      "colt_TripID": "1826-ARG-BEL-37817",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Bruselas"
+      },
+      "fuente": "Ambito.com / prensa (gira europea)",
+      "justificacion": "Se confirma que Kirchner realizo una gira europea entre el 10 y 18 de julio de 2003 que incluyo Reino Unido, Belgica, Francia y España, tras la Cumbre de Gobiernos Progresistas en Surrey."
+    },
+    {
+      "colt_TripID": "1826-ARG-FRA-37817",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Paris"
+      },
+      "fuente": "Ambito.com / prensa (gira europea)",
+      "justificacion": "Misma gira europea de julio 2003 (Reino Unido-Belgica-Francia-España) confirmada por prensa."
+    },
+    {
+      "colt_TripID": "1826-ARG-ESP-37818",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Madrid"
+      },
+      "fuente": "Ambito.com / prensa (gira europea)",
+      "justificacion": "Ultimo tramo de la gira europea de julio 2003, con intercambios con inversores españoles vinculados a empresas de servicios publicos."
+    },
+    {
+      "colt_TripID": "1826-ARG-URY-37969",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica que confirme un viaje de Kirchner a Uruguay el 14-17 de diciembre de 2003."
+    },
+    {
+      "colt_TripID": "1826-ARG-CHL-38058",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda en prensa",
+      "justificacion": "Se confirma tension y encuentros Kirchner-Lagos por el tema del gas en ese periodo, pero no se hallo confirmacion de una visita presencial a Chile el 12-13 de marzo de 2004 con fecha precisa."
+    },
+    {
+      "colt_TripID": "1826-ARG-URY-38444",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura que confirme un viaje de Kirchner a Uruguay el 2 de abril de 2005 (esa fecha coincide con la muerte del Papa Juan Pablo II)."
+    },
+    {
+      "colt_TripID": "1826-ARG-CHL-38513",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica que confirme un viaje de Kirchner a Chile el 10-11 de junio de 2005 (se hallo mencion a un compromiso sobre gas del 15 de marzo de 2005, fecha distinta)."
+    },
+    {
+      "colt_TripID": "1826-ARG-BRA-38624",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica que confirme un viaje de Kirchner a Brasil el 29-30 de septiembre de 2005."
+    },
+    {
+      "colt_TripID": "1826-ARG-URY-38812",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica que confirme un viaje de Kirchner a Uruguay el 5 de abril de 2006."
+    },
+    {
+      "colt_TripID": "2320-ARG-ECU-39558",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Quito"
+      },
+      "fuente": "Pagina/12 'Cristina cambia de aire y viaja a Ecuador' (20-abr-2008)",
+      "justificacion": "Confirmado viaje de CFK a Quito el 20/4/2008, invitada por Rafael Correa; participo del ELAP, fue condecorada por la Asamblea Nacional y firmo declaracion conjunta con Correa."
+    },
+    {
+      "colt_TripID": "2320-ARG-VEN-39923",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo evidencia de un viaje de CFK a Venezuela el 20 de abril de 2009; existe un viaje bien documentado a Venezuela el 18-20 de abril de 2010 (bicentenario), por lo que es posible que se trate de un error de año en COLT."
+    },
+    {
+      "colt_TripID": "2320-ARG-BRA-40133",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda en prensa",
+      "justificacion": "No se hallo cobertura especifica que confirme un viaje de CFK a Brasil el 16-17 de noviembre de 2009."
+    },
+    {
+      "colt_TripID": "2320-ARG-CAN-40355",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Toronto"
+      },
+      "fuente": "Cumbre G20 Toronto",
+      "justificacion": "El viaje coincide exactamente con la Cumbre del G20 en Toronto (26-27 junio 2010), que ya figura en nuestra base bajo el TripID 2320-ARG-CAN-40354. Es muy probable que se trate de un registro duplicado dentro de COLT para el mismo viaje, no de un viaje adicional no registrado."
+    }
+  ]
+}

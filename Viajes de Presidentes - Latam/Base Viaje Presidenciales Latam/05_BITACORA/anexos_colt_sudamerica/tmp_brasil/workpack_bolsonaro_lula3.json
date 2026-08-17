@@ -1,0 +1,1244 @@
+{
+ "discrepancias": [
+  {
+   "colt_TripID": "3531-BRA-IND-43855",
+   "our_Trip_ID": "218",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "India",
+   "our_Start_Date": "2020-01-24",
+   "our_End_Date": "2020-01-27",
+   "colt_Start": "2020-01-25",
+   "colt_End": "2020-01-27",
+   "discrepancias": "TripStartDate: nuestro=2020-01-24 COLT=2020-01-25 (dif 1d)",
+   "colt_links": [
+    "https://www.gettyimages.com/detail/news-photo/indias-prime-minister-narendra-modi-president-ram-nath-news-photo/1196446736?adppopup=true",
+    "https://www.gettyimages.com/detail/news-photo/brazilian-president-jair-bolsonaro-poses-for-pictures-as-he-news-photo/1196686533?adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=2fb50b03-820e-4ab6-8955-75f0f8e1c7cc&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5Y26-27M1-DY1R-B2WW-00000-00&pddocid=urn%3AcontentItem%3A5Y26-27M1-DY1R-B2WW-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=sp79k&earg=sr0&prid=f8532909-7762-4147-b8db-91b2c3359994",
+    "https://www.pmindia.gov.in/en/news_updates/list-of-mous-agreements-exchanged-during-state-visit-of-president-of-brazil-to-india/?comment=disable"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-URY-43891",
+   "our_Trip_ID": "219",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Uruguay",
+   "our_Start_Date": "2020-03-01",
+   "our_End_Date": "2020-03-01",
+   "colt_Start": "2020-03-01",
+   "colt_End": "2020-03-02",
+   "discrepancias": "TripEndDate: nuestro=2020-03-01 COLT=2020-03-02 (dif 1d)",
+   "colt_links": [
+    "https://www.gob.cl/en/news/president-pinera-attends-inauguration-new-uruguayan-president/",
+    "https://www.dailysabah.com/world/americas/uruguay-shifts-to-right-with-new-presidents-inauguration"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-ECU-44339",
+   "our_Trip_ID": "221",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Ecuador",
+   "our_Start_Date": "2021-05-24",
+   "our_End_Date": "2021-05-24",
+   "colt_Start": "2021-05-23",
+   "colt_End": "2021-05-24",
+   "discrepancias": "TripStartDate: nuestro=2021-05-24 COLT=2021-05-23 (dif 1d)",
+   "colt_links": [
+    "https://www.france24.com/en/live-news/20210524-lasso-inaugurated-as-first-right-wing-ecuador-president-in-14-years",
+    "http://www.bta.bg/en/gallery/image/7651340",
+    "https://riotimesonline.com/brazil-news/rio-politics/bolsonaro-confirms-his-attendance-to-the-inauguration-of-ecuadors-president/"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-44458",
+   "our_Trip_ID": "222",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2021-09-19",
+   "our_End_Date": "2021-09-21",
+   "colt_Start": "2021-09-19",
+   "colt_End": "2021-09-22",
+   "discrepancias": "TripEndDate: nuestro=2021-09-21 COLT=2021-09-22 (dif 1d)",
+   "colt_links": [
+    "https://www.theguardian.com/politics/2021/sep/20/boris-johnson-uses-bolsonaro-meeting-to-promote-astrazeneca-jab",
+    "https://www.cnn.com/2021/09/21/americas/bolsonaro-brazil-un-speech-2021-intl-latam/index.html",
+    "https://www.reuters.com/world/americas/brazils-bolsonaro-covid-isolation-after-trip-un-2021-09-22/",
+    "https://www.un.org/sg/en/node/259244"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-ITA-44498",
+   "our_Trip_ID": "223",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Italy",
+   "our_Start_Date": "2021-10-29",
+   "our_End_Date": "2021-11-01",
+   "colt_Start": "2021-10-29",
+   "colt_End": "2021-11-02",
+   "discrepancias": "TripEndDate: nuestro=2021-11-01 COLT=2021-11-02 (dif 1d)",
+   "colt_links": [
+    "https://www.bloomberg.com/news/articles/2021-10-29/brazil-s-bolsonaro-gets-g-20-cold-shoulder-as-amazon-fires-rage",
+    "https://www.reuters.com/world/americas/bolsonaros-security-press-altercation-brazil-leader-isolated-g20-2021-10-31/",
+    "https://agenciabrasil.ebc.com.br/en/politica/noticia/2021-10/bolsonaro-attend-g20-summit-meeting-italy",
+    "https://www.agefotostock.com/age/en/details-news-photo/president-jair-bolsonaro-arrives-at-the-la-nuvola-conference-center-for-the-g20-summit-rome-italy-30-october-2021/TIE-FOT301021-112",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/90854e71-b755-442d-bd38-ff090857adf5/?context=1516831",
+    "https://www.facebook.com/jairmessias.bolsonaro/videos/3123964727887656/"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-QAT-44517",
+   "our_Trip_ID": "226",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Qatar",
+   "our_Start_Date": "2021-11-17",
+   "our_End_Date": "2021-11-17",
+   "colt_Start": "2021-11-17",
+   "colt_End": "2021-11-18",
+   "discrepancias": "TripEndDate: nuestro=2021-11-17 COLT=2021-11-18 (dif 1d)",
+   "colt_links": [
+    "https://twitter.com/jairbolsonaro/status/1460993519808569344",
+    "https://www.gettyimages.com/detail/news-photo/brazilian-president-jair-bolsonaro-and-fifa-president-news-photo/1236620626?adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/7b9f9a22-dfce-4bd5-add5-75a397ebaf47/?context=1516831"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-RUS-44607",
+   "our_Trip_ID": "227",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Russia",
+   "our_Start_Date": "2022-02-15",
+   "our_End_Date": "2022-02-16",
+   "colt_Start": "2022-02-15",
+   "colt_End": "2022-02-17",
+   "discrepancias": "TripEndDate: nuestro=2022-02-16 COLT=2022-02-17 (dif 1d)",
+   "colt_links": [
+    "https://apnews.com/article/russia-ukraine-jair-bolsonaro-russia-friendships-vladimir-putin-584b473855f62ba106df15f5340583b1",
+    "https://agenciabrasil.ebc.com.br/en/politica/noticia/2022-02/president-jair-bolsonaro-lands-in-russia",
+    "https://news.sky.com/story/vladimir-putin-shakes-hands-with-brazilian-president-jair-bolsonaro-at-russia-meeting-after-making-macron-sit-20ft-away-12543571",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/30af91bc-d3a6-4945-aef3-cee7bdbb5c9b/?context=1516831",
+    "https://www.facebook.com/watch/live/?ref=watch_permalink&v=1575494136151698"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-44719",
+   "our_Trip_ID": "229",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2022-06-08",
+   "our_End_Date": "2022-06-10",
+   "colt_Start": "2022-06-07",
+   "colt_End": "2022-06-11",
+   "discrepancias": "TripStartDate: nuestro=2022-06-08 COLT=2022-06-07 (dif 1d) | TripEndDate: nuestro=2022-06-10 COLT=2022-06-11 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/a4071ee0-e2ad-407a-a9e9-7db262b93fda/?context=1516831",
+    "https://valor.globo.com/politica/noticia/2022/06/03/aps-cpula-das-amricas-bolsonaro-ir-a-orlando.ghtml",
+    "https://reliefweb.int/report/world/los-angeles-declaration-could-represent-big-step-real-migration-cooperation-across-americas#:~:text=The%20Los%20Angeles%20Declaration%20was,the%20United%20States%2C%20and%20Uruguay.",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=25014936-f9b8-46dd-9a9e-91823fdcf3a4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A65NH-67F1-JDJN-60HR-00000-00&pdcontentcomponentid=407769&pdteaserkey=sr27&pditab=allpods&ecomp=szznk&earg=sr27&prid=3898ff37-0ad5-484e-b95d-4098e09679da"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-GBR-44823",
+   "our_Trip_ID": "231",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "United Kingdom",
+   "our_Start_Date": "2022-09-18",
+   "our_End_Date": "2022-09-19",
+   "colt_Start": "2022-09-19",
+   "colt_End": "2022-09-19",
+   "discrepancias": "TripStartDate: nuestro=2022-09-18 COLT=2022-09-19 (dif 1d)",
+   "colt_links": [
+    "https://twitter.com/jairbolsonaro/status/1571876105383985154",
+    "https://www.theguardian.com/world/2022/sep/18/bolsonaro-uses-visit-to-london-for-queens-funeral-as-election-soapbox",
+    "https://www.independent.co.uk/news/uk/brazil-bolsonaro-queen-elizabeth-funeral-b2170241.html"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-44823",
+   "our_Trip_ID": "232",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2022-09-20",
+   "our_End_Date": "2022-09-20",
+   "colt_Start": "2022-09-19",
+   "colt_End": "2022-09-21",
+   "discrepancias": "TripStartDate: nuestro=2022-09-20 COLT=2022-09-19 (dif 1d) | TripEndDate: nuestro=2022-09-20 COLT=2022-09-21 (dif 1d)",
+   "colt_links": [
+    "https://gadebate.un.org/en/77/brazil",
+    "https://dam.media.un.org/asset-management/2AM9LO3H1KG?FR_=1&W=1500&H=881",
+    "https://www.cnn.com/2022/09/20/americas/unga-bolsonaro-brazil-intl-latam/index.html"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-44925",
+   "our_Trip_ID": "233",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2022-12-30",
+   "our_End_Date": "2023-01-01",
+   "colt_Start": "2022-12-30",
+   "colt_End": "2023-03-30",
+   "discrepancias": "TripEndDate: nuestro=2023-01-01 COLT=2023-03-30 (dif 88d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=252d9b3b-6bed-464b-bac3-4e7b17acaeae&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A676R-H681-JBNF-W4X8-00000-00&pdcontentcomponentid=397135&pdteaserkey=sr1&pditab=allpods&ecomp=zznyk&earg=sr1&prid=11d34b4a-894a-43af-99a9-40b595db60db",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ef9ef7a8-d192-4fef-8eac-789160ae6744&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A67X1-H151-DXMS-80R6-00000-00&pdcontentcomponentid=404625&pdteaserkey=sr0&pditab=allpods&ecomp=zznyk&earg=sr0&prid=11d34b4a-894a-43af-99a9-40b595db60db",
+    "https://www.reuters.com/world/americas/brazils-bolsonaro-says-no-justification-attempted-terrorist-act-capital-2022-12-30/",
+    "https://www.npr.org/2023/03/30/1167040880/bolsonaro-returns-brazil-from-florida"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ARG-44948",
+   "our_Trip_ID": "235",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2023-01-23",
+   "our_End_Date": "2023-01-24",
+   "colt_Start": "2023-01-22",
+   "colt_End": "2023-01-25",
+   "discrepancias": "TripStartDate: nuestro=2023-01-23 COLT=2023-01-22 (dif 1d) | TripEndDate: nuestro=2023-01-24 COLT=2023-01-25 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/c7ce418b-5f52-472e-a06e-d9cdcafdacb5/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e0af5431-3a86-4ac1-8c3a-8015d924b2c4/?context=1516831",
+    "https://www.reuters.com/world/americas/lula-says-brazil-argentina-will-study-common-currency-trade-2023-01-23/",
+    "https://media.gettyimages.com/id/1246545761/photo/calac-summit-in-buenos-aires.jpg?s=612x612&w=gi&k=20&c=7eFk1RSAWCR2Ig5Xc8buiuGNl1PoRTY1nPmFhFjbl8k=",
+    "https://twitter.com/LulaOficial/status/1618010354109513728?cxt=HHwWgIDQ-YX2qfQsAAAA"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-44925",
+   "our_Trip_ID": "237",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2023-02-10",
+   "our_End_Date": "2023-02-10",
+   "colt_Start": "2022-12-30",
+   "colt_End": "2023-03-30",
+   "discrepancias": "TripStartDate: nuestro=2023-02-10 COLT=2022-12-30 (dif 42d) | TripEndDate: nuestro=2023-02-10 COLT=2023-03-30 (dif 48d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=252d9b3b-6bed-464b-bac3-4e7b17acaeae&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A676R-H681-JBNF-W4X8-00000-00&pdcontentcomponentid=397135&pdteaserkey=sr1&pditab=allpods&ecomp=zznyk&earg=sr1&prid=11d34b4a-894a-43af-99a9-40b595db60db",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ef9ef7a8-d192-4fef-8eac-789160ae6744&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A67X1-H151-DXMS-80R6-00000-00&pdcontentcomponentid=404625&pdteaserkey=sr0&pditab=allpods&ecomp=zznyk&earg=sr0&prid=11d34b4a-894a-43af-99a9-40b595db60db",
+    "https://www.reuters.com/world/americas/brazils-bolsonaro-says-no-justification-attempted-terrorist-act-capital-2022-12-30/",
+    "https://www.npr.org/2023/03/30/1167040880/bolsonaro-returns-brazil-from-florida"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-CHN-45028",
+   "our_Trip_ID": "238",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "China",
+   "our_Start_Date": "2023-04-12",
+   "our_End_Date": "2023-04-15",
+   "colt_Start": "2023-04-12",
+   "colt_End": "2023-04-14",
+   "discrepancias": "TripEndDate: nuestro=2023-04-15 COLT=2023-04-14 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4265c25a-1948-4cfd-bffc-27aaa6f8018c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6811-6PT1-JB72-134W-00000-00&pdcontentcomponentid=437338&pdteaserkey=sr0&pditab=allpods&ecomp=-znyk&earg=sr0&prid=27f060a9-ea78-4d09-8cae-5735b61101d8",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=50d9417f-6671-42bc-b91f-f897ff2b484a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A680C-9JX1-JBSS-S507-00000-00&pdcontentcomponentid=385157&pdteaserkey=sr1&pditab=allpods&ecomp=-znyk&earg=sr1&prid=27f060a9-ea78-4d09-8cae-5735b61101d8",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=fbff26da-ec82-4b3b-9cf1-71e8575b7604&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A680Y-M921-DYY9-00DG-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr18&pditab=allpods&ecomp=-znyk&earg=sr18&prid=4180cb69-6634-42d3-a90b-e5ef3819b064",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e2d30c04-8b62-4906-80d8-bd4ea6fc532f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A680T-RCT1-F12M-D0R8-00000-00&pdcontentcomponentid=429280&pdteaserkey=sr2&pditab=allpods&ecomp=-znyk&earg=sr2&prid=27f060a9-ea78-4d09-8cae-5735b61101d8",
+    "https://twitter.com/LulaOficial/status/1646421910157238272?cxt=HHwWgIC9laKAotktAAAA",
+    "https://twitter.com/LulaOficial/status/1646719944535470082?cxt=HHwWhMCzqZPEqdotAAAA",
+    "https://twitter.com/LulaOficial/status/1646855286060113920?cxt=HHwWgICzoYiK59otAAAA"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ARE-45031",
+   "our_Trip_ID": "239",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United Arab Emirates",
+   "our_Start_Date": "2023-04-15",
+   "our_End_Date": "2023-04-16",
+   "colt_Start": "2023-04-15",
+   "colt_End": "2023-04-15",
+   "discrepancias": "TripEndDate: nuestro=2023-04-16 COLT=2023-04-15 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/teaserdocument/?pdmfid=1516831&crid=aac24b2b-eea5-43c1-abb8-940892684d1f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6803-R1F1-DYY9-02MD-00000-00&pddocid=urn%3AcontentItem%3A6803-R1F1-DYY9-02MD-00000-00&pdcontentcomponentid=443607&pdteaserkey=h2&pditab=allpods&ecomp=-znyk&earg=sr4&prid=6c1e6238-1855-4259-a6d0-28d4afdc4a10",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e1ab1a6b-548b-4aa2-96de-c7e06cffdd20&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6815-K931-JCG7-800G-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr11&pditab=allpods&ecomp=-znyk&earg=sr11&prid=734f4c2f-be2a-4889-9607-1e85ae40e9b3",
+    "https://www.barrons.com/articles/trends-shaping-economy-inflation-labor-market-energy-613a493b",
+    "https://twitter.com/LulaOficial/status/1647264900941488134?cxt=HHwWjICx-eSsodwtAAAA"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-GBR-45051",
+   "our_Trip_ID": "242",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United Kingdom",
+   "our_Start_Date": "2023-05-05",
+   "our_End_Date": "2023-05-07",
+   "colt_Start": "2023-05-05",
+   "colt_End": "2023-05-06",
+   "discrepancias": "TripEndDate: nuestro=2023-05-07 COLT=2023-05-06 (dif 1d)",
+   "colt_links": [
+    "https://bnn.network/politics/president-lula-travels-to-london-for-king-charles-iiis-coronation-and-meets-with-sunak/",
+    "https://twitter.com/RishiSunak/status/1654535819875479556",
+    "https://www.barrons.com/news/brazil-s-lula-says-king-charles-urged-him-to-protect-amazon-42e0e854"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-JPN-45064",
+   "our_Trip_ID": "243",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Japan",
+   "our_Start_Date": "2023-05-19",
+   "our_End_Date": "2023-05-21",
+   "colt_Start": "2023-05-18",
+   "colt_End": "2023-05-22",
+   "discrepancias": "TripStartDate: nuestro=2023-05-19 COLT=2023-05-18 (dif 1d) | TripEndDate: nuestro=2023-05-21 COLT=2023-05-22 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4d5d4b4c-297f-4ecf-9a78-b62f70913c54&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A688M-JX01-DYY9-0560-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr16&pditab=allpods&ecomp=kmnyk&earg=sr16&prid=dfa8a0ee-32f9-494c-8574-72da0615bc1a",
+    "https://www.gettyimages.com/detail/news-photo/frances-president-emmanuel-macron-shakes-hands-with-brazils-news-photo/1256353831?adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=b2de057d-afbf-4081-b03e-132c6b121ce2&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A688W-1701-JCG7-84MB-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=-znyk&earg=sr1&prid=37ffb544-97e0-4bed-92b6-73152822b33f",
+    "https://www.gov.br/planalto/en/latest-news/lula-meets-with-prominent-businesspersons-in-japan",
+    "https://www.gov.br/planalto/en/latest-news/lula-announces-that-brazil-will-back-the-african-unions-entry-to-g20",
+    "https://www.gov.br/planalto/en/latest-news/lula-and-the-prime-minister-of-vietnam-discuss-the-expansion-of-trade",
+    "https://www.gov.br/planalto/en/latest-news/lula-discusses-paths-toward-world-peace-with-un-secretary-general-antonio-guterres",
+    "https://www.gov.br/planalto/en/latest-news/lula-and-the-prime-minister-of-india-discuss-peace-at-a-bilateral-meeting-in-japan",
+    "https://www.gov.br/planalto/en/latest-news/speech-by-president-lula-at-session-8-of-g7",
+    "https://www.gov.br/planalto/en/latest-news/lula-discusses-trade-and-climate-change-with-justin-trudeau",
+    "https://www.gov.br/planalto/en/latest-news/president-lula-talks-with-the-imf-managing-director-at-the-g7-summit",
+    "https://www.gov.br/planalto/en/latest-news/brazil-signs-joint-declaration-on-food-security-at-g7-summit",
+    "https://www.gov.br/planalto/en/latest-news/lula-highlights-the-protection-of-the-worlds-tropical-rainforests-in-meeting-with-the-president-of-indonesia"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-FRA-45098",
+   "our_Trip_ID": "245",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "France",
+   "our_Start_Date": "2023-06-22",
+   "our_End_Date": "2023-06-23",
+   "colt_Start": "2023-06-21",
+   "colt_End": "2023-06-24",
+   "discrepancias": "TripStartDate: nuestro=2023-06-22 COLT=2023-06-21 (dif 1d) | TripEndDate: nuestro=2023-06-23 COLT=2023-06-24 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=77bd179b-8aa4-4365-b702-7e0bf83aaa88&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68J3-J5P1-DYY9-032X-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=kmnyk&earg=sr2&prid=aea9830f-7c57-4689-b45e-865e9c69beef",
+    "https://www.gettyimages.com/detail/news-photo/french-president-emmanuel-macron-escorts-brazils-president-news-photo/1258967761?adppopup=true",
+    "https://www.gettyimages.com/detail/news-photo/brazilian-president-luiz-inacio-lula-da-silva-shakes-hands-news-photo/1259092590?adppopup=true",
+    "https://euro.eseuro.com/lifestyle/520457.html",
+    "https://www.dw.com/en/lula-in-paris-the-eus-uncomfortable-preferred-partner/a-65945936"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-BEL-45123",
+   "our_Trip_ID": "246",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Belgium",
+   "our_Start_Date": "2023-07-17",
+   "our_End_Date": "2023-07-18",
+   "colt_Start": "2023-07-16",
+   "colt_End": "2023-07-19",
+   "discrepancias": "TripStartDate: nuestro=2023-07-17 COLT=2023-07-16 (dif 1d) | TripEndDate: nuestro=2023-07-18 COLT=2023-07-19 (dif 1d)",
+   "colt_links": [
+    "https://www.pbs.org/newshour/world/eu-and-latin-american-leaders-hold-a-summit-hoping-to-rekindle-a-long-lost-relationship",
+    "https://www.rfi.fr/es/am%C3%A9ricas/20230716-el-presidente-brasile%C3%B1o-lula-da-silva-llega-a-bruselas-para-cumbre-celac-ue",
+    "https://elpais.com/internacional/2023-07-19/lula-da-silva-pocas-veces-he-visto-tanto-interes-economico-y-politico-de-la-ue-hacia-america-latina.html",
+    "https://www.elpais.com.uy/informacion/politica/cumbre-union-europea-celac-lacalle-pou-espera-por-avance-en-la-negociacion-del-acuerdo-con-el-mercosur",
+    "https://twitter.com/miaamormottley/status/1680926800308850689"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ZAF-45159",
+   "our_Trip_ID": "247",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "South Africa",
+   "our_Start_Date": "2023-08-22",
+   "our_End_Date": "2023-08-24",
+   "colt_Start": "2023-08-21",
+   "colt_End": "2023-08-24",
+   "discrepancias": "TripStartDate: nuestro=2023-08-22 COLT=2023-08-21 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=552881c6-7c5a-4846-86b6-e4a8d1adad6a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6913-SFM1-DYY9-02P1-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr17&pditab=allpods&ecomp=kmnyk&earg=sr17&prid=6082eb1c-c32e-45ca-b903-6640b026ede5",
+    "https://twitter.com/LulaOficial/status/1694062152196161726?s=20",
+    "https://www.gettyimages.com/detail/news-photo/brazils-president-luiz-inacio-lula-da-silva-chinas-news-photo/1618750786",
+    "https://www.gettyimages.com/detail/news-photo/iranian-president-ebrahim-raisi-meets-with-brazilian-news-photo/1621818967?adppopup=true"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-IND-45176",
+   "our_Trip_ID": "248",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "India",
+   "our_Start_Date": "2023-09-08",
+   "our_End_Date": "2023-09-11",
+   "colt_Start": "2023-09-07",
+   "colt_End": "2023-09-11",
+   "discrepancias": "TripStartDate: nuestro=2023-09-08 COLT=2023-09-07 (dif 1d)",
+   "colt_links": [
+    "https://www.gettyimages.com/detail/news-photo/prime-minister-narendra-modi-of-india-welcomes-president-of-news-photo/1669160378?adppopup=true",
+    "https://x.com/LulaOficial/status/1700847089159119290?s=20",
+    "https://media.gettyimages.com/id/1658540762/photo/brazilian-president-luiz-inacio-lula-da-silva-speaks-at-a-press-conference-a-day-after-the.jpg?s=612x612&w=0&k=20&c=3kO6QbNxBkAbbyCtJnePCXdrNn7Z3hPCsijxo82PJGw=",
+    "https://www.cnbc.com/2023/09/09/g20-african-union-au.html",
+    "https://www.gov.br/mre/en/contact-us/press-area/press-releases/joint-declaration-between-brazil-india-south-africa-and-the-united-states"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-45186",
+   "our_Trip_ID": "250",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2023-09-18",
+   "our_End_Date": "2023-09-21",
+   "colt_Start": "2023-09-17",
+   "colt_End": "2023-09-23",
+   "discrepancias": "TripStartDate: nuestro=2023-09-18 COLT=2023-09-17 (dif 1d) | TripEndDate: nuestro=2023-09-21 COLT=2023-09-23 (dif 2d)",
+   "colt_links": [
+    "https://gadebate.un.org/en/78/brazil",
+    "https://www.gettyimages.com/detail/news-photo/president-joe-biden-meets-with-brazilian-president-luiz-news-photo/1677851983?adppopup=true",
+    "https://www.pressdemocrat.com/article/news/brazils-lula-pitches-his-nation-and-himself-as-fresh-leader-for-global/",
+    "https://www.gettyimages.com/detail/news-photo/brazilian-president-luiz-inacio-lula-da-silva-meets-with-news-photo/1676995930?adppopup=true"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-DEU-45263",
+   "our_Trip_ID": "253",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Germany",
+   "our_Start_Date": "2023-12-03",
+   "our_End_Date": "2023-12-04",
+   "colt_Start": "2023-12-03",
+   "colt_End": "2023-12-05",
+   "discrepancias": "TripEndDate: nuestro=2023-12-04 COLT=2023-12-05 (dif 1d)",
+   "colt_links": [
+    "https://www.reuters.com/world/lula-berlin-first-brazil-germany-talks-eight-years-2023-12-03/",
+    "https://www.gov.br/planalto/en/latest-news/lula-visits-berlin-to-consolidate-resumption-of-strategic-partnership-between-brazil-and-germany",
+    "https://www.gov.br/planalto/en/latest-news/lula-and-olaf-scholz-defend-ecological-transition-while-also-promoting-social-justice"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ETH-45337",
+   "our_Trip_ID": "255",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Ethiopia",
+   "our_Start_Date": "2024-02-17",
+   "our_End_Date": "2024-02-18",
+   "colt_Start": "2024-02-15",
+   "colt_End": "2024-02-18",
+   "discrepancias": "TripStartDate: nuestro=2024-02-17 COLT=2024-02-15 (dif 2d)",
+   "colt_links": [
+    "https://www.gov.br/planalto/en/latest-news/2024/02/official-trip-to-egypt-and-ethiopia-is-on-president-lula2019s-agenda-next-week",
+    "https://www.gov.br/planalto/en/latest-news/2024/02/lula-begins-visit-to-ethiopia-to-take-part-in-the-african-union-summit",
+    "https://www.gov.br/planalto/en/latest-news/2024/02/lula-se-encontra-com-primeiro-ministro-da-autoridade-palestina-mohammad-shtayyeh",
+    "https://www.gov.br/planalto/en/latest-news/2024/02/lula-desenvolvimento-nao-pode-continuar-sendo-privilegio-de-poucos",
+    "https://twitter.com/govbr/status/1758777857096974700"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-GUY-45350",
+   "our_Trip_ID": "256",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Guyana",
+   "our_Start_Date": "2024-02-28",
+   "our_End_Date": "2024-02-29",
+   "colt_Start": "2024-02-28",
+   "colt_End": "2024-02-28",
+   "discrepancias": "TripEndDate: nuestro=2024-02-29 COLT=2024-02-28 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=3fefb345-f3b9-4793-b8a0-3775968bdab0&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BFD-DY01-DYY9-01DV-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=tmnyk&earg=sr2&prid=e9c9e9c2-b39b-4f5f-b2e3-977bd99e28a2",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=832979bf-75c2-4532-a241-1e8debcbafc2&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BFD-DXJ1-JCG7-832H-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=tmnyk&earg=sr4&prid=e023b1b1-6ef6-420d-920a-6fabf8b6421d",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=0b4b2fbd-fe0b-4b4c-b71a-cc956a600732&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BFM-5491-DYRV-30NR-00000-00&pdcontentcomponentid=10962&pdteaserkey=sr2&pditab=allpods&ecomp=tmnyk&earg=sr2&prid=e023b1b1-6ef6-420d-920a-6fabf8b6421d"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-VCT-45351",
+   "our_Trip_ID": "257",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Saint Vincent and the Grenadines",
+   "our_Start_Date": "2024-03-01",
+   "our_End_Date": "2024-03-01",
+   "colt_Start": "2024-02-29",
+   "colt_End": "2024-03-01",
+   "discrepancias": "TripStartDate: nuestro=2024-03-01 COLT=2024-02-29 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=956626af-35ac-463b-96be-d99f7456bb20&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BFV-CBX1-JCG7-82SC-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=tmnyk&earg=sr0&prid=854b006d-9313-4ade-a566-606fc62ca7e5",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=83f8960e-d70c-42b8-9b57-11cd0031dc0a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BF0-GXB1-DYY9-04Y8-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=tmnyk&earg=sr2&prid=854b006d-9313-4ade-a566-606fc62ca7e5",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=2721cb6c-9f7b-483c-b379-af276d21ec51&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6BFV-CB01-DYY9-0157-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=tmnyk&earg=sr4&prid=854b006d-9313-4ade-a566-606fc62ca7e5"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-CHL-45508",
+   "our_Trip_ID": "259",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Chile",
+   "our_Start_Date": "2024-08-05",
+   "our_End_Date": "2024-08-06",
+   "colt_Start": "2024-08-04",
+   "colt_End": "2024-08-06",
+   "discrepancias": "TripStartDate: nuestro=2024-08-05 COLT=2024-08-04 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=6d5e26a7-bf29-4cdb-8ade-a6a39b84eac4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CMN-P9R1-DYY9-01BP-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=1c83d683-393c-4af3-95e9-56dbd3d7792e",
+    "https://twitter.com/LulaOficial/status/1820519749089959968",
+    "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-08-04",
+    "https://twitter.com/LulaOficial/status/1820601463540003225",
+    "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-08-05",
+    "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-08-06"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-45556",
+   "our_Trip_ID": "260",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2024-09-22",
+   "our_End_Date": "2024-09-24",
+   "colt_Start": "2024-09-21",
+   "colt_End": "2024-09-29",
+   "discrepancias": "TripStartDate: nuestro=2024-09-22 COLT=2024-09-21 (dif 1d) | TripEndDate: nuestro=2024-09-24 COLT=2024-09-29 (dif 5d)",
+   "colt_links": [
+    "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-09-21",
+    "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-09-23",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=e64c069d-d4a4-4f2f-9c3f-8aa2a9dfada6&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6D26-4WD1-DYY9-03PR-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=5657d7f6-75df-4e29-99e4-b305f8015be8"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-URY-45716",
+   "our_Trip_ID": "262",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Uruguay",
+   "our_Start_Date": "2025-03-01",
+   "our_End_Date": "2025-03-01",
+   "colt_Start": "2025-02-28",
+   "colt_End": "2025-03-01",
+   "discrepancias": "TripStartDate: nuestro=2025-03-01 COLT=2025-02-28 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=80a357b4-5dc9-4207-bb38-f02c2dcb90a1&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6F7D-DB83-RSK4-R1F3-00000-00&pdcontentcomponentid=475001&pdteaserkey=sr6&pditab=allpods&ecomp=hc-yk&earg=sr6&prid=ea634b0d-c6da-4829-9055-cee6b08ba9d7",
+    "https://www.gov.br/planalto/en/latest-news/2025/03/lula-reinforces-historic-partnership-between-brazil-and-uruguay-to-promote-south-american-integration",
+    "https://apnews.com/article/uruguay-president-inauguration-congress-elections-rightwing-leftist-a5d37022c0bbb9615c5bc8f18eaecb29"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-HND-45755",
+   "our_Trip_ID": "265",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Honduras",
+   "our_Start_Date": "2025-04-09",
+   "our_End_Date": "2025-04-09",
+   "colt_Start": "2025-04-08",
+   "colt_End": "2025-04-09",
+   "discrepancias": "TripStartDate: nuestro=2025-04-09 COLT=2025-04-08 (dif 1d)",
+   "colt_links": [
+    "https://www.gov.br/planalto/en/latest-news/2025/04/president-lula-attends-celac-summit-in-honduras-strengthening-regional-integration",
+    "https://www.gov.br/planalto/en/latest-news/2025/04/lula-latin-america-and-the-caribbean-must-redefine-their-place-in-the-new-global-order",
+    "https://x.com/govbr/status/1909917820353208727",
+    "https://www.gov.br/planalto/en/latest-news/2025/04/lula-proposes-brazil2013mexico-business-events-in-talks-with-president-sheinbaum",
+    "https://x.com/LulaOficial/status/1910069458594373920"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-RUS-45783",
+   "our_Trip_ID": "266",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Russia",
+   "our_Start_Date": "2025-05-08",
+   "our_End_Date": "2025-05-10",
+   "colt_Start": "2025-05-06",
+   "colt_End": "2025-05-10",
+   "discrepancias": "TripStartDate: nuestro=2025-05-08 COLT=2025-05-06 (dif 2d)",
+   "colt_links": [
+    "https://x.com/LulaOficial/status/1920154001544269868",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=82def379-ee77-4e9e-bdf4-dd278fb5430f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6FSB-H9Y3-RS0T-04WS-00000-00&pdcontentcomponentid=8058&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=2dcd9e67-dec7-42a1-a9af-fcb2bd500356",
+    "https://www.gov.br/planalto/en/latest-news/2025/05/lula-at-bilateral-meeting-with-putin-201cstrengthening-the-construction-of-a-strategic-partnership201d",
+    "https://www.gov.br/planalto/en/latest-news/2025/05/lula-on-foreign-trade-with-russia-201cbrazil-cannot-miss-any-opportunity201d",
+    "https://x.com/LulaOficial/status/1920904439604334830"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-CHN-45787",
+   "our_Trip_ID": "267",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "China",
+   "our_Start_Date": "2025-05-12",
+   "our_End_Date": "2025-05-13",
+   "colt_Start": "2025-05-10",
+   "colt_End": "2025-05-13",
+   "discrepancias": "TripStartDate: nuestro=2025-05-12 COLT=2025-05-10 (dif 2d)",
+   "colt_links": [
+    "https://x.com/LulaOficial/status/1921256746082820485",
+    "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2025/05/primeiro-compromisso-oficial-de-lula-na-china-resulta-no-anuncio-de-investimentos-de-us-1-bi-para-producao-de-saf-no-brasil",
+    "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2025/05/na-china-lula-participa-de-assinatura-de-acordos-com-empresas-chinesas-na-area-de-saude",
+    "https://www.gov.br/planalto/en/latest-news/2025/05/lula-celebrates-results-of-his-visit-to-china-201cour-relationship-is-very-strategic201d",
+    "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2025/05/forum-empresarial-brasil-china-celebra-r-27-bilhoes-em-investimentos-de-empresas-dos-dois-paises",
+    "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2025/05/201cdefesa-do-multilateralismo-e-uma-tarefa-urgente-e-necessaria201d-afirma-lula-em-assinatura-de-atos-de-cooperacao-com-a-china",
+    "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2025/05/201co-apoio-chines-e-decisivo-para-tirar-do-papel-rodovias-ferrovias-portos-e-linhas-de-transmissao201d-diz-lula-em-pequim",
+    "https://x.com/LulaOficial/status/1922331150661636606"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-FRA-45811",
+   "our_Trip_ID": "268",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "France",
+   "our_Start_Date": "2025-06-05",
+   "our_End_Date": "2025-06-06",
+   "colt_Start": "2025-06-03",
+   "colt_End": "2025-06-09",
+   "discrepancias": "TripStartDate: nuestro=2025-06-05 COLT=2025-06-03 (dif 2d) | TripEndDate: nuestro=2025-06-06 COLT=2025-06-09 (dif 3d)",
+   "colt_links": [
+    "https://x.com/LulaOficial/status/1930049773983191328",
+    "https://www.gov.br/planalto/en/latest-news/2025/06/lula-and-macron-strengthen-bilateral-relations-humanism-at-the-service-of-progress",
+    "https://www.gov.br/planalto/en/latest-news/2025/06/tribute-with-eiffel-tower-in-brazilian-colors-marks-the-end-of-lula2019s-first-day-on-state-visit-to-france",
+    "https://www.gov.br/planalto/en/latest-news/2025/06/lula-emphasizes-the-emancipating-potential-of-education-upon-receiving-honorary-doctorate-in-france",
+    "https://www.gov.br/planalto/en/latest-news/2025/06/brazil-france-business-forum-lula-is-determined-to-elevate-strategic-partnership-with-european-country",
+    "https://www.gov.br/planalto/en/latest-news/2025/06/lula-french-businesspeople-announce-brl-100-billion-in-investments-in-brazil-in-the-next-five-years",
+    "https://x.com/LulaOficial/status/1931702959609417785",
+    "https://www.gov.br/planalto/en/latest-news/2025/06/lula-strengthens-partnership-with-interpol-to-counter-organized-crime"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-45922",
+   "our_Trip_ID": "269",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2025-09-23",
+   "our_End_Date": "2025-09-24",
+   "colt_Start": "2025-09-22",
+   "colt_End": "2025-09-26",
+   "discrepancias": "TripStartDate: nuestro=2025-09-23 COLT=2025-09-22 (dif 1d) | TripEndDate: nuestro=2025-09-24 COLT=2025-09-26 (dif 2d)",
+   "colt_links": [
+    "https://www.gettyimages.com/detail/news-photo/president-of-brazil-luiz-in%C3%A1cio-lula-da-silva-speaks-during-news-photo/2236918234?adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=a8a4ab4b-79df-475d-8232-cd4618a864cc&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6GTK-HTK3-RT5S-D3XP-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr12&pditab=allpods&ecomp=hc-yk&earg=sr12&prid=1d244af8-5b28-4da8-b761-3b162eebc197",
+    "https://www.instagram.com/p/DPEK-jvjsYj/?img_index=1",
+    "https://news.un.org/en/story/2025/09/1165920",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=e2de4012-79f6-49f6-b773-e64e8107d99c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6GTT-H533-RYDP-G3KH-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=f8c69def-21f3-4b96-afb7-438d2c055d03"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ZAF-45982",
+   "our_Trip_ID": "279",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "South Africa",
+   "our_Start_Date": "2025-11-21",
+   "our_End_Date": "2025-11-23",
+   "colt_Start": "2025-11-21",
+   "colt_End": "2025-11-24",
+   "discrepancias": "TripEndDate: nuestro=2025-11-23 COLT=2025-11-24 (dif 1d)",
+   "colt_links": [
+    "https://www.facebook.com/Lula/posts/pfbid0NCwgShVVd7EaMB1Ka6BYuXmShFj5B8fXXFctyTmq2ZcCM5Te1NDyG65GA4wA66Kal",
+    "https://www.facebook.com/Lula/posts/pfbid0258dDhgf1jbAEzndsSUVABopM7bYVAQFeRkTnALnzB8ctBja3HCa4NUxk43uyGxcHl",
+    "https://x.com/bundeskanzler/status/1992250814694600846?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1992250814694600846%7Ctwgr%5Ee7d94e2b0f1d067e17836edf0fe43f69a1880eef%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.dw.com%2Fen%2Fgermanys-merz-brazils-lula-reconcile-after-belem-comments%2Fa-74850206",
+    "https://www.facebook.com/reel/1329820405586882/",
+    "https://en.baochinhphu.vn/prime-minister-meets-foreign-leaders-on-sidelines-of-g20-summit-111251122204526559.htm",
+    "https://x.com/LulaOficial/status/1992522863924969821",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=d6e5dea9-4720-4921-8700-e00efba728c3&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6H8D-F6N3-RYX5-8062-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr52&pditab=allpods&ecomp=hc-yk&earg=sr52&prid=b3c7b65b-36e8-42b2-b75f-701436f8e2df",
+    "https://www.pm.gc.ca/en/news/readouts/2025/11/23/prime-minister-carney-meets-president-brazil-luiz-inacio-lula-da-silva",
+    "https://www.facebook.com/MFAEthiopia/posts/pfbid0rwi4F3txEuoGSZfW6ho8MYxhUZfHuxA32ZibffUoDZhzCRYCUZ5PwL6y3i89NYqWl"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-BOL-45481",
+   "our_Trip_ID": "287",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Bolivia",
+   "our_Start_Date": "2024-07-09",
+   "our_End_Date": "2024-07-09",
+   "colt_Start": "2024-07-08",
+   "colt_End": "2024-07-09",
+   "discrepancias": "TripStartDate: nuestro=2024-07-09 COLT=2024-07-08 (dif 1d)",
+   "colt_links": [
+    "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-07-09",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=73f87b27-95b9-49c3-9b50-628e5a015f90&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CFJ-CTJ1-DYY9-01YH-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=53f189fc-3151-42d2-9e97-cfc099349a35"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ARG-45841",
+   "our_Trip_ID": "363",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2025-07-02",
+   "our_End_Date": "2025-07-03",
+   "colt_Start": "2025-07-03",
+   "colt_End": "2025-07-03",
+   "discrepancias": "TripStartDate: nuestro=2025-07-02 COLT=2025-07-03 (dif 1d)",
+   "colt_links": [
+    "https://www.gov.br/planalto/en/follow-the-government/speeches-statements/2025/07/statement-by-president-lula-at-the-66th-mercosur-summit",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=9ae66cad-086f-4da5-982b-014c792d7fd7&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6G5W-YKR3-RRTS-04X9-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=hc-yk&earg=sr3&prid=681f1027-5c8c-40ac-be4d-88c66aefd445",
+    "https://www.instagram.com/p/DLpy8iuOvgE/?img_index=1",
+    "https://agenciabrasil.ebc.com.br/en/internacional/noticia/2025-07/brazil-takes-mercosur-presidency-aiming-deeper-integration"
+   ]
+  }
+ ],
+ "colt_unico": [
+  {
+   "TripID": "1780-BRA-AGO-45162",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Angola",
+   "CityVisited": "None",
+   "TripYear": "2023",
+   "TripStartDate": "2023-08-24T00:00:00",
+   "TripEndDate": "2023-08-27T00:00:00",
+   "Notes": "Foreign Minister signed 7 agreements between Angolan and Brazillian government as well as a Memorandum of Understanding in Agriculture;conversation regarding construction of a Brazillian Consulate in Luanda",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.gettyimages.com/detail/news-photo/angolan-president-joao-lourenco-r-welcomes-visiting-news-photo/1628171178?adppopup=true",
+    "https://twitter.com/LulaOficial/status/1695062060558684642?s=20",
+    "https://twitter.com/LulaOficial/status/1695176851243536822?s=20"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ARG-45110",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2023",
+   "TripStartDate": "2023-07-03T00:00:00",
+   "TripEndDate": "2023-07-05T00:00:00",
+   "Notes": "Attended and addressed the Common Market of the South (MERCOSUR) Summit",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.facebook.com/Lula/posts/pfbid0MYmrh1HMJox7ZV5PFk3LUX5ezWRp9ZprQhr1myrftqpTo5bBsxkjX9sQ5dbgXofRl?__cft__[0]=AZUMUHfp2ypllXehenblywLXAdh9F8tb1fNDEISDXPUmLH7TqdkK05RZbmbtnND1WCBPFhTGYkonfczVGZBNzY8EzK_0m-VJk4CcjLK3vY14o_8K_yfb6n05JgwzdWvr4KZsK0jrCWZHPyVQJojnLLu5Jd3FUxVlHOffUGUuDH1tUhpLD1QaldbxcUC0r5cxkrrxZXw_XTNxCzTtxgAL3aLO&__tn__=%2CO%2CP-R",
+    "https://www.aa.com.tr/en/americas/argentina-hands-over-presidency-of-mercosur-to-brazil-s-lula/2937206",
+    "https://www.facebook.com/Lula/posts/pfbid02NgQfipcqfSGja9DE6tKJ7JqzHVHY575hYtSbwBdhtESQn1f39LoVm6wLDMSJWkwml?__cft__[0]=AZX83qQfYVi-Hu-kkUnNmQfQFDCb__cULRWdGAlDqCf0BSloEl4jau542LbuAXidf2H9VSQ7pBiRG7fN7QdwaTlh8VL18XXFZgVsKhMCAyFGMk3_AsqniPDbX5gawozL75B9oGJeYhdR6K3OO4VMYlW3g2VQve1hSBDrfWBwwGDWDJ-Oou4sIAfCfUP8uZqIdV-TZJDLOx6LL883c0YDhGPw&__tn__=%2CO%2CP-R",
+    "https://www1.folha.uol.com.br/internacional/en/business/2023/07/we-have-no-interest-in-an-agreement-that-condemns-us-to-be-exporters-of-raw-materials-says-lula.shtml"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CPV-45126",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Cabo Verde",
+   "CityVisited": "None",
+   "TripYear": "2023",
+   "TripStartDate": "2023-07-19T00:00:00",
+   "TripEndDate": "2023-07-20T00:00:00",
+   "Notes": "Made a public statement emphasizing the importance of renewing relationships",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.plenglish.com/news/2023/07/19/lula-for-recovering-brazils-cooperation-with-africa/",
+    "https://www.riotimesonline.com/brazil-news/lusophone-world/lula-stops-in-cape-verde-and-reaffirms-his-intention-to-improve-african-relations/",
+    "https://www.africa-press.net/cape-verde/all-news/lula-da-silva-promises-to-visit-cape-verde-later-this-year"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CAN-45823",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Canada",
+   "CityVisited": "Kananaskis",
+   "TripYear": "2025",
+   "TripStartDate": "2025-06-15T00:00:00",
+   "TripEndDate": "2025-06-17T00:00:00",
+   "Notes": "Attended the 2025 G7 summit at the invitation of Canadian Prime Minister Mark Carney;Met with Prime Minister Carney to discuss an increase in economic and trade relations;Gave a speech in which he discussed the fact that the world does not need to stray from fossil fuel usage and that the UN needs to step up and play a larger role in the world",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.gov.br/planalto/en/latest-news/2025/06/at-the-g7-lula-reaffirms-brazil2019s-leadership-in-the-energy-transition",
+    "https://www.gettyimages.com/detail/news-photo/secretary-of-treasury-scott-bessent-world-bank-president-news-photo/2219940569?adppopup=true",
+    "https://www.pm.gc.ca/en/news/readouts/2025/06/17/prime-minister-carney-meets-president-brazil-luiz-inacio-lula-da-silva",
+    "https://www.gov.br/planalto/en/follow-the-government/speeches-statements/2025/06/statement-by-president-lula-at-expanded-session-of-g7-summit-in-canada"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CHL-45859",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Chile",
+   "CityVisited": "Santiago",
+   "TripYear": "2025",
+   "TripStartDate": "2025-07-21T00:00:00",
+   "TripEndDate": "2025-07-21T00:00:00",
+   "Notes": "Attended the Democracy Always summit hosted by President Gabriel Boric;The presidents of Spain, Brazil, Chile, Colombia, and Uruguay attended the summit;They released a joint declaration in which they emphasized the importance of multilateralism and democracy in countering President Donald Trump's negative influence in the region",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.instagram.com/p/DMWpdL_uHXq/?img_index=1",
+    "https://www.gettyimages.com/detail/news-photo/president-of-chile-gabriel-boric-president-of-spain-pedro-news-photo/2225446521?adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=13d657c3-e41d-4555-bb9a-52083319768b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6G9Y-D2J3-RSBD-151G-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=hc-yk&earg=sr4&prid=5f44e5a0-1711-440b-8040-b59893c73d87",
+    "https://colombiaone.com/2025/07/21/chile-left-wing-summit/"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-COL-45115",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Colombia",
+   "CityVisited": "None",
+   "TripYear": "2023",
+   "TripStartDate": "2023-07-08T00:00:00",
+   "TripEndDate": "2023-07-08T00:00:00",
+   "Notes": "Laid the groundwork for the Amazon Summit the Brazilian government will be hosting in Belem next month",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://apnews.com/article/brazil-colombia-amazon-presidents-rainforest-summit-fee04a78a7e4ac4a1042d905a82c0a0d",
+    "https://www.reuters.com/business/environment/colombia-brazil-presidents-pledge-cooperation-protect-amazon-2023-07-08/",
+    "https://www.facebook.com/Lula/posts/pfbid02di1nT5X39AcTB8qvVjc4o4fmBu6r3X93rtvEQLesNLYLYj3j4aLeoXapmUsMxacVl?__cft__[0]=AZWii_4J36gx-Yj0cg5UUaG9zSHQ-gTnCNFWTCKV1cLP1aLEPPf6TQWbMddoq8UQMaCRyund4QxKz_W1VctCaBCm5-W7idffvsRHzmboEUj062kM41snOi24A6iB5AzTlEeqJNLtZKP8doCFOIKPdbRUUiYR5J4-xYRaBpUYevaWxcFXEsR-fBSFPIwc4K6YEA8b9XxA75o7ddFfWGm8bqI3&__tn__=%2CO%2CP-R"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-COL-45399",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Colombia",
+   "CityVisited": "None",
+   "TripYear": "2024",
+   "TripStartDate": "2024-04-17T00:00:00",
+   "TripEndDate": "2024-04-17T00:00:00",
+   "Notes": "Spoke at the Brazil-Colombia Business Forum;Agreed with Colombian President Gustavo Petro's proposal for Venezuela to hold a plebiscite before the country's presidential elections",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://g1.globo.com/politica/noticia/2024/04/17/na-colombia-lula-cita-pobreza-da-america-do-sul-e-diz-que-eua-deveriam-gerar-emprego-nos-vizinhos-em-vez-de-construir-muro.ghtml",
+    "https://www.gov.br/planalto/en/follow-the-government/speeches-statements/president-lulas-speech-at-the-closing-of-the-brazil-colombia-business-forum"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-COL-45889",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Colombia",
+   "CityVisited": "Bogota",
+   "TripYear": "2025",
+   "TripStartDate": "2025-08-20T00:00:00",
+   "TripEndDate": "2025-08-21T00:00:00",
+   "Notes": "Attended the 5th Meeting of Presidents of the States Party to the Amazon Cooperation Treaty;Signed the Bogota Declaration, which is a commitment to collective action in fighting climate change;At the meeting, the leaders discussed their collective message for the upcoming COP30 Summit;Travelled to Colombia a day early to meet with Colombian President Gustavo Petro to discuss the COP30 summit in November, which President Lula is hosting in Brazil;Gave a speech where he encouraged all of the ACTO leaders to form a united bloc at COP30",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.gettyimages.com/detail/news-photo/brazils-president-luiz-inacio-lula-da-silva-and-colombias-news-photo/2230622702?adppopup=true",
+    "https://www.instagram.com/p/DNqwYUlu8Im/?img_index=1",
+    "https://otca.org/en/amazonian-presidents-approve-the-bogota-declaration-with-initiatives-to-strengthen-forest-preservation/",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=66fa927a-8ff2-4f94-9ded-0e49fe651956&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6GJS-G1B3-RS1P-J31T-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=hc-yk&earg=sr2&prid=3feb94c1-c778-4a46-9ed9-5cf1b09b9a1e"
+   ]
+  },
+  {
+   "TripID": "3531-BRA-GUY-44687",
+   "LeaderFullName": "Jair Bolsonaro",
+   "CountryVisited": "Guyana",
+   "CityVisited": "None",
+   "TripYear": "2022",
+   "TripStartDate": "2022-05-06T00:00:00",
+   "TripEndDate": "2022-05-06T00:00:00",
+   "Notes": "Signed an agreement trade and national defense along with two agreements on legal cooperation",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://caribbean.loopnews.com/index.php/content/guyana-brazil-agree-action-plan-develop-4-areas-cooperation",
+    "https://g1.globo.com/politica/noticia/2022/05/06/bolsonaro-chega-a-georgetown-para-agenda-com-presidente-da-guiana.ghtml",
+    "https://oilnow.gy/featured/leader-of-south-americas-largest-oil-producing-nation-for-guyana-visit/",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/096d7659-8da3-4611-a005-945d5ebe3564/?context=1516831"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-VAT-45773",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Holy See",
+   "CityVisited": "Vatican City",
+   "TripYear": "2025",
+   "TripStartDate": "2025-04-26T00:00:00",
+   "TripEndDate": "2025-04-26T00:00:00",
+   "Notes": "Paid tribute to and attended the funeral of Pope Francis;Unsure of where the delegation left from",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://x.com/govbr/status/1915835038639272009",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=b7f3657b-4041-4667-9f84-5eef8a4a4850&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6FMS-1GS3-RV9H-14KV-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=hc-yk&earg=sr4&prid=07799439-cc7b-4828-9d24-2a115ca2e4de"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-VAT-45943",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Holy See",
+   "CityVisited": "Vatican City",
+   "TripYear": "2025",
+   "TripStartDate": "2025-10-13T00:00:00",
+   "TripEndDate": "2025-10-13T00:00:00",
+   "Notes": "Discussed religion, faith, and Brazil with Pope Leo XIV",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.vaticannews.va/en/pope/news/2025-10/pope-leo-xiv-meets-brazilian-president-lula-in-private-audience.html",
+    "https://www.facebook.com/Lula/posts/pfbid037H6yB8ERz1XS7rf2keiuPnvB2AsYbTe6FhwjwAQGvRcg8mcYgBTUsHQN3E3bYCDVl"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-IDN-45952",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Indonesia",
+   "CityVisited": "Jakarta",
+   "TripYear": "2025",
+   "TripStartDate": "2025-10-22T00:00:00",
+   "TripEndDate": "2025-10-25T00:00:00",
+   "Notes": "Witnessed the signing of agreements in various fields to include energy, mining, science, technology, and trade;Attended and delivered a speech at the Indonesia-Brazil Business Forum;Toured the ASEAN Gallery;Attended a celebration in honor of his 80th birthday",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://asean.org/president-of-brazil-pays-a-historic-visit-to-the-asean-headquarters-asean-secretariat-to-strengthen-asean-brazil-partnership",
+    "https://setkab.go.id/en/indonesia-brazil-to-strengthen-strategic-partnership-accelerate-bilateral-cooperation/",
+    "https://www.facebook.com/reel/1178736350839832/",
+    "https://www.instagram.com/p/DQJ75-6jsge/?img_index=1",
+    "https://www.facebook.com/reel/806815615285789/"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ITA-45096",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Italy",
+   "CityVisited": "None",
+   "TripYear": "2023",
+   "TripStartDate": "2023-06-19T00:00:00",
+   "TripEndDate": "2023-06-21T00:00:00",
+   "Notes": "Met with several politicains",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.barrons.com/news/brazil-s-lula-arrives-in-rome-for-meeting-with-pope-francis-382e9c09",
+    "https://bnn.network/politics/lula-is-going-to-italy-but-he-is-not-expected-to-meet-with-giorgia-meloni/"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ITA-45457",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Italy",
+   "CityVisited": "None",
+   "TripYear": "2024",
+   "TripStartDate": "2024-06-14T00:00:00",
+   "TripEndDate": "2024-06-15T00:00:00",
+   "Notes": "Attended G7 Summit;met with Pope Francis;also met with Indian Prime Minister Narendra Modi;also met with French President Emmanuel Macron",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=2a1986ab-d8d9-4ca1-919f-b218f8aa61de&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C8F-KFG1-JCG7-854S-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=b05a2162-07a0-4508-addb-afb8d7385024",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=0dcd3af3-1024-488a-bb2e-d1352648430b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C87-4S01-JCG7-802B-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hmnyk&earg=sr1&prid=b05a2162-07a0-4508-addb-afb8d7385024",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c84fbfbe-a3ad-4d68-9d7c-376b8e52f1f3&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C7T-6G11-DYY9-0499-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hmnyk&earg=sr1&prid=e609f18e-fe26-4822-849f-9f2425d9f5e0"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ITA-45772",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Italy",
+   "CityVisited": "Rome",
+   "TripYear": "2025",
+   "TripStartDate": "2025-04-25T00:00:00",
+   "TripEndDate": "2025-04-26T00:00:00",
+   "Notes": "Attended delegation at St. Peter's Basilica to bid first farewell to Pope Francis",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://x.com/govbr/status/1915810583586234417",
+    "https://x.com/LulaOficial/status/1915808215511564570",
+    "https://x.com/LulaOficial/status/1916965870687162791",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=9637282a-da46-499b-8dd8-a511ad0fd853&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6FNC-Y213-RV29-44CK-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=hc-yk&earg=sr2&prid=9e8890cb-d823-40fc-a874-ada39a440980"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ITA-45942",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Italy",
+   "CityVisited": "Rome",
+   "TripYear": "2025",
+   "TripStartDate": "2025-10-12T00:00:00",
+   "TripEndDate": "2025-10-13T00:00:00",
+   "Notes": "Attended the second meeting of the Board of Champions of the Alliance where he delivered a speech calling for wealthy nations to prioritize spending on food insecurity over weapons;Attended the opening ceremony of the WFF where he delivered a speech highlighting that the poor must be visible to the political elite in order to effectively address hunger and poverty;Met with Chief Advisor Muhammad Yunus and discussed matters of mutual interest",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://globalallianceagainsthungerandpoverty.org/new/board-of-champions-global-alliance-establishes-its-support-mechanism-and-reviews-progress-against-hunger-and-poverty/",
+    "https://www.facebook.com/reel/824871233320481/",
+    "https://www.facebook.com/Lula/posts/pfbid02a7tsxcX1AP8PqeZzxvwsw1f5YRWBzTfdZ9Vk6pjLSciMWbTjqoZSH9Gen12jg2Swl",
+    "https://www.facebook.com/reel/1835582513707126/",
+    "https://www.fao.org/director-general/news/details/bilateral-meeting-with-h.e.-luiz-in%C3%A1cio-lula-da-silva--president-of-the-federative-republic-of-brazil/en",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=9dafc09f-d6dd-4c5a-8ceb-f9d5debb8876&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6GYX-RV53-RW9T-04P0-00000-00&pdcontentcomponentid=377664&pdteaserkey=sr5&pditab=allpods&ecomp=hc-yk&earg=sr5&prid=f627d74e-ab0a-46da-8c03-ebe18e301a2a"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-MEX-45564",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Mexico",
+   "CityVisited": "None",
+   "TripYear": "2024",
+   "TripStartDate": "2024-09-29T00:00:00",
+   "TripEndDate": "2024-10-02T00:00:00",
+   "Notes": "Travelled to Mexico to attend the inauguration of Claudia Sheinbaum, Mexico's first female president;Attended Buisness Seminar;Met with Mexican Buisnessmen;Met with President Claudia Sheinbaum",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=1d099049-b550-4fff-b32a-25f0a87839be&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6D32-0NP1-DYY9-0265-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=25a218f1-7298-4fc0-9f19-9564c1d9aaae",
+    "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-09-29",
+    "https://www.gov.br/mre/pt-br/agendas/agenda-do-ministro-das-relacoes-exteriores/2024-09-30",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=8aa9270a-6c7b-4002-b2fc-0740aee1586a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6D3N-XVF1-DYY9-052Y-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=1cda5d33-d816-4c9d-a512-e18b4a3f27a9"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-MCO-45816",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Monaco",
+   "CityVisited": "Monaco",
+   "TripYear": "2025",
+   "TripStartDate": "2025-06-08T00:00:00",
+   "TripEndDate": "2025-06-08T00:00:00",
+   "Notes": "Met European Council President Antonio Costa to discuss signing the Mercosur-European Union Agreement",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.gov.br/planalto/en/latest-news/2025/06/lula-highlights-confidence-in-mercosur2013eu-agreement-during-diplomatic-meeting-with-eu-council-president",
+    "https://x.com/LulaOficial/status/1931750150545846330"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-PRY-45152",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2023",
+   "TripStartDate": "2023-08-14T00:00:00",
+   "TripEndDate": "2023-08-15T00:00:00",
+   "Notes": "Attended the inauguration of President Santiago Pena;received key to the Paraguayan capital",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://twitter.com/LulaOficial/status/1691210479404818432",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=a4e26546-f56d-48ac-b42b-813f13428505&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68YD-0MW1-DYY9-006R-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr8&pditab=allpods&ecomp=kmnyk&earg=sr8&prid=21165726-7773-4f94-b438-7e11b23bb419",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=013062c5-948d-49f6-8bb5-dbb3d9c37acc&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68YD-0MT1-DYY9-04KT-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr20&pditab=allpods&ecomp=kmnyk&earg=sr20&prid=e90e0716-6b33-495f-9740-c61c1c8ec779"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-QAT-45259",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Qatar",
+   "CityVisited": "None",
+   "TripYear": "2023",
+   "TripStartDate": "2023-11-29T00:00:00",
+   "TripEndDate": "2023-11-30T00:00:00",
+   "Notes": "Working Trip;met with Emir Tamin bin Hamad Al Thani;discussed bilateral relations, the war between Israel and Palestine, and joint cooperation;participated in the Qatar-Brazil Economic forum",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://twitter.com/LulaOficial/status/1729888969285140963",
+    "https://twitter.com/LulaOficial/status/1730167428867301666",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c515657a-64d2-49ae-800f-817adc1ccb51&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A69S1-3HD1-DYY9-047G-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr56&pditab=allpods&ecomp=tmnyk&earg=sr56&prid=e669c63a-21d6-45a5-8bb3-c595f5d0b066",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=81b891b7-9e49-42df-ae28-8d5bdd382dff&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A69S2-3XN1-F11P-X3B1-00000-00&pdcontentcomponentid=381159&pdteaserkey=sr64&pditab=allpods&ecomp=tmnyk&earg=sr64&prid=032be4f5-b728-4bcd-9c21-bbe2d8380b22",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c5126b87-0938-414c-b3ee-c6cb7a4d0c03&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A69S2-3XN1-F11P-X313-00000-00&pdcontentcomponentid=407846&pdteaserkey=sr80&pditab=allpods&ecomp=tmnyk&earg=sr80&prid=75583f99-6e78-475a-bc33-9e81a57b9ea7"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-STP-45165",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Sao Tome and Principe",
+   "CityVisited": "None",
+   "TripYear": "2023",
+   "TripStartDate": "2023-08-27T00:00:00",
+   "TripEndDate": "2023-08-27T00:00:00",
+   "Notes": "Attended Conference of Heads of State and Government of the CPLP;Called for UN to make Portuguese an official language;met with Sao Tome and Principe Prime Minister Patrice Trovoada;signed two new cooperation instruments",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ee975b7a-17a0-439f-99ee-47584eedca0f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A691Y-MJW1-DYY9-03DT-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=kmnyk&earg=sr1&prid=50122b55-62dc-442c-a47b-4b671e28c67c",
+    "https://twitter.com/LulaOficial/status/1695788212147409202?s=20",
+    "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/atos-assinados-durante-a-visita-oficial-do-senhor-presidente-da-republica-luiz-inacio-lula-da-silva-a-sao-tome-e-principe-por-ocasiao-da-14a-conferencia-de-chefes-de-estado-e-de-governo-da-comunidade-dos-paises-de-lingua-portuguesa-cplp-2013-sao-tome-27"
+   ]
+  },
+  {
+   "TripID": "3531-BRA-SUR-44581",
+   "LeaderFullName": "Jair Bolsonaro",
+   "CountryVisited": "Suriname",
+   "CityVisited": "None",
+   "TripYear": "2022",
+   "TripStartDate": "2022-01-20T00:00:00",
+   "TripEndDate": "2022-01-21T00:00:00",
+   "Notes": "Discusses energy cooperation with President Chandrikapersad;Bilateral agreements were negotiated;Reporting has focused on the death of President Bolsonaros mother",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "https://www.reuters.com/business/energy/brazil-guyana-suriname-take-first-steps-towards-energy-alliance-2022-01-20/",
+    "https://news.yahoo.com/bolsonaro-cuts-short-official-trip-133648502.html",
+    "https://www.euronews.com/2022/01/22/us-brazil-oil-guyana-bolsonaro",
+    "https://www.france24.com/en/live-news/20220121-bolsonaro-cuts-short-official-trip-after-mother-dies",
+    "https://www.facebook.com/watch/?v=976308332975863",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b927e3f0-eb2c-49a2-bfb5-4bec29ab0985/?context=1516831"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CHE-45455",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Switzerland",
+   "CityVisited": "None",
+   "TripYear": "2024",
+   "TripStartDate": "2024-06-12T00:00:00",
+   "TripEndDate": "2024-06-13T00:00:00",
+   "Notes": "Attended annual International Labor Organization (ILO) Summit;held press availability",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=9d565f0a-e7a2-41df-9971-a9cfe6f4a833&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C81-5MJ1-JCG7-8082-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=e609f18e-fe26-4822-849f-9f2425d9f5e0",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c84fbfbe-a3ad-4d68-9d7c-376b8e52f1f3&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C7T-6G11-DYY9-0499-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hmnyk&earg=sr1&prid=e609f18e-fe26-4822-849f-9f2425d9f5e0"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-USA-44966",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "United States",
+   "CityVisited": "None",
+   "TripYear": "2023",
+   "TripStartDate": "2023-02-09T00:00:00",
+   "TripEndDate": "2023-02-10T00:00:00",
+   "Notes": "Met with Senator Bernie Sanders and Congresswoman Alexandria Ocasio-Cortez;Met with congressmen and congresswomen from the Democratic Party and representatives of the American Federation of Labor and Congress of Industrial Organizations (AFL-CIO)",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b4225a79-711c-4049-b29f-3f5e12a9f286/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/a2fe9893-8241-463e-90cf-a849c84182b3/?context=1516831",
+    "https://www.thenation.com/article/world/brazil-lula-biden/",
+    "https://www.atlanticcouncil.org/blogs/new-atlanticist/what-came-out-of-the-lula-biden-meeting/"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-URY-45630",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2024",
+   "TripStartDate": "2024-12-04T00:00:00",
+   "TripEndDate": "2024-12-06T00:00:00",
+   "Notes": "Met with President Luis Lacalle Pou;Met with Argentine President Javier Milei;Met with Paraguayan President Santiago Pena;Met with European Commission (EC) President Ursula von der Leyen;Met with Bolivian President Luis Arce;Gave address at Mercosur",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=7895ec84-b6cc-448c-b57d-d1f7ae832966&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6DKB-6S91-DYY9-02MR-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr2&pditab=allpods&ecomp=hc-yk&earg=sr2&prid=1f635e98-c738-4427-9816-fc8619e4bab0",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=0b4ee788-46c7-4e53-9f1d-17bda872c583&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6DKJ-5X11-DYY9-02S7-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=f82e7d40-1363-4933-a87d-e51c4ee4d5a7"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-URY-45792",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "Montevideo",
+   "TripYear": "2025",
+   "TripStartDate": "2025-05-15T00:00:00",
+   "TripEndDate": "2025-05-15T00:00:00",
+   "Notes": "Attended the wake of former Uruguayan President Jose Mujica",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://x.com/compresidencia/status/1923074169740140951",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=10c84743-2574-4bd8-a3ab-326480a25c64&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6FTN-C0J3-RW18-03RM-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=d2eda53d-293f-4eff-aac4-2068a8f249fb",
+    "https://x.com/LulaOficial/status/1923091348741066819"
+   ]
+  }
+ ],
+ "nuestro_unico": [
+  {
+   "Trip_ID": "272",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2026-04-16",
+   "End_Date": "2026-04-18",
+   "Destination_Country": "Spain",
+   "Destination_City": "Barcelona",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "I Cumbre Brasil-España + IV Foro Democracia Sempre",
+   "Trip_Objective": "Firma de acuerdos bilaterales; defensa de la democracia y del multilateralismo junto a Sanchez, Sheinbaum, Petro, Orsi y Ramaphosa.",
+   "Source_Verification": "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/declaracao-conjunta-por-ocasiao-da-i-cupula-espanha-brasil-barcelona-17-de-abril-de-2026",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "273",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2026-04-19",
+   "End_Date": "2026-04-20",
+   "Destination_Country": "Germany",
+   "Destination_City": "Hannover",
+   "Visit_Subtype": "State Visit",
+   "Counterpart_Event": "Friedrich Merz / Hannover Messe 2026",
+   "Trip_Objective": "Visita de Estado; honores del canciller Merz; ~10 acuerdos (defensa, IA, clima, minerales criticos); Brasil pais socio de la feria.",
+   "Source_Verification": "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/atos-adotados-por-ocasiao-da-visita-de-estado-do-presidente-luiz-inacio-lula-da-silva-a-hannover-alemanha-19-e-20-de-abril-de-2026-2",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "274",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2026-04-21",
+   "End_Date": "2026-04-21",
+   "Destination_Country": "Portugal",
+   "Destination_City": "Lisboa",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "PM Luís Montenegro / presidente António José Seguro",
+   "Trip_Objective": "Cierre de gira europea; cooperacion bilateral con foco en la comunidad brasilenia y la CPLP.",
+   "Source_Verification": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/04/presidente-lula-cumpre-agenda-na-espanha-alemanha-e-portugal-entre-17-e-21-de-abril",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "275",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2026-05-06",
+   "End_Date": "2026-05-08",
+   "Destination_Country": "United States",
+   "Destination_City": "Washington DC",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Donald Trump",
+   "Trip_Objective": "Reunion de casi tres horas en la Casa Blanca (7/5): tarifaço, Seccion 301/Pix, crimen organizado, minerales criticos, reforma de la ONU.",
+   "Source_Verification": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-05/lula-deixa-a-casa-branca-apos-reuniao-com-trump",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "276",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2026-06-15",
+   "End_Date": "2026-06-15",
+   "Destination_Country": "Switzerland",
+   "Destination_City": "Geneva",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Guy Parmelin",
+   "Trip_Objective": "Bilateral con el presidente suizo sobre comercio y Acuerdo MERCOSUR-EFTA, al llegar a Ginebra rumbo al G7.",
+   "Source_Verification": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/notas-oficiais/notas-a-imprensa/lula-tem-reuniao-bilateral-com-o-presidente-da-suica-guy-parmelin",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "277",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2026-06-15",
+   "End_Date": "2026-06-17",
+   "Destination_Country": "France",
+   "Destination_City": "Évian-les-Bains",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "Cumbre del G7 de Évian (invitado)",
+   "Trip_Objective": "Decima participacion en el G7; parcerias internacionales, crecimiento e IA; bilaterales con Macron y la PM japonesa Takaichi.",
+   "Source_Verification": "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/participacao-do-presidente-luiz-inacio-lula-da-silva-na-cupula-do-g7-em-evian-les-bains-franca-2013-16-e-17-de-junho-de-2026",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "278",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2026-06-30",
+   "End_Date": "2026-06-30",
+   "Destination_Country": "Paraguay",
+   "Destination_City": "Asunción",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "LXVIII Cúpula do MERCOSUL",
+   "Trip_Objective": "Defensa del MERCOSUR como necesidad estrategica; aporte de USD 100 millones al FOCEM; bilateral con Kast.",
+   "Source_Verification": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/06/presidente-lula-participa-da-lxviii-cupula-do-mercosul-no-paraguai-em-30-de-junho",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "281",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2026-01-27",
+   "End_Date": "2026-01-28",
+   "Destination_Country": "Panama",
+   "Destination_City": "Panama City",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "Foro Económico CAF América Latina y Caribe / José Raúl Mulino",
+   "Trip_Objective": "Abrio el Foro Economico de la CAF; visita de Estado y bilateral con Mulino; acuerdos comerciales y de inversion.",
+   "Source_Verification": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/01/201camerica-latina-e-caribe-sao-capazes-de-construir-um-projeto-autonomo-de-insercao-internacional201d-diz-lula-no-panama",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "282",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2026-02-18",
+   "End_Date": "2026-02-22",
+   "Destination_Country": "India",
+   "Destination_City": "New Delhi",
+   "Visit_Subtype": "State Visit",
+   "Counterpart_Event": "Narendra Modi / Cumbre sobre Impacto de la IA",
+   "Trip_Objective": "Visita de Estado; cumbre global de IA; foro empresarial; 11 acuerdos; meta comercial de USD 20000 millones.",
+   "Source_Verification": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/02/lula-fortalece-parcerias-comerciais-e-economicas-em-viagem-a-india-e-a-coreia-do-sul",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "283",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2026-02-22",
+   "End_Date": "2026-02-24",
+   "Destination_Country": "South Korea",
+   "Destination_City": "Seoul",
+   "Visit_Subtype": "State Visit",
+   "Counterpart_Event": "Lee Jae-myung",
+   "Trip_Objective": "Primera visita de Estado a Corea del Sur; Plan de Accion Trienal 2026-2029; Foro Empresarial Brasil-Corea.",
+   "Source_Verification": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-02/itamaraty-detalha-viagem-de-lula-india-e-coreia-do-sul",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "284",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2026-02-24",
+   "End_Date": "2026-02-25",
+   "Destination_Country": "United Arab Emirates",
+   "Destination_City": "Abu Dhabi",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Mohammed bin Zayed Al Nahyan",
+   "Trip_Objective": "Reunion con el emir de Abu Dhabi para cerrar el giro asiatico; sin visita de Estado ni firma de acuerdos.",
+   "Source_Verification": "https://www.poder360.com.br/poder-governo/lula-vai-a-abu-dhabi-em-escala-surpresa-para-encerrar-tour-pela-asia/",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "285",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2026-03-21",
+   "End_Date": "2026-03-21",
+   "Destination_Country": "Colombia",
+   "Destination_City": "Bogotá",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "X Cumbre CELAC / I Foro CELAC-África",
+   "Trip_Objective": "Cumbre de la CELAC y Foro CELAC-Africa; defensa de la soberania regional; baja adhesion de lideres.",
+   "Source_Verification": "https://www.correiobraziliense.com.br/politica/2026/03/7381003-lula-participa-de-cupula-da-celac-e-forum-com-paises-africanos.html",
+   "Source_Reliability": "High"
+  }
+ ]
+}

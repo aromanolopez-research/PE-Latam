@@ -1,0 +1,2538 @@
+[
+ {
+  "colt_TripID": "1516-CHL-CAN-37000",
+  "our_Trip_ID": "5",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Canada",
+  "our_Start_Date": "2001-04-20",
+  "our_End_Date": "2001-04-22",
+  "colt_Start": "2001-04-19",
+  "colt_End": "2001-04-22",
+  "discrepancias": "TripStartDate: nuestro=2001-04-20 COLT=2001-04-19 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/240448651?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/889990631?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1125509740?accountid=14608",
+   "ttp://du.idm.oclc.org/login?url=http://search.proquest.com/docview/368322726?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/412737007?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-ESP-37046",
+  "our_Trip_ID": "6",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2001-06-03",
+  "our_End_Date": "2001-06-06",
+  "colt_Start": "2001-06-04",
+  "colt_End": "2001-06-06",
+  "discrepancias": "TripStartDate: nuestro=2001-06-03 COLT=2001-06-04 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452514816?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452215439?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452230359?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453741734?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453736529?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-PER-37100",
+  "our_Trip_ID": "8",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Peru",
+  "our_Start_Date": "2001-07-27",
+  "our_End_Date": "2001-07-31",
+  "colt_Start": "2001-07-28",
+  "colt_End": "2001-07-31",
+  "discrepancias": "TripStartDate: nuestro=2001-07-27 COLT=2001-07-28 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/391198005?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/419355549?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/248999275?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453706412?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-ESP-37392",
+  "our_Trip_ID": "13",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2002-05-16",
+  "our_End_Date": "2002-05-17",
+  "colt_Start": "2002-05-16",
+  "colt_End": "2002-05-18",
+  "discrepancias": "TripEndDate: nuestro=2002-05-17 COLT=2002-05-18 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1084DBF7883AC776?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/0F3B2B6E1E6602C6?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/0FC4BC48A8A6906E?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/432077960?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/224034322?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-MEX-37555",
+  "our_Trip_ID": "15",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Mexico",
+  "our_Start_Date": "2002-10-26",
+  "our_End_Date": "2002-10-27",
+  "colt_Start": "2002-10-26",
+  "colt_End": "2002-10-28",
+  "discrepancias": "TripEndDate: nuestro=2002-10-27 COLT=2002-10-28 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/285847497?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453366069?accountid=14608",
+   "http://www.lexisnexis.com/lnacui2api/api/version1/getDocCui?lni=473F-4SP0-007K-G44H&csi=158208&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/307028935?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/337879429?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-THA-37912",
+  "our_Trip_ID": "18",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Thailand",
+  "our_Start_Date": "2003-10-20",
+  "our_End_Date": "2003-10-21",
+  "colt_Start": "2003-10-18",
+  "colt_End": "2003-10-21",
+  "discrepancias": "TripStartDate: nuestro=2003-10-20 COLT=2003-10-18 (dif 2d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/0FE563845C0C7892?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/0FF42C5F29EDF62C?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/456378716?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453115675?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-MEX-37997",
+  "our_Trip_ID": "20",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Mexico",
+  "our_Start_Date": "2004-01-12",
+  "our_End_Date": "2004-01-13",
+  "colt_Start": "2004-01-11",
+  "colt_End": "2004-01-13",
+  "discrepancias": "TripStartDate: nuestro=2004-01-12 COLT=2004-01-11 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460212282?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/146985A9D390B678?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/14F1B1F4892BEA68?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1000FE6DB5E85103?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-URY-38411",
+  "our_Trip_ID": "25",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Uruguay",
+  "our_Start_Date": "2005-03-01",
+  "our_End_Date": "2005-03-01",
+  "colt_Start": "2005-02-28",
+  "colt_End": "2005-03-01",
+  "discrepancias": "TripStartDate: nuestro=2005-03-01 COLT=2005-02-28 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f65364fb-f69d-4178-9cc2-091b465a86f7&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4FKP-8XN0-TWS7-F3D9-00000-00&pdcontentcomponentid=279495&pdteaserkey=sr8&pditab=allpods&ecomp=zznyk&earg=sr8&prid=ba0b9f53-8b8b-4e72-bbde-c2aa6664c056",
+   "https://www.proquest.com/central/docview/460191050/24A30B55FE2C480BPQ/7?accountid=14608&parentSessionId=dsL8IKEjLEdzrdFNJ%2BO0oB%2FJAD1vFDTkYApjv4dDsEY%3D",
+   "https://www.apimages.com/metadata/Index/Associated-Press-International-News-Uruguay-URU-/9702df12d8e4da11af9f0014c2589dfb/3/0",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=fb2c30c6-4ed6-4ed0-a093-83c4226833a7&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4FKR-2MJ0-TWMB-136K-00000-00&pdcontentcomponentid=259320&pdteaserkey=sr2&pditab=allpods&ecomp=zznyk&earg=sr2&prid=ba0b9f53-8b8b-4e72-bbde-c2aa6664c056",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f3766876-667b-411b-bf7d-1455738ace45&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4FKN-Y670-TWMD-42SR-00000-00&pdcontentcomponentid=241709&pdteaserkey=sr38&pditab=allpods&ecomp=zznyk&earg=sr38&prid=a2cd6fac-d9e4-44fb-b71c-fbcf4944ec11",
+   "https://www.apimages.com/metadata/Index/Associated-Press-International-News-Uruguay-V-C-/fff939bbbee4da11af9f0014c2589dfb/5/0"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-ESP-38637",
+  "our_Trip_ID": "26",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2005-10-14",
+  "our_End_Date": "2005-10-15",
+  "colt_Start": "2005-10-12",
+  "colt_End": "2005-10-15",
+  "discrepancias": "TripStartDate: nuestro=2005-10-14 COLT=2005-10-12 (dif 2d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10D196341DB05398?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10D38C5BAD3EBF98?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/11D80BD29DDB18D0?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/11D80BD323DA4C88?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-KOR-38674",
+  "our_Trip_ID": "28",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "South Korea",
+  "our_Start_Date": "2005-11-18",
+  "our_End_Date": "2005-11-19",
+  "colt_Start": "2005-11-18",
+  "colt_End": "2005-11-20",
+  "discrepancias": "TripEndDate: nuestro=2005-11-19 COLT=2005-11-20 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/14A534BF247B0510?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10DF71848A995160?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10E0BB28A758DC58?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10DFC5DC84242A58?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-ARG-38797",
+  "our_Trip_ID": "30",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2006-03-21",
+  "our_End_Date": "2006-03-21",
+  "colt_Start": "2006-03-21",
+  "colt_End": "2006-03-22",
+  "discrepancias": "TripEndDate: nuestro=2006-03-21 COLT=2006-03-22 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/110655E6C95CE578?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1108A3AA85AEA6A0?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/11D808D36CF191C8?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/110856538F449990?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-USA-38875",
+  "our_Trip_ID": "32",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2006-06-08",
+  "our_End_Date": "2006-06-09",
+  "colt_Start": "2006-06-07",
+  "colt_End": "2006-06-09",
+  "discrepancias": "TripStartDate: nuestro=2006-06-08 COLT=2006-06-07 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/405805811?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/195209202?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/451085023?accountid=14608",
+   "https://history.state.gov/departmenthistory/visits/chile"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-PER-38925",
+  "our_Trip_ID": "33",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Peru",
+  "our_Start_Date": "2006-07-28",
+  "our_End_Date": "2006-07-29",
+  "colt_Start": "2006-07-27",
+  "colt_End": "2006-07-29",
+  "discrepancias": "TripStartDate: nuestro=2006-07-28 COLT=2006-07-27 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/113228162F9E3750?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/11332B6729765970?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/113282BB2F04C610?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/11330C7CD2D7B718?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-VEN-39188",
+  "our_Trip_ID": "39",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Venezuela",
+  "our_Start_Date": "2007-04-16",
+  "our_End_Date": "2007-04-17",
+  "colt_Start": "2007-04-16",
+  "colt_End": "2007-04-18",
+  "discrepancias": "TripEndDate: nuestro=2007-04-17 COLT=2007-04-18 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1189CC3E0A5CC560?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1414D7B709611F80?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/118A672B88A69598?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1188FCA1B3AAEDC0?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-ESP-38846",
+  "our_Trip_ID": "40",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2006-05-09",
+  "our_End_Date": "2006-05-10",
+  "colt_Start": "2006-05-09",
+  "colt_End": "2006-05-11",
+  "discrepancias": "TripEndDate: nuestro=2006-05-10 COLT=2006-05-11 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/111871FCD387863A?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/11186F0381D30017?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1118737B8CA919A3?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/11185A20F8D80110?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1118C7D7F0C2A465?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-FRA-39960",
+  "our_Trip_ID": "41",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "France",
+  "our_Start_Date": "2009-05-29",
+  "our_End_Date": "2009-05-29",
+  "colt_Start": "2009-05-27",
+  "colt_End": "2009-05-30",
+  "discrepancias": "TripStartDate: nuestro=2009-05-29 COLT=2009-05-27 (dif 2d) | TripEndDate: nuestro=2009-05-29 COLT=2009-05-30 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/128697D626121BE8?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12874E7219F30930?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1287A2C9BB461A50?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-USA-39348",
+  "our_Trip_ID": "43",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2007-09-24",
+  "our_End_Date": "2007-09-25",
+  "colt_Start": "2007-09-23",
+  "colt_End": "2007-09-25",
+  "discrepancias": "TripStartDate: nuestro=2007-09-24 COLT=2007-09-23 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467616016?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467167154?accountid=14608",
+   "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/document-view?p=WORLDNEWS&t=&sort=YMD_date%3AA&maxresults=20&f=advanced&val-base-0=michelle%20bachelet&fld-base-0=alltext&bln-base-1=and&val-base-1=September%2024%2C%202007%20-%20September%2027%2C%202007&fld-base-1=YMD_date&docref=news/135502892CB37F28",
+   "https://www-proquest-com.du.idm.oclc.org/central/docview/459619936/D64F85F53312425BPQ/9?accountid=14608",
+   "https://www-proquest-com.du.idm.oclc.org/central/docview/469040161/B63EA3B46D1A4AB6PQ/29?accountid=14608",
+   "https://www.apimages.com/metadata/Index/UN-General-Assembly/9aa6abbdf3ca4cc2851055438fb65538/6/0"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-PRY-39674",
+  "our_Trip_ID": "46",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Paraguay",
+  "our_Start_Date": "2008-08-15",
+  "our_End_Date": "2008-08-15",
+  "colt_Start": "2008-08-14",
+  "colt_End": "2008-08-15",
+  "discrepancias": "TripStartDate: nuestro=2008-08-15 COLT=2008-08-14 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1229ADB3C651F738?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1229A0230DA5BE70?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1229A6185C49F180?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12295F8AC71877A0?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-PER-39773",
+  "our_Trip_ID": "48",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Peru",
+  "our_Start_Date": "2008-11-22",
+  "our_End_Date": "2008-11-23",
+  "colt_Start": "2008-11-21",
+  "colt_End": "2008-11-23",
+  "discrepancias": "TripStartDate: nuestro=2008-11-22 COLT=2008-11-21 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/124A913C78AF5E28?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/124A78A61CFD5748?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1249F67F2F1D5EF0?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/124A9B0E04E04698?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-CUB-39854",
+  "our_Trip_ID": "50",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Cuba",
+  "our_Start_Date": "2009-02-11",
+  "our_End_Date": "2009-02-13",
+  "colt_Start": "2009-02-10",
+  "colt_End": "2009-02-13",
+  "discrepancias": "TripStartDate: nuestro=2009-02-11 COLT=2009-02-10 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12658017B2A95858?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/457291360?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433362653?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/457284633?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-USA-39987",
+  "our_Trip_ID": "52",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2009-06-23",
+  "our_End_Date": "2009-06-24",
+  "colt_Start": "2009-06-23",
+  "colt_End": "2009-06-23",
+  "discrepancias": "TripEndDate: nuestro=2009-06-24 COLT=2009-06-23 (dif 1d)",
+  "colt_links": [
+   "https://history.state.gov/departmenthistory/visits/chile",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/195198773?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-SGP-40130",
+  "our_Trip_ID": "54",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Singapore",
+  "our_Start_Date": "2009-11-14",
+  "our_End_Date": "2009-11-15",
+  "colt_Start": "2009-11-13",
+  "colt_End": "2009-11-15",
+  "discrepancias": "TripStartDate: nuestro=2009-11-14 COLT=2009-11-13 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12BD4A5BAA655CF0?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12BFFC38A2990E40?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433805359?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12BF449EF57D9A80?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12BF055662AF8058?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-PRT-40145",
+  "our_Trip_ID": "55",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Portugal",
+  "our_Start_Date": "2009-11-30",
+  "our_End_Date": "2009-12-01",
+  "colt_Start": "2009-11-28",
+  "colt_End": "2009-12-02",
+  "discrepancias": "TripStartDate: nuestro=2009-11-30 COLT=2009-11-28 (dif 2d) | TripEndDate: nuestro=2009-12-01 COLT=2009-12-02 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12C5BD3A5BC884B0?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12C507A2B5256C48?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433852850?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433775123?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-MEX-40230",
+  "our_Trip_ID": "56",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Mexico",
+  "our_Start_Date": "2010-02-22",
+  "our_End_Date": "2010-02-23",
+  "colt_Start": "2010-02-21",
+  "colt_End": "2010-02-23",
+  "discrepancias": "TripStartDate: nuestro=2010-02-22 COLT=2010-02-21 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12E19FC25352AF90?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/13BCEAE59771D4C0?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-BRA-40276",
+  "our_Trip_ID": "59",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Brazil",
+  "our_Start_Date": "2010-04-08",
+  "our_End_Date": "2010-04-08",
+  "colt_Start": "2010-04-08",
+  "colt_End": "2010-04-09",
+  "discrepancias": "TripEndDate: nuestro=2010-04-08 COLT=2010-04-09 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/148E232C54370898?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12F0107F0D800A18?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12F0107F0D800A18?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-USA-40280",
+  "our_Trip_ID": "60",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2010-04-11",
+  "our_End_Date": "2010-04-13",
+  "colt_Start": "2010-04-12",
+  "colt_End": "2010-04-13",
+  "discrepancias": "TripStartDate: nuestro=2010-04-11 COLT=2010-04-12 (dif 1d)",
+  "colt_links": [
+   "https://history.state.gov/departmenthistory/visits/chile",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/190561618?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/190570659?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-ESP-40312",
+  "our_Trip_ID": "61",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2010-05-18",
+  "our_End_Date": "2010-05-19",
+  "colt_Start": "2010-05-14",
+  "colt_End": "2010-05-18",
+  "discrepancias": "TripStartDate: nuestro=2010-05-18 COLT=2010-05-14 (dif 4d) | TripEndDate: nuestro=2010-05-19 COLT=2010-05-18 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f5c7c60a-f133-4f07-b44a-b65172c3604e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YG2-R9T1-2RRG-M3BM-00000-00&pdcontentcomponentid=318726&pdteaserkey=sr0&pditab=allpods&ecomp=xzvnk&earg=sr0&prid=ea951ee2-0b88-4a8b-b52f-0486f8a6f01d",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8c8066de-af70-4026-88c0-6040e939e851&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YGP-YD80-Y9XW-41GG-00000-00&pdcontentcomponentid=144245&pdteaserkey=sr1&pditab=allpods&ecomp=xzvnk&earg=sr1&prid=6c8efb3b-78b8-43d3-bc7f-339c137f68f8",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=93e77e67-47b6-4a4e-a65e-917aece3e5ff&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YGR-08C0-Y94H-B0R4-00000-00&pdcontentcomponentid=276499&pdteaserkey=sr4&pditab=allpods&ecomp=xzvnk&earg=sr4&prid=f28de2b0-ca55-41cd-b16b-c971412e8f00",
+   "https://www.gettyimages.com/detail/news-photo/chiles-president-sebastian-pinera-gives-a-press-conference-news-photo/99872597?adppopup=true",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8f1f7efb-2009-470c-ba41-00eb0d095baf&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YGX-XV90-Y94H-B1D0-00000-00&pdcontentcomponentid=276499&pdteaserkey=sr9&pditab=allpods&ecomp=xzvnk&earg=sr9&prid=ac5bea1b-81a3-47df-8e19-4dce0e4090d9"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-USA-40443",
+  "our_Trip_ID": "62",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2010-09-20",
+  "our_End_Date": "2010-09-23",
+  "colt_Start": "2010-09-22",
+  "colt_End": "2010-09-25",
+  "discrepancias": "TripStartDate: nuestro=2010-09-20 COLT=2010-09-22 (dif 2d) | TripEndDate: nuestro=2010-09-23 COLT=2010-09-25 (dif 2d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/753978774?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/753978774?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1327873327DB7208?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/751859361?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/751969040?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-GBR-40467",
+  "our_Trip_ID": "63",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "United Kingdom",
+  "our_Start_Date": "2010-10-17",
+  "our_End_Date": "2010-10-18",
+  "colt_Start": "2010-10-16",
+  "colt_End": "2010-10-19",
+  "discrepancias": "TripStartDate: nuestro=2010-10-17 COLT=2010-10-16 (dif 1d) | TripEndDate: nuestro=2010-10-18 COLT=2010-10-19 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/132F89A0648A33C8?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/758914224?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-FRA-40470",
+  "our_Trip_ID": "64",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "France",
+  "our_Start_Date": "2010-10-19",
+  "our_End_Date": "2010-10-20",
+  "colt_Start": "2010-10-19",
+  "colt_End": "2010-10-21",
+  "discrepancias": "TripEndDate: nuestro=2010-10-20 COLT=2010-10-21 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1330A24A0F10B080?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/132F87CBF3415A68?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-DEU-40472",
+  "our_Trip_ID": "65",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Germany",
+  "our_Start_Date": "2010-10-21",
+  "our_End_Date": "2010-10-22",
+  "colt_Start": "2010-10-21",
+  "colt_End": "2010-10-23",
+  "discrepancias": "TripEndDate: nuestro=2010-10-22 COLT=2010-10-23 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1330A24A0F10B080?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1330839F4B114C38?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1330A24A0F10B080?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-JPN-40494",
+  "our_Trip_ID": "66",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Japan",
+  "our_Start_Date": "2010-11-13",
+  "our_End_Date": "2010-11-14",
+  "colt_Start": "2010-11-12",
+  "colt_End": "2010-11-15",
+  "discrepancias": "TripStartDate: nuestro=2010-11-13 COLT=2010-11-12 (dif 1d) | TripEndDate: nuestro=2010-11-14 COLT=2010-11-15 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1337FAF1E5791808?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/799570499?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/821765247?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/807394093?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/763675862?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-RUS-41158",
+  "our_Trip_ID": "77",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Russia",
+  "our_Start_Date": "2012-09-08",
+  "our_End_Date": "2012-09-09",
+  "colt_Start": "2012-09-06",
+  "colt_End": "2012-09-10",
+  "discrepancias": "TripStartDate: nuestro=2012-09-08 COLT=2012-09-06 (dif 2d) | TripEndDate: nuestro=2012-09-09 COLT=2012-09-10 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/14141BB2B0DBCC18?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1412CA351BC7FFE0?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1412CA16640BEBA8?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1038808108?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/940893207?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-ESP-41229",
+  "our_Trip_ID": "78",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2012-11-16",
+  "our_End_Date": "2012-11-17",
+  "colt_Start": "2012-11-16",
+  "colt_End": "2012-11-18",
+  "discrepancias": "TripEndDate: nuestro=2012-11-17 COLT=2012-11-18 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1151098543?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/142A0BC7E56103F8?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1429E65C087880B8?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-VEN-41340",
+  "our_Trip_ID": "79",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Venezuela",
+  "our_Start_Date": "2013-03-08",
+  "our_End_Date": "2013-03-08",
+  "colt_Start": "2013-03-07",
+  "colt_End": "2013-03-08",
+  "discrepancias": "TripStartDate: nuestro=2013-03-08 COLT=2013-03-07 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/14BEE290D8470AC8?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1314775249?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/144E7054390E6648?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-COL-41417",
+  "our_Trip_ID": "80",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Colombia",
+  "our_Start_Date": "2013-05-23",
+  "our_End_Date": "2013-05-23",
+  "colt_Start": "2013-05-23",
+  "colt_End": "2013-05-24",
+  "discrepancias": "TripEndDate: nuestro=2013-05-23 COLT=2013-05-24 (dif 1d)",
+  "colt_links": [
+   "https://www.proquest.com/docview/1355339336?accountid=14608&parentSessionId=Iq9vBkaXFgOUEpbc0Te1aimVebLeOCkuDD8TztT%2BSpc%3D",
+   "https://english.elpais.com/elpais/2013/05/24/inenglish/1369411896_396535.html",
+   "https://www.alamy.com/colombias-president-juan-manuel-santos-l-and-his-chilean-counterpart-sebastian-pinera-speak-at-the-close-of-the-vii-pacific-allianz-summit-in-cali-may-23-2013-reutersjaime-saldarriaga-colombia-tags-politics-image378249387.html",
+   "https://www.alamy.com/latin-american-presidents-from-l-mexicos-enrique-pena-nieto-colombias-juan-manuel-santos-perus-ollanta-humala-and-chiles-sebastian-pinera-join-their-hands-for-an-official-photo-at-the-vii-pacific-allianz-summit-in-cali-may-23-2013-reutersjaime-saldarriaga-colombia-tags-politics-image377637789.html?pv=1&stamp=2&imageid=8D5DD12F-73F5-4258-9780-68FB9E386973&p=1382875&n=11&orientation=0&pn=1&searchtype=0&IsFromSearch=1&srch=foo%3Dbar%26st%3D0%26sortby%3D3%26qt%3Dsebastian%2520pinera%252023%2520may%25202013%26qt_raw%3Dsebastian%2520pinera%252023%2520may%25202013%26qn%3D%26lic%3D3%26edrf%3D0%26mr%3D0%26pr%3D0%26aoa%3D1%26creative%3D%26videos%3D%26nu%3D%26ccc%3D%26bespoke%3D%26apalib%3D%26ag%3D0%26hc%3D0%26et%3D0x000000000000000000000%26vp%3D0%26loc%3D0%26ot%3D0%26imgt%3D0%26dtfr%3D%26dtto%3D%26size%3D0xFF%26blackwhite%3D%26cutout%3D%26archive%3D1%26name%3D%26groupid%3D%26pseudoid%3D%26userid%3D%26id%3D%26a%3D%26xstx%3D0%26cbstore%3D1%26resultview%3DsortbyRelevant%26lightbox%3D%26gname%3D%26gtype%3D%26apalic%3D%26tbar%3D1%26pc%3D%26simid%3D%26cap%3D1%26customgeoip%3D%26vd%3D0%26cid%3D%26pe%3D%26so%3D%26lb%3D%26pl%3D0%26plno%3D%26fi%3D0%26langcode%3Den%26upl%3D0%26cufr%3D%26cuto%3D%26howler%3D%26cvrem%3D0%26cvtype%3D0%26cvloc%3D0%26cl%3D0%26upfr%3D%26upto%3D%26primcat%3D%26seccat%3D%26cvcategory%3D*%26restriction%3D%26random%3D%26ispremium%3D1%26flip%3D0%26contributorqt%3D%26plgalleryno%3D%26plpublic%3D0%26viewaspublic%3D0%26isplcurate%3D0%26imageurl%3D%26saveQry%3D%26editorial%3D1%26t%3D0%26filters%3D0"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-USA-41425",
+  "our_Trip_ID": "81",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2013-06-04",
+  "our_End_Date": "2013-06-04",
+  "colt_Start": "2013-05-31",
+  "colt_End": "2013-06-04",
+  "discrepancias": "TripStartDate: nuestro=2013-06-04 COLT=2013-05-31 (dif 4d)",
+  "colt_links": [
+   "https://history.state.gov/departmenthistory/visits/chile",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1365236871?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1425422931?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1469CF997223EC18?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-BRA-41802",
+  "our_Trip_ID": "85",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Brazil",
+  "our_Start_Date": "2014-06-12",
+  "our_End_Date": "2014-06-12",
+  "colt_Start": "2014-06-12",
+  "colt_End": "2014-06-13",
+  "discrepancias": "TripEndDate: nuestro=2014-06-12 COLT=2014-06-13 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/14E642871583EB58?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/14E45D4EE6D1ED60?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/14E7460C5592B098?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-USA-41901",
+  "our_Trip_ID": "87",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2014-09-24",
+  "our_End_Date": "2014-09-25",
+  "colt_Start": "2014-09-19",
+  "colt_End": "2014-09-24",
+  "discrepancias": "TripStartDate: nuestro=2014-09-24 COLT=2014-09-19 (dif 5d) | TripEndDate: nuestro=2014-09-25 COLT=2014-09-24 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5676cdf2-6255-4491-b90f-0e0e4ff3799e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5D72-4RS1-DYR8-30F4-00000-00&pdcontentcomponentid=8320&pdteaserkey=sr4&pditab=allpods&ecomp=zznyk&earg=sr4&prid=8554a222-4a9a-471f-a699-1869bee6e316",
+   "https://www.proquest.com/docview/1563116451/B48DA3AC578B41B9PQ/1?accountid=14608&parentSessionId=CqkYNr4HBhhXrKKYDawDAwdUqYs6oOHbw%2F83qEkAUS0%3D",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5f555db2-882c-4dff-98b3-5b163b073ecb&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5D6R-5PV1-JDN1-D467-00000-00&pdcontentcomponentid=272811&pdteaserkey=sr0&pditab=allpods&ecomp=zznyk&earg=sr0&prid=91f946a3-6688-44d8-b6dd-d06d9c60acc4",
+   "https://www.proquest.com/internationalnews1/docview/1563882964/2E218D6A697F443APQ/2?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-ITA-42159",
+  "our_Trip_ID": "92",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Italy",
+  "our_Start_Date": "2015-06-05",
+  "our_End_Date": "2015-06-06",
+  "colt_Start": "2015-06-04",
+  "colt_End": "2015-06-05",
+  "discrepancias": "TripStartDate: nuestro=2015-06-05 COLT=2015-06-04 (dif 1d) | TripEndDate: nuestro=2015-06-06 COLT=2015-06-05 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1676443913?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/155D163892CFEEE8?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1579800F5BF760C8?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/155C2C765A8C8240?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-BEL-42164",
+  "our_Trip_ID": "93",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Belgium",
+  "our_Start_Date": "2015-06-10",
+  "our_End_Date": "2015-06-11",
+  "colt_Start": "2015-06-09",
+  "colt_End": "2015-06-11",
+  "discrepancias": "TripStartDate: nuestro=2015-06-10 COLT=2015-06-09 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/155DF2A6279CF9D8?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/155E4820B571ABD0?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/155DF2A6279CF9D8?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-USA-42274",
+  "our_Trip_ID": "95",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2015-09-26",
+  "our_End_Date": "2015-09-28",
+  "colt_Start": "2015-09-27",
+  "colt_End": "2015-09-30",
+  "discrepancias": "TripStartDate: nuestro=2015-09-26 COLT=2015-09-27 (dif 1d) | TripEndDate: nuestro=2015-09-28 COLT=2015-09-30 (dif 2d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/15832AF524A082B8?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1582A38216643168?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/158309636C63B560?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/15818B8CF88DE3D8?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1717283947?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-PHL-42323",
+  "our_Trip_ID": "96",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Philippines",
+  "our_Start_Date": "2015-11-18",
+  "our_End_Date": "2015-11-19",
+  "colt_Start": "2015-11-15",
+  "colt_End": "2015-11-19",
+  "discrepancias": "TripStartDate: nuestro=2015-11-18 COLT=2015-11-15 (dif 3d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1592E69608616A90?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1592D786CAF6EA50?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1592D0E8D9DD1800?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-IDN-42867",
+  "our_Trip_ID": "100",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Indonesia",
+  "our_Start_Date": "2017-05-12",
+  "our_End_Date": "2017-05-12",
+  "colt_Start": "2017-05-12",
+  "colt_End": "2017-05-14",
+  "discrepancias": "TripEndDate: nuestro=2017-05-12 COLT=2017-05-14 (dif 2d)",
+  "colt_links": [
+   "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/chilean-president-michelle-bachelet-talks-to-photo-dactualit%C3%A9/682280798"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-USA-42633",
+  "our_Trip_ID": "101",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2016-09-20",
+  "our_End_Date": "2016-09-21",
+  "colt_Start": "2016-09-20",
+  "colt_End": "2016-09-23",
+  "discrepancias": "TripEndDate: nuestro=2016-09-21 COLT=2016-09-23 (dif 2d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1821343622?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1820917936?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1822829470?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-PER-42692",
+  "our_Trip_ID": "103",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Peru",
+  "our_Start_Date": "2016-11-19",
+  "our_End_Date": "2016-11-20",
+  "colt_Start": "2016-11-18",
+  "colt_End": "2016-11-20",
+  "discrepancias": "TripStartDate: nuestro=2016-11-19 COLT=2016-11-18 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1837627502?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/160C6B671B363B78?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1841322278?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1895713835?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1841886539?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-CHN-42869",
+  "our_Trip_ID": "105",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "China",
+  "our_Start_Date": "2017-05-13",
+  "our_End_Date": "2017-05-15",
+  "colt_Start": "2017-05-14",
+  "colt_End": "2017-05-15",
+  "discrepancias": "TripStartDate: nuestro=2017-05-13 COLT=2017-05-14 (dif 1d)",
+  "colt_links": [
+   "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/chinese-president-xi-jinping-shakes-hands-with-photo-dactualit%C3%A9/683145408",
+   "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/chilean-president-michelle-bachelet-meets-chinese-photo-dactualit%C3%A9/682874890",
+   "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/chilean-president-michelle-bachelet-speaks-during-photo-dactualit%C3%A9/682837036"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-USA-42997",
+  "our_Trip_ID": "107",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2017-09-18",
+  "our_End_Date": "2017-09-20",
+  "colt_Start": "2017-09-19",
+  "colt_End": "2017-09-23",
+  "discrepancias": "TripStartDate: nuestro=2017-09-18 COLT=2017-09-19 (dif 1d) | TripEndDate: nuestro=2017-09-20 COLT=2017-09-23 (dif 3d)",
+  "colt_links": [
+   "https://www.gettyimages.fr/license/850288768"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-VNM-43048",
+  "our_Trip_ID": "108",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Vietnam",
+  "our_Start_Date": "2017-11-10",
+  "our_End_Date": "2017-11-11",
+  "colt_Start": "2017-11-09",
+  "colt_End": "2017-11-11",
+  "discrepancias": "TripStartDate: nuestro=2017-11-10 COLT=2017-11-09 (dif 1d)",
+  "colt_links": [
+   "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/australias-prime-minister-malcolm-turnbull-the-photo-dactualit%C3%A9/872792704",
+   "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/chiles-president-michelle-bachelet-and-vietnams-photo-dactualit%C3%A9/872581634"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-PER-43205",
+  "our_Trip_ID": "111",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Peru",
+  "our_Start_Date": "2018-04-13",
+  "our_End_Date": "2018-04-14",
+  "colt_Start": "2018-04-15",
+  "colt_End": "2018-04-16",
+  "discrepancias": "TripStartDate: nuestro=2018-04-13 COLT=2018-04-15 (dif 2d) | TripEndDate: nuestro=2018-04-14 COLT=2018-04-16 (dif 2d)",
+  "colt_links": [
+   "https://www.gob.cl/en/news/president-pinera-promotes-pacific-alliance-8th-Summit-americas/",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/0a61b488-5c65-4c9d-bcde-63861bd85bf3/?context=1516831",
+   "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775150620&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license",
+   "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775150619&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-ARG-43216",
+  "our_Trip_ID": "112",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2018-04-25",
+  "our_End_Date": "2018-04-26",
+  "colt_Start": "2018-04-26",
+  "colt_End": "2018-04-26",
+  "discrepancias": "TripStartDate: nuestro=2018-04-25 COLT=2018-04-26 (dif 1d)",
+  "colt_links": [
+   "https://wwwgobcl/en/news/presidents-pinera-and-macri-promote-trade-liberalization-agreement-and-joint-development-agenda/",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/1f93dc06-6a53-40bc-86b5-5663e6106482/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/8d0a66a9-96e5-46c1-a118-d874e5da4bbc/?context=1516831"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-USA-43368",
+  "our_Trip_ID": "114",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2018-09-25",
+  "our_End_Date": "2018-09-27",
+  "colt_Start": "2018-09-25",
+  "colt_End": "2018-09-28",
+  "discrepancias": "TripEndDate: nuestro=2018-09-27 COLT=2018-09-28 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/04abad79-1b03-4d9c-8deb-071308fb6b63/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b91bf032-f2ee-480b-9246-37f883b738b5/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/4b9502ca-8e69-4713-9546-75db8115782d/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/3b0e7ee2-61d2-42cc-bbce-695c42b3b04e/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e6ee4148-fd4f-4d3a-bbbd-0b3e0fb20513/?context=1516831",
+   "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775235199&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license",
+   "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775233238&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-USA-43368",
+  "our_Trip_ID": "115",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2018-09-28",
+  "our_End_Date": "2018-09-28",
+  "colt_Start": "2018-09-25",
+  "colt_End": "2018-09-28",
+  "discrepancias": "TripStartDate: nuestro=2018-09-28 COLT=2018-09-25 (dif 3d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/04abad79-1b03-4d9c-8deb-071308fb6b63/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b91bf032-f2ee-480b-9246-37f883b738b5/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/4b9502ca-8e69-4713-9546-75db8115782d/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/3b0e7ee2-61d2-42cc-bbce-695c42b3b04e/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e6ee4148-fd4f-4d3a-bbbd-0b3e0fb20513/?context=1516831",
+   "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775235199&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license",
+   "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775233238&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-SGP-43418",
+  "our_Trip_ID": "120",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Singapore",
+  "our_Start_Date": "2018-11-12",
+  "our_End_Date": "2018-11-15",
+  "colt_Start": "2018-11-14",
+  "colt_End": "2018-11-17",
+  "discrepancias": "TripStartDate: nuestro=2018-11-12 COLT=2018-11-14 (dif 2d) | TripEndDate: nuestro=2018-11-15 COLT=2018-11-17 (dif 2d)",
+  "colt_links": [
+   "https://wwwgobcl/en/news/president-pinera-visits-singapore-joining-asia-pacific-world-paramount-importance-and-fundamental-chile/",
+   "https://wwwgobcl/en/news/president-pinera-highlights-achievements-his-visit-singapore-we-have-made-progress-integrating-chile-world-order-create-more-jobs-more-investments-and-better-opportunities/"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-PRT-43703",
+  "our_Trip_ID": "194",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Portugal",
+  "our_Start_Date": "2019-08-26",
+  "our_End_Date": "2019-08-26",
+  "colt_Start": "2019-08-26",
+  "colt_End": "2019-08-28",
+  "discrepancias": "TripEndDate: nuestro=2019-08-26 COLT=2019-08-28 (dif 2d)",
+  "colt_links": [
+   "https://search-proquest-com.du.idm.oclc.org/central/docview/2279689495/7C3B53F2EE1F4D19PQ/138?accountid=14608",
+   "https://prensa.presidencia.cl/fotonoticia.aspx?id=100935",
+   "https://search-proquest-com.du.idm.oclc.org/central/docview/2279913561/E19040AC98C24DB3PQ/4?accountid=14608",
+   "https://www.emol.com/noticias/Nacional/2019/08/26/959256/Pinera-visita-Portugal--y-aborda-la-COP25-y-energias-renovables-en-cita-con-Mandatario-de-ese-pais.html"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-USA-43730",
+  "our_Trip_ID": "126",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2019-09-23",
+  "our_End_Date": "2019-09-25",
+  "colt_Start": "2019-09-22",
+  "colt_End": "2019-09-25",
+  "discrepancias": "TripStartDate: nuestro=2019-09-23 COLT=2019-09-22 (dif 1d)",
+  "colt_links": [
+   "https://prensa.presidencia.cl/comunicado.aspx?id=102008",
+   "https://search-proquest-com.du.idm.oclc.org/central/docview/2296541373/7C3B53F2EE1F4D19PQ/8?accountid=14608",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=102282",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=102132",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=102201",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=102352",
+   "https://twitter.com/presidencia_cl/status/1176601259983417345",
+   "https://twitter.com/presidencia_cl/status/1176925865898381312",
+   "https://prensa.presidencia.cl/agenda.aspx?page=22",
+   "https://twitter.com/presidencia_cl/status/1176531018989355014"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-URY-43891",
+  "our_Trip_ID": "127",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Uruguay",
+  "our_Start_Date": "2020-03-01",
+  "our_End_Date": "2020-03-01",
+  "colt_Start": "2020-03-01",
+  "colt_End": "2020-03-02",
+  "discrepancias": "TripEndDate: nuestro=2020-03-01 COLT=2020-03-02 (dif 1d)",
+  "colt_links": [
+   "https://www.gob.cl/en/news/president-pinera-attends-inauguration-new-uruguayan-president/",
+   "https://www.telesurenglish.net/news/uruguay-repudiates-chilean-presidents-visit-to-the-country-20200302-0001.html",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e32613e0-2b22-473e-81c2-cce0a69a836e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5YBG-X8F1-JBJN-M559-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=czx2k&earg=sr0&prid=915c7800-342e-43fa-9e16-f12a1cbc5127"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-FRA-44445",
+  "our_Trip_ID": "128",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "France",
+  "our_Start_Date": "2021-09-05",
+  "our_End_Date": "2021-09-06",
+  "colt_Start": "2021-09-06",
+  "colt_End": "2021-09-06",
+  "discrepancias": "TripStartDate: nuestro=2021-09-05 COLT=2021-09-06 (dif 1d)",
+  "colt_links": [
+   "https://pledgetimes.com/in-a-meeting-with-pinera-macron-talks-about-the-chilean-constituent/",
+   "https://www.marketscreener.com/news/latest/President-Pi-era-meets-with-French-President-Emmanuel-Macron--36365916/",
+   "https://www.gob.cl/en/news/president-pinera-meets-french-president-emmanuel-macron/",
+   "https://www.elmostrador.cl/dia/2021/09/06/grupo-de-personas-se-manifiesta-en-francia-en-contra-del-presidente-pinera-durante-su-visita-a-ese-pais/"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-ITA-44447",
+  "our_Trip_ID": "130",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Italy",
+  "our_Start_Date": "2021-09-08",
+  "our_End_Date": "2021-09-08",
+  "colt_Start": "2021-09-08",
+  "colt_End": "2021-09-09",
+  "discrepancias": "TripEndDate: nuestro=2021-09-08 COLT=2021-09-09 (dif 1d)",
+  "colt_links": [
+   "https://www.archyworldys.com/pinera-meets-with-draghi-and-the-pope-on-the-italian-stage-of-his-tour-of-europe/",
+   "https://www.dw.com/es/pi%C3%B1era-contin%C3%BAa-en-roma-su-gira-europea-que-ma%C3%B1ana-le-llevar%C3%A1-al-vaticano/a-59126898",
+   "https://en.ultimasnoticias.com.ve/news/general/Pope-Francis-spoke-with-Pinera-about-the-Chilean-constitutional-process/"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-GBR-44448",
+  "our_Trip_ID": "132",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "United Kingdom",
+  "our_Start_Date": "2021-09-09",
+  "our_End_Date": "2021-09-10",
+  "colt_Start": "2021-09-09",
+  "colt_End": "2021-09-12",
+  "discrepancias": "TripEndDate: nuestro=2021-09-10 COLT=2021-09-12 (dif 2d)",
+  "colt_links": [
+   "https://en.mercopress.com/2021/09/11/president-pinera-meets-pm-johnson-and-reaffirms-uk-chile-close-relations",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=179588",
+   "https://www.gov.uk/government/news/pm-meeting-with-chilean-president-sebastian-pinera-10-september-2021",
+   "https://today.in-24.com/News/amp/360751"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-COL-44463",
+  "our_Trip_ID": "133",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Colombia",
+  "our_Start_Date": "2021-09-24",
+  "our_End_Date": "2021-09-26",
+  "colt_Start": "2021-09-24",
+  "colt_End": "2021-09-27",
+  "discrepancias": "TripEndDate: nuestro=2021-09-26 COLT=2021-09-27 (dif 1d)",
+  "colt_links": [
+   "https://twitter.com/sebastianpinera/status/1441572799991013381",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b8bb913a-6892-42c9-b64a-4042436f2b8a/?context=1516831",
+   "https://www.elmostrador.cl/dia/2021/09/24/presidente-pinera-inicia-gira-por-sudamerica-y-arriba-a-colombia/",
+   "https://www.efe.com/efe/america/politica/pinera-conversara-con-duque-sobre-los-siguientes-pasos-para-la-alianza-del-pacifico/20000035-4637813"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-PRY-44466",
+  "our_Trip_ID": "135",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Paraguay",
+  "our_Start_Date": "2021-09-28",
+  "our_End_Date": "2021-09-28",
+  "colt_Start": "2021-09-27",
+  "colt_End": "2021-09-28",
+  "discrepancias": "TripStartDate: nuestro=2021-09-28 COLT=2021-09-27 (dif 1d)",
+  "colt_links": [
+   "https://en.mercopress.com/2021/09/30/paraguay-and-chile-closer-to-bilateral-fta-after-pinera-visit",
+   "https://riotimesonline.com/brazil-news/mercosur/paraguay/chiles-pinera-arrived-in-paraguay-last-country-of-his-regional-tour/",
+   "https://today.in-24.com/News/394454.html",
+   "https://www.facebook.com/SebastianPineraPresidente/posts/4963802013672036",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/934146d8-42de-4e27-b94f-a35e025ceae6/?context=1516831",
+   "https://twitter.com/sebastianpinera/status/1442865694282903560"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-ARG-44654",
+  "our_Trip_ID": "145",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2022-04-03",
+  "our_End_Date": "2022-04-05",
+  "colt_Start": "2022-04-03",
+  "colt_End": "2022-04-06",
+  "discrepancias": "TripEndDate: nuestro=2022-04-05 COLT=2022-04-06 (dif 1d)",
+  "colt_links": [
+   "https://www.courthousenews.com/chiles-new-president-visits-argentina-in-first-foreign-trip-to-rebuild-regional-relations/",
+   "https://labsnews.com/en/news/society/boric-visits-argentina/",
+   "https://www.saltwire.com/nova-scotia/news/chiles-boric-pledges-energy-cooperation-on-trip-to-argentina-100714425/",
+   "https://www.telesurenglish.net/news/President-of-Chile-Arrives-in-Argentina-on-First-Official-Visit-20220404-0003.html",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e94722ec-6fb0-44da-a711-203c2a2719b4/?context=1516831"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-CAN-44718",
+  "our_Trip_ID": "146",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Canada",
+  "our_Start_Date": "2022-06-06",
+  "our_End_Date": "2022-06-06",
+  "colt_Start": "2022-06-06",
+  "colt_End": "2022-06-07",
+  "discrepancias": "TripEndDate: nuestro=2022-06-06 COLT=2022-06-07 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/196bc832-2d9c-4767-9a19-508faea189fd/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/380ca85a-f582-4f30-a8ba-2b31d89bf087/?context=1516831"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-USA-44719",
+  "our_Trip_ID": "147",
+  "President": "Gabriel Boric",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2022-06-07",
+  "our_End_Date": "2022-06-10",
+  "colt_Start": "2022-06-07",
+  "colt_End": "2022-06-11",
+  "discrepancias": "TripEndDate: nuestro=2022-06-10 COLT=2022-06-11 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/380ca85a-f582-4f30-a8ba-2b31d89bf087/?context=1516831",
+   "https://reliefweb.int/report/world/los-angeles-declaration-could-represent-big-step-real-migration-cooperation-across-americas#:~:text=The%20Los%20Angeles%20Declaration%20was,the%20United%20States%2C%20and%20Uruguay.",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/196bc832-2d9c-4767-9a19-508faea189fd/?context=1516831",
+   "https://www.gettyimages.com/detail/news-photo/president-gabriel-boric-of-chile-gestures-as-he-gives-news-photo/1401775894?phrase=Gabriel%20Boric&adppopup=true"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-USA-44824",
+  "our_Trip_ID": "149",
+  "President": "Gabriel Boric",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2022-09-19",
+  "our_End_Date": "2022-09-21",
+  "colt_Start": "2022-09-20",
+  "colt_End": "2022-09-24",
+  "discrepancias": "TripStartDate: nuestro=2022-09-19 COLT=2022-09-20 (dif 1d) | TripEndDate: nuestro=2022-09-21 COLT=2022-09-24 (dif 3d)",
+  "colt_links": [
+   "https://prensa.presidencia.cl/fotonoticia.aspx?id=201215",
+   "https://twitter.com/gabrielboric/status/1572189782985285632",
+   "https://twitter.com/Presidencia_cl/status/1572599376819757062",
+   "https://twitter.com/GobiernodeChile/status/1573417899179532294"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-THA-44882",
+  "our_Trip_ID": "150",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Thailand",
+  "our_Start_Date": "2022-11-16",
+  "our_End_Date": "2022-11-19",
+  "colt_Start": "2022-11-17",
+  "colt_End": "2022-11-20",
+  "discrepancias": "TripStartDate: nuestro=2022-11-16 COLT=2022-11-17 (dif 1d) | TripEndDate: nuestro=2022-11-19 COLT=2022-11-20 (dif 1d)",
+  "colt_links": [
+   "https://twitter.com/gabrielboric/status/1592887964400775168",
+   "https://twitter.com/gabrielboric/status/1593335250788106240",
+   "https://twitter.com/gabrielboric/status/1593275708222177280",
+   "https://twitter.com/gabrielboric/status/1593589162459865088"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-MEX-44887",
+  "our_Trip_ID": "151",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Mexico",
+  "our_Start_Date": "2022-11-22",
+  "our_End_Date": "2022-11-24",
+  "colt_Start": "2022-11-22",
+  "colt_End": "2022-11-25",
+  "discrepancias": "TripEndDate: nuestro=2022-11-24 COLT=2022-11-25 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/4a4d9e1b-203c-47dc-9ae6-15c4a0faa25a/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/13d49f6a-9582-4344-b8d4-ab1fde55f6e2/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/f50cfb65-072a-4706-a03d-345e1ebf6c91/?context=1516831",
+   "https://en.mercopress.com/2022/11/24/mexico-chile-agree-to-boost-bilateral-cooperation"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-ARG-44949",
+  "our_Trip_ID": "153",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2023-01-24",
+  "our_End_Date": "2023-01-24",
+  "colt_Start": "2023-01-23",
+  "colt_End": "2023-01-24",
+  "discrepancias": "TripStartDate: nuestro=2023-01-24 COLT=2023-01-23 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/692075ce-14e0-48ac-8514-2ea5034645da/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/6590389c-1628-45fa-a48b-8dda8175833c/?context=1516831",
+   "https://peoplesdispatch.org/2023/01/23/buenos-aires-hosts-historic-meeting-of-latin-american-and-caribbean-leaders/",
+   "https://media.gettyimages.com/id/1246499701/photo/key-speakers-at-community-of-latin-american-and-caribbean-states-summit.jpg?s=612x612&w=gi&k=20&c=5XwHIH98tB4Kd9_glMiFQ36waokRJxQlbZsIK3cUTpM="
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-DOM-45008",
+  "our_Trip_ID": "154",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Dominican Republic",
+  "our_Start_Date": "2023-03-24",
+  "our_End_Date": "2023-03-25",
+  "colt_Start": "2023-03-23",
+  "colt_End": "2023-03-26",
+  "discrepancias": "TripStartDate: nuestro=2023-03-24 COLT=2023-03-23 (dif 1d) | TripEndDate: nuestro=2023-03-25 COLT=2023-03-26 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/a5242727-4d83-4eb3-b9c8-cc3e25fb5a03/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/3857483f-9550-4f33-b61d-d5d828882cbf/?context=1516831",
+   "https://media.gettyimages.com/id/1476219221/photo/the-king-of-spain-felipe-vi-the-president-of-the-dominican-republic-luis-abinader-the-head-of.jpg?s=612x612&w=0&k=20&c=me9s7KqGruZ6SqHqkiC69S30LBL_krnRkKqD3RFN6_w=",
+   "https://www.instagram.com/reel/CqLlMPruqNY/?utm_source=ig_web_copy_link"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-ESP-45121",
+  "our_Trip_ID": "156",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2023-07-13",
+  "our_End_Date": "2023-07-15",
+  "colt_Start": "2023-07-14",
+  "colt_End": "2023-07-16",
+  "discrepancias": "TripStartDate: nuestro=2023-07-13 COLT=2023-07-14 (dif 1d) | TripEndDate: nuestro=2023-07-15 COLT=2023-07-16 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/teaserdocument/?pdmfid=1516831&crid=867fa510-e26e-4134-868f-06a412880be9&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68PK-D611-DYY9-023V-00000-00&pddocid=urn%3AcontentItem%3A68PK-D611-DYY9-023V-00000-00&pdcontentcomponentid=443607&pdteaserkey=h1&pditab=allpods&ecomp=kmnyk&earg=sr2&prid=576fe568-698d-48b9-a0bb-b93c310f5da2",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=74898302-d13e-4edc-8768-71cef12dec12&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68PT-CPC1-JCG7-83WJ-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=kmnyk&earg=sr0&prid=576fe568-698d-48b9-a0bb-b93c310f5da2",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5cb90ee4-7489-43b8-b825-79b2036ed4ec&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68PK-DD01-JCG7-82F1-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr5&pditab=allpods&ecomp=kmnyk&earg=sr5&prid=576fe568-698d-48b9-a0bb-b93c310f5da2",
+   "https://www.gettyimages.com/detail/news-photo/the-president-of-the-republic-of-chile-gabriel-boric-news-photo/1534015793?adppopup=true",
+   "https://www.gettyimages.com/detail/news-photo/the-president-of-the-spanish-government-pedro-sanchez-and-news-photo/1532794073?adppopup=true",
+   "https://www.gettyimages.com/detail/news-photo/the-ambassador-of-chile-to-spain-javier-velasco-the-news-photo/1542944226?adppopup=true"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-BEL-45123",
+  "our_Trip_ID": "157",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Belgium",
+  "our_Start_Date": "2023-07-17",
+  "our_End_Date": "2023-07-18",
+  "colt_Start": "2023-07-16",
+  "colt_End": "2023-07-18",
+  "discrepancias": "TripStartDate: nuestro=2023-07-17 COLT=2023-07-16 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ef47dcc8-050a-445f-a8e5-12faf89fe73f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68R6-VHN1-JCG7-802J-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=kmnyk&earg=sr0&prid=0b7529f8-e595-47a0-b870-8f0d49f1af4f",
+   "https://www.gettyimages.com/detail/news-photo/his-majesty-king-philippe-receives-his-excellency-gabriel-news-photo/1540485013?adppopup=true",
+   "https://www.gob.cl/en/news/president-boric-at-eu-celac-summit-2023-what-is-happening-in-ukraine-is-an-unacceptable-war-of-imperial-aggression/"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-PRY-45153",
+  "our_Trip_ID": "160",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Paraguay",
+  "our_Start_Date": "2023-08-14",
+  "our_End_Date": "2023-08-15",
+  "colt_Start": "2023-08-15",
+  "colt_End": "2023-08-15",
+  "discrepancias": "TripStartDate: nuestro=2023-08-14 COLT=2023-08-15 (dif 1d)",
+  "colt_links": [
+   "https://www.facebook.com/gabrielboric/posts/pfbid0G6DNquHw5uzjMPSbbPEzzLKnY3Pa5yiJ9azaxfEnPLMQiqWYqiLLuGt7H9gbV3Wvl",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=049b660f-6e1b-46df-8feb-06028e4dedb3&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A68Y6-1SH1-DYY9-0455-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr8&pditab=allpods&ecomp=kmnyk&earg=sr8&prid=95064a41-e855-44cb-ad98-ef33a829709d"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-USA-45189",
+  "our_Trip_ID": "161",
+  "President": "Gabriel Boric",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2023-09-19",
+  "our_End_Date": "2023-09-20",
+  "colt_Start": "2023-09-20",
+  "colt_End": "2023-09-22",
+  "discrepancias": "TripStartDate: nuestro=2023-09-19 COLT=2023-09-20 (dif 1d) | TripEndDate: nuestro=2023-09-20 COLT=2023-09-22 (dif 2d)",
+  "colt_links": [
+   "https://gadebate.un.org/en/78/chile",
+   "https://en.mercopress.com/2023/09/21/ukrainian-leader-holds-meetings-with-lula-and-boric",
+   "https://andina.pe/ingles/noticia-president-of-peru-meets-with-chilean-counterpart-boric-956075.aspx",
+   "https://x.com/GabrielBoric/status/1704676870992609434?s=20",
+   "https://www.goshennews.com/news/national_news/us-chile/image_287f4ced-7878-590d-b9dc-1c67f688c8bf.html",
+   "https://x.com/GabrielBoric/status/1705290756863226354?s=20",
+   "https://x.com/Presidencia_cl/status/1705355234640322608?s=20"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-CHN-45213",
+  "our_Trip_ID": "162",
+  "President": "Gabriel Boric",
+  "Destination_Country": "China",
+  "our_Start_Date": "2023-10-14",
+  "our_End_Date": "2023-10-18",
+  "colt_Start": "2023-10-14",
+  "colt_End": "2023-10-19",
+  "discrepancias": "TripEndDate: nuestro=2023-10-18 COLT=2023-10-19 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=cadf0bb9-839e-4b3f-b159-3a2282b7182a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A69FF-0761-F11P-X223-00000-00&pdcontentcomponentid=343637&pdteaserkey=sr2&pditab=allpods&ecomp=hmnyk&earg=sr2&prid=47463fe2-8f7a-4277-99c5-6560a764d4c3",
+   "http://in.china-embassy.gov.cn/eng/zgxw/202310/t20231024_11166726.htm",
+   "https://twitter.com/GabrielBoric/status/1714223062546014403",
+   "https://twitter.com/GabrielBoric/status/1713523219439980895",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f0f9a5d2-bd03-4b98-ae1b-eee8a94b8b3a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A69CJ-BVH1-DYY9-03MJ-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr9&pditab=allpods&ecomp=hmnyk&earg=sr9&prid=47463fe2-8f7a-4277-99c5-6560a764d4c3"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-GTM-45307",
+  "our_Trip_ID": "167",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Guatemala",
+  "our_Start_Date": "2024-01-14",
+  "our_End_Date": "2024-01-15",
+  "colt_Start": "2024-01-16",
+  "colt_End": "2024-01-16",
+  "discrepancias": "TripStartDate: nuestro=2024-01-14 COLT=2024-01-16 (dif 2d) | TripEndDate: nuestro=2024-01-15 COLT=2024-01-16 (dif 1d)",
+  "colt_links": [
+   "https://www.cbsnews.com/news/guatemala-president-bernardo-arevalo-sworn-in-averting-authoritarian-setback/",
+   "https://www.reuters.com/world/americas/reformist-arevalo-assumes-guatemalan-presidency-after-opposition-delays-2024-01-15/"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-DEU-45452",
+  "our_Trip_ID": "168",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Germany",
+  "our_Start_Date": "2024-06-10",
+  "our_End_Date": "2024-06-12",
+  "colt_Start": "2024-06-09",
+  "colt_End": "2024-06-12",
+  "discrepancias": "TripStartDate: nuestro=2024-06-10 COLT=2024-06-09 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=9678c991-8923-47f3-907a-b6a5d284a9c4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C80-2RS1-JDJN-60YM-00000-00&pdcontentcomponentid=475523&pdteaserkey=sr1&pditab=allpods&ecomp=hmnyk&earg=sr1&prid=19edcf19-6521-4060-aa50-a82e915be7bb",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8240c87d-7500-49a0-82a5-fe758d0564d8&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C8N-2N71-DYY9-00YC-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=b39157d2-e6d2-46e9-81e6-041045e78826",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4cfdded7-3ee4-4fbc-88e1-c635121bd2fa&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C8W-26J1-DYY9-04NN-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=hmnyk&earg=sr3&prid=b39157d2-e6d2-46e9-81e6-041045e78826"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-FRA-45459",
+  "our_Trip_ID": "171",
+  "President": "Gabriel Boric",
+  "Destination_Country": "France",
+  "our_Start_Date": "2024-06-17",
+  "our_End_Date": "2024-06-18",
+  "colt_Start": "2024-06-16",
+  "colt_End": "2024-06-17",
+  "discrepancias": "TripStartDate: nuestro=2024-06-17 COLT=2024-06-16 (dif 1d) | TripEndDate: nuestro=2024-06-18 COLT=2024-06-17 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8240c87d-7500-49a0-82a5-fe758d0564d8&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C8N-2N71-DYY9-00YC-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hmnyk&earg=sr0&prid=b39157d2-e6d2-46e9-81e6-041045e78826",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4cfdded7-3ee4-4fbc-88e1-c635121bd2fa&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6C8W-26J1-DYY9-04NN-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=hmnyk&earg=sr3&prid=b39157d2-e6d2-46e9-81e6-041045e78826"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-USA-45557",
+  "our_Trip_ID": "173",
+  "President": "Gabriel Boric",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2024-09-23",
+  "our_End_Date": "2024-09-25",
+  "colt_Start": "2024-09-22",
+  "colt_End": "2024-09-25",
+  "discrepancias": "TripStartDate: nuestro=2024-09-23 COLT=2024-09-22 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=e25de772-4966-45a3-a2e0-a2787ab3d790&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6D1B-R661-DYY9-010D-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=hc-yk&earg=sr0&prid=cd53f3f5-3f1a-4dad-b0ce-8ddc1ee8c18c",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=bd5d5488-f92e-4e0d-8499-996d0bef3f21&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6D14-87V1-JCG7-84NC-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=cd53f3f5-3f1a-4dad-b0ce-8ddc1ee8c18c"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-URY-45691",
+  "our_Trip_ID": "176",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Uruguay",
+  "our_Start_Date": "2025-02-03",
+  "our_End_Date": "2025-02-04",
+  "colt_Start": "2025-02-03",
+  "colt_End": "2025-02-03",
+  "discrepancias": "TripEndDate: nuestro=2025-02-04 COLT=2025-02-03 (dif 1d)",
+  "colt_links": [
+   "https://x.com/GabrielBoric/status/1886382965820678153",
+   "https://prensa.presidencia.cl/fotonoticia.aspx?id=295519",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=295523",
+   "https://prensa.presidencia.cl/fotonoticia.aspx?id=295572"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-IND-45746",
+  "our_Trip_ID": "178",
+  "President": "Gabriel Boric",
+  "Destination_Country": "India",
+  "our_Start_Date": "2025-04-01",
+  "our_End_Date": "2025-04-05",
+  "colt_Start": "2025-03-30",
+  "colt_End": "2025-04-06",
+  "discrepancias": "TripStartDate: nuestro=2025-04-01 COLT=2025-03-30 (dif 2d) | TripEndDate: nuestro=2025-04-05 COLT=2025-04-06 (dif 1d)",
+  "colt_links": [
+   "https://prensa.presidencia.cl/comunicado.aspx?id=296404",
+   "https://x.com/GabrielBoric/status/1907126042243830093",
+   "https://x.com/GabrielBoric/status/1906960120258719902",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=297148",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=297458",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=297459",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=297935",
+   "https://x.com/GabrielBoric/status/1908540737735491949"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-JPN-45787",
+  "our_Trip_ID": "180",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Japan",
+  "our_Start_Date": "2025-05-11",
+  "our_End_Date": "2025-05-12",
+  "colt_Start": "2025-05-10",
+  "colt_End": "2025-05-12",
+  "discrepancias": "TripStartDate: nuestro=2025-05-11 COLT=2025-05-10 (dif 1d)",
+  "colt_links": [
+   "https://x.com/GabrielBoric/status/1921387141667451219",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=299355",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=299417",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=299530",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=299604"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-USA-45922",
+  "our_Trip_ID": "183",
+  "President": "Gabriel Boric",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2025-09-22",
+  "our_End_Date": "2025-09-25",
+  "colt_Start": "2025-09-22",
+  "colt_End": "2025-09-26",
+  "discrepancias": "TripEndDate: nuestro=2025-09-25 COLT=2025-09-26 (dif 1d)",
+  "colt_links": [
+   "https://www.gettyimages.com/detail/news-photo/president-of-chile-gabriel-boric-font-speaks-during-the-news-photo/2236992535?adppopup=true",
+   "https://webtv.un.org/en/asset/k1k/k1kd2sdyvq",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=854babcd-2373-4a55-b5e1-5c2b5bd7aaab&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6GTT-H593-RYT5-23N8-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr4&pditab=allpods&ecomp=hc-yk&earg=sr4&prid=c80586bf-8d91-45c3-8201-caa9831f0ebb",
+   "https://www.instagram.com/p/DO_h9-Djkhr/?img_index=1",
+   "https://casar.house.gov/media/press-releases/news-casar-meets-world-leaders-oppose-authoritarianism-around-world"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-BRA-45966",
+  "our_Trip_ID": "184",
+  "President": "Gabriel Boric",
+  "Destination_Country": "Brazil",
+  "our_Start_Date": "2025-11-06",
+  "our_End_Date": "2025-11-07",
+  "colt_Start": "2025-11-05",
+  "colt_End": "2025-11-07",
+  "discrepancias": "TripStartDate: nuestro=2025-11-06 COLT=2025-11-05 (dif 1d)",
+  "colt_links": [
+   "https://www.gob.cl/en/news/there-is-no-time-to-lose-president-boric-arrives-at-cop30-and-highlights-chiles-leadership-with-70-renewable-energy-generation/",
+   "https://x.com/GabrielBoric/status/1986234626906726699",
+   "https://x.com/GabrielBoric/status/1986445748087464175",
+   "https://x.com/GabrielBoric/status/1986468437174968511",
+   "https://x.com/GabrielBoric/status/1986809183497253161",
+   "https://x.com/GabrielBoric/status/1986823412321333686",
+   "https://www.facebook.com/gobiernodechile/posts/pfbid02dhWy9M39SeWnHAVXeymnbmHZPcaU2TPpqLoVh1ANW5RBsMMkop9Xqt2pJjHTgarl"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-JPN-43153",
+  "our_Trip_ID": "189",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Japan",
+  "our_Start_Date": "2018-02-23",
+  "our_End_Date": "2018-02-26",
+  "colt_Start": "2018-02-22",
+  "colt_End": "2018-02-26",
+  "discrepancias": "TripStartDate: nuestro=2018-02-23 COLT=2018-02-22 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b6939fd1-4884-4b57-a9da-f61a5bc75f14/?context=1516831",
+   "https://advance-lexis-com.du.idm.oclc.org/api/permalink/28b8d74e-6037-49e6-a87d-f82fd4634dcc/?context=1516831",
+   "https://www.gettyimages.com/photos/michele-bachelet?begindate=2018-01-01&enddate=2018-03-11&events=775133296&family=editorial&phrase=Michele%20Bachelet&recency=daterange&sort=newest#license",
+   "https://www.gettyimages.com/photos/michele-bachelet?begindate=2018-01-01&enddate=2018-03-11&events=775112604&family=editorial&phrase=Michele%20Bachelet&recency=daterange&sort=newest#license"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-PRT-37144",
+  "our_Trip_ID": "190",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Portugal",
+  "our_Start_Date": "2001-09-09",
+  "our_End_Date": "2001-09-11",
+  "colt_Start": "2001-09-10",
+  "colt_End": "2001-09-11",
+  "discrepancias": "TripStartDate: nuestro=2001-09-09 COLT=2001-09-10 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453668291?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/451964618?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453663123?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/451964618?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-ARE-45501",
+  "our_Trip_ID": "192",
+  "President": "Gabriel Boric",
+  "Destination_Country": "United Arab Emirates",
+  "our_Start_Date": "2024-07-29",
+  "our_End_Date": "2024-07-30",
+  "colt_Start": "2024-07-28",
+  "colt_End": "2024-07-30",
+  "discrepancias": "TripStartDate: nuestro=2024-07-29 COLT=2024-07-28 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1519360&crid=64936d47-5b09-4cb7-a152-fae571de643e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CKK-V4Y1-JCG7-84WR-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=hc-yk&earg=sr1&prid=ab2c98d9-0994-4e5b-bfb9-0cd6384f631f",
+   "https://advance-lexis-com.du.idm.oclc.org/document/documentslider/?pdmfid=1519360&crid=52bd3f56-816d-47a7-b398-99bd29f23dba&pddocid=urn%3AcontentItem%3A6CK5-WX51-DYY9-0319-00000-00&pddocumentnumber=1&pdactivecontenttype=urn%3Ahlct%3A16&pdworkfolderid=&pdssubdataitemid=&pdupdateid=&pdalertresultid=&pdsortkey=relevance%2CDescending&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A6CK5-WX51-DYY9-0319-00000-00&pdcontentcomponentid=443607&pdcontentversion=&pdtrackchangesavailable=&action=linkdocslider&pddocumentsliderclickvalue=prev&ecomp=g2x8k&prid=64936d47-5b09-4cb7-a152-fae571de643e",
+   "https://prensa.presidencia.cl/comunicado.aspx?id=287990"
+  ]
+ },
+ {
+  "colt_TripID": "3909-CHL-USA-45189",
+  "our_Trip_ID": "193",
+  "President": "Gabriel Boric",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2023-09-22",
+  "our_End_Date": "2023-09-23",
+  "colt_Start": "2023-09-20",
+  "colt_End": "2023-09-22",
+  "discrepancias": "TripStartDate: nuestro=2023-09-22 COLT=2023-09-20 (dif 2d) | TripEndDate: nuestro=2023-09-23 COLT=2023-09-22 (dif 1d)",
+  "colt_links": [
+   "https://gadebate.un.org/en/78/chile",
+   "https://en.mercopress.com/2023/09/21/ukrainian-leader-holds-meetings-with-lula-and-boric",
+   "https://andina.pe/ingles/noticia-president-of-peru-meets-with-chilean-counterpart-boric-956075.aspx",
+   "https://x.com/GabrielBoric/status/1704676870992609434?s=20",
+   "https://www.goshennews.com/news/national_news/us-chile/image_287f4ced-7878-590d-b9dc-1c67f688c8bf.html",
+   "https://x.com/GabrielBoric/status/1705290756863226354?s=20",
+   "https://x.com/Presidencia_cl/status/1705355234640322608?s=20"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-DEU-36678",
+  "our_Trip_ID": "196",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Germany",
+  "our_Start_Date": "2000-06-02",
+  "our_End_Date": "2000-06-03",
+  "colt_Start": "2000-06-01",
+  "colt_End": "2000-06-03",
+  "discrepancias": "TripStartDate: nuestro=2000-06-02 COLT=2000-06-01 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/449855288?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/209874942?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/454038502?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-NZL-36842",
+  "our_Trip_ID": "201",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "New Zealand",
+  "our_Start_Date": "2000-11-12",
+  "our_End_Date": "2000-11-12",
+  "colt_Start": "2000-11-12",
+  "colt_End": "2000-11-13",
+  "discrepancias": "TripEndDate: nuestro=2000-11-12 COLT=2000-11-13 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453900130?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/449855288?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/450049259?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453002768?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-IDN-36842",
+  "our_Trip_ID": "202",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Indonesia",
+  "our_Start_Date": "2000-11-13",
+  "our_End_Date": "2000-11-13",
+  "colt_Start": "2000-11-12",
+  "colt_End": "2000-11-14",
+  "discrepancias": "TripStartDate: nuestro=2000-11-13 COLT=2000-11-12 (dif 1d) | TripEndDate: nuestro=2000-11-13 COLT=2000-11-14 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453900130?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/288287187?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453904570?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-TLS-36844",
+  "our_Trip_ID": "203",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Timor Leste",
+  "our_Start_Date": "2000-11-14",
+  "our_End_Date": "2000-11-14",
+  "colt_Start": "2000-11-14",
+  "colt_End": "2000-11-15",
+  "discrepancias": "TripEndDate: nuestro=2000-11-14 COLT=2000-11-15 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453900130?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453904570?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453945506?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/315418412?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-MEX-36858",
+  "our_Trip_ID": "205",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Mexico",
+  "our_Start_Date": "2000-11-30",
+  "our_End_Date": "2000-12-05",
+  "colt_Start": "2000-11-28",
+  "colt_End": "2000-12-04",
+  "discrepancias": "TripStartDate: nuestro=2000-11-30 COLT=2000-11-28 (dif 2d) | TripEndDate: nuestro=2000-12-05 COLT=2000-12-04 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/368366310?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/310523246?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/315942383?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453881694?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-DOM-37003",
+  "our_Trip_ID": "209",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Dominican Republic",
+  "our_Start_Date": "2001-04-22",
+  "our_End_Date": "2001-04-23",
+  "colt_Start": "2001-04-22",
+  "colt_End": "2001-04-24",
+  "discrepancias": "TripEndDate: nuestro=2001-04-23 COLT=2001-04-24 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453779543?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453764446?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-CHN-37185",
+  "our_Trip_ID": "212",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "China",
+  "our_Start_Date": "2001-10-19",
+  "our_End_Date": "2001-10-21",
+  "colt_Start": "2001-10-21",
+  "colt_End": "2001-10-24",
+  "discrepancias": "TripStartDate: nuestro=2001-10-19 COLT=2001-10-21 (dif 2d) | TripEndDate: nuestro=2001-10-21 COLT=2001-10-24 (dif 3d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/449975190?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452184577?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/281472740?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452211996?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452520507?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-CHN-37185",
+  "our_Trip_ID": "213",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "China",
+  "our_Start_Date": "2001-10-22",
+  "our_End_Date": "2001-10-24",
+  "colt_Start": "2001-10-21",
+  "colt_End": "2001-10-24",
+  "discrepancias": "TripStartDate: nuestro=2001-10-22 COLT=2001-10-21 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/449975190?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452184577?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/281472740?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452211996?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452520507?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-USA-37205",
+  "our_Trip_ID": "214",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2001-11-08",
+  "our_End_Date": "2001-11-11",
+  "colt_Start": "2001-11-10",
+  "colt_End": "2001-11-11",
+  "discrepancias": "TripStartDate: nuestro=2001-11-08 COLT=2001-11-10 (dif 2d)",
+  "colt_links": [
+   "https://wnc-eastview-com.du.idm.oclc.org/wnc/article?id=36550366",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=40988f91-62f0-4ca0-a8a2-a00600b76d40&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A44DP-6KT0-00RC-91DT-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr1&pditab=allpods&ecomp=zznyk&earg=sr1&prid=34e8efb9-cc0a-4086-83ac-8fc8a43d2bfe",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=83bbacf9-fcfb-49a5-be41-7bb4f5b08fc5&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A44DG-7NC0-00RC-9154-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr0&pditab=allpods&ecomp=zznyk&earg=sr0&prid=34e8efb9-cc0a-4086-83ac-8fc8a43d2bfe"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-ARG-37305",
+  "our_Trip_ID": "216",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2002-02-18",
+  "our_End_Date": "2002-02-18",
+  "colt_Start": "2002-02-18",
+  "colt_End": "2002-02-19",
+  "discrepancias": "TripEndDate: nuestro=2002-02-18 COLT=2002-02-19 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453566481?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453543642?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/457576845?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-SWE-37308",
+  "our_Trip_ID": "217",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Sweden",
+  "our_Start_Date": "2002-02-21",
+  "our_End_Date": "2002-02-23",
+  "colt_Start": "2002-02-21",
+  "colt_End": "2002-02-22",
+  "discrepancias": "TripEndDate: nuestro=2002-02-23 COLT=2002-02-22 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452616763?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452219139?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452928924?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12E646D3423A34A8?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-FIN-37312",
+  "our_Trip_ID": "218",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Finland",
+  "our_Start_Date": "2002-02-24",
+  "our_End_Date": "2002-02-26",
+  "colt_Start": "2002-02-25",
+  "colt_End": "2002-02-26",
+  "discrepancias": "TripStartDate: nuestro=2002-02-24 COLT=2002-02-25 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452546278?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452923172?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-BOL-37382",
+  "our_Trip_ID": "221",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Bolivia",
+  "our_Start_Date": "2002-05-06",
+  "our_End_Date": "2002-05-06",
+  "colt_Start": "2002-05-06",
+  "colt_End": "2002-05-07",
+  "discrepancias": "TripEndDate: nuestro=2002-05-06 COLT=2002-05-07 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10A038F65DC4AA13?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1555AC3231C4DC28?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452211154?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-VAT-37392",
+  "our_Trip_ID": "222",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Holy See",
+  "our_Start_Date": "2002-05-15",
+  "our_End_Date": "2002-05-16",
+  "colt_Start": "2002-05-16",
+  "colt_End": "2002-05-17",
+  "discrepancias": "TripStartDate: nuestro=2002-05-15 COLT=2002-05-16 (dif 1d) | TripEndDate: nuestro=2002-05-16 COLT=2002-05-17 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/457568338?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/451803882?accountid=14608",
+   "https://zenit.org/articles/john-paul-ii-receives-chilean-president/"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-ECU-37462",
+  "our_Trip_ID": "224",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Ecuador",
+  "our_Start_Date": "2002-07-26",
+  "our_End_Date": "2002-07-27",
+  "colt_Start": "2002-07-25",
+  "colt_End": "2002-07-30",
+  "discrepancias": "TripStartDate: nuestro=2002-07-26 COLT=2002-07-25 (dif 1d) | TripEndDate: nuestro=2002-07-27 COLT=2002-07-30 (dif 3d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c01bdea6-00b9-46df-a88d-f2db741b9190&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FB-7W60-00J7-K43V-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr62&pditab=allpods&ecomp=zznyk&earg=sr62&prid=3247ba7d-3830-4f33-8572-9560e00ba604",
+   "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/document-view?p=AWNB&f=advanced&docref=news/0F97E47702D17E07",
+   "https://www.gettyimages.com/detail/news-photo/chilean-president-ricardo-lagos-waves-as-he-leaves-the-news-photo/51424344?phrase=ricardo%20lagos&adppopup=true",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f09f4cc9-5e86-49e8-8dd3-9b6a18c2f6f8&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46DX-C7N0-00J7-K2G7-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr15&pditab=allpods&ecomp=zznyk&earg=sr15&prid=252c38c1-6a34-471c-9ca4-f402e6047e0d",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e738b7b2-b3ea-49e3-a257-39263ac8dafa&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46D0-55S0-01G8-14WG-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr23&pditab=allpods&ecomp=zznyk&earg=sr23&prid=5a061ce8-36cf-48aa-b545-4e4e4a9296d3",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=346f9b26-1002-4991-b4ca-7af68786196e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46F4-8KX0-00J7-K3CT-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr38&pditab=allpods&ecomp=zznyk&earg=sr38&prid=1151481b-ea37-482b-9463-dac2adecd39e",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c8a52216-1c67-4270-9ebd-fd9f69e7a866&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FB-7W50-00J7-K439-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr56&pditab=allpods&ecomp=zznyk&earg=sr56&prid=d62566f0-06ee-40bd-ad83-89077664d9d4",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=31e11204-0c0e-4111-8183-d14efc0907a3&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FJ-7WX0-00J7-K0FS-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr64&pditab=allpods&ecomp=zznyk&earg=sr64&prid=3247ba7d-3830-4f33-8572-9560e00ba604",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c6721718-5fd7-45ab-a604-bddda4271a09&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FS-69F0-00J7-K0H2-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr85&pditab=allpods&ecomp=zznyk&earg=sr85&prid=49caac8f-6c92-4c8c-aa41-7cb65da889b7",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=fea0d9ac-0085-430e-a773-869989b3ae9a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A490H-26B0-01G8-12M8-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr93&pditab=allpods&ecomp=zznyk&earg=sr93&prid=37348d39-019d-47a8-9c83-53e299922292"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-ECU-37462",
+  "our_Trip_ID": "225",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Ecuador",
+  "our_Start_Date": "2002-07-28",
+  "our_End_Date": "2002-07-30",
+  "colt_Start": "2002-07-25",
+  "colt_End": "2002-07-30",
+  "discrepancias": "TripStartDate: nuestro=2002-07-28 COLT=2002-07-25 (dif 3d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c01bdea6-00b9-46df-a88d-f2db741b9190&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FB-7W60-00J7-K43V-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr62&pditab=allpods&ecomp=zznyk&earg=sr62&prid=3247ba7d-3830-4f33-8572-9560e00ba604",
+   "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/document-view?p=AWNB&f=advanced&docref=news/0F97E47702D17E07",
+   "https://www.gettyimages.com/detail/news-photo/chilean-president-ricardo-lagos-waves-as-he-leaves-the-news-photo/51424344?phrase=ricardo%20lagos&adppopup=true",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f09f4cc9-5e86-49e8-8dd3-9b6a18c2f6f8&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46DX-C7N0-00J7-K2G7-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr15&pditab=allpods&ecomp=zznyk&earg=sr15&prid=252c38c1-6a34-471c-9ca4-f402e6047e0d",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e738b7b2-b3ea-49e3-a257-39263ac8dafa&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46D0-55S0-01G8-14WG-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr23&pditab=allpods&ecomp=zznyk&earg=sr23&prid=5a061ce8-36cf-48aa-b545-4e4e4a9296d3",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=346f9b26-1002-4991-b4ca-7af68786196e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46F4-8KX0-00J7-K3CT-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr38&pditab=allpods&ecomp=zznyk&earg=sr38&prid=1151481b-ea37-482b-9463-dac2adecd39e",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c8a52216-1c67-4270-9ebd-fd9f69e7a866&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FB-7W50-00J7-K439-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr56&pditab=allpods&ecomp=zznyk&earg=sr56&prid=d62566f0-06ee-40bd-ad83-89077664d9d4",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=31e11204-0c0e-4111-8183-d14efc0907a3&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FJ-7WX0-00J7-K0FS-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr64&pditab=allpods&ecomp=zznyk&earg=sr64&prid=3247ba7d-3830-4f33-8572-9560e00ba604",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c6721718-5fd7-45ab-a604-bddda4271a09&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A46FS-69F0-00J7-K0H2-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr85&pditab=allpods&ecomp=zznyk&earg=sr85&prid=49caac8f-6c92-4c8c-aa41-7cb65da889b7",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=fea0d9ac-0085-430e-a773-869989b3ae9a&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A490H-26B0-01G8-12M8-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr93&pditab=allpods&ecomp=zznyk&earg=sr93&prid=37348d39-019d-47a8-9c83-53e299922292"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-HUN-37536",
+  "our_Trip_ID": "227",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Hungary",
+  "our_Start_Date": "2002-10-06",
+  "our_End_Date": "2002-10-07",
+  "colt_Start": "2002-10-07",
+  "colt_End": "2002-10-09",
+  "discrepancias": "TripStartDate: nuestro=2002-10-06 COLT=2002-10-07 (dif 1d) | TripEndDate: nuestro=2002-10-07 COLT=2002-10-09 (dif 2d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452494073?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/451529210?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452200492?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-POL-37538",
+  "our_Trip_ID": "228",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Poland",
+  "our_Start_Date": "2002-10-08",
+  "our_End_Date": "2002-10-09",
+  "colt_Start": "2002-10-09",
+  "colt_End": "2002-10-10",
+  "discrepancias": "TripStartDate: nuestro=2002-10-08 COLT=2002-10-09 (dif 1d) | TripEndDate: nuestro=2002-10-09 COLT=2002-10-10 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452200492?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453420554?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452194318?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/451524965?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-ECU-37636",
+  "our_Trip_ID": "232",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Ecuador",
+  "our_Start_Date": "2003-01-15",
+  "our_End_Date": "2003-01-15",
+  "colt_Start": "2003-01-15",
+  "colt_End": "2003-01-16",
+  "discrepancias": "TripEndDate: nuestro=2003-01-15 COLT=2003-01-16 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/0F95E4DBA7698DDA?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1081EFBB7A4787B0?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/0F8A492B0CFAB68D?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/368346653?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-JAM-37804",
+  "our_Trip_ID": "238",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Jamaica",
+  "our_Start_Date": "2003-07-01",
+  "our_End_Date": "2003-07-03",
+  "colt_Start": "2003-07-02",
+  "colt_End": "2003-07-03",
+  "discrepancias": "TripStartDate: nuestro=2003-07-01 COLT=2003-07-02 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f53c35f9-27b5-4526-86d9-f4612105e3a5&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A492J-FKP0-00J7-K33S-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr58&pditab=allpods&ecomp=zznyk&earg=sr58&prid=3f8a6242-9566-4e63-9a04-0656c0894159",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f03fa2be-258a-4565-880a-ea4964465339&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A492J-FKK0-00J7-K1TY-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr11&pditab=allpods&ecomp=ybvnk&earg=sr11&prid=70af789d-8e29-4c7d-8abe-4b44bd6144f2",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=072862a4-fa7b-48e2-84b5-aa918c7f8bd1&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4900-Y720-00KX-9287-00000-00&pdcontentcomponentid=241709&pdteaserkey=sr21&pditab=allpods&ecomp=zznyk&earg=sr21&prid=cb5a970a-c985-40c1-b38e-2ce862dc6cb8",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5f7b9c04-ab91-4658-b6c6-c70efd2c2613&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4930-D200-00J7-K08R-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr3&pditab=allpods&ecomp=ybvnk&earg=sr3&prid=d73d3304-0fcc-4c49-a485-c4c0a33029d9",
+   "https://www-proquest-com.du.idm.oclc.org/central/docview/374540130/9E809C519F4C4C2CPQ/2?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-IRL-37812",
+  "our_Trip_ID": "239",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Ireland",
+  "our_Start_Date": "2003-07-10",
+  "our_End_Date": "2003-07-11",
+  "colt_Start": "2003-07-10",
+  "colt_End": "2003-07-12",
+  "discrepancias": "TripEndDate: nuestro=2003-07-11 COLT=2003-07-12 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/747217694?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/749343643?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-GBR-37811",
+  "our_Trip_ID": "240",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "United Kingdom",
+  "our_Start_Date": "2003-07-12",
+  "our_End_Date": "2003-07-14",
+  "colt_Start": "2003-07-09",
+  "colt_End": "2003-07-14",
+  "discrepancias": "TripStartDate: nuestro=2003-07-12 COLT=2003-07-09 (dif 3d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10264F2E6585F60D?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/0FC06F9730CEB071?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/0FE959E00E55F2B1?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/0FC3555FC5FCADDB?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-BRA-37851",
+  "our_Trip_ID": "243",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Brazil",
+  "our_Start_Date": "2003-08-19",
+  "our_End_Date": "2003-08-19",
+  "colt_Start": "2003-08-18",
+  "colt_End": "2003-08-19",
+  "discrepancias": "TripStartDate: nuestro=2003-08-19 COLT=2003-08-18 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10264F8A1766E3CB?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1084DD201FD9403C?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460217111?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/453159292?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-ARG-37860",
+  "our_Trip_ID": "244",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Argentina",
+  "our_Start_Date": "2003-08-27",
+  "our_End_Date": "2003-08-29",
+  "colt_Start": "2003-08-27",
+  "colt_End": "2003-08-30",
+  "discrepancias": "TripEndDate: nuestro=2003-08-29 COLT=2003-08-30 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460212359?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460212551?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460219795?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-USA-37996",
+  "our_Trip_ID": "246",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2004-01-09",
+  "our_End_Date": "2004-01-09",
+  "colt_Start": "2004-01-10",
+  "colt_End": "2004-01-11",
+  "discrepancias": "TripStartDate: nuestro=2004-01-09 COLT=2004-01-10 (dif 1d) | TripEndDate: nuestro=2004-01-09 COLT=2004-01-11 (dif 2d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/272245216?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/421911393?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-FRA-38013",
+  "our_Trip_ID": "248",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "France",
+  "our_Start_Date": "2004-01-28",
+  "our_End_Date": "2004-01-28",
+  "colt_Start": "2004-01-27",
+  "colt_End": "2004-01-28",
+  "discrepancias": "TripStartDate: nuestro=2004-01-28 COLT=2004-01-27 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1084DF24CEC8D4F6?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12E646EEC9A7A248?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-CHE-38016",
+  "our_Trip_ID": "250",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Switzerland",
+  "our_Start_Date": "2004-01-30",
+  "our_End_Date": "2004-01-30",
+  "colt_Start": "2004-01-30",
+  "colt_End": "2004-01-31",
+  "discrepancias": "TripEndDate: nuestro=2004-01-30 COLT=2004-01-31 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1007418CF7111D66?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1564A95C4F6F2FE8?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/100B8837184A3455?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/443767834?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-ESP-38131",
+  "our_Trip_ID": "255",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2004-05-25",
+  "our_End_Date": "2004-05-27",
+  "colt_Start": "2004-05-24",
+  "colt_End": "2004-05-27",
+  "discrepancias": "TripStartDate: nuestro=2004-05-25 COLT=2004-05-24 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/102E1B5C9A1958CC?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/102D732BE7DE0612?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1084D78EC19ACB7E?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1084E0BB2F67A45C?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-GTM-38136",
+  "our_Trip_ID": "256",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Guatemala",
+  "our_Start_Date": "2004-05-30",
+  "our_End_Date": "2004-05-31",
+  "colt_Start": "2004-05-29",
+  "colt_End": "2004-05-31",
+  "discrepancias": "TripStartDate: nuestro=2004-05-30 COLT=2004-05-29 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460237179?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/102F1A8B1B3434D7?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1084E0D653CC1DC3?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1084E0D0B0B38141?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1084E0BB2F67A45C?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-SLV-38138",
+  "our_Trip_ID": "257",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "El Salvador",
+  "our_Start_Date": "2004-06-01",
+  "our_End_Date": "2004-06-01",
+  "colt_Start": "2004-05-31",
+  "colt_End": "2004-06-01",
+  "discrepancias": "TripStartDate: nuestro=2004-06-01 COLT=2004-05-31 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1084E0B5C5D6069E?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1084D78EAC91FF5A?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1084E0BA5E144338?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-USA-38186",
+  "our_Trip_ID": "259",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2004-07-19",
+  "our_End_Date": "2004-07-20",
+  "colt_Start": "2004-07-18",
+  "colt_End": "2004-07-19",
+  "discrepancias": "TripStartDate: nuestro=2004-07-19 COLT=2004-07-18 (dif 1d) | TripEndDate: nuestro=2004-07-20 COLT=2004-07-19 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/448633526?accountid=14608",
+   "https://history.state.gov/departmenthistory/visits/chile",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/103FF3ABC3F6AEFA?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-HTI-38188",
+  "our_Trip_ID": "261",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Haiti",
+  "our_Start_Date": "2004-07-20",
+  "our_End_Date": "2004-07-21",
+  "colt_Start": "2004-07-20",
+  "colt_End": "2004-07-22",
+  "discrepancias": "TripEndDate: nuestro=2004-07-21 COLT=2004-07-22 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460198781?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/387716259?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452946068?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/103FF3ABC3F6AEFA?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-USA-38249",
+  "our_Trip_ID": "264",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2004-09-20",
+  "our_End_Date": "2004-09-22",
+  "colt_Start": "2004-09-19",
+  "colt_End": "2004-09-22",
+  "discrepancias": "TripStartDate: nuestro=2004-09-20 COLT=2004-09-19 (dif 1d)",
+  "colt_links": [
+   "https://www.proquest.com/internationalnews1/docview/468269359/BADA2711AB05447DPQ/23?accountid=14608",
+   "https://www.gettyimages.com/detail/news-photo/ricardo-lagos-escobar-president-of-chile-united-nations-news-photo/51329342?adppopup=true",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5e63185c-d231-46b7-ba77-a0883434db87&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4DCJ-D1C0-TWMB-331D-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr0&pditab=allpods&ecomp=kmnyk&earg=sr0&prid=9b2b0846-a715-4a04-a7eb-cd900f03d451",
+   "https://www.gettyimages.com/detail/news-photo/united-nations-un-secretary-general-kofi-annan-shakes-hands-news-photo/51333080?adppopup=true",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=0938979a-731f-423b-9a24-b76d6cbafe27&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4DCS-C6N0-TWMB-32PS-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr1&pditab=allpods&ecomp=kmnyk&earg=sr1&prid=9b2b0846-a715-4a04-a7eb-cd900f03d451",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=969edd42-9c71-4789-b8e6-26c6f0e41798&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4DD0-BCR0-TWMB-337D-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr3&pditab=allpods&ecomp=kmnyk&earg=sr3&prid=52a4894b-8f28-4bb9-9460-355af772939e"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-ROU-38270",
+  "our_Trip_ID": "266",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Romania",
+  "our_Start_Date": "2004-10-11",
+  "our_End_Date": "2004-10-11",
+  "colt_Start": "2004-10-10",
+  "colt_End": "2004-10-11",
+  "discrepancias": "TripStartDate: nuestro=2004-10-11 COLT=2004-10-10 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/459700366?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/105AECF6EA9B1ADD?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/105AF40556FED87F?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10599D4AE995B3B7?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-TUR-38271",
+  "our_Trip_ID": "267",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Turkiye",
+  "our_Start_Date": "2004-10-12",
+  "our_End_Date": "2004-10-13",
+  "colt_Start": "2004-10-11",
+  "colt_End": "2004-10-14",
+  "discrepancias": "TripStartDate: nuestro=2004-10-12 COLT=2004-10-11 (dif 1d) | TripEndDate: nuestro=2004-10-13 COLT=2004-10-14 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/459436657?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/457525480?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/457527868?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/105B9367A3F8B1E2?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-BRA-38294",
+  "our_Trip_ID": "269",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Brazil",
+  "our_Start_Date": "2004-11-04",
+  "our_End_Date": "2004-11-05",
+  "colt_Start": "2004-11-03",
+  "colt_End": "2004-11-05",
+  "discrepancias": "TripStartDate: nuestro=2004-11-04 COLT=2004-11-03 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=698ee52e-1f60-4f39-b384-f0c738501da7&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4DPP-WMB0-00BT-M003-00000-00&pdcontentcomponentid=138211&pdteaserkey=sr13&pditab=allpods&ecomp=szznk&earg=sr13&prid=c376d10c-5b13-48d3-9123-53b4826b0aea",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=9c75e505-8714-479c-bcf2-b180128d061e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4DRJ-Y760-TWDH-N1WR-00000-00&pdcontentcomponentid=11810&pdteaserkey=sr17&pditab=allpods&ecomp=szznk&earg=sr17&prid=c376d10c-5b13-48d3-9123-53b4826b0aea"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-PER-38328",
+  "our_Trip_ID": "270",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Peru",
+  "our_Start_Date": "2004-12-09",
+  "our_End_Date": "2004-12-09",
+  "colt_Start": "2004-12-07",
+  "colt_End": "2004-12-09",
+  "discrepancias": "TripStartDate: nuestro=2004-12-09 COLT=2004-12-07 (dif 2d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/106E0DABC84C3295?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/106E1466614ECFC6?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/107207DDD37A0DAB?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1071AF754B47B081?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-EGY-38367",
+  "our_Trip_ID": "272",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Egypt",
+  "our_Start_Date": "2005-01-16",
+  "our_End_Date": "2005-01-18",
+  "colt_Start": "2005-01-15",
+  "colt_End": "2005-01-18",
+  "discrepancias": "TripStartDate: nuestro=2005-01-16 COLT=2005-01-15 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/107AE86A9D6ABF77?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/107B3E8A444D81BC?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/107B3CC85687FE06?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-IND-38370",
+  "our_Trip_ID": "273",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "India",
+  "our_Start_Date": "2005-01-19",
+  "our_End_Date": "2005-01-22",
+  "colt_Start": "2005-01-18",
+  "colt_End": "2005-01-22",
+  "discrepancias": "TripStartDate: nuestro=2005-01-19 COLT=2005-01-18 (dif 1d)",
+  "colt_links": [
+   "http://www.gettyimages.com/event/chilean-president-ricardo-lagos-visits-india-52036474#indian-prime-minister-manmohan-singh-luisa-duran-de-lagos-chilean-picture-id52037118",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460193454?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452444010?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467859327?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-DEU-38374",
+  "our_Trip_ID": "274",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Germany",
+  "our_Start_Date": "2005-01-23",
+  "our_End_Date": "2005-01-25",
+  "colt_Start": "2005-01-22",
+  "colt_End": "2005-01-25",
+  "discrepancias": "TripStartDate: nuestro=2005-01-23 COLT=2005-01-22 (dif 1d)",
+  "colt_links": [
+   "http://wwwgettyimagescom/event/chilean-president-escobar-visits-germany-52055212#chilean-president-ricardo-lagos-escobar-and-german-chancellor-gerhard-picture-id52055575",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460193454?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/468180918?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/459695265?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-GUY-38401",
+  "our_Trip_ID": "275",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Guyana",
+  "our_Start_Date": "2005-02-18",
+  "our_End_Date": "2005-02-19",
+  "colt_Start": "2005-02-18",
+  "colt_End": "2005-02-20",
+  "discrepancias": "TripEndDate: nuestro=2005-02-19 COLT=2005-02-20 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1085CB278244AF2B?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10896AAE9F2EAFAD?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10892EAF03A24C34?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-BRB-38403",
+  "our_Trip_ID": "277",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Barbados",
+  "our_Start_Date": "2005-02-20",
+  "our_End_Date": "2005-02-20",
+  "colt_Start": "2005-02-20",
+  "colt_End": "2005-02-21",
+  "discrepancias": "TripEndDate: nuestro=2005-02-20 COLT=2005-02-21 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1086C0FD8A9B2534?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10866BF1E263FD74?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10892F2957E09BE2?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-TTO-38404",
+  "our_Trip_ID": "278",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Trinidad and Tobago",
+  "our_Start_Date": "2005-02-22",
+  "our_End_Date": "2005-02-22",
+  "colt_Start": "2005-02-21",
+  "colt_End": "2005-02-22",
+  "discrepancias": "TripStartDate: nuestro=2005-02-22 COLT=2005-02-21 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/12FD4D9217F35130?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1086C0F5F42EBFBF?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1086C0FD8A9B2534?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1087154D712FA44F?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10892F2957E09BE2?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-VEN-38461",
+  "our_Trip_ID": "280",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Venezuela",
+  "our_Start_Date": "2005-04-20",
+  "our_End_Date": "2005-04-21",
+  "colt_Start": "2005-04-19",
+  "colt_End": "2005-04-21",
+  "discrepancias": "TripStartDate: nuestro=2005-04-20 COLT=2005-04-19 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467915347?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/192340396?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460236499?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/336631456?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-SWE-38516",
+  "our_Trip_ID": "284",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Sweden",
+  "our_Start_Date": "2005-06-12",
+  "our_End_Date": "2005-06-14",
+  "colt_Start": "2005-06-13",
+  "colt_End": "2005-06-14",
+  "discrepancias": "TripStartDate: nuestro=2005-06-12 COLT=2005-06-13 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10AC00CCC23D3D8C?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10AC00CCC23D3D8C?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10AC00CD80A34004?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-PRY-38522",
+  "our_Trip_ID": "285",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Paraguay",
+  "our_Start_Date": "2005-06-20",
+  "our_End_Date": "2005-06-20",
+  "colt_Start": "2005-06-19",
+  "colt_End": "2005-06-20",
+  "discrepancias": "TripStartDate: nuestro=2005-06-20 COLT=2005-06-19 (dif 1d)",
+  "colt_links": [
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=49a0b186-ffea-45b9-b2e4-6357f110454b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4GFH-W110-00BT-M3GH-00000-00&pdcontentcomponentid=138211&pdteaserkey=sr0&pditab=allpods&ecomp=zz2yk&earg=sr0&prid=5e673c8f-00bc-4e46-ba37-132de9168338",
+   "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=14597065-6d64-4674-a1d5-d04f9ecb1890&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4GFV-W3J0-001G-V40M-00000-00&pdcontentcomponentid=8001&pdteaserkey=sr2&pditab=allpods&ecomp=zz2yk&earg=sr2&prid=5e673c8f-00bc-4e46-ba37-132de9168338"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-PAN-38531",
+  "our_Trip_ID": "286",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Panama",
+  "our_Start_Date": "2005-06-28",
+  "our_End_Date": "2005-06-29",
+  "colt_Start": "2005-06-28",
+  "colt_End": "2005-06-30",
+  "discrepancias": "TripEndDate: nuestro=2005-06-29 COLT=2005-06-30 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/336523306?accountid=14608",
+   "http://wwwalamycom/stock-photo-president-martin-torrijos-of-panama-r-wave-at-the-media-with-president-121695570html?pv=1&stamp=2&imageid=4CA156BA-9489-4E0E-9B58-5931BC834092&p=307842&n=2&orientation=0&pn=1&searchtype=0&IsFromSearch=1&srch=foo%3Dbar%26st%3D0%26sortby%3D2%26qt%3Dtorrijos%2520and%2520lagos%2520escobar%2520panama%26qt_raw%3Dtorrijos%2520and%2520lagos%2520escobar%2520panama%26qn%3D%26lic%3D3%26mr%3D0%26pr%3D0%26aoa%3D1%26creative%3D%26videos%3D%26nu%3D%26ccc%3D%26bespoke%3D%26apalib%3D%26ag%3D0%26hc%3D0%26et%3D0x000000000000000000000%26vp%3D0%26loc%3D0%26ot%3D0%26imgt%3D0%26dtfr%3D%26dtto%3D%26size%3D0xFF%26blackwhite%3D%26cutout%3D%26archive%3D1%26name%3D%26groupid%3D%26pseudoid%3D%26userid%3D%26id%3D%26a%3D%26xstx%3D0%26cbstore%3D1%26resultview%3DsortbyPopular%26lightbox%3D%26gname%3D%26gtype%3D%26apalic%3D%26tbar%3D1%26pc%3D%26simid%3D%26cap%3D1%26customgeoip%3D%26vd%3D0%26cid%3D%26pe%3D%26so%3D%26saveQry%3D%26editorial%3D1%26t%3D0%26edoptin%3D",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467897824?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/336517604?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-USA-38609",
+  "our_Trip_ID": "289",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2005-09-14",
+  "our_End_Date": "2005-09-17",
+  "colt_Start": "2005-09-14",
+  "colt_End": "2005-09-16",
+  "discrepancias": "TripEndDate: nuestro=2005-09-17 COLT=2005-09-16 (dif 1d)",
+  "colt_links": [
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/472082534?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/472082488?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/458754124?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-GBR-38636",
+  "our_Trip_ID": "292",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "United Kingdom",
+  "our_Start_Date": "2005-10-11",
+  "our_End_Date": "2005-10-11",
+  "colt_Start": "2005-10-11",
+  "colt_End": "2005-10-12",
+  "discrepancias": "TripEndDate: nuestro=2005-10-11 COLT=2005-10-12 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10D196341DB05398?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452589298?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "1516-CHL-ESP-38637",
+  "our_Trip_ID": "293",
+  "President": "Ricardo Lagos",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2005-10-12",
+  "our_End_Date": "2005-10-13",
+  "colt_Start": "2005-10-12",
+  "colt_End": "2005-10-15",
+  "discrepancias": "TripEndDate: nuestro=2005-10-13 COLT=2005-10-15 (dif 2d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10D196341DB05398?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/10D38C5BAD3EBF98?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/11D80BD29DDB18D0?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/11D80BD323DA4C88?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-USA-38980",
+  "our_Trip_ID": "303",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2006-09-19",
+  "our_End_Date": "2006-09-20",
+  "colt_Start": "2006-09-20",
+  "colt_End": "2006-09-21",
+  "discrepancias": "TripStartDate: nuestro=2006-09-19 COLT=2006-09-20 (dif 1d) | TripEndDate: nuestro=2006-09-20 COLT=2006-09-21 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/11454621ED055848?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1144F6E2C0F22830?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/472606453?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460141019?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/472697864?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-FIN-39230",
+  "our_Trip_ID": "304",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Finland",
+  "our_Start_Date": "2007-05-29",
+  "our_End_Date": "2007-05-30",
+  "colt_Start": "2007-05-28",
+  "colt_End": "2007-05-30",
+  "discrepancias": "TripStartDate: nuestro=2007-05-29 COLT=2007-05-28 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/14140A9777AEE200?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/469120869?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467639033?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-NOR-39232",
+  "our_Trip_ID": "305",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "Norway",
+  "our_Start_Date": "2007-05-30",
+  "our_End_Date": "2007-05-31",
+  "colt_Start": "2007-05-30",
+  "colt_End": "2007-06-01",
+  "discrepancias": "TripEndDate: nuestro=2007-05-31 COLT=2007-06-01 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1197FD50DE100F68?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467643887?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/469040203?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2134-CHL-USA-39714",
+  "our_Trip_ID": "307",
+  "President": "Michelle Bachelet",
+  "Destination_Country": "United States",
+  "our_Start_Date": "2008-09-23",
+  "our_End_Date": "2008-09-24",
+  "colt_Start": "2008-09-23",
+  "colt_End": "2008-09-25",
+  "discrepancias": "TripEndDate: nuestro=2008-09-24 COLT=2008-09-25 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1577BA4877184B38?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/141431AAA19B8FB8?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/123BCFA9EFEF31C8?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/435031882?accountid=14608",
+   "https://history.state.gov/departmenthistory/visits/chile"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-MEX-41077",
+  "our_Trip_ID": "312",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Mexico",
+  "our_Start_Date": "2012-06-18",
+  "our_End_Date": "2012-06-19",
+  "colt_Start": "2012-06-17",
+  "colt_End": "2012-06-20",
+  "discrepancias": "TripStartDate: nuestro=2012-06-18 COLT=2012-06-17 (dif 1d) | TripEndDate: nuestro=2012-06-19 COLT=2012-06-20 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/13FA8EF86469E640?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/13F7C65FC608EC00?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/13F76ED0B414B3E0?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-BRA-40544",
+  "our_Trip_ID": "315",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Brazil",
+  "our_Start_Date": "2011-01-01",
+  "our_End_Date": "2011-01-01",
+  "colt_Start": "2011-01-01",
+  "colt_End": "2011-01-02",
+  "discrepancias": "TripEndDate: nuestro=2011-01-01 COLT=2011-01-02 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/13BA8558099742E0?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/821891321?accountid=14608",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/1362977C811CBE88?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-ITA-40603",
+  "our_Trip_ID": "316",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Italy",
+  "our_Start_Date": "2011-03-01",
+  "our_End_Date": "2011-03-02",
+  "colt_Start": "2011-03-01",
+  "colt_End": "2011-03-03",
+  "discrepancias": "TripEndDate: nuestro=2011-03-02 COLT=2011-03-03 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/13BA8C2799AB03B0?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/13BA8C27A7E77FF8?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/13BA8C26C559A100?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/13BA8C267AEC07B8?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-ISR-40605",
+  "our_Trip_ID": "318",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Israel",
+  "our_Start_Date": "2011-03-03",
+  "our_End_Date": "2011-03-06",
+  "colt_Start": "2011-03-03",
+  "colt_End": "2011-03-05",
+  "discrepancias": "TripEndDate: nuestro=2011-03-06 COLT=2011-03-05 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/135DE716AA7DC308?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/135CDEB989A6EAB0?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/135D05455EFC05A8?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/854040889?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-PSE-40607",
+  "our_Trip_ID": "319",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Palestine",
+  "our_Start_Date": "2011-03-05",
+  "our_End_Date": "2011-03-05",
+  "colt_Start": "2011-03-05",
+  "colt_End": "2011-03-06",
+  "discrepancias": "TripEndDate: nuestro=2011-03-05 COLT=2011-03-06 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/135D331AC066A558?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/855728110?accountid=14608",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/854040889?accountid=14608"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-JOR-40608",
+  "our_Trip_ID": "320",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Jordan",
+  "our_Start_Date": "2011-03-06",
+  "our_End_Date": "2011-03-07",
+  "colt_Start": "2011-03-06",
+  "colt_End": "2011-03-06",
+  "discrepancias": "TripEndDate: nuestro=2011-03-07 COLT=2011-03-06 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/135CFA20DF08A808?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/135D789A40830AE0?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/135D789A4288D1A8?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-ESP-40608",
+  "our_Trip_ID": "321",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "Spain",
+  "our_Start_Date": "2011-03-07",
+  "our_End_Date": "2011-03-09",
+  "colt_Start": "2011-03-06",
+  "colt_End": "2011-03-09",
+  "discrepancias": "TripStartDate: nuestro=2011-03-07 COLT=2011-03-06 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/135DC2F76E8FD490?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/135D8DC4E2857A88?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/135C90A58F2E2390?p=AWNB"
+  ]
+ },
+ {
+  "colt_TripID": "2556-CHL-KOR-40993",
+  "our_Trip_ID": "326",
+  "President": "Sebastián Piñera",
+  "Destination_Country": "South Korea",
+  "our_Start_Date": "2012-03-25",
+  "our_End_Date": "2012-03-27",
+  "colt_Start": "2012-03-25",
+  "colt_End": "2012-03-28",
+  "discrepancias": "TripEndDate: nuestro=2012-03-27 COLT=2012-03-28 (dif 1d)",
+  "colt_links": [
+   "http://infoweb.newsbank.com/resources/doc/nb/news/13DC13F4CDD313E8?p=AWNB",
+   "http://infoweb.newsbank.com/resources/doc/nb/news/13DC13F3B83747F8?p=AWNB",
+   "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/952823016?accountid=14608"
+  ]
+ }
+]

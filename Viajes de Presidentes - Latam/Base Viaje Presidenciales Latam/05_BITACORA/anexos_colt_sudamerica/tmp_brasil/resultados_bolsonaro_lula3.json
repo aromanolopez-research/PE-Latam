@@ -1,0 +1,339 @@
+{
+ "discrepancias_resueltas": [
+  {
+   "colt_TripID": "3531-BRA-IND-43855",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2020-01-25",
+   "valor_propuesto": "2020-01-24",
+   "fuente": "https://mea.gov.in/press-releases.htm?dtl%2F32314%2FState+visit+of+President+of+Brazil+to+India= (State visit 24-27 Jan 2020)",
+   "justificacion": "El comunicado oficial del Ministerio de Relaciones Exteriores de India confirma visita de Estado del 24 al 27 de enero de 2020."
+  },
+  {
+   "colt_TripID": "3531-BRA-URY-43891",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2020-03-02",
+   "valor_propuesto": "2020-03-01",
+   "fuente": "Search Query: Bolsonaro retorna Brasil 1 marco 2020 Uruguai posse Lacalle Pou (Metropoles/Agencia Brasil)",
+   "justificacion": "Bolsonaro viajo y regreso el mismo dia; aterrizo de vuelta en Brasilia a las 21:45 del 1/3/2020 tras la asuncion de Lacalle Pou."
+  },
+  {
+   "colt_TripID": "3531-BRA-ECU-44339",
+   "veredicto": "COLT_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2021-05-23",
+   "valor_propuesto": "2021-05-23",
+   "fuente": "Search Query: Bolsonaro Equador posse Lasso 24 maio 2021 viagem (CartaCapital/CNN Brasil)",
+   "justificacion": "Bolsonaro viajo a Quito el domingo 23/5/2021, un dia antes de la asuncion de Lasso (lunes 24/5)."
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-44458",
+   "veredicto": "COLT_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2021-09-22",
+   "valor_propuesto": "2021-09-22",
+   "fuente": "https://www.correiobraziliense.com.br/politica/2021/09/4950927-bolsonaro-desembarca-em-brasilia-apos-onu-anvisa-recomenda-quarentena.html",
+   "justificacion": "Bolsonaro y su comitiva aterrizaron en Brasilia el 22/9/2021, no el 21/9."
+  },
+  {
+   "colt_TripID": "3531-BRA-ITA-44498",
+   "veredicto": "COLT_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2021-11-02",
+   "valor_propuesto": "2021-11-02",
+   "fuente": "Search Query: Bolsonaro retorno Brasil G20 Roma novembro 2021 (CNN Brasil/Terra)",
+   "justificacion": "Tras el G20 (29-30 oct), Bolsonaro visito Anguillara Veneta (1 nov) y Pistoia (2 nov) antes de dejar Europa el 2/11/2021."
+  },
+  {
+   "colt_TripID": "3531-BRA-QAT-44517",
+   "veredicto": "COLT_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2021-11-18",
+   "valor_propuesto": "2021-11-18",
+   "fuente": "Search Query: Bolsonaro Catar novembro 2021 Doha retorno (O Tempo/Correio Braziliense)",
+   "justificacion": "Bolsonaro se reunio con el Emir el 18/11 y su regreso a Brasil estaba previsto para la manana del 18/11."
+  },
+  {
+   "colt_TripID": "3531-BRA-RUS-44607",
+   "veredicto": "COLT_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2022-02-17",
+   "valor_propuesto": "2022-02-17",
+   "fuente": "Search Query: Bolsonaro Russia fevereiro 2022 retorno Hungria (O Tempo)",
+   "justificacion": "Bolsonaro se reunio con Putin el 16/2 pero permanecio en territorio ruso hasta partir hacia Budapest el 17/2/2022; el tramo Rusia del viaje termina ese dia."
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-44719",
+   "veredicto": "COLT_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2022-06-07",
+   "valor_propuesto": "2022-06-07",
+   "fuente": "Search Query: Bolsonaro embarca Cupula das Americas 7 junho 2022 (Brasil247/CUT)",
+   "justificacion": "Bolsonaro embarco desde Brasilia el 7/6/2022 (por diferencia horaria aterrizo en Los Angeles el 8/6)."
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-44719",
+   "veredicto": "COLT_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2022-06-11",
+   "valor_propuesto": "2022-06-11",
+   "fuente": "Search Query: Bolsonaro inauguracao vice-consulado Orlando junho 2022 (Agencia Brasil/Brazilian Times)",
+   "justificacion": "La inauguracion del Vice-Consulado de Orlando (evento final de la gira) se realizo el sabado 11/6/2022, no el 10/6."
+  },
+  {
+   "colt_TripID": "3531-BRA-GBR-44823",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2022-09-19",
+   "valor_propuesto": "2022-09-18",
+   "fuente": "https://www.theguardian.com/world/2022/sep/18/bolsonaro-uses-visit-to-london-for-queens-funeral-as-election-soapbox",
+   "justificacion": "El propio articulo del Guardian, publicado el 18/9/2022, ya documenta a Bolsonaro haciendo campana en Londres ese dia, antes del funeral (19/9)."
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-44823",
+   "veredicto": "Ninguno_exacto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2022-09-19",
+   "valor_propuesto": "2022-09-19/20 (dia de transito)",
+   "fuente": "Search Query: Bolsonaro funeral rainha Elizabeth Londres retorno ONU (Agencia Brasil)",
+   "justificacion": "Bolsonaro dejo Londres la noche del 19/9 tras el funeral, rumbo a Nueva York, llegando ya de madrugada del 20/9; ambas fechas son defendibles segun se cuente salida de Londres o llegada a NY."
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-44823",
+   "veredicto": "COLT_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2022-09-21",
+   "valor_propuesto": "2022-09-21",
+   "fuente": "Search Query: Bolsonaro discurso ONU 20 setembro 2022 retorno Brasil 21 (Yahoo/Publico)",
+   "justificacion": "Tras el discurso del 20/9 en la ONU, el regreso a Brasil estaba previsto para el miercoles 21/9, no el 20/9."
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-44925",
+   "veredicto": "Ninguno_exacto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2023-03-30",
+   "valor_propuesto": "2023-01-01 (mantener; no adoptar 2023-03-30)",
+   "fuente": "https://www.npr.org/2023/03/30/1167040880/bolsonaro-returns-brazil-from-florida",
+   "justificacion": "OJO CASO SENSIBLE (transicion Bolsonaro-Lula): COLT registra correctamente que Bolsonaro permanecio fisicamente en Florida hasta el 30/3/2023 (confirmado por NPR), pero dejo de ser Jefe de Estado el 1/1/2023 al asumir Lula. Es una diferencia de alcance/definicion (COLT sigue al individuo hasta su regreso fisico; nuestra base cierra el viaje presidencial al fin del mandato), no un error factual de COLT sobre la fecha de regreso. Recomendamos mantener nuestro criterio."
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-44925",
+   "veredicto": "Ninguno_exacto",
+   "campo": "otro",
+   "valor_colt_original": "3531-BRA-USA-44925 (vinculado erroneamente a nuestro Trip 237 de Lula)",
+   "valor_propuesto": "El TripID real de COLT para el viaje de Lula a Washington (9-11 feb 2023) es 1780-BRA-USA-44966, listado por separado en la seccion colt_unico de este mismo workpack",
+   "fuente": "https://www.pbs.org/newshour/world/brazilian-president-luiz-inacio-lula-da-silva-will-visit-biden-on-feb-10 ; https://news.yahoo.com/brazils-lula-visit-biden-feb-215439598.html",
+   "justificacion": "ALERTA DE EMPAREJAMIENTO ESPURIO: el colt_TripID 3531-BRA-USA-44925 pertenece al viaje de Bolsonaro a EEUU (dic2022-mar2023), no a Lula. El script de conciliacion parece haber reutilizado ese ID por proximidad de pais/fecha al no encontrar un candidato mejor, generando una discrepancia de fechas ficticia (colt=dic2022-mar2023 vs nuestro=feb2023). El verdadero correlato COLT de nuestro Trip 237 (Lula, Washington, llego 9/2 discurso con Biden 10/2 regreso 11/2 segun PBS/Yahoo) es la entrada 1780-BRA-USA-44966 (COLT: 9-10 feb 2023), que aparece en la lista colt_unico de este workpack como si fuera un vacio real, cuando en realidad ya esta cubierta por nuestro Trip 237. Recomendamos: (a) ignorar la comparacion de fechas contra 3531-BRA-USA-44925 para el Trip 237; (b) marcar 1780-BRA-USA-44966 como ya cubierto (ver colt_unico_resueltos); (c) considerar ajustar nuestro Trip 237 a 2023-02-09/2023-02-11 si se desea alinear con la cobertura completa del viaje (llegada 9/2, reunion con Biden 10/2, regreso 11/2)."
+  },
+  {
+   "colt_TripID": "1780-BRA-ARG-44948",
+   "veredicto": "COLT_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2023-01-22",
+   "valor_propuesto": "2023-01-22",
+   "fuente": "Search Query: Lula Buenos Aires CELAC janeiro 2023 chegada (Metropoles/Diario de Cuyo)",
+   "justificacion": "Lula desembarco en Buenos Aires la noche del domingo 22/1/2023 (primer viaje internacional del mandato), no el 23/1."
+  },
+  {
+   "colt_TripID": "1780-BRA-ARG-44948",
+   "veredicto": "COLT_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2023-01-25",
+   "valor_propuesto": "2023-01-25",
+   "fuente": "Search Query: Lula regressa Brasil CELAC Buenos Aires retorno (Brasil de Fato)",
+   "justificacion": "Cobertura de prensa sobre la participacion de Lula en la Cumbre CELAC se extiende al 24-25/1; consistente con regreso el 25/1."
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-44925",
+   "veredicto": "Ninguno_exacto",
+   "campo": "otro",
+   "valor_colt_original": "N/A (our_Trip_ID 237)",
+   "valor_propuesto": "Ver nota en fila anterior de este mismo colt_TripID",
+   "fuente": "N/A",
+   "justificacion": "Entrada duplicada de control para our_Trip_ID 237; ver justificacion detallada arriba."
+  },
+  {
+   "colt_TripID": "1780-BRA-CHN-45028",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2023-04-14",
+   "valor_propuesto": "2023-04-15",
+   "fuente": "https://www.correiobraziliense.com.br/politica/2023/04/5086479-lula-embarca-para-china-chegada-esta-marcada-para-quarta-feira.html",
+   "justificacion": "La agenda oficial en China estaba programada del 12 al 15 de abril de 2023."
+  },
+  {
+   "colt_TripID": "1780-BRA-ARE-45031",
+   "veredicto": "COLT_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2023-04-15",
+   "valor_propuesto": "2023-04-15",
+   "fuente": "https://www.em.com.br/app/noticia/politica/2023/04/15/interna_politica,1481771/lula-chega-a-abu-dhabi-para-encontro-com-presidente-dos-emirados-arabes.shtml",
+   "justificacion": "Fue una escala de un solo dia (15/4/2023), 'ultimo dia de su gira por Asia', segun prensa brasileña; no se extendio al 16/4."
+  },
+  {
+   "colt_TripID": "1780-BRA-GBR-45051",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2023-05-06",
+   "valor_propuesto": "2023-05-07",
+   "fuente": "https://www.cnnbrasil.com.br/politica/lula-volta-ao-brasil-apos-viagem-ao-reino-unido-para-posse-de-charles-iii/",
+   "justificacion": "Lula llego a Londres el viernes 5/5, la coronacion fue el sabado 6/5, y regreso a Brasilia en la madrugada del domingo 7/5/2023 tras 3 dias en el Reino Unido (CNN Brasil)."
+  },
+  {
+   "colt_TripID": "1780-BRA-JPN-45064",
+   "veredicto": "COLT_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2023-05-18",
+   "valor_propuesto": "2023-05-18",
+   "fuente": "https://agenciabrasil.ebc.com.br/politica/noticia/2023-05/lula-desembarca-no-japao-para-cupula-do-g7",
+   "justificacion": "La delegacion desembarco en Japon de madrugada del 18/5 (hora de Brasilia); el G7 se realizo 19-21 de mayo en Hiroshima."
+  },
+  {
+   "colt_TripID": "1780-BRA-JPN-45064",
+   "veredicto": "COLT_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2023-05-22",
+   "valor_propuesto": "2023-05-22",
+   "fuente": "https://www.brasildefato.com.br/2023/05/21/lula-encerra-participacao-no-g7-e-contesta-poder-geopolitico-de-paises-ricos/",
+   "justificacion": "Lula 'encerra participacao no G7' el 21/5; dado el vuelo de regreso Japon-Brasil (30+ horas con escalas, como en el viaje a China de abril 2023), el arribo a Brasil se produjo recien el 22/5."
+  },
+  {
+   "colt_TripID": "1780-BRA-FRA-45098",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2023-06-21",
+   "valor_propuesto": "2023-06-22",
+   "fuente": "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/visita-a-franca-do-presidente-lula-a-paris-22-e-23-de-junho-de-202",
+   "justificacion": "Aviso oficial del Itamaraty titula explicitamente 'Visita a Paris - 22 e 23 de junho de 2023'."
+  },
+  {
+   "colt_TripID": "1780-BRA-FRA-45098",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2023-06-24",
+   "valor_propuesto": "2023-06-23",
+   "fuente": "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/visita-a-franca-do-presidente-lula-a-paris-22-e-23-de-junho-de-202",
+   "justificacion": "Mismo aviso oficial confirma cierre de la visita el 23/6/2023 (Cumbre por un Nuevo Pacto Financiero Global)."
+  },
+  {
+   "colt_TripID": "1780-BRA-BEL-45123",
+   "veredicto": "COLT_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2023-07-16",
+   "valor_propuesto": "2023-07-16",
+   "fuente": "https://agenciabrasil.ebc.com.br/politica/noticia/2023-07/lula-esta-na-belgica-para-cupula-celac-uniao-europeia",
+   "justificacion": "Lula partio de Brasil el 15/7 y desembarco en Bruselas el domingo 16/7, un dia antes del inicio formal de la cumbre (17-18/7)."
+  },
+  {
+   "colt_TripID": "1780-BRA-BEL-45123",
+   "veredicto": "COLT_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2023-07-19",
+   "valor_propuesto": "2023-07-19",
+   "fuente": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/entrevistas/entrevista-coletiva-concedida-pelo-presidente-luiz-inacio-lula-da-silva-em-bruxelas-na-belgica-apos-reuniao-celac-uniao-europeia-1",
+   "justificacion": "Lula dio una conferencia de prensa en Bruselas el 19/7/2023 marcando el cierre de su participacion y regreso a Brasil, segun Planalto y Poder360."
+  },
+  {
+   "colt_TripID": "1780-BRA-ZAF-45159",
+   "veredicto": "COLT_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2023-08-21",
+   "valor_propuesto": "2023-08-21",
+   "fuente": "https://agenciabrasil.ebc.com.br/politica/noticia/2023-08/lula-chega-africa-do-sul-para-15a-cupula-do-brics",
+   "justificacion": "Lula desembarco en Johannesburgo en la madrugada del lunes 21/8/2023, un dia antes del inicio de la Cumbre BRICS (22-24/8)."
+  },
+  {
+   "colt_TripID": "1780-BRA-IND-45176",
+   "veredicto": "COLT_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2023-09-07",
+   "valor_propuesto": "2023-09-07",
+   "fuente": "https://agenciagov.ebc.com.br/noticias/202309/presidente-lula-embarca-para-a-cupula-do-g20-na-india",
+   "justificacion": "Lula embarco de Brasil el jueves 7/9/2023, llegando a Nueva Delhi el 8/9 (cruce de husos horarios); la cumbre G20 fue 9-10/9."
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-45186",
+   "veredicto": "Ninguno_exacto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2023-09-17",
+   "valor_propuesto": "2023-09-16",
+   "fuente": "https://www.brasildefato.com.br/2023/09/17/lula-chega-a-nova-york-para-participar-da-assembleia-geral-da-onu-confira-agenda/",
+   "justificacion": "Segun Brasil de Fato y Poder360, Lula desembarco en Nueva York la noche del sabado 16/9/2023, un dia antes de lo que registran tanto COLT (17/9) como nuestra base (18/9). Proponemos corregir a 16/9."
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-45186",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2023-09-23",
+   "valor_propuesto": "2023-09-21",
+   "fuente": "https://www.brasildefato.com.br/2023/09/17/lula-chega-a-nova-york-para-participar-da-assembleia-geral-da-onu-confira-agenda/",
+   "justificacion": "Lula permanecio en Nueva York hasta el jueves 21/9/2023, cuando dio una conferencia de prensa y regreso a Brasil; el discurso de apertura de la ONU fue el 19/9. COLT (23/9) sobrestima la duracion del viaje."
+  },
+  {
+   "colt_TripID": "1780-BRA-DEU-45263",
+   "veredicto": "COLT_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2023-12-05",
+   "valor_propuesto": "2023-12-05",
+   "fuente": "https://agenciabrasil.ebc.com.br/politica/noticia/2023-12/lula-chega-berlim-onde-reforca-acordos-em-diversos-setores",
+   "justificacion": "Agencia Brasil describe la visita a Berlin como de 'tres dias' desde el domingo 3/12, lo que la extiende hasta el 5/12."
+  },
+  {
+   "colt_TripID": "1780-BRA-ETH-45337",
+   "veredicto": "COLT_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2024-02-15",
+   "valor_propuesto": "2024-02-15",
+   "fuente": "https://www.otempo.com.br/politica/governo/apos-viagem-ao-egito-lula-chega-a-etiopia-para-a-cupula-da-uniao-africana-1.3331524",
+   "justificacion": "Lula desembarco en Adis Abeba la noche del jueves 15/2/2024 (tras su paso por Egipto 14-15/2), no el 17/2."
+  },
+  {
+   "colt_TripID": "1780-BRA-GUY-45350",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2024-02-28",
+   "valor_propuesto": "2024-02-29",
+   "fuente": "https://www.diplomaciabusiness.com/visita-do-presidente-luiz-inacio-lula-da-silva-a-guiana-por-ocasiao-da-conferencia-de-chefes-de-governo-da-comunidade-do-caribe-caricom/",
+   "justificacion": "La visita oficial a Guyana (CARICOM) esta documentada explicitamente como de 2 dias, 28 y 29 de febrero de 2024."
+  },
+  {
+   "colt_TripID": "1780-BRA-VCT-45351",
+   "veredicto": "COLT_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2024-02-29",
+   "valor_propuesto": "2024-02-29",
+   "fuente": "Search Query: Lula Sao Vicente Granadinas marco 2024 CELAC chegada (Agencia Brasil/Terra)",
+   "justificacion": "Lula llego a San Vicente y las Granadinas el jueves 29/2/2024, un dia antes de la apertura de la cumbre CELAC (1/3)."
+  },
+  {
+   "colt_TripID": "1780-BRA-CHL-45508",
+   "veredicto": "COLT_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2024-08-04",
+   "valor_propuesto": "2024-08-04",
+   "fuente": "https://www.metropoles.com/colunas/igor-gadelha/lula-chega-ao-chile-e-se-encontra-boric-nesta-segunda",
+   "justificacion": "Lula aterrizo en Santiago el domingo 4/8/2024 a las 19:41, un dia antes de la agenda oficial del 5-6/8."
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-45556",
+   "veredicto": "COLT_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2024-09-21",
+   "valor_propuesto": "2024-09-21",
+   "fuente": "https://agenciagov.ebc.com.br/noticias/202409/lula-viaja-para-nova-york-para-79a-sessao-da-assembleia-geral-das-nacoes-unidas",
+   "justificacion": "Lula desembarco en Nueva York el sabado 21/9/2024, no el 22/9."
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-45556",
+   "veredicto": "Ninguno_exacto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2024-09-29",
+   "valor_propuesto": "2024-09-25 (aprox.)",
+   "fuente": "Search Query: Lula Nova York 21 setembro 2024 chegada discurso ONU 24 volta Brasil (Agencia Gov/O Tempo)",
+   "justificacion": "El discurso de apertura de la ONU fue el 24/9 y el regreso a Brasilia estaba previsto para el 25/9, no el 29/9 (posible confusion de COLT con el viaje posterior a Mexico, 29/9-2/10, para la asuncion de Sheinbaum). Nuestra fecha (24/9) tambien parece corta en 1 dia; se recomienda revisar y posiblemente ajustar a 25/9."
+  }
+ ],
+ "colt_unico_resueltos": [],
+ "nuestro_unico_check": []
+}

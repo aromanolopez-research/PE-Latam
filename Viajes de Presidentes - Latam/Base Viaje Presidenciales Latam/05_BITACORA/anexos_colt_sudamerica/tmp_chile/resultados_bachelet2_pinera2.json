@@ -1,0 +1,718 @@
+{
+  "discrepancias_resueltas": [
+    {
+      "colt_TripID": "2134-CHL-BRA-41802",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2014-06-13",
+      "valor_propuesto": "2014-06-13",
+      "fuente": "malaymail.com (World Cup 2014 opening ceremony coverage, VIP list) + prensa: Bachelet asistió a la ceremonia inaugural en Sao Paulo el 12/06 y al partido Chile-Australia en Cuiabá el 13/06/2014",
+      "justificacion": "Confirmado que Bachelet viajó a Brasilia y Sao Paulo el 12/06 para la ceremonia inaugural del Mundial, y luego asistió al debut de la Roja ante Australia en Cuiabá el 13/06/2014. El viaje abarcó 2 días, no 1 como registra nuestra base."
+    },
+    {
+      "colt_TripID": "2134-CHL-USA-41901",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2014-09-19;2014-09-24",
+      "valor_propuesto": "2014-09-24;2014-09-25",
+      "fuente": "gadebate.un.org/en/69/chile (discurso oficial ONU 24 sept 2014)",
+      "justificacion": "El sitio oficial de la ONU confirma que el discurso de Bachelet en el debate general del 69° período de sesiones fue el 24/09/2014, coincidiendo con nuestra fecha de inicio. No se halló evidencia de una visita a EE.UU. iniciada el 19/09; los links de COLT son de acceso institucional restringido (Lexis/ProQuest) y no pudieron verificarse directamente."
+    },
+    {
+      "colt_TripID": "2134-CHL-ITA-42159",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2015-06-04;2015-06-05",
+      "valor_propuesto": "2015-06-04;2015-06-06",
+      "fuente": "Diario Financiero / Cooperativa.cl / infobae (gira Bachelet Europa junio 2015)",
+      "justificacion": "Itinerario confirmado por prensa: llegada a Roma y visita oficial a Italia el 4/06, audiencia con el Papa Francisco (Vaticano) el 5/06, y viaje a Milán el 6/06 para inauguración de la 39° Conferencia FAO y Expo Milán. Ni la fecha de nuestra base (5-6/06) ni la de COLT (4-5/06) capturan el rango completo (4-6/06)."
+    },
+    {
+      "colt_TripID": "2134-CHL-BEL-42164",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2015-06-09",
+      "valor_propuesto": "2015-06-10",
+      "fuente": "Cooperativa.cl / SinEmbargo MX (gira Bachelet Europa junio 2015)",
+      "justificacion": "La Cumbre UE-CELAC en Bruselas fue oficialmente el 10-11/06/2015, coincidiendo con nuestra base. Sin embargo, Bachelet estuvo en Francia hasta el 9/06, por lo que una llegada a Bélgica esa misma tarde (como registra COLT) es plausible pero no se confirmó con fuente directa."
+    },
+    {
+      "colt_TripID": "2134-CHL-USA-42274",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2015-09-27;2015-09-30",
+      "valor_propuesto": "2015-09-26;2015-09-28",
+      "fuente": "UN Web TV / prensa (discurso Bachelet 70° periodo de sesiones ONU, 28/09/2015)",
+      "justificacion": "Confirmado que el discurso de Bachelet en el debate general del 70° período fue el 28/09/2015, coincidiendo con nuestra fecha de término. No se halló evidencia de permanencia hasta el 30/09 como indica COLT."
+    },
+    {
+      "colt_TripID": "2134-CHL-PHL-42323",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2015-11-15",
+      "valor_propuesto": "2015-11-18",
+      "fuente": "Cobertura APEC Manila 2015 (Cumbre de Líderes APEC, fechas oficiales 18-19/11/2015)",
+      "justificacion": "La Cumbre de Líderes de APEC en Manila fue oficialmente el 18-19 de noviembre de 2015, coincidiendo exactamente con nuestra base. No se encontró evidencia de actividad de Bachelet en Filipinas desde el 15/11 (esa fecha correspondería más bien al inicio de la Cumbre Empresarial APEC, de nivel no presidencial)."
+    },
+    {
+      "colt_TripID": "2134-CHL-IDN-42867",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2017-05-14",
+      "valor_propuesto": "2017-05-12",
+      "fuente": "un.org/pga (Belt and Road Forum, Beijing, 14-15 mayo 2017)",
+      "justificacion": "El Belt and Road Forum en Beijing fue oficialmente el 14-15/05/2017. Nuestra base registra la llegada de Bachelet a China el 13/05 (día previo al foro), por lo que la visita a Indonesia debió concluir el 12/05 a más tardar, no extenderse hasta el 14/05 como indica COLT."
+    },
+    {
+      "colt_TripID": "2134-CHL-USA-42633",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2016-09-23",
+      "valor_propuesto": "2016-09-21",
+      "fuente": "CNN Chile (20/09/2017, referencia retrospectiva) + prensa: discurso Bachelet ONU 21/09/2016",
+      "justificacion": "Confirmado que el discurso de Bachelet en el 71° período de sesiones de la Asamblea General fue el 21/09/2016, coincidiendo con nuestra fecha de término. No se halló evidencia de permanencia hasta el 23/09."
+    },
+    {
+      "colt_TripID": "2134-CHL-PER-42692",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2016-11-18",
+      "valor_propuesto": "2016-11-19",
+      "fuente": "Cobertura APEC Perú 2016 (Cumbre de Líderes, fechas oficiales 19-20/11/2016)",
+      "justificacion": "La Cumbre de Líderes de APEC en Lima fue oficialmente el 19-20 de noviembre de 2016, coincidiendo exactamente con nuestra base. El 17-19/11 correspondió a la Cumbre Empresarial APEC (nivel no necesariamente presidencial)."
+    },
+    {
+      "colt_TripID": "2134-CHL-CHN-42869",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2017-05-14",
+      "valor_propuesto": "2017-05-13",
+      "fuente": "un.org/pga (Belt and Road Forum, Beijing, 14-15 mayo 2017)",
+      "justificacion": "El foro comenzó oficialmente el 14/05, pero nuestra base registra llegada el 13/05 (día previo, patrón habitual de arribo anticipado), consistente con el cierre de la visita a Indonesia el 12/05."
+    },
+    {
+      "colt_TripID": "2134-CHL-USA-42997",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2017-09-19;2017-09-23",
+      "valor_propuesto": "2017-09-18;2017-09-20",
+      "fuente": "CNN Chile (20/09/2017) - discurso Bachelet ONU 72° periodo de sesiones",
+      "justificacion": "Confirmado que el discurso de Bachelet en el debate general del 72° período de sesiones fue el 20/09/2017, coincidiendo con nuestra fecha de término. No se halló evidencia de permanencia hasta el 23/09."
+    },
+    {
+      "colt_TripID": "2134-CHL-VNM-43048",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2017-11-09",
+      "valor_propuesto": "2017-11-10",
+      "fuente": "Cobertura APEC Da Nang 2017 (Cumbre de Líderes, fechas oficiales 10-11/11/2017)",
+      "justificacion": "La Cumbre de Líderes APEC en Da Nang fue oficialmente el 10-11/11/2017, coincidiendo exactamente con nuestra base."
+    },
+    {
+      "colt_TripID": "2556-CHL-PER-43205",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2018-04-15;2018-04-16",
+      "valor_propuesto": "2018-04-13;2018-04-14",
+      "fuente": "VIII Cumbre de las Américas, Lima (fechas oficiales 13-14/04/2018)",
+      "justificacion": "La VIII Cumbre de las Américas se realizó oficialmente en Lima el 13-14 de abril de 2018, coincidiendo exactamente con nuestra base. Las fechas de COLT (15-16/04) son posteriores al cierre oficial del evento."
+    },
+    {
+      "colt_TripID": "2556-CHL-ARG-43216",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2018-04-26",
+      "valor_propuesto": "2018-04-25",
+      "fuente": "Diario de Cuyo (25/04/2018) - Comunicado Conjunto Visita Oficial a Argentina, Minrel",
+      "justificacion": "Confirmado que Piñera llegó a Buenos Aires la noche del 25/04/2018 (Aeropuerto Jorge Newbery) y that las actividades oficiales con Macri fueron el 26/04. El viaje comenzó el 25/04, no el 26/04 como indica COLT."
+    },
+    {
+      "colt_TripID": "2556-CHL-USA-43368",
+      "our_Trip_ID": "114",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2018-09-28",
+      "valor_propuesto": "2018-09-28",
+      "fuente": "Publimetro Chile (27/09/2018) - discurso de Piñera en la ONU retrasado por caravana de Trump; La Tercera, cobertura gira EE.UU. sept 2018",
+      "justificacion": "La evidencia de prensa indica actividad de Piñera en Nueva York hasta el 27-28/09/2018 (73° periodo de sesiones, debate general 25/09-1/10/2018). Nuestra base tiene el viaje dividido en dos registros (Trip 114: 25-27/09 y Trip 115: 28/09) que probablemente correspondan a un mismo viaje continuo de EE.UU. (25-28/09/2018) según COLT. Se recomienda consolidar ambos registros."
+    },
+    {
+      "colt_TripID": "2556-CHL-USA-43368",
+      "our_Trip_ID": "115",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2018-09-25",
+      "valor_propuesto": "2018-09-25",
+      "fuente": "Publimetro Chile (27/09/2018); La Tercera, cobertura gira EE.UU. sept 2018",
+      "justificacion": "Ver justificación del registro hermano (Trip 114, mismo colt_TripID). Ambos nuestro-registros (114 y 115) parecen ser fragmentos de un mismo viaje continuo a EE.UU. del 25 al 28/09/2018, tal como lo registra COLT."
+    },
+    {
+      "colt_TripID": "2556-CHL-SGP-43418",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2018-11-14;2018-11-17",
+      "valor_propuesto": "2018-11-12;2018-11-15",
+      "fuente": "BCN Chile - Programa Asia Pacífico; Chile en el Exterior (Singapur)",
+      "justificacion": "La Cumbre ASEAN en Singapur fue el 13-14/11/2018 (martes-miércoles), con reuniones preparatorias desde el domingo 11/11. Prensa chilena menciona 'tres días' de visita, evaluados el viernes 16/11. Ni las fechas de nuestra base ni las de COLT coinciden con precisión con esta cronología; no se pudo verificar con fuente primaria exacta."
+    },
+    {
+      "colt_TripID": "2556-CHL-PRT-43703",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2019-08-28",
+      "valor_propuesto": "2019-08-26",
+      "fuente": "No se hallaron fuentes independientes específicas sobre esta visita",
+      "justificacion": "No se encontró cobertura de prensa específica sobre la visita de Piñera a Portugal en agosto de 2019 que permita confirmar o descartar la extensión a 2 días adicionales que indica COLT. Los links de COLT no fueron proporcionados/accesibles en este ítem."
+    },
+    {
+      "colt_TripID": "2556-CHL-USA-43730",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2019-09-22",
+      "valor_propuesto": "2019-09-23",
+      "fuente": "Emol.com (gira Piñera EE.UU. sept 2019, referencia general)",
+      "justificacion": "El debate general del 74° período de sesiones de la ONU fue el 24-30/09/2019. No se halló fuente que confirme con precisión el día exacto de llegada de Piñera a Nueva York (22 vs 23/09)."
+    },
+    {
+      "colt_TripID": "2556-CHL-URY-43891",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2020-03-02",
+      "valor_propuesto": "2020-03-01",
+      "fuente": "Cobertura general asunción presidencial de Luis Lacalle Pou, Montevideo, 1/03/2020",
+      "justificacion": "La ceremonia de asunción de Lacalle Pou fue el 1/03/2020. No se pudo confirmar si Piñera pernoctó y partió el 2/03 (como indica COLT) o regresó el mismo día."
+    },
+    {
+      "colt_TripID": "2556-CHL-FRA-44445",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2021-09-06",
+      "valor_propuesto": "2021-09-06",
+      "fuente": "Emol.com / France24 / La Tercera (6/09/2021) - reunión Piñera-Macron, Palacio del Elíseo",
+      "justificacion": "Múltiples fuentes de prensa (Emol: 'Presidente Piñera llega a Francia y se reunirá con su par Emmanuel Macron') confirman que la llegada a Francia y la reunión con Macron ocurrieron el mismo día, 6/09/2021, no el 5/09 como indica nuestra base."
+    },
+    {
+      "colt_TripID": "2556-CHL-ITA-44447",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2021-09-09",
+      "valor_propuesto": "2021-09-08",
+      "fuente": "Diario Financiero / Cooperativa.cl (gira europea Piñera sept 2021: España, Francia, Italia, Reino Unido)",
+      "justificacion": "La gira europea incluyó audiencia con el Papa Francisco en Italia; dado que la etapa siguiente (Reino Unido) comenzó el 9/09 según ambas bases, es más probable que la actividad en Italia haya sido de un solo día (8/09), pero no se confirmó con fuente que precise la fecha de salida."
+    },
+    {
+      "colt_TripID": "2556-CHL-GBR-44448",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2021-09-12",
+      "valor_propuesto": "2021-09-12",
+      "fuente": "La Tercera / Diario Financiero (gira Piñera Europa 3-12 sept 2021)",
+      "justificacion": "La prensa describe la gira europea (España, Francia, Italia y Reino Unido) como extendida 'hasta el 12 de septiembre', con Reino Unido como última etapa antes del regreso a Chile, coincidiendo con la fecha de término de COLT."
+    },
+    {
+      "colt_TripID": "2556-CHL-COL-44463",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2021-09-27",
+      "valor_propuesto": "2021-09-26",
+      "fuente": "Cancillería Colombia / Cooperativa.cl (reunión Piñera-Duque, Cartagena, 24/09/2021; llegada a Paraguay vía Uruguay, 27/09/2021)",
+      "justificacion": "La reunión bilateral con Duque fue el 24/09/2021 en Cartagena. La gira regional continuó a Uruguay antes de que Piñera llegara a Asunción (Paraguay) la noche del 27/09, por lo que la estadía en Colombia debió concluir antes del 27/09 como indica COLT."
+    },
+    {
+      "colt_TripID": "2556-CHL-PRY-44466",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2021-09-27",
+      "valor_propuesto": "2021-09-27",
+      "fuente": "Cooperativa.cl (28/09/2021) - 'Piñera llegó a Paraguay, último país de su gira regional'",
+      "justificacion": "Confirmado que Piñera llegó a Asunción la noche del lunes 27/09/2021 (procedente de Uruguay), con agenda oficial de un día completo el martes 28/09. El viaje comenzó el 27/09, no el 28/09 como indica nuestra base."
+    },
+    {
+      "colt_TripID": "2134-CHL-JPN-43153",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2018-02-22",
+      "valor_propuesto": "2018-02-23",
+      "fuente": "SinEmbargo MX (referencia general a la visita de Bachelet a Japón, feb 2018, sin fecha exacta de llegada)",
+      "justificacion": "Se confirmó que Bachelet visitó Japón y se reunió con el Príncipe Naruhito y el PM Abe en febrero de 2018 (una de sus últimas giras como Presidenta), pero no se halló fuente que precise si la llegada fue el 22 o 23 de febrero."
+    }
+  ],
+  "colt_unico_resueltos": [
+    {
+      "colt_TripID": "2134-CHL-AGO-41862",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Luanda"
+      },
+      "fuente": "Cooperativa.cl (11/08/2014) - 'Presidenta Bachelet arribó a Angola en la última escala de la gira por África'",
+      "justificacion": "Confirmado: gira africana de Bachelet (Sudáfrica-Mozambique-Angola) del 8 al 12/08/2014, con Angola/Luanda como última escala."
+    },
+    {
+      "colt_TripID": "2134-CHL-ARG-41771",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Buenos Aires"
+      },
+      "fuente": "Casa Rosada / YouTube oficial (12/05/2014) - Cristina Fernández recibió a Bachelet",
+      "justificacion": "Confirmado: fue el primer viaje internacional de Bachelet como Presidenta (2° mandato), a Buenos Aires, el 12/05/2014."
+    },
+    {
+      "colt_TripID": "2134-CHL-ARG-42936",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Mendoza"
+      },
+      "fuente": "Diario de Cuyo (20/07/2017) - 'Tabaré, Bachelet y Temer llegan hoy a Mendoza'",
+      "justificacion": "Confirmado: Cumbre de Mercosur en Mendoza, Argentina, 20-21/07/2017, con asistencia de Bachelet."
+    },
+    {
+      "colt_TripID": "2556-CHL-ARG-43544",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Buenos Aires"
+      },
+      "fuente": "Ambito.com - 'Macri y Piñera acordaron avanzar en una integración energética entre Argentina y Chile' (declaración conjunta marzo 2019)",
+      "justificacion": "Se confirma un encuentro Piñera-Macri en marzo de 2019 con declaración conjunta sobre integración energética, consistente con la fecha de COLT (20/03/2019), aunque no se verificó la ciudad exacta con precisión."
+    },
+    {
+      "colt_TripID": "2556-CHL-ARG-43663",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se encontró cobertura que confirme un viaje de Piñera a Argentina el 17/07/2019 en las búsquedas realizadas."
+    },
+    {
+      "colt_TripID": "2556-CHL-ARG-43738",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se encontró cobertura que confirme un viaje de Piñera a Argentina el 30/09/2019 en las búsquedas realizadas."
+    },
+    {
+      "colt_TripID": "2134-CHL-BRB-42940",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Bridgetown"
+      },
+      "fuente": "Contexto de gira Centroamérica-Caribe de Bachelet, julio 2017 (Honduras 22-23/07, Barbados 24/07, Santa Lucía 25-26/07)",
+      "justificacion": "Se infiere como parte de una gira regional continua por Centroamérica y el Caribe (ver también Honduras y Santa Lucía en fechas consecutivas); no se halló nota de prensa específica sobre la escala en Barbados."
+    },
+    {
+      "colt_TripID": "2556-CHL-BEL-43385",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Bruselas"
+      },
+      "fuente": "Prensa chilena (gira europea de Piñera oct 2018: Francia, España, Alemania, Bélgica, Vaticano)",
+      "justificacion": "Confirmado como parte de la gira europea continua de Piñera del 6 al 13/10/2018 (Francia, España, Alemania, Bélgica, Santa Sede), corroborada por múltiples notas de prensa sobre los tramos individuales."
+    },
+    {
+      "colt_TripID": "2134-CHL-BRA-41835",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Fortaleza"
+      },
+      "fuente": "Cumbre de los BRICS, Fortaleza, Brasil, 15-16/07/2014",
+      "justificacion": "Bachelet asistió como invitada a la Cumbre de los BRICS en Fortaleza (15-16/07/2014), evento ampliamente documentado que incluyó a líderes de Sudamérica."
+    },
+    {
+      "colt_TripID": "2134-CHL-BRA-43018",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se encontró cobertura que confirme un viaje de Bachelet a Brasil el 10-11/10/2017."
+    },
+    {
+      "colt_TripID": "2134-CHL-CAN-42891",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se encontró cobertura que confirme un viaje de Bachelet a Canadá el 5-6/06/2017."
+    },
+    {
+      "colt_TripID": "2134-CHL-CHN-41951",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Beijing"
+      },
+      "fuente": "Cumbre de Líderes de APEC, Beijing, 10-11/11/2014 (reuniones desde el 5/11)",
+      "justificacion": "Bachelet asistió a la Cumbre de Líderes de APEC 2014 en Beijing; el rango de fechas de COLT (8-12/11) es consistente con las reuniones previas y la cumbre de líderes."
+    },
+    {
+      "colt_TripID": "2134-CHL-COL-42638",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Cartagena"
+      },
+      "fuente": "Firma del Acuerdo de Paz Colombia-FARC, Cartagena, 26/09/2016",
+      "justificacion": "Bachelet asistió a la ceremonia de firma del histórico acuerdo de paz entre el Gobierno de Colombia y las FARC en Cartagena el 26/09/2016, evento con amplia asistencia de jefes de Estado."
+    },
+    {
+      "colt_TripID": "2556-CHL-COL-43319",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Bogotá"
+      },
+      "fuente": "Asunción presidencial de Iván Duque, Bogotá, 7/08/2018",
+      "justificacion": "Piñera asistió a la investidura de Iván Duque como Presidente de Colombia el 7/08/2018, evento con presencia de jefes de Estado de la región."
+    },
+    {
+      "colt_TripID": "2134-CHL-CRI-42398",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se confirma una visita de Bachelet a Costa Rica el 29/01/2016; la Cumbre CELAC de esa fecha se realizó en Quito (Ecuador), no en Costa Rica. Podría tratarse de una visita bilateral no indexada o un error de país/fecha en COLT."
+    },
+    {
+      "colt_TripID": "2556-CHL-CRI-43289",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "San José"
+      },
+      "fuente": "Chile en el Exterior; cobertura de prensa (visita de trabajo, reunión con Carlos Alvarado, 9/07/2018)",
+      "justificacion": "Confirmado: Piñera realizó una visita de trabajo a Costa Rica, reuniéndose con el Presidente Carlos Alvarado el 9/07/2018, como parte de una gira regional que incluyó también Panamá."
+    },
+    {
+      "colt_TripID": "2134-CHL-CUB-42543",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Búsquedas múltiples no arrojaron evidencia de una visita en junio de 2016",
+      "justificacion": "La visita de Bachelet a Cuba ampliamente documentada por la prensa ocurrió en enero de 2018 (reunión con Raúl Castro), no en junio de 2016. No se descarta un error de fecha en COLT, pero no se pudo confirmar ni refutar con certeza un viaje independiente en 2016."
+    },
+    {
+      "colt_TripID": "2134-CHL-ECU-42660",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Quito"
+      },
+      "fuente": "cancilleria.gob.ec - 'Michelle Bachelet visita Ecuador' / '11 instrumentos institucionales se firmaron en la visita oficial de Bachelet a Ecuador'",
+      "justificacion": "Se confirma una visita de Estado de Bachelet a Ecuador con firma de 11 instrumentos institucionales; consistente con una visita extendida de varios días como la registrada por COLT (17-20/10/2016)."
+    },
+    {
+      "colt_TripID": "2134-CHL-ECU-42879",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Quito"
+      },
+      "fuente": "Asunción presidencial de Lenín Moreno, Quito, 24/05/2017",
+      "justificacion": "Bachelet asistió a la investidura de Lenín Moreno como Presidente de Ecuador el 24/05/2017."
+    },
+    {
+      "colt_TripID": "2134-CHL-ECU-43037",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se encontró cobertura que confirme un viaje adicional de Bachelet a Ecuador el 29-30/10/2017."
+    },
+    {
+      "colt_TripID": "2134-CHL-SLV-42227",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "San Salvador"
+      },
+      "fuente": "Cooperativa.cl (11/08/2015) - 'Presidenta Bachelet llegó a El Salvador para realizar visita oficial'",
+      "justificacion": "Confirmado: visita oficial de Bachelet a El Salvador el 11-12/08/2015, con reunión con el Presidente Sánchez Cerén, como parte de una gira que incluyó también México."
+    },
+    {
+      "colt_TripID": "2134-CHL-FRA-42522",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se encontró cobertura que confirme un viaje de Bachelet a Francia el 1-2/06/2016."
+    },
+    {
+      "colt_TripID": "2556-CHL-FRA-43379",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "París"
+      },
+      "fuente": "Prensa chilena (gira europea de Piñera oct 2018)",
+      "justificacion": "Confirmado como parte de la gira europea continua de Piñera del 6 al 13/10/2018 (Francia, España, Alemania, Bélgica, Santa Sede)."
+    },
+    {
+      "colt_TripID": "2556-CHL-DEU-43383",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Berlín"
+      },
+      "fuente": "Prensa chilena (gira europea de Piñera oct 2018)",
+      "justificacion": "Confirmado como parte de la gira europea continua de Piñera del 6 al 13/10/2018."
+    },
+    {
+      "colt_TripID": "2134-CHL-GUY-42555",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Georgetown"
+      },
+      "fuente": "CARICOM.org - 'Thirty-Seventh Regular Meeting of the Conference of Heads of Government of CARICOM', Georgetown, 4-6/07/2016",
+      "justificacion": "Bachelet asistió como invitada a la 37° Reunión de Jefes de Gobierno de la CARICOM en Georgetown, Guyana."
+    },
+    {
+      "colt_TripID": "2134-CHL-HTI-42822",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Puerto Príncipe / Cap-Haïtien"
+      },
+      "fuente": "El Mostrador, La Tercera, Emol (27/03/2017) - 'Bachelet viaja a Haití, Ginebra y Portugal'",
+      "justificacion": "Confirmado: Bachelet visitó Haití el 27-28/03/2017 para despedir a las tropas chilenas de MINUSTAH, como inicio de una gira que continuó a Ginebra y Portugal."
+    },
+    {
+      "colt_TripID": "2134-CHL-VAT-42160",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ciudad del Vaticano"
+      },
+      "fuente": "Periodista Digital, La Nación (5/06/2015) - audiencia privada con el Papa Francisco",
+      "justificacion": "Confirmado: Bachelet se reunió con el Papa Francisco en el Vaticano el 5/06/2015, dentro de su gira por Italia."
+    },
+    {
+      "colt_TripID": "2556-CHL-VAT-43386",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ciudad del Vaticano"
+      },
+      "fuente": "Prensa chilena (gira europea de Piñera oct 2018)",
+      "justificacion": "Confirmado como parte de la gira europea de Piñera, con audiencia papal el 13/10/2018 como cierre de la gira."
+    },
+    {
+      "colt_TripID": "2134-CHL-HND-42938",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "Chile en el Exterior - 'Visita de la Presidenta Michelle Bachelet a Honduras'",
+      "justificacion": "Se confirma la existencia de una visita oficial de Bachelet a Honduras, consistente con las fechas de COLT (22-23/07/2017), como parte de una gira regional que continuó a Barbados y Santa Lucía."
+    },
+    {
+      "colt_TripID": "2556-CHL-ISR-43640",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Jerusalén / Tel Aviv"
+      },
+      "fuente": "Emol, Cooperativa.cl (24-26/06/2019) - visita oficial de Piñera a Israel, reuniones con Rivlin y Netanyahu",
+      "justificacion": "Confirmado: Piñera visitó Israel del 24 al 27/06/2019, con reuniones oficiales y firma de acuerdos bilaterales."
+    },
+    {
+      "colt_TripID": "2134-CHL-ITA-42160",
+      "veredicto": "Descartado",
+      "campos_completados": {},
+      "fuente": "Ver discrepancia 2134-CHL-ITA-42159 y gira europea confirmada por Cooperativa.cl/Diario Financiero (Italia 4-6/06, Vaticano 5/06, Francia 7-9/06, Bélgica 10-11/06/2015)",
+      "justificacion": "Esta fila de COLT (Italia, 5-8/06/2015) se solapa y contradice el itinerario confirmado por prensa, que ubica a Bachelet en Francia del 7 al 9/06/2015. Parece ser un registro duplicado/erróneo de la misma visita a Italia ya capturada en la discrepancia 2134-CHL-ITA-42159 (4-5/06/2015), con fecha de término incorrecta."
+    },
+    {
+      "colt_TripID": "2556-CHL-JAM-43287",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Kingston"
+      },
+      "fuente": "Contexto de gira Centroamérica-Caribe de Piñera, julio 2018 (Jamaica 6-8/07, Panamá y Costa Rica 9/07)",
+      "justificacion": "Se infiere como parte de una gira regional continua que incluyó Jamaica, Panamá y Costa Rica en julio de 2018; fuentes confirman que Jamaica formó parte de los viajes internacionales de Piñera en su segundo mandato."
+    },
+    {
+      "colt_TripID": "2134-CHL-MEX-42228",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ciudad de México"
+      },
+      "fuente": "Cooperativa.cl (25/07/2015) - 'Michelle Bachelet visitará México y El Salvador en agosto'",
+      "justificacion": "Confirmado: gira de Bachelet a México (12-14/08/2015) y El Salvador (11-12/08/2015), anunciada previamente por la prensa chilena."
+    },
+    {
+      "colt_TripID": "2556-CHL-MEX-43304",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se encontró cobertura que confirme un viaje de Piñera a México el 23-24/07/2018."
+    },
+    {
+      "colt_TripID": "2134-CHL-MOZ-41861",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Maputo"
+      },
+      "fuente": "Gira africana de Bachelet (Sudáfrica-Mozambique-Angola), agosto 2014",
+      "justificacion": "Confirmado como parte de la gira africana de Bachelet del 8 al 12/08/2014, con Mozambique como segunda escala tras Sudáfrica."
+    },
+    {
+      "colt_TripID": "2556-CHL-NZL-43422",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Wellington / Auckland"
+      },
+      "fuente": "beehive.govt.nz - 'Prime Minister welcomes state visit by Chilean President Sebastián Piñera'",
+      "justificacion": "Confirmado: primera visita de Estado de un Presidente chileno a Nueva Zelanda, 19/11/2018, con agenda en Auckland y Wellington."
+    },
+    {
+      "colt_TripID": "2556-CHL-PSE-43643",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ramala"
+      },
+      "fuente": "La Tercera, Emol (27/06/2019) - Piñera se reúne con Mahmud Abás en Ramala",
+      "justificacion": "Confirmado: como continuación de su visita a Israel, Piñera viajó a Ramala (Cisjordania) el 27/06/2019 para reunirse con el Presidente de la Autoridad Nacional Palestina."
+    },
+    {
+      "colt_TripID": "2134-CHL-PAN-42547",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ciudad de Panamá / Cocolí"
+      },
+      "fuente": "Inauguración de la ampliación del Canal de Panamá, 26/06/2016",
+      "justificacion": "Bachelet asistió a la ceremonia de inauguración de la ampliación del Canal de Panamá el 26/06/2016, evento con amplia asistencia de jefes de Estado."
+    },
+    {
+      "colt_TripID": "2556-CHL-PAN-43290",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ciudad de Panamá"
+      },
+      "fuente": "La Prensa Panamá (9/07/2018) - Piñera inicia gira oficial en Panamá, reunión con Juan Carlos Varela",
+      "justificacion": "Confirmado: Piñera visitó Panamá el 9-10/07/2018, reuniéndose con el Presidente Varela, como parte de su gira centroamericana."
+    },
+    {
+      "colt_TripID": "2556-CHL-PRY-43705",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se encontró cobertura que confirme un viaje de Piñera a Paraguay el 28/08/2019."
+    },
+    {
+      "colt_TripID": "2556-CHL-PER-43651",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se encontró cobertura que confirme un viaje de Piñera a Perú el 5-6/07/2019."
+    },
+    {
+      "colt_TripID": "2556-CHL-PER-43687",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se encontró cobertura que confirme un viaje de Piñera a Perú el 10-11/08/2019."
+    },
+    {
+      "colt_TripID": "2556-CHL-PER-43748",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se encontró cobertura que confirme un viaje de Piñera a Perú el 10/10/2019."
+    },
+    {
+      "colt_TripID": "2556-CHL-PER-44404",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Lima / Ayacucho"
+      },
+      "fuente": "Gestión.pe, La República (26-29/07/2021) - Piñera asiste a la asunción de Pedro Castillo",
+      "justificacion": "Confirmado con alta certeza: Piñera llegó a Lima el 27/07/2021, asistió a la ceremonia oficial de investidura de Pedro Castillo el 28/07/2021 en el Congreso, y a la ceremonia simbólica en Ayacucho el 29/07/2021. Coincide exactamente con las fechas de COLT (27-29/07/2021)."
+    },
+    {
+      "colt_TripID": "2134-CHL-PRT-42824",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Lisboa"
+      },
+      "fuente": "El Mostrador (27/03/2017) - 'Bachelet viaja a Haití, Ginebra y Portugal'",
+      "justificacion": "Confirmado como etapa final de la gira de marzo de 2017 (Haití 27-28/03, Ginebra 29-30/03, Portugal 30-31/03)."
+    },
+    {
+      "colt_TripID": "2134-CHL-LCA-42941",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Castries"
+      },
+      "fuente": "Contexto de gira Caribe de Bachelet, julio 2017 (Honduras, Barbados, Santa Lucía)",
+      "justificacion": "Se infiere como parte de una gira regional continua por Centroamérica y el Caribe en julio de 2017; no se halló nota de prensa específica sobre la escala en Santa Lucía."
+    },
+    {
+      "colt_TripID": "2134-CHL-ZAF-41859",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Pretoria / Ciudad del Cabo"
+      },
+      "fuente": "Emol (10/08/2014) - 'Bachelet finaliza visita a Sudáfrica con discurso sobre igualdad de género'; CNN Chile",
+      "justificacion": "Confirmado: Bachelet inició su gira africana en Sudáfrica el 8/08/2014 (Pretoria, Johannesburgo, Ciudad del Cabo), antes de continuar a Mozambique y Angola."
+    },
+    {
+      "colt_TripID": "2134-CHL-ESP-41941",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se encontró cobertura que confirme un viaje de Bachelet a España el 29-30/10/2014."
+    },
+    {
+      "colt_TripID": "2556-CHL-ESP-43381",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Madrid"
+      },
+      "fuente": "Prensa chilena (gira europea de Piñera oct 2018)",
+      "justificacion": "Confirmado como parte de la gira europea continua de Piñera del 6 al 13/10/2018."
+    },
+    {
+      "colt_TripID": "2134-CHL-SWE-42500",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica que confirme fecha exacta",
+      "justificacion": "No se pudo confirmar con fuente directa un viaje de Bachelet a Suecia el 10-12/05/2016, aunque es cronológicamente coherente con la visita a Reino Unido registrada inmediatamente después (12-13/05/2016)."
+    },
+    {
+      "colt_TripID": "2134-CHL-CHE-42823",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ginebra"
+      },
+      "fuente": "El Mostrador (27/03/2017) - 'Bachelet viaja a Haití, Ginebra y Portugal'",
+      "justificacion": "Confirmado como parte de la gira de marzo de 2017 (Haití, Ginebra, Portugal), posiblemente vinculada al Consejo de Derechos Humanos de la ONU en Ginebra."
+    },
+    {
+      "colt_TripID": "2134-CHL-GBR-42502",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica que confirme fecha exacta",
+      "justificacion": "No se pudo confirmar con fuente directa un viaje de Bachelet a Reino Unido el 12-13/05/2016, aunque es cronológicamente coherente con la supuesta visita a Suecia inmediatamente anterior."
+    },
+    {
+      "colt_TripID": "2134-CHL-USA-41820",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Washington D.C."
+      },
+      "fuente": "obamawhitehouse.archives.gov (30/06/2014) - 'President Obama Meets with Chilean President Michelle Bachelet Jeria'",
+      "justificacion": "Confirmado: reunión bilateral Bachelet-Obama en la Casa Blanca el 30/06/2014."
+    },
+    {
+      "colt_TripID": "2134-CHL-USA-42023",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Nueva York"
+      },
+      "fuente": "NODAL (enero 2015) - 'Bachelet preside en Nueva York reunión del Consejo de Seguridad de la ONU'",
+      "justificacion": "Confirmado: Bachelet presidió una sesión del Consejo de Seguridad de la ONU en Nueva York, como parte de la presidencia rotativa no permanente de Chile en el Consejo, en enero de 2015."
+    },
+    {
+      "colt_TripID": "2134-CHL-USA-42460",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Washington D.C."
+      },
+      "fuente": "Nuclear Security Summit, Washington D.C., 31/03-1/04/2016",
+      "justificacion": "Bachelet asistió a la Cumbre de Seguridad Nuclear en Washington D.C. (31/03-1/04/2016), evento con amplia asistencia de jefes de Estado."
+    },
+    {
+      "colt_TripID": "2556-CHL-USA-43291",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Washington D.C."
+      },
+      "fuente": "Contexto de gira de Piñera tras Centroamérica, julio 2018 (Panamá y Costa Rica 9/07, EE.UU. 10-11/07)",
+      "justificacion": "Se infiere como continuación de la gira de Piñera de julio de 2018 (Panamá, Costa Rica, EE.UU.); no se halló nota de prensa específica sobre la reunión en Washington."
+    },
+    {
+      "colt_TripID": "2134-CHL-URY-41894",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "No se halló evidencia de prensa específica",
+      "justificacion": "No se encontró cobertura que confirme un viaje de Bachelet a Uruguay el 12/09/2014."
+    }
+  ],
+  "nuestro_unico_check": []
+}

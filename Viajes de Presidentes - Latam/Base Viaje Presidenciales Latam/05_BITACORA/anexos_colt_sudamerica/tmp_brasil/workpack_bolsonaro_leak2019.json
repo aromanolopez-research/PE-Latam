@@ -1,0 +1,245 @@
+{
+ "discrepancias": [
+  {
+   "colt_TripID": "3531-BRA-CHE-43487",
+   "our_Trip_ID": "205",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Switzerland",
+   "our_Start_Date": "2019-01-22",
+   "our_End_Date": "2019-01-23",
+   "colt_Start": "2019-01-22",
+   "colt_End": "2019-01-25",
+   "discrepancias": "TripEndDate: nuestro=2019-01-23 COLT=2019-01-25 (dif 2d)",
+   "colt_links": [
+    "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/japanese-prime-minister-shinzo-abe-and-brazilian-photo-dactualit%C3%A9/1124622038",
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/jair-bolsonaro-brazils-president-pauses-as-he-photo-dactualit%C3%A9/1086354270",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=4ed1b357-7957-4bba-aa32-3a4387cb63fd&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5V80-SF01-JCMP-543B-00000-00&pddocid=urn%3AcontentItem%3A5V80-SF01-JCMP-543B-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr68&pditab=allpods&ecomp=3fyk&earg=sr68&prid=f5306695-ec1c-499c-867a-7d947401bb13"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-43542",
+   "our_Trip_ID": "206",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2019-03-18",
+   "our_End_Date": "2019-03-19",
+   "colt_Start": "2019-03-18",
+   "colt_End": "2019-03-20",
+   "discrepancias": "TripEndDate: nuestro=2019-03-19 COLT=2019-03-20 (dif 1d)",
+   "colt_links": [
+    "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/president-donald-trump-and-brazilian-president-jair-photo-dactualit%C3%A9/1136874706",
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/jair-bolsonaro-brazils-president-speaks-during-a-photo-dactualit%C3%A9/1131459629"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-CHL-43546",
+   "our_Trip_ID": "207",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Chile",
+   "our_Start_Date": "2019-03-22",
+   "our_End_Date": "2019-03-23",
+   "colt_Start": "2019-03-22",
+   "colt_End": "2019-03-24",
+   "discrepancias": "TripEndDate: nuestro=2019-03-23 COLT=2019-03-24 (dif 1d)",
+   "colt_links": [
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/president-of-brazil-jair-bolsonaro-speaks-after-a-photo-dactualit%C3%A9/1137791699",
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/president-of-brazil-jair-bolsonaro-president-of-peru-photo-dactualit%C3%A9/1137605335"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-ISR-43554",
+   "our_Trip_ID": "208",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Israel",
+   "our_Start_Date": "2019-03-31",
+   "our_End_Date": "2019-04-02",
+   "colt_Start": "2019-03-30",
+   "colt_End": "2019-03-31",
+   "discrepancias": "TripStartDate: nuestro=2019-03-31 COLT=2019-03-30 (dif 1d) | TripEndDate: nuestro=2019-04-02 COLT=2019-03-31 (dif 2d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=48f2fda4-68a0-4a5e-ace2-5dade59de5c5&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5VS8-D001-JCMP-5077-00000-00&pddocid=urn%3AcontentItem%3A5VS8-D001-JCMP-5077-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=1fyk&earg=sr0&prid=29ad16ae-1102-4b4c-915d-8c9ba39cef50",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=78d9c3eb-7504-4d86-a2bd-1148c366a3bb&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5VSF-4X91-JCMN-Y181-00000-00&pddocid=urn%3AcontentItem%3A5VSF-4X91-JCMN-Y181-00000-00&pdcontentcomponentid=299488&pdteaserkey=sr7&pditab=allpods&ecomp=1fyk&earg=sr7&prid=29ad16ae-1102-4b4c-915d-8c9ba39cef50"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-ARG-43622",
+   "our_Trip_ID": "209",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2019-06-06",
+   "our_End_Date": "2019-06-06",
+   "colt_Start": "2019-06-06",
+   "colt_End": "2019-06-07",
+   "discrepancias": "TripEndDate: nuestro=2019-06-06 COLT=2019-06-07 (dif 1d)",
+   "colt_links": [
+    "https://wwwgettyimagescom/detail/news-photo/president-of-argentina-mauricio-macri-and-president-of-news-photo/1148468130?adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=aa8d62f5-8da6-460a-9e4b-32928e679cc1&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5W8W-RV81-F03R-W528-00000-00&pddocid=urn%3AcontentItem%3A5W8W-RV81-F03R-W528-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr1&pditab=allpods&ecomp=1fyk&earg=sr1&prid=3a9b5bd9-2552-49b3-89c4-d978f2cc34f6",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=6408e651-ce17-4991-a576-67fe28daee48&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5W8S-GN31-F03R-W3BY-00000-00&pddocid=urn%3AcontentItem%3A5W8S-GN31-F03R-W3BY-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr6&pditab=allpods&ecomp=1fyk&earg=sr6&prid=3a9b5bd9-2552-49b3-89c4-d978f2cc34f6"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-JPN-43643",
+   "our_Trip_ID": "210",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Japan",
+   "our_Start_Date": "2019-06-28",
+   "our_End_Date": "2019-06-29",
+   "colt_Start": "2019-06-27",
+   "colt_End": "2019-06-30",
+   "discrepancias": "TripStartDate: nuestro=2019-06-28 COLT=2019-06-27 (dif 1d) | TripEndDate: nuestro=2019-06-29 COLT=2019-06-30 (dif 1d)",
+   "colt_links": [
+    "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-and-japanese-prime-news-photo/1159135139?adppopup=true",
+    "https://www.gettyimages.com/detail/news-photo/brazils-president-jair-bolsonaro-meets-with-us-president-news-photo/1152461137?adppopup=true",
+    "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-shakes-hands-with-south-news-photo/1152459937?adppopup=true",
+    "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-shakes-hands-with-news-photo/1152459936?adppopup=true",
+    "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-shakes-hands-with-indias-news-photo/1152459928?adppopup=true",
+    "https://wwwgettyimagescom/detail/news-photo/brazilian-president-jair-bolsonaro-shakes-hands-with-indias-news-photo/1152459926?adppopup=true",
+    "https://twitter.com/jairbolsonaro/status/1145040149660753921",
+    "https://twitter.com/jairbolsonaro/status/1144943709466890240"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-USA-43731",
+   "our_Trip_ID": "212",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2019-09-24",
+   "our_End_Date": "2019-09-24",
+   "colt_Start": "2019-09-23",
+   "colt_End": "2019-09-25",
+   "discrepancias": "TripStartDate: nuestro=2019-09-24 COLT=2019-09-23 (dif 1d) | TripEndDate: nuestro=2019-09-24 COLT=2019-09-25 (dif 1d)",
+   "colt_links": [
+    "https://twitter.com/jairbolsonaro/status/1176263904223272961",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/3f9cd853-197a-4f34-aa43-389e5141d0da/?context=1516831"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-JPN-43759",
+   "our_Trip_ID": "213",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Japan",
+   "our_Start_Date": "2019-10-22",
+   "our_End_Date": "2019-10-23",
+   "colt_Start": "2019-10-21",
+   "colt_End": "2019-10-23",
+   "discrepancias": "TripStartDate: nuestro=2019-10-22 COLT=2019-10-21 (dif 1d)",
+   "colt_links": [
+    "https://wwwgovbr/planalto/pt-br/acompanhe-o-planalto/noticias/2019/10/estamos-reconquistando-a-confianca-do-mundo-diz-o-presidente-da-republica-ao-chegar-a-toquio",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/58c5ccc8-701a-423f-bd47-7f097674d90c/?context=1516831",
+    "https://www.gettyimages.com/detail/news-photo/brazils-president-jair-bolsonaro-arrives-at-the-imperial-news-photo/1182657767?adppopup=true",
+    "https://twitter.com/jairbolsonaro/status/1187177796159840257",
+    "https://wwwgettyimagescom/detail/news-photo/japanese-prime-minister-shinzo-abe-and-brazilian-president-news-photo/1177832398?adppopup=true"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-QAT-43766",
+   "our_Trip_ID": "216",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Qatar",
+   "our_Start_Date": "2019-10-28",
+   "our_End_Date": "2019-10-28",
+   "colt_Start": "2019-10-28",
+   "colt_End": "2019-10-29",
+   "discrepancias": "TripEndDate: nuestro=2019-10-28 COLT=2019-10-29 (dif 1d)",
+   "colt_links": [
+    "https://wwwgovbr/planalto/pt-br/acompanhe-o-planalto/noticias/2019/10/estamos-reconquistando-a-confianca-do-mundo-diz-o-presidente-da-republica-ao-chegar-a-toquio",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=2fd6b468-8760-4473-bacc-b5872d4670a0&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCN-6WS1-JDJN-62YG-00000-00&pddocid=urn%3AcontentItem%3A5XCN-6WS1-JDJN-62YG-00000-00&pdcontentcomponentid=399277&pdteaserkey=sr2&pditab=allpods&ecomp=wp79k&earg=sr2&prid=6380f318-a4a7-4f30-b512-2ca8ff7fb36a",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=d126fd91-a4af-4d96-aeb2-e2c2ad830ad4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCM-R491-F04Y-T2R4-00000-00&pddocid=urn%3AcontentItem%3A5XCM-R491-F04Y-T2R4-00000-00&pdcontentcomponentid=300954&pdteaserkey=sr5&pditab=allpods&ecomp=wp79k&earg=sr5&prid=271e9749-6e96-4eba-917a-ece27c256d48"
+   ]
+  },
+  {
+   "colt_TripID": "3531-BRA-SAU-43767",
+   "our_Trip_ID": "217",
+   "President": "Jair Bolsonaro",
+   "Destination_Country": "Saudi Arabia",
+   "our_Start_Date": "2019-10-29",
+   "our_End_Date": "2019-10-30",
+   "colt_Start": "2019-10-29",
+   "colt_End": "2019-10-29",
+   "discrepancias": "TripEndDate: nuestro=2019-10-30 COLT=2019-10-29 (dif 1d)",
+   "colt_links": [
+    "https://wwwgovbr/planalto/pt-br/acompanhe-o-planalto/noticias/2019/10/estamos-reconquistando-a-confianca-do-mundo-diz-o-presidente-da-republica-ao-chegar-a-toquio",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=b6b629fa-f786-43f1-87b1-814fd3d2b481&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCK-X471-JDJN-60C9-00000-00&pddocid=urn%3AcontentItem%3A5XCK-X471-JDJN-60C9-00000-00&pdcontentcomponentid=343613&pdteaserkey=sr0&pditab=allpods&ecomp=wp79k&earg=sr0&prid=646d9f68-e083-4ade-8010-bf5bb9bd3d53",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=bb514f69-9f3a-4af5-88a5-0b5a0ac40f23&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCN-J781-JCW7-N3X0-00000-00&pddocid=urn%3AcontentItem%3A5XCN-J781-JCW7-N3X0-00000-00&pdcontentcomponentid=318666&pdteaserkey=sr1&pditab=allpods&ecomp=wp79k&earg=sr1&prid=271e9749-6e96-4eba-917a-ece27c256d48",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=d126fd91-a4af-4d96-aeb2-e2c2ad830ad4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCM-R491-F04Y-T2R4-00000-00&pddocid=urn%3AcontentItem%3A5XCM-R491-F04Y-T2R4-00000-00&pdcontentcomponentid=300954&pdteaserkey=sr5&pditab=allpods&ecomp=wp79k&earg=sr5&prid=271e9749-6e96-4eba-917a-ece27c256d48",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=aed6e15a-73e4-4e6a-a049-7b898d29087b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5XCM-GH31-JB0G-F1V9-00000-00&pddocid=urn%3AcontentItem%3A5XCM-GH31-JB0G-F1V9-00000-00&pdcontentcomponentid=144245&pdteaserkey=sr23&pditab=allpods&ecomp=wp79k&earg=sr23&prid=96c831d4-b070-42c3-a06c-91e9c087acde"
+   ]
+  }
+ ],
+ "colt_unico": [
+  {
+   "TripID": "3531-BRA-ISR-43556",
+   "LeaderFullName": "Jair Bolsonaro",
+   "CountryVisited": "Israel",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-04-01T00:00:00",
+   "TripEndDate": "2019-04-03T00:00:00",
+   "Notes": "visited Western Wall",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c47c0877-06fc-4899-a2e7-fbc0ad646791&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5VSP-KNW1-F03R-N1TW-00000-00&pddocid=urn%3AcontentItem%3A5VSP-KNW1-F03R-N1TW-00000-00&pdcontentcomponentid=299488&pdteaserkey=sr2&pditab=allpods&ecomp=1fyk&earg=sr2&prid=54b15a36-9cf5-414b-95dc-64f5ff87a1ad"
+   ]
+  },
+  {
+   "TripID": "3531-BRA-KAZ-43643",
+   "LeaderFullName": "Jair Bolsonaro",
+   "CountryVisited": "Kazakhstan",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-06-27T00:00:00",
+   "TripEndDate": "2019-06-27T00:00:00",
+   "Notes": "stop-over en route to G20 in Japan",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://twitter.com/jairbolsonaro/status/1143994602912985088",
+    "https://twitter.com/jairbolsonaro/status/1144422960171835395",
+    "https://twitter.com/jairbolsonaro/status/1144426483634581504"
+   ]
+  },
+  {
+   "TripID": "3531-BRA-PRT-43642",
+   "LeaderFullName": "Jair Bolsonaro",
+   "CountryVisited": "Portugal",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-06-26T00:00:00",
+   "TripEndDate": "2019-06-26T00:00:00",
+   "Notes": "stop-over en route to G20 in Japan",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://twitter.com/jairbolsonaro/status/1143849581756780545"
+   ]
+  },
+  {
+   "TripID": "3531-BRA-ARE-43771",
+   "LeaderFullName": "Jair Bolsonaro",
+   "CountryVisited": "United Arab Emirates",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-11-02T00:00:00",
+   "TripEndDate": "2019-11-02T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e06ffc4b-2fdb-44eb-8407-38f8b9a6378c/?context=1516831"
+   ]
+  },
+  {
+   "TripID": "3531-BRA-USA-43593",
+   "LeaderFullName": "Jair Bolsonaro",
+   "CountryVisited": "United States",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-05-08T00:00:00",
+   "TripEndDate": "2019-05-09T00:00:00",
+   "Notes": "accepting award in Dallas;meets with former President George W. Bush",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8e7e223e-2bc3-48de-8814-e794fd888c55&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5W3N-7Y01-DYRV-346C-00000-00&pddocid=urn%3AcontentItem%3A5W3N-7Y01-DYRV-346C-00000-00&pdcontentcomponentid=10962&pdteaserkey=sr6&pditab=allpods&ecomp=bfyk&earg=sr6&prid=59a19ac6-3fba-4323-afa8-e316d6078e0b",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=16d68bc2-adaa-473a-9862-86323e0409a9&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5W47-2YD1-JDVB-H0H2-00000-00&pddocid=urn%3AcontentItem%3A5W47-2YD1-JDVB-H0H2-00000-00&pdcontentcomponentid=427585&pdteaserkey=sr4&pditab=allpods&ecomp=bfyk&earg=sr4&prid=6dfd8cd1-6ca7-4784-a8e7-41f10a0898cb"
+   ]
+  }
+ ],
+ "nuestro_unico": []
+}

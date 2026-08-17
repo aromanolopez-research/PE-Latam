@@ -22,6 +22,18 @@ mandatos EN CURSO (re-verificación de los últimos 2-3 meses + alta de viajes
 nuevos) y queda registrada en la bitácora. Viajes "anunciados" posteriores al
 corte NO se cargan (solo cancelaciones formales con destino anunciado).
 
+EXCEPCIÓN DE INICIO — ARGENTINA/MENEM (agregada 2026-08-03): a pedido del
+usuario, tras comparar la base contra el dataset externo Diplometrics COLT
+(ver 05_BITACORA/comparacion_diplometrics_colt.txt), se extendió la ventana de
+Argentina hacia atrás para incorporar a Carlos Menem (1989-1999), usando COLT
+como fuente de leads desde 1994 (año en que arranca su cobertura para
+Argentina; 1989-1993 queda pendiente, no se investigó en esta ronda). Esta es
+una excepción puntual de país, no un cambio general de la regla 2000-01-01
+para el resto de la base. Metodología de uso de COLT: sus filas se tratan como
+LEADS a verificar, nunca como fuente única automática — se sigue la misma
+regla anti-alucinación del punto 5.1 (fuente real verificada o "Search Query"
++ confiabilidad Low si no se halla URL propia).
+
 Pregunta analítica central: ¿cómo cambia en el tiempo el peso de cada región
 en la agenda internacional de cada país? (p. ej., ¿Argentina viaja cada vez más
 a Sudamérica, a Norteamérica, a Europa, etc.?)
@@ -57,7 +69,7 @@ Esto permite dos niveles de análisis sin doble conteo:
   - "Viajes realizados" (salidas)   = contar Journey_ID distintos.
 
 --------------------------------------------------------------------------------
-4. DICCIONARIO DE VARIABLES (22 columnas, en este orden)
+4. DICCIONARIO DE VARIABLES (31 columnas, en este orden)
 --------------------------------------------------------------------------------
 01. Journey_ID         Texto. Identificador del VIAJE FÍSICO (una salida del país).
                        Agrupa las filas de una misma gira. Convención:
@@ -109,6 +121,27 @@ Esto permite dos niveles de análisis sin doble conteo:
                        Regla: toda fila con Source_Verification http => Verificada-URL.
                        El objetivo del proyecto es llevar todas las filas Solo-Query a
                        Verificada-URL o, en su defecto, a No-verificable documentado.
+23. MetHostHOGS        {TRUE, FALSE, NA}. Reunión bilateral con el Jefe de Estado/
+                       Gobierno del país anfitrión. Tomada del esquema Diplometrics
+                       COLT (decisión 2026-08-03). Ver sección 5.9.
+24. MetNonHostHOGS     {TRUE, FALSE, NA}. Reunión con Jefe/s de Estado/Gobierno de un
+                       TERCER país (no el anfitrión, ej. al margen de una cumbre).
+25. NonHostHOGS_Name   Texto. Nombre(s) de los mandatarios de terceros países
+                       reunidos. "NA" obligatorio si MetNonHostHOGS != TRUE.
+26. PublicAddress      {TRUE, FALSE, NA}. Discurso público, alocución, entrevista no
+                       periodística, panel, videoconferencia pública, etc.
+27. SignedAgreement    {TRUE, FALSE, NA}. Firmó o presenció la firma de un acuerdo,
+                       tratado, memorándum o declaración conjunta.
+28. CulturalSiteOrCeremony {TRUE, FALSE, NA}. Visita a sitio cultural/religioso/
+                       histórico o participación en ceremonia (incluye actos
+                       militares, inauguraciones de embajadas, homenajes).
+29. BusinessLeaderOrForum {TRUE, FALSE, NA}. Reunión, foro o seminario con líderes
+                       del sector privado/empresarial.
+30. MetIGOLeader       {TRUE, FALSE, NA}. Reunión bilateral con el líder de un
+                       organismo internacional (Secretario General ONU, Directora
+                       Gerente FMI, Presidente Banco Mundial, etc.).
+31. IGOLeader_Name     Texto. Nombre y cargo del líder de organismo internacional
+                       reunido. "NA" obligatorio si MetIGOLeader != TRUE.
 
 Valor faltante: SIEMPRE "NA" (en cualquier columna). Sin celdas vacías.
 ADVERTENCIA DE ANÁLISIS: pandas/R leen el texto "NA" como valor nulo por defecto;
@@ -288,6 +321,58 @@ pandas con keep_default_na=False.
     revisada fila por fila para identificar las excepciones). validate.py exige
     Counterpart_Type no-NA en toda fila Bilateral y NA obligatorio fuera de
     Bilateral — sin clasificación silenciosa.
+
+5.9 COLUMNAS DE MICRO-CONDUCTA ESTILO COLT (agregadas 2026-08-03)
+    ORIGEN: el usuario comparó esta base contra el dataset externo Diplometrics
+    COLT (Country and Organization Leader Travel, Pardee Institute, U. Denver;
+    ver 05_BITACORA/comparacion_diplometrics_colt.txt) y pidió "combinar ambas
+    cosas": conservar nuestra taxonomía propia (Visit_Category/Visit_Subtype/
+    Tema_Foro/Counterpart_Type, que clasifican QUÉ TIPO de visita fue) y sumarle
+    las variables de micro-conducta de COLT (que registran QUÉ HIZO el mandatario
+    durante la visita: si se reunió con el anfitrión, si dio un discurso, si
+    firmó algo, etc.). Las 8 columnas nuevas (23-30, más 2 campos de nombre)
+    replican la definición EXACTA del "Diplometrics COLT Codebook v2.6" (marzo
+    2026) para que nuestros datos sean directamente comparables/combinables con
+    los de COLT en estas dimensiones.
+
+    LAS 8 VARIABLES Y SU DEFINICIÓN ORIGINAL (traducida del codebook COLT):
+      - MetHostHOGS: reunión bilateral con el jefe de Estado/Gobierno del país
+        anfitrión. Distinto de Counterpart_Event/Counterpart_Type: estos últimos
+        identifican a la contraparte EN FILAS BILATERALES; MetHostHOGS también
+        aplica a filas Multilateral (¿hubo, además de la cumbre, un bilateral
+        con el anfitrión?) y permite detectar el caso inverso en Bilateral: un
+        viaje Counterpart_Type=Premio/Distinción donde el mandatario NO se
+        reunió con el jefe de Estado del país (ej. el caso Milei-Vox en España).
+      - MetNonHostHOGS + NonHostHOGS_Name: reunión con jefe/s de Estado/Gobierno
+        de un tercer país, típicamente al margen de una cumbre. Complementa a
+        Sideline_Bilaterals (que solo indica SI hubo bilaterales al margen, sin
+        decir con quién).
+      - PublicAddress: discurso, alocución, entrevista no periodística, panel.
+      - SignedAgreement: firma o presencia en la firma de un acuerdo formal —
+        variable proxy de la "productividad" diplomática de una visita.
+      - CulturalSiteOrCeremony: sitio cultural/religioso/histórico o ceremonia
+        (incluye actos militares, inauguraciones de embajadas, homenajes).
+      - BusinessLeaderOrForum: reunión/foro con el sector privado.
+      - MetIGOLeader + IGOLeader_Name: reunión bilateral con el líder de un
+        organismo internacional (ONU, FMI, Banco Mundial, etc.), distinto de
+        asistir a un foro DE ese organismo (que ya se captura vía Visit_Subtype/
+        Tema_Foro).
+
+    DOMINIO Y REGLA DE NA: TRUE|FALSE|NA en las 6 booleanas. A diferencia de
+    Counterpart_Type/Tema_Foro (donde NA está reservado a "no aplica"), acá NA
+    significa "no investigado todavía" — es un rollout incremental. Se completa
+    con datos propios de COLT cuando la fila tiene un viaje equivalente
+    identificado en su dataset (ver PENDIENTES_VERIFICACION, sección Argentina/
+    COLT), y con investigación propia en el resto de los casos donde se decida
+    avanzar. Los campos de nombre (NonHostHOGS_Name, IGOLeader_Name) deben ser
+    "NA" obligatorio si el booleano asociado no es TRUE.
+
+    ALCANCE INICIAL: Argentina (agregada junto con la extensión de la base a
+    Carlos Menem, 1994-1999, y la revisión de brechas 2000-2025 usando COLT como
+    fuente de leads). El resto de los países (Brasil, Chile, Paraguay, Uruguay,
+    Bolivia) recibieron las 3 columnas nuevas con NA en toda fila existente;
+    quedan pendientes de una ronda futura si el usuario decide extender esta
+    combinación de esquemas al resto de la base.
 
 --------------------------------------------------------------------------------
 6. FLUJO DE TRABAJO POR MANDATARIO (ciclo estándar)

@@ -1,0 +1,737 @@
+{
+ "discrepancias_resueltas": [
+  {
+   "colt_TripID": "1516-CHL-CAN-37000",
+   "veredicto": "COLT_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2001-04-19",
+   "valor_propuesto": "2001-04-19",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2001' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Canadá, Québec. Cumbre de las Américas, abril, 19 al 22\"",
+   "justificacion": "El propio programa oficial de la Presidencia de Chile (empastado de giras 2001) registra el tramo Canadá/Québec como 19 al 22 de abril de 2001, inmediatamente después de un tramo de trabajo en Francia/París (abril 17-19). COLT coincide con esta fuente primaria; nuestra base (20 abril) usó la fecha pública de apertura de la Cumbre de las Américas en vez de la fecha real de llegada de Lagos."
+  },
+  {
+   "colt_TripID": "1516-CHL-ESP-37046",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2001-06-04",
+   "valor_propuesto": "2001-06-03",
+   "fuente": "arle.udp.cl: unidad documental 'Visita de Estado de S.E. el Presidente...al Reino de España. 03 al 06 de junio 2001' (PR-GPR-PROG-265572, programa oficial fechado 2001-06-03/2001-06-06); confirmado también por Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2001' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"España, Madrid. Visita de Estado, junio 3 al 6\"; y nota de prensa archivada fechada 2001-06-02 'previo a la llegada del Presidente Lagos a España'",
+   "justificacion": "Dos fuentes primarias independientes del archivo oficial (el programa de la visita y el empastado anual de giras) confirman 3-6 junio 2001. Una nota de prensa del 2 de junio confirma que el Presidente aún no había llegado ese día."
+  },
+  {
+   "colt_TripID": "1516-CHL-PER-37100",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2001-07-28",
+   "valor_propuesto": "2001-07-27",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2001' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Perú, Lima. Transmisión del Mando y Visita Oficial, julio 27 al 31\"",
+   "justificacion": "El programa oficial de la Presidencia confirma que el viaje a Perú (asunción de Alejandro Toledo, 28 julio, más ceremonia de Machu Picchu 29 julio) comenzó el 27 de julio de 2001, un día antes de la ceremonia de investidura, coincidiendo con la fecha de nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-ESP-37392",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2002-05-18",
+   "valor_propuesto": "2002-05-17",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2002' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"España, Madrid. II Cumbre América Latina y el Caribe - Unión Europea, mayo 16 y 17\"",
+   "justificacion": "El programa oficial de la Presidencia de Chile confirma que la participación de Lagos en la II Cumbre ALC-UE en Madrid fue 16-17 de mayo de 2002 (no 16-18). Nuestra base ya había corregido este dato en una revisión metodológica previa; la fuente primaria lo confirma."
+  },
+  {
+   "colt_TripID": "1516-CHL-MEX-37555",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2002-10-28",
+   "valor_propuesto": "2002-10-27",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2002' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"México, Los Cabos. X Cumbre de Líderes APEC, octubre 26 y 27\"; corroborado independientemente por fuentes de prensa sobre APEC México 2002 (10ª Reunión de Líderes, 26-27 octubre 2002, Los Cabos)",
+   "justificacion": "El programa oficial y fuentes independientes sobre la Cumbre de Líderes APEC 2002 coinciden en que la reunión de líderes fue 26-27 de octubre, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-THA-37912",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2003-10-18",
+   "valor_propuesto": "2003-10-20",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2003' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Tailandia, Bangkok. XI Cumbre de Líderes de APEC, octubre 20 y 21\"; corroborado por fuentes independientes sobre APEC Tailandia 2003 (Cumbre de Líderes 20-21 octubre 2003, Bangkok)",
+   "justificacion": "El programa oficial y fuentes externas confirman que la Cumbre de Líderes APEC en Bangkok fue 20-21 de octubre de 2003 (la Reunión Ministerial previa, 17-18 octubre, fue a nivel de cancilleres, no de jefes de Estado). Nuestra base coincide."
+  },
+  {
+   "colt_TripID": "1516-CHL-MEX-37997",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2004-01-11",
+   "valor_propuesto": "2004-01-12",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"México, Monterrey. Cumbre Extraordinaria de las Américas, enero 12 y 13\"; corroborado por fuentes independientes (Cumbre Extraordinaria de las Américas, Monterrey, 12-13 enero 2004)",
+   "justificacion": "El programa oficial y fuentes externas coinciden en que la Cumbre Extraordinaria de las Américas fue 12-13 de enero de 2004. Nuestra base coincide exactamente."
+  },
+  {
+   "colt_TripID": "1516-CHL-URY-38411",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2005-02-28",
+   "valor_propuesto": "2005-03-01",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Uruguay, Montevideo. Transmisión del Mando Presidencial, marzo 01\"",
+   "justificacion": "El programa oficial de la Presidencia registra el viaje a Montevideo como un solo día, 1 de marzo de 2005 (fecha de la asunción de Tabaré Vázquez), coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-ESP-38637",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2005-10-12",
+   "valor_propuesto": "2005-10-14",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"España, Salamanca. Cumbre Iberoamericana, octubre 14 y 15\" y Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"España, Madrid. Visita de Trabajo, octubre 12 y 13\"; corroborado por fuentes externas (XV Cumbre Iberoamericana, Salamanca, 14-15 octubre 2005)",
+   "justificacion": "El itinerario oficial documenta DOS tramos consecutivos en España: visita de trabajo a Madrid (12-13 oct) y luego la Cumbre Iberoamericana en Salamanca (14-15 oct). COLT aparentemente fusionó ambos tramos en un solo registro (rango 12-15 oct), lo que coincide EXACTAMENTE con la suma de nuestros dos tramos (nuestro Trip 293 + Trip 26), confirmando que ambas fechas de nuestra base son correctas de forma individual."
+  },
+  {
+   "colt_TripID": "1516-CHL-KOR-38674",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2005-11-20",
+   "valor_propuesto": "2005-11-19",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Corea, Busán. Cumbre de Líderes de APEC, noviembre 18 y 19\"; corroborado por fuentes externas (APEC Corea del Sur 2005, Cumbre de Líderes 18-19 noviembre 2005, Busán)",
+   "justificacion": "El programa oficial y fuentes externas coinciden en que la Cumbre de Líderes APEC en Busan fue 18-19 de noviembre de 2005. Nuestra base coincide."
+  },
+  {
+   "colt_TripID": "1516-CHL-PRT-37144",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2001-09-10",
+   "valor_propuesto": "2001-09-09",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2001' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Portugal, Lisboa. Visita de Estado, septiembre 9 al 11\"",
+   "justificacion": "El programa oficial confirma que la visita de Estado a Portugal comenzó el 9 de septiembre de 2001, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-DEU-36678",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2000-06-01",
+   "valor_propuesto": "2000-06-02",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2000' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Alemania, Berlín. Cumbre de líderes Progresistas, junio 2 y 3\"",
+   "justificacion": "El programa oficial confirma que la Cumbre de Líderes Progresistas en Berlín fue 2-3 de junio de 2000, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-NZL-36842",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2000-11-13",
+   "valor_propuesto": "2000-11-12",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2000' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Nueva Zelandia. Visita Oficial, noviembre 12\"",
+   "justificacion": "El programa oficial confirma visita de un solo día a Nueva Zelanda el 12 de noviembre de 2000, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-IDN-36842",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate;TripEndDate",
+   "valor_colt_original": "2000-11-12;2000-11-14",
+   "valor_propuesto": "2000-11-13;2000-11-13",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2000' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Indonesia, Yakarta. Visita Oficial, noviembre 13\"",
+   "justificacion": "El programa oficial confirma visita de un solo día a Indonesia (Yakarta) el 13 de noviembre de 2000, coincidiendo exactamente con nuestra base. Nota: COLT usa 'Indonesia' igual que nosotros (no hay problema de nomenclatura aquí)."
+  },
+  {
+   "colt_TripID": "1516-CHL-TLS-36844",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2000-11-15",
+   "valor_propuesto": "2000-11-14",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2000' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Timor Oriental. Visita de Trabajo, noviembre 14\"",
+   "justificacion": "El programa oficial confirma visita de un solo día a Timor Oriental el 14 de noviembre de 2000, coincidiendo con nuestra base. Nota: COLT usa 'Timor Leste'; nuestra base usa 'Timor Oriental/East Timor' - mismo país, distinta nomenclatura, no representa una brecha real de país."
+  },
+  {
+   "colt_TripID": "1516-CHL-MEX-36858",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate;TripEndDate",
+   "valor_colt_original": "2000-11-28;2000-12-04",
+   "valor_propuesto": "2000-11-30;2000-12-05",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2000' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"México, Ciudad de México. Transmisión del Mando Presidencial, Visita de Estado, noviembre 30 al 5 de diciembre\"; corroborado independientemente por búsqueda web sobre la asunción de Vicente Fox",
+   "justificacion": "El programa oficial confirma exactamente el rango 30 de noviembre al 5 de diciembre de 2000 para la asunción de Vicente Fox y visita de Estado, coincidiendo con nuestra base en ambos extremos."
+  },
+  {
+   "colt_TripID": "1516-CHL-DOM-37003",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2001-04-24",
+   "valor_propuesto": "2001-04-23",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2001' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"República Dominicana, Santo Domingo. Visita Oficial, abril 22 al 23\"",
+   "justificacion": "El programa oficial confirma que la visita a República Dominicana terminó el 23 de abril de 2001, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-CHN-37185",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate;TripEndDate",
+   "valor_colt_original": "2001-10-21;2001-10-24",
+   "valor_propuesto": "2001-10-19;2001-10-21",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2001' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"China, Shangai. Cumbre de Líderes APEC, octubre 19 al 21\"",
+   "justificacion": "El programa oficial confirma el tramo de Shanghái (Cumbre APEC) como 19-21 octubre 2001, coincidiendo exactamente con nuestro Trip 212. COLT aparentemente fusionó este tramo con el siguiente (Beijing) en un solo registro con fechas 21-24, lo cual no representa con precisión ninguno de los dos tramos reales."
+  },
+  {
+   "colt_TripID": "1516-CHL-CHN-37185",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2001-10-21",
+   "valor_propuesto": "2001-10-22",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2001' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"China, Beijing. Visita de Estado, octubre 22 al 24\"",
+   "justificacion": "El programa oficial confirma el tramo de Beijing (visita de Estado) como 22-24 octubre 2001, coincidiendo exactamente con nuestro Trip 213. COLT fusionó Shanghái+Beijing en un solo registro (21-24), por lo que su fecha de inicio (21) corresponde en realidad al cierre de la Cumbre APEC de Shanghái, no al inicio de la visita a Beijing."
+  },
+  {
+   "colt_TripID": "1516-CHL-USA-37205",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2001-11-10",
+   "valor_propuesto": "2001-11-08",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2001' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Estados Unidos, Nueva York. Asamblea General de las Naciones Unidas, noviembre 8 al 11\"",
+   "justificacion": "El programa oficial confirma que el viaje a Nueva York para la 56ª Asamblea General de la ONU fue 8-11 de noviembre de 2001, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-ARG-37305",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2002-02-19",
+   "valor_propuesto": "2002-02-18",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2002' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Argentina, Buenos Aires. XXI cumbre de Jefes de Estado del MERCOSUR, Bolivia y Chile, febrero 18\"",
+   "justificacion": "El programa oficial confirma viaje de un solo día a Buenos Aires el 18 de febrero de 2002 para la XXI Cumbre del Mercosur, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-SWE-37308",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2002-02-22",
+   "valor_propuesto": "2002-02-23",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2002' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Suecia, Estocolmo. Visita de Trabajo, febrero 21 y 22; Suecia, Estocolmo. Cumbre de Líderes Progresistas, febrero 22 y 23\"",
+   "justificacion": "El programa oficial documenta el tramo sueco completo (visita de trabajo + Cumbre de Líderes Progresistas) como 21 al 23 de febrero de 2002, coincidiendo con el rango de nuestra base (21-23 feb)."
+  },
+  {
+   "colt_TripID": "1516-CHL-FIN-37312",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2002-02-25",
+   "valor_propuesto": "2002-02-24",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2002' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Finlandia, Helsinki. Visita Oficial, febrero, 24 al 26\"",
+   "justificacion": "El programa oficial confirma que la visita oficial a Finlandia comenzó el 24 de febrero de 2002, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-BOL-37382",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2002-05-07",
+   "valor_propuesto": "2002-05-06",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2002' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"nota archivística: 'No contiene el programa de viaje del Presidente a Bolivia el 6 de mayo, con motivo del fallecimiento del Presidente Hugo Banzer'\"",
+   "justificacion": "El propio archivo de la Presidencia, en sus notas catalográficas, confirma que el viaje a Bolivia por el funeral de Hugo Banzer fue el 6 de mayo de 2002 (día siguiente a su fallecimiento, 5 de mayo), coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-VAT-37392",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate;TripEndDate",
+   "valor_colt_original": "2002-05-16;2002-05-17",
+   "valor_propuesto": "2002-05-15;2002-05-16",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2002' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Ciudad del Vaticano, Santa Sede. Visita Oficial, mayo 15 al 16\"",
+   "justificacion": "El programa oficial confirma la visita al Vaticano como 15-16 de mayo de 2002, coincidiendo exactamente con nuestra base. Es además internamente consistente: la Cumbre ALC-UE en Madrid comenzó el 16 de mayo (ver ítem ESP-37392), por lo que la fecha de término del Vaticano propuesta por COLT (17 de mayo) es incompatible con su propia fecha de inicio para España (16 de mayo)."
+  },
+  {
+   "colt_TripID": "1516-CHL-ECU-37462",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate;TripEndDate",
+   "valor_colt_original": "2002-07-25;2002-07-30",
+   "valor_propuesto": "2002-07-26;2002-07-27",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2002' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Ecuador, Guayaquil. II Reunión de Presidente de América del Sur, julio 26 y 27\"",
+   "justificacion": "El programa oficial confirma el tramo de Guayaquil (II Reunión de Presidentes de Sudamérica) como 26-27 julio 2002, coincidiendo exactamente con nuestro Trip 224. COLT fusionó Guayaquil+Quito en un solo registro (25-30 julio), por lo que su fecha de inicio (25) no corresponde a ningún tramo real documentado."
+  },
+  {
+   "colt_TripID": "1516-CHL-ECU-37462",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2002-07-25",
+   "valor_propuesto": "2002-07-28",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2002' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Ecuador, Quito. Visita de Estado, julio 28 al 30\"",
+   "justificacion": "El programa oficial confirma el tramo de Quito (visita de Estado) como 28-30 julio 2002, coincidiendo exactamente con nuestro Trip 225."
+  },
+  {
+   "colt_TripID": "1516-CHL-HUN-37536",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate;TripEndDate",
+   "valor_colt_original": "2002-10-07;2002-10-09",
+   "valor_propuesto": "2002-10-06;2002-10-07",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2002' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Hungría, Budapest. Visita Oficial, octubre 6 y 7\"",
+   "justificacion": "El programa oficial confirma la visita a Hungría como 6-7 de octubre de 2002, coincidiendo exactamente con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-POL-37538",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate;TripEndDate",
+   "valor_colt_original": "2002-10-09;2002-10-10",
+   "valor_propuesto": "2002-10-08;2002-10-09",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2002' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Polonia, Varsovia. Visita de Estado, octubre 8 y 9\"",
+   "justificacion": "El programa oficial confirma la visita a Polonia como 8-9 de octubre de 2002, coincidiendo exactamente con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-ECU-37636",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2003-01-16",
+   "valor_propuesto": "2003-01-15",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2003' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Ecuador, Quito. Transmisión del Mando Presidencial, enero 15\"; corroborado por fuentes externas (asunción de Lucio Gutiérrez, 15 enero 2003)",
+   "justificacion": "El programa oficial y fuentes externas coinciden: la asunción de Lucio Gutiérrez fue el 15 de enero de 2003, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-JAM-37804",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2003-07-02",
+   "valor_propuesto": "2003-07-01",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2003' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Jamaica, Montego Bay. Cumbre del Caricom, julio 1 al 3\"",
+   "justificacion": "El programa oficial confirma que el viaje a Jamaica comenzó el 1 de julio de 2003 (un día antes de la apertura pública de la 24ª Cumbre de CARICOM, 2-5 julio), coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-IRL-37812",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2003-07-12",
+   "valor_propuesto": "2003-07-11",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2003' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Irlanda, Dublín. Visita de Estado, julio 10 y 11\"",
+   "justificacion": "El programa oficial confirma la visita de Estado a Irlanda como 10-11 de julio de 2003, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-GBR-37811",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2003-07-09",
+   "valor_propuesto": "2003-07-12",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2003' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Reino Unido, Londres. Visita de Trabajo y cumbre de Líderes Progresistas, julio 12 al 14\"",
+   "justificacion": "El programa oficial confirma que el tramo de Londres comenzó el 12 de julio de 2003 (inmediatamente después de Dublín, que terminó el 11), coincidiendo con nuestra base. La fecha de COLT (9 de julio) es además incompatible con su propia fecha de término para Irlanda (12 de julio) en el ítem IRL-37812."
+  },
+  {
+   "colt_TripID": "1516-CHL-BRA-37851",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2003-08-18",
+   "valor_propuesto": "2003-08-19",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2003' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Brasil, Brasilia. Visita de Trabajo, agosto 19\"",
+   "justificacion": "El programa oficial confirma visita de trabajo de un solo día a Brasilia el 19 de agosto de 2003, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-ARG-37860",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2003-08-30",
+   "valor_propuesto": "2003-08-29",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2003' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Argentina, Buenos Aires. Visita de Estado, agosto 27 al 29\"",
+   "justificacion": "El programa oficial confirma la visita de Estado a Argentina como 27-29 de agosto de 2003, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-USA-37996",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate;TripEndDate",
+   "valor_colt_original": "2004-01-10;2004-01-11",
+   "valor_propuesto": "2004-01-09;2004-01-09",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Estados Unidos, San Diego. Visita de Trabajo, enero 9\"",
+   "justificacion": "El programa oficial confirma visita de trabajo de un solo día a San Diego el 9 de enero de 2004 (reunión bilateral con George W. Bush previa a la Cumbre de Monterrey), coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-FRA-38013",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2004-01-27",
+   "valor_propuesto": "2004-01-28",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Francia, París. Visita Oficial, enero 28\"",
+   "justificacion": "El programa oficial confirma visita oficial de un solo día a París el 28 de enero de 2004, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-CHE-38016",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2004-01-31",
+   "valor_propuesto": "2004-01-30",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Suiza, Ginebra. Participación reunión, ONU, enero 30\"",
+   "justificacion": "El programa oficial confirma participación de un solo día en Ginebra el 30 de enero de 2004, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-ESP-38131",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2004-05-24",
+   "valor_propuesto": "2004-05-25",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"España, Madrid. Visita de Trabajo, mayo 25 al 27\"",
+   "justificacion": "El programa oficial confirma la visita de trabajo a Madrid como 25-27 de mayo de 2004, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-GTM-38136",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2004-05-29",
+   "valor_propuesto": "2004-05-30",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Guatemala, Ciudad de Guatemala. Visita Oficial, mayo 30 y 31\"",
+   "justificacion": "El programa oficial confirma la visita oficial a Guatemala como 30-31 de mayo de 2004, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-SLV-38138",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2004-05-31",
+   "valor_propuesto": "2004-06-01",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"El Salvador, San Salvador. Transmisión del Mando Presidencial, junio 1\"",
+   "justificacion": "El programa oficial confirma visita de un solo día a San Salvador el 1 de junio de 2004 (asunción de Antonio Saca), coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-USA-38186",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate;TripEndDate",
+   "valor_colt_original": "2004-07-18;2004-07-19",
+   "valor_propuesto": "2004-07-19;2004-07-20",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Estados Unidos, Nueva York. Visita de Trabajo, julio 19 y 20\"",
+   "justificacion": "El programa oficial confirma la visita de trabajo a Nueva York como 19-20 de julio de 2004, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-HTI-38188",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2004-07-22",
+   "valor_propuesto": "2004-07-21",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Haití, Puerto Príncipe - Cabo Haitiano. Visita de Trabajo, julio 20 y 21\"",
+   "justificacion": "El programa oficial confirma la visita a Haití como 20-21 de julio de 2004, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-USA-38249",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2004-09-19",
+   "valor_propuesto": "2004-09-20",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Estados Unidos, Nueva York. Participación en la Asamblea General de ONU, septiembre 20 al 22\"",
+   "justificacion": "El programa oficial confirma que la participación en la 59ª AGNU en Nueva York fue 20-22 de septiembre de 2004, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-ROU-38270",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2004-10-10",
+   "valor_propuesto": "2004-10-11",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Rumania, Bucarest. Visita de Estado, octubre 11\"",
+   "justificacion": "El programa oficial confirma visita de Estado de un solo día a Rumania el 11 de octubre de 2004, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-TUR-38271",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate;TripEndDate",
+   "valor_colt_original": "2004-10-11;2004-10-14",
+   "valor_propuesto": "2004-10-12;2004-10-13",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Turquía, Ankara - Estambul. Visita de Estado, octubre 12 y 13\"",
+   "justificacion": "El programa oficial confirma la visita de Estado a Turquía (Ankara e Estambul, incluida conferencia en Universidad de Bilkent) como 12-13 de octubre de 2004, coincidiendo exactamente con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-BRA-38294",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2004-11-03",
+   "valor_propuesto": "2004-11-04",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Brasil, Río de Janeiro. Cumbre del Grupo de Río, noviembre 4 y 5\"; corroborado por fuentes externas (XVIII Cumbre del Grupo de Río, Río de Janeiro, 4-5 noviembre 2004)",
+   "justificacion": "El programa oficial y fuentes externas coinciden en que la Cumbre del Grupo de Río fue 4-5 de noviembre de 2004, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-PER-38328",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2004-12-07",
+   "valor_propuesto": "2004-12-09",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2004' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Perú, Cusco. Cumbre Sudamericana, diciembre 9\"",
+   "justificacion": "Aunque la III Cumbre Sudamericana (Cusco/Ayacucho) se extendió del 7 al 9 de diciembre de 2004 como evento multilateral, el programa oficial de viaje del Presidente Lagos documenta su participación específica como un viaje de un solo día, el 9 de diciembre (día de la firma de la Declaración del Cusco), coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-EGY-38367",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2005-01-15",
+   "valor_propuesto": "2005-01-16",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Egipto, El Cairo. Visita de Estado, enero 16 al 18\"",
+   "justificacion": "El programa oficial confirma la visita de Estado a Egipto como 16-18 de enero de 2005, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-IND-38370",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2005-01-18",
+   "valor_propuesto": "2005-01-19",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"India, Bangalore, Nueva Dehli, Mumbay. Visitas de Estado y Trabajo, enero 19 al 22\"",
+   "justificacion": "El programa oficial confirma las visitas en India como 19-22 de enero de 2005, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-DEU-38374",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2005-01-22",
+   "valor_propuesto": "2005-01-23",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Alemania, Berlín, Leipzig, Frankfurt. Visitas de Estado y Trabajo, enero 23 al 25\"",
+   "justificacion": "El programa oficial confirma las visitas en Alemania como 23-25 de enero de 2005, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-GUY-38401",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2005-02-20",
+   "valor_propuesto": "2005-02-19",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Guyana, Georgetown. Participación Caricom, Visita de Estado, febrero 18 y 19\"",
+   "justificacion": "El programa oficial confirma la participación en Guyana (Caricom + visita de Estado) como 18-19 de febrero de 2005, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-BRB-38403",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2005-02-21",
+   "valor_propuesto": "2005-02-20",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Barbados. Visita de Trabajo, febrero 20\"",
+   "justificacion": "El programa oficial confirma visita de trabajo de un solo día a Barbados el 20 de febrero de 2005, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-TTO-38404",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2005-02-21",
+   "valor_propuesto": "2005-02-22",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Trinidad y Tobago. Visita de Estado, febrero 22\"",
+   "justificacion": "El programa oficial confirma visita de Estado de un solo día a Trinidad y Tobago el 22 de febrero de 2005, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-VEN-38461",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2005-04-19",
+   "valor_propuesto": "2005-04-20",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Venezuela, Caracas. Visita Oficial, abril 20 y 21\"",
+   "justificacion": "El programa oficial confirma la visita oficial a Venezuela como 20-21 de abril de 2005, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-SWE-38516",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2005-06-13",
+   "valor_propuesto": "2005-06-12",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Suecia, Estocolmo. Visita Oficial, junio 12 al 14\"",
+   "justificacion": "El programa oficial confirma la visita oficial a Suecia como 12-14 de junio de 2005, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-PRY-38522",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2005-06-19",
+   "valor_propuesto": "2005-06-20",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Paraguay, Asunción. XXVIII Cumbre de Jefes de Estado del MERCOSUR, Bolivia y Chile, junio 20\"",
+   "justificacion": "El programa oficial confirma viaje de un solo día a Asunción el 20 de junio de 2005, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-PAN-38531",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2005-06-30",
+   "valor_propuesto": "2005-06-29",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Panamá, Ciudad de Panamá. Visita Oficial, junio 28 y 29\"",
+   "justificacion": "El programa oficial confirma la visita oficial a Panamá como 28-29 de junio de 2005, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-USA-38609",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2005-09-16",
+   "valor_propuesto": "2005-09-17",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Estados Unidos, Nueva York. Participación LX Período de sesiones AGNU y Clinton Global Initiative, septiembre 14 al 17\"",
+   "justificacion": "El programa oficial confirma la participación en la 60ª AGNU y Clinton Global Initiative como 14-17 de septiembre de 2005, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-GBR-38636",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripEndDate",
+   "valor_colt_original": "2005-10-12",
+   "valor_propuesto": "2005-10-11",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"Reino Unido, Londres. Visita de Trabajo, octubre 11\"",
+   "justificacion": "El programa oficial confirma visita de trabajo de un solo día a Londres el 11 de octubre de 2005, coincidiendo con nuestra base."
+  },
+  {
+   "colt_TripID": "1516-CHL-ESP-38637",
+   "veredicto": "Nuestro_correcto",
+   "campo": "TripStartDate",
+   "valor_colt_original": "2005-10-12",
+   "valor_propuesto": "2005-10-12",
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl) - empastado 'Giras Internacionales del Presidente Ricardo Lagos, año 2005' (programa oficial de Presidencia/Ceremonial y Protocolo, PR-GPR-PROG-PROGVI), que lista fecha y ciudad exacta de cada gira: \"España, Madrid. Visita de Trabajo, octubre 12 y 13\"",
+   "justificacion": "El programa oficial confirma el tramo de Madrid (visita de trabajo previa a la Cumbre Iberoamericana) como 12-13 de octubre de 2005, coincidiendo exactamente con nuestra base. Este dato ya coincidía en la fecha COLT para el inicio, pero se incluye para dejar constancia de la fuente primaria que respalda ambos tramos españoles (ver también trip 26)."
+  }
+ ],
+ "colt_unico_resueltos": [
+  {
+   "colt_TripID": "1516-CHL-CHL-37685",
+   "veredicto": "Descartado",
+   "campos_completados": {
+    "CityVisited": "Base General Bernardo O'Higgins, Territorio Antártico Chileno"
+   },
+   "fuente": "Ejercito.cl y prensa: Lagos inauguró nuevas instalaciones de la Base Antártica 'General Bernardo O'Higgins' en 2003 e visitó bases antárticas chilenas.",
+   "justificacion": "El evento en si parece haber ocurrido (Lagos visitó la Base O'Higgins en la Antártica), pero se trata de un desplazamiento a territorio reclamado por Chile (Territorio Antártico Chileno), no a un país extranjero. No corresponde agregarlo como viaje internacional en nuestra base, que registra visitas a otros países. Se marca Descartado a efectos de la base de viajes presidenciales (no constituye una brecha real de cobertura internacional), aunque el hecho histórico es real."
+  },
+  {
+   "colt_TripID": "1516-CHL-COL-37097",
+   "veredicto": "Dudoso_no_verificable",
+   "campos_completados": {},
+   "fuente": "Archivo Ricardo Lagos Escobar (arle.udp.cl), empastado 'Giras Internacionales...Año 2001' (listado exhaustivo de 16 giras del año, con nota de que solo falta una gira a EE.UU. oct 17-24); ningún viaje a Colombia en julio 2001 está documentado",
+   "justificacion": "El listado oficial y exhaustivo de giras de 2001 no incluye ningún viaje a Colombia; el tramo más cercano es Perú (27-31 julio, asunción de Toledo). No se encontró evidencia de prensa independiente que confirme un viaje a Colombia el 25-26 de julio de 2001. Es posible que sea una confusión de COLT con otro evento, pero no se puede descartar del todo dado que el propio archivo reconoce tener al menos una gira faltante ese año. Confianza de COLT para este ítem es baja (3/5)."
+  },
+  {
+   "colt_TripID": "1516-CHL-COL-37596",
+   "veredicto": "Descartado",
+   "campos_completados": {},
+   "fuente": "Archivo Ricardo Lagos Escobar, empastado 'Giras Internacionales...Año 2002' (listado exhaustivo de 19 giras, sin omisiones registradas); El Universo (Ecuador), 9-dic-2003, y otras notas de prensa muestran que el patrón de interacción Chile-Colombia en esas fechas fue Álvaro Uribe VISITANDO Santiago (9 de diciembre), no Lagos viajando a Colombia",
+   "justificacion": "El listado oficial y exhaustivo de giras de 2002 no incluye ningún viaje a Colombia. La evidencia de prensa disponible apunta a que el evento real en este período fue la visita de Álvaro Uribe a Santiago de Chile (con fecha cercana, 9 de diciembre), es decir, en sentido inverso al que registra COLT. Confianza de COLT para este ítem es muy baja (1/5), consistente con un probable error de dirección/atribución."
+  },
+  {
+   "colt_TripID": "1516-CHL-FRA-38111",
+   "veredicto": "Confirmado",
+   "campos_completados": {
+    "CityVisited": "Papeete (escala de tránsito, Polinesia Francesa)"
+   },
+   "fuente": "Emol.com, 25-abr-2004, 'Presidente Lagos inicia gira internacional' (Sudáfrica, Indonesia, Singapur y Nueva Zelanda); Archivo Ricardo Lagos Escobar, empastado 'Giras Internacionales...Año 2004', ítem 10: 'Nueva Zelandia, Wellington. Visita Oficial, mayo 2 al 4'",
+   "justificacion": "Según fuentes oficiales, Lagos estuvo en Nueva Zelanda hasta el 4 de mayo de 2004 y su próxima actividad documentada fue en Paraguay el 13 de mayo. Una escala técnica en Papeete (Polinesia Francesa) el 4-5 de mayo, en el vuelo de regreso Auckland/Nueva Zelanda-Santiago (ruta habitual con escala en Tahití), es plenamente compatible con este itinerario y explica por qué no figura como 'gira' propia en el empastado oficial (probablemente una escala protocolar/técnica, no una visita de Estado completa). Confianza de COLT es alta (4/5)."
+  },
+  {
+   "colt_TripID": "1516-CHL-SWE-37148",
+   "veredicto": "Dudoso_no_verificable",
+   "campos_completados": {},
+   "fuente": "Archivo Ricardo Lagos Escobar, empastado 'Giras Internacionales...Año 2001': tramo europeo de septiembre 2001 documentado como Portugal (9-11 sep), Reino Unido (11-12 sep) y Bélgica (12-13 sep) - sin mención de Suecia",
+   "justificacion": "El listado oficial de giras de septiembre de 2001 no incluye Suecia; además, la Presidenta del Parlamento Europeo (Nicole Fontaine) tenía sede en Estrasburgo/Bruselas, no en Suecia, lo que hace geográficamente inconsistente la referencia de COLT a 'Sweden'. Es posible que el encuentro con Fontaine haya ocurrido durante el tramo de Bruselas (12-13 sep) y que COLT haya registrado el país equivocado. Confianza de COLT es moderada (3/5), pero la evidencia apunta a un probable error de país."
+  },
+  {
+   "colt_TripID": "1516-CHL-URY-38047",
+   "veredicto": "Descartado",
+   "campos_completados": {},
+   "fuente": "Múltiples fuentes (La Nación, LR21, biografías de Tabaré Vázquez) confirman que la asunción de Tabaré Vázquez como Presidente de Uruguay fue el 1 de marzo de 2005, no 2004",
+   "justificacion": "Este registro de COLT tiene un error de año (2004 en vez de 2005) para el mismo evento ya capturado como discrepancia en 1516-CHL-URY-38411 / nuestro Trip 25 (asunción de Tabaré Vázquez, 1 marzo 2005). Es un duplicado mal fechado del mismo viaje, no un viaje adicional. Confianza de COLT es muy baja (1/5), consistente con el error."
+  },
+  {
+   "colt_TripID": "1516-CHL-VNM-37915",
+   "veredicto": "Confirmado",
+   "campos_completados": {
+    "CityVisited": "Hanoi"
+   },
+   "fuente": "Archivo Ricardo Lagos Escobar, empastado 'Giras Internacionales...Año 2003', nota archivística: 'Falta el programa de viaje a Vietnam, Hanoi de 21 al 23 de octubre 2003'; corroborado por fuente externa: primera visita de un jefe de Estado chileno a Vietnam, octubre 2003 (relaciones bilaterales Chile-Vietnam)",
+   "justificacion": "El propio archivo oficial de la Presidencia de Chile confirma en sus notas catalográficas que el programa de viaje a Vietnam (Hanoi, 21-23 octubre de 2003) existió pero falta físicamente en la colección; es decir, el archivo reconoce que el viaje ocurrió, solo que el documento no se conservó. Esto, sumado a fuentes externas que documentan esta como la primera visita de un presidente chileno a Vietnam, confirma que se trata de un viaje real que constituye una brecha genuina en nuestra base (inmediatamente después de la Cumbre APEC en Bangkok, 20-21 oct 2003)."
+  }
+ ],
+ "nuestro_unico_check": [
+  {
+   "our_Trip_ID": "1",
+   "fuente_ok": true,
+   "nota": "Link a arle.udp.cl resuelve; es la ficha específica del programa de la XVIII Cumbre Mercosur Buenos Aires (29-30 junio 2000), coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "7",
+   "fuente_ok": false,
+   "nota": "Source_Verification NO es una URL sino un texto de consulta de búsqueda ('Search Query: Lagos Francia Chirac junio 2001'); no hay link real que verificar/resolver. Recomendable reemplazar por una fuente concreta."
+  },
+  {
+   "our_Trip_ID": "12",
+   "fuente_ok": true,
+   "nota": "https://www.un.org/es/conf/ffd/2002/ resuelve (redirige a la versión sin barra final) sin error HTTP, aunque el contenido específico de la página no se pudo confirmar en el chequeo rápido."
+  },
+  {
+   "our_Trip_ID": "16",
+   "fuente_ok": true,
+   "nota": "https://segib.org/es/cumbre/xii-cumbre-iberoamericana/ resuelve correctamente y muestra contenido específico de la XII Cumbre Iberoamericana (Bávaro, Rep. Dominicana, 15-16 nov 2002), coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "24",
+   "fuente_ok": false,
+   "nota": "https://www.segib.org/?summit=xiv-cumbre-iberoamericana-san-jose-2004 ya no resuelve al contenido específico: redirige a la portada general de segib.org (estructura de URL con query param obsoleta). El sitio sigue activo pero el enlace específico está roto (link rot). Recomendable actualizar a la URL vigente de la XIV Cumbre (San José, Costa Rica, 19-20 nov 2004)."
+  },
+  {
+   "our_Trip_ID": "206",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2000' de arle.udp.cl resuelve; lista explícitamente 'Brasil, Brasilia. Visita de Estado, julio 12 al 14', coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "215",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2001' resuelve; lista 'Uruguay, Montevideo. Visita de Estado, noviembre 1 al 3', coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "220",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2002' resuelve; lista 'Costa Rica, San José. Cumbre del Grupo de Río, abril 11 y 12', coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "229",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2002' resuelve; lista 'Honduras, Tegucigalpa. Visita Oficial, noviembre 14', coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "236",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2003' resuelve; lista 'Argentina, Buenos Aires. Transmisión del Mando Presidencial, mayo 25' (asunción de Kirchner), coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "237",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2003' resuelve; lista dos tramos en Paraguay/Asunción (18 junio y 14-15 agosto), coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "245",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2003' resuelve; lista 'Uruguay, Montevideo. XXV Cumbre de Jefes de Estado del Mercosur, diciembre 15 y 16', coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "251",
+   "fuente_ok": true,
+   "nota": "Emol.com resuelve correctamente ('Presidente Lagos inicia gira internacional', 25-abr-2004); confirma tramo Sudáfrica (hasta el 27 de abril, asunción de Mbeki / 10º aniversario fin del apartheid)."
+  },
+  {
+   "our_Trip_ID": "258",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2004' resuelve; lista tramos en Argentina (Puerto Iguazú, Cumbre Mercosur 7-8 jul; Buenos Aires, visita de trabajo 31 agosto), coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "262",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2004' resuelve; ver nota de Trip 258 (mismo empastado cubre ambos tramos argentinos de 2004)."
+  },
+  {
+   "our_Trip_ID": "263",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2004' resuelve; lista 'Panamá, Ciudad de Panamá. Transmisión del Mando Presidencial, septiembre 1' (asunción de Martín Torrijos), coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "265",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2004' resuelve; lista 'México, Ciudad de México. Visita de Trabajo, septiembre 22', coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "283",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2005' resuelve; lista tramos en Estados Unidos (Duke University, 14-15 mayo; Council of the Americas NY, 6 octubre), coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "288",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2005' resuelve; lista 'Colombia, Bogotá. Visita de Trabajo, abril 21', corroborado además por Cooperativa.cl ('Lagos partió hacia Colombia para reunirse con Alvaro Uribe', 21-abr-2005)."
+  },
+  {
+   "our_Trip_ID": "290",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2005' resuelve; lista tramos en Brasil (Brasilia, Cumbre Países Árabes-Sudamericanos, 10-11 mayo; Cumbre Sudamericana, 29-30 septiembre), coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "291",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2005' resuelve; ver nota de Trip 283 (mismo empastado cubre los tramos estadounidenses de 2005)."
+  },
+  {
+   "our_Trip_ID": "294",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2005' resuelve; lista 'Ciudad del Vaticano, Santa Sede. Canonización del Padre Alberto Hurtado, octubre 21 al 23', coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "295",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2005' resuelve; lista 'Francia, Estrasburgo. Visita de Trabajo, octubre 24 y 25', coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "296",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2005' resuelve; lista 'España, Salamanca. Universidad de Salamanca, octubre 25', coincide con nuestros datos."
+  },
+  {
+   "our_Trip_ID": "299",
+   "fuente_ok": true,
+   "nota": "Empastado 'Giras 2005' resuelve; lista 'Uruguay, Montevideo. XXIX Cumbre de Jefes de Estado del MERCOSUR, diciembre 8 y 9', coincide con nuestros datos."
+  }
+ ]
+}

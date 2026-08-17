@@ -1,0 +1,487 @@
+{
+  "discrepancias": [
+    {
+      "colt_TripID": "1473-ARG-CHE-36553",
+      "our_Trip_ID": "84",
+      "President": "Fernando de la Rúa",
+      "Destination_Country": "Switzerland",
+      "our_Start_Date": "2000-01-27",
+      "our_End_Date": "2000-01-30",
+      "colt_Start": "2000-01-28",
+      "colt_End": "2000-02-02",
+      "discrepancias": "TripStartDate: nuestro=2000-01-27 COLT=2000-01-28 (dif 1d); TripEndDate: nuestro=2000-01-30 COLT=2000-02-02 (dif 3d)",
+      "colt_links": [
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=d636eabc-6314-44c0-988c-02363cbf664c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A3YF3-3SH0-00HS-S00K-00000-00&pdcontentcomponentid=168948&pdteaserkey=sr19&pditab=allpods&ecomp=kmnyk&earg=sr19&prid=5449ff5d-2282-4a7d-93a2-b946c7045750",
+        "https://www.proquest.com/docview/374395063?accountid=14608&parentSessionId=yJj37HlZOpu%2BKCwfVO1nJkTosVfVk%2BAwoUrlkuNSNZo%3D",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=2a6f62d4-f66e-4610-a979-95213e4bf123&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A3YFF-9MJ0-00GS-K14C-00000-00&pdcontentcomponentid=10903&pdteaserkey=sr24&pditab=allpods&ecomp=kmnyk&earg=sr24&prid=26964f59-1ce2-4b3d-b8b0-2db481c13745",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=a872c4b5-d502-42a5-9446-3f83627e67d9&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A3YG3-57H0-00RC-9370-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr33&pditab=allpods&ecomp=kmnyk&earg=sr33&prid=4aa149dc-db0c-43cc-8176-c2f486dac2c1",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5bd87a98-918b-4c56-b8dc-2c990439c47e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A3YFN-J6X0-00BT-M21W-00000-00&pdcontentcomponentid=138211&pdteaserkey=sr43&pditab=allpods&ecomp=kmnyk&earg=sr43&prid=387be5c0-d2e8-429b-b316-f06e0a25aacd"
+      ]
+    },
+    {
+      "colt_TripID": "1473-ARG-DEU-36681",
+      "our_Trip_ID": "85",
+      "President": "Fernando de la Rúa",
+      "Destination_Country": "Germany",
+      "our_Start_Date": "2000-06-02",
+      "our_End_Date": "2000-06-03",
+      "colt_Start": "2000-06-04",
+      "colt_End": "2000-06-05",
+      "discrepancias": "TripStartDate: nuestro=2000-06-02 COLT=2000-06-04 (dif 2d); TripEndDate: nuestro=2000-06-03 COLT=2000-06-05 (dif 2d)",
+      "colt_links": [
+        "http://www.gettyimages.com/license/542881801",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/348408253?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/421545830?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "1473-ARG-BRA-36770",
+      "our_Trip_ID": "88",
+      "President": "Fernando de la Rúa",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2000-08-31",
+      "our_End_Date": "2000-09-01",
+      "colt_Start": "2000-09-01",
+      "colt_End": "2000-09-02",
+      "discrepancias": "TripStartDate: nuestro=2000-08-31 COLT=2000-09-01 (dif 1d); TripEndDate: nuestro=2000-09-01 COLT=2000-09-02 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/374352735?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/388159042?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "1473-ARG-USA-36775",
+      "our_Trip_ID": "89",
+      "President": "Fernando de la Rúa",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2000-09-06",
+      "our_End_Date": "2000-09-08",
+      "colt_Start": "2000-09-06",
+      "colt_End": "2000-09-07",
+      "discrepancias": "TripEndDate: nuestro=2000-09-08 COLT=2000-09-07 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/391308939?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452224417?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/445968424?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "1473-ARG-CAN-37001",
+      "our_Trip_ID": "100",
+      "President": "Fernando de la Rúa",
+      "Destination_Country": "Canada",
+      "our_Start_Date": "2001-04-20",
+      "our_End_Date": "2001-04-22",
+      "colt_Start": "2001-04-20",
+      "colt_End": "2001-04-21",
+      "discrepancias": "TripEndDate: nuestro=2001-04-22 COLT=2001-04-21 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/356221029?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/352543177?accountid=14608",
+        "http://www.gettyimages.com/license/51982252",
+        "http://www.gettyimages.com/license/51422750",
+        "http://www.gettyimages.com/license/51422738"
+      ]
+    },
+    {
+      "colt_TripID": "1473-ARG-PRY-37064",
+      "our_Trip_ID": "101",
+      "President": "Fernando de la Rúa",
+      "Destination_Country": "Paraguay",
+      "our_Start_Date": "2001-06-21",
+      "our_End_Date": "2001-06-22",
+      "colt_Start": "2001-06-22",
+      "colt_End": "2001-06-22",
+      "discrepancias": "TripStartDate: nuestro=2001-06-21 COLT=2001-06-22 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453732551?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453730916?accountid=14608",
+        "http://www.gettyimages.com/license/51983099",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453733894?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "1473-ARG-USA-37205",
+      "our_Trip_ID": "105",
+      "President": "Fernando de la Rúa",
+      "Destination_Country": "United States",
+      "our_Start_Date": "2001-11-09",
+      "our_End_Date": "2001-11-11",
+      "colt_Start": "2001-11-10",
+      "colt_End": "2001-11-13",
+      "discrepancias": "TripStartDate: nuestro=2001-11-09 COLT=2001-11-10 (dif 1d); TripEndDate: nuestro=2001-11-11 COLT=2001-11-13 (dif 2d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/315724345?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/398975590?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/308468561?accountid=14608",
+        "http://www.gettyimages.com/license/51710667",
+        "http://www.gettyimages.com/license/680934"
+      ]
+    },
+    {
+      "colt_TripID": "1473-ARG-PER-37217",
+      "our_Trip_ID": "106",
+      "President": "Fernando de la Rúa",
+      "Destination_Country": "Peru",
+      "our_Start_Date": "2001-11-23",
+      "our_End_Date": "2001-11-24",
+      "colt_Start": "2001-11-22",
+      "colt_End": "2001-11-23",
+      "discrepancias": "TripStartDate: nuestro=2001-11-23 COLT=2001-11-22 (dif 1d); TripEndDate: nuestro=2001-11-24 COLT=2001-11-23 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/308464377?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/279696704?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/315720151?accountid=14608",
+        "http://www.gettyimages.com/license/673155"
+      ]
+    },
+    {
+      "colt_TripID": "1689-ARG-MEX-37335",
+      "our_Trip_ID": "107",
+      "President": "Eduardo Duhalde",
+      "Destination_Country": "Mexico",
+      "our_Start_Date": "2002-03-21",
+      "our_End_Date": "2002-03-22",
+      "colt_Start": "2002-03-20",
+      "colt_End": "2002-03-22",
+      "discrepancias": "TripStartDate: nuestro=2002-03-21 COLT=2002-03-20 (dif 1d)",
+      "colt_links": [
+        "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/openurl?ctx_ver=z39.88-2004&rft_id=info%3Asid/infoweb.newsbank.com&svc_dat=WORLDNEWS&req_dat=756A2F2418E841258B15CB5C2C5A3A92&rft_val_format=info%3Aofi/fmt%3Akev%3Amtx%3Actx&rft_dat=document_id%3Anews%252F1416A613374E4F58",
+        "https://www.proquest.com/docview/349301792?accountid=14608&parentSessionId=O6wH9o5wm6SXMBbdx%2FnO%2Fk35DWYQaLLqXuGxm5TQ1aw%3D",
+        "https://wnc-eastview-com.du.idm.oclc.org/wnc/advanced/doc?art=0&id=36478044",
+        "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/openurl?ctx_ver=z39.88-2004&rft_id=info%3Asid/infoweb.newsbank.com&svc_dat=WORLDNEWS&req_dat=756A2F2418E841258B15CB5C2C5A3A92&rft_val_format=info%3Aofi/fmt%3Akev%3Amtx%3Actx&rft_dat=document_id%3Anews%252F0F86CA6688FA00FD"
+      ]
+    },
+    {
+      "colt_TripID": "1689-ARG-CRI-37358",
+      "our_Trip_ID": "108",
+      "President": "Eduardo Duhalde",
+      "Destination_Country": "Costa Rica",
+      "our_Start_Date": "2002-04-11",
+      "our_End_Date": "2002-04-12",
+      "colt_Start": "2002-04-12",
+      "colt_End": "2002-04-13",
+      "discrepancias": "TripStartDate: nuestro=2002-04-11 COLT=2002-04-12 (dif 1d); TripEndDate: nuestro=2002-04-12 COLT=2002-04-13 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/457567607?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452205076?accountid=14608",
+        "http://www.gettyimages.com/license/51423576"
+      ]
+    },
+    {
+      "colt_TripID": "1689-ARG-BRA-37524",
+      "our_Trip_ID": "113",
+      "President": "Eduardo Duhalde",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2002-09-26",
+      "our_End_Date": "2002-09-26",
+      "colt_Start": "2002-09-25",
+      "colt_End": "2002-09-26",
+      "discrepancias": "TripStartDate: nuestro=2002-09-26 COLT=2002-09-25 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453412150?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452586719?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "1689-ARG-CHL-37558",
+      "our_Trip_ID": "114",
+      "President": "Eduardo Duhalde",
+      "Destination_Country": "Chile",
+      "our_Start_Date": "2002-10-29",
+      "our_End_Date": "2002-10-29",
+      "colt_Start": "2002-10-29",
+      "colt_End": "2002-10-30",
+      "discrepancias": "TripEndDate: nuestro=2002-10-29 COLT=2002-10-30 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452198960?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453400032?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452189315?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "1689-ARG-BRA-37596",
+      "our_Trip_ID": "116",
+      "President": "Eduardo Duhalde",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2002-12-05",
+      "our_End_Date": "2002-12-06",
+      "colt_Start": "2002-12-06",
+      "colt_End": "2002-12-07",
+      "discrepancias": "TripStartDate: nuestro=2002-12-05 COLT=2002-12-06 (dif 1d); TripEndDate: nuestro=2002-12-06 COLT=2002-12-07 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452191281?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/387933820?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453343559?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "1689-ARG-BRA-37635",
+      "our_Trip_ID": "118",
+      "President": "Eduardo Duhalde",
+      "Destination_Country": "Brazil",
+      "our_Start_Date": "2003-01-14",
+      "our_End_Date": "2003-01-14",
+      "colt_Start": "2003-01-14",
+      "colt_End": "2003-01-15",
+      "discrepancias": "TripEndDate: nuestro=2003-01-14 COLT=2003-01-15 (dif 1d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452189011?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/344722321?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453310749?accountid=14608"
+      ]
+    },
+    {
+      "colt_TripID": "1689-ARG-CHL-37734",
+      "our_Trip_ID": "123",
+      "President": "Eduardo Duhalde",
+      "Destination_Country": "Chile",
+      "our_Start_Date": "2003-04-23",
+      "our_End_Date": "2003-04-23",
+      "colt_Start": "2003-04-23",
+      "colt_End": "2003-04-25",
+      "discrepancias": "TripEndDate: nuestro=2003-04-23 COLT=2003-04-25 (dif 2d)",
+      "colt_links": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452200716?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/466353605?accountid=14608"
+      ]
+    }
+  ],
+  "colt_unico": [
+    {
+      "TripID": "334-ARG-FRA-35885",
+      "LeaderFullName": "Carlos Saul Menem",
+      "CountryVisited": "France",
+      "CityVisited": "None",
+      "TripYear": "1998",
+      "TripStartDate": "1998-03-31",
+      "TripEndDate": "1998-04-01",
+      "Notes": "French Polynesia",
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/314956932?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "334-ARG-XKX-36483",
+      "LeaderFullName": "Carlos Saul Menem",
+      "CountryVisited": "Kosovo",
+      "CityVisited": "None",
+      "TripYear": "1999",
+      "TripStartDate": "1999-11-19",
+      "TripEndDate": "1999-11-20",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/310372651?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452220085?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1473-ARG-CHL-36595",
+      "LeaderFullName": "Fernando de la Rua",
+      "CountryVisited": "Chile",
+      "CityVisited": "None",
+      "TripYear": "2000",
+      "TripStartDate": "2000-03-10",
+      "TripEndDate": "2000-03-12",
+      "Notes": "Attended inauguration of President Ricardo Lagos Escobar;Met with Partido Revolucionario Institucional (PRI) candidate Francisco Labastida Ochoa;End date approximate",
+      "Confidence(1-5)": "2",
+      "SourceLinks": [
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e5dc940b-0c84-4986-9b8a-76e130600351&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A3YWR-6830-00J7-K3S2-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr21&pditab=allpods&ecomp=kmnyk&earg=sr21&prid=24b3c643-2767-4d56-a365-80d1efd49fd5",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ebc60506-e95a-4f33-9157-ac05a7358439&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4DH1-20V0-TWMD-5237-00000-00&pdcontentcomponentid=305052&pdteaserkey=sr48&pditab=allpods&ecomp=kmnyk&earg=sr48&prid=3e6dd562-9f44-4365-8e69-ee1954011179",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ca4e8f9d-e9d6-4241-bc53-4bc9522003f1&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A3YT4-CBK0-0001-H09V-00000-00&pdcontentcomponentid=155910&pdteaserkey=sr1&pditab=allpods&ecomp=kmnyk&earg=sr1&prid=abc0997a-2217-4191-9b3f-869c63a5e3ac",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=102f3337-11c8-4215-a587-70574ca56399&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A3YWY-5YB0-00J7-K187-00000-00&pdcontentcomponentid=172820&pdteaserkey=sr67&pditab=allpods&ecomp=kmnyk&earg=sr67&prid=d4212e69-b5b2-4920-80a4-b1371f597eb7",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=52cdb393-b26f-44e5-aeac-4980afcd10db&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A3YT7-Y620-00RC-920G-00000-00&pdcontentcomponentid=8078&pdteaserkey=sr29&pditab=allpods&ecomp=kmnyk&earg=sr29&prid=029e1874-9d8f-483f-8b80-74355378dd7c",
+        "https://www.proquest.com/central/docview/316080810/C33AF3698BFE4835PQ/32?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1473-ARG-CHL-36597",
+      "LeaderFullName": "Fernando de la Rua",
+      "CountryVisited": "Chile",
+      "CityVisited": "None",
+      "TripYear": "2000",
+      "TripStartDate": "2000-03-12",
+      "TripEndDate": "2000-03-14",
+      "Notes": "Attended an Argentina-Brazil-Chile-Finland-Italy-New Zealand Multilateral Meeting in Santiago",
+      "Confidence(1-5)": "2",
+      "SourceLinks": [
+        "https://www.proquest.com/docview/314664681?accountid=14608&parentSessionId=ycx1IEJJY9m89Bihan%2BusYRUTXnYX%2BL7CKLIebl8SJc%3D",
+        "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=eaf361a3-3779-4e1c-ab82-51a312081881&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A3YT4-CBK0-0001-H09V-00000-00&pdcontentcomponentid=155910&pdteaserkey=sr2&pditab=allpods&ecomp=zznyk&earg=sr2&prid=2d052912-f9a5-4123-bfbf-39f2c57e1eb1"
+      ]
+    },
+    {
+      "TripID": "1473-ARG-PRY-36661",
+      "LeaderFullName": "Fernando de la Rua",
+      "CountryVisited": "Paraguay",
+      "CityVisited": "None",
+      "TripYear": "2000",
+      "TripStartDate": "2000-05-15",
+      "TripEndDate": "2000-05-16",
+      "Notes": "Visited Argentenian UN Peacekeeping troops in the region.",
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/454055180?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452238974?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1473-ARG-URY-36719",
+      "LeaderFullName": "Fernando de la Rua",
+      "CountryVisited": "Uruguay",
+      "CityVisited": "None",
+      "TripYear": "2000",
+      "TripStartDate": "2000-07-12",
+      "TripEndDate": "2000-07-12",
+      "Notes": null,
+      "Confidence(1-5)": "3",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/454015760?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1473-ARG-MEX-36773",
+      "LeaderFullName": "Fernando de la Rua",
+      "CountryVisited": "Mexico",
+      "CityVisited": "None",
+      "TripYear": "2000",
+      "TripStartDate": "2000-09-04",
+      "TripEndDate": "2000-09-05",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453962267?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452724763?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452720589?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/315968632?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1473-ARG-CAN-36777",
+      "LeaderFullName": "Fernando de la Rua",
+      "CountryVisited": "Canada",
+      "CityVisited": "None",
+      "TripYear": "2000",
+      "TripStartDate": "2000-09-08",
+      "TripEndDate": "2000-09-09",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/240397547?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/345805771?accountid=14608",
+        "http://www.gettyimages.com/license/51420963"
+      ]
+    },
+    {
+      "TripID": "1473-ARG-CHL-36816",
+      "LeaderFullName": "Fernando de la Rua",
+      "CountryVisited": "Chile",
+      "CityVisited": "None",
+      "TripYear": "2000",
+      "TripStartDate": "2000-10-17",
+      "TripEndDate": "2000-10-18",
+      "Notes": "Inauguration ceremony of the General Assembly of the InterAmerican Press Association",
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/315962912?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453914840?accountid=14608",
+        "http://www.gettyimages.com/license/51421117"
+      ]
+    },
+    {
+      "TripID": "1473-ARG-CHL-36969",
+      "LeaderFullName": "Fernando de la Rua",
+      "CountryVisited": "Chile",
+      "CityVisited": "None",
+      "TripYear": "2001",
+      "TripStartDate": "2001-03-19",
+      "TripEndDate": "2001-03-20",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://www.gettyimages.com/license/51421477",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/398911845?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/338480549?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1473-ARG-BRA-37104",
+      "LeaderFullName": "Fernando de la Rua",
+      "CountryVisited": "Brazil",
+      "CityVisited": "None",
+      "TripYear": "2001",
+      "TripStartDate": "2001-08-01",
+      "TripEndDate": "2001-08-01",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452245925?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452212988?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1473-ARG-BRA-37172",
+      "LeaderFullName": "Fernando de la Rua",
+      "CountryVisited": "Brazil",
+      "CityVisited": "None",
+      "TripYear": "2001",
+      "TripStartDate": "2001-10-08",
+      "TripEndDate": "2001-10-09",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452184724?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452214261?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/224061730?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1473-ARG-PRT-37210",
+      "LeaderFullName": "Fernando de la Rua",
+      "CountryVisited": "Portugal",
+      "CityVisited": "None",
+      "TripYear": "2001",
+      "TripStartDate": "2001-11-15",
+      "TripEndDate": "2001-11-17",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/451951059?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453617297?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/451950011?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1689-ARG-MAR-37712",
+      "LeaderFullName": "Eduardo Duhalde",
+      "CountryVisited": "Morocco",
+      "CityVisited": "None",
+      "TripYear": "2003",
+      "TripStartDate": "2003-04-01",
+      "TripEndDate": "2003-04-02",
+      "Notes": "[VERIFICACION PE-LATAM 2026-08-15: este viaje fue CANCELADO por la guerra de Irak (confirmado por La Nacion); no ocurrio como indica COLT. Fila senalada, no se elimino.]",
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/194481410?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/451071207?accountid=14608",
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/452849450?accountid=14608"
+      ]
+    },
+    {
+      "TripID": "1689-ARG-URY-37755",
+      "LeaderFullName": "Eduardo Duhalde",
+      "CountryVisited": "Uruguay",
+      "CityVisited": "None",
+      "TripYear": "2003",
+      "TripStartDate": "2003-05-14",
+      "TripEndDate": "2003-05-15",
+      "Notes": null,
+      "Confidence(1-5)": "1",
+      "SourceLinks": [
+        "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/453206510?accountid=14608",
+        "http://www.gettyimages.com/license/107696334"
+      ]
+    }
+  ]
+}

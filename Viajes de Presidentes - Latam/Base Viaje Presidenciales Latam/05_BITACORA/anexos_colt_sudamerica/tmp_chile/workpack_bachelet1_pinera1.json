@@ -1,0 +1,1957 @@
+{
+ "discrepancias": [
+  {
+   "colt_TripID": "2134-CHL-ARG-38797",
+   "our_Trip_ID": "30",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2006-03-21",
+   "our_End_Date": "2006-03-21",
+   "colt_Start": "2006-03-21",
+   "colt_End": "2006-03-22",
+   "discrepancias": "TripEndDate: nuestro=2006-03-21 COLT=2006-03-22 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/110655E6C95CE578?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1108A3AA85AEA6A0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11D808D36CF191C8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/110856538F449990?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-USA-38875",
+   "our_Trip_ID": "32",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2006-06-08",
+   "our_End_Date": "2006-06-09",
+   "colt_Start": "2006-06-07",
+   "colt_End": "2006-06-09",
+   "discrepancias": "TripStartDate: nuestro=2006-06-08 COLT=2006-06-07 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/405805811?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/195209202?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/451085023?accountid=14608",
+    "https://history.state.gov/departmenthistory/visits/chile"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-PER-38925",
+   "our_Trip_ID": "33",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Peru",
+   "our_Start_Date": "2006-07-28",
+   "our_End_Date": "2006-07-29",
+   "colt_Start": "2006-07-27",
+   "colt_End": "2006-07-29",
+   "discrepancias": "TripStartDate: nuestro=2006-07-28 COLT=2006-07-27 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/113228162F9E3750?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11332B6729765970?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/113282BB2F04C610?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11330C7CD2D7B718?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-VEN-39188",
+   "our_Trip_ID": "39",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Venezuela",
+   "our_Start_Date": "2007-04-16",
+   "our_End_Date": "2007-04-17",
+   "colt_Start": "2007-04-16",
+   "colt_End": "2007-04-18",
+   "discrepancias": "TripEndDate: nuestro=2007-04-17 COLT=2007-04-18 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1189CC3E0A5CC560?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1414D7B709611F80?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/118A672B88A69598?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1188FCA1B3AAEDC0?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-ESP-38846",
+   "our_Trip_ID": "40",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2006-05-09",
+   "our_End_Date": "2006-05-10",
+   "colt_Start": "2006-05-09",
+   "colt_End": "2006-05-11",
+   "discrepancias": "TripEndDate: nuestro=2006-05-10 COLT=2006-05-11 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/111871FCD387863A?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11186F0381D30017?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1118737B8CA919A3?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11185A20F8D80110?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1118C7D7F0C2A465?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-FRA-39960",
+   "our_Trip_ID": "41",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "France",
+   "our_Start_Date": "2009-05-29",
+   "our_End_Date": "2009-05-29",
+   "colt_Start": "2009-05-27",
+   "colt_End": "2009-05-30",
+   "discrepancias": "TripStartDate: nuestro=2009-05-29 COLT=2009-05-27 (dif 2d) | TripEndDate: nuestro=2009-05-29 COLT=2009-05-30 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/128697D626121BE8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12874E7219F30930?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1287A2C9BB461A50?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-USA-39348",
+   "our_Trip_ID": "43",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2007-09-24",
+   "our_End_Date": "2007-09-25",
+   "colt_Start": "2007-09-23",
+   "colt_End": "2007-09-25",
+   "discrepancias": "TripStartDate: nuestro=2007-09-24 COLT=2007-09-23 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467616016?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467167154?accountid=14608",
+    "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/document-view?p=WORLDNEWS&t=&sort=YMD_date%3AA&maxresults=20&f=advanced&val-base-0=michelle%20bachelet&fld-base-0=alltext&bln-base-1=and&val-base-1=September%2024%2C%202007%20-%20September%2027%2C%202007&fld-base-1=YMD_date&docref=news/135502892CB37F28",
+    "https://www-proquest-com.du.idm.oclc.org/central/docview/459619936/D64F85F53312425BPQ/9?accountid=14608",
+    "https://www-proquest-com.du.idm.oclc.org/central/docview/469040161/B63EA3B46D1A4AB6PQ/29?accountid=14608",
+    "https://www.apimages.com/metadata/Index/UN-General-Assembly/9aa6abbdf3ca4cc2851055438fb65538/6/0"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-PRY-39674",
+   "our_Trip_ID": "46",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Paraguay",
+   "our_Start_Date": "2008-08-15",
+   "our_End_Date": "2008-08-15",
+   "colt_Start": "2008-08-14",
+   "colt_End": "2008-08-15",
+   "discrepancias": "TripStartDate: nuestro=2008-08-15 COLT=2008-08-14 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1229ADB3C651F738?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1229A0230DA5BE70?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1229A6185C49F180?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12295F8AC71877A0?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-PER-39773",
+   "our_Trip_ID": "48",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Peru",
+   "our_Start_Date": "2008-11-22",
+   "our_End_Date": "2008-11-23",
+   "colt_Start": "2008-11-21",
+   "colt_End": "2008-11-23",
+   "discrepancias": "TripStartDate: nuestro=2008-11-22 COLT=2008-11-21 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/124A913C78AF5E28?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/124A78A61CFD5748?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1249F67F2F1D5EF0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/124A9B0E04E04698?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-CUB-39854",
+   "our_Trip_ID": "50",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Cuba",
+   "our_Start_Date": "2009-02-11",
+   "our_End_Date": "2009-02-13",
+   "colt_Start": "2009-02-10",
+   "colt_End": "2009-02-13",
+   "discrepancias": "TripStartDate: nuestro=2009-02-11 COLT=2009-02-10 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12658017B2A95858?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/457291360?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433362653?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/457284633?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-USA-39987",
+   "our_Trip_ID": "52",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2009-06-23",
+   "our_End_Date": "2009-06-24",
+   "colt_Start": "2009-06-23",
+   "colt_End": "2009-06-23",
+   "discrepancias": "TripEndDate: nuestro=2009-06-24 COLT=2009-06-23 (dif 1d)",
+   "colt_links": [
+    "https://history.state.gov/departmenthistory/visits/chile",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/195198773?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-SGP-40130",
+   "our_Trip_ID": "54",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Singapore",
+   "our_Start_Date": "2009-11-14",
+   "our_End_Date": "2009-11-15",
+   "colt_Start": "2009-11-13",
+   "colt_End": "2009-11-15",
+   "discrepancias": "TripStartDate: nuestro=2009-11-14 COLT=2009-11-13 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12BD4A5BAA655CF0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12BFFC38A2990E40?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433805359?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12BF449EF57D9A80?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12BF055662AF8058?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-PRT-40145",
+   "our_Trip_ID": "55",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Portugal",
+   "our_Start_Date": "2009-11-30",
+   "our_End_Date": "2009-12-01",
+   "colt_Start": "2009-11-28",
+   "colt_End": "2009-12-02",
+   "discrepancias": "TripStartDate: nuestro=2009-11-30 COLT=2009-11-28 (dif 2d) | TripEndDate: nuestro=2009-12-01 COLT=2009-12-02 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12C5BD3A5BC884B0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12C507A2B5256C48?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433852850?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433775123?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-MEX-40230",
+   "our_Trip_ID": "56",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Mexico",
+   "our_Start_Date": "2010-02-22",
+   "our_End_Date": "2010-02-23",
+   "colt_Start": "2010-02-21",
+   "colt_End": "2010-02-23",
+   "discrepancias": "TripStartDate: nuestro=2010-02-22 COLT=2010-02-21 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12E19FC25352AF90?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13BCEAE59771D4C0?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-BRA-40276",
+   "our_Trip_ID": "59",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Brazil",
+   "our_Start_Date": "2010-04-08",
+   "our_End_Date": "2010-04-08",
+   "colt_Start": "2010-04-08",
+   "colt_End": "2010-04-09",
+   "discrepancias": "TripEndDate: nuestro=2010-04-08 COLT=2010-04-09 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/148E232C54370898?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12F0107F0D800A18?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12F0107F0D800A18?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-USA-40280",
+   "our_Trip_ID": "60",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2010-04-11",
+   "our_End_Date": "2010-04-13",
+   "colt_Start": "2010-04-12",
+   "colt_End": "2010-04-13",
+   "discrepancias": "TripStartDate: nuestro=2010-04-11 COLT=2010-04-12 (dif 1d)",
+   "colt_links": [
+    "https://history.state.gov/departmenthistory/visits/chile",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/190561618?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/190570659?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-ESP-40312",
+   "our_Trip_ID": "61",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2010-05-18",
+   "our_End_Date": "2010-05-19",
+   "colt_Start": "2010-05-14",
+   "colt_End": "2010-05-18",
+   "discrepancias": "TripStartDate: nuestro=2010-05-18 COLT=2010-05-14 (dif 4d) | TripEndDate: nuestro=2010-05-19 COLT=2010-05-18 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f5c7c60a-f133-4f07-b44a-b65172c3604e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YG2-R9T1-2RRG-M3BM-00000-00&pdcontentcomponentid=318726&pdteaserkey=sr0&pditab=allpods&ecomp=xzvnk&earg=sr0&prid=ea951ee2-0b88-4a8b-b52f-0486f8a6f01d",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8c8066de-af70-4026-88c0-6040e939e851&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YGP-YD80-Y9XW-41GG-00000-00&pdcontentcomponentid=144245&pdteaserkey=sr1&pditab=allpods&ecomp=xzvnk&earg=sr1&prid=6c8efb3b-78b8-43d3-bc7f-339c137f68f8",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=93e77e67-47b6-4a4e-a65e-917aece3e5ff&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YGR-08C0-Y94H-B0R4-00000-00&pdcontentcomponentid=276499&pdteaserkey=sr4&pditab=allpods&ecomp=xzvnk&earg=sr4&prid=f28de2b0-ca55-41cd-b16b-c971412e8f00",
+    "https://www.gettyimages.com/detail/news-photo/chiles-president-sebastian-pinera-gives-a-press-conference-news-photo/99872597?adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8f1f7efb-2009-470c-ba41-00eb0d095baf&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YGX-XV90-Y94H-B1D0-00000-00&pdcontentcomponentid=276499&pdteaserkey=sr9&pditab=allpods&ecomp=xzvnk&earg=sr9&prid=ac5bea1b-81a3-47df-8e19-4dce0e4090d9"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-USA-40443",
+   "our_Trip_ID": "62",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2010-09-20",
+   "our_End_Date": "2010-09-23",
+   "colt_Start": "2010-09-22",
+   "colt_End": "2010-09-25",
+   "discrepancias": "TripStartDate: nuestro=2010-09-20 COLT=2010-09-22 (dif 2d) | TripEndDate: nuestro=2010-09-23 COLT=2010-09-25 (dif 2d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/753978774?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/753978774?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1327873327DB7208?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/751859361?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/751969040?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-GBR-40467",
+   "our_Trip_ID": "63",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "United Kingdom",
+   "our_Start_Date": "2010-10-17",
+   "our_End_Date": "2010-10-18",
+   "colt_Start": "2010-10-16",
+   "colt_End": "2010-10-19",
+   "discrepancias": "TripStartDate: nuestro=2010-10-17 COLT=2010-10-16 (dif 1d) | TripEndDate: nuestro=2010-10-18 COLT=2010-10-19 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/132F89A0648A33C8?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/758914224?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-FRA-40470",
+   "our_Trip_ID": "64",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "France",
+   "our_Start_Date": "2010-10-19",
+   "our_End_Date": "2010-10-20",
+   "colt_Start": "2010-10-19",
+   "colt_End": "2010-10-21",
+   "discrepancias": "TripEndDate: nuestro=2010-10-20 COLT=2010-10-21 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1330A24A0F10B080?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/132F87CBF3415A68?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-DEU-40472",
+   "our_Trip_ID": "65",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Germany",
+   "our_Start_Date": "2010-10-21",
+   "our_End_Date": "2010-10-22",
+   "colt_Start": "2010-10-21",
+   "colt_End": "2010-10-23",
+   "discrepancias": "TripEndDate: nuestro=2010-10-22 COLT=2010-10-23 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1330A24A0F10B080?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1330839F4B114C38?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1330A24A0F10B080?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-JPN-40494",
+   "our_Trip_ID": "66",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Japan",
+   "our_Start_Date": "2010-11-13",
+   "our_End_Date": "2010-11-14",
+   "colt_Start": "2010-11-12",
+   "colt_End": "2010-11-15",
+   "discrepancias": "TripStartDate: nuestro=2010-11-13 COLT=2010-11-12 (dif 1d) | TripEndDate: nuestro=2010-11-14 COLT=2010-11-15 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1337FAF1E5791808?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/799570499?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/821765247?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/807394093?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/763675862?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-RUS-41158",
+   "our_Trip_ID": "77",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Russia",
+   "our_Start_Date": "2012-09-08",
+   "our_End_Date": "2012-09-09",
+   "colt_Start": "2012-09-06",
+   "colt_End": "2012-09-10",
+   "discrepancias": "TripStartDate: nuestro=2012-09-08 COLT=2012-09-06 (dif 2d) | TripEndDate: nuestro=2012-09-09 COLT=2012-09-10 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14141BB2B0DBCC18?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1412CA351BC7FFE0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1412CA16640BEBA8?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1038808108?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/940893207?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-ESP-41229",
+   "our_Trip_ID": "78",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2012-11-16",
+   "our_End_Date": "2012-11-17",
+   "colt_Start": "2012-11-16",
+   "colt_End": "2012-11-18",
+   "discrepancias": "TripEndDate: nuestro=2012-11-17 COLT=2012-11-18 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1151098543?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/142A0BC7E56103F8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1429E65C087880B8?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-VEN-41340",
+   "our_Trip_ID": "79",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Venezuela",
+   "our_Start_Date": "2013-03-08",
+   "our_End_Date": "2013-03-08",
+   "colt_Start": "2013-03-07",
+   "colt_End": "2013-03-08",
+   "discrepancias": "TripStartDate: nuestro=2013-03-08 COLT=2013-03-07 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14BEE290D8470AC8?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1314775249?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/144E7054390E6648?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-COL-41417",
+   "our_Trip_ID": "80",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Colombia",
+   "our_Start_Date": "2013-05-23",
+   "our_End_Date": "2013-05-23",
+   "colt_Start": "2013-05-23",
+   "colt_End": "2013-05-24",
+   "discrepancias": "TripEndDate: nuestro=2013-05-23 COLT=2013-05-24 (dif 1d)",
+   "colt_links": [
+    "https://www.proquest.com/docview/1355339336?accountid=14608&parentSessionId=Iq9vBkaXFgOUEpbc0Te1aimVebLeOCkuDD8TztT%2BSpc%3D",
+    "https://english.elpais.com/elpais/2013/05/24/inenglish/1369411896_396535.html",
+    "https://www.alamy.com/colombias-president-juan-manuel-santos-l-and-his-chilean-counterpart-sebastian-pinera-speak-at-the-close-of-the-vii-pacific-allianz-summit-in-cali-may-23-2013-reutersjaime-saldarriaga-colombia-tags-politics-image378249387.html",
+    "https://www.alamy.com/latin-american-presidents-from-l-mexicos-enrique-pena-nieto-colombias-juan-manuel-santos-perus-ollanta-humala-and-chiles-sebastian-pinera-join-their-hands-for-an-official-photo-at-the-vii-pacific-allianz-summit-in-cali-may-23-2013-reutersjaime-saldarriaga-colombia-tags-politics-image377637789.html?pv=1&stamp=2&imageid=8D5DD12F-73F5-4258-9780-68FB9E386973&p=1382875&n=11&orientation=0&pn=1&searchtype=0&IsFromSearch=1&srch=foo%3Dbar%26st%3D0%26sortby%3D3%26qt%3Dsebastian%2520pinera%252023%2520may%25202013%26qt_raw%3Dsebastian%2520pinera%252023%2520may%25202013%26qn%3D%26lic%3D3%26edrf%3D0%26mr%3D0%26pr%3D0%26aoa%3D1%26creative%3D%26videos%3D%26nu%3D%26ccc%3D%26bespoke%3D%26apalib%3D%26ag%3D0%26hc%3D0%26et%3D0x000000000000000000000%26vp%3D0%26loc%3D0%26ot%3D0%26imgt%3D0%26dtfr%3D%26dtto%3D%26size%3D0xFF%26blackwhite%3D%26cutout%3D%26archive%3D1%26name%3D%26groupid%3D%26pseudoid%3D%26userid%3D%26id%3D%26a%3D%26xstx%3D0%26cbstore%3D1%26resultview%3DsortbyRelevant%26lightbox%3D%26gname%3D%26gtype%3D%26apalic%3D%26tbar%3D1%26pc%3D%26simid%3D%26cap%3D1%26customgeoip%3D%26vd%3D0%26cid%3D%26pe%3D%26so%3D%26lb%3D%26pl%3D0%26plno%3D%26fi%3D0%26langcode%3Den%26upl%3D0%26cufr%3D%26cuto%3D%26howler%3D%26cvrem%3D0%26cvtype%3D0%26cvloc%3D0%26cl%3D0%26upfr%3D%26upto%3D%26primcat%3D%26seccat%3D%26cvcategory%3D*%26restriction%3D%26random%3D%26ispremium%3D1%26flip%3D0%26contributorqt%3D%26plgalleryno%3D%26plpublic%3D0%26viewaspublic%3D0%26isplcurate%3D0%26imageurl%3D%26saveQry%3D%26editorial%3D1%26t%3D0%26filters%3D0"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-USA-41425",
+   "our_Trip_ID": "81",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2013-06-04",
+   "our_End_Date": "2013-06-04",
+   "colt_Start": "2013-05-31",
+   "colt_End": "2013-06-04",
+   "discrepancias": "TripStartDate: nuestro=2013-06-04 COLT=2013-05-31 (dif 4d)",
+   "colt_links": [
+    "https://history.state.gov/departmenthistory/visits/chile",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1365236871?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1425422931?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1469CF997223EC18?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-USA-38980",
+   "our_Trip_ID": "303",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2006-09-19",
+   "our_End_Date": "2006-09-20",
+   "colt_Start": "2006-09-20",
+   "colt_End": "2006-09-21",
+   "discrepancias": "TripStartDate: nuestro=2006-09-19 COLT=2006-09-20 (dif 1d) | TripEndDate: nuestro=2006-09-20 COLT=2006-09-21 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11454621ED055848?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1144F6E2C0F22830?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/472606453?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460141019?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/472697864?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-FIN-39230",
+   "our_Trip_ID": "304",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Finland",
+   "our_Start_Date": "2007-05-29",
+   "our_End_Date": "2007-05-30",
+   "colt_Start": "2007-05-28",
+   "colt_End": "2007-05-30",
+   "discrepancias": "TripStartDate: nuestro=2007-05-29 COLT=2007-05-28 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14140A9777AEE200?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/469120869?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467639033?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-NOR-39232",
+   "our_Trip_ID": "305",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Norway",
+   "our_Start_Date": "2007-05-30",
+   "our_End_Date": "2007-05-31",
+   "colt_Start": "2007-05-30",
+   "colt_End": "2007-06-01",
+   "discrepancias": "TripEndDate: nuestro=2007-05-31 COLT=2007-06-01 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1197FD50DE100F68?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467643887?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/469040203?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-USA-39714",
+   "our_Trip_ID": "307",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2008-09-23",
+   "our_End_Date": "2008-09-24",
+   "colt_Start": "2008-09-23",
+   "colt_End": "2008-09-25",
+   "discrepancias": "TripEndDate: nuestro=2008-09-24 COLT=2008-09-25 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1577BA4877184B38?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/141431AAA19B8FB8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/123BCFA9EFEF31C8?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/435031882?accountid=14608",
+    "https://history.state.gov/departmenthistory/visits/chile"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-MEX-41077",
+   "our_Trip_ID": "312",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Mexico",
+   "our_Start_Date": "2012-06-18",
+   "our_End_Date": "2012-06-19",
+   "colt_Start": "2012-06-17",
+   "colt_End": "2012-06-20",
+   "discrepancias": "TripStartDate: nuestro=2012-06-18 COLT=2012-06-17 (dif 1d) | TripEndDate: nuestro=2012-06-19 COLT=2012-06-20 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13FA8EF86469E640?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13F7C65FC608EC00?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13F76ED0B414B3E0?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-BRA-40544",
+   "our_Trip_ID": "315",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Brazil",
+   "our_Start_Date": "2011-01-01",
+   "our_End_Date": "2011-01-01",
+   "colt_Start": "2011-01-01",
+   "colt_End": "2011-01-02",
+   "discrepancias": "TripEndDate: nuestro=2011-01-01 COLT=2011-01-02 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13BA8558099742E0?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/821891321?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1362977C811CBE88?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-ITA-40603",
+   "our_Trip_ID": "316",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Italy",
+   "our_Start_Date": "2011-03-01",
+   "our_End_Date": "2011-03-02",
+   "colt_Start": "2011-03-01",
+   "colt_End": "2011-03-03",
+   "discrepancias": "TripEndDate: nuestro=2011-03-02 COLT=2011-03-03 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13BA8C2799AB03B0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13BA8C27A7E77FF8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13BA8C26C559A100?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13BA8C267AEC07B8?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-ISR-40605",
+   "our_Trip_ID": "318",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Israel",
+   "our_Start_Date": "2011-03-03",
+   "our_End_Date": "2011-03-06",
+   "colt_Start": "2011-03-03",
+   "colt_End": "2011-03-05",
+   "discrepancias": "TripEndDate: nuestro=2011-03-06 COLT=2011-03-05 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135DE716AA7DC308?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135CDEB989A6EAB0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135D05455EFC05A8?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/854040889?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-PSE-40607",
+   "our_Trip_ID": "319",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Palestine",
+   "our_Start_Date": "2011-03-05",
+   "our_End_Date": "2011-03-05",
+   "colt_Start": "2011-03-05",
+   "colt_End": "2011-03-06",
+   "discrepancias": "TripEndDate: nuestro=2011-03-05 COLT=2011-03-06 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135D331AC066A558?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/855728110?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/854040889?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-JOR-40608",
+   "our_Trip_ID": "320",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Jordan",
+   "our_Start_Date": "2011-03-06",
+   "our_End_Date": "2011-03-07",
+   "colt_Start": "2011-03-06",
+   "colt_End": "2011-03-06",
+   "discrepancias": "TripEndDate: nuestro=2011-03-07 COLT=2011-03-06 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135CFA20DF08A808?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135D789A40830AE0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135D789A4288D1A8?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-ESP-40608",
+   "our_Trip_ID": "321",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2011-03-07",
+   "our_End_Date": "2011-03-09",
+   "colt_Start": "2011-03-06",
+   "colt_End": "2011-03-09",
+   "discrepancias": "TripStartDate: nuestro=2011-03-07 COLT=2011-03-06 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135DC2F76E8FD490?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135D8DC4E2857A88?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135C90A58F2E2390?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-KOR-40993",
+   "our_Trip_ID": "326",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "South Korea",
+   "our_Start_Date": "2012-03-25",
+   "our_End_Date": "2012-03-27",
+   "colt_Start": "2012-03-25",
+   "colt_End": "2012-03-28",
+   "discrepancias": "TripEndDate: nuestro=2012-03-27 COLT=2012-03-28 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13DC13F4CDD313E8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13DC13F3B83747F8?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/952823016?accountid=14608"
+   ]
+  }
+ ],
+ "colt_unico": [
+  {
+   "TripID": "2134-CHL-ARG-38918",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-07-20T00:00:00",
+   "TripEndDate": "2006-07-21T00:00:00",
+   "Notes": "Delivered a speech at a Common Market of the South (MERCOSUR) Summit in Cordoba",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e98eb5ca-1e36-4279-9abe-d93a055864c4/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/2cc8770d-3508-48ed-a95c-7c21f7ded4ee/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/0153044c-df5c-49d3-bb7d-d3f1abe8769f/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/57724281-badf-4b83-a7ba-5cdc7ac24901/?context=1516831"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-ARG-39425",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-12-09T00:00:00",
+   "TripEndDate": "2007-12-10T00:00:00",
+   "Notes": "Attended the inauguration of President Christina Fernandez de Kirchner in Buenos Aires;Met with Prime Minister Francois Fillon;Awarded Ernesto Sabato and Mercedes Sosa the Order of Merit in the Degree of Grand Cross at the Chilean Embassy",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=a49b22f4-4621-4b63-b0fe-c2cfaf9239b5&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4R9S-4VF0-TX71-F024-00000-00&pdcontentcomponentid=279495&pdteaserkey=sr0&pditab=allpods&ecomp=xzvnk&earg=sr0&prid=a59dd08c-d762-41a7-bbc3-d5bc0d683408",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=66d6a908-3972-4a4f-836f-f984d4e131dc&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4RB3-GK80-TWMD-416T-00000-00&pdcontentcomponentid=241709&pdteaserkey=sr1&pditab=allpods&ecomp=xzvnk&earg=sr1&prid=86829998-3ba6-4217-8d59-acfa14c7dc7f",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/493c7ec4-d6c8-4251-a625-22e6e37373c3/?context=1516831"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-ARG-39726",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-10-05T00:00:00",
+   "TripEndDate": "2008-10-06T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452026815?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135C43C965578E18?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135C43C8D53DA710?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13530339D4D98A28?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-ARG-40235",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-02-26T00:00:00",
+   "TripEndDate": "2010-02-26T00:00:00",
+   "Notes": "President Bachelet participated in the Meeting and regatta of great sailboats Velas Sudamerica 2010;event Organized by the Navy",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13522022D0E19050?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135467E1D96D8968?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135BF07DE35FDCC8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13BCEAFA704EE9B0?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-ARG-41088",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-06-28T00:00:00",
+   "TripEndDate": "2012-06-29T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13FBB05A42585398?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1022449458?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13FBB1761C77C7E0?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-AUS-41162",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Australia",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-09-10T00:00:00",
+   "TripEndDate": "2012-09-11T00:00:00",
+   "Notes": "Pinera visited the replica of the capsule \"Fenix 2\";that is in a square of the city of Canberra The replica of the \"Phoenix 2\";which Chile gave to Australia last year;was one of the capsules used to rescue the miners and was also the one that brought to the surface Florenciovalos;the first of the 33 The San Jose mine that emerged after staying 70 days trapped at 700 meters deep",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1413D4C018AF3E90?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14136EAB86DAB708?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14146BE821E6BDD0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1413BFF30724B858?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-BEL-41226",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Belgium",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-11-13T00:00:00",
+   "TripEndDate": "2012-11-15T00:00:00",
+   "Notes": "President Pinera also met with King Alberto II",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/149AA7C1E48F6FA0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1429191FC7C62C60?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1151320591?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1151086368?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14293D9609A0EF70?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-BOL-39247",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Bolivia",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-06-14T00:00:00",
+   "TripEndDate": "2007-06-14T00:00:00",
+   "Notes": "Signed joint decleration",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.alamy.com/colombias-president-alvaro-uribe-l-r-bolivias-president-evo-morales-and-chiles-president-michelle-bachelet-talk-before-a-photo-session-at-the-andean-community-summit-in-tarija-june-14-2007-reutersmariana-bazo-bolivia-image379816456.html",
+    "http://www.sice.oas.org/tpd/and_eu/negotiations/tarija_e.pdf",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=a8fd29c1-5752-4910-8e35-45a1e7676758&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4P01-YNS0-TX62-82NW-00000-00&pdcontentcomponentid=468347&pdteaserkey=sr10&pditab=allpods&ecomp=nzvnk&earg=sr10&prid=f513f070-d619-48c6-9edf-e1674c64336b"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-BOL-39433",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Bolivia",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-12-17T00:00:00",
+   "TripEndDate": "2007-12-17T00:00:00",
+   "Notes": "Trilateral meeting with President Morales and President da Silva;signed agreement on interstate highway",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.smh.com.au/world/brazil-chile-woo-bolivia-with-roadway-20071217-1hj9.html",
+    "https://www.alamy.com/stock-photo-dec-17-2007-la-paz-bolivia-brazilian-president-lula-da-silva-right-40960422.html?pv=1&stamp=2&imageid=B3B89041-DC80-4054-AAF2-867AB6D70281&p=152373&n=9&orientation=0&pn=1&searchtype=0&IsFromSearch=1&srch=foo%3Dbar%26st%3D0%26sortby%3D3%26qt%3Dpresident%2520of%2520bolivia%2520michelle%2520bachelet%26qt_raw%3Dpresident%2520of%2520bolivia%2520michelle%2520bachelet%26qn%3D%26lic%3D3%26edrf%3D0%26mr%3D0%26pr%3D0%26aoa%3D1%26creative%3D%26videos%3D%26nu%3D%26ccc%3D%26bespoke%3D%26apalib%3D%26ag%3D0%26hc%3D0%26et%3D0x000000000000000000000%26vp%3D0%26loc%3D0%26ot%3D0%26imgt%3D0%26dtfr%3D%26dtto%3D%26size%3D0xFF%26blackwhite%3D%26cutout%3D%26archive%3D1%26name%3D%26groupid%3D%26pseudoid%3D%26userid%3D%26id%3D%26a%3D%26xstx%3D0%26cbstore%3D1%26resultview%3DsortbyRelevant%26lightbox%3D%26gname%3D%26gtype%3D%26apalic%3D%26tbar%3D1%26pc%3D%26simid%3D%26cap%3D1%26customgeoip%3D%26vd%3D0%26cid%3D%26pe%3D%26so%3D%26lb%3D%26pl%3D0%26plno%3D%26fi%3D0%26langcode%3Den%26upl%3D0%26cufr%3D%26cuto%3D%26howler%3D%26cvrem%3D0%26cvtype%3D0%26cvloc%3D0%26cl%3D0%26upfr%3D%26upto%3D%26primcat%3D%26seccat%3D%26cvcategory%3D*%26restriction%3D%26random%3D%26ispremium%3D1%26flip%3D0%26contributorqt%3D%26plgalleryno%3D%26plpublic%3D0%26viewaspublic%3D0%26isplcurate%3D0%26imageurl%3D%26saveQry%3D%26editorial%3D1%26t%3D0%26filters%3D0",
+    "https://www.alamy.com/chiles-president-michelle-bachelet-l-and-her-counterparts-bolivias-evo-morales-c-and-brazils-luis-inacio-lula-da-silva-exchange-documents-after-signing-agreements-at-the-government-palace-in-la-paz-december-16-2007-reutersmariana-bazo-bolivia-image379726046.html?pv=1&stamp=2&imageid=D51BA5D6-EEA5-4AB0-A02C-3ADB0DC41D57&p=1383499&n=0&orientation=0&pn=1&searchtype=0&IsFromSearch=1&srch=foo%3dbar%26st%3d0%26pn%3d1%26ps%3d100%26sortby%3d3%26resultview%3dsortbyRelevant%26npgs%3d0%26qt%3dmichelle%2520bachelet%2520december%25202007%26qt_raw%3dmichelle%2520bachelet%2520december%25202007%26lic%3d3%26mr%3d0%26pr%3d0%26ot%3d0%26creative%3d%26ag%3d0%26hc%3d0%26pc%3d%26blackwhite%3d%26cutout%3d%26tbar%3d1%26et%3d0x000000000000000000000%26vp%3d0%26loc%3d0%26imgt%3d0%26dtfr%3d%26dtto%3d%26size%3d0xFF%26archive%3d1%26groupid%3d%26pseudoid%3d%26a%3d%26cdid%3d%26cdsrt%3d%26name%3d%26qn%3d%26apalib%3d%26apalic%3d%26lightbox%3d%26gname%3d%26gtype%3d%26xstx%3d0%26simid%3d%26saveQry%3d%26editorial%3d1%26nu%3d%26t%3d%26edoptin%3d%26customgeoip%3d%26cap%3d1%26cbstore%3d1%26vd%3d0%26lb%3d%26fi%3d2%26edrf%3d0%26ispremium%3d1%26flip%3d0%26pl%3d",
+    "http://news.bbc.co.uk/2/hi/americas/7147941.stm"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-BIH-38848",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Bosnia and Herzegovina",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-05-11T00:00:00",
+   "TripEndDate": "2006-05-11T00:00:00",
+   "Notes": "President Michelle Bachelet visted EU Force soldiers from Chile at the base in Ramici near Banja Luka.",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/111871FCD387863A?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1119190A942CDCCF?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1119EB55D655837F?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-BRA-38817",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Brazil",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-04-10T00:00:00",
+   "TripEndDate": "2006-04-11T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/110D3E1B92521BF8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/110F3E86344A5E28?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/110EEA26E34AC270?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-CAN-39607",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Canada",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-06-08T00:00:00",
+   "TripEndDate": "2008-06-11T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/121293D7DE2ACF10?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/121390A995A1A0D0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1213386DF67807E0?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-CAN-41423",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Canada",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-05-29T00:00:00",
+   "TripEndDate": "2013-05-31T00:00:00",
+   "Notes": "visited in Toronto the works of the Pan American Games to be held in the Canadian city in 2015 The Chilean town of Valparaso is one of the candidates to hold the Pan American Games in 2019",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14632181690F4E88?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14F2145E12291410?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1469B47FC2A91760?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1469CF997223EC18?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-CHL-40932",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-01-24T00:00:00",
+   "TripEndDate": "2012-01-25T00:00:00",
+   "Notes": "Antarctica",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13C937AB4EE5C438?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13C558C4E4CC41F0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13C937AB4EE5C438?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13C937AB46AA7F48?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-CHL-41290",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-01-16T00:00:00",
+   "TripEndDate": "2013-01-16T00:00:00",
+   "Notes": "Antarctica",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/143D885C928B0260?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/143EA4D6E765B568?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-CHN-39549",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "China",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-04-11T00:00:00",
+   "TripEndDate": "2008-04-15T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11FFD1335120B460?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/120149E2D19D3760?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11FEBF442E94F128?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1201CC58E7498690?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-CHN-40129",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "China",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-11-12T00:00:00",
+   "TripEndDate": "2009-11-13T00:00:00",
+   "Notes": "President Bachelet attended completion ceremony for buildings of the Chile Pavilion at the Expo 2010 Shanghai;and was the first Latin American leader to confirm their country's attendance at the Expo",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/148E217246CBAF60?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433774309?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433805359?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433805074?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-CHN-40497",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "China",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-11-15T00:00:00",
+   "TripEndDate": "2010-11-17T00:00:00",
+   "Notes": "President Pinera attended celebrations marking the 40th anniversary of bilateral ties between Chile and China",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13389D74CAE69A88?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1338F7770B0486B0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1338F1D6A10D74D0?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-COL-39190",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Colombia",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-04-18T00:00:00",
+   "TripEndDate": "2007-04-19T00:00:00",
+   "Notes": "President Bachelet opened the International Book Fair in Bogota, where Chile is this year the guest of honor",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/118A0F283A2FD7F0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1301A1D2805F9C90?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-COL-40396",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Colombia",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-08-06T00:00:00",
+   "TripEndDate": "2010-08-07T00:00:00",
+   "Notes": "President Pinera intended to attend the inauguration of President Juan Manuel Santos but he returned to Chile to visit the families of the 33 worker who remained trapped in a mine.",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/741074238?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/131A731B331CAFB0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1317A6DFE8FCA530?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-COL-40505",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Colombia",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-11-23T00:00:00",
+   "TripEndDate": "2010-11-25T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13535355E9BC3C10?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/133B9B0E4F360EE8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/133B97030FE31BB0?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-DOM-38879",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Dominican Republic",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-06-11T00:00:00",
+   "TripEndDate": "2006-06-11T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11240611534DE73C?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11220232F1BCA4A8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11230574671F1902?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-DOM-39513",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Dominican Republic",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-03-06T00:00:00",
+   "TripEndDate": "2008-03-07T00:00:00",
+   "Notes": "Attended a Rio Group Summit;Signed an agreement with Mexico",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/index?crid=137660e6-46c9-478f-b6bc-d7fbe42c6976&pdpermalink=74df9941-da4f-4223-8273-2c7e2fe72d3b&pdmfid=1516831&pdisurlapi=true",
+    "https://www.gettyimages.com/detail/news-photo/chiles-president-michelle-bachelet-looks-for-her-place-for-news-photo/80157141?adppopup=true",
+    "https://www.proquest.com/internationalnews1/docview/428261040/82E9861DC2344A25PQ/1?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-DOM-39675",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Dominican Republic",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-08-15T00:00:00",
+   "TripEndDate": "2008-08-16T00:00:00",
+   "Notes": "President Bachelet attended the inauguration of President Leonel Fernandez",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12295F8AC71877A0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12295F88C6246340?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-ECU-38937",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Ecuador",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-08-08T00:00:00",
+   "TripEndDate": "2006-08-08T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1134CB14C7E74120?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/113657DF2D7CD620?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1136C55844EE2560?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-ECU-40396",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Ecuador",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-08-06T00:00:00",
+   "TripEndDate": "2010-08-06T00:00:00",
+   "Notes": "placed a wreath in honor of the heroes of August 10, 1809",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/741062807?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/131752011A030EC0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1316552E184FADB8?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-SLV-41429",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "El Salvador",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-06-04T00:00:00",
+   "TripEndDate": "2013-06-05T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1469CF997223EC18?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/146BBE1DE6E9DA60?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/146B5A2052C5B9A0?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-DEU-39008",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Germany",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-10-18T00:00:00",
+   "TripEndDate": "2006-10-20T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1136BDBACC7C6D28?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/114D273C27B01478?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/114DBD80C68887F8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/114E245A92756338?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-GTM-40229",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Guatemala",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-02-20T00:00:00",
+   "TripEndDate": "2010-02-21T00:00:00",
+   "Notes": "President Bachelet traveled to Tikal National Park, one of the main cities of the ancient Mayan empire, located 50 kilometers north of Flores",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13522022D0E19050?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12E04260E8F11058?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-GUY-39143",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Guyana",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-03-02T00:00:00",
+   "TripEndDate": "2007-03-03T00:00:00",
+   "Notes": "Presidential Summit",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/460184366?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467660392?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/117A0B899CB3E680?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/117A51CEC2EF8E70?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-HTI-38878",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Haiti",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-06-10T00:00:00",
+   "TripEndDate": "2006-06-11T00:00:00",
+   "Notes": "President Michelle Bachelet visited sick children at a poorly equipped hospital.",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11240611534DE73C?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11220232F1BCA4A8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/112352541FA7B230?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1123F4FBD269F958?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-HTI-40229",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Haiti",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-02-20T00:00:00",
+   "TripEndDate": "2010-02-20T00:00:00",
+   "Notes": "President Bachelet visited Haiti to show solidarity and offer aid for the earthquake",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12DCA1D306EB9B40?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12E030266FC67418?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13522022D0E19050?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-VAT-39373",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Holy See",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-10-18T00:00:00",
+   "TripEndDate": "2007-10-18T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11C5F6EF6E5DBC58?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11C621CFEEEEF038?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-VAT-40145",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Holy See",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-11-28T00:00:00",
+   "TripEndDate": "2009-11-28T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135C52B3AE3D6AE8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12C49FA0E8DD4208?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-VAT-41351",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Holy See",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-03-18T00:00:00",
+   "TripEndDate": "2013-03-18T00:00:00",
+   "Notes": "President Pinera attended the inauguration mass for Pope Francis. However;return date is unclear.",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1451C7635A0E8C28?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14525EF586AB3EB0?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-HND-39853",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Honduras",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-02-09T00:00:00",
+   "TripEndDate": "2009-02-10T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433362653?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433362366?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433359072?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-IND-39888",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "India",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-03-16T00:00:00",
+   "TripEndDate": "2009-03-20T00:00:00",
+   "Notes": "President Bachelet deposited a wreath in the capital's memorial of the Mahatma Gandhi;as is tradition among the Foreign leaders visiting this country",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/127D74BCB81F1890?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433388374?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433390164?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-ISR-40608",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Israel",
+   "CityVisited": "None",
+   "TripYear": "2011",
+   "TripStartDate": "2011-03-06T00:00:00",
+   "TripEndDate": "2011-03-06T00:00:00",
+   "Notes": "President Pinera also met President Shimon Peres.",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/854040889?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/856164052?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-ITA-40132",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Italy",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-11-15T00:00:00",
+   "TripEndDate": "2009-11-17T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12C056C671471CC0?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/469966402?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12C0ED59138ED218?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12C49F9FF0FCCD50?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-ITA-40695",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Italy",
+   "CityVisited": "None",
+   "TripYear": "2011",
+   "TripStartDate": "2011-06-01T00:00:00",
+   "TripEndDate": "2011-06-03T00:00:00",
+   "Notes": "Date of arrival and departure are not very clear President Pinera attended a traditional military parade in the Italian Capital to celebrate Italy's 150th anniversairy of unification",
+   "Confidence(1-5)": "4",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/870132458?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13BA952A26F37750?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13BA952A9D8CA2E0?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-JAM-38877",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Jamaica",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-06-09T00:00:00",
+   "TripEndDate": "2006-06-10T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/112104C39A406CCC?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1121ADA534E44671?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11220232F1BCA4A8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13531A7E54742138?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-JPN-39328",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Japan",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-09-03T00:00:00",
+   "TripEndDate": "2007-09-05T00:00:00",
+   "Notes": "President Bachelet visited Hiroshima",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11B7A27A5D527070?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11B747F7308E1978?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/452387974?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/467606224?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-NLD-39958",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Netherlands",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-05-25T00:00:00",
+   "TripEndDate": "2009-05-27T00:00:00",
+   "Notes": "President Michelle Bachelet met with Queen Beatrix On a personal sidetrip;Bachelet stopped in Chassagne-Montrachet from which her great great grandfather;Louis-Joseph Bachelet;emigrated in 1869",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/128697D626121BE8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1286EC3536C77000?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1286FA03DA83CFB0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12878FE4A5BC33B8?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-PAN-41430",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Panama",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-06-05T00:00:00",
+   "TripEndDate": "2013-06-06T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1469CF997223EC18?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/146C128326FFB808?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/146C2216050195F0?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-PRY-38817",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-04-10T00:00:00",
+   "TripEndDate": "2006-04-10T00:00:00",
+   "Notes": "President Bachelet participated in an event organized by the Secretariat of Women in the lyrical theater of the Central Bank of Paraguay.",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/110D3E1B92521BF8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/110ECABB87308F98?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/110E61AB774AE840?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-PRY-39262",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-06-29T00:00:00",
+   "TripEndDate": "2007-06-29T00:00:00",
+   "Notes": "Discussed bilateral cooperation",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=9275daa7-a657-440d-832a-0015d90ea91f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4P2V-3N00-TWMD-4385-00000-00&pdcontentcomponentid=241709&pdteaserkey=sr2&pditab=allpods&ecomp=nzvnk&earg=sr2&prid=23bc09ea-3596-4631-b00a-6697263787ea",
+    "https://www.gettyimages.com/detail/news-photo/presidents-michelle-bachelet-from-chile-evo-morales-from-news-photo/74950170?adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=27a45d2c-425f-43b0-ae96-6fc65169bdce&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4P38-1G70-TWMD-41RM-00000-00&pdcontentcomponentid=241709&pdteaserkey=sr0&pditab=allpods&ecomp=nzvnk&earg=sr0&prid=23bc09ea-3596-4631-b00a-6697263787ea"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-PRY-40016",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-07-22T00:00:00",
+   "TripEndDate": "2009-07-24T00:00:00",
+   "Notes": "President Michelle Bachelet visited the South American Football Confederation.",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/148E21A516056BB0?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433559393?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433559393?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-PER-40507",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-11-25T00:00:00",
+   "TripEndDate": "2010-11-25T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/133C3CC264597B20?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13BCF0E510647CC8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/133BEF6A836A5808?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-PER-41183",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-10-01T00:00:00",
+   "TripEndDate": "2012-10-03T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/141B079878016AE8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/141AF8E3F3143F88?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/141B0C7C167DACD8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/141B0C7C57EA96D0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/142853584A8E54E0?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-QAT-39902",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Qatar",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-03-30T00:00:00",
+   "TripEndDate": "2009-04-01T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1274D096205D9948?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1274D95FDA6E7AC0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1274C7D59DAB7198?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/127430A648047998?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-RUS-39904",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Russia",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-04-01T00:00:00",
+   "TripEndDate": "2009-04-04T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1275C8C8B1B43670?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12762AE196E26218?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12760B8FA8058390?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-KOR-40127",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "South Korea",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-11-10T00:00:00",
+   "TripEndDate": "2009-11-12T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12BD4A5BAA655CF0?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/433805359?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1414A3DB47B41B60?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12BF449EF57D9A80?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-ESP-40314",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Spain",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-05-16T00:00:00",
+   "TripEndDate": "2010-05-17T00:00:00",
+   "Notes": "Attended and gave speech at Business Summit;Signed free trade agreement with the European Union",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=c24e543b-9388-42d8-adec-63e93ff0355b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YGG-N5P1-2RRG-M4HV-00000-00&pdcontentcomponentid=318726&pdteaserkey=sr1&pditab=allpods&ecomp=wzvnk&earg=sr1&prid=29adc75e-34f1-472f-8e75-a427acb3b2cd",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=18c878fc-182e-4ade-b9aa-c953f93da049&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YGP-SND1-2RFT-C395-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr6&pditab=allpods&ecomp=wzvnk&earg=sr6&prid=29adc75e-34f1-472f-8e75-a427acb3b2cd",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=18c878fc-182e-4ade-b9aa-c953f93da049&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YGP-SND1-2RFT-C395-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr6&pditab=allpods&ecomp=wzvnk&earg=sr6&prid=29adc75e-34f1-472f-8e75-a427acb3b2cd",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=18c878fc-182e-4ade-b9aa-c953f93da049&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7YGP-SND1-2RFT-C395-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr6&pditab=allpods&ecomp=wzvnk&earg=sr6&prid=29adc75e-34f1-472f-8e75-a427acb3b2cd"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-SUR-40977",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Suriname",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-03-09T00:00:00",
+   "TripEndDate": "2012-03-09T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13D6AE7297527580?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13D6C72FCE1A6D88?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13D728EA156510E8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13D6CB38808D1918?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13D6C72F37D672E8?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-THA-41551",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Thailand",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-10-04T00:00:00",
+   "TripEndDate": "2013-10-05T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1495BE1F5383BE28?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/149557D792EC2590?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1494EC2A9091B300?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-TTO-40232",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Trinidad and Tobago",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-02-23T00:00:00",
+   "TripEndDate": "2010-02-24T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12DF4BD85647FAC0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12E19A7837F50AF0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12E19FC25352AF90?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12E14C44E80EB320?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-TUR-41231",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Turkiye",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-11-18T00:00:00",
+   "TripEndDate": "2012-11-21T00:00:00",
+   "Notes": "Also met President Abdullah Gul. no information on return date.",
+   "Confidence(1-5)": "3",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/142AF841F1D56688?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/142AF841D1533DE0?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1175948372?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1151098543?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-GBR-39541",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "United Kingdom",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-04-03T00:00:00",
+   "TripEndDate": "2008-04-05T00:00:00",
+   "Notes": "President Bachelet also met with Queen Elizabeth II.",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11FDCBD425AD7648?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11FDDE1A7069C4B0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11FDDE18676914B0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/11FE421E06558560?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-GBR-41228",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "United Kingdom",
+   "CityVisited": "None",
+   "TripYear": "2012",
+   "TripStartDate": "2012-11-15T00:00:00",
+   "TripEndDate": "2012-11-16T00:00:00",
+   "Notes": "President Pinera also met with lawyers that will defend Chile in the lawsuit posed by Peru to the International Court of Justice.",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/142A5CDE93A2C390?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/142992128EFD91F8?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1151320591?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1151775688?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-USA-39610",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "United States",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-06-11T00:00:00",
+   "TripEndDate": "2008-06-13T00:00:00",
+   "Notes": "President Bachelet visited UC Berkeley and UC Davis in addition to other locations in California She also met with Gov Arnold ScH.W.arzenegger",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12143572A04CF390?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1214A9FAC8B5CC20?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1213386DF67807E0?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-USA-41537",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "United States",
+   "CityVisited": "None",
+   "TripYear": "2013",
+   "TripStartDate": "2013-09-20T00:00:00",
+   "TripEndDate": "2013-09-26T00:00:00",
+   "Notes": "Addressed general assembly;Participated in panel at Pacific Alliance Business Summit;Met with Prime Minister Borut Pahor;Met with Queen Maxima;Met with businessmen during Pacific Alliance Business Summit;Dates approximate",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "https://www.gettyimages.com/detail/news-photo/ildefonso-guajardo-mexicos-economy-minister-from-left-news-photo/181811903?phrase=Sebastian%20Pinera&adppopup=true",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/148D107F897F3A88?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/149078856936B090?p=AWNB",
+    "https://www.gettyimages.com/detail/news-photo/chilean-president-sebastian-pinera-echenique-speaks-at-the-news-photo/181736602?phrase=Sebastian%20Pinera&adppopup=true",
+    "https://www-proquest-com.du.idm.oclc.org/central/docview/1436172649/14A0323F29D24B6APQ/91?accountid=14608",
+    "https://www-proquest-com.du.idm.oclc.org/central/docview/1435891074/14A0323F29D24B6APQ/75?accountid=14608",
+    "https://www-proquest-com.du.idm.oclc.org/central/docview/1436246687/14A0323F29D24B6APQ/80?accountid=14608",
+    "https://www-proquest-com.du.idm.oclc.org/central/docview/1436173479/14A0323F29D24B6APQ/93?accountid=14608#center",
+    "https://www-proquest-com.du.idm.oclc.org/central/docview/1436607269/14A0323F29D24B6APQ/118?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-URY-38798",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-03-22T00:00:00",
+   "TripEndDate": "2006-03-22T00:00:00",
+   "Notes": "President Bachelet deposited a wreath before the central monument to Jose Artigas, the Uruguayan national hero",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1101BED0462712C0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1108AABC9E352780?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/13545AC5BA27D528?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1503CD8A00210CF0?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-URY-39635",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-07-06T00:00:00",
+   "TripEndDate": "2008-07-08T00:00:00",
+   "Notes": "President Bachelet met with the Chilean community based in Uruguay",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/121CBA2356EFC7C8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/135C40B0340BAB60?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/121C77DC23F53340?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-VEN-40082",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Venezuela",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-09-26T00:00:00",
+   "TripEndDate": "2009-09-27T00:00:00",
+   "Notes": "Unsure about departure date.",
+   "Confidence(1-5)": "3",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1413C2789043E508?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/12B025D0C9D8FF00?p=AWNB"
+   ]
+  }
+ ],
+ "nuestro_unico": [
+  {
+   "Trip_ID": "38",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2007-01-15",
+   "End_Date": "2007-01-15",
+   "Destination_Country": "Ecuador",
+   "Destination_City": "Quito",
+   "Visit_Subtype": "Inauguration/Funeral",
+   "Counterpart_Event": "Asunción de Rafael Correa",
+   "Trip_Objective": "Asuncion de Rafael Correa en Ecuador.",
+   "Source_Verification": "https://www.cidob.org/lider-politico/rafael-correa-delgado",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "44",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2008-05-16",
+   "End_Date": "2008-05-17",
+   "Destination_Country": "Peru",
+   "Destination_City": "Lima",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "V Cumbre ALC-Unión Europea",
+   "Trip_Objective": "Cumbre ALC-UE de Lima.",
+   "Source_Verification": "https://eulacfoundation.org/en/v-eu-lac-summit-lima-declaration-lima-16-may-2008",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "45",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2008-05-23",
+   "End_Date": "2008-05-23",
+   "Destination_Country": "Brazil",
+   "Destination_City": "Brasília",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "Firma del Tratado Constitutivo de UNASUR",
+   "Trip_Objective": "Firma del tratado de UNASUR; Bachelet asumio como primera presidenta pro tempore.",
+   "Source_Verification": "https://obtienearchivo.bcn.cl/obtienearchivo?id=repositorio/10221/27199/1/UNASUR_Denuncia.pdf",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "47",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2008-10-29",
+   "End_Date": "2008-10-31",
+   "Destination_Country": "El Salvador",
+   "Destination_City": "San Salvador",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XVIII Cumbre Iberoamericana",
+   "Trip_Objective": "Cumbre Iberoamericana de San Salvador; juventud y desarrollo.",
+   "Source_Verification": "https://www.segib.org/es/cumbres-iberoamericanas/",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "49",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2008-12-16",
+   "End_Date": "2008-12-17",
+   "Destination_Country": "Brazil",
+   "Destination_City": "Costa do Sauípe",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "Cumbre ALC sobre Integración y Desarrollo (CALC)",
+   "Trip_Objective": "Cumbre CALC (semilla de la CELAC); Grupo de Rio y Mercosur ampliado.",
+   "Source_Verification": "https://www.emol.com/noticias/internacional/2008/12/17/335590/agencia-capta-imagenes-de-michelle-bachelet-banandose-en-costa-do-sauipe.html",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "53",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2009-09-23",
+   "End_Date": "2009-09-24",
+   "Destination_Country": "United States",
+   "Destination_City": "New York",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "64ª AGNU",
+   "Trip_Objective": "Asamblea General de la ONU.",
+   "Source_Verification": "https://gadebate.un.org/en/64/chile",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "67",
+   "President": "Sebastián Piñera",
+   "Start_Date": "2010-12-03",
+   "End_Date": "2010-12-04",
+   "Destination_Country": "Argentina",
+   "Destination_City": "Mar del Plata",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XX Cumbre Iberoamericana",
+   "Trip_Objective": "Cumbre Iberoamericana de Mar del Plata; homenaje a Nestor Kirchner (fallecido en oct).",
+   "Source_Verification": "https://segib.org/es/inaugurada-la-xx-cumbre-iberoamericana-de-mar-del-plata/",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "69",
+   "President": "Sebastián Piñera",
+   "Start_Date": "2011-04-28",
+   "End_Date": "2011-04-28",
+   "Destination_Country": "Peru",
+   "Destination_City": "Lima",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "Cumbre fundacional de la Alianza del Pacífico",
+   "Trip_Objective": "Creacion de la Alianza del Pacifico (Chile, Peru, Colombia, Mexico). HITO de su politica exterior.",
+   "Source_Verification": "https://www.minrel.gob.cl/minrel/site/docs/20250624/20250624125818/memoria_minrel_2011_2.pdf",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "71",
+   "President": "Sebastián Piñera",
+   "Start_Date": "2011-09-21",
+   "End_Date": "2011-09-22",
+   "Destination_Country": "United States",
+   "Destination_City": "New York",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "66ª AGNU",
+   "Trip_Objective": "Asamblea General de la ONU.",
+   "Source_Verification": "https://www.chile.gob.cl/chile/blog/onu/nueva-york/presidente-pinera-interviene-en-asamblea-general-de-la-onu",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "72",
+   "President": "Sebastián Piñera",
+   "Start_Date": "2011-10-28",
+   "End_Date": "2011-10-29",
+   "Destination_Country": "Paraguay",
+   "Destination_City": "Asunción",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XXI Cumbre Iberoamericana",
+   "Trip_Objective": "Cumbre Iberoamericana de Asuncion; transformacion del Estado.",
+   "Source_Verification": "https://www.chile.gob.cl/chile/blog/paraguay/asuncion/presidente-pinera-interviene-en-cumbre-iberoamericana-de-paraguay",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "75",
+   "President": "Sebastián Piñera",
+   "Start_Date": "2012-04-14",
+   "End_Date": "2012-04-15",
+   "Destination_Country": "Colombia",
+   "Destination_City": "Cartagena",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "VI Cumbre de las Américas",
+   "Trip_Objective": "VI Cumbre de las Americas de Cartagena.",
+   "Source_Verification": "https://www.minrel.gob.cl/minrel/site/docs/20250624/20250624125818/memoria_2012.pdf",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "82",
+   "President": "Sebastián Piñera",
+   "Start_Date": "2013-08-15",
+   "End_Date": "2013-08-15",
+   "Destination_Country": "Paraguay",
+   "Destination_City": "Asunción",
+   "Visit_Subtype": "Inauguration/Funeral",
+   "Counterpart_Event": "Asunción de Horacio Cartes",
+   "Trip_Objective": "Asuncion de Horacio Cartes en Paraguay.",
+   "Source_Verification": "https://www.chile.gob.cl/chile/blog/paraguay/asuncion/presidente-pinera-en-paraguay-tenemos-la-firme-voluntad-e-intencion-de",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "308",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2009-06-01",
+   "End_Date": "2009-06-01",
+   "Destination_Country": "El Salvador",
+   "Destination_City": "San Salvador",
+   "Visit_Subtype": "Inauguration/Funeral",
+   "Counterpart_Event": "Transmisión del Mando de Mauricio Funes",
+   "Trip_Objective": "Asistencia a la asunción de Mauricio Funes, primer presidente del FMLN en El Salvador.",
+   "Source_Verification": "https://es.wikipedia.org/wiki/Investidura_presidencial_de_Mauricio_Funes",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "310",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2009-08-10",
+   "End_Date": "2009-08-10",
+   "Destination_Country": "Ecuador",
+   "Destination_City": "Quito",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "III Reunión Ordinaria de UNASUR (traspaso de presidencia pro tempore a Rafael Correa)",
+   "Trip_Objective": "Participación en la III Reunión Ordinaria de UNASUR en Quito, donde Bachelet traspasó la presidencia pro tempore a Rafael Correa; coincide con la segunda asunción de Correa bajo la nueva Constitución.",
+   "Source_Verification": "https://www.diariodecuyo.com.ar/argentina/Cristina-llego-a-Ecuador-para-la-asuncion-de-Rafael-Correa-20090809-0027.html",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "311",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2009-12-17",
+   "End_Date": "2009-12-17",
+   "Destination_Country": "Denmark",
+   "Destination_City": "Copenhagen",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "COP15 - XV Conferencia de las Partes de la CMNUCC",
+   "Trip_Objective": "Discurso de Bachelet en el segmento de alto nivel de la COP15 sobre cambio climático y multilateralismo.",
+   "Source_Verification": "https://speechbank.un.org/sites/default/files/2023-03/sp_00015_chi_unfccc_cop15_2009.pdf",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "313",
+   "President": "Sebastián Piñera",
+   "Start_Date": "2010-05-25",
+   "End_Date": "2010-05-25",
+   "Destination_Country": "Argentina",
+   "Destination_City": "Buenos Aires",
+   "Visit_Subtype": "Inauguration/Funeral",
+   "Counterpart_Event": "Bicentenario de la Independencia de Argentina / Cristina Fernández de Kirchner",
+   "Trip_Objective": "Presidió la delegación chilena en los festejos del Bicentenario argentino; participó en la inauguración de la Galería Patriotas Latinoamericanos en la Casa Rosada junto a otros jefes de Estado.",
+   "Source_Verification": "https://www.minrel.gob.cl/minrel/site/docs/20250624/20250624125818/memoria_2010__rev_abril_2014_.pdf",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "314",
+   "President": "Sebastián Piñera",
+   "Start_Date": "2010-10-28",
+   "End_Date": "2010-10-28",
+   "Destination_Country": "Argentina",
+   "Destination_City": "Buenos Aires",
+   "Visit_Subtype": "Inauguration/Funeral",
+   "Counterpart_Event": "Funeral de Néstor Kirchner",
+   "Trip_Objective": "Viajó junto a la Primera Dama Cecilia Morel, el Canciller Moreno y los presidentes del Senado y la Cámara de Diputados para participar en las exequias del ex Presidente Néstor Kirchner; Chile decretó tres días de duelo nacional.",
+   "Source_Verification": "https://www.minrel.gob.cl/minrel/site/docs/20250624/20250624125818/memoria_2010__rev_abril_2014_.pdf",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "323",
+   "President": "Sebastián Piñera",
+   "Start_Date": "2011-12-02",
+   "End_Date": "2011-12-03",
+   "Destination_Country": "Venezuela",
+   "Destination_City": "Caracas",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "I Cumbre de la CELAC",
+   "Trip_Objective": "Participó en la Cumbre fundacional de la Comunidad de Estados Latinoamericanos y Caribeños (CELAC) en Caracas; Hugo Chávez traspasó la presidencia pro tempore del organismo a Piñera para el período 2012.",
+   "Source_Verification": "https://www.minrel.gob.cl/minrel/site/docs/20250624/20250624125818/memoria_minrel_2011_2.pdf",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "324",
+   "President": "Sebastián Piñera",
+   "Start_Date": "2011-12-04",
+   "End_Date": "2011-12-05",
+   "Destination_Country": "Mexico",
+   "Destination_City": "Mérida",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "II Cumbre de la Alianza del Pacífico y XIII Cumbre del Mecanismo de Tuxtla",
+   "Trip_Objective": "Participó como invitado especial en la II Cumbre de la Alianza del Pacífico y en la XIII Cumbre del Mecanismo de Diálogo y Concertación de Tuxtla, en Mérida, Yucatán.",
+   "Source_Verification": "https://www.minrel.gob.cl/minrel/site/docs/20250624/20250624125818/memoria_minrel_2011_2.pdf",
+   "Source_Reliability": "High"
+  }
+ ]
+}

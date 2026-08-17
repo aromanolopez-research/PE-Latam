@@ -1,0 +1,351 @@
+{
+  "discrepancias_resueltas": [
+    {
+      "colt_TripID": "3909-CHL-ARG-44654",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2022-04-06",
+      "valor_propuesto": "2022-04-05",
+      "fuente": "https://www.jornada.com.mx/notas/2022/04/05/mundo/concluye-gabriel-boric-visita-oficial-en-argentina-con-alberto-fernandez/",
+      "justificacion": "Cronica de La Jornada publicada 2022-04-05 21:05 confirma que Boric regreso a Chile esa misma tarde (\"Boric, quien esta tarde regreso a su pais\"), cerrando la visita oficial a Argentina el 5 de abril, no el 6. Coincide con nuestra fecha original."
+    },
+    {
+      "colt_TripID": "3909-CHL-CAN-44718",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2022-06-07",
+      "valor_propuesto": "2022-06-06",
+      "fuente": "https://www.pm.gc.ca/en/news/news-releases/2022/06/06/prime-minister-concludes-successful-visit-president-chile-gabriel",
+      "justificacion": "Comunicado oficial de la Oficina del Primer Ministro de Canada, titulado \"Prime Minister concludes successful visit of President of Chile Gabriel Boric\", fechado 6 de junio de 2022, confirma que la visita a Canada se cerro ese mismo dia; esa noche Boric volo directo a Los Angeles (no regreso a Chile), por lo que no aplica la logica de vuelo nocturno de retorno."
+    },
+    {
+      "colt_TripID": "3909-CHL-USA-44719",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2022-06-11",
+      "valor_propuesto": "2022-06-11",
+      "fuente": "https://www.24horas.cl/actualidad/politica/presidente-boric-regreso-a-chile-tras-gira-por-norteamerica",
+      "justificacion": "El avion (Grupo 10 FACh) partio de Los Angeles a las 21:00 hs del viernes 10/6 y aterrizo en Chile a las 11:30 del sabado 11/6/2022. Siguiendo el mismo criterio ya aplicado en el caso analogo de Bolsonaro en la misma IX Cumbre de las Americas (3531-BRA-USA-44719, TripEndDate COLT_correcto=2022-06-11), la fecha de termino del viaje es el dia de aterrizaje de regreso, 11 de junio."
+    },
+    {
+      "colt_TripID": "3909-CHL-USA-44824",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2022-09-20;2022-09-24",
+      "valor_propuesto": "2022-09-20;2022-09-24",
+      "fuente": "https://www.emol.com/noticias/Nacional/2022/09/20/1073273/presidente-boric-llega-nueva-york.html ; https://www.24horas.cl/actualidad/politica/presidente-boric-volvio-a-chile-tras-gira-por-nueva-york-junto-a-dos-ministros",
+      "justificacion": "El avion FACh partio de Chile la tarde del 19/9 pero aterrizo en JFK recien pasada la medianoche (00:09 hora NY), por lo que la llegada efectiva a EEUU fue el 20/9 (confirmado por Emol). El regreso a Chile se confirma para la manana del sabado 24/9 junto a los ministros Marcel y Rojas (24horas). Nuestro registro original (19/9-21/9) no reflejaba ni la llegada real ni la extension de la agenda en Washington. Se corrige a COLT en ambos campos."
+    },
+    {
+      "colt_TripID": "3909-CHL-THA-44882",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2022-11-17;2022-11-20",
+      "valor_propuesto": "2022-11-16;2022-11-20",
+      "fuente": "https://www.t13.cl/noticia/politica/boric-llega-tailandia-participar-apec-espero-llevar-buenas-noticias-nuestro-pais-16-11-2022 ; https://cooperativa.cl/noticias/pais/presidente-boric/viajes-al-exterior/balance-positivo-de-las-autoridades-tras-gira-del-presidente-boric-por/2022-11-20/163319.html",
+      "justificacion": "Boric aterrizo en Bangkok el miercoles 16/11/2022 (multiples medios fechan la nota ese dia, ej. T13 16-11-2022), por lo que el TripStartDate correcto es el 16/11 (coincide con nuestro dato, no con COLT que registra 17/11). El regreso a Chile fue el domingo 20/11 tras un vuelo de ~25 horas (Cooperativa, nota fechada 20-11-2022), por lo que el TripEndDate correcto es el 20/11 (coincide con COLT, no con nuestro dato que registraba 19/11, dia de cierre de actividades en la APEC pero no de regreso a Chile). Es un caso mixto: ninguna de las dos fuentes (nuestra base o COLT) es correcta en su totalidad."
+    },
+    {
+      "colt_TripID": "3909-CHL-MEX-44887",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2022-11-25",
+      "valor_propuesto": "2022-11-25",
+      "fuente": "https://www.infobae.com/america/agencias/2022/11/22/boric-viaja-a-mexico-para-realizar-su-primera-visita-oficial/",
+      "justificacion": "Multiples medios (Infobae, Chile en el Exterior) confirman que Boric partio de Mexico la manana del viernes 25/11/2022, fecha en que originalmente se realizaria la Cumbre de la Alianza del Pacifico (luego suspendida). Nuestro dato (24/11) correspondia solo al ultimo dia de actividad bilateral con AMLO, no al dia de regreso. Se corrige a COLT."
+    },
+    {
+      "colt_TripID": "3909-CHL-ARG-44949",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2023-01-23",
+      "valor_propuesto": "2023-01-23",
+      "fuente": "https://www.meganoticias.cl/nacional/403258-boric-viaja-argentina-buenos-aires-cumbre-encuentro-maduro-23-01-2023.html ; https://www.biobiochile.cl/noticias/nacional/chile/2023/01/23/la-agenda-de-boric-en-la-celac-en-buenos-aires-marcada-por-dichos-de-bielsa-y-con-maduro-invitado.shtml",
+      "justificacion": "Boric viajo y arribo a Buenos Aires el lunes 23/1/2023 en la tarde/noche, un dia antes del inicio formal de la VII Cumbre CELAC (24/1). Nuestro dato solo registraba el dia de participacion en la cumbre (24/1), omitiendo el dia de llegada. Se corrige a COLT."
+    },
+    {
+      "colt_TripID": "3909-CHL-DOM-45008",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2023-03-23;2023-03-26",
+      "valor_propuesto": "2023-03-23;2023-03-26",
+      "fuente": "https://www.emol.com/noticias/Nacional/2023/03/23/1090227/boric-santo-domingo-cumbre-iberoamericana.html ; https://radio.uchile.cl/2023/03/24/presidente-boric-llego-a-santo-domingo-para-participar-de-cumbre-iberoamericana/",
+      "justificacion": "Boric arribo al Aeropuerto Las Americas de Santo Domingo a las 23:10 del jueves 23/3/2023 (vispera de la cumbre, que se realizo el 24-25/3) y su regreso estaba programado para las 13:00 del domingo 26/3. Nuestro dato (24/3-25/3) solo cubria los dias de la cumbre propiamente, no los dias reales de llegada y partida. Se corrige a COLT en ambos campos."
+    },
+    {
+      "colt_TripID": "3909-CHL-ESP-45121",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2023-07-14;2023-07-16",
+      "valor_propuesto": "2023-07-13;2023-07-16",
+      "fuente": "https://www.elmostrador.cl/noticias/pais/2023/07/13/presidente-boric-viaja-a-espana-para-su-primera-gira-europea-que-incluye-belgica-suiza-y-francia/ ; https://www.biobiochile.cl/noticias/nacional/chile/2023/07/13/boric-arranca-gira-europea-en-espana-encuentro-con-el-rey-y-cuidado-de-politica-interna-marcan-agenda.shtml",
+      "justificacion": "Boric arribo a Espana el 13/7/2023 tras un vuelo de 17 horas (El Mostrador, Biobiochile, notas fechadas 13-07-2023), aunque la agenda oficial (Sanchez, Felipe VI) comenzo recien el 14/7 -fecha que registra COLT como inicio-. El TripStartDate correcto es 13/7 (coincide con nuestro dato). Boric permanecio en Espana hasta el domingo 16/7, cuando volo a Bruselas para la Cumbre UE-CELAC (coincide con COLT, no con nuestro dato que cerraba el 15/7). Caso mixto: inicio nuestro, cierre COLT."
+    },
+    {
+      "colt_TripID": "3909-CHL-BEL-45123",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2023-07-16",
+      "valor_propuesto": "2023-07-16",
+      "fuente": "https://www.df.cl/economia-y-politica/gobierno/boric-llega-a-bruselas-para-cumbre-celac-ue-donde-abordara-los-desafios ; https://radio.uchile.cl/2023/07/16/presidente-boric-llega-a-bruselas-para-participar-en-la-cumbre-celac-ue/",
+      "justificacion": "Boric llego a Bruselas el domingo 16/7/2023, un dia antes del inicio formal de la Cumbre Celac-UE (17-18/7). Nuestro dato (17/7) reflejaba solo el primer dia de la cumbre, no el dia real de llegada al pais. Se corrige a COLT."
+    },
+    {
+      "colt_TripID": "3909-CHL-PRY-45153",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2023-08-15",
+      "valor_propuesto": "2023-08-14",
+      "fuente": "https://www.emol.com/noticias/Nacional/2023/08/14/1104161/boric-mismo-avion-pinera-paraguay.html",
+      "justificacion": "Boric embarco en el avion presidencial junto a Pinera la tarde del lunes 14/8/2023 rumbo a Asuncion, para el cambio de mando de Santiago Pena realizado el martes 15/8. El dato de COLT (inicio 15/8) omite el dia de viaje y llegada. Se confirma nuestro dato."
+    },
+    {
+      "colt_TripID": "3909-CHL-USA-45189",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2023-09-20;2023-09-22",
+      "valor_propuesto": "2023-09-20;2023-09-23",
+      "fuente": "https://www.elmostrador.cl/noticias/pais/2023/09/20/presidente-boric-llega-a-nueva-york-para-participar-de-la-asamblea-general-de-la-onu/ ; https://www.emol.com/noticias/Nacional/2023/09/21/1107714/segunda-jornada-boric-nueva-york.html ; https://gadebate.un.org/en/78/chile",
+      "justificacion": "OJO: COLT registra un unico viaje a EEUU (20-22/9/2023) mientras nuestra base lo dividio en dos Trip_ID (161: NY, 19-20/9; y 193: Washington DC, 22-23/9), lo que genera dos discrepancias distintas contra el mismo colt_TripID. La secuencia real confirmada por prensa fue: llegada a NY la madrugada del 20/9 (no 19/9), agenda en NY el 20 y 21/9, viaje a Washington DC el 22/9 para actividades del 50 aniversario del golpe, con permanencia en EEUU hasta el 23/9. Es decir, se trato de un unico viaje continuo NY+DC de 20 al 23/9, que ni nuestro Trip 161 (19-20/9) ni el registro de COLT (20-22/9) capturan por completo; nuestro Trip 193 (22-23/9) sí es coherente con el tramo final. Se recomienda a los responsables de la base evaluar fusionar 161 y 193 en un solo viaje 2023-09-20 a 2023-09-23, en lugar de tratarlos como dos viajes separados."
+    },
+    {
+      "colt_TripID": "3909-CHL-CHN-45213",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2023-10-19",
+      "valor_propuesto": "2023-10-19",
+      "fuente": "https://www.cnnchile.com/mundo/boric-china-viaje-regreso-8-escalas_20231018/",
+      "justificacion": "CNN Chile confirma que el regreso del Presidente y su comitiva estaba programado para partir el miercoles y arribar la noche del jueves 19/10/2023 a Chile (vuelo de mas de 40 horas con 8 escalas). Nuestro dato (18/10) correspondia al ultimo dia de actividades en Beijing (Foro de la Franja y la Ruta, 17-18/10), no al dia de regreso. Se corrige a COLT."
+    },
+    {
+      "colt_TripID": "3909-CHL-GTM-45307",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2024-01-16;2024-01-16",
+      "valor_propuesto": "2024-01-14;2024-01-15",
+      "fuente": "https://radio.uchile.cl/2024/01/14/presidente-boric-tras-su-arribo-a-guatemala-queria-dar-una-senal-de-apoyo-y-de-fortalecer-las-relaciones-con-centroamerica/ ; https://www.jornada.com.mx/noticia/2024/01/14/mundo/bernardo-arevalo-asume-presidencia-de-guatemala-tras-horas-de-tension-5632",
+      "justificacion": "Boric arribo a Guatemala el 14/1/2024. La investidura, originalmente prevista para el 14/1, se retraso por obstruccion legislativa y se realizo de madrugada el 15/1/2024; Boric regreso a Chile ese mismo dia, aterrizando en Santiago en la manana del 15/1. El dato de COLT (16/1 para ambos campos) no coincide con ninguna fuente disponible y aparenta ser un error. Se confirma nuestro dato completo."
+    },
+    {
+      "colt_TripID": "3909-CHL-DEU-45452",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2024-06-09",
+      "valor_propuesto": "2024-06-10",
+      "fuente": "https://www.emol.com/noticias/Nacional/2024/06/10/1133279/presidente-boric-alemania-gira-europa.html ; https://cooperativa.cl/noticias/pais/presidente-boric/viajes-al-exterior/presidente-boric-inicia-en-alemania-su-gira-por-europa-tenemos-una/2024-06-10/062614.html",
+      "justificacion": "Boric aterrizo en Berlin el lunes 10/6/2024 tras un vuelo de 18 horas (Emol y Cooperativa, notas fechadas 10-06-2024), siendo recibido por el canciller Scholz y el presidente Steinmeier. El domingo 9/6 (dato de COLT) corresponde al dia de partida desde Chile, no al de llegada a destino. Se confirma nuestro dato."
+    },
+    {
+      "colt_TripID": "3909-CHL-FRA-45459",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2024-06-16;2024-06-17",
+      "valor_propuesto": "2024-06-16;2024-06-17",
+      "fuente": "https://www.meganoticias.cl/nacional/450334-presidente-gabriel-boric-en-francia-reunion-emmanuel-macron-gira-por-europa-fds01-16-06-2024.html ; https://cooperativa.cl/noticias/pais/presidente-boric/viajes-al-exterior/presidente-boric-cerro-su-gira-europea-con-un-almuerzo-de-trabajo-con/2024-06-17/113102.html",
+      "justificacion": "Boric llego a Francia el domingo 16/6/2024 (cierre de su gira europea) y el almuerzo de trabajo con Macron en el Elyseo, que cerro la gira, fue el 17/6/2024. Nuestro dato (17-18/6) esta corrido un dia respecto de las fuentes disponibles. Se corrige a COLT en ambos campos."
+    },
+    {
+      "colt_TripID": "3909-CHL-USA-45557",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2024-09-22",
+      "valor_propuesto": "2024-09-23",
+      "fuente": "https://www.emol.com/noticias/Nacional/2024/09/22/1143299/presidente-boric-itinerario-nueva-york.html",
+      "justificacion": "Boric aterrizo en Nueva York el lunes 23/9/2024 a las 10:00 horas, iniciando ese mismo dia su agenda bilateral (Abbas, Arevalo, von der Leyen, Guterres) y la Cumbre del Futuro. El 22/9 (dato COLT) corresponde al dia de partida desde Chile. Se confirma nuestro dato."
+    },
+    {
+      "colt_TripID": "3909-CHL-URY-45691",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2025-02-03",
+      "valor_propuesto": "2025-02-03",
+      "fuente": "https://www.emol.com/noticias/Nacional/2025/01/28/1155584/boric-alista-viaje-uruguay.html ; https://prensa.presidencia.cl/comunicado.aspx?id=295496",
+      "justificacion": "La visita a Uruguay (reuniones con Lacalle Pou, Mujica y el electo Orsi) se realizo en una sola jornada, el lunes 3/2/2025, sin evidencia de pernocte ni actividades el 4/2. Se corrige a COLT (viaje de un solo dia)."
+    },
+    {
+      "colt_TripID": "3909-CHL-IND-45746",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2025-03-30;2025-04-06",
+      "valor_propuesto": "2025-04-01;2025-04-06",
+      "fuente": "https://www.emol.com/noticias/Nacional/2025/03/31/1162204/boric-arriba-a-india-gira.html ; https://www.latercera.com/politica/noticia/boric-aterriza-en-nueva-delhi-para-iniciar-ambiciosa-gira/",
+      "justificacion": "Boric partio de Chile el domingo 30/3/2025 (dato de COLT) pero aterrizo en la base aerea de Palam, Nueva Delhi, recien a las 6:00 am hora local del martes 1/4/2025 tras 22 horas de vuelo (coincide con nuestro dato de inicio). El regreso a Santiago estaba presupuestado para el domingo 6/4/2025 (coincide con COLT, no con nuestro dato que cerraba el 5/4, dia de la ultima escala en Bangalore). Caso mixto: inicio nuestro, cierre COLT."
+    },
+    {
+      "colt_TripID": "3909-CHL-JPN-45787",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2025-05-10",
+      "valor_propuesto": "2025-05-10",
+      "fuente": "https://www.cooperativa.cl/noticias/pais/presidente-boric/viajes-al-exterior/presidente-boric-llego-a-japon-para-iniciar-su-gira-por-asia/2025-05-10/221114.html ; https://www.emol.com/noticias/Nacional/2025/05/10/1166003/boric-llega-tokio-silencio-procultura.html",
+      "justificacion": "Boric aterrizo en el aeropuerto de Haneda, Tokio, el sabado 10/5/2025 tras un vuelo de 26 horas, iniciando su gira por Asia. Nuestro dato (11/5) correspondia al dia de la reunion bilateral con el primer ministro Ishiba, no al de la llegada al pais. Se corrige a COLT."
+    },
+    {
+      "colt_TripID": "3909-CHL-USA-45922",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2025-09-26",
+      "valor_propuesto": "2025-09-26",
+      "fuente": "https://radio.uchile.cl/2025/09/22/presidente-gabriel-boric-viaja-a-su-ultima-asamblea-general-de-las-naciones-unidas/",
+      "justificacion": "Fuente confirma explicitamente: 'El Jefe de Estado regreso al pais el jueves 25 y aterrizo en Santiago el viernes 26 de septiembre'. Nuestro dato (25/9) correspondia al dia de partida desde Nueva York, no al de aterrizaje en Chile. Se corrige a COLT."
+    },
+    {
+      "colt_TripID": "3909-CHL-BRA-45966",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2025-11-05",
+      "valor_propuesto": "2025-11-05",
+      "fuente": "https://www.gob.cl/en/news/there-is-no-time-to-lose-president-boric-arrives-at-cop30-and-highlights-chiles-leadership-with-70-renewable-energy-generation/",
+      "justificacion": "El primer tweet oficial anunciando la llegada de Boric a la COP30 (Belem) fue publicado a las 00:50 UTC del 6/11/2025, equivalente a las 21:50 hora local (Chile/Belem, GMT-3) del 5/11/2025, es decir que la llegada efectiva fue la noche del 5/11, no el 6/11 como registraba nuestra base. Se corrige a COLT."
+    },
+    {
+      "colt_TripID": "3909-CHL-ARE-45501",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2024-07-28",
+      "valor_propuesto": "2024-07-29",
+      "fuente": "https://www.infobae.com/america/agencias/2024/07/29/boric-llega-a-abu-dabi-en-la-primera-visita-de-un-presidente-de-chile-a-emiratos-arabes/",
+      "justificacion": "Boric arribo a Abu Dabi a las 6:40 am hora local del lunes 29/7/2024 (22:40 del domingo 28/7 en hora de Chile), en la primera visita oficial de un presidente chileno a EAU. Usando el criterio de dia de llegada al destino (igual que en los demas casos de esta base), el TripStartDate correcto es 29/7, tal como registra nuestra base; COLT registra el 28/7, que corresponde al dia de partida desde Chile en horario local chileno. Se confirma nuestro dato."
+    },
+    {
+      "colt_TripID": "3909-CHL-USA-45189",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2023-09-20;2023-09-22",
+      "valor_propuesto": "2023-09-20;2023-09-23",
+      "fuente": "https://www.elmostrador.cl/noticias/pais/2023/09/20/presidente-boric-llega-a-nueva-york-para-participar-de-la-asamblea-general-de-la-onu/ ; https://www.emol.com/noticias/Nacional/2023/09/21/1107714/segunda-jornada-boric-nueva-york.html",
+      "justificacion": "Mismo colt_TripID que la discrepancia del Trip 161 (ver justificacion detallada alli): COLT registra un unico viaje a EEUU (20-22/9/2023, NY+DC) mientras nuestra base lo dividio en dos Trip_ID (161 y este, 193). Nuestro Trip 193 (22-23/9) es coherente con el tramo final en Washington DC (viaje el 22/9 para actividades del 50 aniversario del golpe, permanencia hasta el 23/9), pero como TripID aislado no refleja que el viaje realmente comenzo el 20/9 en Nueva York. Se recomienda fusionar los Trip 161 y 193 en un unico registro 2023-09-20 a 2023-09-23 en lugar de mantenerlos separados."
+    }
+  ],
+  "colt_unico_resueltos": [
+    {
+      "colt_TripID": "3909-CHL-CHL-45099",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Villa Las Estrellas; Base Aerea Antartica Presidente Eduardo Frei Montalva"
+      },
+      "fuente": "https://fach.mil.cl/presidente-gabriel-boric-visita-base-aerea-antartica-presidente-frei ; https://cooperativa.cl/noticias/pais/presidente-boric/boric-viaja-a-la-antartica-con-jefes-policiales-y-de-las-fuerzas-armadas/2023-06-22/151856.html",
+      "justificacion": "Confirmado: Boric viajo del 22 al 27 de junio de 2023 a Magallanes y el Territorio Chileno Antartico, arribando a la Base Aerea Antartica Presidente Frei alrededor de las 10:00 am del viernes 23/6, y visitando Villa Las Estrellas e INACH. Las fechas de COLT (22-23/6) coinciden con el inicio del viaje. OJO metodologico: se trata de territorio antartico reclamado/administrado por Chile (no un tercer pais), por lo que es razonable que nuestra base no lo trate como 'viaje internacional' y por eso no tenga equivalente -no es necesariamente una brecha real de cobertura, sino una diferencia de alcance/definicion entre ambas bases-."
+    },
+    {
+      "colt_TripID": "3909-CHL-CHL-45253",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Base Aerea Antartica Presidente Eduardo Frei Montalva; Glaciar Collins"
+      },
+      "fuente": "https://radio.uchile.cl/2023/11/23/secretario-general-de-la-onu-y-presidente-boric-alertan-sobre-el-papel-clave-de-la-antartica-en-la-regulacion-del-clima/ ; https://www.gob.cl/noticias/viaje-antartica-presidente-boric-secretario-general-onu-guterres-importancia/",
+      "justificacion": "Confirmado: Boric y el Secretario General de la ONU Antonio Guterres recorrieron el territorio antartico chileno (Base Frei, glaciar Collins, isla Kopaitic, Rada Covadonga) entre el 23 y el 25 de noviembre de 2023, en visperas de la COP28, coincidiendo con las fechas de COLT (23-25/11). Misma observacion metodologica que el viaje anterior: territorio antartico chileno, no un tercer pais, lo que puede explicar su ausencia en nuestra base sin que sea necesariamente una brecha real."
+    },
+    {
+      "colt_TripID": "3909-CHL-CHL-45660",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "https://www.emol.com/noticias/Nacional/2025/01/04/1153164/amundsen-scott-visita-boric-antartica.html ; https://radio.uchile.cl/2025/01/02/hito-diplomatico-cientifico-y-medioambiental-boric-sera-el-tercer-jefe-de-estado-en-llegar-al-polo-sur/",
+      "justificacion": "Confirmado: Operacion 'Estrella Polar III' (2-4 enero 2025), en la que Boric se convirtio en el primer presidente latinoamericano en llegar al Polo Sur, visitando la Estacion Glaciar Union y la base estadounidense Amundsen-Scott; fechas coinciden con COLT (3-4/1/2025). CityVisited ya viene completo en el registro de COLT (Amundsen-Scott American Base), no requiere edicion. Nota: al ser una base de otro pais (EEUU) dentro del continente antartico, es un caso limite entre viaje domestico e internacional; se sugiere revisar si corresponde incorporarlo a nuestra base bajo un criterio especial."
+    },
+    {
+      "colt_TripID": "3909-CHL-SLV-45443",
+      "veredicto": "Descartado",
+      "campos_completados": {},
+      "fuente": "https://www.infobae.com/america/america-latina/2024/06/01/en-vivo-nayib-bukele-asume-su-segundo-mandato-en-el-salvador/",
+      "justificacion": "No se encontro evidencia de que Boric haya asistido personalmente a la segunda investidura de Nayib Bukele (1/6/2024). Las listas de mandatarios presentes (Milei, Noboa, Castro, Felipe VI, Chaves, etc.) publicadas por medios que cubrieron el evento NO incluyen a Boric; Chile envio una representacion de menor rango (no identificada con precision en las fuentes consultadas). Esto es consistente con la conocida tension publica entre Boric y Bukele por criticas mutuas sobre autoritarismo y derechos humanos. Se marca como Descartado; se recomienda no incorporar este viaje a la base salvo que aparezca evidencia directa de viaje presidencial (ej. comunicado de Presidencia o Cancilleria chilena)."
+    },
+    {
+      "colt_TripID": "3909-CHL-VAT-45943",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "https://www.gob.cl/en/news/president-gabriel-boric-received-in-private-audience-by-pope-leo-xiv-during-official-visit-to-the-holy-see/ ; https://www.t13.cl/amp/noticia/politica/presidente-boric-reunio-papa-leon-xiv-vaticano-invitacion-visitar-chile-13-10-2025",
+      "justificacion": "Confirmado: Boric fue recibido en audiencia privada por el papa Leon XIV en el Vaticano el 13/10/2025, coincidiendo exactamente con la fecha unica registrada por COLT. CityVisited ya viene completo (Vatican City). Nota metodologica: esta visita al Vaticano fue el primer tramo de una gira mas amplia que continuo en Italia (13-15/10, ver TripID 3909-CHL-ITA-45943); es posible que nuestra base, si registra el viaje a Italia como una sola entrada, ya incluya implicitamente esta escala en el Vaticano como actividad dentro de esa gira, en cuyo caso no seria una brecha real sino una diferencia de granularidad (COLT separa Vaticano/Italia como paises distintos, lo cual es correcto dado que la Santa Sede es un Estado soberano distinto de Italia)."
+    },
+    {
+      "colt_TripID": "3909-CHL-ITA-45943",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "https://www.latercera.com/politica/noticia/presidente-gabriel-boric-ya-se-encuentra-en-italia-para-visita-oficial-en-la-cual-se-reunira-con-el-papa-leon-xiv/ ; https://www.gob.cl/en/news/working-visit-to-italy-president-gabriel-boric-inaugurates-fao-investment-forum/",
+      "justificacion": "Confirmado: gira de trabajo en Italia del 13 al 15 de octubre de 2025 (reunion con el presidente Sergio Mattarella, inauguracion del Foro Hand-in-Hand de la FAO, conmemoracion de los 50 anios del atentado a Bernardo Leighton), coincidiendo con las fechas de COLT. CityVisited ya viene completo (Rome). Ver nota metodologica en el item del Vaticano (mismo viaje/gira, paises distintos segun division de COLT)."
+    },
+    {
+      "colt_TripID": "3909-CHL-MEX-45564",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ciudad de Mexico"
+      },
+      "fuente": "https://radio.uchile.cl/2024/09/29/presidente-boric-inicia-gira-por-mexico-asistira-a-investidura-de-claudia-sheinbaum/ ; https://embamex.sre.gob.mx/chile/index.php/comunicados/440-visita-toma-posecion-presidenta",
+      "justificacion": "Confirmado: Boric viajo a Ciudad de Mexico para la ceremonia de Transmision de Mando Presidencial en que Claudia Sheinbaum asumio como presidenta el martes 1/10/2024, llegando la manana del 30/9 y participando en actividades oficiales (almuerzo de despedida a AMLO, bilateral con la jefa de gobierno CDMX electa Clara Brugada). Las fechas de COLT (29/9-2/10) son razonables considerando dia de partida desde Chile y de regreso."
+    },
+    {
+      "colt_TripID": "3909-CHL-PRY-45479",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Asuncion"
+      },
+      "fuente": "https://www.emol.com/noticias/Nacional/2024/07/16/1136770/boric-emprende-visita-oficial-paraguay.html ; https://www.latercera.com/politica/noticia/visita-oficial-de-boric-a-paraguay-mandatario-sera-acompanado-por-ministros-parlamentarios-y-una-delegacion-empresarial/PMPTU2BKVFDWHEDMYISUFM4LQI/",
+      "justificacion": "El viaje SI ocurrio y esta ampliamente documentado (contrario a la nota de baja confianza de COLT que decia 'nature of visit unclear'): fue una visita oficial de Boric a Paraguay centrada en comercio e interconexion vial (Corredor Bioceanico), con reunion empresarial en el Banco Central, bilateral con el presidente Santiago Pena y discurso ante el Congreso paraguayo. Sin embargo, las FECHAS que registra COLT (2024-07-06 a 2024-07-08) son ERRONEAS: multiples medios (Emol, La Tercera, Cooperativa, BioBioChile, Minrel) coinciden en que la visita fue el 16 y 17 de julio de 2024, no del 6 al 8. Valor correcto propuesto: TripStartDate 2024-07-16, TripEndDate 2024-07-17 (10 dias despues de lo registrado por COLT)."
+    },
+    {
+      "colt_TripID": "3909-CHL-KOR-45960",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "https://cooperativa.cl/noticias/pais/presidente-boric/viajes-al-exterior/presidente-boric-viajara-a-corea-del-sur-para-participar-en-cumbre-de-apec/2025-10-25/155805.html ; https://laprensaaustral.cl/2025/10/30/presidente-boric-llego-a-corea-del-sur-para-participar-en-cumbre-de-la-apec/",
+      "justificacion": "Confirmado: Boric arribo a Seul el jueves 30/10/2025 (visita de trabajo, seminario empresarial Chile-Corea, KIST, reunion con Ban Ki-moon), y luego se traslado a Gyeongju para la cumbre de lideres APEC realizada el 31/10 y 1/11/2025, siendo el unico presidente latinoamericano presente. Fechas coinciden exactamente con COLT (30/10-1/11). CityVisited ya viene completo (Seoul;Gyeongju)."
+    },
+    {
+      "colt_TripID": "3909-CHL-ESP-45212",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Madrid"
+      },
+      "fuente": "https://www.cnnchile.com/pais/viaje-boric-china-escalas-avion-fach_20231012/",
+      "justificacion": "Confirmado: Madrid fue la tercera escala del viaje de Boric a China (avion FACh partio de Chile el 12/10/2023 a la 13:00 hrs, con 6 escalas), y durante esa escala en Espana (13/10/2023) Boric se reunio con la tripulacion de la FACh que habia participado en la evacuacion de chilenos desde la zona de conflicto en Israel. Coincide con la fecha unica registrada por COLT (13/10/2023). Es consistente con nuestra base, que ya registra por separado el viaje a China (Trip 162, discrepancia arriba resuelta) del 14 al 19/10/2023."
+    },
+    {
+      "colt_TripID": "3909-CHL-URY-45792",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "https://www.emol.com/noticias/Nacional/2025/... (Reuters/agencias, referenciado en colt_links) ; tweets oficiales x.com/GabrielBoric/status/1923133065573847458 y x.com/compresidencia/status/1923074169740140951 (15/5/2025)",
+      "justificacion": "Confirmado: Boric viajo a Montevideo el 15/5/2025 para asistir al velorio del expresidente uruguayo Jose 'Pepe' Mujica, fallecido el 13/5/2025. Los timestamps de los tweets oficiales citados por COLT corresponden efectivamente al 15/5/2025, coincidiendo con la fecha unica registrada. CityVisited ya viene completo (Montevideo)."
+    }
+  ],
+  "nuestro_unico_check": [
+    {
+      "our_Trip_ID": "152",
+      "fuente_ok": true,
+      "nota": "Link de BioBioChile resuelve correctamente (200) y su contenido confirma exactamente el viaje: Boric llego a Brasilia la manana del domingo 1/1/2023 junto al expresidente Ricardo Lagos para la investidura de Lula da Silva, con regreso previsto la tarde del lunes 2/1. Coincide con nuestras fechas (2023-01-01/2023-01-02). No es brecha de COLT (periodo cubierto por COLT), simplemente no fue capturado por su base."
+    },
+    {
+      "our_Trip_ID": "158",
+      "fuente_ok": true,
+      "nota": "Link de Emol resuelve correctamente (200) y confirma la gira europea de julio 2023 (Espana, Francia, Belgica, Suiza) incluyendo visita al CERN y encuentro con el director de la OMS Tedros Adhanom, consistente con nuestro registro de la escala en Ginebra (2023-07-19/07-20)."
+    },
+    {
+      "our_Trip_ID": "159",
+      "fuente_ok": true,
+      "nota": "Mismo articulo de Emol que el Trip 158 (resuelve correctamente, 200), confirma bilateral con Macron como cierre de la gira europea de julio 2023, consistente con nuestro registro de Paris (2023-07-21)."
+    },
+    {
+      "our_Trip_ID": "177",
+      "fuente_ok": true,
+      "nota": "Link de Diario Financiero (df.cl) resuelve correctamente (contenido extenso obtenido sin error), consistente con el viaje de Boric a la investidura de Yamandu Orsi en Uruguay (2025-02-28/2025-03-01)."
+    },
+    {
+      "our_Trip_ID": "186",
+      "fuente_ok": true,
+      "nota": "Link de Gob.cl resuelve y esta indexado con el titulo exacto 'Presidente Jose Antonio Kast realiza su primer viaje internacional y sostiene reunion de trabajo con Presidente Javier Milei', confirmado tambien por multiples medios (La Nacion, Ambito, CNN en Espanol) para la visita a Buenos Aires de abril 2026 coincidiendo con la conmemoracion de la Batalla de Maipu. Consistente con nuestras fechas (2026-04-05/04-06). Nota: esta correctamente marcado como agregado propio, ya que COLT no cubre 2026 (fin de mandato de Boric en marzo 2026 y periodo COLT solo hasta 2025), por lo que NO es una brecha real de COLT."
+    },
+    {
+      "our_Trip_ID": "187",
+      "fuente_ok": true,
+      "nota": "Link de Prensa Presidencia (fotonoticia id=333191) resuelve y su titulo indexado coincide exactamente: 'S.E. El Presidente de la Republica, Jose Antonio Kast, arriba a Asuncion para participar en Cumbre del MERCOSUR', confirmando el viaje a Paraguay de fines de junio 2026 (LXVIII Cumbre del MERCOSUR). Consistente con nuestras fechas (2026-06-29/06-30). No es brecha real de COLT (2026 fuera de su cobertura)."
+    },
+    {
+      "our_Trip_ID": "188",
+      "fuente_ok": false,
+      "nota": "OJO: el link citado (prensa.presidencia.cl/fotonoticia.aspx?id=333293) SI resuelve como URL, pero su contenido real e indexado corresponde a 'Presidente Jose Antonio Kast sostiene reunion bilateral con el Presidente de Brasil en el marco de la Cumbre del Mercosur' (es decir, es parte del mismo viaje a PARAGUAY del Trip 187, no de la visita a Uruguay). Es un link mal asignado/cruzado en la base, no un 404. El viaje a Uruguay SI ocurrio y esta bien documentado (Kast se reunio con Orsi en Montevideo el 1/7/2026, firma de acuerdos MOU Instituto Artigas-Academia Andres Bello, coincide con nuestras fechas 2026-07-01), pero el link correcto deberia ser otro, por ejemplo https://prensa.presidencia.cl/fotonoticia.aspx?id=333573 ('S.E. el Presidente de la Republica, Jose Antonio Kast, inicia visita oficial a la Republica Oriental del Uruguay') o https://prensa.presidencia.cl/comunicado.aspx?id=333562. Se recomienda corregir el Source_Verification de este registro."
+    },
+    {
+      "our_Trip_ID": "191",
+      "fuente_ok": true,
+      "nota": "Link de La Tercera resuelve correctamente (200) y su contenido confirma con precision el viaje: Boric viajo a Paris entre el miercoles 24 y el domingo 28 de julio de 2024 para la ceremonia inaugural de los JJOO 2024 (invitacion del Comite Olimpico de Chile) y la Cumbre de Desarrollo Sostenible Olimpico convocada por Macron, luego continuando a Emiratos Arabes Unidos (29-30/7). Coincide exactamente con nuestras fechas (2024-07-24/07-28)."
+    }
+  ]
+}

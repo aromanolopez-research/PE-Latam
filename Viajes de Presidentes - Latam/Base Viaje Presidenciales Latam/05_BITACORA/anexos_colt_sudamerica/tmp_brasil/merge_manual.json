@@ -1,0 +1,129 @@
+[
+ {
+  "colt_TripID": "994-BRA-PRT-37569",
+  "veredicto": "Ninguno_exacto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2002-11-09 a 2002-11-13",
+  "valor_propuesto": "salida Brasil ~09/11, llegada Lisboa (domingo) 10/11 sin compromisos, actividad oficial 11-12/11",
+  "fuente": "Agencia Brasil 10/11/2002 'FHC chega a Lisboa sem compromissos oficiais neste domingo'; Diario ABC 09/11/2002 'FHC faz ultima viagem como chefe de Estado'",
+  "justificacion": "FHC parece haber salido de Brasil alrededor del 09/11 (coincide con inicio COLT) pero llego a Lisboa el domingo 10/11 sin actividad oficial ese dia; los compromisos oficiales comenzaron el 11/11 (coincide con nuestro inicio). Ninguna fecha reproduce exactamente el patron completo; el fin (12 nuestro vs 13 COLT) tampoco se pudo verificar con certeza, aunque la secuencia con el viaje a Reino Unido (13-14/11 registrado en colt_unico) favorece levemente el fin nuestro (12/11)."
+ },
+ {
+  "colt_TripID": "1780-BRA-DEU-37649",
+  "veredicto": "Nuestro_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2003-01-28",
+  "valor_propuesto": "2003-01-27",
+  "fuente": "http://memoria.ebc.com.br/agenciabrasil/noticia/2003-01-27/lula-e-recebido-com-honras-militares-na-alemanha",
+  "justificacion": "Agencia Brasil confirma que Lula fue recibido con honores militares en Alemania el 27/01/2003 (reunion con el presidente Rau en el Palacio Bellevue a las 15:45h), coincidiendo con nuestra fecha, no con la de COLT (28/01)."
+ },
+ {
+  "colt_TripID": "1780-BRA-FRA-37650",
+  "veredicto": "Nuestro_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2003-01-29",
+  "valor_propuesto": "2003-01-28",
+  "fuente": "Search Query: Lula Alemanha Franca janeiro 2003 (cronologia Funag: Alemanha 27-28/01, Franca inmediatamente despues)",
+  "justificacion": "Dado que la visita a Alemania se confirmo el 27/01/2003 (con actividades hasta el 28/01 segun cronologia FUNAG), la etapa francesa habria comenzado el 28/01, consistente con nuestra fecha, no con la de COLT (29/01)."
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-37888",
+  "veredicto": "Nuestro_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2003-09-24 a 2003-09-25",
+  "valor_propuesto": "2003-09-23",
+  "fuente": "https://ptnosenado.org.br/o-discurso-de-lula-na-onu-em-23-de-setembro-de-2003/",
+  "justificacion": "Esta ampliamente documentado que el discurso de Lula ante la Asamblea General de la ONU fue el 23/09/2003; el rango de COLT (24-25/09) ni siquiera incluye esa fecha, por lo que parece claramente erroneo."
+ },
+ {
+  "colt_TripID": "1780-BRA-ESP-37817",
+  "veredicto": "Ninguno_exacto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2003-07-15",
+  "valor_propuesto": "N/D",
+  "fuente": "N/D",
+  "justificacion": "Diferencia de solo 1 dia (14 nuestro vs 15 COLT); no se encontro evidencia independiente concluyente, aunque la secuencia del viaje (Reino Unido hasta 14/07 segun ambas bases) es compatible con cualquiera de las dos fechas de inicio en Espana."
+ },
+ {
+  "colt_TripID": "994-BRA-USA-37202",
+  "our_Trip_ID": "350",
+  "veredicto": "Ninguno_exacto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2001-11-07 a 2001-11-11",
+  "valor_propuesto": "2001-11-08 (ver item paralelo our_Trip_ID=17 para el mismo colt_TripID)",
+  "fuente": "Ver justificacion de discrepancia previa sobre 994-BRA-USA-37202 (our_Trip_ID 17)",
+  "justificacion": "Este item duplica el mismo colt_TripID (994-BRA-USA-37202) ya evaluado para our_Trip_ID 17, pero con fechas nuestras distintas (10/11 vs 08-09/11). Esto sugiere una posible entrada duplicada o fragmentada en nuestra base para el mismo viaje a EEUU de noviembre 2001; se confirmo por fuente de la Casa Blanca que la reunion Bush-Cardoso fue el 08/11/2001. Se recomienda revisar si our_Trip_ID 350 es un duplicado de our_Trip_ID 17 en la base propia."
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-39885",
+  "veredicto": "Ninguno_exacto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2009-03-13 / 2009-03-16",
+  "valor_propuesto": "No determinado con certeza",
+  "fuente": "Obama White House press office (reunión confirmada sábado 14-mar-2009); Global Voices 15-mar-2009",
+  "justificacion": "Se confirmó de forma independiente que el encuentro Lula-Obama en la Casa Blanca fue el sábado 14-mar-2009 (coincide con nuestra fecha). El TripStartDate de COLT (13-mar) es plausible si incluye el día de embarque nocturno (vuelo Brasília-Washington ~9-10h). Pero no se halló evidencia de una permanencia extendida hasta el 16-mar (COLT End); tampoco hay confirmación de que el viaje haya sido estrictamente de un solo día como registra nuestra base. Veredicto mixto: parcialmente a favor de COLT en el inicio, sin verificar el cierre."
+ },
+ {
+  "colt_TripID": "1780-BRA-USA-40077",
+  "veredicto": "Ninguno_exacto",
+  "campo": "TripStartDate",
+  "valor_colt_original": "2009-09-21",
+  "valor_propuesto": "Ver justificación (dos tramos: 2009-09-23 y 2009-09-24/25)",
+  "fuente": "Itamaraty: discurso de apertura del debate general de la 64ª Asamblea General de la ONU, Nueva York, 23-sep-2009; Cumbre G20 Pittsburgh confirmada 24-25 sep 2009",
+  "justificacion": "COLT registra un único viaje continuo a EE.UU. (21 al 25-sep-2009), mientras nuestra base lo divide en dos: Trip 119 (23-sep, discurso ONU) y Trip 286 (24-25-sep, G20 Pittsburgh). Ambas fechas ancla de nuestra base están confirmadas por fuentes oficiales/independientes. La ventana adicional de COLT (21-22 sep) es plausible como llegada anticipada para reuniones bilaterales previas a la Asamblea (práctica común en la semana de apertura de la ONU), pero no fue confirmada de forma independiente. Se recomienda evaluar si conviene unificar ambos tramos en nuestra base como un solo viaje continuo a EE.UU., dado que no hay evidencia de que Lula haya regresado a Brasil entre el 23 y el 24 de septiembre."
+ },
+ {
+  "colt_TripID": "2652-BRA-USA-41007",
+  "veredicto": "Ninguno_exacto",
+  "campo": "otro",
+  "valor_colt_original": "2012-04-08 a 2012-04-09",
+  "valor_propuesto": "2012-04-09 (dia central confirmado; extension de un dia de viaje sin poder determinar de que lado)",
+  "fuente": "https://www.brookings.edu/articles/u-s-brazilian-relations-understanding-president-rousseffs-visit-to-washington-and-secretary-clintons-visit-to-brasilia/",
+  "justificacion": "Brookings describe la visita como 'one day visit' el 9 de abril de 2012 (Lunes de Pascua); tanto COLT como nuestra base agregan un dia de viaje pero en extremos opuestos, sin evidencia que permita determinar cual es correcto."
+ },
+ {
+  "colt_TripID": "2652-BRA-USA-41540",
+  "veredicto": "Nuestro_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2013-09-23 a 2013-09-25",
+  "valor_propuesto": "2013-09-24",
+  "fuente": "https://www.gov.br/mre/pt-br/centrais-de-conteudo/publicacoes/discursos-artigos-e-entrevistas/presidente-da-republica/presidente-da-republica-federativa-do-brasil-discursos/dilma-vana-rousseff-2011-2016/discurso-da-presidenta-da-republica-dilma-rousseff-na-abertura-do-debate-geral-da-68-assembleia-geral-das-nacoes-unidas",
+  "justificacion": "El discurso de apertura del Debate General de la 68a Asamblea General de la ONU esta fechado oficialmente 'Nova York, 24 de setembro de 2013'; no se hallo evidencia de actividad el 23 o 25/09. NOTA: este viaje es distinto e independiente de la cancelacion de la visita de Estado a Washington (prevista para octubre 2013), que en nuestra base permanece correctamente como Trip_Status=Canceled."
+ },
+ {
+  "colt_TripID": "2652-BRA-VEN-41340",
+  "veredicto": "Nuestro_correcto",
+  "campo": "TripStartDate;TripEndDate",
+  "valor_colt_original": "2013-03-07",
+  "valor_propuesto": "2013-03-08",
+  "fuente": "https://www.cnn.com/2013/03/07/world/americas/venezuela-chavez",
+  "justificacion": "Multiples fuentes (CNN, Fox News, Democracy Now) confirman que el funeral de Estado de Hugo Chavez en Caracas se realizo el viernes 08/03/2013, no el 07/03 (dia en que aun se realizaban actos de duelo previos)."
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-44925",
+  "veredicto": "Ninguno_exacto",
+  "campo": "TripEndDate",
+  "valor_colt_original": "2023-03-30",
+  "valor_propuesto": "2023-01-01 (mantener; no adoptar 2023-03-30)",
+  "fuente": "https://www.npr.org/2023/03/30/1167040880/bolsonaro-returns-brazil-from-florida",
+  "justificacion": "OJO CASO SENSIBLE (transicion Bolsonaro-Lula): COLT registra correctamente que Bolsonaro permanecio fisicamente en Florida hasta el 30/3/2023 (confirmado por NPR), pero dejo de ser Jefe de Estado el 1/1/2023 al asumir Lula. Es una diferencia de alcance/definicion (COLT sigue al individuo hasta su regreso fisico; nuestra base cierra el viaje presidencial al fin del mandato), no un error factual de COLT sobre la fecha de regreso. Recomendamos mantener nuestro criterio."
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-44925",
+  "veredicto": "Ninguno_exacto",
+  "campo": "otro",
+  "valor_colt_original": "3531-BRA-USA-44925 (vinculado erroneamente a nuestro Trip 237 de Lula)",
+  "valor_propuesto": "El TripID real de COLT para el viaje de Lula a Washington (9-11 feb 2023) es 1780-BRA-USA-44966, listado por separado en la seccion colt_unico de este mismo workpack",
+  "fuente": "https://www.pbs.org/newshour/world/brazilian-president-luiz-inacio-lula-da-silva-will-visit-biden-on-feb-10 ; https://news.yahoo.com/brazils-lula-visit-biden-feb-215439598.html",
+  "justificacion": "ALERTA DE EMPAREJAMIENTO ESPURIO: el colt_TripID 3531-BRA-USA-44925 pertenece al viaje de Bolsonaro a EEUU (dic2022-mar2023), no a Lula. El script de conciliacion parece haber reutilizado ese ID por proximidad de pais/fecha al no encontrar un candidato mejor, generando una discrepancia de fechas ficticia (colt=dic2022-mar2023 vs nuestro=feb2023). El verdadero correlato COLT de nuestro Trip 237 (Lula, Washington, llego 9/2 discurso con Biden 10/2 regreso 11/2 segun PBS/Yahoo) es la entrada 1780-BRA-USA-44966 (COLT: 9-10 feb 2023), que aparece en la lista colt_unico de este workpack como si fuera un vacio real, cuando en realidad ya esta cubierta por nuestro Trip 237. Recomendamos: (a) ignorar la comparacion de fechas contra 3531-BRA-USA-44925 para el Trip 237; (b) marcar 1780-BRA-USA-44966 como ya cubierto (ver colt_unico_resueltos); (c) considerar ajustar nuestro Trip 237 a 2023-02-09/2023-02-11 si se desea alinear con la cobertura completa del viaje (llegada 9/2, reunion con Biden 10/2, regreso 11/2)."
+ },
+ {
+  "colt_TripID": "3531-BRA-USA-44925",
+  "veredicto": "Ninguno_exacto",
+  "campo": "otro",
+  "valor_colt_original": "N/A (our_Trip_ID 237)",
+  "valor_propuesto": "Ver nota en fila anterior de este mismo colt_TripID",
+  "fuente": "N/A",
+  "justificacion": "Entrada duplicada de control para our_Trip_ID 237; ver justificacion detallada arriba."
+ }
+]

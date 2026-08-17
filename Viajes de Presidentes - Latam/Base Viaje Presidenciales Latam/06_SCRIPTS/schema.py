@@ -44,9 +44,26 @@ COLUMNS = [
     "Tema_Foro",             # 21 Tema principal del foro multilateral (taxonomía cerrada, ver DOM_TEMA_FORO).
                              #    SOLO para Visit_Category = Multilateral; en Bilateral/Other va "NA".
     "Verificacion_Status",   # 22 Verificada-URL | Solo-Query | No-verificable (campaña de verificación 2026-07-07).
+    # ── Columnas 23-31: variables de micro-conducta tomadas del esquema del dataset
+    # externo Diplometrics COLT (Country and Organization Leader Travel, Pardee
+    # Institute, U. Denver), agregadas 2026-08-03 a pedido del usuario para combinar
+    # ambos esquemas. Complementan (no reemplazan) nuestra taxonomía propia: mientras
+    # Visit_Category/Visit_Subtype/Tema_Foro/Counterpart_Type clasifican QUÉ TIPO de
+    # visita fue, estas columnas registran QUÉ HIZO el mandatario durante la visita.
+    # Dominio TRUE|FALSE|NA en las booleanas; NA significa "no investigado en esta
+    # ronda" (rollout incremental, mismo criterio que Counterpart_Type/Tema_Foro).
+    "MetHostHOGS",            # 23 TRUE|FALSE|NA. Reunión bilateral con el Jefe de Estado/Gobierno del país anfitrión.
+    "MetNonHostHOGS",         # 24 TRUE|FALSE|NA. Reunión con un Jefe de Estado/Gobierno de un TERCER país (no el anfitrión).
+    "NonHostHOGS_Name",       # 25 Nombre del/los Jefe/s de Estado/Gobierno de terceros países reunidos. NA si no aplica.
+    "PublicAddress",          # 26 TRUE|FALSE|NA. Discurso público, alocución, entrevista no periodística, etc.
+    "SignedAgreement",        # 27 TRUE|FALSE|NA. Firmó o presenció la firma de un acuerdo/tratado/memorándum.
+    "CulturalSiteOrCeremony", # 28 TRUE|FALSE|NA. Visita a sitio cultural/religioso/histórico o ceremonia (incl. inauguraciones, actos militares).
+    "BusinessLeaderOrForum",  # 29 TRUE|FALSE|NA. Reunión/foro con líderes del sector privado/empresarial.
+    "MetIGOLeader",           # 30 TRUE|FALSE|NA. Reunión bilateral con el líder de un organismo internacional (ONU, FMI, BM, etc.).
+    "IGOLeader_Name",         # 31 Nombre y cargo del líder de organismo internacional reunido. NA si no aplica.
 ]
 
-N_COLUMNS = len(COLUMNS)  # 22
+N_COLUMNS = len(COLUMNS)  # 31
 
 # ──────────────────────────────────────────────────────────────────────────
 # 2) DOMINIOS DE VALORES PERMITIDOS
@@ -135,6 +152,9 @@ REGION_MAP = {
     "Slovakia":"Europe","Slovenia":"Europe","Croatia":"Europe","Romania":"Europe","Hungary":"Europe",
     "Serbia":"Europe","Luxembourg":"Europe","Iceland":"Europe","Lithuania":"Europe","Latvia":"Europe","Estonia":"Europe",
     "Scotland":"Europe","Azerbaijan":"Europe",
+    # Armenia agregado 2026-08-03 (extension Menem/COLT): mismo criterio que Azerbaijan
+    # (estado del Caucaso, ya mapeado a Europe en este proyecto por consistencia interna).
+    "Armenia":"Europe",
     # Africa
     "Democratic Republic of Congo":"Africa",
     # Asia-Pacific (incluye Oceanía y Asia Central)
@@ -216,6 +236,17 @@ def validate_row(row: dict, idx=None) -> list:
                     f"(hallado '{row['Counterpart_Type']}')")
     if row["Visit_Category"] == "Bilateral" and row["Counterpart_Type"] == MISSING:
         errs.append(f"{tag}Counterpart_Type faltante: fila Bilateral requiere clasificar la contraparte")
+
+    # 4.2b columnas de micro-conducta estilo COLT (agregadas 2026-08-03)
+    for col in ("MetHostHOGS", "MetNonHostHOGS", "PublicAddress", "SignedAgreement",
+                "CulturalSiteOrCeremony", "BusinessLeaderOrForum", "MetIGOLeader"):
+        if str(row[col]) not in DOM_SIDELINE:  # mismo dominio TRUE|FALSE|NA
+            errs.append(f"{tag}{col} invalido: '{row[col]}' (debe ser TRUE, FALSE o NA)")
+    # los campos de nombre deben ser NA si el booleano asociado no es TRUE
+    if row["MetNonHostHOGS"] != "TRUE" and row["NonHostHOGS_Name"] != MISSING:
+        errs.append(f"{tag}NonHostHOGS_Name debe ser NA cuando MetNonHostHOGS != TRUE")
+    if row["MetIGOLeader"] != "TRUE" and row["IGOLeader_Name"] != MISSING:
+        errs.append(f"{tag}IGOLeader_Name debe ser NA cuando MetIGOLeader != TRUE")
 
     # 4.3 region coherente con país (si el país está mapeado)
     auto = region_for(row["Destination_Country"])

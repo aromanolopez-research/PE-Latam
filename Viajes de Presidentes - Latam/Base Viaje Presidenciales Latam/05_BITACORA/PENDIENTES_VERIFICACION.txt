@@ -1236,3 +1236,316 @@ MODULOS COMPLETOS: Argentina, Brasil, Chile, Paraguay, Uruguay (5/9 paises
 foco+ampliacion). Restan (diferido hasta nueva instruccion del usuario):
 Bolivia, Peru, Colombia, Venezuela, Ecuador.
 ================================================================================
+
+================================================================================
+## EXTENSIÓN ARGENTINA CON DIPLOMETRICS COLT (2026-08-03)
+================================================================================
+Ver bitacora.txt (misma fecha) para el detalle completo. Pendientes puntuales
+que quedaron documentados durante esta ronda:
+
+[REVISAR 2026-08-03] Nestor Kirchner, Cumbre Iberoamericana de Montevideo
+(nov-2006): la nota analitica previa (hallazgos_analiticos.txt) decia que NK
+NO fue y envio reemplazo. La investigacion de esta ronda encontro un
+comunicado oficial de Cancilleria + nota de prensa contemporanea que
+confirman asistencia FISICA. Se cargo la fila (ARG-NK-J069) con la fuente:
+revisar y, si se confirma, corregir hallazgos_analiticos.txt (posible dato
+desactualizado o confusion con otra cumbre).
+
+[REVISAR 2026-08-03] Milei, gira europea jun-2024: la investigacion de la
+brecha jul-sep-2024 sugiere que la fecha YA CARGADA de Chequia (21-22/6)
+podria ser incorrecta -la secuencia real habria sido España 21/6 -> Alemania
+22-23/6 -> Chequia 24/6, no 21-22/6-. No se toco la fila original de Chequia;
+queda para una verificacion puntual futura (nota dejada en la fila nueva de
+España, Methodological_Notes).
+
+[NO-CARGADO 2026-08-03] 30 candidatas de COLT para Argentina, descartadas con
+justificacion (no se transcriben aca en detalle, ver bitacora.txt): 2 de
+Menem (escala tecnica en Tahiti mal geolocalizada; Kosovo sin corroboracion),
+11 de De la Rua/Duhalde (sin corroboracion independiente pese a busqueda
+dirigida), 10 de Nestor K/CFK (sin evidencia, o duplicados de fecha/año
+corridos ya cargados bajo otra fecha), 4 de Macri/AF/Milei (1 viaje fantasma
+-Macri AGNU 2017, fue la vicepresidenta Michetti-, 2 visitas a bases
+antarticas excluidas por no ser "internacionales", 1 duplicado Vaticano AF).
+
+[PENDIENTE-DECISION] Las 8 columnas de micro-conducta estilo COLT
+(MetHostHOGS y afines, CODEBOOK 5.9) solo estan sembradas para Argentina.
+Brasil, Chile, Paraguay, Uruguay y el futuro modulo Bolivia quedaron con NA
+en las 9 columnas nuevas. Si el usuario quiere extender la "combinacion de
+esquemas" al resto de la base, se puede repetir el mismo proceso (extraer
+filas COLT del pais, comparar contra la base existente, verificar candidatas,
+completar micro-conducta desde COLT en las filas que coincidan) pais por
+pais.
+
+[PENDIENTE-DECISION] Extension hacia atras a otros paises: el usuario aprobo
+extender SOLO Argentina hasta 1994 (ventana de datos de COLT), dejando
+1989-1993 explicitamente fuera de esta ronda. Si se quiere completar ese
+tramo (u aplicar el mismo criterio de extension a Brasil/Chile/Uruguay/
+Paraguay con sus propios presidentes pre-2000), es una decision pendiente,
+no iniciada.
+
+================================================================================
+BASE_COLT_SUDAMERICA.XLSX (2026-08-15) — nuevo entregable, ver bitacora.txt
+================================================================================
+
+[REVISAR] Bolsonaro/Lula, EE.UU., transicion presidencial dic-2022/mar-2023:
+la fila COLT de Bolsonaro (inicio 2022-12-30) tiene TripEndDate=2023-03-30,
+muy posterior a nuestra fecha (2023-01-01, fin de mandato); y la fila COLT de
+Lula para EE.UU. tiene EXACTAMENTE el mismo rango (2022-12-30 a 2023-03-30),
+lo que sugiere una posible confusion/duplicacion de COLT entre ambos
+mandatarios durante la transicion. No se modifico la base COLT. Pendiente de
+verificacion con fuente primaria.
+
+[REVISAR] Discrepancias de fecha >=6 dias entre nuestra investigacion y COLT
+(sin corregir en la base COLT, documentadas en discrepancias_fecha_y_variables.csv):
+Santiago Peña/Reino Unido jul-2025 (5-6d), Jorge Batlle/España feb-2004 (6d),
+Jose Mujica/España may-2013 (6d).
+
+[REVISAR] 9 filas con discrepancia de variable booleana (MetHostHoGS o
+MetNonhostHOGS con valor opuesto entre nuestra investigacion propia y COLT).
+Detalle en discrepancias_fecha_y_variables.csv.
+
+[PENDIENTE-DECISION] 227 viajes de nuestra base 2000-2026 (5 paises) no
+tienen ninguna fila equivalente en COLT (ver reconciliacion_clasificacion.csv,
+classification="Complementa (viaje ausente en COLT)"). No se insertaron como
+filas nuevas en Datos_COLT_Sudamerica -se documentaron como hallazgo, sin
+alterar la estructura original de COLT-. Decision pendiente del usuario sobre
+si en algun momento conviene agregarlos como filas propias, marcadas como tal.
+
+[PENDIENTE-DECISION] Bolivia, Colombia, Ecuador, Guyana, Peru, Suriname y
+Venezuela (7 de los 12 paises de Sudamerica) y los anios pre-2000 de los 5
+paises ya cargados quedan con los datos de COLT SIN cruzar contra
+investigacion propia (no tenemos investigacion previa con la cual cruzarlos).
+Es exactamente el universo que cubrira la proxima fase que planteo el
+usuario: "chequeo de todos los links que plantea COLT para los paises de
+America", pendiente de instruccion para arrancar.
+================================================================================
+
+================================================================================
+VERIFICACION DE LINKS COLT — ARGENTINA (2026-08-15)
+================================================================================
+
+[RESUELTO] Milei/Chequia jun-2024: confirmado que la visita a Praga fue
+24-25/6 (no 21-22/6 como estaba cargado, que se solapaba con el tramo de
+Espana del mismo Journey_ID). Corregido en argentina_viajes.csv (Trip_ID 421)
+y en base_consolidada.csv. Ya NO es un pendiente.
+
+[RESUELTO - FALSO POSITIVO] G20 de Roma (Alberto Fernandez, oct-2021): el
+subagente lo habia reportado como ausente de nuestra base, pero al recheckear
+directamente (2026-08-15) SI esta cargado: Trip_ID 371, Italy/Rome,
+2021-10-29 a 2021-10-31, Visit_Subtype=Global Forum, Counterpart_Event=
+"Cumbre del G20 de Roma" (parte del Journey_ID ARG-AF-J158 junto con COP26
+Glasgow). Ademas coincide EXACTO con la fila de COLT 3670-ARG-ITA-44498
+(mismas fechas 29-31/10/2021). No hacia falta agregar nada; el subagente se
+equivoco en este item especifico (limitacion a tener en cuenta: no todos los
+hallazgos de un subagente bajo carga alta son 100% confiables, conviene
+re-chequear los que impliquen agregar filas antes de darlos por buenos).
+NOTA COLATERAL: COLT tiene ademas una segunda fila casi-duplicada para el
+mismo viaje (3670-ARG-ITA-44499, 30/10-1/11/2021, sin CityVisited) -no se
+modifico, queda como observacion menor de calidad de datos de COLT, no de
+nuestra base-.
+
+[NO-RECUPERABLE] El 2026-08-15 se lanzaron 3 subagentes que procesaron 206
+discrepancias + 54 filas "unicas de COLT" para Argentina (todos los anios),
+abriendo los links de fuente de COLT y contrastando con investigacion propia.
+El entorno temporal se reinicio antes de fusionar sus resultados detallados
+(JSON perdidos). Se recuperaron y aplicaron ~10 correcciones concretas que
+quedaron citadas en los resumenes de texto de cada subagente (ver
+bitacora.txt, entrada "CORRECCIONES APLICADAS"). El resto -en particular
+~65 discrepancias de 1 dia del lote Nestor K/CFK marcadas en bloque como
+"No_verificable", y el desglose fila por fila del lote Macri/AF/Milei (69
+discrepancias: 35 Nuestro_correcto / 21 COLT_correcto / 8 Ninguno_exacto / 5
+No_verificable, sin saber cuales exactamente)- no tiene detalle recuperable.
+Si se quiere cobertura exhaustiva, hay que re-correr esos 2 lotes con
+guardado incremental dentro de la carpeta del proyecto en vez de /tmp.
+
+[NOTA METODOLOGICA] Se detecto y corrigio un bug de emparejamiento: nuestra
+base usa "Vatican City" y COLT usa "Holy See" para el mismo pais, por lo que
+ninguna visita al Vaticano cruzaba correctamente entre ambas bases hasta este
+fix (alias agregado en el script de matching, no en el esquema). Si se
+repite este tipo de cruce para otros paises, revisar que los nombres de pais
+usados coincidan exactamente o tengan alias.
+
+[COMPLETADO] 26 filas nuevas agregadas a Datos_COLT_Sudamerica (marcadas como
+agregado propio), 16 CityVisited completados adicionales por el fix de
+Vaticano, y 2 filas de COLT (Macri/AGNU2017, Duhalde/Marruecos) marcadas como
+posibles "viajes fantasma" sin borrarlas. Ver
+05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_argentina.csv y
+argentina_nuestro_unico_final.csv para el detalle completo.
+
+[CORREGIDO 2026-08-16] Se encontro y elimino un duplicado real: la fila
+insertada PELATAM-ARG-237 (Turquia, CFK ene-2011) ya existia en COLT como
+2320-ARG-TUR-40563 con el nombre "Turkiye" en vez de "Turkey" -bug de alias
+de nombres de pais, no exclusivo de Argentina (ver seccion Brasil mas abajo)-.
+================================================================================
+
+================================================================================
+VERIFICACION DE LINKS COLT — BRASIL (2026-08-16)
+================================================================================
+
+[REVISAR] 11 discrepancias de fecha quedaron sin aplicar por evidencia
+ambigua o insuficiente (no se tocaron esas celdas de COLT; detalle completo
+en cambios_aplicados_brasil.csv la version NO aplicada seria mas bien en el
+archivo de trabajo tmp_brasil/merge_manual.json si se quiere revisar):
+  - 994-BRA-PRT-37569 (Cardoso, Portugal nov-2002): rango de fechas ambiguo
+    entre salida/llegada/actividad oficial, sin poder fijar TripEndDate.
+  - 1780-BRA-USA-37888 (Lula, EEUU sep-2003): propuesta de un unico dia
+    (23/9) sobre un campo que cubre inicio Y fin, ambiguo cual reemplaza.
+  - 1780-BRA-ESP-37817 (Lula, España jul-2003): sin dato ("N/D").
+  - 994-BRA-USA-37202 (Cardoso, EEUU nov-2001): remite a "item paralelo
+    our_Trip_ID=17" sin poder resolver automaticamente cual aplica.
+  - 1780-BRA-USA-39885 (Lula, EEUU mar-2009): "no determinado con certeza".
+  - 1780-BRA-USA-40077 (Lula, EEUU sep-2009): el subagente sugiere que COLT
+    podria estar UNIENDO dos tramos separados (ONU 23/9 + G20 Pittsburgh
+    24-25/9) en una sola fila -util para una futura revision de granularidad,
+    no se modifico-.
+  - 2652-BRA-USA-41007 (Dilma, EEUU abr-2012): Brookings confirma "one day
+    visit" el 9/4/2012, pero ni COLT ni nuestra base coinciden en cual
+    extremo del rango es el dia extra.
+  - 2652-BRA-USA-41540 (Dilma, EEUU sep-2013, discurso ONU anti-NSA):
+    propuesta de un unico dia (24/9) sobre un campo de inicio+fin, mismo
+    problema de ambiguedad que el item de Lula arriba.
+
+[RESUELTO] Emparejamiento espurio Bolsonaro/Lula en EEUU dic2022-feb2023: NO
+se toco la fila de COLT 3531-BRA-USA-44925 (es de Bolsonaro, no de Lula). Se
+corrigio en cambio nuestra propia base (Trip_ID 237, brasil_viajes.csv):
+9-11/2/2023 en vez de solo 10/2, alineado con la fila COLT correcta
+1780-BRA-USA-44966 (confirmado por PBS y Yahoo News).
+
+[PENDIENTE-COMPLETITUD] 145 filas de COLT para Brasil son anteriores a 2000
+(cobertura desde 1945 por ser "potencia prioritaria"); quedan sin cruzar
+contra investigacion propia porque no tenemos ese periodo cargado -misma
+logica que la ventana Menem 1989-1993 de Argentina-. Si se quiere extender
+Brasil hacia atras, es una decision pendiente, no iniciada.
+
+[NOTA METODOLOGICA] Se confirmo que el problema de alias de nombres de pais
+detectado en Argentina (Vatican City/Holy See) se repite en Brasil con Cape
+Verde/Cabo Verde, East Timor/Timor Leste, Republic of the Congo/
+Congo-Brazzaville y Turkey/Turkiye. Se creo 06_SCRIPTS/colt_country_alias.py
+con el diccionario completo; usar SIEMPRE este alias al procesar Chile,
+Paraguay y Uruguay para no repetir el error (Chile y Paraguay tambien tienen
+"Turkey"/"Vatican City"; Uruguay tiene "Democratic Republic of the Congo" y
+"Puerto Rico" -este ultimo no tiene equivalente en el vocabulario de paises
+de COLT, no es alias sino ausencia real de su esquema-).
+================================================================================
+
+================================================================================
+VERIFICACION DE LINKS COLT — CHILE (2026-08-17)
+================================================================================
+
+[RESUELTO] Duplicado interno detectado en nuestra propia base (no de
+COLT): Trip_ID 99 (Bachelet/Beijing, Visita de Estado, fechado
+originalmente 2016) y Trip_ID 105 (Bachelet/Beijing, Foro de la Franja y
+la Ruta, 2017) eran el mismo viaje fisico -se descubrio al corregir el
+anio de Trip 99 a 2017 (fuente: chile.gob.cl, Emol, CNN Chile, La
+Tercera), lo que revelo solapamiento total de fechas con Trip 105-. A
+diferencia del patron estandar del proyecto (tramos multiples de un mismo
+viaje comparten Journey_ID), estos dos tenian Journey_ID distintos,
+confirmando que era un duplicado real y no un diseño intencional. Se
+fusionaron en Trip_ID 105 y se elimino Trip_ID 99 de chile_viajes.csv.
+
+[RESUELTO] Duplicado interno de COLT (no nuestro): al corregir la fecha
+de 3909-CHL-PRY-45479 (Boric/Paraguay, colt_unico Confirmado con fecha
+erronea 06-08/07/2024 en vez de 16-17/07/2024), se detecto que coincide
+exactamente con otra fila nativa de COLT, 3909-CHL-PRY-45489 (Confidence=
+1, con detalle completo del viaje: reunion con empresarios en el Banco
+Central de Paraguay, conferencia de prensa con Pena, discurso en el
+Congreso). Parecen ser dos fuentes de prensa distintas que COLT cargo
+como TripID separados para el mismo viaje. Se dejaron ambas filas sin
+borrar, solo se flageo 45479 en Notes, siguiendo la politica de no tocar
+destructivamente la base COLT original.
+
+[RESUELTO] Boric/Kast USA-45189 (Nueva York + Washington, sep-2023): COLT
+registra un unico viaje continuo (corregido a 20-23/09/2023 tras
+verificacion con El Mostrador/Emol) mientras nuestra base lo divide en
+Trip_ID 161 (NY, discurso AGNU, 19-20/09) y Trip_ID 193 (Washington DC,
+sesion OEA + homenaje Allende/Letelier, 22-23/09). Se confirmo que la
+division en nuestra base es intencional y correcta -ambos comparten el
+mismo Journey_ID CHL-GB-J132, el patron estandar del proyecto para
+viajes multi-destino-, por lo que NO se fusionaron (a diferencia del caso
+Bachelet/Beijing arriba, que si era un duplicado real). Se dejo una nota
+en Trip_ID 161 sobre una posible ambiguedad de un dia en la fecha de
+llegada a NY (evidencia de prensa sugiere madrugada del 20/09, no 19/09)
+sin modificar el dato, por no ser concluyente.
+
+[RESUELTO] El Salvador/Bukele, segunda asuncion (1/6/2024): colt_unico
+Descartado. Ninguna cobertura de prensa que liste a los mandatarios
+presentes (Milei, Noboa, Castro, Felipe VI, Chaves, etc.) incluye a Boric;
+consistente con la tension publica conocida entre ambos gobiernos. Fila de
+COLT flageada, no eliminada.
+
+[RESUELTO] Trip_ID 188 (Kast/Uruguay, jul-2026): el Source_Verification
+original apuntaba por error a una fotonoticia de la reunion bilateral con
+Brasil en el marco de la Cumbre de Mercosur en Paraguay (mismo viaje que
+Trip 187, pais distinto). Corregido en chile_viajes.csv al link correcto
+(fotonoticia oficial del inicio de la visita a Uruguay,
+prensa.presidencia.cl/fotonoticia.aspx?id=333573).
+
+[REVISAR] 2 filas nuevas insertadas (nuestro_unico) con fuente debil, no
+descartadas pero con advertencia explicita para reemplazo futuro:
+  - PELATAM-CHL-7 (Lagos, Francia jun-2001): Source_Verification original
+    NO es una URL sino una consulta de busqueda ("Search Query: Lagos
+    Francia Chirac junio 2001"). El viaje esta corroborado por otras
+    fuentes citadas en la verificacion, pero conviene reemplazar el link
+    por una URL concreta.
+  - PELATAM-CHL-24 (Lagos, Costa Rica nov-2004, XIV Cumbre Iberoamericana):
+    el link de SEGIB tiene link-rot (redirige a la portada general en vez
+    del contenido especifico). Reemplazar por la URL vigente de la XIV
+    Cumbre Iberoamericana San Jose 2004 cuando se identifique.
+
+[PENDIENTE-COMPLETITUD] 104 filas de COLT para Chile son anteriores a 2000
+(cobertura desde 1990, mandatos de Aylwin y Frei Ruiz-Tagle); quedan sin
+cruzar contra investigacion propia porque nuestra base de Chile arranca en
+Lagos (2000) -misma logica que Menem 1989-1993 en Argentina y el pre-2000
+de Brasil-. Extender Chile hacia atras es una decision pendiente, no
+iniciada.
+
+[NOTA METODOLOGICA] Chile ya tenia identificados los mismos alias de
+Argentina/Brasil (Turkey/Turkiye, Vatican City/Holy See, Timor-Leste); se
+uso 06_SCRIPTS/colt_country_alias.py de forma sistematica en el matching,
+sin nuevos casos que agregar al diccionario.
+================================================================================
+
+================================================================================
+REDO VERIFICACION COLT — ARGENTINA (2026-08-17)
+================================================================================
+
+[RESUELTO] Auditoria del incidente de perdida de datos del 15-ago: las 7
+correcciones que sobrevivieron estan correctamente aplicadas en el Excel,
+sin corrupcion. Pero la cobertura real (7 de ~260 items) era muy inferior
+a Brasil/Chile. Se rehizo la verificacion completa: 175 discrepancias +
+35 colt_unico, 100% procesados con guardado persistente (sin perdidas).
+
+[REVISAR] 6 discrepancias del lote Milei 2025 quedaron No_verificable por
+agotamiento del presupuesto de busqueda web de la sesion, no por falta de
+evidencia real -candidatas a una pasada de cierre de brecha puntual:
+  - 4053-ARG-USA-45749 (EEUU, abr-2025, negociacion FMI)
+  - 4053-ARG-ITA-45772 (Italia, abr-2025, funeral del Papa Francisco)
+  - 4053-ARG-ESP-45816 (España, jun-2025, gira que continua por Francia)
+  - 4053-ARG-USA-45903 (EEUU, inicio sep-2025, distinto del viaje a la ONU)
+  - 4053-ARG-USA-45943 (EEUU, oct-2025)
+  - 4053-ARG-NOR-46000 (Noruega, dic-2025, motivo/itinerario sin confirmar)
+
+[RESUELTO] Patron de journey compartido no modificado (mismo criterio que
+Brasil/Lula sep-2009): CFK/EEUU sep-2009 (2320-ARG-USA-40077) - COLT une
+en una fila el discurso ante la ONU (23/9) y el G20 Pittsburgh (24-25/9)
+mientras nuestra base los trackea como Trip 209 y 210, dos tramos de un
+mismo Journey. No se fusiono ni se toco ningun lado.
+
+[RESUELTO] Duplicado interno de COLT: 2320-ARG-CAN-40355 (Canada, jun-
+2010) coincide exactamente con la fila ya existente 2320-ARG-CAN-40354
+(mismo G20 Toronto). Flageada en Notes, ninguna de las dos filas borrada.
+
+[RESUELTO] Fila nueva en nuestra propia base: Trip_ID 466 (Vaticano,
+Alberto Fernandez, 13/5/2021) agregada para separar la audiencia con el
+Papa Francisco del tramo de Italia (Trip 369), replicando el precedente
+de enero 2020 (Trip 357/358, mismo tipo de visita dual Roma/Vaticano).
+
+[NOTA METODOLOGICA IMPORTANTE] COLT no tiene NINGUNA fila de Argentina
+anterior a 1994 (TripYear minimo verificado = 1994). Nuestra base tambien
+arranca en 1994-11-30. A diferencia de lo que se penso inicialmente, NO
+hay una brecha real de "extension a 1990" pendiente para Argentina -COLT
+mismo no cubre ese periodo para este pais-. Esto es distinto de Chile
+(COLT cubre desde 1990, 104 filas 1990-1999 sin cruzar) y Brasil (COLT
+cubre desde 1948, 113 filas 1990-1999 sin cruzar), donde si existe una
+brecha real pendiente de construir.
+================================================================================

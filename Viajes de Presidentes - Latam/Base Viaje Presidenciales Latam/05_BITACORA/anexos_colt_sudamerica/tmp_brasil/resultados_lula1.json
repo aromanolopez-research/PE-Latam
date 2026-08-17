@@ -1,0 +1,437 @@
+{
+  "discrepancias_resueltas": [
+    {
+      "colt_TripID": "1780-BRA-MEX-37998",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "Start:2004-01-12;End:2004-01-13",
+      "valor_propuesto": "Start:2004-01-12;End:2004-01-13",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia (basada en Biblioteca da Presidência) registra 'Mexico | Monterrey | 12-13 January' (Cúpula Extraordinária das Américas), coincide exactamente con COLT. Nuestra base (11-14 ene) es incorrecta."
+    },
+    {
+      "colt_TripID": "1780-BRA-IND-38011",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2004-01-25",
+      "valor_propuesto": "2004-01-25",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia registra 'India | New Delhi, Agra and Mumbai | 25-28 January', coincide con el inicio de COLT (25). Nuestra fecha de inicio (24 ene) es incorrecta; el fin (28) ya coincidía."
+    },
+    {
+      "colt_TripID": "1780-BRA-CHE-38014",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2004-01-28",
+      "valor_propuesto": "2004-01-29",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia registra 'Switzerland: Geneva; 29-30 January', coincide con nuestra fecha de inicio (29 ene). El dato de COLT (28 ene) es erróneo."
+    },
+    {
+      "colt_TripID": "1780-BRA-VEN-38043",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2004-02-27",
+      "valor_propuesto": "2004-02-28",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia registra 'Venezuela | Caracas | 26-28 February' (encuentro con Chávez, cumbre G-15), coincide con nuestra fecha de fin (28 feb). El dato de COLT (27 feb) es erróneo."
+    },
+    {
+      "colt_TripID": "1780-BRA-CHN-38129",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "Start:2004-05-22;End:2004-05-25",
+      "valor_propuesto": "Start:2004-05-22;End:2004-05-26",
+      "fuente": "FUNAG/Itamaraty - Cronologia da Política Externa do Governo Lula (2003-2006), https://funag.gov.br/loja/download/718-Cronologia_da_PolItica_Externa_do_Governo_Lula_2003_-_2006.pdf (sección MAIO 2004, 'DIAS 22-26: O Presidente Lula visita a China...'); corroborado por Wikipedia ('China: Beijing and Shanghai; 22-26 May').",
+      "justificacion": "La cronología oficial de Itamaraty/FUNAG indica explícitamente que la visita a China fue del 22 al 26 de mayo de 2004. El inicio de COLT (22) es correcto pero el fin (25) es un día corto; nuestra base (21-27 may) está incorrecta en ambos extremos. Se propone corregir a 2004-05-22/2004-05-26."
+    },
+    {
+      "colt_TripID": "1780-BRA-MEX-38134",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "Start:2004-05-27;End:2004-05-28",
+      "valor_propuesto": "Start:2004-05-27;End:2004-05-28",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia: 'Mexico: Guadalajara; 27-28 May; Attended the European Union, Latin America and the Caribbean summit', coincide exactamente con COLT. Nuestra base (28-29 may) es incorrecta."
+    },
+    {
+      "colt_TripID": "1780-BRA-GAB-38195",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2004-07-28",
+      "valor_propuesto": "2004-07-28",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil ; FUNAG/Itamaraty - Cronologia da Política Externa do Governo Lula (2003-2006), https://funag.gov.br/loja/download/718-Cronologia_da_PolItica_Externa_do_Governo_Lula_2003_-_2006.pdf (sección JULHO 2004, 'DIAS 26-29: ... visita o Gabão e Cabo Verde').",
+      "justificacion": "Wikipedia y la cronología FUNAG confirman 'Gabon: Libreville; 27-28 July'. El fin de COLT (28 jul) es correcto; nuestro dato (27 jul) es incorrecto."
+    },
+    {
+      "colt_TripID": "1780-BRA-PER-38329",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "Start:2004-12-08;End:2004-12-08",
+      "valor_propuesto": "Start:2004-12-08;End:2004-12-08",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia: 'Peru | Cusco | 8 December; Met with President Alejandro Toledo. Attended the 2004 South American Summit' (visita de un solo día). Coincide con COLT; nuestra base (7-9 dic) es incorrecta."
+    },
+    {
+      "colt_TripID": "1780-BRA-URY-38412",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2005-03-02",
+      "valor_propuesto": "2005-03-02",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia: 'Uruguay | Montevideo | 1-2 March; Attended the inauguration of President Tabaré Vázquez'. El fin de COLT (2 mar) es correcto; nuestro dato (1 mar) es incorrecto."
+    },
+    {
+      "colt_TripID": "1780-BRA-KOR-38495",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "Start:2005-05-23;End:2005-05-25",
+      "valor_propuesto": "Start:2005-05-23;End:2005-05-25",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia: 'South Korea | Seoul | 23-25 May; Met with President Roh Moo-hyun'. Coincide exactamente con COLT. Nuestra base (24-26 may) es incorrecta."
+    },
+    {
+      "colt_TripID": "1780-BRA-PRT-38637",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2005-10-12",
+      "valor_propuesto": "2005-10-13",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia: 'Portugal | Porto | 13 October; Met with Prime Minister José Sócrates' (visita de un solo día). Coincide con nuestra fecha (13 oct). El dato de COLT (12 oct) es erróneo."
+    },
+    {
+      "colt_TripID": "1780-BRA-ESP-38638",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2005-10-13",
+      "valor_propuesto": "2005-10-14",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia: 'Spain: Salamanca; 14-15 October; Attended the 15th Ibero-American summit'. Coincide con nuestra fecha de inicio (14 oct). El dato de COLT (13 oct) es erróneo."
+    },
+    {
+      "colt_TripID": "1780-BRA-ITA-38640",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2005-10-15",
+      "valor_propuesto": "2005-10-16",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia: 'Italy: Rome; 16-17 October; Met with President Carlo Azeglio Ciampi'. Coincide con nuestra fecha de inicio (16 oct). El dato de COLT (15 oct) es erróneo."
+    },
+    {
+      "colt_TripID": "1780-BRA-COL-38699",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2005-12-14",
+      "valor_propuesto": "2005-12-14",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia: 'Colombia | Bogotá | 14 December; Met with President Álvaro Uribe' (visita de un solo día). El fin de COLT (14 dic) es correcto; nuestro dato (15 dic) es incorrecto."
+    },
+    {
+      "colt_TripID": "1780-BRA-RUS-38913",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2006-07-15",
+      "valor_propuesto": "2006-07-15",
+      "fuente": "32nd G8 summit (Saint Petersburg, 15-17 July 2006) - fechas oficiales de la cumbre; corroborado por archivo fotográfico de la Casa Blanca fechado 15 de julio de 2006 mostrando a Bush y Lula juntos (georgewbush-whitehouse.archives.gov).",
+      "justificacion": "La cumbre del G8 2006 se celebró oficialmente del 15 al 17 de julio; hay registro fotográfico de Bush y Lula del 15 de julio. El inicio de COLT (15 jul) es correcto; nuestro dato (solo 17 jul) es incorrecto/incompleto."
+    },
+    {
+      "colt_TripID": "1780-BRA-NGA-39049",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2006-11-28",
+      "valor_propuesto": "2006-11-29",
+      "fuente": "Agência Brasil, 'Lula chega à Nigéria para a Cúpula África-América do Sul' (29/11/2006, memoria.ebc.com.br); Wikipedia ('Nigeria | Abuja | 29-30 November'); Itamaraty, discurso de abertura da Cúpula em Abuja, 30 de novembro de 2006.",
+      "justificacion": "La prensa de la época (Agência Brasil) confirma que Lula llegó a Nigeria el 29 de noviembre de 2006, y la cumbre África-América do Sul se inauguró el 30. Ni el dato de COLT (28 nov) ni el nuestro (30 nov únicamente) coinciden; se propone corregir el inicio a 2006-11-29."
+    },
+    {
+      "colt_TripID": "1780-BRA-UKR-38129",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "Start:2004-05-22;End:2004-05-22",
+      "valor_propuesto": "Start:2004-05-22;End:2004-05-22",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil ; FUNAG/Itamaraty - Cronologia da Política Externa do Governo Lula (2003-2006), https://funag.gov.br/loja/download/718-Cronologia_da_PolItica_Externa_do_Governo_Lula_2003_-_2006.pdf",
+      "justificacion": "Wikipedia y la cronología FUNAG confirman 'Ukraine | Kyiv | 22 May; Met with President Leonid Kuchma' (visita de un solo día, previa a China). Coincide con COLT; nuestra base (21 may) es incorrecta."
+    },
+    {
+      "colt_TripID": "1780-BRA-BOL-38176",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "Start:2004-07-08;End:2004-07-08",
+      "valor_propuesto": "Start:2004-07-09;End:2004-07-09",
+      "fuente": "FUNAG/Itamaraty - Cronologia da Política Externa do Governo Lula (2003-2006), https://funag.gov.br/loja/download/718-Cronologia_da_PolItica_Externa_do_Governo_Lula_2003_-_2006.pdf (sección JULHO 2004: 'DIA 9 - O Presidente Lula visita a Bolívia e se encontra, em Santa Cruz de la Sierra, com o Presidente Carlos Mesa').",
+      "justificacion": "La cronología oficial de Itamaraty/FUNAG registra explícitamente la visita a Bolivia el día 9 de julio de 2004 (un día después de la Cúpula del Mercosur en Puerto Iguazú, 7-8 jul). Nuestra fecha (9 jul) es correcta; el dato de COLT (8 jul) es erróneo, probablemente confundido con la fecha de la cumbre del Mercosur."
+    },
+    {
+      "colt_TripID": "1780-BRA-DOM-38214",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "Start:2004-08-15;End:2004-08-18",
+      "valor_propuesto": "Start:2004-08-15;End:2004-08-18",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia: 'Dominican Republic | Santo Domingo | 15-18 August; Attended the inauguration of President Leonel Fernández' (con salto a Haití el mismo 18 ago). Coincide exactamente con COLT; nuestra base (16-17 ago) es incorrecta."
+    },
+    {
+      "colt_TripID": "1780-BRA-CHL-38221",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2004-08-22",
+      "valor_propuesto": "2004-08-23",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia: 'Chile | Santiago | 23-24 August'. Coincide con nuestra fecha de inicio (23 ago). El dato de COLT (22 ago) es erróneo."
+    },
+    {
+      "colt_TripID": "1780-BRA-CHE-38379",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2005-01-27",
+      "valor_propuesto": "2005-01-28",
+      "fuente": "FUNAG/Itamaraty - Cronologia da Política Externa do Governo Lula (2003-2006), https://funag.gov.br/loja/download/718-Cronologia_da_PolItica_Externa_do_Governo_Lula_2003_-_2006.pdf (sección 2005: 'DIAS 28-29 - O Presidente Lula participa do Fórum Econômico Mundial em Davos, Suíça').",
+      "justificacion": "La cronología oficial de Itamaraty/FUNAG registra explícitamente la participación de Lula en Davos los días 28-29 de enero de 2005. Coincide con nuestra fecha de inicio (28 ene). El dato de COLT (27 ene) es erróneo."
+    },
+    {
+      "colt_TripID": "1780-BRA-CMR-38452",
+      "veredicto": "COLT_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2005-04-11",
+      "valor_propuesto": "2005-04-11",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia: 'Cameroon: Yaoundé; 10-11 April; Met with President Paul Biya'. El fin de COLT (11 abr) es correcto; nuestro dato (10 abr) es incorrecto."
+    },
+    {
+      "colt_TripID": "1780-BRA-USA-38608",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "Start:2005-09-13;End:2005-09-15",
+      "valor_propuesto": "Start:2005-09-13;End:2005-09-15",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia: 'United States: New York City; 13-15 September; Addressed the 60th session of the UN General Assembly'. Coincide exactamente con COLT. Nuestra base (solo 14 sep) es incorrecta."
+    },
+    {
+      "colt_TripID": "1780-BRA-BEN-38757",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2006-02-09",
+      "valor_propuesto": "2006-02-09",
+      "fuente": "Público (Portugal), 'Presidente do Brasil na quinta visita à África em três anos' (09/02/2006); Perfil News, 'Presidente Lula participa de ritual vudu no Benin' (11/02/2006); secuencia con Argelia (8-9 feb, según Wikipedia) y Botsuana (11 feb).",
+      "justificacion": "La prensa de la época sitúa a Lula ya en su gira africana (Argelia->Benín->Botsuana/Sudáfrica) el 9 de febrero de 2006, y crónicas del 11 feb lo muestran participando de un ritual vudú en Benín, consistente con una estadía 9-10 feb. El inicio de COLT (9 feb) es más consistente con la secuencia de la gira que el nuestro (10 feb). Confianza moderada por falta de fuente primaria con hora exacta de llegada."
+    }
+  ],
+  "colt_unico_resueltos": [
+    {
+      "colt_TripID": "1780-BRA-ARG-38841",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Puerto Iguazú"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Argentina | Puerto Iguazú | 4 May [2006]; Met with President Néstor Kirchner, Venezuelan President Hugo Chávez...' Coincide con TripStartDate/EndDate de COLT (2006-05-04) y notas (Kirchner, Chávez)."
+    },
+    {
+      "colt_TripID": "1780-BRA-ARG-38918",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Córdoba"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Argentina | Córdoba | 20-21 July [2006]; Attended the Mercosur summit'. Coincide exactamente con las fechas de COLT (2006-07-20/21)."
+    },
+    {
+      "colt_TripID": "1780-BRA-BEN-39060",
+      "veredicto": "Descartado",
+      "fuente": "Ausencia de corroboración: ninguna fuente (Wikipedia, Instituto Lula, prensa portuguesa/brasileña) menciona una segunda visita a Benín en diciembre de 2006; todas las fuentes describen la visita de febrero de 2006 como 'la' visita de Lula a Benín ('primer presidente brasileño en visitar Benín', 2006).",
+      "justificacion": "No se encontró evidencia de una visita a Benín en diciembre de 2006. Coincide en día-del-mes (9-10) con la visita real de febrero 2006 (COLT TripID BEN-38757, discrepancia ya resuelta), lo que sugiere un registro duplicado/erróneo en COLT con el mes desplazado. Se marca como probable error de COLT, no como viaje real."
+    },
+    {
+      "colt_TripID": "1780-BRA-BOL-38210",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Cobija"
+      },
+      "fuente": "FUNAG/Itamaraty - Cronologia da Política Externa do Governo Lula (2003-2006), https://funag.gov.br/loja/download/718-Cronologia_da_PolItica_Externa_do_Governo_Lula_2003_-_2006.pdf (sección AGOSTO 2004: 'DIA 11 - Juntamente com os Presidentes da Bolívia e do Peru, o Presidente Lula inaugura ponte na fronteira entre Brasiléia (AC) e a cidade boliviana de Cobija').",
+      "justificacion": "La cronología oficial de Itamaraty/FUNAG confirma la visita del 11 de agosto de 2004 para inaugurar un puente fronterizo Brasil-Bolivia, con presencia también del presidente de Perú. Ciudad boliviana visitada: Cobija."
+    },
+    {
+      "colt_TripID": "1780-BRA-CHL-38787",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Valparaíso"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Chile | Valparaíso and Viña del Mar | 11 March [2006]; Attended the inauguration of President Michelle Bachelet'. Coincide con fecha y notas de COLT."
+    },
+    {
+      "colt_TripID": "1780-BRA-FRA-38545",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Paris"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'France | Paris | 12-15 July [2005]; Met with President Jacques Chirac'. Coincide exactamente con las fechas de COLT (2005-07-12/15)."
+    },
+    {
+      "colt_TripID": "1780-BRA-GTM-38607",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Cidade da Guatemala"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Guatemala | Guatemala City | 12-13 September [2005]; Met with President Óscar Berger'. Coincide exactamente con las fechas de COLT."
+    },
+    {
+      "colt_TripID": "1780-BRA-GUY-38366",
+      "veredicto": "Descartado",
+      "fuente": "Wikipedia (lista completa de viajes) no registra visita a Guyana en enero de 2005, solo en 'Guyana: Georgetown; 15 February [2005]'; el resumen de conteo de países de la Wikipedia en portugués indica solo 3 viajes totales a Guyana en 2003-2010 (2005-feb, 2007-mar y uno posterior), ninguno en enero.",
+      "justificacion": "Esta fecha (14-15 enero 2005) coincide, día a día del mes, con la visita real de febrero 2005 (14-15 feb, ver TripID GUY-38397) y con el mismo patrón en Venezuela (VEN-38365/38396) y Surinam (SUR-38367/38398). Se trata muy probablemente de un registro duplicado/erróneo en COLT con el mes desplazado de febrero a enero; no hay evidencia independiente de una visita a Guyana en enero de 2005."
+    },
+    {
+      "colt_TripID": "1780-BRA-GUY-38397",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Georgetown"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Guyana: Georgetown; 15 February [2005]; Official visit', como parte de la gira que incluyó Venezuela (13-15 feb) y Surinam (15-16 feb). Coincide con COLT (2005-02-14/15)."
+    },
+    {
+      "colt_TripID": "1780-BRA-VAT-38450",
+      "veredicto": "Confirmado",
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil ; FUNAG/Itamaraty - Cronologia da Política Externa do Governo Lula (2003-2006), https://funag.gov.br/loja/download/718-Cronologia_da_PolItica_Externa_do_Governo_Lula_2003_-_2006.pdf",
+      "justificacion": "Wikipedia y la lista de viajes confirman: 'Vatican City: 8 April [2005]; Attended the funeral of Pope John Paul II'. Coincide exactamente con la fecha de COLT (2005-04-08) y la nota. No se pudo verificar directamente el enlace de COLT (advance-lexis-com.du.idm.oclc.org, acceso institucional restringido - No verificable ese enlace en particular), pero el hecho se confirma independientemente. CityVisited no aplica (Santa Sé/Vaticano es la propia ciudad-estado)."
+    },
+    {
+      "colt_TripID": "1780-BRA-ITA-38449",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Roma"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Italy | Rome | 8-10 April [2005]' en el mismo viaje del funeral del Papa Juan Pablo II. COLT registra inicio 7 abr (posible día de viaje/llegada), consistente con el viaje combinado Roma+Vaticano+gira africana (Camerún, Nigeria, Ghana, Guiné-Bissau, Senegal) que siguió."
+    },
+    {
+      "colt_TripID": "1780-BRA-PRY-38522",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Asunción"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Paraguay | Asunción | 19-20 June [2005]; Met with President Nicanor Duarte'. Coincide exactamente con las fechas de COLT."
+    },
+    {
+      "colt_TripID": "1780-BRA-PER-38603",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Puerto Maldonado"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Peru | Puerto Maldonado | 8 September [2005]; Met with President Alejandro Toledo'. Coincide con la fecha de COLT y la nota (Toledo; también Mesa de Bolivia en encuentro fronterizo trilateral)."
+    },
+    {
+      "colt_TripID": "1780-BRA-PER-38925",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Lima"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Peru | Lima | 27-28 July [2006]; Attended the inauguration of President Alan García'. Coincide exactamente con las fechas y la nota de COLT."
+    },
+    {
+      "colt_TripID": "1780-BRA-SUR-38367",
+      "veredicto": "Descartado",
+      "fuente": "Wikipedia no registra visita a Surinam en enero de 2005, solo 'Suriname: Paramaribo; 15-16 February [2005]'.",
+      "justificacion": "Igual que en el caso de Guyana (GUY-38366) y Venezuela (VEN-38365), esta fecha (15-16 enero 2005) coincide día a día del mes con la visita real de febrero 2005 (ver SUR-38398). Patrón consistente de triplicado erróneo (Venezuela+Guyana+Surinam) con el mes desplazado de febrero a enero en COLT; no hay evidencia independiente de un viaje a Surinam en enero de 2005."
+    },
+    {
+      "colt_TripID": "1780-BRA-SUR-38398",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Paramaribo"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Suriname: Paramaribo; 15-16 February [2005]; Official visit', como parte de la gira con Venezuela y Guyana. Coincide con COLT (2005-02-15/16)."
+    },
+    {
+      "colt_TripID": "1780-BRA-GBR-38540",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Auchterarder (Gleneagles)"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'United Kingdom | Auchterarder | 7 July [2005]; Invited to attend the 31st G8 summit' (cumbre de Gleneagles). Coincide con la fecha de COLT."
+    },
+    {
+      "colt_TripID": "1780-BRA-GBR-38782",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Londres"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'United Kingdom | London | 7-9 March [2006]; Met with Queen Elizabeth II and Prime Minister Tony Blair'. COLT registra inicio 6 mar (posible día de viaje); el hecho del encuentro con la Reina y el Primer Ministro coincide con la nota de COLT."
+    },
+    {
+      "colt_TripID": "1780-BRA-USA-38947",
+      "veredicto": "Dudoso_no_verificable",
+      "fuente": "Búsqueda extensa en prensa brasileña/estadounidense y en el listado completo de viajes de Wikipedia no arrojó ningún encuentro Lula-Bush ni visita de Lula a EE.UU. en agosto de 2006; los encuentros documentados en el período son junio 2003, noviembre 2005 (Bush en Brasil) y marzo 2007 (Camp David).",
+      "justificacion": "No se encontró evidencia independiente que confirme ni descarte con certeza una visita a Estados Unidos el 18-19 de agosto de 2006. Dada la ausencia total de cobertura de prensa o registro en fuentes exhaustivas (Wikipedia), se marca como dudoso; podría tratarse de otro registro erróneo similar al patrón de duplicados detectado en otros países, pero no hay un 'original' claro del cual sea copia."
+    },
+    {
+      "colt_TripID": "1780-BRA-VEN-38365",
+      "veredicto": "Descartado",
+      "fuente": "Wikipedia no registra visita a Venezuela en enero de 2005, solo 'Venezuela | Caracas | 13-15 February [2005]'.",
+      "justificacion": "Fecha (13-14 enero 2005) coincide día a día del mes con la visita real de febrero 2005 (ver VEN-38396). Mismo patrón de triplicado erróneo (Venezuela+Guyana+Surinam) con el mes desplazado de febrero a enero; no hay evidencia independiente de una visita a Venezuela en enero de 2005."
+    },
+    {
+      "colt_TripID": "1780-BRA-VEN-38396",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Caracas"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Venezuela | Caracas | 13-15 February [2005]; Met with President Hugo Chávez'. Coincide con el inicio de COLT (2005-02-13); COLT registra fin 14 feb (un día antes que Wikipedia)."
+    },
+    {
+      "colt_TripID": "1780-BRA-VEN-38440",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ciudad Guayana"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Venezuela | Ciudad Guayana | 29 March [2005]; Met with President Hugo Chávez'. Coincide exactamente con la fecha de COLT."
+    },
+    {
+      "colt_TripID": "1780-BRA-VEN-38902",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Caracas"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Venezuela | Caracas | 4 July [2006]'. Coincide exactamente con la fecha de COLT."
+    },
+    {
+      "colt_TripID": "1780-BRA-VEN-39033",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ciudad Guayana"
+      },
+      "fuente": "List of international presidential trips made by Luiz Inácio Lula da Silva (en.wikipedia.org), tabla sourced from Biblioteca da Presidência do Brasil",
+      "justificacion": "Wikipedia confirma: 'Venezuela | Ciudad Guayana | 13 November [2006]; Met with President Hugo Chávez' (nota de COLT sobre inauguración de puente sobre el río Orinoco, cercano a Ciudad Guayana). COLT registra inicio 12 nov (posible día de viaje)."
+    }
+  ],
+  "nuestro_unico_check": [
+    {
+      "our_Trip_ID": "59",
+      "fuente_ok": true,
+      "nota": "El link https://segib.org/?summit=xiv-cumbre-iberoamericana-san-jose-2004 resuelve (HTTP 200, redirige a la home de SEGIB, que sigue activa y lista la 'XIV Cumbre Iberoamericana - San José, Costa Rica - 19 y 20 de noviembre de 2004' con el lema 'Educar para progresar'). Fechas de la cumbre (19-20 nov) son consistentes con nuestro rango de viaje (18-20 nov, incluyendo día de llegada)."
+    },
+    {
+      "our_Trip_ID": "74",
+      "fuente_ok": true,
+      "nota": "El link https://www.funag.gov.br/loja/download/505-discursos_selecionados_lula.pdf resuelve correctamente (PDF descargable, contenido extenso de discursos seleccionados del Presidente Lula, publicación oficial de FUNAG/Itamaraty). El documento sigue disponible en el dominio oficial."
+    },
+    {
+      "our_Trip_ID": "75",
+      "fuente_ok": true,
+      "nota": "El link https://segib.org/?summit=xvi-cumbre-iberoamericana-montevideo-2006 resuelve (HTTP 200, redirige a la home de SEGIB, que sigue activa y lista la 'XVI Cumbre Iberoamericana - Montevideo, Uruguay - 3 y 5 de noviembre de 2006' con el lema 'Migraciones y desarrollo'). Fechas consistentes con nuestro rango de viaje (3-5 nov)."
+    }
+  ]
+}

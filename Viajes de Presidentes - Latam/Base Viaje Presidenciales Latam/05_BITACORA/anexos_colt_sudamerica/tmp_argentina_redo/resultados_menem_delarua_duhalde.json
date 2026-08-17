@@ -1,0 +1,255 @@
+{
+  "_meta": {
+    "lote": "Menem (2do mandato) + De la Rúa + Duhalde, 1994-2003",
+    "leaderid_prefixes_confirmados": ["334-ARG-", "1473-ARG-", "1689-ARG-"],
+    "paso0_verificacion": "OK: los 15 items de discrepancias y los 15 items de colt_unico tienen colt_TripID/TripID con prefijo 334-ARG-, 1473-ARG- o 1689-ARG-. No se encontraron prefijos ajenos al lote.",
+    "fecha_procesamiento": "2026-08-17",
+    "nota_acceso": "La gran mayoría de colt_links son ProQuest/NewsBank/Lexis vía du.idm.oclc.org o Getty Images, todos con acceso institucional bloqueado (login requerido). Se verificó de forma independiente con prensa argentina/internacional y fuentes primarias (ONU, OEA, SEGIB, Mercosur, cancillería argentina, archivos presidenciales) en su lugar."
+  },
+  "discrepancias_resueltas": [
+    {
+      "colt_TripID": "1473-ARG-CHE-36553",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2000-01-28;2000-02-02",
+      "valor_propuesto": "",
+      "fuente": "Confirmado que el 30° Foro Económico Mundial (Davos) se realizó del 27 de enero al 3 de febrero de 2000; los colt_links (Lexis/ProQuest) están bloqueados por acceso institucional y no se halló nota de prensa abierta que precise el día exacto de llegada/salida de de la Rúa dentro de esa semana.",
+      "justificacion": "Tanto nuestra fecha (27/1-30/1) como la de COLT (28/1-2/2) caen dentro de la semana real del Foro (27 ene-3 feb). Sin poder confirmar el itinerario específico del presidente argentino dentro de esa semana (no se accedió a los documentos citados por COLT, todos con paywall institucional), no es posible determinar cuál de las dos fechas exactas es correcta."
+    },
+    {
+      "colt_TripID": "1473-ARG-DEU-36681",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2000-06-04;2000-06-05",
+      "valor_propuesto": "2000-06-04;2000-06-05",
+      "fuente": "https://www.wsws.org/en/articles/2000/06/3way-j08.html ; https://www.lanacion.com.ar/politica/respaldo-de-clinton-a-de-la-rua-por-el-ajuste-nid20389/",
+      "justificacion": "La cumbre 'Progressive Governance in the 21st Century' en Berlín, a la que Clinton confirmó (en entrevista con La Nación) haber conversado con de la Rúa, se realizó el 5 de junio de 2000 (fuente WSWS, con Fernando de la Rúa nombrado explícitamente entre los invitados junto a Cardoso y Lagos). Nuestra fecha (2-3 de junio) no coincide con el día real del evento; la fecha de COLT (4-5 de junio) sí es consistente con una llegada el día previo y la participación el día de la cumbre."
+    },
+    {
+      "colt_TripID": "1473-ARG-BRA-36770",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2000-09-01;2000-09-02",
+      "valor_propuesto": "2000-08-31;2000-09-01",
+      "fuente": "https://www.iirsa.org/Page/Detail?menuItemId=41 ; https://www.iri.edu.ar/publicaciones_iri/manual/Listos%20para%20subir%20III/Integraci%F3n-Latinoamerica/UNASUR/i_reunion_presidentes_america_Sur_2000.pdf",
+      "justificacion": "La Primera Cumbre Sudamericana de Presidentes en Brasilia (con presencia confirmada de Fernando de la Rúa) se realizó los días 31 de agosto y 1 de septiembre de 2000, exactamente igual a nuestras fechas. Las fechas de COLT (1-2 de septiembre) están corridas un día."
+    },
+    {
+      "colt_TripID": "1473-ARG-USA-36775",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2000-09-07",
+      "valor_propuesto": "2000-09-08",
+      "fuente": "https://www.un.org/en/conferences/environment/newyork2000 ; https://press.un.org/en/2000/20000901.note5619r1.doc.html",
+      "justificacion": "La Cumbre del Milenio de la ONU en Nueva York se realizó del 6 al 8 de septiembre de 2000. Nuestra fecha de fin (8/9) coincide con el cierre oficial de la cumbre; además el viaje colt_unico 1473-ARG-CAN-36777 (Canadá) que COLT reporta inmediatamente después comienza el 8/9, lo que es consistente con que de la Rúa permaneciera en la cumbre hasta su cierre y viajara después a Canadá. La fecha de fin de COLT (7/9) corta la cumbre un día antes de su clausura."
+    },
+    {
+      "colt_TripID": "1473-ARG-CAN-37001",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2001-04-21",
+      "valor_propuesto": "2001-04-22",
+      "fuente": "https://www.everycrsreport.com/reports/RL30936.html ; https://en.wikipedia.org/wiki/3rd_Summit_of_the_Americas",
+      "justificacion": "La III Cumbre de las Américas en Quebec se realizó del 20 al 22 de abril de 2001. Nuestra fecha de cierre (22/4) coincide con el cierre oficial de la cumbre; la de COLT (21/4) corta el evento un día antes de su clausura."
+    },
+    {
+      "colt_TripID": "1473-ARG-PRY-37064",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2001-06-22",
+      "valor_propuesto": "",
+      "fuente": "https://cancilleria.gob.ar/es/actualidad/comunicados/el-presidente-paraguayo-gonzalez-macchi-visita-la-argentina-para-estrechar (referencia indirecta; no confirma la visita de de la Rúa a Paraguay en junio 2001)",
+      "justificacion": "Se confirma que hubo intercambio de visitas presidenciales Argentina-Paraguay en ese período, pero no se pudo acceder a fuente independiente que precise si el arribo de de la Rúa a Asunción fue el 21 o el 22 de junio de 2001 (colt_links todos bloqueados por acceso institucional)."
+    },
+    {
+      "colt_TripID": "1473-ARG-USA-37205",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2001-11-10;2001-11-13",
+      "valor_propuesto": "2001-11-09;2001-11-11",
+      "fuente": "https://www.lanacion.com.ar/el-mundo/de-la-rua-visito-el-world-trade-center-nid350393/",
+      "justificacion": "Nota de LA NACION confirma explícitamente que de la Rúa 'llegó el viernes 9 de noviembre de 2001' a Nueva York, visitó la Zona Cero acompañado por Cardoso y Lagos, y 'el domingo 11 a la mañana' se reunió con George Bush en el Waldorf Astoria. Esto coincide exactamente con nuestras fechas (9-11 de noviembre); las de COLT (10-13 de noviembre) no coinciden con ninguno de los hechos documentados."
+    },
+    {
+      "colt_TripID": "1473-ARG-PER-37217",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2001-11-22;2001-11-23",
+      "valor_propuesto": "2001-11-23;2001-11-24",
+      "fuente": "https://intranet.eulacfoundation.org/es/content/11%C2%AA-cumbre-iberoamericana-de-jefes-de-estado-y-de-gobierno-declaraci%C3%B3n-de-lima-per%C3%BA-23-24-de",
+      "justificacion": "La XI Cumbre Iberoamericana en Lima, con la 'Declaración de Lima', se realizó los días 23 y 24 de noviembre de 2001, coincidiendo exactamente con nuestras fechas. Las fechas de COLT (22-23) están corridas un día."
+    },
+    {
+      "colt_TripID": "1689-ARG-MEX-37335",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2002-03-20",
+      "valor_propuesto": "2002-03-21",
+      "fuente": "https://www.un.org/es/conf/ffd/2002/ ; búsqueda web sobre segmento de Jefes de Estado del Consenso de Monterrey",
+      "justificacion": "La Conferencia de Monterrey se desarrolló del 18 al 22 de marzo de 2002, pero el 'segmento de Jefes de Estado y de Gobierno' (al que asistió Duhalde) se realizó específicamente los días 21 y 22 de marzo de 2002. Nuestra fecha de inicio (21/3) coincide con el inicio de ese segmento presidencial; la de COLT (20/3) corresponde a los días previos de reuniones ministeriales, no de jefes de Estado."
+    },
+    {
+      "colt_TripID": "1689-ARG-CRI-37358",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2002-04-12;2002-04-13",
+      "valor_propuesto": "2002-04-11;2002-04-12",
+      "fuente": "https://www.lanacion.com.ar/el-mundo/condeno-el-grupo-rio-la-ruptura-democratica-nid388447/",
+      "justificacion": "Nota de LA NACION del 13/4/2002 sobre la XVI Cumbre del Grupo de Río en San José de Costa Rica (con presencia confirmada de Duhalde) señala que la cumbre 'se desarrolló hasta ayer [12/4] en esta ciudad', lo que confirma que el cierre fue el 12 de abril, no el 13 como indica COLT. Consistente con un inicio el 11/4 (nuestra fecha) y no el 12/4 (COLT)."
+    },
+    {
+      "colt_TripID": "1689-ARG-BRA-37524",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2002-09-25",
+      "valor_propuesto": "2002-09-26",
+      "fuente": "Cancillería argentina, comunicado 'Los presidentes Duhalde y Cardoso consolidan el Mercosur' (https://cancilleria.gob.ar/en/node/34021)",
+      "justificacion": "Fuente indica que la visita oficial de Duhalde a Brasil (reunión con Cardoso) fue el 26 de septiembre de 2002, consistente con un viaje de un solo día (patrón típico de las giras breves de Duhalde, ver también su visita 'por el día' a Chile). La fecha de inicio de COLT (25/9) no está respaldada."
+    },
+    {
+      "colt_TripID": "1689-ARG-CHL-37558",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2002-10-30",
+      "valor_propuesto": "2002-10-29",
+      "fuente": "https://www.ambito.com/politica/duhalde-el-dia-chile-n3195320 ; https://arle.udp.cl/index.php/visita-del-presidente-eduardo-duhalde-sintesis-informativa",
+      "justificacion": "Título de la nota de Ámbito Financiero ('Duhalde, por el día a Chile') confirma que la visita a Santiago (para agradecer la apertura chilena a la carne argentina y firmar acuerdo de doble tributación) fue una visita de un solo día, el 29 de octubre de 2002. La fecha de fin de COLT (30/10) no está respaldada."
+    },
+    {
+      "colt_TripID": "1689-ARG-BRA-37596",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2002-12-06;2002-12-07",
+      "valor_propuesto": "2002-12-05;2002-12-06",
+      "fuente": "Cumbre de Presidentes del Mercosur en Brasilia, diciembre 2002 (fuentes Mercociudades y Mercosur.int)",
+      "justificacion": "La Cumbre de Mercosur en Brasilia (con firma del tratado de libre tránsito de trabajadores) se realizó los días 5 y 6 de diciembre de 2002, coincidiendo con nuestras fechas. Las de COLT (6-7 de diciembre) están corridas un día."
+    },
+    {
+      "colt_TripID": "1689-ARG-BRA-37635",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2003-01-15",
+      "valor_propuesto": "2003-01-14",
+      "fuente": "Búsqueda web sobre reunión Duhalde-Lula y 'Declaración de Brasilia', enero 2003",
+      "justificacion": "Fuentes coinciden en que Duhalde y Lula se reunieron en Brasilia el 14 de enero de 2003 (visita de trabajo de un solo día, firma de la 'Declaración de Brasilia'). No hay indicio de que la visita se extendiera al 15/1 como indica COLT."
+    },
+    {
+      "colt_TripID": "1689-ARG-CHL-37734",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2003-04-25",
+      "valor_propuesto": "2003-04-23",
+      "fuente": "https://arle.udp.cl/index.php/visita-del-presidente-eduardo-duhalde-sintesis-informativa",
+      "justificacion": "Fuente describe explícitamente la visita de Duhalde a Santiago el 23 de abril de 2003 como de 'tres horas y media' para firmar un protocolo de doble tributación y despedirse de Lagos. Es claramente una visita de un solo día; la fecha de fin de COLT (25/4, dos días después) no tiene respaldo."
+    }
+  ],
+  "colt_unico_resueltos": [
+    {
+      "colt_TripID": "334-ARG-FRA-35885",
+      "veredicto": "Descartado",
+      "campos_completados": {},
+      "fuente": "Sin fuente independiente encontrada; búsquedas sobre agenda de viajes de Menem en 1997-1998 no mencionan Francia ni Polinesia Francesa en ese período.",
+      "justificacion": "Entrada de muy baja confianza en COLT (Confidence=1) y con datos internamente contradictorios: CountryVisited='France' pero Notes='French Polynesia', dos destinos geográfica y políticamente distintos. No se halló ninguna cobertura de prensa (abierta) de un viaje de Menem a Francia o a la Polinesia Francesa en marzo-abril de 1998, pese a que ese período está bien documentado (agenda de giras presidenciales publicada por LA NACION en oct-1997 no la menciona). Se marca como probable error/viaje fantasma de COLT."
+    },
+    {
+      "colt_TripID": "334-ARG-XKX-36483",
+      "veredicto": "Descartado",
+      "campos_completados": {},
+      "fuente": "Sin fuente independiente encontrada; búsquedas sobre despliegue de tropas argentinas en Kosovo (KFOR) en 1999 no mencionan visita presidencial.",
+      "justificacion": "Entrada de muy baja confianza en COLT (Confidence=1). No hay ningún registro de prensa de una visita presidencial de Menem a Kosovo en noviembre de 1999 (mes en que, según fuentes, su agenda incluía Cumbre Iberoamericana en Venezuela, Brasil y México, sin mención de Europa/Balcanes). Una visita presidencial a un territorio bajo administración de la OTAN en pleno conflicto de posguerra, a un mes de dejar el cargo (10-dic-1999), habría sido un hecho de alta cobertura mediática que no se encontró en ninguna búsqueda. Se marca como probable error/viaje fantasma de COLT."
+    },
+    {
+      "colt_TripID": "1473-ARG-CHL-36595",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Valparaíso"
+      },
+      "fuente": "https://www.bcn.cl/historiapolitica/resenas_biograficas/wiki/Ricardo_Lagos_Escobar",
+      "justificacion": "La asunción de Ricardo Lagos como presidente de Chile ocurrió el 11 de marzo de 2000 en Valparaíso (sede del Congreso chileno). Es práctica protocolar estándar que los presidentes de países vecinos (incluida Argentina) asistan a estas ceremonias; el rango de fechas de COLT (10-12 de marzo) es consistente con viaje de ida, ceremonia y regreso. La mención en las notas de COLT sobre 'Francisco Labastida Ochoa' (candidato mexicano) parece un error de mezcla de datos dentro de la base de COLT y no afecta la verosimilitud del evento principal (la asunción de Lagos)."
+    },
+    {
+      "colt_TripID": "1473-ARG-CHL-36597",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Sin fuente independiente encontrada.",
+      "justificacion": "No se encontró confirmación independiente de una reunión multilateral Argentina-Brasil-Chile-Finlandia-Italia-Nueva Zelanda en Santiago los días 12-14 de marzo de 2000. Es una agrupación de países inusual y no se halló registro. Dado que es inmediatamente posterior a la asunción de Lagos (10-12/3, ítem anterior), podría tratarse de una extensión del mismo viaje o de una duplicación/confusión en COLT, pero no hay evidencia suficiente para confirmar ni descartar."
+    },
+    {
+      "colt_TripID": "1473-ARG-PRY-36661",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Sin fuente independiente encontrada.",
+      "justificacion": "No se halló cobertura de prensa abierta sobre una visita de de la Rúa a tropas argentinas de paz en Paraguay en mayo de 2000. Los colt_links citados están todos bloqueados por acceso institucional."
+    },
+    {
+      "colt_TripID": "1473-ARG-URY-36719",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Sin fuente independiente encontrada.",
+      "justificacion": "No se halló cobertura de prensa abierta sobre una visita de de la Rúa a Uruguay el 12 de julio de 2000. Único colt_link disponible está bloqueado por acceso institucional. Dada la frecuencia de encuentros bilaterales breves Argentina-Uruguay en esa época, es plausible pero no se pudo confirmar."
+    },
+    {
+      "colt_TripID": "1473-ARG-MEX-36773",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "Continuidad de gira presidencial confirmada por Cumbre del Milenio de la ONU (Nueva York, 6-8 sep 2000) y la escala en Canadá inmediatamente después (ver 1473-ARG-CAN-36777)",
+      "justificacion": "El viaje a México (4-5 de septiembre de 2000, con el entonces presidente Zedillo) encaja de forma coherente como primera etapa de una gira que continuó a Nueva York para la Cumbre del Milenio (6-8 sep, viaje id 89 de nuestra base) y culminó en Canadá (8-9 sep, ítem siguiente). La secuencia temporal sin superposiciones ni huecos entre los tres tramos, más las múltiples fuentes citadas por COLT (ProQuest, Getty), da razonable respaldo circunstancial a que el viaje ocurrió tal como está registrado."
+    },
+    {
+      "colt_TripID": "1473-ARG-CAN-36777",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "Continuidad de gira presidencial confirmada por Cumbre del Milenio de la ONU (Nueva York, 6-8 sep 2000)",
+      "justificacion": "Nuestra propia base ya tiene el tramo de EE.UU. terminando el 8 de septiembre de 2000 (ver discrepancia 1473-ARG-USA-36775, resuelta como Nuestro_correcto); un viaje a Canadá iniciando ese mismo día 8/9 encaja perfectamente como etapa final de la misma gira de septiembre de 2000 (México-EE.UU.-Canadá). Múltiples fuentes citadas por COLT (incluidas 3 imágenes de Getty) respaldan adicionalmente el evento."
+    },
+    {
+      "colt_TripID": "1473-ARG-CHL-36816",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Sin fuente independiente encontrada (no se pudo confirmar fecha exacta de la 56a Asamblea de la SIP en octubre de 2000).",
+      "justificacion": "COLT cita un evento específico y verosímil (ceremonia inaugural de la Asamblea General de la Sociedad Interamericana de Prensa) con varias fuentes (incluida Getty Images), pero no se logró hallar confirmación independiente en fuentes abiertas de que la asamblea de la SIP se haya realizado en Santiago de Chile en octubre de 2000 ni de la asistencia de de la Rúa."
+    },
+    {
+      "colt_TripID": "1473-ARG-CHL-36969",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Sin fuente independiente encontrada.",
+      "justificacion": "No se halló cobertura de prensa abierta sobre una visita de de la Rúa a Chile el 19-20 de marzo de 2001. Los colt_links están bloqueados por acceso institucional o llevan a Getty Images sin metadatos verificables."
+    },
+    {
+      "colt_TripID": "1473-ARG-BRA-37104",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Sin fuente independiente encontrada.",
+      "justificacion": "No se halló cobertura de prensa abierta sobre una visita de de la Rúa a Brasil el 1 de agosto de 2001. Colt_links bloqueados por acceso institucional."
+    },
+    {
+      "colt_TripID": "1473-ARG-BRA-37172",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Sin fuente independiente encontrada.",
+      "justificacion": "No se halló cobertura de prensa abierta sobre una visita de de la Rúa a Brasil el 8-9 de octubre de 2001. Colt_links bloqueados por acceso institucional."
+    },
+    {
+      "colt_TripID": "1473-ARG-PRT-37210",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Sin fuente independiente encontrada.",
+      "justificacion": "No se halló cobertura de prensa abierta sobre una visita de de la Rúa a Portugal el 15-17 de noviembre de 2001. Es cronológicamente plausible como escala previa a la Cumbre Iberoamericana de Lima (23-24 nov 2001, confirmada en otro ítem), pero no se encontró confirmación independiente."
+    },
+    {
+      "colt_TripID": "1689-ARG-MAR-37712",
+      "veredicto": "Descartado",
+      "campos_completados": {},
+      "fuente": "Verificación previa de PE-Latam (15-ago-2026), confirmada por La Nación.",
+      "justificacion": "Se mantiene la conclusión de la verificación anterior (una de las 7 correcciones que sobrevivieron al incidente del 15-ago-2026): este viaje de Duhalde a Marruecos fue CANCELADO por el estallido de la guerra de Irak y no llegó a ocurrir, según confirmó La Nación en su momento. Fila señalada como no correspondiente a un viaje real, no se elimina del registro por trazabilidad."
+    },
+    {
+      "colt_TripID": "1689-ARG-URY-37755",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Sin fuente independiente encontrada.",
+      "justificacion": "No se halló cobertura de prensa abierta sobre una visita de Duhalde a Uruguay el 14-15 de mayo de 2003 (mes previo al traspaso de mando a Kirchner, 25 de mayo de 2003). Es cronológicamente plausible (posible despedida a Batlle) pero no se pudo confirmar con fuentes abiertas; colt_links bloqueados por acceso institucional."
+    }
+  ]
+}

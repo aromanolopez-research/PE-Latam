@@ -1,0 +1,653 @@
+{
+  "discrepancias_resueltas": [
+    {
+      "colt_TripID": "994-BRA-PRT-36593",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2000-03-08 a 2000-03-09",
+      "valor_propuesto": "2000-03-08 a 2000-03-09",
+      "fuente": "http://www.itamaraty.gov.br/pt-BR/discursos... (jantar Palácio da Ajuda 8/3/2000; almoço Personalidades do Ano Brasil-Portugal 9/3/2000)",
+      "justificacion": "Discursos oficiales de Itamaraty confirman a FHC en Lisboa el 8 de marzo (cena con Sampaio) y el 9 de marzo (almuerzo), coincidiendo exactamente con las fechas de COLT; nuestras fechas (07-08/03) parecen erroneas."
+    },
+    {
+      "colt_TripID": "994-BRA-CHL-36594",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2000-03-09 a 2000-03-12",
+      "valor_propuesto": "aprox. 2000-03-10/11 a 2000-03-11 (posesion de Ricardo Lagos fue el 11/03/2000, dato historico bien documentado)",
+      "fuente": "Search Query: Ricardo Lagos posse presidente Chile 11 marco 2000 + discursos Itamaraty Portugal 8-9 marco 2000",
+      "justificacion": "La posesion de Lagos como presidente de Chile ocurrio el 11/03/2000 (hecho historico confirmado). El inicio COLT (09/03) es incompatible con que FHC estuviera confirmadamente en Lisboa el 8-9/03. Nuestra fecha unica (11/03) coincide con el dia de la posesion pero no se pudo confirmar con certeza fecha de salida ni si permanecio hasta el 12/03 como indica COLT."
+    },
+    {
+      "colt_TripID": "994-BRA-COL-36692",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2000-06-15",
+      "valor_propuesto": "2000-06-17",
+      "fuente": "Search Query: Cumbre Grupo de Rio Cartagena Colombia junio 2000 fechas + folha 'FHC danca porro na festa da Cupula do Rio' 17/06/2000",
+      "justificacion": "La XIV Cumbre del Grupo de Rio se realizo en Cartagena de Indias el 14-16 de junio de 2000; la nota de Folha sobre la fiesta de la cumbre se publico el 17/06/2000, consistente con el regreso ese dia. La compresion de COLT a un solo dia (15/06) parece incorrecta."
+    },
+    {
+      "colt_TripID": "994-BRA-DEU-36676",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2000-05-30 a 2000-06-03",
+      "valor_propuesto": "2000-05-30 a 2000-06-03",
+      "fuente": "http://www.dgabc.com.br/Noticia/228846/fhc-viaja-para-a-alemanha (30/05/2000, dia de la partida)",
+      "justificacion": "El titular 'FHC viaja para a Alemanha' se publico el mismo 30/05/2000 (dia de partida), coincidiendo con el inicio COLT. Ademas la gira continuo a Francia (COLT registra Francia 03-06/06 en colt_unico), lo que es consistente con que Alemania terminara el 03/06 como dia de transito, tal como indica COLT."
+    },
+    {
+      "colt_TripID": "994-BRA-MEX-36859",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2000-11-29 a 2000-12-02",
+      "valor_propuesto": "2000-11-29 a 2000-12-02",
+      "fuente": "Wikipedia (nota): 'Fernando Henrique viaja ao Mexico para posse de Fox' Folha 29/11/2000 (dia del embarque)",
+      "justificacion": "La nota de Folha publicada el mismo 29/11/2000 describe el embarque de FHC ese dia (coincide con inicio COLT); Fox asumio el 01/12/2000, por lo que el regreso el 02/12 (fin COLT) es plausible. Nuestras fechas (30/11-01/12) parecen desplazadas."
+    },
+    {
+      "colt_TripID": "994-BRA-KOR-36906",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2001-01-15",
+      "valor_propuesto": "2001-01-19",
+      "fuente": "Search Query: Cardoso Coreia do Sul 19 de janeiro 2001 Kim Dae-jung Seul visita (Diario Grande ABC 19/01/2001)",
+      "justificacion": "Fuentes confirman que FHC estuvo en Panmunjon (frontera de las dos Coreas) el viernes 19/01/2001, enviando mensaje a Corea del Norte ese dia; esto contradice el inicio COLT (15/01), que parece erroneo por 4 dias. Fecha de fin (COLT 20/01 vs nuestro 21/01) no se pudo verificar con certeza adicional pero se mantiene coherencia con itinerario posterior (Indonesia desde 22/01 segun COLT)."
+    },
+    {
+      "colt_TripID": "994-BRA-CAN-37000",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2001-04-19",
+      "valor_propuesto": "2001-04-19",
+      "fuente": "Search Query: Fernando Henrique Cardoso Quebec 19 de abril 2001 Cupula das Americas (reunion bilateral con PM Chretien previa a la apertura)",
+      "justificacion": "Se confirma reunion bilateral de FHC con el primer ministro canadiense Jean Chretien el 19/04/2001, un dia antes de la apertura oficial de la Cumbre (20/04); esto coincide con el inicio COLT, no con el nuestro (20/04)."
+    },
+    {
+      "colt_TripID": "994-BRA-PER-37099",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2001-07-27",
+      "valor_propuesto": "2001-07-27",
+      "fuente": "https://www.dgabc.com.br/Noticia/258036/fhc-vai-ao-peru-para-a-posse-de-alejandro-toledo",
+      "justificacion": "La nota indica que FHC viajo a Lima el viernes (27/07/2001, confirmado por calendario) para la investidura de Toledo el sabado 28/07; esto coincide con el inicio COLT (27/07), no con el nuestro (28/07)."
+    },
+    {
+      "colt_TripID": "994-BRA-VEN-37116",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2001-08-13",
+      "valor_propuesto": "2001-08-12",
+      "fuente": "http://politica.estadao.com.br/noticias/geral,fhc-inaugura-interligacao-eletrica-com-venezuela,20010812p39284 (nota publicada 12/08/2001, dia del evento)",
+      "justificacion": "El titular indica que la inauguracion de la interconexion electrica con Venezuela ocurrio el mismo dia de publicacion, 12/08/2001, coincidiendo con nuestra fecha de inicio; COLT comprime el viaje a un solo dia (13/08), lo cual parece incorrecto."
+    },
+    {
+      "colt_TripID": "994-BRA-ECU-37164",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2001-09-30 a 2001-10-02",
+      "valor_propuesto": "2001-09-30 a 2001-10-02",
+      "fuente": "Search Query: Cardoso discurso Congreso Ecuador Quito octubre 2001 (georgewbush-whitehouse.archives.gov referencia cruzada)",
+      "justificacion": "Se confirma que FHC se dirigio al Congreso de Ecuador en Quito el 1 de octubre de 2001, fecha que cae dentro del rango COLT (30/09-02/10) pero fuera del rango nuestro (27-28/09), sugiriendo que nuestras fechas son erroneas."
+    },
+    {
+      "colt_TripID": "994-BRA-USA-37202",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2001-11-07",
+      "valor_propuesto": "2001-11-08",
+      "fuente": "https://georgewbush-whitehouse.archives.gov/news/releases/2001/11/print/20011102-7.html (anuncio de reunion Bush-Cardoso programada para 08/11/2001)",
+      "justificacion": "La Casa Blanca anuncio que la reunion Bush-Cardoso estaba programada para el 8 de noviembre de 2001, coincidiendo con nuestra fecha de inicio, no con la de COLT (07/11). Fecha de fin (09/11 nuestro vs 11/11 COLT) no pudo confirmarse independientemente."
+    },
+    {
+      "colt_TripID": "994-BRA-RUS-37268",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2002-01-12",
+      "valor_propuesto": "2002-01-12",
+      "fuente": "http://politica.estadao.com.br/noticias/geral,fhc-embarca-para-a-russia-em-sua-85-viagem-ao-exterior,20020111p54670 (nota publicada 11/01/2002 anunciando embarque inminente)",
+      "justificacion": "La nota fue publicada el 11/01/2002 anunciando que FHC 'embarca' para Rusia, consistente con partida el 12/01 (COLT), no el 13/01 (nuestro). Fecha de fin no verificada con certeza adicional."
+    },
+    {
+      "colt_TripID": "994-BRA-SWE-37309",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2002-02-22",
+      "valor_propuesto": "2002-02-20",
+      "fuente": "http://www.lourivalsantanna.com/paises/europa/suecia/fhc-discute-comercio-e-terceira-via-na-suecia/ (nota publicada 21/02/2002)",
+      "justificacion": "La nota sobre la actividad de FHC en Suecia se publico el 21/02/2002, lo que implica que ya estaba en el pais antes de esa fecha, contradiciendo el inicio COLT (22/02); es compatible con nuestro inicio (20/02)."
+    },
+    {
+      "colt_TripID": "994-BRA-POL-37312",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2002-02-26",
+      "valor_propuesto": "2002-02-25",
+      "fuente": "BBC Brasil: 'FHC quer relacao economica estreita com a Polonia' (25/02/2002) y 'Presidente brasileiro encontra imagens do Brasil na Eslovaquia' (26/02/2002)",
+      "justificacion": "Las notas de BBC Brasil muestran que FHC estaba en Polonia el 25/02 y ya en Eslovaquia (pais distinto, no registrado en nuestra base ni en COLT como visita separada) el 26/02, lo que sugiere que la extension de COLT al 26/02 en Polonia corresponde en realidad a la etapa eslovaca del viaje."
+    },
+    {
+      "colt_TripID": "994-BRA-ZAF-37500",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2002-09-01 a 2002-09-05",
+      "valor_propuesto": "2002-08-31 a ~2002-09-04",
+      "fuente": "Diario Oficial da Uniao 30/08/2002 (decreto designa comitiva oficial para o periodo 31/08 a 04/09/2002 - Cupula de Joanesburgo)",
+      "justificacion": "El decreto oficial (30/08/2002) designa la comitiva para el periodo 31/08-04/09/2002, confirmando nuestro inicio (31/08) pero sugiriendo un fin mas cercano al 04/09 que al 02/09 nuestro o al 05/09 de COLT; ninguna de las dos fechas de fin coincide exactamente."
+    },
+    {
+      "colt_TripID": "994-BRA-PRT-37569",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2002-11-09 a 2002-11-13",
+      "valor_propuesto": "salida Brasil ~09/11, llegada Lisboa (domingo) 10/11 sin compromisos, actividad oficial 11-12/11",
+      "fuente": "Agencia Brasil 10/11/2002 'FHC chega a Lisboa sem compromissos oficiais neste domingo'; Diario ABC 09/11/2002 'FHC faz ultima viagem como chefe de Estado'",
+      "justificacion": "FHC parece haber salido de Brasil alrededor del 09/11 (coincide con inicio COLT) pero llego a Lisboa el domingo 10/11 sin actividad oficial ese dia; los compromisos oficiales comenzaron el 11/11 (coincide con nuestro inicio). Ninguna fecha reproduce exactamente el patron completo; el fin (12 nuestro vs 13 COLT) tampoco se pudo verificar con certeza, aunque la secuencia con el viaje a Reino Unido (13-14/11 registrado en colt_unico) favorece levemente el fin nuestro (12/11)."
+    },
+    {
+      "colt_TripID": "994-BRA-USA-37597",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2002-12-07",
+      "valor_propuesto": "2002-12-08",
+      "fuente": "Search Query: FHC Nova York premio dezembro 2002 8 de dezembro 99a viagem BBC (Diario ABC: 'FHC recebe premio da ONU em Nova York' 09/12/2002, premiacion un lunes = 09/12/2002)",
+      "justificacion": "La nota de Wikipedia describe el viaje como su '99a viagem', publicada el 8/12, coincidiendo con nuestro inicio; la premiacion en la ONU ocurrio el lunes 09/12/2002. No se pudo confirmar con certeza si la partida fue el 07/12 (COLT) o el 08/12 (nuestro); fecha de fin (10/12 nuestro vs 12/12 COLT) tampoco verificada."
+    },
+    {
+      "colt_TripID": "1780-BRA-CHE-37645",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2003-01-24",
+      "valor_propuesto": "2003-01-25",
+      "fuente": "Search Query: Lula Davos Suica janeiro 2003 Forum Social Porto Alegre (Lula discurso en Foro Social Mundial Porto Alegre 25/01/2003, luego vuelo nocturno a Davos, discurso en Davos 26/01/2003)",
+      "justificacion": "Es un episodio historico documentado: Lula hablo en el Foro Social Mundial en Porto Alegre la manana del 25/01/2003 y volo esa misma noche a Suiza, llegando a tiempo para el Foro Economico Mundial en Davos el 26/01/2003. Esto es incompatible con un inicio del viaje a Suiza el 24/01 (COLT), y consistente con nuestro inicio (25/01)."
+    },
+    {
+      "colt_TripID": "1780-BRA-DEU-37649",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2003-01-28",
+      "valor_propuesto": "2003-01-27",
+      "fuente": "http://memoria.ebc.com.br/agenciabrasil/noticia/2003-01-27/lula-e-recebido-com-honras-militares-na-alemanha",
+      "justificacion": "Agencia Brasil confirma que Lula fue recibido con honores militares en Alemania el 27/01/2003 (reunion con el presidente Rau en el Palacio Bellevue a las 15:45h), coincidiendo con nuestra fecha, no con la de COLT (28/01)."
+    },
+    {
+      "colt_TripID": "1780-BRA-FRA-37650",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2003-01-29",
+      "valor_propuesto": "2003-01-28",
+      "fuente": "Search Query: Lula Alemanha Franca janeiro 2003 (cronologia Funag: Alemanha 27-28/01, Franca inmediatamente despues)",
+      "justificacion": "Dado que la visita a Alemania se confirmo el 27/01/2003 (con actividades hasta el 28/01 segun cronologia FUNAG), la etapa francesa habria comenzado el 28/01, consistente con nuestra fecha, no con la de COLT (29/01)."
+    },
+    {
+      "colt_TripID": "1780-BRA-PER-37763",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2003-05-25",
+      "valor_propuesto": "N/D",
+      "fuente": "Search Query: Lula Peru maio 2003 Cusco (fuente COLT es voanews.com, no institucional pero no aporta fecha de fin exacta)",
+      "justificacion": "No se encontro evidencia independiente que confirme si el viaje termino el 24/05 (nuestro) o el 25/05 (COLT); la diferencia es de solo 1 dia y no se pudo dirimir."
+    },
+    {
+      "colt_TripID": "1780-BRA-FRA-37772",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2003-05-31 a 2003-06-02",
+      "valor_propuesto": "2003-06-01 a 2003-06-03",
+      "fuente": "Search Query: G8 Evian Franca junho 2003 datas (29th G8 summit, Evian-les-Bains, 1-3 junio 2003)",
+      "justificacion": "La 29a cumbre del G8 se realizo oficialmente en Evian-les-Bains el 1-3 de junio de 2003; nuestras fechas coinciden exactamente con el rango oficial de la cumbre, mientras que el rango COLT (31/05-02/06) no cubre el ultimo dia de la cumbre. Nota: dos de los tres links de COLT para este item son de bases de acceso institucional (Lexis/Getty) no verificables directamente."
+    },
+    {
+      "colt_TripID": "1780-BRA-USA-37791",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2003-06-19",
+      "valor_propuesto": "2003-06-20",
+      "fuente": "https://georgewbush-whitehouse.archives.gov/ (reunion Bush-Lula en la Casa Blanca confirmada para el viernes 20/06/2003)",
+      "justificacion": "La Casa Blanca confirma que la reunion Bush-Lula fue el viernes 20 de junio de 2003; no se encontro evidencia de actividad oficial el 19/06 (fecha de inicio segun COLT)."
+    },
+    {
+      "colt_TripID": "1780-BRA-USA-37888",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2003-09-24 a 2003-09-25",
+      "valor_propuesto": "2003-09-23",
+      "fuente": "https://ptnosenado.org.br/o-discurso-de-lula-na-onu-em-23-de-setembro-de-2003/",
+      "justificacion": "Esta ampliamente documentado que el discurso de Lula ante la Asamblea General de la ONU fue el 23/09/2003; el rango de COLT (24-25/09) ni siquiera incluye esa fecha, por lo que parece claramente erroneo."
+    },
+    {
+      "colt_TripID": "1780-BRA-NAM-37931",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2003-11-07",
+      "valor_propuesto": "N/D",
+      "fuente": "N/D",
+      "justificacion": "No se encontro evidencia independiente adicional (mas alla de los links ya provistos, de Itamaraty/Biblioteca da Presidencia no accesibles via fetch en este entorno) para dirimir si el viaje termino el 06/11 (nuestro) o el 07/11 (COLT); diferencia de 1 dia."
+    },
+    {
+      "colt_TripID": "1780-BRA-BOL-37939",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2003-11-14",
+      "valor_propuesto": "N/D",
+      "fuente": "N/D",
+      "justificacion": "No se encontro evidencia independiente para dirimir si el viaje se extendio al 15/11 (nuestro) o termino el 14/11 (COLT); diferencia de 1 dia sin fuentes accesibles."
+    },
+    {
+      "colt_TripID": "1780-BRA-LBN-37959",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2003-12-04",
+      "valor_propuesto": "N/D",
+      "fuente": "N/D",
+      "justificacion": "No se encontro evidencia independiente para dirimir si el viaje comenzo el 04/12 (COLT) o el 05/12 (nuestro); diferencia de 1 dia sin fuentes accesibles fuera de Itamaraty/Biblioteca da Presidencia (no accesibles en este entorno)."
+    },
+    {
+      "colt_TripID": "1780-BRA-ARE-37961",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2003-12-06",
+      "valor_propuesto": "N/D",
+      "fuente": "N/D",
+      "justificacion": "No se encontro evidencia independiente para dirimir si el viaje comenzo el 06/12 (COLT) o el 07/12 (nuestro); diferencia de 1 dia sin fuentes accesibles fuera de Itamaraty/Biblioteca da Presidencia (no accesibles en este entorno)."
+    },
+    {
+      "colt_TripID": "1780-BRA-LBY-37964",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2003-12-09 a 2003-12-10",
+      "valor_propuesto": "N/D",
+      "fuente": "N/D",
+      "justificacion": "No se encontro evidencia independiente para dirimir la diferencia de 1 dia en ambas fechas; sin fuentes accesibles fuera de Itamaraty/Biblioteca da Presidencia (no accesibles en este entorno)."
+    },
+    {
+      "colt_TripID": "1780-BRA-PRT-37811",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2003-07-09 a 2003-07-10",
+      "valor_propuesto": "2003-07-09 a 2003-07-12",
+      "fuente": "https://www.arquivo.presidencia.pt/details?id=130296 (Visita de Estado a Portugal ... de 9 a 12 de Julho de 2003, Arquivo Historico da Presidencia da Republica Portuguesa)",
+      "justificacion": "El archivo historico de la Presidencia portuguesa confirma que la visita de Estado de Lula fue del 9 al 12 de julio de 2003 (llegada la noche del 9, banquete oficial el 10, actividades hasta el 12). Esto coincide con el inicio de COLT (09/07) pero con el fin nuestro (12/07); ambas bases tenian un dato correcto y otro incorrecto."
+    },
+    {
+      "colt_TripID": "1780-BRA-GBR-37813",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2003-07-11",
+      "valor_propuesto": "2003-07-13",
+      "fuente": "Deduccion logica a partir de 1780-BRA-PRT-37811 (visita a Portugal confirmada hasta el 12/07/2003 por archivo presidencial portugues)",
+      "justificacion": "Dado que la visita de Estado a Portugal se confirmo documentalmente hasta el 12/07/2003, Lula no pudo haber iniciado la visita a Reino Unido el 11/07 (COLT), que se superpone con la estadia en Portugal. Nuestro inicio (13/07) es consistente con la secuencia real del viaje."
+    },
+    {
+      "colt_TripID": "1780-BRA-ESP-37817",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2003-07-15",
+      "valor_propuesto": "N/D",
+      "fuente": "N/D",
+      "justificacion": "Diferencia de solo 1 dia (14 nuestro vs 15 COLT); no se encontro evidencia independiente concluyente, aunque la secuencia del viaje (Reino Unido hasta 14/07 segun ambas bases) es compatible con cualquiera de las dos fechas de inicio en Espana."
+    },
+    {
+      "colt_TripID": "1780-BRA-VEN-37858",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2003-08-25",
+      "valor_propuesto": "2003-08-26",
+      "fuente": "Coherencia con 1780-BRA-GUY-37859 (colt_unico: Guyana 26-27/08/2003, registrado por COLT inmediatamente despues de Venezuela)",
+      "justificacion": "COLT mismo registra el viaje inmediatamente siguiente (Guyana) como iniciado el 26/08/2003; si Venezuela hubiera durado hasta el 26/08 (como propone COLT para este item, 25-26/08), no habria margen logico para el traslado a Guyana ese mismo dia. Un dia unico en Venezuela (26/08, nuestro) con salida inmediata a Guyana es mas consistente."
+    },
+    {
+      "colt_TripID": "1780-BRA-MEX-37886",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2003-09-22 a 2003-09-23",
+      "valor_propuesto": "2003-09-25 a 2003-09-26",
+      "fuente": "Search Query: Lula Mexico setembro 2003 Vicente Fox (reunion privada en Los Pinos 25/09/2003; firma de acuerdo de doble tributacion reportada 26/09/2003)",
+      "justificacion": "Se confirma una reunion Lula-Fox en la Residencia Oficial de Los Pinos el 25/09/2003 y la firma de un acuerdo bilateral reportada el 26/09/2003, coincidiendo con nuestras fechas; el rango de COLT (22-23/09) no coincide con ninguna fuente encontrada."
+    },
+    {
+      "colt_TripID": "1780-BRA-ARG-37909",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2003-10-15 a 2003-10-18",
+      "valor_propuesto": "N/D",
+      "fuente": "N/D",
+      "justificacion": "No se encontro evidencia independiente que precise fechas exactas de esta visita de Estado a Argentina en octubre de 2003 (distinta de la asuncion de Kirchner, que fue en mayo de 2003); diferencia de 1 dia en cada extremo sin poder dirimir."
+    },
+    {
+      "colt_TripID": "1780-BRA-ESP-37918",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2003-10-24",
+      "valor_propuesto": "N/D",
+      "fuente": "N/D",
+      "justificacion": "Diferencia de 1 dia (23 nuestro vs 24 COLT); no se encontro evidencia independiente concluyente."
+    },
+    {
+      "colt_TripID": "994-BRA-USA-37202",
+      "our_Trip_ID": "350",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2001-11-07 a 2001-11-11",
+      "valor_propuesto": "2001-11-08 (ver item paralelo our_Trip_ID=17 para el mismo colt_TripID)",
+      "fuente": "Ver justificacion de discrepancia previa sobre 994-BRA-USA-37202 (our_Trip_ID 17)",
+      "justificacion": "Este item duplica el mismo colt_TripID (994-BRA-USA-37202) ya evaluado para our_Trip_ID 17, pero con fechas nuestras distintas (10/11 vs 08-09/11). Esto sugiere una posible entrada duplicada o fragmentada en nuestra base para el mismo viaje a EEUU de noviembre 2001; se confirmo por fuente de la Casa Blanca que la reunion Bush-Cardoso fue el 08/11/2001. Se recomienda revisar si our_Trip_ID 350 es un duplicado de our_Trip_ID 17 en la base propia."
+    },
+    {
+      "colt_TripID": "994-BRA-BOL-37069",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2001-06-27 a 2001-06-28",
+      "valor_propuesto": "N/D",
+      "fuente": "Wikipedia (nota): 'Aecio assume o Planalto por tres dias, com FHC e Maciel em viagem' Folha 22/06/2001",
+      "justificacion": "La nota de Folha sugiere que FHC ya estaba de viaje desde antes del 22/06 (posiblemente por Chile/otro compromiso, no necesariamente Bolivia), lo que complica la interpretacion; no se pudo confirmar con certeza las fechas exactas de la visita a Bolivia (26-27/06 nuestro vs 27-28/06 COLT)."
+    },
+    {
+      "colt_TripID": "994-BRA-ARG-36705",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2000-06-28",
+      "valor_propuesto": "N/D",
+      "fuente": "http://www.mercosur.int/msweb/portal%20intermediario/normas/listados/DECISIONES.pdf",
+      "justificacion": "El link de COLT es un PDF de decisiones del Mercosur sin fecha de viaje explicita verificable en este entorno; diferencia de solo 1 dia sin poder dirimir con las busquedas realizadas."
+    },
+    {
+      "colt_TripID": "994-BRA-URY-37245",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2001-12-20",
+      "valor_propuesto": "N/D",
+      "fuente": "http://www.mercosur.int/msweb/portal%20intermediario/normas/listados/DECISIONES.pdf",
+      "justificacion": "Mismo tipo de fuente que el item anterior (documento de decisiones Mercosur sin fecha de viaje explicita); diferencia de 1 dia sin poder dirimir."
+    },
+    {
+      "colt_TripID": "994-BRA-ARG-37304",
+      "veredicto": "No_verificable (acceso institucional)",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2002-02-17",
+      "valor_propuesto": "N/D",
+      "fuente": "Links de COLT son de bases institucionales (Lexis-Nexis/ProQuest via du.idm.oclc.org) inaccesibles en este entorno",
+      "justificacion": "Los tres links de COLT para este item requieren acceso institucional (advance-lexis-com.du.idm.oclc.org, proquest.com via du.idm.oclc.org) que no se pudo verificar; busqueda independiente no arrojo informacion concluyente sobre si el viaje a la Cumbre del Mercosur en Argentina comenzo el 17/02 (COLT) o el 18/02 (nuestro)."
+    },
+    {
+      "colt_TripID": "994-BRA-ESP-37189",
+      "veredicto": "Ninguno_exacto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2001-11-01",
+      "valor_propuesto": "N/D (probablemente ~2001-10-27, ver inconsistencia interna)",
+      "fuente": "Search Query: Fernando Henrique Cardoso Espanha Franca outubro 2001 Aznar Chirac (O Estado de S.Paulo 25/10/2001)",
+      "justificacion": "El fin de COLT para Espana (01/11) es inconsistente con el propio registro COLT del viaje a Francia inmediatamente posterior, que segun COLT inicia el 29/10 (994-BRA-FRA-37193) -- no podria haber terminado en Espana el 01/11 si ya estaba en Francia el 29/10. Se sospecha error de tipeo en COLT (posible confusion de mes/dia), pero no se hallo fuente independiente que confirme la fecha exacta de fin en Espana."
+    },
+    {
+      "colt_TripID": "994-BRA-FRA-37193",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2001-10-29",
+      "valor_propuesto": "N/D",
+      "fuente": "Search Query: Fernando Henrique Cardoso Espanha Franca outubro 2001 Aznar 27 de outubro viagem Paris Madrid",
+      "justificacion": "No se hallo fuente independiente que confirme si la etapa francesa comenzo el 27/10 (nuestro) o el 29/10 (COLT); se nota la misma inconsistencia interna de COLT senalada en el item de Espana (994-BRA-ESP-37189)."
+    }
+  ],
+  "colt_unico_resueltos": [
+    {
+      "colt_TripID": "994-BRA-BOL-36868",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "La Paz (inferencia, capital administrativa; no confirmado con certeza)"
+      },
+      "fuente": "Xinhua News Agency: 'Brazil Hopes Bolivia to Join in Mercosur' (09/12/2000)",
+      "justificacion": "La nota de Xinhua, publicada el dia siguiente al viaje, es consistente con una reunion/visita relacionada con la adhesion de Bolivia al Mercosur el 08/12/2000. Confianza baja-moderada (COLT le asigna confianza 1/5); no se hallo fuente adicional independiente."
+    },
+    {
+      "colt_TripID": "994-BRA-CHL-37119",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Santiago"
+      },
+      "fuente": "Xinhua: 'Summit of Group of Rio Ends in Chile' (18/08/2001)",
+      "justificacion": "Corresponde a la XV Cumbre del Grupo de Rio realizada en Santiago de Chile en agosto de 2001; el viaje de FHC (16-19/08) es coherente con esa cumbre."
+    },
+    {
+      "colt_TripID": "994-BRA-CHL-37394",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Santiago (inferencia)"
+      },
+      "fuente": "Itamaraty, Resenha de Politica Exterior N90 1Sem 2002 (no accesible directamente en este entorno, pero es fuente oficial primaria)",
+      "justificacion": "Fuente oficial primaria (Resenha PEB), no verificable directamente por bloqueo de red en este entorno pero de alta confiabilidad institucional. Nota: las fechas (17-18/05/2002) se superponen con el inicio de la visita a Espana registrada tambien en COLT (994-BRA-ESP-37393, 17-18/05/2002); se recomienda revisar si son dos tramos de una misma gira o si hay un error de fecha en una de las dos entradas."
+    },
+    {
+      "colt_TripID": "1780-BRA-CHL-37852",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Santiago (inferencia)"
+      },
+      "fuente": "Itamaraty Resenha N93 2Sem 2003 + Biblioteca da Presidencia (fuentes oficiales, no accesibles directamente en este entorno)",
+      "justificacion": "Fuentes oficiales primarias del gobierno brasileno; no se pudo verificar independientemente el detalle pero son consistentes con el patron de giras regionales de Lula en 2003."
+    },
+    {
+      "colt_TripID": "1780-BRA-COL-37880",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Bogota (inferencia)"
+      },
+      "fuente": "Itamaraty Resenha N93 2Sem 2003 + Biblioteca da Presidencia",
+      "justificacion": "Fuentes oficiales primarias; confianza declarada por COLT es baja (2/5). No se hallo fuente independiente adicional pero es plausible dentro del patron de relaciones Brasil-Colombia de 2003."
+    },
+    {
+      "colt_TripID": "994-BRA-CRI-36619",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "San Jose"
+      },
+      "fuente": "https://www1.folha.uol.com.br/fsp/brasil/fc0404200016.htm 'FHC busca aproximacao entre America Central e Mercosul' (04/04/2000)",
+      "justificacion": "Confirmado por articulo de Folha de S.Paulo publicado durante el viaje (04/04/2000), tambien citado en la bibliografia de Wikipedia sobre los viajes de FHC. Alta confianza."
+    },
+    {
+      "colt_TripID": "994-BRA-CRI-36650",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Solo fuente Itamaraty Resenha N86 (no accesible en este entorno)",
+      "justificacion": "Unica fuente es la resenha de Itamaraty (bloqueada en este entorno); COLT le asigna confianza baja (1/5). Llama la atencion la proximidad con el viaje ya confirmado a Costa Rica del 03-06/04/2000 (menos de un mes despues); no se descarta, pero no se pudo confirmar independientemente."
+    },
+    {
+      "colt_TripID": "994-BRA-CRI-37357",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "http://wnc.eastview.com/wnc/article?id=36451651 (no accesible en este entorno)",
+      "justificacion": "El enlace de World News Connection/Eastview no pudo abrirse en este entorno (posible restriccion de acceso); no se hallo fuente alternativa independiente que confirme el viaje."
+    },
+    {
+      "colt_TripID": "994-BRA-DOM-37577",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "http://wnc.eastview.com/wnc/article?id=36339793 (no accesible en este entorno)",
+      "justificacion": "El enlace de Eastview no pudo abrirse; no se hallo fuente alternativa independiente. COLT asigna confianza baja-moderada (2/5)."
+    },
+    {
+      "colt_TripID": "994-BRA-ECU-37463",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Quito (inferencia)"
+      },
+      "fuente": "Itamaraty Resenha N91 2Sem 2002 (fuente oficial, no accesible directamente); enlace Eastview no verificable",
+      "justificacion": "Respaldado por fuente oficial primaria (Resenha PEB); el enlace Eastview no se pudo verificar directamente pero la fuente institucional brasilena aporta respaldo razonable."
+    },
+    {
+      "colt_TripID": "994-BRA-FRA-36680",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Paris"
+      },
+      "fuente": "https://www1.folha.uol.com.br/fsp/brasil/fc0506200006.htm y fc0506200007.htm 'Desemprego sera tema de FHC e Jospin' (05/06/2000)",
+      "justificacion": "Confirmado por articulos de Folha de S.Paulo sobre la reunion de FHC con el primer ministro frances Jospin, publicados durante el viaje; consistente con el viaje a Alemania inmediatamente anterior (30/05-03/06/2000, ver discrepancia 994-BRA-DEU-36676)."
+    },
+    {
+      "colt_TripID": "994-BRA-DEU-36802",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "https://www1.folha.uol.com.br/fsp/brasil/fc0310200007.htm 'FHC busca investimentos europeus' (03/10/2000)",
+      "justificacion": "El detalle de la nota COLT (asistencia a un concierto de la Filarmonica de Berlin) es especifico y creible. ALERTA: el mismo enlace de Folha (fc0310200007) es citado en nuestra propia base para el viaje a Francia de nuestro_unico Trip_ID=7 (02-05/10/2000, Paris). Esto sugiere que ambos registros documentan tramos de una misma gira europea de busqueda de inversiones (Alemania 03-07/10 seguido o precedido de Francia 02-05/10), pero las fechas se superponen (02-05/10 Francia vs 03-07/10 Alemania), lo cual amerita revision cruzada para reconciliar el itinerario exacto."
+    },
+    {
+      "colt_TripID": "1780-BRA-GUY-37859",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Georgetown"
+      },
+      "fuente": "Itamaraty Resenha N93 2Sem 2003",
+      "justificacion": "Consistente con la secuencia confirmada del viaje a Venezuela de Lula (26/08/2003, ver discrepancia 1780-BRA-VEN-37858 resuelta como Nuestro_correcto): Venezuela un solo dia seguido de traslado a Guyana el mismo 26/08, con estadia hasta el 27/08."
+    },
+    {
+      "colt_TripID": "994-BRA-IDN-36913",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Jakarta (inferencia)"
+      },
+      "fuente": "Eastview no accesible; corroboracion indirecta via visita confirmada a Timor Leste el 22/01/2001 (mismo tour asiatico)",
+      "justificacion": "Se confirmo independientemente que FHC visito Timor Leste (Dili) el 22/01/2001 como parte de una gira asiatica que incluyo Corea del Sur, Indonesia y escala en Sudafrica; la visita a Indonesia es consistente con ese itinerario aunque no se pudo verificar la fecha exacta de forma independiente."
+    },
+    {
+      "colt_TripID": "994-BRA-MOZ-36723",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Maputo"
+      },
+      "fuente": "https://www1.folha.uol.com.br/fsp/brasil/fc1907200004.htm 'Presidente comete gafe durante coletiva' (19/07/2000)",
+      "justificacion": "Confirmado por articulo de Folha publicado el 19/07/2000 (dia posterior al fin del viaje segun COLT, 16-18/07), describiendo una conferencia de prensa durante la gira; tambien citado en Wikipedia sobre viajes de FHC."
+    },
+    {
+      "colt_TripID": "994-BRA-NLD-36807",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "Itamaraty Resenha N87 2Sem 2000 (fuente oficial, no accesible directamente)",
+      "justificacion": "Fuente oficial primaria; consistente cronologicamente con la gira europea de octubre de 2000 (Alemania 03-07/10, luego Holanda 08-11/10). No se pudo determinar con certeza la ciudad exacta (nota menciona paseo en barco por Rotterdam, pero la visita oficial pudo haber sido en Amsterdam/La Haya), por lo que se deja CityVisited sin completar."
+    },
+    {
+      "colt_TripID": "994-BRA-PAN-37381",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ciudad de Panama (inferencia)"
+      },
+      "fuente": "Itamaraty Resenha N90 1Sem 2002 (fuente oficial, no accesible directamente)",
+      "justificacion": "Unica fuente es la resenha oficial de Itamaraty (bloqueada en este entorno); COLT le asigna confianza alta (1/5 en la escala reportada, aunque interpretamos como baja). Se marca confirmado por tratarse de fuente primaria oficial, con reserva."
+    },
+    {
+      "colt_TripID": "1780-BRA-PRY-37908",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Asuncion"
+      },
+      "fuente": "Itamaraty (resenha de politica exterior do Brasil) + Biblioteca da Presidencia",
+      "justificacion": "Consistente con la gira regional de Lula en octubre de 2003 (Paraguay 14/10, seguido de Argentina 15-18/10 segun COLT, ver discrepancia 1780-BRA-ARG-37909)."
+    },
+    {
+      "colt_TripID": "994-BRA-PRT-37469",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Lisboa (inferencia)"
+      },
+      "fuente": "Itamaraty Resenha N91 2Sem 2002 (fuente oficial, no accesible directamente)",
+      "justificacion": "Unica fuente disponible es la resenha oficial de Itamaraty; visita de un solo dia, posiblemente una escala tecnica o visita breve. Confianza moderada."
+    },
+    {
+      "colt_TripID": "994-BRA-ZAF-36914",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Johannesburgo (inferencia, escala)"
+      },
+      "fuente": "Nota de COLT: 'Stopover on way back to Brazil'; corroboracion indirecta via gira asiatica confirmada (Corea 19-21/01, Timor Leste 22/01/2001)",
+      "justificacion": "Consistente como escala de regreso de la gira asiatica (Corea del Sur, Indonesia, Timor Leste) confirmada independientemente para enero de 2001."
+    },
+    {
+      "colt_TripID": "994-BRA-ESP-36823",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Madrid (inferencia)"
+      },
+      "fuente": "Itamaraty Resenha N87 2Sem 2000 (fuente oficial, no accesible directamente)",
+      "justificacion": "Consistente cronologicamente con la gira europea de octubre de 2000 (posterior a Holanda, 08-11/10)."
+    },
+    {
+      "colt_TripID": "994-BRA-ESP-37393",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Madrid (inferencia)"
+      },
+      "fuente": "Itamaraty Resenha N90 1Sem 2002 (fuente oficial, no accesible directamente)",
+      "justificacion": "Fuente oficial primaria. ALERTA: fechas (17-18/05/2002) se superponen con el viaje a Chile tambien registrado por COLT en las mismas fechas (994-BRA-CHL-37394); se recomienda revision cruzada del itinerario de mayo de 2002."
+    },
+    {
+      "colt_TripID": "1780-BRA-SUR-37794",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Paramaribo"
+      },
+      "fuente": "Itamaraty Resenha N93 2Sem 2003",
+      "justificacion": "Fuente oficial primaria; consistente con relaciones Brasil-Surinam de 2003."
+    },
+    {
+      "colt_TripID": "1780-BRA-CHE-37771",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ginebra/Lausana (inferencia, region de Evian)"
+      },
+      "fuente": "Nota COLT: 'Participo del dialogo extendido en la vispera de la Cumbre del G8'; corroborado por fechas oficiales del G8 Evian (1-3 junio 2003)",
+      "justificacion": "Consistente con el 'Evian Dialogue' previo a la 29a cumbre del G8 (Evian-les-Bains, Francia, 1-3/06/2003), en el que participaron lideres de paises en desarrollo el 31/05/2003; las delegaciones solian alojarse en Suiza (Ginebra) por la cercania geografica a Evian."
+    },
+    {
+      "colt_TripID": "1780-BRA-CHE-37773",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ginebra (inferencia, alojamiento durante Cumbre G8 Evian)"
+      },
+      "fuente": "Fechas coincidentes con la Cumbre del G8 en Evian (1-3/06/2003, ver discrepancia 1780-BRA-FRA-37772)",
+      "justificacion": "Es probable que corresponda al alojamiento en Suiza (Ginebra) de la delegacion brasilena durante la Cumbre del G8 realizada en Evian-les-Bains, Francia; se recomienda revisar si esta entrada y la de Francia (1780-BRA-FRA-37772) representan el mismo evento/viaje desdoblado por COLT en dos paises (sede de alojamiento vs sede del evento)."
+    },
+    {
+      "colt_TripID": "994-BRA-TLS-36913",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Dili"
+      },
+      "fuente": "Search Query: East Timor Cardoso Xanana Gusmao janeiro 2001 (UN peacekeeping mission records, Dili 22 January 2001)",
+      "justificacion": "CONFIRMADO INDEPENDIENTEMENTE: FHC visito Timor Leste (Dili) el 22/01/2001, hablo en sesion especial del Consejo Nacional presidido por Xanana Gusmao, inauguro un centro de capacitacion profesional y anuncio el envio de un hospital militar. NOTA IMPORTANTE DE NOMENCLATURA: 'Timor Leste' es el nombre que usa COLT para 'East Timor'; se recomienda verificar si nuestra base ya registra este viaje bajo el nombre 'East Timor' (posiblemente como parte del mismo tramo asiatico que incluye Corea del Sur, dado que ambos paises comparten fechas de enero 2001) antes de tratarlo como una brecha real, ya que podria ser el mismo viaje ya cubierto con otra nomenclatura de pais."
+    },
+    {
+      "colt_TripID": "994-BRA-UKR-37272",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Kiev (inferencia)"
+      },
+      "fuente": "https://www1.folha.uol.com.br/fsp/brasil/fc1301200221.htm (mismo articulo citado para el viaje a Rusia)",
+      "justificacion": "Consistente como continuacion del viaje a Rusia (12-16/01/2002 segun COLT, ver discrepancia 994-BRA-RUS-37268 resuelta COLT_correcto), con traslado a Ucrania el 16-17/01."
+    },
+    {
+      "colt_TripID": "994-BRA-GBR-37573",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Londres"
+      },
+      "fuente": "http://memoria.ebc.com.br/agenciabrasil/node/573336 + https://www1.folha.uol.com.br/fsp/brasil/fc1710200206.htm",
+      "justificacion": "Consistente con la secuencia confirmada de la gira de noviembre de 2002 (Portugal hasta el 12/11 aprox., ver discrepancia 994-BRA-PRT-37569, seguido de Reino Unido 13-14/11)."
+    },
+    {
+      "colt_TripID": "994-BRA-URY-37488",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "http://wnc.eastview.com/wnc/article?id=36351499 (no accesible en este entorno)",
+      "justificacion": "El enlace de Eastview no pudo abrirse; no se hallo fuente alternativa independiente. COLT asigna confianza baja-moderada (2/5)."
+    },
+    {
+      "colt_TripID": "994-BRA-VEN-36622",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Caracas (inferencia)"
+      },
+      "fuente": "Itamaraty (nota) + Resenha N86 1Sem 2000",
+      "justificacion": "Plausible como segunda visita a Venezuela, distinta de la ya registrada en nuestra base (Trip_ID 3, 29-30/03/2000, condecoracion Orden Francisco de Miranda); esta serial de COLT (06-07/04/2000) encajaria inmediatamente despues del viaje confirmado a Costa Rica (03-06/04/2000, ver colt_unico anterior), formando una gira Centroamerica-Venezuela. Se advierte que la nota de Itamaraty citada por COLT esta fechada 31/03/2000, lo cual coincide mas bien con la visita de marzo ya registrada en nuestra base; no se puede descartar una posible confusion/duplicacion entre ambas visitas a Venezuela de FHC en ese periodo (fines de marzo y comienzos de abril de 2000)."
+    }
+  ],
+  "nuestro_unico_check": []
+}

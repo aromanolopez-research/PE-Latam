@@ -1,0 +1,1168 @@
+{
+ "discrepancias": [
+  {
+   "colt_TripID": "994-BRA-PRT-36593",
+   "our_Trip_ID": "1",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Portugal",
+   "our_Start_Date": "2000-03-07",
+   "our_End_Date": "2000-03-08",
+   "colt_Start": "2000-03-08",
+   "colt_End": "2000-03-09",
+   "discrepancias": "TripStartDate: nuestro=2000-03-07 COLT=2000-03-08 (dif 1d) | TripEndDate: nuestro=2000-03-08 COLT=2000-03-09 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N86_1Sem_2000.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-CHL-36594",
+   "our_Trip_ID": "2",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Chile",
+   "our_Start_Date": "2000-03-11",
+   "our_End_Date": "2000-03-11",
+   "colt_Start": "2000-03-09",
+   "colt_End": "2000-03-12",
+   "discrepancias": "TripStartDate: nuestro=2000-03-11 COLT=2000-03-09 (dif 2d) | TripEndDate: nuestro=2000-03-11 COLT=2000-03-12 (dif 1d)",
+   "colt_links": [
+    "http://www1.folha.uol.com.br/fol/pol/ult10032000028.htm"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-COL-36692",
+   "our_Trip_ID": "4",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Colombia",
+   "our_Start_Date": "2000-06-15",
+   "our_End_Date": "2000-06-17",
+   "colt_Start": "2000-06-15",
+   "colt_End": "2000-06-15",
+   "discrepancias": "TripEndDate: nuestro=2000-06-17 COLT=2000-06-15 (dif 2d)",
+   "colt_links": [
+    "http://www1.folha.uol.com.br/fsp/brasil/fc1706200010.htm",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N86_1Sem_2000.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-DEU-36676",
+   "our_Trip_ID": "5",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Germany",
+   "our_Start_Date": "2000-05-31",
+   "our_End_Date": "2000-06-02",
+   "colt_Start": "2000-05-30",
+   "colt_End": "2000-06-03",
+   "discrepancias": "TripStartDate: nuestro=2000-05-31 COLT=2000-05-30 (dif 1d) | TripEndDate: nuestro=2000-06-02 COLT=2000-06-03 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N86_1Sem_2000.pdf",
+    "http://www.dgabc.com.br/noticia/228846/fhc-viaja-para-a-alemanha"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-MEX-36859",
+   "our_Trip_ID": "8",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Mexico",
+   "our_Start_Date": "2000-11-30",
+   "our_End_Date": "2000-12-01",
+   "colt_Start": "2000-11-29",
+   "colt_End": "2000-12-02",
+   "discrepancias": "TripStartDate: nuestro=2000-11-30 COLT=2000-11-29 (dif 1d) | TripEndDate: nuestro=2000-12-01 COLT=2000-12-02 (dif 1d)",
+   "colt_links": [
+    "http://www1.folha.uol.com.br/folha/mundo/ult94u13800.shtml"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-KOR-36906",
+   "our_Trip_ID": "9",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "South Korea",
+   "our_Start_Date": "2001-01-19",
+   "our_End_Date": "2001-01-21",
+   "colt_Start": "2001-01-15",
+   "colt_End": "2001-01-20",
+   "discrepancias": "TripStartDate: nuestro=2001-01-19 COLT=2001-01-15 (dif 4d) | TripEndDate: nuestro=2001-01-21 COLT=2001-01-20 (dif 1d)",
+   "colt_links": [
+    "http://www1.folha.uol.com.br/fsp/brasil/fc2001200109.htm",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N88_1Sem_2001.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-CAN-37000",
+   "our_Trip_ID": "11",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Canada",
+   "our_Start_Date": "2001-04-20",
+   "our_End_Date": "2001-04-22",
+   "colt_Start": "2001-04-19",
+   "colt_End": "2001-04-22",
+   "discrepancias": "TripStartDate: nuestro=2001-04-20 COLT=2001-04-19 (dif 1d)",
+   "colt_links": [
+    "\"Roadblocks to trade seen U.S.-Brazil Disputes Could Derail Talks\" Chacon;Richard. Boston Globe. 21 APR 2001: A.10",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N88_1Sem_2001.pdf",
+    "Rioters hit Summit of Americas free trade talks David Mahoney in Quebec Scotland on Sunday 22 APR 2001: 21"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-PER-37099",
+   "our_Trip_ID": "12",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Peru",
+   "our_Start_Date": "2001-07-28",
+   "our_End_Date": "2001-07-29",
+   "colt_Start": "2001-07-27",
+   "colt_End": "2001-07-29",
+   "discrepancias": "TripStartDate: nuestro=2001-07-28 COLT=2001-07-27 (dif 1d)",
+   "colt_links": [
+    "http://www1.folha.uol.com.br/folha/brasil/ult96u22800.shtml"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-VEN-37116",
+   "our_Trip_ID": "13",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Venezuela",
+   "our_Start_Date": "2001-08-12",
+   "our_End_Date": "2001-08-13",
+   "colt_Start": "2001-08-13",
+   "colt_End": "2001-08-13",
+   "discrepancias": "TripStartDate: nuestro=2001-08-12 COLT=2001-08-13 (dif 1d)",
+   "colt_links": [
+    "http://politica.estadao.com.br/noticias/geral,fhc-inaugura-interligacao-eletrica-com-venezuela,20010812p39284",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N89_2Sem_2001.pdf",
+    "http://www1.folha.uol.com.br/fsp/brasil/fc1308200120.htm"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-ECU-37164",
+   "our_Trip_ID": "14",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Ecuador",
+   "our_Start_Date": "2001-09-27",
+   "our_End_Date": "2001-09-28",
+   "colt_Start": "2001-09-30",
+   "colt_End": "2001-10-02",
+   "discrepancias": "TripStartDate: nuestro=2001-09-27 COLT=2001-09-30 (dif 3d) | TripEndDate: nuestro=2001-09-28 COLT=2001-10-02 (dif 4d)",
+   "colt_links": [
+    "http://www1.folha.uol.com.br/folha/brasil/ult96u24678.shtml"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-ESP-37189",
+   "our_Trip_ID": "15",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2001-10-25",
+   "our_End_Date": "2001-10-27",
+   "colt_Start": "2001-10-25",
+   "colt_End": "2001-11-01",
+   "discrepancias": "TripEndDate: nuestro=2001-10-27 COLT=2001-11-01 (dif 5d)",
+   "colt_links": [
+    "\"Brazil: President Cardoso's visits to Spain;France previewed\". BBC Monitoring Americas-Political 25 OCT 2001"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-FRA-37193",
+   "our_Trip_ID": "16",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "France",
+   "our_Start_Date": "2001-10-27",
+   "our_End_Date": "2001-10-29",
+   "colt_Start": "2001-10-29",
+   "colt_End": "2001-10-29",
+   "discrepancias": "TripStartDate: nuestro=2001-10-27 COLT=2001-10-29 (dif 2d)",
+   "colt_links": [
+    "Brazil: President Cardoso's visits to Spain;France previewed. BBC Monitoring Americas-Political 25 OCT 2001"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-USA-37202",
+   "our_Trip_ID": "17",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2001-11-08",
+   "our_End_Date": "2001-11-09",
+   "colt_Start": "2001-11-07",
+   "colt_End": "2001-11-11",
+   "discrepancias": "TripStartDate: nuestro=2001-11-08 COLT=2001-11-07 (dif 1d) | TripEndDate: nuestro=2001-11-09 COLT=2001-11-11 (dif 2d)",
+   "colt_links": [
+    "http://www1.folha.uol.com.br/folha/brasil/ult96u26573.shtml",
+    "http://politica.estadao.com.br/noticias/geral,fhc-e-bush-discutiram-argentina-e-onu,20011108p40917",
+    "https://wnc-eastview-com.du.idm.oclc.org/wnc/article?id=36550366"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-RUS-37268",
+   "our_Trip_ID": "18",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Russia",
+   "our_Start_Date": "2002-01-13",
+   "our_End_Date": "2002-01-15",
+   "colt_Start": "2002-01-12",
+   "colt_End": "2002-01-16",
+   "discrepancias": "TripStartDate: nuestro=2002-01-13 COLT=2002-01-12 (dif 1d) | TripEndDate: nuestro=2002-01-15 COLT=2002-01-16 (dif 1d)",
+   "colt_links": [
+    "http://politica.estadao.com.br/noticias/geral,fhc-embarca-para-a-russia-em-sua-85-viagem-ao-exterior,20020111p54670",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N90_1Sem_2002.pdf",
+    "http://www1.folha.uol.com.br/fsp/brasil/fc1301200221.htm"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-SWE-37309",
+   "our_Trip_ID": "19",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Sweden",
+   "our_Start_Date": "2002-02-20",
+   "our_End_Date": "2002-02-21",
+   "colt_Start": "2002-02-22",
+   "colt_End": "2002-02-24",
+   "discrepancias": "TripStartDate: nuestro=2002-02-20 COLT=2002-02-22 (dif 2d) | TripEndDate: nuestro=2002-02-21 COLT=2002-02-24 (dif 3d)",
+   "colt_links": [
+    "http://www1.folha.uol.com.br/fsp/brasil/fc1301200221.htm",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N90_1Sem_2002.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-POL-37312",
+   "our_Trip_ID": "20",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Poland",
+   "our_Start_Date": "2002-02-25",
+   "our_End_Date": "2002-02-25",
+   "colt_Start": "2002-02-25",
+   "colt_End": "2002-02-26",
+   "discrepancias": "TripEndDate: nuestro=2002-02-25 COLT=2002-02-26 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N90_1Sem_2002.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-ZAF-37500",
+   "our_Trip_ID": "24",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "South Africa",
+   "our_Start_Date": "2002-08-31",
+   "our_End_Date": "2002-09-02",
+   "colt_Start": "2002-09-01",
+   "colt_End": "2002-09-05",
+   "discrepancias": "TripStartDate: nuestro=2002-08-31 COLT=2002-09-01 (dif 1d) | TripEndDate: nuestro=2002-09-02 COLT=2002-09-05 (dif 3d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/505b0690-c296-48f6-9024-1a51b7fd6426/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b7ff89a7-1ed9-4b06-ba0e-7928363b6a8f/?context=1516831",
+    "https://du.idm.oclc.org/login?url=https://www.proquest.com/wire-feeds/un-global-humanitarian-fund-financial-institution/docview/443900222/se-2?accountid=14608",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e7c40e9a-cdd1-483f-ac98-9c55bdbf663e/?context=1516831"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-PRT-37569",
+   "our_Trip_ID": "25",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Portugal",
+   "our_Start_Date": "2002-11-11",
+   "our_End_Date": "2002-11-12",
+   "colt_Start": "2002-11-09",
+   "colt_End": "2002-11-13",
+   "discrepancias": "TripStartDate: nuestro=2002-11-11 COLT=2002-11-09 (dif 2d) | TripEndDate: nuestro=2002-11-12 COLT=2002-11-13 (dif 1d)",
+   "colt_links": [
+    "http://memoria.ebc.com.br/agenciabrasil/node/573336"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-USA-37597",
+   "our_Trip_ID": "26",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2002-12-08",
+   "our_End_Date": "2002-12-10",
+   "colt_Start": "2002-12-07",
+   "colt_End": "2002-12-12",
+   "discrepancias": "TripStartDate: nuestro=2002-12-08 COLT=2002-12-07 (dif 1d) | TripEndDate: nuestro=2002-12-10 COLT=2002-12-12 (dif 2d)",
+   "colt_links": [
+    "http://www1.folha.uol.com.br/fsp/brasil/fc1710200206.htm",
+    "http://www.bbc.com/portuguese/noticias/2002/021208_fhcebc.shtml"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-CHE-37645",
+   "our_Trip_ID": "28",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Switzerland",
+   "our_Start_Date": "2003-01-25",
+   "our_End_Date": "2003-01-26",
+   "colt_Start": "2003-01-24",
+   "colt_End": "2003-01-27",
+   "discrepancias": "TripStartDate: nuestro=2003-01-25 COLT=2003-01-24 (dif 1d) | TripEndDate: nuestro=2003-01-26 COLT=2003-01-27 (dif 1d)",
+   "colt_links": [
+    "http://wnc.eastview.com/wnc/article?id=36282551",
+    "\"A Choice in South America\" LA Times. Jan 28 2003"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-DEU-37649",
+   "our_Trip_ID": "29",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Germany",
+   "our_Start_Date": "2003-01-27",
+   "our_End_Date": "2003-01-27",
+   "colt_Start": "2003-01-28",
+   "colt_End": "2003-01-28",
+   "discrepancias": "TripStartDate: nuestro=2003-01-27 COLT=2003-01-28 (dif 1d) | TripEndDate: nuestro=2003-01-27 COLT=2003-01-28 (dif 1d)",
+   "colt_links": [
+    "http://imprensaacervo.planalto.gov.br/download/pdf/Viagens%20internacionais03.pdf",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-FRA-37650",
+   "our_Trip_ID": "30",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "France",
+   "our_Start_Date": "2003-01-28",
+   "our_End_Date": "2003-01-28",
+   "colt_Start": "2003-01-29",
+   "colt_End": "2003-01-29",
+   "discrepancias": "TripStartDate: nuestro=2003-01-28 COLT=2003-01-29 (dif 1d) | TripEndDate: nuestro=2003-01-28 COLT=2003-01-29 (dif 1d)",
+   "colt_links": [
+    "http://imprensaacervo.planalto.gov.br/download/pdf/Viagens%20internacionais03.pdf",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-PER-37763",
+   "our_Trip_ID": "31",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Peru",
+   "our_Start_Date": "2003-05-22",
+   "our_End_Date": "2003-05-24",
+   "colt_Start": "2003-05-22",
+   "colt_End": "2003-05-25",
+   "discrepancias": "TripEndDate: nuestro=2003-05-24 COLT=2003-05-25 (dif 1d)",
+   "colt_links": [
+    "http://www.voanews.com/content/a-13-a-2003-05-23-31-rio/395750.html"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-FRA-37772",
+   "our_Trip_ID": "32",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "France",
+   "our_Start_Date": "2003-06-01",
+   "our_End_Date": "2003-06-03",
+   "colt_Start": "2003-05-31",
+   "colt_End": "2003-06-02",
+   "discrepancias": "TripStartDate: nuestro=2003-06-01 COLT=2003-05-31 (dif 1d) | TripEndDate: nuestro=2003-06-03 COLT=2003-06-02 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/index?crid=02411177-9f3c-43aa-9f63-c177083d6a00&pdpermalink=a057d958-b8e0-49d0-81cf-56298ef8220b&pdmfid=1516831&pdisurlapi=true",
+    "https://advance-lexis-com.du.idm.oclc.org/document/index?crid=d646cc8c-9588-45ee-8df2-e255c34c1d90&pdpermalink=15aea0ee-ed5b-466e-8fba-2aa6b62550ae&pdmfid=1516831&pdisurlapi=true",
+    "https://www.gettyimages.com/detail/news-photo/japanese-prime-minister-junichiro-koizumi-british-prime-news-photo/169590808#/japanese-prime-minister-junichiro-koizumi-british-prime-minister-tony-picture-id169590808"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-37791",
+   "our_Trip_ID": "33",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2003-06-20",
+   "our_End_Date": "2003-06-20",
+   "colt_Start": "2003-06-19",
+   "colt_End": "2003-06-20",
+   "discrepancias": "TripStartDate: nuestro=2003-06-20 COLT=2003-06-19 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-37888",
+   "our_Trip_ID": "34",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2003-09-23",
+   "our_End_Date": "2003-09-23",
+   "colt_Start": "2003-09-24",
+   "colt_End": "2003-09-25",
+   "discrepancias": "TripStartDate: nuestro=2003-09-23 COLT=2003-09-24 (dif 1d) | TripEndDate: nuestro=2003-09-23 COLT=2003-09-25 (dif 2d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N93_2Sem_2003.pdf",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-NAM-37931",
+   "our_Trip_ID": "39",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Namibia",
+   "our_Start_Date": "2003-11-06",
+   "our_End_Date": "2003-11-06",
+   "colt_Start": "2003-11-06",
+   "colt_End": "2003-11-07",
+   "discrepancias": "TripEndDate: nuestro=2003-11-06 COLT=2003-11-07 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-BOL-37939",
+   "our_Trip_ID": "41",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Bolivia",
+   "our_Start_Date": "2003-11-14",
+   "our_End_Date": "2003-11-15",
+   "colt_Start": "2003-11-14",
+   "colt_End": "2003-11-14",
+   "discrepancias": "TripEndDate: nuestro=2003-11-15 COLT=2003-11-14 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-LBN-37959",
+   "our_Trip_ID": "43",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Lebanon",
+   "our_Start_Date": "2003-12-05",
+   "our_End_Date": "2003-12-05",
+   "colt_Start": "2003-12-04",
+   "colt_End": "2003-12-05",
+   "discrepancias": "TripStartDate: nuestro=2003-12-05 COLT=2003-12-04 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ARE-37961",
+   "our_Trip_ID": "44",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United Arab Emirates",
+   "our_Start_Date": "2003-12-07",
+   "our_End_Date": "2003-12-07",
+   "colt_Start": "2003-12-06",
+   "colt_End": "2003-12-07",
+   "discrepancias": "TripStartDate: nuestro=2003-12-07 COLT=2003-12-06 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-LBY-37964",
+   "our_Trip_ID": "46",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Libya",
+   "our_Start_Date": "2003-12-10",
+   "our_End_Date": "2003-12-11",
+   "colt_Start": "2003-12-09",
+   "colt_End": "2003-12-10",
+   "discrepancias": "TripStartDate: nuestro=2003-12-10 COLT=2003-12-09 (dif 1d) | TripEndDate: nuestro=2003-12-11 COLT=2003-12-10 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-PRT-37811",
+   "our_Trip_ID": "323",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Portugal",
+   "our_Start_Date": "2003-07-10",
+   "our_End_Date": "2003-07-12",
+   "colt_Start": "2003-07-09",
+   "colt_End": "2003-07-10",
+   "discrepancias": "TripStartDate: nuestro=2003-07-10 COLT=2003-07-09 (dif 1d) | TripEndDate: nuestro=2003-07-12 COLT=2003-07-10 (dif 2d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-GBR-37813",
+   "our_Trip_ID": "324",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United Kingdom",
+   "our_Start_Date": "2003-07-13",
+   "our_End_Date": "2003-07-14",
+   "colt_Start": "2003-07-11",
+   "colt_End": "2003-07-14",
+   "discrepancias": "TripStartDate: nuestro=2003-07-13 COLT=2003-07-11 (dif 2d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ESP-37817",
+   "our_Trip_ID": "325",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2003-07-14",
+   "our_End_Date": "2003-07-16",
+   "colt_Start": "2003-07-15",
+   "colt_End": "2003-07-16",
+   "discrepancias": "TripStartDate: nuestro=2003-07-14 COLT=2003-07-15 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-VEN-37858",
+   "our_Trip_ID": "328",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Venezuela",
+   "our_Start_Date": "2003-08-26",
+   "our_End_Date": "2003-08-26",
+   "colt_Start": "2003-08-25",
+   "colt_End": "2003-08-26",
+   "discrepancias": "TripStartDate: nuestro=2003-08-26 COLT=2003-08-25 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-MEX-37886",
+   "our_Trip_ID": "329",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Mexico",
+   "our_Start_Date": "2003-09-25",
+   "our_End_Date": "2003-09-26",
+   "colt_Start": "2003-09-22",
+   "colt_End": "2003-09-23",
+   "discrepancias": "TripStartDate: nuestro=2003-09-25 COLT=2003-09-22 (dif 3d) | TripEndDate: nuestro=2003-09-26 COLT=2003-09-23 (dif 3d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N93_2Sem_2003.pdf",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ARG-37909",
+   "our_Trip_ID": "330",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2003-10-16",
+   "our_End_Date": "2003-10-17",
+   "colt_Start": "2003-10-15",
+   "colt_End": "2003-10-18",
+   "discrepancias": "TripStartDate: nuestro=2003-10-16 COLT=2003-10-15 (dif 1d) | TripEndDate: nuestro=2003-10-17 COLT=2003-10-18 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N93_2Sem_2003.pdf",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ESP-37918",
+   "our_Trip_ID": "331",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2003-10-23",
+   "our_End_Date": "2003-10-24",
+   "colt_Start": "2003-10-24",
+   "colt_End": "2003-10-24",
+   "discrepancias": "TripStartDate: nuestro=2003-10-23 COLT=2003-10-24 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-USA-37202",
+   "our_Trip_ID": "350",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2001-11-10",
+   "our_End_Date": "2001-11-10",
+   "colt_Start": "2001-11-07",
+   "colt_End": "2001-11-11",
+   "discrepancias": "TripStartDate: nuestro=2001-11-10 COLT=2001-11-07 (dif 3d) | TripEndDate: nuestro=2001-11-10 COLT=2001-11-11 (dif 1d)",
+   "colt_links": [
+    "http://www1.folha.uol.com.br/folha/brasil/ult96u26573.shtml",
+    "http://politica.estadao.com.br/noticias/geral,fhc-e-bush-discutiram-argentina-e-onu,20011108p40917",
+    "https://wnc-eastview-com.du.idm.oclc.org/wnc/article?id=36550366"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-BOL-37069",
+   "our_Trip_ID": "354",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Bolivia",
+   "our_Start_Date": "2001-06-26",
+   "our_End_Date": "2001-06-27",
+   "colt_Start": "2001-06-27",
+   "colt_End": "2001-06-28",
+   "discrepancias": "TripStartDate: nuestro=2001-06-26 COLT=2001-06-27 (dif 1d) | TripEndDate: nuestro=2001-06-27 COLT=2001-06-28 (dif 1d)",
+   "colt_links": [
+    "http://www1.folha.uol.com.br/fsp/brasil/fc2206200117.htm",
+    "Bolivia: Press Highlights 26 June 01 BBC Monitoring Americas"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-ARG-36705",
+   "our_Trip_ID": "355",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2000-06-29",
+   "our_End_Date": "2000-06-30",
+   "colt_Start": "2000-06-28",
+   "colt_End": "2000-06-30",
+   "discrepancias": "TripStartDate: nuestro=2000-06-29 COLT=2000-06-28 (dif 1d)",
+   "colt_links": [
+    "http://www.mercosur.int/msweb/portal%20intermediario/normas/listados/DECISIONES.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-URY-37245",
+   "our_Trip_ID": "356",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Uruguay",
+   "our_Start_Date": "2001-12-21",
+   "our_End_Date": "2001-12-21",
+   "colt_Start": "2001-12-20",
+   "colt_End": "2001-12-21",
+   "discrepancias": "TripStartDate: nuestro=2001-12-21 COLT=2001-12-20 (dif 1d)",
+   "colt_links": [
+    "http://www.mercosur.int/msweb/portal%20intermediario/normas/listados/DECISIONES.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "994-BRA-ARG-37304",
+   "our_Trip_ID": "357",
+   "President": "Fernando Henrique Cardoso",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2002-02-18",
+   "our_End_Date": "2002-02-18",
+   "colt_Start": "2002-02-17",
+   "colt_End": "2002-02-18",
+   "discrepancias": "TripStartDate: nuestro=2002-02-18 COLT=2002-02-17 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/4ba4f76c-75ac-4f8e-ab9e-958a05082761/?context=1516831",
+    "https://du.idm.oclc.org/login?url=https://www.proquest.com/newspapers/mercosur-summit-begin-argentina/docview/203129177/se-2?accountid=14608",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e41b31d8-e12a-4ed3-8fff-8f55b35c6094/?context=1516831"
+   ]
+  }
+ ],
+ "colt_unico": [
+  {
+   "TripID": "994-BRA-BOL-36868",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Bolivia",
+   "CityVisited": "None",
+   "TripYear": "2000",
+   "TripStartDate": "2000-12-08T00:00:00",
+   "TripEndDate": "2000-12-08T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "\"Brazil Hopes Bolivia to Join in Mercosur\" Xinhua News Agency-CEIS (Woodside) 09 Dec 2000"
+   ]
+  },
+  {
+   "TripID": "994-BRA-CHL-37119",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2001",
+   "TripStartDate": "2001-08-16T00:00:00",
+   "TripEndDate": "2001-08-19T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www1.folha.uol.com.br/fsp/brasil/fc1308200120.htm",
+    "\"Summit of Group of Rio Ends in Chile\" Xinhua News Agency 18 African Union (AU)G 2001: 1"
+   ]
+  },
+  {
+   "TripID": "994-BRA-CHL-37394",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2002",
+   "TripStartDate": "2002-05-18T00:00:00",
+   "TripEndDate": "2002-05-19T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N90_1Sem_2002.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CHL-37852",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2003",
+   "TripStartDate": "2003-08-19T00:00:00",
+   "TripEndDate": "2003-08-19T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N93_2Sem_2003.pdf",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-COL-37880",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Colombia",
+   "CityVisited": "None",
+   "TripYear": "2003",
+   "TripStartDate": "2003-09-16T00:00:00",
+   "TripEndDate": "2003-09-16T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N93_2Sem_2003.pdf",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "TripID": "994-BRA-CRI-36619",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Costa Rica",
+   "CityVisited": "None",
+   "TripYear": "2000",
+   "TripStartDate": "2000-04-03T00:00:00",
+   "TripEndDate": "2000-04-06T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://www1.folha.uol.com.br/fsp/brasil/fc0404200016.htm",
+    "http://du.idm.oclc.org/login?url=https://search-proquest-com.du.idm.oclc.org/docview/454091628?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "994-BRA-CRI-36650",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Costa Rica",
+   "CityVisited": "None",
+   "TripYear": "2000",
+   "TripStartDate": "2000-05-04T00:00:00",
+   "TripEndDate": "2000-05-04T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N86_1Sem_2000.pdf"
+   ]
+  },
+  {
+   "TripID": "994-BRA-CRI-37357",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Costa Rica",
+   "CityVisited": "None",
+   "TripYear": "2002",
+   "TripStartDate": "2002-04-11T00:00:00",
+   "TripEndDate": "2002-04-12T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wnc.eastview.com/wnc/article?id=36451651"
+   ]
+  },
+  {
+   "TripID": "994-BRA-DOM-37577",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Dominican Republic",
+   "CityVisited": "None",
+   "TripYear": "2002",
+   "TripStartDate": "2002-11-17T00:00:00",
+   "TripEndDate": "2002-11-17T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://wnc.eastview.com/wnc/article?id=36339793"
+   ]
+  },
+  {
+   "TripID": "994-BRA-ECU-37463",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Ecuador",
+   "CityVisited": "None",
+   "TripYear": "2002",
+   "TripStartDate": "2002-07-26T00:00:00",
+   "TripEndDate": "2002-07-27T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://wnc.eastview.com/wnc/article?id=36386937",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N91_2Sem_2002.pdf"
+   ]
+  },
+  {
+   "TripID": "994-BRA-FRA-36680",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "France",
+   "CityVisited": "None",
+   "TripYear": "2000",
+   "TripStartDate": "2000-06-03T00:00:00",
+   "TripEndDate": "2000-06-06T00:00:00",
+   "Notes": "Visited Malmaison Castle",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www1.folha.uol.com.br/fsp/brasil/fc0506200006.htm",
+    "http://www1.folha.uol.com.br/fsp/brasil/fc0506200007.htm"
+   ]
+  },
+  {
+   "TripID": "994-BRA-DEU-36802",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Germany",
+   "CityVisited": "None",
+   "TripYear": "2000",
+   "TripStartDate": "2000-10-03T00:00:00",
+   "TripEndDate": "2000-10-07T00:00:00",
+   "Notes": "Attended a performance of the Berlin Philharmonic Orchestra",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www1.folha.uol.com.br/fsp/brasil/fc0310200007.htm",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N87_2Sem_2000.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-GUY-37859",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Guyana",
+   "CityVisited": "None",
+   "TripYear": "2003",
+   "TripStartDate": "2003-08-26T00:00:00",
+   "TripEndDate": "2003-08-27T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N93_2Sem_2003.pdf",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "TripID": "994-BRA-IDN-36913",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Indonesia",
+   "CityVisited": "None",
+   "TripYear": "2001",
+   "TripStartDate": "2001-01-22T00:00:00",
+   "TripEndDate": "2001-01-23T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wnc.eastview.com/wnc/article?id=36721187"
+   ]
+  },
+  {
+   "TripID": "994-BRA-MOZ-36723",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Mozambique",
+   "CityVisited": "None",
+   "TripYear": "2000",
+   "TripStartDate": "2000-07-16T00:00:00",
+   "TripEndDate": "2000-07-18T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N87_2Sem_2000.pdf",
+    "http://www1.folha.uol.com.br/fsp/brasil/fc1907200004.htm"
+   ]
+  },
+  {
+   "TripID": "994-BRA-NLD-36807",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Netherlands",
+   "CityVisited": "None",
+   "TripYear": "2000",
+   "TripStartDate": "2000-10-08T00:00:00",
+   "TripEndDate": "2000-10-11T00:00:00",
+   "Notes": "Took a boat trip around Rotterdam",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N87_2Sem_2000.pdf"
+   ]
+  },
+  {
+   "TripID": "994-BRA-PAN-37381",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Panama",
+   "CityVisited": "None",
+   "TripYear": "2002",
+   "TripStartDate": "2002-05-05T00:00:00",
+   "TripEndDate": "2002-05-06T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N90_1Sem_2002.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-PRY-37908",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2003",
+   "TripStartDate": "2003-10-14T00:00:00",
+   "TripEndDate": "2003-10-14T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "TripID": "994-BRA-PRT-37469",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Portugal",
+   "CityVisited": "None",
+   "TripYear": "2002",
+   "TripStartDate": "2002-08-01T00:00:00",
+   "TripEndDate": "2002-08-01T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N91_2Sem_2002.pdf"
+   ]
+  },
+  {
+   "TripID": "994-BRA-ZAF-36914",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "South Africa",
+   "CityVisited": "None",
+   "TripYear": "2001",
+   "TripStartDate": "2001-01-23T00:00:00",
+   "TripEndDate": "2001-01-23T00:00:00",
+   "Notes": "Stopover on way back to Brazil",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wnc.eastview.com/wnc/article?id=36721187"
+   ]
+  },
+  {
+   "TripID": "994-BRA-ESP-36823",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Spain",
+   "CityVisited": "None",
+   "TripYear": "2000",
+   "TripStartDate": "2000-10-24T00:00:00",
+   "TripEndDate": "2000-10-28T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N87_2Sem_2000.pdf"
+   ]
+  },
+  {
+   "TripID": "994-BRA-ESP-37393",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Spain",
+   "CityVisited": "None",
+   "TripYear": "2002",
+   "TripStartDate": "2002-05-17T00:00:00",
+   "TripEndDate": "2002-05-18T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N90_1Sem_2002.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-SUR-37794",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Suriname",
+   "CityVisited": "None",
+   "TripYear": "2003",
+   "TripStartDate": "2003-06-22T00:00:00",
+   "TripEndDate": "2003-06-23T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N93_2Sem_2003.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CHE-37771",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Switzerland",
+   "CityVisited": "None",
+   "TripYear": "2003",
+   "TripStartDate": "2003-05-30T00:00:00",
+   "TripEndDate": "2003-05-31T00:00:00",
+   "Notes": "Participated in the extended dialogue on the eve of the G8 Summit",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CHE-37773",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Switzerland",
+   "CityVisited": "None",
+   "TripYear": "2003",
+   "TripStartDate": "2003-06-01T00:00:00",
+   "TripEndDate": "2003-06-03T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2003pdf/view"
+   ]
+  },
+  {
+   "TripID": "994-BRA-TLS-36913",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Timor Leste",
+   "CityVisited": "None",
+   "TripYear": "2001",
+   "TripStartDate": "2001-01-22T00:00:00",
+   "TripEndDate": "2001-01-22T00:00:00",
+   "Notes": "Met with President of the National Resistance Council Xanana Gusmao. no HoGS interactions",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wnc.eastview.com/wnc/article?id=36721187"
+   ]
+  },
+  {
+   "TripID": "994-BRA-UKR-37272",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Ukraine",
+   "CityVisited": "None",
+   "TripYear": "2002",
+   "TripStartDate": "2002-01-16T00:00:00",
+   "TripEndDate": "2002-01-17T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://www1.folha.uol.com.br/fsp/brasil/fc1301200221.htm"
+   ]
+  },
+  {
+   "TripID": "994-BRA-GBR-37573",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "United Kingdom",
+   "CityVisited": "None",
+   "TripYear": "2002",
+   "TripStartDate": "2002-11-13T00:00:00",
+   "TripEndDate": "2002-11-14T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://memoria.ebc.com.br/agenciabrasil/node/573336",
+    "http://www1.folha.uol.com.br/fsp/brasil/fc1710200206.htm"
+   ]
+  },
+  {
+   "TripID": "994-BRA-URY-37488",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2002",
+   "TripStartDate": "2002-08-20T00:00:00",
+   "TripEndDate": "2002-08-20T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://wnc.eastview.com/wnc/article?id=36351499"
+   ]
+  },
+  {
+   "TripID": "994-BRA-VEN-36622",
+   "LeaderFullName": "Fernando Henrique Cardoso",
+   "CountryVisited": "Venezuela",
+   "CityVisited": "None",
+   "TripYear": "2000",
+   "TripStartDate": "2000-04-06T00:00:00",
+   "TripEndDate": "2000-04-07T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://kitploneitamaratygovbr/sala-de-imprensa/notas-a-imprensa/2000/03/31/visita-do-presidente-fernando-henrique-cardoso-a",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N86_1Sem_2000.pdf"
+   ]
+  }
+ ],
+ "nuestro_unico": [
+  {
+   "Trip_ID": "3",
+   "President": "Fernando Henrique Cardoso",
+   "Start_Date": "2000-03-29",
+   "End_Date": "2000-03-30",
+   "Destination_Country": "Venezuela",
+   "Destination_City": "Caracas",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Hugo Chávez",
+   "Trip_Objective": "Visita a Venezuela; integracion sudamericana y energia. Condecoracion Orden Francisco de Miranda (29/03).",
+   "Source_Verification": "https://pt.wikipedia.org/wiki/Lista_de_viagens_presidenciais_de_Fernando_Henrique_Cardoso",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "6",
+   "President": "Fernando Henrique Cardoso",
+   "Start_Date": "2000-09-06",
+   "End_Date": "2000-09-08",
+   "Destination_Country": "United States",
+   "Destination_City": "New York",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "Cúpula do Milênio da ONU",
+   "Trip_Objective": "Cumbre del Milenio de la ONU (mayor reunion de jefes de Estado hasta entonces).",
+   "Source_Verification": "https://www.un.org/en/conferences/environment/newyork2000",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "7",
+   "President": "Fernando Henrique Cardoso",
+   "Start_Date": "2000-10-02",
+   "End_Date": "2000-10-05",
+   "Destination_Country": "France",
+   "Destination_City": "Paris",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "Busca de investimentos europeus",
+   "Trip_Objective": "Gira europea en busca de inversiones (Folha 03/10/2000).",
+   "Source_Verification": "https://www1.folha.uol.com.br/fsp/brasil/fc0310200007.htm",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "10",
+   "President": "Fernando Henrique Cardoso",
+   "Start_Date": "2001-03-29",
+   "End_Date": "2001-03-31",
+   "Destination_Country": "United States",
+   "Destination_City": "Washington D.C.",
+   "Visit_Subtype": "Working Visit",
+   "Counterpart_Event": "George W. Bush",
+   "Trip_Objective": "Primera reunion con Bush; ALCA y comercio. Planalto divulgo agenda (Folha 27/03).",
+   "Source_Verification": "https://www1.folha.uol.com.br/folha/brasil/ult96u17636.shtml",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "23",
+   "President": "Fernando Henrique Cardoso",
+   "Start_Date": "2002-03-21",
+   "End_Date": "2002-03-22",
+   "Destination_Country": "Mexico",
+   "Destination_City": "Monterrey",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "Conferência da ONU sobre Financiamento para o Desenvolvimento",
+   "Trip_Objective": "Conferencia de Monterrey (Consenso de Monterrey) sobre financiamiento al desarrollo.",
+   "Source_Verification": "https://www.un.org/es/conf/ffd/2002/",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "349",
+   "President": "Fernando Henrique Cardoso",
+   "Start_Date": "2000-03-01",
+   "End_Date": "2000-03-01",
+   "Destination_Country": "Uruguay",
+   "Destination_City": "Montevideo",
+   "Visit_Subtype": "Inauguration/Funeral",
+   "Counterpart_Event": "Posse de Jorge Batlle",
+   "Trip_Objective": "Asuncao de Jorge Batlle como presidente do Uruguai; FHC entre os cinco presidentes convidados (De la Rua, Cardoso, Gonzalez Macchi, Banzer, Chavez).",
+   "Source_Verification": "https://www.lanacion.com.ar/el-mundo/jorge-batlle-asume-la-presidencia-de-uruguay-nid7337/",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "358",
+   "President": "Fernando Henrique Cardoso",
+   "Start_Date": "2002-07-04",
+   "End_Date": "2002-07-05",
+   "Destination_Country": "Argentina",
+   "Destination_City": "Buenos Aires",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XXII Cúpula de Chefes de Estado do MERCOSUL (Brasil assume a Presidência Pro Tempore, sucedendo a Argentina de Duhalde)",
+   "Trip_Objective": "Participação na cúpula ordinária do Mercosul em Buenos Aires; Brasil assume a Presidência Pro Tempore do bloco a partir de 1/7/2002.",
+   "Source_Verification": "https://portal.stf.jus.br/textos/verTexto.asp?servico=bibliotecaConsultaProdutoBibliotecaPastaMinistro&pagina=ExercicionaPresidenciadaRepublica",
+   "Source_Reliability": "High"
+  }
+ ]
+}

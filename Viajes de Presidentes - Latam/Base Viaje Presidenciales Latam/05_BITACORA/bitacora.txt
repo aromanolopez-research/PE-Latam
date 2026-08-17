@@ -566,3 +566,320 @@ Convención por mandatario procesado:
 [2026-07-27 19:45] QC | validate.py: 0 errores en paraguay_viajes.csv (197 filas, 178 viajes fisicos, 173 completados, 5 tramos Canceled). Verificado ademas: sin conflictos de Journey_ID compartido entre presidentes, sin solapamiento de fechas entre mandatos.
 [2026-07-27 19:45] INTEGRACION | Base consolidada reintegrada con el 5to pais: 1336 filas / 1064 viajes fisicos / 5 paises (Argentina 274/233, Brasil 363/263, Chile 322/236, Paraguay 197/178, Uruguay 180/154).
 [2026-07-27 19:45] *** CIERRE INICIAL DEL MODULO PARAGUAY *** | Los 7 mandatos quedan cargados y validados. Quedan brechas de investigacion documentadas en PENDIENTES_VERIFICACION.txt (ver seccion PARAGUAY) para eventual profundizacion futura, en particular: Federico Franco (periodo de aislamiento, posibles viajes bilaterales no hallados jul-2012/mar-2013), y algunos tramos de Santiago Peña 2024 mencionados en fuentes retrospectivas pero no verificados individualmente.
+[2026-08-03 21:27] INTEGRACION | Base consolidada: 1527 filas / 1210 viajes físicos / 5 país(es): Argentina, Brasil, Chile, Paraguay, Uruguay
+
+=== EXTENSIÓN ARGENTINA CON DIPLOMETRICS COLT + COLUMNAS DE MICRO-CONDUCTA (2026-08-03) ===
+[2026-08-03] SETUP | A pedido del usuario, se comparó la base contra el dataset externo Diplometrics COLT (Country and Organization Leader Travel, Pardee Institute, U. Denver; codebook v2.6 cargado por el usuario) para: (1) extender Argentina hacia atras incorporando a Carlos Menem (1994-1999, agregado a tabla_maestra como ARG-00), (2) revisar brechas de completitud 2000-2025 en los 8 presidentes ya cargados, y (3) agregar 8 columnas nuevas al esquema (23-30 + 2 de nombre = 9 columnas, total 22->31) que replican variables de micro-conducta de COLT (MetHostHOGS, MetNonHostHOGS+nombre, PublicAddress, SignedAgreement, CulturalSiteOrCeremony, BusinessLeaderOrForum, MetIGOLeader+nombre). Documentado en CODEBOOK.txt secciones 1 (excepcion Menem), 4 (diccionario 31 columnas) y 5.9 (definicion completa de las columnas COLT). Ver tambien 05_BITACORA/comparacion_diplometrics_colt.txt (analisis previo).
+[2026-08-03] MIGRACION SCHEMA | Los 5 modulos (Argentina, Brasil, Chile, Paraguay, Uruguay) migrados con las 9 columnas nuevas, default "NA" (rollout incremental). Para Argentina se hizo ademas un merge inteligente: de las 274 filas ya existentes, 238 tenian una fila equivalente en COLT (mismo pais+fecha +-7 dias) y se les completaron los 8 campos de micro-conducta directamente desde COLT (Yes/No -> TRUE/FALSE), con nota de procedencia en Methodological_Notes; las 36 filas restantes (sin equivalente en COLT, generadas por investigacion propia) quedaron en NA pendiente. validate.py: 0 errores en los 5 modulos tras la migracion.
+[2026-08-03] INVESTIGACION | 4 subagentes en paralelo (2 intentos: el primero se corto por limite de sesion sin guardar nada, el segundo completo) investigaron y verificaron 221 filas candidatas extraidas de COLT (Argentina, todos los anios, comparadas contra la base existente por pais+fecha):
+  - Carlos Menem 1994-1999 (nuevo presidente): 82 de 84 candidatas confirmadas y cargadas (58 viajes fisicos a 46 paises). 2 descartadas: 1 escala tecnica en Tahiti mal cargada por COLT como "Francia", 1 posible viaje a Kosovo sin corroboracion independiente (Confidence COLT 1/5, sin fuente).
+  - De la Rua/Rodriguez Saa/Duhalde 2000-2003: 17 filas nuevas cargadas (14 viajes fisicos) de 29 candidatas revisadas. Hallazgo relevante: un viaje a Marruecos de Duhalde (abr-2003) que COLT cargo como ocurrido en realidad fue CANCELADO por la guerra de Irak segun la fuente primaria -cargado como Trip_Status=Canceled, no descartado-.
+  - Nestor Kirchner/CFK 2004-2015: 41 filas nuevas cargadas (40 viajes fisicos) de 51 candidatas revisadas. Se corrigieron 3 casos de candidatas COLT con año/fecha probablemente erroneos que en realidad duplicaban viajes ya cargados (Venezuela abr-2009 vs abr-2010, Kuwait ene-2010 vs ene-2011, Chile mar-2010 con fecha corrida ~10 dias) -no se cargaron como filas nuevas, se descartaron como duplicados-. Tambien se detecto que la fila de Nestor Kirchner en la Cumbre Iberoamericana de Montevideo (nov-2006), que la bitacora previa daba como AUSENCIA (envio reemplazo), en realidad tiene fuente (comunicado oficial de Cancilleria + nota de prensa contemporanea) que confirma asistencia fisica -cargada con nota de discrepancia para revision futura-.
+  - Macri/Alberto Fernandez/Milei 2016-2025: 51 filas nuevas cargadas de 55 candidatas revisadas. Confirmadas las 3 candidatas prioritarias de Milei 2024 identificadas en el chequeo cruzado previo (El Salvador/asuncion Bukele, Suiza/Cumbre de Paz de Ucrania en Burgenstock, y el hueco jul-ago-2024 con EE.UU./Francia/Chile). Descartado 1 posible viaje fantasma (Macri a la AGNU 2017, en realidad fue la vicepresidenta Michetti). Excluidas 2 candidatas de visitas a bases antarticas argentinas (AF feb-2023, Milei ene-2024) por no ser "viaje internacional" (territorio propio, sin precedente de inclusion en la base). Hallazgo colateral no aplicado: posible error de fecha en la fila ya cargada de Milei en Chequia jun-2024 (¿21-22 o 24?) -queda en Methodological_Notes de la fila nueva de España para revision futura, no se toco la fila original-.
+  - Se agrego "Armenia":"Europe" a REGION_MAP (visita de Menem a Ereván, jul-1998).
+[2026-08-03] FUSION | Los 4 archivos de trabajo (82+17+41+51=191 filas nuevas) fusionados con las 274 filas existentes de argentina_viajes.csv, agrupados por presidente en orden cronologico (Menem, De la Rua, Rodriguez Saa, Duhalde, Nestor K, CFK, Macri, Alberto F, Milei) y ordenados por fecha dentro de cada presidente. Trip_ID renumerado 1-465. Verificado: 0 Journey_ID compartidos entre presidentes distintos, 0 filas duplicadas exactas.
+[2026-08-03] QC | validate.py: 0 errores en argentina_viajes.csv (465 filas, 379 viajes fisicos, 369 completados, 11 cancelados).
+[2026-08-03] INTEGRACION | Base consolidada reintegrada: 1527 filas / 1210 viajes fisicos / 5 paises (Argentina 465/379, Brasil 363/263, Chile 322/236, Paraguay 197/178, Uruguay 180/154), ahora con 31 columnas.
+[2026-08-03] *** CIERRE DE LA EXTENSION ARGENTINA-COLT *** | Argentina paso de 274 a 465 filas (+191, +70%) y de 233 a 379 viajes fisicos (+146, +63%), incorporando ademas un presidente completo (Menem) que no existia en la base. De las 221 candidatas revisadas, 191 (86%) se confirmaron y cargaron con fuente propia (no se transcribio COLT a ciegas); 30 se descartaron documentadamente (escalas tecnicas, viajes fantasma, duplicados por error de fecha/anio de COLT, o sin corroboracion independiente). Las 8 columnas de micro-conducta quedan sembradas para Argentina (238 filas historicas + 191 nuevas con dato propio o de COLT) y en NA pendiente para el resto de la base.
+
+=== CAMBIO DE ENFOQUE: COLT PASA A SER LA BASE ESTRUCTURAL DEL PROYECTO (2026-08-15) ===
+[2026-08-15] SETUP | El usuario decide, tras revisar el codebook real de COLT ("Balci et al 2025 - COLT Codebook", contenido identico al Diplometrics analizado antes, solo renombrado), adoptar el esquema COLT (76 columnas) como estructura PRIMARIA del proyecto para Sudamerica, dejando de lado el enfoque anterior de sumar columnas propias sobre nuestro esquema de 31. Se consulto al usuario con AskUserQuestion (4 preguntas: alcance geografico, relacion de esquemas, formato de entregable, y el origen de la afirmacion "COLT clasifica Counterpart_Type como No Bilateral y No Multilateral"). Respuestas: (1) mantener Sudamerica, 12 paises, pero TODOS los anios que reporta COLT por pais (no solo 2000+); (2) usar COLT como base sin agregarle columnas nuevas, y usar la investigacion YA HECHA para revisar si complementa/refuta/no aporta nada; (3) migrar el entregable principal a un libro Excel (.xlsx); (4) el equivalente de Counterpart_Type es la combinacion MetHostHoGS="No" AND SubHOGSmetHostSubHOGS="No" AND MetNonhostHOGS="No" (ningun Jefe de Estado/Gobierno, ni anfitrion ni sub-HOGS ni tercero, presente en el viaje).
+[2026-08-15] EXTRACCION | Filtrado el Data sheet de COLT (86.240 filas globales, 76 columnas) a los 12 paises de Sudamerica por LeaderCountryOrIGO (todos con LeaderRole=GS, Jefe de Estado y Gobierno, sin ministros ni otros roles mezclados): 5.162 filas, 1945/1986/1990-2025 segun pais.
+[2026-08-15] RECONCILIACION | Cruzados nuestros 1.484 viajes fisicos "Completed" (Argentina/Brasil/Chile/Paraguay/Uruguay, 2000-2026) contra las 2.361 filas COLT de esos mismos 5 paises en TODOS los anios (match por pais origen/destino + solapamiento de fechas +-3 dias). Resultado: 1.257 emparejados (1.194 permitieron completar al menos un campo vacio de COLT, 63 sin novedad), 227 viajes nuestros sin ninguna fila COLT equivalente. CityVisited de COLT en Sudamerica subio de 3,4% (176/5.162) a 26,3% (1.360/5.162) solo con este cruce -no se toco ningun valor ya existente de COLT-. Se detectaron 701 filas con alguna discrepancia (692 solo de fecha, mayoria 1-3 dias; 9 de variable booleana MetHostHoGS/MetNonhostHOGS) documentadas pero NO corregidas sobre la base COLT -se preserva su dato original-. Casos destacados para revision manual (dif. >=6 dias): par Bolsonaro/Lula EE.UU. dic2022-mar2023 (posible confusion de COLT entre ambos mandatarios durante la transicion presidencial brasileña), Peña/Reino Unido jul2025, Batlle/España feb2004, Mujica/España may2013. Detalle completo en 05_BITACORA/anexos_colt_sudamerica/ (4 CSV: reconciliacion_clasificacion, discrepancias_fecha_y_variables, campos_completados, viajes_cancelados).
+[2026-08-15] CANCELADOS | Hoja "Viajes_Cancelados" construida enteramente con investigacion propia (COLT no tiene ningun campo equivalente): 43 cancelaciones, 2000-2026, 5 paises (Argentina 11, Brasil 5, Chile 13, Paraguay 5, Uruguay 9).
+[2026-08-15] ENTREGABLE | Construido 04_BASE_FINAL/Base_COLT_Sudamerica.xlsx: 3 hojas (Leame, Datos_COLT_Sudamerica [5.162 filas x 76 columnas, sin agregar columnas nuevas, con CityVisited completado donde correspondia], Viajes_Cancelados [43 filas]). Pasa a ser el entregable principal del proyecto para Sudamerica; base_consolidada.csv (pipeline CSV/31 columnas) se mantiene sin tocar como registro historico de la primera fase.
+[2026-08-15] NOTA | comparacion_diplometrics_colt.txt redefinido a partir de este punto (seccion 9 en adelante): registra SOLO lo que nosotros aportamos sobre los datos que COLT ya presenta, no una comparacion simetrica completa (las secciones 1-8 previas quedan como registro historico de la primera fase del proyecto).
+[2026-08-15] PENDIENTE | Bolivia (modulo en curso), Colombia, Ecuador, Guyana, Peru, Suriname y Venezuela, asi como los anios pre-2000 de los 5 paises ya cargados, quedan con los datos de COLT SIN cruzar ni verificar -pendiente de la proxima fase ("chequeo de todos los links que plantea COLT para los paises de America"), a instruccion del usuario para arrancar-.
+
+=== VERIFICACION DE LINKS Y DATOS COLT — ARGENTINA (2026-08-15) ===
+[2026-08-15] SETUP | El usuario pide iniciar la verificacion pais por pais de los links de fuente que cita COLT (columnas SourceLink1-33), cruzarlos contra nuestra propia investigacion, corregir errores puntuales con evidencia, y sumar viajes faltantes. Se preguntaron 2 decisiones antes de arrancar: (1) ante un dato erroneo (no vacio, directamente mal) se CORRIGE el valor dejando registro del cambio en un log aparte (no se deja como estaba); (2) los viajes que falten por completo en COLT se agregan como filas nuevas MARCADAS ("Fila agregada por verificacion propia PE-Latam, ausente en COLT original"), no mezcladas sin distincion.
+[2026-08-15] PREPARACION | Triage sobre los 462 viajes de Argentina en COLT (todos los anios) vs 454 viajes "Completed" de nuestra base: 234 coinciden sin discrepancia (sin accion), 176 coinciden con alguna discrepancia (fecha o variable booleana), 54 filas de COLT sin equivalente en nuestra base (unica fuente disponible), 44 viajes nuestros sin equivalente en COLT. Se armaron 3 lotes por era presidencial (Menem+De la Rua/Rodriguez Saa/Duhalde 1994-2003, Nestor K/CFK 2004-2015, Macri/AF/Milei 2016-2025) y se lanzaron 3 subagentes en paralelo para abrir los links de COLT, investigar de forma independiente y decidir veredicto por item.
+[2026-08-15] INCIDENTE | El entorno de trabajo temporal (/tmp) se reinicio entre la finalizacion de los 3 subagentes y la fusion de resultados, perdiendo los 3 archivos JSON detallados (resultados_menem_delarua_duhalde.json, resultados_nk_cfk.json, resultados_macri_af_milei.json) con el veredicto item por item de los 206 casos de discrepancia + 54 casos "colt_unico" procesados. Los archivos del proyecto en la carpeta del usuario (Excel, CSV) NO se vieron afectados -solo el trabajo intermedio sin fusionar-. Se recuperaron los hallazgos concretos que cada subagente reporto en su resumen final de texto (que si quedo preservado en la conversacion) y se aplicaron; el detalle fila por fila del resto de los ~260 items NO es recuperable. LECCION APRENDIDA: de ahora en mas, los subagentes de verificacion deben escribir sus resultados incrementales dentro de la carpeta del proyecto (ej. 05_BITACORA/anexos_colt_sudamerica/tmp_*), no en /tmp, para que sobrevivan a un reinicio de entorno.
+[2026-08-15] CORRECCIONES APLICADAS | 7 correcciones concretas con evidencia aplicadas directamente sobre Datos_COLT_Sudamerica (log completo en 05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_argentina.csv):
+  1. De la Rua/Brasil (Foz de Iguazu, TripID 1473-ARG-BRA-37103): MetHostHoGS No->Yes y TripEndDate 31/7->1/8/2001 (La Nacion confirma reunion con Cardoso el 1/8).
+  2. Milei/El Salvador (TripID 4053-ARG-SLV-45443): MetHostHoGS No->Yes (se reunio con Bukele tras su asuncion).
+  3. CFK/Chile (TripID 2320-ARG-CHL-40258): fecha 21-mar-2010 -> 11-mar-2010 (asuncion real de Pinera, coincide con el terremoto de ese dia; corroborado ademas por las filas COLT de Ecuador/Correa, Paraguay/Lugo y Peru/Garcia para el mismo evento, todas ya con la fecha correcta en el propio archivo de COLT).
+  4. CFK/Kuwait (TripID 2320-ARG-KWT-40196): anio 2010->2011 y fechas 18-19/1 -> 16-17/1 (gira Kuwait-Qatar-Turquia fue en 2011, no 2010; coincide con nuestra propia investigacion ya cargada, Journey_ID ARG-CFK-J080).
+  5. Macri/EEUU sep-2017 (TripID 3169-ARG-USA-43000, AGNU): flag en Notes -viaje fantasma, Macri no fue, asistio la vicepresidenta Michetti- sin borrar la fila.
+  6. Duhalde/Marruecos abr-2003 (TripID 1689-ARG-MAR-37712): flag en Notes -viaje cancelado por la guerra de Irak, no ocurrio como indica COLT- sin borrar la fila.
+  7. CORRECCION EN NUESTRA PROPIA BASE (no en COLT): Milei/Chequia (Trip_ID 421 de argentina_viajes.csv) tenia fecha 21-22/6/2024 solapada con el tramo de Espana del mismo Journey_ID (ARG-JM-J179); corregida a 24-25/6/2024 (confirmado por COLT + fuente oficial casarosada.gob.ar), quedando el orden logico Espana(21)->Alemania(22-23)->Chequia(24-25). Re-ejecutado validate.py e integrate.py: 0 errores, base_consolidada.csv reconstruida.
+[2026-08-15] FIX ESTRUCTURAL | Detectado bug de emparejamiento pais por nombre: nuestra base usa "Vatican City", COLT usa "Holy See" -las giras al Vaticano nunca cruzaban entre ambas bases-. Corregido con un alias en el script de matching: 16 filas de COLT (visitas al Vaticano de Menem, De la Rua, CFK y Milei, mas 1 caso adicional detectado en la limpieza -Chile Valparaiso Milei 2026 y Kuwait City- que no tenian CityVisited) se completaron con la ciudad correspondiente gracias a este fix, sin necesidad de agregarlas como filas nuevas.
+[2026-08-15] FILAS NUEVAS | Insertadas 26 filas nuevas en Datos_COLT_Sudamerica, marcadas en Notes como "Fila agregada por verificacion propia PE-Latam 2026-08-15, ausente en base COLT original", mapeando nuestros propios 31 campos al esquema de 76 columnas de COLT (TripID sintetico con prefijo PELATAM-ARG-). Incluye viajes de los 8 presidentes; varios de los ultimos (Milei 2026) caen fuera de la ventana temporal de COLT (que llega hasta 2025) mas que ser una brecha real de su cobertura -queda aclarado en el detalle, no se cuenta como error de COLT-. Detalle completo en 05_BITACORA/anexos_colt_sudamerica/argentina_nuestro_unico_final.csv. Hoja Datos_COLT_Sudamerica pasa de 5162 a 5188 filas (contando las 26 de Sudamerica agregadas solo para Argentina).
+[2026-08-15] PENDIENTE-COMPLETITUD (para nuestra propia base, no para COLT) | El subagente Macri/AF/Milei confirmo que la asistencia de Alberto Fernandez al G20 de Roma (oct-2021) figura en COLT pero NO esta en nuestra base argentina_viajes.csv -candidato genuino a agregar en una futura ronda de completitud, con el mismo proceso que las Tandas 1-5 ya usadas en el proyecto-.
+[2026-08-15] ALCANCE NO RECUPERADO | De los ~260 items originalmente procesados por los 3 subagentes (206 discrepancias + 54 colt_unico), solo los ~10 casos citados explicitamente en los resumenes de texto se pudieron aplicar con precision. El resto -incluye ~65 discrepancias de 1 dia del lote Nestor K/CFK marcadas "No_verificable" en agregado, y el desglose completo del lote Macri/AF/Milei (35 Nuestro_correcto, 21 COLT_correcto, 8 Ninguno_exacto, 5 No_verificable sin especificar cuales)- no quedo con detalle recuperable por fila. Si se quiere el detalle completo, hay que re-correr la verificacion de esos 2 lotes con guardado incremental en la carpeta del proyecto (no en /tmp).
+[2026-08-15 21:34] INTEGRACION | Base consolidada: 1527 filas / 1210 viajes físicos / 5 país(es): Argentina, Brasil, Chile, Paraguay, Uruguay
+[2026-08-15 23:15] INTEGRACION | Base consolidada: 1527 filas / 1210 viajes físicos / 5 país(es): Argentina, Brasil, Chile, Paraguay, Uruguay
+[2026-08-16 11:41] INTEGRACION | Base consolidada: 1527 filas / 1210 viajes físicos / 5 país(es): Argentina, Brasil, Chile, Paraguay, Uruguay
+
+=== VERIFICACION DE LINKS Y DATOS COLT — BRASIL (2026-08-16) ===
+[2026-08-16] SETUP | Se aplico la leccion aprendida de Argentina: todos los
+archivos de trabajo (workpacks y resultados de subagentes) se escribieron
+DENTRO de la carpeta del proyecto (05_BITACORA/anexos_colt_sudamerica/
+tmp_brasil/), no en /tmp. Resultado: ningun archivo se perdio pese a que 2 de
+los 4 subagentes del primer lanzamiento volvieron a cortarse por limite de
+sesion -sus guardados incrementales sobrevivieron y se pudo continuar desde
+donde quedaron-.
+[2026-08-16] FIX ESTRUCTURAL (generalizado desde Argentina) | El problema de
+alias de nombres de pais (Vatican City/Holy See) no era exclusivo de
+Argentina: Brasil ademas usa "Cape Verde" (COLT: "Cabo Verde"), "East Timor"
+(COLT: "Timor Leste"), "Republic of the Congo" (COLT: "Congo-Brazzaville") y
+"Turkey" (COLT: "Turkiye"); Uruguay usa "Democratic Republic of the Congo"
+(COLT: "Congo-Kinshasa"). Se creo 06_SCRIPTS/colt_country_alias.py con el
+diccionario completo para reutilizar en los paises restantes. TAMBIEN SE
+CORRIGIO UN ERROR PROPIO: la extension de Argentina del 2026-08-15 habia
+insertado por error una fila nueva PELATAM-ARG-237 (Turquia, CFK ene-2011)
+que en realidad YA estaba en COLT como 2320-ARG-TUR-40563 con otro nombre de
+pais -se borro el duplicado y se completo CityVisited (Ankara) en la fila
+real de COLT-.
+[2026-08-16] PREPARACION | Triage sobre los 665 viajes de Brasil en COLT
+(1948-2025, potencia prioritaria) vs 358 viajes "Completed" de nuestra base
+(2000-2026): 331 coinciden, 27 unicos nuestros (a insertar), 145 filas COLT
+pre-2000 fuera de alcance actual (sin investigacion propia con que
+cruzarlas, quedan pendientes) y 193 filas COLT 2000+ sin equivalente +206
+discrepancias. Se armaron 6 lotes (Cardoso 2000-03, Lula1 2003-06, Lula2
+2007-10, Dilma/Temer 2011-19, Bolsonaro/Lula3 2019-26, mas un mop-up final)
+para mantener cada lote en un tamano manejable (~50-115 items).
+[2026-08-16] INCIDENTE MENOR | Un subagente que debia cubrir "Lula 2003-2010"
+en un solo lote combinado leyo por error el archivo de Cardoso y proceso 30
+items ya cubiertos (0 progreso real en Lula). Se detecto por el prefijo de
+TripID (994-BRA- es Cardoso, 1780-BRA- es Lula) y se relanzo correctamente
+dividido en Lula1 (2003-2006) y Lula2 (2007-2010), cada uno con una
+verificacion de prefijo obligatoria como paso 0. Ambos terminaron bien.
+[2026-08-16] INCIDENTE MENOR | El corte de era Dilma/Temer vs Bolsonaro/Lula3
+uso el limite "anio<=2019" para el primer grupo, pero el mandato de Temer
+termino y el de Bolsonaro empezo el 1/1/2019, por lo que 15 items (10
+discrepancias + 5 colt_unico) de Bolsonaro quedaron mal encasillados en el
+lote de Dilma/Temer. El subagente de ese lote los detecto y los excluyo
+correctamente en vez de procesarlos mal; se investigaron y aplicaron
+manualmente despues.
+[2026-08-16] CORRECCIONES APLICADAS | 67 correcciones de fecha/campo
+aplicadas sobre Datos_COLT_Sudamerica con log completo en
+05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_brasil.csv: 64 de forma
+automatica (veredicto Nuestro_correcto/Ninguno_exacto con fecha limpia y sin
+ambiguedad), 3 adicionales aplicadas a mano tras revision (Lula/Alemania y
+Lula/Francia ene-2003 corridos 1 dia; Dilma/Venezuela corregida al 8/3/2013,
+fecha real del funeral de Chavez). Ademas: 5 filas de COLT marcadas como
+"viaje fantasma" (Descartado) sin borrarlas -incluye el viaje de Bolsonaro a
+EE.UU. mayo-2019 (gala en Nueva York CANCELADA por retiro de auspiciantes
+tras protestas, confirmado por CNBC/Al Jazeera/BBC) y una fila de Kazajistan
+jun-2019 que parece un error de carga de COLT (TripID identico al de la fila
+de Japon del mismo dia, sin ninguna fuente independiente que confirme el
+viaje)-.
+[2026-08-16] HALLAZGO DE EMPAREJAMIENTO ESPURIO | El subagente de Bolsonaro/
+Lula3 detecto que el script de conciliacion habia comparado por error la fila
+COLT de Bolsonaro (3531-BRA-USA-44925, estadia dic2022-mar2023 en EE.UU. tras
+perder la eleccion) contra nuestro Trip_ID 237 de Lula (viaje a Washington,
+reunion con Biden). Son personas distintas -la coincidencia fue solo de pais+
+fecha-. Se dejo esa fila de COLT sin tocar y en cambio se corrigio nuestra
+propia base: Trip_ID 237 (brasil_viajes.csv) tenia fecha unica 10/2/2023;
+corregida a 9-11/2/2023 (llegada 9/2, reunion con Biden 10/2, regreso 11/2,
+confirmado por PBS y Yahoo News) para alinearse con la fila COLT correcta
+(1780-BRA-USA-44966, Lula, no Bolsonaro). Re-ejecutado validate.py e
+integrate.py: 0 errores.
+[2026-08-16] CITYVISITED COMPLETADO | 164 filas completadas desde los
+veredictos "Confirmado" de colt_unico, mas 8 adicionales detectadas en el
+recheck con el nuevo diccionario de alias (Cabo Verde, Congo-Brazzaville,
+Timor Leste, Turkiye, Vaticano).
+[2026-08-16] FILAS NUEVAS | Insertadas 27 filas nuevas en Datos_COLT_Sudamerica
+marcadas como agregado propio. Incluye 5 gaps reales pre-2020 (ej.
+Lula/Costa Rica nov-2004, Lula/Montevideo nov-2006, Dilma/Los Cabos jun-2012,
+Temer/Buenos Aires oct-2016) y el resto son viajes de Lula en 2026, fuera de
+la ventana de cobertura de COLT (que llega hasta 2025) -no es una brecha real
+de su trabajo, es simplemente posterior a su corte-. Hoja
+Datos_COLT_Sudamerica: 665 filas originales de Brasil + 27 = 692. Total
+libro: 5215 filas.
+[2026-08-16] QC FINAL | 0 TripID duplicados, 0 duplicados (pais+fecha) entre
+filas insertadas y existentes. validate.py sobre brasil_viajes.csv: 363
+filas, 263 viajes fisicos, 0 errores. integrate.py: base consolidada sin
+cambios de conteo (1527 filas / 1210 viajes fisicos en 5 paises) -el ajuste
+de Trip_ID 237 fue un corrimiento de fechas, no una fila nueva-.
+[2026-08-16] PENDIENTE (para otra ronda, no ahora) | 145 filas de COLT para
+Brasil son anteriores a 2000 (COLT cubre Brasil desde 1945 como potencia
+prioritaria); quedan sin cruzar contra investigacion propia -misma logica
+que la ventana Menem 1989-1993 en Argentina-. Ademas ~14 discrepancias
+quedaron sin aplicar por evidencia ambigua/insuficiente (ver
+PENDIENTES_VERIFICACION.txt), no se tocaron esas celdas.
+[2026-08-16 11:45] INTEGRACION | Base consolidada: 1527 filas / 1210 viajes físicos / 5 país(es): Argentina, Brasil, Chile, Paraguay, Uruguay
+[2026-08-17 13:55] INTEGRACION | Base consolidada: 1526 filas / 1209 viajes físicos / 5 país(es): Argentina, Brasil, Chile, Paraguay, Uruguay
+[2026-08-17 14:02] INTEGRACION | Base consolidada: 1526 filas / 1209 viajes físicos / 5 país(es): Argentina, Brasil, Chile, Paraguay, Uruguay
+
+=== VERIFICACION DE LINKS Y DATOS COLT — CHILE (2026-08-17) ===
+[2026-08-16] PREPARACION | Triage sobre los 546 viajes de Chile en COLT
+(1990-2026, potencia prioritaria: Aylwin/Frei/Lagos/Bachelet/Pinera/Boric)
+vs 308 viajes "Completed" de nuestra base (2000-2026, Lagos en adelante):
+104 filas COLT pre-2000 fuera de alcance actual (Aylwin/Frei, sin
+investigacion propia con que cruzarlas), 150 discrepancias de fecha/campo,
+139 filas COLT 2000+ sin equivalente nuestro (colt_unico) y 60 viajes
+propios sin equivalente en COLT (nuestro_unico). Se armaron 4 lotes por
+mandato/era (Lagos 2000-06, Bachelet1/Pinera1 2006-14, Bachelet2/Pinera2
+2014-22, Boric/Kast 2022-26), cada uno con verificacion de prefijo de
+TripID obligatoria como paso 0 (1516-CHL- Lagos, 2134-CHL- Bachelet,
+2556-CHL- Pinera, 3909-CHL- Boric) y con la instruccion nueva de que
+"valor_propuesto" en discrepancias use SOLO fechas ISO limpias (sin texto
+mezclado), para reducir la revision manual observada en Brasil.
+[2026-08-16] INCIDENTE MENOR | Las 4 corridas de lanzamiento de subagentes
+fueron interrumpidas por el usuario a mitad de tool-call; se relanzaron
+identicas ("Relancemos") y completaron: Lagos y Boric/Kast terminaron
+enteros; Bachelet1/Pinera1 y Bachelet2/Pinera2 fueron cortados por limite
+de sesion durante el chequeo de links de nuestro_unico (la seccion de
+menor prioridad, tal como estaba instruido -discrepancias y colt_unico
+primero-), pero sus discrepancias (39+26) y colt_unico (64+57) ya estaban
+completos y guardados en la ruta persistente. Se relanzo un subagente
+chico de cierre de brecha solo para los 27 nuestro_unico_check faltantes
+(19+8), que completo sin incidentes.
+[2026-08-17] CORRECCIONES APLICADAS | 150 discrepancias procesadas: 91
+Nuestro_correcto, 27 COLT_correcto, 20 No_verificable, 12 Ninguno_exacto.
+Se aplicaron 129 cambios de celda (TripStartDate/TripEndDate) de forma
+100% automatica -0 casos de revision manual, gracias a la instruccion de
+fecha limpia agregada a los prompts de Chile-, log completo en
+05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_chile.csv. Los 47
+casos COLT_correcto/No_verificable quedaron sin cambios (documentados).
+[2026-08-17] COLT_UNICO PROCESADO | 139 veredictos: 93 Confirmado (79
+campos CityVisited completados donde estaban vacios), 7 Descartado
+(flageados en Notes como posible viaje fantasma/error de COLT, SIN
+borrar la fila -incluye una visita a la Base Antartica O'Higgins,
+territorio reclamado por Chile y no un pais extranjero, y dos casos de
+Lagos/Colombia sin evidencia independiente-), 39 Dudoso_no_verificable
+(sin cambio, documentados). Log completo en
+05_BITACORA/anexos_colt_sudamerica/chile_colt_unico_veredictos.csv.
+[2026-08-17] HALLAZGO Y CORRECCION EN NUESTRA PROPIA BASE | Al corregir el
+anio de Trip_ID 99 (Bachelet/Beijing, Visita de Estado con Xi Jinping) de
+2016 a 2017 -segun fuente oficial chile.gob.cl y prensa (Emol, CNN Chile,
+La Tercera)-, se revelo que ese registro se solapaba por completo en
+fechas y ciudad con Trip_ID 105 (Bachelet/Beijing, Foro de la Franja y la
+Ruta, ya correctamente fechado 13-15/05/2017): eran el mismo viaje fisico
+duplicado en dos Trip_ID con Journey_ID distintos -a diferencia del patron
+normal del proyecto de tramos multiples compartiendo un mismo Journey_ID-.
+Se fusionaron ambos registros en Trip_ID 105 (fusion de Trip_Objective y
+fuentes) y se elimino Trip_ID 99 de chile_viajes.csv para evitar doble
+conteo. Re-ejecutado validate.py (321 filas, 235 viajes fisicos, 0
+errores) e integrate.py.
+[2026-08-17] FILAS NUEVAS | Insertadas 59 filas nuevas en
+Datos_COLT_Sudamerica marcadas como agregado propio (TripID
+PELATAM-CHL-{id}), recalculadas de forma deterministica con el matching
+alias-aware post-fusion de Trip 99/105 (60 candidatos originales - 1 que
+dejo de ser unico tras la fusion = 59). Incluye giras completas de Lagos
+(Sudamerica/Europa 2000-2005), cumbres de Bachelet/Pinera con la Alianza
+del Pacifico y CELAC, y viajes de Boric/Kast 2023-2026 (varios posteriores
+al corte de cobertura de COLT). Dos filas quedaron con nota de fuente
+debil (Trip 7: Source_Verification original era una consulta de busqueda,
+no una URL; Trip 24: link de SEGIB con link-rot) -no se descartaron, se
+dejaron con advertencia explicita para reemplazo futuro-. Hoja
+Datos_COLT_Sudamerica: 5215 filas antes + 59 = 5274 (menos 1 por el ajuste
+de fusion Trip 99/105) = 5273 filas totales, 5273 TripID unicos.
+[2026-08-17] HALLAZGOS ESPECIFICOS RESUELTOS | (1) Lagos/Canada-Quebec
+(Cumbre de las Americas 2001): COLT tenia razon (llegada real 19/04, no
+20/04 como registraba nuestra base) -corregido Trip_ID 5 en
+chile_viajes.csv-. (2) Boric/Paraguay jul-2024 (TripID
+3909-CHL-PRY-45479): COLT tenia el evento correcto pero con fechas
+erroneas (06-08/07 en vez de 16-17/07, segun Emol/La Tercera/Cooperativa/
+BioBioChile/Minrel); corregido manualmente en la hoja COLT. Al corregir la
+fecha se detecto que esa fila coincide exactamente con otra fila nativa de
+COLT (3909-CHL-PRY-45489, Confidence=1, con detalle completo del viaje) -
+posible duplicado interno de COLT (dos fuentes de prensa distintas para el
+mismo viaje)-, se dejo flageada en Notes sin borrar ninguna de las dos,
+siguiendo la politica de no modificar destructivamente la base COLT
+original. (3) El Salvador/Bukele 2da asuncion jun-2024 (colt_unico
+Descartado): confirmado que Boric NO asistio personalmente (no aparece en
+listas de mandatarios presentes en ninguna cobertura de prensa), fila
+flageada. (4) Boric/Kast USA-45189 (NY+Washington sep-2023): COLT registra
+un solo viaje continuo (20-23/09 tras correccion) mientras nuestra base lo
+divide en Trip_ID 161 (NY, AGNU) y 193 (Washington, OEA/memorial Allende-
+Letelier) -se confirmo que esta division en tramos es intencional y
+correcta (comparten el mismo Journey_ID CHL-GB-J132, patron estandar del
+proyecto para viajes multi-destino), NO es un duplicado como si lo fue el
+caso Bachelet/Beijing-; se dejo una nota en Trip_ID 161 sobre una posible
+ambiguedad menor de un dia en la fecha de llegada (19 vs 20/09) sin
+modificarla, por falta de evidencia concluyente. (5) Trip_ID 188 (Kast/
+Uruguay jul-2026): Source_Verification apuntaba por error a una noticia
+sobre la reunion bilateral con Brasil en Paraguay (Trip 187); corregido en
+chile_viajes.csv al link correcto de la fotonoticia oficial de la visita a
+Uruguay.
+[2026-08-17] QC FINAL | 0 TripID duplicados en las 5273 filas del libro
+(111 filas PELATAM en total: 59 Chile + 27 Brasil + 25 Argentina). 1
+colision pais+fecha detectada dentro de Chile, correspondiente al
+duplicado interno de COLT ya documentado arriba (Paraguay jul-2024,
+45479/45489) -no es un error nuestro, se dejo flageada-. validate.py sobre
+chile_viajes.csv: 321 filas, 235 viajes fisicos, 0 errores. integrate.py:
+base consolidada sin cambio de conteo neto relevante (ajustes fueron
+corrimientos de fecha/fusion de una fila, no adiciones).
+[2026-08-17] PENDIENTE (para otra ronda, no ahora) | 104 filas de COLT
+para Chile son anteriores a 2000 (cobertura desde 1990, Aylwin/Frei);
+quedan sin cruzar contra investigacion propia porque nuestra base de Chile
+arranca en Lagos (2000) -misma logica que Menem 1989-1993 en Argentina y
+el pre-2000 de Brasil-. Si se quiere extender Chile hacia atras, es una
+decision pendiente, no iniciada.
+[2026-08-17 19:25] INTEGRACION | Base consolidada: 1527 filas / 1209 viajes físicos / 5 país(es): Argentina, Brasil, Chile, Paraguay, Uruguay
+
+=== REDO VERIFICACION COLT — ARGENTINA (2026-08-17) ===
+[2026-08-17] MOTIVO | El usuario pidio auditar si el incidente de perdida
+de datos del 15-ago (sandbox /tmp reseteado antes de fusionar 3 subagentes)
+habia dejado la base en buen estado. Auditoria: las 7 correcciones que SI
+sobrevivieron estan correctamente aplicadas en el Excel (verificado celda
+por celda, sin corrupcion), pero la profundidad de verificacion quedo muy
+por debajo de Brasil/Chile -solo 7 de ~260 items originales tenian detalle
+documentado-. Se decidio un REDO completo con la metodologia ya probada
+(guardado persistente, sin perdidas en Brasil/Chile).
+[2026-08-17] PREPARACION | Re-triage sobre el estado actual de la base
+(post-correcciones del 15-ago): 454 viajes propios "Completed" vs 462
+filas COLT nativas (excluyendo las 25 PELATAM ya insertadas). 254
+coinciden sin discrepancia, 175 discrepancias, 35 colt_unico, 25
+nuestro_unico (recalculado, coincide exactamente con las 25 filas PELATAM
+ya insertadas -sin cambios ahi-). Se armaron 3 lotes por LeaderID (no por
+corte de anio, para evitar el bug de limite de mandato ya visto en Brasil):
+Menem2/De la Rua/Duhalde (prefijos 334/1473/1689), Nestor K/CFK (1826/
+2320), Macri/A.Fernandez/Milei (3169/3670/4053).
+[2026-08-17] CORRECCIONES APLICADAS | 175 discrepancias procesadas: 76
+Nuestro_correcto, 23 COLT_correcto, 16 Ninguno_exacto, 60 No_verificable
+(en su mayoria por bloqueo de acceso institucional a los links de COLT -
+ProQuest/NewsBank/Getty via du.idm.oclc.org- combinado, en el lote Milei
+2025, con agotamiento del presupuesto de busqueda web de la sesion en 6
+items puntuales, documentados en pendientes). Se aplicaron 129 cambios de
+celda sobre Datos_COLT_Sudamerica de forma 100% automatica -0 revision
+manual-, log en cambios_aplicados_argentina_redo.csv. Ademas, de los 23
+veredictos COLT_correcto, se identificaron 21 casos donde nuestra PROPIA
+base (argentina_viajes.csv) tenia la fecha equivocada -se corrigieron
+directamente ahi (no en COLT), con nota metodologica en cada fila-; el
+caso restante (2320-ARG-USA-40077, CFK/EEUU sep-2009) se dejo sin tocar en
+ambos lados porque es el mismo patron ya visto en Brasil (Lula, mismo
+sufijo de TripID "40077"): COLT une en una fila el discurso ONU + G20
+Pittsburgh, mientras nosotros los trackeamos como dos tramos separados
+(Trip 209/210) de un mismo Journey -diseño intencional, no error-.
+[2026-08-17] COLT_UNICO PROCESADO | 35 veredictos: 15 Confirmado (10
+campos CityVisited completados), 16 Dudoso_no_verificable, 4 Descartado
+(Menem-Francia/Polinesia 1998 y Menem-Kosovo 1999 -sin ningun respaldo,
+implausibles-, mas los 2 ya conocidos de la pasada anterior -Macri/AGNU
+2017 viaje fantasma, Duhalde/Marruecos 2003 cancelado por la guerra de
+Irak-, todos flageados en Notes sin borrar la fila). Se detecto ademas 1
+duplicado interno de COLT (2320-ARG-CAN-40355, Canada jun-2010, coincide
+exactamente con la fila ya existente 2320-ARG-CAN-40354 del mismo G20
+Toronto) y se flageo sin borrar, mismo patron que el caso Paraguay de
+Chile.
+[2026-08-17] HALLAZGO Y FILA NUEVA EN NUESTRA PROPIA BASE | El colt_unico
+"3670-ARG-VAT-44329" (Vaticano, Alberto Fernandez, 13/5/2021) reveló que
+nuestra base tiene la audiencia con el Papa Francisco fusionada dentro del
+tramo de Italia (Trip 369) en vez de como fila separada -a diferencia del
+precedente de enero 2020 (Trip 357 Vaticano + 358 Italia, si separados
+para el mismo tipo de visita a Roma-. Se agrego Trip_ID 466 (Vaticano,
+13/5/2021, mismo Journey_ID que 369) para mantener consistencia
+estructural con ese precedente. Re-ejecutado validate.py (466 filas, 379
+viajes fisicos, 0 errores) e integrate.py.
+[2026-08-17] QC FINAL | 0 TripID duplicados en las 5273 filas del libro.
+25 filas PELATAM-ARG confirmadas sin cambios tras el redo (nuestro_unico
+recalculado = 25, exactamente igual). validate.py e integrate.py sin
+errores.
+[2026-08-17] PENDIENTE | 6 discrepancias del lote Milei 2025 quedaron
+No_verificable por agotamiento del presupuesto de busqueda web de la
+sesion (no por falta de evidencia real): 4053-ARG-USA-45749 (abr-2025,
+FMI), 4053-ARG-ITA-45772 (funeral del Papa, abr-2025), 4053-ARG-ESP-45816
+(gira jun-2025), 4053-ARG-USA-45903 (sep-2025, distinto del viaje a la
+ONU), 4053-ARG-USA-45943 (oct-2025), 4053-ARG-NOR-46000 (Noruega dic-
+2025). Candidatos para una pasada de cierre de brecha puntual, mismo
+patron usado en Chile.
+[2026-08-17] NOTA SOBRE COBERTURA PRE-1994 | COLT no tiene NINGUNA fila de
+Argentina anterior a 1994 (verificado: TripYear minimo = 1994 en toda la
+base COLT-Argentina). Nuestra propia base tambien arranca en 1994-11-30.
+Es decir, a diferencia de lo que se penso inicialmente, NO existe una
+brecha real de "extension a 1990" pendiente para Argentina -COLT mismo no
+cubre ese periodo-, a diferencia de Chile y Brasil, que si tienen datos
+COLT desde 1990 (Chile) y 1948 (Brasil) sin cobertura propia equivalente.

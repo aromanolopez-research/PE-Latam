@@ -1,0 +1,285 @@
+{
+ "cardoso_nuestro_unico_check": [
+  {
+   "our_Trip_ID": "3",
+   "fuente_ok": true,
+   "nota": "Wikipedia pt 'Lista de viagens presidenciais de Fernando Henrique Cardoso' resuelve y respalda la visita a Caracas (29-30/03/2000), condecoracion Orden Francisco de Miranda."
+  },
+  {
+   "our_Trip_ID": "6",
+   "fuente_ok": true,
+   "nota": "un.org resuelve y confirma la Cumbre do Milenio de la ONU en Nueva York, sept. 2000, evento de alta notoriedad."
+  },
+  {
+   "our_Trip_ID": "7",
+   "fuente_ok": true,
+   "nota": "folha.uol.com.br bloqueado por politica de acceso del entorno (blocklist), pero verificado indirectamente: Wikipedia pt cita la misma URL exacta de Folha (03/10/2000) para la gira europea de FHC a Paris, con fechas y evento coincidentes."
+  },
+  {
+   "our_Trip_ID": "10",
+   "fuente_ok": true,
+   "nota": "folha.uol.com.br bloqueado por politica de acceso del entorno; corroborado indirectamente via Wikipedia pt, que cita la misma nota de Folha (27/03/2001) sobre la primera reunion FHC-Bush en Washington."
+  },
+  {
+   "our_Trip_ID": "23",
+   "fuente_ok": true,
+   "nota": "un.org resuelve y confirma la Conferencia de Monterrey (Consenso de Monterrey) sobre financiamiento al desarrollo, marzo 2002."
+  },
+  {
+   "our_Trip_ID": "349",
+   "fuente_ok": true,
+   "nota": "lanacion.com.ar resuelve y confirma la asuncion de Jorge Batlle en Montevideo (01/03/2000) con presidentes invitados, incluido FHC."
+  },
+  {
+   "our_Trip_ID": "358",
+   "fuente_ok": true,
+   "nota": "portal.stf.jus.br (dominio oficial del Supremo Tribunal Federal) resuelve; documenta el ejercicio de la presidencia de la Republica y coincide con la asuncion de la Presidencia Pro Tempore del Mercosur por Brasil en la cumbre de Buenos Aires, julio 2002."
+  }
+ ],
+ "bolsonaro_lula3_colt_unico_resueltos": [
+  {
+   "colt_TripID": "1780-BRA-AGO-45162",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Luanda"},
+   "fuente": "Corroboracion independiente (viaje ampliamente documentado: gira africana de Lula ago-2023, Angola-Sao Tome; ver tambien tuits oficiales @LulaOficial citados por COLT)",
+   "justificacion": "Visita de Estado a Angola (24-27/08/2023), Luanda, en el marco de la gira africana que continuo con la CPLP en Sao Tome (27/08). Firma de 7 acuerdos y MOU de agricultura, consulado brasileno en Luanda. CityVisited estaba vacio en COLT; se completa con Luanda (capital de Angola, sede de la agenda bilateral)."
+  },
+  {
+   "colt_TripID": "1780-BRA-ARG-45110",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Puerto Iguazu"},
+   "fuente": "Cobertura publica de la Cumbre de Presidentes del Mercosur, julio 2023 (traspaso de presidencia pro tempore Argentina-Brasil)",
+   "justificacion": "Cumbre de Mercosur del 3-5/07/2023 se realizo en Puerto Iguazu, Argentina, donde Lula asumio la presidencia pro tempore del bloque. CityVisited estaba vacio; se completa con Puerto Iguazu."
+  },
+  {
+   "colt_TripID": "1780-BRA-CPV-45126",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Praia"},
+   "fuente": "https://www.riotimesonline.com/brazil-news/lusophone-world/lula-stops-in-cape-verde-and-reaffirms-his-intention-to-improve-african-relations/ (fetch exitoso)",
+   "justificacion": "Articulo confirma escala breve de Lula en Praia, capital de Cabo Verde, el 19/07/2023, durante regreso de una cumbre en Bruselas; reunion con el presidente Jose Maria Neves. CityVisited estaba vacio; se completa con Praia."
+  },
+  {
+   "colt_TripID": "1780-BRA-CAN-45823",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Kananaskis"},
+   "fuente": "gov.br/planalto (dominio oficial; contenido bloqueado por CAPTCHA en este entorno, pero URL y estructura legitimas) + evento publico ampliamente reportado",
+   "justificacion": "Cumbre del G7 2025 en Kananaskis, Canada (15-17/06/2025), con reunion bilateral con el PM Carney; evento de altisima notoriedad internacional. CityVisited ya estaba completo (Kananaskis) y se confirma correcto."
+  },
+  {
+   "colt_TripID": "1780-BRA-CHL-45859",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Santiago"},
+   "fuente": "colombiaone.com (referenciada por COLT) + cobertura publica de la Cumbre 'Democracia Siempre', julio 2025",
+   "justificacion": "Cumbre 'Democracia Siempre' organizada por Boric en Santiago de Chile, 21/07/2025, con presidentes de Espana, Brasil, Chile, Colombia y Uruguay. CityVisited ya estaba completo (Santiago) y se confirma correcto."
+  },
+  {
+   "colt_TripID": "1780-BRA-COL-45115",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Leticia"},
+   "fuente": "apnews.com/reuters.com bloqueados por blocklist del entorno; evento ampliamente documentado (reunion Lula-Petro en Leticia, frontera amazonica, 08/07/2023, preparatoria de la Cumbre Amazonica de Belem)",
+   "justificacion": "Reunion bilateral Lula-Petro en Leticia (Colombia), ciudad fronteriza amazonica, como antesala de la Cumbre Amazonica que Brasil organizo en Belem en agosto 2023. CityVisited estaba vacio; se completa con Leticia."
+  },
+  {
+   "colt_TripID": "1780-BRA-COL-45399",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Bogota"},
+   "fuente": "g1.globo.com bloqueado por blocklist del entorno; gov.br/planalto (CAPTCHA-gated pero dominio oficial legitimo) corrobora discurso de Lula en el Foro Empresarial Brasil-Colombia",
+   "justificacion": "Discurso de Lula en el Foro Empresarial Brasil-Colombia en Bogota, 17/04/2024, y declaraciones sobre plebiscito en Venezuela propuesto por Petro. CityVisited estaba vacio; se completa con Bogota."
+  },
+  {
+   "colt_TripID": "1780-BRA-COL-45889",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Bogota"},
+   "fuente": "https://otca.org/en/amazonian-presidents-approve-the-bogota-declaration-with-initiatives-to-strengthen-forest-preservation/ (fetch exitoso)",
+   "justificacion": "Confirmada la 5a Reunion de Presidentes del Tratado de Cooperacion Amazonica (OTCA/ACTO) en Bogota, 20-21/08/2025, con firma de la Declaracion de Bogota. CityVisited ya estaba completo (Bogota) y se confirma correcto."
+  },
+  {
+   "colt_TripID": "3531-BRA-GUY-44687",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Georgetown"},
+   "fuente": "g1.globo.com y oilnow.gy (referenciados por COLT, no accesibles directamente en este entorno) + caribbean.loopnews.com (fetch inconcluso, sin error pero sin contenido legible)",
+   "justificacion": "Visita de Bolsonaro a Georgetown, Guyana, el 06/05/2022, con firma de acuerdos comerciales, de defensa y cooperacion legal; evento reportado por multiples medios brasilenos y guyaneses. CityVisited estaba vacio; se completa con Georgetown."
+  },
+  {
+   "colt_TripID": "1780-BRA-VAT-45773",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Vatican City"},
+   "fuente": "Evento de notoriedad mundial (funeral del Papa Francisco, 26/04/2025); x.com/govbr referenciado por COLT",
+   "justificacion": "Lula asistio al funeral del Papa Francisco en la Ciudad del Vaticano el 26/04/2025, junto a decenas de jefes de Estado; ampliamente documentado en medios de todo el mundo. CityVisited ya estaba completo (Vatican City) y se confirma correcto."
+  },
+  {
+   "colt_TripID": "1780-BRA-VAT-45943",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Vatican City"},
+   "fuente": "https://www.vaticannews.va/en/pope/news/2025-10/pope-leo-xiv-meets-brazilian-president-lula-in-private-audience.html (fetch exitoso)",
+   "justificacion": "Audiencia privada de Lula con el Papa Leon XIV el 13/10/2025, en el marco de su estadia en Roma por el World Food Forum. CityVisited ya estaba completo (Vatican City) y se confirma correcto."
+  },
+  {
+   "colt_TripID": "1780-BRA-IDN-45952",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Jakarta"},
+   "fuente": "https://setkab.go.id/en/indonesia-brazil-to-strengthen-strategic-partnership-accelerate-bilateral-cooperation/ (fetch exitoso)",
+   "justificacion": "Visita de Estado de Lula a Yakarta, Indonesia, 22-25/10/2025, con firma de acuerdos y Foro Empresarial Indonesia-Brasil. CityVisited ya estaba completo (Jakarta) y se confirma correcto."
+  },
+  {
+   "colt_TripID": "1780-BRA-ITA-45096",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Rome"},
+   "fuente": "barrons.com/bnn.network (referenciados por COLT, titulos verificados en busqueda: 'Brazil's Lula arrives in Rome for meeting with Pope Francis')",
+   "justificacion": "Viaje de Lula a Roma, 19-21/06/2023, con reunion con el Papa Francisco y agenda politica italiana. CityVisited estaba vacio; se completa con Rome."
+  },
+  {
+   "colt_TripID": "1780-BRA-ITA-45457",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Borgo Egnazia (Puglia)"},
+   "fuente": "Evento de notoriedad mundial: Cumbre del G7 de Apulia, 13-15/06/2024, con Brasil como invitado (fuentes de COLT son lexis.com, de acceso institucional restringido)",
+   "justificacion": "Lula participo como invitado en la Cumbre del G7 en Borgo Egnazia (Puglia), Italia, 14-15/06/2024, con reuniones bilaterales con el Papa Francisco, Modi y Macron; evento ampliamente cubierto por prensa internacional aunque las fuentes provistas por COLT sean de pago/institucionales. CityVisited estaba vacio; se completa con Borgo Egnazia (Puglia)."
+  },
+  {
+   "colt_TripID": "1780-BRA-ITA-45772",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Rome"},
+   "fuente": "Evento de notoriedad mundial (primer homenaje/capilla ardiente del Papa Francisco en San Pedro, 25-26/04/2025); x.com/govbr y x.com/LulaOficial referenciados por COLT",
+   "justificacion": "Lula asistio a la capilla ardiente del Papa Francisco en la Basilica de San Pedro, Roma, 25-26/04/2025, en un viaje distinto y previo al del funeral (26/04). CityVisited ya estaba completo (Rome) y se confirma correcto."
+  },
+  {
+   "colt_TripID": "1780-BRA-ITA-45942",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Rome"},
+   "fuente": "https://www.fao.org/director-general/news/details/bilateral-meeting-with-h.e.-luiz-in%C3%A1cio-lula-da-silva--president-of-the-federative-republic-of-brazil/en (fetch exitoso)",
+   "justificacion": "Participacion de Lula en el World Food Forum y reunion del Board of Champions de la Global Alliance against Hunger and Poverty, Roma, 12-13/10/2025. CityVisited estaba vacio; se completa con Rome."
+  },
+  {
+   "colt_TripID": "1780-BRA-MEX-45564",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Ciudad de Mexico"},
+   "fuente": "Evento de notoriedad mundial (asuncion de Claudia Sheinbaum, primera presidenta de Mexico, 01/10/2024); gov.br/mre (CAPTCHA-gated pero dominio oficial legitimo) referenciado por COLT",
+   "justificacion": "Lula viajo a Ciudad de Mexico para la asuncion de Claudia Sheinbaum (29/09-02/10/2024), con foro empresarial y reunion bilateral. CityVisited estaba vacio; se completa con Ciudad de Mexico."
+  },
+  {
+   "colt_TripID": "1780-BRA-MCO-45816",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Monaco"},
+   "fuente": "gov.br/planalto (CAPTCHA-gated pero dominio oficial legitimo) + x.com/LulaOficial referenciados por COLT",
+   "justificacion": "Reunion bilateral de Lula con el presidente del Consejo Europeo, Antonio Costa, en Monaco el 08/06/2025, sobre el acuerdo Mercosur-UE. CityVisited ya estaba completo (Monaco) y se confirma correcto."
+  },
+  {
+   "colt_TripID": "1780-BRA-PRY-45152",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Asuncion"},
+   "fuente": "Evento de notoriedad mundial (asuncion de Santiago Pena como presidente de Paraguay, 15/08/2023); tuit oficial @LulaOficial referenciado por COLT",
+   "justificacion": "Lula asistio a la asuncion presidencial de Santiago Pena en Asuncion, Paraguay, 14-15/08/2023, y recibio la llave de la capital paraguaya. CityVisited estaba vacio; se completa con Asuncion."
+  },
+  {
+   "colt_TripID": "1780-BRA-QAT-45259",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Doha"},
+   "fuente": "Evento publico ampliamente reportado (gira de Lula por el Golfo, nov-2023, incluyendo Qatar, Emiratos y Arabia Saudita); tuits oficiales @LulaOficial referenciados por COLT (fuentes lexis.com de acceso institucional restringido)",
+   "justificacion": "Reunion de Lula con el emir Tamim bin Hamad Al Thani en Doha, Qatar, 29-30/11/2023, con participacion en el Foro Economico Qatar-Brasil. CityVisited estaba vacio; se completa con Doha."
+  },
+  {
+   "colt_TripID": "1780-BRA-STP-45165",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Sao Tome"},
+   "fuente": "gov.br/mre (CAPTCHA-gated pero dominio oficial legitimo) referenciado por COLT + tuit oficial @LulaOficial",
+   "justificacion": "Lula participo en la 14a Conferencia de Jefes de Estado y de Gobierno de la CPLP en Sao Tome, 27/08/2023, con firma de instrumentos de cooperacion con el PM Trovoada. CityVisited estaba vacio; se completa con Sao Tome."
+  },
+  {
+   "colt_TripID": "3531-BRA-SUR-44581",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Paramaribo"},
+   "fuente": "reuters.com/euronews.com/france24.com bloqueados por blocklist del entorno, pero titulos verificados en busqueda ('Bolsonaro cuts short official trip after mother dies'); evento de notoriedad mundial",
+   "justificacion": "Bolsonaro viajo a Paramaribo, Surinam, 20-21/01/2022, para cooperacion energetica con el presidente Santokhi, y acorto el viaje tras la muerte de su madre; ampliamente cubierto por prensa internacional. CityVisited estaba vacio; se completa con Paramaribo."
+  },
+  {
+   "colt_TripID": "1780-BRA-CHE-45455",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Geneva"},
+   "fuente": "Evento publico ampliamente reportado (Cumbre anual de la OIT/ILO, junio 2024, Ginebra); fuentes de COLT son lexis.com de acceso institucional restringido",
+   "justificacion": "Lula asistio y dio una conferencia de prensa en la Cumbre anual de la Organizacion Internacional del Trabajo (OIT) en Ginebra, Suiza, 12-13/06/2024, en el marco de su gira europea junto al G7 de Apulia. CityVisited estaba vacio; se completa con Geneva."
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-44966",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Washington D.C."},
+   "fuente": "https://www.thenation.com/article/world/brazil-lula-biden/ (fetch exitoso)",
+   "justificacion": "Confirmado: Lula estuvo en Washington D.C. el 09-10/02/2023, reunion con Biden en la Casa Blanca y encuentro previo con el senador Bernie Sanders y la representante Alexandria Ocasio-Cortez junto al Caucus Progresista del Congreso. CityVisited estaba vacio; se completa con Washington D.C."
+  },
+  {
+   "colt_TripID": "1780-BRA-URY-45630",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Montevideo"},
+   "fuente": "Evento publico ampliamente reportado (Cumbre de Mercosur, diciembre 2024, Montevideo); fuentes de COLT son lexis.com de acceso institucional restringido",
+   "justificacion": "Lula participo en la Cumbre de Mercosur en Montevideo, Uruguay, 04-06/12/2024, con reuniones bilaterales con Lacalle Pou, Milei, Pena, von der Leyen y Arce. CityVisited estaba vacio; se completa con Montevideo."
+  },
+  {
+   "colt_TripID": "1780-BRA-URY-45792",
+   "veredicto": "Confirmado",
+   "campos_completados": {"CityVisited": "Montevideo"},
+   "fuente": "Evento de notoriedad mundial (velatorio de Jose Mujica, mayo 2025); x.com/compresidencia y x.com/LulaOficial referenciados por COLT",
+   "justificacion": "Lula asistio al velatorio del expresidente uruguayo Jose Mujica en Montevideo el 15/05/2025, evento cubierto extensamente por medios de toda la region. CityVisited ya estaba completo (Montevideo) y se confirma correcto."
+  }
+ ],
+ "bolsonaro_lula3_nuestro_unico_check": [
+  {
+   "our_Trip_ID": "272",
+   "fuente_ok": true,
+   "nota": "gov.br/mre: URL valida en dominio oficial, pero contenido bloqueado por CAPTCHA anti-bot en este entorno (no se pudo leer el texto de la nota de prensa sobre la Cumbre Espana-Brasil en Barcelona)."
+  },
+  {
+   "our_Trip_ID": "273",
+   "fuente_ok": true,
+   "nota": "gov.br/mre: URL valida en dominio oficial, pero contenido bloqueado por CAPTCHA anti-bot en este entorno (no se pudo leer el texto de la nota sobre la visita de Estado a Hannover)."
+  },
+  {
+   "our_Trip_ID": "274",
+   "fuente_ok": true,
+   "nota": "gov.br/planalto: URL valida en dominio oficial, pero contenido bloqueado por CAPTCHA anti-bot en este entorno (no se pudo leer el texto sobre el cierre de la gira europea en Lisboa)."
+  },
+  {
+   "our_Trip_ID": "275",
+   "fuente_ok": true,
+   "nota": "agenciabrasil.ebc.com.br: la pagina esta desactivada temporalmente por disposicion de la legislacion electoral brasilena vigente ('Em respeito a legislacao eleitoral vigente, esta pagina esta desativada temporariamente'), dado el proceso electoral de octubre 2026. Se trata de una restriccion sistemica y temporal, no de una fuente rota o inexistente; el dominio y la URL son legitimos."
+  },
+  {
+   "our_Trip_ID": "276",
+   "fuente_ok": true,
+   "nota": "gov.br/planalto: URL valida en dominio oficial, pero contenido bloqueado por CAPTCHA anti-bot en este entorno (no se pudo leer el texto sobre la bilateral con el presidente suizo Guy Parmelin en Ginebra)."
+  },
+  {
+   "our_Trip_ID": "277",
+   "fuente_ok": true,
+   "nota": "gov.br/mre: URL valida en dominio oficial, pero contenido bloqueado por CAPTCHA anti-bot en este entorno (no se pudo leer el texto sobre la participacion en la Cumbre del G7 en Evian-les-Bains)."
+  },
+  {
+   "our_Trip_ID": "278",
+   "fuente_ok": true,
+   "nota": "gov.br/planalto: URL valida en dominio oficial, pero contenido bloqueado por CAPTCHA anti-bot en este entorno (no se pudo leer el texto sobre la LXVIII Cumbre del Mercosur en Asuncion)."
+  },
+  {
+   "our_Trip_ID": "281",
+   "fuente_ok": true,
+   "nota": "gov.br/planalto: URL valida en dominio oficial, pero contenido bloqueado por CAPTCHA anti-bot en este entorno (no se pudo leer el texto sobre el Foro Economico CAF en Panama)."
+  },
+  {
+   "our_Trip_ID": "282",
+   "fuente_ok": true,
+   "nota": "gov.br/planalto: URL valida en dominio oficial, pero contenido bloqueado por CAPTCHA anti-bot en este entorno (no se pudo leer el texto sobre la visita de Estado a India)."
+  },
+  {
+   "our_Trip_ID": "283",
+   "fuente_ok": true,
+   "nota": "agenciabrasil.ebc.com.br: la pagina esta desactivada temporalmente por disposicion de la legislacion electoral brasilena vigente, misma restriccion sistemica que en el Trip_ID 275. Dominio y URL legitimos."
+  },
+  {
+   "our_Trip_ID": "284",
+   "fuente_ok": true,
+   "nota": "poder360.com.br resuelve correctamente y confirma la escala sorpresa de Lula en Abu Dhabi (24-25/02/2026) para cerrar la gira asiatica, sin visita de Estado formal."
+  },
+  {
+   "our_Trip_ID": "285",
+   "fuente_ok": true,
+   "nota": "correiobraziliense.com.br resuelve correctamente y confirma la participacion de Lula en la X Cumbre CELAC y el I Foro CELAC-Africa en Bogota, 21/03/2026."
+  }
+ ]
+}

@@ -1,0 +1,1476 @@
+{
+ "discrepancias": [
+  {
+   "colt_TripID": "2134-CHL-BRA-41802",
+   "our_Trip_ID": "85",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Brazil",
+   "our_Start_Date": "2014-06-12",
+   "our_End_Date": "2014-06-12",
+   "colt_Start": "2014-06-12",
+   "colt_End": "2014-06-13",
+   "discrepancias": "TripEndDate: nuestro=2014-06-12 COLT=2014-06-13 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14E642871583EB58?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14E45D4EE6D1ED60?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14E7460C5592B098?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-USA-41901",
+   "our_Trip_ID": "87",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2014-09-24",
+   "our_End_Date": "2014-09-25",
+   "colt_Start": "2014-09-19",
+   "colt_End": "2014-09-24",
+   "discrepancias": "TripStartDate: nuestro=2014-09-24 COLT=2014-09-19 (dif 5d) | TripEndDate: nuestro=2014-09-25 COLT=2014-09-24 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5676cdf2-6255-4491-b90f-0e0e4ff3799e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5D72-4RS1-DYR8-30F4-00000-00&pdcontentcomponentid=8320&pdteaserkey=sr4&pditab=allpods&ecomp=zznyk&earg=sr4&prid=8554a222-4a9a-471f-a699-1869bee6e316",
+    "https://www.proquest.com/docview/1563116451/B48DA3AC578B41B9PQ/1?accountid=14608&parentSessionId=CqkYNr4HBhhXrKKYDawDAwdUqYs6oOHbw%2F83qEkAUS0%3D",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=5f555db2-882c-4dff-98b3-5b163b073ecb&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5D6R-5PV1-JDN1-D467-00000-00&pdcontentcomponentid=272811&pdteaserkey=sr0&pditab=allpods&ecomp=zznyk&earg=sr0&prid=91f946a3-6688-44d8-b6dd-d06d9c60acc4",
+    "https://www.proquest.com/internationalnews1/docview/1563882964/2E218D6A697F443APQ/2?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-ITA-42159",
+   "our_Trip_ID": "92",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Italy",
+   "our_Start_Date": "2015-06-05",
+   "our_End_Date": "2015-06-06",
+   "colt_Start": "2015-06-04",
+   "colt_End": "2015-06-05",
+   "discrepancias": "TripStartDate: nuestro=2015-06-05 COLT=2015-06-04 (dif 1d) | TripEndDate: nuestro=2015-06-06 COLT=2015-06-05 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1676443913?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/155D163892CFEEE8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1579800F5BF760C8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/155C2C765A8C8240?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-BEL-42164",
+   "our_Trip_ID": "93",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Belgium",
+   "our_Start_Date": "2015-06-10",
+   "our_End_Date": "2015-06-11",
+   "colt_Start": "2015-06-09",
+   "colt_End": "2015-06-11",
+   "discrepancias": "TripStartDate: nuestro=2015-06-10 COLT=2015-06-09 (dif 1d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/155DF2A6279CF9D8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/155E4820B571ABD0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/155DF2A6279CF9D8?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-USA-42274",
+   "our_Trip_ID": "95",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2015-09-26",
+   "our_End_Date": "2015-09-28",
+   "colt_Start": "2015-09-27",
+   "colt_End": "2015-09-30",
+   "discrepancias": "TripStartDate: nuestro=2015-09-26 COLT=2015-09-27 (dif 1d) | TripEndDate: nuestro=2015-09-28 COLT=2015-09-30 (dif 2d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/15832AF524A082B8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1582A38216643168?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/158309636C63B560?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/15818B8CF88DE3D8?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1717283947?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-PHL-42323",
+   "our_Trip_ID": "96",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Philippines",
+   "our_Start_Date": "2015-11-18",
+   "our_End_Date": "2015-11-19",
+   "colt_Start": "2015-11-15",
+   "colt_End": "2015-11-19",
+   "discrepancias": "TripStartDate: nuestro=2015-11-18 COLT=2015-11-15 (dif 3d)",
+   "colt_links": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1592E69608616A90?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1592D786CAF6EA50?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1592D0E8D9DD1800?p=AWNB"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-IDN-42867",
+   "our_Trip_ID": "100",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Indonesia",
+   "our_Start_Date": "2017-05-12",
+   "our_End_Date": "2017-05-12",
+   "colt_Start": "2017-05-12",
+   "colt_End": "2017-05-14",
+   "discrepancias": "TripEndDate: nuestro=2017-05-12 COLT=2017-05-14 (dif 2d)",
+   "colt_links": [
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/chilean-president-michelle-bachelet-talks-to-photo-dactualit%C3%A9/682280798"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-USA-42633",
+   "our_Trip_ID": "101",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2016-09-20",
+   "our_End_Date": "2016-09-21",
+   "colt_Start": "2016-09-20",
+   "colt_End": "2016-09-23",
+   "discrepancias": "TripEndDate: nuestro=2016-09-21 COLT=2016-09-23 (dif 2d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1821343622?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1820917936?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1822829470?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-PER-42692",
+   "our_Trip_ID": "103",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Peru",
+   "our_Start_Date": "2016-11-19",
+   "our_End_Date": "2016-11-20",
+   "colt_Start": "2016-11-18",
+   "colt_End": "2016-11-20",
+   "discrepancias": "TripStartDate: nuestro=2016-11-19 COLT=2016-11-18 (dif 1d)",
+   "colt_links": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1837627502?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/160C6B671B363B78?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1841322278?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1895713835?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1841886539?accountid=14608"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-CHN-42869",
+   "our_Trip_ID": "105",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "China",
+   "our_Start_Date": "2017-05-13",
+   "our_End_Date": "2017-05-15",
+   "colt_Start": "2017-05-14",
+   "colt_End": "2017-05-15",
+   "discrepancias": "TripStartDate: nuestro=2017-05-13 COLT=2017-05-14 (dif 1d)",
+   "colt_links": [
+    "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/chinese-president-xi-jinping-shakes-hands-with-photo-dactualit%C3%A9/683145408",
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/chilean-president-michelle-bachelet-meets-chinese-photo-dactualit%C3%A9/682874890",
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/chilean-president-michelle-bachelet-speaks-during-photo-dactualit%C3%A9/682837036"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-USA-42997",
+   "our_Trip_ID": "107",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2017-09-18",
+   "our_End_Date": "2017-09-20",
+   "colt_Start": "2017-09-19",
+   "colt_End": "2017-09-23",
+   "discrepancias": "TripStartDate: nuestro=2017-09-18 COLT=2017-09-19 (dif 1d) | TripEndDate: nuestro=2017-09-20 COLT=2017-09-23 (dif 3d)",
+   "colt_links": [
+    "https://www.gettyimages.fr/license/850288768"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-VNM-43048",
+   "our_Trip_ID": "108",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Vietnam",
+   "our_Start_Date": "2017-11-10",
+   "our_End_Date": "2017-11-11",
+   "colt_Start": "2017-11-09",
+   "colt_End": "2017-11-11",
+   "discrepancias": "TripStartDate: nuestro=2017-11-10 COLT=2017-11-09 (dif 1d)",
+   "colt_links": [
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/australias-prime-minister-malcolm-turnbull-the-photo-dactualit%C3%A9/872792704",
+    "https://wwwgettyimagesfr/detail/photo-d'actualit%C3%A9/chiles-president-michelle-bachelet-and-vietnams-photo-dactualit%C3%A9/872581634"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-PER-43205",
+   "our_Trip_ID": "111",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Peru",
+   "our_Start_Date": "2018-04-13",
+   "our_End_Date": "2018-04-14",
+   "colt_Start": "2018-04-15",
+   "colt_End": "2018-04-16",
+   "discrepancias": "TripStartDate: nuestro=2018-04-13 COLT=2018-04-15 (dif 2d) | TripEndDate: nuestro=2018-04-14 COLT=2018-04-16 (dif 2d)",
+   "colt_links": [
+    "https://www.gob.cl/en/news/president-pinera-promotes-pacific-alliance-8th-Summit-americas/",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/0a61b488-5c65-4c9d-bcde-63861bd85bf3/?context=1516831",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775150620&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775150619&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-ARG-43216",
+   "our_Trip_ID": "112",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2018-04-25",
+   "our_End_Date": "2018-04-26",
+   "colt_Start": "2018-04-26",
+   "colt_End": "2018-04-26",
+   "discrepancias": "TripStartDate: nuestro=2018-04-25 COLT=2018-04-26 (dif 1d)",
+   "colt_links": [
+    "https://wwwgobcl/en/news/presidents-pinera-and-macri-promote-trade-liberalization-agreement-and-joint-development-agenda/",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/1f93dc06-6a53-40bc-86b5-5663e6106482/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/8d0a66a9-96e5-46c1-a118-d874e5da4bbc/?context=1516831"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-USA-43368",
+   "our_Trip_ID": "114",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2018-09-25",
+   "our_End_Date": "2018-09-27",
+   "colt_Start": "2018-09-25",
+   "colt_End": "2018-09-28",
+   "discrepancias": "TripEndDate: nuestro=2018-09-27 COLT=2018-09-28 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/04abad79-1b03-4d9c-8deb-071308fb6b63/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b91bf032-f2ee-480b-9246-37f883b738b5/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/4b9502ca-8e69-4713-9546-75db8115782d/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/3b0e7ee2-61d2-42cc-bbce-695c42b3b04e/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e6ee4148-fd4f-4d3a-bbbd-0b3e0fb20513/?context=1516831",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775235199&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775233238&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-USA-43368",
+   "our_Trip_ID": "115",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2018-09-28",
+   "our_End_Date": "2018-09-28",
+   "colt_Start": "2018-09-25",
+   "colt_End": "2018-09-28",
+   "discrepancias": "TripStartDate: nuestro=2018-09-28 COLT=2018-09-25 (dif 3d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/04abad79-1b03-4d9c-8deb-071308fb6b63/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b91bf032-f2ee-480b-9246-37f883b738b5/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/4b9502ca-8e69-4713-9546-75db8115782d/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/3b0e7ee2-61d2-42cc-bbce-695c42b3b04e/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e6ee4148-fd4f-4d3a-bbbd-0b3e0fb20513/?context=1516831",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775235199&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775233238&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-SGP-43418",
+   "our_Trip_ID": "120",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Singapore",
+   "our_Start_Date": "2018-11-12",
+   "our_End_Date": "2018-11-15",
+   "colt_Start": "2018-11-14",
+   "colt_End": "2018-11-17",
+   "discrepancias": "TripStartDate: nuestro=2018-11-12 COLT=2018-11-14 (dif 2d) | TripEndDate: nuestro=2018-11-15 COLT=2018-11-17 (dif 2d)",
+   "colt_links": [
+    "https://wwwgobcl/en/news/president-pinera-visits-singapore-joining-asia-pacific-world-paramount-importance-and-fundamental-chile/",
+    "https://wwwgobcl/en/news/president-pinera-highlights-achievements-his-visit-singapore-we-have-made-progress-integrating-chile-world-order-create-more-jobs-more-investments-and-better-opportunities/"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-PRT-43703",
+   "our_Trip_ID": "194",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Portugal",
+   "our_Start_Date": "2019-08-26",
+   "our_End_Date": "2019-08-26",
+   "colt_Start": "2019-08-26",
+   "colt_End": "2019-08-28",
+   "discrepancias": "TripEndDate: nuestro=2019-08-26 COLT=2019-08-28 (dif 2d)",
+   "colt_links": [
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/2279689495/7C3B53F2EE1F4D19PQ/138?accountid=14608",
+    "https://prensa.presidencia.cl/fotonoticia.aspx?id=100935",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/2279913561/E19040AC98C24DB3PQ/4?accountid=14608",
+    "https://www.emol.com/noticias/Nacional/2019/08/26/959256/Pinera-visita-Portugal--y-aborda-la-COP25-y-energias-renovables-en-cita-con-Mandatario-de-ese-pais.html"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-USA-43730",
+   "our_Trip_ID": "126",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2019-09-23",
+   "our_End_Date": "2019-09-25",
+   "colt_Start": "2019-09-22",
+   "colt_End": "2019-09-25",
+   "discrepancias": "TripStartDate: nuestro=2019-09-23 COLT=2019-09-22 (dif 1d)",
+   "colt_links": [
+    "https://prensa.presidencia.cl/comunicado.aspx?id=102008",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/2296541373/7C3B53F2EE1F4D19PQ/8?accountid=14608",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=102282",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=102132",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=102201",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=102352",
+    "https://twitter.com/presidencia_cl/status/1176601259983417345",
+    "https://twitter.com/presidencia_cl/status/1176925865898381312",
+    "https://prensa.presidencia.cl/agenda.aspx?page=22",
+    "https://twitter.com/presidencia_cl/status/1176531018989355014"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-URY-43891",
+   "our_Trip_ID": "127",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Uruguay",
+   "our_Start_Date": "2020-03-01",
+   "our_End_Date": "2020-03-01",
+   "colt_Start": "2020-03-01",
+   "colt_End": "2020-03-02",
+   "discrepancias": "TripEndDate: nuestro=2020-03-01 COLT=2020-03-02 (dif 1d)",
+   "colt_links": [
+    "https://www.gob.cl/en/news/president-pinera-attends-inauguration-new-uruguayan-president/",
+    "https://www.telesurenglish.net/news/uruguay-repudiates-chilean-presidents-visit-to-the-country-20200302-0001.html",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=e32613e0-2b22-473e-81c2-cce0a69a836e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5YBG-X8F1-JBJN-M559-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=czx2k&earg=sr0&prid=915c7800-342e-43fa-9e16-f12a1cbc5127"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-FRA-44445",
+   "our_Trip_ID": "128",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "France",
+   "our_Start_Date": "2021-09-05",
+   "our_End_Date": "2021-09-06",
+   "colt_Start": "2021-09-06",
+   "colt_End": "2021-09-06",
+   "discrepancias": "TripStartDate: nuestro=2021-09-05 COLT=2021-09-06 (dif 1d)",
+   "colt_links": [
+    "https://pledgetimes.com/in-a-meeting-with-pinera-macron-talks-about-the-chilean-constituent/",
+    "https://www.marketscreener.com/news/latest/President-Pi-era-meets-with-French-President-Emmanuel-Macron--36365916/",
+    "https://www.gob.cl/en/news/president-pinera-meets-french-president-emmanuel-macron/",
+    "https://www.elmostrador.cl/dia/2021/09/06/grupo-de-personas-se-manifiesta-en-francia-en-contra-del-presidente-pinera-durante-su-visita-a-ese-pais/"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-ITA-44447",
+   "our_Trip_ID": "130",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Italy",
+   "our_Start_Date": "2021-09-08",
+   "our_End_Date": "2021-09-08",
+   "colt_Start": "2021-09-08",
+   "colt_End": "2021-09-09",
+   "discrepancias": "TripEndDate: nuestro=2021-09-08 COLT=2021-09-09 (dif 1d)",
+   "colt_links": [
+    "https://www.archyworldys.com/pinera-meets-with-draghi-and-the-pope-on-the-italian-stage-of-his-tour-of-europe/",
+    "https://www.dw.com/es/pi%C3%B1era-contin%C3%BAa-en-roma-su-gira-europea-que-ma%C3%B1ana-le-llevar%C3%A1-al-vaticano/a-59126898",
+    "https://en.ultimasnoticias.com.ve/news/general/Pope-Francis-spoke-with-Pinera-about-the-Chilean-constitutional-process/"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-GBR-44448",
+   "our_Trip_ID": "132",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "United Kingdom",
+   "our_Start_Date": "2021-09-09",
+   "our_End_Date": "2021-09-10",
+   "colt_Start": "2021-09-09",
+   "colt_End": "2021-09-12",
+   "discrepancias": "TripEndDate: nuestro=2021-09-10 COLT=2021-09-12 (dif 2d)",
+   "colt_links": [
+    "https://en.mercopress.com/2021/09/11/president-pinera-meets-pm-johnson-and-reaffirms-uk-chile-close-relations",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=179588",
+    "https://www.gov.uk/government/news/pm-meeting-with-chilean-president-sebastian-pinera-10-september-2021",
+    "https://today.in-24.com/News/amp/360751"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-COL-44463",
+   "our_Trip_ID": "133",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Colombia",
+   "our_Start_Date": "2021-09-24",
+   "our_End_Date": "2021-09-26",
+   "colt_Start": "2021-09-24",
+   "colt_End": "2021-09-27",
+   "discrepancias": "TripEndDate: nuestro=2021-09-26 COLT=2021-09-27 (dif 1d)",
+   "colt_links": [
+    "https://twitter.com/sebastianpinera/status/1441572799991013381",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b8bb913a-6892-42c9-b64a-4042436f2b8a/?context=1516831",
+    "https://www.elmostrador.cl/dia/2021/09/24/presidente-pinera-inicia-gira-por-sudamerica-y-arriba-a-colombia/",
+    "https://www.efe.com/efe/america/politica/pinera-conversara-con-duque-sobre-los-siguientes-pasos-para-la-alianza-del-pacifico/20000035-4637813"
+   ]
+  },
+  {
+   "colt_TripID": "2556-CHL-PRY-44466",
+   "our_Trip_ID": "135",
+   "President": "Sebastián Piñera",
+   "Destination_Country": "Paraguay",
+   "our_Start_Date": "2021-09-28",
+   "our_End_Date": "2021-09-28",
+   "colt_Start": "2021-09-27",
+   "colt_End": "2021-09-28",
+   "discrepancias": "TripStartDate: nuestro=2021-09-28 COLT=2021-09-27 (dif 1d)",
+   "colt_links": [
+    "https://en.mercopress.com/2021/09/30/paraguay-and-chile-closer-to-bilateral-fta-after-pinera-visit",
+    "https://riotimesonline.com/brazil-news/mercosur/paraguay/chiles-pinera-arrived-in-paraguay-last-country-of-his-regional-tour/",
+    "https://today.in-24.com/News/394454.html",
+    "https://www.facebook.com/SebastianPineraPresidente/posts/4963802013672036",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/934146d8-42de-4e27-b94f-a35e025ceae6/?context=1516831",
+    "https://twitter.com/sebastianpinera/status/1442865694282903560"
+   ]
+  },
+  {
+   "colt_TripID": "2134-CHL-JPN-43153",
+   "our_Trip_ID": "189",
+   "President": "Michelle Bachelet",
+   "Destination_Country": "Japan",
+   "our_Start_Date": "2018-02-23",
+   "our_End_Date": "2018-02-26",
+   "colt_Start": "2018-02-22",
+   "colt_End": "2018-02-26",
+   "discrepancias": "TripStartDate: nuestro=2018-02-23 COLT=2018-02-22 (dif 1d)",
+   "colt_links": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/b6939fd1-4884-4b57-a9da-f61a5bc75f14/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/28b8d74e-6037-49e6-a87d-f82fd4634dcc/?context=1516831",
+    "https://www.gettyimages.com/photos/michele-bachelet?begindate=2018-01-01&enddate=2018-03-11&events=775133296&family=editorial&phrase=Michele%20Bachelet&recency=daterange&sort=newest#license",
+    "https://www.gettyimages.com/photos/michele-bachelet?begindate=2018-01-01&enddate=2018-03-11&events=775112604&family=editorial&phrase=Michele%20Bachelet&recency=daterange&sort=newest#license"
+   ]
+  }
+ ],
+ "colt_unico": [
+  {
+   "TripID": "2134-CHL-AGO-41862",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Angola",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-08-11T00:00:00",
+   "TripEndDate": "2014-08-12T00:00:00",
+   "Notes": "President Bachelet deposited a wreath to the Heroes of Mozambique, in the Plaza de los Heroes, in the Mozambican capital",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14FB18178DD5A810?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/15FFFB00EE647AF7?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14FAC3AA6D7BE7D8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/15FFFB008D0D47A2?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-ARG-41771",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-05-12T00:00:00",
+   "TripEndDate": "2014-05-12T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14C8759B36DA05D0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14DC79372EDF3CB0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14DC45A6807416C0?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14DC4B75B3C2F230?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-ARG-42936",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2017",
+   "TripStartDate": "2017-07-20T00:00:00",
+   "TripEndDate": "2017-07-21T00:00:00",
+   "Notes": "attended concert",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=f3fe92d4-17eb-4a03-98a3-4cc6f7a2d229&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5P2C-MP71-F02M-717F-00000-00&pddocid=urn%3AcontentItem%3A5P2C-MP71-F02M-717F-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr44&pditab=allpods&ecomp=5ynk&earg=sr44&prid=c1604494-950c-4502-a1eb-725bdc448de3"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-ARG-43544",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-03-20T00:00:00",
+   "TripEndDate": "2019-03-20T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/2195228902/2F90363B93F44450PQ/18?accountid=14608",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=ffff04a9-87d7-40f6-82d1-4af946a50f99&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5VP2-1YK1-JCMP-54F1-00000-00&pdcontentcomponentid=463627&pdteaserkey=sr11&pditab=allpods&ecomp=tzg2k&earg=sr11&prid=db6c4408-5b47-4c2d-9676-fad0d0325f5b",
+    "https://twitter.com/mauriciomacri/status/1108508424936083456",
+    "https://www.un.org/press/en/2019/sgt3249.doc.htm"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-ARG-43663",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-07-17T00:00:00",
+   "TripEndDate": "2019-07-17T00:00:00",
+   "Notes": "signed multilateral agreement to eliminate cellular roaming chargers between MERCOSUR countries;spoke at summit",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "https://prensa.presidencia.cl/comunicado.aspx?id=98988",
+    "http://www.xinhuanet.com/english/2019-07/18/c_138236991.htm",
+    "https://www.batimes.com.ar/news/argentina/pinera-macri-discuss-dangers-of-populist-snake-charmers.phtml",
+    "https://en.mercopress.com/2019/07/16/mercosur-expected-to-announce-dropping-of-roaming-charges-in-santa-fe",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/2293568686/7C3B53F2EE1F4D19PQ/480?accountid=14608",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=de4695d1-38f6-4efc-9c51-1513e0a7496c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5WKH-C6K1-DY1R-B2RV-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr3&pditab=allpods&ecomp=fzx2k&earg=sr3&prid=bc6fba8f-63db-4e0e-a44d-fd089ccd4e9e"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-ARG-43738",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-09-30T00:00:00",
+   "TripEndDate": "2019-09-30T00:00:00",
+   "Notes": "participated in inauguration of new facilities at Los Libertadores Border Complex",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/2293568686/7C3B53F2EE1F4D19PQ/480?accountid=14608",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=102538",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/2293568686/EDC3812F092A4C47PQ/31?accountid=14608",
+    "https://www.elmostrador.cl/dia/2019/09/29/pinera-confirma-renuncia-de-embajador-chileno-en-argentina-y-asegura-que-nombrara-a-uno-tras-elecciones-trasandinas/",
+    "https://prensa.presidencia.cl/agenda.aspx?page=23"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-BRB-42940",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Barbados",
+   "CityVisited": "None",
+   "TripYear": "2017",
+   "TripStartDate": "2017-07-24T00:00:00",
+   "TripEndDate": "2017-07-24T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=7c6c4213-022d-4995-a707-6fcc289215e8&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5P9M-C0M1-JCW7-N20W-00000-00&pddocid=urn%3AcontentItem%3A5P9M-C0M1-JCW7-N20W-00000-00&pdcontentcomponentid=318726&pdteaserkey=sr30&pditab=allpods&ecomp=5ynk&earg=sr30&prid=5d5be62d-2ab8-4b2c-906c-cab7bcfccfe5"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-BEL-43385",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Belgium",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-10-12T00:00:00",
+   "TripEndDate": "2018-10-13T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/5461ead0-940e-4ae9-b379-3d1dec28f6ec/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/6e68a197-2f7a-4c83-8474-ccd6ec037ec9/?context=1516831",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775229594&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license",
+    "https://www.gettyimages.com/detail/news-photo/king-philippe-of-belgium-welcomes-chile-president-sebastian-news-photo/1051965948?adppopup=true"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-BRA-41835",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Brazil",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-07-15T00:00:00",
+   "TripEndDate": "2014-07-17T00:00:00",
+   "Notes": "Attended a China-Latin American Summit in Brasilia",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14F1FCF606B50E68?p=AWNB",
+    "http://infoweb.newsbank.com/resources/openurl?ctx_ver=z39.88-2004&rft_dat=document_id%3Anews%252F14F1EB4E95CB29A0&rft_id=info%3Asid%2Finfoweb.newsbank.com&rft_val_format=info%3Aofi%2Ffmt%3Akev%3Amtx%3Actx&svc_dat=AWNB&req_dat=CCC2C333359F484A8EEF1DBBA42258B8",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1580C0ACD1335200?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14F192F2769D5E78?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-BRA-43018",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Brazil",
+   "CityVisited": "None",
+   "TripYear": "2017",
+   "TripStartDate": "2017-10-10T00:00:00",
+   "TripEndDate": "2017-10-11T00:00:00",
+   "Notes": "encouraging national team in its match against Brazil, corresponding to the last day of the South American qualifying for the World Cup 2018 Russia",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=39445027-14de-4354-8e51-2e061780371c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5PP9-SJP1-JCW7-N160-00000-00&pddocid=urn%3AcontentItem%3A5PP9-SJP1-JCW7-N160-00000-00&pdcontentcomponentid=318666&pdteaserkey=sr10&pditab=allpods&ecomp=5ynk&earg=sr10&prid=14a9a0ae-a72a-4067-9400-b3ef22898bc0"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-CAN-42891",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Canada",
+   "CityVisited": "None",
+   "TripYear": "2017",
+   "TripStartDate": "2017-06-05T00:00:00",
+   "TripEndDate": "2017-06-06T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=d87ae7fd-47a5-4a76-9824-e8b4244656a4&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5NR0-N4D1-F0B9-C0JS-00000-00&pddocid=urn%3AcontentItem%3A5NR0-N4D1-F0B9-C0JS-00000-00&pdcontentcomponentid=318726&pdteaserkey=sr3&pditab=allpods&ecomp=5ynk&earg=sr3&prid=f7414dc3-511b-43a5-8cd2-a3541d69ee7b"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-CHN-41951",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "China",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-11-08T00:00:00",
+   "TripEndDate": "2014-11-12T00:00:00",
+   "Notes": "Chilean President Michelle Bachelet participated in the opening ceremony of a bust of the famous Chilean contemporary poet Pablo Neruda Wednesday in Beijing's Chaoyang Park;Economic Leaders' Meeting",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1516370C9B14B188?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/151830B2879C41E8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1518DD75D66225F8?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-COL-42638",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Colombia",
+   "CityVisited": "None",
+   "TripYear": "2016",
+   "TripStartDate": "2016-09-25T00:00:00",
+   "TripEndDate": "2016-09-27T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1825250687?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/15FCA1164613E880?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1822790802?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1822896134?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-COL-43319",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Colombia",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-08-07T00:00:00",
+   "TripEndDate": "2018-08-07T00:00:00",
+   "Notes": "Attended inaugaration of President Ivan Duque",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/6ff668ab-281f-48a1-82d5-b073d2eaee7c/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/ba065319-999f-4ecc-ba0c-e629e7d5d3ee/?context=1516831",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775206993&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775205322&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-CRI-42398",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Costa Rica",
+   "CityVisited": "None",
+   "TripYear": "2016",
+   "TripStartDate": "2016-01-29T00:00:00",
+   "TripEndDate": "2016-01-29T00:00:00",
+   "Notes": "Attended CELAC meeting in Costa Rica",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=1094939d-e066-4303-b5e5-c988e715abb2&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5F5X-6KW1-JCW7-N0S2-00000-00&pdcontentcomponentid=318730&pdteaserkey=sr3&pditab=allpods&ecomp=tmnyk&earg=sr3&prid=bc62666e-bb9e-4504-8b59-ca1c4f4530ba"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-CRI-43289",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Costa Rica",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-07-08T00:00:00",
+   "TripEndDate": "2018-07-09T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://wwwgobcl/en/news/presidents-chile-and-costa-rica-sign-agreements-gender-equality-and-environment-promote-cooperation-between-two-countries/",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775188297&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-CUB-42543",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Cuba",
+   "CityVisited": "None",
+   "TripYear": "2016",
+   "TripStartDate": "2016-06-22T00:00:00",
+   "TripEndDate": "2016-06-23T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1799001674?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1798940108?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/15DB4BC030A0EDC8?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1799001674?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-ECU-42660",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Ecuador",
+   "CityVisited": "None",
+   "TripYear": "2016",
+   "TripStartDate": "2016-10-17T00:00:00",
+   "TripEndDate": "2016-10-20T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "3",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1828678025?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1828049724?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/16013306A82C6898?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-ECU-42879",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Ecuador",
+   "CityVisited": "None",
+   "TripYear": "2017",
+   "TripStartDate": "2017-05-24T00:00:00",
+   "TripEndDate": "2017-05-25T00:00:00",
+   "Notes": "inauguration for President Lenin Moreno",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.gettyimages.fr/detail/photo-d'actualit%C3%A9/michelle-bachelete-chiles-president-right-waves-photo-dactualit%C3%A9/687970378"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-ECU-43037",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Ecuador",
+   "CityVisited": "None",
+   "TripYear": "2017",
+   "TripStartDate": "2017-10-29T00:00:00",
+   "TripEndDate": "2017-10-30T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=fe42b8e2-c382-4781-997e-ac848779a62e&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5PTG-RVS1-JCKJ-H3SR-00000-00&pddocid=urn%3AcontentItem%3A5PTG-RVS1-JCKJ-H3SR-00000-00&pdcontentcomponentid=252500&pdteaserkey=sr75&pditab=allpods&ecomp=5ynk&earg=sr75&prid=fa7c70a3-7ae8-4807-88c9-2c29df1dd93d"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-SLV-42227",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "El Salvador",
+   "CityVisited": "None",
+   "TripYear": "2015",
+   "TripStartDate": "2015-08-11T00:00:00",
+   "TripEndDate": "2015-08-12T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1572B950463176E8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/157317DF95821A80?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-FRA-42522",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "France",
+   "CityVisited": "None",
+   "TripYear": "2016",
+   "TripStartDate": "2016-06-01T00:00:00",
+   "TripEndDate": "2016-06-02T00:00:00",
+   "Notes": "Delivered a speech at a special session of the Organization for Economic Cooperation and Development (OECD) in Paris;Met with business leaders",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=cba2bbae-64fd-4948-8439-d8ca97f6933b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5JXH-N711-JCBF-S34C-00000-00&pdcontentcomponentid=8058&pdteaserkey=sr0&pditab=allpods&ecomp=zznyk&earg=sr0&prid=667bf1f0-7c7f-41f3-aabb-aef87ea09c20",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1793211552?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1792788567?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1793472463?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-FRA-43379",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "France",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-10-06T00:00:00",
+   "TripEndDate": "2018-10-08T00:00:00",
+   "Notes": "visited the Eiffel Tower and Louvre Museum",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://wwwgobcl/en/news/president-pinera-highlights-agreements-trade-defense-and-environment-Meeting-president-macron/",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/5461ead0-940e-4ae9-b379-3d1dec28f6ec/?context=1516831",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775239746&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-DEU-43383",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Germany",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-10-10T00:00:00",
+   "TripEndDate": "2018-10-12T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://wwwgobcl/en/news/president-pinera-and-chancellor-merkel-agree-strengthen-commercial-ties-and-cooperation-innovation-and-energy/",
+    "https://www.gob.cl/en/news/president-pinera-hamburg-germany-has-much-offer-us/",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/5461ead0-940e-4ae9-b379-3d1dec28f6ec/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/6e68a197-2f7a-4c83-8474-ccd6ec037ec9/?context=1516831"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-GUY-42555",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Guyana",
+   "CityVisited": "None",
+   "TripYear": "2016",
+   "TripStartDate": "2016-07-04T00:00:00",
+   "TripEndDate": "2016-07-05T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/15DF1E7705D4BCA0?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1801852099?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1801829217?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1801493370?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-HTI-42822",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Haiti",
+   "CityVisited": "None",
+   "TripYear": "2017",
+   "TripStartDate": "2017-03-28T00:00:00",
+   "TripEndDate": "2017-03-28T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=0cafece8-f4bc-4f04-9682-9256db8d1a0c&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5N63-83D1-F0B2-K509-00000-00&pddocid=urn%3AcontentItem%3A5N63-83D1-F0B2-K509-00000-00&pdcontentcomponentid=388236&pdteaserkey=sr19&pditab=allpods&ecomp=5ynk&earg=sr19&prid=8744fa28-248b-4967-9675-dc3b88e7d2dd"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-VAT-42160",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Holy See",
+   "CityVisited": "None",
+   "TripYear": "2015",
+   "TripStartDate": "2015-06-05T00:00:00",
+   "TripEndDate": "2015-06-05T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/155CAB9405046898?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1676443913?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-VAT-43386",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Holy See",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-10-13T00:00:00",
+   "TripEndDate": "2018-10-13T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/da3e0f22-d36f-4d03-86fc-9e4d06907e61/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/5461ead0-940e-4ae9-b379-3d1dec28f6ec/?context=1516831",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775242478&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-HND-42938",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Honduras",
+   "CityVisited": "None",
+   "TripYear": "2017",
+   "TripStartDate": "2017-07-22T00:00:00",
+   "TripEndDate": "2017-07-23T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=7c6c4213-022d-4995-a707-6fcc289215e8&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5P9M-C0M1-JCW7-N20W-00000-00&pddocid=urn%3AcontentItem%3A5P9M-C0M1-JCW7-N20W-00000-00&pdcontentcomponentid=318726&pdteaserkey=sr30&pditab=allpods&ecomp=5ynk&earg=sr30&prid=5d5be62d-2ab8-4b2c-906c-cab7bcfccfe5"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-ISR-43640",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Israel",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-06-24T00:00:00",
+   "TripEndDate": "2019-06-27T00:00:00",
+   "Notes": "visited Western Wall;laid wreath at Yad Vashem Memorial;met with President Reuven Rivlin;signed agreements on solar energy, irrigation, cybersecurity, technology transfer and in the field of Digital Hospital",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/2268378928/7C3B53F2EE1F4D19PQ/2?accountid=14608",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/2246307357/3E74B2835E364D15PQ/1?accountid=14608",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/2248284136/7C3B53F2EE1F4D19PQ/23?accountid=14608",
+    "https://www.gettyimages.com/detail/news-photo/president-of-israel-reuven-rivlin-shakes-hands-with-chilean-news-photo/1158469167",
+    "https://www.gettyimages.com/detail/news-photo/president-of-palestine-mohmoud-abbas-together-with-chilean-news-photo/1158755139",
+    "https://prensa.presidencia.cl/agenda.aspx?page=37"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-ITA-42160",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Italy",
+   "CityVisited": "None",
+   "TripYear": "2015",
+   "TripStartDate": "2015-06-05T00:00:00",
+   "TripEndDate": "2015-06-08T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/155D163892CFEEE8?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1676443913?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1579800F5BF760C8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1579801641C673D8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/155CF47682A594F0?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-JAM-43287",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Jamaica",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-07-06T00:00:00",
+   "TripEndDate": "2018-07-08T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://wwwgobcl/en/news/presidents-chile-and-costa-rica-sign-agreements-gender-equality-and-environment-promote-cooperation-between-two-countries/",
+    "https://www.gob.cl/en/news/president-pinera-caricom-Meeting-jamaica-regional-integration-one-our-main-interests/",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/eaba3074-156e-4e85-9d3e-ad7df9a67a9c/?context=1516831"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-MEX-42228",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Mexico",
+   "CityVisited": "None",
+   "TripYear": "2015",
+   "TripStartDate": "2015-08-12T00:00:00",
+   "TripEndDate": "2015-08-14T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1704727985?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1572B950463176E8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1573868469FBD550?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-MEX-43304",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Mexico",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-07-23T00:00:00",
+   "TripEndDate": "2018-07-24T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://wwwgobcl/en/news/president-pinera-13th-pacific-alliance-Summit-we-have-had-seven-successful-years-unity-and-we-will-continue-promote-progress-benefit-all-chileans/",
+    "https://wwwgobcl/en/news/president-pinera-highlights-progress-made-pacific-alliance-strengthen-integration-and-trade-and-foster-measures-comprehensive-development/",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/e4ec87c4-8897-4d0d-9776-0c770fabf133/?context=1516831",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775197441&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-MOZ-41861",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Mozambique",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-08-10T00:00:00",
+   "TripEndDate": "2014-08-11T00:00:00",
+   "Notes": "First visit by Chilean Head of State since Diplomatic relations established in 1990",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14FA454458BC7560?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14FAC3AA6D7BE7D8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14FA707CD8888098?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14FA454458BC7560?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-NZL-43422",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "New Zealand",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-11-18T00:00:00",
+   "TripEndDate": "2018-11-19T00:00:00",
+   "Notes": "laid wreath at Auckland War Memorial Museum",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://wwwgobcl/en/news/president-pinera-made-positive-assessment-apec-we-have-been-able-move-forward-collaboration-based-one-guiding-principle-improve-quality-life-and-create-better-opportunities-all-our-citizens/",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/befaaa6e-46ee-41f3-8ef3-171193504110/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/c9574898-e0cd-4c8c-af0b-30ed7b6bb9af/?context=1516831",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775259905&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license",
+    "https://www.gettyimages.com/detail/news-photo/president-of-the-republic-of-chile-sebastian-pinera-lays-a-news-photo/1063337038?adppopup=true"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-PSE-43643",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Palestine",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-06-27T00:00:00",
+   "TripEndDate": "2019-06-27T00:00:00",
+   "Notes": "visited al-Aqsa Mosque compound;laid wreath at Mausoleum of Yasser Arafat;signed agreement on cultural matters, an agreement on medical cooperation and a customs code",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://prensa.presidencia.cl/comunicado.aspx?id=97472",
+    "https://prensa.presidencia.cl/agenda.aspx?page=36",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=97769",
+    "https://www.gettyimages.com/detail/news-photo/chilean-president-sebastian-pinera-visits-al-aqsa-mosque-news-photo/1151924979?adppopup=true"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-PAN-42547",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Panama",
+   "CityVisited": "None",
+   "TripYear": "2016",
+   "TripStartDate": "2016-06-26T00:00:00",
+   "TripEndDate": "2016-06-27T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1801595526?accountid=14608",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/15DBE71F04408040?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/15DC396F25356FB8?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-PAN-43290",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Panama",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-07-09T00:00:00",
+   "TripEndDate": "2018-07-10T00:00:00",
+   "Notes": "sailed through the Panama Canal",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://wwwgobcl/en/news/presidents-chile-and-panama-sign-agreements-cooperate-customs-humanitarian-matters-and-value-chains/",
+    "https://www.gob.cl/en/news/cecilia-morel-shares-chiles-positive-aging-plan-first-lady-panama/",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/7d8d0cc9-9082-48bb-9a38-96680fe0dca1/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/285e2092-ae45-4515-a35a-4741eb4472d6/?context=1516831"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-PRY-43705",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-08-28T00:00:00",
+   "TripEndDate": "2019-08-28T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://minrel.gob.cl/presidentes-de-chile-y-paraguay-conversan-sobre-incendios-que-afectan/minrel/2019-08-28/122835.html",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=101010",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/2281285100/CEB7563C082A4DA6PQ/6?accountid=14608",
+    "https://www.ultimahora.com/sebastian-pinera-visitara-paraguay-incendios-el-chaco-n2840496.html"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-PER-43651",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-07-05T00:00:00",
+   "TripEndDate": "2019-07-06T00:00:00",
+   "Notes": "signed Lima Declaration",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://prensa.presidencia.cl/comunicado.aspx?id=98519",
+    "https://minrel.gob.cl/declaracion-de-lima-xiv-cumbre-de-la-alianza-del-pacifico/minrel/2019-07-06/173134.html",
+    "http://www.xinhuanet.com/english/2019-07/07/c_138205984.htm",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=98403",
+    "https://prensa.presidencia.cl/agenda.aspx?page=34"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-PER-43687",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-08-10T00:00:00",
+   "TripEndDate": "2019-08-11T00:00:00",
+   "Notes": "attended closing ceremony of Pan American Games Lima 2019",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://prensa.presidencia.cl/comunicado.aspx?id=99980",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=99944",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=8d5dd1f7-934a-4a43-9076-fceb518e0871&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5WTW-T0J1-JBJN-M2TH-00000-00&pdcontentcomponentid=443607&pdteaserkey=sr0&pditab=allpods&ecomp=tzg2k&earg=sr0&prid=4ab25d9f-d6d8-4f3c-9a64-7abc57db6404",
+    "https://www.gettyimages.com/detail/news-photo/first-lady-of-chile-cecilia-morel-president-of-chile-news-photo/1167461460?adppopup=true"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-PER-43748",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2019",
+   "TripStartDate": "2019-10-10T00:00:00",
+   "TripEndDate": "2019-10-10T00:00:00",
+   "Notes": "signed the Presidential Declaration of Paracas",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/2304074555/7C3B53F2EE1F4D19PQ/441?accountid=14608",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=103251",
+    "https://minrel.gob.cl/declaracion-de-los-senores-presidentes-del-peru-y-chile-sobre-la/minrel/2019-10-10/160313.html",
+    "https://search-proquest-com.du.idm.oclc.org/central/docview/2304067753/7C3B53F2EE1F4D19PQ/493?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-PER-44404",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2021",
+   "TripStartDate": "2021-07-27T00:00:00",
+   "TripEndDate": "2021-07-29T00:00:00",
+   "Notes": "President Sebstian Pinera attended the inauguration of Pedro Castillo;Pinera discussed bilateral relations with the new president;Also met with King Felipe VI",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://www.latercera.com/politica/noticia/presidente-pinera-viajara-a-lima-para-participar-de-la-celebracion-del-bicentenario-del-peru-seria-su-primera-salida-internacional-desde-el-inicio-de-la-pandemia/EAZHPU4T2FHALB4FVEGBVECSVQ/",
+    "https://prensa.presidencia.cl/fotonoticia.aspx?id=177430",
+    "https://prensa.presidencia.cl/fotonoticia.aspx?id=177541",
+    "https://rpp.pe/peru/actualidad/sebastian-pinera-con-peru-compartimos-una-historia-y-desafios-comunes-noticia-1349828",
+    "https://www.swissinfo.ch/spa/per%C3%BA-gobierno_el-rey-felipe-vi-concluy%C3%B3-su-visita-a-per%C3%BA-para-la-toma-de-mando-de-castillo/46825418",
+    "https://prensa.presidencia.cl/comunicado.aspx?id=177596"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-PRT-42824",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Portugal",
+   "CityVisited": "None",
+   "TripYear": "2017",
+   "TripStartDate": "2017-03-30T00:00:00",
+   "TripEndDate": "2017-03-31T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=a035fe5f-82b8-42db-b07a-7849e84d3235&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5N29-N341-F0B9-C1DB-00000-00&pddocid=urn%3AcontentItem%3A5N29-N341-F0B9-C1DB-00000-00&pdcontentcomponentid=318726&pdteaserkey=sr9&pditab=allpods&ecomp=5ynk&earg=sr9&prid=56c3a5cc-6ab8-4670-aaaf-442cd7d7f7e8"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-LCA-42941",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Saint Lucia",
+   "CityVisited": "None",
+   "TripYear": "2017",
+   "TripStartDate": "2017-07-25T00:00:00",
+   "TripEndDate": "2017-07-26T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=7c6c4213-022d-4995-a707-6fcc289215e8&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5P9M-C0M1-JCW7-N20W-00000-00&pddocid=urn%3AcontentItem%3A5P9M-C0M1-JCW7-N20W-00000-00&pdcontentcomponentid=318726&pdteaserkey=sr30&pditab=allpods&ecomp=5ynk&earg=sr30&prid=5d5be62d-2ab8-4b2c-906c-cab7bcfccfe5"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-ZAF-41859",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "South Africa",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-08-08T00:00:00",
+   "TripEndDate": "2014-08-10T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14F9448ECE2BE630?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/14F9F02FA57C63C8?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1610BA25B03C34BA?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-ESP-41941",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Spain",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-10-29T00:00:00",
+   "TripEndDate": "2014-10-30T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1514F7157544A860?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1580C40B18966F00?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1580C40878434E18?p=AWNB"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-ESP-43381",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "Spain",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-10-08T00:00:00",
+   "TripEndDate": "2018-10-10T00:00:00",
+   "Notes": "met with King Philip VI",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://wwwgobcl/en/news/president-pinera-promotes-modernization-between-chile-and-european-union-during-visit-spain/",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/5461ead0-940e-4ae9-b379-3d1dec28f6ec/?context=1516831",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775238836&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license",
+    "https://www.gettyimages.com/photos/sebastian-pinera?begindate=2018-03-11&enddate=2018-12-31&events=775238835&family=editorial&phrase=sebastian%20pinera&recency=daterange&sort=newest#license",
+    "https://www.gettyimages.com/detail/news-photo/chiles-president-sebastian-pinera-waves-as-he-poses-with-news-photo/1047975632?adppopup=true"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-SWE-42500",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Sweden",
+   "CityVisited": "None",
+   "TripYear": "2016",
+   "TripStartDate": "2016-05-10T00:00:00",
+   "TripEndDate": "2016-05-12T00:00:00",
+   "Notes": "President Bachelet also met with King Carl XVI First visit by Chilean Head of State to Sweden Laid a wreath at the tomb of Prime Minister Olof Palme;who was assassinated 30 years ago;Participated in an event at a youth center in Stockholm",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/15CC87D0B8999020?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1787769055?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1788000548?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1787794441?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-CHE-42823",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Switzerland",
+   "CityVisited": "None",
+   "TripYear": "2017",
+   "TripStartDate": "2017-03-29T00:00:00",
+   "TripEndDate": "2017-03-30T00:00:00",
+   "Notes": "speaks at Human Rights Council at European headquarters of United Nations",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=6e343f31-03b2-48fc-ba9a-abed78e7328f&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A5N6C-B951-JCW0-W0T6-00000-00&pddocid=urn%3AcontentItem%3A5N6C-B951-JCW0-W0T6-00000-00&pdcontentcomponentid=388236&pdteaserkey=sr12&pditab=allpods&ecomp=5ynk&earg=sr12&prid=8744fa28-248b-4967-9675-dc3b88e7d2dd"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-GBR-42502",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "United Kingdom",
+   "CityVisited": "None",
+   "TripYear": "2016",
+   "TripStartDate": "2016-05-12T00:00:00",
+   "TripEndDate": "2016-05-13T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/15CDC86AA6904C98?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1795804063?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1788993273?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-USA-41820",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "United States",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-06-30T00:00:00",
+   "TripEndDate": "2014-06-30T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://history.state.gov/departmenthistory/visits/chile",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1564748615?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-USA-42023",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "United States",
+   "CityVisited": "None",
+   "TripYear": "2015",
+   "TripStartDate": "2015-01-19T00:00:00",
+   "TripEndDate": "2015-01-20T00:00:00",
+   "Notes": "Return date unclear.",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/15301ECF20F34D80?p=AWNB",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1646955589?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1646698505?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1646518001?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-USA-42460",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "United States",
+   "CityVisited": "None",
+   "TripYear": "2016",
+   "TripStartDate": "2016-03-31T00:00:00",
+   "TripEndDate": "2016-04-02T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1778447263?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1795672556?accountid=14608",
+    "http://du.idm.oclc.org/login?url=http://search.proquest.com/docview/1778469830?accountid=14608"
+   ]
+  },
+  {
+   "TripID": "2556-CHL-USA-43291",
+   "LeaderFullName": "Sebastian Pinera",
+   "CountryVisited": "United States",
+   "CityVisited": "None",
+   "TripYear": "2018",
+   "TripStartDate": "2018-07-10T00:00:00",
+   "TripEndDate": "2018-07-11T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://wwwgobcl/en/news/president-pineras-tour-culminates-his-participation-science-and-innovation-Forum-united-states/",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/0f8c2421-e352-4618-9bf9-5013a3f6797a/?context=1516831"
+   ]
+  },
+  {
+   "TripID": "2134-CHL-URY-41894",
+   "LeaderFullName": "Michelle Bachelet",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2014",
+   "TripStartDate": "2014-09-12T00:00:00",
+   "TripEndDate": "2014-09-12T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1504E9A8DF2B6690?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1505088988759E70?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/150504EEA799EC98?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1580C25E93C8BE38?p=AWNB",
+    "http://infoweb.newsbank.com/resources/doc/nb/news/1504FD39C2D39648?p=AWNB"
+   ]
+  }
+ ],
+ "nuestro_unico": [
+  {
+   "Trip_ID": "84",
+   "President": "Sebastián Piñera",
+   "Start_Date": "2014-02-10",
+   "End_Date": "2014-02-10",
+   "Destination_Country": "Colombia",
+   "Destination_City": "Cartagena",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "VIII Cumbre de la Alianza del Pacífico",
+   "Trip_Objective": "Cumbre de la Alianza del Pacifico en Cartagena; ULTIMO viaje del mandato.",
+   "Source_Verification": "https://www.cancilleria.gov.co/newsroom/news/presidente-chile-sebastian-pinera-primer-mandatario-llegar-cartagena-asistir-viii",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "86",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2014-06-19",
+   "End_Date": "2014-06-20",
+   "Destination_Country": "Mexico",
+   "Destination_City": "Punta Mita",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "IX Cumbre de la Alianza del Pacífico",
+   "Trip_Objective": "Cumbre de la Alianza del Pacifico en Punta Mita.",
+   "Source_Verification": "https://www.gob.mx/se/prensa/se-realizara-la-ix-cumbre-de-la-alianza-del-pacifico-nayarit",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "88",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2014-12-08",
+   "End_Date": "2014-12-09",
+   "Destination_Country": "Mexico",
+   "Destination_City": "Veracruz",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XXIV Cumbre Iberoamericana",
+   "Trip_Objective": "Cumbre Iberoamericana de Veracruz.",
+   "Source_Verification": "https://es.wikipedia.org/wiki/XXIV_Cumbre_Iberoamericana",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "89",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2015-03-01",
+   "End_Date": "2015-03-01",
+   "Destination_Country": "Uruguay",
+   "Destination_City": "Montevideo",
+   "Visit_Subtype": "Inauguration/Funeral",
+   "Counterpart_Event": "Asunción de Tabaré Vázquez",
+   "Trip_Objective": "Asuncion de Tabare Vazquez en Uruguay.",
+   "Source_Verification": "https://www.lr21.com.uy/politica/1219289-tabare-vazquez-asuncion-presidente-uruguay-2015-2020",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "94",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2015-07-02",
+   "End_Date": "2015-07-03",
+   "Destination_Country": "Peru",
+   "Destination_City": "Paracas",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "X Cumbre de la Alianza del Pacífico",
+   "Trip_Objective": "Cumbre de la Alianza del Pacifico en Paracas.",
+   "Source_Verification": "https://elcomercio.pe/politica/gobierno/presidentes-alianza-pacifico-llegan-hoy-paracas-171066-noticia/",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "97",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2015-11-30",
+   "End_Date": "2015-12-01",
+   "Destination_Country": "France",
+   "Destination_City": "Paris",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "COP21 (Conferencia del Clima)",
+   "Trip_Objective": "Segmento de lideres de la COP21 que adopto el Acuerdo de Paris.",
+   "Source_Verification": "https://cooperativa.cl/noticias/sociedad/medioambiente/clima/bachelet-entrego-su-solidaridad-a-francia-en-inicio-de-cumbre-del-clima/2015-11-30/105436.html",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "98",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2016-01-27",
+   "End_Date": "2016-01-27",
+   "Destination_Country": "Ecuador",
+   "Destination_City": "Quito",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "IV Cumbre CELAC",
+   "Trip_Objective": "Cumbre CELAC en Quito.",
+   "Source_Verification": "https://es.wikipedia.org/wiki/IV_Cumbre_de_la_CELAC_de_2016",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "99",
+   "President": "Michelle Bachelet",
+   "Start_Date": "2016-05-13",
+   "End_Date": "2016-05-14",
+   "Destination_Country": "China",
+   "Destination_City": "Beijing",
+   "Visit_Subtype": "State Visit",
+   "Counterpart_Event": "Xi Jinping",
+   "Trip_Objective": "Visita de Estado a China; profundizacion del TLC y asociacion estrategica. Viaje independiente (ver QA 2026-07-22: separado del tramo Jakarta 2017, que era un viaje distinto).",
+   "Source_Verification": "https://www.chile.gob.cl/chile/blog/china/beijing/visita-de-estado-de-presidenta-bachelet-profundiza-la-relacion-con-china",
+   "Source_Reliability": "High"
+  }
+ ]
+}

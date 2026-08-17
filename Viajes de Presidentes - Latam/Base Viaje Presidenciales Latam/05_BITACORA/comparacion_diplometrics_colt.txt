@@ -1,0 +1,314 @@
+================================================================================
+COMPARACIÓN CON DIPLOMETRICS COLT TRAVEL DATASET (2026-08-03)
+================================================================================
+Análisis solicitado por el usuario: comparar nuestra base de viajes presidenciales
+de Sudamérica con el dataset "Diplometrics COLT" (carpeta Bib/) y el paper
+Ostrander & Rider (2018) que lo origina metodológicamente. Objetivo: identificar
+qué hacemos nosotros que ellos no, y qué valor le podríamos agregar a su base.
+
+--------------------------------------------------------------------------------
+1. ACLARACIÓN NECESARIA: SON DOS COSAS DISTINTAS EN LA MISMA CARPETA
+--------------------------------------------------------------------------------
+- "Ostrander & Rider (2018)" (Political Research Quarterly) + "Base Travel Data.xlsx"
+  + "By Year Travel.xlsx" + "Travel Codebook.docx": es el dataset ORIGINAL de los
+  autores, EXCLUSIVAMENTE de presidentes de EE.UU. (T. Roosevelt en adelante, 1906-
+  2017), pensado para un paper de ciencia política que explica CUÁNTO viaja un
+  presidente en función de variables domésticas (aprobación, gobierno dividido,
+  año electoral, guerra, etc.). No tiene ningún dato de Sudamérica.
+- "Diplometrics_COLT_Travel_Dataset_Primary-HOGS-through-2025_20260428.xlsx": es
+  la extensión GLOBAL y mucho más reciente de ese mismo proyecto (probablemente
+  del laboratorio "Diplometrics"), que codifica viajes de TODOS los Jefes de
+  Estado/Gobierno (HOGS) del mundo desde 1990 (algunas potencias "prioritarias" -
+  EE.UU., Reino Unido, Francia, Rusia/URSS, China, Brasil, Irán, Japón- tienen
+  cobertura desde 1945-1979). Este archivo SÍ incluye los 12 países de Sudamérica
+  y es el que realmente compite con nuestro proyecto. No vino acompañado de un
+  codebook propio en la carpeta Bib -el Travel Codebook.docx solo documenta el
+  dataset viejo de EE.UU.-, así que las columnas de este archivo se interpretaron
+  por inspección directa de sus 76 encabezados y ~5.160 filas sudamericanas.
+
+--------------------------------------------------------------------------------
+2. TAMAÑO Y COBERTURA DE DIPLOMETRICS EN SUDAMÉRICA
+--------------------------------------------------------------------------------
+Granularidad: 1 fila = 1 país visitado dentro de un viaje (igual criterio que
+nuestras "filas/tramos", no nuestros "Journey_ID"). 86.240 filas reales en total
+(base global). Filtrando a los 12 países de Sudamérica como país de origen:
+
+  Brasil 665 | Venezuela 532 | Colombia 510 | Chile 487 | Argentina 462 |
+  Bolivia 458 | Ecuador 449 | Paraguay 424 | Perú 358 | Guyana 344 |
+  Uruguay 323 | Suriname 150   (total 5.162 filas, 1986/1990-2025)
+
+Todos arrancan en 1990 salvo Brasil (potencia "prioritaria", desde 1945).
+
+COMPARACIÓN DIRECTA 2000-2025 (misma ventana, países que ya tenemos completos):
+  País       | Nosotros (filas) | Diplometrics (filas) | Ratio
+  Argentina  | 262              | 378                   | 0.69x
+  Brasil     | 351              | 520                   | 0.68x
+  Chile      | 319              | 383                   | 0.83x
+  Paraguay   | 177              | 325                   | 0.54x
+  Uruguay    | 174              | 274                   | 0.64x
+
+En los 5 países ellos tienen entre 20% y 85% más filas que nosotros en la misma
+ventana temporal. Esto no significa automáticamente que su cobertura sea "mejor":
+el chequeo cruzado del punto 5 (Milei 2024) muestra que la diferencia combina
+BRECHAS REALES nuestras con ruido/menor precisión de ellos.
+
+--------------------------------------------------------------------------------
+3. QUÉ TIENE DIPLOMETRICS QUE NOSOTROS NO
+--------------------------------------------------------------------------------
+- ESCALA GLOBAL: ~200 países/HOGS del mundo entero, no solo Sudamérica. Permite
+  comparaciones cruzadas EE.UU.-Sudamérica-Europa-Asia que nuestra base no puede
+  hacer (nuestro alcance es deliberadamente regional).
+- PROFUNDIDAD HISTÓRICA: arranca en 1990 (Brasil en 1945) contra nuestro 2000.
+- VARIABLES DE MICRO-CONDUCTA que nosotros no registramos como columnas propias:
+  si hubo agenda conjunta con otro Jefe de Estado subnacional (SubHOGS/CotravelHOGS),
+  si el mandatario dio un discurso público (PublicAddress), si se firmó un acuerdo
+  formal (SignedAgreement), si hubo acto cultural/ceremonial (CulturalSiteOrCeremony),
+  si hubo foro empresarial (BusinessLeaderOrForum), si se reunió con el líder de un
+  organismo internacional (MetIGOLeader/IGOLeaderName), y si el propio mandatario
+  viajaba en situación de exilio (Exiled). Nosotros capturamos buena parte de esto
+  en Trip_Objective/Methodological_Notes como texto libre, pero no como columnas
+  estructuradas y booleanas explotables estadísticamente.
+- Hasta 33 links de fuente por fila (vs. nuestro Source_Verification, que suele
+  llevar 1, salvo casos ambiguos con nota aclaratoria).
+- Fuente única y homogénea para el dataset original de EE.UU. (Department of State,
+  Office of the Historian) que da consistencia total en ese universo -algo que
+  nuestra base no tiene disponible para Sudamérica (no existe un archivo oficial
+  centralizado y homogéneo equivalente para los 5-9 países que cubrimos-.
+
+--------------------------------------------------------------------------------
+4. QUÉ HACEMOS NOSOTROS QUE ELLOS NO (nuestro valor diferencial)
+--------------------------------------------------------------------------------
+- CIUDAD DE DESTINO: nosotros la registramos en el 100% de las filas. Diplometrics
+  solo la completa en 3,4% de sus 5.162 filas sudamericanas (177 de 5.162). Es la
+  brecha más nítida y fácil de cuantificar entre ambas bases.
+- TAXONOMÍA DE 4 DIMENSIONES sobre cada visita, que ellos no tienen en ninguna
+  forma equivalente:
+    (a) Visit_Category (Bilateral/Multilateral/Other)
+    (b) Visit_Subtype (Visita de Estado/Trabajo/Cumbre Regional/Foro Global/
+        Asunción-Funeral/Tránsito-Médico)
+    (c) Tema_Foro -para foros multilaterales-: qué tema concreto motivó el viaje
+        (Comercio, Seguridad, Clima, DDHH, Salud, Energía, Cooperación Política
+        General, Otro). Diplometrics solo tiene "AttendedMultilatEvent: Sí/No" +
+        el nombre libre del evento, sin clasificación temática.
+    (d) Counterpart_Type -para bilaterales-: distingue explícitamente si la
+        contraparte fue un Jefe de Estado/Gobierno EN FUNCIONES, un ex-mandatario/
+        opositor (el caso Lula-Cristina Fernández de Kirchner que motivó esta
+        columna), un premio/distinción (el caso Milei-España), un movimiento
+        partidario/ideológico, u otro actor no estatal. Diplometrics no tiene
+        ninguna variable que capture esta "nueva diplomacia" -su MetHostHoGS
+        asume implícitamente que la contraparte es siempre un HOGS en funciones-.
+- CANCELACIONES COMO DATO DE PRIMERA CLASE: Trip_Status=Canceled, con motivo en
+  Trip_Objective. No existe ningún campo equivalente en las 76 columnas de
+  Diplometrics -no hay forma de saber, mirando su base, que Dilma canceló la
+  visita de Estado a Washington en 2013 por el espionaje de la NSA, o que Macri
+  canceló la gira a Francia-Bélgica de 2019 por la crisis cambiaria, o que Boric
+  canceló su asistencia a la COP28-. Nosotros tenemos ~40 cancelaciones
+  documentadas con motivo solo en los 5 países ya cargados.
+- DISCIPLINA ANTI-ALUCINACIÓN Y DETECCIÓN ACTIVA DE "VIAJES FANTASMA": nuestra
+  metodología distingue Verificada-URL / Solo-Query / No-verificable, y las 7
+  rondas de control de calidad de este proyecto encontraron y ELIMINARON viajes
+  que estaban "anunciados" en prensa pero nunca ocurrieron en los hechos -Lula en
+  Davos 2010, Lula en el G20 de Toronto 2010, la participación de Alberto
+  Fernández en la ONU 2021 (fue virtual, no física), Lacalle Pou en el Mercosur
+  virtual de 2021-. Diplometrics no documenta un proceso equivalente de
+  verificación por AUSENCIA en listados oficiales completos; dado que gran parte
+  de su cobertura sudamericana también proviene de prensa, es esperable que
+  contenga viajes fantasma del mismo tipo sin depurar (ver punto 5).
+- ACTUALIDAD: nuestra base se mantiene con corte móvil hasta el presente (julio
+  2026 en el momento de este análisis). La cobertura de Diplometrics para
+  Sudamérica se adelgaza visiblemente en 2024-2025 (ej. Perú cae de 7 a 2 filas
+  en 2024; Venezuela cae a 1-2 filas en 2024-2025), consistente con el rezago
+  natural de un proyecto académico de alcance global.
+- CAPA NARRATIVA/INTERPRETATIVA: el archivo hallazgos_analiticos.txt de este
+  proyecto traduce los datos en perfiles cualitativos por presidente, corrige
+  mitos públicos con evidencia (ej. Macri solo fue a Davos en 2016 y 2018, no
+  todos los años), y documenta "ausencias de valor analítico" (viajes a los que
+  un presidente decidió NO ir, como señal diplomática). Un dataset tabular puro
+  como Diplometrics no puede, por diseño, producir este tipo de lectura.
+
+--------------------------------------------------------------------------------
+5. CHEQUEO CRUZADO CONCRETO: MILEI 2024 (ejemplo ilustrativo del punto 2)
+--------------------------------------------------------------------------------
+Comparando fila por fila el 2024 de Milei entre ambas bases:
+- Coincidencias claras: Davos (ene), Israel/Vaticano (feb), EE.UU. x3, España
+  (mayo), Italia/G7 (jun), Brasil (jul y nov), Uruguay (dic).
+- Diplometrics registra 3 viajes que NUESTRA base no tiene y que son plausibles
+  y verificables por calendario público: El Salvador 31/5-1/6 (probable asunción
+  de Bukele, 1/6/2024), Suiza 15-16/6 (probable Cumbre de Paz de Ucrania en
+  Bürgenstock), y sobre todo un vacío de ~2,5 meses en nuestra base entre el
+  6/7/2024 y el 21/9/2024 donde ellos cargan EE.UU. (11-14/7), Francia (24-27/7)
+  y Chile (8/8) -tres viajes potencialmente reales que no tenemos cargados-.
+- A la inversa, Diplometrics tiene datos de menor precisión en esa misma ventana
+  (una fila "Argentina→Argentina" del 6-7/1/2024 que parece un error de carga, y
+  fechas de estadía más largas que las nuestras en varios casos EE.UU. sin mayor
+  detalle) y su confianza interna para esa sub-ventana es la mínima de su escala
+  (Confidence=1, ver punto 6) en varias de esas filas nuevas.
+NOTA METODOLÓGICA: este hallazgo es un SUBPRODUCTO de la comparación, no una
+verificación exhaustiva. Se recomienda una ronda de investigación dedicada para
+confirmar o descartar estos 3 viajes de Milei (jul-ago 2024) con fuente primaria
+antes de cargarlos -no se cargaron en esta sesión, queda pendiente de decisión
+del usuario-.
+
+--------------------------------------------------------------------------------
+6. SOBRE LA VARIABLE "CONFIDENCE(1-5)" DE DIPLOMETRICS
+--------------------------------------------------------------------------------
+No está documentada en los materiales disponibles (el Travel Codebook.docx no
+cubre este archivo). Se infirió su sentido por inspección: 1 parece indicar ALTA
+confianza (ej. filas con 3-4 fuentes y notas detalladas de la Cumbre del Mercosur
+de Buenos Aires 2023) y 5 BAJA confianza (ej. una fila sostenida solo en una
+imagen de Getty Images). Para Sudamérica, la distribución está fuertemente
+concentrada en el extremo de alta confianza: de 5.162 filas, 3.640 (70,5%) tienen
+Confidence=1 y solo 39 (0,8%) tienen Confidence=5. En criollo: pese a que su
+volumen de filas es mayor que el nuestro, la mayoría de esas filas están, según
+su propio criterio interno, bien sustentadas -no es una base "floja"-.
+
+--------------------------------------------------------------------------------
+7. QUÉ VALOR LE PODRÍAMOS AGREGAR A LA BASE DE DIPLOMETRICS (respuesta directa)
+--------------------------------------------------------------------------------
+1. CIUDAD DE DESTINO para Sudamérica: enriquecimiento directo y de bajo costo
+   -pasar de 3,4% a prácticamente 100% de cobertura de CityVisited cruzando
+   contra nuestra base por (país, fecha)-.
+2. CLASIFICACIÓN DE TIPO DE VISITA, TEMA DEL FORO Y NATURALEZA DE LA CONTRAPARTE:
+   serían columnas nuevas para ellos (no existen en su esquema), aportando una
+   capa analítica -distinguir cumbre de visita de Estado, saber de qué trató un
+   foro multilateral, identificar la "nueva diplomacia" hacia ex-mandatarios o
+   premios- que hoy no pueden extraer de su propia base sin recodificar desde
+   cero.
+3. UNA DIMENSIÓN DE CANCELACIONES para Sudamérica, inexistente en su esquema
+   actual: aportaríamos ~40 cancelaciones documentadas con motivo, dato que hoy
+   es un blind spot total de Diplometrics.
+4. UNA CAPA DE CONTROL DE CALIDAD por ausencia en fuente oficial exhaustiva:
+   nuestra metodología (cruzar contra listados oficiales completos de Cancillería
+   /Presidencia, no solo contra prensa evento por evento) es exactamente la
+   herramienta que permitiría a Diplometrics detectar y depurar sus propios
+   "viajes fantasma" sudamericanos -el mismo patrón que nosotros encontramos y
+   corregimos en Lula (Davos 2010, Toronto 2010) es estructuralmente el tipo de
+   error más probable en una base construida mayormente desde prensa-.
+5. ACTUALIZACIÓN 2024-2026: nuestra cobertura activa y de corte móvil podría
+   completar el adelgazamiento visible de su cobertura sudamericana más reciente.
+6. A la inversa (beneficio para NOSOTROS, no para ellos): usar Diplometrics como
+   fuente de contraste sistemático país por país -tal como se hizo aquí solo con
+   Milei 2024- es un método de auditoría externa barato para detectar brechas de
+   completitud propias en el resto de la base, ya cargada o por cargar (Bolivia
+   incluido). Se sugiere incorporarlo como un nuevo tipo de ronda de QA si el
+   usuario lo aprueba.
+
+--------------------------------------------------------------------------------
+8. LIMITACIONES DE ESTE ANÁLISIS
+--------------------------------------------------------------------------------
+- No se leyó el archivo Diplometrics fila por fila (86.240 filas totales); el
+  análisis se basó en agregados, muestras dirigidas (Milei 2024) y estadísticas
+  de completitud por columna.
+- El significado exacto de varias columnas (Confidence, PriorityLeader, Exiled,
+  SubHOGS*) se infirió por inspección, no por documentación oficial -no había
+  codebook específico para este archivo en la carpeta Bib-.
+- La comparación cuantitativa de filas (sección 2) usa 2000-2025 como ventana
+  común; no se filtró por Trip_Status en ninguna de las dos bases al calcularla
+  (incluye tanto Completed como, en nuestro caso, Canceled).
+================================================================================
+
+================================================================================
+CAMBIO DE ENFOQUE (2026-08-15): COLT PASA A SER LA BASE ESTRUCTURAL DEL PROYECTO
+================================================================================
+El usuario decidió, tras este análisis, adoptar el esquema de 76 columnas de
+COLT (archivo "Balci et al 2025 - COLT Codebook", contenido idéntico al
+Diplometrics analizado arriba, solo renombrado) como estructura PRIMARIA del
+proyecto para Sudamérica, en vez de mantener nuestro esquema propio de 31
+columnas como eje central. Decisiones confirmadas por el usuario:
+  1. Alcance geográfico: se mantiene Sudamérica (12 países), pero ahora
+     cubriendo TODOS los años que COLT reporta por país (1986/1987/1990 según
+     país, 1945 para Brasil como "potencia prioritaria"), no solo 2000-2026.
+  2. Esquema: la base de COLT (76 columnas, sin agregarle columnas nuevas) es
+     la estructura final. Nuestro trabajo YA HECHO (2000-2026, 5 países) se usa
+     para revisar si complementa, refuta o no aporta nada a lo que COLT ya
+     presenta -no para sumar columnas propias al archivo final-.
+  3. Entregable: pasa a ser un libro Excel (.xlsx), como el propio archivo de
+     COLT, con una hoja de datos y una hoja separada "Viajes Cancelados"
+     (COLT no registra cancelaciones).
+  4. Equivalente de nuestra columna Counterpart_Type dentro del esquema COLT
+     (confirmado por el usuario): la combinación MetHostHoGS="No" AND
+     SubHOGSmetHostSubHOGS="No" AND MetNonhostHOGS="No" identifica los casos
+     en que el mandatario NO se reunió con ningún Jefe de Estado/Gobierno
+     -ni el anfitrión, ni un sub-HOGS, ni uno de un tercer país- durante el
+     viaje: exactamente el universo que nosotros veníamos separando bajo
+     Counterpart_Type (premios, ex-mandatarios, actores no estatales, etc.).
+
+De ahora en más, este archivo registra SOLO lo que nosotros aportamos sobre
+los datos que COLT ya presenta (no una comparación simétrica completa como las
+secciones 1-8 de arriba, que quedan como registro histórico de la primera
+fase del proyecto).
+
+--------------------------------------------------------------------------------
+9. PRIMERA RONDA DE APORTES: CRUCE DE NUESTRA BASE 2000-2026 (5 PAÍSES) CONTRA
+   COLT SUDAMÉRICA COMPLETA
+--------------------------------------------------------------------------------
+Universo cruzado: nuestros 1.484 viajes físicos "Completed" (Argentina, Brasil,
+Chile, Paraguay, Uruguay, 2000-2026) contra las 2.361 filas que tiene COLT para
+esos mismos 5 países en TODOS sus años. Método de emparejamiento: mismo país
+origen/destino + solapamiento de fechas (tolerancia +/-3 días).
+
+RESULTADO DEL CRUCE:
+  - 1.257 de nuestros 1.484 viajes (84,7%) tienen una fila COLT equivalente.
+  - 227 viajes nuestros (15,3%) NO tienen ninguna fila equivalente en COLT:
+    son viajes que COLT no registra y que nosotros sí verificamos con fuente
+    propia. Listado completo en anexos_colt_sudamerica/reconciliacion_clasificacion.csv
+    (columna classification="Complementa (viaje ausente en COLT)").
+  - De los 1.257 emparejados, 1.194 nos permitieron completar al menos un dato
+    que COLT tenía vacío (mayormente CityVisited); 63 no aportaron nada porque
+    COLT ya tenía el dato equivalente completo ("No aporta").
+
+CAMPOS COMPLETADOS (aporte concreto sobre la base COLT, sección 4 del punto 7
+de arriba llevada a la práctica):
+  - CityVisited: 1.184 filas completadas. La cobertura de COLT en Sudamérica
+    sube de 176/5.162 (3,4%) a 1.360/5.162 (26,3%) solo con este cruce -el
+    resto de la brecha corresponde a países/años que todavía no investigamos
+    nosotros (ver limitaciones al final de esta sección)-.
+  - MetHostHoGS / MetNonhostHOGS: 0 campos completados. COLT ya tiene el 100%
+    de estas dos columnas pobladas en Sudamérica -no había nada que completar-,
+    a diferencia de CityVisited que es su punto débil real.
+
+DISCREPANCIAS DETECTADAS (posibles refutaciones, no corregidas automáticamente
+sobre la base COLT -se documentan, no se sobrescriben-):
+  - 701 de las 1.257 filas emparejadas (55,8%) tienen alguna discrepancia con
+    nuestra propia investigación. Detalle completo en
+    anexos_colt_sudamerica/discrepancias_fecha_y_variables.csv.
+  - La inmensa mayoría (692 filas) son solo diferencias de fecha de 1-3 días
+    (715 casos de 1 día, 133 de 2 días, 43 de 3 días sobre el total de
+    diferencias encontradas) -compatible con distintos criterios de qué fecha
+    cuenta como "inicio/fin del viaje" (día de partida vs. día de la actividad
+    oficial), no necesariamente un error de ninguna de las dos bases-.
+  - 9 filas tienen una discrepancia de variable booleana (MetHostHoGS o
+    MetNonhostHOGS con valor opuesto entre nuestra investigación y COLT).
+  - CASOS DESTACADOS PARA REVISIÓN MANUAL (diferencia de fecha >=6 días):
+    * Jair Bolsonaro, EE.UU., inicio 2022-12-30: nuestra base cierra el viaje
+      2023-01-01 (fin de su mandato); COLT extiende TripEndDate hasta
+      2023-03-30 -probablemente porque COLT no corta el viaje al final del
+      mandato y sigue su estadía real en Orlando, mientras que nuestra
+      metodología excluye por diseño todo lo posterior al fin de mandato-.
+    * Luiz Inácio Lula da Silva, EE.UU., nuestra fecha 2023-02-10: COLT tiene
+      TripStartDate=2022-12-30 y TripEndDate=2023-03-30 -las mismas fechas
+      "extendidas" que la fila de Bolsonaro de arriba-, lo que sugiere un
+      posible error de carga/confusión entre ambos mandatarios en la fuente
+      de COLT durante la transición presidencial brasileña. Pendiente de
+      verificación, no se modificó la base COLT.
+    * Santiago Peña, Reino Unido, jul-2025 (6/5 días); Jorge Batlle, España,
+      feb-2004 (6 días); José Mujica, España, may-2013 (6 días): diferencias
+      de rango de estadía a revisar con fuente primaria en una futura ronda.
+
+VIAJES CANCELADOS (hoja separada "Viajes Cancelados" del Excel final): 43
+cancelaciones ya documentadas por nosotros (Argentina 11, Brasil 5, Chile 13,
+Paraguay 5, Uruguay 9), 2000-2026. COLT no tiene ningún campo equivalente.
+
+LIMITACIONES DE ESTA PRIMERA RONDA:
+  - Solo se cruzó lo que YA teníamos investigado: Argentina/Brasil/Chile/
+    Paraguay/Uruguay, 2000-2026. Bolivia (módulo en curso), Colombia, Ecuador,
+    Guyana, Perú, Suriname y Venezuela, así como los años pre-2000 de los 5
+    países ya cargados, quedan con los datos de COLT sin cruzar ni verificar
+    -es exactamente el universo que cubrirá la próxima fase ("chequeo de
+    todos los links que plantea COLT para los países de América"), pendiente
+    de instrucción del usuario para arrancar-.
+  - Las "227 filas ausentes en COLT" y los "701 casos con discrepancia" se
+    documentan aquí como HALLAZGO, no se insertaron como filas nuevas ni se
+    sobrescribieron valores dentro de la hoja de datos COLT -por decisión
+    explícita de no alterar su base, solo completar celdas vacías-.
+================================================================================

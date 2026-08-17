@@ -1,0 +1,1713 @@
+{
+  "discrepancias": [
+    {
+      "our_Trip_ID": "84",
+      "colt_TripID": "1473-ARG-CHE-36553",
+      "our_start": "2000-01-27",
+      "our_end": "2000-01-30",
+      "colt_start": "2000-01-28",
+      "colt_end": "2000-02-02"
+    },
+    {
+      "our_Trip_ID": "85",
+      "colt_TripID": "1473-ARG-DEU-36681",
+      "our_start": "2000-06-02",
+      "our_end": "2000-06-03",
+      "colt_start": "2000-06-04",
+      "colt_end": "2000-06-05"
+    },
+    {
+      "our_Trip_ID": "88",
+      "colt_TripID": "1473-ARG-BRA-36770",
+      "our_start": "2000-08-31",
+      "our_end": "2000-09-01",
+      "colt_start": "2000-09-01",
+      "colt_end": "2000-09-02"
+    },
+    {
+      "our_Trip_ID": "89",
+      "colt_TripID": "1473-ARG-USA-36775",
+      "our_start": "2000-09-06",
+      "our_end": "2000-09-08",
+      "colt_start": "2000-09-06",
+      "colt_end": "2000-09-07"
+    },
+    {
+      "our_Trip_ID": "100",
+      "colt_TripID": "1473-ARG-CAN-37001",
+      "our_start": "2001-04-20",
+      "our_end": "2001-04-22",
+      "colt_start": "2001-04-20",
+      "colt_end": "2001-04-21"
+    },
+    {
+      "our_Trip_ID": "101",
+      "colt_TripID": "1473-ARG-PRY-37064",
+      "our_start": "2001-06-21",
+      "our_end": "2001-06-22",
+      "colt_start": "2001-06-22",
+      "colt_end": "2001-06-22"
+    },
+    {
+      "our_Trip_ID": "105",
+      "colt_TripID": "1473-ARG-USA-37205",
+      "our_start": "2001-11-09",
+      "our_end": "2001-11-11",
+      "colt_start": "2001-11-10",
+      "colt_end": "2001-11-13"
+    },
+    {
+      "our_Trip_ID": "106",
+      "colt_TripID": "1473-ARG-PER-37217",
+      "our_start": "2001-11-23",
+      "our_end": "2001-11-24",
+      "colt_start": "2001-11-22",
+      "colt_end": "2001-11-23"
+    },
+    {
+      "our_Trip_ID": "107",
+      "colt_TripID": "1689-ARG-MEX-37335",
+      "our_start": "2002-03-21",
+      "our_end": "2002-03-22",
+      "colt_start": "2002-03-20",
+      "colt_end": "2002-03-22"
+    },
+    {
+      "our_Trip_ID": "108",
+      "colt_TripID": "1689-ARG-CRI-37358",
+      "our_start": "2002-04-11",
+      "our_end": "2002-04-12",
+      "colt_start": "2002-04-12",
+      "colt_end": "2002-04-13"
+    },
+    {
+      "our_Trip_ID": "113",
+      "colt_TripID": "1689-ARG-BRA-37524",
+      "our_start": "2002-09-26",
+      "our_end": "2002-09-26",
+      "colt_start": "2002-09-25",
+      "colt_end": "2002-09-26"
+    },
+    {
+      "our_Trip_ID": "114",
+      "colt_TripID": "1689-ARG-CHL-37558",
+      "our_start": "2002-10-29",
+      "our_end": "2002-10-29",
+      "colt_start": "2002-10-29",
+      "colt_end": "2002-10-30"
+    },
+    {
+      "our_Trip_ID": "116",
+      "colt_TripID": "1689-ARG-BRA-37596",
+      "our_start": "2002-12-05",
+      "our_end": "2002-12-06",
+      "colt_start": "2002-12-06",
+      "colt_end": "2002-12-07"
+    },
+    {
+      "our_Trip_ID": "118",
+      "colt_TripID": "1689-ARG-BRA-37635",
+      "our_start": "2003-01-14",
+      "our_end": "2003-01-14",
+      "colt_start": "2003-01-14",
+      "colt_end": "2003-01-15"
+    },
+    {
+      "our_Trip_ID": "123",
+      "colt_TripID": "1689-ARG-CHL-37734",
+      "our_start": "2003-04-23",
+      "our_end": "2003-04-23",
+      "colt_start": "2003-04-23",
+      "colt_end": "2003-04-25"
+    },
+    {
+      "our_Trip_ID": "124",
+      "colt_TripID": "1826-ARG-BRA-37786",
+      "our_start": "2003-06-11",
+      "our_end": "2003-06-11",
+      "colt_start": "2003-06-14",
+      "colt_end": "2003-06-15"
+    },
+    {
+      "our_Trip_ID": "125",
+      "colt_TripID": "1826-ARG-PRY-37790",
+      "our_start": "2003-06-17",
+      "our_end": "2003-06-18",
+      "colt_start": "2003-06-18",
+      "colt_end": "2003-06-19"
+    },
+    {
+      "our_Trip_ID": "127",
+      "colt_TripID": "1826-ARG-GBR-37812",
+      "our_start": "2003-07-13",
+      "our_end": "2003-07-14",
+      "colt_start": "2003-07-10",
+      "colt_end": "2003-07-14"
+    },
+    {
+      "our_Trip_ID": "128",
+      "colt_TripID": "1826-ARG-USA-37824",
+      "our_start": "2003-07-23",
+      "our_end": "2003-07-23",
+      "colt_start": "2003-07-22",
+      "colt_end": "2003-07-23"
+    },
+    {
+      "our_Trip_ID": "129",
+      "colt_TripID": "1826-ARG-USA-37886",
+      "our_start": "2003-09-25",
+      "our_end": "2003-09-25",
+      "colt_start": "2003-09-22",
+      "colt_end": "2003-09-25"
+    },
+    {
+      "our_Trip_ID": "131",
+      "colt_TripID": "1826-ARG-MEX-37998",
+      "our_start": "2004-01-12",
+      "our_end": "2004-01-13",
+      "colt_start": "2004-01-12",
+      "colt_end": "2004-01-14"
+    },
+    {
+      "our_Trip_ID": "132",
+      "colt_TripID": "1826-ARG-ESP-38013",
+      "our_start": "2004-01-26",
+      "our_end": "2004-01-30",
+      "colt_start": "2004-01-27",
+      "colt_end": "2004-01-28"
+    },
+    {
+      "our_Trip_ID": "134",
+      "colt_TripID": "1826-ARG-BRA-38062",
+      "our_start": "2004-03-15",
+      "our_end": "2004-03-16",
+      "colt_start": "2004-03-16",
+      "colt_end": "2004-03-16"
+    },
+    {
+      "our_Trip_ID": "135",
+      "colt_TripID": "1826-ARG-USA-38111",
+      "our_start": "2004-05-04",
+      "our_end": "2004-05-06",
+      "colt_start": "2004-05-04",
+      "colt_end": "2004-05-05"
+    },
+    {
+      "our_Trip_ID": "136",
+      "colt_TripID": "1826-ARG-CHN-38166",
+      "our_start": "2004-06-28",
+      "our_end": "2004-07-03",
+      "colt_start": "2004-06-28",
+      "colt_end": "2004-07-02"
+    },
+    {
+      "our_Trip_ID": "140",
+      "colt_TripID": "1826-ARG-BOL-38274",
+      "our_start": "2004-10-14",
+      "our_end": "2004-10-14",
+      "colt_start": "2004-10-14",
+      "colt_end": "2004-10-15"
+    },
+    {
+      "our_Trip_ID": "142",
+      "colt_TripID": "1826-ARG-BRA-38338",
+      "our_start": "2004-12-16",
+      "our_end": "2004-12-17",
+      "colt_start": "2004-12-17",
+      "colt_end": "2004-12-18"
+    },
+    {
+      "our_Trip_ID": "144",
+      "colt_TripID": "1826-ARG-URY-38412",
+      "our_start": "2005-03-01",
+      "our_end": "2005-03-01",
+      "colt_start": "2005-03-01",
+      "colt_end": "2005-03-02"
+    },
+    {
+      "our_Trip_ID": "148",
+      "colt_TripID": "1826-ARG-BRA-38481",
+      "our_start": "2005-05-10",
+      "our_end": "2005-05-11",
+      "colt_start": "2005-05-09",
+      "colt_end": "2005-05-10"
+    },
+    {
+      "our_Trip_ID": "150",
+      "colt_TripID": "1826-ARG-USA-38608",
+      "our_start": "2005-09-14",
+      "our_end": "2005-09-15",
+      "colt_start": "2005-09-13",
+      "colt_end": "2005-09-16"
+    },
+    {
+      "our_Trip_ID": "151",
+      "colt_TripID": "1826-ARG-ESP-38638",
+      "our_start": "2005-10-14",
+      "our_end": "2005-10-15",
+      "colt_start": "2005-10-13",
+      "colt_end": "2005-10-15"
+    },
+    {
+      "our_Trip_ID": "152",
+      "colt_TripID": "1826-ARG-VEN-38677",
+      "our_start": "2005-11-21",
+      "our_end": "2005-11-21",
+      "colt_start": "2005-11-21",
+      "colt_end": "2005-11-22"
+    },
+    {
+      "our_Trip_ID": "165",
+      "colt_TripID": "1826-ARG-BRA-39101",
+      "our_start": "2007-01-18",
+      "our_end": "2007-01-19",
+      "colt_start": "2007-01-19",
+      "colt_end": "2007-01-20"
+    },
+    {
+      "our_Trip_ID": "168",
+      "colt_TripID": "1826-ARG-PRY-39260",
+      "our_start": "2007-06-28",
+      "our_end": "2007-06-29",
+      "colt_start": "2007-06-27",
+      "colt_end": "2007-06-28"
+    },
+    {
+      "our_Trip_ID": "170",
+      "colt_TripID": "1826-ARG-BOL-39302",
+      "our_start": "2007-08-10",
+      "our_end": "2007-08-10",
+      "colt_start": "2007-08-08",
+      "colt_end": "2007-08-10"
+    },
+    {
+      "our_Trip_ID": "171",
+      "colt_TripID": "1826-ARG-USA-39349",
+      "our_start": "2007-09-25",
+      "our_end": "2007-09-25",
+      "colt_start": "2007-09-24",
+      "colt_end": "2007-09-26"
+    },
+    {
+      "our_Trip_ID": "173",
+      "colt_TripID": "2320-ARG-URY-39433",
+      "our_start": "2007-12-18",
+      "our_end": "2007-12-18",
+      "colt_start": "2007-12-17",
+      "colt_end": "2007-12-18"
+    },
+    {
+      "our_Trip_ID": "177",
+      "colt_TripID": "2320-ARG-DOM-39514",
+      "our_start": "2008-03-07",
+      "our_end": "2008-03-07",
+      "colt_start": "2008-03-07",
+      "colt_end": "2008-03-09"
+    },
+    {
+      "our_Trip_ID": "179",
+      "colt_TripID": "2320-ARG-PER-39584",
+      "our_start": "2008-05-16",
+      "our_end": "2008-05-17",
+      "colt_start": "2008-05-16",
+      "colt_end": "2008-05-18"
+    },
+    {
+      "our_Trip_ID": "182",
+      "colt_TripID": "2320-ARG-ITA-39601",
+      "our_start": "2008-06-03",
+      "our_end": "2008-06-05",
+      "colt_start": "2008-06-02",
+      "colt_end": "2008-06-05"
+    },
+    {
+      "our_Trip_ID": "183",
+      "colt_TripID": "2320-ARG-PRY-39674",
+      "our_start": "2008-08-15",
+      "our_end": "2008-08-15",
+      "colt_start": "2008-08-14",
+      "colt_end": "2008-08-15"
+    },
+    {
+      "our_Trip_ID": "184",
+      "colt_TripID": "2320-ARG-BRA-39697",
+      "our_start": "2008-09-07",
+      "our_end": "2008-09-08",
+      "colt_start": "2008-09-06",
+      "colt_end": "2008-09-08"
+    },
+    {
+      "our_Trip_ID": "186",
+      "colt_TripID": "2320-ARG-USA-39714",
+      "our_start": "2008-09-23",
+      "our_end": "2008-09-23",
+      "colt_start": "2008-09-23",
+      "colt_end": "2008-09-25"
+    },
+    {
+      "our_Trip_ID": "190",
+      "colt_TripID": "2320-ARG-TUN-39769",
+      "our_start": "2008-11-18",
+      "our_end": "2008-11-19",
+      "colt_start": "2008-11-17",
+      "colt_end": "2008-11-19"
+    },
+    {
+      "our_Trip_ID": "191",
+      "colt_TripID": "2320-ARG-EGY-39771",
+      "our_start": "2008-11-20",
+      "our_end": "2008-11-21",
+      "colt_start": "2008-11-19",
+      "colt_end": "2008-11-20"
+    },
+    {
+      "our_Trip_ID": "192",
+      "colt_TripID": "2320-ARG-LBY-39772",
+      "our_start": "2008-11-21",
+      "our_end": "2008-11-22",
+      "colt_start": "2008-11-20",
+      "colt_end": "2008-11-22"
+    },
+    {
+      "our_Trip_ID": "198",
+      "colt_TripID": "2320-ARG-ESP-39853",
+      "our_start": "2009-02-07",
+      "our_end": "2009-02-10",
+      "colt_start": "2009-02-09",
+      "colt_end": "2009-02-11"
+    },
+    {
+      "our_Trip_ID": "199",
+      "colt_TripID": "2320-ARG-BRA-39892",
+      "our_start": "2009-03-19",
+      "our_end": "2009-03-20",
+      "colt_start": "2009-03-20",
+      "colt_end": "2009-03-20"
+    },
+    {
+      "our_Trip_ID": "202",
+      "colt_TripID": "2320-ARG-GBR-39904",
+      "our_start": "2009-04-01",
+      "our_end": "2009-04-02",
+      "colt_start": "2009-04-01",
+      "colt_end": "2009-04-03"
+    },
+    {
+      "our_Trip_ID": "204",
+      "colt_TripID": "2320-ARG-CHE-39979",
+      "our_start": "2009-06-14",
+      "our_end": "2009-06-14",
+      "colt_start": "2009-06-15",
+      "colt_end": "2009-06-16"
+    },
+    {
+      "our_Trip_ID": "205",
+      "colt_TripID": "2320-ARG-SLV-39999",
+      "our_start": "2009-07-05",
+      "our_end": "2009-07-06",
+      "colt_start": "2009-07-05",
+      "colt_end": "2009-07-05"
+    },
+    {
+      "our_Trip_ID": "206",
+      "colt_TripID": "2320-ARG-PRY-40017",
+      "our_start": "2009-07-23",
+      "our_end": "2009-07-24",
+      "colt_start": "2009-07-23",
+      "colt_end": "2009-07-25"
+    },
+    {
+      "our_Trip_ID": "208",
+      "colt_TripID": "2320-ARG-VEN-40036",
+      "our_start": "2009-08-11",
+      "our_end": "2009-08-11",
+      "colt_start": "2009-08-11",
+      "colt_end": "2009-08-12"
+    },
+    {
+      "our_Trip_ID": "209",
+      "colt_TripID": "2320-ARG-USA-40077",
+      "our_start": "2009-09-23",
+      "our_end": "2009-09-23",
+      "colt_start": "2009-09-21",
+      "colt_end": "2009-09-25"
+    },
+    {
+      "our_Trip_ID": "210",
+      "colt_TripID": "2320-ARG-USA-40077",
+      "our_start": "2009-09-24",
+      "our_end": "2009-09-25",
+      "colt_start": "2009-09-21",
+      "colt_end": "2009-09-25"
+    },
+    {
+      "our_Trip_ID": "212",
+      "colt_TripID": "2320-ARG-IND-40099",
+      "our_start": "2009-10-13",
+      "our_end": "2009-10-14",
+      "colt_start": "2009-10-13",
+      "colt_end": "2009-10-15"
+    },
+    {
+      "our_Trip_ID": "214",
+      "colt_TripID": "2320-ARG-VAT-40145",
+      "our_start": "2009-11-27",
+      "our_end": "2009-11-28",
+      "colt_start": "2009-11-28",
+      "colt_end": "2009-11-29"
+    },
+    {
+      "our_Trip_ID": "215",
+      "colt_TripID": "2320-ARG-PRT-40147",
+      "our_start": "2009-11-29",
+      "our_end": "2009-12-01",
+      "colt_start": "2009-11-30",
+      "colt_end": "2009-12-01"
+    },
+    {
+      "our_Trip_ID": "216",
+      "colt_TripID": "2320-ARG-URY-40156",
+      "our_start": "2009-12-08",
+      "our_end": "2009-12-08",
+      "colt_start": "2009-12-09",
+      "colt_end": "2009-12-10"
+    },
+    {
+      "our_Trip_ID": "219",
+      "colt_TripID": "2320-ARG-URY-40238",
+      "our_start": "2010-03-01",
+      "our_end": "2010-03-01",
+      "colt_start": "2010-03-01",
+      "colt_end": "2010-03-02"
+    },
+    {
+      "our_Trip_ID": "221",
+      "colt_TripID": "2320-ARG-PER-40259",
+      "our_start": "2010-03-21",
+      "our_end": "2010-03-23",
+      "colt_start": "2010-03-22",
+      "colt_end": "2010-03-23"
+    },
+    {
+      "our_Trip_ID": "222",
+      "colt_TripID": "2320-ARG-BOL-40263",
+      "our_start": "2010-03-26",
+      "our_end": "2010-03-26",
+      "colt_start": "2010-03-26",
+      "colt_end": "2010-03-27"
+    },
+    {
+      "our_Trip_ID": "223",
+      "colt_TripID": "2320-ARG-USA-40278",
+      "our_start": "2010-04-12",
+      "our_end": "2010-04-13",
+      "colt_start": "2010-04-10",
+      "colt_end": "2010-04-13"
+    },
+    {
+      "our_Trip_ID": "224",
+      "colt_TripID": "2320-ARG-VEN-40287",
+      "our_start": "2010-04-18",
+      "our_end": "2010-04-20",
+      "colt_start": "2010-04-19",
+      "colt_end": "2010-04-20"
+    },
+    {
+      "our_Trip_ID": "225",
+      "colt_TripID": "2320-ARG-ESP-40315",
+      "our_start": "2010-05-17",
+      "our_end": "2010-05-18",
+      "colt_start": "2010-05-17",
+      "colt_end": "2010-05-19"
+    },
+    {
+      "our_Trip_ID": "226",
+      "colt_TripID": "2320-ARG-BRA-40325",
+      "our_start": "2010-05-27",
+      "our_end": "2010-05-29",
+      "colt_start": "2010-05-27",
+      "colt_end": "2010-05-28"
+    },
+    {
+      "our_Trip_ID": "228",
+      "colt_TripID": "2320-ARG-CAN-40354",
+      "our_start": "2010-06-26",
+      "our_end": "2010-06-27",
+      "colt_start": "2010-06-25",
+      "colt_end": "2010-06-28"
+    },
+    {
+      "our_Trip_ID": "229",
+      "colt_TripID": "2320-ARG-CHN-40370",
+      "our_start": "2010-07-12",
+      "our_end": "2010-07-15",
+      "colt_start": "2010-07-11",
+      "colt_end": "2010-07-15"
+    },
+    {
+      "our_Trip_ID": "230",
+      "colt_TripID": "2320-ARG-USA-40443",
+      "our_start": "2010-09-24",
+      "our_end": "2010-09-24",
+      "colt_start": "2010-09-22",
+      "colt_end": "2010-09-24"
+    },
+    {
+      "our_Trip_ID": "234",
+      "colt_TripID": "2320-ARG-BRA-40529",
+      "our_start": "2010-12-17",
+      "our_end": "2010-12-17",
+      "colt_start": "2010-12-17",
+      "colt_end": "2010-12-18"
+    },
+    {
+      "our_Trip_ID": "236",
+      "colt_TripID": "2320-ARG-QAT-40562",
+      "our_start": "2011-01-18",
+      "our_end": "2011-01-19",
+      "colt_start": "2011-01-19",
+      "colt_end": "2011-01-20"
+    },
+    {
+      "our_Trip_ID": "241",
+      "colt_TripID": "2320-ARG-ITA-40695",
+      "our_start": "2011-05-31",
+      "our_end": "2011-06-02",
+      "colt_start": "2011-06-01",
+      "colt_end": "2011-06-03"
+    },
+    {
+      "our_Trip_ID": "245",
+      "colt_TripID": "2320-ARG-FRA-40799",
+      "our_start": "2011-09-12",
+      "our_end": "2011-09-14",
+      "colt_start": "2011-09-13",
+      "colt_end": "2011-09-14"
+    },
+    {
+      "our_Trip_ID": "246",
+      "colt_TripID": "2320-ARG-USA-40807",
+      "our_start": "2011-09-21",
+      "our_end": "2011-09-21",
+      "colt_start": "2011-09-21",
+      "colt_end": "2011-09-22"
+    },
+    {
+      "our_Trip_ID": "248",
+      "colt_TripID": "2320-ARG-VEN-40878",
+      "our_start": "2011-12-02",
+      "our_end": "2011-12-03",
+      "colt_start": "2011-12-01",
+      "colt_end": "2011-12-02"
+    },
+    {
+      "our_Trip_ID": "251",
+      "colt_TripID": "2320-ARG-AGO-41047",
+      "our_start": "2012-05-16",
+      "our_end": "2012-05-18",
+      "colt_start": "2012-05-18",
+      "colt_end": "2012-05-19"
+    },
+    {
+      "our_Trip_ID": "256",
+      "colt_TripID": "2320-ARG-USA-41176",
+      "our_start": "2012-09-24",
+      "our_end": "2012-09-25",
+      "colt_start": "2012-09-24",
+      "colt_end": "2012-09-26"
+    },
+    {
+      "our_Trip_ID": "257",
+      "colt_TripID": "2320-ARG-PER-41183",
+      "our_start": "2012-10-01",
+      "our_end": "2012-10-02",
+      "colt_start": "2012-10-01",
+      "colt_end": "2012-10-03"
+    },
+    {
+      "our_Trip_ID": "258",
+      "colt_TripID": "2320-ARG-BRA-41250",
+      "our_start": "2012-12-06",
+      "our_end": "2012-12-07",
+      "colt_start": "2012-12-07",
+      "colt_end": "2012-12-08"
+    },
+    {
+      "our_Trip_ID": "260",
+      "colt_TripID": "2320-ARG-ARE-41288",
+      "our_start": "2013-01-13",
+      "our_end": "2013-01-15",
+      "colt_start": "2013-01-14",
+      "colt_end": "2013-01-15"
+    },
+    {
+      "our_Trip_ID": "263",
+      "colt_TripID": "2320-ARG-CHL-41301",
+      "our_start": "2013-01-26",
+      "our_end": "2013-01-27",
+      "colt_start": "2013-01-27",
+      "colt_end": "2013-01-28"
+    },
+    {
+      "our_Trip_ID": "264",
+      "colt_TripID": "2320-ARG-VEN-41339",
+      "our_start": "2013-03-06",
+      "our_end": "2013-03-07",
+      "colt_start": "2013-03-06",
+      "colt_end": "2013-03-06"
+    },
+    {
+      "our_Trip_ID": "265",
+      "colt_TripID": "2320-ARG-VAT-41350",
+      "our_start": "2013-03-18",
+      "our_end": "2013-03-19",
+      "colt_start": "2013-03-17",
+      "colt_end": "2013-03-18"
+    },
+    {
+      "our_Trip_ID": "266",
+      "colt_TripID": "2320-ARG-PER-41382",
+      "our_start": "2013-04-18",
+      "our_end": "2013-04-18",
+      "colt_start": "2013-04-18",
+      "colt_end": "2013-04-19"
+    },
+    {
+      "our_Trip_ID": "268",
+      "colt_TripID": "2320-ARG-BOL-41459",
+      "our_start": "2013-07-04",
+      "our_end": "2013-07-04",
+      "colt_start": "2013-07-04",
+      "colt_end": "2013-07-05"
+    },
+    {
+      "our_Trip_ID": "269",
+      "colt_TripID": "2320-ARG-URY-41466",
+      "our_start": "2013-07-12",
+      "our_end": "2013-07-12",
+      "colt_start": "2013-07-11",
+      "colt_end": "2013-07-12"
+    },
+    {
+      "our_Trip_ID": "271",
+      "colt_TripID": "2320-ARG-BRA-41483",
+      "our_start": "2013-07-27",
+      "our_end": "2013-07-28",
+      "colt_start": "2013-07-28",
+      "colt_end": "2013-07-28"
+    },
+    {
+      "our_Trip_ID": "272",
+      "colt_TripID": "2320-ARG-USA-41492",
+      "our_start": "2013-08-05",
+      "our_end": "2013-08-06",
+      "colt_start": "2013-08-06",
+      "colt_end": "2013-08-07"
+    },
+    {
+      "our_Trip_ID": "273",
+      "colt_TripID": "2320-ARG-PRY-41500",
+      "our_start": "2013-08-15",
+      "our_end": "2013-08-15",
+      "colt_start": "2013-08-14",
+      "colt_end": "2013-08-15"
+    },
+    {
+      "our_Trip_ID": "275",
+      "colt_TripID": "2320-ARG-RUS-41521",
+      "our_start": "2013-09-05",
+      "our_end": "2013-09-06",
+      "colt_start": "2013-09-04",
+      "colt_end": "2013-09-06"
+    },
+    {
+      "our_Trip_ID": "276",
+      "colt_TripID": "2320-ARG-USA-41541",
+      "our_start": "2013-09-24",
+      "our_end": "2013-09-24",
+      "colt_start": "2013-09-24",
+      "colt_end": "2013-09-25"
+    },
+    {
+      "our_Trip_ID": "278",
+      "colt_TripID": "2320-ARG-CHL-41708",
+      "our_start": "2014-03-10",
+      "our_end": "2014-03-10",
+      "colt_start": "2014-03-10",
+      "colt_end": "2014-03-11"
+    },
+    {
+      "our_Trip_ID": "279",
+      "colt_TripID": "2320-ARG-VAT-41714",
+      "our_start": "2014-03-17",
+      "our_end": "2014-03-17",
+      "colt_start": "2014-03-16",
+      "colt_end": "2014-03-17"
+    },
+    {
+      "our_Trip_ID": "280",
+      "colt_TripID": "2320-ARG-FRA-41717",
+      "our_start": "2014-03-18",
+      "our_end": "2014-03-20",
+      "colt_start": "2014-03-19",
+      "colt_end": "2014-03-21"
+    },
+    {
+      "our_Trip_ID": "282",
+      "colt_TripID": "2320-ARG-BRA-41836",
+      "our_start": "2014-07-15",
+      "our_end": "2014-07-16",
+      "colt_start": "2014-07-16",
+      "colt_end": "2014-07-17"
+    },
+    {
+      "our_Trip_ID": "283",
+      "colt_TripID": "2320-ARG-VEN-41849",
+      "our_start": "2014-07-29",
+      "our_end": "2014-07-29",
+      "colt_start": "2014-07-29",
+      "colt_end": "2014-07-30"
+    },
+    {
+      "our_Trip_ID": "284",
+      "colt_TripID": "2320-ARG-PRY-41864",
+      "our_start": "2014-08-13",
+      "our_end": "2014-08-13",
+      "colt_start": "2014-08-13",
+      "colt_end": "2014-08-14"
+    },
+    {
+      "our_Trip_ID": "286",
+      "colt_TripID": "2320-ARG-USA-41905",
+      "our_start": "2014-09-24",
+      "our_end": "2014-09-25",
+      "colt_start": "2014-09-23",
+      "colt_end": "2014-09-25"
+    },
+    {
+      "our_Trip_ID": "288",
+      "colt_TripID": "2320-ARG-CHN-42038",
+      "our_start": "2015-02-02",
+      "our_end": "2015-02-05",
+      "colt_start": "2015-02-03",
+      "colt_end": "2015-02-06"
+    },
+    {
+      "our_Trip_ID": "290",
+      "colt_TripID": "2320-ARG-RUS-42114",
+      "our_start": "2015-04-22",
+      "our_end": "2015-04-23",
+      "colt_start": "2015-04-20",
+      "colt_end": "2015-04-24"
+    },
+    {
+      "our_Trip_ID": "292",
+      "colt_TripID": "2320-ARG-ITA-42162",
+      "our_start": "2015-06-08",
+      "our_end": "2015-06-09",
+      "colt_start": "2015-06-07",
+      "colt_end": "2015-06-08"
+    },
+    {
+      "our_Trip_ID": "293",
+      "colt_TripID": "2320-ARG-PRY-42197",
+      "our_start": "2015-07-12",
+      "our_end": "2015-07-12",
+      "colt_start": "2015-07-12",
+      "colt_end": "2015-07-13"
+    },
+    {
+      "our_Trip_ID": "294",
+      "colt_TripID": "2320-ARG-BRA-42202",
+      "our_start": "2015-07-16",
+      "our_end": "2015-07-17",
+      "colt_start": "2015-07-17",
+      "colt_end": "2015-07-17"
+    },
+    {
+      "our_Trip_ID": "295",
+      "colt_TripID": "2320-ARG-CUB-42267",
+      "our_start": "2015-09-19",
+      "our_end": "2015-09-20",
+      "colt_start": "2015-09-20",
+      "colt_end": "2015-09-21"
+    },
+    {
+      "our_Trip_ID": "296",
+      "colt_TripID": "2320-ARG-USA-42275",
+      "our_start": "2015-09-27",
+      "our_end": "2015-09-28",
+      "colt_start": "2015-09-28",
+      "colt_end": "2015-09-29"
+    },
+    {
+      "our_Trip_ID": "300",
+      "colt_TripID": "3169-ARG-VAT-42428",
+      "our_start": "2016-02-27",
+      "our_end": "2016-02-27",
+      "colt_start": "2016-02-28",
+      "colt_end": "2016-02-29"
+    },
+    {
+      "our_Trip_ID": "301",
+      "colt_TripID": "3169-ARG-ITA-42427",
+      "our_start": "2016-02-27",
+      "our_end": "2016-02-27",
+      "colt_start": "2016-02-27",
+      "colt_end": "2016-02-28"
+    },
+    {
+      "our_Trip_ID": "303",
+      "colt_TripID": "3169-ARG-COL-42535",
+      "our_start": "2016-06-15",
+      "our_end": "2016-06-16",
+      "colt_start": "2016-06-14",
+      "colt_end": "2016-06-16"
+    },
+    {
+      "our_Trip_ID": "304",
+      "colt_TripID": "3169-ARG-COL-42535",
+      "our_start": "2016-06-17",
+      "our_end": "2016-06-17",
+      "colt_start": "2016-06-14",
+      "colt_end": "2016-06-16"
+    },
+    {
+      "our_Trip_ID": "311",
+      "colt_TripID": "3169-ARG-BRA-42586",
+      "our_start": "2016-08-05",
+      "our_end": "2016-08-05",
+      "colt_start": "2016-08-04",
+      "colt_end": "2016-08-06"
+    },
+    {
+      "our_Trip_ID": "312",
+      "colt_TripID": "3169-ARG-QAT-42616",
+      "our_start": "2016-09-01",
+      "our_end": "2016-09-01",
+      "colt_start": "2016-09-03",
+      "colt_end": "2016-09-03"
+    },
+    {
+      "our_Trip_ID": "315",
+      "colt_TripID": "3169-ARG-COL-42640",
+      "our_start": "2016-09-26",
+      "our_end": "2016-09-26",
+      "colt_start": "2016-09-27",
+      "colt_end": "2016-09-27"
+    },
+    {
+      "our_Trip_ID": "316",
+      "colt_TripID": "3169-ARG-VAT-42658",
+      "our_start": "2016-10-15",
+      "our_end": "2016-10-15",
+      "colt_start": "2016-10-15",
+      "colt_end": "2016-10-16"
+    },
+    {
+      "our_Trip_ID": "317",
+      "colt_TripID": "3169-ARG-BRA-42773",
+      "our_start": "2017-02-07",
+      "our_end": "2017-02-07",
+      "colt_start": "2017-02-07",
+      "colt_end": "2017-02-08"
+    },
+    {
+      "our_Trip_ID": "318",
+      "colt_TripID": "3169-ARG-ESP-42790",
+      "our_start": "2017-02-20",
+      "our_end": "2017-02-25",
+      "colt_start": "2017-02-24",
+      "colt_end": "2017-02-25"
+    },
+    {
+      "our_Trip_ID": "319",
+      "colt_TripID": "3169-ARG-PRY-42810",
+      "our_start": "2017-03-16",
+      "our_end": "2017-03-16",
+      "colt_start": "2017-03-16",
+      "colt_end": "2017-03-17"
+    },
+    {
+      "our_Trip_ID": "320",
+      "colt_TripID": "3169-ARG-NLD-42822",
+      "our_start": "2017-03-27",
+      "our_end": "2017-03-28",
+      "colt_start": "2017-03-28",
+      "colt_end": "2017-03-29"
+    },
+    {
+      "our_Trip_ID": "324",
+      "colt_TripID": "3169-ARG-JPN-42874",
+      "our_start": "2017-05-18",
+      "our_end": "2017-05-19",
+      "colt_start": "2017-05-19",
+      "colt_end": "2017-05-21"
+    },
+    {
+      "our_Trip_ID": "330",
+      "colt_TripID": "3169-ARG-CHE-43125",
+      "our_start": "2018-01-24",
+      "our_end": "2018-01-25",
+      "colt_start": "2018-01-25",
+      "colt_end": "2018-01-26"
+    },
+    {
+      "our_Trip_ID": "334",
+      "colt_TripID": "3169-ARG-CAN-43259",
+      "our_start": "2018-06-08",
+      "our_end": "2018-06-10",
+      "colt_start": "2018-06-08",
+      "colt_end": "2018-06-09"
+    },
+    {
+      "our_Trip_ID": "338",
+      "colt_TripID": "3169-ARG-USA-43367",
+      "our_start": "2018-09-24",
+      "our_end": "2018-09-25",
+      "colt_start": "2018-09-24",
+      "colt_end": "2018-09-26"
+    },
+    {
+      "our_Trip_ID": "348",
+      "colt_TripID": "3169-ARG-IDN-43641",
+      "our_start": "2019-06-26",
+      "our_end": "2019-06-26",
+      "colt_start": "2019-06-25",
+      "colt_end": "2019-06-26"
+    },
+    {
+      "our_Trip_ID": "349",
+      "colt_TripID": "3169-ARG-JPN-43642",
+      "our_start": "2019-06-27",
+      "our_end": "2019-06-29",
+      "colt_start": "2019-06-26",
+      "colt_end": "2019-06-29"
+    },
+    {
+      "our_Trip_ID": "350",
+      "colt_TripID": "3169-ARG-CHE-43645",
+      "our_start": "2019-06-30",
+      "our_end": "2019-06-30",
+      "colt_start": "2019-06-29",
+      "colt_end": "2019-06-30"
+    },
+    {
+      "our_Trip_ID": "354",
+      "colt_TripID": "3169-ARG-CHE-43802",
+      "our_start": "2019-12-03",
+      "our_end": "2019-12-03",
+      "colt_start": "2019-12-03",
+      "colt_end": "2019-12-04"
+    },
+    {
+      "our_Trip_ID": "355",
+      "colt_TripID": "3169-ARG-BRA-43803",
+      "our_start": "2019-12-05",
+      "our_end": "2019-12-05",
+      "colt_start": "2019-12-04",
+      "colt_end": "2019-12-05"
+    },
+    {
+      "our_Trip_ID": "356",
+      "colt_TripID": "3670-ARG-ISR-43852",
+      "our_start": "2020-01-22",
+      "our_end": "2020-01-23",
+      "colt_start": "2020-01-22",
+      "colt_end": "2020-01-25"
+    },
+    {
+      "our_Trip_ID": "358",
+      "colt_TripID": "3670-ARG-ITA-43861",
+      "our_start": "2020-01-31",
+      "our_end": "2020-01-31",
+      "colt_start": "2020-01-31",
+      "colt_end": "2020-02-01"
+    },
+    {
+      "our_Trip_ID": "359",
+      "colt_TripID": "3670-ARG-DEU-43863",
+      "our_start": "2020-02-03",
+      "our_end": "2020-02-03",
+      "colt_start": "2020-02-02",
+      "colt_end": "2020-02-03"
+    },
+    {
+      "our_Trip_ID": "360",
+      "colt_TripID": "3670-ARG-ESP-43864",
+      "our_start": "2020-02-04",
+      "our_end": "2020-02-04",
+      "colt_start": "2020-02-03",
+      "colt_end": "2020-02-04"
+    },
+    {
+      "our_Trip_ID": "364",
+      "colt_TripID": "3670-ARG-CHL-44222",
+      "our_start": "2021-01-26",
+      "our_end": "2021-01-27",
+      "colt_start": "2021-01-26",
+      "colt_end": "2021-01-28"
+    },
+    {
+      "our_Trip_ID": "366",
+      "colt_TripID": "3670-ARG-PRT-44325",
+      "our_start": "2021-05-09",
+      "our_end": "2021-05-10",
+      "colt_start": "2021-05-09",
+      "colt_end": "2021-05-09"
+    },
+    {
+      "our_Trip_ID": "367",
+      "colt_TripID": "3670-ARG-ESP-44325",
+      "our_start": "2021-05-10",
+      "our_end": "2021-05-11",
+      "colt_start": "2021-05-09",
+      "colt_end": "2021-05-11"
+    },
+    {
+      "our_Trip_ID": "368",
+      "colt_TripID": "3670-ARG-FRA-44327",
+      "our_start": "2021-05-11",
+      "our_end": "2021-05-12",
+      "colt_start": "2021-05-11",
+      "colt_end": "2021-05-13"
+    },
+    {
+      "our_Trip_ID": "369",
+      "colt_TripID": "3670-ARG-ITA-44329",
+      "our_start": "2021-05-13",
+      "our_end": "2021-05-14",
+      "colt_start": "2021-05-13",
+      "colt_end": "2021-05-15"
+    },
+    {
+      "our_Trip_ID": "372",
+      "colt_TripID": "3670-ARG-GBR-44501",
+      "our_start": "2021-10-31",
+      "our_end": "2021-11-02",
+      "colt_start": "2021-11-01",
+      "colt_end": "2021-11-04"
+    },
+    {
+      "our_Trip_ID": "373",
+      "colt_TripID": "3670-ARG-RUS-44595",
+      "our_start": "2022-02-03",
+      "our_end": "2022-02-03",
+      "colt_start": "2022-02-03",
+      "colt_end": "2022-02-04"
+    },
+    {
+      "our_Trip_ID": "374",
+      "colt_TripID": "3670-ARG-CHN-44596",
+      "our_start": "2022-02-04",
+      "our_end": "2022-02-06",
+      "colt_start": "2022-02-04",
+      "colt_end": "2022-02-07"
+    },
+    {
+      "our_Trip_ID": "375",
+      "colt_TripID": "3670-ARG-BRB-44599",
+      "our_start": "2022-02-08",
+      "our_end": "2022-02-08",
+      "colt_start": "2022-02-07",
+      "colt_end": "2022-02-09"
+    },
+    {
+      "our_Trip_ID": "379",
+      "colt_TripID": "3670-ARG-ESP-44690",
+      "our_start": "2022-05-10",
+      "our_end": "2022-05-10",
+      "colt_start": "2022-05-09",
+      "colt_end": "2022-05-11"
+    },
+    {
+      "our_Trip_ID": "380",
+      "colt_TripID": "3670-ARG-DEU-44692",
+      "our_start": "2022-05-11",
+      "our_end": "2022-05-11",
+      "colt_start": "2022-05-11",
+      "colt_end": "2022-05-13"
+    },
+    {
+      "our_Trip_ID": "381",
+      "colt_TripID": "3670-ARG-FRA-44694",
+      "our_start": "2022-05-12",
+      "our_end": "2022-05-13",
+      "colt_start": "2022-05-13",
+      "colt_end": "2022-05-14"
+    },
+    {
+      "our_Trip_ID": "384",
+      "colt_TripID": "3670-ARG-DEU-44738",
+      "our_start": "2022-06-26",
+      "our_end": "2022-06-28",
+      "colt_start": "2022-06-26",
+      "colt_end": "2022-06-29"
+    },
+    {
+      "our_Trip_ID": "386",
+      "colt_TripID": "3670-ARG-COL-44779",
+      "our_start": "2022-08-07",
+      "our_end": "2022-08-07",
+      "colt_start": "2022-08-06",
+      "colt_end": "2022-08-08"
+    },
+    {
+      "our_Trip_ID": "387",
+      "colt_TripID": "3670-ARG-USA-44821",
+      "our_start": "2022-09-19",
+      "our_end": "2022-09-21",
+      "colt_start": "2022-09-17",
+      "colt_end": "2022-09-25"
+    },
+    {
+      "our_Trip_ID": "390",
+      "colt_TripID": "3670-ARG-IDN-44878",
+      "our_start": "2022-11-15",
+      "our_end": "2022-11-16",
+      "colt_start": "2022-11-13",
+      "colt_end": "2022-11-16"
+    },
+    {
+      "our_Trip_ID": "394",
+      "colt_TripID": "3670-ARG-DOM-45009",
+      "our_start": "2023-03-24",
+      "our_end": "2023-03-25",
+      "colt_start": "2023-03-24",
+      "colt_end": "2023-03-26"
+    },
+    {
+      "our_Trip_ID": "405",
+      "colt_TripID": "3670-ARG-USA-45185",
+      "our_start": "2023-09-18",
+      "our_end": "2023-09-20",
+      "colt_start": "2023-09-16",
+      "colt_end": "2023-09-20"
+    },
+    {
+      "our_Trip_ID": "409",
+      "colt_TripID": "4053-ARG-CHE-45307",
+      "our_start": "2024-01-16",
+      "our_end": "2024-01-17",
+      "colt_start": "2024-01-16",
+      "colt_end": "2024-01-16"
+    },
+    {
+      "our_Trip_ID": "410",
+      "colt_TripID": "4053-ARG-ISR-45328",
+      "our_start": "2024-02-06",
+      "our_end": "2024-02-08",
+      "colt_start": "2024-02-06",
+      "colt_end": "2024-02-09"
+    },
+    {
+      "our_Trip_ID": "412",
+      "colt_TripID": "4053-ARG-ITA-45334",
+      "our_start": "2024-02-12",
+      "our_end": "2024-02-12",
+      "colt_start": "2024-02-12",
+      "colt_end": "2024-02-13"
+    },
+    {
+      "our_Trip_ID": "414",
+      "colt_TripID": "4053-ARG-USA-45391",
+      "our_start": "2024-04-12",
+      "our_end": "2024-04-12",
+      "colt_start": "2024-04-09",
+      "colt_end": "2024-04-12"
+    },
+    {
+      "our_Trip_ID": "416",
+      "colt_TripID": "4053-ARG-ESP-45428",
+      "our_start": "2024-05-17",
+      "our_end": "2024-05-19",
+      "colt_start": "2024-05-16",
+      "colt_end": "2024-05-20"
+    },
+    {
+      "our_Trip_ID": "417",
+      "colt_TripID": "4053-ARG-USA-45439",
+      "our_start": "2024-05-28",
+      "our_end": "2024-05-30",
+      "colt_start": "2024-05-27",
+      "colt_end": "2024-05-31"
+    },
+    {
+      "our_Trip_ID": "419",
+      "colt_TripID": "4053-ARG-ITA-45455",
+      "our_start": "2024-06-13",
+      "our_end": "2024-06-15",
+      "colt_start": "2024-06-12",
+      "colt_end": "2024-06-14"
+    },
+    {
+      "our_Trip_ID": "420",
+      "colt_TripID": "4053-ARG-CHE-45458",
+      "our_start": "2024-06-15",
+      "our_end": "2024-06-15",
+      "colt_start": "2024-06-15",
+      "colt_end": "2024-06-16"
+    },
+    {
+      "our_Trip_ID": "422",
+      "colt_TripID": "4053-ARG-ESP-45463",
+      "our_start": "2024-06-21",
+      "our_end": "2024-06-21",
+      "colt_start": "2024-06-20",
+      "colt_end": "2024-06-21"
+    },
+    {
+      "our_Trip_ID": "423",
+      "colt_TripID": "4053-ARG-DEU-45465",
+      "our_start": "2024-06-22",
+      "our_end": "2024-06-23",
+      "colt_start": "2024-06-22",
+      "colt_end": "2024-06-24"
+    },
+    {
+      "our_Trip_ID": "425",
+      "colt_TripID": "4053-ARG-USA-45484",
+      "our_start": "2024-07-12",
+      "our_end": "2024-07-14",
+      "colt_start": "2024-07-11",
+      "colt_end": "2024-07-14"
+    },
+    {
+      "our_Trip_ID": "426",
+      "colt_TripID": "4053-ARG-FRA-45497",
+      "our_start": "2024-07-25",
+      "our_end": "2024-07-27",
+      "colt_start": "2024-07-24",
+      "colt_end": "2024-07-27"
+    },
+    {
+      "our_Trip_ID": "428",
+      "colt_TripID": "4053-ARG-USA-45556",
+      "our_start": "2024-09-21",
+      "our_end": "2024-09-24",
+      "colt_start": "2024-09-21",
+      "colt_end": "2024-09-25"
+    },
+    {
+      "our_Trip_ID": "429",
+      "colt_TripID": "4053-ARG-USA-45610",
+      "our_start": "2024-11-14",
+      "our_end": "2024-11-15",
+      "colt_start": "2024-11-14",
+      "colt_end": "2024-11-16"
+    },
+    {
+      "our_Trip_ID": "432",
+      "colt_TripID": "4053-ARG-ITA-45638",
+      "our_start": "2024-12-12",
+      "our_end": "2024-12-14",
+      "colt_start": "2024-12-12",
+      "colt_end": "2024-12-16"
+    },
+    {
+      "our_Trip_ID": "433",
+      "colt_TripID": "4053-ARG-USA-45674",
+      "our_start": "2025-01-20",
+      "our_end": "2025-01-21",
+      "colt_start": "2025-01-17",
+      "colt_end": "2025-01-21"
+    },
+    {
+      "our_Trip_ID": "434",
+      "colt_TripID": "4053-ARG-CHE-45678",
+      "our_start": "2025-01-22",
+      "our_end": "2025-01-23",
+      "colt_start": "2025-01-21",
+      "colt_end": "2025-01-24"
+    },
+    {
+      "our_Trip_ID": "436",
+      "colt_TripID": "4053-ARG-USA-45749",
+      "our_start": "2025-04-03",
+      "our_end": "2025-04-03",
+      "colt_start": "2025-04-02",
+      "colt_end": "2025-04-03"
+    },
+    {
+      "our_Trip_ID": "438",
+      "colt_TripID": "4053-ARG-VAT-45773",
+      "our_start": "2025-04-25",
+      "our_end": "2025-04-26",
+      "colt_start": "2025-04-26",
+      "colt_end": "2025-04-26"
+    },
+    {
+      "our_Trip_ID": "439",
+      "colt_TripID": "4053-ARG-ITA-45772",
+      "our_start": "2025-04-26",
+      "our_end": "2025-04-26",
+      "colt_start": "2025-04-25",
+      "colt_end": "2025-04-27"
+    },
+    {
+      "our_Trip_ID": "442",
+      "colt_TripID": "4053-ARG-ESP-45816",
+      "our_start": "2025-06-07",
+      "our_end": "2025-06-08",
+      "colt_start": "2025-06-08",
+      "colt_end": "2025-06-08"
+    },
+    {
+      "our_Trip_ID": "443",
+      "colt_TripID": "4053-ARG-ISR-45817",
+      "our_start": "2025-06-09",
+      "our_end": "2025-06-12",
+      "colt_start": "2025-06-09",
+      "colt_end": "2025-06-11"
+    },
+    {
+      "our_Trip_ID": "446",
+      "colt_TripID": "4053-ARG-USA-45903",
+      "our_start": "2025-09-03",
+      "our_end": "2025-09-05",
+      "colt_start": "2025-09-03",
+      "colt_end": "2025-09-06"
+    },
+    {
+      "our_Trip_ID": "448",
+      "colt_TripID": "4053-ARG-USA-45922",
+      "our_start": "2025-09-23",
+      "our_end": "2025-09-24",
+      "colt_start": "2025-09-22",
+      "colt_end": "2025-09-26"
+    },
+    {
+      "our_Trip_ID": "449",
+      "colt_TripID": "4053-ARG-USA-45943",
+      "our_start": "2025-10-14",
+      "our_end": "2025-10-14",
+      "colt_start": "2025-10-13",
+      "colt_end": "2025-10-14"
+    },
+    {
+      "our_Trip_ID": "450",
+      "colt_TripID": "4053-ARG-USA-45967",
+      "our_start": "2025-11-05",
+      "our_end": "2025-11-07",
+      "colt_start": "2025-11-06",
+      "colt_end": "2025-11-07"
+    },
+    {
+      "our_Trip_ID": "452",
+      "colt_TripID": "4053-ARG-NOR-46000",
+      "our_start": "2025-12-09",
+      "our_end": "2025-12-11",
+      "colt_start": "2025-12-09",
+      "colt_end": "2025-12-10"
+    }
+  ],
+  "colt_unico": [
+    {
+      "TripID": "334-ARG-FRA-35885",
+      "CountryVisited": "France",
+      "CityVisited": null,
+      "Start": "1998-03-31",
+      "End": "1998-04-01",
+      "LeaderSurname": "Menem"
+    },
+    {
+      "TripID": "334-ARG-XKX-36483",
+      "CountryVisited": "Kosovo",
+      "CityVisited": null,
+      "Start": "1999-11-19",
+      "End": "1999-11-20",
+      "LeaderSurname": "Menem"
+    },
+    {
+      "TripID": "1473-ARG-CHL-36595",
+      "CountryVisited": "Chile",
+      "CityVisited": null,
+      "Start": "2000-03-10",
+      "End": "2000-03-12",
+      "LeaderSurname": "de la Rua"
+    },
+    {
+      "TripID": "1473-ARG-CHL-36597",
+      "CountryVisited": "Chile",
+      "CityVisited": null,
+      "Start": "2000-03-12",
+      "End": "2000-03-14",
+      "LeaderSurname": "de la Rua"
+    },
+    {
+      "TripID": "1473-ARG-PRY-36661",
+      "CountryVisited": "Paraguay",
+      "CityVisited": null,
+      "Start": "2000-05-15",
+      "End": "2000-05-16",
+      "LeaderSurname": "de la Rua"
+    },
+    {
+      "TripID": "1473-ARG-URY-36719",
+      "CountryVisited": "Uruguay",
+      "CityVisited": null,
+      "Start": "2000-07-12",
+      "End": "2000-07-12",
+      "LeaderSurname": "de la Rua"
+    },
+    {
+      "TripID": "1473-ARG-MEX-36773",
+      "CountryVisited": "Mexico",
+      "CityVisited": null,
+      "Start": "2000-09-04",
+      "End": "2000-09-05",
+      "LeaderSurname": "de la Rua"
+    },
+    {
+      "TripID": "1473-ARG-CAN-36777",
+      "CountryVisited": "Canada",
+      "CityVisited": null,
+      "Start": "2000-09-08",
+      "End": "2000-09-09",
+      "LeaderSurname": "de la Rua"
+    },
+    {
+      "TripID": "1473-ARG-CHL-36816",
+      "CountryVisited": "Chile",
+      "CityVisited": null,
+      "Start": "2000-10-17",
+      "End": "2000-10-18",
+      "LeaderSurname": "de la Rua"
+    },
+    {
+      "TripID": "1473-ARG-CHL-36969",
+      "CountryVisited": "Chile",
+      "CityVisited": null,
+      "Start": "2001-03-19",
+      "End": "2001-03-20",
+      "LeaderSurname": "de la Rua"
+    },
+    {
+      "TripID": "1473-ARG-BRA-37104",
+      "CountryVisited": "Brazil",
+      "CityVisited": null,
+      "Start": "2001-08-01",
+      "End": "2001-08-01",
+      "LeaderSurname": "de la Rua"
+    },
+    {
+      "TripID": "1473-ARG-BRA-37172",
+      "CountryVisited": "Brazil",
+      "CityVisited": null,
+      "Start": "2001-10-08",
+      "End": "2001-10-09",
+      "LeaderSurname": "de la Rua"
+    },
+    {
+      "TripID": "1473-ARG-PRT-37210",
+      "CountryVisited": "Portugal",
+      "CityVisited": null,
+      "Start": "2001-11-15",
+      "End": "2001-11-17",
+      "LeaderSurname": "de la Rua"
+    },
+    {
+      "TripID": "1689-ARG-MAR-37712",
+      "CountryVisited": "Morocco",
+      "CityVisited": null,
+      "Start": "2003-04-01",
+      "End": "2003-04-02",
+      "LeaderSurname": "Duhalde"
+    },
+    {
+      "TripID": "1689-ARG-URY-37755",
+      "CountryVisited": "Uruguay",
+      "CityVisited": null,
+      "Start": "2003-05-14",
+      "End": "2003-05-15",
+      "LeaderSurname": "Duhalde"
+    },
+    {
+      "TripID": "1826-ARG-VEN-37807",
+      "CountryVisited": "Venezuela",
+      "CityVisited": null,
+      "Start": "2003-07-05",
+      "End": "2003-07-07",
+      "LeaderSurname": "Kirchner"
+    },
+    {
+      "TripID": "1826-ARG-BEL-37817",
+      "CountryVisited": "Belgium",
+      "CityVisited": null,
+      "Start": "2003-07-15",
+      "End": "2003-07-15",
+      "LeaderSurname": "Kirchner"
+    },
+    {
+      "TripID": "1826-ARG-FRA-37817",
+      "CountryVisited": "France",
+      "CityVisited": null,
+      "Start": "2003-07-15",
+      "End": "2003-07-16",
+      "LeaderSurname": "Kirchner"
+    },
+    {
+      "TripID": "1826-ARG-ESP-37818",
+      "CountryVisited": "Spain",
+      "CityVisited": null,
+      "Start": "2003-07-16",
+      "End": "2003-07-17",
+      "LeaderSurname": "Kirchner"
+    },
+    {
+      "TripID": "1826-ARG-URY-37969",
+      "CountryVisited": "Uruguay",
+      "CityVisited": null,
+      "Start": "2003-12-14",
+      "End": "2003-12-17",
+      "LeaderSurname": "Kirchner"
+    },
+    {
+      "TripID": "1826-ARG-CHL-38058",
+      "CountryVisited": "Chile",
+      "CityVisited": null,
+      "Start": "2004-03-12",
+      "End": "2004-03-13",
+      "LeaderSurname": "Kirchner"
+    },
+    {
+      "TripID": "1826-ARG-URY-38444",
+      "CountryVisited": "Uruguay",
+      "CityVisited": null,
+      "Start": "2005-04-02",
+      "End": "2005-04-02",
+      "LeaderSurname": "Kirchner"
+    },
+    {
+      "TripID": "1826-ARG-CHL-38513",
+      "CountryVisited": "Chile",
+      "CityVisited": null,
+      "Start": "2005-06-10",
+      "End": "2005-06-11",
+      "LeaderSurname": "Kirchner"
+    },
+    {
+      "TripID": "1826-ARG-BRA-38624",
+      "CountryVisited": "Brazil",
+      "CityVisited": null,
+      "Start": "2005-09-29",
+      "End": "2005-09-30",
+      "LeaderSurname": "Kirchner"
+    },
+    {
+      "TripID": "1826-ARG-URY-38812",
+      "CountryVisited": "Uruguay",
+      "CityVisited": null,
+      "Start": "2006-04-05",
+      "End": "2006-04-05",
+      "LeaderSurname": "Kirchner"
+    },
+    {
+      "TripID": "2320-ARG-ECU-39558",
+      "CountryVisited": "Ecuador",
+      "CityVisited": null,
+      "Start": "2008-04-20",
+      "End": "2008-04-21",
+      "LeaderSurname": "Fernandez de Kirchner"
+    },
+    {
+      "TripID": "2320-ARG-VEN-39923",
+      "CountryVisited": "Venezuela",
+      "CityVisited": null,
+      "Start": "2009-04-20",
+      "End": "2009-04-20",
+      "LeaderSurname": "Fernandez de Kirchner"
+    },
+    {
+      "TripID": "2320-ARG-BRA-40133",
+      "CountryVisited": "Brazil",
+      "CityVisited": null,
+      "Start": "2009-11-16",
+      "End": "2009-11-17",
+      "LeaderSurname": "Fernandez de Kirchner"
+    },
+    {
+      "TripID": "2320-ARG-CAN-40355",
+      "CountryVisited": "Canada",
+      "CityVisited": null,
+      "Start": "2010-06-26",
+      "End": "2010-06-27",
+      "LeaderSurname": "Fernandez de Kirchner"
+    },
+    {
+      "TripID": "3169-ARG-USA-43000",
+      "CountryVisited": "United States",
+      "CityVisited": null,
+      "Start": "2017-09-22",
+      "End": "2017-09-25",
+      "LeaderSurname": "Macri"
+    },
+    {
+      "TripID": "3670-ARG-BOL-44144",
+      "CountryVisited": "Bolivia",
+      "CityVisited": null,
+      "Start": "2020-11-09",
+      "End": "2020-11-09",
+      "LeaderSurname": "Fernandez"
+    },
+    {
+      "TripID": "3670-ARG-VAT-44329",
+      "CountryVisited": "Holy See",
+      "CityVisited": null,
+      "Start": "2021-05-13",
+      "End": "2021-05-13",
+      "LeaderSurname": "Fernandez"
+    },
+    {
+      "TripID": "3670-ARG-ITA-44499",
+      "CountryVisited": "Italy",
+      "CityVisited": null,
+      "Start": "2021-10-30",
+      "End": "2021-11-01",
+      "LeaderSurname": "Fernandez"
+    },
+    {
+      "TripID": "3670-ARG-ARG-44979",
+      "CountryVisited": "Argentina",
+      "CityVisited": null,
+      "Start": "2023-02-22",
+      "End": "2023-02-22",
+      "LeaderSurname": "Fernandez"
+    },
+    {
+      "TripID": "4053-ARG-ARG-45297",
+      "CountryVisited": "Argentina",
+      "CityVisited": null,
+      "Start": "2024-01-06",
+      "End": "2024-01-07",
+      "LeaderSurname": "Milei"
+    }
+  ],
+  "nuestro_unico_ids": [
+    "83",
+    "96",
+    "103",
+    "115",
+    "119",
+    "126",
+    "174",
+    "181",
+    "259",
+    "281",
+    "325",
+    "337",
+    "339",
+    "393",
+    "413",
+    "454",
+    "455",
+    "456",
+    "457",
+    "458",
+    "459",
+    "460",
+    "461",
+    "462",
+    "463"
+  ]
+}

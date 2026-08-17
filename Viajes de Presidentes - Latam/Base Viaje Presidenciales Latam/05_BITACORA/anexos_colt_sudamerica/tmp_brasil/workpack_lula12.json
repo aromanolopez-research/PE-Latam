@@ -1,0 +1,2365 @@
+{
+ "discrepancias": [
+  {
+   "colt_TripID": "1780-BRA-MEX-37998",
+   "our_Trip_ID": "48",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Mexico",
+   "our_Start_Date": "2004-01-11",
+   "our_End_Date": "2004-01-14",
+   "colt_Start": "2004-01-12",
+   "colt_End": "2004-01-13",
+   "discrepancias": "TripStartDate: nuestro=2004-01-11 COLT=2004-01-12 (dif 1d) | TripEndDate: nuestro=2004-01-14 COLT=2004-01-13 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-IND-38011",
+   "our_Trip_ID": "49",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "India",
+   "our_Start_Date": "2004-01-24",
+   "our_End_Date": "2004-01-28",
+   "colt_Start": "2004-01-25",
+   "colt_End": "2004-01-28",
+   "discrepancias": "TripStartDate: nuestro=2004-01-24 COLT=2004-01-25 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-CHE-38014",
+   "our_Trip_ID": "50",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Switzerland",
+   "our_Start_Date": "2004-01-29",
+   "our_End_Date": "2004-01-30",
+   "colt_Start": "2004-01-28",
+   "colt_End": "2004-01-30",
+   "discrepancias": "TripStartDate: nuestro=2004-01-29 COLT=2004-01-28 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-VEN-38043",
+   "our_Trip_ID": "51",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Venezuela",
+   "our_Start_Date": "2004-02-26",
+   "our_End_Date": "2004-02-28",
+   "colt_Start": "2004-02-26",
+   "colt_End": "2004-02-27",
+   "discrepancias": "TripEndDate: nuestro=2004-02-28 COLT=2004-02-27 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-CHN-38129",
+   "our_Trip_ID": "52",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "China",
+   "our_Start_Date": "2004-05-21",
+   "our_End_Date": "2004-05-27",
+   "colt_Start": "2004-05-22",
+   "colt_End": "2004-05-25",
+   "discrepancias": "TripStartDate: nuestro=2004-05-21 COLT=2004-05-22 (dif 1d) | TripEndDate: nuestro=2004-05-27 COLT=2004-05-25 (dif 2d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-MEX-38134",
+   "our_Trip_ID": "53",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Mexico",
+   "our_Start_Date": "2004-05-28",
+   "our_End_Date": "2004-05-29",
+   "colt_Start": "2004-05-27",
+   "colt_End": "2004-05-28",
+   "discrepancias": "TripStartDate: nuestro=2004-05-28 COLT=2004-05-27 (dif 1d) | TripEndDate: nuestro=2004-05-29 COLT=2004-05-28 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-GAB-38195",
+   "our_Trip_ID": "56",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Gabon",
+   "our_Start_Date": "2004-07-27",
+   "our_End_Date": "2004-07-27",
+   "colt_Start": "2004-07-27",
+   "colt_End": "2004-07-28",
+   "discrepancias": "TripEndDate: nuestro=2004-07-27 COLT=2004-07-28 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-PER-38329",
+   "our_Trip_ID": "60",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Peru",
+   "our_Start_Date": "2004-12-07",
+   "our_End_Date": "2004-12-09",
+   "colt_Start": "2004-12-08",
+   "colt_End": "2004-12-08",
+   "discrepancias": "TripStartDate: nuestro=2004-12-07 COLT=2004-12-08 (dif 1d) | TripEndDate: nuestro=2004-12-09 COLT=2004-12-08 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-URY-38412",
+   "our_Trip_ID": "61",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Uruguay",
+   "our_Start_Date": "2005-03-01",
+   "our_End_Date": "2005-03-01",
+   "colt_Start": "2005-03-01",
+   "colt_End": "2005-03-02",
+   "discrepancias": "TripEndDate: nuestro=2005-03-01 COLT=2005-03-02 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-KOR-38495",
+   "our_Trip_ID": "62",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "South Korea",
+   "our_Start_Date": "2005-05-24",
+   "our_End_Date": "2005-05-26",
+   "colt_Start": "2005-05-23",
+   "colt_End": "2005-05-25",
+   "discrepancias": "TripStartDate: nuestro=2005-05-24 COLT=2005-05-23 (dif 1d) | TripEndDate: nuestro=2005-05-26 COLT=2005-05-25 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N96_1Sem_2005.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-PRT-38637",
+   "our_Trip_ID": "63",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Portugal",
+   "our_Start_Date": "2005-10-13",
+   "our_End_Date": "2005-10-13",
+   "colt_Start": "2005-10-12",
+   "colt_End": "2005-10-13",
+   "discrepancias": "TripStartDate: nuestro=2005-10-13 COLT=2005-10-12 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N97_2Sem_2005.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ESP-38638",
+   "our_Trip_ID": "64",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2005-10-14",
+   "our_End_Date": "2005-10-15",
+   "colt_Start": "2005-10-13",
+   "colt_End": "2005-10-15",
+   "discrepancias": "TripStartDate: nuestro=2005-10-14 COLT=2005-10-13 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ITA-38640",
+   "our_Trip_ID": "65",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Italy",
+   "our_Start_Date": "2005-10-16",
+   "our_End_Date": "2005-10-17",
+   "colt_Start": "2005-10-15",
+   "colt_End": "2005-10-17",
+   "discrepancias": "TripStartDate: nuestro=2005-10-16 COLT=2005-10-15 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N97_2Sem_2005.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-COL-38699",
+   "our_Trip_ID": "70",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Colombia",
+   "our_Start_Date": "2005-12-13",
+   "our_End_Date": "2005-12-15",
+   "colt_Start": "2005-12-13",
+   "colt_End": "2005-12-14",
+   "discrepancias": "TripEndDate: nuestro=2005-12-15 COLT=2005-12-14 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-RUS-38913",
+   "our_Trip_ID": "73",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Russia",
+   "our_Start_Date": "2006-07-17",
+   "our_End_Date": "2006-07-17",
+   "colt_Start": "2006-07-15",
+   "colt_End": "2006-07-17",
+   "discrepancias": "TripStartDate: nuestro=2006-07-17 COLT=2006-07-15 (dif 2d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2006pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-NGA-39049",
+   "our_Trip_ID": "76",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Nigeria",
+   "our_Start_Date": "2006-11-30",
+   "our_End_Date": "2006-11-30",
+   "colt_Start": "2006-11-28",
+   "colt_End": "2006-11-30",
+   "discrepancias": "TripStartDate: nuestro=2006-11-30 COLT=2006-11-28 (dif 2d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2006pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-39171",
+   "our_Trip_ID": "79",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2007-03-31",
+   "our_End_Date": "2007-03-31",
+   "colt_Start": "2007-03-30",
+   "colt_End": "2007-03-31",
+   "discrepancias": "TripStartDate: nuestro=2007-03-31 COLT=2007-03-30 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-DEU-39238",
+   "our_Trip_ID": "81",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Germany",
+   "our_Start_Date": "2007-06-07",
+   "our_End_Date": "2007-06-08",
+   "colt_Start": "2007-06-05",
+   "colt_End": "2007-06-08",
+   "discrepancias": "TripStartDate: nuestro=2007-06-07 COLT=2007-06-05 (dif 2d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-PRT-39267",
+   "our_Trip_ID": "82",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Portugal",
+   "our_Start_Date": "2007-07-04",
+   "our_End_Date": "2007-07-04",
+   "colt_Start": "2007-07-04",
+   "colt_End": "2007-07-05",
+   "discrepancias": "TripEndDate: nuestro=2007-07-04 COLT=2007-07-05 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-SWE-39336",
+   "our_Trip_ID": "83",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Sweden",
+   "our_Start_Date": "2007-09-11",
+   "our_End_Date": "2007-09-11",
+   "colt_Start": "2007-09-11",
+   "colt_End": "2007-09-12",
+   "discrepancias": "TripEndDate: nuestro=2007-09-11 COLT=2007-09-12 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N101_2Sem_2007.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-DNK-39337",
+   "our_Trip_ID": "84",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Denmark",
+   "our_Start_Date": "2007-09-12",
+   "our_End_Date": "2007-09-12",
+   "colt_Start": "2007-09-12",
+   "colt_End": "2007-09-13",
+   "discrepancias": "TripEndDate: nuestro=2007-09-12 COLT=2007-09-13 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-NOR-39338",
+   "our_Trip_ID": "85",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Norway",
+   "our_Start_Date": "2007-09-13",
+   "our_End_Date": "2007-09-13",
+   "colt_Start": "2007-09-13",
+   "colt_End": "2007-09-14",
+   "discrepancias": "TripEndDate: nuestro=2007-09-13 COLT=2007-09-14 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-39349",
+   "our_Trip_ID": "86",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2007-09-25",
+   "our_End_Date": "2007-09-25",
+   "colt_Start": "2007-09-24",
+   "colt_End": "2007-09-25",
+   "discrepancias": "TripStartDate: nuestro=2007-09-25 COLT=2007-09-24 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-COG-39370",
+   "our_Trip_ID": "88",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Congo-Brazzaville",
+   "our_Start_Date": "2007-10-16",
+   "our_End_Date": "2007-10-16",
+   "colt_Start": "2007-10-15",
+   "colt_End": "2007-10-16",
+   "discrepancias": "TripStartDate: nuestro=2007-10-16 COLT=2007-10-15 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N101_2Sem_2007.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-AGO-39372",
+   "our_Trip_ID": "90",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Angola",
+   "our_Start_Date": "2007-10-18",
+   "our_End_Date": "2007-10-18",
+   "colt_Start": "2007-10-17",
+   "colt_End": "2007-10-18",
+   "discrepancias": "TripStartDate: nuestro=2007-10-18 COLT=2007-10-17 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-JPN-39636",
+   "our_Trip_ID": "92",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Japan",
+   "our_Start_Date": "2008-07-08",
+   "our_End_Date": "2008-07-09",
+   "colt_Start": "2008-07-07",
+   "colt_End": "2008-07-09",
+   "discrepancias": "TripStartDate: nuestro=2008-07-08 COLT=2008-07-07 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-VNM-39639",
+   "our_Trip_ID": "93",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Vietnam",
+   "our_Start_Date": "2008-07-09",
+   "our_End_Date": "2008-07-10",
+   "colt_Start": "2008-07-10",
+   "colt_End": "2008-07-10",
+   "discrepancias": "TripStartDate: nuestro=2008-07-09 COLT=2008-07-10 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-IDN-39641",
+   "our_Trip_ID": "95",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Indonesia",
+   "our_Start_Date": "2008-07-11",
+   "our_End_Date": "2008-07-12",
+   "colt_Start": "2008-07-12",
+   "colt_End": "2008-07-12",
+   "discrepancias": "TripStartDate: nuestro=2008-07-11 COLT=2008-07-12 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_numero_103_2_2008.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-BOL-39647",
+   "our_Trip_ID": "96",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Bolivia",
+   "our_Start_Date": "2008-07-18",
+   "our_End_Date": "2008-07-18",
+   "colt_Start": "2008-07-18",
+   "colt_End": "2008-07-19",
+   "discrepancias": "TripEndDate: nuestro=2008-07-18 COLT=2008-07-19 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-PRT-39653",
+   "our_Trip_ID": "98",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Portugal",
+   "our_Start_Date": "2008-07-24",
+   "our_End_Date": "2008-07-25",
+   "colt_Start": "2008-07-24",
+   "colt_End": "2008-07-26",
+   "discrepancias": "TripEndDate: nuestro=2008-07-25 COLT=2008-07-26 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-CHN-39666",
+   "our_Trip_ID": "100",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "China",
+   "our_Start_Date": "2008-08-05",
+   "our_End_Date": "2008-08-08",
+   "colt_Start": "2008-08-06",
+   "colt_End": "2008-08-09",
+   "discrepancias": "TripStartDate: nuestro=2008-08-05 COLT=2008-08-06 (dif 1d) | TripEndDate: nuestro=2008-08-08 COLT=2008-08-09 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-39712",
+   "our_Trip_ID": "103",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2008-09-21",
+   "our_End_Date": "2008-09-25",
+   "colt_Start": "2008-09-21",
+   "colt_End": "2008-09-24",
+   "discrepancias": "TripEndDate: nuestro=2008-09-25 COLT=2008-09-24 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ESP-39733",
+   "our_Trip_ID": "104",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2008-10-12",
+   "our_End_Date": "2008-10-14",
+   "colt_Start": "2008-10-12",
+   "colt_End": "2008-10-13",
+   "discrepancias": "TripEndDate: nuestro=2008-10-14 COLT=2008-10-13 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-SLV-39750",
+   "our_Trip_ID": "107",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "El Salvador",
+   "our_Start_Date": "2008-10-29",
+   "our_End_Date": "2008-10-31",
+   "colt_Start": "2008-10-29",
+   "colt_End": "2008-10-30",
+   "discrepancias": "TripEndDate: nuestro=2008-10-31 COLT=2008-10-30 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-39765",
+   "our_Trip_ID": "108",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2008-11-14",
+   "our_End_Date": "2008-11-15",
+   "colt_Start": "2008-11-13",
+   "colt_End": "2008-11-14",
+   "discrepancias": "TripStartDate: nuestro=2008-11-14 COLT=2008-11-13 (dif 1d) | TripEndDate: nuestro=2008-11-15 COLT=2008-11-14 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-39885",
+   "our_Trip_ID": "109",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2009-03-14",
+   "our_End_Date": "2009-03-14",
+   "colt_Start": "2009-03-13",
+   "colt_End": "2009-03-16",
+   "discrepancias": "TripStartDate: nuestro=2009-03-14 COLT=2009-03-13 (dif 1d) | TripEndDate: nuestro=2009-03-14 COLT=2009-03-16 (dif 2d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-QAT-39901",
+   "our_Trip_ID": "110",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Qatar",
+   "our_Start_Date": "2009-03-30",
+   "our_End_Date": "2009-03-31",
+   "colt_Start": "2009-03-29",
+   "colt_End": "2009-03-31",
+   "discrepancias": "TripStartDate: nuestro=2009-03-30 COLT=2009-03-29 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_numero_104_1_2009.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-GBR-39904",
+   "our_Trip_ID": "111",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United Kingdom",
+   "our_Start_Date": "2009-04-01",
+   "our_End_Date": "2009-04-02",
+   "colt_Start": "2009-04-01",
+   "colt_End": "2009-04-03",
+   "discrepancias": "TripEndDate: nuestro=2009-04-02 COLT=2009-04-03 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-TUR-39953",
+   "our_Trip_ID": "115",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Turkiye",
+   "our_Start_Date": "2009-05-21",
+   "our_End_Date": "2009-05-22",
+   "colt_Start": "2009-05-20",
+   "colt_End": "2009-05-21",
+   "discrepancias": "TripStartDate: nuestro=2009-05-21 COLT=2009-05-20 (dif 1d) | TripEndDate: nuestro=2009-05-22 COLT=2009-05-21 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_numero_104_1_2009.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-CHE-39977",
+   "our_Trip_ID": "116",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Switzerland",
+   "our_Start_Date": "2009-06-15",
+   "our_End_Date": "2009-06-15",
+   "colt_Start": "2009-06-13",
+   "colt_End": "2009-06-15",
+   "discrepancias": "TripStartDate: nuestro=2009-06-15 COLT=2009-06-13 (dif 2d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_numero_104_1_2009.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ITA-40001",
+   "our_Trip_ID": "118",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Italy",
+   "our_Start_Date": "2009-07-08",
+   "our_End_Date": "2009-07-10",
+   "colt_Start": "2009-07-07",
+   "colt_End": "2009-07-10",
+   "discrepancias": "TripStartDate: nuestro=2009-07-08 COLT=2009-07-07 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-40077",
+   "our_Trip_ID": "119",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2009-09-23",
+   "our_End_Date": "2009-09-23",
+   "colt_Start": "2009-09-21",
+   "colt_End": "2009-09-25",
+   "discrepancias": "TripStartDate: nuestro=2009-09-23 COLT=2009-09-21 (dif 2d) | TripEndDate: nuestro=2009-09-23 COLT=2009-09-25 (dif 2d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-VEN-40081",
+   "our_Trip_ID": "120",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Venezuela",
+   "our_Start_Date": "2009-09-26",
+   "our_End_Date": "2009-09-27",
+   "colt_Start": "2009-09-25",
+   "colt_End": "2009-09-27",
+   "discrepancias": "TripStartDate: nuestro=2009-09-26 COLT=2009-09-25 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-DNK-40085",
+   "our_Trip_ID": "121",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Denmark",
+   "our_Start_Date": "2009-10-01",
+   "our_End_Date": "2009-10-02",
+   "colt_Start": "2009-09-29",
+   "colt_End": "2009-10-03",
+   "discrepancias": "TripStartDate: nuestro=2009-10-01 COLT=2009-09-29 (dif 2d) | TripEndDate: nuestro=2009-10-02 COLT=2009-10-03 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/resenha105_2_2009.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-DNK-40162",
+   "our_Trip_ID": "122",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Denmark",
+   "our_Start_Date": "2009-12-17",
+   "our_End_Date": "2009-12-18",
+   "colt_Start": "2009-12-15",
+   "colt_End": "2009-12-18",
+   "discrepancias": "TripStartDate: nuestro=2009-12-17 COLT=2009-12-15 (dif 2d)",
+   "colt_links": [
+    "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/openurl?ctx_ver=z39.88-2004&rft_id=info%3Asid/infoweb.newsbank.com&svc_dat=WORLDNEWS&req_dat=756A2F2418E841258B15CB5C2C5A3A92&rft_val_format=info%3Aofi/fmt%3Akev%3Amtx%3Actx&rft_dat=document_id%3Anews%252F12CA859406DD4748",
+    "https://www.gettyimages.com/detail/news-photo/luiz-inacio-lula-da-silva-brazils-president-addresses-the-news-photo/94683065?phrase=Luiz%20Inacio%20Lula%20da%20Silva&adppopup=true",
+    "https://www.gettyimages.com/detail/news-photo/british-prime-minister-gordon-brown-meets-with-brazilian-news-photo/94528661?phrase=Luiz%20Inacio%20Lula%20da%20Silva&adppopup=true",
+    "https://www.gettyimages.com/detail/news-photo/salam-fayyad-prime-minister-of-the-palestinian-authority-news-photo/94528820?phrase=Luiz%20Inacio%20Lula%20da%20Silva&adppopup=true",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/89ba1574-1663-40ef-a494-9f1b91a36faa/?context=1516831",
+    "https://infoweb-newsbank-com.du.idm.oclc.org/apps/news/openurl?ctx_ver=z39.88-2004&rft_id=info%3Asid/infoweb.newsbank.com&svc_dat=WORLDNEWS&req_dat=756A2F2418E841258B15CB5C2C5A3A92&rft_val_format=info%3Aofi/fmt%3Akev%3Amtx%3Actx&rft_dat=document_id%3Anews%252F12CB29841AA4E858",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=edaa62b1-6509-4816-8bf4-1941fb97c58b&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A7XBH-H5F1-2PP8-S3N3-00000-00&pdcontentcomponentid=10903&pdteaserkey=sr2&pditab=allpods&ecomp=tmnyk&earg=sr2&prid=1ae3db67-4053-4fca-8d05-e09b8705508b"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-MEX-40230",
+   "our_Trip_ID": "124",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Mexico",
+   "our_Start_Date": "2010-02-22",
+   "our_End_Date": "2010-02-23",
+   "colt_Start": "2010-02-21",
+   "colt_End": "2010-02-23",
+   "discrepancias": "TripStartDate: nuestro=2010-02-22 COLT=2010-02-21 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ISR-40251",
+   "our_Trip_ID": "126",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Israel",
+   "our_Start_Date": "2010-03-15",
+   "our_End_Date": "2010-03-16",
+   "colt_Start": "2010-03-14",
+   "colt_End": "2010-03-16",
+   "discrepancias": "TripStartDate: nuestro=2010-03-15 COLT=2010-03-14 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-PSE-40253",
+   "our_Trip_ID": "127",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Palestine",
+   "our_Start_Date": "2010-03-17",
+   "our_End_Date": "2010-03-17",
+   "colt_Start": "2010-03-16",
+   "colt_End": "2010-03-17",
+   "discrepancias": "TripStartDate: nuestro=2010-03-17 COLT=2010-03-16 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-40279",
+   "our_Trip_ID": "129",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2010-04-12",
+   "our_End_Date": "2010-04-13",
+   "colt_Start": "2010-04-11",
+   "colt_End": "2010-04-13",
+   "discrepancias": "TripStartDate: nuestro=2010-04-12 COLT=2010-04-11 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-IRN-40313",
+   "our_Trip_ID": "131",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Iran",
+   "our_Start_Date": "2010-05-16",
+   "our_End_Date": "2010-05-17",
+   "colt_Start": "2010-05-15",
+   "colt_End": "2010-05-17",
+   "discrepancias": "TripStartDate: nuestro=2010-05-16 COLT=2010-05-15 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ESP-40315",
+   "our_Trip_ID": "132",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Spain",
+   "our_Start_Date": "2010-05-18",
+   "our_End_Date": "2010-05-18",
+   "colt_Start": "2010-05-17",
+   "colt_End": "2010-05-19",
+   "discrepancias": "TripStartDate: nuestro=2010-05-18 COLT=2010-05-17 (dif 1d) | TripEndDate: nuestro=2010-05-18 COLT=2010-05-19 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-CPV-40361",
+   "our_Trip_ID": "135",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Cabo Verde",
+   "our_Start_Date": "2010-07-02",
+   "our_End_Date": "2010-07-04",
+   "colt_Start": "2010-07-02",
+   "colt_End": "2010-07-03",
+   "discrepancias": "TripEndDate: nuestro=2010-07-04 COLT=2010-07-03 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-KEN-40364",
+   "our_Trip_ID": "137",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Kenya",
+   "our_Start_Date": "2010-07-06",
+   "our_End_Date": "2010-07-06",
+   "colt_Start": "2010-07-05",
+   "colt_End": "2010-07-06",
+   "discrepancias": "TripStartDate: nuestro=2010-07-06 COLT=2010-07-05 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/resenha107_2_2010.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ZAF-40367",
+   "our_Trip_ID": "140",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "South Africa",
+   "our_Start_Date": "2010-07-09",
+   "our_End_Date": "2010-07-10",
+   "colt_Start": "2010-07-08",
+   "colt_End": "2010-07-09",
+   "discrepancias": "TripStartDate: nuestro=2010-07-09 COLT=2010-07-08 (dif 1d) | TripEndDate: nuestro=2010-07-10 COLT=2010-07-09 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/resenha107_2_2010.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-MOZ-40490",
+   "our_Trip_ID": "141",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Mozambique",
+   "our_Start_Date": "2010-11-09",
+   "our_End_Date": "2010-11-10",
+   "colt_Start": "2010-11-08",
+   "colt_End": "2010-11-10",
+   "discrepancias": "TripStartDate: nuestro=2010-11-09 COLT=2010-11-08 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-40077",
+   "our_Trip_ID": "286",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2009-09-24",
+   "our_End_Date": "2009-09-25",
+   "colt_Start": "2009-09-21",
+   "colt_End": "2009-09-25",
+   "discrepancias": "TripStartDate: nuestro=2009-09-24 COLT=2009-09-21 (dif 3d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-PRY-39261",
+   "our_Trip_ID": "290",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Paraguay",
+   "our_Start_Date": "2007-06-27",
+   "our_End_Date": "2007-06-27",
+   "colt_Start": "2007-06-28",
+   "colt_End": "2007-06-29",
+   "discrepancias": "TripStartDate: nuestro=2007-06-27 COLT=2007-06-28 (dif 1d) | TripEndDate: nuestro=2007-06-27 COLT=2007-06-29 (dif 2d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-MEX-39299",
+   "our_Trip_ID": "291",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Mexico",
+   "our_Start_Date": "2007-08-06",
+   "our_End_Date": "2007-08-06",
+   "colt_Start": "2007-08-05",
+   "colt_End": "2007-08-07",
+   "discrepancias": "TripStartDate: nuestro=2007-08-06 COLT=2007-08-05 (dif 1d) | TripEndDate: nuestro=2007-08-06 COLT=2007-08-07 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-NIC-39301",
+   "our_Trip_ID": "293",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Nicaragua",
+   "our_Start_Date": "2007-08-08",
+   "our_End_Date": "2007-08-08",
+   "colt_Start": "2007-08-07",
+   "colt_End": "2007-08-08",
+   "discrepancias": "TripStartDate: nuestro=2007-08-08 COLT=2007-08-07 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N101_2Sem_2007.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-PAN-39303",
+   "our_Trip_ID": "295",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Panama",
+   "our_Start_Date": "2007-08-10",
+   "our_End_Date": "2007-08-10",
+   "colt_Start": "2007-08-09",
+   "colt_End": "2007-08-10",
+   "discrepancias": "TripStartDate: nuestro=2007-08-10 COLT=2007-08-09 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-BOL-39432",
+   "our_Trip_ID": "296",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Bolivia",
+   "our_Start_Date": "2007-12-17",
+   "our_End_Date": "2007-12-17",
+   "colt_Start": "2007-12-16",
+   "colt_End": "2007-12-17",
+   "discrepancias": "TripStartDate: nuestro=2007-12-17 COLT=2007-12-16 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-URY-39433",
+   "our_Trip_ID": "297",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Uruguay",
+   "our_Start_Date": "2007-12-18",
+   "our_End_Date": "2007-12-18",
+   "colt_Start": "2007-12-17",
+   "colt_End": "2007-12-18",
+   "discrepancias": "TripStartDate: nuestro=2007-12-18 COLT=2007-12-17 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-PRY-40018",
+   "our_Trip_ID": "298",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Paraguay",
+   "our_Start_Date": "2009-07-24",
+   "our_End_Date": "2009-07-24",
+   "colt_Start": "2009-07-24",
+   "colt_End": "2009-07-25",
+   "discrepancias": "TripEndDate: nuestro=2009-07-24 COLT=2009-07-25 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/resenha105_2_2009.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ECU-40034",
+   "our_Trip_ID": "299",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Ecuador",
+   "our_Start_Date": "2009-08-10",
+   "our_End_Date": "2009-08-10",
+   "colt_Start": "2009-08-09",
+   "colt_End": "2009-08-10",
+   "discrepancias": "TripStartDate: nuestro=2009-08-10 COLT=2009-08-09 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ARG-40052",
+   "our_Trip_ID": "301",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Argentina",
+   "our_Start_Date": "2009-08-28",
+   "our_End_Date": "2009-08-28",
+   "colt_Start": "2009-08-27",
+   "colt_End": "2009-08-28",
+   "discrepancias": "TripStartDate: nuestro=2009-08-28 COLT=2009-08-27 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-CUB-39461",
+   "our_Trip_ID": "304",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Cuba",
+   "our_Start_Date": "2008-01-15",
+   "our_End_Date": "2008-01-15",
+   "colt_Start": "2008-01-14",
+   "colt_End": "2008-01-15",
+   "discrepancias": "TripStartDate: nuestro=2008-01-15 COLT=2008-01-14 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-COL-40396",
+   "our_Trip_ID": "309",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Colombia",
+   "our_Start_Date": "2010-08-07",
+   "our_End_Date": "2010-08-07",
+   "colt_Start": "2010-08-06",
+   "colt_End": "2010-08-07",
+   "discrepancias": "TripStartDate: nuestro=2010-08-07 COLT=2010-08-06 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-NLD-39547",
+   "our_Trip_ID": "310",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Netherlands",
+   "our_Start_Date": "2008-04-10",
+   "our_End_Date": "2008-04-11",
+   "colt_Start": "2008-04-09",
+   "colt_End": "2008-04-11",
+   "discrepancias": "TripStartDate: nuestro=2008-04-10 COLT=2008-04-09 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-GHA-39557",
+   "our_Trip_ID": "312",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Ghana",
+   "our_Start_Date": "2008-04-20",
+   "our_End_Date": "2008-04-21",
+   "colt_Start": "2008-04-19",
+   "colt_End": "2008-04-21",
+   "discrepancias": "TripStartDate: nuestro=2008-04-20 COLT=2008-04-19 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-ITA-39761",
+   "our_Trip_ID": "313",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Italy",
+   "our_Start_Date": "2008-11-10",
+   "our_End_Date": "2008-11-12",
+   "colt_Start": "2008-11-09",
+   "colt_End": "2008-11-12",
+   "discrepancias": "TripStartDate: nuestro=2008-11-10 COLT=2008-11-09 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-KAZ-39980",
+   "our_Trip_ID": "314",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Kazakhstan",
+   "our_Start_Date": "2009-06-17",
+   "our_End_Date": "2009-06-17",
+   "colt_Start": "2009-06-16",
+   "colt_End": "2009-06-17",
+   "discrepancias": "TripStartDate: nuestro=2009-06-17 COLT=2009-06-16 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_numero_104_1_2009.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-SLV-39964",
+   "our_Trip_ID": "315",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "El Salvador",
+   "our_Start_Date": "2009-06-01",
+   "our_End_Date": "2009-06-01",
+   "colt_Start": "2009-05-31",
+   "colt_End": "2009-06-01",
+   "discrepancias": "TripStartDate: nuestro=2009-06-01 COLT=2009-05-31 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-PRT-40146",
+   "our_Trip_ID": "316",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Portugal",
+   "our_Start_Date": "2009-11-29",
+   "our_End_Date": "2009-12-01",
+   "colt_Start": "2009-11-29",
+   "colt_End": "2009-11-30",
+   "discrepancias": "TripEndDate: nuestro=2009-12-01 COLT=2009-11-30 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-UKR-38129",
+   "our_Trip_ID": "332",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Ukraine",
+   "our_Start_Date": "2004-05-21",
+   "our_End_Date": "2004-05-21",
+   "colt_Start": "2004-05-22",
+   "colt_End": "2004-05-22",
+   "discrepancias": "TripStartDate: nuestro=2004-05-21 COLT=2004-05-22 (dif 1d) | TripEndDate: nuestro=2004-05-21 COLT=2004-05-22 (dif 1d)",
+   "colt_links": [
+    "http://www.itamaraty.gov.br/pt-BR/resenha-de-politica-exterior-do-brasil",
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-BOL-38176",
+   "our_Trip_ID": "334",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Bolivia",
+   "our_Start_Date": "2004-07-09",
+   "our_End_Date": "2004-07-09",
+   "colt_Start": "2004-07-08",
+   "colt_End": "2004-07-08",
+   "discrepancias": "TripStartDate: nuestro=2004-07-09 COLT=2004-07-08 (dif 1d) | TripEndDate: nuestro=2004-07-09 COLT=2004-07-08 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N95_2Sem_2004.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-DOM-38214",
+   "our_Trip_ID": "336",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Dominican Republic",
+   "our_Start_Date": "2004-08-16",
+   "our_End_Date": "2004-08-17",
+   "colt_Start": "2004-08-15",
+   "colt_End": "2004-08-18",
+   "discrepancias": "TripStartDate: nuestro=2004-08-16 COLT=2004-08-15 (dif 1d) | TripEndDate: nuestro=2004-08-17 COLT=2004-08-18 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N95_2Sem_2004.pdf"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-CHL-38221",
+   "our_Trip_ID": "338",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Chile",
+   "our_Start_Date": "2004-08-23",
+   "our_End_Date": "2004-08-24",
+   "colt_Start": "2004-08-22",
+   "colt_End": "2004-08-24",
+   "discrepancias": "TripStartDate: nuestro=2004-08-23 COLT=2004-08-22 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-CHE-38379",
+   "our_Trip_ID": "341",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Switzerland",
+   "our_Start_Date": "2005-01-28",
+   "our_End_Date": "2005-01-29",
+   "colt_Start": "2005-01-27",
+   "colt_End": "2005-01-29",
+   "discrepancias": "TripStartDate: nuestro=2005-01-28 COLT=2005-01-27 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-CMR-38452",
+   "our_Trip_ID": "342",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Cameroon",
+   "our_Start_Date": "2005-04-10",
+   "our_End_Date": "2005-04-10",
+   "colt_Start": "2005-04-10",
+   "colt_End": "2005-04-11",
+   "discrepancias": "TripEndDate: nuestro=2005-04-10 COLT=2005-04-11 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-USA-38608",
+   "our_Trip_ID": "347",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "United States",
+   "our_Start_Date": "2005-09-14",
+   "our_End_Date": "2005-09-14",
+   "colt_Start": "2005-09-13",
+   "colt_End": "2005-09-15",
+   "discrepancias": "TripStartDate: nuestro=2005-09-14 COLT=2005-09-13 (dif 1d) | TripEndDate: nuestro=2005-09-14 COLT=2005-09-15 (dif 1d)",
+   "colt_links": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "colt_TripID": "1780-BRA-BEN-38757",
+   "our_Trip_ID": "360",
+   "President": "Luiz Inácio Lula da Silva",
+   "Destination_Country": "Benin",
+   "our_Start_Date": "2006-02-10",
+   "our_End_Date": "2006-02-10",
+   "colt_Start": "2006-02-09",
+   "colt_End": "2006-02-10",
+   "discrepancias": "TripStartDate: nuestro=2006-02-10 COLT=2006-02-09 (dif 1d)",
+   "colt_links": [
+    "https://www.gettyimages.com/detail/news-photo/brazilian-president-luiz-inacio-lula-da-silva-is-greeted-by-news-photo/56802339?phrase=lula%20da%20silva&adppopup=true",
+    "https://www.gettyimages.com/detail/news-photo/politicians-and-dignitaries-pose-for-a-group-photo-10-news-photo/56814572?phrase=lula%20da%20silva",
+    "https://www.gettyimages.com/detail/news-photo/brazilian-foreign-minister-celso-amorim-listens-to-rogatien-news-photo/56815588?phrase=lula%20da%20silva",
+    "https://www.gettyimages.com/detail/news-photo/brazilian-president-luiz-inacio-lula-da-silva-ouidah-lays-a-news-photo/56822752?phrase=lula%20da%20silva&adppopup=true",
+    "https://www.gettyimages.com/detail/news-photo/the-8th-chacha-local-chief-greets-brazilian-president-luiz-news-photo/56816999?phrase=lula%20da%20silva"
+   ]
+  }
+ ],
+ "colt_unico": [
+  {
+   "TripID": "1780-BRA-ARG-38841",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-05-04T00:00:00",
+   "TripEndDate": "2006-05-04T00:00:00",
+   "Notes": "President Nestor Kirchner;President Hugo Chavez;President Eduardo Rodriguez",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2006pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ARG-38918",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-07-20T00:00:00",
+   "TripEndDate": "2006-07-21T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2006pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N98_1Sem_2006.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ARG-39198",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-04-26T00:00:00",
+   "TripEndDate": "2007-04-27T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ARG-39425",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-12-09T00:00:00",
+   "TripEndDate": "2007-12-10T00:00:00",
+   "Notes": "Attended the inauguration of President Christina Fernandez de Kirchner in Buenos Aires;Met with Prime Minister Francois Fillon;Signed an agreement to launch the Bank of the South and delivered a speech at the signing ceremony",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/bbf7b221-fcf3-47e2-9396-168aecd021b6/?context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/api/permalink/c5a1d6cb-4833-4656-9e8a-3dbe904f812b/?context=1516831",
+    "https://www.gettyimages.com/detail/news-photo/presidents-rafael-correa-of-ecuador-evo-morales-of-bolivia-news-photo/78345225",
+    "https://www.gettyimages.com/detail/news-photo/brazilian-president-luiz-inacio-lula-da-silva-and-imf-new-news-photo/78352063?phrase=lula%20da%20silva&adppopup=true",
+    "https://www.gettyimages.com/detail/news-photo/frances-prime-minister-francois-fillon-and-brazilian-news-photo/78352467?phrase=lula%20da%20silva&adppopup=true",
+    "https://www.gettyimages.com/detail/news-photo/brazilian-president-luiz-inacio-lula-da-silva-delivers-a-news-photo/78345896?phrase=lula%20da%20silva&adppopup=true"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ARG-39499",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-02-21T00:00:00",
+   "TripEndDate": "2008-02-23T00:00:00",
+   "Notes": "Attended ceremony declaring an illustrious visitor to Buenos Aires;President Cristina Fernandez de Kirchner;President Evo Morales",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N102_1Sem_2008.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ARG-39629",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-06-30T00:00:00",
+   "TripEndDate": "2008-07-01T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ARG-39925",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-04-22T00:00:00",
+   "TripEndDate": "2009-04-23T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ARG-40301",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Argentina",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-05-03T00:00:00",
+   "TripEndDate": "2010-05-04T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-BEL-39268",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Belgium",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-07-05T00:00:00",
+   "TripEndDate": "2007-07-05T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-BEL-40089",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Belgium",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-10-03T00:00:00",
+   "TripEndDate": "2009-10-05T00:00:00",
+   "Notes": "Also met King Alberto II",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-BEN-39060",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Benin",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-12-09T00:00:00",
+   "TripEndDate": "2006-12-10T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2006pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-BOL-38210",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Bolivia",
+   "CityVisited": "None",
+   "TripYear": "2004",
+   "TripStartDate": "2004-08-11T00:00:00",
+   "TripEndDate": "2004-08-12T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2004pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-BOL-39828",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Bolivia",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-01-15T00:00:00",
+   "TripEndDate": "2009-01-15T00:00:00",
+   "Notes": "Attended ceremony in Arroyo Concepcion",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CHL-38787",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-03-11T00:00:00",
+   "TripEndDate": "2006-03-11T00:00:00",
+   "Notes": "Attended inauguration ceremony of Michelle Bachelet",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2006pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CHL-39197",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-04-25T00:00:00",
+   "TripEndDate": "2007-04-26T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N100_1Sem_2007.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CHL-39493",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-02-15T00:00:00",
+   "TripEndDate": "2008-02-17T00:00:00",
+   "Notes": "Visited Antarctic Station Comandante Ferraz",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CHL-39899",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Chile",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-03-27T00:00:00",
+   "TripEndDate": "2009-03-28T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CRI-39967",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Costa Rica",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-06-03T00:00:00",
+   "TripEndDate": "2009-06-03T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CUB-39751",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Cuba",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-10-30T00:00:00",
+   "TripEndDate": "2008-10-31T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CUB-40232",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Cuba",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-02-23T00:00:00",
+   "TripEndDate": "2010-02-25T00:00:00",
+   "Notes": "Also met Fidel Castro",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-SLV-39596",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "El Salvador",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-05-28T00:00:00",
+   "TripEndDate": "2008-05-29T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-SLV-40234",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "El Salvador",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-02-25T00:00:00",
+   "TripEndDate": "2010-02-26T00:00:00",
+   "Notes": "Visited crypt of Oscar Romero",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-FIN-39334",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Finland",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-09-09T00:00:00",
+   "TripEndDate": "2007-09-11T00:00:00",
+   "Notes": "Also met President Tarja Halonen and participated in wreath laying ceremony",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N101_2Sem_2007.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-FRA-38545",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "France",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-07-12T00:00:00",
+   "TripEndDate": "2005-07-15T00:00:00",
+   "Notes": "Also met Prime Minister Dominique de Villepin and witnessed a fireworks show at the Eiffel Tower",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-FRA-39489",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "France",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-02-11T00:00:00",
+   "TripEndDate": "2008-02-12T00:00:00",
+   "Notes": "French Guiana",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-FRA-39904",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "France",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-04-01T00:00:00",
+   "TripEndDate": "2009-04-01T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-FRA-39998",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "France",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-07-04T00:00:00",
+   "TripEndDate": "2009-07-07T00:00:00",
+   "Notes": "Attended ceremony for the Felix Houphouet-Boigny Award for Peace",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/resenha105_2_2009.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-FRA-40131",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "France",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-11-14T00:00:00",
+   "TripEndDate": "2009-11-14T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-DEU-40149",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Germany",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-12-02T00:00:00",
+   "TripEndDate": "2009-12-04T00:00:00",
+   "Notes": "Also met President Horst Kohler and laid wreath at memorial to victims of war and despotism",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-DEU-40515",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Germany",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-12-03T00:00:00",
+   "TripEndDate": "2010-12-04T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-GTM-38607",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Guatemala",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-09-12T00:00:00",
+   "TripEndDate": "2005-09-13T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-GTM-39966",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Guatemala",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-06-02T00:00:00",
+   "TripEndDate": "2009-06-03T00:00:00",
+   "Notes": "Visited school",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-GUY-38366",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Guyana",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-01-14T00:00:00",
+   "TripEndDate": "2005-01-15T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-GUY-38397",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Guyana",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-02-14T00:00:00",
+   "TripEndDate": "2005-02-15T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-HTI-39596",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Haiti",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-05-28T00:00:00",
+   "TripEndDate": "2008-05-28T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-VAT-38450",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Holy See",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-04-08T00:00:00",
+   "TripEndDate": "2005-04-08T00:00:00",
+   "Notes": "Attended the funeral of Pope John Paul II",
+   "Confidence(1-5)": "2",
+   "SourceLinks": [
+    "https://advance-lexis-com.du.idm.oclc.org/api/document?collection=news&id=urn:contentItem:4FX0-JJ30-TWH9-62XV-00000-00&context=1516831",
+    "https://advance-lexis-com.du.idm.oclc.org/document/?pdmfid=1516831&crid=1c28a46d-ec3d-4516-bdfd-353bf83bbe1d&pddocfullpath=%2Fshared%2Fdocument%2Fnews%2Furn%3AcontentItem%3A4FWS-KGT0-TWMD-62JC-00000-00&pdcontentcomponentid=10903&pdteaserkey=sr0&pditab=allpods&ecomp=szznk&earg=sr0&prid=1bf590a7-2d29-4a38-8316-7a8d05eec1b1"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-VAT-39765",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Holy See",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-11-13T00:00:00",
+   "TripEndDate": "2008-11-13T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ISR-40254",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Israel",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-03-17T00:00:00",
+   "TripEndDate": "2010-03-17T00:00:00",
+   "Notes": "Passing through on way to Jordan",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ITA-38449",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Italy",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-04-07T00:00:00",
+   "TripEndDate": "2005-04-10T00:00:00",
+   "Notes": "Attended funeral of Pope John Paul II",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ITA-39599",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Italy",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-05-31T00:00:00",
+   "TripEndDate": "2008-06-03T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ITA-40132",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Italy",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-11-15T00:00:00",
+   "TripEndDate": "2009-11-16T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/resenha105_2_2009.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-LBY-39993",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Libya",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-06-29T00:00:00",
+   "TripEndDate": "2009-07-01T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-PRY-38522",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-06-19T00:00:00",
+   "TripEndDate": "2005-06-20T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-PRY-39192",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-04-20T00:00:00",
+   "TripEndDate": "2007-04-21T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-PRY-39222",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-05-20T00:00:00",
+   "TripEndDate": "2007-05-21T00:00:00",
+   "Notes": "Laid wreath at memorial to the Heroes of the Paraguayan Homeland",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-PRY-40389",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Paraguay",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-07-30T00:00:00",
+   "TripEndDate": "2010-07-30T00:00:00",
+   "Notes": "Visited the site of the future factory of Cement",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-PER-38603",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-09-08T00:00:00",
+   "TripEndDate": "2005-09-08T00:00:00",
+   "Notes": "President Alejandro Toledo;President Carlos Mesa",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N97_2Sem_2005.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-PER-38925",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-07-27T00:00:00",
+   "TripEndDate": "2006-07-28T00:00:00",
+   "Notes": "Attended inauguration ceremony of Alan Garcia",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2006pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-PER-39583",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-05-15T00:00:00",
+   "TripEndDate": "2008-05-17T00:00:00",
+   "Notes": "Met with Prime Minister Donald Tusk;met with Prime Minister Mirek Topolanek",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-PER-40157",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-12-10T00:00:00",
+   "TripEndDate": "2009-12-11T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-PER-40522",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Peru",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-12-10T00:00:00",
+   "TripEndDate": "2010-12-11T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-PRT-40317",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Portugal",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-05-19T00:00:00",
+   "TripEndDate": "2010-05-19T00:00:00",
+   "Notes": "Also met President Cavaco Silva",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-QAT-40312",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Qatar",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-05-14T00:00:00",
+   "TripEndDate": "2010-05-15T00:00:00",
+   "Notes": "Attended final match of the Emir Cup",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/resenha106_1_2010.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ESP-39333",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Spain",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-09-08T00:00:00",
+   "TripEndDate": "2007-09-09T00:00:00",
+   "Notes": "Passing through on his way to Finland",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-ESP-39339",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Spain",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-09-14T00:00:00",
+   "TripEndDate": "2007-09-17T00:00:00",
+   "Notes": "Also met King Juan Carlos I",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-SUR-38367",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Suriname",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-01-15T00:00:00",
+   "TripEndDate": "2005-01-16T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-SUR-38398",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Suriname",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-02-15T00:00:00",
+   "TripEndDate": "2005-02-16T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-SWE-40091",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Sweden",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-10-05T00:00:00",
+   "TripEndDate": "2009-10-06T00:00:00",
+   "Notes": "Also met King Carl Gustaf",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CHE-39106",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Switzerland",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-01-24T00:00:00",
+   "TripEndDate": "2007-01-26T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-CHE-39385",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Switzerland",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-10-30T00:00:00",
+   "TripEndDate": "2007-10-30T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-UKR-40148",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Ukraine",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-12-01T00:00:00",
+   "TripEndDate": "2009-12-02T00:00:00",
+   "Notes": "Laid wreath at monument to the victims of the Great Famine of 1932-1933",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-UKR-40513",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Ukraine",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-12-01T00:00:00",
+   "TripEndDate": "2010-12-02T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-GBR-38540",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "United Kingdom",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-07-07T00:00:00",
+   "TripEndDate": "2005-07-07T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-GBR-38782",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "United Kingdom",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-03-06T00:00:00",
+   "TripEndDate": "2006-03-09T00:00:00",
+   "Notes": "Also met Queen Elizabeth II and laid wreath at Tomb of Unknown Soldier",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2006pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N98_1Sem_2006.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-GBR-39234",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "United Kingdom",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-06-01T00:00:00",
+   "TripEndDate": "2007-06-02T00:00:00",
+   "Notes": "Attended friendly soccer match between the Brazil and England national teams",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-GBR-40121",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "United Kingdom",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-11-04T00:00:00",
+   "TripEndDate": "2009-11-05T00:00:00",
+   "Notes": "Also met Queen Elizabeth II",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-USA-38947",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "United States",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-08-18T00:00:00",
+   "TripEndDate": "2006-08-19T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2006pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-URY-39108",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-01-26T00:00:00",
+   "TripEndDate": "2007-01-26T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/Resenha_N100_1Sem_2007.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-URY-40155",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-12-08T00:00:00",
+   "TripEndDate": "2009-12-08T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-URY-40302",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-05-04T00:00:00",
+   "TripEndDate": "2010-05-04T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-URY-40389",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-07-30T00:00:00",
+   "TripEndDate": "2010-07-30T00:00:00",
+   "Notes": "Attended ceremony unveiling plaques alluding to countries' friendship",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view",
+    "http://www.itamaraty.gov.br/images/ed_biblioteca/resenhas_peb/resenha107_2_2010.pdf"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-URY-40519",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Uruguay",
+   "CityVisited": "None",
+   "TripYear": "2010",
+   "TripStartDate": "2010-12-07T00:00:00",
+   "TripEndDate": "2010-12-08T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2010pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-VEN-38365",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Venezuela",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-01-13T00:00:00",
+   "TripEndDate": "2005-01-14T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-VEN-38396",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Venezuela",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-02-13T00:00:00",
+   "TripEndDate": "2005-02-14T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-VEN-38440",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Venezuela",
+   "CityVisited": "None",
+   "TripYear": "2005",
+   "TripStartDate": "2005-03-29T00:00:00",
+   "TripEndDate": "2005-03-29T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2005pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-VEN-38902",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Venezuela",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-07-04T00:00:00",
+   "TripEndDate": "2006-07-04T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2006pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-VEN-39033",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Venezuela",
+   "CityVisited": "None",
+   "TripYear": "2006",
+   "TripStartDate": "2006-11-12T00:00:00",
+   "TripEndDate": "2006-11-13T00:00:00",
+   "Notes": "Attended inauguraiton ceremony for a bridge over the river Orinoco",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-1o-mandato/viagens-internacionais-2006pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-VEN-39429",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Venezuela",
+   "CityVisited": "None",
+   "TripYear": "2007",
+   "TripStartDate": "2007-12-13T00:00:00",
+   "TripEndDate": "2007-12-13T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2007pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-VEN-39626",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Venezuela",
+   "CityVisited": "None",
+   "TripYear": "2008",
+   "TripStartDate": "2008-06-27T00:00:00",
+   "TripEndDate": "2008-06-27T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2008pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-VEN-39828",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Venezuela",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-01-15T00:00:00",
+   "TripEndDate": "2009-01-16T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  },
+  {
+   "TripID": "1780-BRA-VEN-40115",
+   "LeaderFullName": "Luiz Inacio Lula da Silva",
+   "CountryVisited": "Venezuela",
+   "CityVisited": "None",
+   "TripYear": "2009",
+   "TripStartDate": "2009-10-29T00:00:00",
+   "TripEndDate": "2009-10-30T00:00:00",
+   "Notes": "None",
+   "Confidence(1-5)": "1",
+   "SourceLinks": [
+    "http://wwwbibliotecapresidenciagovbr/presidencia/ex-presidentes/luiz-inacio-lula-da-silva/viagens/viagens-internacionais-2o-mandato/viagens-internacionais-2009pdf/view"
+   ]
+  }
+ ],
+ "nuestro_unico": [
+  {
+   "Trip_ID": "59",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2004-11-18",
+   "End_Date": "2004-11-20",
+   "Destination_Country": "Costa Rica",
+   "Destination_City": "San José",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XIV Cúpula Ibero-Americana",
+   "Trip_Objective": "Cumbre Iberoamericana 'educar para progresar'.",
+   "Source_Verification": "https://segib.org/?summit=xiv-cumbre-iberoamericana-san-jose-2004",
+   "Source_Reliability": "High"
+  },
+  {
+   "Trip_ID": "74",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2006-09-19",
+   "End_Date": "2006-09-19",
+   "Destination_Country": "United States",
+   "Destination_City": "New York",
+   "Visit_Subtype": "Global Forum",
+   "Counterpart_Event": "61ª AGNU",
+   "Trip_Objective": "Apertura de la 61a Asamblea General de la ONU.",
+   "Source_Verification": "https://www.funag.gov.br/loja/download/505-discursos_selecionados_lula.pdf",
+   "Source_Reliability": "Medium"
+  },
+  {
+   "Trip_ID": "75",
+   "President": "Luiz Inácio Lula da Silva",
+   "Start_Date": "2006-11-03",
+   "End_Date": "2006-11-05",
+   "Destination_Country": "Uruguay",
+   "Destination_City": "Montevideo",
+   "Visit_Subtype": "Regional Summit",
+   "Counterpart_Event": "XVI Cúpula Ibero-Americana",
+   "Trip_Objective": "Cumbre Iberoamericana de Montevideo (post-reeleccion).",
+   "Source_Verification": "https://segib.org/?summit=xvi-cumbre-iberoamericana-montevideo-2006",
+   "Source_Reliability": "Medium"
+  }
+ ]
+}

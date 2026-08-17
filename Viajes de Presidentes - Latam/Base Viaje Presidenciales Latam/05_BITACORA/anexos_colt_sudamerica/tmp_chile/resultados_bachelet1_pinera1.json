@@ -1,0 +1,874 @@
+{
+  "discrepancias_resueltas": [
+    {
+      "colt_TripID": "2134-CHL-ARG-38797",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2006-03-22",
+      "valor_propuesto": "2006-03-21",
+      "fuente": "https://es.wikipedia.org/wiki/Primer_gobierno_de_Michelle_Bachelet",
+      "justificacion": "Los links de COLT son de infoweb.newsbank.com (no verificable, acceso institucional). Wikipedia confirma que el primer viaje de Bachelet fue a Argentina (llegada 21 marzo, reunion con Kirchner) y LUEGO a Uruguay como pais distinto (coincide con el item colt_unico 2134-CHL-URY-38798, 22-03-2006, confirmado en este mismo lote: ofrenda floral en el monumento a Artigas). El 22 de marzo corresponde a Uruguay, no a una extension del tramo argentino; por eso la fecha de termino en Argentina (21-03) es la correcta."
+    },
+    {
+      "colt_TripID": "2134-CHL-USA-38875",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2006-06-07",
+      "valor_propuesto": "2006-06-08",
+      "fuente": "https://georgewbush-whitehouse.archives.gov/news/releases/2006/06/20060608-5.html",
+      "justificacion": "Comunicado oficial de la Casa Blanca fechado 08-06-2006 documenta la reunion Bush-Bachelet ese dia (primera visita de Bachelet a EE.UU. como Presidenta). No se hallo evidencia de actividad de la Presidenta en EE.UU. el 7 de junio; los links de COLT son de proquest/du.idm.oclc.org (no verificable, acceso institucional)."
+    },
+    {
+      "colt_TripID": "2134-CHL-PER-38925",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2006-07-27",
+      "valor_propuesto": "2006-07-28",
+      "fuente": "https://www.emol.com/noticias/nacional/2006/07/29/226590/bachelet-encabezo-junto-a-alan-garcia-parada-militar-en-peru.html",
+      "justificacion": "Emol (29-07-2006) confirma la asuncion de Alan Garcia el 28-07 y la Parada Militar el 29-07 (ya reflejado en nuestra base). No se encontro cobertura de prensa que ubique a Bachelet en Lima el 27-07. Los links de COLT son de infoweb.newsbank.com (no verificable, acceso institucional). Se mantiene nuestra fecha por falta de evidencia que respalde el dia adicional de COLT."
+    },
+    {
+      "colt_TripID": "2134-CHL-VEN-39188",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2007-04-18",
+      "valor_propuesto": "2007-04-17",
+      "fuente": "https://es.wikipedia.org/wiki/Cumbre_Energ%C3%A9tica_Suramericana",
+      "justificacion": "Fuentes consultadas (Wikipedia, Real Instituto Elcano, IIRSA) coinciden en que la I Cumbre Energetica Suramericana en Isla Margarita se realizo el 16-17 de abril de 2007; ninguna menciona actividad de Bachelet el 18. Los links de COLT son de infoweb.newsbank.com (no verificable, acceso institucional). Se mantiene nuestra fecha por falta de evidencia del dia adicional."
+    },
+    {
+      "colt_TripID": "2134-CHL-ESP-38846",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2006-05-11",
+      "valor_propuesto": "2006-05-10",
+      "fuente": "https://es.wikipedia.org/wiki/Primer_gobierno_de_Michelle_Bachelet",
+      "justificacion": "Wikipedia confirma que la visita de Estado a Espana precedio inmediatamente a la Cumbre UE-America Latina y el Caribe en Viena, que comenzo el 12 de mayo (Bachelet llego a Austria el 11-05, Trip_ID 31 de nuestra base). Que Bachelet siguiera en Espana el 11-05 (fecha propuesta por COLT) es incompatible con su llegada documentada a Viena ese mismo dia. Los links de COLT son de infoweb.newsbank.com (no verificable, acceso institucional)."
+    },
+    {
+      "colt_TripID": "2134-CHL-FRA-39960",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2009-05-27;2009-05-30",
+      "valor_propuesto": "2009-05-27;2009-05-30",
+      "fuente": "https://www.informador.mx/Internacional/Inicia-Michelle-Bachelet-visita-a-Francia-20090527-0080.html",
+      "justificacion": "El Informador (27-05-2009) titula 'Inicia Michelle Bachelet visita a Francia' ese mismo dia; otras notas confirman que llego a Paris la noche anterior procedente de Holanda, inicio una visita oficial de tres dias en la UNESCO (28-05) con almuerzo con Sarkozy, y el sabado 30-05 extendio el viaje a Dijon. Nuestra base solo registraba un dia suelto (29-05); se corrige a todo el rango 27-05 al 30-05, coincidiendo con COLT."
+    },
+    {
+      "colt_TripID": "2134-CHL-USA-39348",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2007-09-23",
+      "valor_propuesto": "2007-09-24",
+      "fuente": "https://du.idm.oclc.org (no verificable, acceso institucional)",
+      "justificacion": "Los 4 links de COLT son de proquest.com via du.idm.oclc.org, no accesibles (acceso institucional). No se encontro cobertura independiente que confirme actividad de Bachelet en Nueva York el 23-09-2007 (un dia antes de la apertura del Debate General de la 62a Asamblea General de la ONU, que comenzo el 25-09-2007). Se mantiene nuestra fecha por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2134-CHL-PRY-39674",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2008-08-14",
+      "valor_propuesto": "2008-08-15",
+      "fuente": "https://www.portalguarani.com (asuncion de Fernando Lugo, 15-08-2008)",
+      "justificacion": "Fuentes consultadas confirman la asuncion de Fernando Lugo el 15-08-2008 con presencia de mandatarios de Mercosur y Chile, pero ninguna menciona llegada de Bachelet a Asuncion el 14-08. Los links de COLT son de infoweb.newsbank.com (no verificable, acceso institucional). Se mantiene nuestra fecha."
+    },
+    {
+      "colt_TripID": "2134-CHL-PER-39773",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2008-11-21",
+      "valor_propuesto": "2008-11-21",
+      "fuente": "https://es.wikipedia.org/wiki/APEC_Per%C3%BA_2008",
+      "justificacion": "Wikipedia describe la XVI Reunion de Lideres de APEC Peru 2008 como celebrada entre el 21 y el 23 de noviembre de 2008 (incluye actividades de lideres desde el 21, previas a la ceremonia de cierre). Se ajusta la fecha de inicio a 21-11 acorde con COLT."
+    },
+    {
+      "colt_TripID": "2134-CHL-CUB-39854",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2009-02-10",
+      "valor_propuesto": "2009-02-10",
+      "fuente": "https://www.laprensani.com/2009/02/14/internacionales/1354760-fidel-castro-aguo-visita-de-bachelet",
+      "justificacion": "Prensa de la epoca (La Prensa, 14-02-2009) describe la visita oficial de Bachelet a Cuba como de '72 horas'; contando hacia atras desde el termino documentado (13-02), el inicio corresponde al 10-02-2009, coincidiendo con COLT."
+    },
+    {
+      "colt_TripID": "2134-CHL-USA-39987",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2009-06-23",
+      "valor_propuesto": "2009-06-24",
+      "fuente": "https://du.idm.oclc.org (no verificable, acceso institucional)",
+      "justificacion": "Los links de COLT son de proquest.com via du.idm.oclc.org (no verificable, acceso institucional). No se encontro cobertura independiente sobre esta visita puntual a EE.UU. en junio de 2009 que permita confirmar si el viaje termino el 23 o el 24. Se mantiene nuestra fecha."
+    },
+    {
+      "colt_TripID": "2134-CHL-SGP-40130",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2009-11-13",
+      "valor_propuesto": "2009-11-13",
+      "fuente": "Cobertura de prensa sobre llegada de lideres a la Cumbre APEC Singapur 2009 (viernes 13-11-2009), Cumbre de Lideres 14-15-11-2009",
+      "justificacion": "Bachelet arribo a Singapur el viernes 13-11-2009, un dia antes del inicio formal de la Cumbre de Lideres APEC (14-15 de noviembre), patron habitual de llegada previa de mandatarios. Se ajusta la fecha de inicio a 13-11 acorde con COLT."
+    },
+    {
+      "colt_TripID": "2134-CHL-PRT-40145",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2009-11-28;2009-12-02",
+      "valor_propuesto": "2009-11-28;2009-12-02",
+      "fuente": "https://www.estrelladigital.es/espana/20091130/uribe-bachelet-martinelli-y-correa-en-estoril-para-asistir-a-la-cumbre-iberoamericana/",
+      "justificacion": "Prensa de la epoca ubica a Bachelet llegando a Estoril el sabado 28-11-2009 junto a otros mandatarios, antes de la XIX Cumbre Iberoamericana (30-11 al 01-12-2009); posteriormente realizo una visita oficial bilateral a Portugal que se extendio hasta el 02-12 (reunion con el Presidente Cavaco Silva y el PM Socrates). Se ajustan ambas fechas acorde con COLT."
+    },
+    {
+      "colt_TripID": "2134-CHL-MEX-40230",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2010-02-21",
+      "valor_propuesto": "2010-02-21",
+      "fuente": "https://www.publico.es/actualidad/bachelet-invita-pinera-cumbre-del.html",
+      "justificacion": "Publico.es confirma que la reunion en Cancun/Riviera Maya se desarrollo entre el 21 y el 24 de febrero de 2010, y que Bachelet transfirio la presidencia pro-tempore del Grupo de Rio el 21-02. Se ajusta la fecha de inicio a 21-02 acorde con COLT."
+    },
+    {
+      "colt_TripID": "2556-CHL-BRA-40276",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2010-04-09",
+      "valor_propuesto": "2010-04-08",
+      "fuente": "N/A - sin fuente independiente adicional",
+      "justificacion": "Nuestra base registra visitas de un dia a Argentina y Brasil el mismo 08-04-2010 (recorrido regional post-asuncion de Piñera). No se hallo cobertura que confirme actividad en Brasil el 09-04. Se mantiene nuestra fecha por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2556-CHL-USA-40280",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2010-04-12",
+      "valor_propuesto": "2010-04-12",
+      "fuente": "Cumbre de Seguridad Nuclear de Washington D.C., 12-13 de abril de 2010 (hecho historico bien documentado)",
+      "justificacion": "La Cumbre de Seguridad Nuclear convocada por Obama se realizo el 12 y 13 de abril de 2010 en Washington D.C. Se ajusta la fecha de inicio a 12-04 acorde con COLT y con la fecha real de la cumbre."
+    },
+    {
+      "colt_TripID": "2556-CHL-ESP-40312",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2010-05-14;2010-05-18",
+      "valor_propuesto": "2010-05-18;2010-05-19",
+      "fuente": "https://sociedaddefomentogeneralbelgrano.blogspot.com/2010/05/espana-zapatero-destaca-que-ha-sido-una.html",
+      "justificacion": "La VI Cumbre Union Europea-America Latina y el Caribe se realizo en Madrid el 18-05-2010; no se encontro evidencia de actividad de Piñera en España entre el 14 y el 17 de mayo. El rango de COLT (14-18) no esta corroborado; se mantiene nuestro rango, centrado en la fecha real de la cumbre."
+    },
+    {
+      "colt_TripID": "2556-CHL-USA-40443",
+      "veredicto": "COLT_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2010-09-22;2010-09-25",
+      "valor_propuesto": "2010-09-22;2010-09-25",
+      "fuente": "65o periodo de sesiones de la Asamblea General de la ONU, Debate General iniciado el 23-09-2010 (hecho historico documentado)",
+      "justificacion": "El Debate General de la 65a Asamblea General de la ONU comenzo el 23-09-2010; el rango de COLT (llegada 22-09, salida 25-09) es consistente con el calendario oficial de la Asamblea, mientras que nuestra fecha de inicio (20-09) resulta prematura sin evidencia que la respalde."
+    },
+    {
+      "colt_TripID": "2556-CHL-GBR-40467",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2010-10-16;2010-10-19",
+      "valor_propuesto": "2010-10-17;2010-10-18",
+      "fuente": "N/A - sin fuente independiente adicional",
+      "justificacion": "Viaje forma parte de una gira europea continua (Londres-Paris-Berlin, Trip_ID 63-65). No se hallo cobertura que confirme actividad en Londres el 16-10 ni que la visita se extendiera al 19-10 (fecha en la que, segun COLT, tambien comenzaba el tramo de Paris). Se mantiene nuestro rango por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2556-CHL-FRA-40470",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2010-10-21",
+      "valor_propuesto": "2010-10-20",
+      "fuente": "N/A - sin fuente independiente adicional",
+      "justificacion": "Tramo de la misma gira europea de octubre 2010; nuestra base ya registra el siguiente tramo (Berlin) comenzando el 21-10, por lo que una extension de Paris hasta el 21-10 generaria superposicion. Se mantiene nuestra fecha por consistencia de itinerario."
+    },
+    {
+      "colt_TripID": "2556-CHL-DEU-40472",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2010-10-23",
+      "valor_propuesto": "2010-10-22",
+      "fuente": "N/A - sin fuente independiente adicional",
+      "justificacion": "Tramo final de la gira europea de octubre 2010; no se hallo cobertura que confirme actividad en Berlin hasta el 23-10. Se mantiene nuestra fecha por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2556-CHL-JPN-40494",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2010-11-12;2010-11-15",
+      "valor_propuesto": "2010-11-13;2010-11-14",
+      "fuente": "Cumbre de Lideres APEC Yokohama, 13-14 de noviembre de 2010 (hecho historico documentado)",
+      "justificacion": "La Cumbre de Lideres de APEC Japon 2010 se realizo en Yokohama el 13 y 14 de noviembre de 2010, coincidiendo exactamente con nuestras fechas. El rango mas amplio de COLT (12 al 15) no esta corroborado por fuentes independientes."
+    },
+    {
+      "colt_TripID": "2556-CHL-RUS-41158",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2012-09-06;2012-09-10",
+      "valor_propuesto": "2012-09-08;2012-09-09",
+      "fuente": "Cumbre de Lideres APEC Vladivostok, 8-9 de septiembre de 2012 (hecho historico documentado)",
+      "justificacion": "La Semana de Lideres de APEC Rusia 2012 tuvo su Cumbre de Lideres los dias 8 y 9 de septiembre de 2012 en la isla Russky, Vladivostok, coincidiendo con nuestras fechas. El rango mas amplio de COLT (6 al 10) no esta corroborado por fuentes independientes para la agenda de Piñera especificamente."
+    },
+    {
+      "colt_TripID": "2556-CHL-ESP-41229",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2012-11-18",
+      "valor_propuesto": "2012-11-17",
+      "fuente": "XXII Cumbre Iberoamericana, Cadiz, 16-17 de noviembre de 2012 (hecho historico documentado)",
+      "justificacion": "La XXII Cumbre Iberoamericana se realizo en Cadiz los dias 16 y 17 de noviembre de 2012, coincidiendo con nuestras fechas. No se hallo evidencia de actividad de Piñera en España el 18-11."
+    },
+    {
+      "colt_TripID": "2556-CHL-VEN-41340",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2013-03-07",
+      "valor_propuesto": "2013-03-08",
+      "fuente": "https://www.chile.gob.cl/chile/blog/venezuela/venezuela/presidente-pinera-asiste-al-funeral-de-estado-de-hugo-chavez",
+      "justificacion": "El comunicado oficial de Minrel/Chile en el Exterior, fechado el viernes 08-03-2013, documenta la asistencia de Piñera a las exequias de Chavez ese mismo dia (formo parte de la primera guardia de honor); no menciona actividad el 07-03."
+    },
+    {
+      "colt_TripID": "2556-CHL-COL-41417",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2013-05-24",
+      "valor_propuesto": "2013-05-23",
+      "fuente": "N/A - sin fuente independiente adicional",
+      "justificacion": "No se hallo cobertura independiente sobre esta visita puntual a Cali en mayo de 2013 que permita confirmar si se extendio al 24-05. Se mantiene nuestra fecha."
+    },
+    {
+      "colt_TripID": "2556-CHL-USA-41425",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2013-05-31",
+      "valor_propuesto": "2013-06-04",
+      "fuente": "N/A - posible conexion con gira previa a Canada",
+      "justificacion": "COLT registra por separado una visita de Piñera a Canada (Toronto, Juegos Panamericanos) el 29-31 de mayo de 2013 (TripID 2556-CHL-CAN-41423, colt_unico de este mismo lote), inmediatamente antes en la numeracion. Es posible que COLT haya extendido erroneamente la ventana de la visita a EE.UU. para cubrir el tramo canadiense (pais distinto). No se hallo evidencia de actividad de Piñera en EE.UU. entre el 31-05 y el 03-06; la reunion con Obama en la Casa Blanca (con la conocida foto de Piñera en el escritorio de Obama) esta documentada para el 04-06-2013. Se mantiene nuestra fecha."
+    },
+    {
+      "colt_TripID": "2134-CHL-USA-38980",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2006-09-20;2006-09-21",
+      "valor_propuesto": "2006-09-19;2006-09-20",
+      "fuente": "N/A - sin fuente independiente adicional",
+      "justificacion": "61a Asamblea General de la ONU (debate general con apertura en torno al 19-09-2006). Los links de COLT son de infoweb.newsbank.com (no verificable, acceso institucional). No se hallo fuente independiente que precise el dia exacto de llegada/salida de Bachelet; se mantiene nuestra fecha."
+    },
+    {
+      "colt_TripID": "2134-CHL-FIN-39230",
+      "veredicto": "No_verificable",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2007-05-28",
+      "valor_propuesto": "2007-05-29",
+      "fuente": "N/A - sin fuente independiente adicional",
+      "justificacion": "No se hallo cobertura independiente sobre la visita a Helsinki en mayo de 2007 que confirme el dia exacto de llegada. Se mantiene nuestra fecha."
+    },
+    {
+      "colt_TripID": "2134-CHL-NOR-39232",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2007-06-01",
+      "valor_propuesto": "2007-05-31",
+      "fuente": "N/A - sin fuente independiente adicional",
+      "justificacion": "No se hallo cobertura independiente sobre la visita a Oslo en mayo-junio de 2007 que confirme el dia exacto de salida. Se mantiene nuestra fecha."
+    },
+    {
+      "colt_TripID": "2134-CHL-USA-39714",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2008-09-25",
+      "valor_propuesto": "2008-09-24",
+      "fuente": "63a Asamblea General de la ONU, Debate General iniciado el 23-09-2008",
+      "justificacion": "El Debate General de la 63a Asamblea General de la ONU comenzo el 23-09-2008, coincidiendo con nuestra fecha de inicio. No se hallo evidencia que confirme si Bachelet permanecio en Nueva York hasta el 25-09. Se mantiene nuestra fecha."
+    },
+    {
+      "colt_TripID": "2556-CHL-MEX-41077",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate;TripEndDate",
+      "valor_colt_original": "2012-06-17;2012-06-20",
+      "valor_propuesto": "2012-06-18;2012-06-19",
+      "fuente": "Cumbre G20 Los Cabos, 18-19 de junio de 2012 (hecho historico documentado)",
+      "justificacion": "La Cumbre del G20 en Los Cabos se realizo el 18 y 19 de junio de 2012, coincidiendo exactamente con nuestras fechas. El rango mas amplio de COLT no esta corroborado por fuentes independientes."
+    },
+    {
+      "colt_TripID": "2556-CHL-BRA-40544",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2011-01-02",
+      "valor_propuesto": "2011-01-01",
+      "fuente": "https://diariodecuyo.com.ar/mundo/Dilma-Rousseff-llega-el-31-de-enero-a-la-Argentina-20110105-0003.html (referencia cruzada de agenda)",
+      "justificacion": "Multiples fuentes confirman que Piñera viajo a Brasilia el 01-01-2011 para la asuncion de Dilma Rousseff, un evento protocolar de un solo dia; no se hallo evidencia de que permaneciera en Brasil hasta el 02-01."
+    },
+    {
+      "colt_TripID": "2556-CHL-ITA-40603",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2011-03-03",
+      "valor_propuesto": "2011-03-02",
+      "fuente": "N/A - sin fuente independiente adicional",
+      "justificacion": "Tramo inicial de la gira de Piñera por Italia/Vaticano/Israel/Palestina/Jordania/España (marzo 2011). Roma y el Vaticano son geograficamente contiguos, por lo que el 03-03 (fecha en que nuestra base ya registra la visita separada al Vaticano/Santa Sede, Trip_ID 317) es compatible con ambas lecturas. Se mantiene nuestra fecha por prudencia ante la falta de una fuente que dirima el limite exacto entre ambos tramos."
+    },
+    {
+      "colt_TripID": "2556-CHL-ISR-40605",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2011-03-05",
+      "valor_propuesto": "2011-03-06",
+      "fuente": "N/A - sin fuente independiente adicional",
+      "justificacion": "Gira por Medio Oriente con tramos de un dia (Israel-Palestina-Jordania) que se solapan en los limites por la proximidad geografica (visitas de un dia a Ramallah desde Jerusalen son habituales). No se hallo fuente que determine con precision el limite entre el tramo israeli y el jordano. Se mantiene nuestra fecha."
+    },
+    {
+      "colt_TripID": "2556-CHL-PSE-40607",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2011-03-06",
+      "valor_propuesto": "2011-03-05",
+      "fuente": "N/A - sin fuente independiente adicional",
+      "justificacion": "Mismo caso que el tramo de Israel: limites de un dia entre paises contiguos en una gira de Medio Oriente sin fuente que precise el corte exacto. Se mantiene nuestra fecha."
+    },
+    {
+      "colt_TripID": "2556-CHL-JOR-40608",
+      "veredicto": "No_verificable",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2011-03-06",
+      "valor_propuesto": "2011-03-07",
+      "fuente": "N/A - sin fuente independiente adicional",
+      "justificacion": "Mismo caso: limite entre el tramo de Jordania y el inicio del tramo de España (07-03) no esta precisado por una fuente independiente. Se mantiene nuestra fecha por consistencia con el tramo siguiente (España inicia 07-03 segun nuestra base)."
+    },
+    {
+      "colt_TripID": "2556-CHL-ESP-40608",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripStartDate",
+      "valor_colt_original": "2011-03-06",
+      "valor_propuesto": "2011-03-07",
+      "fuente": "N/A - consistencia de itinerario con el tramo previo de Jordania",
+      "justificacion": "Nuestra base documenta el tramo de Jordania terminando el 07-03-2011 (Trip_ID 320); que Piñera estuviera simultaneamente en España el 06-03 (fecha propuesta por COLT) es incompatible con esa fecha de salida de Jordania. Se mantiene nuestra fecha de inicio en España (07-03)."
+    },
+    {
+      "colt_TripID": "2556-CHL-KOR-40993",
+      "veredicto": "Nuestro_correcto",
+      "campo": "TripEndDate",
+      "valor_colt_original": "2012-03-28",
+      "valor_propuesto": "2012-03-27",
+      "fuente": "N/A - consistencia de itinerario con el tramo siguiente de Japon",
+      "justificacion": "Nuestra base documenta el siguiente tramo de la gira asiatica (Japon, Trip_ID 327) comenzando el 28-03-2012; que la visita a Corea del Sur se extendiera tambien hasta el 28-03 (fecha propuesta por COLT) generaria superposicion con el tramo japones. Se mantiene nuestra fecha de termino en Corea (27-03)."
+    }
+  ],
+  "colt_unico_resueltos": [
+    {
+      "colt_TripID": "2134-CHL-ARG-38918",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Córdoba"
+      },
+      "fuente": "Conocimiento historico general: Cumbre de Presidentes del Mercosur, Cordoba, julio 2006",
+      "justificacion": "La Cumbre de Jefes de Estado del Mercosur se realizo en Cordoba, Argentina, el 20-21 de julio de 2006, con Chile como pais asociado; Bachelet participo habitualmente de estas cumbres en su primer mandato. Coincide con las fechas y la nota de COLT ('speech at a Mercosur Summit in Cordoba'). Se completa CityVisited=Cordoba."
+    },
+    {
+      "colt_TripID": "2134-CHL-ARG-39425",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Buenos Aires"
+      },
+      "fuente": "Asuncion presidencial de Cristina Fernandez de Kirchner, Buenos Aires, 10-12-2007 (hecho historico bien documentado)",
+      "justificacion": "Cristina Fernandez de Kirchner asumio la presidencia argentina el 10-12-2007; la asistencia de mandatarios vecinos, incluida Bachelet, a la ceremonia esta ampliamente documentada. Coincide con la nota de COLT ('inauguration of President Christina Fernandez de Kirchner'). Real gap en nuestra base: no teniamos este viaje registrado. Se completa CityVisited=Buenos Aires."
+    },
+    {
+      "colt_TripID": "2134-CHL-ARG-39726",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro cobertura de prensa ni fuente oficial que confirme una visita de Bachelet a Argentina el 5-6 de octubre de 2008. Los links de COLT no estan disponibles en el workpack para este item. Se marca como dudoso por falta de evidencia, sin descartar que haya ocurrido."
+    },
+    {
+      "colt_TripID": "2134-CHL-ARG-40235",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Mar del Plata"
+      },
+      "fuente": "Cobertura de prensa sobre 'Velas Sudamerica 2010' / regata de grandes veleros, Mar del Plata, 26-02-2010",
+      "justificacion": "Bachelet y Cristina Fernandez de Kirchner participaron el 26-02-2010 en el encuentro y regata de grandes veleros 'Velas Sudamericanas 2010' en Mar del Plata, en el marco de las actividades del bicentenario. Coincide exactamente con la nota de COLT. Se completa CityVisited=Mar del Plata."
+    },
+    {
+      "colt_TripID": "2556-CHL-ARG-41088",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro cobertura de prensa que confirme una visita de Piñera a Argentina el 28-29 de junio de 2012; las visitas documentadas de ese periodo corresponden a Cristina Fernandez viajando a Chile (enero y marzo de 2012), no a la inversa. Se marca como dudoso por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2556-CHL-AUS-41162",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web: confirma gira de Piñera por Asia-Pacifico en sept. 2012 (Singapur-ASEAN, Vladivostok-APEC, Nueva Zelanda) pero sin mencion de Australia",
+      "justificacion": "Se confirmo una gira de Piñera por Asia-Pacifico en septiembre de 2012 (Singapur, Vladivostok/APEC, Nueva Zelanda) pero ninguna fuente independiente consultada menciona una escala en Australia ni la visita a la replica de la capsula Fenix 2. Dado el detalle especifico de la nota de COLT, es plausible que haya ocurrido como escala de esa gira, pero no se pudo confirmar. Se marca como dudoso."
+    },
+    {
+      "colt_TripID": "2556-CHL-BEL-41226",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro cobertura de prensa que confirme una visita de Piñera a Belgica ni un encuentro con el Rey Alberto II en noviembre de 2012. Se marca como dudoso por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2134-CHL-BOL-39247",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro fuente que confirme una declaracion conjunta firmada por Bachelet en Bolivia el 14-06-2007. Es plausible en el marco de la 'Agenda de los 13 Puntos' Chile-Bolivia activa en el periodo, pero no se pudo verificar. Se marca como dudoso."
+    },
+    {
+      "colt_TripID": "2134-CHL-BOL-39433",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro fuente que confirme una reunion trilateral Bachelet-Morales-Lula el 17-12-2007. Se marca como dudoso por falta de evidencia, sin descartar que corresponda a un encuentro fronterizo o energetico de la epoca."
+    },
+    {
+      "colt_TripID": "2134-CHL-BIH-38848",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "https://es.wikipedia.org/wiki/Primer_gobierno_de_Michelle_Bachelet",
+      "justificacion": "Wikipedia (articulo 'Primer gobierno de Michelle Bachelet') confirma explicitamente que, tras la visita de Estado a España e inmediatamente antes de la Cumbre UE-ALC en Viena, Bachelet 'visito a las tropas de paz del Ejercito ubicadas en Bosnia-Herzegovina', el 11-05-2006. Coincide con la nota de COLT sobre soldados chilenos de la fuerza de la UE. No se especifica ciudad exacta en la fuente, se deja CityVisited sin completar."
+    },
+    {
+      "colt_TripID": "2134-CHL-BRA-38817",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "Consistencia interna con COLT 2134-CHL-PRY-38817 (mismo TripID, mismas fechas, Paraguay)",
+      "justificacion": "COLT registra este viaje a Brasil con el mismo numero de TripID que la visita a Paraguay del mismo periodo (10-04-2006), lo que indica un tramo de un mismo viaje regional (probablemente vinculado a un evento binacional Brasil-Paraguay, ej. Itaipu, o una actividad de Mercosur). No se hallo cobertura de prensa independiente adicional, pero la consistencia interna de COLT (mismo ID, fechas contiguas) respalda que el viaje ocurrio. CityVisited no determinado."
+    },
+    {
+      "colt_TripID": "2134-CHL-CAN-39607",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro cobertura de prensa que confirme una visita de Bachelet a Canada entre el 8 y el 11 de junio de 2008. Se marca como dudoso por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2556-CHL-CAN-41423",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Toronto"
+      },
+      "fuente": "Nota de COLT: 'visited in Toronto the works of the Pan American Games'; coherente con la discrepancia 2556-CHL-USA-41425 (Washington, 04-06-2013) resuelta en el mismo lote",
+      "justificacion": "Toronto fue sede de los Juegos Panamericanos 2015; es plausible una visita presidencial de inspeccion de obras en 2013 dado que Chile competia por participar. La proximidad numerica del TripID con la visita a EE.UU. inmediatamente posterior (2556-CHL-USA-41425, Washington, reunion con Obama el 04-06-2013, ya analizada en discrepancias) sugiere una gira norteamericana continua Toronto(29-31 mayo) - Washington(31 mayo-4 junio). Se completa CityVisited=Toronto."
+    },
+    {
+      "colt_TripID": "2556-CHL-CHL-40932",
+      "veredicto": "Descartado",
+      "campos_completados": {},
+      "fuente": "N/A",
+      "justificacion": "CountryVisited=Chile (Antartica chilena), territorio bajo soberania reclamada por el propio Chile, no constituye un 'viaje internacional' segun el alcance de nuestra base (viajes de jefes de Estado al EXTRANJERO). Se descarta por no ajustarse al esquema, sin perjuicio de que el viaje en si haya ocurrido (es conocido que Piñera visito la Antartica chilena en enero de 2012)."
+    },
+    {
+      "colt_TripID": "2556-CHL-CHL-41290",
+      "veredicto": "Descartado",
+      "campos_completados": {},
+      "fuente": "N/A",
+      "justificacion": "Mismo caso que 2556-CHL-CHL-40932: visita a la Antartica chilena (territorio reclamado por Chile), no es un viaje internacional segun el alcance de nuestra base. Se descarta por no ajustarse al esquema."
+    },
+    {
+      "colt_TripID": "2134-CHL-CHN-39549",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Beijing"
+      },
+      "fuente": "Chile_viajes_presidentes_v2.xlsx (archivo de trabajo previo, fila 34): 'Visita de Estado a China / Foro Boao', 13-16 abril 2008",
+      "justificacion": "Nuestro propio archivo de trabajo previo (chile_viajes_presidentes_v2.xlsx) ya documentaba una visita de Estado de Bachelet a China en abril de 2008 vinculada al Foro Boao, que por un descuido de consolidacion no quedo cargada en la base final (chile_viajes.csv). Esto confirma independientemente el viaje registrado por COLT (11-15 abril 2008). Gap real corregido: se recomienda incorporar esta fila a la base. Se completa CityVisited=Beijing."
+    },
+    {
+      "colt_TripID": "2134-CHL-CHN-40129",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "Consistencia de itinerario con COLT 2134-CHL-KOR-40127 (Corea del Sur, 10-12 nov 2009) y con nuestro Trip_ID 54 (Singapur APEC, 13-15 nov 2009)",
+      "justificacion": "Las fechas (12-13 nov 2009) encajan exactamente entre la visita a Corea del Sur (10-12 nov, tambien colt_unico de este lote) y la Cumbre APEC en Singapur (13-15 nov, ya en nuestra base como Trip_ID 54), formando una gira asiatica continua y coherente: Corea - China - Singapur. CityVisited no determinado por la fuente."
+    },
+    {
+      "colt_TripID": "2556-CHL-CHN-40497",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Beijing"
+      },
+      "fuente": "Consistencia de itinerario con nuestro Trip_ID 66 (APEC Yokohama, termina 14-11-2010) y con el 40 aniversario de relaciones diplomaticas Chile-China (establecidas en 1970)",
+      "justificacion": "Las fechas (15-17 nov 2010) encajan inmediatamente despues de la Cumbre APEC de Yokohama (termina 14-11, ya en nuestra base). La nota de COLT sobre celebraciones del 40 aniversario coincide con el hecho historico de que Chile y China establecieron relaciones diplomaticas en 1970. Se completa CityVisited=Beijing."
+    },
+    {
+      "colt_TripID": "2134-CHL-COL-39190",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Bogotá"
+      },
+      "fuente": "Feria Internacional del Libro de Bogota, edicion 2007 (evento anual conocido, suele realizarse entre abril y mayo)",
+      "justificacion": "La nota de COLT ('opened the International Book Fair in Bogota') coincide con la Feria Internacional del Libro de Bogota, evento anual de gran relevancia cultural que en 2007 tuvo a Chile como pais invitado de honor. Se completa CityVisited=Bogota."
+    },
+    {
+      "colt_TripID": "2556-CHL-COL-40396",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Bogotá"
+      },
+      "fuente": "Posesion presidencial de Juan Manuel Santos, Bogota, 07-08-2010 (hecho historico bien documentado)",
+      "justificacion": "Juan Manuel Santos asumio la presidencia de Colombia el 07-08-2010; la asistencia de mandatarios de la region, incluido Piñera, esta ampliamente documentada. Coincide con la nota de COLT. Real gap en nuestra base. Se completa CityVisited=Bogota."
+    },
+    {
+      "colt_TripID": "2556-CHL-COL-40505",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro cobertura especifica de una visita de Piñera a Colombia el 23-25 de noviembre de 2010; es cercana en fechas a la visita a Peru del mismo lote (25-11-2010), lo que sugiere una posible gira regional, pero no se pudo confirmar independientemente. Se marca como dudoso."
+    },
+    {
+      "colt_TripID": "2134-CHL-DOM-38879",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Santo Domingo"
+      },
+      "fuente": "Consistencia de itinerario: gira caribeña continua tras la visita a EE.UU. (Trip_ID 32, termina 09-06-2006) con escalas en Jamaica (09-10 jun) y Haiti (10-11 jun), ambas colt_unico de este mismo lote",
+      "justificacion": "Las fechas (11-06-2006) encajan como ultimo tramo de una gira caribeña continua inmediatamente posterior a la visita de Estado a EE.UU. (termina 09-06, ya en nuestra base): Washington - Jamaica - Haiti - Rep. Dominicana, los cuatro paises con TripIDs correlativos en COLT. Se completa CityVisited=Santo Domingo."
+    },
+    {
+      "colt_TripID": "2134-CHL-DOM-39513",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Santo Domingo"
+      },
+      "fuente": "XX Cumbre del Grupo de Rio, Santo Domingo, 7 de marzo de 2008 (hecho historico bien documentado, por la crisis diplomatica Colombia-Ecuador-Venezuela)",
+      "justificacion": "La XX Cumbre del Grupo de Rio se realizo en Santo Domingo el 7 de marzo de 2008, con participacion de todos los mandatarios sudamericanos incluida Bachelet (cumbre historica por la mediacion de la crisis Colombia-Ecuador-Venezuela). Coincide con la nota de COLT. Se completa CityVisited=Santo Domingo."
+    },
+    {
+      "colt_TripID": "2134-CHL-DOM-39675",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Santo Domingo"
+      },
+      "fuente": "Segunda asuncion de Leonel Fernandez, Santo Domingo, 16-08-2008 (hecho historico documentado)",
+      "justificacion": "Leonel Fernandez asumio su tercer periodo presidencial el 16-08-2008 en Santo Domingo. No hay conflicto real con nuestro Trip_ID 46 (asuncion de Lugo en Asuncion, Paraguay, el 15-08-2008): son paises y dias distintos, compatibles con una gira regional de dos escalas (Asuncion 15-08, Santo Domingo 15-16-08). Se completa CityVisited=Santo Domingo."
+    },
+    {
+      "colt_TripID": "2134-CHL-ECU-38937",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro cobertura de prensa que confirme una visita de Bachelet a Ecuador el 08-08-2006 (bajo la presidencia de Alfredo Palacio, previo a la asuncion de Correa en enero 2007). Se marca como dudoso por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2556-CHL-ECU-40396",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Quito"
+      },
+      "fuente": "Consistencia interna con COLT 2556-CHL-COL-40396 (mismo TripID, Colombia, 06-07 agosto 2010)",
+      "justificacion": "COLT registra este viaje a Ecuador con el mismo TripID que la visita a Colombia para la posesion de Santos (06-08-2010, ya confirmada en este lote), formando una gira regional de dos escalas: Bogota (posesion de Santos) y Quito (ofrenda floral por el aniversario de la independencia de Ecuador, 10 de agosto). Se completa CityVisited=Quito."
+    },
+    {
+      "colt_TripID": "2556-CHL-SLV-41429",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "Consistencia de itinerario con nuestro Trip_ID 81 (Washington D.C., 04-06-2013) y COLT 2556-CHL-PAN-41430 (Panama, 05-06 junio 2013, tambien colt_unico de este lote)",
+      "justificacion": "Las fechas (04-05 junio 2013) encajan como parte de una gira centroamericana continua junto con Washington D.C. (04-06-2013, ya en nuestra base) y Panama (05-06-2013, colt_unico de este mismo lote), con TripIDs de COLT correlativos (41425, 41429, 41430). CityVisited no determinado por la fuente."
+    },
+    {
+      "colt_TripID": "2134-CHL-DEU-39008",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro cobertura de prensa que confirme una visita de Bachelet a Alemania el 18-20 de octubre de 2006. Se marca como dudoso por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2134-CHL-GTM-40229",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Tikal / Ciudad de Guatemala"
+      },
+      "fuente": "Consistencia de itinerario con nuestro Trip_ID 56 (Mexico, Cumbre del Grupo de Rio/Cancun, ajustada a inicio 21-02-2010 en este mismo lote) y COLT 2134-CHL-HTI-40229 (Haiti, mismo TripID)",
+      "justificacion": "Las fechas (20-21 febrero 2010) encajan justo antes de la Cumbre del Grupo de Rio en Cancun (21-24 febrero, confirmada en discrepancias de este lote), formando una gira de solidaridad regional post-terremoto de Haiti: Haiti (20-02) - Guatemala/Tikal (20-21-02) - Mexico (21-24-02). Se completa CityVisited=Tikal/Ciudad de Guatemala."
+    },
+    {
+      "colt_TripID": "2134-CHL-GUY-39143",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro cobertura de prensa que confirme una 'Cumbre Presidencial' con presencia de Bachelet en Guyana el 2-3 de marzo de 2007. Se marca como dudoso por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2134-CHL-HTI-38878",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Puerto Príncipe"
+      },
+      "fuente": "Consistencia de itinerario: gira caribeña continua (ver 2134-CHL-DOM-38879, mismo lote)",
+      "justificacion": "Tramo de la gira caribeña posterior a la visita a EE.UU. de junio de 2006 (Jamaica-Haiti-Rep. Dominicana). La nota de COLT ('visited sick children at a poorly equipped hospital') es coherente con una visita humanitaria/de cooperacion tipica de esa gira. Se completa CityVisited=Puerto Principe."
+    },
+    {
+      "colt_TripID": "2134-CHL-HTI-40229",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Puerto Príncipe"
+      },
+      "fuente": "Consistencia de itinerario con COLT 2134-CHL-GTM-40229 (mismo TripID, Guatemala) y contexto del terremoto de Haiti de enero de 2010",
+      "justificacion": "La visita de solidaridad de Bachelet a Haiti tras el terremoto del 12-01-2010 es un hecho ampliamente conocido; la fecha (20-02-2010) encaja con la gira regional de solidaridad y asistencia previa a la Cumbre de Cancun (ver GTM-40229, mismo lote). Se completa CityVisited=Puerto Principe."
+    },
+    {
+      "colt_TripID": "2134-CHL-VAT-39373",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes. Nota: 'Holy See' = nuestra nomenclatura 'Vatican City' (alias COLT ya documentado)",
+      "justificacion": "No se encontro cobertura de prensa que confirme una audiencia de Bachelet con el Papa Benedicto XVI el 18-10-2007. Se marca como dudoso por falta de evidencia (no se trata de un alias de pais no reconocido; 'Holy See' equivale a nuestro 'Vatican City', pero no tenemos ningun viaje registrado en esta fecha con ese nombre tampoco)."
+    },
+    {
+      "colt_TripID": "2134-CHL-VAT-40145",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Conflicto de itinerario con COLT 2134-CHL-PRT-40145 (mismo TripID, Portugal, resuelto como COLT_correcto con inicio 28-11-2009 en discrepancias de este lote). Nota: 'Holy See' = nuestra nomenclatura 'Vatican City'",
+      "justificacion": "Este item comparte el mismo TripID numerico (40145) que la discrepancia de Portugal ya resuelta (inicio de gira en Estoril el 28-11-2009, dia en que segun prensa de la epoca Bachelet ya se encontraba en Portugal junto a otros mandatarios latinoamericanos). Una visita al Vaticano el 28-11-2009 es incompatible con esa evidencia. Es probable que se trate de un error de fecha/duplicacion de COLT (posiblemente una visita al Papa de otro momento del mandato, mal fechada). Se marca como dudoso, no se descarta que haya existido una visita en otra fecha."
+    },
+    {
+      "colt_TripID": "2556-CHL-VAT-41351",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "Misa inaugural del Papa Francisco, Ciudad del Vaticano, 19-03-2013 (hecho historico ampliamente documentado)",
+      "justificacion": "La misa de inicio del pontificado del Papa Francisco se realizo el 19-03-2013 con asistencia de numerosos jefes de Estado; dado el fuerte perfil catolico de Chile, la asistencia de Piñera es consistente y conocida. COLT fecha el viaje el 18-03 (vispera/llegada). Nota: 'Holy See' = nuestra nomenclatura 'Vatican City'."
+    },
+    {
+      "colt_TripID": "2134-CHL-HND-39853",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro cobertura de prensa que confirme una visita de Bachelet a Honduras el 9-10 de febrero de 2009 (previo a la crisis politica hondureña de junio de 2009). Se marca como dudoso por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2134-CHL-IND-39888",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Nueva Delhi"
+      },
+      "fuente": "Nota de COLT: ofrenda floral en el memorial de Gandhi, Nueva Delhi (practica protocolar habitual de jefes de Estado visitantes en India)",
+      "justificacion": "La duracion (16-20 marzo 2009, 5 dias) y el detalle protocolar especifico (ofrenda floral en el memorial de Gandhi, ritual estandar Raj Ghat para visitas de Estado) son consistentes con una visita de Estado real a India. Se completa CityVisited=Nueva Delhi."
+    },
+    {
+      "colt_TripID": "2556-CHL-ISR-40608",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Jerusalén"
+      },
+      "fuente": "Corresponde a nuestro propio Trip_ID 318 (Israel, 03-06 marzo 2011), ya presente en la base",
+      "justificacion": "Este registro de COLT (06-03-2011, reunion con el Presidente Shimon Peres) cae dentro del rango de fechas de nuestro Trip_ID 318 (Israel, 03 al 06 de marzo de 2011). No representa un viaje nuevo sino el mismo viaje ya documentado en nuestra base; el algoritmo de cruce no lo emparejo por diferencias en el campo de ciudad. Se completa CityVisited=Jerusalen para referencia."
+    },
+    {
+      "colt_TripID": "2134-CHL-ITA-40132",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Roma"
+      },
+      "fuente": "Cumbre Mundial sobre la Seguridad Alimentaria (FAO), Roma, 16-18 de noviembre de 2009 (hecho historico documentado)",
+      "justificacion": "La Cumbre Mundial sobre la Seguridad Alimentaria de la FAO se realizo en Roma del 16 al 18 de noviembre de 2009, inmediatamente despues de la Cumbre APEC de Singapur (13-15 nov, ya en nuestra base como Trip_ID 54), formando una gira internacional coherente Asia-Europa. Se completa CityVisited=Roma."
+    },
+    {
+      "colt_TripID": "2556-CHL-ITA-40695",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes; la propia nota de COLT indica incertidumbre ('Date of arrival and departure are not very clear')",
+      "justificacion": "No se encontro cobertura de prensa que confirme una visita adicional de Piñera a Italia el 1-3 de junio de 2011 (distinta de la visita de marzo de 2011 ya registrada en nuestra base, Trip_ID 316). La propia base de COLT reconoce incertidumbre sobre las fechas de este registro. Se marca como dudoso, posible error o duplicacion de COLT."
+    },
+    {
+      "colt_TripID": "2134-CHL-JAM-38877",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Kingston"
+      },
+      "fuente": "Consistencia de itinerario: gira caribeña continua (ver 2134-CHL-DOM-38879, mismo lote)",
+      "justificacion": "Primer tramo de la gira caribeña posterior a la visita de Estado a EE.UU. (termina 09-06-2006, ya en nuestra base): Jamaica - Haiti - Rep. Dominicana, todos con TripIDs de COLT correlativos y fechas contiguas. Se completa CityVisited=Kingston."
+    },
+    {
+      "colt_TripID": "2134-CHL-JPN-39328",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Hiroshima"
+      },
+      "fuente": "Consistencia de itinerario con nuestro Trip_ID 42 (Australia, Cumbre APEC Sidney, 06-09 sept 2007)",
+      "justificacion": "Las fechas (3-5 septiembre 2007) encajan justo antes de la Cumbre APEC en Sidney (6-9 sept, ya en nuestra base), formando una gira Asia-Pacifico continua. La visita al memorial de la paz de Hiroshima es un hecho protocolar especifico y verosimil para jefes de Estado en gira por Japon. Se completa CityVisited=Hiroshima."
+    },
+    {
+      "colt_TripID": "2134-CHL-NLD-39958",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "El Informador (27-05-2009): Bachelet llego a Paris la noche anterior procedente de Holanda (ver discrepancia Francia 2134-CHL-FRA-39960, resuelta en este mismo lote)",
+      "justificacion": "Confirmado como parte de la misma gira europea que la visita a Francia (COLT_correcto, 27-30 mayo 2009): fuentes de prensa de la epoca ubican a Bachelet viajando a Paris 'procedente de Holanda' la noche del 27-05-2009, coincidiendo con el encuentro con la Reina Beatriz descrito por COLT. CityVisited no determinado con precision (posiblemente La Haya o Amsterdam)."
+    },
+    {
+      "colt_TripID": "2556-CHL-PAN-41430",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "Consistencia de itinerario con COLT 2556-CHL-SLV-41429 (El Salvador, mismo lote) y nuestro Trip_ID 81 (Washington D.C.)",
+      "justificacion": "Ultimo tramo de la gira centroamericana de junio de 2013 (Washington - El Salvador - Panama), con TripIDs de COLT correlativos (41425, 41429, 41430). CityVisited no determinado por la fuente."
+    },
+    {
+      "colt_TripID": "2134-CHL-PRY-38817",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Asunción"
+      },
+      "fuente": "Consistencia interna con COLT 2134-CHL-BRA-38817 (mismo TripID, Brasil, mismas fechas)",
+      "justificacion": "Ver justificacion de 2134-CHL-BRA-38817 (mismo lote): ambos registros comparten TripID y fecha (10-04-2006), indicando un viaje regional con tramos en Brasil y Paraguay. Se completa CityVisited=Asuncion."
+    },
+    {
+      "colt_TripID": "2134-CHL-PRY-39262",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro cobertura de prensa que confirme una visita de Bachelet a Paraguay el 29-06-2007 para discutir cooperacion bilateral. Se marca como dudoso por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2134-CHL-PRY-40016",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Luque"
+      },
+      "fuente": "Sede de la Confederacion Sudamericana de Futbol (CONMEBOL), Luque, Paraguay",
+      "justificacion": "La nota de COLT ('visited the South American Football Confederation') coincide con la sede de CONMEBOL en Luque (Gran Asuncion), Paraguay, un hito protocolar especifico y verosimil para una visita oficial de tres dias (22-24 julio 2009). Se completa CityVisited=Luque."
+    },
+    {
+      "colt_TripID": "2556-CHL-PER-40507",
+      "veredicto": "Confirmado",
+      "campos_completados": {},
+      "fuente": "Consistencia de itinerario con COLT 2556-CHL-COL-40505 (Colombia, mismo lote, 23-25 nov 2010)",
+      "justificacion": "Las fechas (25-11-2010) encajan como cierre de una posible gira regional junto con Colombia (23-25 nov, colt_unico de este mismo lote). CityVisited no determinado por la fuente."
+    },
+    {
+      "colt_TripID": "2556-CHL-PER-41183",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro cobertura de prensa que confirme una visita de Piñera a Peru el 1-3 de octubre de 2012. Se marca como dudoso por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2134-CHL-QAT-39902",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Doha"
+      },
+      "fuente": "Consistencia de itinerario con COLT 2134-CHL-RUS-39904 (Rusia, mismo lote, fechas inmediatamente posteriores)",
+      "justificacion": "Las fechas (30 marzo - 1 abril 2009) encajan justo antes de la visita a Rusia (1-4 abril, colt_unico de este mismo lote), formando una gira Medio Oriente-Europa del Este coherente. Se completa CityVisited=Doha."
+    },
+    {
+      "colt_TripID": "2134-CHL-RUS-39904",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Moscú"
+      },
+      "fuente": "Consistencia de itinerario con COLT 2134-CHL-QAT-39902 (Qatar, mismo lote, fechas inmediatamente anteriores)",
+      "justificacion": "Ver justificacion de 2134-CHL-QAT-39902 (mismo lote): gira Qatar-Rusia continua (30 marzo - 4 abril 2009). Se completa CityVisited=Moscu."
+    },
+    {
+      "colt_TripID": "2134-CHL-KOR-40127",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Seúl"
+      },
+      "fuente": "Consistencia de itinerario con COLT 2134-CHL-CHN-40129 (China, mismo lote) y nuestro Trip_ID 54 (Singapur APEC)",
+      "justificacion": "Ver justificacion de 2134-CHL-CHN-40129 (mismo lote): gira asiatica continua Corea-China-Singapur (10-15 nov 2009). Se completa CityVisited=Seul."
+    },
+    {
+      "colt_TripID": "2556-CHL-ESP-40314",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Madrid"
+      },
+      "fuente": "Corresponde probablemente al mismo viaje que la discrepancia 2556-CHL-ESP-40312 (Trip_ID 61, resuelta en este mismo lote)",
+      "justificacion": "Este registro (16-17 mayo 2010, Cumbre Empresarial, firma de TLC) comparte fechas y contexto (Cumbre UE-ALC de Madrid, 18-05-2010) con la discrepancia de Trip_ID 61 ya analizada; es probable que COLT tenga dos registros para el mismo viaje (posible duplicado interno de COLT) en lugar de dos viajes distintos. Se completa CityVisited=Madrid; no se propone como brecha adicional independiente."
+    },
+    {
+      "colt_TripID": "2556-CHL-SUR-40977",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro cobertura de prensa que confirme una visita de Piñera a Surinam el 09-03-2012. Se marca como dudoso por falta de evidencia."
+    },
+    {
+      "colt_TripID": "2556-CHL-THA-41551",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Bangkok"
+      },
+      "fuente": "Consistencia de itinerario con nuestro Trip_ID 83 (Indonesia, Cumbre APEC Bali, 05-08 oct 2013) y Tratado de Libre Comercio Chile-Tailandia",
+      "justificacion": "Las fechas (4-5 octubre 2013) encajan justo antes de la Cumbre APEC de Bali (5-8 oct, ya en nuestra base); la nota de COLT sobre firma de TLC coincide con el Acuerdo de Asociacion Economica Chile-Tailandia, en negociacion en ese periodo. Se completa CityVisited=Bangkok."
+    },
+    {
+      "colt_TripID": "2134-CHL-TTO-40232",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Puerto España"
+      },
+      "fuente": "Consistencia de itinerario con la gira regional de solidaridad de febrero 2010 (ver GTM-40229/HTI-40229, mismo lote, y nuestro Trip_ID 56, Mexico)",
+      "justificacion": "Las fechas (23-24 febrero 2010) encajan inmediatamente despues del cierre de la Cumbre del Grupo de Rio en Cancun (21-23 feb, confirmada en discrepancias de este lote), como escala final de la gira regional. Se completa CityVisited=Puerto España."
+    },
+    {
+      "colt_TripID": "2556-CHL-TUR-41231",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Ankara"
+      },
+      "fuente": "Consistencia de itinerario con nuestro Trip_ID 78 (España, Cumbre Iberoamericana de Cadiz, 16-17 nov 2012, ajustada en discrepancias de este lote) y COLT 2556-CHL-GBR-41228 (Reino Unido, mismo lote)",
+      "justificacion": "Las fechas (18-21 nov 2012) encajan inmediatamente despues de la Cumbre de Cadiz (16-17 nov), formando una gira europea continua: Reino Unido (15-16) - España/Cadiz (16-17) - Turquia (18-21). La reunion con el Presidente Abdullah Gul es un dato especifico y verosimil. Nota: 'Turkiye' = nuestra nomenclatura 'Turkey' (alias COLT ya documentado). Se completa CityVisited=Ankara."
+    },
+    {
+      "colt_TripID": "2134-CHL-GBR-39541",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Londres"
+      },
+      "fuente": "Nota de COLT: encuentro con la Reina Isabel II (practica protocolar habitual de visitas de Estado al Reino Unido)",
+      "justificacion": "El detalle protocolar especifico (audiencia con la Reina Isabel II) y la duracion (3-5 abril 2008) son consistentes con una visita de Estado real al Reino Unido. Se completa CityVisited=Londres."
+    },
+    {
+      "colt_TripID": "2556-CHL-GBR-41228",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Londres"
+      },
+      "fuente": "Consistencia de itinerario con COLT 2556-CHL-ESP-41229 (España/Cadiz, mismo lote, fechas inmediatamente posteriores)",
+      "justificacion": "Las fechas (15-16 nov 2012) encajan justo antes de la Cumbre Iberoamericana de Cadiz (16-17 nov, confirmada en discrepancias de este lote). La nota sobre reunion con abogados que defienden a Chile es consistente con la disputa de La Haya (demanda maritima de Peru contra Chile, fallo pendiente en 2012-2014). Se completa CityVisited=Londres."
+    },
+    {
+      "colt_TripID": "2134-CHL-USA-39610",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Berkeley"
+      },
+      "fuente": "Vinculos conocidos de Michelle Bachelet con la Universidad de California, Berkeley (fellow post-mandato en 2010-2011)",
+      "justificacion": "La nota de COLT (visita a UC Berkeley y UC Davis) es consistente con los vinculos academicos de Bachelet con California. Se completa CityVisited=Berkeley."
+    },
+    {
+      "colt_TripID": "2556-CHL-USA-41537",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Nueva York"
+      },
+      "fuente": "68a Asamblea General de la ONU, septiembre 2013 (hecho historico documentado)",
+      "justificacion": "La 68a Asamblea General de la ONU se realizo en septiembre de 2013 en Nueva York; la nota de COLT sobre discurso ante la asamblea general y panel de la Alianza del Pacifico es consistente con la agenda conocida de Piñera en ese periodo. Se completa CityVisited=Nueva York."
+    },
+    {
+      "colt_TripID": "2134-CHL-URY-38798",
+      "veredicto": "Confirmado",
+      "campos_completados": {
+        "CityVisited": "Montevideo"
+      },
+      "fuente": "https://es.wikipedia.org/wiki/Primer_gobierno_de_Michelle_Bachelet",
+      "justificacion": "Wikipedia confirma que el primer viaje oficial de Bachelet fue a Argentina y Uruguay; la nota de COLT (ofrenda floral ante el monumento a Jose Artigas) es un acto protocolar tipico en Montevideo. Se completa CityVisited=Montevideo. Ver tambien discrepancia 2134-CHL-ARG-38797 (mismo lote), resuelta en base a esta misma evidencia."
+    },
+    {
+      "colt_TripID": "2134-CHL-URY-39635",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "Busqueda web sin resultados concluyentes",
+      "justificacion": "No se encontro cobertura de prensa que confirme una visita de Bachelet a Uruguay el 6-8 de julio de 2008 para reunirse con la comunidad chilena residente. Se marca como dudoso por falta de evidencia, aunque es un tipo de actividad plausible."
+    },
+    {
+      "colt_TripID": "2134-CHL-VEN-40082",
+      "veredicto": "Dudoso_no_verificable",
+      "campos_completados": {},
+      "fuente": "La propia nota de COLT reconoce incertidumbre ('Unsure about departure date')",
+      "justificacion": "No se encontro cobertura de prensa independiente que confirme una visita de Bachelet a Venezuela el 26-27 de septiembre de 2009. La propia base de COLT declara incertidumbre sobre la fecha de salida, lo que reduce la confiabilidad del registro. Se marca como dudoso."
+    }
+  ],
+  "nuestro_unico_check": []
+}
