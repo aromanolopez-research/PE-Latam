@@ -883,3 +883,85 @@ Es decir, a diferencia de lo que se penso inicialmente, NO existe una
 brecha real de "extension a 1990" pendiente para Argentina -COLT mismo no
 cubre ese periodo-, a diferencia de Chile y Brasil, que si tienen datos
 COLT desde 1990 (Chile) y 1948 (Brasil) sin cobertura propia equivalente.
+[2026-08-18] DECISION DE ALCANCE | El usuario confirmo usar 1994 (no 1990)
+como anio de arranque uniforme para todos los paises, ya que Argentina -el
+pais con menor cobertura- no tiene datos COLT antes de 1994. Se actualizo
+el alcance de las tareas pendientes de Brasil (ahora "1994-1999, resto de
+Franco + Cardoso 1er mandato" en vez de "1990-1999, Collor+Franco+
+Cardoso1") y Chile (ahora "1994-1999, Frei Ruiz-Tagle" en vez de "1990-
+1999, Aylwin+Frei"). Esto reduce el volumen real de filas COLT a
+investigar en ambos paises (Collor queda totalmente fuera del alcance;
+Aylwin, cuyo mandato termino en marzo 1994, casi enteramente fuera).
+
+=== COMPLETAR CAMPOS DE MICRO-CONDUCTA — ARGENTINA/BRASIL/CHILE (2026-08-18) ===
+[2026-08-18] SETUP | El usuario detecto columnas vacias en la hoja
+Datos_COLT_Sudamerica (N, P, X, Y, Z, AB, AC, AF-AO = CountryVisitedISO,
+SubRegionVisited, SubHOGSTravelWithHOGS, CotravelHOGS, MetHostHoGS,
+SubHOGSmetHostSubHOGS, HostSubHOGSName, AttendedMultilatMinisterialEvent,
+NameMultilatMinisterialEvent, MetNonhostHOGS, NonhostHOGSNames,
+PublicAddress, SignedAgreement, CulturalSiteOrCeremony,
+BusinessLeaderOrForum, MetIGOLeader, IGOLeaderName) y pidio completarlas
+para Argentina primero, luego el resto de los paises. Diagnostico: el
+problema afectaba especificamente a las 111 filas PELATAM (25 ARG + 27 BRA
++ 59 CHL) -las filas nativas de COLT SI tenian estos campos completos-,
+porque los scripts de insercion originales solo mapeaban un subconjunto de
+campos. Se pregunto al usuario como completar los 9 campos de
+comportamiento sin equivalente directo ya cargado en nuestra base (solo 1
+de 25 filas argentinas tenia datos reales): opciones eran inferencia desde
+texto ya cargado, investigacion independiente con subagentes, o dejar en
+blanco. El usuario eligio investigacion independiente con subagentes
+(mismo rigor que discrepancias/colt_unico).
+[2026-08-18] CORRECCION MECANICA | Se completaron primero, sin
+investigacion adicional, los campos derivables: CountryVisitedISO/
+SubRegionVisited via lookup de pais (25 ARG + 27 BRA rellenados; Chile ya
+los tenia desde su insercion original), y los 9 campos de comportamiento
+para los que SI hay equivalente en nuestro propio esquema de 31 columnas
+(MetHostHOGS, MetNonHostHOGS, NonHostHOGS_Name, PublicAddress,
+SignedAgreement, CulturalSiteOrCeremony, BusinessLeaderOrForum,
+MetIGOLeader, IGOLeader_Name) cuando nuestra propia base ya tenia el dato
+(TRUE/FALSE mapeado a Yes/No). Resultado: solo 1 fila de Argentina tenia
+datos reales que copiar (el resto de nuestras propias filas nuestro_unico
+tambien tenian estos campos en NA, sin investigar).
+[2026-08-18] INVESTIGACION INDEPENDIENTE | Se lanzaron subagentes (1 para
+Argentina -25 filas-, 1 para Brasil -27 filas-, 2 en paralelo para Chile
+-29+30 filas-) a investigar los 7 campos booleanos + 2 campos de nombre
+para cada fila PELATAM, con instruccion explicita de usar "No_verificable"
+en vez de asumir "No" cuando no hay evidencia clara en ningun sentido (para
+no introducir falsos negativos en una base academica). Resultado agregado
+(111 filas, 7 campos booleanos c/u = 777 celdas booleanas):
+  - Argentina: 141/175 celdas completadas (81%), resto No_verificable.
+  - Brasil: 154/189 celdas completadas (81%), resto No_verificable.
+  - Chile: 263/413 celdas completadas (64%), resto No_verificable -Chile
+    tuvo mas incertidumbre por tramos bilaterales antiguos y cumbres
+    masivas sin cobertura especifica de asistencia-.
+Los campos sin equivalente en nuestro esquema (SubHOGSTravelWithHOGS,
+CotravelHOGS, SubHOGSmetHostSubHOGS, HostSubHOGSName,
+AttendedMultilatMinisterialEvent, NameMultilatMinisterialEvent) quedaron
+en blanco con nota explicita en cada fila (no se investigaron, refieren a
+un "sub-jefe de gobierno" -vicepresidente/canciller- viajando junto al
+presidente, variable rara y fuera del foco del proyecto).
+[2026-08-18] HALLAZGO IMPORTANTE — POSIBLES VIAJES FANTASMA EN NUESTRA
+PROPIA BASE (Brasil) | El subagente de Brasil encontro evidencia
+especifica de AUSENCIA (no solo falta de confirmacion) para 2 de las 27
+filas investigadas:
+  1. Trip_ID 59 (Lula, Cumbre Iberoamericana San Jose, nov-2004): fuente
+     academica especializada (Celestino del Arenal, Real Instituto Elcano)
+     afirma textualmente que Lula estuvo AUSENTE, reemplazado por su
+     presencia en la cumbre de APEC ese mismo periodo (coincidiendo con
+     una visita de Putin a Brasil).
+  2. Trip_ID 170 (Dilma, Cumbre G77+China, Santa Cruz de la Sierra,
+     jun-2014): listados de prensa de los 17 jefes de Estado/Gobierno
+     presentes NO incluyen a Brasil/Dilma. Ademas, el Source_Verification
+     original de esta fila NUNCA fue una URL real (era "Search Query:
+     Dilma G77 China Santa Cruz junho 2014"), es decir nunca se habia
+     verificado con una fuente concreta.
+Ambas filas se flagearon con ALERTA explicita en brasil_viajes.csv y en
+sus PELATAM correspondientes en la hoja COLT (sin eliminar ninguna),
+pendientes de decision del equipo sobre si corresponde retirarlas de la
+base.
+[2026-08-18] QC FINAL | 0 TripID duplicados en las 5273 filas del libro.
+validate.py sobre brasil_viajes.csv: 363 filas, 263 viajes fisicos, 0
+errores (las 2 alertas de posible viaje fantasma no rompen el esquema,
+solo se anotaron). Logs completos en argentina_microcampos_veredictos.csv,
+brasil_microcampos_veredictos.csv, chile_microcampos_veredictos.csv.
+[2026-08-18 19:53] INTEGRACION | Base consolidada: 1527 filas / 1209 viajes físicos / 5 país(es): Argentina, Brasil, Chile, Paraguay, Uruguay

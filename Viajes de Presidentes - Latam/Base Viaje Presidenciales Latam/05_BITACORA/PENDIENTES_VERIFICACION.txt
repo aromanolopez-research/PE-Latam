@@ -1547,5 +1547,53 @@ hay una brecha real de "extension a 1990" pendiente para Argentina -COLT
 mismo no cubre ese periodo para este pais-. Esto es distinto de Chile
 (COLT cubre desde 1990, 104 filas 1990-1999 sin cruzar) y Brasil (COLT
 cubre desde 1948, 113 filas 1990-1999 sin cruzar), donde si existe una
-brecha real pendiente de construir.
+brecha real pendiente de construir. [ACTUALIZADO 2026-08-18: el usuario
+confirmo usar 1994 como anio de arranque uniforme para todos los paises;
+el alcance de Brasil/Chile pendiente de construir se redujo a 1994-1999.]
+================================================================================
+
+================================================================================
+COMPLETAR CAMPOS DE MICRO-CONDUCTA — ARGENTINA/BRASIL/CHILE (2026-08-18)
+================================================================================
+
+[DECISION REQUERIDA] Dos posibles "viajes fantasma" detectados en nuestra
+PROPIA base de Brasil durante la investigacion de micro-conducta (no son
+errores de COLT, son filas nuestras con evidencia de que el viaje no
+ocurrio):
+  - Trip_ID 59 (brasil_viajes.csv): Lula, Cumbre Iberoamericana San Jose,
+    nov-2004. Fuente academica especializada (Celestino del Arenal, Real
+    Instituto Elcano) afirma que Lula estuvo AUSENTE (presente en la
+    cumbre de APEC en su lugar, coincidiendo con visita de Putin a
+    Brasil).
+  - Trip_ID 170 (brasil_viajes.csv): Dilma, Cumbre G77+China Santa Cruz de
+    la Sierra, jun-2014. Listados de prensa de los 17 jefes de Estado/
+    Gobierno presentes NO incluyen a Brasil/Dilma. El Source_Verification
+    original nunca fue una URL real (era una consulta de busqueda sin
+    resolver), es decir nunca se habia verificado con una fuente
+    concreta.
+Ambas filas quedaron flageadas con ALERTA explicita (en brasil_viajes.csv
+y en su fila PELATAM correspondiente de la hoja COLT), sin eliminarse.
+Requiere que el equipo decida si se retiran de la base o se investigan
+mas a fondo.
+
+[COMPLETADO CON RESERVAS] Campos de comportamiento (MetHostHoGS,
+MetNonhostHOGS, PublicAddress, SignedAgreement, CulturalSiteOrCeremony,
+BusinessLeaderOrForum, MetIGOLeader + campos de nombre) para las 111 filas
+PELATAM (25 ARG + 27 BRA + 59 CHL): completados con investigacion
+independiente donde se encontro evidencia (81%/81%/64% respectivamente);
+el resto quedo explicitamente "No_verificable" (blanco + nota en Notes)
+en vez de asumir "No" sin evidencia. Logs completos con fuente y
+justificacion de cada veredicto en:
+  - 05_BITACORA/anexos_colt_sudamerica/argentina_microcampos_veredictos.csv
+  - 05_BITACORA/anexos_colt_sudamerica/brasil_microcampos_veredictos.csv
+  - 05_BITACORA/anexos_colt_sudamerica/chile_microcampos_veredictos.csv
+
+[PENDIENTE-COMPLETITUD] 6 campos de la hoja COLT (SubHOGSTravelWithHOGS,
+CotravelHOGS, SubHOGSmetHostSubHOGS, HostSubHOGSName,
+AttendedMultilatMinisterialEvent, NameMultilatMinisterialEvent) quedaron
+en blanco para las 111 filas PELATAM -no tienen equivalente en nuestro
+esquema propio de 31 columnas y no fueron investigados-. Son variables
+raras (sobre un "sub-jefe de gobierno", ej. vicepresidente o canciller,
+viajando junto al presidente o reuniendose con su contraparte), fuera del
+foco actual del proyecto salvo que el usuario pida completarlas tambien.
 ================================================================================
