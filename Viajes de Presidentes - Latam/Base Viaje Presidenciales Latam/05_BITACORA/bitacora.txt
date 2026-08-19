@@ -965,3 +965,27 @@ errores (las 2 alertas de posible viaje fantasma no rompen el esquema,
 solo se anotaron). Logs completos en argentina_microcampos_veredictos.csv,
 brasil_microcampos_veredictos.csv, chile_microcampos_veredictos.csv.
 [2026-08-18 19:53] INTEGRACION | Base consolidada: 1527 filas / 1209 viajes físicos / 5 país(es): Argentina, Brasil, Chile, Paraguay, Uruguay
+
+=== GRAFICOS EXPLORATORIOS EN R (2026-08-19) ===
+[2026-08-19] SETUP | Ante el limite de uso semanal, el usuario pidio dejar
+preparados graficos exploratorios en R/RStudio (herramienta habitual del
+usuario) sobre 04_BASE_FINAL/base_consolidada.csv, respondiendo: evolucion
+general de los viajes en el tiempo, prioridad regional por epoca, cambios
+en la duracion, evolucion de Bilateral/Multilateral/Other, destinos
+preferidos por mandatario, y primer destino de cada mandatario. Se creo
+08_ANALISIS_R/graficos_exploratorios.R (script tidyverse/ggplot2 completo,
+con funcion reutilizable graficar_top_destinos()) y README.txt con
+instrucciones de uso.
+[2026-08-19] LIMITACION TECNICA | El sandbox de este entorno no tiene R
+instalado y el acceso a CRAN esta bloqueado por el allowlist de red (se
+confirmo con apt-cache, intento de descarga de micromamba, y curl a
+cloud.r-project.org -> 403 blocked-by-allowlist). No se pudo ejecutar el
+script para verificarlo end-to-end. Se compenso: (a) revision manual
+linea por linea de la sintaxis tidyverse/ggplot2, y (b) validacion de la
+logica de cada agregacion replicandola en pandas (Python), confirmando
+resultados no vacios y de magnitud razonable (ej. duracion promedio
+2000-2026 entre 1.5 y 2.7 dias, particion Bilateral/Multilateral
+oscilando pero sin tendencia monotona clara en 2017-2026, 30 presidentes
+con primer destino identificado). Documentado en el README para
+transparencia; si aparece algun error de sintaxis al correrlo en RStudio
+se corrige en la proxima sesion.
