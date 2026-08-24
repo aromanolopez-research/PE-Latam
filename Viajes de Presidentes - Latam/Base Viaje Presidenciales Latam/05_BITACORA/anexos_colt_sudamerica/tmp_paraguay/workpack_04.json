@@ -1,0 +1,727 @@
+[
+  {
+    "colt_TripID": "2814-PRY-USA-41175",
+    "colt_LeaderID": "2814",
+    "our_Trip_ID": "70",
+    "President": "Federico Franco",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-09-22",
+        "colt": "2012-09-23"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2814-PRY-USA-41368",
+    "colt_LeaderID": "2814",
+    "our_Trip_ID": "71",
+    "President": "Federico Franco",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-04-05",
+        "colt": "2013-04-04"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2814-PRY-TWN-41415",
+    "colt_LeaderID": "2814",
+    "LeaderFullName": "Federico Franco",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "2013-05-21",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2814-PRY-USA-41248",
+    "colt_LeaderID": "2814",
+    "LeaderFullName": "Federico Franco",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2012-12-05",
+    "TripDuration": "15",
+    "Notes": "Visits Coral Gables City Hall;dates approx"
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-41990",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "84",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-12-16",
+        "colt": "2014-12-17"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-BRA-42202",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "86",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-BRA-43090",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "97",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2017-12-20",
+        "colt": "2017-12-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-CHL-41708",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "79",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-03-11",
+        "colt": "2014-03-10"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-ECU-42396",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "88",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2016-01-26",
+        "colt": "2016-01-27"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-VAT-41756",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "80",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-VAT-43048",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "96",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2017-11-07",
+        "colt": "2017-11-09"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-ISR-43240",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "98",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2018-05-21",
+        "colt": "2018-05-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-PAN-41564",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "77",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-10-18",
+        "colt": "2013-10-17"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-USA-41538",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "75",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-09-24",
+        "colt": "2013-09-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 8
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-USA-42275",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "87",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2015-09-26",
+        "colt": "2015-09-28"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-USA-42998",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "95",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2017-09-19",
+        "colt": "2017-09-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-VEN-41849",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "81",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-07-28",
+        "colt": "2014-07-29"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-42348",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2015-12-10",
+    "TripDuration": "2",
+    "Notes": "Attended Presidential inauguration"
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-42445",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2016-03-16",
+    "TripDuration": "1",
+    "Notes": "Receives Shalom Prize"
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-42499",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2016-05-09",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-42990",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2017-09-12",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-43012",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2017-10-04",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-43079",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2017-12-10",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-BEL-42165",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Belgium",
+    "CityVisited": null,
+    "TripStartDate": "2015-06-10",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-BOL-41614",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2013-12-06",
+    "TripDuration": "1",
+    "Notes": "Trip to Bolivia to establish diplomatic ties"
+  },
+  {
+    "colt_TripID": "2931-PRY-BOL-42026",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2015-01-22",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2931-PRY-BOL-42240",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2015-08-24",
+    "TripDuration": "2",
+    "Notes": "Inauguration of liquefied petroleum gas plan"
+  },
+  {
+    "colt_TripID": "2931-PRY-BOL-43060",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2017-11-21",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-BRA-41802",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2014-06-12",
+    "TripDuration": "1",
+    "Notes": "Attended opening match of World Cup"
+  },
+  {
+    "colt_TripID": "2931-PRY-BRA-41836",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2014-07-16",
+    "TripDuration": "1",
+    "Notes": "Only attended the opening ceremony"
+  },
+  {
+    "colt_TripID": "2931-PRY-BRA-42968",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2017-08-21",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-CHL-41533",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2013-09-16",
+    "TripDuration": "2",
+    "Notes": "Met with congress, president of supreme court"
+  },
+  {
+    "colt_TripID": "2931-PRY-CHL-42643",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2016-09-30",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-COL-41857",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2014-08-06",
+    "TripDuration": "2",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2931-PRY-ECU-41964",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "2014-11-21",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-ECU-41978",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "2014-12-05",
+    "TripDuration": "1",
+    "Notes": "Attended Ceremony marking inauguration of UNASUR headquarters"
+  },
+  {
+    "colt_TripID": "2931-PRY-ECU-42879",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "2017-05-24",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2931-PRY-FRA-42338",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "France",
+    "CityVisited": null,
+    "TripStartDate": "2015-11-30",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-FRA-42524",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "France",
+    "CityVisited": null,
+    "TripStartDate": "2016-06-03",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-DEU-42713",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Germany",
+    "CityVisited": null,
+    "TripStartDate": "2016-12-09",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-VAT-41603",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Holy See",
+    "CityVisited": null,
+    "TripStartDate": "2013-11-25",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-VAT-42755",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Holy See",
+    "CityVisited": null,
+    "TripStartDate": "2017-01-20",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-ISR-42568",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Israel",
+    "CityVisited": null,
+    "TripStartDate": "2016-07-17",
+    "TripDuration": "3",
+    "Notes": "Tree planting ceremony"
+  },
+  {
+    "colt_TripID": "2931-PRY-JPN-41813",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Japan",
+    "CityVisited": null,
+    "TripStartDate": "2014-06-23",
+    "TripDuration": "4",
+    "Notes": "Also met with Emperor Akihito"
+  },
+  {
+    "colt_TripID": "2931-PRY-MEX-42608",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2016-08-26",
+    "TripDuration": "1",
+    "Notes": "Laid wreath at Heroes square"
+  },
+  {
+    "colt_TripID": "2931-PRY-PAN-42103",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Panama",
+    "CityVisited": null,
+    "TripStartDate": "2015-04-09",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-PAN-42547",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Panama",
+    "CityVisited": null,
+    "TripStartDate": "2016-06-26",
+    "TripDuration": "1",
+    "Notes": "Attended Inauguration of canal expansion"
+  },
+  {
+    "colt_TripID": "2931-PRY-PRT-42865",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Portugal",
+    "CityVisited": null,
+    "TripStartDate": "2017-05-10",
+    "TripDuration": "4",
+    "Notes": "President traveled to Belem;where he visited historical sites. Later the delegation went to Fatima;where its first activity is to join the commemorations of the centenary of the apparitions of Our Lady of the Virgin of Fatima;a ceremony to which Pope Francis will attend"
+  },
+  {
+    "colt_TripID": "2931-PRY-RUS-43265",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Russia",
+    "CityVisited": null,
+    "TripStartDate": "2018-06-14",
+    "TripDuration": "3",
+    "Notes": "attended World Cup opening ceremony;unsure of exact dates"
+  },
+  {
+    "colt_TripID": "2931-PRY-ESP-42163",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Spain",
+    "CityVisited": null,
+    "TripStartDate": "2015-06-08",
+    "TripDuration": "2",
+    "Notes": "Also met King of Spain"
+  },
+  {
+    "colt_TripID": "2931-PRY-SUR-41516",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Suriname",
+    "CityVisited": null,
+    "TripStartDate": "2013-08-30",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-TWN-41919",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "2014-10-07",
+    "TripDuration": "4",
+    "Notes": "Sign declaration;national day celebrations"
+  },
+  {
+    "colt_TripID": "2931-PRY-TWN-42508",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "2016-05-18",
+    "TripDuration": "3",
+    "Notes": "Attended Presidential inauguration"
+  },
+  {
+    "colt_TripID": "2931-PRY-ARE-42751",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "United Arab Emirates",
+    "CityVisited": null,
+    "TripStartDate": "2017-01-16",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-ARE-42927",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "United Arab Emirates",
+    "CityVisited": null,
+    "TripStartDate": "2017-07-11",
+    "TripDuration": "1",
+    "Notes": "Few details in activities in Dubai;may have just been a layover en route to Taiwan"
+  },
+  {
+    "colt_TripID": "2931-PRY-GBR-41949",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "United Kingdom",
+    "CityVisited": null,
+    "TripStartDate": "2014-11-06",
+    "TripDuration": "1",
+    "Notes": "Attended the UK-Paraguay Trade and Investment Forum"
+  },
+  {
+    "colt_TripID": "2931-PRY-USA-42306",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2015-10-29",
+    "TripDuration": "1",
+    "Notes": "Receives Innovative Leader of the Year Award"
+  },
+  {
+    "colt_TripID": "2931-PRY-URY-41572",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2013-10-25",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-URY-42064",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2015-03-01",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2931-PRY-URY-42180",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2015-06-25",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-URY-43026",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2017-10-18",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-VEN-41669",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2014-01-30",
+    "TripDuration": "2",
+    "Notes": null
+  }
+]

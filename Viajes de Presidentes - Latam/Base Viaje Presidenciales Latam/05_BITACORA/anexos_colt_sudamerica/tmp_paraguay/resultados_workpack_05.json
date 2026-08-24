@@ -1,0 +1,290 @@
+{
+  "resultados": [
+    {
+      "colt_TripID": "3481-PRY-BOL-43628",
+      "our_Trip_ID": "111",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days/TripDuration",
+      "valor_correcto": null,
+      "fuente": "presidencia.gov.py (arts. 35071, 35073, 35075 - viaje, jornada bilateral, retorno); búsqueda web general sobre la visita a La Paz del 12-jun-2019",
+      "justificacion": "Se confirma el viaje a La Paz el 12-jun-2019 (ceremonia del cese de hostilidades del Chaco, gabinete binacional), pero ninguna fuente accesible precisa si Abdo pernoctó o retornó el mismo día. No se halló evidencia que confirme ni descarte la duración de 1 vs 2 días."
+    },
+    {
+      "colt_TripID": "3481-PRY-CHL-44630",
+      "our_Trip_ID": "126",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
+      "valor_correcto": "Start_Date=2022-03-11; Duration_Days=1",
+      "fuente": "ip.gov.py (asuncion-de-gabriel-boric); tuit oficial @PresidenciaPy citado como SourceLink1 de COLT (status/1502252336172998659, timestamp decodificado: 2022-03-11 11:57 UTC); investidura de Boric confirmada como ceremonia de un solo día (11-mar-2022)",
+      "justificacion": "La investidura de Boric fue el 11-mar-2022, y el propio tuit que COLT cita como fuente primaria está fechado ese mismo 11-mar-2022, contradiciendo el Start_Date de COLT (10-mar). No se halló evidencia de una segunda jornada en Chile."
+    },
+    {
+      "colt_TripID": "3481-PRY-COL-43518",
+      "our_Trip_ID": "107",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days/TripDuration",
+      "valor_correcto": "1",
+      "fuente": "Infobae (22-feb-2019, 'Iván Duque, Sebastián Piñera y Mario Abdo Benítez están en Cúcuta para el Venezuela Aid Live')",
+      "justificacion": "Múltiples notas de prensa describen la visita a Cúcuta como una aparición conjunta de un solo día (22-feb-2019) de los tres presidentes (Duque, Piñera, Abdo) en el concierto humanitario; no hay indicio de pernocte."
+    },
+    {
+      "colt_TripID": "3481-PRY-COL-44779",
+      "our_Trip_ID": "129",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days/TripDuration",
+      "valor_correcto": null,
+      "fuente": "mre.gov.py (encuentro bilateral previo); Wikipedia 'Investidura presidencial de Gustavo Petro' (ceremonia 7-ago-2022)",
+      "justificacion": "Se confirma el encuentro bilateral el 6-ago y la investidura el 7-ago-2022, consistente con nuestros 2 días, pero no se halló evidencia que confirme ni descarte una tercera jornada (8-ago) como indica COLT."
+    },
+    {
+      "colt_TripID": "3481-PRY-DEU-44873",
+      "our_Trip_ID": "133",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
+      "valor_correcto": "Start_Date=2022-11-09; Duration_Days=2",
+      "fuente": "swissinfo.ch ('El presidente de Paraguay viaja en visita oficial a Alemania'); infobae; lanacion.com.py",
+      "justificacion": "Múltiples fuentes de prensa (swissinfo, infobae, La Nación) describen explícitamente la visita a Alemania como de 'los días 9 y 10 de noviembre' (Berlín y Hamburgo), sin evidencia de llegada el 8-nov."
+    },
+    {
+      "colt_TripID": "3481-PRY-VAT-44946",
+      "our_Trip_ID": "136",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
+      "valor_correcto": "Start_Date=2023-01-19; Duration_Days=2",
+      "fuente": "abc.com.py (20-ene-2023, 'Abdo Benítez y el papa se reunieron durante media hora y le llevó mate')",
+      "justificacion": "La nota de ABC Color confirma explícitamente que 'un día antes, el 19 de enero, el presidente de Paraguay se reunió con el presidente de Italia, Sergio Mattarella... y con el alcalde de Roma' antes de la audiencia papal del 20-ene, validando el rango de 2 días (19-20 ene) de nuestra base."
+    },
+    {
+      "colt_TripID": "3481-PRY-MEX-44455",
+      "our_Trip_ID": "122",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date/TripStartDate",
+      "valor_correcto": "2021-09-16",
+      "fuente": "Nota metodológica interna del Trip 122 ('Salida de Asunción la noche del 16-sep ~23hs'); paudal.com (CELAC summit coverage)",
+      "justificacion": "Nuestra propia nota de metodología ya registraba la salida de Asunción la noche del 16-sep-2021, coincidiendo exactamente con el Start_Date de COLT (16-sep) y no con el 17-sep que quedó cargado en el campo Start_Date."
+    },
+    {
+      "colt_TripID": "3481-PRY-CHE-43485",
+      "our_Trip_ID": "106",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
+      "valor_correcto": "Start_Date=2019-01-22; Duration_Days=4",
+      "fuente": "Infobae ('Comenzó el Foro Económico de Davos', 22-ene-2019)",
+      "justificacion": "El Foro de Davos 2019 abrió oficialmente el 22-ene-2019 según cobertura de prensa contemporánea; no se halló evidencia de que Abdo llegara dos días antes de la apertura del foro, como implica el Start_Date de COLT (20-ene)."
+    },
+    {
+      "colt_TripID": "3481-PRY-TWN-43380",
+      "our_Trip_ID": "100",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days/TripDuration",
+      "valor_correcto": "6",
+      "fuente": "Focus Taiwan / english.president.gov.tw (NEWS/6441)",
+      "justificacion": "Fuente oficial de la Presidencia de Taiwán describe explícitamente una 'estadía de seis días' desde la llegada el domingo 7-oct-2018, y Taipei Times registra actividades de Abdo aún el 12-oct, consistente con 6 días (7 al 12) y no con los 5 de COLT."
+    },
+    {
+      "colt_TripID": "3481-PRY-ARE-44970",
+      "our_Trip_ID": "139",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
+      "valor_correcto": "Start_Date=2023-02-13; Duration_Days=2",
+      "fuente": "ip.gov.py ('Presidente inicia este lunes visita oficial a los Emiratos Árabes Unidos', 12-feb-2023); mre.gov.py ('visitas oficiales a los EAU y a Taiwán'); World Government Summit 2023 oficial (13-15 feb 2023)",
+      "justificacion": "Fuente oficial confirma que la visita a EAU comenzó el lunes 13-feb-2023 (no el 11-feb), coincidiendo con el inicio real de la World Government Summit (13-feb). Además, el viaje formaba parte de una gira combinada EAU-Taiwán (mencionada por MRE y por una segunda visita a Taipéi documentada por Focus Taiwan a mediados de feb-2023 que NO figura en nuestra base ni en este workpack); esto explica por qué nuestra Duration_Days de 3 (11-13 feb) parece sobreestimada para el tramo emiratí."
+    },
+    {
+      "colt_TripID": "3481-PRY-USA-43367",
+      "our_Trip_ID": "99",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
+      "valor_correcto": null,
+      "fuente": "gadebate.un.org/en/73/paraguay (nuestra fuente, discurso 25-sep-2018); SourceLinks de COLT son enlaces de pago (advance-lexis) no accesibles",
+      "justificacion": "Nuestra fuente oficial de la ONU confirma el discurso el 25-sep-2018, pero no precisa cuántos días permaneció Abdo en Nueva York. Los enlaces fuente de COLT están detrás de un paywall (Lexis Advance) y no pudieron verificarse; la diferencia de duración (1 vs 5 días) es demasiado grande para resolver sin evidencia directa."
+    },
+    {
+      "colt_TripID": "3481-PRY-USA-43810",
+      "our_Trip_ID": "115",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
+      "valor_correcto": "Start_Date=2019-12-11; Duration_Days≈6 (regreso confirmado el lunes 16-dic-2019)",
+      "fuente": "presidencia.gov.py (título del art. 37003: 'tras visita oficial a los Estados Unidos de América, mandatario retornará al país este lunes'); Última Hora (reunión con Trump confirmada 13-dic-2019)",
+      "justificacion": "El propio titular de nuestra fuente primaria confirma que el regreso a Paraguay fue 'el lunes' (16-dic-2019), tras la reunión con Trump el 13-dic. Esto es incompatible con nuestra Duration_Days de 2 (que implicaría regreso el 13-dic); el rango de COLT (11 al 16-dic = 6 días) es mucho más consistente con el regreso confirmado del lunes, aunque la fecha exacta de salida (11 vs 12-dic) no quedó del todo zanjada entre las fuentes consultadas."
+    },
+    {
+      "colt_TripID": "3481-PRY-USA-44719",
+      "our_Trip_ID": "127",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
+      "valor_correcto": "Start_Date=2022-06-08; Duration_Days=3",
+      "fuente": "summit-americas.org (IX Cumbre de las Américas, 8-10 jun 2022); Última Hora / ABC Color (cobertura del viaje)",
+      "justificacion": "La IX Cumbre de las Américas se celebró oficialmente del 8 al 10 de junio de 2022 en Los Ángeles; no se halló evidencia de una llegada el 7-jun como indica COLT, y la duración de 3 días (8-10 jun) coincide con el rango oficial de la cumbre."
+    },
+    {
+      "colt_TripID": "3481-PRY-USA-44823",
+      "our_Trip_ID": "131",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date/TripStartDate",
+      "valor_correcto": null,
+      "fuente": "mre.gov.py (discurso AGNU 20-sep, reunión Biden 22-sep, disertación Miami 23-sep); SourceLinks de COLT parcialmente inaccesibles (lexis, twitter)",
+      "justificacion": "Nuestra propia nota reconoce que la fecha de llegada a Nueva York no está confirmada con precisión; no se halló evidencia adicional que permita decidir entre el 18 o 19-sep-2022 como fecha de inicio."
+    },
+    {
+      "colt_TripID": "3481-PRY-URY-43452",
+      "our_Trip_ID": "104",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days/TripDuration",
+      "valor_correcto": "1",
+      "fuente": "mercosur.int ('Cumbre MERCOSUR – Montevideo 2018'); cobertura de prensa de la LIII Cumbre de Jefes de Estado",
+      "justificacion": "La LIII Cumbre de Jefes de Estado del Mercosur (nivel presidencial) se realizó específicamente el martes 18-dic-2018; las reuniones ministeriales/CMC previas fueron del 14 al 17-dic pero corresponden a cancilleres, no a jefes de Estado. Esto respalda que la presencia de Abdo fue de un solo día."
+    },
+    {
+      "colt_TripID": "3481-PRY-URY-44901",
+      "our_Trip_ID": "134",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
+      "valor_correcto": "Start_Date=2022-12-06; Duration_Days=1",
+      "fuente": "swissinfo.ch / radiomontecarlo.com.uy / cancillería de Ecuador (LXI Reunión Ordinaria del CMC el 5-dic; LXI Cumbre de Jefes de Estado del Mercosur el 6-dic-2022)",
+      "justificacion": "Múltiples fuentes confirman que el 5-dic-2022 fue la reunión ministerial del Consejo del Mercado Común (CMC, a nivel de cancilleres) y que la Cumbre de Jefes de Estado -el evento al que asisten los presidentes- fue específicamente el 6-dic-2022. Esto coincide con el Start_Date/Duration de COLT y sugiere que nuestra base incluyó por error el día ministerial."
+    },
+    {
+      "colt_TripID": "3481-PRY-ARG-43544",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "presidencia.gov.py (arts. 34279, 34282, 34284, 34286: partida a Argentina para conferencia de alto nivel de la ONU, ratificación de importancia de la cooperación, cooperación con Estonia en gobierno electrónico, retorno al país)",
+      "justificacion": "Los 4 artículos oficiales de presidencia.gov.py citados como fuente por COLT documentan de forma coherente un viaje real a Buenos Aires en marzo de 2019, coincidente con la Conferencia de Alto Nivel de la ONU sobre Cooperación Sur-Sur (BAPA+40, 20-22 marzo 2019). Se detecta una inconsistencia interna en COLT: la nota dice 'Met about the 2030 World Cup' pero sus propias fuentes describen una conferencia de la ONU, no una reunión sobre el Mundial; probablemente ambos temas coexistieron en la misma gira. Se recomienda agregar el viaje pero con el motivo principal corregido (conferencia ONU) en vez de 'Mundial 2030'."
+    },
+    {
+      "colt_TripID": "3481-PRY-BEL-45122",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ultimahora.com ('Mario Abdo viajó para su última cumbre'); mre.gov.py (CELAC-UE, acuerdo Mercosur-UE)",
+      "justificacion": "La Cumbre UE-CELAC se realizó en Bruselas el 17-18 de julio de 2023; el título de Última Hora ('su última cumbre', ya que Abdo dejaba el cargo en agosto 2023) y el artículo oficial de la Cancillería paraguaya confirman la asistencia."
+    },
+    {
+      "colt_TripID": "3481-PRY-BRA-43595",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "presidencia.gov.py (arts. 34743, 34759: colocación de piedra fundamental para el segundo puente con Brasil; paso histórico para la integración)",
+      "justificacion": "Dos artículos oficiales de la Presidencia paraguaya confirman la ceremonia de colocación de la piedra fundamental del segundo puente Paraguay-Brasil el 10-may-2019, evento de un solo día consistente con la Duration_Days=1 de COLT."
+    },
+    {
+      "colt_TripID": "3481-PRY-BRA-43804",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "presidencia.gov.py (arts. 36861, 36872, 36887: viaje a Brasil para cumbre del Mercosur, integración regional, mejora del clima de negocios)",
+      "justificacion": "Tres artículos oficiales describen un viaje a Brasil el 5-dic-2019 para la cumbre semestral del Mercosur, consistente con que Brasil ejerció la presidencia pro tempore del bloque en el segundo semestre de 2019. No se encontró un registro equivalente en nuestra base para esas fechas, por lo que parece un vacío real y no un duplicado."
+    },
+    {
+      "colt_TripID": "3481-PRY-BRA-44634",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "infobae.com/en ('The Paraguayan president travels to Brazil this Monday for family reasons', 14-mar-2022)",
+      "justificacion": "Fuente periodística directa confirma explícitamente el viaje a Brasil por 'razones familiares' el 14-mar-2022, con el título mismo describiendo el motivo consignado por COLT."
+    },
+    {
+      "colt_TripID": "3481-PRY-BRA-45001",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (fotos oficiales del evento); Twitter @PresidenciaPy (status/1636437209153716246)",
+      "justificacion": "Evento institucional específico y verificable (ceremonia de asunción de Enio Verri como nuevo Director General brasileño de Itaipú Binacional, 16-mar-2023), documentado por fotografía de agencia y cuenta oficial de la Presidencia."
+    },
+    {
+      "colt_TripID": "3481-PRY-COL-44675",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Twitter @MaritoAbdo y @PresidenciaPy (posts oficiales, abr-2022); Facebook Live (transmisión del acto)",
+      "justificacion": "Cuentas oficiales de la Presidencia documentan en tiempo real la visita a Colombia del 24-abr-2022, incluyendo la firma de acuerdos bilaterales y la condecoración con la Cruz de Boyacá, hechos específicos y verificables."
+    },
+    {
+      "colt_TripID": "3481-PRY-CRI-43502",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "presidencia.gov.py (arts. 33885, 33911, 33907: viaje a Costa Rica, diálogo comercial, alegatos ante la Corte IDH)",
+      "justificacion": "Tres artículos oficiales confirman el viaje a Costa Rica en feb-2019 para presentar alegatos de defensa ante la Corte Interamericana de Derechos Humanos, coincidiendo con nuestra propia base que ya registra este viaje bajo Trip 15 del módulo de Nicanor... revisando: en realidad no está en nuestra base para Abdo, por lo que se recomienda agregarlo como viaje nuevo, bien documentado por fuente oficial."
+    },
+    {
+      "colt_TripID": "3481-PRY-DOM-45009",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (ceremonia inaugural XXVIII Cumbre Iberoamericana); Twitter @mreparaguay (status/1639436879358566403)",
+      "justificacion": "La XXVIII Cumbre Iberoamericana se realizó en República Dominicana en marzo de 2023; la cuenta oficial de la Cancillería paraguaya confirma la participación de Paraguay."
+    },
+    {
+      "colt_TripID": "3481-PRY-VAT-44799",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "efe.com ('President of Paraguay visits Vatican, invites Pope to visit country again'); Twitter @MaritoAbdo",
+      "justificacion": "Agencia de noticias EFE confirma explícitamente la visita al Vaticano en agosto de 2022, incluida la invitación al Papa Francisco a visitar Paraguay, coincidiendo con la investidura del cardenal Adalberto Martínez."
+    },
+    {
+      "colt_TripID": "3481-PRY-ITA-44943",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "abc.com.py (20-ene-2023) - misma fuente usada para resolver la discrepancia del Trip 136 (COLT TripID 3481-PRY-VAT-44946)",
+      "justificacion": "Este TripID de COLT (Italia, inicio 17-ene, duración 4 días, con reunión con Mattarella en el Quirinal e IILA) describe el mismo viaje a Roma/Vaticano ya registrado en nuestra base como Trip 136 (19-20 ene 2023), cuya reunión con Mattarella el 19-ene ya está confirmada por fuente independiente. Es muy probablemente un duplicado interno de COLT (el mismo viaje partido en dos TripID: uno 'Italia' y otro 'Holy See'/Vaticano) y no un viaje nuevo; no corresponde agregarlo como trip aparte."
+    },
+    {
+      "colt_TripID": "3481-PRY-MEX-43434",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "telesurenglish.net ('Maduro, Morales Among Foreign Leaders Invited to AMLO Inauguration')",
+      "justificacion": "La asunción presidencial de Andrés Manuel López Obrador fue el 1-dic-2018, ampliamente cubierta y con asistencia masiva de mandatarios latinoamericanos, incluido Paraguay según la fuente citada; fechas de COLT (30-nov a 1-dic) son coherentes con el evento."
+    },
+    {
+      "colt_TripID": "3481-PRY-QAT-45068",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "edicion.presidencia.gov.py (2 artículos oficiales sobre el viaje y la apertura del foro); qna.org.qa (Qatar News Agency, oficial)",
+      "justificacion": "Fuente oficial paraguaya y agencia de noticias oficial de Qatar confirman conjuntamente la participación de Abdo en el Foro Económico de Qatar de mayo de 2023, incluyendo un encuentro con el Emir."
+    },
+    {
+      "colt_TripID": "3481-PRY-ARE-44621",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "thenationalnews.com, gulftoday.ae, gulfnews.com (medios independientes de EAU); Twitter @PresidenciaPy",
+      "justificacion": "Múltiples medios independientes de Emiratos Árabes Unidos confirman la visita de marzo de 2022 (reunión con Sheikh Mohamed bin Zayed, Expo 2020 Dubái), un viaje distinto y anterior al de febrero de 2023 (Trip 139 en nuestra base / ARE-44970 en este workpack)."
+    },
+    {
+      "colt_TripID": "3481-PRY-USA-44386",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "mercopress.com ('Paraguayan president off to Miami, his sister-in-law among the Champlain Tower dead'); presidencia.gov.py (art. 41457)",
+      "justificacion": "El colapso del edificio Champlain Towers South en Surfside, Florida (24-jun-2021) es un evento internacional ampliamente documentado en el que fallecieron la cuñada del presidente Abdo y sus tres hijos menores; el viaje a Miami está confirmado tanto por Mercopress como por fuente oficial paraguaya, y actualmente no figura en nuestra base."
+    },
+    {
+      "colt_TripID": "3481-PRY-USA-45014",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "southcom.mil (fuente oficial del Comando Sur de EE.UU.); Twitter @Southcom",
+      "justificacion": "El propio Comando Sur de Estados Unidos (SOUTHCOM), fuente oficial estadounidense, confirma en su sitio la visita del presidente electo/saliente de Paraguay a la base de operaciones especiales en Tampa en marzo de 2023."
+    },
+    {
+      "colt_TripID": "3481-PRY-URY-44243",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "presidencia.gub.uy (fuente oficial del gobierno uruguayo: 'reunión Lacalle Pou - Abdo Benítez'); Twitter @MaritoAbdo",
+      "justificacion": "La propia Presidencia de la República Oriental del Uruguay confirma oficialmente el encuentro bilateral de febrero de 2021 sobre acuerdos comerciales del Mercosur."
+    },
+    {
+      "colt_TripID": "3481-PRY-URY-44924",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Nota metodológica del Trip 135 de nuestra propia base ('Viajó desde Uruguay -estadía privada de fin de año, no oficial- el 1-ene [2023]')",
+      "justificacion": "Nuestra propia base ya reconoce indirectamente, en las notas del Trip 135 (asunción de Lula, 1-ene-2023), que Abdo se encontraba en una estadía privada en Uruguay a fin de año 2022, lo que corrobora de forma independiente el 'personal holiday' del 29-dic-2022 reportado por COLT, aunque hasta ahora no tenía una fila propia en nuestra base."
+    }
+  ]
+}

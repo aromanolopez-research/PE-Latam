@@ -1,0 +1,215 @@
+{
+  "resultados": [
+    {
+      "colt_TripID": "1395-PRY-ARG-37440",
+      "our_Trip_ID": "9",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/TripStartDate + Duration_Days/TripDuration",
+      "valor_correcto": "Start_Date=2002-07-05, Duration_Days=1",
+      "fuente": "https://www.argentina.gob.ar/normativa/nacional/norma-73248/texto (Decisiones CMC fechadas '5/VII/02'); https://www.presidencia.gov.py/noticias/cumbre-del-mercosur-buenos-aires-argentina/",
+      "justificacion": "La XXII Cumbre del Mercosur (CMC) en Buenos Aires se realizo el 5 de julio de 2002, confirmado por normativa oficial argentina fechada ese dia. No hay evidencia de una cumbre presidencial de dos dias iniciando el 3-jul; nuestro dato (2002-07-05, 1 dia) coincide con la fuente oficial."
+    },
+    {
+      "colt_TripID": "1395-PRY-CAN-37001",
+      "our_Trip_ID": "5",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days/TripDuration",
+      "valor_correcto": "3",
+      "fuente": "https://summit-americas.org/sas/Cumbres_previas_IIICumbre.html",
+      "justificacion": "La III Cumbre de las Americas en Quebec fue un evento de tres dias, 20-22 de abril de 2001, ampliamente documentado (incluida la recepcion de Gonzalez Macchi por el PM Chretien el 21-abr segun busqueda). Nuestro dato de 3 dias es correcto; COLT (2 dias) subestima la duracion."
+    },
+    {
+      "colt_TripID": "1395-PRY-DOM-37574",
+      "our_Trip_ID": "10",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/TripStartDate + Duration_Days/TripDuration",
+      "valor_correcto": "Start_Date=2002-11-15, Duration_Days=2",
+      "fuente": "https://segib.org/?summit=xii-cumbre-iberoamericana-bavaro-2002",
+      "justificacion": "La XII Cumbre Iberoamericana en Bavaro, Rep. Dominicana, se realizo oficialmente los dias 15 y 16 de noviembre de 2002 segun SEGIB (fuente oficial de las cumbres iberoamericanas). Nuestro dato coincide exactamente; COLT (inicio 14-nov, 3 dias) no coincide con la fecha oficial."
+    },
+    {
+      "colt_TripID": "1395-PRY-PAN-36847",
+      "our_Trip_ID": "3",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days/TripDuration",
+      "valor_correcto": "2",
+      "fuente": "https://www.segib.org/?summit=x-cumbre-iberoamericana-panama-2000; http://www.cuba.cu/gobierno/discursos/2000/esp/f171100e.html (discurso inaugural fechado 17-nov-2000)",
+      "justificacion": "La X Cumbre Iberoamericana en Panama se realizo los dias 17 y 18 de noviembre de 2000 (2 dias), confirmado por SEGIB y por el discurso inaugural de apertura fechado 17-nov-2000. Nuestro dato (2 dias) es correcto; COLT (3 dias) sobreestima la duracion."
+    },
+    {
+      "colt_TripID": "1395-PRY-PER-37219",
+      "our_Trip_ID": "6",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/TripStartDate + Duration_Days/TripDuration",
+      "valor_correcto": "Start_Date=2001-11-23, Duration_Days=2",
+      "fuente": "https://intranet.eulacfoundation.org/es/content/11%C2%AA-cumbre-iberoamericana-de-jefes-de-estado-y-de-gobierno-declaraci%C3%B3n-de-lima-per%C3%BA-23-24-de; https://segib.org/es/cumbre/xi-cumbre-iberoamericana/",
+      "justificacion": "La XI Cumbre Iberoamericana en Lima se realizo los dias 23 y 24 de noviembre de 2001, confirmado por SEGIB y por la Declaracion de Lima fechada 23-24-nov-2001. Nuestro dato coincide exactamente; COLT (inicio 24-nov, 1 dia) no coincide con las fechas oficiales."
+    },
+    {
+      "colt_TripID": "1341-PRY-BRA-36137",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda web general sobre Raul Cubas Grau y viajes a Brasil en diciembre de 1998; los SourceLinks de COLT (ProQuest/LexisNexis) estan detras de paywall institucional inaccesible.",
+      "justificacion": "No se encontro ninguna fuente independiente (prensa, gobierno, Wikipedia) que confirme o descarte un viaje de Cubas Grau a Brasil el 8-dic-1998. COLT no incluye notas que den pistas sobre el motivo del viaje. Se marca No_verificable en vez de descartar."
+    },
+    {
+      "colt_TripID": "1341-PRY-BRA-36164",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "https://atlas.fgv.br/marcos/governo-fernando-henrique-cardoso-1995-2003/midias/segunda-posse-de-fernando-henrique-cardoso (segunda posesion de FHC confirmada el 1-ene-1999, no el 4-ene)",
+      "justificacion": "COLT anota 'Attended Presidential Inauguration' con fecha 1999-01-04, pero la segunda asuncion de Fernando Henrique Cardoso fue el 1 de enero de 1999, tres dias antes. No se hallo fuente que aclare esta discrepancia de fecha ni que confirme la asistencia de Cubas Grau a algun evento el 4-ene. Podria ser un error de fecha de COLT o un evento distinto; sin evidencia suficiente en ningun sentido se marca No_verificable."
+    },
+    {
+      "colt_TripID": "1341-PRY-BRA-36202",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda web sobre reunion Cubas Grau - Cardoso en Brasilia, febrero de 1999; contexto de mediacion brasileña en la crisis politica paraguaya de 1999.",
+      "justificacion": "Hay evidencia circunstancial de que Brasil estuvo activamente involucrado en mediar la crisis politica paraguaya de comienzos de 1999 y que Cubas Grau y Cardoso tuvieron contacto en ese periodo, pero no se hallo una fuente primaria o de prensa independiente que confirme especificamente una reunion en Brasilia el 11-feb-1999. Se marca No_verificable por falta de fuente concluyente, no se descarta."
+    },
+    {
+      "colt_TripID": "1341-PRY-VEN-36193",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda sobre lista de mandatarios asistentes a la toma de posesion de Hugo Chavez el 2-feb-1999 (Capitolio Federal, Venezuela).",
+      "justificacion": "La toma de posesion de Hugo Chavez el 2 de febrero de 1999 esta ampliamente documentada como un evento con numerosos jefes de Estado invitados, pero no se encontro una lista de asistentes que confirme o descarte explicitamente la presencia de Cubas Grau/Paraguay. Se marca No_verificable."
+    },
+    {
+      "colt_TripID": "1395-PRY-ARG-37139",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://cancilleria.gob.ar/es/actualidad/comunicados/el-presidente-paraguayo-gonzalez-macchi-visita-la-argentina-para-estrechar (comunicado oficial Cancilleria Argentina, Informacion 239/2001, 4-sep-2001)",
+      "justificacion": "Comunicado oficial de la Cancilleria argentina confirma la visita de Estado de Gonzalez Macchi a Argentina en septiembre de 2001, invitado por Fernando de la Rua, con firma de tres acuerdos (politica migratoria, uso de recursos del rio Parana, y transito de menores). Coincide con la nota de COLT ('Sign immigration agreement'). Evento real, ausente en nuestra base."
+    },
+    {
+      "colt_TripID": "1395-PRY-ARG-37305",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda web: reunion extraordinaria de presidentes del Mercosur y paises asociados en la Quinta de Olivos, Buenos Aires, 17-18 de febrero de 2002, convocada por Eduardo Duhalde.",
+      "justificacion": "Multiples fuentes coinciden en que Gonzalez Macchi viajo a Buenos Aires junto a los presidentes de Brasil, Uruguay, Bolivia y Chile para una cumbre extraordinaria del Mercosur el 17-18 de febrero de 2002 en la Quinta de Olivos. Coincide con la fecha de inicio y duracion de COLT (18-feb, 2 dias). Evento real, ausente en nuestra base (posible cumbre distinta a las ya cargadas para este presidente)."
+    },
+    {
+      "colt_TripID": "1395-PRY-ARG-37402",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda web sobre eventos en Argentina el 26-may-2002; revision de cronologia presidencial argentina (Duhalde presidente interino 2-ene-2002 a 25-may-2003, sin asuncion electoral en esa fecha).",
+      "justificacion": "No se identifico ninguna toma de posesion presidencial en Argentina el 26 de mayo de 2002 (Duhalde ya gobernaba desde enero 2002 sin ceremonia de asuncion electoral, y la siguiente asuncion presidencial argentina fue recien el 25-may-2003 con Kirchner). La nota de COLT ('Attended Presidential Inauguration') no calza con ningun evento identificable en esa fecha; podria ser un error de dato de COLT o referirse a otro evento no identificado. Se marca No_verificable en vez de descartar, dado que no se encontro evidencia definitiva en ningun sentido."
+    },
+    {
+      "colt_TripID": "1395-PRY-BRA-36339",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda web sobre viaje de Gonzalez Macchi a Brasil el 28-jun-1999; se hallo referencia (no confirmada de forma independiente) a que Gonzalez Macchi fue anfitrion de una cumbre del Mercosur en Asuncion a mediados de junio de 1999, lo cual no coincide con un viaje a Brasil.",
+      "justificacion": "No se encontro fuente independiente que confirme un viaje de Gonzalez Macchi a Brasil el 28-jun-1999. La unica referencia hallada relacionada con ese periodo (cumbre del Mercosur en Asuncion, no en Brasil) no coincide con el pais de destino de COLT. Se marca No_verificable."
+    },
+    {
+      "colt_TripID": "1395-PRY-BRA-36567",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda web sobre prestamo BNDES a Paraguay y viaje de Gonzalez Macchi a Brasil en febrero de 2000.",
+      "justificacion": "No se hallo fuente independiente que confirme el viaje ni el prestamo especifico mencionado en la nota de COLT ('received loan from National bank of Economic and Social Development of Brazil'). Es plausible dado el contexto de relaciones financieras Brasil-Paraguay, pero sin confirmacion documental se marca No_verificable."
+    },
+    {
+      "colt_TripID": "1395-PRY-BRA-36875",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda web sobre viaje de Gonzalez Macchi a Brasil el 15-dic-2000; comparacion con nuestro Trip_ID 4 (Florianopolis, Brasil, 2000-12-01, cumbre Mercosur).",
+      "justificacion": "No se encontro fuente que confirme este viaje especifico. Nota de precaucion: nuestra base ya tiene un viaje a Brasil (Florianopolis) el 1-dic-2000 por la cumbre del Mercosur; no esta claro si el TripID de COLT (15-dic-2000, sin ciudad especificada) es un evento distinto o si podria tratarse de una inconsistencia de fecha en COLT relacionada con el mismo evento. Se marca No_verificable y se deja constancia de esta posible superposicion para revision posterior, sin asumir que sea el mismo viaje."
+    },
+    {
+      "colt_TripID": "1395-PRY-BRA-37595",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda web: XXIII Cumbre de Presidentes del Mercosur, Brasilia, 5-6 de diciembre de 2002, presidida por Fernando Henrique Cardoso, firma de acuerdo de libre transito de trabajadores.",
+      "justificacion": "La XXIII Cumbre del Mercosur en Brasilia se confirma para el 5-6 de diciembre de 2002, coincidiendo con la fecha de inicio de COLT (2002-12-05). Paraguay era miembro pleno y asistio consistentemente a todas las demas cumbres de Mercosur de este periodo segun el patron de nuestra propia base. Evento real, ausente en nuestra base."
+    },
+    {
+      "colt_TripID": "1395-PRY-CHL-37121",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda web: XV Reunion del Grupo de Rio, Santiago de Chile, 17-18 de agosto de 2001, anfitrion Ricardo Lagos.",
+      "justificacion": "La XV Cumbre del Grupo de Rio en Santiago se confirma para el 17-18 de agosto de 2001, coincidiendo con la fecha de inicio de COLT (2001-08-18). Paraguay era miembro pleno del Grupo de Rio (ver tambien Trip_ID 3 y 37357 de este mismo workpack, cumbres del mismo foro). Evento real, ausente en nuestra base."
+    },
+    {
+      "colt_TripID": "1395-PRY-CRI-37357",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda web: XVI Reunion de Presidentes del Grupo de Rio, San Jose de Costa Rica, 12-13 de abril de 2002.",
+      "justificacion": "La XVI cumbre del Grupo de Rio en San Jose se realizo el 12-13 de abril de 2002 (COLT registra inicio 11-abr, posiblemente el dia de llegada/instalacion), con firma de declaracion final tipica de estas cumbres, coincidiendo con la nota de COLT ('Declaration signed'). Paraguay era miembro pleno del foro. Evento real, ausente en nuestra base."
+    },
+    {
+      "colt_TripID": "1395-PRY-CUB-36480",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.segib.org/?summit=ix-cumbre-iberoamericana-la-habana-1999 (SEGIB, oficial); http://www.cuba.cu/gobierno/discursos/1999/esp/f161199e.html",
+      "justificacion": "La IX Cumbre Iberoamericana se realizo en La Habana los dias 15 y 16 de noviembre de 1999, confirmado por la fuente oficial SEGIB. Coincide en duracion (2 dias) con COLT y en fecha aproximada (COLT registra inicio 16-nov, un dia despues del inicio oficial 15-nov, posible diferencia de un dia en el conteo). Se hallo ademas referencia a una fotografia de la epoca que muestra juntos a Cardoso, Castro, Gonzalez Macchi y Sanguinetti. Evento real (cumbre iberoamericana, mismo tipo de evento que ya cubrimos sistematicamente para otros presidentes), ausente en nuestra base para este presidente."
+    },
+    {
+      "colt_TripID": "1395-PRY-DEU-36811",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda web sobre visita de Gonzalez Macchi a Alemania en octubre de 2000.",
+      "justificacion": "No se encontro ninguna fuente independiente que confirme o descarte una visita oficial de Gonzalez Macchi a Alemania en octubre de 2000. Las busquedas sobre agenda de Gerhard Schroeder en ese periodo no mencionan a Paraguay. Se marca No_verificable."
+    },
+    {
+      "colt_TripID": "1395-PRY-MEX-36308",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda web: XIII Cumbre del Grupo de Rio, Ciudad de Mexico, 28-29 de mayo de 1999, anfitrion Ernesto Zedillo; recibimiento a Gonzalez Macchi el 28-may-1999.",
+      "justificacion": "Se confirma que el presidente Ernesto Zedillo recibio a Gonzalez Macchi en Ciudad de Mexico el 28 de mayo de 1999, coincidiendo con la XIII Cumbre del Grupo de Rio (28-29 mayo 1999). Coincide exactamente con la fecha de inicio y duracion de COLT (1999-05-28, 2 dias). Evento real, ausente en nuestra base."
+    },
+    {
+      "colt_TripID": "1395-PRY-PER-37100",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda web sobre asistentes a la investidura de Alejandro Toledo, 28-jul-2001, Lima, Peru.",
+      "justificacion": "Fuente confirma explicitamente que 'Luis Gonzalez Macchi' figura entre los presidentes sudamericanos (junto a de la Rua, Lagos, Cardoso, Noboa, Pastrana, etc.) que asistieron a la toma de posesion de Alejandro Toledo el 28-jul-2001 en Lima. Coincide exactamente con la fecha y nota de COLT ('Attended Presidential Inauguration'). Evento real y confirmado nominalmente, ausente en nuestra base."
+    },
+    {
+      "colt_TripID": "1395-PRY-TWN-36419",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda web sobre visita de Gonzalez Macchi a Taiwan en septiembre de 1999, incluyendo archivo de president.gov.tw (solo se hallo articulo de 2002, no de 1999).",
+      "justificacion": "No se encontro cobertura de prensa ni comunicado oficial de la presidencia de Taiwan que confirme una visita de Gonzalez Macchi en septiembre de 1999 (a diferencia de la visita de agosto de 2002, que si esta bien documentada). Se marca No_verificable, sin descartar que haya ocurrido dado que Paraguay-Taiwan mantenian relaciones diplomaticas activas en ese periodo."
+    },
+    {
+      "colt_TripID": "1395-PRY-TWN-37487",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://english.president.gov.tw/NEWS/473 ('President Chen Sends off Paraguayan President Luis Angel Gonzalez Macchi with Full Military Honors', 2002-08-23, CNA)",
+      "justificacion": "Fuente oficial de la Presidencia de Taiwan confirma una visita oficial de cinco dias de Gonzalez Macchi que termino el 23-ago-2002, con reunion con el presidente Chen Shui-bian, ceremonia de corte de cinta para la Oficina Economica y Comercial de Paraguay en Taipei, y visita a la isla de Kinmen -coincidiendo en todos los detalles con la nota de COLT (inicio 19-ago-2002, 5 dias, ribbon-cutting, Kinmen). Confirmacion de alta confianza."
+    },
+    {
+      "colt_TripID": "1395-PRY-USA-36426",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda web sobre visita de Gonzalez Macchi a Estados Unidos en septiembre de 1999.",
+      "justificacion": "No se encontro fuente independiente que confirme o descarte esta visita de un dia a EE.UU. en septiembre de 1999 (posiblemente relacionada con la apertura de la Asamblea General de la ONU, aunque no se confirmo). Se marca No_verificable."
+    },
+    {
+      "colt_TripID": "1395-PRY-USA-37205",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda web sobre visita de Gonzalez Macchi a Estados Unidos en noviembre de 2001.",
+      "justificacion": "No se encontro fuente independiente que confirme o descarte esta visita de tres dias a EE.UU. en noviembre de 2001 (podria estar relacionada con la Asamblea General de la ONU en Nueva York, aunque no se confirmo con fuente primaria). Se marca No_verificable."
+    },
+    {
+      "colt_TripID": "1395-PRY-URY-36502",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda web: XVII Cumbre del Mercosur, Montevideo, 8 de diciembre de 1999, anfitrion Julio Maria Sanguinetti.",
+      "justificacion": "Se confirma que Sanguinetti fue anfitrion de la XVII cumbre del Mercosur en Montevideo el 8 de diciembre de 1999, coincidiendo exactamente con la fecha de inicio de COLT. Paraguay era miembro pleno y asistio de forma consistente a todas las demas cumbres semestrales del Mercosur segun el patron de nuestra propia base. Evento real, ausente en nuestra base."
+    },
+    {
+      "colt_TripID": "1395-PRY-URY-37245",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.cooperativa.cl/noticias/mundo/con-un-irrestricto-apoyo-a-argentina-concluyo-la-suspendida-cumbre-del/2001-12-21/122700.html",
+      "justificacion": "Fuente confirma que, aunque la cumbre presidencial formal del Mercosur en Montevideo fue suspendida por la crisis Argentina (renuncia de de la Rua el 20-dic-2001), los presidentes de Brasil, Uruguay y Paraguay (entre otros) sí estuvieron presentes en Montevideo y sostuvieron un foro politico de solidaridad con Argentina esos dias. Coincide con la nota de COLT ('Mercosur summit after the resignation of the president of Argentina Fernando de la Rua'). Evento real, ausente en nuestra base."
+    }
+  ]
+}

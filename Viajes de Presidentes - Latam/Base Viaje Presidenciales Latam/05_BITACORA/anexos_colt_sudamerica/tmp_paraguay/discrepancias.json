@@ -1,0 +1,1423 @@
+[
+  {
+    "colt_TripID": "1395-PRY-ARG-37440",
+    "colt_LeaderID": "1395",
+    "our_Trip_ID": "9",
+    "President": "Luis Ángel González Macchi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2002-07-05",
+        "colt": "2002-07-03"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-ARG-38659",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "21",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2005-11-04",
+        "colt": "2005-11-03"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-ARG-39425",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "31",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-ARG-40302",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "50",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2010-05-03",
+        "colt": "2010-05-04"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-ARG-40323",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "51",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2010-05-24",
+        "colt": "2010-05-25"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-ARG-40393",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "53",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2010-08-02",
+        "colt": "2010-08-03"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-41990",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "84",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-12-16",
+        "colt": "2014-12-17"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-ARG-45268",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "152",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-12-09",
+        "colt": "2023-12-08"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-ARG-45336",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "155",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-BOL-37940",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "14",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2003-11-14",
+        "colt": "2003-11-15"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-BOL-43628",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "111",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-BOL-45456",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "162",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-38625",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "19",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2005-09-29",
+        "colt": "2005-09-30"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-39798",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "37",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-BRA-42202",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "86",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-BRA-43090",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "97",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2017-12-20",
+        "colt": "2017-12-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-BRA-45613",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "171",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-11-18",
+        "colt": "2024-11-17"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1395-PRY-CAN-37001",
+    "colt_LeaderID": "1395",
+    "our_Trip_ID": "5",
+    "President": "Luis Ángel González Macchi",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-CHL-41708",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "79",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-03-11",
+        "colt": "2014-03-10"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-CHL-44630",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "126",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-03-11",
+        "colt": "2022-03-10"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-COL-43518",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "107",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-COL-44779",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "129",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-CRI-38309",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "17",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2004-11-19",
+        "colt": "2004-11-18"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1395-PRY-DOM-37574",
+    "colt_LeaderID": "1395",
+    "our_Trip_ID": "10",
+    "President": "Luis Ángel González Macchi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2002-11-15",
+        "colt": "2002-11-14"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-DOM-45520",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "165",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-08-15",
+        "colt": "2024-08-16"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-ECU-40035",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "43",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-ECU-42396",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "88",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2016-01-26",
+        "colt": "2016-01-27"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-SLV-45443",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "161",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-06-01",
+        "colt": "2024-05-31"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-FIN-45867",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "185",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-07-28",
+        "colt": "2025-07-29"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 6,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-FRA-45498",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "164",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-07-23",
+        "colt": "2024-07-25"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 6,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-FRA-45635",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "173",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-12-08",
+        "colt": "2024-12-09"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-DEU-44873",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "133",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-11-09",
+        "colt": "2022-11-08"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-GTM-45304",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "153",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-VAT-41756",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "80",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-VAT-43048",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "96",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2017-11-07",
+        "colt": "2017-11-09"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-VAT-44946",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "136",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-01-19",
+        "colt": "2023-01-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-VAT-45795",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "179",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-05-17",
+        "colt": "2025-05-18"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-IND-45810",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "182",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-05-31",
+        "colt": "2025-06-02"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 6,
+        "colt": 3
+      },
+      {
+        "campo": "Destination_City/CityVisited",
+        "nuestro": "New Delhi",
+        "colt": "New Delhi;Mumbai"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-ISR-43240",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "98",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2018-05-21",
+        "colt": "2018-05-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-ISR-45637",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "174",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-ITA-45256",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "148",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-ITA-45942",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "188",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-10-11",
+        "colt": "2025-10-12"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 6,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-JPN-41058",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "65",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-MEX-40229",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "48",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2010-02-22",
+        "colt": "2010-02-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-MEX-44455",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "122",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2021-09-17",
+        "colt": "2021-09-16"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-MEX-45566",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "169",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-09-29",
+        "colt": "2024-10-01"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1395-PRY-PAN-36847",
+    "colt_LeaderID": "1395",
+    "our_Trip_ID": "3",
+    "President": "Luis Ángel González Macchi",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-PAN-41564",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "77",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-10-18",
+        "colt": "2013-10-17"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1395-PRY-PER-37219",
+    "colt_LeaderID": "1395",
+    "our_Trip_ID": "6",
+    "President": "Luis Ángel González Macchi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2001-11-23",
+        "colt": "2001-11-24"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-QAT-39903",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "40",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2009-03-30",
+        "colt": "2009-03-31"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-SGP-45800",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "180",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-05-20",
+        "colt": "2025-05-23"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-KOR-41056",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "64",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-05-26",
+        "colt": "2012-05-27"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-CHE-43485",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "106",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2019-01-22",
+        "colt": "2019-01-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-CHE-45687",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "176",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 2
+      },
+      {
+        "campo": "Destination_City/CityVisited",
+        "nuestro": "Geneva",
+        "colt": "Davos"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-TWN-39360",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "30",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2007-10-08",
+        "colt": "2007-10-05"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 7
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-TWN-40613",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "57",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2011-03-14",
+        "colt": "2011-03-11"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 7
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-TWN-41048",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "61",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-05-16",
+        "colt": "2012-05-19"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-TWN-43380",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "100",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 6,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-TWN-45429",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "159",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-05-18",
+        "colt": "2024-05-17"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-THA-41055",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "63",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-05-23",
+        "colt": "2012-05-26"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-ARE-44970",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "139",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-02-11",
+        "colt": "2023-02-13"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-ARE-45260",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "150",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-ARE-45801",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "181",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-05-23",
+        "colt": "2025-05-24"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-USA-37886",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "13",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2003-09-23",
+        "colt": "2003-09-22"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 7
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-USA-39712",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "35",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2008-09-23",
+        "colt": "2008-09-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 6
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2814-PRY-USA-41175",
+    "colt_LeaderID": "2814",
+    "our_Trip_ID": "70",
+    "President": "Federico Franco",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-09-22",
+        "colt": "2012-09-23"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2814-PRY-USA-41368",
+    "colt_LeaderID": "2814",
+    "our_Trip_ID": "71",
+    "President": "Federico Franco",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-04-05",
+        "colt": "2013-04-04"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-USA-41538",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "75",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-09-24",
+        "colt": "2013-09-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 8
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-USA-42275",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "87",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2015-09-26",
+        "colt": "2015-09-28"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-USA-42998",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "95",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2017-09-19",
+        "colt": "2017-09-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-USA-43367",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "99",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2018-09-25",
+        "colt": "2018-09-24"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-USA-43810",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "115",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2019-12-12",
+        "colt": "2019-12-11"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 6
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-USA-44719",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "127",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-06-08",
+        "colt": "2022-06-07"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-USA-44823",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "131",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-09-18",
+        "colt": "2022-09-19"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45186",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "144",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-09-19",
+        "colt": "2023-09-17"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 9
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45222",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "145",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-10-22",
+        "colt": "2023-10-23"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45557",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "168",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 7,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45775",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "177",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-04-26",
+        "colt": "2025-04-28"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 3
+      },
+      {
+        "campo": "Destination_City/CityVisited",
+        "nuestro": "Los Angeles",
+        "colt": "New York;Los Angeles"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45922",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "187",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 6
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-URY-38695",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "22",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2005-12-08",
+        "colt": "2005-12-09"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-URY-39024",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "24",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-URY-40897",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "59",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2011-12-19",
+        "colt": "2011-12-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-URY-43452",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "104",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-URY-44901",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "134",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-12-05",
+        "colt": "2022-12-06"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-URY-45632",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "172",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-VEN-40879",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "58",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2931-PRY-VEN-41849",
+    "colt_LeaderID": "2931",
+    "our_Trip_ID": "81",
+    "President": "Horacio Cartes",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-07-28",
+        "colt": "2014-07-29"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  }
+]

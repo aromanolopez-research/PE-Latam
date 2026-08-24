@@ -1,0 +1,367 @@
+{
+  "resultados": [
+    {
+      "colt_TripID": "1849-PRY-ARG-38659",
+      "our_Trip_ID": "21",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/Duration_Days",
+      "valor_correcto": "Start_Date=2005-11-04; Duration_Days=2 (2005-11-04 a 2005-11-05)",
+      "fuente": "https://es.wikipedia.org/wiki/IV_Cumbre_de_las_Am%C3%A9ricas ; https://summit-americas.org/sas/Cumbres_previas_IVCumbre.html",
+      "justificacion": "Multiples fuentes (Wikipedia, summit-americas.org, prensa de Mar del Plata) confirman que la IV Cumbre de las Americas se celebro los dias 4 y 5 de noviembre de 2005. Nuestro dato (inicio 4-nov, 2 dias) coincide exactamente; el inicio 3-nov y duracion de 1 dia de COLT no corresponde a las fechas oficiales de la cumbre."
+    },
+    {
+      "colt_TripID": "1849-PRY-ARG-39425",
+      "our_Trip_ID": "31",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "2 (2007-12-09 a 2007-12-10)",
+      "fuente": "https://www.cfkargentina.com/asuncion-de-cristina-kirchner-10-de-diciembre-de-2007/",
+      "justificacion": "El discurso oficial de CFK (fuente primaria, ya citada en nuestra base con reliability High) menciona explicitamente al presidente de Paraguay entre los firmantes del Acta Fundacional del Banco del Sur el 9-dic-2007, la vispera de la asuncion presidencial del 10-dic. Esto sustenta el viaje de 2 dias; COLT solo registro el dia de la asuncion."
+    },
+    {
+      "colt_TripID": "1849-PRY-BOL-37940",
+      "our_Trip_ID": "14",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/Duration_Days",
+      "valor_correcto": "Start_Date=2003-11-14; Duration_Days=2 (2003-11-14 a 2003-11-15)",
+      "fuente": "https://segib.org/?summit=xiii-cumbre-iberoamericana-santa-cruz-de-la-sierra-2003",
+      "justificacion": "La XIII Cumbre Iberoamericana de Santa Cruz de la Sierra se realizo el 14 y 15 de noviembre de 2003 segun SEGIB y otras fuentes cruzadas. Nuestro dato (inicio 14-nov, 2 dias) coincide con las fechas oficiales; el inicio 15-nov y 1 dia de COLT solo capta el dia de cierre."
+    },
+    {
+      "colt_TripID": "1849-PRY-BRA-38625",
+      "our_Trip_ID": "19",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/Duration_Days",
+      "valor_correcto": "Start_Date=2005-09-29; Duration_Days=2 (2005-09-29 a 2005-09-30)",
+      "fuente": "Real Instituto Elcano / Teseopress (busqueda agregada): I Cumbre de la Comunidad Sudamericana de Naciones, Brasilia, 29-30 septiembre 2005",
+      "justificacion": "Multiples fuentes coinciden en que la cumbre fundacional de la Comunidad Sudamericana de Naciones se realizo el 29 y 30 de septiembre de 2005. Nuestro dato coincide exactamente; el inicio 30-sep y 1 dia de COLT solo capta el segundo dia."
+    },
+    {
+      "colt_TripID": "1849-PRY-CRI-38309",
+      "our_Trip_ID": "17",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/Duration_Days",
+      "valor_correcto": "Start_Date=2004-11-19; Duration_Days=2 (2004-11-19 a 2004-11-20)",
+      "fuente": "https://segib.org/es/xiv-cumbre-iberoamericana-educar-para-progresar-como-region/",
+      "justificacion": "La XIV Cumbre Iberoamericana de San Jose se celebro el 19 y 20 de noviembre de 2004 (fuente oficial SEGIB, ya usada en nuestra base con reliability Medium/Verificada-URL). Nuestro dato coincide exactamente con las fechas oficiales de la cumbre. Nota: el item colt_unico 1849-PRY-VEN-38308 de este mismo workpack trae la nota propia de COLT 'dates conflict with Costa Rica trip' (Venezuela 17-nov vs. su propio Costa Rica 18-nov), lo que sugiere una inconsistencia interna de fechas en el dataset de COLT que no nos corresponde resolver, solo señalar."
+    },
+    {
+      "colt_TripID": "1849-PRY-TWN-39360",
+      "our_Trip_ID": "30",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/Duration_Days",
+      "valor_correcto": "Start_Date=2007-10-08; Duration_Days=4 (2007-10-08 a 2007-10-11)",
+      "fuente": "https://english.president.gov.tw/NEWS/2804 ; http://www.taipeitimes.com/News/taiwan/archives/2007/10/09/2003382349",
+      "justificacion": "La fuente oficial de la Presidencia de Taiwan confirma la ceremonia de bienvenida con Chen Shui-bian el 8-oct-2007, coincidiendo con el Dia Nacional (10-oct) y el cumpleanos presidencial (11-oct), tal como registra nuestra base (reliability High). No se hallo evidencia de una llegada el 5-oct como indica COLT; su duracion de 7 dias no esta corroborada."
+    },
+    {
+      "colt_TripID": "1849-PRY-USA-37886",
+      "our_Trip_ID": "13",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date/Duration_Days",
+      "valor_correcto": "",
+      "fuente": "https://georgewbush-whitehouse.archives.gov/news/releases/2003/09/images/text/20030926-1_p33857-08a-515h.html (reunion confirmada 26-sep-2003)",
+      "justificacion": "Se confirmo la reunion bilateral con Bush el 26-sep-2003 (compatible con ambos rangos, el nuestro 23-27 sep y el de COLT 22-28 sep). No se hallo prensa paraguaya ni ningun otro registro que confirme la fecha exacta de llegada/salida de Duarte Frutos a Nueva York durante el 58 periodo de la AGNU, por lo que no se puede determinar cual de los dos rangos es el correcto."
+    },
+    {
+      "colt_TripID": "1849-PRY-URY-38695",
+      "our_Trip_ID": "22",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date/Duration_Days",
+      "valor_correcto": "Start_Date=2005-12-08; Duration_Days=2 (2005-12-08 a 2005-12-09)",
+      "fuente": "Busqueda agregada sobre ingreso de Venezuela a Mercosur: Acuerdo Marco firmado 8-dic-2005, cumbre concluyo 9-dic-2005 en Montevideo",
+      "justificacion": "El Acuerdo Marco de adhesion de Venezuela se firmo el 8-dic-2005 y la cumbre concluyo el 9-dic-2005, lo que respalda un viaje de 2 dias como registra nuestra base. El inicio 9-dic y 1 dia de COLT solo capta el dia de cierre, perdiendo el dia de la firma del acuerdo."
+    },
+    {
+      "colt_TripID": "1849-PRY-URY-39024",
+      "our_Trip_ID": "24",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "3 (2006-11-03 a 2006-11-05)",
+      "fuente": "https://segib.org/es/xvi-cumbre-iberoamericana-migracion-y-desarrollo-en-la-region/",
+      "justificacion": "Fuentes cruzadas confirman que la XVI Cumbre Iberoamericana de Montevideo se realizo los dias 3, 4 y 5 de noviembre de 2006, coincidiendo exactamente con nuestro rango de 3 dias. La duracion de 2 dias de COLT no corresponde a las fechas oficiales de la cumbre."
+    },
+    {
+      "colt_TripID": "1849-PRY-ARG-37972",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Kirchner Buenos Aires diciembre 2003'; se hallo solo referencia general a acuerdos de Yacyreta entre Kirchner y Duarte Frutos, sin fecha precisa",
+      "justificacion": "No se encontro fuente que confirme o descarte un viaje a Argentina el 17-dic-2003. Este item cae justo un dia despues del item colt_unico 1849-PRY-URY-37971 (Uruguay, 16-dic-2003), lo que podria indicar una gira regional de fin de 2003 (Uruguay+Argentina) no capturada en nuestra base, pero no hay evidencia positiva suficiente para confirmarlo."
+    },
+    {
+      "colt_TripID": "1849-PRY-ARG-38176",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "Conocimiento historico: XXVI Cumbre del Mercosur, Puerto Iguazu/Argentina, 8-9 julio 2004, ingreso de Mexico como Estado Asociado",
+      "justificacion": "Este registro (Argentina, 8-jul-2004, 'Summit to Accept Mexico to Mercosur') corresponde con altisima probabilidad al mismo evento que ya tenemos cargado como Trip_ID 16 ('Cumbre del MERCOSUR (Argentina, primer semestre 2004)', 1-jul-2004, fecha estimada de baja confianza segun nuestras propias notas metodologicas). No se trata de un viaje nuevo sino del mismo viaje con una fecha mas precisa de parte de COLT; se descarta como alta pero se deja constancia para una eventual correccion de fecha del Trip_ID 16 en un proceso aparte."
+    },
+    {
+      "colt_TripID": "1849-PRY-AUT-38849",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Austria Viena mayo 2006'; sin resultados directos",
+      "justificacion": "No se hallo fuente que confirme una visita a Austria en mayo de 2006. Si se confirmo en cambio el tramo de Francia de la misma gira europea (ver item FRA-38854, reunion con Chirac el 17-mayo-2006), lo que hace plausible una gira europea mas amplia, pero no alcanza como evidencia positiva especifica de la escala en Austria."
+    },
+    {
+      "colt_TripID": "1849-PRY-BEL-38852",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Belgica mayo 2006'; sin resultados directos",
+      "justificacion": "No se hallo fuente que confirme una visita a Belgica en mayo de 2006. Al igual que con Austria, es compatible con la gira europea de mayo de 2006 cuyo tramo frances si esta confirmado, pero no hay evidencia directa de la escala belga."
+    },
+    {
+      "colt_TripID": "1849-PRY-BOL-38739",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.noticiasfides.com/nacional/sociedad/once-presidentes-en-la-posesion-de-evo-morales-y-alvaro-garcia-240840",
+      "justificacion": "Fuente de prensa boliviana (ANF) nombra explicitamente a 'Nicanor Duarte de Paraguay' entre los once presidentes que asistieron a la toma de posesion de Evo Morales el 22-ene-2006 en La Paz. Viaje real no registrado en nuestra base."
+    },
+    {
+      "colt_TripID": "1849-PRY-BOL-39613",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Bolivia junio 2008 aniversario guerra del Chaco'; sin resultados especificos de 2008",
+      "justificacion": "No se hallo cobertura de prensa especifica de un acto militar/aniversario de la Guerra del Chaco en Bolivia con presencia de Duarte Frutos en junio de 2008. Los aniversarios de la Guerra del Chaco (14-jun, cese de hostilidades) son un evento bilateral real y recurrente entre Paraguay y Bolivia, pero no se pudo confirmar la asistencia presidencial ese ano puntual."
+    },
+    {
+      "colt_TripID": "1849-PRY-BRA-38010",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Brasil enero 2004 vacaciones'; sin resultados",
+      "justificacion": "La propia nota de COLT describe esto como 'family vacation of a few days' (viaje privado, no oficial), lo cual es intrinsecamente dificil de verificar por prensa o fuentes oficiales. No se hallo ninguna fuente que confirme ni descarte este viaje."
+    },
+    {
+      "colt_TripID": "1849-PRY-BRA-38225",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Sin busqueda especifica con resultados relevantes",
+      "justificacion": "No se hallo fuente que confirme o descarte un viaje a Brasil el 26-ago-2004 (1 dia). COLT no aporta nota ni motivo del viaje que permita orientar una busqueda mas especifica."
+    },
+    {
+      "colt_TripID": "1849-PRY-BRA-38295",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Sin busqueda especifica con resultados relevantes",
+      "justificacion": "No se hallo fuente que confirme o descarte un viaje a Brasil el 4-nov-2004 (2 dias). COLT no aporta nota ni motivo del viaje que permita orientar una busqueda mas especifica."
+    },
+    {
+      "colt_TripID": "1849-PRY-BRA-38482",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Sin busqueda especifica con resultados relevantes",
+      "justificacion": "No se hallo fuente que confirme o descarte un viaje a Brasil el 10-may-2005 (2 dias). COLT no aporta nota ni motivo del viaje que permita orientar una busqueda mas especifica."
+    },
+    {
+      "colt_TripID": "1849-PRY-BRA-39101",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Sin busqueda especifica con resultados relevantes",
+      "justificacion": "No se hallo fuente que confirme o descarte un viaje a Brasil el 19-ene-2007 (1 dia). COLT no aporta nota ni motivo del viaje que permita orientar una busqueda mas especifica."
+    },
+    {
+      "colt_TripID": "1849-PRY-BRA-39591",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.sela.org/publicaciones/tratado-constitutivo-de-la-union-de-naciones-suramericanas-unasur-brasilia-23-de-mayo-de-2008/ ; http://integracionsur.com/cumbre-brasilia-2008-el-lanzamiento-de-unasur-en-el-tablero-del-poder/",
+      "justificacion": "El Tratado Constitutivo de UNASUR se firmo en Brasilia el 23-may-2008 con la presencia confirmada de 11 jefes de Estado (el unico ausente fue Uruguay, representado por su vicepresidente); Paraguay figura explicitamente entre los 12 paises/Estados participantes de la cumbre. Viaje real no registrado en nuestra base."
+    },
+    {
+      "colt_TripID": "1849-PRY-CHL-38594",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Chile agosto 2005 puerto inauguracion Coquimbo Iquique Mejillones'; sin resultados especificos",
+      "justificacion": "No se identifico a que puerto chileno se refiere la nota de COLT ('opening ceremony of port') ni se hallo cobertura de prensa que confirme la visita de Duarte Frutos a Chile el 30-ago-2005."
+    },
+    {
+      "colt_TripID": "1849-PRY-COL-38417",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Colombia marzo 2005 visita oficial Uribe Bogota'; sin resultados especificos",
+      "justificacion": "No se hallo fuente que confirme o descarte una visita a Colombia el 6-mar-2005 (2 dias). No hay coincidencia con ningun evento multilateral conocido en esa fecha."
+    },
+    {
+      "colt_TripID": "1849-PRY-COL-38936",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "https://es.wikipedia.org/wiki/Investidura_presidencial_de_%C3%81lvaro_Uribe_en_2006 ; https://en.wikipedia.org/wiki/Second_inauguration_of_%C3%81lvaro_Uribe",
+      "justificacion": "Se confirmo que la segunda asuncion de Alvaro Uribe (7-ago-2006) conto con la presencia de 'once colegas latinoamericanos', pero ninguna fuente consultada nombra explicitamente a Paraguay o a Duarte Frutos entre los asistentes. Dado el patron de asistencia de Duarte Frutos a otras asunciones sudamericanas de esos anos (Bolivia, Peru, Ecuador, Uruguay, todas confirmadas en este mismo workpack), es plausible pero no hay evidencia nominal directa."
+    },
+    {
+      "colt_TripID": "1849-PRY-ECU-39097",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda agregada sobre la asuncion de Rafael Correa (15-ene-2007, Quito)",
+      "justificacion": "Fuentes consultadas listan explicitamente a Paraguay entre los paises cuyos presidentes asistieron a la toma de posesion de Rafael Correa el 15-ene-2007 en Quito (junto con Brasil, Bolivia, Chile, Colombia, Peru, Venezuela, entre otros). Viaje real no registrado en nuestra base."
+    },
+    {
+      "colt_TripID": "1849-PRY-FRA-38854",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda: reunion de Jacques Chirac con Nicanor Duarte en el Palacio del Eliseo, Paris, 17-may-2006",
+      "justificacion": "Se confirmo que el presidente frances Jacques Chirac recibio a Nicanor Duarte en el Eliseo el 17-mayo-2006, coincidiendo con la fecha de COLT. Viaje real no registrado en nuestra base, parte de una gira europea (ver tambien Austria y Belgica, no confirmados)."
+    },
+    {
+      "colt_TripID": "1849-PRY-DEU-38273",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Berlin/Hamburgo Instituto Ibero-Americano octubre 2004'; sin resultados especificos",
+      "justificacion": "No se hallo fuente que confirme el discurso de Duarte Frutos en el Instituto Ibero-Americano (Berlin) en octubre de 2004. Es compatible en fechas con el viaje europeo confirmado que incluyo el Vaticano el 18-oct-2004 (ver item VAT-38278), pero no hay evidencia directa del tramo aleman."
+    },
+    {
+      "colt_TripID": "1849-PRY-VAT-38278",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.vatican.va/content/john-paul-ii/es/speeches/2004/october/documents/hf_jp-ii_spe_20041018_president-paraguay.html",
+      "justificacion": "Fuente primaria oficial: discurso de Juan Pablo II 'Al Presidente de la Republica de Paraguay (18 de octubre de 2004)' publicado en vatican.va, confirmando la audiencia papal con Duarte Frutos en esa fecha exacta. Viaje real no registrado en nuestra base."
+    },
+    {
+      "colt_TripID": "1849-PRY-VAT-39384",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Vaticano octubre 2007 Benedicto XVI audiencia'; sin resultados especificos",
+      "justificacion": "No se hallo en los indices de audiencias de Benedicto XVI (vatican.va) ni en otra fuente una audiencia especifica con Duarte Frutos el 29-oct-2007. No se pudo confirmar ni descartar el viaje."
+    },
+    {
+      "colt_TripID": "1849-PRY-ITA-38279",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Derivado de https://www.vatican.va/content/john-paul-ii/es/speeches/2004/october/documents/hf_jp-ii_spe_20041018_president-paraguay.html (audiencia papal confirmada el 18-oct-2004)",
+      "justificacion": "La Ciudad del Vaticano es un enclave dentro de Roma, Italia; dado que la audiencia con Juan Pablo II el 18-oct-2004 esta confirmada con fuente primaria, es practicamente seguro que Duarte Frutos tambien estuvo fisicamente en Italia el 19-oct-2004 (dia siguiente). Se marca 'agregar', pero se señala que esto probablemente sea el mismo tramo de viaje que el item colt_unico 1849-PRY-VAT-38278 codificado por COLT como dos filas de pais distintas (Holy See + Italy) para una unica estadia en Roma; no es un viaje adicional independiente sino la misma escala."
+    },
+    {
+      "colt_TripID": "1849-PRY-ITA-38642",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos FAO Roma octubre 2005 60 aniversario conferencia'; sin confirmacion directa",
+      "justificacion": "Se confirmo que la FAO conmemoro su 60 aniversario en 2005 y que la esposa de Duarte Frutos (Gloria Penayo) tuvo un rol como embajadora de buena voluntad de la FAO ese mismo ano, lo cual es un indicio circunstancial, pero no se hallo fuente que confirme la presencia fisica del propio Duarte Frutos en la conferencia de Roma el 17-oct-2005."
+    },
+    {
+      "colt_TripID": "1849-PRY-JPN-38654",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Referencias cruzadas a reunion con el Primer Ministro Junichiro Koizumi en el Kyoto State Guest House y audiencia con el Emperador Akihito, octubre/noviembre de 2005",
+      "justificacion": "Multiples fuentes independientes (fotografias Getty, referencias a la agenda de politica exterior de Japon) confirman una visita de Estado de Duarte Frutos a Japon a fines de octubre/inicios de noviembre de 2005, con reunion con el PM Koizumi en Kioto y audiencia imperial. Viaje real no registrado en nuestra base; la fecha exacta de inicio (COLT: 29-oct) no pudo verificarse al dia exacto pero el viaje en si esta bien corroborado."
+    },
+    {
+      "colt_TripID": "1849-PRY-MEX-37996",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Sin busqueda con resultados especificos; la propia nota de COLT indica 'Few details on specifics of this visit'",
+      "justificacion": "COLT mismo reconoce baja certeza sobre este viaje (10-ene-2004). No se hallo fuente adicional que lo confirme ni lo descarte."
+    },
+    {
+      "colt_TripID": "1849-PRY-MEX-38133",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Sin busqueda con resultados especificos; la propia nota de COLT indica 'Few details on specifics of this visit'",
+      "justificacion": "COLT mismo reconoce baja certeza sobre este viaje (26-may-2004). No se hallo fuente adicional que lo confirme ni lo descarte. Nota: es distinto y no debe confundirse con el viaje a Mexico del 7-mar-2005 (ver item MEX-38418), que si se confirmo."
+    },
+    {
+      "colt_TripID": "1849-PRY-MEX-38418",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda: reunion oficial de Nicanor Duarte Frutos con Vicente Fox en Los Pinos, 7-8 marzo 2005, declaracion conjunta Mexico-Mercosur",
+      "justificacion": "Se confirmo la visita oficial a Mexico con reunion en Los Pinos con el presidente Vicente Fox alrededor del 7-8 de marzo de 2005, donde firmaron una declaracion conjunta sobre negociaciones de TLC Mexico-Mercosur. Coincide con la fecha de inicio de COLT (7-mar-2005). Viaje real no registrado en nuestra base."
+    },
+    {
+      "colt_TripID": "1849-PRY-NGA-39051",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Nicanor Duarte Frutos Nigeria noviembre 2006 visita Abuja'; sin resultados",
+      "justificacion": "No se hallo ninguna fuente, en ingles o español, que confirme o descarte una visita a Nigeria el 30-nov-2006. Es un destino atipico sin motivo declarado por COLT."
+    },
+    {
+      "colt_TripID": "1849-PRY-PER-38926",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda agregada sobre la asuncion de Alan Garcia (28-jul-2006, Lima)",
+      "justificacion": "Fuentes consultadas nombran explicitamente a 'Nicanor Duarte Frutos de Paraguay' entre los presidentes que asistieron a la ceremonia de transmision de mando de Alan Garcia el 28-jul-2006 en Lima, junto con Lula, Evo Morales, Bachelet, Uribe y otros. Viaje real no registrado en nuestra base."
+    },
+    {
+      "colt_TripID": "1849-PRY-PER-39583",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "https://eulacfoundation.org/es/v-cumbre-entre-la-union-europea-y-america-latina-y-el-caribe-lima-peru-16-mayo-2008",
+      "justificacion": "La V Cumbre Union Europea-America Latina y el Caribe se realizo en Lima el 16-17 de mayo de 2008 (con actividades previas desde el 13-15 de mayo), fechas compatibles con el rango de COLT (15-17 mayo). Participaron 60 gobiernos, practicamente toda America Latina, pero no se hallo una fuente que nombre explicitamente la presencia de Duarte Frutos en particular."
+    },
+    {
+      "colt_TripID": "1849-PRY-SGP-38130",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/mfa-press-statement---working-visit-of-president-nicanor-duarte-frutos-of-the-republic-of-paraguay-21-may-2004/",
+      "justificacion": "Comunicado oficial del Ministerio de Relaciones Exteriores de Singapur (fuente primaria) confirma la visita de trabajo de Nicanor Duarte Frutos a Singapur del 24 al 26 de mayo de 2004, con reuniones con el Presidente S R Nathan y el PM Goh Chok Tong. Coincide con el rango de fechas de COLT (23-26 mayo). Viaje real no registrado en nuestra base."
+    },
+    {
+      "colt_TripID": "1849-PRY-TWN-38126",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "http://www.taipeitimes.com/News/biz/archives/2004/05/25/2003156910",
+      "justificacion": "El Taipei Times confirma que Duarte Frutos realizo una 'visita de Estado de seis dias' a Taiwan en torno a la segunda toma de posesion de Chen Shui-bian (20-may-2004), con firma de un comunicado conjunto. Coincide en el marco temporal con la fecha de inicio de COLT (19-may). Viaje real no registrado en nuestra base; se trata de la primera de las dos visitas de Duarte Frutos a Taiwan durante su mandato (la segunda, oct-2007, ya esta en nuestra base como Trip_ID 30)."
+    },
+    {
+      "colt_TripID": "1849-PRY-USA-38251",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Asamblea General ONU septiembre 2004'; sin resultados especificos",
+      "justificacion": "No se hallo fuente que confirme o descarte la asistencia de Duarte Frutos al 59 periodo de sesiones de la AGNU (apertura 21-sep-2004), a pesar de que asistio a las ediciones de 2003, 2005 y 2007 (todas documentadas en otros items de este workpack)."
+    },
+    {
+      "colt_TripID": "1849-PRY-USA-38611",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Estados Unidos septiembre 2005'; sin resultados especificos",
+      "justificacion": "No se hallo fuente que confirme o descarte este viaje de 11 dias a Estados Unidos (16-sep-2005), una duracion inusualmente larga que ameritaria verificacion adicional; podria corresponder al 60 periodo de sesiones de la AGNU mas actividades adicionales, pero no se encontro corroboracion directa."
+    },
+    {
+      "colt_TripID": "1849-PRY-USA-39349",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Estados Unidos septiembre 2007'; sin resultados especificos",
+      "justificacion": "No se hallo fuente que confirme o descarte la asistencia de Duarte Frutos al 62 periodo de sesiones de la AGNU (24-sep-2007)."
+    },
+    {
+      "colt_TripID": "1849-PRY-URY-37971",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'XXV Cumbre del Mercosur Montevideo diciembre 2003'; resultados inconclusos",
+      "justificacion": "No se pudo determinar con certeza la fecha exacta de la primera Cumbre del Mercosur de Duarte Frutos como presidente (nuestra base la registra el 1-dic-2003 con reliability Low/Solo-Query, fecha estimada). Este item de COLT (Uruguay, 16-dic-2003) podria ser el MISMO evento con una fecha mas precisa (posible journey partido/discrepancia de fecha con el Trip_ID 15 de nuestra base) en lugar de un viaje nuevo; no hay evidencia suficiente para decidir entre 'agregar' como viaje nuevo o tratarlo como duplicado del Trip_ID 15, por lo que se marca No_verificable y se recomienda revision manual cruzando ambos registros."
+    },
+    {
+      "colt_TripID": "1849-PRY-URY-38412",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda agregada sobre la asuncion de Tabare Vazquez (1-mar-2005, Montevideo)",
+      "justificacion": "Fuentes consultadas confirman la presencia de Nicanor Duarte de Paraguay entre los jefes de Estado presentes en la asuncion presidencial de Tabare Vazquez el 1-mar-2005 en Montevideo. Viaje real no registrado en nuestra base."
+    },
+    {
+      "colt_TripID": "1849-PRY-URY-38499",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Uruguay mayo 2005 visita Montevideo Vazquez'; sin resultados especificos",
+      "justificacion": "No se hallo fuente que confirme o descarte una visita a Uruguay el 27-may-2005 (1 dia). No coincide con ningun evento multilateral conocido en esa fecha."
+    },
+    {
+      "colt_TripID": "1849-PRY-VEN-38308",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda: 'Duarte Frutos Venezuela noviembre 2004 Chavez petroleo acuerdo'; sin resultados especificos",
+      "justificacion": "No se hallo fuente que confirme un acuerdo petrolero con Chavez el 17-nov-2004. La propia nota de COLT señala que esta fecha 'conflicts with Costa Rica trip' (su propio registro de Costa Rica indica inicio 18-nov-2004, un dia despues); esto sugiere una posible inconsistencia interna en el dataset de COLT entre estos dos TripID, que no nos corresponde resolver pero se deja señalada (ver tambien el item discrepancia CRI-38309 de este mismo workpack, donde confirmamos que la Cumbre Iberoamericana de Costa Rica empezo el 19-nov, no el 18-nov, lo que abre aun mas dudas sobre la cronologia que maneja COLT en esos dias)."
+    },
+    {
+      "colt_TripID": "1849-PRY-VEN-38902",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda agregada sobre incorporacion de Venezuela al Mercosur, Caracas, 4-jul-2006",
+      "justificacion": "Se confirmo que Venezuela se incorporo formalmente al Mercosur el 4-jul-2006 en una ceremonia en Caracas, con la presencia expresa de 'Nicanor Duarte de Paraguay' junto a Kirchner, Lula y Vazquez. Viaje real no registrado en nuestra base."
+    }
+  ]
+}

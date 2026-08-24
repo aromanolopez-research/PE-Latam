@@ -1,0 +1,544 @@
+[
+  {
+    "colt_TripID": "1849-PRY-ARG-38659",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "21",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2005-11-04",
+        "colt": "2005-11-03"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-ARG-39425",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "31",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-BOL-37940",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "14",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2003-11-14",
+        "colt": "2003-11-15"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-38625",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "19",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2005-09-29",
+        "colt": "2005-09-30"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-CRI-38309",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "17",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2004-11-19",
+        "colt": "2004-11-18"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-TWN-39360",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "30",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2007-10-08",
+        "colt": "2007-10-05"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 7
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-USA-37886",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "13",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2003-09-23",
+        "colt": "2003-09-22"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 7
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-URY-38695",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "22",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2005-12-08",
+        "colt": "2005-12-09"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-URY-39024",
+    "colt_LeaderID": "1849",
+    "our_Trip_ID": "24",
+    "President": "Nicanor Duarte Frutos",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1849-PRY-ARG-37972",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2003-12-17",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-ARG-38176",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2004-07-08",
+    "TripDuration": "1",
+    "Notes": "Summit to Accept Mexico to Mercosur"
+  },
+  {
+    "colt_TripID": "1849-PRY-AUT-38849",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Austria",
+    "CityVisited": null,
+    "TripStartDate": "2006-05-12",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-BEL-38852",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Belgium",
+    "CityVisited": null,
+    "TripStartDate": "2006-05-15",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-BOL-38739",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2006-01-22",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential inauguration"
+  },
+  {
+    "colt_TripID": "1849-PRY-BOL-39613",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2008-06-14",
+    "TripDuration": "1",
+    "Notes": "Military ceremony, war anniversary"
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-38010",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2004-01-24",
+    "TripDuration": "3",
+    "Notes": "Family vacation of \"a few days\""
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-38225",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2004-08-26",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-38295",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2004-11-04",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-38482",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2005-05-10",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-39101",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2007-01-19",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-39591",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2008-05-23",
+    "TripDuration": "1",
+    "Notes": "Sign continental bloc agreement"
+  },
+  {
+    "colt_TripID": "1849-PRY-CHL-38594",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2005-08-30",
+    "TripDuration": "2",
+    "Notes": "Attends opening ceremony of port"
+  },
+  {
+    "colt_TripID": "1849-PRY-COL-38417",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2005-03-06",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-COL-38936",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2006-08-07",
+    "TripDuration": "1",
+    "Notes": "Attended presidential Inauguration"
+  },
+  {
+    "colt_TripID": "1849-PRY-ECU-39097",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "2007-01-15",
+    "TripDuration": "2",
+    "Notes": "Attended Presidential inauguration"
+  },
+  {
+    "colt_TripID": "1849-PRY-FRA-38854",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "France",
+    "CityVisited": null,
+    "TripStartDate": "2006-05-17",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-DEU-38273",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Germany",
+    "CityVisited": null,
+    "TripStartDate": "2004-10-13",
+    "TripDuration": "4",
+    "Notes": "Speaks at Iberoamerican Institute;dates approx"
+  },
+  {
+    "colt_TripID": "1849-PRY-VAT-38278",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Holy See",
+    "CityVisited": null,
+    "TripStartDate": "2004-10-18",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-VAT-39384",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Holy See",
+    "CityVisited": null,
+    "TripStartDate": "2007-10-29",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-ITA-38279",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Italy",
+    "CityVisited": null,
+    "TripStartDate": "2004-10-19",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-ITA-38642",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Italy",
+    "CityVisited": null,
+    "TripStartDate": "2005-10-17",
+    "TripDuration": "1",
+    "Notes": "Conference marks the 60th anniversairy of the FAO"
+  },
+  {
+    "colt_TripID": "1849-PRY-JPN-38654",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Japan",
+    "CityVisited": null,
+    "TripStartDate": "2005-10-29",
+    "TripDuration": "5",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-MEX-37996",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2004-01-10",
+    "TripDuration": "1",
+    "Notes": "Few details on specifics of this visit"
+  },
+  {
+    "colt_TripID": "1849-PRY-MEX-38133",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2004-05-26",
+    "TripDuration": "5",
+    "Notes": "Few details on specifics of this visit"
+  },
+  {
+    "colt_TripID": "1849-PRY-MEX-38418",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2005-03-07",
+    "TripDuration": "3",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-NGA-39051",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Nigeria",
+    "CityVisited": null,
+    "TripStartDate": "2006-11-30",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-PER-38926",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Peru",
+    "CityVisited": null,
+    "TripStartDate": "2006-07-28",
+    "TripDuration": "1",
+    "Notes": "Attended presidential Inauguration"
+  },
+  {
+    "colt_TripID": "1849-PRY-PER-39583",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Peru",
+    "CityVisited": null,
+    "TripStartDate": "2008-05-15",
+    "TripDuration": "3",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-SGP-38130",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Singapore",
+    "CityVisited": null,
+    "TripStartDate": "2004-05-23",
+    "TripDuration": "4",
+    "Notes": "Few details on specifics of this visit"
+  },
+  {
+    "colt_TripID": "1849-PRY-TWN-38126",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "2004-05-19",
+    "TripDuration": "5",
+    "Notes": "Attended Presidential Inauguration;no Meeting explicitly mentioned;Received Order of Brilliant Jade"
+  },
+  {
+    "colt_TripID": "1849-PRY-USA-38251",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2004-09-21",
+    "TripDuration": "3",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-USA-38611",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2005-09-16",
+    "TripDuration": "11",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-USA-39349",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2007-09-24",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-URY-37971",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2003-12-16",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-URY-38412",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2005-03-01",
+    "TripDuration": "2",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "1849-PRY-URY-38499",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2005-05-27",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-VEN-38308",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2004-11-17",
+    "TripDuration": "1",
+    "Notes": "Oil agreement;dates conflict with Costa Rica trip"
+  },
+  {
+    "colt_TripID": "1849-PRY-VEN-38902",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2006-07-04",
+    "TripDuration": "2",
+    "Notes": "Attended Independence day celebrations;incorporation into Mercosur"
+  }
+]

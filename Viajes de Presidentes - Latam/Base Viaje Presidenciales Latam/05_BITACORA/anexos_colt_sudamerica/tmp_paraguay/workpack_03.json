@@ -1,0 +1,712 @@
+[
+  {
+    "colt_TripID": "2386-PRY-ARG-40302",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "50",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2010-05-03",
+        "colt": "2010-05-04"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-ARG-40323",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "51",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2010-05-24",
+        "colt": "2010-05-25"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-ARG-40393",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "53",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2010-08-02",
+        "colt": "2010-08-03"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-39798",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "37",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-ECU-40035",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "43",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-JPN-41058",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "65",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-MEX-40229",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "48",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2010-02-22",
+        "colt": "2010-02-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-QAT-39903",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "40",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2009-03-30",
+        "colt": "2009-03-31"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-KOR-41056",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "64",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-05-26",
+        "colt": "2012-05-27"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-TWN-40613",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "57",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2011-03-14",
+        "colt": "2011-03-11"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 7
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-TWN-41048",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "61",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-05-16",
+        "colt": "2012-05-19"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-THA-41055",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "63",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-05-23",
+        "colt": "2012-05-26"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-USA-39712",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "35",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2008-09-23",
+        "colt": "2008-09-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 6
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-URY-40897",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "59",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2011-12-19",
+        "colt": "2011-12-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-VEN-40879",
+    "colt_LeaderID": "2386",
+    "our_Trip_ID": "58",
+    "President": "Fernando Lugo",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2386-PRY-ARG-39930",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2009-04-27",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-ARG-40479",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2010-10-28",
+    "TripDuration": "1",
+    "Notes": "Funeral of Nestor Kirchner"
+  },
+  {
+    "colt_TripID": "2386-PRY-ARG-40599",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2011-02-25",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2386-PRY-ARG-40887",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2011-12-10",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential inauguration"
+  },
+  {
+    "colt_TripID": "2386-PRY-BEL-40687",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Belgium",
+    "CityVisited": null,
+    "TripStartDate": "2011-05-24",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-BOL-39802",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2008-12-20",
+    "TripDuration": "1",
+    "Notes": "Celebrate end of Cuban literacy program"
+  },
+  {
+    "colt_TripID": "2386-PRY-BOL-40010",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2009-07-16",
+    "TripDuration": "1",
+    "Notes": "Participated in a celebration marking the Revolution anniversary"
+  },
+  {
+    "colt_TripID": "2386-PRY-BOL-40200",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2010-01-22",
+    "TripDuration": "1",
+    "Notes": "Attend Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-39708",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2008-09-17",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-39840",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2009-01-27",
+    "TripDuration": "6",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-39940",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2009-05-07",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-40301",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2010-05-03",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-40400",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2010-08-10",
+    "TripDuration": "5",
+    "Notes": "Hospital treatment, attended funeral"
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-40453",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2010-10-02",
+    "TripDuration": "5",
+    "Notes": "Hospital treatment"
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-40512",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2010-11-30",
+    "TripDuration": "2",
+    "Notes": "Hospital treatment;beginning of visit unknown"
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-40544",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2011-01-01",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-40567",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2011-01-24",
+    "TripDuration": "6",
+    "Notes": "Hospital treatment"
+  },
+  {
+    "colt_TripID": "2386-PRY-CHL-40156",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2009-12-09",
+    "TripDuration": "1",
+    "Notes": "Laid a wreath at monument of Bernardo O'Higgins"
+  },
+  {
+    "colt_TripID": "2386-PRY-CHL-40247",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2010-03-10",
+    "TripDuration": "2",
+    "Notes": "Attended Presidential Inauguration;meets with U.S. Secretary of State"
+  },
+  {
+    "colt_TripID": "2386-PRY-COL-39719",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2008-09-28",
+    "TripDuration": "2",
+    "Notes": "Issue declaration;;lays wreath at Bolivar memorial"
+  },
+  {
+    "colt_TripID": "2386-PRY-COL-40276",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2010-04-08",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-COL-41012",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2012-04-13",
+    "TripDuration": "3",
+    "Notes": "Met with Mitt Romney"
+  },
+  {
+    "colt_TripID": "2386-PRY-COL-41071",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2012-06-11",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-CUB-39967",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Cuba",
+    "CityVisited": null,
+    "TripStartDate": "2009-06-03",
+    "TripDuration": "3",
+    "Notes": "Laid Wreath at Jose Marti memorial;goes to museum"
+  },
+  {
+    "colt_TripID": "2386-PRY-CUB-40591",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Cuba",
+    "CityVisited": null,
+    "TripStartDate": "2011-02-17",
+    "TripDuration": "3",
+    "Notes": "Medical treatment"
+  },
+  {
+    "colt_TripID": "2386-PRY-ECU-40217",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "2010-02-08",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-ECU-40651",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "2011-04-18",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-SLV-39964",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "El Salvador",
+    "CityVisited": null,
+    "TripStartDate": "2009-05-31",
+    "TripDuration": "2",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2386-PRY-DEU-40683",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Germany",
+    "CityVisited": null,
+    "TripStartDate": "2011-05-20",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-HTI-39916",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Haiti",
+    "CityVisited": null,
+    "TripStartDate": "2009-04-13",
+    "TripDuration": "1",
+    "Notes": "Sign Millennium Challenge Corporation (MCC) Threshold Program;location assumed"
+  },
+  {
+    "colt_TripID": "2386-PRY-HTI-40593",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Haiti",
+    "CityVisited": null,
+    "TripStartDate": "2011-02-19",
+    "TripDuration": "1",
+    "Notes": "Meets with UN troops"
+  },
+  {
+    "colt_TripID": "2386-PRY-HND-39965",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Honduras",
+    "CityVisited": null,
+    "TripStartDate": "2009-06-01",
+    "TripDuration": "3",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-IND-41052",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "India",
+    "CityVisited": "Nueva Delhi",
+    "TripStartDate": "2012-05-23",
+    "TripDuration": "3",
+    "Notes": "Also meets president;visits Mahatma Gandhi memorial"
+  },
+  {
+    "colt_TripID": "2386-PRY-IDN-40619",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Indonesia",
+    "CityVisited": null,
+    "TripStartDate": "2011-03-17",
+    "TripDuration": "1",
+    "Notes": "Reports suggest President Lugo made a stop in Indonesia. Unclear what activities if any they took part in while stopover"
+  },
+  {
+    "colt_TripID": "2386-PRY-MEX-39755",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2008-11-03",
+    "TripDuration": "2",
+    "Notes": "receives keys to city;visits memorial/places wreath"
+  },
+  {
+    "colt_TripID": "2386-PRY-PER-40365",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Peru",
+    "CityVisited": null,
+    "TripStartDate": "2010-07-06",
+    "TripDuration": "1",
+    "Notes": "Sign cooperation agreements"
+  },
+  {
+    "colt_TripID": "2386-PRY-ESP-40315",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Spain",
+    "CityVisited": null,
+    "TripStartDate": "2010-05-17",
+    "TripDuration": "3",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-USA-39748",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2008-10-27",
+    "TripDuration": "2",
+    "Notes": "Speaks at American University"
+  },
+  {
+    "colt_TripID": "2386-PRY-USA-39767",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2008-11-15",
+    "TripDuration": "1",
+    "Notes": "Group statement with LA leaders"
+  },
+  {
+    "colt_TripID": "2386-PRY-USA-40080",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2009-09-24",
+    "TripDuration": "5",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-USA-40807",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2011-09-21",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-URY-39899",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2009-03-27",
+    "TripDuration": "2",
+    "Notes": "Attend soccer game"
+  },
+  {
+    "colt_TripID": "2386-PRY-URY-40154",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2009-12-07",
+    "TripDuration": "2",
+    "Notes": "Meets with president-elect"
+  },
+  {
+    "colt_TripID": "2386-PRY-VEN-39919",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2009-04-16",
+    "TripDuration": "2",
+    "Notes": "Wreath laying ceremony"
+  },
+  {
+    "colt_TripID": "2386-PRY-VEN-40081",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2009-09-25",
+    "TripDuration": "2",
+    "Notes": "Sign Bank of the South agreement into action"
+  },
+  {
+    "colt_TripID": "2386-PRY-VEN-40729",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2011-07-05",
+    "TripDuration": "1",
+    "Notes": "Participated in Independence celebrations;visit Chavez"
+  },
+  {
+    "colt_TripID": "2386-PRY-VNM-40609",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Vietnam",
+    "CityVisited": null,
+    "TripStartDate": "2011-03-07",
+    "TripDuration": "5",
+    "Notes": "Visits War Remnants Museum;High-tech Park and Cu Chi Tunnels;sign cooperation agreements"
+  }
+]

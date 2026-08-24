@@ -1,0 +1,296 @@
+[
+  {
+    "our_Trip_ID": "4",
+    "President": "Luis Ángel González Macchi",
+    "Destination_Country": "Brazil",
+    "Start_Date": "2000-12-01"
+  },
+  {
+    "our_Trip_ID": "7",
+    "President": "Luis Ángel González Macchi",
+    "Destination_Country": "Uruguay",
+    "Start_Date": "2001-12-01"
+  },
+  {
+    "our_Trip_ID": "8",
+    "President": "Luis Ángel González Macchi",
+    "Destination_Country": "Ecuador",
+    "Start_Date": "2002-07-26"
+  },
+  {
+    "our_Trip_ID": "11",
+    "President": "Luis Ángel González Macchi",
+    "Destination_Country": "Brazil",
+    "Start_Date": "2003-01-01"
+  },
+  {
+    "our_Trip_ID": "12",
+    "President": "Luis Ángel González Macchi",
+    "Destination_Country": "Argentina",
+    "Start_Date": "2003-05-25"
+  },
+  {
+    "our_Trip_ID": "15",
+    "President": "Nicanor Duarte Frutos",
+    "Destination_Country": "Uruguay",
+    "Start_Date": "2003-12-01"
+  },
+  {
+    "our_Trip_ID": "16",
+    "President": "Nicanor Duarte Frutos",
+    "Destination_Country": "Argentina",
+    "Start_Date": "2004-07-01"
+  },
+  {
+    "our_Trip_ID": "18",
+    "President": "Nicanor Duarte Frutos",
+    "Destination_Country": "Brazil",
+    "Start_Date": "2004-12-16"
+  },
+  {
+    "our_Trip_ID": "26",
+    "President": "Nicanor Duarte Frutos",
+    "Destination_Country": "Brazil",
+    "Start_Date": "2006-12-01"
+  },
+  {
+    "our_Trip_ID": "32",
+    "President": "Nicanor Duarte Frutos",
+    "Destination_Country": "Dominican Republic",
+    "Start_Date": "2008-03-07"
+  },
+  {
+    "our_Trip_ID": "38",
+    "President": "Fernando Lugo",
+    "Destination_Country": "Mexico",
+    "Start_Date": "None"
+  },
+  {
+    "our_Trip_ID": "39",
+    "President": "Fernando Lugo",
+    "Destination_Country": "Colombia",
+    "Start_Date": "None"
+  },
+  {
+    "our_Trip_ID": "46",
+    "President": "Fernando Lugo",
+    "Destination_Country": "Portugal",
+    "Start_Date": "2009-11-29"
+  },
+  {
+    "our_Trip_ID": "47",
+    "President": "Fernando Lugo",
+    "Destination_Country": "Uruguay",
+    "Start_Date": "2009-12-19"
+  },
+  {
+    "our_Trip_ID": "52",
+    "President": "Fernando Lugo",
+    "Destination_Country": "Peru",
+    "Start_Date": "None"
+  },
+  {
+    "our_Trip_ID": "60",
+    "President": "Fernando Lugo",
+    "Destination_Country": "Bolivia",
+    "Start_Date": "2012-06-03"
+  },
+  {
+    "our_Trip_ID": "62",
+    "President": "Fernando Lugo",
+    "Destination_Country": "India",
+    "Start_Date": "2012-05-19"
+  },
+  {
+    "our_Trip_ID": "66",
+    "President": "Fernando Lugo",
+    "Destination_Country": "Argentina",
+    "Start_Date": "None"
+  },
+  {
+    "our_Trip_ID": "67",
+    "President": "Fernando Lugo",
+    "Destination_Country": "United States",
+    "Start_Date": "None"
+  },
+  {
+    "our_Trip_ID": "68",
+    "President": "Fernando Lugo",
+    "Destination_Country": "Cuba",
+    "Start_Date": "None"
+  },
+  {
+    "our_Trip_ID": "69",
+    "President": "Fernando Lugo",
+    "Destination_Country": "Belgium",
+    "Start_Date": "None"
+  },
+  {
+    "our_Trip_ID": "72",
+    "President": "Federico Franco",
+    "Destination_Country": "Taiwan",
+    "Start_Date": "2013-05-01"
+  },
+  {
+    "our_Trip_ID": "73",
+    "President": "Federico Franco",
+    "Destination_Country": "Spain",
+    "Start_Date": "2013-04-03"
+  },
+  {
+    "our_Trip_ID": "78",
+    "President": "Horacio Cartes",
+    "Destination_Country": "Cuba",
+    "Start_Date": "2014-01-28"
+  },
+  {
+    "our_Trip_ID": "82",
+    "President": "Horacio Cartes",
+    "Destination_Country": "United States",
+    "Start_Date": "2014-09-24"
+  },
+  {
+    "our_Trip_ID": "85",
+    "President": "Horacio Cartes",
+    "Destination_Country": "Spain",
+    "Start_Date": "2015-06-01"
+  },
+  {
+    "our_Trip_ID": "89",
+    "President": "Horacio Cartes",
+    "Destination_Country": "Uruguay",
+    "Start_Date": "2016-07-12"
+  },
+  {
+    "our_Trip_ID": "91",
+    "President": "Horacio Cartes",
+    "Destination_Country": "United States",
+    "Start_Date": "2016-09-20"
+  },
+  {
+    "our_Trip_ID": "92",
+    "President": "Horacio Cartes",
+    "Destination_Country": "Vatican City",
+    "Start_Date": "2017-01-15"
+  },
+  {
+    "our_Trip_ID": "113",
+    "President": "Mario Abdo Benítez",
+    "Destination_Country": "Argentina",
+    "Start_Date": "2019-08-23"
+  },
+  {
+    "our_Trip_ID": "125",
+    "President": "Mario Abdo Benítez",
+    "Destination_Country": "Chile",
+    "Start_Date": "2022-02-17"
+  },
+  {
+    "our_Trip_ID": "130",
+    "President": "Mario Abdo Benítez",
+    "Destination_Country": "Brazil",
+    "Start_Date": "2022-08-31"
+  },
+  {
+    "our_Trip_ID": "135",
+    "President": "Mario Abdo Benítez",
+    "Destination_Country": "Brazil",
+    "Start_Date": "2023-01-01"
+  },
+  {
+    "our_Trip_ID": "156",
+    "President": "Santiago Peña",
+    "Destination_Country": "Spain",
+    "Start_Date": "2024-02-25"
+  },
+  {
+    "our_Trip_ID": "157",
+    "President": "Santiago Peña",
+    "Destination_Country": "Argentina",
+    "Start_Date": "2024-04-18"
+  },
+  {
+    "our_Trip_ID": "166",
+    "President": "Santiago Peña",
+    "Destination_Country": "Costa Rica",
+    "Start_Date": "2024-08-18"
+  },
+  {
+    "our_Trip_ID": "167",
+    "President": "Santiago Peña",
+    "Destination_Country": "Uruguay",
+    "Start_Date": "2024-09-06"
+  },
+  {
+    "our_Trip_ID": "178",
+    "President": "Santiago Peña",
+    "Destination_Country": "Japan",
+    "Start_Date": "2025-05-01"
+  },
+  {
+    "our_Trip_ID": "184",
+    "President": "Santiago Peña",
+    "Destination_Country": "United Kingdom",
+    "Start_Date": "2025-07-21"
+  },
+  {
+    "our_Trip_ID": "186",
+    "President": "Santiago Peña",
+    "Destination_Country": "Brazil",
+    "Start_Date": "2025-09-08"
+  },
+  {
+    "our_Trip_ID": "189",
+    "President": "Santiago Peña",
+    "Destination_Country": "Switzerland",
+    "Start_Date": "2026-01-21"
+  },
+  {
+    "our_Trip_ID": "190",
+    "President": "Santiago Peña",
+    "Destination_Country": "United Arab Emirates",
+    "Start_Date": "2026-01-31"
+  },
+  {
+    "our_Trip_ID": "191",
+    "President": "Santiago Peña",
+    "Destination_Country": "United States",
+    "Start_Date": "2026-02-18"
+  },
+  {
+    "our_Trip_ID": "192",
+    "President": "Santiago Peña",
+    "Destination_Country": "Brazil",
+    "Start_Date": "2026-03-23"
+  },
+  {
+    "our_Trip_ID": "193",
+    "President": "Santiago Peña",
+    "Destination_Country": "United States",
+    "Start_Date": "2026-05-05"
+  },
+  {
+    "our_Trip_ID": "194",
+    "President": "Santiago Peña",
+    "Destination_Country": "Taiwan",
+    "Start_Date": "2026-05-06"
+  },
+  {
+    "our_Trip_ID": "195",
+    "President": "Santiago Peña",
+    "Destination_Country": "Philippines",
+    "Start_Date": "2026-05-10"
+  },
+  {
+    "our_Trip_ID": "196",
+    "President": "Santiago Peña",
+    "Destination_Country": "United States",
+    "Start_Date": "2026-06-11"
+  },
+  {
+    "our_Trip_ID": "197",
+    "President": "Santiago Peña",
+    "Destination_Country": "Panama",
+    "Start_Date": "2026-06-22"
+  }
+]

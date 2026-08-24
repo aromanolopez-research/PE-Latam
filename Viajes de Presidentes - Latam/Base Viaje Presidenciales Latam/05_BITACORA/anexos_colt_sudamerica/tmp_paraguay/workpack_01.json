@@ -1,0 +1,312 @@
+[
+  {
+    "colt_TripID": "1341-PRY-BRA-36137",
+    "colt_LeaderID": "1341",
+    "LeaderFullName": "Raul Cubas Grau",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1998-12-08",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1341-PRY-BRA-36164",
+    "colt_LeaderID": "1341",
+    "LeaderFullName": "Raul Cubas Grau",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1999-01-04",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "1341-PRY-BRA-36202",
+    "colt_LeaderID": "1341",
+    "LeaderFullName": "Raul Cubas Grau",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1999-02-11",
+    "TripDuration": "1",
+    "Notes": "Met with President Fernando Henrique Cardoso in Brasilia"
+  },
+  {
+    "colt_TripID": "1341-PRY-VEN-36193",
+    "colt_LeaderID": "1341",
+    "LeaderFullName": "Raul Cubas Grau",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "1999-02-02",
+    "TripDuration": "1",
+    "Notes": "Attended inauguration of President Hugo Chavez;Discussed situation of Mercosur and the Brazilian financial crisis"
+  },
+  {
+    "colt_TripID": "1395-PRY-ARG-37440",
+    "colt_LeaderID": "1395",
+    "our_Trip_ID": "9",
+    "President": "Luis Ángel González Macchi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2002-07-05",
+        "colt": "2002-07-03"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1395-PRY-CAN-37001",
+    "colt_LeaderID": "1395",
+    "our_Trip_ID": "5",
+    "President": "Luis Ángel González Macchi",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1395-PRY-DOM-37574",
+    "colt_LeaderID": "1395",
+    "our_Trip_ID": "10",
+    "President": "Luis Ángel González Macchi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2002-11-15",
+        "colt": "2002-11-14"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1395-PRY-PAN-36847",
+    "colt_LeaderID": "1395",
+    "our_Trip_ID": "3",
+    "President": "Luis Ángel González Macchi",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1395-PRY-PER-37219",
+    "colt_LeaderID": "1395",
+    "our_Trip_ID": "6",
+    "President": "Luis Ángel González Macchi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2001-11-23",
+        "colt": "2001-11-24"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1395-PRY-ARG-37139",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2001-09-05",
+    "TripDuration": "2",
+    "Notes": "Sign immigration agreement"
+  },
+  {
+    "colt_TripID": "1395-PRY-ARG-37305",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2002-02-18",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-ARG-37402",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2002-05-26",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "1395-PRY-BRA-36339",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1999-06-28",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-BRA-36567",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2000-02-11",
+    "TripDuration": "2",
+    "Notes": "received lown from National bank of Economic and Social Development of Brazil"
+  },
+  {
+    "colt_TripID": "1395-PRY-BRA-36875",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2000-12-15",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-BRA-37595",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2002-12-05",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-CHL-37121",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2001-08-18",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-CRI-37357",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Costa Rica",
+    "CityVisited": null,
+    "TripStartDate": "2002-04-11",
+    "TripDuration": "2",
+    "Notes": "Declaration signed"
+  },
+  {
+    "colt_TripID": "1395-PRY-CUB-36480",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Cuba",
+    "CityVisited": null,
+    "TripStartDate": "1999-11-16",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-DEU-36811",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Germany",
+    "CityVisited": null,
+    "TripStartDate": "2000-10-12",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-MEX-36308",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "1999-05-28",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-PER-37100",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Peru",
+    "CityVisited": null,
+    "TripStartDate": "2001-07-28",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "1395-PRY-TWN-36419",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "1999-09-16",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-TWN-37487",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "2002-08-19",
+    "TripDuration": "5",
+    "Notes": "Meets with other officials;attends ribbon-cutting ceremony for trade office;visits island of Kinmen"
+  },
+  {
+    "colt_TripID": "1395-PRY-USA-36426",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "1999-09-23",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-USA-37205",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2001-11-10",
+    "TripDuration": "3",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-URY-36502",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "1999-12-08",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-URY-37245",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2001-12-20",
+    "TripDuration": "2",
+    "Notes": "Attended a Mercosur summit after the resignation of the president of Argentina Fernando de la Rua"
+  }
+]

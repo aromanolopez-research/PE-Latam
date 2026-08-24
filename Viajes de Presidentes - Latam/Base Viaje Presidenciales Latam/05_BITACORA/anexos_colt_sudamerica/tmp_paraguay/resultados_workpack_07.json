@@ -1,0 +1,403 @@
+{
+  "resultados": [
+    {
+      "colt_TripID": "844-PRY-ARG-34987",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "SEGIB / prensa: V Cumbre Iberoamericana, San Carlos de Bariloche, Argentina, 16-17 oct 1995 (Wasmosy confirmado como asistente); COLT SourceLink FBIS (infoweb.newsbank).",
+      "justificacion": "Coincide con la V Cumbre Iberoamericana en Bariloche (16-17 oct 1995), donde fuentes confirman la asistencia de Wasmosy; la fecha de inicio (15-oct) corresponde al día de viaje previo a la cumbre."
+    },
+    {
+      "colt_TripID": "844-PRY-ARG-35030",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink FBIS (3 despachos distintos sobre la visita: discurso en el Congreso argentino y firma de cinco acuerdos).",
+      "justificacion": "Tres registros de archivo FBIS independientes describen una visita de Estado con actividades específicas (discurso ante el Congreso, firma de cinco acuerdos); no hay señales de mala clasificación."
+    },
+    {
+      "colt_TripID": "844-PRY-ARG-35180",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "COLT SourceLink FBIS titulado 'Argentina: Paraguay Crisis Said Weathered for now'; La Nación (lanacion.com.ar) y Wikipedia ES 'Intento de golpe de Estado de Paraguay de 1996' confirman que Wasmosy permaneció refugiado en la embajada de EEUU en Asunción durante la crisis de Oviedo, resuelta el 25-abr-1996.",
+      "justificacion": "El 25-abr-1996 Wasmosy estaba en Asunción resolviendo el intento de golpe de Lino Oviedo (refugiado en la embajada de EEUU); la fuente citada por COLT es un artículo de prensa argentina SOBRE la crisis paraguaya, no un reporte de viaje. Evidencia positiva de que no hubo desplazamiento a Argentina en esa fecha."
+    },
+    {
+      "colt_TripID": "844-PRY-ARG-35202",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLink FBIS titulado 'Argentina: Paraguay's Wasmosy Thanks Menem for Support'; búsqueda propia sin confirmación de traslado físico.",
+      "justificacion": "El titular confirma un gesto de agradecimiento a Menem pero no aclara si fue un viaje físico a Argentina o una declaración/llamada telefónica; COLT mismo anota 'very few details'. Posible evento hermano de 844-PRY-BRA-35201 y 844-PRY-URY-35203 (misma semana, mismo patrón de agradecimiento post-crisis Oviedo) — no se pudo confirmar desplazamiento real en ninguno de los tres."
+    },
+    {
+      "colt_TripID": "844-PRY-ARG-35915",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLink Lexis (sin título recuperable); búsqueda propia sin resultados.",
+      "justificacion": "No se halló cobertura de prensa ni referencia histórica sobre un viaje a Argentina en esta fecha (fines de abril/inicios de mayo 1998, período previo a las elecciones paraguayas del 10-may-1998); sin evidencia en ningún sentido."
+    },
+    {
+      "colt_TripID": "844-PRY-ARG-35999",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT Notes + SourceLinks ProQuest; patrón regular de cumbres semestrales del MERCOSUR con Paraguay como socio fundador pleno.",
+      "justificacion": "Cumbre del MERCOSUR de julio de 1998 en Argentina (última cumbre de Wasmosy como presidente, semanas antes de dejar el cargo); consistente con el calendario semestral habitual del bloque y la membresía plena de Paraguay."
+    },
+    {
+      "colt_TripID": "844-PRY-BEL-34429",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink FBIS 'President Wasmosy Departs for European Tour' (mismo despacho citado en 844-PRY-FRA-34431).",
+      "justificacion": "Forma parte de la misma gira europea de abril de 1994 confirmada por el titular 'Wasmosy Departs for European Tour', que incluyó Bélgica y Francia en fechas casi consecutivas (5-7 abr y 7-8 abr)."
+    },
+    {
+      "colt_TripID": "844-PRY-BOL-34588",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink FBIS titulado 'Presidents of Peru, Bolivia, Paraguay Discuss Projects'.",
+      "justificacion": "El titular confirma explícitamente una reunión trilateral de los presidentes de Perú, Bolivia y Paraguay, coherente con la nota sobre integración física de un corredor de exportación."
+    },
+    {
+      "colt_TripID": "844-PRY-BOL-34965",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS (3 despachos); aniversario del departamento de Santa Cruz se celebra el 24 de septiembre (confirmado por fuentes bolivianas oficiales).",
+      "justificacion": "La fecha del viaje (23-25 sep 1995) coincide exactamente con el aniversario de fundación de Santa Cruz (24-sep), tal como indica la nota de COLT; tres despachos FBIS independientes respaldan el evento."
+    },
+    {
+      "colt_TripID": "844-PRY-BOL-35542",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Búsqueda propia: se confirmó una IX Reunión del Consejo Presidencial Andino en Sucre, Bolivia, el 22-abr-1997, pero no se halló confirmación de que Wasmosy (Paraguay no es miembro de la Comunidad Andina) haya asistido como invitado.",
+      "justificacion": "Existe un evento presidencial real en Sucre en esas fechas (cumbre andina), pero Paraguay no integra la Comunidad Andina y no se encontró fuente que confirme ni descarte la asistencia de Wasmosy como invitado especial; los SourceLinks de COLT (ProQuest) no fueron accesibles para verificar el contenido."
+    },
+    {
+      "colt_TripID": "844-PRY-BRA-34408",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS titulados 'Wasmosy To Be Out of Town During Peasant March', 'Brazil's Press Surprised by Wasmosy's Visit', 'Seven Agreements Signed'.",
+      "justificacion": "Múltiples titulares de archivo confirman explícitamente el viaje de Wasmosy a Brasil y la firma de siete acuerdos."
+    },
+    {
+      "colt_TripID": "844-PRY-BRA-34575",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink FBIS; nota detallada con actividades específicas (acuerdo de represión de contrabando, reunión con CEAL, visita a fábricas y programa de reforestación, recepción de premio).",
+      "justificacion": "El nivel de detalle específico de la nota (varias actividades concretas y distintas) sugiere que el investigador de COLT tuvo acceso a cobertura sustantiva del viaje, no solo una mención tangencial."
+    },
+    {
+      "colt_TripID": "844-PRY-BRA-34586",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink FBIS titulado 'President Wasmosy Departs for Rio Summit'.",
+      "justificacion": "El titular confirma directamente la partida de Wasmosy hacia una cumbre en Río de Janeiro."
+    },
+    {
+      "colt_TripID": "844-PRY-BRA-34620",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLinks FBIS titulados 'Wasmosy Denies Detentions Made in Rodriguez Case' (ambos enlaces con el mismo título).",
+      "justificacion": "El único titular recuperable de la fuente citada por COLT es sobre un tema de política doméstica paraguaya (declaraciones de Wasmosy negando detenciones en un caso judicial), sin mención de viaje a Brasil; no se pudo confirmar independientemente su ubicación ese día, por lo que se marca como no verificable en lugar de descartar directamente, pero se señala la incongruencia entre la fuente citada y el hecho de 'CountryVisited=Brazil'."
+    },
+    {
+      "colt_TripID": "844-PRY-BRA-34684",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS/Getty Images; coincide con la firma del Protocolo de Ouro Preto (17-dic-1994), que otorgó personalidad jurídica internacional al MERCOSUR.",
+      "justificacion": "La fecha (16-17 dic 1994) y la descripción ('ceremonia de firma del estatus legal del Mercosur') coinciden con el histórico Protocolo de Ouro Preto, firmado el 17-dic-1994 en Brasil."
+    },
+    {
+      "colt_TripID": "844-PRY-BRA-34701",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks ProQuest/Getty Images; asunción de Fernando Henrique Cardoso como presidente de Brasil el 1-ene-1995, ampliamente documentada.",
+      "justificacion": "La toma de posesión de Cardoso el 1-ene-1995 es un hecho histórico extensamente documentado al que asistieron jefes de Estado de la región; existe fotografía de archivo (Getty) de la época."
+    },
+    {
+      "colt_TripID": "844-PRY-BRA-34725",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink FBIS (mismo despacho citado en 844-PRY-CHE-34725, 844-PRY-CHL-34743, 844-PRY-VAT-34745, 844-PRY-ROU-34771, 844-PRY-DNK-34769, 844-PRY-HUN-34773, 844-PRY-URY-34759).",
+      "justificacion": "ATENCIÓN: mismo TripID numérico (34725) que 844-PRY-CHE-34725, correspondiente a un tramo de escala en Brasil ('layover en route to Switzerland') dentro del mismo viaje a Suiza; posible duplicado interno de COLT (dos filas de país para un mismo TripID/viaje). Se recomienda agregar como tramo de escala, pero la duración registrada por COLT (32 días) es casi con certeza un error de carga de datos (una escala no dura 32 días); la fecha de fin coherente sería cercana a fines de enero de 1995, no el 26-feb-1995."
+    },
+    {
+      "colt_TripID": "844-PRY-BRA-34868",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink: fotografía de archivo con licencia de Getty Images fechada en el período del viaje (18-20 jun 1995).",
+      "justificacion": "Existe fotografía de archivo comercial (Getty Images) asociada a la fecha, lo cual sugiere un evento público documentado, aunque no se pudo acceder al pie de foto completo para confirmar detalles adicionales."
+    },
+    {
+      "colt_TripID": "844-PRY-BRA-34954",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLink FBIS (sin título recuperable); nota de COLT: 'Very few details on specific activities of this visit'.",
+      "justificacion": "No se encontró título ni contenido recuperable en la fuente citada, y la propia nota de COLT admite que hay muy pocos detalles disponibles; sin evidencia adicional en ningún sentido."
+    },
+    {
+      "colt_TripID": "844-PRY-BRA-34975",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS titulados 'Cardoso, Paraguay's Wasmosy Discuss Pipeline Project'.",
+      "justificacion": "El titular confirma explícitamente una reunión entre Cardoso y Wasmosy para discutir un proyecto de gasoducto/oleoducto."
+    },
+    {
+      "colt_TripID": "844-PRY-BRA-35175",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "COLT SourceLinks FBIS titulados 'Paraguay: Brazilian Magazine on Coup Attempt in Apr'; La Nación y Wikipedia ES sobre el intento de golpe de Oviedo de abril de 1996.",
+      "justificacion": "La fecha (20-abr-1996) cae dentro de la crisis del intento de golpe de Lino Oviedo (22-25 abr 1996), quien recién sería enfrentado por Wasmosy días después; el propio titular de la fuente citada por COLT es un artículo de una revista brasileña ANALIZANDO el intento de golpe en Paraguay, no un reporte de viaje de Wasmosy a Brasil. Evidencia positiva de que la entrada corresponde a cobertura de la crisis doméstica, no a un desplazamiento físico."
+    },
+    {
+      "colt_TripID": "844-PRY-BRA-35201",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLink FBIS titulado 'Argentina: Paraguay's Wasmosy Thanks Menem for Support' (mismo título que 844-PRY-ARG-35202, un día después).",
+      "justificacion": "Comparte fuente y titular con 844-PRY-ARG-35202 (17-may-1996) y temáticamente con 844-PRY-URY-35203 (18-may-1996); posible triple entrada de COLT para un mismo evento de 'gira de agradecimiento' tras la crisis de Oviedo, o bien una declaración/llamada sin desplazamiento físico. No se pudo confirmar viaje real a Brasil en esta fecha."
+    },
+    {
+      "colt_TripID": "844-PRY-CHL-34376",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink FBIS; asunción presidencial de Eduardo Frei Ruiz-Tagle en Chile (fecha protocolar chilena: 11-mar-1994).",
+      "justificacion": "El evento (asunción presidencial en Chile) es real y Wasmosy plausiblemente asistió como es costumbre regional, pero la fecha registrada por COLT (11-feb-1994) parece errónea en un mes exacto respecto a la fecha protocolar chilena real (11-mar-1994); la propia nota de COLT admite que las fechas son difíciles de precisar. Se recomienda agregar pero corrigiendo la fecha a marzo de 1994 en la revisión posterior."
+    },
+    {
+      "colt_TripID": "844-PRY-CHL-34743",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLinks FBIS (sin título recuperable); sin notas adicionales de COLT.",
+      "justificacion": "No se encontró título recuperable en las fuentes citadas ni corroboración independiente vía búsqueda web para un viaje a Chile en esta fecha (13-14 feb 1995)."
+    },
+    {
+      "colt_TripID": "844-PRY-CHL-35902",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLinks ProQuest (sin título recuperable); búsqueda propia confirma que el Acuerdo Chile-Mercosur (ACE 35) ya regía desde octubre de 1996, y que el 17-abr-1998 fue la fecha de firma del TLC Chile-México (evento distinto).",
+      "justificacion": "No se pudo confirmar un acuerdo bilateral Chile-Paraguay firmado específicamente el 17-18 abr 1998; existe la posibilidad de que la entrada de COLT haya confundido este viaje con la firma del TLC Chile-México de la misma fecha (17-abr-1998), pero no hay evidencia suficiente para descartar ni confirmar un viaje real de Wasmosy a Chile en esas fechas."
+    },
+    {
+      "colt_TripID": "844-PRY-COL-34498",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS titulados 'Wasmosy Leaves for Ibero-American Summit', 'Paraguayan President's Remarks'.",
+      "justificacion": "Coincide con la IV Cumbre Iberoamericana en Cartagena de Indias, Colombia (junio 1994); los titulares confirman directamente la partida de Wasmosy y sus declaraciones en la cumbre."
+    },
+    {
+      "colt_TripID": "844-PRY-COL-34554",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink FBIS titulado 'Meets Paraguay's Wasmosy'.",
+      "justificacion": "El titular confirma una reunión con Wasmosy en Colombia; la fecha (8-ago-1994) es cercana a la asunción presidencial de Ernesto Samper (7-ago-1994)."
+    },
+    {
+      "colt_TripID": "844-PRY-COL-35641",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images: 'Paraguayan President Juan Carlos Wasmosy and his Colombian counterpart Ernesto Samper reviewed the presidential guard on 30 July in Bogota. Wasmosy was on a two-day official visit to Colombia.'",
+      "justificacion": "Pie de foto de Getty Images confirma explícitamente la visita oficial de dos días de Wasmosy a Bogotá y su encuentro con Samper el 30-jul-1997, incluyendo el episodio de desmayo mencionado por COLT."
+    },
+    {
+      "colt_TripID": "844-PRY-CRI-35823",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink ProQuest (sin título recuperable); nota específica de COLT ('Signed investment agreement').",
+      "justificacion": "La nota de COLT describe una actividad concreta y verificable (firma de acuerdo de inversión); sin señales de mala clasificación, y consistente con una gira centroamericana de enero de 1998 que continuó a El Salvador al día siguiente."
+    },
+    {
+      "colt_TripID": "844-PRY-DNK-34769",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS; notas cruzadas con 844-PRY-ROU-34771 ('unclear whether signed in Romania'/'unclear whether signed in Denmark') indican que COLT tenía evidencia sustantiva de ambos tramos.",
+      "justificacion": "Forma parte de una gira europea coherente y secuencial (Dinamarca 11-12 mar, Rumania 13-14 mar, Hungría 15-18 mar de 1995); las notas de COLT se referencian mutuamente entre Dinamarca y Rumania sobre un acuerdo firmado, lo que sugiere cobertura real de ambos tramos del viaje."
+    },
+    {
+      "colt_TripID": "844-PRY-ECU-34947",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLinks FBIS (sin título recuperable); sin notas adicionales de COLT.",
+      "justificacion": "No se encontró título recuperable ni corroboración independiente para un viaje a Ecuador el 5-sep-1995."
+    },
+    {
+      "colt_TripID": "844-PRY-SLV-35824",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT Notes: 'no information;no confirmation of visit' (admisión explícita de COLT); mismo SourceLink que 844-PRY-CRI-35823 (Costa Rica, día anterior).",
+      "justificacion": "COLT mismo declara explícitamente no tener confirmación de esta visita; comparte la fuente con el tramo de Costa Rica (28-29 ene 1998) pero no se encontró evidencia independiente de un tramo adicional en El Salvador el 29-ene-1998. Se respeta la duda expresada por la propia fuente COLT."
+    },
+    {
+      "colt_TripID": "844-PRY-FRA-34431",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS titulados 'President Wasmosy Departs for European Tour'.",
+      "justificacion": "El titular confirma directamente la partida de Wasmosy en una gira europea que incluyó Francia (y Bélgica, ver 844-PRY-BEL-34429) en abril de 1994."
+    },
+    {
+      "colt_TripID": "844-PRY-VAT-34745",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLinks FBIS (sin título recuperable); sin notas adicionales de COLT.",
+      "justificacion": "No se encontró título recuperable en las fuentes ni corroboración independiente de una visita al Vaticano en estas fechas (15-19 feb 1995); las visitas de mandatarios latinoamericanos al Vaticano son frecuentes y plausibles, pero no se halló evidencia positiva específica."
+    },
+    {
+      "colt_TripID": "844-PRY-HUN-34773",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS; ver justificación de 844-PRY-DNK-34769 (mismo tramo de gira europea de marzo de 1995).",
+      "justificacion": "Último tramo de la gira europea de marzo de 1995 (Dinamarca-Rumania-Hungría), con notas cruzadas y despachos FBIS específicos que respaldan el itinerario."
+    },
+    {
+      "colt_TripID": "844-PRY-JPN-34664",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS titulados 'Paraguayan President Arrives for Visit', 'Paraguay President Supports Tokyo's UNSC Bid'.",
+      "justificacion": "Múltiples titulares de archivo confirman explícitamente la visita de Estado a Japón, incluyendo el encuentro con el Emperador y declaraciones sobre la candidatura de Japón al Consejo de Seguridad de la ONU."
+    },
+    {
+      "colt_TripID": "844-PRY-MEX-34668",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS; asunción presidencial de Ernesto Zedillo en México el 1-dic-1994, ampliamente documentada.",
+      "justificacion": "La toma de posesión de Zedillo el 1-dic-1994 es un hecho histórico extensamente documentado; el viaje es continuación lógica de la gira a Japón (26-30 nov 1994) que terminó justo antes."
+    },
+    {
+      "colt_TripID": "844-PRY-MEX-35642",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink ProQuest (mismo docview que 844-PRY-COL-35641, Colombia).",
+      "justificacion": "Continuación plausible e inmediata del viaje a Colombia (que Getty Images confirma terminó el 31-jul-1997), con la misma fuente documental citada por COLT para ambos tramos."
+    },
+    {
+      "colt_TripID": "844-PRY-PER-34365",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS titulados 'Paraguayan President Wasmosy Signs Joint Agreement', 'Fujimori Greets First Paraguayan President Visiting Country'.",
+      "justificacion": "Múltiples titulares confirman explícitamente la visita, notable como la primera de un presidente paraguayo a Perú según la fuente."
+    },
+    {
+      "colt_TripID": "844-PRY-PER-34907",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks Lexis/Getty Images; segunda asunción presidencial de Alberto Fujimori el 28-jul-1995, ampliamente documentada.",
+      "justificacion": "La segunda toma de posesión de Fujimori el 28-jul-1995 es un hecho histórico bien documentado; existe fotografía de archivo (Getty) de la época."
+    },
+    {
+      "colt_TripID": "844-PRY-ROU-34771",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS; ver justificación de 844-PRY-DNK-34769 (mismo tramo de gira europea de marzo de 1995).",
+      "justificacion": "Tramo intermedio de la gira europea de marzo de 1995 (Dinamarca-Rumania-Hungría); notas cruzadas con Dinamarca sobre un acuerdo firmado respaldan la realidad de ambos tramos."
+    },
+    {
+      "colt_TripID": "844-PRY-KOR-35254",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS titulados 'Taiwan: Ambassador: Paraguay President's Visit To Strengthen Ties', 'Wasmosy Ends Visit to ROK; Loan Granted'.",
+      "justificacion": "Múltiples titulares confirman explícitamente la visita a Corea del Sur y el otorgamiento de un préstamo al finalizar."
+    },
+    {
+      "colt_TripID": "844-PRY-ESP-34628",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS titulados 'President Wasmosy Departs on Visit to Spain', 'Paraguayan President Arrives; Meets King, Gonzalez', 'President, Foreign Minister Return From Spain'.",
+      "justificacion": "Múltiples titulares de archivo confirman de forma inequívoca la visita de Estado a España, incluyendo el encuentro con el Rey Juan Carlos I."
+    },
+    {
+      "colt_TripID": "844-PRY-CHE-34725",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS/Lexis; fechas (26-31 ene 1995) coinciden con el Foro Económico Mundial de Davos de esos años.",
+      "justificacion": "ATENCIÓN: comparte TripID numérico (34725) con 844-PRY-BRA-34725 (escala en Brasil rumbo a Suiza); posible duplicado interno de COLT que en realidad representa dos tramos de un mismo viaje (escala en Brasil + destino principal Suiza, plausiblemente vinculado al Foro de Davos). Se recomienda agregar este tramo como el destino principal del viaje."
+    },
+    {
+      "colt_TripID": "844-PRY-TWN-34933",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS titulados 'Paraguayan, Panamanian Presidents To Visit', 'Wasmosy Departs for Taiwan on Official Visit'.",
+      "justificacion": "Múltiples titulares confirman explícitamente la visita oficial a Taiwán, incluyendo la Conferencia de Cooperación Económica ROC-Paraguay."
+    },
+    {
+      "colt_TripID": "844-PRY-TWN-35257",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS titulados 'Taiwan: Ambassador: Paraguay President's Visit To Strengthen Ties', 'Wasmosy Ends Visit to ROK; Loan Granted' (compartidos con 844-PRY-KOR-35254).",
+      "justificacion": "Continuación inmediata y bien documentada de la gira asiática de julio de 1996 (Corea del Sur 8-11 jul, luego Taiwán 11-13 jul); mismos despachos FBIS citan ambos tramos."
+    },
+    {
+      "colt_TripID": "844-PRY-GBR-34517",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink FBIS titulado 'Wasmosy Departs for United Kingdom'.",
+      "justificacion": "El titular confirma directamente la partida de Wasmosy hacia el Reino Unido; nota específica sobre firma de acuerdo de tráfico de drogas."
+    },
+    {
+      "colt_TripID": "844-PRY-USA-34678",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink: fotografía de archivo con licencia de Getty Images fechada 10-dic-1994.",
+      "justificacion": "Existe fotografía de archivo comercial (Getty Images) asociada a la fecha exacta, sugiriendo un evento público documentado en Estados Unidos; se ubica en medio de un período de intensa actividad viajera (gira Japón-México de nov-dic 1994)."
+    },
+    {
+      "colt_TripID": "844-PRY-USA-35001",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLink FBIS (sin título recuperable); búsqueda propia sobre un discurso en la Universidad de Kansas sin resultados concluyentes.",
+      "justificacion": "No se pudo confirmar independientemente un discurso de Wasmosy en la Universidad de Kansas el 29-oct-1995 pese a la búsqueda específica; la propia nota de COLT admite 'very little info'. Es un evento plausible pero de escasa cobertura digital disponible."
+    },
+    {
+      "colt_TripID": "844-PRY-USA-35540",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLink ProQuest (sin título recuperable); búsqueda propia sin resultados sobre una visita al delta del Mississippi/sur de Florida.",
+      "justificacion": "No se encontró corroboración independiente; la propia nota de COLT admite 'not much info, dates approx'. Itinerario inusual (delta del Mississippi, sur de Florida) sin confirmación en ningún sentido."
+    },
+    {
+      "colt_TripID": "844-PRY-URY-34351",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLink FBIS (sin título recuperable); nota de COLT: 'no end date given'.",
+      "justificacion": "No se encontró título recuperable en la fuente citada ni corroboración independiente para un viaje a Uruguay el 17-ene-1994."
+    },
+    {
+      "colt_TripID": "844-PRY-URY-34496",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink FBIS titulado 'Argentine, Paraguayan Presidents Depart'.",
+      "justificacion": "El titular confirma que los presidentes de Argentina (Menem) y Paraguay (Wasmosy) partieron juntos, coherente con la nota sobre la ceremonia de apertura de licitación para el dragado del Canal Martín García (zona limítrofe Argentina-Uruguay)."
+    },
+    {
+      "colt_TripID": "844-PRY-URY-34759",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLinks FBIS; asunción presidencial de Julio María Sanguinetti en Uruguay el 1-mar-1995, ampliamente documentada.",
+      "justificacion": "La toma de posesión de Sanguinetti el 1-mar-1995 es un hecho histórico bien documentado al que asistieron los presidentes del Mercosur, incluido Wasmosy."
+    },
+    {
+      "colt_TripID": "844-PRY-URY-35039",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "COLT SourceLink FBIS; coincide con la cumbre del MERCOSUR de diciembre de 1995 en Punta del Este/Montevideo, evento regular del calendario semestral del bloque.",
+      "justificacion": "La nota sobre la firma del acuerdo 'cuatro más uno' (Mercosur + Chile o Bolivia) es coherente con el calendario semestral de cumbres del Mercosur de fin de 1995, del cual Paraguay era socio pleno."
+    },
+    {
+      "colt_TripID": "844-PRY-URY-35203",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLink FBIS titulado 'Argentina: Paraguay's Wasmosy Thanks Menem for Support' (mismo título que 844-PRY-ARG-35202 y 844-PRY-BRA-35201).",
+      "justificacion": "Comparte fuente y temática con 844-PRY-ARG-35202 (17-may-1996) y 844-PRY-BRA-35201 (16-may-1996); posible tercera entrada de COLT del mismo evento/gesto de agradecimiento post-crisis Oviedo repartido en tres países, o bien una declaración sin desplazamiento físico. No se pudo confirmar viaje real a Uruguay en esta fecha."
+    },
+    {
+      "colt_TripID": "844-PRY-URY-35768",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLink ProQuest (sin título recuperable); sin notas adicionales de COLT.",
+      "justificacion": "No se encontró título recuperable ni corroboración independiente para un viaje a Uruguay el 4-5 dic 1997."
+    },
+    {
+      "colt_TripID": "844-PRY-URY-35781",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "COLT SourceLink ProQuest (sin título recuperable); nota de COLT: 'Very few details on specific activities of this visit'.",
+      "justificacion": "No se encontró título recuperable ni corroboración independiente para un viaje a Uruguay el 17-dic-1997, dos semanas después de 844-PRY-URY-35768; la propia nota de COLT admite escasez de detalles."
+    }
+  ]
+}

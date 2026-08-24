@@ -1,0 +1,2492 @@
+[
+  {
+    "colt_TripID": "844-PRY-ARG-34987",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "1995-10-15",
+    "TripDuration": "1",
+    "Notes": "Dates of Summit unclear"
+  },
+  {
+    "colt_TripID": "844-PRY-ARG-35030",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "1995-11-27",
+    "TripDuration": "2",
+    "Notes": "Addresses congress/laymakers;sign five agreements"
+  },
+  {
+    "colt_TripID": "844-PRY-ARG-35180",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "1996-04-25",
+    "TripDuration": "1",
+    "Notes": "Very little detail, briefly mentioned, dates unclear"
+  },
+  {
+    "colt_TripID": "844-PRY-ARG-35202",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "1996-05-17",
+    "TripDuration": "1",
+    "Notes": "Very few details on specific activities of this visit"
+  },
+  {
+    "colt_TripID": "844-PRY-ARG-35915",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "1998-04-30",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "844-PRY-ARG-35999",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "1998-07-23",
+    "TripDuration": "3",
+    "Notes": "Attended a Common Market of the South (MERCOSUR) Summit in Buenos Aires"
+  },
+  {
+    "colt_TripID": "1395-PRY-ARG-37139",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2001-09-05",
+    "TripDuration": "2",
+    "Notes": "Sign immigration agreement"
+  },
+  {
+    "colt_TripID": "1395-PRY-ARG-37305",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2002-02-18",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-ARG-37402",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2002-05-26",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "1849-PRY-ARG-37972",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2003-12-17",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-ARG-38176",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2004-07-08",
+    "TripDuration": "1",
+    "Notes": "Summit to Accept Mexico to Mercosur"
+  },
+  {
+    "colt_TripID": "2386-PRY-ARG-39930",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2009-04-27",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-ARG-40479",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2010-10-28",
+    "TripDuration": "1",
+    "Notes": "Funeral of Nestor Kirchner"
+  },
+  {
+    "colt_TripID": "2386-PRY-ARG-40599",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2011-02-25",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2386-PRY-ARG-40887",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2011-12-10",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential inauguration"
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-42348",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2015-12-10",
+    "TripDuration": "2",
+    "Notes": "Attended Presidential inauguration"
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-42445",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2016-03-16",
+    "TripDuration": "1",
+    "Notes": "Receives Shalom Prize"
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-42499",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2016-05-09",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-42990",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2017-09-12",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-43012",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2017-10-04",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-ARG-43079",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2017-12-10",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "3481-PRY-ARG-43544",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2019-03-20",
+    "TripDuration": "2",
+    "Notes": "Met about the 2030 World Cup"
+  },
+  {
+    "colt_TripID": "1849-PRY-AUT-38849",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Austria",
+    "CityVisited": null,
+    "TripStartDate": "2006-05-12",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "844-PRY-BEL-34429",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Belgium",
+    "CityVisited": null,
+    "TripStartDate": "1994-04-05",
+    "TripDuration": "3",
+    "Notes": "Meets with Radio Netherlands International"
+  },
+  {
+    "colt_TripID": "1849-PRY-BEL-38852",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Belgium",
+    "CityVisited": null,
+    "TripStartDate": "2006-05-15",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-BEL-40687",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Belgium",
+    "CityVisited": null,
+    "TripStartDate": "2011-05-24",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-BEL-42165",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Belgium",
+    "CityVisited": null,
+    "TripStartDate": "2015-06-10",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "3481-PRY-BEL-45122",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Belgium",
+    "CityVisited": null,
+    "TripStartDate": "2023-07-15",
+    "TripDuration": "4",
+    "Notes": "Attended and spoke at the European Council-Community of Latin American and Carribean States (EU-CELAC) Summit"
+  },
+  {
+    "colt_TripID": "844-PRY-BOL-34588",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "1994-09-11",
+    "TripDuration": "1",
+    "Notes": "Participated in ceremony for the physical integreation of an export corridor"
+  },
+  {
+    "colt_TripID": "844-PRY-BOL-34965",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "1995-09-23",
+    "TripDuration": "3",
+    "Notes": "Celebration of Santa Cruz department;not clear if Brazil Meeting is part of this visit;sign final declaration"
+  },
+  {
+    "colt_TripID": "844-PRY-BOL-35542",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "1997-04-22",
+    "TripDuration": "2",
+    "Notes": "Sign Sucre Act"
+  },
+  {
+    "colt_TripID": "1849-PRY-BOL-38739",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2006-01-22",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential inauguration"
+  },
+  {
+    "colt_TripID": "1849-PRY-BOL-39613",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2008-06-14",
+    "TripDuration": "1",
+    "Notes": "Military ceremony, war anniversary"
+  },
+  {
+    "colt_TripID": "2386-PRY-BOL-39802",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2008-12-20",
+    "TripDuration": "1",
+    "Notes": "Celebrate end of Cuban literacy program"
+  },
+  {
+    "colt_TripID": "2386-PRY-BOL-40010",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2009-07-16",
+    "TripDuration": "1",
+    "Notes": "Participated in a celebration marking the Revolution anniversary"
+  },
+  {
+    "colt_TripID": "2386-PRY-BOL-40200",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2010-01-22",
+    "TripDuration": "1",
+    "Notes": "Attend Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2931-PRY-BOL-41614",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2013-12-06",
+    "TripDuration": "1",
+    "Notes": "Trip to Bolivia to establish diplomatic ties"
+  },
+  {
+    "colt_TripID": "2931-PRY-BOL-42026",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2015-01-22",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2931-PRY-BOL-42240",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2015-08-24",
+    "TripDuration": "2",
+    "Notes": "Inauguration of liquefied petroleum gas plan"
+  },
+  {
+    "colt_TripID": "2931-PRY-BOL-43060",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2017-11-21",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "4034-PRY-BOL-45969",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Bolivia",
+    "CityVisited": "La Paz",
+    "TripStartDate": "2025-11-08",
+    "TripDuration": "1",
+    "Notes": "Attended the inauguration of President Rodrigo Paz Pereira;Met with Deputy Secretary of State Christopher Landau and discussed cooperation and development programs that strengthen bilateral relations;Met with businessman Julio Novillo and discussed strengthening trade between Paraguay and the countries of the region;Met with businessman Samuel Doria Medina and discussed economic and trade integration between Paraguay and Bolivia"
+  },
+  {
+    "colt_TripID": "844-PRY-BRA-34408",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1994-03-15",
+    "TripDuration": "1",
+    "Notes": "Oversaw the signing of agreements"
+  },
+  {
+    "colt_TripID": "844-PRY-BRA-34575",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1994-08-29",
+    "TripDuration": "4",
+    "Notes": "Signed Contraband repression agreement;meets with CEAL;visits factories and reforestation program;receives award"
+  },
+  {
+    "colt_TripID": "844-PRY-BRA-34586",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1994-09-09",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "844-PRY-BRA-34620",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1994-10-13",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "844-PRY-BRA-34684",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1994-12-16",
+    "TripDuration": "2",
+    "Notes": "Participated in Signing ceremony of Mercosur's legal status recordings"
+  },
+  {
+    "colt_TripID": "844-PRY-BRA-34701",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1995-01-02",
+    "TripDuration": "1",
+    "Notes": "Inauguration of President Fernando Henrique Cardoso;very little info"
+  },
+  {
+    "colt_TripID": "844-PRY-BRA-34725",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1995-01-26",
+    "TripDuration": "32",
+    "Notes": "layover en route to switzerland"
+  },
+  {
+    "colt_TripID": "844-PRY-BRA-34868",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1995-06-18",
+    "TripDuration": "3",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "844-PRY-BRA-34954",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1995-09-12",
+    "TripDuration": "1",
+    "Notes": "Very few details on specific activities of this visit"
+  },
+  {
+    "colt_TripID": "844-PRY-BRA-34975",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1995-10-03",
+    "TripDuration": "2",
+    "Notes": "World Habitat Day celebrations;"
+  },
+  {
+    "colt_TripID": "844-PRY-BRA-35175",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1996-04-20",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "844-PRY-BRA-35201",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1996-05-16",
+    "TripDuration": "1",
+    "Notes": "Very few details on specific activities of this visit"
+  },
+  {
+    "colt_TripID": "1341-PRY-BRA-36137",
+    "colt_LeaderID": "1341",
+    "LeaderFullName": "Raul Cubas Grau",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1998-12-08",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1341-PRY-BRA-36164",
+    "colt_LeaderID": "1341",
+    "LeaderFullName": "Raul Cubas Grau",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1999-01-04",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "1341-PRY-BRA-36202",
+    "colt_LeaderID": "1341",
+    "LeaderFullName": "Raul Cubas Grau",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1999-02-11",
+    "TripDuration": "1",
+    "Notes": "Met with President Fernando Henrique Cardoso in Brasilia"
+  },
+  {
+    "colt_TripID": "1395-PRY-BRA-36339",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1999-06-28",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-BRA-36567",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2000-02-11",
+    "TripDuration": "2",
+    "Notes": "received lown from National bank of Economic and Social Development of Brazil"
+  },
+  {
+    "colt_TripID": "1395-PRY-BRA-36875",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2000-12-15",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-BRA-37595",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2002-12-05",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-38010",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2004-01-24",
+    "TripDuration": "3",
+    "Notes": "Family vacation of \"a few days\""
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-38225",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2004-08-26",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-38295",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2004-11-04",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-38482",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2005-05-10",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-39101",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2007-01-19",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-BRA-39591",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2008-05-23",
+    "TripDuration": "1",
+    "Notes": "Sign continental bloc agreement"
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-39708",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2008-09-17",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-39840",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2009-01-27",
+    "TripDuration": "6",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-39940",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2009-05-07",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-40301",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2010-05-03",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-40400",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2010-08-10",
+    "TripDuration": "5",
+    "Notes": "Hospital treatment, attended funeral"
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-40453",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2010-10-02",
+    "TripDuration": "5",
+    "Notes": "Hospital treatment"
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-40512",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2010-11-30",
+    "TripDuration": "2",
+    "Notes": "Hospital treatment;beginning of visit unknown"
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-40544",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2011-01-01",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2386-PRY-BRA-40567",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2011-01-24",
+    "TripDuration": "6",
+    "Notes": "Hospital treatment"
+  },
+  {
+    "colt_TripID": "2931-PRY-BRA-41802",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2014-06-12",
+    "TripDuration": "1",
+    "Notes": "Attended opening match of World Cup"
+  },
+  {
+    "colt_TripID": "2931-PRY-BRA-41836",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2014-07-16",
+    "TripDuration": "1",
+    "Notes": "Only attended the opening ceremony"
+  },
+  {
+    "colt_TripID": "2931-PRY-BRA-42968",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2017-08-21",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "3481-PRY-BRA-43595",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2019-05-10",
+    "TripDuration": "1",
+    "Notes": "participated in a ceremony pertaining to the construction of bridge connecting Paraguay and Brazil;spoke at ceremony"
+  },
+  {
+    "colt_TripID": "3481-PRY-BRA-43804",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2019-12-05",
+    "TripDuration": "1",
+    "Notes": "spoke at summit;signed diplomatic agreements on mutual protection of geographical indications, police cooperation at the border, transport of dangerous products, financial services, consumer protection and reciprocal recognition of digital signatures"
+  },
+  {
+    "colt_TripID": "3481-PRY-BRA-44634",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2022-03-14",
+    "TripDuration": "3",
+    "Notes": "Travels to Brazil for \"Family Reasons\""
+  },
+  {
+    "colt_TripID": "3481-PRY-BRA-45001",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2023-03-16",
+    "TripDuration": "1",
+    "Notes": "Traveled to Brazil to attend the inauguration ceremony for Enio Verri who officially took office as the new Brazilian Director General (DGB) of Itaipu Binacional (IB);Met with his Brazilian counterpart about support for the Mercosur agreement"
+  },
+  {
+    "colt_TripID": "4034-PRY-BRA-45932",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Brazil",
+    "CityVisited": "Campo Grande;Dourados;Porto Murtinho;Ribas do Rio Pardo",
+    "TripStartDate": "2025-10-02",
+    "TripDuration": "2",
+    "Notes": "Visited the Federation of Industries of Mato Grosso do Sul (Fiems) headquarters where he met with business leaders and delivered a speech;Signed a cooperation protocol with Fiems to implement joint professional training;Visited the Seara plant where JBS announced an investment in Paraguay's poultry production;Awarded the title of Citizen of Mato Grosso do Sul;Visited the construction site of the Bioceanic Bridge"
+  },
+  {
+    "colt_TripID": "4034-PRY-BRA-46011",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Brazil",
+    "CityVisited": "Foz do Iguacu",
+    "TripStartDate": "2025-12-20",
+    "TripDuration": "1",
+    "Notes": "Delivered a speech at the MERCOSUR Summit where he called for the strengthening of structural convergence mechanisms and expressed his desire for MERCOSUR to seek new trade horizons"
+  },
+  {
+    "colt_TripID": "844-PRY-CHL-34376",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "1994-02-11",
+    "TripDuration": "2",
+    "Notes": "Attended inauguration of president;visit dates are tough to ascertain clearly"
+  },
+  {
+    "colt_TripID": "844-PRY-CHL-34743",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "1995-02-13",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "844-PRY-CHL-35902",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "1998-04-17",
+    "TripDuration": "2",
+    "Notes": "signed free trade agreement"
+  },
+  {
+    "colt_TripID": "1395-PRY-CHL-37121",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2001-08-18",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-CHL-38594",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2005-08-30",
+    "TripDuration": "2",
+    "Notes": "Attends opening ceremony of port"
+  },
+  {
+    "colt_TripID": "2386-PRY-CHL-40156",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2009-12-09",
+    "TripDuration": "1",
+    "Notes": "Laid a wreath at monument of Bernardo O'Higgins"
+  },
+  {
+    "colt_TripID": "2386-PRY-CHL-40247",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2010-03-10",
+    "TripDuration": "2",
+    "Notes": "Attended Presidential Inauguration;meets with U.S. Secretary of State"
+  },
+  {
+    "colt_TripID": "2931-PRY-CHL-41533",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2013-09-16",
+    "TripDuration": "2",
+    "Notes": "Met with congress, president of supreme court"
+  },
+  {
+    "colt_TripID": "2931-PRY-CHL-42643",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2016-09-30",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "844-PRY-COL-34498",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "1994-06-13",
+    "TripDuration": "3",
+    "Notes": "Delivered a speech at an Ibero-American Summit"
+  },
+  {
+    "colt_TripID": "844-PRY-COL-34554",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "1994-08-08",
+    "TripDuration": "1",
+    "Notes": "Very few details"
+  },
+  {
+    "colt_TripID": "844-PRY-COL-35641",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "1997-07-30",
+    "TripDuration": "1",
+    "Notes": "Several reports indicate the President fainted during this visit to Colombia"
+  },
+  {
+    "colt_TripID": "1849-PRY-COL-38417",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2005-03-06",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-COL-38936",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2006-08-07",
+    "TripDuration": "1",
+    "Notes": "Attended presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2386-PRY-COL-39719",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2008-09-28",
+    "TripDuration": "2",
+    "Notes": "Issue declaration;;lays wreath at Bolivar memorial"
+  },
+  {
+    "colt_TripID": "2386-PRY-COL-40276",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2010-04-08",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-COL-41012",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2012-04-13",
+    "TripDuration": "3",
+    "Notes": "Met with Mitt Romney"
+  },
+  {
+    "colt_TripID": "2386-PRY-COL-41071",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2012-06-11",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-COL-41857",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2014-08-06",
+    "TripDuration": "2",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "3481-PRY-COL-44675",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2022-04-24",
+    "TripDuration": "1",
+    "Notes": "Signed two agreements, one related to human rights and one to make the driver's license of the other country valid in both countries;Gave short thank you speech for award of Cross of Boyaca"
+  },
+  {
+    "colt_TripID": "844-PRY-CRI-35823",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Costa Rica",
+    "CityVisited": null,
+    "TripStartDate": "1998-01-28",
+    "TripDuration": "2",
+    "Notes": "Signed investment agreement"
+  },
+  {
+    "colt_TripID": "1395-PRY-CRI-37357",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Costa Rica",
+    "CityVisited": null,
+    "TripStartDate": "2002-04-11",
+    "TripDuration": "2",
+    "Notes": "Declaration signed"
+  },
+  {
+    "colt_TripID": "3481-PRY-CRI-43502",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Costa Rica",
+    "CityVisited": null,
+    "TripStartDate": "2019-02-06",
+    "TripDuration": "3",
+    "Notes": "attended a public hearing before the Inter-American Court of Human Rights"
+  },
+  {
+    "colt_TripID": "1395-PRY-CUB-36480",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Cuba",
+    "CityVisited": null,
+    "TripStartDate": "1999-11-16",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-CUB-39967",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Cuba",
+    "CityVisited": null,
+    "TripStartDate": "2009-06-03",
+    "TripDuration": "3",
+    "Notes": "Laid Wreath at Jose Marti memorial;goes to museum"
+  },
+  {
+    "colt_TripID": "2386-PRY-CUB-40591",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Cuba",
+    "CityVisited": null,
+    "TripStartDate": "2011-02-17",
+    "TripDuration": "3",
+    "Notes": "Medical treatment"
+  },
+  {
+    "colt_TripID": "844-PRY-DNK-34769",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Denmark",
+    "CityVisited": null,
+    "TripStartDate": "1995-03-11",
+    "TripDuration": "2",
+    "Notes": "Agreements mentioned, but unclear whether signed in Romania"
+  },
+  {
+    "colt_TripID": "3481-PRY-DOM-45009",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Dominican Republic",
+    "CityVisited": null,
+    "TripStartDate": "2023-03-24",
+    "TripDuration": "3",
+    "Notes": "Attended the XXVIII Ibero-American Summit of Heads of State;Gave speech in support of finalizing the Mercosur agreement;Attended welcome ceremony"
+  },
+  {
+    "colt_TripID": "844-PRY-ECU-34947",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "1995-09-05",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-ECU-39097",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "2007-01-15",
+    "TripDuration": "2",
+    "Notes": "Attended Presidential inauguration"
+  },
+  {
+    "colt_TripID": "2386-PRY-ECU-40217",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "2010-02-08",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-ECU-40651",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "2011-04-18",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-ECU-41964",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "2014-11-21",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-ECU-41978",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "2014-12-05",
+    "TripDuration": "1",
+    "Notes": "Attended Ceremony marking inauguration of UNASUR headquarters"
+  },
+  {
+    "colt_TripID": "2931-PRY-ECU-42879",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "2017-05-24",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "4034-PRY-EGY-45943",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Egypt",
+    "CityVisited": "Sharm El-Sheikh",
+    "TripStartDate": "2025-10-13",
+    "TripDuration": "1",
+    "Notes": "Witnessed the signing of an agreement for peace in Gaza;Trip start and end dates are not clear"
+  },
+  {
+    "colt_TripID": "844-PRY-SLV-35824",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "El Salvador",
+    "CityVisited": null,
+    "TripStartDate": "1998-01-29",
+    "TripDuration": "1",
+    "Notes": "no information;no confirmation of visit"
+  },
+  {
+    "colt_TripID": "2386-PRY-SLV-39964",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "El Salvador",
+    "CityVisited": null,
+    "TripStartDate": "2009-05-31",
+    "TripDuration": "2",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "844-PRY-FRA-34431",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "France",
+    "CityVisited": null,
+    "TripStartDate": "1994-04-07",
+    "TripDuration": "2",
+    "Notes": "Meeting w/ Netherlands Radio"
+  },
+  {
+    "colt_TripID": "1849-PRY-FRA-38854",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "France",
+    "CityVisited": null,
+    "TripStartDate": "2006-05-17",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-FRA-42338",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "France",
+    "CityVisited": null,
+    "TripStartDate": "2015-11-30",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-FRA-42524",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "France",
+    "CityVisited": null,
+    "TripStartDate": "2016-06-03",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-DEU-36811",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Germany",
+    "CityVisited": null,
+    "TripStartDate": "2000-10-12",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-DEU-38273",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Germany",
+    "CityVisited": null,
+    "TripStartDate": "2004-10-13",
+    "TripDuration": "4",
+    "Notes": "Speaks at Iberoamerican Institute;dates approx"
+  },
+  {
+    "colt_TripID": "2386-PRY-DEU-40683",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Germany",
+    "CityVisited": null,
+    "TripStartDate": "2011-05-20",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-DEU-42713",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Germany",
+    "CityVisited": null,
+    "TripStartDate": "2016-12-09",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-HTI-39916",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Haiti",
+    "CityVisited": null,
+    "TripStartDate": "2009-04-13",
+    "TripDuration": "1",
+    "Notes": "Sign Millennium Challenge Corporation (MCC) Threshold Program;location assumed"
+  },
+  {
+    "colt_TripID": "2386-PRY-HTI-40593",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Haiti",
+    "CityVisited": null,
+    "TripStartDate": "2011-02-19",
+    "TripDuration": "1",
+    "Notes": "Meets with UN troops"
+  },
+  {
+    "colt_TripID": "844-PRY-VAT-34745",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Holy See",
+    "CityVisited": null,
+    "TripStartDate": "1995-02-15",
+    "TripDuration": "5",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-VAT-38278",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Holy See",
+    "CityVisited": null,
+    "TripStartDate": "2004-10-18",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-VAT-39384",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Holy See",
+    "CityVisited": null,
+    "TripStartDate": "2007-10-29",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-VAT-41603",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Holy See",
+    "CityVisited": null,
+    "TripStartDate": "2013-11-25",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-VAT-42755",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Holy See",
+    "CityVisited": null,
+    "TripStartDate": "2017-01-20",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "3481-PRY-VAT-44799",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Holy See",
+    "CityVisited": null,
+    "TripStartDate": "2022-08-26",
+    "TripDuration": "3",
+    "Notes": "Attended the ceremony for the investiture of Archbishop Adalberto Martinez as a Cardinal;Met with Pope Francis;Traveled with his wife, children, and several other government ministers;Held breakfast event for members of the Paraguayan community;Met with President Sergio Mattarella"
+  },
+  {
+    "colt_TripID": "2386-PRY-HND-39965",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Honduras",
+    "CityVisited": null,
+    "TripStartDate": "2009-06-01",
+    "TripDuration": "3",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "844-PRY-HUN-34773",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Hungary",
+    "CityVisited": null,
+    "TripStartDate": "1995-03-15",
+    "TripDuration": "4",
+    "Notes": "Very few details available on this visit, end date slightly unclear"
+  },
+  {
+    "colt_TripID": "4034-PRY-HUN-46000",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Hungary",
+    "CityVisited": "Budapest",
+    "TripStartDate": "2025-12-09",
+    "TripDuration": "1",
+    "Notes": "Met with President Tamas Sulyok and discussed bilateral cooperation;Met with Speaker of the National Assembly Laszlo Kover and discussed joint growth and alliance opportunities;Met with business leaders of the Hungarian private sector"
+  },
+  {
+    "colt_TripID": "2386-PRY-IND-41052",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "India",
+    "CityVisited": "Nueva Delhi",
+    "TripStartDate": "2012-05-23",
+    "TripDuration": "3",
+    "Notes": "Also meets president;visits Mahatma Gandhi memorial"
+  },
+  {
+    "colt_TripID": "2386-PRY-IDN-40619",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Indonesia",
+    "CityVisited": null,
+    "TripStartDate": "2011-03-17",
+    "TripDuration": "1",
+    "Notes": "Reports suggest President Lugo made a stop in Indonesia. Unclear what activities if any they took part in while stopover"
+  },
+  {
+    "colt_TripID": "2931-PRY-ISR-42568",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Israel",
+    "CityVisited": null,
+    "TripStartDate": "2016-07-17",
+    "TripDuration": "3",
+    "Notes": "Tree planting ceremony"
+  },
+  {
+    "colt_TripID": "1849-PRY-ITA-38279",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Italy",
+    "CityVisited": null,
+    "TripStartDate": "2004-10-19",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-ITA-38642",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Italy",
+    "CityVisited": null,
+    "TripStartDate": "2005-10-17",
+    "TripDuration": "1",
+    "Notes": "Conference marks the 60th anniversairy of the FAO"
+  },
+  {
+    "colt_TripID": "3481-PRY-ITA-44943",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Italy",
+    "CityVisited": null,
+    "TripStartDate": "2023-01-17",
+    "TripDuration": "4",
+    "Notes": "Met with President Sergio Mattarella;Attended lunch at Quirinal Palace;Participated in an honorary session of the Board of Delegates of the International Italo-American Organization (IILA)"
+  },
+  {
+    "colt_TripID": "4034-PRY-ITA-45257",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Italy",
+    "CityVisited": null,
+    "TripStartDate": "2023-11-27",
+    "TripDuration": "3",
+    "Notes": "Traveled back to Italy after visiting the Vatican;Met with representatives of business groups from sectors such as food, renewable energy, textiles, construction, and pharmaceuticals, among others;met with President of Ferrari and Fiat"
+  },
+  {
+    "colt_TripID": "4034-PRY-ITA-45794",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Italy",
+    "CityVisited": "Rome",
+    "TripStartDate": "2025-05-17",
+    "TripDuration": "2",
+    "Notes": "Arrived in Rome for the enthronement Mass of Pope Leo XIV;Visited the Basilica of Santa Maria Maggiore and paid tribute to final resting place of Pope Francis"
+  },
+  {
+    "colt_TripID": "4034-PRY-ITA-45944",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Italy",
+    "CityVisited": "Rome",
+    "TripStartDate": "2025-10-14",
+    "TripDuration": "2",
+    "Notes": "Met with President Sergio Mattarella and discussed bilateral relations;Discussed the vision of Paraguay with Italian diplomats and businessmen;Met with Undersecretary of the Ministry of Foreign Affairs Giorgio Silli and discussed bilateral cooperation;Met with Salcef Group representatives and discussed new investment opportunities;Trip start date is not clear"
+  },
+  {
+    "colt_TripID": "844-PRY-JPN-34664",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Japan",
+    "CityVisited": null,
+    "TripStartDate": "1994-11-26",
+    "TripDuration": "5",
+    "Notes": "Also met with the emperor;loan agreement signed;meets with various business officals/Japan officials;presented honorary doctorate"
+  },
+  {
+    "colt_TripID": "1849-PRY-JPN-38654",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Japan",
+    "CityVisited": null,
+    "TripStartDate": "2005-10-29",
+    "TripDuration": "5",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-JPN-41813",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Japan",
+    "CityVisited": null,
+    "TripStartDate": "2014-06-23",
+    "TripDuration": "4",
+    "Notes": "Also met with Emperor Akihito"
+  },
+  {
+    "colt_TripID": "4034-PRY-JPN-45796",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Japan",
+    "CityVisited": "Osaka;Hiroshima;Tokyo",
+    "TripStartDate": "2025-05-19",
+    "TripDuration": "4",
+    "Notes": "Celebrated Paraguay's National Day at the Osaka World Expo 2025 and emphasized strengthening relations;Paid tribute to victims at Hiroshima;Met former Japanese Prime Minister Fumio Kishida to discuss bilateral relations;Met business leaders and presented at the Business Seminar organized by the Japan External Trade Organization (JETRO) and at All-Japan Business Federation (KEIDANREN);Held bilateral meeting with Prime Minister Ishiba Shigeru;Met representative of Taipei Economic and Cultural Representative Office to strengthen bilateral relations"
+  },
+  {
+    "colt_TripID": "844-PRY-MEX-34668",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "1994-11-30",
+    "TripDuration": "4",
+    "Notes": "Attended Inauguration of president"
+  },
+  {
+    "colt_TripID": "844-PRY-MEX-35642",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "1997-07-31",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-MEX-36308",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "1999-05-28",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-MEX-37996",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2004-01-10",
+    "TripDuration": "1",
+    "Notes": "Few details on specifics of this visit"
+  },
+  {
+    "colt_TripID": "1849-PRY-MEX-38133",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2004-05-26",
+    "TripDuration": "5",
+    "Notes": "Few details on specifics of this visit"
+  },
+  {
+    "colt_TripID": "1849-PRY-MEX-38418",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2005-03-07",
+    "TripDuration": "3",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-MEX-39755",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2008-11-03",
+    "TripDuration": "2",
+    "Notes": "receives keys to city;visits memorial/places wreath"
+  },
+  {
+    "colt_TripID": "2931-PRY-MEX-42608",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2016-08-26",
+    "TripDuration": "1",
+    "Notes": "Laid wreath at Heroes square"
+  },
+  {
+    "colt_TripID": "3481-PRY-MEX-43434",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2018-11-30",
+    "TripDuration": "2",
+    "Notes": "inauguration of President Andres Manuel Lopez Obrador"
+  },
+  {
+    "colt_TripID": "1849-PRY-NGA-39051",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Nigeria",
+    "CityVisited": null,
+    "TripStartDate": "2006-11-30",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "4034-PRY-NOR-46000",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Norway",
+    "CityVisited": "Oslo",
+    "TripStartDate": "2025-12-09",
+    "TripDuration": "3",
+    "Notes": "Attended the Nobel Peace Prize ceremony;Met with King Harald V and discussed strengthening bilateral relations and projecting a common agenda;Met with Ana Corina Sosa where he conveyed his support for her mother Maria Corina Machado;Met with the CEOs of Yara and Atome Energy and discussed Paraguay's potential for investments"
+  },
+  {
+    "colt_TripID": "2931-PRY-PAN-42103",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Panama",
+    "CityVisited": null,
+    "TripStartDate": "2015-04-09",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-PAN-42547",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Panama",
+    "CityVisited": null,
+    "TripStartDate": "2016-06-26",
+    "TripDuration": "1",
+    "Notes": "Attended Inauguration of canal expansion"
+  },
+  {
+    "colt_TripID": "4034-PRY-PAN-45950",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Panama",
+    "CityVisited": "Panama City",
+    "TripStartDate": "2025-10-20",
+    "TripDuration": "2",
+    "Notes": "Delivered a speech before the National Assembly of Panama where he reconfirmed commitment to strengthening bilateral ties;Met with the Executive Secretary of the Latin American and Caribbean Parliament Elias Castillo and discussed strategic issues;Met with members of the Chamber of Commerce, Industry and Agriculture to boost bilateral investment, trade, and connectivity"
+  },
+  {
+    "colt_TripID": "844-PRY-PER-34365",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Peru",
+    "CityVisited": null,
+    "TripStartDate": "1994-01-31",
+    "TripDuration": "2",
+    "Notes": "Sign declaration;visits Independence Park;given keys to city;met with businessmen and signed agreement(s);but no specific Meeting"
+  },
+  {
+    "colt_TripID": "844-PRY-PER-34907",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Peru",
+    "CityVisited": null,
+    "TripStartDate": "1995-07-27",
+    "TripDuration": "2",
+    "Notes": "Attended the inauguration of Alberto Fujimori"
+  },
+  {
+    "colt_TripID": "1395-PRY-PER-37100",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Peru",
+    "CityVisited": null,
+    "TripStartDate": "2001-07-28",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "1849-PRY-PER-38926",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Peru",
+    "CityVisited": null,
+    "TripStartDate": "2006-07-28",
+    "TripDuration": "1",
+    "Notes": "Attended presidential Inauguration"
+  },
+  {
+    "colt_TripID": "1849-PRY-PER-39583",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Peru",
+    "CityVisited": null,
+    "TripStartDate": "2008-05-15",
+    "TripDuration": "3",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-PER-40365",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Peru",
+    "CityVisited": null,
+    "TripStartDate": "2010-07-06",
+    "TripDuration": "1",
+    "Notes": "Sign cooperation agreements"
+  },
+  {
+    "colt_TripID": "2931-PRY-PRT-42865",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Portugal",
+    "CityVisited": null,
+    "TripStartDate": "2017-05-10",
+    "TripDuration": "4",
+    "Notes": "President traveled to Belem;where he visited historical sites. Later the delegation went to Fatima;where its first activity is to join the commemorations of the centenary of the apparitions of Our Lady of the Virgin of Fatima;a ceremony to which Pope Francis will attend"
+  },
+  {
+    "colt_TripID": "3481-PRY-QAT-45068",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Qatar",
+    "CityVisited": null,
+    "TripStartDate": "2023-05-22",
+    "TripDuration": "3",
+    "Notes": "Attended the Qatar Economic Forum"
+  },
+  {
+    "colt_TripID": "844-PRY-ROU-34771",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Romania",
+    "CityVisited": null,
+    "TripStartDate": "1995-03-13",
+    "TripDuration": "2",
+    "Notes": "Agreements mentioned, but unclear whether signed in Denmark"
+  },
+  {
+    "colt_TripID": "2931-PRY-RUS-43265",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Russia",
+    "CityVisited": null,
+    "TripStartDate": "2018-06-14",
+    "TripDuration": "3",
+    "Notes": "attended World Cup opening ceremony;unsure of exact dates"
+  },
+  {
+    "colt_TripID": "1849-PRY-SGP-38130",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Singapore",
+    "CityVisited": null,
+    "TripStartDate": "2004-05-23",
+    "TripDuration": "4",
+    "Notes": "Few details on specifics of this visit"
+  },
+  {
+    "colt_TripID": "844-PRY-KOR-35254",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "South Korea",
+    "CityVisited": null,
+    "TripStartDate": "1996-07-08",
+    "TripDuration": "4",
+    "Notes": "Establish foreign trade ministry and open meat market;visits motor company"
+  },
+  {
+    "colt_TripID": "844-PRY-ESP-34628",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Spain",
+    "CityVisited": null,
+    "TripStartDate": "1994-10-21",
+    "TripDuration": "7",
+    "Notes": "Also met King Juan Carlos I"
+  },
+  {
+    "colt_TripID": "2386-PRY-ESP-40315",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Spain",
+    "CityVisited": null,
+    "TripStartDate": "2010-05-17",
+    "TripDuration": "3",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-ESP-42163",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Spain",
+    "CityVisited": null,
+    "TripStartDate": "2015-06-08",
+    "TripDuration": "2",
+    "Notes": "Also met King of Spain"
+  },
+  {
+    "colt_TripID": "2931-PRY-SUR-41516",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Suriname",
+    "CityVisited": null,
+    "TripStartDate": "2013-08-30",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "844-PRY-CHE-34725",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Switzerland",
+    "CityVisited": null,
+    "TripStartDate": "1995-01-26",
+    "TripDuration": "6",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "844-PRY-TWN-34933",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "1995-08-22",
+    "TripDuration": "6",
+    "Notes": "Sign communique;visits industrial park;dates vary between sources;signed agriculture agreement. Took part in ROC-Paraguay Economic Cooperation Conference"
+  },
+  {
+    "colt_TripID": "844-PRY-TWN-35257",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "1996-07-11",
+    "TripDuration": "3",
+    "Notes": "Secured loan for the building of training center;"
+  },
+  {
+    "colt_TripID": "1395-PRY-TWN-36419",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "1999-09-16",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-TWN-37487",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "2002-08-19",
+    "TripDuration": "5",
+    "Notes": "Meets with other officials;attends ribbon-cutting ceremony for trade office;visits island of Kinmen"
+  },
+  {
+    "colt_TripID": "1849-PRY-TWN-38126",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "2004-05-19",
+    "TripDuration": "5",
+    "Notes": "Attended Presidential Inauguration;no Meeting explicitly mentioned;Received Order of Brilliant Jade"
+  },
+  {
+    "colt_TripID": "2814-PRY-TWN-41415",
+    "colt_LeaderID": "2814",
+    "LeaderFullName": "Federico Franco",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "2013-05-21",
+    "TripDuration": "4",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-TWN-41919",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "2014-10-07",
+    "TripDuration": "4",
+    "Notes": "Sign declaration;national day celebrations"
+  },
+  {
+    "colt_TripID": "2931-PRY-TWN-42508",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Taiwan",
+    "CityVisited": null,
+    "TripStartDate": "2016-05-18",
+    "TripDuration": "3",
+    "Notes": "Attended Presidential inauguration"
+  },
+  {
+    "colt_TripID": "2931-PRY-ARE-42751",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "United Arab Emirates",
+    "CityVisited": null,
+    "TripStartDate": "2017-01-16",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-ARE-42927",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "United Arab Emirates",
+    "CityVisited": null,
+    "TripStartDate": "2017-07-11",
+    "TripDuration": "1",
+    "Notes": "Few details in activities in Dubai;may have just been a layover en route to Taiwan"
+  },
+  {
+    "colt_TripID": "3481-PRY-ARE-44621",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "United Arab Emirates",
+    "CityVisited": null,
+    "TripStartDate": "2022-03-01",
+    "TripDuration": "5",
+    "Notes": "Meets with His Highness Sheikh Mohamed Bin Zayed Al Nahyan;Attends EXPO 2020 Dubai;Meets with the International Renewable Energy Agency;Meets with Prime Minister Mohammed bin Rashid Al Maktoum"
+  },
+  {
+    "colt_TripID": "844-PRY-GBR-34517",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "United Kingdom",
+    "CityVisited": null,
+    "TripStartDate": "1994-07-02",
+    "TripDuration": "6",
+    "Notes": "signs drug trafficking agreement;meets with various government officials"
+  },
+  {
+    "colt_TripID": "2931-PRY-GBR-41949",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "United Kingdom",
+    "CityVisited": null,
+    "TripStartDate": "2014-11-06",
+    "TripDuration": "1",
+    "Notes": "Attended the UK-Paraguay Trade and Investment Forum"
+  },
+  {
+    "colt_TripID": "4034-PRY-GBR-45853",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "United Kingdom",
+    "CityVisited": "London",
+    "TripStartDate": "2025-07-15",
+    "TripDuration": "5",
+    "Notes": "Attended high-level bilateral talks between the two countries;Signed the United Kingdom-Paraguay Friendship Charter to deepen those bilateral relations;Met with the main shareholders of Indian business group the Hinduja Group to discuss further investment in Paraguay;Met with King Charles III for a royal audience;Attended a meeting at Canning House to discuss greater British investment into Paraguay;"
+  },
+  {
+    "colt_TripID": "844-PRY-USA-34678",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "1994-12-10",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "844-PRY-USA-35001",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "1995-10-29",
+    "TripDuration": "1",
+    "Notes": "Gave an address to Kansas University students/faculty;very little info"
+  },
+  {
+    "colt_TripID": "844-PRY-USA-35540",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "1997-04-20",
+    "TripDuration": "1",
+    "Notes": "Visits Mississippi delta, South Floria;not much info, dates approx"
+  },
+  {
+    "colt_TripID": "1395-PRY-USA-36426",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "1999-09-23",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-USA-37205",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2001-11-10",
+    "TripDuration": "3",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-USA-38251",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2004-09-21",
+    "TripDuration": "3",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-USA-38611",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2005-09-16",
+    "TripDuration": "11",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-USA-39349",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2007-09-24",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-USA-39748",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2008-10-27",
+    "TripDuration": "2",
+    "Notes": "Speaks at American University"
+  },
+  {
+    "colt_TripID": "2386-PRY-USA-39767",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2008-11-15",
+    "TripDuration": "1",
+    "Notes": "Group statement with LA leaders"
+  },
+  {
+    "colt_TripID": "2386-PRY-USA-40080",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2009-09-24",
+    "TripDuration": "5",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-USA-40807",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2011-09-21",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2814-PRY-USA-41248",
+    "colt_LeaderID": "2814",
+    "LeaderFullName": "Federico Franco",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2012-12-05",
+    "TripDuration": "15",
+    "Notes": "Visits Coral Gables City Hall;dates approx"
+  },
+  {
+    "colt_TripID": "2931-PRY-USA-42306",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2015-10-29",
+    "TripDuration": "1",
+    "Notes": "Receives Innovative Leader of the Year Award"
+  },
+  {
+    "colt_TripID": "3481-PRY-USA-44386",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2021-07-09",
+    "TripDuration": "5",
+    "Notes": "President Mario Abdo Benitez visited Miami, Florida with family members;The president's sister-in-law and her youngest three children were killed in the collapsed Champlain Towers South building"
+  },
+  {
+    "colt_TripID": "3481-PRY-USA-45014",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2023-03-29",
+    "TripDuration": "3",
+    "Notes": "Traveled to Tampa, Florida, to visit a U.S. Air Force special operations military base (SOCOM) to discuss cooperation in security and defense matters;Met with U.S. Army Gen. Bryan Fenton, SOCOM commander, U.S. Army Gen. Laura Richardson, commander of U.S. Southern Command (SOUTHCOM), as well as other senior command and Department of Defense officials;"
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45674",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "United States",
+    "CityVisited": "Washington",
+    "TripStartDate": "2025-01-17",
+    "TripDuration": "6",
+    "Notes": "Travelled to Washington, D.C. to attend the inauguration of President Donald Trump;Met with Secretary of State, Marco Rubio;p=Participated in Western Hemisphere Security Forum;Met with Chairman of the Foreign Relations Committee of the United States House of Representatives, Brian Mast"
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45782",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "United States",
+    "CityVisited": "Los Angeles",
+    "TripStartDate": "2025-05-05",
+    "TripDuration": "1",
+    "Notes": "Participated in the Leaders in Finance panel during the 2025 Milken Institute Global Conference;Met Special Envoy Richard Grenell to discuss bilateral relations;Met global business leaders to strengthen ties;Celebrated 77th independence of the State of Israel"
+  },
+  {
+    "colt_TripID": "844-PRY-URY-34351",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "1994-01-17",
+    "TripDuration": "1",
+    "Notes": "no end date given"
+  },
+  {
+    "colt_TripID": "844-PRY-URY-34496",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "1994-06-11",
+    "TripDuration": "1",
+    "Notes": "Participated in a ceremony to Open bids for contract to dredge Martin Garcia Channel"
+  },
+  {
+    "colt_TripID": "844-PRY-URY-34759",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "1995-03-01",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "844-PRY-URY-35039",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "1995-12-06",
+    "TripDuration": "2",
+    "Notes": "Sign \"four plus one\" agreement"
+  },
+  {
+    "colt_TripID": "844-PRY-URY-35203",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "1996-05-18",
+    "TripDuration": "1",
+    "Notes": "Very few details on specific activities of this visit"
+  },
+  {
+    "colt_TripID": "844-PRY-URY-35768",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "1997-12-04",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "844-PRY-URY-35781",
+    "colt_LeaderID": "844",
+    "LeaderFullName": "Juan Carlos Wasmosy",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "1997-12-17",
+    "TripDuration": "1",
+    "Notes": "Very few details on specific activities of this visit"
+  },
+  {
+    "colt_TripID": "1395-PRY-URY-36502",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "1999-12-08",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1395-PRY-URY-37245",
+    "colt_LeaderID": "1395",
+    "LeaderFullName": "Luis Angel Gonzalez Macchi",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2001-12-20",
+    "TripDuration": "2",
+    "Notes": "Attended a Mercosur summit after the resignation of the president of Argentina Fernando de la Rua"
+  },
+  {
+    "colt_TripID": "1849-PRY-URY-37971",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2003-12-16",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1849-PRY-URY-38412",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2005-03-01",
+    "TripDuration": "2",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "1849-PRY-URY-38499",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2005-05-27",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-URY-39899",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2009-03-27",
+    "TripDuration": "2",
+    "Notes": "Attend soccer game"
+  },
+  {
+    "colt_TripID": "2386-PRY-URY-40154",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2009-12-07",
+    "TripDuration": "2",
+    "Notes": "Meets with president-elect"
+  },
+  {
+    "colt_TripID": "2931-PRY-URY-41572",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2013-10-25",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-URY-42064",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2015-03-01",
+    "TripDuration": "1",
+    "Notes": "Attended Presidential Inauguration"
+  },
+  {
+    "colt_TripID": "2931-PRY-URY-42180",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2015-06-25",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2931-PRY-URY-43026",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2017-10-18",
+    "TripDuration": "1",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "3481-PRY-URY-44243",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2021-02-16",
+    "TripDuration": "2",
+    "Notes": "Discussions centered on Mercosur trade agreements and informal conversation with €œopen agenda€"
+  },
+  {
+    "colt_TripID": "3481-PRY-URY-44924",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2022-12-29",
+    "TripDuration": "3",
+    "Notes": "Personal holiday"
+  },
+  {
+    "colt_TripID": "4034-PRY-URY-45393",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2024-04-11",
+    "TripDuration": "1",
+    "Notes": "Met with President Luis Lacalle Pou to discuss bilateral relationship between Paraguay and Uruguay;signed act of realization for the 2030 World Cup to be held in South America."
+  },
+  {
+    "colt_TripID": "4034-PRY-URY-45582",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2024-10-17",
+    "TripDuration": "3",
+    "Notes": "Attended the America Business Forum and spoke at the event;Met with the President and Chief Executive Officer of CHR Group"
+  },
+  {
+    "colt_TripID": "4034-PRY-URY-45716",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Uruguay",
+    "CityVisited": "Montevideo",
+    "TripStartDate": "2025-02-28",
+    "TripDuration": "3",
+    "Notes": "Attended the inauguration of President Yamandu Orsi;Met various leaders to discuss bilateral relations;Met Secretary-General of Organization of American States (OAS) Luis Almagro to discuss the future of the organization"
+  },
+  {
+    "colt_TripID": "4034-PRY-UZB-46002",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Uzbekistan",
+    "CityVisited": "Tashkent",
+    "TripStartDate": "2025-12-11",
+    "TripDuration": "3",
+    "Notes": "Paid tribute at the Monument to Independence;Attended a tree planting ceremony;Signed a Joint Statement with President Shavkat Mirziyoyev;Witnessed the signing of a protocol in relation to the completion of bilateral negotiations on market access and the signing of a memorandum of understanding for the establishment of an interministerial framework;Visited the Olympic Village where he was briefed on reforms in Uzbekistan's sports sector;Attended the International Automobile Federation General Assembly;Attended the International Automobile Federation awards ceremony where he accepted the award for Paraguay winning the World Rally Championship and delivered remarks after acceptance of the award"
+  },
+  {
+    "colt_TripID": "1341-PRY-VEN-36193",
+    "colt_LeaderID": "1341",
+    "LeaderFullName": "Raul Cubas Grau",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "1999-02-02",
+    "TripDuration": "1",
+    "Notes": "Attended inauguration of President Hugo Chavez;Discussed situation of Mercosur and the Brazilian financial crisis"
+  },
+  {
+    "colt_TripID": "1849-PRY-VEN-38308",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2004-11-17",
+    "TripDuration": "1",
+    "Notes": "Oil agreement;dates conflict with Costa Rica trip"
+  },
+  {
+    "colt_TripID": "1849-PRY-VEN-38902",
+    "colt_LeaderID": "1849",
+    "LeaderFullName": "Nicanor Duarte",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2006-07-04",
+    "TripDuration": "2",
+    "Notes": "Attended Independence day celebrations;incorporation into Mercosur"
+  },
+  {
+    "colt_TripID": "2386-PRY-VEN-39919",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2009-04-16",
+    "TripDuration": "2",
+    "Notes": "Wreath laying ceremony"
+  },
+  {
+    "colt_TripID": "2386-PRY-VEN-40081",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2009-09-25",
+    "TripDuration": "2",
+    "Notes": "Sign Bank of the South agreement into action"
+  },
+  {
+    "colt_TripID": "2386-PRY-VEN-40729",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2011-07-05",
+    "TripDuration": "1",
+    "Notes": "Participated in Independence celebrations;visit Chavez"
+  },
+  {
+    "colt_TripID": "2931-PRY-VEN-41669",
+    "colt_LeaderID": "2931",
+    "LeaderFullName": "Horacio Cartes",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2014-01-30",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "2386-PRY-VNM-40609",
+    "colt_LeaderID": "2386",
+    "LeaderFullName": "Fernando Lugo",
+    "CountryVisited": "Vietnam",
+    "CityVisited": null,
+    "TripStartDate": "2011-03-07",
+    "TripDuration": "5",
+    "Notes": "Visits War Remnants Museum;High-tech Park and Cu Chi Tunnels;sign cooperation agreements"
+  }
+]

@@ -1,0 +1,435 @@
+[
+  {
+    "colt_TripID": "3481-PRY-BOL-43628",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "111",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-CHL-44630",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "126",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-03-11",
+        "colt": "2022-03-10"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-COL-43518",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "107",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-COL-44779",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "129",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-DEU-44873",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "133",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-11-09",
+        "colt": "2022-11-08"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-VAT-44946",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "136",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-01-19",
+        "colt": "2023-01-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-MEX-44455",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "122",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2021-09-17",
+        "colt": "2021-09-16"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-CHE-43485",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "106",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2019-01-22",
+        "colt": "2019-01-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-TWN-43380",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "100",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 6,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-ARE-44970",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "139",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-02-11",
+        "colt": "2023-02-13"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-USA-43367",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "99",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2018-09-25",
+        "colt": "2018-09-24"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-USA-43810",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "115",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2019-12-12",
+        "colt": "2019-12-11"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 6
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-USA-44719",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "127",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-06-08",
+        "colt": "2022-06-07"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-USA-44823",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "131",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-09-18",
+        "colt": "2022-09-19"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-URY-43452",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "104",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-URY-44901",
+    "colt_LeaderID": "3481",
+    "our_Trip_ID": "134",
+    "President": "Mario Abdo Benítez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-12-05",
+        "colt": "2022-12-06"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3481-PRY-ARG-43544",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2019-03-20",
+    "TripDuration": "2",
+    "Notes": "Met about the 2030 World Cup"
+  },
+  {
+    "colt_TripID": "3481-PRY-BEL-45122",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Belgium",
+    "CityVisited": null,
+    "TripStartDate": "2023-07-15",
+    "TripDuration": "4",
+    "Notes": "Attended and spoke at the European Council-Community of Latin American and Carribean States (EU-CELAC) Summit"
+  },
+  {
+    "colt_TripID": "3481-PRY-BRA-43595",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2019-05-10",
+    "TripDuration": "1",
+    "Notes": "participated in a ceremony pertaining to the construction of bridge connecting Paraguay and Brazil;spoke at ceremony"
+  },
+  {
+    "colt_TripID": "3481-PRY-BRA-43804",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2019-12-05",
+    "TripDuration": "1",
+    "Notes": "spoke at summit;signed diplomatic agreements on mutual protection of geographical indications, police cooperation at the border, transport of dangerous products, financial services, consumer protection and reciprocal recognition of digital signatures"
+  },
+  {
+    "colt_TripID": "3481-PRY-BRA-44634",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2022-03-14",
+    "TripDuration": "3",
+    "Notes": "Travels to Brazil for \"Family Reasons\""
+  },
+  {
+    "colt_TripID": "3481-PRY-BRA-45001",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2023-03-16",
+    "TripDuration": "1",
+    "Notes": "Traveled to Brazil to attend the inauguration ceremony for Enio Verri who officially took office as the new Brazilian Director General (DGB) of Itaipu Binacional (IB);Met with his Brazilian counterpart about support for the Mercosur agreement"
+  },
+  {
+    "colt_TripID": "3481-PRY-COL-44675",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2022-04-24",
+    "TripDuration": "1",
+    "Notes": "Signed two agreements, one related to human rights and one to make the driver's license of the other country valid in both countries;Gave short thank you speech for award of Cross of Boyaca"
+  },
+  {
+    "colt_TripID": "3481-PRY-CRI-43502",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Costa Rica",
+    "CityVisited": null,
+    "TripStartDate": "2019-02-06",
+    "TripDuration": "3",
+    "Notes": "attended a public hearing before the Inter-American Court of Human Rights"
+  },
+  {
+    "colt_TripID": "3481-PRY-DOM-45009",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Dominican Republic",
+    "CityVisited": null,
+    "TripStartDate": "2023-03-24",
+    "TripDuration": "3",
+    "Notes": "Attended the XXVIII Ibero-American Summit of Heads of State;Gave speech in support of finalizing the Mercosur agreement;Attended welcome ceremony"
+  },
+  {
+    "colt_TripID": "3481-PRY-VAT-44799",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Holy See",
+    "CityVisited": null,
+    "TripStartDate": "2022-08-26",
+    "TripDuration": "3",
+    "Notes": "Attended the ceremony for the investiture of Archbishop Adalberto Martinez as a Cardinal;Met with Pope Francis;Traveled with his wife, children, and several other government ministers;Held breakfast event for members of the Paraguayan community;Met with President Sergio Mattarella"
+  },
+  {
+    "colt_TripID": "3481-PRY-ITA-44943",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Italy",
+    "CityVisited": null,
+    "TripStartDate": "2023-01-17",
+    "TripDuration": "4",
+    "Notes": "Met with President Sergio Mattarella;Attended lunch at Quirinal Palace;Participated in an honorary session of the Board of Delegates of the International Italo-American Organization (IILA)"
+  },
+  {
+    "colt_TripID": "3481-PRY-MEX-43434",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2018-11-30",
+    "TripDuration": "2",
+    "Notes": "inauguration of President Andres Manuel Lopez Obrador"
+  },
+  {
+    "colt_TripID": "3481-PRY-QAT-45068",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Qatar",
+    "CityVisited": null,
+    "TripStartDate": "2023-05-22",
+    "TripDuration": "3",
+    "Notes": "Attended the Qatar Economic Forum"
+  },
+  {
+    "colt_TripID": "3481-PRY-ARE-44621",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "United Arab Emirates",
+    "CityVisited": null,
+    "TripStartDate": "2022-03-01",
+    "TripDuration": "5",
+    "Notes": "Meets with His Highness Sheikh Mohamed Bin Zayed Al Nahyan;Attends EXPO 2020 Dubai;Meets with the International Renewable Energy Agency;Meets with Prime Minister Mohammed bin Rashid Al Maktoum"
+  },
+  {
+    "colt_TripID": "3481-PRY-USA-44386",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2021-07-09",
+    "TripDuration": "5",
+    "Notes": "President Mario Abdo Benitez visited Miami, Florida with family members;The president's sister-in-law and her youngest three children were killed in the collapsed Champlain Towers South building"
+  },
+  {
+    "colt_TripID": "3481-PRY-USA-45014",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2023-03-29",
+    "TripDuration": "3",
+    "Notes": "Traveled to Tampa, Florida, to visit a U.S. Air Force special operations military base (SOCOM) to discuss cooperation in security and defense matters;Met with U.S. Army Gen. Bryan Fenton, SOCOM commander, U.S. Army Gen. Laura Richardson, commander of U.S. Southern Command (SOUTHCOM), as well as other senior command and Department of Defense officials;"
+  },
+  {
+    "colt_TripID": "3481-PRY-URY-44243",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2021-02-16",
+    "TripDuration": "2",
+    "Notes": "Discussions centered on Mercosur trade agreements and informal conversation with €œopen agenda€"
+  },
+  {
+    "colt_TripID": "3481-PRY-URY-44924",
+    "colt_LeaderID": "3481",
+    "LeaderFullName": "Mario Abdo Benitez",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2022-12-29",
+    "TripDuration": "3",
+    "Notes": "Personal holiday"
+  }
+]

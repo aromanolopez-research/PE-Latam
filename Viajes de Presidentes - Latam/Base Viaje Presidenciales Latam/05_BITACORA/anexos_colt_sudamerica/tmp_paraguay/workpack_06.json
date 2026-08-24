@@ -1,0 +1,623 @@
+[
+  {
+    "colt_TripID": "4034-PRY-ARG-45268",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "152",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-12-09",
+        "colt": "2023-12-08"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-ARG-45336",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "155",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-BOL-45456",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "162",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-BRA-45613",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "171",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-11-18",
+        "colt": "2024-11-17"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-DOM-45520",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "165",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-08-15",
+        "colt": "2024-08-16"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-SLV-45443",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "161",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-06-01",
+        "colt": "2024-05-31"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-FIN-45867",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "185",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-07-28",
+        "colt": "2025-07-29"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 6,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-FRA-45498",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "164",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-07-23",
+        "colt": "2024-07-25"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 6,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-FRA-45635",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "173",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-12-08",
+        "colt": "2024-12-09"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-GTM-45304",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "153",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-VAT-45795",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "179",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-05-17",
+        "colt": "2025-05-18"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-IND-45810",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "182",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-05-31",
+        "colt": "2025-06-02"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 6,
+        "colt": 3
+      },
+      {
+        "campo": "Destination_City/CityVisited",
+        "nuestro": "New Delhi",
+        "colt": "New Delhi;Mumbai"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-ISR-45637",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "174",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-ITA-45256",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "148",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-ITA-45942",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "188",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-10-11",
+        "colt": "2025-10-12"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 6,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-MEX-45566",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "169",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-09-29",
+        "colt": "2024-10-01"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-SGP-45800",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "180",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-05-20",
+        "colt": "2025-05-23"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-CHE-45687",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "176",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 2
+      },
+      {
+        "campo": "Destination_City/CityVisited",
+        "nuestro": "Geneva",
+        "colt": "Davos"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-TWN-45429",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "159",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-05-18",
+        "colt": "2024-05-17"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-ARE-45260",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "150",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-ARE-45801",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "181",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-05-23",
+        "colt": "2025-05-24"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45186",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "144",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-09-19",
+        "colt": "2023-09-17"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 9
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45222",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "145",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-10-22",
+        "colt": "2023-10-23"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45557",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "168",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 7,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45775",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "177",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-04-26",
+        "colt": "2025-04-28"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 3
+      },
+      {
+        "campo": "Destination_City/CityVisited",
+        "nuestro": "Los Angeles",
+        "colt": "New York;Los Angeles"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45922",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "187",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 6
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-URY-45632",
+    "colt_LeaderID": "4034",
+    "our_Trip_ID": "172",
+    "President": "Santiago Peña",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4034-PRY-BOL-45969",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Bolivia",
+    "CityVisited": "La Paz",
+    "TripStartDate": "2025-11-08",
+    "TripDuration": "1",
+    "Notes": "Attended the inauguration of President Rodrigo Paz Pereira;Met with Deputy Secretary of State Christopher Landau and discussed cooperation and development programs that strengthen bilateral relations;Met with businessman Julio Novillo and discussed strengthening trade between Paraguay and the countries of the region;Met with businessman Samuel Doria Medina and discussed economic and trade integration between Paraguay and Bolivia"
+  },
+  {
+    "colt_TripID": "4034-PRY-BRA-45932",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Brazil",
+    "CityVisited": "Campo Grande;Dourados;Porto Murtinho;Ribas do Rio Pardo",
+    "TripStartDate": "2025-10-02",
+    "TripDuration": "2",
+    "Notes": "Visited the Federation of Industries of Mato Grosso do Sul (Fiems) headquarters where he met with business leaders and delivered a speech;Signed a cooperation protocol with Fiems to implement joint professional training;Visited the Seara plant where JBS announced an investment in Paraguay's poultry production;Awarded the title of Citizen of Mato Grosso do Sul;Visited the construction site of the Bioceanic Bridge"
+  },
+  {
+    "colt_TripID": "4034-PRY-BRA-46011",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Brazil",
+    "CityVisited": "Foz do Iguacu",
+    "TripStartDate": "2025-12-20",
+    "TripDuration": "1",
+    "Notes": "Delivered a speech at the MERCOSUR Summit where he called for the strengthening of structural convergence mechanisms and expressed his desire for MERCOSUR to seek new trade horizons"
+  },
+  {
+    "colt_TripID": "4034-PRY-EGY-45943",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Egypt",
+    "CityVisited": "Sharm El-Sheikh",
+    "TripStartDate": "2025-10-13",
+    "TripDuration": "1",
+    "Notes": "Witnessed the signing of an agreement for peace in Gaza;Trip start and end dates are not clear"
+  },
+  {
+    "colt_TripID": "4034-PRY-HUN-46000",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Hungary",
+    "CityVisited": "Budapest",
+    "TripStartDate": "2025-12-09",
+    "TripDuration": "1",
+    "Notes": "Met with President Tamas Sulyok and discussed bilateral cooperation;Met with Speaker of the National Assembly Laszlo Kover and discussed joint growth and alliance opportunities;Met with business leaders of the Hungarian private sector"
+  },
+  {
+    "colt_TripID": "4034-PRY-ITA-45257",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Italy",
+    "CityVisited": null,
+    "TripStartDate": "2023-11-27",
+    "TripDuration": "3",
+    "Notes": "Traveled back to Italy after visiting the Vatican;Met with representatives of business groups from sectors such as food, renewable energy, textiles, construction, and pharmaceuticals, among others;met with President of Ferrari and Fiat"
+  },
+  {
+    "colt_TripID": "4034-PRY-ITA-45794",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Italy",
+    "CityVisited": "Rome",
+    "TripStartDate": "2025-05-17",
+    "TripDuration": "2",
+    "Notes": "Arrived in Rome for the enthronement Mass of Pope Leo XIV;Visited the Basilica of Santa Maria Maggiore and paid tribute to final resting place of Pope Francis"
+  },
+  {
+    "colt_TripID": "4034-PRY-ITA-45944",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Italy",
+    "CityVisited": "Rome",
+    "TripStartDate": "2025-10-14",
+    "TripDuration": "2",
+    "Notes": "Met with President Sergio Mattarella and discussed bilateral relations;Discussed the vision of Paraguay with Italian diplomats and businessmen;Met with Undersecretary of the Ministry of Foreign Affairs Giorgio Silli and discussed bilateral cooperation;Met with Salcef Group representatives and discussed new investment opportunities;Trip start date is not clear"
+  },
+  {
+    "colt_TripID": "4034-PRY-JPN-45796",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Japan",
+    "CityVisited": "Osaka;Hiroshima;Tokyo",
+    "TripStartDate": "2025-05-19",
+    "TripDuration": "4",
+    "Notes": "Celebrated Paraguay's National Day at the Osaka World Expo 2025 and emphasized strengthening relations;Paid tribute to victims at Hiroshima;Met former Japanese Prime Minister Fumio Kishida to discuss bilateral relations;Met business leaders and presented at the Business Seminar organized by the Japan External Trade Organization (JETRO) and at All-Japan Business Federation (KEIDANREN);Held bilateral meeting with Prime Minister Ishiba Shigeru;Met representative of Taipei Economic and Cultural Representative Office to strengthen bilateral relations"
+  },
+  {
+    "colt_TripID": "4034-PRY-NOR-46000",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Norway",
+    "CityVisited": "Oslo",
+    "TripStartDate": "2025-12-09",
+    "TripDuration": "3",
+    "Notes": "Attended the Nobel Peace Prize ceremony;Met with King Harald V and discussed strengthening bilateral relations and projecting a common agenda;Met with Ana Corina Sosa where he conveyed his support for her mother Maria Corina Machado;Met with the CEOs of Yara and Atome Energy and discussed Paraguay's potential for investments"
+  },
+  {
+    "colt_TripID": "4034-PRY-PAN-45950",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Panama",
+    "CityVisited": "Panama City",
+    "TripStartDate": "2025-10-20",
+    "TripDuration": "2",
+    "Notes": "Delivered a speech before the National Assembly of Panama where he reconfirmed commitment to strengthening bilateral ties;Met with the Executive Secretary of the Latin American and Caribbean Parliament Elias Castillo and discussed strategic issues;Met with members of the Chamber of Commerce, Industry and Agriculture to boost bilateral investment, trade, and connectivity"
+  },
+  {
+    "colt_TripID": "4034-PRY-GBR-45853",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "United Kingdom",
+    "CityVisited": "London",
+    "TripStartDate": "2025-07-15",
+    "TripDuration": "5",
+    "Notes": "Attended high-level bilateral talks between the two countries;Signed the United Kingdom-Paraguay Friendship Charter to deepen those bilateral relations;Met with the main shareholders of Indian business group the Hinduja Group to discuss further investment in Paraguay;Met with King Charles III for a royal audience;Attended a meeting at Canning House to discuss greater British investment into Paraguay;"
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45674",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "United States",
+    "CityVisited": "Washington",
+    "TripStartDate": "2025-01-17",
+    "TripDuration": "6",
+    "Notes": "Travelled to Washington, D.C. to attend the inauguration of President Donald Trump;Met with Secretary of State, Marco Rubio;p=Participated in Western Hemisphere Security Forum;Met with Chairman of the Foreign Relations Committee of the United States House of Representatives, Brian Mast"
+  },
+  {
+    "colt_TripID": "4034-PRY-USA-45782",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "United States",
+    "CityVisited": "Los Angeles",
+    "TripStartDate": "2025-05-05",
+    "TripDuration": "1",
+    "Notes": "Participated in the Leaders in Finance panel during the 2025 Milken Institute Global Conference;Met Special Envoy Richard Grenell to discuss bilateral relations;Met global business leaders to strengthen ties;Celebrated 77th independence of the State of Israel"
+  },
+  {
+    "colt_TripID": "4034-PRY-URY-45393",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2024-04-11",
+    "TripDuration": "1",
+    "Notes": "Met with President Luis Lacalle Pou to discuss bilateral relationship between Paraguay and Uruguay;signed act of realization for the 2030 World Cup to be held in South America."
+  },
+  {
+    "colt_TripID": "4034-PRY-URY-45582",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Uruguay",
+    "CityVisited": null,
+    "TripStartDate": "2024-10-17",
+    "TripDuration": "3",
+    "Notes": "Attended the America Business Forum and spoke at the event;Met with the President and Chief Executive Officer of CHR Group"
+  },
+  {
+    "colt_TripID": "4034-PRY-URY-45716",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Uruguay",
+    "CityVisited": "Montevideo",
+    "TripStartDate": "2025-02-28",
+    "TripDuration": "3",
+    "Notes": "Attended the inauguration of President Yamandu Orsi;Met various leaders to discuss bilateral relations;Met Secretary-General of Organization of American States (OAS) Luis Almagro to discuss the future of the organization"
+  },
+  {
+    "colt_TripID": "4034-PRY-UZB-46002",
+    "colt_LeaderID": "4034",
+    "LeaderFullName": "Santiago Pena",
+    "CountryVisited": "Uzbekistan",
+    "CityVisited": "Tashkent",
+    "TripStartDate": "2025-12-11",
+    "TripDuration": "3",
+    "Notes": "Paid tribute at the Monument to Independence;Attended a tree planting ceremony;Signed a Joint Statement with President Shavkat Mirziyoyev;Witnessed the signing of a protocol in relation to the completion of bilateral negotiations on market access and the signing of a memorandum of understanding for the establishment of an interministerial framework;Visited the Olympic Village where he was briefed on reforms in Uzbekistan's sports sector;Attended the International Automobile Federation General Assembly;Attended the International Automobile Federation awards ceremony where he accepted the award for Paraguay winning the World Rally Championship and delivered remarks after acceptance of the award"
+  }
+]
