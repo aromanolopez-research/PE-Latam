@@ -1,0 +1,110 @@
+[
+  {
+    "LeaderID": "3766",
+    "correcciones": [
+      {
+        "TripID": "3766-BOL-RUS-45447",
+        "campo": "TripEndDate",
+        "valor_correcto": "2024-06-07",
+        "fuente": "https://ahoraelpueblo.bo/index.php/nacional/politica/arce-regresa-a-bolivia-tras-asegurar-nueve-acuerdos-con-rusia-en-beneficio-del-pais; https://abi.bo/index.php/noticias/gobierno/51286-presidente-arce-concluye-agenda-en-rusia-y-retorna-a-bolivia",
+        "justificacion": "Múltiples notas (Ahora El Pueblo, ABI) indican que Arce concluyó su agenda en el Foro Económico Internacional de San Petersburgo y retornó a Bolivia el viernes 7 de junio de 2024, tras reunirse con Putin el jueves 6. COLT registra el regreso el 2024-06-08 (sábado), un día después del retorno reportado."
+      },
+      {
+        "TripID": "3766-BOL-RUS-45447",
+        "campo": "TripDuration",
+        "valor_correcto": "4",
+        "fuente": "https://ahoraelpueblo.bo/index.php/nacional/politica/arce-regresa-a-bolivia-tras-asegurar-nueve-acuerdos-con-rusia-en-beneficio-del-pais",
+        "justificacion": "Consecuencia de la corrección de TripEndDate a 2024-06-07: el viaje (salida 2024-06-04, retorno 2024-06-07) duró 4 días, no 5."
+      },
+      {
+        "TripID": "3766-BOL-COL-45889",
+        "campo": "TripStartDate",
+        "valor_correcto": "2025-08-22",
+        "fuente": "https://www.abi.bo/index.php/noticias/gobierno/67812-arce-arriba-a-colombia-para-participar-de-la-v-cumbre-de-presidentes-de-los-estados-amazonicos; https://eldeber.com.bo/pais/luis-arce-llega-bogota-para-participar-en-la-cumbre-de-paises-amazonicos_527419",
+        "justificacion": "Fuentes coinciden en que Arce arribó a Bogotá en la madrugada del viernes 22 de agosto de 2025 para la V Cumbre de Presidentes de la OTCA, un viaje no planeado previamente (se decidió pocos días después de las elecciones del 17 de agosto de 2025). COLT registra el inicio el 2025-08-20, dos días antes de lo documentado."
+      },
+      {
+        "TripID": "3766-BOL-COL-45889",
+        "campo": "TripEndDate",
+        "valor_correcto": "2025-08-22",
+        "fuente": "https://www.vision360.bo/noticias/2025/08/22/30378-la-cumbre-amazonica-concluye-en-bogota-con-pactos-para-acelerar-la-accion-climatica",
+        "justificacion": "La V Cumbre de Presidentes de la OTCA se realizó en un solo día, el viernes 22 de agosto de 2025, coincidente con la fecha de llegada de Arce. No hay evidencia de que la visita se extendiera al 21 de agosto (fecha anterior a su llegada según las fuentes)."
+      },
+      {
+        "TripID": "3766-BOL-COL-45889",
+        "campo": "TripDuration",
+        "valor_correcto": "1",
+        "fuente": "https://www.abi.bo/index.php/noticias/gobierno/67812-arce-arriba-a-colombia-para-participar-de-la-v-cumbre-de-presidentes-de-los-estados-amazonicos",
+        "justificacion": "Consecuencia de la corrección de fechas: viaje de un solo día (2025-08-22), no de 2 días como registra COLT."
+      },
+      {
+        "TripID": "3766-BOL-BRA-45878",
+        "campo": "TripStartDate",
+        "valor_correcto": "2025-08-08",
+        "fuente": "https://correodelsur.com/politica/20250808/con-arce-como-invitado-lula-firma-orden-de-construccion-del-puente-que-conecta-brasil-y-bolivia.html",
+        "justificacion": "La nota (fechada el 8 de agosto de 2025, en Porto Velho) reporta que Lula firmó, con Arce como invitado, la orden de construcción del puente binacional sobre el río Mamoré el 8 de agosto de 2025, no el 9 de agosto como consta en COLT."
+      },
+      {
+        "TripID": "3766-BOL-BRA-45878",
+        "campo": "TripEndDate",
+        "valor_correcto": "2025-08-08",
+        "fuente": "https://correodelsur.com/politica/20250808/con-arce-como-invitado-lula-firma-orden-de-construccion-del-puente-que-conecta-brasil-y-bolivia.html",
+        "justificacion": "Evento de un solo día (firma en Porto Velho el 8 de agosto de 2025); no se encontró evidencia de una segunda jornada el 9 de agosto."
+      },
+      {
+        "TripID": "3766-BOL-BRA-45613",
+        "campo": "MetNonhostHOGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.vision360.bo/noticias/2024/11/19/15452-luis-arce-y-xi-jinping-sostienen-grata-y-fructifera-reunion-bilateral-en-el-marco-del-g20; https://www.fmprc.gov.cn/eng/xw/zyxw/202411/t20241120_11529800.html",
+        "justificacion": "Durante su viaje a Brasil para la Cumbre del G20 (Río de Janeiro), Arce sostuvo una reunión bilateral con el presidente chino Xi Jinping el 19 de noviembre de 2024 en el hotel Sheraton de Río de Janeiro. COLT registra 'No' en MetNonhostHOGS para este viaje."
+      },
+      {
+        "TripID": "3766-BOL-BRA-45613",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "President Xi Jinping",
+        "fuente": "https://www.vision360.bo/noticias/2024/11/19/15452-luis-arce-y-xi-jinping-sostienen-grata-y-fructifera-reunion-bilateral-en-el-marco-del-g20",
+        "justificacion": "Reunión bilateral confirmada por múltiples medios (Visión 360, La Razón, Ahora El Pueblo, MFA de China) entre Arce y Xi Jinping en el marco de la Cumbre del G20 en Río de Janeiro, no reflejada en el campo NonhostHOGSNames de COLT."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Belgium",
+        "CityVisited": "Brussels",
+        "TripStartDate": "2023-07-17",
+        "TripEndDate": "2023-07-18",
+        "TripDuration": "2",
+        "MetHostHoGS": "No_verificable",
+        "HostHOGSName": "",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "European Union (EU) - Community of Latin American and Caribbean States (CELAC) Summit",
+        "fuente": "https://eldeber.com.bo/pais/arce-arribo-a-bruselas-para-asistir-a-cumbre-de-la-celac_332563; https://www.swissinfo.ch/spa/ue-celac_el-presidente-de-bolivia-viaja-a-bruselas-para-participar-en-la-iii-cumbre-ue-celac/48666518; https://www.opinion.com.bo/articulo/pais/arce-avisa-europa-que-ni-bolivia-ni-otros-regalaran-recursos/20230717233916914196.html",
+        "justificacion": "Viaje no capturado por COLT (no hay ningún item de Bélgica entre los 47 registros de leader_3766). Arce viajó a Bruselas y participó personalmente en la III Cumbre UE-CELAC (17-18 de julio de 2023), donde presentó una propuesta de reactivación económica, integró la 'Cumbre de los Pueblos' paralela y visitó una universidad belga. Es exactamente el tipo de cumbre CELAC mencionada como posible hueco en la investigación."
+      },
+      {
+        "CountryVisited": "Cuba",
+        "CityVisited": "Havana",
+        "TripStartDate": "2023-09-15",
+        "TripEndDate": "2023-09-16",
+        "TripDuration": "2",
+        "MetHostHoGS": "No_verificable",
+        "HostHOGSName": "No_verificable",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "Group of 77 (G77) and China Summit",
+        "fuente": "https://www.plenglish.com/news/2023/09/05/bolivias-president-to-attend-g77china-summit-in-cuba/; https://cancilleria.gob.bo/mre/2023/09/15/10118/; https://www.infobae.com/america/america-latina/2023/09/15/una-cumbre-de-dictaduras-y-autocracias-quien-es-quien-en-el-g77china-que-presidira-la-dictadura-cubana/",
+        "justificacion": "Viaje no capturado por COLT: los 4 registros de Cuba en el archivo (2021-12, 2022-05, 2022-12, 2023-06/07) no incluyen este. Arce asistió personalmente a la Cumbre del G77+China en La Habana (15-16 de septiembre de 2023, bajo presidencia pro tempore cubana del G77), acompañado por el canciller Rogelio Mayta, e intervino llamando a un 'pacto digital para una ciencia enmarcada en la vida'. No se encontró confirmación específica de encuentro bilateral con el presidente Díaz-Canel durante esta cumbre puntual (más allá de la interacción protocolar propia del anfitrión), por lo que MetHostHoGS/HostHOGSName se marcan como No_verificable."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "3766-BOL-ARG-44658",
+        "campo": "TripEndDate",
+        "justificacion": "COLT ya señala en sus propias notas 'Unsure of end date' para este viaje a Argentina (abril 2022, firma de acuerdos energéticos, visita a Cristina Kirchner y al monumento a Juana Azurduy). No fue posible confirmar de forma independiente la fecha exacta de regreso a Bolivia dentro del alcance de esta investigación."
+      },
+      {
+        "TripID": "3766-BOL-ARG-45111",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "COLT ya señala en sus propias notas 'Exact dates of travel not clear' para este viaje a la Cumbre del Mercosur en Argentina (julio 2023). No fue posible confirmar de forma independiente las fechas exactas de viaje dentro del alcance de esta investigación."
+      }
+    ]
+  }
+]

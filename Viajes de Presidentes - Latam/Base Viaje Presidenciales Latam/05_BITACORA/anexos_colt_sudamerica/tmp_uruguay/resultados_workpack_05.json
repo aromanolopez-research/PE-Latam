@@ -1,0 +1,316 @@
+{
+  "resultados": [
+    {
+      "colt_TripID": "3698-URY-ARG-45269",
+      "our_Trip_ID": "126",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "2",
+      "fuente": "https://www.montevideo.com.uy/Noticias/Lacalle-Pou-partio-hacia-Argentina-para-asistir-a-la-asuncion-de-Milei-este-domingo-uc873535 ; https://www.infobae.com/america/america-latina/2023/12/11/zelenski-invito-a-lacalle-pou-a-visitar-ucrania-y-agradecio-el-apoyo-de-uruguay-en-una-reunion-en-buenos-aires/",
+      "justificacion": "Fuente primaria (Montevideo Portal, publicada 9-dic-2023) confirma partida sábado 9-dic y regreso domingo 10-dic tras la asunción de Milei. La reunión con Zelenskyy que cita COLT como motivo del tercer día ocurrió el domingo por la mañana (10-dic), antes de la asunción, es decir dentro de la ventana ya registrada, no un día adicional. COLT tiene Confidence=1 (la más baja) en este TripID."
+    },
+    {
+      "colt_TripID": "3698-URY-ARG-45490",
+      "our_Trip_ID": "130",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "1",
+      "fuente": "https://www.elobservador.com.uy/nacional/lacalle-pou-encabezo-acto-la-plaza-matriz-la-jura-la-constitucion-su-ultimo-18-julio-como-presidente-n5951925 ; https://www.a24.com/politica/lacalle-pou-y-tres-candidatos-presidente-uruguay-presentes-el-acto-la-amia-n1335615",
+      "justificacion": "El Observador confirma que Lacalle Pou encabezó el acto oficial en Plaza Matriz por la Jura de la Constitución en Montevideo el 18-jul-2024, por lo que no pudo seguir en Buenos Aires ese día. Otras fuentes confirman que organizó su regreso a Uruguay el mismo 17-jul tras la bilateral con Milei y el acto por los 30 años de la AMIA. Corrige nuestra base (que tenía 17-18/jul, 2 días)."
+    },
+    {
+      "colt_TripID": "3698-URY-BEL-45123",
+      "our_Trip_ID": "120",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2023-07-16",
+      "fuente": "https://www.ambito.com/uruguay/el-presidente-luis-lacalle-pou-se-reunio-su-par-chileno... ; https://diariodecuyo.com.ar/argentina/El-Presidente-llego-a-Bruselas-para-la-cumbre-entre-la-Union-Europea-y-la-Celac-20230717-0010.html ; https://www.subrayado.com.uy/lacalle-pou-viajo-cumbre-celac-y-union-europea-hay-expectativa-acuerdo-mercosur-n920640",
+      "justificacion": "Múltiples fuentes (Subrayado, La Diaria, Montevideo Portal, Diario de Cuyo) confirman que Lacalle Pou viajó el domingo 16-jul-2023 junto al canciller Bustillo y la ministra Arbeleche, para participar el 17 y 18 de julio en la Cumbre CELAC-UE en Bruselas."
+    },
+    {
+      "colt_TripID": "3698-URY-BEL-45123",
+      "our_Trip_ID": "120",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "3",
+      "fuente": "https://www.subrayado.com.uy/lacalle-pou-viajo-cumbre-celac-y-union-europea-hay-expectativa-acuerdo-mercosur-n920640",
+      "justificacion": "Consistente con Start_Date corregido a 16-jul: viaje de 16 a 18-jul-2023 (3 días), confirmado por varias fuentes uruguayas."
+    },
+    {
+      "colt_TripID": "3698-URY-CHL-44630",
+      "our_Trip_ID": "109",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2022-03-10",
+      "fuente": "https://www.subrayado.com.uy/lacalle-pou-esta-chile-la-asuncion-gabriel-boric-como-presidente-n847416 ; https://en.mercopress.com/2022/03/10/uruguayan-president-will-fly-to-chile-to-thank-pinera-and-assist-boric-s-presidential-inauguration",
+      "justificacion": "Fuentes confirman que Lacalle Pou ya estaba en Chile el 10-mar-2022 (jueves), un día antes de la asunción de Boric (viernes 11-mar), participando también del almuerzo de despedida ofrecido por Piñera a los mandatarios invitados."
+    },
+    {
+      "colt_TripID": "3698-URY-CHL-44630",
+      "our_Trip_ID": "109",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "2",
+      "fuente": "https://www.subrayado.com.uy/lacalle-pou-esta-chile-la-asuncion-gabriel-boric-como-presidente-n847416",
+      "justificacion": "Consistente con Start_Date corregido a 10-mar: viaje de 10 a 11-mar-2022 (2 días)."
+    },
+    {
+      "colt_TripID": "3698-URY-CHL-45179",
+      "our_Trip_ID": "121",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2023-09-10",
+      "fuente": "https://ladiaria.com.uy/politica/articulo/2023/9/lacalle-pou-partio-a-chile-para-participar-en-la-conmemoracion-de-los-50-anos-del-golpe-de-estado-en-ese-pais/ ; https://970universal.com/2023/09/10/lacalle-pou-viaja-a-chile-este-domingo-para-participar-del-acto-por-los-50-anos-del-golpe-de-estado/",
+      "justificacion": "Fuentes confirman que Lacalle Pou partió hacia Chile el domingo 10-sep-2023 alrededor de las 18:30, para participar el lunes 11-sep en el acto por los 50 años del golpe de Estado."
+    },
+    {
+      "colt_TripID": "3698-URY-CHL-45179",
+      "our_Trip_ID": "121",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "2",
+      "fuente": "https://ladiaria.com.uy/politica/articulo/2023/9/lacalle-pou-partio-a-chile-para-participar-en-la-conmemoracion-de-los-50-anos-del-golpe-de-estado-en-ese-pais/",
+      "justificacion": "Consistente con Start_Date corregido a 10-sep: viaje de 10 a 11-sep-2023 (2 días), antes de continuar a Francia."
+    },
+    {
+      "colt_TripID": "3698-URY-CHN-45251",
+      "our_Trip_ID": "125",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2023-11-20",
+      "fuente": "https://www.infobae.com/america/agencias/2023/11/20/lacalle-pou-llega-a-pekin-para-visita-oficial-y-reunion-con-xi-jinping/",
+      "justificacion": "Infobae confirma explícitamente que Lacalle Pou llegó a Pekín el lunes 20-nov-2023 para la visita oficial, contradiciendo el 21-nov de COLT."
+    },
+    {
+      "colt_TripID": "3698-URY-CHN-45251",
+      "our_Trip_ID": "125",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "5",
+      "fuente": "https://www.infobae.com/america/agencias/2023/11/20/lacalle-pou-llega-a-pekin-para-visita-oficial-y-reunion-con-xi-jinping/",
+      "justificacion": "Múltiples fuentes describen la visita de Estado como 'del 20 al 24 de noviembre', consistente con Duration_Days=5 de nuestra base."
+    },
+    {
+      "colt_TripID": "3698-URY-COL-44742",
+      "our_Trip_ID": "112",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "5",
+      "fuente": "https://www.subrayado.com.uy/regreso-lacalle-pou-su-visita-colombia-y-la-reunion-ivan-duque-n873027",
+      "justificacion": "Fuente primaria (Subrayado, publicada 4-jul-2022 08:41hs) confirma que Lacalle Pou 'había viajado a Bogotá el jueves de mañana' (30-jun) y 'regresó este lunes de mañana' (4-jul) minutos antes de las 6am. Esto contradice nuestra propia corrección QA-R5 anterior (que había fijado el regreso en 3-jul); esa corrección previa era en realidad errónea. Duration correcta: 30-jun a 4-jul = 5 días, igual que COLT."
+    },
+    {
+      "colt_TripID": "3698-URY-DOM-45008",
+      "our_Trip_ID": "116",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2023-03-23",
+      "fuente": "https://970universal.com/2023/03/23/lacalle-viajo-a-republica-dominicana-para-participar-en-cumbre-iberoamericana/ ; https://www.abc.com.py/internacionales/2023/03/23/boric-y-lacalle-llegan-a-repùblica-dominicana-para-la-cumbre-iberoamericana/",
+      "justificacion": "Varias fuentes confirman que Lacalle Pou llegó a Santo Domingo el jueves 23-mar-2023 (no el 24-mar), ya que la XXVIII Cumbre Iberoamericana se extendió del jueves 23 al sábado 25-mar. NOTA: esto deja una inconsistencia interna no resuelta aquí -nuestro End_Date (29-mar) está bien sourced con cita directa, por lo que al corregir el Start_Date a 23-mar la Duration_Days real pasaría a ser 7 (no 6 como figura actualmente); esto no estaba señalado como diferencia en el workpack y se deja constancia para revisión futura, sin modificarlo en este veredicto."
+    },
+    {
+      "colt_TripID": "3698-URY-PRY-45479",
+      "our_Trip_ID": "129",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": "",
+      "fuente": "https://www.mercosur.int/asuncion-se-prepara-para-la-cumbre-de-jefes-de-estado-del-mercosur-y-reuniones-previas/ ; búsquedas adicionales sobre la LXIV Cumbre MERCOSUR (8-jul-2024)",
+      "justificacion": "Todas las fuentes consultadas confirman que la cumbre presidencial y la cena de jefes de Estado ocurrieron el 7-8/jul/2024, pero ninguna precisa si Lacalle Pou arribó a Asunción el sábado 6 (COLT) o el domingo 7 (nuestra base). No se halló nota de prensa uruguaya con el día exacto de partida."
+    },
+    {
+      "colt_TripID": "3698-URY-PRY-45479",
+      "our_Trip_ID": "129",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": "",
+      "fuente": "https://www.mercosur.int/asuncion-se-prepara-para-la-cumbre-de-jefes-de-estado-del-mercosur-y-reuniones-previas/",
+      "justificacion": "Depende directamente de la fecha de partida no verificada (ver campo Start_Date del mismo Trip_ID); no se encontró fuente que precise si la estadía fue de 2 o 3 días."
+    },
+    {
+      "colt_TripID": "3698-URY-QAT-44540",
+      "our_Trip_ID": "105",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2021-12-12",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/lacalle-pou-tras-viaje-catar-nos-volvemos-tranquilidad-haber-cumplido ; https://en.mercopress.com/2021/12/11/argimon-takes-over-in-uruguay-as-lacalle-travels-to-qatar",
+      "justificacion": "La fuente oficial (Presidencia, 14-dic-2021) describe la visita como 'oficial de 48 horas'; la reunión con el Emir fue el domingo 12-dic. No hay evidencia de que el viaje haya comenzado el 10-dic como indica COLT."
+    },
+    {
+      "colt_TripID": "3698-URY-QAT-44540",
+      "our_Trip_ID": "105",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "3",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/lacalle-pou-tras-viaje-catar-nos-volvemos-tranquilidad-haber-cumplido",
+      "justificacion": "Fuente oficial (Presidencia) confirma que Lacalle Pou 'arribó a las 18:45 de este martes 14' (no el 13 como figura en nuestra base) tras una visita de 48 horas iniciada el domingo 12. El valor exacto correcto es 3 días (12-14 dic), no 2 (nuestro) ni 5 (COLT); nuestra base subestima por un día porque el End_Date registrado (13-dic) es incorrecto y debería corregirse a 14-dic en una revisión posterior. Se marca 'nuestro_correcto' por ser sustancialmente más cercano a la realidad que el valor de COLT, dejando expresa la corrección fina."
+    },
+    {
+      "colt_TripID": "3698-URY-ARE-44611",
+      "our_Trip_ID": "108",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2022-02-18",
+      "fuente": "https://www.subrayado.com.uy/lacalle-pou-viajo-dubai-junto-ministros-y-empresarios-n840128",
+      "justificacion": "Nuestra propia corrección QA-R5 ya cita directamente la fuente: partida viernes 18-feb-2022, Día de Uruguay en Expo Dubái el lunes 21-feb, regreso de la delegación el 23-feb. Consistente con la cobertura de thenationalnews.com sobre el encuentro con Sheikh Mohamed bin Zayed en torno al 20-feb."
+    },
+    {
+      "colt_TripID": "3698-URY-ARE-44611",
+      "our_Trip_ID": "108",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "6",
+      "fuente": "https://www.subrayado.com.uy/lacalle-pou-viajo-dubai-junto-ministros-y-empresarios-n840128",
+      "justificacion": "Consistente con Start 18-feb y End 23-feb ya verificados con cita directa de fuente primaria (18 al 23-feb = 6 días)."
+    },
+    {
+      "colt_TripID": "3698-URY-GBR-44703",
+      "our_Trip_ID": "111",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2022-05-21",
+      "fuente": "https://en.mercopress.com/2022/05/22/president-of-uruguay-left-for-the-uk-on-his-first-visit-to-europe-will-meet-with-prince-charles-boris-johnson",
+      "justificacion": "El propio artículo de MercoPress citado por COLT como fuente dice explícitamente: 'traveled this Saturday to London... will last until May 24' (publicado domingo 22-may), es decir que viajó el sábado 21-may, no el 22-may como registró COLT."
+    },
+    {
+      "colt_TripID": "3698-URY-GBR-44703",
+      "our_Trip_ID": "111",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "4",
+      "fuente": "https://en.mercopress.com/2022/05/22/president-of-uruguay-left-for-the-uk-on-his-first-visit-to-europe-will-meet-with-prince-charles-boris-johnson",
+      "justificacion": "Consistente con Start 21-may y End 24-may (ya corregido en QA-R5 con cita directa de la misma fuente): 21 al 24-may = 4 días."
+    },
+    {
+      "colt_TripID": "3698-URY-USA-44460",
+      "our_Trip_ID": "104",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": "",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/presidente-lacalle-pou-regreso-uruguay-tras-gira-oficial-mexico-estados ; https://en.mercopress.com/2021/09/23/uruguayan-president-lacalle-focuses-on-human-rights-and-covid-19-vaccination-before-the-un",
+      "justificacion": "La fuente oficial solo confirma el regreso conjunto de la gira México-EEUU el viernes 24-sep (coincide con ambas bases). MercoPress confirma el discurso ante la ONU el miércoles 22-sep, compatible con cualquiera de las dos fechas de inicio propuestas (20 o 21-sep). No se halló fuente que precise el día exacto de llegada a Nueva York tras la Cumbre CELAC en México (que terminó el 18-sep)."
+    },
+    {
+      "colt_TripID": "3698-URY-USA-44460",
+      "our_Trip_ID": "104",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": "",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/presidente-lacalle-pou-regreso-uruguay-tras-gira-oficial-mexico-estados",
+      "justificacion": "Depende directamente de la fecha de inicio no verificada (ver campo Start_Date del mismo Trip_ID); el End_Date (24-sep) está confirmado por fuente oficial en ambas versiones."
+    },
+    {
+      "colt_TripID": "3698-URY-USA-45090",
+      "our_Trip_ID": "118",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2023-06-12",
+      "fuente": "https://www.teledoce.com/telemundo/nacionales/biden-aplaudio-defensa-de-lacalle-de-libertades-en-venezuela-presidentes-exploraron-formas-de-expandir-la-relacion-economica-bilateral/",
+      "justificacion": "Nuestra corrección QA-R5 ya cita directamente la fuente: viajó el domingo 11-jun de noche (llegada 12-jun), reunión con Biden el martes 13-jun (coincide con las fuentes de COLT: Bloomberg y la Casa Blanca fechan el encuentro el 13-jun), regreso el jueves 15-jun."
+    },
+    {
+      "colt_TripID": "3698-URY-USA-45090",
+      "our_Trip_ID": "118",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "4",
+      "fuente": "https://www.teledoce.com/telemundo/nacionales/biden-aplaudio-defensa-de-lacalle-de-libertades-en-venezuela-presidentes-exploraron-formas-de-expandir-la-relacion-economica-bilateral/",
+      "justificacion": "Consistente con Start 12-jun y End 15-jun ya verificados con cita directa: 12 al 15-jun = 4 días. El TripID de COLT (fechado 13-jun) corresponde al día de la reunión con Biden, que fue ampliamente cubierto, pero no al día de llegada real."
+    },
+    {
+      "colt_TripID": "3698-URY-USA-45186",
+      "our_Trip_ID": "123",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "5",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/lacalle-pou-retorno-uruguay-tras-participar-asamblea-general-naciones-unidas",
+      "justificacion": "Fuente oficial (Presidencia, 21/09/2023): 'La vicepresidenta Beatriz Argimón traspasó el mando al presidente... este jueves 21' tras el viaje a la 78ª AGNU. Confirma el regreso el 21-sep, no el 22-sep como registra COLT. Duration correcta: 17 al 21-sep = 5 días."
+    },
+    {
+      "colt_TripID": "3698-URY-USA-45231",
+      "our_Trip_ID": "124",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2023-11-01",
+      "fuente": "https://www.nodal.am/2023/11/nueve-presidentes-de-america-latina-llegan-a-eeuu-para-participar-manana-de-la-primera-cumbre-de-la-apep/ ; https://reporte24.com.ar/2023/10/29/lacalle-pou-prepara-su-participacion-en-la-cumbre-de-la-apep-en-estados-unidos/",
+      "justificacion": "Fuentes confirman que Lacalle Pou solicitó venia parlamentaria para viajar a EEUU entre el 1 y el 4-nov-2023, y que los presidentes latinoamericanos llegaron 'un día antes' de la cumbre del 3-nov. Nuestra base (1 solo día, 3-nov) subestima la duración real del viaje."
+    },
+    {
+      "colt_TripID": "3698-URY-USA-45231",
+      "our_Trip_ID": "124",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "4",
+      "fuente": "https://www.nodal.am/2023/11/nueve-presidentes-de-america-latina-llegan-a-eeuu-para-participar-manana-de-la-primera-cumbre-de-la-apep/",
+      "justificacion": "Consistente con el Start_Date corregido a 1-nov y venia parlamentaria 1 al 4-nov-2023 (4 días)."
+    },
+    {
+      "colt_TripID": "3698-URY-BRA-45265",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.infobae.com/america/america-latina/2023/12/08/un-pedido-de-explicaciones-de-luis-lacalle-pou-tenso-la-discusion-de-la-ultima-cumbre-del-mercosur-de-alberto-fernandez/ ; https://ladiaria.com.uy/politica/articulo/2023/12/cumbre-del-mercosur-lacalle-pou-afirmo-que-en-el-bloque-no-hay-voluntad-de-avanzar-en-un-acuerdo-de-libre-comercio-con-china/",
+      "justificacion": "Confirmado: Lacalle Pou asistió personalmente a la Cumbre del Mercosur en Río de Janeiro el 7-dic-2023 (Infobae y La Diaria documentan sus declaraciones en el propio encuentro, incluyendo un cruce con Argentina y Brasil por China). Viaje real, no cargado en nuestra base; hueco cronológico entre Trip_ID 125 (China, hasta 24-nov) y Trip_ID 126 (Argentina, 9-dic) es compatible. Fechas exactas de llegada (5-dic) no verificadas con la misma certeza que la fecha del evento (7-dic)."
+    },
+    {
+      "colt_TripID": "3698-URY-CHL-45460",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.elobservador.com.uy/nacional/lacalle-pou-viaja-chile-participara-homenaje-pinera-y-se-reunira-gabriel-boric-n5946438 ; https://www.swissinfo.ch/spa/boric-y-lacalle-pou-se-re%C3%BAnen-en-santiago-de-chile-para-mejorar-v%C3%ADnculos-econ%C3%B3micos/81070086",
+      "justificacion": "Confirmado: Lacalle Pou viajó a Chile a mediados de junio de 2024 para participar de un homenaje a Piñera (fallecido en feb-2024) y reunirse con Boric en el Palacio de La Moneda el 18-jun-2024. Viaje real, no cargado en nuestra base; cae en el hueco cronológico entre Trip_ID 128 (24-abr-2024) y Trip_ID 129 (7-jul-2024)."
+    },
+    {
+      "colt_TripID": "3698-URY-DOM-45520",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.montevideo.com.uy/Noticias/De-traje-blanco-Lacalle-Pou-participo-de-asuncion-del-presidente-de-Republica-Dominicana-uc897363 ; https://www.elobservador.com.uy/nacional/luis-lacalle-pou-viaja-republica-dominicana-asuncion-del-presidente-luis-abinader-la-situacion-venezuela-la-mira-n5956231",
+      "justificacion": "Confirmado: Lacalle Pou participó personalmente de la investidura de Luis Abinader en Santo Domingo el 16-ago-2024 (cobertura directa de Montevideo Portal, con foto del presidente en el acto). Viaje real, no cargado en nuestra base; cae en el hueco cronológico entre Trip_ID 130 (17-jul-2024) y Trip_ID 131 (25-sep-2024)."
+    },
+    {
+      "colt_TripID": "3698-URY-SLV-45443",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "https://www.elobservador.com.uy/nacional/nicolas-albertoni-viaja-el-salvador-representar-al-gobierno-el-acto-que-reasumira-nayib-bukele-n5942405 ; https://www.prensa-latina.cu/2024/05/28/vicecanciller-representara-a-uruguay-en-toma-de-posesion-de-bukele/",
+      "justificacion": "Verificado que Lacalle Pou NO viajó personalmente a la segunda asunción de Bukele (1-jun-2024): el gobierno uruguayo estuvo representado por el vicecanciller Nicolás Albertoni, quien viajó el viernes previo. COLT atribuye erróneamente al presidente un viaje realizado en realidad por un funcionario de menor rango; se recomienda descartar este TripID de COLT (o registrarlo, si corresponde, como viaje de Albertoni, fuera del alcance de esta base de viajes presidenciales)."
+    },
+    {
+      "colt_TripID": "3698-URY-PRY-44763",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.infobae.com/politica/2022/07/15/lacalle-pou-pone-en-crisis-al-mercosur-por-su-decision-geopolitica-de-avanzar-en-un-acuerdo-bilateral-con-china-que-resisten-argentina-brasil-y-paraguay/ ; https://www.lr21.com.uy/politica/1476415-lacalle-pou-cumbre-mercosur-apertura-comercial",
+      "justificacion": "Confirmado: Lacalle Pou asistió personalmente a la LX Cumbre del Mercosur en Asunción el 21-jul-2022, donde recibió la presidencia pro tempore del bloque de manos de Abdo Benítez (múltiples fuentes, incluida cobertura en video). Es un viaje distinto y posterior al Trip_ID 110 de nuestra base (13-15-may-2022, visita bilateral por el 211º aniversario de la independencia paraguaya); no es un duplicado. Cae en el hueco cronológico entre Trip_ID 112 (3-jul-2022) y Trip_ID 113 (27-oct-2022)."
+    },
+    {
+      "colt_TripID": "3698-URY-PRY-45392",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.subrayado.com.uy/lacalle-pou-viaja-paraguay-reuniones-el-presidente-santiago-pena-y-el-mundial-2030-n943370 ; https://www.subrayado.com.uy/luis-lacalle-pou-se-reunio-su-par-paraguayo-santiago-pena-este-miercoles-asuncion-n943473",
+      "justificacion": "Confirmado con fuente primaria propia (Subrayado): Lacalle Pou llegó a Asunción el miércoles 10-abr-2024 y se reunió con Santiago Peña y con el presidente de FIFA Gianni Infantino por la organización del Mundial 2030. Las fechas de COLT (10-11 abr) coinciden exactamente con lo confirmado. Viaje real, no cargado en nuestra base; cae en el hueco cronológico entre Trip_ID 126 (9-dic-2023) y Trip_ID 127 (17-abr-2024)."
+    }
+  ]
+}

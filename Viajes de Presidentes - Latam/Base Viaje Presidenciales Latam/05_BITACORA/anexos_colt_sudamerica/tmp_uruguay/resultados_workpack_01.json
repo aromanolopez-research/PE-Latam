@@ -1,0 +1,406 @@
+{
+  "resultados": [
+    {
+      "colt_TripID": "1514-URY-AGO-37911",
+      "our_Trip_ID": "16",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "fuente": "Vatican press bulletin (busqueda sin resultado especifico), prensa uruguaya de octubre 2003 (sin resultado especifico)",
+      "justificacion": "Este viaje es la tercera etapa de la gira Vaticano-Italia-Angola (Journey_ID URU-JB-J013, oct-2003). Nuestra propia base marca las 3 fechas como 'estimadas'. Los sufijos numericos de los TripID de COLT codifican en serie Excel la propia TripStartDate de COLT (verificado: 37911=17-oct-2003), lo cual solo confirma consistencia interna de COLT, no exactitud externa. Se detecta un posible intercambio Vaticano/Italia en COLT (ver items VAT-37907 e ITA-37905). No se hallo fuente primaria que fije el orden real de las 3 escalas."
+    },
+    {
+      "colt_TripID": "1514-URY-AGO-37911",
+      "our_Trip_ID": "16",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "fuente": "Idem Start_Date de este mismo item",
+      "justificacion": "Misma incertidumbre que Start_Date: la duracion depende del orden real de las 3 escalas de la gira, que no pudo confirmarse independientemente. Nuestra base marca la fecha como estimada."
+    },
+    {
+      "colt_TripID": "1514-URY-CAN-37000",
+      "our_Trip_ID": "4",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2001-04-20",
+      "fuente": "https://summit-americas.org/sas/Cumbres_previas_IIICumbre.html ; III Cumbre de las Americas, Quebec City",
+      "justificacion": "La III Cumbre de las Americas se realizo en Quebec City del 20 al 22 de abril de 2001, hecho historico ampliamente documentado. Coincide exactamente con nuestra fecha de inicio y con la duracion de 3 dias. COLT (19-abr, 4 dias) agrega un dia antes de la apertura oficial."
+    },
+    {
+      "colt_TripID": "1514-URY-CAN-37000",
+      "our_Trip_ID": "4",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "https://summit-americas.org/sas/Cumbres_previas_IIICumbre.html ; III Cumbre de las Americas, Quebec City",
+      "justificacion": "La cumbre duro exactamente del 20 al 22 de abril de 2001 (3 dias), coincidiendo con nuestra base. COLT indica 4 dias sin respaldo encontrado."
+    },
+    {
+      "colt_TripID": "1514-URY-COD-38106",
+      "our_Trip_ID": "20",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2004-04-27",
+      "fuente": "http://archivo.presidencia.gub.uy/noticias/archivo/2004/abril/2004042905.htm (ya citada en nuestra base, fuente oficial primaria)",
+      "justificacion": "Nuestra base ya tiene una correccion QA previa (2026-07-22) basada en fuente oficial primaria: comunicado conjunto fechado 'Kinshasa, 29 de abril de 2004' que confirma una visita de trabajo de 48hs, con partida de la delegacion hacia Johannesburgo el 29 y regreso a Uruguay el 30-abr. Esto implica llegada a Kinshasa el 27-abr. No se hallo respaldo documental para la fecha de COLT (29-abr)."
+    },
+    {
+      "colt_TripID": "1514-URY-COD-38106",
+      "our_Trip_ID": "20",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "http://archivo.presidencia.gub.uy/noticias/archivo/2004/abril/2004042905.htm (ya citada en nuestra base, fuente oficial primaria)",
+      "justificacion": "La misma fuente oficial primaria confirma una estadia de 27 a 29 de abril (3 dias) en Kinshasa antes de la partida hacia Johannesburgo. COLT indica 2 dias sin respaldo encontrado."
+    },
+    {
+      "colt_TripID": "1514-URY-CRI-38309",
+      "our_Trip_ID": "22",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "https://segib.org/?summit=xiv-cumbre-iberoamericana-san-jose-2004 ; Declaracion de San Jose de 2004 (encabezado cita '18-20 de Noviembre de 2004')",
+      "justificacion": "Aunque las sesiones plenarias de la XIV Cumbre Iberoamericana fueron el 19-20 de noviembre, el encabezado oficial de la Declaracion de San Jose data el evento '18-20 de noviembre de 2004', consistente con nuestra duracion de 3 dias (llegada 18 + cumbre 19-20). COLT (2 dias) solo contempla las sesiones plenarias, no el dia de llegada previo a la venia (venia desde 17-nov segun nuestra base)."
+    },
+    {
+      "colt_TripID": "1514-URY-VAT-37907",
+      "our_Trip_ID": "14",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "fuente": "Busqueda de boletines de prensa vaticanos y prensa uruguaya de octubre 2003, sin resultado especifico",
+      "justificacion": "Se detecta un patron llamativo: el TripID de COLT para VAT (37907=13-oct-2003 en serial Excel) coincide con NUESTRA fecha de la escala en Italia (13-oct), y el TripID de COLT para ITA (37905=11-oct-2003) coincide con NUESTRA fecha de la escala en el Vaticano (11-oct). Esto sugiere que COLT pudo haber invertido el orden Vaticano/Italia. Nuestra propia base marca estas fechas como 'estimadas' (Fecha de leg estimada). No se hallo fuente primaria (boletin Sala Stampa Vaticano, prensa) que confirme el orden real de las escalas."
+    },
+    {
+      "colt_TripID": "1514-URY-VAT-37907",
+      "our_Trip_ID": "14",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "fuente": "Idem Start_Date de este mismo item",
+      "justificacion": "Misma incertidumbre que Start_Date; la duracion depende del orden real Vaticano/Italia, no confirmado independientemente."
+    },
+    {
+      "colt_TripID": "1514-URY-ITA-37905",
+      "our_Trip_ID": "15",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "fuente": "Busqueda de prensa italiana/uruguaya de octubre 2003, sin resultado especifico",
+      "justificacion": "Ver justificacion detallada en el item VAT-37907 (mismo Journey_ID URU-JB-J013): posible intercambio Vaticano/Italia en los datos de COLT. Nuestra base marca esta fecha como estimada. Sin fuente primaria que confirme el orden real."
+    },
+    {
+      "colt_TripID": "1514-URY-ITA-37905",
+      "our_Trip_ID": "15",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "fuente": "Idem Start_Date de este mismo item",
+      "justificacion": "Misma incertidumbre que Start_Date."
+    },
+    {
+      "colt_TripID": "1514-URY-MEX-37998",
+      "our_Trip_ID": "18",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://summit-americas.org/sas/Cumbres_previas_CumbreExtraordinaria.html ; Cumbre Extraordinaria de las Americas, Monterrey, 12-13 enero 2004",
+      "justificacion": "La Cumbre Extraordinaria de las Americas se realizo en Monterrey los dias 12 y 13 de enero de 2004, coincidiendo exactamente con nuestra duracion de 2 dias. COLT (3 dias) extiende un dia mas alla del cierre oficial de la cumbre."
+    },
+    {
+      "colt_TripID": "1514-URY-ESP-38017",
+      "our_Trip_ID": "19",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2004-02-02",
+      "fuente": "https://www.congreso.es/es/cem/visituruguay2004 (fuente oficial primaria, ya citada en nuestra base)",
+      "justificacion": "La pagina oficial del Congreso de los Diputados de Espana titula el registro historico exactamente 'Visita del Presidente de la Republica Oriental de Uruguay Jorge Batlle Ibanez, 2 de febrero de 2004', confirmando la fecha de nuestra base de forma directa."
+    },
+    {
+      "colt_TripID": "1514-URY-ESP-38017",
+      "our_Trip_ID": "19",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 1,
+      "fuente": "https://www.congreso.es/es/cem/visituruguay2004",
+      "justificacion": "La fuente oficial describe un acto puntual y fechado (2-feb-2004) sin mencion de una estadia extendida. COLT indica 9 dias, cifra implausible para lo que las propias notas de COLT describen como una visita al Congreso espanol sin otras actividades; no se hallo ninguna fuente que respalde una estadia de 9 dias."
+    },
+    {
+      "colt_TripID": "1514-URY-USA-37204",
+      "our_Trip_ID": "5",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2001-11-08",
+      "fuente": "https://uy.vlex.com/vid/gobiernos-departamentales-organismos-prestacion-899401057 (venia parlamentaria art.170, ya citada en nuestra base)",
+      "justificacion": "La venia parlamentaria que autorizo el viaje esta fechada el 8 de noviembre de 2001; nuestra base ya documenta que el debate general de la AGNU se pospuso a noviembre por los atentados del 11-S, con intervencion presidencial el 10-nov. La fecha de COLT (9-nov) no cuenta con respaldo documental encontrado."
+    },
+    {
+      "colt_TripID": "1514-URY-USA-38250",
+      "our_Trip_ID": "21",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2004-09-22",
+      "fuente": "http://undocs.org/en/A/59/PV.8 (acta oficial de Naciones Unidas, ya citada en nuestra base)",
+      "justificacion": "El acta oficial de la ONU (A/59/PV.8) confirma que la intervencion presidencial fue el 23 de septiembre de 2004, coincidiendo con nuestra fecha de regreso y duracion. COLT (20-sept, 4 dias) implicaria una estadia de casi una semana antes del discurso, sin fuente que lo respalde."
+    },
+    {
+      "colt_TripID": "1514-URY-USA-38250",
+      "our_Trip_ID": "21",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "http://undocs.org/en/A/59/PV.8",
+      "justificacion": "Consistente con el acta oficial de la ONU que fija el discurso el 23-sep; una estadia de 2 dias (22-23 sep) es la interpretacion mas ajustada a esa fecha confirmada."
+    },
+    {
+      "colt_TripID": "1514-URY-ARG-37252",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busquedas sobre presidencia pro tempore del Mercosur 2001-2002 y crisis politica argentina de diciembre de 2001",
+      "justificacion": "Se confirma que Uruguay (Batlle) ejercio la presidencia pro tempore del Mercosur de julio de 2001 a enero de 2002, lo que hace plausible una ceremonia de traspaso hacia fin de ano, pero no se hallo fuente que confirme especificamente un viaje a Argentina el 27/12/2001 ni una ceremonia con el presidente interino Rodriguez Saa (quien solo goberno del 23 al 30 de diciembre de 2001, en medio de una crisis institucional extrema). Sin evidencia en ningun sentido."
+    },
+    {
+      "colt_TripID": "1514-URY-ARG-37440",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda web sobre la XXII Cumbre del Mercosur, Buenos Aires, 5/7/2002, y firma de acuerdo automotor bilateral",
+      "justificacion": "Se confirma que la XXII Cumbre ordinaria del Mercosur se realizo en Buenos Aires el 5 de julio de 2002, con la firma de un acuerdo automotor bilateral, coincidiendo con lo que describen las notas de COLT. El TripStartDate de COLT (3-jul) es consistente con una llegada previa a la cumbre del dia 5."
+    },
+    {
+      "colt_TripID": "1514-URY-ARG-37766",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Cobertura de prensa de la asuncion de Nestor Kirchner, 25/5/2003 (Casa Rosada y medios argentinos)",
+      "justificacion": "Las fuentes confirman explicitamente que 'Jorge Batlle y el chileno Ricardo Lagos entraron juntos' a la ceremonia de asuncion de Kirchner el 25 de mayo de 2003, junto a otros 12 jefes de Estado latinoamericanos. Evento confirmado con alta certeza."
+    },
+    {
+      "colt_TripID": "1514-URY-ARG-38175",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.mercosur.int/argentina-realizara-el-3-y-4-de-julio-en-puerto-iguazu-la-lxii-reunion-del-consejo-del-mercado-comun-y-cumbre-de-jefes-y-jefas-de-estado-del-mercosur-y-estados-asociados/",
+      "justificacion": "Se confirma una reunion de alto nivel del Mercosur (LXII CMC y Cumbre de Jefes de Estado) en Puerto Iguazu, Argentina, en la primera semana de julio de 2004, coincidiendo con el pais visitado y el periodo indicado por COLT (7-jul, con posible ventana de 3 a 7 de julio segun distintas fuentes)."
+    },
+    {
+      "colt_TripID": "1514-URY-BRA-37347",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web",
+      "justificacion": "No se encontro cobertura de un viaje de Batlle a Brasil el 1/4/2002. COLT no incluye notas para este item. Sin evidencia en ningun sentido."
+    },
+    {
+      "colt_TripID": "1514-URY-BRA-37622",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Cobertura de la asuncion de Luiz Inacio Lula da Silva, 1/1/2003, Brasilia",
+      "justificacion": "Fuentes confirman que Jorge Batlle, presidente de Uruguay, estuvo entre los mandatarios presentes en la asuncion de Lula da Silva el 1 de enero de 2003."
+    },
+    {
+      "colt_TripID": "1514-URY-BRA-37753",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web para esta fecha especifica",
+      "justificacion": "No se hallo fuente que confirme un viaje de Batlle a Brasil el 12/5/2003. El propio COLT senala 'date of return unclear based on public information available'. Sin evidencia en ningun sentido."
+    },
+    {
+      "colt_TripID": "1514-URY-BRA-38232",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web (se busco especificamente Expointer/Esteio)",
+      "justificacion": "No se encontro confirmacion de la asistencia de Batlle a una exposicion ganadera en Brasil en septiembre de 2004. Sin evidencia en ningun sentido."
+    },
+    {
+      "colt_TripID": "1514-URY-BRA-38295",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web; COLT tampoco incluye notas para este item",
+      "justificacion": "Sin evidencia en ningun sentido sobre un viaje a Brasil el 4/11/2004."
+    },
+    {
+      "colt_TripID": "1514-URY-CHL-36596",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busquedas sobre la asuncion de Ricardo Lagos (11/3/2000, Valparaiso)",
+      "justificacion": "El evento en si esta historicamente confirmado (Lagos asumio el 11-mar-2000), pero no se hallo una fuente que confirme especificamente la asistencia de Batlle (quien llevaba apenas 10 dias en el cargo). Sin evidencia en ningun sentido."
+    },
+    {
+      "colt_TripID": "1514-URY-CHL-36815",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web",
+      "justificacion": "Sin evidencia en ningun sentido sobre la 56a Asamblea de la Sociedad Interamericana de Prensa y la participacion de Batlle en octubre de 2000."
+    },
+    {
+      "colt_TripID": "1514-URY-CHL-37165",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web",
+      "justificacion": "Sin evidencia en ningun sentido sobre un viaje a Chile el 1/10/2001."
+    },
+    {
+      "colt_TripID": "1514-URY-CHN-37542",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Articulo academico 'A 35 anos del establecimiento de relaciones entre Uruguay y la Republica Popular China' (con apoyo de la Embajada de Uruguay en China), grupormultimedio.com",
+      "justificacion": "La fuente confirma explicitamente que, ademas de Sanguinetti, 'China conto con la presencia de los sucesivos presidentes de Uruguay: ... Jorge Batlle ...'. Las notas de COLT son muy especificas y detalladas (Xi'an, Shanghai, Beijing, reuniones con Li Peng y Zhu Rongji), lo cual sugiere buena fuente primaria de su lado."
+    },
+    {
+      "colt_TripID": "1514-URY-COL-37956",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda sobre actividad de Batlle vinculada a Colombia en diciembre de 2003",
+      "justificacion": "Se encontro referencia a que en diciembre de 2003 Batlle presidio una reunion del Consejo del Mercosur en Montevideo donde se firmo un acuerdo economico que involucraba a Colombia, lo que sugiere que el evento pudo haber ocurrido en Uruguay y no en Colombia. No se pudo confirmar un viaje fisico de Batlle a Colombia en esta fecha. Sin evidencia clara en ningun sentido."
+    },
+    {
+      "colt_TripID": "1514-URY-CRI-37356",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.rree.go.cr/files/includes/files.php?id=34&tipo=relacion (Declaracion Conjunta, Cancilleria de Costa Rica, fuente oficial primaria)",
+      "justificacion": "La Cancilleria de Costa Rica publica la Declaracion Conjunta firmada por Batlle y Rodriguez Echeverria, fechada exactamente 'el dia 10 de abril del 2002' como Visita Oficial a Costa Rica, coincidiendo con el TripStartDate de COLT (10-abr-2002). Nota: fue una visita bilateral oficial, no estrictamente una 'cumbre' como sugiere la nota de COLT, pero el hecho y la fecha estan solidamente confirmados."
+    },
+    {
+      "colt_TripID": "1514-URY-DOM-37577",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web",
+      "justificacion": "Sin evidencia en ningun sentido; el propio COLT marca fechas inciertas ('Date of departure and return unclear')."
+    },
+    {
+      "colt_TripID": "1514-URY-DOM-38215",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Cobertura de la asuncion de Leonel Fernandez, 16/8/2004, Santo Domingo",
+      "justificacion": "Fuentes confirman que Jorge Batlle estuvo entre los lideres internacionales presentes en la investidura de Fernandez, junto a Lula, Pacheco de la Espriella y Ricardo Maduro."
+    },
+    {
+      "colt_TripID": "1514-URY-HTI-38216",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Fuente periodistica sobre despliegue MINUSTAH y Uruguay en 2004",
+      "justificacion": "Se confirma que 'el presidente Jorge Batlle arribo a Haiti el 17 de agosto' de 2004, coincidiendo exactamente con el TripStartDate de COLT, en el marco temprano de la mision MINUSTAH; consistente con ser continuacion del viaje a Republica Dominicana del dia anterior (16-ago, item DOM-38215)."
+    },
+    {
+      "colt_TripID": "1514-URY-JPN-36996",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.mofa.go.jp/region/latin/uruguay/pv0104/outline.html (Ministerio de Relaciones Exteriores de Japon, fuente oficial primaria)",
+      "justificacion": "El MOFA confirma que el presidente Batlle realizo una visita de trabajo oficial a Japon del 15 al 19 de abril de 2001, coincidiendo exactamente con el TripStartDate y la duracion de 5 dias de COLT, incluyendo la visita a Hiroshima descrita en las notas de COLT."
+    },
+    {
+      "colt_TripID": "1514-URY-MEX-37334",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Wikipedia 'Presidency of Jorge Batlle' (cita declaraciones de Batlle en la Conferencia Internacional sobre Financiacion para el Desarrollo, Monterrey); https://www.rree.go.cr/files/includes/files.php?id=34 (confirma que dicha conferencia se realizo del 18 al 22 de marzo de 2002)",
+      "justificacion": "Dos fuentes independientes confirman que Batlle asistio y hablo en la Conferencia de Monterrey sobre Financiacion para el Desarrollo (18-22 marzo 2002), coincidiendo con el TripStartDate de COLT (19-mar) y el destino (Mexico)."
+    },
+    {
+      "colt_TripID": "1514-URY-MEX-38135",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web; COLT tampoco incluye notas",
+      "justificacion": "Sin evidencia en ningun sentido sobre un viaje a Mexico el 28/5/2004."
+    },
+    {
+      "colt_TripID": "1514-URY-MEX-38237",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web",
+      "justificacion": "Sin evidencia en ningun sentido sobre el seminario internacional del PNUD en Ciudad de Mexico en septiembre de 2004."
+    },
+    {
+      "colt_TripID": "1514-URY-PAN-36846",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Referencia a la X Cumbre Iberoamericana, Panama, noviembre de 2000, centrada en ninez y adolescencia",
+      "justificacion": "Se confirma que Batlle asistio a la X Cumbre Iberoamericana realizada en Panama en noviembre de 2000, coincidiendo con el periodo indicado por COLT (TripStartDate 16-nov, 4 dias)."
+    },
+    {
+      "colt_TripID": "1514-URY-PRY-36792",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Dato historico verificable de forma independiente: Jose Gervasio Artigas fallecio el 23 de septiembre de 1850 en Paraguay (exilio en Ibiray)",
+      "justificacion": "La fecha exacta del fallecimiento de Artigas (23/9/1850) coincide matematicamente con el '150 aniversario' citado en la nota de COLT (2000-1850=150) y con el TripStartDate exacto (23-sep-2000), un dato muy especifico y verificable que da alta credibilidad a este registro de COLT, aunque no se hallo cobertura de prensa digital de la epoca que lo confirme directamente."
+    },
+    {
+      "colt_TripID": "1514-URY-PRY-37064",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web",
+      "justificacion": "Sin evidencia en ningun sentido sobre un viaje a Paraguay el 22/6/2001."
+    },
+    {
+      "colt_TripID": "1514-URY-PRY-37790",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda sobre la XXIV Cumbre de Presidentes del Mercosur, Asuncion, 17-18/6/2003",
+      "justificacion": "Se confirma que la cumbre se realizo en Asuncion los dias 17 y 18 de junio de 2003, coincidiendo exactamente con el TripStartDate de COLT (18-jun)."
+    },
+    {
+      "colt_TripID": "1514-URY-PRY-37848",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Cobertura de la asuncion de Nicanor Duarte Frutos (15/8/2003, con presencia de nueve jefes de Estado) y referencias a una cena ofrecida por Batlle en honor a Duarte y encuentros en Asuncion en torno a la XVIII Cumbre",
+      "justificacion": "Multiples referencias confirman actividad diplomatica de Batlle en Asuncion en el marco de la asuncion de Duarte Frutos, incluyendo una cena ofrecida por el propio Batlle en honor al nuevo mandatario paraguayo."
+    },
+    {
+      "colt_TripID": "1514-URY-ZAF-38104",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Segunda investidura de Thabo Mbeki, 27/4/2004 (Dia de la Libertad, Sudafrica); nota de nuestra propia base (Trip_ID 20, RDC) que confirma transito de la delegacion uruguaya por Johannesburgo el 29-30 de abril de 2004",
+      "justificacion": "La investidura de Mbeki fue efectivamente el 27/4/2004. ADVERTENCIA: este viaje probablemente es parte de la MISMA gira africana que nuestro Trip_ID 20 (Kinshasa, RDC, 27-29 abr 2004, Journey_ID URU-JB-J017) -nuestra propia base ya documenta que la delegacion transito por Johannesburgo antes de volver a Uruguay-. Se recomienda agregarlo como una escala adicional (Sudafrica) de la misma gira ya cargada, no como viaje nuevo e independiente sin vinculo, para evitar fragmentar el mismo periplo en registros no relacionados."
+    },
+    {
+      "colt_TripID": "1514-URY-USA-37004",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Contexto general sobre el brote de fiebre aftosa en Uruguay en 2001 (segunda ola, mayo 2001)",
+      "justificacion": "La nota de COLT sobre 'visita acortada por brote de aftosa' es cronologicamente consistente con el segundo brote de aftosa en Uruguay, pero no se encontro una fuente especifica que confirme este viaje puntual a EE.UU. el 23/4/2001. Sin evidencia en ningun sentido."
+    },
+    {
+      "colt_TripID": "1514-URY-USA-37137",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - no se investigo en profundidad por limite de alcance de la busqueda",
+      "justificacion": "Sin evidencia en ningun sentido sobre la 'Declaracion de la Cumbre' mencionada por COLT para el 3/9/2001 en EE.UU."
+    },
+    {
+      "colt_TripID": "1514-URY-USA-37626",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.lr21.com.uy/politica/103102-batlle-rinde-culto-a-los-bush-en-miami (LARED21, 7/1/2003)",
+      "justificacion": "Fuente periodistica uruguaya contemporanea confirma que Batlle fue uno de los 25.000 invitados a la re-investidura de Jeb Bush como gobernador de Florida el 7/1/2003, y que se reunio con Jeb y George H. Bush en Miami. El TripStartDate de COLT (5-ene) es consistente con un viaje que culmino en la ceremonia del 7-ene."
+    },
+    {
+      "colt_TripID": "1514-URY-USA-37730",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web sobre la Conferencia de la OPS de abril de 2003",
+      "justificacion": "Sin evidencia en ningun sentido sobre la asistencia de Batlle a la Conferencia de la Organizacion Panamericana de la Salud en Washington DC en abril de 2003."
+    },
+    {
+      "colt_TripID": "1514-URY-USA-37880",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busqueda sobre la VIII Reunion Ministerial del ALCA, Miami (que resulto ser 20-21 de noviembre de 2003, no septiembre)",
+      "justificacion": "La reunion ministerial oficial del ALCA en Miami fue en noviembre de 2003, no en septiembre, lo que genera dudas sobre la fecha exacta de COLT (16-sep-2003). Podria tratarse de un viaje de lobby/promocion previo y distinto (respaldo a la candidatura de Miami como sede del ALCA, visita a FIU) pero no se hallo confirmacion especifica de esa fecha de septiembre. Sin evidencia suficiente en ningun sentido."
+    },
+    {
+      "colt_TripID": "1514-URY-VEN-36718",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Contexto general sobre la primera sesion de trabajo de la III Cumbre de las Americas entre Chavez y Batlle",
+      "justificacion": "Se encontro referencia generica a que Chavez y Batlle participaron de la primera sesion de trabajo de la III Cumbre de las Americas, pero no se confirmo especificamente un viaje a Venezuela el 11/7/2000 con la presencia de de la Rua mencionada en la nota de COLT. Sin evidencia en ningun sentido."
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+[
+  {
+    "colt_TripID": "3698-URY-ARG-45269",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "126",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-ARG-45490",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "130",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-BEL-45123",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "120",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-07-17",
+        "colt": "2023-07-16"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-CHL-44630",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "109",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-03-11",
+        "colt": "2022-03-10"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-CHL-45179",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "121",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-09-11",
+        "colt": "2023-09-10"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-CHN-45251",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "125",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-11-20",
+        "colt": "2023-11-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-COL-44742",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "112",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-DOM-45008",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "116",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-03-24",
+        "colt": "2023-03-23"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-PRY-45479",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "129",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-07-07",
+        "colt": "2024-07-06"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-QAT-44540",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "105",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2021-12-12",
+        "colt": "2021-12-10"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-ARE-44611",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "108",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-02-18",
+        "colt": "2022-02-19"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 6,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-GBR-44703",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "111",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-05-21",
+        "colt": "2022-05-22"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-USA-44460",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "104",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2021-09-20",
+        "colt": "2021-09-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-USA-45090",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "118",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-06-12",
+        "colt": "2023-06-13"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-USA-45186",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "123",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 6
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-USA-45231",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "124",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-11-03",
+        "colt": "2023-11-01"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-BRA-45265",
+    "colt_LeaderID": "3698",
+    "LeaderFullName": "Luis Lacalle Pou",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2023-12-05",
+    "TripDuration": "3",
+    "Notes": "Participated in the Mercosur Summit"
+  },
+  {
+    "colt_TripID": "3698-URY-CHL-45460",
+    "colt_LeaderID": "3698",
+    "LeaderFullName": "Luis Lacalle Pou",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2024-06-17",
+    "TripDuration": "2",
+    "Notes": "Met with President Gabriel Boric to discuss ways to strengthen the bilateral relationship between Chile and Uruguay"
+  },
+  {
+    "colt_TripID": "3698-URY-DOM-45520",
+    "colt_LeaderID": "3698",
+    "LeaderFullName": "Luis Lacalle Pou",
+    "CountryVisited": "Dominican Republic",
+    "CityVisited": null,
+    "TripStartDate": "2024-08-16",
+    "TripDuration": "1",
+    "Notes": "Attended the inauguration ceremony of President Luis Abinader;Trip end date somewhat unclear"
+  },
+  {
+    "colt_TripID": "3698-URY-SLV-45443",
+    "colt_LeaderID": "3698",
+    "LeaderFullName": "Luis Lacalle Pou",
+    "CountryVisited": "El Salvador",
+    "CityVisited": null,
+    "TripStartDate": "2024-05-31",
+    "TripDuration": "2",
+    "Notes": "Attended the presidential inauguration ceremony of President re-elect Nayib Bukele."
+  },
+  {
+    "colt_TripID": "3698-URY-PRY-44763",
+    "colt_LeaderID": "3698",
+    "LeaderFullName": "Luis Lacalle Pou",
+    "CountryVisited": "Paraguay",
+    "CityVisited": null,
+    "TripStartDate": "2022-07-21",
+    "TripDuration": "2",
+    "Notes": "Attended Mercosur Summit;Held bilateral meeting with President Alberto Fernandez;Central summit topic discussed was trade with China;Made post-summit visit to the Rural Association of Paraguay to meet with several Paraguayan business leaders in the agriculture sector"
+  },
+  {
+    "colt_TripID": "3698-URY-PRY-45392",
+    "colt_LeaderID": "3698",
+    "LeaderFullName": "Luis Lacalle Pou",
+    "CountryVisited": "Paraguay",
+    "CityVisited": null,
+    "TripStartDate": "2024-04-10",
+    "TripDuration": "2",
+    "Notes": "Met with President Santiago Pena to discuss bilateral relationship between Paraguay and Uruguay;met with Fédération internationale de football association (FIFA) President Gianni Infantino."
+  }
+]

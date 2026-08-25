@@ -1,0 +1,37 @@
+[
+  {
+    "LeaderID": null,
+    "LeaderFullName": "Rodrigo Paz",
+    "correcciones": [],
+    "hallazgos_nuevos": [],
+    "no_verificable": [],
+    "nota_resultado": "SIN VIAJES INTERNACIONALES EN EL RANGO 2025-11-08 a 2025-12-31. Se investigó activamente (cumbre regional de fin de año, primera visita de Estado, reuniones bilaterales, cumbres CELAC/Mercosur) y no se encontró ningún viaje internacional oficial de Rodrigo Paz como presidente de Bolivia en este lapso. Resultado válido de 'sin hallazgos'.",
+    "evidencia_revisada": [
+      {
+        "hecho": "Confirmación directa de la vocera presidencial (Carla Faval) el 30/12/2025: 'El presidente no tiene previsto dejar el país, ni realizó viajes al exterior desde la transmisión de mando a la fecha'. Esto cubre prácticamente todo el rango (8-nov al 30-dic-2025).",
+        "fuente": "https://boliviaverifica.bo/enganoso-noticia-de-viaje-de-paz-a-eeuu-no-es-actual/",
+        "justificacion": "Nota de verificación de datos (Bolivia Verifica, IFCN) publicada el 30-dic-2025 que desmiente un video viral que afirmaba que Paz había viajado a EE.UU.; aclara que ese viaje fue del 29-oct-2025, como presidente ELECTO (antes de la posesión del 8-nov-2025, fuera de alcance), y que desde la posesión no hubo ningún viaje al exterior."
+      },
+      {
+        "hecho": "67ª Cumbre del MERCOSUR, Foz do Iguaçu (Brasil), 20-dic-2025: Bolivia participó pero Rodrigo Paz NO asistió en persona. Lo representó el Canciller Fernando Aramayo, quien leyó un mensaje del presidente explicando que su ausencia respondió a la decisión de liderar desde el país el proceso de recuperación económica.",
+        "fuente": "https://cancilleria.gob.bo/mre/2025/12/20/23829/",
+        "justificacion": "Comunicado oficial de la Cancillería de Bolivia, fechado 20-dic-2025 en Foz do Iguazú, que confirma explícitamente la ausencia del presidente y la representación por el Canciller. Nota: existe una 68ª Cumbre del MERCOSUR posterior (jul-2026) a la que Paz sí asistió en persona, pero queda fuera de alcance (2026)."
+      },
+      {
+        "hecho": "Primer mes de gobierno (8-nov a 7-dic-2025): la cobertura periodística detallada de ese período describe únicamente recepción de delegaciones extranjeras EN Bolivia (EE.UU., Israel) y ningún viaje de Paz al exterior.",
+        "fuente": "https://www.infobae.com/america/america-latina/2025/12/07/tensiones-internas-cambios-en-politica-exterior-y-ajustes-economicos-postergados-asi-fue-el-primer-mes-de-gobierno-de-rodrigo-paz-en-bolivia/",
+        "justificacion": "Crónica de Infobae del 7-dic-2025 sobre el primer mes de gestión de Paz; menciona el viaje a EE.UU. como PRESIDENTE ELECTO (antes de la posesión, fuera de alcance) pero no reporta ningún viaje presidencial posterior a la asunción."
+      },
+      {
+        "hecho": "IV Cumbre CELAC-UE, Santa Marta (Colombia), 9-10 nov-2025 (un día después de la posesión de Paz, 8-nov-2025): solo asistieron 9 jefes de Estado/Gobierno de los 33 países de CELAC; no se encontró evidencia de que Bolivia/Paz haya asistido, y es coherente con la confirmación posterior de la vocera presidencial de que no hubo viajes al exterior tras la posesión.",
+        "fuente": "Search Query: Bolivia Rodrigo Paz cumbre CELAC-UE Santa Marta noviembre 2025 asistió",
+        "justificacion": "Búsqueda específica no arrojó ninguna mención de participación boliviana o de Paz en esa cumbre; dado que fue apenas 1 día después de su asunción y la baja asistencia general (9 de 33 países), se descarta como viaje verificable."
+      },
+      {
+        "hecho": "No hubo Cumbre de las Américas en dic-2025 (fue pospuesta a 2026) ni cumbre CELAC (la única cumbre CELAC de 2025 fue en abril, Honduras, antes de la asunción de Paz).",
+        "fuente": "Search Query: CELAC cumbre diciembre 2025 fecha sede",
+        "justificacion": "Se descartó la hipótesis de otras cumbres regionales de fin de año en el rango de fechas relevante."
+      }
+    ]
+  }
+]

@@ -1597,3 +1597,183 @@ raras (sobre un "sub-jefe de gobierno", ej. vicepresidente o canciller,
 viajando junto al presidente o reuniendose con su contraparte), fuera del
 foco actual del proyecto salvo que el usuario pida completarlas tambien.
 ================================================================================
+
+================================================================================
+## PARAGUAY — VERIFICACION COLT COMPLETA (2026-08-24)
+================================================================================
+Campaña completa (7 workpacks, 336 items). Detalle y bugs de pipeline corregidos
+en bitacora.txt entrada [2026-08-24]. Log linea por linea:
+05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_paraguay_2026-08-24.csv
+
+[PENDIENTE-COMPLETITUD] Las 130 filas nuevas insertadas desde COLT (Trip_ID
+198-327, Journey_ID "COLT-<TripID>") tienen Visit_Category y los 7 campos de
+micro-conducta ya completos (derivados mecanicamente de COLT), pero:
+  - 31 de esas filas tienen Visit_Subtype con el fallback generico "Working
+    Visit" (bilaterales sin palabra clave de asuncion/funeral/medico/visita de
+    Estado en el texto disponible) -revisar si corresponde un subtipo mas
+    especifico.
+  - 39 tienen Tema_Foro con el fallback generico "Cooperación Política
+    General" (multilaterales cuyo NameMultilatEvent no matcheo ninguna
+    palabra clave de comercio/salud/seguridad/clima) -revisar si corresponde
+    un tema mas especifico.
+  - Counterpart_Event se tomo directo de HostHOGSName/NameMultilatEvent de
+    COLT (o de Notes si no habia ninguno de los dos); Counterpart_Type se
+    default a "Jefe de Estado/Gobierno" en todas las filas Bilateral (caso
+    por defecto documentado en schema.py) -no se investigo caso por caso si
+    alguna corresponde a "Ex-mandatario/Opositor" u otra categoria especial.
+  Ninguno de estos defaults es un dato inventado (Visit_Category, MetHostHOGS,
+  etc. si vienen de COLT), pero los campos narrativos/taxonomicos mas finos
+  quedan con la clasificacion menos especifica posible cuando no hubo
+  evidencia clara -no bloquea el uso de la base, pero conviene una pasada de
+  revision antes de un analisis que dependa fuerte de Visit_Subtype/Tema_Foro
+  para Paraguay.
+
+[No_verificable] 126 items (discrepancias + colt_unico) sin evidencia
+concluyente en ningun sentido. Lista completa de TripID en el log CSV citado
+arriba (columna veredicto_o_decision = "No_verificable"). Incluye 3 giras con
+tramos largos y confianza baja en fechas exactas (Lugo Asia 2012, Abdo
+Benitez EAU-Taiwan feb-2023, Peña gira mayo-2025 Singapur-Japon) que podrian
+tener tramos adicionales no capturados -ver notas de los subagentes en el
+propio log-.
+
+[HALLAZGOS - posibles duplicados internos de COLT, NO tocados por diseño]
+  - TripID 2386-PRY-BRA-40301 / 2386-PRY-ARG-40302 (Lugo, 3-may-2010): misma
+    fecha exacta, probable error de pais en COLT.
+  - TripID 3481-PRY-ITA-44943 / evento ya cubierto por Trip 136 (Abdo
+    Benitez, Roma/Vaticano ene-2023).
+  - TripID 4034-PRY-ITA-45256/45257 (Peña, Roma-Vaticano-Dubai nov-2023);
+    4034-PRY-VAT-45795/ITA-45794 (misa entronizacion Leon XIV); 4034-PRY-
+    ITA-45942/45944 (visita Italia oct-2025, llegada vs. reunion Mattarella)
+    -mismo viaje partido en dos filas de COLT-.
+  - TripID 844-PRY-BRA-34725 / 844-PRY-CHE-34725 (Wasmosy, mismo numero de
+    TripID repetido dos veces con paises distintos -posible error de carga
+    de COLT-, duracion de 32 dias en la fila de Brasil casi seguro erronea-.
+
+[CONFIRMAR] Hallazgo del subagente del workpack 6 (Peña): el Ministerio de
+RR.EE. de Singapur confirma visita de Estado 23-24 mayo 2025 (no 20-22 como
+figura en Trip_ID 180); sugiere que falta un tramo de Japon (19-22 mayo,
+Osaka/Hiroshima/Tokio) en la misma gira -no agregado, requiere decision-.
+También: Trip_ID 184 (Reino Unido, fechado 21-24 jul 2025 en nuestra base)
+tiene evidencia de gov.uk/prensa de que la visita real fue 15-19 jul 2025 -no
+corregido automaticamente por no ser parte de las discrepancias matcheadas
+por el triage (el item colt_unico GBR-45853 se descarto para no duplicar),
+requiere correccion manual de Trip_ID 184-.
+================================================================================
+
+## QC ARCHIVO MADRE — colt_validar_madre.py (2026-08-24, rediseño del proyecto)
+================================================================================
+Al armar el pipeline nuevo (ver bitacora.txt "REDISEÑO — SCRIPTS NUEVOS"), se corrio
+colt_validar_madre.py por primera vez sobre TODA la hoja Datos_COLT_Sudamerica (5351
+filas, los 12 paises). Los problemas de formato de fecha y LeaderID faltante ya se
+corrigieron (ver bitacora). Quedan 16 hallazgos que SI requieren investigacion real:
+
+[FECHAS INVERTIDAS - 6 filas, requieren revisar la fuente original de COLT]
+  - 3169-ARG-COL-42640 (Argentina)
+  - 2652-BRA-VEN-41340 (Brasil)
+  - 1516-CHL-CHN-37185 (Chile)
+  - 1516-CHL-ECU-37462 (Chile)
+  - 1395-PRY-ARG-37440 (Paraguay)
+  - 1849-PRY-ARG-38659 (Paraguay)
+  En estas 6 filas TripEndDate es anterior a TripStartDate. Puede ser un error de
+  carga de COLT (fechas de inicio/fin invertidas) o una fila con datos parciales
+  mal combinados. No se toco -requiere volver a la fuente original de COLT
+  (SourceLink) o investigacion propia para decidir cual fecha esta mal.
+
+[FECHA DE INICIO DESCONOCIDA - 7 filas PELATAM de Paraguay]
+  PELATAM-PRY-38, 39, 52, 66, 67, 68, 69 -viajes migrados hoy desde el modulo propio
+  de Paraguay (nuestro_unico), donde ya se sabia que la fecha exacta no estaba
+  determinada (solo año o año+mes aproximado, ver Notes de cada fila para el detalle).
+  Quedan con TripStartDate en blanco -no se inventa una fecha-. Si en algun momento se
+  progresa en investigar la fecha exacta, completar ahi mismo.
+
+[LeaderID FALTANTE - Jose Antonio Kast, Chile, filas PELATAM-CHL-186/187/188]
+  Kast es presidente de Chile desde 2026 pero todavia no tiene LeaderID asignado en
+  el dataset de COLT (dataset academico, no necesariamente actualizado en tiempo
+  real). Se completaron a mano LeaderCountryOrIGO/ISO/Region/Subregion/Role/Title/
+  Surname (inferibles con certeza), pero LeaderID especifico queda vacio hasta que
+  COLT lo asigne o el proyecto decida un criterio propio para mandatarios nuevos sin
+  cobertura de COLT (relevante tambien para mandatarios que asuman en otros paises
+  de aca en adelante).
+================================================================================
+
+## URUGUAY — VERIFICACION COLT COMPLETA (2026-08-24)
+================================================================================
+Campaña completa (6 workpacks, 317 items). Detalle y bugs de pipeline corregidos
+en bitacora.txt entrada [2026-08-24] "VERIFICACION COLT — URUGUAY". Log linea
+por linea: 05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_uruguay_2026-08-24.csv
+
+[PENDIENTE-COMPLETITUD] Las 111 filas nuevas insertadas desde COLT (Trip_ID
+182-292, Journey_ID "COLT-<TripID>") tienen Visit_Category, Destination_Region
+y los 7 campos de micro-conducta ya completos (derivados mecanicamente de COLT
+por colt_aplicar_verificacion.py, ver bitacora), pero:
+  - 56 de esas filas tienen Visit_Subtype con el fallback generico "Working
+    Visit" -revisar si corresponde un subtipo mas especifico.
+  - 43 tienen Tema_Foro con el fallback generico "Cooperación Política
+    General" -revisar si corresponde un tema mas especifico.
+  - Counterpart_Type se default a "Jefe de Estado/Gobierno" en todas las
+    filas Bilateral (caso por defecto documentado en schema.py) -no se
+    investigo caso por caso-.
+  - Trip_ID 292 (Orsi, colt_TripID 4217-URY-XXX-46018): COLT registra
+    CountryVisited="Unknown" para un viaje privado dic-2025/ene-2026; se
+    corrigio a mano a Brazil/South America en base al hallazgo de prensa del
+    subagente (ver justificacion en resultados_workpack_06.json) -unico caso
+    de esta campaña que no se pudo derivar mecanicamente-.
+
+[PENDIENTE-ESTRUCTURAL] Journey_ID de las filas insertadas via colt_unico
+sigue el patron "COLT-<colt_TripID>", uno por tramo/pais. Cuando ese tramo es
+en realidad parte de una gira multi-pais que YA tiene tramos cargados con el
+esquema propio de Journey_ID (ej. "URU-TV1-J0NN"), el tramo nuevo queda con un
+Journey_ID DISTINTO al resto de la gira -no se linkean automaticamente-, lo
+que hace que integrate.py cuente esa gira como mas de un "viaje fisico" en vez
+de uno solo. Detectado en 4 giras de Tabare Vazquez reconstruidas por el
+workpack 3 a partir de items colt_unico dispersos:
+  - Sep-2007: Belgica (COLT-2029-URY-BEL-39340, Trip_ID 225) -> Espania
+    (Trip_ID 37, Journey_ID URU-TV1-J011, ya en base) -> Portugal
+    (COLT-2029-URY-PRT-39345, Trip_ID 257).
+  - Nov-2007: Cumbre Iberoamericana Chile (Trip_ID 38, Journey_ID
+    URU-TV1-J012) -> Nueva Zelanda (Trip_ID 43, Journey_ID URU-TV1-J014,
+    marcada No-verificable, fuente debil) -> Malasia
+    (COLT-2029-URY-MYS-39400, Trip_ID 245) -> Vietnam
+    (COLT-2029-URY-VNM-39404, Trip_ID 268).
+  - Nov-Dic-2016: Espania (colt_unico ESP-42698, agregar) -> Vaticano
+    (colt_unico VAT-42705, agregar) -> Paris/Cumbre OGP (colt_unico
+    FRA-42711, agregar) -tres tramos, los tres con Journey_ID COLT-<id>
+    propio, ninguno compartido entre si-.
+  - Feb-2017: Alemania (colt_unico DEU-42770) -> Finlandia (colt_unico
+    FIN-42779) -> Rusia (colt_unico RUS-42781) -misma situacion, tres
+    Journey_ID independientes para una sola gira-.
+  Los datos de cada tramo estan correctos y sourced individualmente; lo que
+  falta es una pasada manual de unificacion de Journey_ID para que
+  "viajes fisicos" en integrate.py refleje la gira real como un solo viaje.
+  No se hizo en esta campaña para no reasignar Trip_ID/Journey_ID sin
+  confirmacion explicita del criterio a seguir (ej. adoptar el Journey_ID
+  existente de la gira vs. crear uno nuevo que agrupe todos los tramos).
+
+[No_verificable] 80 items (52 colt_unico + 28 discrepancias) sin evidencia
+concluyente en ningun sentido. Lista completa en el log CSV citado arriba
+(columna veredicto_o_decision = "No_verificable"). Incluye el tramo
+colt_unico NZL-39397 (posible duplicado/conflicto de fecha con el propio
+Trip_ID 43, ya cargado como No-verificable con fuente debil -ver arriba-) y
+el tramo colt_unico CHL-38665 (nov-2005, sin evidencia que confirme visita
+separada a Chile distinta de la Cumbre de las Americas de Mar del Plata).
+
+[HALLAZGOS - posibles duplicados internos de COLT, descartados sin agregar]
+  - colt_TripID 2029-URY-FRA-38649 (Paris, 24-oct-2005): mismo viaje que
+    Trip_ID 29 (Paris, 20-22-oct-2005, ultimo tramo de la misma gira europea).
+  - colt_TripID 2029-URY-USA-38836 (Washington, 29-abr al 4-may-2006): mismo
+    viaje que Trip_ID 32 (Washington, 3-4-may-2006, firma de acuerdo
+    comercial con Bush).
+  - colt_TripID 2029-URY-USA-40077 (Nueva York, 21-sep-2009, discurso ONU):
+    probable duplicado interno de COLT del mismo TripID
+    2029-URY-USA-40067 (tambien Nueva York, tambien discurso ONU).
+  - colt_TripID 2552-URY-ESP-41229 (nov-2012): contradicho por evidencia
+    positiva -Mujica ANULO su viaje a Espania/Cumbre Iberoamericana de Cadiz
+    por un coagulo de sangre-.
+  - colt_TripID 2552-URY-ESP-41427 (may-jun-2013): mismo tramo espaniol de
+    la gira ya cargada como Trip_ID 73 (Madrid, 28-may al 6-jun-2013,
+    evaluada como discrepancia bajo colt_TripID ESP-41423); COLT parece
+    haber partido esta misma gira en dos filas.
+  - colt_TripID 3698-URY-SLV-45443 (asuncion Bukele, 1-jun-2024): Lacalle
+    Pou NO viajo personalmente, Uruguay estuvo representado por el
+    vicecanciller Nicolas Albertoni.
+================================================================================

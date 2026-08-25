@@ -1,0 +1,640 @@
+{
+  "resultados": [
+    {
+      "colt_TripID": "2552-URY-ARG-41088",
+      "our_Trip_ID": "66",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2012-06-28",
+      "fuente": "https://www.sitioandino.com.ar/politica/cuando-mujica-visito-mendoza-cumbre-presidentes-distincion-academica-y-un-cuadro-al-vino-n5699269",
+      "justificacion": "La fuente confirma que Mujica visitó Mendoza entre el 28 y 29 de junio de 2012 para la 43ª Cumbre del Mercosur (sesión de jefes de Estado el 29); esto respalda una llegada el 28, un día antes de la sesión formal, coincidiendo con COLT."
+    },
+    {
+      "colt_TripID": "2552-URY-ARG-41088",
+      "our_Trip_ID": "66",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://www.sitioandino.com.ar/politica/cuando-mujica-visito-mendoza-cumbre-presidentes-distincion-academica-y-un-cuadro-al-vino-n5699269",
+      "justificacion": "Consistente con la llegada el 28-jun y la sesión/partida el 29-jun (2 días), según la misma fuente."
+    },
+    {
+      "colt_TripID": "2552-URY-ARG-41990",
+      "our_Trip_ID": "81",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2014-12-16",
+      "fuente": "https://parlamentomercosur.org/innovaportal/v/9321/1/parlasur/finalizo-la-47%C2%AA-cumbre-del-mercosur-con-importantes-avances.html",
+      "justificacion": "Fuentes confirman que la XLVII Reunión del CMC se realizó el 16 de diciembre de 2014 en Paraná, coincidiendo con nuestra fecha de inicio."
+    },
+    {
+      "colt_TripID": "2552-URY-ARG-41990",
+      "our_Trip_ID": "81",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://parlamentomercosur.org/innovaportal/v/9321/1/parlasur/finalizo-la-47%C2%AA-cumbre-del-mercosur-con-importantes-avances.html",
+      "justificacion": "Consistente con la reunión del 16-dic y actividades adicionales el 17-dic (discurso de despedida de Mujica), lo que da 2 días de estadía."
+    },
+    {
+      "colt_TripID": "2552-URY-BEL-40835",
+      "our_Trip_ID": "62",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "El Observador, 14-oct-2011 (ya citada en nuestra base)",
+      "justificacion": "La fuente confirma la fecha de inicio (19-oct, última etapa de la gira europea) pero no precisa cuántos días duró la estadía en Bruselas antes del regreso a Uruguay; no se halló fuente adicional que dirima 2 vs 3 días."
+    },
+    {
+      "colt_TripID": "2552-URY-BRA-40544",
+      "our_Trip_ID": "56",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "Nuestra propia base (Trip_Objective del Trip_ID 56: 'reunión bilateral el 2-ene')",
+      "justificacion": "El propio campo Trip_Objective de nuestra fila indica una reunión bilateral el 2 de enero, un día después de la asunción (1-ene), lo que implica una estadía de 2 días y respalda la duración de COLT en vez de la nuestra (1 día)."
+    },
+    {
+      "colt_TripID": "2552-URY-BRA-41081",
+      "our_Trip_ID": "67",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2012-06-20",
+      "fuente": "Fechas oficiales de la Conferencia ONU sobre Desarrollo Sostenible Río+20 (20-22 junio 2012); gub.uy (discurso de Mujica, 20-jun)",
+      "justificacion": "Río+20 se realizó oficialmente del 20 al 22 de junio de 2012; el discurso célebre de Mujica está fechado el 20-jun, consistente con nuestra fecha de inicio."
+    },
+    {
+      "colt_TripID": "2552-URY-BRA-41081",
+      "our_Trip_ID": "67",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "Fechas oficiales de la Conferencia ONU sobre Desarrollo Sostenible Río+20 (20-22 junio 2012)",
+      "justificacion": "La duración de 3 días (20 al 22 de junio) coincide con las fechas oficiales de la cumbre Río+20."
+    },
+    {
+      "colt_TripID": "2552-URY-BRA-41121",
+      "our_Trip_ID": "68",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2012-07-31",
+      "fuente": "https://www.diariodecuyo.com.ar/politica/Cumbre-en-Brasilia-de-los-presidentes-del-Mercosur-20120731-0025.html ; cancilleria.gob.ar",
+      "justificacion": "Múltiples fuentes de prensa fechadas el 31-jul-2012 documentan la cumbre extraordinaria en el Palacio de Planalto (Brasilia) con Mujica presente para el ingreso de Venezuela; no se halló evidencia de una llegada el 30-jul."
+    },
+    {
+      "colt_TripID": "2552-URY-BRA-41121",
+      "our_Trip_ID": "68",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 1,
+      "fuente": "https://www.diariodecuyo.com.ar/politica/Cumbre-en-Brasilia-de-los-presidentes-del-Mercosur-20120731-0025.html",
+      "justificacion": "Las fuentes describen la cumbre y la ceremonia de ingreso de Venezuela como un evento de un solo día (31-jul); no hay evidencia de una segunda jornada (30-jul)."
+    },
+    {
+      "colt_TripID": "2552-URY-BRA-41835",
+      "our_Trip_ID": "166",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2014-07-16",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/videos/entrevista-mujica-tras-reunion-del-brics-brasilia",
+      "justificacion": "Fuente oficial de Presidencia (gub.uy) fecha la reunión ampliada BRICS-UNASUR en Brasilia y la intervención de Mujica el 16-jul-2014, día en que UNASUR se trasladó a Brasilia tras la Cumbre BRICS de Fortaleza."
+    },
+    {
+      "colt_TripID": "2552-URY-BRA-41835",
+      "our_Trip_ID": "166",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 1,
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/videos/entrevista-mujica-tras-reunion-del-brics-brasilia",
+      "justificacion": "Consistente con una visita de un solo día (16-jul) a Brasilia para la sesión ampliada; no hay evidencia de pernocte adicional."
+    },
+    {
+      "colt_TripID": "2552-URY-BRA-41950",
+      "our_Trip_ID": "178",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2014-11-06",
+      "fuente": "Mensaje oficial de Presidencia a la Comisión Permanente del Parlamento uruguayo, gub.uy/presidencia/politicas-y-gestion/presidencia-06112014",
+      "justificacion": "Fuente primaria oficial (mensaje comunicando la ausencia del país) confirma explícitamente la fecha 6 de noviembre de 2014 para la audiencia con Rousseff en Brasilia."
+    },
+    {
+      "colt_TripID": "2552-URY-CHL-41299",
+      "our_Trip_ID": "70",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2013-01-26",
+      "fuente": "https://www.elobservador.com.uy/nota/mujica-viaja-a-chile-para-participar-de-dos-cumbres--201312316240 ; fechas oficiales I Cumbre CELAC-UE (26-27 ene 2013)",
+      "justificacion": "La I Cumbre CELAC-UE comenzó el 26 de enero de 2013 en Santiago, coincidiendo con nuestra fecha de inicio."
+    },
+    {
+      "colt_TripID": "2552-URY-CHL-41708",
+      "our_Trip_ID": "77",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2014-03-11",
+      "fuente": "Fecha oficial de la segunda asunción de Michelle Bachelet (11-mar-2014)",
+      "justificacion": "La ceremonia de asunción de Bachelet fue el 11 de marzo de 2014 (hecho histórico bien documentado); nuestra fecha de inicio coincide con el día de la ceremonia."
+    },
+    {
+      "colt_TripID": "2552-URY-CHL-41708",
+      "our_Trip_ID": "77",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/presidente-mujica-cerro-su-visita-chile-seminario-junto-michelle-bachelet",
+      "justificacion": "Consistente con la ceremonia el 11-mar y el seminario CEPAL junto a Bachelet al día siguiente (12-mar), según nuestra propia nota ya sourced."
+    },
+    {
+      "colt_TripID": "2552-URY-CHN-41419",
+      "our_Trip_ID": "72",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2013-05-24",
+      "fuente": "https://spanish.news.cn/20250514/c4da987d2ced4e9e868eb3021694e847/c.html (Xinhua); gub.uy",
+      "justificacion": "Fuente confirma explícitamente que la visita de Estado a China 'comenzó el 24 de mayo y se extendió por 5 días', coincidiendo exactamente con nuestra fecha de inicio."
+    },
+    {
+      "colt_TripID": "2552-URY-CHN-41419",
+      "our_Trip_ID": "72",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 5,
+      "fuente": "https://spanish.news.cn/20250514/c4da987d2ced4e9e868eb3021694e847/c.html (Xinhua)",
+      "justificacion": "La misma fuente confirma una duración de 5 días para la visita de Estado."
+    },
+    {
+      "colt_TripID": "2552-URY-COL-41013",
+      "our_Trip_ID": "65",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2012-04-13",
+      "fuente": "https://www.lr21.com.uy/comunidad/1218997-mujica-cumbres-internacionales-presidencia-uruguay (ya citada en nuestra base)",
+      "justificacion": "Fuente confirma que Mujica coincidió con Obama en Cartagena el 13 de abril de 2012, respaldando nuestra fecha de inicio. NOTA: existe una tensión interna en nuestra propia base con el Trip_ID 156 (Caracas, 13-abr, 'antes de seguir a Colombia'), que sugeriría una llegada a Cartagena recién el 14; no se resuelve aquí, se deja constancia para revisión futura."
+    },
+    {
+      "colt_TripID": "2552-URY-COL-41013",
+      "our_Trip_ID": "65",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "Fechas oficiales de la VI Cumbre de las Américas (cierre formal 15-abr-2012)",
+      "justificacion": "Con presencia confirmada desde el 13-abr y cierre formal de la cumbre el 15-abr-2012, una duración de 3 días es consistente."
+    },
+    {
+      "colt_TripID": "2552-URY-CUB-41478",
+      "our_Trip_ID": "175",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2013-07-24",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/agenda-visita-del-presidente-jose-mujica-republica-cuba (ya citada, con horario exacto de llegada)",
+      "justificacion": "Fuente oficial primaria con horario exacto de llegada (24-jul, 11:23hs) confirma el 24 de julio de 2013 como fecha de inicio."
+    },
+    {
+      "colt_TripID": "2552-URY-CUB-41667",
+      "our_Trip_ID": "76",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "Fechas oficiales de la II Cumbre CELAC, La Habana, 28-29 enero 2014",
+      "justificacion": "La II Cumbre de la CELAC se realizó los días 28 y 29 de enero de 2014, consistente con nuestra duración de 2 días."
+    },
+    {
+      "colt_TripID": "2552-URY-ECU-41977",
+      "our_Trip_ID": "174",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "gub.uy (llegada Guayaquil 4-dic) y presidencia.gob.ec (inauguración sede UNASUR Quito, 5-dic-2014), ya citadas en nuestra base",
+      "justificacion": "Fuentes oficiales uruguaya y ecuatoriana confirman actividades en dos días distintos (4-dic en Guayaquil, 5-dic en Quito), respaldando la duración de 2 días."
+    },
+    {
+      "colt_TripID": "2552-URY-FIN-41898",
+      "our_Trip_ID": "177",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2014-09-15",
+      "fuente": "gub.uy (17-set-2014) + prensa (SELA, Infobae), ya citadas en nuestra base",
+      "justificacion": "Nuestra propia nota cita fuentes de prensa que describen explícitamente una 'visita oficial de tres días' a Finlandia, consistente con inicio 15-sep."
+    },
+    {
+      "colt_TripID": "2552-URY-FIN-41898",
+      "our_Trip_ID": "177",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "gub.uy (17-set-2014) + prensa (SELA, Infobae), ya citadas en nuestra base",
+      "justificacion": "Las mismas fuentes de prensa describen explícitamente una visita de tres días a Finlandia."
+    },
+    {
+      "colt_TripID": "2552-URY-MEX-40862",
+      "our_Trip_ID": "64",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "Sin fuente adicional hallada",
+      "justificacion": "La nota existente en nuestra base (fiabilidad Medium) no especifica fechas exactas de llegada/salida más allá de mencionar la recepción por Calderón; no se halló fuente que confirme 5 vs 3 días."
+    },
+    {
+      "colt_TripID": "2552-URY-MEX-41979",
+      "our_Trip_ID": "82",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2014-12-08",
+      "fuente": "politica.expansion.mx (ya citada); fechas oficiales XXIV Cumbre Iberoamericana, Veracruz, 8-9 dic 2014",
+      "justificacion": "La XXIV Cumbre Iberoamericana se realizó el 8 y 9 de diciembre de 2014 en Veracruz; fuente independiente confirma la participación de Mujica esos días."
+    },
+    {
+      "colt_TripID": "2552-URY-MEX-41979",
+      "our_Trip_ID": "82",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "Fechas oficiales XXIV Cumbre Iberoamericana, Veracruz, 8-9 dic 2014",
+      "justificacion": "Consistente con las fechas oficiales de la cumbre (8-9 dic)."
+    },
+    {
+      "colt_TripID": "2552-URY-NOR-40829",
+      "our_Trip_ID": "60",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "El Observador, 14-oct-2011 (ya citada en nuestra base)",
+      "justificacion": "Fuente cita textualmente que la gira 'prosiguió ayer [13-oct] y este viernes [14-oct] en Noruega', confirmando una estadía de 2 días."
+    },
+    {
+      "colt_TripID": "2552-URY-PRY-40722",
+      "our_Trip_ID": "57",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": null,
+      "fuente": "Comunicado Conjunto XLI Cumbre Mercosur (Cancillería Argentina, ya citado en nuestra base)",
+      "justificacion": "La fuente confirma que la cumbre y los actos del bicentenario se desarrollaron entre el 28 y 29 de junio de 2011 con Mujica presente, pero no permite determinar con certeza si su llegada personal fue el 28 o el 29; no se halló fuente adicional que lo precise."
+    },
+    {
+      "colt_TripID": "2552-URY-PRY-41838",
+      "our_Trip_ID": "79",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "Sin fuente adicional hallada",
+      "justificacion": "La nota existente no especifica fechas exactas de llegada/salida de la visita de Estado a Cartes; no se halló fuente que confirme 1 vs 2 días."
+    },
+    {
+      "colt_TripID": "2552-URY-PER-40752",
+      "our_Trip_ID": "58",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": null,
+      "fuente": "Sin fuente adicional hallada; asunción de Humala confirmada 28-jul-2011",
+      "justificacion": "La asunción de Ollanta Humala fue el 28 de julio de 2011; es plausible tanto una llegada el día previo (27-jul, patrón habitual) como el mismo día (28-jul, versión COLT), y no se halló fuente que confirme la fecha exacta de arribo de Mujica."
+    },
+    {
+      "colt_TripID": "2552-URY-PER-40752",
+      "our_Trip_ID": "58",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "Sin fuente adicional hallada",
+      "justificacion": "Consecuencia directa de la incertidumbre sobre la fecha de llegada; no se puede determinar con certeza si la estadía fue de 1 o 2 días."
+    },
+    {
+      "colt_TripID": "2552-URY-ESP-41423",
+      "our_Trip_ID": "73",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2013-05-28",
+      "fuente": "subrayado.com.uy (ya citada, QA-R4 en nuestra base); encadenamiento con gira a China (24-28 may, ver CHN-41419)",
+      "justificacion": "El tramo español comenzó inmediatamente después de la visita de Estado a China (que terminó el 28-may); la fuente ya citada confirma explícitamente el regreso a Montevideo el 6-jun, consistente con un inicio el 28-may para una gira de 10 días."
+    },
+    {
+      "colt_TripID": "2552-URY-ESP-41423",
+      "our_Trip_ID": "73",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 10,
+      "fuente": "subrayado.com.uy (ya citada, QA-R4 en nuestra base)",
+      "justificacion": "La fuente (5-jun-2013) indica explícitamente que Mujica regresaría a Montevideo 'este jueves' (6-jun-2013), lo que ya motivó una corrección QA previa de 6 a 10 días; esto es incompatible con la duración de 3 días de COLT."
+    },
+    {
+      "colt_TripID": "2552-URY-SWE-40827",
+      "our_Trip_ID": "59",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2011-10-12",
+      "fuente": "El Observador, 14-oct-2011 (ya citada en nuestra base)",
+      "justificacion": "Fuente cita textualmente que la gira europea comenzó 'el pasado miércoles [12-oct] en Suecia', confirmando la fecha de inicio."
+    },
+    {
+      "colt_TripID": "2552-URY-SWE-40827",
+      "our_Trip_ID": "59",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 1,
+      "fuente": "El Observador, 14-oct-2011 (ya citada en nuestra base)",
+      "justificacion": "La misma fuente indica que la gira 'prosiguió ayer [13-oct] ... en Noruega', lo que implica que la estadía en Suecia se limitó al miércoles 12-oct (1 día) antes de continuar a Noruega el 13-oct."
+    },
+    {
+      "colt_TripID": "2552-URY-USA-41541",
+      "our_Trip_ID": "75",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "swissinfo.ch (ya citada en nuestra base)",
+      "justificacion": "La fuente confirma la fecha del discurso ante la AGNU (24-sep-2013) pero no aclara si la estadía en Nueva York se extendió varios días más (patrón común en otras giras a la ONU dentro de esta misma base); no se halló fuente que confirme 1 vs 6 días."
+    },
+    {
+      "colt_TripID": "2552-URY-USA-41770",
+      "our_Trip_ID": "78",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 5,
+      "fuente": "Parlamento uruguayo, venia sesión 6-may-2014 (ya citada en nuestra base)",
+      "justificacion": "La agenda documentada (reunión con Obama 12-may, discursos en American University, BID y OEA) es consistente con una estadía de 5 días (11 al 15 de mayo)."
+    },
+    {
+      "colt_TripID": "2552-URY-VEN-40569",
+      "our_Trip_ID": "165",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "El Colombiano, 27-ene-2011 (ya citada en nuestra base)",
+      "justificacion": "Fuente confirma llegada a Caracas la noche del 26-ene y recepción por Chávez el 27-ene, lo que abarca 2 días."
+    },
+    {
+      "colt_TripID": "2552-URY-VEN-40879",
+      "our_Trip_ID": "168",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "Fechas oficiales de la Cumbre Fundacional de la CELAC, Caracas, 2-3 diciembre 2011",
+      "justificacion": "La cumbre fundacional de la CELAC se realizó los días 2 y 3 de diciembre de 2011, consistente con nuestra duración de 2 días."
+    },
+    {
+      "colt_TripID": "2552-URY-VEN-41339",
+      "our_Trip_ID": "71",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "Cronología pública del funeral de Estado de Hugo Chávez (fallecido 5-mar, funeral de Estado 8-mar-2013); CNN en Español (ya citada)",
+      "justificacion": "Los actos fúnebres de Chávez se extendieron entre el 6 y el 8 de marzo de 2013 (velorio público y funeral de Estado); nuestra fuente ya confirma la llegada de Mujica el 6-mar, consistente con una estadía de 3 días."
+    },
+    {
+      "colt_TripID": "2552-URY-VEN-41848",
+      "our_Trip_ID": "80",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": null,
+      "fuente": "albaciudad.org (ya citada en nuestra base)",
+      "justificacion": "No se halló fuente independiente que precise si la XLVI Cumbre del Mercosur en Caracas (jul-2014) comenzó el 28 o el 29 de julio; la fuente ya citada no especifica fecha exacta más allá de 'julio 2014'."
+    },
+    {
+      "colt_TripID": "2552-URY-VEN-41848",
+      "our_Trip_ID": "80",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "albaciudad.org (ya citada en nuestra base)",
+      "justificacion": "Consecuencia de la misma incertidumbre sobre la fecha de inicio; no se pudo determinar con certeza 1 vs 2 días."
+    },
+    {
+      "colt_TripID": "2552-URY-ARG-40296",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Búsqueda web sin resultado concluyente",
+      "justificacion": "No se halló cobertura de prensa específica de una conferencia de prensa conjunta Mujica-Fernández el 28-abr-2010; se requiere revisión en archivos de prensa de la época para confirmar o descartar."
+    },
+    {
+      "colt_TripID": "2552-URY-ARG-40302",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://cancilleria.gob.ar/es/actualidad/comunicados/unasur-declaracion-final-de-los-presidentes-luego-de-la-reunion-en-los",
+      "justificacion": "Confirmado: reunión extraordinaria de UNASUR en Los Cardales (Buenos Aires) el 4-may-2010, con los 12 mandatarios de UNASUR incluyendo a Mujica, donde se juramentó a Néstor Kirchner como primer Secretario General. Viaje real no cargado en nuestra base."
+    },
+    {
+      "colt_TripID": "2552-URY-ARG-40323",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.pagina12.com.ar/diario/elpais/1-146308-2010-05-25.html",
+      "justificacion": "Confirmado: Mujica asistió a los festejos del Bicentenario argentino en Buenos Aires el 25-may-2010, incluyendo la inauguración de la Galería de los Patriotas Latinoamericanos en la Casa Rosada, coincidiendo con la nota de COLT."
+    },
+    {
+      "colt_TripID": "2552-URY-ARG-40387",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Búsqueda web sin resultado concluyente",
+      "justificacion": "No se halló fuente de prensa que confirme específicamente una firma de comunicado conjunto Mujica-Fernández el 28-jul-2010; se requiere más investigación en archivos de prensa de la época."
+    },
+    {
+      "colt_TripID": "2552-URY-ARG-40392",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Búsqueda web sin resultado concluyente",
+      "justificacion": "No se halló confirmación de un viaje de 2 días a Argentina el 2-ago-2010 (nótese que existe un viaje similar ya cargado en nuestra base para el 2-ago-2011, Trip_ID 158, un año distinto); podría tratarse de un evento real de 2010 no verificado o de una posible confusión de año en COLT."
+    },
+    {
+      "colt_TripID": "2552-URY-ARG-40452",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Búsqueda web sin resultado concluyente",
+      "justificacion": "No se halló fuente que confirme un viaje a Argentina el 1-oct-2010; el propio COLT admite fecha incierta ('date of departure and return unclear')."
+    },
+    {
+      "colt_TripID": "2552-URY-ARG-40515",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://segib.org/es/cumbre/xx-cumbre-iberoamericana/ ; https://www.lacapitalmdp.com/el-paso-de-pepe-mujica-por-la-cumbre-iberoamericana-en-mar-del-plata/",
+      "justificacion": "Confirmado: XX Cumbre Iberoamericana en Mar del Plata, 3-4 diciembre 2010, con el lema exacto citado por COLT ('educación para la inclusión social'); Mujica participó y este viaje no está cargado en nuestra base."
+    },
+    {
+      "colt_TripID": "2552-URY-ARG-40599",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.casarosada.gob.ar/informacion/archivo/23092-blank-40824974",
+      "justificacion": "Confirmado con fecha exacta: inauguración de la Casa Patria Grande 'Presidente Néstor Kirchner' el 25-feb-2011 en Buenos Aires, con presencia de Mujica junto a Cristina Fernández y Fernando Lugo."
+    },
+    {
+      "colt_TripID": "2552-URY-ARG-41200",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://unlp.edu.ar/institucional/unlp/historia/honoris_causa/doctor_honoris_causa_jose_mujica_18_oct_2012-6533-11533/",
+      "justificacion": "Confirmado con fecha exacta por fuente institucional oficial: ceremonia de Doctor Honoris Causa a Mujica en la Universidad Nacional de La Plata el 18-oct-2012."
+    },
+    {
+      "colt_TripID": "2552-URY-ARG-41546",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Búsqueda web sin resultado concluyente",
+      "justificacion": "No se halló cobertura de prensa sobre la inauguración de un ferry Argentina-Uruguay con presencia de Mujica en sep-2013; podría tratarse de otro tipo de cruce fluvial o evento no identificado en la búsqueda."
+    },
+    {
+      "colt_TripID": "2552-URY-BOL-41459",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "http://www.cubadebate.cu/noticias/2013/07/04/presidentes-latinoamericanos-condenan-afrenta-europea-contra-evo-morales/",
+      "justificacion": "Confirmado: reunión de UNASUR en Cochabamba el 4-jul-2013 en respaldo a Evo Morales tras el incidente con su avión presidencial (caso Snowden), con la presencia explícita de José Mujica entre los 6 presidentes citados."
+    },
+    {
+      "colt_TripID": "2552-URY-BOL-41805",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Búsqueda web sin resultado concluyente",
+      "justificacion": "No se halló fuente que confirme un viaje a Bolivia el 15-jun-2014; se requiere más investigación."
+    },
+    {
+      "colt_TripID": "2552-URY-BRA-40266",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Búsqueda web inconclusa",
+      "justificacion": "No se halló cobertura de prensa de la época (mar-2010) que confirme un viaje de Mujica a Brasil el 29-mar-2010 con los acuerdos específicos descritos por COLT (avicultura, lácteos, etc.); es plausible como uno de los primeros viajes de su mandato pero no se pudo verificar de forma independiente."
+    },
+    {
+      "colt_TripID": "2552-URY-BRA-40389",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Búsqueda web inconclusa",
+      "justificacion": "No se halló fuente que confirme un viaje a Brasil el 30-jul-2010; se requiere más investigación en archivos de prensa."
+    },
+    {
+      "colt_TripID": "2552-URY-BRA-40518",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://fundar.org.br/memorial/ ; https://www.180.com.uy/articulo/15589_Lula-y-Mujica-inauguraron-el-besodromo",
+      "justificacion": "Confirmado con fecha exacta: Lula y Mujica inauguraron el Memorial Darcy Ribeiro en la Universidad de Brasilia el 6-dic-2010."
+    },
+    {
+      "colt_TripID": "2552-URY-BRA-40526",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Prensa regional sobre la XL Cumbre del Mercosur, Foz de Iguaçu, dic-2010 (Presidencia de Uruguay, discurso de Mujica)",
+      "justificacion": "Confirmado: la XL Cumbre del Mercosur se realizó en Foz de Iguaçu a mediados de diciembre de 2010, con discurso de Mujica documentado; viaje real no cargado en nuestra base, aunque la fecha exacta del discurso dentro del rango 14-17 dic requiere ajuste fino al cargarlo."
+    },
+    {
+      "colt_TripID": "2552-URY-BRA-42041",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Búsqueda web inconclusa",
+      "justificacion": "No se halló cobertura específica de un acto por el 35º aniversario del PT en Belo Horizonte el 6-feb-2015 con presencia de Mujica; la coherencia interna del dato (PT fundado en 1980 + 35 años = 2015) es sugestiva pero no constituye evidencia positiva directa."
+    },
+    {
+      "colt_TripID": "2552-URY-CHL-40921",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.pagina12.com.ar/diario/elmundo/4-184766-2012-01-05.html ; https://www.latercera.com/noticia/pinera-llega-a-la-antartica-en-compania-del-presidente-de-uruguay/",
+      "justificacion": "Confirmado con fechas exactas: Piñera y Mujica visitaron juntos las bases antárticas (Frei Montalva chilena y Artigas uruguaya) entre el 13 y el 15 de enero de 2012, coincidiendo con la fecha de inicio y duración de COLT."
+    },
+    {
+      "colt_TripID": "2552-URY-COL-40396",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.infobae.com/2010/08/08/530252-juan-manuel-santos-juro-como-presidente-colombia-y-pidio-un-dialogo-directo-chavez/",
+      "justificacion": "Confirmado: la asunción de Juan Manuel Santos fue el 7-ago-2010 con actos protocolares desde el 6-ago; Mujica, como presidente vecino recién asumido, asistió a la ceremonia."
+    },
+    {
+      "colt_TripID": "2552-URY-CRI-42032",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://en.wikipedia.org/wiki/2015_CELAC_summit",
+      "justificacion": "Confirmado con fecha exacta: III Cumbre CELAC en San José, Costa Rica, con la intervención de Mujica el 28-ene-2015, una de sus últimas participaciones internacionales como presidente."
+    },
+    {
+      "colt_TripID": "2552-URY-ECU-40498",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "http://archivo.presidencia.gub.uy/sci/noticias/2010/11/2010111609.htm",
+      "justificacion": "Confirmado con fuente oficial uruguaya: Mujica visitó Guayaquil junto a Correa, incluyendo la visita al barrio Nueva Prosperina descrita textualmente por COLT, en nov-2010."
+    },
+    {
+      "colt_TripID": "2552-URY-VAT-41426",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.lanacion.com.ar/el-mundo/el-papa-recibio-a-mujica-y-lo-califico-como-un-hombre-sabio-nid1587605/ ; https://diariodecuyo.com.ar/mundo/El-Papa-recibio-a-Jose-Mujica-20130601-0023.html",
+      "justificacion": "Confirmado y muy bien documentado: el Papa Francisco recibió a Mujica en audiencia privada en el Vaticano el 1-jun-2013 (audiencia de 45 minutos). Esto resuelve una incertidumbre que nuestra propia base ya había señalado en la nota del Trip_ID 73 ('tramo Vaticano... si ocurrió'): sí ocurrió, como escala de un día dentro de la gira a España (Trip_ID 73, 28-may al 6-jun-2013), no como viaje aparte. Se recomienda cargarlo como tramo de esa misma gira, no como Journey nuevo."
+    },
+    {
+      "colt_TripID": "2552-URY-PRY-40405",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://upsidedownworld.org/archives/paraguay/paraguay-americas-social-forum-continues-struggle-to-dismantle-neoliberalism/ ; https://www.ultimahora.com/mujica-realizara-una-visita-oficial-paraguay-los-dias-15-y-16-agosto-n347507",
+      "justificacion": "Confirmado: IV Foro Social de las Américas en Asunción, 11-15 ago 2010, con Mujica presente en el cierre junto a Lugo y Evo Morales; fuente adicional (Última Hora) confirma explícitamente una 'visita oficial' de Mujica a Paraguay los días 15 y 16 de agosto, coincidiendo con la fecha de inicio de COLT."
+    },
+    {
+      "colt_TripID": "2552-URY-PRY-40529",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Sin confirmación directa hallada",
+      "justificacion": "Es plausible como continuación regional del viaje a Foz de Iguaçu (colt_unico BRA-40526, días antes) hacia Alto Paraná (departamento paraguayo limítrofe con Foz de Iguaçu), pero no se halló fuente que confirme específicamente la firma del acuerdo URUPABOL el 17-dic-2010."
+    },
+    {
+      "colt_TripID": "2552-URY-ESP-40508",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Búsqueda web inconclusa sobre el partido Atlético Madrid-Espanyol",
+      "justificacion": "No se pudo confirmar la fecha exacta de un partido Atlético Madrid vs Espanyol en el estadio Vicente Calderón el 26-nov-2010 con presencia de Mujica; el propio COLT admite fecha incierta."
+    },
+    {
+      "colt_TripID": "2552-URY-ESP-41229",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "https://diariocorreo.pe/mundo/mujica-reposara-varios-dias-tras-anular-viaj-212851/ ; https://www.gub.uy/presidencia/comunicacion/noticias/mujica-detallo-afeccion-le-impide-viajar-saludo-creacion-universidad",
+      "justificacion": "Contradicho por evidencia positiva: en noviembre de 2012 Mujica ANULÓ su viaje a España (incluida su participación en la XXII Cumbre Iberoamericana de Cádiz, 16-17 nov) por un coágulo de sangre en la pierna, según fuentes de la época y la propia Presidencia uruguaya. Esto es coherente con nuestro Trip_ID 83 (viaje cancelado a España, ~nov-2012, ya cargado como Canceled). El registro de COLT como viaje completado parece ser un error."
+    },
+    {
+      "colt_TripID": "2552-URY-ESP-41427",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "Nuestra propia base (Trip_ID 73, Journey URU-JM-J014)",
+      "justificacion": "Corresponde al mismo tramo español de la gira ya cargada como Trip_ID 73 (Madrid, 28-may al 6-jun-2013, evaluada como discrepancia bajo colt_TripID ESP-41423); COLT parece haber partido esta misma gira europea en dos TripID distintos para España (41423 y 41427), con fechas superpuestas (29-may/1-jun vs 2-jun/5-jun). Posible duplicado interno de COLT, señalado pero no resuelto de nuestro lado."
+    },
+    {
+      "colt_TripID": "2552-URY-VEN-40275",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "http://www.psuv.org.ve/temas/noticias/Chavez-recibe-a-Mujica-en-Miraflores-para-reimpulsar-relaciones-bilaterales/",
+      "justificacion": "Confirmado: primera visita oficial de Mujica a Venezuela, con llegada el 6-abr-2010 y actos protocolares (ofrenda floral al Panteón Nacional, condecoración Orden del Libertador) el 7-abr-2010 en Miraflores junto a Chávez, coincidiendo con la nota de COLT (nótese leve matiz: la fuente ubica la llegada el 6-abr, un día antes de la fecha TripStartDate de COLT)."
+    }
+  ]
+}

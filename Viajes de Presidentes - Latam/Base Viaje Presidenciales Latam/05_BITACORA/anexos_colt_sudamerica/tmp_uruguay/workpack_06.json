@@ -1,0 +1,173 @@
+[
+  {
+    "colt_TripID": "392-URY-BRA-34685",
+    "colt_LeaderID": "392",
+    "LeaderFullName": "Luis Alberto Lacalle",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1994-12-17",
+    "TripDuration": "17",
+    "Notes": "Signed agreement along with leaders present at Summit liberaling trade  Also signed joint declaration stating they would conclude negotiations to include Bolivia and Chile in the MERCOSUR Free Trade Pact by June of 1995  Date of departure and return unclear based on public information available"
+  },
+  {
+    "colt_TripID": "392-URY-BRA-34701",
+    "colt_LeaderID": "392",
+    "LeaderFullName": "Luis Alberto Lacalle",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "1995-01-02",
+    "TripDuration": "2",
+    "Notes": "Attended inauguration for Brazilian President Fernando Henrique Cardoso"
+  },
+  {
+    "colt_TripID": "392-URY-USA-34604",
+    "colt_LeaderID": "392",
+    "LeaderFullName": "Luis Alberto Lacalle",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "1994-09-27",
+    "TripDuration": "2",
+    "Notes": "Delivered a speech at the United Nations (UN) General Assembly"
+  },
+  {
+    "colt_TripID": "392-URY-USA-34676",
+    "colt_LeaderID": "392",
+    "LeaderFullName": "Luis Alberto Lacalle",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "1994-12-08",
+    "TripDuration": "4",
+    "Notes": "Signed agreement creating a free trade zone in the Americas."
+  },
+  {
+    "colt_TripID": "4217-URY-ARG-45841",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "137",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-07-02",
+        "colt": "2025-07-03"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-BRA-45844",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "138",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-07-05",
+        "colt": "2025-07-06"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-CHL-45859",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "139",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-07-20",
+        "colt": "2025-07-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-ITA-45945",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "142",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-10-16",
+        "colt": "2025-10-15"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-PAN-45753",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "134",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-04-07",
+        "colt": "2025-04-06"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-ESP-45837",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "136",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Destination_City/CityVisited",
+        "nuestro": "Seville",
+        "colt": "Sevilla"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-USA-45922",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "140",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-09-21",
+        "colt": "2025-09-22"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 6
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-XXX-46018",
+    "colt_LeaderID": "4217",
+    "LeaderFullName": "Yamandu Orsi",
+    "CountryVisited": "Unknown",
+    "CityVisited": "Unknown",
+    "TripStartDate": "2025-12-27",
+    "TripDuration": "8",
+    "Notes": "Private trip;No available information on activities conducted during the trip"
+  }
+]

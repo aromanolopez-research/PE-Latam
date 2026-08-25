@@ -67,6 +67,153 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 XLSX_PATH = PROJECT_ROOT / "04_BASE_FINAL" / "Base_COLT_Sudamerica.xlsx"
 SHEET_NAME = "Datos_COLT_Sudamerica"
 
+sys.path.insert(0, str(SCRIPT_DIR))
+try:
+    from colt_country_alias import COLT_COUNTRY_ALIAS
+    _ALIAS_COLT_A_NUESTRO = {v: k for k, v in COLT_COUNTRY_ALIAS.items()}
+except ImportError:
+    _ALIAS_COLT_A_NUESTRO = {}
+
+try:
+    from schema import region_for, MISSING as SCHEMA_MISSING
+except ImportError:
+    def region_for(pais):
+        return "NA"
+    SCHEMA_MISSING = "NA"
+
+
+def pais_colt_a_nuestro(nombre_colt):
+    """Traduce el nombre de pais tal como lo escribe COLT (ej. 'Holy See') al nombre
+    que usa nuestro esquema (ej. 'Vatican City', la clave real en REGION_MAP). Sin esto,
+    las filas insertadas automaticamente desde COLT quedan con un nombre de pais que
+    schema.py no reconoce y Destination_Region sale 'NA' en el QC."""
+    if nombre_colt is None:
+        return nombre_colt
+    return _ALIAS_COLT_A_NUESTRO.get(nombre_colt, nombre_colt)
+
+
+# Palabras clave para el fallback de Tema_Foro/Visit_Subtype cuando no hay evidencia
+# mas especifica (ver "regla del mandato fundacional" en schema.py: agenda amplia ->
+# Cooperacion Politica General; mandato economico-comercial -> Comercio/Integracion).
+_REGIONAL_KEYWORDS = ["mercosur", "unasur", "celac", "oas", "organization of american states",
+                       "iberoamerican", "ibero-american", "cumbre de las americas",
+                       "summit of the americas", "andean", "alianza del pacifico",
+                       "pacific alliance", "rio group", "grupo de rio", "prosur", "alba"]
+_GLOBAL_KEYWORDS = ["united nations", "un general assembly", "unga", "g20", "g7", "davos",
+                     "world economic forum", "cop", "climate", "wto", "world trade",
+                     "imf", "world bank", "fmi", "bm "]
+
+
+def _yn_to_bool(v):
+    if v is None:
+        return SCHEMA_MISSING
+    v = str(v).strip().lower()
+    if v == "yes":
+        return "TRUE"
+    if v == "no":
+        return "FALSE"
+    return SCHEMA_MISSING
+
+
+def derivar_campos_desde_colt(ws, idx, excel_row, destino_traducido, trip_objective):
+    """Deriva mecanicamente, a partir de las propias columnas de COLT, todos los campos
+    de una fila nueva que SI tienen una regla ya establecida en el proyecto (no
+    narrativa/subjetiva). Devuelve un dict listo para .update() sobre nueva_fila.
+
+    - Visit_Category: regla ya usada en 08_ANALISIS_R (Multilateral si
+      AttendedMultilatEvent=Yes; si no, Bilateral si MetHostHoGS=Yes; si no, Other).
+    - Los 7 campos de micro-conducta: copiados directo de COLT (mismo criterio que la
+      migracion de esquema del 2026-08-03: Yes/No -> TRUE/FALSE, MISSING si no hay dato).
+    - Counterpart_Event: HostHOGSName (Bilateral) o NameMultilatEvent (Multilateral).
+    - Counterpart_Type: "Jefe de Estado/Gobierno" si Bilateral (caso por defecto
+      documentado en schema.py), MISSING si no.
+    - Tema_Foro / Visit_Subtype: heuristica por palabras clave sobre NameMultilatEvent/
+      Notes/Trip_Objective, con fallback documentado (Cooperacion Politica General /
+      Working Visit) si no hay match especifico -- NO es narrativa fina, es un
+      placeholder no bloqueante. Revisar a mano para pulir (ver PENDIENTES_VERIFICACION).
+    """
+    met_host = ws.cell(row=excel_row, column=idx["MetHostHoGS"]).value
+    attended_multi = ws.cell(row=excel_row, column=idx["AttendedMultilatEvent"]).value
+    name_multi = ws.cell(row=excel_row, column=idx["NameMultilatEvent"]).value or ""
+    host_name = ws.cell(row=excel_row, column=idx["HostHOGSName"]).value or ""
+    met_nonhost = ws.cell(row=excel_row, column=idx["MetNonhostHOGS"]).value
+    nonhost_names = ws.cell(row=excel_row, column=idx["NonhostHOGSNames"]).value or ""
+    public_addr = ws.cell(row=excel_row, column=idx["PublicAddress"]).value
+    signed = ws.cell(row=excel_row, column=idx["SignedAgreement"]).value
+    cultural = ws.cell(row=excel_row, column=idx["CulturalSiteOrCeremony"]).value
+    biz = ws.cell(row=excel_row, column=idx["BusinessLeaderOrForum"]).value
+    met_igo = ws.cell(row=excel_row, column=idx["MetIGOLeader"]).value
+    igo_name = ws.cell(row=excel_row, column=idx["IGOLeaderName"]).value or ""
+    notes = ws.cell(row=excel_row, column=idx["Notes"]).value or ""
+
+    if str(attended_multi).strip().lower() == "yes":
+        vcat = "Multilateral"
+    elif str(met_host).strip().lower() == "yes":
+        vcat = "Bilateral"
+    elif str(met_host).strip().lower() == "no":
+        vcat = "Other"
+    else:
+        vcat = "Other"  # fallback conservador: sin evidencia de reunion ni multilateral
+
+    campos = {
+        "Visit_Category": vcat,
+        "Destination_Region": region_for(destino_traducido),
+        "MetHostHOGS": _yn_to_bool(met_host),
+        "MetNonHostHOGS": _yn_to_bool(met_nonhost),
+        "PublicAddress": _yn_to_bool(public_addr),
+        "SignedAgreement": _yn_to_bool(signed),
+        "CulturalSiteOrCeremony": _yn_to_bool(cultural),
+        "BusinessLeaderOrForum": _yn_to_bool(biz),
+        "MetIGOLeader": _yn_to_bool(met_igo),
+    }
+    campos["NonHostHOGS_Name"] = nonhost_names.strip() if (campos["MetNonHostHOGS"] == "TRUE" and nonhost_names.strip()) else SCHEMA_MISSING
+    campos["IGOLeader_Name"] = igo_name.strip() if (campos["MetIGOLeader"] == "TRUE" and igo_name.strip()) else SCHEMA_MISSING
+
+    if vcat == "Bilateral" and host_name.strip():
+        campos["Counterpart_Event"] = host_name.strip()
+    elif vcat == "Multilateral" and name_multi.strip():
+        campos["Counterpart_Event"] = name_multi.strip()
+    elif notes.strip():
+        campos["Counterpart_Event"] = notes.strip()[:200]
+    else:
+        campos["Counterpart_Event"] = SCHEMA_MISSING
+
+    campos["Counterpart_Type"] = "Jefe de Estado/Gobierno" if vcat == "Bilateral" else SCHEMA_MISSING
+
+    if vcat == "Multilateral":
+        nm_low = name_multi.lower()
+        if any(k in nm_low for k in ["clima", "climate", "cop"]):
+            tema = "Medio Ambiente/Clima"
+        elif any(k in nm_low for k in ["comercio", "trade", "economic", "economica", "integracion"]):
+            tema = "Comercio/Integración Económica"
+        elif any(k in nm_low for k in ["salud", "health"]):
+            tema = "Salud"
+        elif any(k in nm_low for k in ["seguridad", "security", "defensa"]):
+            tema = "Seguridad"
+        else:
+            tema = "Cooperación Política General"  # fallback documentado en schema.py
+        campos["Tema_Foro"] = tema
+    else:
+        campos["Tema_Foro"] = SCHEMA_MISSING
+
+    combined_text = (name_multi + " " + notes + " " + (trip_objective or "")).lower()
+    if vcat == "Multilateral":
+        subtype = "Global Forum" if any(k in combined_text for k in _GLOBAL_KEYWORDS) else "Regional Summit"
+    elif vcat == "Bilateral":
+        if any(k in combined_text for k in ["asuncion", "asunción", "inaugura", "investidura", "funeral", "inauguration"]):
+            subtype = "Inauguration/Funeral"
+        elif any(k in combined_text for k in ["medic", "salud", "health", "hospital"]):
+            subtype = "Transit/Medical"
+        elif any(k in combined_text for k in ["visita de estado", "state visit"]):
+            subtype = "State Visit"
+        else:
+            subtype = "Working Visit"  # default generico documentado
+    else:  # Other
+        subtype = "Working Visit"  # mismo criterio que los casos "Other" preexistentes
+    campos["Visit_Subtype"] = subtype
+
+    return campos
+
 # Mapeo de campo "en lenguaje humano" que usan los subagentes -> columna real de
 # cada lado. Agregar entradas nuevas aca si un subagente reporta un campo que no
 # esta todavia mapeado (mejor que fallar en silencio).
@@ -210,23 +357,46 @@ def main():
                 n_colt_unico_agregar += 1
                 if args.aplicar and args.insertar_en_nuestra_base and excel_row:
                     max_trip_id += 1
-                    nueva_fila = {fn: "" for fn in fieldnames}
+                    destino = pais_colt_a_nuestro(ws.cell(row=excel_row, column=idx["CountryVisited"]).value)
+                    # Default "NA" (MISSING) en vez de "" para respetar la convencion del
+                    # proyecto (schema.py) -las columnas narrativas/de clasificacion cerrada
+                    # (Visit_Category, Visit_Subtype, Counterpart_Event, Counterpart_Type,
+                    # Tema_Foro) quedan explicitamente pendientes de revision manual, ver nota.
+                    # Origin_Country: no viene de COLT (es el pais del mandatario, no del
+                    # destino) -se toma del resto de filas ya cargadas del mismo modulo,
+                    # ya que todo el CSV comparte un unico Origin_Country por diseño.
+                    origin_country = next((r.get("Origin_Country") for r in csv_rows if r.get("Origin_Country")), "NA")
+                    trip_objective_txt = item.get("justificacion", "")[:250]
+                    fuente_txt = item.get("fuente", "")
+                    # Verificacion_Status es un dominio cerrado (schema.py DOM_VERIF_STATUS:
+                    # Verificada-URL | Solo-Query | No-verificable) -NO admite texto narrativo
+                    # libre-. Se deriva con el mismo criterio que usa schema.py en otros
+                    # lugares del proyecto (línea "auto-Verificacion_Status" de new_row()):
+                    # URL real -> Verificada-URL, si no -> Solo-Query. El detalle narrativo
+                    # (que campos quedaron con heuristica de fallback) va en Methodological_Notes.
+                    verif_status = "Verificada-URL" if fuente_txt.strip().lower().startswith("http") else "Solo-Query"
+                    nueva_fila = {fn: "NA" for fn in fieldnames}
                     nueva_fila.update({
                         "Trip_ID": str(max_trip_id),
                         "Journey_ID": f"COLT-{colt_tid}",
                         "President": ws.cell(row=excel_row, column=idx["LeaderFullName"]).value,
+                        "Origin_Country": origin_country,
                         "Trip_Status": "Completed",
                         "Start_Date": str(ws.cell(row=excel_row, column=idx["TripStartDate"]).value)[:10],
                         "End_Date": str(ws.cell(row=excel_row, column=idx["TripEndDate"]).value)[:10],
                         "Duration_Days": ws.cell(row=excel_row, column=idx["TripDuration"]).value,
-                        "Destination_Country": ws.cell(row=excel_row, column=idx["CountryVisited"]).value,
+                        "Destination_Country": destino,
                         "Destination_City": ws.cell(row=excel_row, column=idx["CityVisited"]).value,
-                        "Trip_Objective": item.get("justificacion", "")[:250],
-                        "Source_Verification": item.get("fuente", ""),
+                        "Trip_Objective": trip_objective_txt,
+                        "Source_Verification": fuente_txt,
                         "Source_Reliability": "Medium",
-                        "Verificacion_Status": "Insertado desde COLT, pendiente de revision manual de campos narrativos (Visit_Category, Counterpart_Event, Trip_Objective)",
-                        "Methodological_Notes": f"[PE-Latam {HOY}: fila insertada automaticamente desde COLT TripID {colt_tid} via colt_aplicar_verificacion.py. Revisar Visit_Category/Counterpart_Event a mano.]",
+                        "Verificacion_Status": verif_status,
+                        "Methodological_Notes": f"[PE-Latam {HOY}: fila insertada automaticamente desde COLT TripID {colt_tid} via colt_aplicar_verificacion.py. Visit_Category/Destination_Region/micro-conducta derivados mecanicamente de COLT; Tema_Foro/Visit_Subtype/Counterpart_Event con heuristica de fallback -revisar a mano, ver PENDIENTES_VERIFICACION.txt-.]",
                     })
+                    # Derivacion mecanica (fix permanente 2026-08-24: antes esto solo se hacia
+                    # a mano en un script de reparacion aparte para Paraguay; ahora queda
+                    # integrado en el pipeline para que no haga falta repetirlo cada pais).
+                    nueva_fila.update(derivar_campos_desde_colt(ws, idx, excel_row, destino, trip_objective_txt))
                     csv_rows.append(nueva_fila)
                     anotar_nota_excel(ws, idx, excel_row, f"Agregada a nuestra base como Trip_ID {max_trip_id}")
             elif decision in ("No_verificable", None):

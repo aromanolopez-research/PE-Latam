@@ -15,10 +15,20 @@
       "our_Trip_ID": "126",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2022-03-11; Duration_Days=1",
+      "campo": "Start_Date",
+      "valor_correcto": "2022-03-11",
       "fuente": "ip.gov.py (asuncion-de-gabriel-boric); tuit oficial @PresidenciaPy citado como SourceLink1 de COLT (status/1502252336172998659, timestamp decodificado: 2022-03-11 11:57 UTC); investidura de Boric confirmada como ceremonia de un solo día (11-mar-2022)",
-      "justificacion": "La investidura de Boric fue el 11-mar-2022, y el propio tuit que COLT cita como fuente primaria está fechado ese mismo 11-mar-2022, contradiciendo el Start_Date de COLT (10-mar). No se halló evidencia de una segunda jornada en Chile."
+      "justificacion": "La investidura de Boric fue el 11-mar-2022, y el propio tuit que COLT cita como fuente primaria está fechado ese mismo 11-mar-2022, contradiciendo el Start_Date de COLT (10-mar). No se halló evidencia de una segunda jornada en Chile. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "3481-PRY-CHL-44630",
+      "our_Trip_ID": "126",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 1,
+      "fuente": "ip.gov.py (asuncion-de-gabriel-boric); tuit oficial @PresidenciaPy citado como SourceLink1 de COLT (status/1502252336172998659, timestamp decodificado: 2022-03-11 11:57 UTC); investidura de Boric confirmada como ceremonia de un solo día (11-mar-2022)",
+      "justificacion": "La investidura de Boric fue el 11-mar-2022, y el propio tuit que COLT cita como fuente primaria está fechado ese mismo 11-mar-2022, contradiciendo el Start_Date de COLT (10-mar). No se halló evidencia de una segunda jornada en Chile. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "3481-PRY-COL-43518",
@@ -45,20 +55,40 @@
       "our_Trip_ID": "133",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2022-11-09; Duration_Days=2",
+      "campo": "Start_Date",
+      "valor_correcto": "2022-11-09",
       "fuente": "swissinfo.ch ('El presidente de Paraguay viaja en visita oficial a Alemania'); infobae; lanacion.com.py",
-      "justificacion": "Múltiples fuentes de prensa (swissinfo, infobae, La Nación) describen explícitamente la visita a Alemania como de 'los días 9 y 10 de noviembre' (Berlín y Hamburgo), sin evidencia de llegada el 8-nov."
+      "justificacion": "Múltiples fuentes de prensa (swissinfo, infobae, La Nación) describen explícitamente la visita a Alemania como de 'los días 9 y 10 de noviembre' (Berlín y Hamburgo), sin evidencia de llegada el 8-nov. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "3481-PRY-DEU-44873",
+      "our_Trip_ID": "133",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "swissinfo.ch ('El presidente de Paraguay viaja en visita oficial a Alemania'); infobae; lanacion.com.py",
+      "justificacion": "Múltiples fuentes de prensa (swissinfo, infobae, La Nación) describen explícitamente la visita a Alemania como de 'los días 9 y 10 de noviembre' (Berlín y Hamburgo), sin evidencia de llegada el 8-nov. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "3481-PRY-VAT-44946",
       "our_Trip_ID": "136",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2023-01-19; Duration_Days=2",
+      "campo": "Start_Date",
+      "valor_correcto": "2023-01-19",
       "fuente": "abc.com.py (20-ene-2023, 'Abdo Benítez y el papa se reunieron durante media hora y le llevó mate')",
-      "justificacion": "La nota de ABC Color confirma explícitamente que 'un día antes, el 19 de enero, el presidente de Paraguay se reunió con el presidente de Italia, Sergio Mattarella... y con el alcalde de Roma' antes de la audiencia papal del 20-ene, validando el rango de 2 días (19-20 ene) de nuestra base."
+      "justificacion": "La nota de ABC Color confirma explícitamente que 'un día antes, el 19 de enero, el presidente de Paraguay se reunió con el presidente de Italia, Sergio Mattarella... y con el alcalde de Roma' antes de la audiencia papal del 20-ene, validando el rango de 2 días (19-20 ene) de nuestra base. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "3481-PRY-VAT-44946",
+      "our_Trip_ID": "136",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "abc.com.py (20-ene-2023, 'Abdo Benítez y el papa se reunieron durante media hora y le llevó mate')",
+      "justificacion": "La nota de ABC Color confirma explícitamente que 'un día antes, el 19 de enero, el presidente de Paraguay se reunió con el presidente de Italia, Sergio Mattarella... y con el alcalde de Roma' antes de la audiencia papal del 20-ene, validando el rango de 2 días (19-20 ene) de nuestra base. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "3481-PRY-MEX-44455",
@@ -75,10 +105,20 @@
       "our_Trip_ID": "106",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2019-01-22; Duration_Days=4",
+      "campo": "Start_Date",
+      "valor_correcto": "2019-01-22",
       "fuente": "Infobae ('Comenzó el Foro Económico de Davos', 22-ene-2019)",
-      "justificacion": "El Foro de Davos 2019 abrió oficialmente el 22-ene-2019 según cobertura de prensa contemporánea; no se halló evidencia de que Abdo llegara dos días antes de la apertura del foro, como implica el Start_Date de COLT (20-ene)."
+      "justificacion": "El Foro de Davos 2019 abrió oficialmente el 22-ene-2019 según cobertura de prensa contemporánea; no se halló evidencia de que Abdo llegara dos días antes de la apertura del foro, como implica el Start_Date de COLT (20-ene). [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "3481-PRY-CHE-43485",
+      "our_Trip_ID": "106",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 4,
+      "fuente": "Infobae ('Comenzó el Foro Económico de Davos', 22-ene-2019)",
+      "justificacion": "El Foro de Davos 2019 abrió oficialmente el 22-ene-2019 según cobertura de prensa contemporánea; no se halló evidencia de que Abdo llegara dos días antes de la apertura del foro, como implica el Start_Date de COLT (20-ene). [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "3481-PRY-TWN-43380",
@@ -95,40 +135,80 @@
       "our_Trip_ID": "139",
       "tipo": "discrepancia",
       "veredicto": "COLT_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2023-02-13; Duration_Days=2",
+      "campo": "Start_Date",
+      "valor_correcto": "2023-02-13",
       "fuente": "ip.gov.py ('Presidente inicia este lunes visita oficial a los Emiratos Árabes Unidos', 12-feb-2023); mre.gov.py ('visitas oficiales a los EAU y a Taiwán'); World Government Summit 2023 oficial (13-15 feb 2023)",
-      "justificacion": "Fuente oficial confirma que la visita a EAU comenzó el lunes 13-feb-2023 (no el 11-feb), coincidiendo con el inicio real de la World Government Summit (13-feb). Además, el viaje formaba parte de una gira combinada EAU-Taiwán (mencionada por MRE y por una segunda visita a Taipéi documentada por Focus Taiwan a mediados de feb-2023 que NO figura en nuestra base ni en este workpack); esto explica por qué nuestra Duration_Days de 3 (11-13 feb) parece sobreestimada para el tramo emiratí."
+      "justificacion": "Fuente oficial confirma que la visita a EAU comenzó el lunes 13-feb-2023 (no el 11-feb), coincidiendo con el inicio real de la World Government Summit (13-feb). Además, el viaje formaba parte de una gira combinada EAU-Taiwán (mencionada por MRE y por una segunda visita a Taipéi documentada por Focus Taiwan a mediados de feb-2023 que NO figura en nuestra base ni en este workpack); esto explica por qué nuestra Duration_Days de 3 (11-13 feb) parece sobreestimada para el tramo emiratí. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "3481-PRY-ARE-44970",
+      "our_Trip_ID": "139",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "ip.gov.py ('Presidente inicia este lunes visita oficial a los Emiratos Árabes Unidos', 12-feb-2023); mre.gov.py ('visitas oficiales a los EAU y a Taiwán'); World Government Summit 2023 oficial (13-15 feb 2023)",
+      "justificacion": "Fuente oficial confirma que la visita a EAU comenzó el lunes 13-feb-2023 (no el 11-feb), coincidiendo con el inicio real de la World Government Summit (13-feb). Además, el viaje formaba parte de una gira combinada EAU-Taiwán (mencionada por MRE y por una segunda visita a Taipéi documentada por Focus Taiwan a mediados de feb-2023 que NO figura en nuestra base ni en este workpack); esto explica por qué nuestra Duration_Days de 3 (11-13 feb) parece sobreestimada para el tramo emiratí. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "3481-PRY-USA-43367",
       "our_Trip_ID": "99",
       "tipo": "discrepancia",
       "veredicto": "No_verificable",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
+      "campo": "Start_Date",
       "valor_correcto": null,
       "fuente": "gadebate.un.org/en/73/paraguay (nuestra fuente, discurso 25-sep-2018); SourceLinks de COLT son enlaces de pago (advance-lexis) no accesibles",
-      "justificacion": "Nuestra fuente oficial de la ONU confirma el discurso el 25-sep-2018, pero no precisa cuántos días permaneció Abdo en Nueva York. Los enlaces fuente de COLT están detrás de un paywall (Lexis Advance) y no pudieron verificarse; la diferencia de duración (1 vs 5 días) es demasiado grande para resolver sin evidencia directa."
+      "justificacion": "Nuestra fuente oficial de la ONU confirma el discurso el 25-sep-2018, pero no precisa cuántos días permaneció Abdo en Nueva York. Los enlaces fuente de COLT están detrás de un paywall (Lexis Advance) y no pudieron verificarse; la diferencia de duración (1 vs 5 días) es demasiado grande para resolver sin evidencia directa. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "3481-PRY-USA-43367",
+      "our_Trip_ID": "99",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "gadebate.un.org/en/73/paraguay (nuestra fuente, discurso 25-sep-2018); SourceLinks de COLT son enlaces de pago (advance-lexis) no accesibles",
+      "justificacion": "Nuestra fuente oficial de la ONU confirma el discurso el 25-sep-2018, pero no precisa cuántos días permaneció Abdo en Nueva York. Los enlaces fuente de COLT están detrás de un paywall (Lexis Advance) y no pudieron verificarse; la diferencia de duración (1 vs 5 días) es demasiado grande para resolver sin evidencia directa. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "3481-PRY-USA-43810",
       "our_Trip_ID": "115",
       "tipo": "discrepancia",
       "veredicto": "COLT_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2019-12-11; Duration_Days≈6 (regreso confirmado el lunes 16-dic-2019)",
+      "campo": "Start_Date",
+      "valor_correcto": "2019-12-11",
       "fuente": "presidencia.gov.py (título del art. 37003: 'tras visita oficial a los Estados Unidos de América, mandatario retornará al país este lunes'); Última Hora (reunión con Trump confirmada 13-dic-2019)",
-      "justificacion": "El propio titular de nuestra fuente primaria confirma que el regreso a Paraguay fue 'el lunes' (16-dic-2019), tras la reunión con Trump el 13-dic. Esto es incompatible con nuestra Duration_Days de 2 (que implicaría regreso el 13-dic); el rango de COLT (11 al 16-dic = 6 días) es mucho más consistente con el regreso confirmado del lunes, aunque la fecha exacta de salida (11 vs 12-dic) no quedó del todo zanjada entre las fuentes consultadas."
+      "justificacion": "El propio titular de nuestra fuente primaria confirma que el regreso a Paraguay fue 'el lunes' (16-dic-2019), tras la reunión con Trump el 13-dic. Esto es incompatible con nuestra Duration_Days de 2 (que implicaría regreso el 13-dic); el rango de COLT (11 al 16-dic = 6 días) es mucho más consistente con el regreso confirmado del lunes, aunque la fecha exacta de salida (11 vs 12-dic) no quedó del todo zanjada entre las fuentes consultadas. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "3481-PRY-USA-43810",
+      "our_Trip_ID": "115",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 6,
+      "fuente": "presidencia.gov.py (título del art. 37003: 'tras visita oficial a los Estados Unidos de América, mandatario retornará al país este lunes'); Última Hora (reunión con Trump confirmada 13-dic-2019)",
+      "justificacion": "El propio titular de nuestra fuente primaria confirma que el regreso a Paraguay fue 'el lunes' (16-dic-2019), tras la reunión con Trump el 13-dic. Esto es incompatible con nuestra Duration_Days de 2 (que implicaría regreso el 13-dic); el rango de COLT (11 al 16-dic = 6 días) es mucho más consistente con el regreso confirmado del lunes, aunque la fecha exacta de salida (11 vs 12-dic) no quedó del todo zanjada entre las fuentes consultadas. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "3481-PRY-USA-44719",
       "our_Trip_ID": "127",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2022-06-08; Duration_Days=3",
+      "campo": "Start_Date",
+      "valor_correcto": "2022-06-08",
       "fuente": "summit-americas.org (IX Cumbre de las Américas, 8-10 jun 2022); Última Hora / ABC Color (cobertura del viaje)",
-      "justificacion": "La IX Cumbre de las Américas se celebró oficialmente del 8 al 10 de junio de 2022 en Los Ángeles; no se halló evidencia de una llegada el 7-jun como indica COLT, y la duración de 3 días (8-10 jun) coincide con el rango oficial de la cumbre."
+      "justificacion": "La IX Cumbre de las Américas se celebró oficialmente del 8 al 10 de junio de 2022 en Los Ángeles; no se halló evidencia de una llegada el 7-jun como indica COLT, y la duración de 3 días (8-10 jun) coincide con el rango oficial de la cumbre. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "3481-PRY-USA-44719",
+      "our_Trip_ID": "127",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "summit-americas.org (IX Cumbre de las Américas, 8-10 jun 2022); Última Hora / ABC Color (cobertura del viaje)",
+      "justificacion": "La IX Cumbre de las Américas se celebró oficialmente del 8 al 10 de junio de 2022 en Los Ángeles; no se halló evidencia de una llegada el 7-jun como indica COLT, y la duración de 3 días (8-10 jun) coincide con el rango oficial de la cumbre. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "3481-PRY-USA-44823",
@@ -155,10 +235,20 @@
       "our_Trip_ID": "134",
       "tipo": "discrepancia",
       "veredicto": "COLT_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2022-12-06; Duration_Days=1",
+      "campo": "Start_Date",
+      "valor_correcto": "2022-12-06",
       "fuente": "swissinfo.ch / radiomontecarlo.com.uy / cancillería de Ecuador (LXI Reunión Ordinaria del CMC el 5-dic; LXI Cumbre de Jefes de Estado del Mercosur el 6-dic-2022)",
-      "justificacion": "Múltiples fuentes confirman que el 5-dic-2022 fue la reunión ministerial del Consejo del Mercado Común (CMC, a nivel de cancilleres) y que la Cumbre de Jefes de Estado -el evento al que asisten los presidentes- fue específicamente el 6-dic-2022. Esto coincide con el Start_Date/Duration de COLT y sugiere que nuestra base incluyó por error el día ministerial."
+      "justificacion": "Múltiples fuentes confirman que el 5-dic-2022 fue la reunión ministerial del Consejo del Mercado Común (CMC, a nivel de cancilleres) y que la Cumbre de Jefes de Estado -el evento al que asisten los presidentes- fue específicamente el 6-dic-2022. Esto coincide con el Start_Date/Duration de COLT y sugiere que nuestra base incluyó por error el día ministerial. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "3481-PRY-URY-44901",
+      "our_Trip_ID": "134",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 1,
+      "fuente": "swissinfo.ch / radiomontecarlo.com.uy / cancillería de Ecuador (LXI Reunión Ordinaria del CMC el 5-dic; LXI Cumbre de Jefes de Estado del Mercosur el 6-dic-2022)",
+      "justificacion": "Múltiples fuentes confirman que el 5-dic-2022 fue la reunión ministerial del Consejo del Mercado Común (CMC, a nivel de cancilleres) y que la Cumbre de Jefes de Estado -el evento al que asisten los presidentes- fue específicamente el 6-dic-2022. Esto coincide con el Start_Date/Duration de COLT y sugiere que nuestra base incluyó por error el día ministerial. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "3481-PRY-ARG-43544",

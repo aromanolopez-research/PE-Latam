@@ -1,0 +1,598 @@
+{
+  "resultados": [
+    {
+      "colt_TripID": "4034-PRY-ARG-45268",
+      "our_Trip_ID": "152",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2023-12-09",
+      "fuente": "Tweets de @SantiPenap citados en los SourceLinks de COLT para este TripID, fechados 2023-12-09T14:43 UTC y 2023-12-10T13:17/13:21 UTC (decodificados vía Twitter snowflake ID); coincide con nuestra nota 'viajó el sábado 9-dic para reunión previa con Milei; ceremonia de asunción el domingo 10-dic'.",
+      "justificacion": "La actividad documentada en Twitter del propio presidente comienza el 9-dic y termina el 10-dic, sin rastro de actividad el 8-dic ni evidencia de una estadía de 4 días. Se prioriza la evidencia primaria (tweets con timestamp verificable) sobre la estimación de COLT. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-ARG-45268",
+      "our_Trip_ID": "152",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "Tweets de @SantiPenap citados en los SourceLinks de COLT para este TripID, fechados 2023-12-09T14:43 UTC y 2023-12-10T13:17/13:21 UTC (decodificados vía Twitter snowflake ID); coincide con nuestra nota 'viajó el sábado 9-dic para reunión previa con Milei; ceremonia de asunción el domingo 10-dic'.",
+      "justificacion": "La actividad documentada en Twitter del propio presidente comienza el 9-dic y termina el 10-dic, sin rastro de actividad el 8-dic ni evidencia de una estadía de 4 días. Se prioriza la evidencia primaria (tweets con timestamp verificable) sobre la estimación de COLT. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-ARG-45336",
+      "our_Trip_ID": "155",
+      "tipo": "discrepancia",
+      "campo": "Duration_Days",
+      "veredicto": "nuestro_correcto",
+      "valor_correcto": "1",
+      "fuente": "https://www.infobae.com/america/agencias/2024/02/14/javier-milei-recibe-al-presidente-de-paraguay-santiago-pena-en-la-casa-rosada/",
+      "justificacion": "Infobae confirma explícitamente que Peña partió a las 9:45hs y su regreso a Asunción estaba previsto para las 16:30hs del mismo día (14-feb-2024); es decir, viaje de ida y vuelta en el día, consistente con Duration_Days=1 y no 2."
+    },
+    {
+      "colt_TripID": "4034-PRY-BOL-45456",
+      "our_Trip_ID": "162",
+      "tipo": "discrepancia",
+      "campo": "Duration_Days",
+      "veredicto": "nuestro_correcto",
+      "valor_correcto": "1",
+      "fuente": "https://www.swissinfo.ch/spa/el-presidente-de-paraguay-llega-a-bolivia-para-reunirse-con-luis-arce-y-empresarios/80568303 ; https://www.opinion.com.bo/articulo/pais/presidente-paraguay-llega-bolivia-reunirse-arce-ministros-empresarios/20240613121105947790.html",
+      "justificacion": "Múltiples fuentes describen explícitamente una 'visita de un día' a La Paz el 13-jun-2024 (ofrenda floral, reunión ampliada de gabinetes, firma de acuerdos, todo en la misma jornada), sin indicios de pernocte adicional."
+    },
+    {
+      "colt_TripID": "4034-PRY-BRA-45613",
+      "our_Trip_ID": "171",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": null,
+      "fuente": "https://www.abc.com.py/politica/2024/11/18/cumbre-del-g20-santiago-pena-hospitalizado-en-brasil/ ; https://cnnespanol.cnn.com/2024/11/18/presidente-paraguay-hospitalizado-rio-indisposicion-orix ; cumbre G20 realizada 18-19 nov 2024",
+      "justificacion": "La prensa confirma que Peña ya estaba en Río de Janeiro la noche del lunes 18-nov (cuando fue hospitalizado), pero ninguna fuente indica si llegó el 17 (día previo, patrón habitual en cumbres) o el mismo 18. No se halló evidencia que decante hacia una u otra fecha exacta ni hacia la duración total. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-BRA-45613",
+      "our_Trip_ID": "171",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "https://www.abc.com.py/politica/2024/11/18/cumbre-del-g20-santiago-pena-hospitalizado-en-brasil/ ; https://cnnespanol.cnn.com/2024/11/18/presidente-paraguay-hospitalizado-rio-indisposicion-orix ; cumbre G20 realizada 18-19 nov 2024",
+      "justificacion": "La prensa confirma que Peña ya estaba en Río de Janeiro la noche del lunes 18-nov (cuando fue hospitalizado), pero ninguna fuente indica si llegó el 17 (día previo, patrón habitual en cumbres) o el mismo 18. No se halló evidencia que decante hacia una u otra fecha exacta ni hacia la duración total. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-DOM-45520",
+      "our_Trip_ID": "165",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2024-08-15",
+      "fuente": "Tweets de @SantiPenap citados en SourceLinks de COLT, fechados 2024-08-17T00:37 UTC y 2024-08-17T22:53 UTC (decodificados); ceremonia de Abinader confirmada 16-ago-2024 por múltiples medios (swissinfo, telemundo47).",
+      "justificacion": "La actividad documentada se extiende hasta el 17-ago, un día después de la ceremonia (16-ago), lo que es incompatible con Duration_Days=1 de COLT y consistente con una estadía de 15 al 17-ago (3 días) que continúa a Costa Rica el 18-ago (mismo Journey_ID en nuestra base). [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-DOM-45520",
+      "our_Trip_ID": "165",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "Tweets de @SantiPenap citados en SourceLinks de COLT, fechados 2024-08-17T00:37 UTC y 2024-08-17T22:53 UTC (decodificados); ceremonia de Abinader confirmada 16-ago-2024 por múltiples medios (swissinfo, telemundo47).",
+      "justificacion": "La actividad documentada se extiende hasta el 17-ago, un día después de la ceremonia (16-ago), lo que es incompatible con Duration_Days=1 de COLT y consistente con una estadía de 15 al 17-ago (3 días) que continúa a Costa Rica el 18-ago (mismo Journey_ID en nuestra base). [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-SLV-45443",
+      "our_Trip_ID": "161",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2024-06-01",
+      "fuente": "https://www.ultimahora.com/... (Última Hora, vía búsqueda web) confirma que Peña viajó primero a EE.UU. y luego a El Salvador el sábado 1-jun-2024 para la asunción de Bukele, 'regresó a Paraguay el mismo día'.",
+      "justificacion": "Fuente periodística explícita confirma viaje y regreso el mismo día sábado 1-jun-2024 (día de la ceremonia de Bukele), lo cual coincide exactamente con nuestro registro y contradice tanto la fecha de inicio (31-may) como la duración de 2 días de COLT. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-SLV-45443",
+      "our_Trip_ID": "161",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 1,
+      "fuente": "https://www.ultimahora.com/... (Última Hora, vía búsqueda web) confirma que Peña viajó primero a EE.UU. y luego a El Salvador el sábado 1-jun-2024 para la asunción de Bukele, 'regresó a Paraguay el mismo día'.",
+      "justificacion": "Fuente periodística explícita confirma viaje y regreso el mismo día sábado 1-jun-2024 (día de la ceremonia de Bukele), lo cual coincide exactamente con nuestro registro y contradice tanto la fecha de inicio (31-may) como la duración de 2 días de COLT. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-FIN-45867",
+      "our_Trip_ID": "185",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2025-07-28",
+      "fuente": "https://www.abc.com.py/politica/2025/07/25/pena-viaja-el-lunes-a-finlandia-para-el-rally-mundial-y-actos-oficiales/ ; https://www.presidentti.fi/en/president-of-paraguay-to-pay-working-visit-to-finland/",
+      "justificacion": "ABC Color confirma que el Senado paraguayo autorizó explícitamente el viaje 'desde el lunes 28 de julio hasta el 2 de agosto' (6 días exactos, coincidiendo con nuestro registro). La fuente de COLT (presidentti.fi) solo describe el tramo bilateral oficial (29-30 jul) pero no captura la agenda completa que incluyó el Rally Mundial de Finlandia (31jul-3ago), de ahí la duración subestimada de COLT. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-FIN-45867",
+      "our_Trip_ID": "185",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 6,
+      "fuente": "https://www.abc.com.py/politica/2025/07/25/pena-viaja-el-lunes-a-finlandia-para-el-rally-mundial-y-actos-oficiales/ ; https://www.presidentti.fi/en/president-of-paraguay-to-pay-working-visit-to-finland/",
+      "justificacion": "ABC Color confirma que el Senado paraguayo autorizó explícitamente el viaje 'desde el lunes 28 de julio hasta el 2 de agosto' (6 días exactos, coincidiendo con nuestro registro). La fuente de COLT (presidentti.fi) solo describe el tramo bilateral oficial (29-30 jul) pero no captura la agenda completa que incluyó el Rally Mundial de Finlandia (31jul-3ago), de ahí la duración subestimada de COLT. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-FRA-45498",
+      "our_Trip_ID": "164",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2024-07-25",
+      "fuente": "Tweets de @SantiPenap citados en SourceLinks de COLT para este TripID, fechados 2024-07-25T14:30/18:04, 2024-07-26T17:51 y 2024-07-27T23:10 UTC (decodificados); apertura de los JJOO de París fue el 26-jul-2024.",
+      "justificacion": "La evidencia de actividad documentada del presidente comienza el 25-jul (día previo a la ceremonia de apertura) y se extiende hasta el 27-jul, sin ningún rastro de actividad el 23-jul. Esto contradice nuestra fecha de inicio (23-jul) y duración (6 días); la ventana 25-27/28 jul es más consistente con la evidencia hallada, aunque la fecha exacta de regreso no pudo confirmarse con certeza total. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-FRA-45498",
+      "our_Trip_ID": "164",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "Tweets de @SantiPenap citados en SourceLinks de COLT para este TripID, fechados 2024-07-25T14:30/18:04, 2024-07-26T17:51 y 2024-07-27T23:10 UTC (decodificados); apertura de los JJOO de París fue el 26-jul-2024.",
+      "justificacion": "La evidencia de actividad documentada del presidente comienza el 25-jul (día previo a la ceremonia de apertura) y se extiende hasta el 27-jul, sin ningún rastro de actividad el 23-jul. Esto contradice nuestra fecha de inicio (23-jul) y duración (6 días); la ventana 25-27/28 jul es más consistente con la evidencia hallada, aunque la fecha exacta de regreso no pudo confirmarse con certeza total. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-FRA-45635",
+      "our_Trip_ID": "173",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": null,
+      "fuente": "SourceLinks de COLT (presidencia.gov.py, Facebook) no incluyen fecha explícita de inicio del tramo en Francia; nuestra propia nota reconoce 'fechas estimadas dentro del rango general de gira (6-14 dic 2024)'.",
+      "justificacion": "Tanto nuestra base como COLT usan fechas estimadas para este tramo intermedio de la gira Uruguay-Francia-Israel; no se halló una fuente primaria que fije el día exacto de llegada a París ni la duración del tramo. Se recomienda revisión adicional con fuente directa. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-FRA-45635",
+      "our_Trip_ID": "173",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "SourceLinks de COLT (presidencia.gov.py, Facebook) no incluyen fecha explícita de inicio del tramo en Francia; nuestra propia nota reconoce 'fechas estimadas dentro del rango general de gira (6-14 dic 2024)'.",
+      "justificacion": "Tanto nuestra base como COLT usan fechas estimadas para este tramo intermedio de la gira Uruguay-Francia-Israel; no se halló una fuente primaria que fije el día exacto de llegada a París ni la duración del tramo. Se recomienda revisión adicional con fuente directa. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-GTM-45304",
+      "our_Trip_ID": "153",
+      "tipo": "discrepancia",
+      "campo": "Duration_Days",
+      "veredicto": "nuestro_correcto",
+      "valor_correcto": "2",
+      "fuente": "Tweets de @SantiPenap citados en SourceLinks de COLT, fechados 2024-01-14T01:27/17:36/18:06/19:50 UTC y 2024-01-15T02:55 UTC (decodificados; corresponden a 13-14 de enero hora local de Guatemala).",
+      "justificacion": "La actividad documentada abarca desde la noche del 13-ene (hora local) hasta la noche del 14-ene, consistente con una estadía de 2 días (13-14 ene) y no de 3 como indica COLT."
+    },
+    {
+      "colt_TripID": "4034-PRY-VAT-45795",
+      "our_Trip_ID": "179",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2025-05-17",
+      "fuente": "https://www.abc.com.py/politica/2025/05/19/pena-esta-nuevamente-fuera-del-pais-y-con-ello-completa-45-santi-tours/",
+      "justificacion": "ABC Color confirma explícitamente que 'el fin de semana estuvo en la Ciudad del Vaticano' (17-18 mayo, sábado-domingo, misa de entronización el 18-may), lo que respalda una estadía de 2 días desde el 17-may y contradice la duración de 1 día de COLT. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-VAT-45795",
+      "our_Trip_ID": "179",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://www.abc.com.py/politica/2025/05/19/pena-esta-nuevamente-fuera-del-pais-y-con-ello-completa-45-santi-tours/",
+      "justificacion": "ABC Color confirma explícitamente que 'el fin de semana estuvo en la Ciudad del Vaticano' (17-18 mayo, sábado-domingo, misa de entronización el 18-may), lo que respalda una estadía de 2 días desde el 17-may y contradice la duración de 1 día de COLT. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-IND-45810",
+      "our_Trip_ID": "182",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2025-05-31",
+      "fuente": "Búsqueda web confirma viaje de Estado a India del 31-may al 4-jun-2025 (fuentes: Última Hora 'viaje número 46', Infobae 2-jun-2025), con visita adicional a Mumbai antes del regreso.",
+      "justificacion": "Nuestra fecha de inicio (31-may) y duración (6 días, hasta el 5-jun según Decreto 3955 citado en nuestra propia nota) están mejor respaldadas que la versión de COLT (inicio 2-jun, 3 días). Sin embargo, la búsqueda web sí confirma que Peña visitó Mumbai además de Nueva Delhi, por lo que la ciudad de COLT ('New Delhi;Mumbai') es más completa que la nuestra (solo 'New Delhi'). [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-IND-45810",
+      "our_Trip_ID": "182",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 6,
+      "fuente": "Búsqueda web confirma viaje de Estado a India del 31-may al 4-jun-2025 (fuentes: Última Hora 'viaje número 46', Infobae 2-jun-2025), con visita adicional a Mumbai antes del regreso.",
+      "justificacion": "Nuestra fecha de inicio (31-may) y duración (6 días, hasta el 5-jun según Decreto 3955 citado en nuestra propia nota) están mejor respaldadas que la versión de COLT (inicio 2-jun, 3 días). Sin embargo, la búsqueda web sí confirma que Peña visitó Mumbai además de Nueva Delhi, por lo que la ciudad de COLT ('New Delhi;Mumbai') es más completa que la nuestra (solo 'New Delhi'). [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-IND-45810",
+      "our_Trip_ID": "182",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Destination_City",
+      "valor_correcto": "New Delhi;Mumbai",
+      "fuente": "Búsqueda web confirma viaje de Estado a India del 31-may al 4-jun-2025 (fuentes: Última Hora 'viaje número 46', Infobae 2-jun-2025), con visita adicional a Mumbai antes del regreso.",
+      "justificacion": "Nuestra fecha de inicio (31-may) y duración (6 días, hasta el 5-jun según Decreto 3955 citado en nuestra propia nota) están mejor respaldadas que la versión de COLT (inicio 2-jun, 3 días). Sin embargo, la búsqueda web sí confirma que Peña visitó Mumbai además de Nueva Delhi, por lo que la ciudad de COLT ('New Delhi;Mumbai') es más completa que la nuestra (solo 'New Delhi'). [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-ISR-45637",
+      "our_Trip_ID": "174",
+      "tipo": "discrepancia",
+      "campo": "Duration_Days",
+      "veredicto": "No_verificable",
+      "valor_correcto": null,
+      "fuente": "https://www.abc.com.py/politica/2024/12/12/pena-y-netanyahu-inauguran-embajada-de-paraguay-en-jerusalen/ (confirma inauguración de embajada 12-dic-2024, pero no la fecha exacta de regreso)",
+      "justificacion": "Se confirma que la inauguración de la embajada ocurrió el 12-dic-2024 (dentro de la ventana de ambas versiones), pero no se halló fuente que confirme la fecha exacta de salida de Israel para decidir entre 3 (COLT) y 4 (nuestro) días."
+    },
+    {
+      "colt_TripID": "4034-PRY-ITA-45256",
+      "our_Trip_ID": "148",
+      "tipo": "discrepancia",
+      "campo": "Duration_Days",
+      "veredicto": "nuestro_correcto",
+      "valor_correcto": "3",
+      "fuente": "Tweets de @SantiPenap citados en SourceLinks de COLT, fechados 2023-11-28T16:20/18:35 UTC y 2023-11-29T12:21 UTC (decodificados).",
+      "justificacion": "La actividad documentada se extiende hasta el 28-29 de noviembre, lo que es más consistente con una estadía de 3 días (26-28 nov) que con la de 2 días de COLT. Posible duplicado interno de COLT con el ítem colt_unico ITA-45257 (mismo viaje Roma-Vaticano-Dubai de nov-2023, ver nota en ese ítem)."
+    },
+    {
+      "colt_TripID": "4034-PRY-ITA-45942",
+      "our_Trip_ID": "188",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2025-10-11",
+      "fuente": "https://www.abc.com.py/politica/2025/10/08/pena-prepara-su-viaje-numero-53-estara-en-italia-entre-el-11-y-el-16-de-octubre/",
+      "justificacion": "ABC Color confirma explícitamente en el título/cuerpo la ventana 11 al 16 de octubre de 2025 (6 días), coincidiendo exactamente con nuestro registro. POSIBLE DUPLICADO INTERNO DE COLT: el ítem colt_unico ITA-45944 (14-oct-2025, Roma, reunión con Mattarella, 'Trip start date is not clear') parece ser el mismo viaje que COLT partió en dos filas (una para la llegada/agenda con Meloni y otra para la reunión con Mattarella); ver decisión 'descartar' en ese ítem. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-ITA-45942",
+      "our_Trip_ID": "188",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 6,
+      "fuente": "https://www.abc.com.py/politica/2025/10/08/pena-prepara-su-viaje-numero-53-estara-en-italia-entre-el-11-y-el-16-de-octubre/",
+      "justificacion": "ABC Color confirma explícitamente en el título/cuerpo la ventana 11 al 16 de octubre de 2025 (6 días), coincidiendo exactamente con nuestro registro. POSIBLE DUPLICADO INTERNO DE COLT: el ítem colt_unico ITA-45944 (14-oct-2025, Roma, reunión con Mattarella, 'Trip start date is not clear') parece ser el mismo viaje que COLT partió en dos filas (una para la llegada/agenda con Meloni y otra para la reunión con Mattarella); ver decisión 'descartar' en ese ítem. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-MEX-45566",
+      "our_Trip_ID": "169",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": null,
+      "fuente": "Ceremonia de Sheinbaum confirmada 1-oct-2024 por múltiples fuentes (xinhua, nmas.com.mx); no se halló fuente independiente que confirme la fecha exacta de salida de Paraguay.",
+      "justificacion": "Nuestra nota cita una 'nota oficial paraguaya' que indicaría salida el 29-sep, pero no pudimos verificar esa fuente de forma independiente en la búsqueda web; tampoco se halló respaldo directo para la versión de COLT (inicio 1-oct). Se marca no verificable a la espera de una fuente primaria. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-MEX-45566",
+      "our_Trip_ID": "169",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "Ceremonia de Sheinbaum confirmada 1-oct-2024 por múltiples fuentes (xinhua, nmas.com.mx); no se halló fuente independiente que confirme la fecha exacta de salida de Paraguay.",
+      "justificacion": "Nuestra nota cita una 'nota oficial paraguaya' que indicaría salida el 29-sep, pero no pudimos verificar esa fuente de forma independiente en la búsqueda web; tampoco se halló respaldo directo para la versión de COLT (inicio 1-oct). Se marca no verificable a la espera de una fuente primaria. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-SGP-45800",
+      "our_Trip_ID": "180",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2025-05-23",
+      "fuente": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/state-visit-of-paraguay-president-santiago-pena-23-to-24-may-2025-22-may-2025/",
+      "justificacion": "El Ministerio de Relaciones Exteriores de Singapur confirma oficialmente la Visita de Estado del 23 al 24 de mayo de 2025 (2 días). IMPORTANTE: esto implica que nuestro registro actual del tramo Vaticano(17-18)->Singapur(20-22)->EAU(23-25) dentro de la gira larga de mayo-2025 tiene un hueco/error: según cobertura de infobae/rdn.com.py, la gira incluyó también un tramo en Japón que se extendería aprox. del 19 al 22-may (ver ítem colt_unico JPN-45796), lo que probablemente explique la fecha que hoy tenemos asignada erróneamente a 'Singapur'. Se recomienda revisión manual del tramo completo de la gira (Trips 178-181). [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-SGP-45800",
+      "our_Trip_ID": "180",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/state-visit-of-paraguay-president-santiago-pena-23-to-24-may-2025-22-may-2025/",
+      "justificacion": "El Ministerio de Relaciones Exteriores de Singapur confirma oficialmente la Visita de Estado del 23 al 24 de mayo de 2025 (2 días). IMPORTANTE: esto implica que nuestro registro actual del tramo Vaticano(17-18)->Singapur(20-22)->EAU(23-25) dentro de la gira larga de mayo-2025 tiene un hueco/error: según cobertura de infobae/rdn.com.py, la gira incluyó también un tramo en Japón que se extendería aprox. del 19 al 22-may (ver ítem colt_unico JPN-45796), lo que probablemente explique la fecha que hoy tenemos asignada erróneamente a 'Singapur'. Se recomienda revisión manual del tramo completo de la gira (Trips 178-181). [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-CHE-45687",
+      "our_Trip_ID": "176",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 4,
+      "fuente": "https://www.abc.com.py/politica/2025/02/03/pena-retorna-al-pais-tras-viaje-n-39/",
+      "justificacion": "Nuestra fuente confirma explícitamente el discurso ante la OMC en Ginebra (no Davos). El Foro Económico Mundial (WEF) de Davos 2025 se realizó del 19 al 23 de enero de 2025, fuera de la ventana de este viaje (28-ene al 3-feb), por lo que la ciudad 'Davos' de COLT resulta geográfica y temporalmente inconsistente; probablemente un error de COLT o confusión con otro evento suizo. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-CHE-45687",
+      "our_Trip_ID": "176",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Destination_City",
+      "valor_correcto": "Geneva",
+      "fuente": "https://www.abc.com.py/politica/2025/02/03/pena-retorna-al-pais-tras-viaje-n-39/",
+      "justificacion": "Nuestra fuente confirma explícitamente el discurso ante la OMC en Ginebra (no Davos). El Foro Económico Mundial (WEF) de Davos 2025 se realizó del 19 al 23 de enero de 2025, fuera de la ventana de este viaje (28-ene al 3-feb), por lo que la ciudad 'Davos' de COLT resulta geográfica y temporalmente inconsistente; probablemente un error de COLT o confusión con otro evento suizo. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-TWN-45429",
+      "our_Trip_ID": "159",
+      "tipo": "discrepancia",
+      "campo": "Start_Date",
+      "veredicto": "nuestro_correcto",
+      "valor_correcto": "2024-05-18",
+      "fuente": "https://www.infobae.com/america/mundo/2024/05/19/santiago-pena-llego-a-taiwan-para-asistir-a-la-investidura-de-william-lai-como-nuevo-presidente-de-la-isla/",
+      "justificacion": "Infobae confirma que Peña llegó a Taiwán 'la mañana del domingo 19 de mayo' (hora local de Taiwán), viniendo de EE.UU.; dado el cruce de la línea de fecha internacional, esto es consistente con una salida el 18-may (nuestro registro) y no el 17-may (COLT)."
+    },
+    {
+      "colt_TripID": "4034-PRY-ARE-45260",
+      "our_Trip_ID": "150",
+      "tipo": "discrepancia",
+      "campo": "Duration_Days",
+      "veredicto": "nuestro_correcto",
+      "valor_correcto": "2",
+      "fuente": "COP28 se realizó del 30-nov al 12-dic-2023; patrón habitual de jefes de Estado de asistir solo al segmento de líderes (30-nov/2-dic) y no a la totalidad de la conferencia.",
+      "justificacion": "No se halló una fuente que confirme una estadía de 4 días en Dubái; el patrón típico de asistencia de jefes de Estado a COP28 (solo el segmento de líderes) respalda una estadía corta de 2 días, consistente con nuestro registro. Confianza moderada por falta de fuente directa."
+    },
+    {
+      "colt_TripID": "4034-PRY-ARE-45801",
+      "our_Trip_ID": "181",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": null,
+      "fuente": "No se halló fuente primaria con fechas exactas del tramo en Abu Dabi.",
+      "justificacion": "Dado que se confirmó que el tramo de Singapur en esta misma gira larga (mayo 2025) tenía fechas incorrectas en nuestra base (ver ítem SGP-45800), es posible que el tramo de EAU también requiera revisión, pero no se halló evidencia directa que permita decidir entre las fechas de COLT (23-may) o las nuestras (23-may también coincide como inicio, pero difieren en duración 3 vs 4). Se recomienda revisión conjunta de todo el tramo final de la gira J027. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-ARE-45801",
+      "our_Trip_ID": "181",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "No se halló fuente primaria con fechas exactas del tramo en Abu Dabi.",
+      "justificacion": "Dado que se confirmó que el tramo de Singapur en esta misma gira larga (mayo 2025) tenía fechas incorrectas en nuestra base (ver ítem SGP-45800), es posible que el tramo de EAU también requiera revisión, pero no se halló evidencia directa que permita decidir entre las fechas de COLT (23-may) o las nuestras (23-may también coincide como inicio, pero difieren en duración 3 vs 4). Se recomienda revisión conjunta de todo el tramo final de la gira J027. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-USA-45186",
+      "our_Trip_ID": "144",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2023-09-19",
+      "fuente": "https://www.mre.gov.py/embapar-ecuador/index.php/noticias/primer-discurso-del-presidente-santiago-pena-en-el-78-periodo-de-sesiones-de-la-asamblea-general-de-las-naciones-unidas-en-la-ci ; tweets decodificados 2023-09-21/22",
+      "justificacion": "Fuente oficial (MRE) confirma el discurso el 19-sep-2023. La duración de 9 días de COLT (17 al 25-sep) resulta implausible para una visita a la AGNU sin otra agenda paralela documentada; los tweets del presidente muestran actividad hasta el 21-22 sep, más cercano a nuestra estimación de 3 días que a la de COLT. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-USA-45186",
+      "our_Trip_ID": "144",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "https://www.mre.gov.py/embapar-ecuador/index.php/noticias/primer-discurso-del-presidente-santiago-pena-en-el-78-periodo-de-sesiones-de-la-asamblea-general-de-las-naciones-unidas-en-la-ci ; tweets decodificados 2023-09-21/22",
+      "justificacion": "Fuente oficial (MRE) confirma el discurso el 19-sep-2023. La duración de 9 días de COLT (17 al 25-sep) resulta implausible para una visita a la AGNU sin otra agenda paralela documentada; los tweets del presidente muestran actividad hasta el 21-22 sep, más cercano a nuestra estimación de 3 días que a la de COLT. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-USA-45222",
+      "our_Trip_ID": "145",
+      "tipo": "discrepancia",
+      "campo": "Start_Date",
+      "veredicto": "No_verificable",
+      "valor_correcto": null,
+      "fuente": "No se halló fuente independiente que confirme la fecha exacta de llegada (22 vs 23 de octubre de 2023) para el discurso ante la OEA.",
+      "justificacion": "Ambas fechas son plausibles (diferencia de un solo día); no se halló evidencia que decante hacia una u otra versión."
+    },
+    {
+      "colt_TripID": "4034-PRY-USA-45557",
+      "our_Trip_ID": "168",
+      "tipo": "discrepancia",
+      "campo": "Duration_Days",
+      "veredicto": "nuestro_correcto",
+      "valor_correcto": "7",
+      "fuente": "https://www.infobae.com/estados-unidos/2024/09/29/santiago-pena-desplego-su-agenda-politica-en-naciones-unidas-para-profundizar-la-insercion-global-de-paraguay/",
+      "justificacion": "Infobae confirma explícitamente que Peña 'viajó del 22 al 28 de septiembre' a Nueva York para el 79° período de sesiones de la AGNU, coincidiendo exactamente con nuestra Duration_Days=7 y contradiciendo los 5 días de COLT."
+    },
+    {
+      "colt_TripID": "4034-PRY-USA-45775",
+      "our_Trip_ID": "177",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": null,
+      "fuente": "Nuestra propia nota reconoce fechas estimadas; no se halló cobertura que confirme o descarte una escala en Nueva York antes de Los Ángeles.",
+      "justificacion": "No se encontró evidencia independiente sobre las fechas exactas ni sobre si el viaje incluyó una escala en Nueva York (COLT) o fue solo a Los Ángeles (nuestro registro). [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-USA-45775",
+      "our_Trip_ID": "177",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "Nuestra propia nota reconoce fechas estimadas; no se halló cobertura que confirme o descarte una escala en Nueva York antes de Los Ángeles.",
+      "justificacion": "No se encontró evidencia independiente sobre las fechas exactas ni sobre si el viaje incluyó una escala en Nueva York (COLT) o fue solo a Los Ángeles (nuestro registro). [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-USA-45775",
+      "our_Trip_ID": "177",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Destination_City",
+      "valor_correcto": null,
+      "fuente": "Nuestra propia nota reconoce fechas estimadas; no se halló cobertura que confirme o descarte una escala en Nueva York antes de Los Ángeles.",
+      "justificacion": "No se encontró evidencia independiente sobre las fechas exactas ni sobre si el viaje incluyó una escala en Nueva York (COLT) o fue solo a Los Ángeles (nuestro registro). [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "4034-PRY-USA-45922",
+      "our_Trip_ID": "187",
+      "tipo": "discrepancia",
+      "campo": "Duration_Days",
+      "veredicto": "No_verificable",
+      "valor_correcto": null,
+      "fuente": "No se halló fuente que confirme la duración exacta del viaje a la 80° AGNU (sep-2025) más allá de nuestra propia estimación de alta confiabilidad.",
+      "justificacion": "Diferencia de solo 1 día (5 nuestro vs 6 COLT); no se halló evidencia concluyente para decidir entre ambas versiones."
+    },
+    {
+      "colt_TripID": "4034-PRY-URY-45632",
+      "our_Trip_ID": "172",
+      "tipo": "discrepancia",
+      "campo": "Duration_Days",
+      "veredicto": "No_verificable",
+      "valor_correcto": null,
+      "fuente": "Nuestra propia nota reconoce fechas 'estimadas dentro del rango general de gira (6-14 dic 2024, Uruguay-Francia-Israel)'.",
+      "justificacion": "Tanto nuestra base como COLT parecen basarse en estimaciones para este primer tramo de la gira de diciembre 2024; no se halló fuente primaria con fecha exacta de salida de Montevideo."
+    },
+    {
+      "colt_TripID": "4034-PRY-BOL-45969",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "SourceLinks de COLT incluyen publicaciones de Facebook de presidenciaparaguay.gov.py y SantiPenaPY; Rodrigo Paz Pereira asumió efectivamente la presidencia de Bolivia en noviembre de 2025 (evento real y ampliamente cubierto).",
+      "justificacion": "Notas de COLT muy específicas (reunión con Deputy Secretary of State Christopher Landau, empresarios Julio Novillo y Samuel Doria Medina) consistentes con una visita real de un jefe de Estado a una investidura presidencial en un país vecino, patrón habitual de Peña. No está en nuestra base actual (que llega hasta oct-2025)."
+    },
+    {
+      "colt_TripID": "4034-PRY-BRA-45932",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.presidencia.gov.py/presidente-pena-impulsa-integracion-con-empresarios-de-mato-grosso-do-sul-y-acuerda-cooperacion-en-capacitacion-laboral/ ; https://www.presidencia.gov.py/jbs-anuncia-inversion-de-us-135-millones-en-paraguay-y-consolida-alianza-estrategica-con-el-pais/",
+      "justificacion": "Fuentes oficiales de Presidencia de Paraguay confirman visita a Mato Grosso do Sul (Brasil) con detalles verificables (anuncio de inversión de JBS, título de Ciudadano de Mato Grosso do Sul, visita al Puente Bioceánico). Evento posterior al último registro de nuestra base (oct-2025)."
+    },
+    {
+      "colt_TripID": "4034-PRY-BRA-46011",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.presidencia.gov.py/noticia/presidente-santiago-pena-plantea-una-agenda-de-integracion-mas-ambiciosa-durante-la-cumbre-del-mercosur/",
+      "justificacion": "Fuente oficial de Presidencia de Paraguay confirma participación en la Cumbre del MERCOSUR en Foz do Iguaçu, diciembre 2025 (patrón recurrente de cumbres semestrales del bloque ya documentado extensamente en nuestra base para años anteriores)."
+    },
+    {
+      "colt_TripID": "4034-PRY-EGY-45943",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.presidencia.gov.py/noticia/paraguay-presente-en-la-cumbre-por-la-paz-liderazgo-del-presidente-santiago-pena-en-un-momento-historico/",
+      "justificacion": "La Cumbre de Paz de Sharm El-Sheikh (13-oct-2025) fue un evento real y ampliamente cubierto internacionalmente (firma del acuerdo de paz en Gaza, con presencia de numerosos jefes de Estado incl. Trump). Fuente oficial paraguaya confirma la asistencia de Peña. COLT reconoce que las fechas exactas de inicio/fin no están claras; se recomienda agregar con nota de fecha aproximada."
+    },
+    {
+      "colt_TripID": "4034-PRY-HUN-46000",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.presidencia.gov.py/noticia/presidente-pena-inicia-agenda-oficial-en-hungria-con-reunion-de-alto-nivel-con-el-presidente-tamas-sulyok/",
+      "justificacion": "Fuente oficial confirma agenda en Hungría (reunión con el presidente Tamás Sulyok y el presidente de la Asamblea Nacional László Kövér). Nota: este viaje y el registrado como NOR-46000 (Noruega, mismo TripID numérico=9-dic-2025) parecen ser dos tramos consecutivos de una misma gira europea (Budapest luego Oslo, coincidiendo con la ceremonia del Nobel de la Paz el 10-dic), no un duplicado sino dos escalas reales de una gira."
+    },
+    {
+      "colt_TripID": "4034-PRY-ITA-45257",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "Coincide temáticamente con nuestros Trip_ID 148 (Italia, Roma, 26-28 nov 2023) y 149 (Vaticano, 27 nov 2023), mismo Journey_ID en nuestra base.",
+      "justificacion": "POSIBLE DUPLICADO INTERNO DE COLT: esta entrada ('Traveled back to Italy after visiting the Vatican... met with President of Ferrari and Fiat') describe el mismo viaje Roma-Vaticano-Dubai de noviembre 2023 que ya tenemos registrado como Trip 148/149 (el ítem discrepancia ITA-45256 corresponde a la misma gira). No se agrega como viaje nuevo; se recomienda incorporar el detalle de la reunión con Ferrari/Fiat como nota adicional al Trip148 existente."
+    },
+    {
+      "colt_TripID": "4034-PRY-ITA-45794",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "Coincide con nuestro Trip_ID 179 (Vatican City, 17-18 may 2025, misa de entronización del papa León XIV) y con el ítem discrepancia VAT-45795 de este mismo workpack.",
+      "justificacion": "POSIBLE DUPLICADO INTERNO DE COLT: describe el mismo evento (misa de entronización del papa León XIV, 17-18 mayo 2025, visita a la Basílica de Santa María la Mayor) que COLT ya registró por separado como 'Vatican City' (TripID VAT-45795). Es el mismo viaje físico categorizado dos veces por COLT bajo dos países distintos (Italia vs Ciudad del Vaticano). No corresponde agregar como viaje nuevo."
+    },
+    {
+      "colt_TripID": "4034-PRY-ITA-45944",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "Coincide con nuestro Trip_ID 188 (Italia, Roma, 11-16 oct 2025, invitación de Meloni) y con el ítem discrepancia ITA-45942 de este mismo workpack.",
+      "justificacion": "POSIBLE DUPLICADO INTERNO DE COLT: describe la reunión con el presidente Sergio Mattarella dentro de la misma visita de Estado a Italia (11-16 oct 2025) que ya está cubierta por nuestro Trip188 y por el ítem discrepancia ITA-45942 (que aparentemente es la misma visita partida por COLT en dos filas). No se agrega como viaje nuevo; el detalle de la reunión con Mattarella podría añadirse como nota al Trip188 existente."
+    },
+    {
+      "colt_TripID": "4034-PRY-JPN-45796",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.infobae.com/america/agencias/2025/05/21/pena-extiende-hasta-el-27-de-mayo-su-gira-por-japon-singapur-y-emiratos-arabes-unidos/ ; https://www.rdn.com.py/2025/05/21/pena-prolonga-su-estadia-en-el-exterior-y-vuelve-el-27-de-mayo/",
+      "justificacion": "Infobae y RDN confirman explícitamente que la gira de mayo 2025 incluyó un tramo por 'Japón, Singapur y Emiratos Árabes Unidos', lo cual respalda que hubo una visita a Japón distinta de nuestro Trip178 (Osaka, 1-4 mayo, viaje separado y anterior). Los contenidos de esta entrada (Día Nacional de Paraguay en la Expo Osaka, memorial de Hiroshima, reunión con el ex primer ministro Kishida, seminario JETRO/KEIDANREN, bilateral con el primer ministro Ishiba) son muy específicos y no se solapan con las notas de nuestro Trip178. Aparenta ser un tramo real de la gira larga (Vaticano->Japón->Singapur->EAU) que actualmente no está capturado en nuestra base; se recomienda agregar y revisar en conjunto con el hallazgo del ítem SGP-45800 (que confirmó fechas oficiales de Singapur 23-24 may, dejando un hueco 19-22 may compatible con este tramo japonés)."
+    },
+    {
+      "colt_TripID": "4034-PRY-NOR-46000",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.presidencia.gov.py/noticia/presidente-pena-acompana-en-oslo-la-entrega-del-premio-nobel-de-la-paz-a-maria-corina-machado-un-homenaje-a-la-democracia-y-la-libertad/",
+      "justificacion": "Fuente oficial confirma asistencia a la ceremonia del Premio Nobel de la Paz 2025 (otorgado a María Corina Machado, hecho real y ampliamente cubierto), reunión con el Rey Harald V y con Ana Corina Sosa (hija de Machado). Tramo real de una gira europea junto con Hungría (ver nota en HUN-46000), no duplicado."
+    },
+    {
+      "colt_TripID": "4034-PRY-PAN-45950",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.presidencia.gov.py/noticia/presidente-santiago-pena-fortalece-integracion-regional-y-global-en-visita-oficial-a-panama/ ; https://www.presidencia.gov.py/noticia/en-la-asamblea-nacional-de-panama-el-presidente-pena-llama-a-construir-puentes-que-permitan-paz-integracion-y-desarrollo/",
+      "justificacion": "Fuentes oficiales confirman discurso ante la Asamblea Nacional de Panamá y reuniones con el Parlatino y la Cámara de Comercio, en el contexto de la eventual incorporación de Panamá al MERCOSUR (tema de política exterior activo). Consistente con el patrón de viajes frecuentes de Peña; posterior al último registro de nuestra base."
+    },
+    {
+      "colt_TripID": "4034-PRY-GBR-45853",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "https://www.gov.uk/government/news/official-visit-from-paraguayan-president-santiago-pena-to-the-uk ; https://www.lanacion.com.py/politica/2025/07/16/rey-carlos-iii-invito-a-pena-para-visita-de-estado-en-londres/ ; https://www.abc.com.py/nacionales/2025/07/15/pena-llego-a-londres-en-costosisimo-jet-y-lo-recibe-una-funcionaria-de-segundo-nivel/",
+      "justificacion": "IMPORTANTE - no es un viaje nuevo sino el MISMO viaje que ya tenemos registrado como Trip_ID 184 (Reino Unido, Windsor, Rey Carlos III), pero con fechas incorrectas en nuestra base. Múltiples fuentes de prensa independientes (La Nación, ABC Color, Infobae, gov.uk) confirman que la visita real fue del 15 al 16-19 de julio de 2025 (llegada martes 15-jul, audiencia con el Rey el miércoles 16-jul), NO del 21 al 24-jul como figura actualmente en nuestro Trip184 (que nuestra propia nota ya marcaba como 'fechas estimadas... pendiente de verificación con fuente directa'). Se recomienda corregir las fechas del Trip184 existente (a ~15-19 jul 2025) en lugar de agregar esta entrada de COLT como un viaje nuevo, para evitar un duplicado."
+    },
+    {
+      "colt_TripID": "4034-PRY-USA-45674",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "SourceLinks de COLT incluyen artículo de prensa (Lexis-Nexis, no accesible) y tweet propio; la investidura de Donald Trump como presidente de EE.UU. fue el 20-ene-2025, evento real y ampliamente cubierto con asistencia de numerosos jefes de Estado extranjeros.",
+      "justificacion": "Contenido específico y verificable (reunión con el Secretario de Estado Marco Rubio, participación en el Western Hemisphere Security Forum, reunión con el congresista Brian Mast) consistente con un viaje real a Washington D.C. en enero 2025. No está en nuestra base actual."
+    },
+    {
+      "colt_TripID": "4034-PRY-USA-45782",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "SourceLinks de COLT incluyen artículos de edicion.presidencia.gov.py sobre el Milken Institute Global Conference (evento real, celebrado anualmente en Los Ángeles en la primera semana de mayo).",
+      "justificacion": "Contenido específico (panel 'Leaders in Finance' en el Milken Institute Global Conference 2025, reunión con el Enviado Especial Richard Grenell, celebración del 77° aniversario de independencia de Israel) consistente con un viaje real de 1 día a Los Ángeles el 5-may-2025, distinto y posterior a nuestro Trip177 (Los Ángeles, 26-29 abr 2025, agenda empresarial general)."
+    },
+    {
+      "colt_TripID": "4034-PRY-URY-45393",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://en.mercopress.com/2024/04/12/presidents-pena-and-lacalle-pou-fly-together-to-uruguay",
+      "justificacion": "Mercopress confirma el viaje conjunto de Peña y Lacalle Pou a Uruguay en abril de 2024, con la firma del acta de sede para el Mundial 2030. Este viaje es distinto de nuestro Trip146 (Montevideo, 27-oct-2023, reunión trilateral con Lacalle Pou y Alberto Fernández sobre la organización del Mundial 2030) por tratarse de un evento diferente (firma del acta) seis meses después."
+    },
+    {
+      "colt_TripID": "4034-PRY-URY-45582",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Tweet de @SantiPenap citado en SourceLinks de COLT, fechado 2024-10-18T19:29 UTC (decodificado); America Business Forum es un evento anual real celebrado en Montevideo.",
+      "justificacion": "Contenido específico y verificable (participación como orador en el America Business Forum, reunión con el CEO de CHR Group) consistente con un viaje real a Montevideo en octubre de 2024."
+    },
+    {
+      "colt_TripID": "4034-PRY-URY-45716",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Tweets de @SantiPenap citados en SourceLinks de COLT, fechados entre 2025-02-28T20:56 UTC y 2025-03-02T22:37 UTC (decodificados); Yamandú Orsi asumió la presidencia de Uruguay el 1-mar-2025 (evento real, ampliamente cubierto).",
+      "justificacion": "Múltiples tweets del propio presidente confirman actividad continua en Montevideo entre el 28-feb y el 2-mar-2025, consistente con la asunción de Orsi y la reunión con el Secretario General de la OEA Luis Almagro."
+    },
+    {
+      "colt_TripID": "4034-PRY-UZB-46002",
+      "colt_LeaderID": "4034",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://president.uz/en/lists/view/8765 ; tweet de @SantiPenap fechado 2025-12-12 (decodificado)",
+      "justificacion": "Fuente oficial del gobierno de Uzbekistán (president.uz) confirma la visita, con detalles verificables (firma de una Declaración Conjunta con el presidente Mirziyoyev, participación en la Asamblea General de la Federación Internacional del Automóvil, entrega del premio por el título mundial de rally de Paraguay). Evento real y bien documentado, posterior al último registro de nuestra base."
+    }
+  ]
+}

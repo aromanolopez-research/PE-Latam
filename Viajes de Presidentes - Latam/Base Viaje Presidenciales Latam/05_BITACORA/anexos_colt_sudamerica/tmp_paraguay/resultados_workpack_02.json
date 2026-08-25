@@ -5,10 +5,20 @@
       "our_Trip_ID": "21",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/Duration_Days",
-      "valor_correcto": "Start_Date=2005-11-04; Duration_Days=2 (2005-11-04 a 2005-11-05)",
+      "campo": "Start_Date",
+      "valor_correcto": "2005-11-04",
       "fuente": "https://es.wikipedia.org/wiki/IV_Cumbre_de_las_Am%C3%A9ricas ; https://summit-americas.org/sas/Cumbres_previas_IVCumbre.html",
-      "justificacion": "Multiples fuentes (Wikipedia, summit-americas.org, prensa de Mar del Plata) confirman que la IV Cumbre de las Americas se celebro los dias 4 y 5 de noviembre de 2005. Nuestro dato (inicio 4-nov, 2 dias) coincide exactamente; el inicio 3-nov y duracion de 1 dia de COLT no corresponde a las fechas oficiales de la cumbre."
+      "justificacion": "Multiples fuentes (Wikipedia, summit-americas.org, prensa de Mar del Plata) confirman que la IV Cumbre de las Americas se celebro los dias 4 y 5 de noviembre de 2005. Nuestro dato (inicio 4-nov, 2 dias) coincide exactamente; el inicio 3-nov y duracion de 1 dia de COLT no corresponde a las fechas oficiales de la cumbre. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "1849-PRY-ARG-38659",
+      "our_Trip_ID": "21",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://es.wikipedia.org/wiki/IV_Cumbre_de_las_Am%C3%A9ricas ; https://summit-americas.org/sas/Cumbres_previas_IVCumbre.html",
+      "justificacion": "Multiples fuentes (Wikipedia, summit-americas.org, prensa de Mar del Plata) confirman que la IV Cumbre de las Americas se celebro los dias 4 y 5 de noviembre de 2005. Nuestro dato (inicio 4-nov, 2 dias) coincide exactamente; el inicio 3-nov y duracion de 1 dia de COLT no corresponde a las fechas oficiales de la cumbre. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "1849-PRY-ARG-39425",
@@ -16,69 +26,129 @@
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
       "campo": "Duration_Days",
-      "valor_correcto": "2 (2007-12-09 a 2007-12-10)",
+      "valor_correcto": 2,
       "fuente": "https://www.cfkargentina.com/asuncion-de-cristina-kirchner-10-de-diciembre-de-2007/",
-      "justificacion": "El discurso oficial de CFK (fuente primaria, ya citada en nuestra base con reliability High) menciona explicitamente al presidente de Paraguay entre los firmantes del Acta Fundacional del Banco del Sur el 9-dic-2007, la vispera de la asuncion presidencial del 10-dic. Esto sustenta el viaje de 2 dias; COLT solo registro el dia de la asuncion."
+      "justificacion": "El discurso oficial de CFK (fuente primaria, ya citada en nuestra base con reliability High) menciona explicitamente al presidente de Paraguay entre los firmantes del Acta Fundacional del Banco del Sur el 9-dic-2007, la vispera de la asuncion presidencial del 10-dic. Esto sustenta el viaje de 2 dias; COLT solo registro el dia de la asuncion. [valor_correcto reemplazado por el valor autoritativo de la tabla de diferencias del triage - correccion 3]"
     },
     {
       "colt_TripID": "1849-PRY-BOL-37940",
       "our_Trip_ID": "14",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/Duration_Days",
-      "valor_correcto": "Start_Date=2003-11-14; Duration_Days=2 (2003-11-14 a 2003-11-15)",
+      "campo": "Start_Date",
+      "valor_correcto": "2003-11-14",
       "fuente": "https://segib.org/?summit=xiii-cumbre-iberoamericana-santa-cruz-de-la-sierra-2003",
-      "justificacion": "La XIII Cumbre Iberoamericana de Santa Cruz de la Sierra se realizo el 14 y 15 de noviembre de 2003 segun SEGIB y otras fuentes cruzadas. Nuestro dato (inicio 14-nov, 2 dias) coincide con las fechas oficiales; el inicio 15-nov y 1 dia de COLT solo capta el dia de cierre."
+      "justificacion": "La XIII Cumbre Iberoamericana de Santa Cruz de la Sierra se realizo el 14 y 15 de noviembre de 2003 segun SEGIB y otras fuentes cruzadas. Nuestro dato (inicio 14-nov, 2 dias) coincide con las fechas oficiales; el inicio 15-nov y 1 dia de COLT solo capta el dia de cierre. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "1849-PRY-BOL-37940",
+      "our_Trip_ID": "14",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://segib.org/?summit=xiii-cumbre-iberoamericana-santa-cruz-de-la-sierra-2003",
+      "justificacion": "La XIII Cumbre Iberoamericana de Santa Cruz de la Sierra se realizo el 14 y 15 de noviembre de 2003 segun SEGIB y otras fuentes cruzadas. Nuestro dato (inicio 14-nov, 2 dias) coincide con las fechas oficiales; el inicio 15-nov y 1 dia de COLT solo capta el dia de cierre. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "1849-PRY-BRA-38625",
       "our_Trip_ID": "19",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/Duration_Days",
-      "valor_correcto": "Start_Date=2005-09-29; Duration_Days=2 (2005-09-29 a 2005-09-30)",
+      "campo": "Start_Date",
+      "valor_correcto": "2005-09-29",
       "fuente": "Real Instituto Elcano / Teseopress (busqueda agregada): I Cumbre de la Comunidad Sudamericana de Naciones, Brasilia, 29-30 septiembre 2005",
-      "justificacion": "Multiples fuentes coinciden en que la cumbre fundacional de la Comunidad Sudamericana de Naciones se realizo el 29 y 30 de septiembre de 2005. Nuestro dato coincide exactamente; el inicio 30-sep y 1 dia de COLT solo capta el segundo dia."
+      "justificacion": "Multiples fuentes coinciden en que la cumbre fundacional de la Comunidad Sudamericana de Naciones se realizo el 29 y 30 de septiembre de 2005. Nuestro dato coincide exactamente; el inicio 30-sep y 1 dia de COLT solo capta el segundo dia. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "1849-PRY-BRA-38625",
+      "our_Trip_ID": "19",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "Real Instituto Elcano / Teseopress (busqueda agregada): I Cumbre de la Comunidad Sudamericana de Naciones, Brasilia, 29-30 septiembre 2005",
+      "justificacion": "Multiples fuentes coinciden en que la cumbre fundacional de la Comunidad Sudamericana de Naciones se realizo el 29 y 30 de septiembre de 2005. Nuestro dato coincide exactamente; el inicio 30-sep y 1 dia de COLT solo capta el segundo dia. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "1849-PRY-CRI-38309",
       "our_Trip_ID": "17",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/Duration_Days",
-      "valor_correcto": "Start_Date=2004-11-19; Duration_Days=2 (2004-11-19 a 2004-11-20)",
+      "campo": "Start_Date",
+      "valor_correcto": "2004-11-19",
       "fuente": "https://segib.org/es/xiv-cumbre-iberoamericana-educar-para-progresar-como-region/",
-      "justificacion": "La XIV Cumbre Iberoamericana de San Jose se celebro el 19 y 20 de noviembre de 2004 (fuente oficial SEGIB, ya usada en nuestra base con reliability Medium/Verificada-URL). Nuestro dato coincide exactamente con las fechas oficiales de la cumbre. Nota: el item colt_unico 1849-PRY-VEN-38308 de este mismo workpack trae la nota propia de COLT 'dates conflict with Costa Rica trip' (Venezuela 17-nov vs. su propio Costa Rica 18-nov), lo que sugiere una inconsistencia interna de fechas en el dataset de COLT que no nos corresponde resolver, solo señalar."
+      "justificacion": "La XIV Cumbre Iberoamericana de San Jose se celebro el 19 y 20 de noviembre de 2004 (fuente oficial SEGIB, ya usada en nuestra base con reliability Medium/Verificada-URL). Nuestro dato coincide exactamente con las fechas oficiales de la cumbre. Nota: el item colt_unico 1849-PRY-VEN-38308 de este mismo workpack trae la nota propia de COLT 'dates conflict with Costa Rica trip' (Venezuela 17-nov vs. su propio Costa Rica 18-nov), lo que sugiere una inconsistencia interna de fechas en el dataset de COLT que no nos corresponde resolver, solo señalar. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "1849-PRY-CRI-38309",
+      "our_Trip_ID": "17",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://segib.org/es/xiv-cumbre-iberoamericana-educar-para-progresar-como-region/",
+      "justificacion": "La XIV Cumbre Iberoamericana de San Jose se celebro el 19 y 20 de noviembre de 2004 (fuente oficial SEGIB, ya usada en nuestra base con reliability Medium/Verificada-URL). Nuestro dato coincide exactamente con las fechas oficiales de la cumbre. Nota: el item colt_unico 1849-PRY-VEN-38308 de este mismo workpack trae la nota propia de COLT 'dates conflict with Costa Rica trip' (Venezuela 17-nov vs. su propio Costa Rica 18-nov), lo que sugiere una inconsistencia interna de fechas en el dataset de COLT que no nos corresponde resolver, solo señalar. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "1849-PRY-TWN-39360",
       "our_Trip_ID": "30",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/Duration_Days",
-      "valor_correcto": "Start_Date=2007-10-08; Duration_Days=4 (2007-10-08 a 2007-10-11)",
+      "campo": "Start_Date",
+      "valor_correcto": "2007-10-08",
       "fuente": "https://english.president.gov.tw/NEWS/2804 ; http://www.taipeitimes.com/News/taiwan/archives/2007/10/09/2003382349",
-      "justificacion": "La fuente oficial de la Presidencia de Taiwan confirma la ceremonia de bienvenida con Chen Shui-bian el 8-oct-2007, coincidiendo con el Dia Nacional (10-oct) y el cumpleanos presidencial (11-oct), tal como registra nuestra base (reliability High). No se hallo evidencia de una llegada el 5-oct como indica COLT; su duracion de 7 dias no esta corroborada."
+      "justificacion": "La fuente oficial de la Presidencia de Taiwan confirma la ceremonia de bienvenida con Chen Shui-bian el 8-oct-2007, coincidiendo con el Dia Nacional (10-oct) y el cumpleanos presidencial (11-oct), tal como registra nuestra base (reliability High). No se hallo evidencia de una llegada el 5-oct como indica COLT; su duracion de 7 dias no esta corroborada. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "1849-PRY-TWN-39360",
+      "our_Trip_ID": "30",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 4,
+      "fuente": "https://english.president.gov.tw/NEWS/2804 ; http://www.taipeitimes.com/News/taiwan/archives/2007/10/09/2003382349",
+      "justificacion": "La fuente oficial de la Presidencia de Taiwan confirma la ceremonia de bienvenida con Chen Shui-bian el 8-oct-2007, coincidiendo con el Dia Nacional (10-oct) y el cumpleanos presidencial (11-oct), tal como registra nuestra base (reliability High). No se hallo evidencia de una llegada el 5-oct como indica COLT; su duracion de 7 dias no esta corroborada. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "1849-PRY-USA-37886",
       "our_Trip_ID": "13",
       "tipo": "discrepancia",
       "veredicto": "No_verificable",
-      "campo": "Start_Date/Duration_Days",
-      "valor_correcto": "",
+      "campo": "Start_Date",
+      "valor_correcto": null,
       "fuente": "https://georgewbush-whitehouse.archives.gov/news/releases/2003/09/images/text/20030926-1_p33857-08a-515h.html (reunion confirmada 26-sep-2003)",
-      "justificacion": "Se confirmo la reunion bilateral con Bush el 26-sep-2003 (compatible con ambos rangos, el nuestro 23-27 sep y el de COLT 22-28 sep). No se hallo prensa paraguaya ni ningun otro registro que confirme la fecha exacta de llegada/salida de Duarte Frutos a Nueva York durante el 58 periodo de la AGNU, por lo que no se puede determinar cual de los dos rangos es el correcto."
+      "justificacion": "Se confirmo la reunion bilateral con Bush el 26-sep-2003 (compatible con ambos rangos, el nuestro 23-27 sep y el de COLT 22-28 sep). No se hallo prensa paraguaya ni ningun otro registro que confirme la fecha exacta de llegada/salida de Duarte Frutos a Nueva York durante el 58 periodo de la AGNU, por lo que no se puede determinar cual de los dos rangos es el correcto. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "1849-PRY-USA-37886",
+      "our_Trip_ID": "13",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "https://georgewbush-whitehouse.archives.gov/news/releases/2003/09/images/text/20030926-1_p33857-08a-515h.html (reunion confirmada 26-sep-2003)",
+      "justificacion": "Se confirmo la reunion bilateral con Bush el 26-sep-2003 (compatible con ambos rangos, el nuestro 23-27 sep y el de COLT 22-28 sep). No se hallo prensa paraguaya ni ningun otro registro que confirme la fecha exacta de llegada/salida de Duarte Frutos a Nueva York durante el 58 periodo de la AGNU, por lo que no se puede determinar cual de los dos rangos es el correcto. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "1849-PRY-URY-38695",
       "our_Trip_ID": "22",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/Duration_Days",
-      "valor_correcto": "Start_Date=2005-12-08; Duration_Days=2 (2005-12-08 a 2005-12-09)",
+      "campo": "Start_Date",
+      "valor_correcto": "2005-12-08",
       "fuente": "Busqueda agregada sobre ingreso de Venezuela a Mercosur: Acuerdo Marco firmado 8-dic-2005, cumbre concluyo 9-dic-2005 en Montevideo",
-      "justificacion": "El Acuerdo Marco de adhesion de Venezuela se firmo el 8-dic-2005 y la cumbre concluyo el 9-dic-2005, lo que respalda un viaje de 2 dias como registra nuestra base. El inicio 9-dic y 1 dia de COLT solo capta el dia de cierre, perdiendo el dia de la firma del acuerdo."
+      "justificacion": "El Acuerdo Marco de adhesion de Venezuela se firmo el 8-dic-2005 y la cumbre concluyo el 9-dic-2005, lo que respalda un viaje de 2 dias como registra nuestra base. El inicio 9-dic y 1 dia de COLT solo capta el dia de cierre, perdiendo el dia de la firma del acuerdo. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "1849-PRY-URY-38695",
+      "our_Trip_ID": "22",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "Busqueda agregada sobre ingreso de Venezuela a Mercosur: Acuerdo Marco firmado 8-dic-2005, cumbre concluyo 9-dic-2005 en Montevideo",
+      "justificacion": "El Acuerdo Marco de adhesion de Venezuela se firmo el 8-dic-2005 y la cumbre concluyo el 9-dic-2005, lo que respalda un viaje de 2 dias como registra nuestra base. El inicio 9-dic y 1 dia de COLT solo capta el dia de cierre, perdiendo el dia de la firma del acuerdo. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "1849-PRY-URY-39024",
@@ -86,9 +156,9 @@
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
       "campo": "Duration_Days",
-      "valor_correcto": "3 (2006-11-03 a 2006-11-05)",
+      "valor_correcto": 3,
       "fuente": "https://segib.org/es/xvi-cumbre-iberoamericana-migracion-y-desarrollo-en-la-region/",
-      "justificacion": "Fuentes cruzadas confirman que la XVI Cumbre Iberoamericana de Montevideo se realizo los dias 3, 4 y 5 de noviembre de 2006, coincidiendo exactamente con nuestro rango de 3 dias. La duracion de 2 dias de COLT no corresponde a las fechas oficiales de la cumbre."
+      "justificacion": "Fuentes cruzadas confirman que la XVI Cumbre Iberoamericana de Montevideo se realizo los dias 3, 4 y 5 de noviembre de 2006, coincidiendo exactamente con nuestro rango de 3 dias. La duracion de 2 dias de COLT no corresponde a las fechas oficiales de la cumbre. [valor_correcto reemplazado por el valor autoritativo de la tabla de diferencias del triage - correccion 3]"
     },
     {
       "colt_TripID": "1849-PRY-ARG-37972",

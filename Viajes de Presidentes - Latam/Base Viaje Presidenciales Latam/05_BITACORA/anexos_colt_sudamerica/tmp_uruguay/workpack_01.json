@@ -1,0 +1,507 @@
+[
+  {
+    "colt_TripID": "1514-URY-AGO-37911",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "16",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2003-10-15",
+        "colt": "2003-10-17"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-CAN-37000",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "4",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2001-04-20",
+        "colt": "2001-04-19"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-COD-38106",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "20",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2004-04-27",
+        "colt": "2004-04-29"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-CRI-38309",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "22",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-VAT-37907",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "14",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2003-10-11",
+        "colt": "2003-10-13"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-ITA-37905",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "15",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2003-10-13",
+        "colt": "2003-10-11"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-MEX-37998",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "18",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-ESP-38017",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "19",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2004-02-02",
+        "colt": "2004-01-31"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 9
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-USA-37204",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "5",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2001-11-08",
+        "colt": "2001-11-09"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-USA-38250",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "21",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2004-09-22",
+        "colt": "2004-09-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-ARG-37252",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2001-12-27",
+    "TripDuration": "1",
+    "Notes": "Participated in rotating presidency ceremony of the South American Common Market (Mercosur);handing over the bloc's presidency to Argentina's interim President;Adolfo Rodriguez Saa"
+  },
+  {
+    "colt_TripID": "1514-URY-ARG-37440",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2002-07-03",
+    "TripDuration": "3",
+    "Notes": "Signed a joint declaration with leaders present at Summit  Signed separate agreement for trade in automobiles between the Mercosur and Mexico"
+  },
+  {
+    "colt_TripID": "1514-URY-ARG-37766",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2003-05-25",
+    "TripDuration": "2",
+    "Notes": "Attended the inauguration ceremony of President Kirchner."
+  },
+  {
+    "colt_TripID": "1514-URY-ARG-38175",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2004-07-07",
+    "TripDuration": "3",
+    "Notes": "Participated in a joint press Conference with world leaders present  Signed a framework agreement along with Mercosur members present agreeing to a procedure for the automatic inclusion of Mercosur regulations in the national legislation of the member nations with Egypt  Met with a group of national and Chilean businessmen on the occasion of the inauguration of a wood cutting plant in the region of La Tablada"
+  },
+  {
+    "colt_TripID": "1514-URY-BRA-37347",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2002-04-01",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1514-URY-BRA-37622",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2003-01-01",
+    "TripDuration": "1",
+    "Notes": "Attended the inauguration of President-elect Luiz Inacio Lula da Silva.  Met with U.S. Trade Representative Robert Zoellick."
+  },
+  {
+    "colt_TripID": "1514-URY-BRA-37753",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2003-05-12",
+    "TripDuration": "2",
+    "Notes": "Date of return unclear based on public information available  Delivered speech making the point that he would be Mercosur's veteran president as from June-no president has been in power as long as he  Signed joint statement along with President Lula stressing that the two governments must encourage joint undertakings by Brazilian and Uruguayan firms with BNDES support"
+  },
+  {
+    "colt_TripID": "1514-URY-BRA-38232",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2004-09-02",
+    "TripDuration": "4",
+    "Notes": "attended international livestock exibition"
+  },
+  {
+    "colt_TripID": "1514-URY-BRA-38295",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2004-11-04",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1514-URY-CHL-36596",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2000-03-11",
+    "TripDuration": "2",
+    "Notes": "Attended the inauguration of President Ricardo Lagos  Date of departure and return unclear based on public information unclear"
+  },
+  {
+    "colt_TripID": "1514-URY-CHL-36815",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2000-10-16",
+    "TripDuration": "2",
+    "Notes": "Attended the the 56th Assembly of the Inter-American Press Society.  Also met with Chilean entrepreneurs to discuss possible investment projects on Uruguayan forestry."
+  },
+  {
+    "colt_TripID": "1514-URY-CHL-37165",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2001-10-01",
+    "TripDuration": "6",
+    "Notes": "Laid Wreath at monument of General Bernardo O'Higgins"
+  },
+  {
+    "colt_TripID": "1514-URY-CHN-37542",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "China",
+    "CityVisited": null,
+    "TripStartDate": "2002-10-13",
+    "TripDuration": "6",
+    "Notes": "Visited Xi'an and Shanghai in addition to Beijing  Signed bilateral agreements in relation to economic cooperation  Also met Chairman Li Peng of the National People's Congress (NPC) Standing Commiittee;Premier Zhu Rongji;Shanghai Mayor Chen Liangyu;and Wu Chenglin (head of the Shanghai branch of the China Council for the Promotion of International Trade)"
+  },
+  {
+    "colt_TripID": "1514-URY-COL-37956",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2003-12-01",
+    "TripDuration": "3",
+    "Notes": "Delivered public address urging all American countries to cooperate with Colombia;as the armed conflict;in which Colombia is immersed affects the whole region."
+  },
+  {
+    "colt_TripID": "1514-URY-CRI-37356",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Costa Rica",
+    "CityVisited": null,
+    "TripStartDate": "2002-04-10",
+    "TripDuration": "3",
+    "Notes": "Delivered public remarks during Summit."
+  },
+  {
+    "colt_TripID": "1514-URY-DOM-37577",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Dominican Republic",
+    "CityVisited": null,
+    "TripStartDate": "2002-11-17",
+    "TripDuration": "1",
+    "Notes": "Date of departure and return unclear based on public information available"
+  },
+  {
+    "colt_TripID": "1514-URY-DOM-38215",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Dominican Republic",
+    "CityVisited": null,
+    "TripStartDate": "2004-08-16",
+    "TripDuration": "6",
+    "Notes": "Presedential Inaugeration"
+  },
+  {
+    "colt_TripID": "1514-URY-HTI-38216",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Haiti",
+    "CityVisited": null,
+    "TripStartDate": "2004-08-17",
+    "TripDuration": "2",
+    "Notes": "visiting Uraguayan Troops stationed in Haiti"
+  },
+  {
+    "colt_TripID": "1514-URY-JPN-36996",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Japan",
+    "CityVisited": null,
+    "TripStartDate": "2001-04-15",
+    "TripDuration": "5",
+    "Notes": "Also met with Emperor Akihito and Empress Michiko  Visited Hiroshima  Delivered speech addressing thhe economy of Uruguay as well as appealing for Peace  Laid wreath during visit at Hiroshima Peace Memorial Park Toured the Hiroshima Peace Memorial Museum Also met with industrialists and bankers"
+  },
+  {
+    "colt_TripID": "1514-URY-MEX-37334",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2002-03-19",
+    "TripDuration": "5",
+    "Notes": "Date of return unclear based on public information available  Signed bilateral trade agreements with Mexico and Canada aiming to boost trade with Mexico;Canada;and the United States"
+  },
+  {
+    "colt_TripID": "1514-URY-MEX-38135",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2004-05-28",
+    "TripDuration": "2",
+    "Notes": null
+  },
+  {
+    "colt_TripID": "1514-URY-MEX-38237",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Mexico",
+    "CityVisited": null,
+    "TripStartDate": "2004-09-07",
+    "TripDuration": "2",
+    "Notes": "Participated in the international seminar 'Democracy;Politics;and the State' in Mexico City;organized by the UN Development Programme and the Mexican government"
+  },
+  {
+    "colt_TripID": "1514-URY-PAN-36846",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Panama",
+    "CityVisited": null,
+    "TripStartDate": "2000-11-16",
+    "TripDuration": "4",
+    "Notes": "Date of departure and return unclear based on public information available"
+  },
+  {
+    "colt_TripID": "1514-URY-PRY-36792",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Paraguay",
+    "CityVisited": null,
+    "TripStartDate": "2000-09-23",
+    "TripDuration": "1",
+    "Notes": "Purpose of visit to commemorate the 150th anniversary of the death of Uruguayan founding forefather Jose Gervasio Artigas"
+  },
+  {
+    "colt_TripID": "1514-URY-PRY-37064",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Paraguay",
+    "CityVisited": null,
+    "TripStartDate": "2001-06-22",
+    "TripDuration": "2",
+    "Notes": "Date of departure and return unclear based on public information available"
+  },
+  {
+    "colt_TripID": "1514-URY-PRY-37790",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Paraguay",
+    "CityVisited": null,
+    "TripStartDate": "2003-06-18",
+    "TripDuration": "1",
+    "Notes": "Signed joint communique with member leaders present at Summit reiterating their commitment to the strengthening of Mercosur;with the goal of assuring the sustainable development of their countries and the competitive insertion in global economy  Also signed joint declaration in which they described the \"preservation and deepening of democracy and its values in the region;the full validity of the institutions and the rule of the law\" as fundamental basis for the Mercosur"
+  },
+  {
+    "colt_TripID": "1514-URY-PRY-37848",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Paraguay",
+    "CityVisited": null,
+    "TripStartDate": "2003-08-15",
+    "TripDuration": "2",
+    "Notes": "Attended the inauguration ceremony of President-elect Nicanor Duarte."
+  },
+  {
+    "colt_TripID": "1514-URY-ZAF-38104",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "South Africa",
+    "CityVisited": null,
+    "TripStartDate": "2004-04-27",
+    "TripDuration": "3",
+    "Notes": "Attended Inaugeration of Thabo Mbeki"
+  },
+  {
+    "colt_TripID": "1514-URY-USA-37004",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2001-04-23",
+    "TripDuration": "4",
+    "Notes": "Date of departure for the United States and purpose of visit unclear based on public information available  Visit cut short following outbreak of foot and mouth disease in home state"
+  },
+  {
+    "colt_TripID": "1514-URY-USA-37137",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2001-09-03",
+    "TripDuration": "6",
+    "Notes": "Signed the \"Summit Declaration\" along with other presidents present."
+  },
+  {
+    "colt_TripID": "1514-URY-USA-37626",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2003-01-05",
+    "TripDuration": "1",
+    "Notes": "Attended Florida Governor Jeb Bush's inauguration."
+  },
+  {
+    "colt_TripID": "1514-URY-USA-37730",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "United States",
+    "CityVisited": "Washington DC",
+    "TripStartDate": "2003-04-19",
+    "TripDuration": "8",
+    "Notes": "Participated in a Conference of the Pan-American Health Organization (PHO)."
+  },
+  {
+    "colt_TripID": "1514-URY-USA-37880",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "United States",
+    "CityVisited": null,
+    "TripStartDate": "2003-09-16",
+    "TripDuration": "2",
+    "Notes": "Met with Gov. Jeb Bush in Miami to support Miami's bid to be the headquarters of the 34-member Free Trade Area of the Americas.  Also delivered public address during visit to Florida International University (FIU).  Date of return unclear based on public information available."
+  },
+  {
+    "colt_TripID": "1514-URY-VEN-36718",
+    "colt_LeaderID": "1514",
+    "LeaderFullName": "Jorge Batlle",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2000-07-11",
+    "TripDuration": "1",
+    "Notes": "Date of departure and return unclear based on public information available  Attended Meeting between President Hugo Chavez and Fernando de la Rua;and Foreign Minister Adalberto Rodriguez Giavarini"
+  }
+]

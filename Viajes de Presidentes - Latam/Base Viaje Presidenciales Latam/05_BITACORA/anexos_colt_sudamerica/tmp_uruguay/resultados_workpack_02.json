@@ -1,0 +1,235 @@
+{
+  "resultados": [
+    {
+      "colt_TripID": "191-URY-ARG-35239",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.mercosur.int/declaracion-especial-de-los-presidentes-de-los-estados-partes-del-mercosur-y-estados-asociados-sobre-la-cuestion-de-las-islas-malvinas-2 ; https://www.cancilleria.gob.ar/es/actualidad/noticias/declaracion-especial-de-los-presidentes-de-los-estados-partes-del-mercosur-y-0",
+      "justificacion": "La X Cumbre de Presidentes del Mercosur se realizo en San Luis (Potrero de los Funes) el 25/6/1996, donde se firmo la Declaracion sobre Malvinas por los presidentes del bloque, incluido Sanguinetti. Coincide con TripStartDate y Notes de COLT."
+    },
+    {
+      "colt_TripID": "191-URY-ARG-35999",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.lanacion.com.ar/politica/ushuaia-sede-de-la-cumbre-del-mercosur-nid103304/ ; Protocolo de Ushuaia (Parlasur, Mercosur)",
+      "justificacion": "Nota de La Nacion (13/7/1998) confirma que Sanguinetti arribo a Ushuaia el 23/7/1998 junto a los demas mandatarios del Mercosur; el Protocolo de Ushuaia fue firmado el 24/7/1998 por los presidentes del bloque, incluido Sanguinetti. Nota: este viaje esta muy pegado en el tiempo al item USA-35998 (Washington, 22-23/7/1998); ambos son reales -Sanguinetti estuvo con Clinton el 23/7 en Washington y volo esa misma noche a Ushuaia-, no son duplicado del mismo evento."
+    },
+    {
+      "colt_TripID": "191-URY-ARG-36117",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Contexto general sobre el dragado de los canales de Martin Garcia (busqueda.com.uy, mundomaritimo.cl)",
+      "justificacion": "Se confirma el proyecto binacional de dragado del Canal Martin Garcia entre Argentina y Uruguay en esos anios, pero no se encontro una fuente que confirme especificamente un encuentro Sanguinetti-Menem el 18/11/1998 en la isla. Sin evidencia en ningun sentido."
+    },
+    {
+      "colt_TripID": "191-URY-BRA-35554",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web",
+      "justificacion": "No se encontro cobertura de prensa digital disponible sobre un viaje de Sanguinetti a Brasil el 4/5/1997. Los SourceLink de COLT para este TripID son de ProQuest, inaccesibles. Sin evidencia en ningun sentido, se mantiene como no verificable."
+    },
+    {
+      "colt_TripID": "191-URY-BRA-36139",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://es.wikisource.org/wiki/Declaraci%C3%B3n_Sociolaboral_del_Mercosur ; http://www.sunsonline.org/trade/process/followup/1998/12140298.htm (SourceLink de COLT)",
+      "justificacion": "La Declaracion Sociolaboral del Mercosur fue firmada por los presidentes de los Estados parte en Rio de Janeiro el 10/12/1998, en el marco de la XV Reunion del Consejo Mercado Comun; Uruguay es miembro fundador y su presidente participo habitualmente de estas cumbres. Coincide con TripStartDate 1998-12-10."
+    },
+    {
+      "colt_TripID": "191-URY-BRA-36194",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web",
+      "justificacion": "No se encontro informacion sobre un viaje de Sanguinetti a Brasil el 3/2/1999 (dias despues de la devaluacion del real). El propio COLT no incluye notas para este item. Sin evidencia en ningun sentido."
+    },
+    {
+      "colt_TripID": "191-URY-BRA-36212",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web",
+      "justificacion": "No se encontro informacion sobre un viaje de Sanguinetti a Brasil el 21/2/1999. El propio COLT marca fechas de salida/regreso inciertas. Nota: esta muy cerca en el tiempo del item BRA-36194 (3/2/1999); podria tratarse de dos eventos reales distintos vinculados a la crisis del real, pero no hay forma de confirmarlo con las fuentes disponibles -se deja constancia por si se trata de un posible duplicado interno de COLT-."
+    },
+    {
+      "colt_TripID": "191-URY-BRA-36339",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Contexto general sobre reunion extraordinaria del Grupo Mercado Comun en junio de 1999 por la crisis del real",
+      "justificacion": "Se confirma que en junio de 1999 hubo una reunion extraordinaria vinculada a la coordinacion macroeconomica del Mercosur tras la devaluacion brasilena, pero no se encontro confirmacion de que fuera una cumbre presidencial con la participacion de Sanguinetti el 28/6/1999 en Brasil."
+    },
+    {
+      "colt_TripID": "191-URY-CHN-35540",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.elobservador.com.uy/nota/negociaciones-secretas-con-china-la-ruptura-con-taiwan-y-la-primera-visita-de-sanguinetti-202321517400",
+      "justificacion": "Fuente confirma que en abril de 1997 Sanguinetti realizo su segunda visita oficial a China, visitando Beijing y Shanghai, reuniendose con Jiang Zemin y el premier Li Peng, coincidiendo con TripStartDate y Notes de COLT."
+    },
+    {
+      "colt_TripID": "191-URY-COL-35842",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web",
+      "justificacion": "No se encontro cobertura sobre un viaje de Sanguinetti a Colombia el 16/2/1998. El propio COLT senala que no esta claro si hubo conversaciones bilaterales. Sin evidencia en ningun sentido."
+    },
+    {
+      "colt_TripID": "191-URY-CRI-35845",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Archivo Nacional de Costa Rica (archivodigital.go.cr) - fotografias de la entrega de llaves de la ciudad de San Jose al presidente Sanguinetti junto al presidente Figueres Olsen",
+      "justificacion": "El Archivo Nacional de Costa Rica documenta fotograficamente la entrega de llaves de San Jose a Sanguinetti con el presidente Figueres Olsen (1994-1998) y el alcalde Johnny Araya, consistente con una visita oficial en el periodo indicado por COLT (19/2/1998)."
+    },
+    {
+      "colt_TripID": "191-URY-CUB-36479",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://segib.org/es/ix-cumbre-iberoamericana-la-situacion-financiera-internacional-en-una-economia-globalizada/ ; https://es.wikipedia.org/wiki/IX_Cumbre_Iberoamericana",
+      "justificacion": "La IX Cumbre Iberoamericana se realizo en La Habana el 15-16/11/1999 sobre la situacion financiera internacional; fuentes confirman la participacion de Sanguinetti, presidente de Uruguay, junto a los demas jefes de Estado y de Gobierno iberoamericanos."
+    },
+    {
+      "colt_TripID": "191-URY-EGY-35886",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Contexto general sobre la Fuerza Multinacional de Paz y Observadores (MFO) en el Sinai con participacion uruguaya",
+      "justificacion": "Se confirma que Uruguay integra historicamente la MFO en el Sinai y que presidentes uruguayos han visitado a las tropas alli destacadas, pero no se encontro una fuente que confirme especificamente la visita del 1/4/1998. Nota: este item esta muy cerca en el tiempo del item EGY-35897 (12/4/1998, 11 dias despues); podria tratarse de un desdoblamiento interno de COLT del mismo viaje, se deja constancia sin resolverlo."
+    },
+    {
+      "colt_TripID": "191-URY-EGY-35897",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web",
+      "justificacion": "El propio COLT indica que el proposito de esta visita es incierto. No se encontro informacion adicional. Ver nota en el item EGY-35886 sobre posible duplicado interno de COLT (ambos TripID a Egipto con solo 11 dias de diferencia)."
+    },
+    {
+      "colt_TripID": "191-URY-FRA-36232",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.iadb.org/en/news/news-releases/1999-03-15/annual-Meeting-of--idb-board-of-governors-inaugurated-in-paris%2C1706.html (SourceLink de COLT)",
+      "justificacion": "La Reunion Anual de Gobernadores del BID se inauguro en Paris el 15/3/1999 (fuente propia de COLT, comunicado oficial del BID), consistente con TripStartDate 13/3/1999 y con las notas detalladas de COLT sobre el discurso de Sanguinetti en dicha reunion."
+    },
+    {
+      "colt_TripID": "191-URY-ISR-35882",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.ynetespanol.com/global/america/article/SynW0H5ZS",
+      "justificacion": "Fuente confirma que Sanguinetti visito Israel en marzo de 1998, siendo el primer presidente uruguayo en hacerlo, consistente con TripStartDate 28/3/1998 y las notas de COLT sobre la visita a Yad Vashem y acuerdos bilaterales."
+    },
+    {
+      "colt_TripID": "191-URY-JPN-35974",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.mofa.go.jp/announce/event/1998/6/624-1.html",
+      "justificacion": "Comunicado oficial del Ministerio de Relaciones Exteriores de Japon confirma la visita de Sanguinetti a Japon del 29/6 al 1/7/1998, reunion con el Emperador y el primer ministro Hashimoto, coincidiendo con TripStartDate 28/6/1998 (viaje de ida) y duracion de COLT."
+    },
+    {
+      "colt_TripID": "191-URY-MYS-35248",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "CV oficial de Julio Maria Sanguinetti (web.ua.es) - lista de doctorados honoris causa recibidos, incluyendo una universidad de Malasia (Kuala Lumpur)",
+      "justificacion": "El CV oficial de Sanguinetti confirma que recibio un doctorado honoris causa de una universidad de Malasia, lo cual coincide exactamente con la nota de COLT ('Received honorary doctorate of law from the University of Malaysia'). Es un dato muy especifico y verificable que corrobora el viaje, aunque no se encontro una fuente periodistica con la fecha exacta de julio de 1996."
+    },
+    {
+      "colt_TripID": "191-URY-MEX-35368",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes con fecha especifica",
+      "justificacion": "No se encontro confirmacion especifica de un viaje de Sanguinetti a Mexico el 30/10/1996. Se encontro evidencia de una relacion de trabajo posterior entre Sanguinetti y Zedillo en temas de democracia, pero no ligada a esta fecha. Sin evidencia en ningun sentido."
+    },
+    {
+      "colt_TripID": "191-URY-MEX-36308",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda web sobre la XIII Cumbre del Grupo de Rio, Veracruz/Mexico, 28/5/1999",
+      "justificacion": "La XIII Cumbre del Grupo de Rio se realizo el 28/5/1999 en Mexico, con la participacion explicita de Uruguay entre los paises asistentes, coincidiendo exactamente con TripStartDate de COLT y con la nota sobre la conferencia de prensa final en Ciudad de Mexico."
+    },
+    {
+      "colt_TripID": "191-URY-PAN-35843",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Referencias indirectas a la relacion Sanguinetti-Perez Balladares (Circulo de Montevideo) sin fecha especifica",
+      "justificacion": "Se confirma una relacion cercana entre Sanguinetti y el presidente panameno Perez Balladares (incluyendo acuerdos de cooperacion), pero no se encontro una fuente que fechara especificamente una visita a Panama el 17/2/1998."
+    },
+    {
+      "colt_TripID": "191-URY-PRY-34916",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda web sobre la VIII Cumbre de Presidentes del Mercosur, Asuncion, 5/8/1995 (bajo presidencia de Wasmosy)",
+      "justificacion": "La VIII Cumbre del Mercosur se realizo en Asuncion el 5/8/1995, coincidiendo exactamente con el TripStartDate de COLT; la nota sobre negociaciones con el Consejo Europeo es consistente con el proceso Mercosur-UE de esa epoca."
+    },
+    {
+      "colt_TripID": "191-URY-PRY-35600",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda web sobre la XII Cumbre de Presidentes del Mercosur, Asuncion, 19/6/1997 (bajo presidencia de Wasmosy)",
+      "justificacion": "La XII Cumbre del Mercosur se realizo en Asuncion el 19/6/1997, coincidiendo exactamente con el TripStartDate de COLT (19/6/1997)."
+    },
+    {
+      "colt_TripID": "191-URY-PRY-35665",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web",
+      "justificacion": "No se encontro informacion sobre un viaje de Sanguinetti a Paraguay el 23/8/1997 (dos meses despues de la XII Cumbre de Mercosur del 19/6/1997, que si esta confirmada). Sin evidencia en ningun sentido de que este segundo viaje haya o no ocurrido."
+    },
+    {
+      "colt_TripID": "191-URY-PRY-36325",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes en busqueda web",
+      "justificacion": "Para junio de 1999 el presidente paraguayo ya no era Wasmosy (su mandato termino en agosto de 1998); no se encontro confirmacion de una cumbre en Asuncion el 14/6/1999. Sin evidencia en ningun sentido."
+    },
+    {
+      "colt_TripID": "191-URY-PRT-35992",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://arquivos.rtp.pt/conteudos/visita-oficial-de-julio-sanguinetti/",
+      "justificacion": "El archivo de la television publica portuguesa (RTP) documenta la visita oficial de Sanguinetti a Portugal por invitacion del presidente Mario Soares, con ceremonias en el Monasterio de los Jeronimos y el Palacio de Belem, consistente con una visita de Estado en julio de 1998."
+    },
+    {
+      "colt_TripID": "191-URY-PRT-36084",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://rieoei.org/historico/oeivirt/rie18a10.htm ; https://segib.org/es/cumbre/viii-cumbre-iberoamericana/",
+      "justificacion": "La VIII Cumbre Iberoamericana se realizo en Oporto (Portugal) el 17-18/10/1998; fuentes confirman explicitamente la participacion de 'Julio Maria Sanguinetti Coirolo, presidente de la Republica Oriental del Uruguay', coincidiendo con TripStartDate y la nota sobre la Declaracion de Porto."
+    },
+    {
+      "colt_TripID": "191-URY-ESP-36081",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin confirmacion directa de esta escala especifica en Madrid",
+      "justificacion": "Es consistente en tiempo con el confirmado viaje a Portugal tres dias despues (Cumbre Iberoamericana de Oporto, 16-18/10/1998) y con la fundacion por Sanguinetti del Circulo de Montevideo, con sede vinculada a Madrid, pero no se encontro una fuente que confirme especificamente este acto del 13/10/1998 en Madrid."
+    },
+    {
+      "colt_TripID": "191-URY-USA-35927",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin resultados relevantes sobre la cena del AJC de mayo 1998",
+      "justificacion": "No se encontro cobertura del evento del American Jewish Committee ni de la visita a Florida International University y al Museo del Holocausto en Washington en mayo de 1998. Sin evidencia en ningun sentido."
+    },
+    {
+      "colt_TripID": "191-URY-USA-35998",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://clintonwhitehouse6.archives.gov/1998/07/1998-07-09-statement-on-working-visit-with-president-of-uruguay.html",
+      "justificacion": "Comunicado oficial de la Casa Blanca (9/7/1998) confirma que Clinton invito a Sanguinetti a una 'Working Visit' el 23/7/1998, aceptada por Sanguinetti; coincide con TripStartDate de COLT (22/7/1998, viaje de ida). Ver nota en item ARG-35999 sobre la conexion con el viaje inmediatamente posterior a Ushuaia."
+    },
+    {
+      "colt_TripID": "191-URY-USA-36292",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.iadb.org/en/news/news-releases/1999-05-07/high-level-group-to-discuss-governance-in-latin-america-and-impact-of-globalization,74.html",
+      "justificacion": "Comunicado del BID confirma que la 5ta reunion plenaria del Circulo de Montevideo se realizo en Washington DC el 13-14/5/1999, y que entre los oradores de apertura estuvo explicitamente 'Uruguay's President Julio Maria Sanguinetti', junto al presidente del BID Enrique Iglesias y Felipe Gonzalez. Coincide con TripStartDate de COLT (12/5/1999)."
+    },
+    {
+      "colt_TripID": "191-URY-VEN-35569",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Busqueda web sobre la XIII Conferencia Interparlamentaria Union Europea-America Latina, Caracas, 19/5/1997",
+      "justificacion": "Se confirma la recepcion del presidente Sanguinetti y su esposa en el aeropuerto de Maiquetia (Venezuela) en mayo de 1997, coincidiendo con la XIII Conferencia Interparlamentaria UE-America Latina realizada el 19/5/1997, que coincide con TripStartDate y la nota de COLT sobre esta conferencia."
+    },
+    {
+      "colt_TripID": "191-URY-VEN-36191",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "N/A - sin confirmacion directa",
+      "justificacion": "La fecha (31/1/1999) es cercana a la asuncion de Hugo Chavez como presidente de Venezuela (2/2/1999), a la que asistieron numerosos jefes de Estado, pero no se encontro una lista de asistentes que confirme la presencia de Sanguinetti, ni informacion sobre el encuentro con el ministro frances Josselin mencionado por COLT."
+    }
+  ]
+}

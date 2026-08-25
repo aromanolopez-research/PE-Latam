@@ -5,10 +5,20 @@
       "our_Trip_ID": "9",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate + Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2002-07-05, Duration_Days=1",
+      "campo": "Start_Date",
+      "valor_correcto": "2002-07-05",
       "fuente": "https://www.argentina.gob.ar/normativa/nacional/norma-73248/texto (Decisiones CMC fechadas '5/VII/02'); https://www.presidencia.gov.py/noticias/cumbre-del-mercosur-buenos-aires-argentina/",
-      "justificacion": "La XXII Cumbre del Mercosur (CMC) en Buenos Aires se realizo el 5 de julio de 2002, confirmado por normativa oficial argentina fechada ese dia. No hay evidencia de una cumbre presidencial de dos dias iniciando el 3-jul; nuestro dato (2002-07-05, 1 dia) coincide con la fuente oficial."
+      "justificacion": "La XXII Cumbre del Mercosur (CMC) en Buenos Aires se realizo el 5 de julio de 2002, confirmado por normativa oficial argentina fechada ese dia. No hay evidencia de una cumbre presidencial de dos dias iniciando el 3-jul; nuestro dato (2002-07-05, 1 dia) coincide con la fuente oficial. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "1395-PRY-ARG-37440",
+      "our_Trip_ID": "9",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 1,
+      "fuente": "https://www.argentina.gob.ar/normativa/nacional/norma-73248/texto (Decisiones CMC fechadas '5/VII/02'); https://www.presidencia.gov.py/noticias/cumbre-del-mercosur-buenos-aires-argentina/",
+      "justificacion": "La XXII Cumbre del Mercosur (CMC) en Buenos Aires se realizo el 5 de julio de 2002, confirmado por normativa oficial argentina fechada ese dia. No hay evidencia de una cumbre presidencial de dos dias iniciando el 3-jul; nuestro dato (2002-07-05, 1 dia) coincide con la fuente oficial. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "1395-PRY-CAN-37001",
@@ -25,10 +35,20 @@
       "our_Trip_ID": "10",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate + Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2002-11-15, Duration_Days=2",
+      "campo": "Start_Date",
+      "valor_correcto": "2002-11-15",
       "fuente": "https://segib.org/?summit=xii-cumbre-iberoamericana-bavaro-2002",
-      "justificacion": "La XII Cumbre Iberoamericana en Bavaro, Rep. Dominicana, se realizo oficialmente los dias 15 y 16 de noviembre de 2002 segun SEGIB (fuente oficial de las cumbres iberoamericanas). Nuestro dato coincide exactamente; COLT (inicio 14-nov, 3 dias) no coincide con la fecha oficial."
+      "justificacion": "La XII Cumbre Iberoamericana en Bavaro, Rep. Dominicana, se realizo oficialmente los dias 15 y 16 de noviembre de 2002 segun SEGIB (fuente oficial de las cumbres iberoamericanas). Nuestro dato coincide exactamente; COLT (inicio 14-nov, 3 dias) no coincide con la fecha oficial. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "1395-PRY-DOM-37574",
+      "our_Trip_ID": "10",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://segib.org/?summit=xii-cumbre-iberoamericana-bavaro-2002",
+      "justificacion": "La XII Cumbre Iberoamericana en Bavaro, Rep. Dominicana, se realizo oficialmente los dias 15 y 16 de noviembre de 2002 segun SEGIB (fuente oficial de las cumbres iberoamericanas). Nuestro dato coincide exactamente; COLT (inicio 14-nov, 3 dias) no coincide con la fecha oficial. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "1395-PRY-PAN-36847",
@@ -45,10 +65,20 @@
       "our_Trip_ID": "6",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate + Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2001-11-23, Duration_Days=2",
+      "campo": "Start_Date",
+      "valor_correcto": "2001-11-23",
       "fuente": "https://intranet.eulacfoundation.org/es/content/11%C2%AA-cumbre-iberoamericana-de-jefes-de-estado-y-de-gobierno-declaraci%C3%B3n-de-lima-per%C3%BA-23-24-de; https://segib.org/es/cumbre/xi-cumbre-iberoamericana/",
-      "justificacion": "La XI Cumbre Iberoamericana en Lima se realizo los dias 23 y 24 de noviembre de 2001, confirmado por SEGIB y por la Declaracion de Lima fechada 23-24-nov-2001. Nuestro dato coincide exactamente; COLT (inicio 24-nov, 1 dia) no coincide con las fechas oficiales."
+      "justificacion": "La XI Cumbre Iberoamericana en Lima se realizo los dias 23 y 24 de noviembre de 2001, confirmado por SEGIB y por la Declaracion de Lima fechada 23-24-nov-2001. Nuestro dato coincide exactamente; COLT (inicio 24-nov, 1 dia) no coincide con las fechas oficiales. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "1395-PRY-PER-37219",
+      "our_Trip_ID": "6",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://intranet.eulacfoundation.org/es/content/11%C2%AA-cumbre-iberoamericana-de-jefes-de-estado-y-de-gobierno-declaraci%C3%B3n-de-lima-per%C3%BA-23-24-de; https://segib.org/es/cumbre/xi-cumbre-iberoamericana/",
+      "justificacion": "La XI Cumbre Iberoamericana en Lima se realizo los dias 23 y 24 de noviembre de 2001, confirmado por SEGIB y por la Declaracion de Lima fechada 23-24-nov-2001. Nuestro dato coincide exactamente; COLT (inicio 24-nov, 1 dia) no coincide con las fechas oficiales. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "1341-PRY-BRA-36137",

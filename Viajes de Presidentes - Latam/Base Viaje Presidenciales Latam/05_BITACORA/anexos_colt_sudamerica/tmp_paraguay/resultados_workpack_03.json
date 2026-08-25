@@ -15,20 +15,40 @@
       "our_Trip_ID": "51",
       "tipo": "discrepancia",
       "veredicto": "COLT_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2010-05-25; Duration_Days=1",
+      "campo": "Start_Date",
+      "valor_correcto": "2010-05-25",
       "fuente": "Página/12 (25-may-2010, 'Una fiesta de, para y por ustedes'): confirma que Lugo participó junto a Cristina Fernández, Lula, Chávez, Correa, Piñera, Morales y Mujica específicamente el 25 de mayo en los festejos del Bicentenario en Buenos Aires.",
-      "justificacion": "La cobertura de prensa ubica la presencia de los siete mandatarios extranjeros puntualmente el día 25; no se halló evidencia de una llegada el día 24, por lo que se prioriza la fecha/duración de COLT."
+      "justificacion": "La cobertura de prensa ubica la presencia de los siete mandatarios extranjeros puntualmente el día 25; no se halló evidencia de una llegada el día 24, por lo que se prioriza la fecha/duración de COLT. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "2386-PRY-ARG-40323",
+      "our_Trip_ID": "51",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 1,
+      "fuente": "Página/12 (25-may-2010, 'Una fiesta de, para y por ustedes'): confirma que Lugo participó junto a Cristina Fernández, Lula, Chávez, Correa, Piñera, Morales y Mujica específicamente el 25 de mayo en los festejos del Bicentenario en Buenos Aires.",
+      "justificacion": "La cobertura de prensa ubica la presencia de los siete mandatarios extranjeros puntualmente el día 25; no se halló evidencia de una llegada el día 24, por lo que se prioriza la fecha/duración de COLT. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "2386-PRY-ARG-40393",
       "our_Trip_ID": "53",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2010-08-02; Duration_Days=2",
+      "campo": "Start_Date",
+      "valor_correcto": "2010-08-02",
       "fuente": "Wikipedia ES 'XXXIX Cumbre del Mercosur'; Cancillería Argentina; diariodecuyo.com.ar (agenda del día, 3-ago-2010 como cierre): la cumbre se desarrolló el 2 y 3 de agosto de 2010 en San Juan, con la firma de documentos conjuntos el día 3 (cierre).",
-      "justificacion": "La cumbre tuvo dos días de duración (2-3 de agosto); nuestra fecha de inicio y duración coinciden con las fuentes, mientras que COLT solo captura el día de cierre."
+      "justificacion": "La cumbre tuvo dos días de duración (2-3 de agosto); nuestra fecha de inicio y duración coinciden con las fuentes, mientras que COLT solo captura el día de cierre. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "2386-PRY-ARG-40393",
+      "our_Trip_ID": "53",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "Wikipedia ES 'XXXIX Cumbre del Mercosur'; Cancillería Argentina; diariodecuyo.com.ar (agenda del día, 3-ago-2010 como cierre): la cumbre se desarrolló el 2 y 3 de agosto de 2010 en San Juan, con la firma de documentos conjuntos el día 3 (cierre).",
+      "justificacion": "La cumbre tuvo dos días de duración (2-3 de agosto); nuestra fecha de inicio y duración coinciden con las fuentes, mientras que COLT solo captura el día de cierre. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "2386-PRY-BRA-39798",
@@ -65,20 +85,40 @@
       "our_Trip_ID": "48",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2010-02-22; Duration_Days=2",
+      "campo": "Start_Date",
+      "valor_correcto": "2010-02-22",
       "fuente": "Wikipedia ES 'Cumbre de la unidad de América Latina y el Caribe'; EcuRed: la XXI Cumbre del Grupo de Río / Cumbre de la Unidad (creación de la CELAC) se realizó el 22 y 23 de febrero de 2010 en Playa del Carmen (CELAC creada formalmente el 23-feb).",
-      "justificacion": "Las fechas de la cumbre (22-23 feb) coinciden exactamente con nuestra base; no se halló respaldo para el inicio el 20-feb ni la duración de 3 días de COLT."
+      "justificacion": "Las fechas de la cumbre (22-23 feb) coinciden exactamente con nuestra base; no se halló respaldo para el inicio el 20-feb ni la duración de 3 días de COLT. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "2386-PRY-MEX-40229",
+      "our_Trip_ID": "48",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "Wikipedia ES 'Cumbre de la unidad de América Latina y el Caribe'; EcuRed: la XXI Cumbre del Grupo de Río / Cumbre de la Unidad (creación de la CELAC) se realizó el 22 y 23 de febrero de 2010 en Playa del Carmen (CELAC creada formalmente el 23-feb).",
+      "justificacion": "Las fechas de la cumbre (22-23 feb) coinciden exactamente con nuestra base; no se halló respaldo para el inicio el 20-feb ni la duración de 3 días de COLT. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "2386-PRY-QAT-39903",
       "our_Trip_ID": "40",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2009-03-30; Duration_Days=2",
+      "campo": "Start_Date",
+      "valor_correcto": "2009-03-30",
       "fuente": "Última Hora, 'Lugo pone sus pies en Qatar, un pequeño pero rico emirato árabe' (fuente primaria ya citada en nuestra base); Wikipedia ES 'II Cumbre América del Sur-Países Árabes' (inauguración oficial 31-mar-2009).",
-      "justificacion": "Contamos con un artículo específico sobre la llegada de Lugo a Doha (consistente con arribo el 30-mar, un día antes de la inauguración oficial de la cumbre el 31-mar), lo que da 2 días de estadía; no se halló evidencia que respalde un inicio el 31-mar con solo 1 día, como indica COLT."
+      "justificacion": "Contamos con un artículo específico sobre la llegada de Lugo a Doha (consistente con arribo el 30-mar, un día antes de la inauguración oficial de la cumbre el 31-mar), lo que da 2 días de estadía; no se halló evidencia que respalde un inicio el 31-mar con solo 1 día, como indica COLT. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "2386-PRY-QAT-39903",
+      "our_Trip_ID": "40",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "Última Hora, 'Lugo pone sus pies en Qatar, un pequeño pero rico emirato árabe' (fuente primaria ya citada en nuestra base); Wikipedia ES 'II Cumbre América del Sur-Países Árabes' (inauguración oficial 31-mar-2009).",
+      "justificacion": "Contamos con un artículo específico sobre la llegada de Lugo a Doha (consistente con arribo el 30-mar, un día antes de la inauguración oficial de la cumbre el 31-mar), lo que da 2 días de estadía; no se halló evidencia que respalde un inicio el 31-mar con solo 1 día, como indica COLT. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "2386-PRY-KOR-41056",
@@ -95,50 +135,100 @@
       "our_Trip_ID": "57",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2011-03-14 (confirmado); Duration_Days=incierta, ni 3 (nuestro) ni 7 (COLT) coinciden con exactitud con la evidencia disponible",
+      "campo": "Start_Date",
+      "valor_correcto": "2011-03-14",
       "fuente": "Oficina Presidencial de Taiwán (https://english.president.gov.tw/NEWS/3577): confirma la ceremonia de bienvenida a Lugo el 14-mar-2011, calificada como su 'primera visita de Estado' a Taiwán. AS/COA ('Paraguay's President Eyes Opportunities in Asia'): indica que en su gira de 2011 a Taiwán y Vietnam, Lugo pasó 'cinco días' en Taiwán.",
-      "justificacion": "La fecha de inicio (14-mar) está confirmada por fuente oficial taiwanesa y coincide con nuestra base. La duración es más incierta: una fuente secundaria (AS/COA) menciona 'cinco días' en Taiwán, un valor intermedio entre nuestro dato (3) y el de COLT (7); además, los enlaces de fuente de COLT para este TripID coinciden parcialmente con los de Vietnam (2386-PRY-VNM-40609), lo que sugiere que ambas bases pueden estar fragmentando de forma distinta un mismo viaje regional a Asia (ver ítem VNM-40609 y nota de duplicado potencial)."
+      "justificacion": "La fecha de inicio (14-mar) está confirmada por fuente oficial taiwanesa y coincide con nuestra base. La duración es más incierta: una fuente secundaria (AS/COA) menciona 'cinco días' en Taiwán, un valor intermedio entre nuestro dato (3) y el de COLT (7); además, los enlaces de fuente de COLT para este TripID coinciden parcialmente con los de Vietnam (2386-PRY-VNM-40609), lo que sugiere que ambas bases pueden estar fragmentando de forma distinta un mismo viaje regional a Asia (ver ítem VNM-40609 y nota de duplicado potencial). [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "2386-PRY-TWN-40613",
+      "our_Trip_ID": "57",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "Oficina Presidencial de Taiwán (https://english.president.gov.tw/NEWS/3577): confirma la ceremonia de bienvenida a Lugo el 14-mar-2011, calificada como su 'primera visita de Estado' a Taiwán. AS/COA ('Paraguay's President Eyes Opportunities in Asia'): indica que en su gira de 2011 a Taiwán y Vietnam, Lugo pasó 'cinco días' en Taiwán.",
+      "justificacion": "La fecha de inicio (14-mar) está confirmada por fuente oficial taiwanesa y coincide con nuestra base. La duración es más incierta: una fuente secundaria (AS/COA) menciona 'cinco días' en Taiwán, un valor intermedio entre nuestro dato (3) y el de COLT (7); además, los enlaces de fuente de COLT para este TripID coinciden parcialmente con los de Vietnam (2386-PRY-VNM-40609), lo que sugiere que ambas bases pueden estar fragmentando de forma distinta un mismo viaje regional a Asia (ver ítem VNM-40609 y nota de duplicado potencial). [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "2386-PRY-TWN-41048",
       "our_Trip_ID": "61",
       "tipo": "discrepancia",
       "veredicto": "No_verificable",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "No determinado",
+      "campo": "Start_Date",
+      "valor_correcto": null,
       "fuente": "rdn.com.py/Última Hora (citado en nuestras notas metodológicas del Trip 61): gira asiática del 16-may al 2-jun-2012 (18 días). Otra fuente secundaria (blog '20medios.wordpress.com', post del 18-may-2012 sobre 'la despedida' de Lugo) sugiere una partida en torno al 17-18 de mayo.",
-      "justificacion": "Existen fuentes secundarias con fechas de inicio de gira ligeramente distintas (16 vs. 17 de mayo); tanto nuestra base como COLT reconocen que las fechas por tramo/país de esta gira son estimaciones (no confirmadas país por país con fuente primaria), por lo que no es posible determinar con certeza si el inicio del tramo Taiwán fue el 16-may (nuestro) o el 19-may (COLT)."
+      "justificacion": "Existen fuentes secundarias con fechas de inicio de gira ligeramente distintas (16 vs. 17 de mayo); tanto nuestra base como COLT reconocen que las fechas por tramo/país de esta gira son estimaciones (no confirmadas país por país con fuente primaria), por lo que no es posible determinar con certeza si el inicio del tramo Taiwán fue el 16-may (nuestro) o el 19-may (COLT). [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "2386-PRY-TWN-41048",
+      "our_Trip_ID": "61",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "rdn.com.py/Última Hora (citado en nuestras notas metodológicas del Trip 61): gira asiática del 16-may al 2-jun-2012 (18 días). Otra fuente secundaria (blog '20medios.wordpress.com', post del 18-may-2012 sobre 'la despedida' de Lugo) sugiere una partida en torno al 17-18 de mayo.",
+      "justificacion": "Existen fuentes secundarias con fechas de inicio de gira ligeramente distintas (16 vs. 17 de mayo); tanto nuestra base como COLT reconocen que las fechas por tramo/país de esta gira son estimaciones (no confirmadas país por país con fuente primaria), por lo que no es posible determinar con certeza si el inicio del tramo Taiwán fue el 16-may (nuestro) o el 19-may (COLT). [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "2386-PRY-THA-41055",
       "our_Trip_ID": "63",
       "tipo": "discrepancia",
       "veredicto": "No_verificable",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "No determinado",
+      "campo": "Start_Date",
+      "valor_correcto": null,
       "fuente": "Búsqueda web sin resultados específicos sobre fechas de la visita de Lugo a Tailandia en mayo de 2012.",
-      "justificacion": "Igual que en los demás tramos de esta gira asiática, tanto nuestra fecha (23-may, 3 días) como la de COLT (26-may, 2 días) son estimaciones derivadas de dividir el período total de la gira (16-may/2-jun); no se halló fuente primaria que confirme el tramo específico de Tailandia."
+      "justificacion": "Igual que en los demás tramos de esta gira asiática, tanto nuestra fecha (23-may, 3 días) como la de COLT (26-may, 2 días) son estimaciones derivadas de dividir el período total de la gira (16-may/2-jun); no se halló fuente primaria que confirme el tramo específico de Tailandia. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "2386-PRY-THA-41055",
+      "our_Trip_ID": "63",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": null,
+      "fuente": "Búsqueda web sin resultados específicos sobre fechas de la visita de Lugo a Tailandia en mayo de 2012.",
+      "justificacion": "Igual que en los demás tramos de esta gira asiática, tanto nuestra fecha (23-may, 3 días) como la de COLT (26-may, 2 días) son estimaciones derivadas de dividir el período total de la gira (16-may/2-jun); no se halló fuente primaria que confirme el tramo específico de Tailandia. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "2386-PRY-USA-39712",
       "our_Trip_ID": "35",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2008-09-23; Duration_Days=2",
+      "campo": "Start_Date",
+      "valor_correcto": "2008-09-23",
       "fuente": "ONU (static.un.org/en/ga/63/generaldebate/paraguay.shtml): confirma que Lugo pronunció su discurso ante la 63ª Asamblea General de la ONU el 24 de septiembre de 2008.",
-      "justificacion": "La fecha del discurso (24-sep) confirmada por fuente oficial de la ONU coincide con la fecha de fin de nuestro viaje (inicio 23-sep, 2 días); no se halló evidencia que respalde el inicio el 21-sep ni una estadía de 6 días como indica COLT."
+      "justificacion": "La fecha del discurso (24-sep) confirmada por fuente oficial de la ONU coincide con la fecha de fin de nuestro viaje (inicio 23-sep, 2 días); no se halló evidencia que respalde el inicio el 21-sep ni una estadía de 6 días como indica COLT. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "2386-PRY-USA-39712",
+      "our_Trip_ID": "35",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "ONU (static.un.org/en/ga/63/generaldebate/paraguay.shtml): confirma que Lugo pronunció su discurso ante la 63ª Asamblea General de la ONU el 24 de septiembre de 2008.",
+      "justificacion": "La fecha del discurso (24-sep) confirmada por fuente oficial de la ONU coincide con la fecha de fin de nuestro viaje (inicio 23-sep, 2 días); no se halló evidencia que respalde el inicio el 21-sep ni una estadía de 6 días como indica COLT. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "2386-PRY-URY-40897",
       "our_Trip_ID": "59",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date/TripStartDate; Duration_Days/TripDuration",
-      "valor_correcto": "Start_Date=2011-12-19; Duration_Days=2",
+      "campo": "Start_Date",
+      "valor_correcto": "2011-12-19",
       "fuente": "El Colombiano / prensa regional: la XLII Cumbre de Mercosur en Montevideo se desarrolló entre el 19 y el 20 de diciembre de 2011 (con las declaraciones de Chávez sobre el ingreso de Venezuela el día 20).",
-      "justificacion": "La cumbre tuvo dos días de duración (19-20 dic); nuestra fecha de inicio y duración coinciden con las fuentes, mientras que COLT solo captura el día de cierre."
+      "justificacion": "La cumbre tuvo dos días de duración (19-20 dic); nuestra fecha de inicio y duración coinciden con las fuentes, mientras que COLT solo captura el día de cierre. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
+    },
+    {
+      "colt_TripID": "2386-PRY-URY-40897",
+      "our_Trip_ID": "59",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "El Colombiano / prensa regional: la XLII Cumbre de Mercosur en Montevideo se desarrolló entre el 19 y el 20 de diciembre de 2011 (con las declaraciones de Chávez sobre el ingreso de Venezuela el día 20).",
+      "justificacion": "La cumbre tuvo dos días de duración (19-20 dic); nuestra fecha de inicio y duración coinciden con las fuentes, mientras que COLT solo captura el día de cierre. [item dividido automaticamente desde un veredicto/campo combinado multi-campo - correccion 2]"
     },
     {
       "colt_TripID": "2386-PRY-VEN-40879",

@@ -989,3 +989,185 @@ oscilando pero sin tendencia monotona clara en 2017-2026, 30 presidentes
 con primer destino identificado). Documentado en el README para
 transparencia; si aparece algun error de sintaxis al correrlo en RStudio
 se corrige en la proxima sesion.
+[2026-08-24 09:24] INTEGRACION | Base consolidada: 1657 filas / 1339 viajes físicos / 6 país(es): , Argentina, Brasil, Chile, Paraguay, Uruguay
+[2026-08-24 09:25] INTEGRACION | Base consolidada: 1657 filas / 1339 viajes físicos / 5 país(es): Argentina, Brasil, Chile, Paraguay, Uruguay
+[2026-08-24] VERIFICACION COLT — PARAGUAY (primer uso real del pipeline formalizado
+como skill "verificacion-colt-sudamerica") | Triage con colt_verificacion_triage.py
+(alcance 1994-2025, filtro de año corregido -ver nota mas abajo-): 392 filas COLT de
+Paraguay dentro de alcance vs 192 nuestras -> 87 discrepancias, 249 colt_unico, 49
+nuestro_unico. 7 workpacks por LeaderID (Cubas Grau/Gonzalez Macchi, Duarte Frutos,
+Lugo, Franco/Cartes -transicion-, Abdo Benitez, Peña, Wasmosy), un subagente Sonnet
+por workpack, 336 items investigados. Resultado: 130 colt_unico agregados a la base
+(insertados automaticamente con colt_aplicar_verificacion.py --insertar-en-nuestra-base,
+Trip_ID 198-327), 16 colt_unico descartados, 86 discrepancias resueltas (70 corrigieron
+la hoja COLT, 16 corrigieron nuestra base), 126 items (discrepancias + colt_unico)
+quedaron No_verificable por falta de evidencia concluyente en ningun sentido -no se
+asumio "descartar"/"no" sin evidencia positiva, siguiendo la regla del proyecto-.
+Modulo Paraguay: 197 -> 327 filas (178 -> 308 viajes fisicos). Log completo linea por
+linea: 05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_paraguay_2026-08-24.csv.
+
+BUGS ENCONTRADOS Y CORREGIDOS EN EL PIPELINE DURANTE ESTA CAMPAÑA (afectan a futuras
+corridas para Bolivia/Uruguay, ya arreglados en 06_SCRIPTS/):
+  1. colt_verificacion_triage.py no filtraba las filas de COLT por año -COLT no tiene
+     una ventana temporal fija (Brazil desde 1948, Uruguay desde 1986, el resto desde
+     1990), pero el proyecto si (1994-2025). Sin el filtro, colt_unico se contaminaba
+     con filas fuera de alcance (32 de 424 en Paraguay). Corregido con
+     ANIO_DESDE_DEFAULT/ANIO_HASTA_DEFAULT + flags --anio-desde/--anio-hasta.
+  2. Varios subagentes devolvieron items de discrepancia con mas de un campo
+     combinado en un solo string (ej. campo="Start_Date/TripStartDate;
+     Duration_Days/TripDuration", veredicto="nuestro_correcto; nuestro_correcto"), que
+     colt_aplicar_verificacion.py no sabia interpretar -se aplicaban mal o quedaban
+     silenciosamente sin aplicar-. Se detectaron y separaron manualmente 51 items (3
+     pasadas de reparacion, usando siempre la tabla "diferencias" original del triage
+     como fuente autoritativa del valor correcto, nunca el texto libre del subagente).
+     5 de estos ya se habian aplicado mal a la base (Start_Date con texto compuesto
+     tipo "Start_Date=2010-05-25; Duration_Days=1" en Trip_ID 51/98/115/134/139) y se
+     re-corrigieron.
+  3. La insercion automatica de colt_unico llenaba las columnas no mapeadas con ""
+     en vez de "NA" (convencion del proyecto), no derivaba Destination_Region, no
+     traducia el nombre de pais de COLT al vocabulario propio (ej. "Holy See" en vez
+     de "Vatican City", rompiendo el mapeo de region), y NO SETEABA Origin_Country
+     -las 130 filas nuevas quedaban con Origin_Country vacio, rompiendo integrate.py-.
+     Los 4 se corrigieron en colt_aplicar_verificacion.py (usa NA, region_for(),
+     colt_country_alias.py y toma Origin_Country del resto del modulo). Se agrego
+     tambien "Uzbekistan":"Asia-Pacific" a REGION_MAP (pais nuevo, mismo criterio que
+     Kazakhstan).
+  4. Para las 130 filas insertadas, Visit_Category se derivo mecanicamente de
+     AttendedMultilatEvent/MetHostHoGS de COLT (regla ya establecida del proyecto);
+     los 7 campos de micro-conducta se copiaron directo de COLT (mismo criterio que
+     la migracion de esquema del 2026-08-03); Counterpart_Type/Tema_Foro/
+     Visit_Subtype se completaron con heuristicas basadas en NameMultilatEvent/Notes/
+     Trip_Objective -31 Visit_Subtype y 39 Tema_Foro quedaron con el fallback
+     generico documentado (Working Visit / Cooperación Política General) por falta de
+     evidencia mas especifica, ver PENDIENTES_VERIFICACION.txt-.
+validate.py e integrate.py: 0 errores en los 5 modulos tras esta campaña.
+[2026-08-24 14:44] INTEGRACION | Base consolidada: 1768 filas / 1450 viajes físicos / 5 país(es): Argentina, Brasil, Chile, Paraguay, Uruguay
+
+[2026-08-24] VERIFICACION COLT — URUGUAY (segundo uso del pipeline formalizado, tras
+Paraguay) | Triage con colt_verificacion_triage.py (alcance 1994-2025): 311 filas COLT
+de Uruguay dentro de alcance vs 171 nuestras -> 92 discrepancias, 169 colt_unico, 29
+nuestro_unico (12 filas de COLT quedaron fuera de 1994-2025 y no se cargaron, filtro
+funcionando correctamente). 6 workpacks por LeaderID (Jorge Batlle, Sanguinetti,
+Tabare Vazquez, Mujica, Lacalle Pou, Lacalle Herrera+Orsi), un subagente Sonnet por
+workpack, 317 items investigados. A diferencia de Paraguay, los 6 workpacks volvieron
+con 0 items malformados en el chequeo pre-flight (confirma que la Regla 7 -un item, un
+campo, siempre- agregada al skill tras el incidente de Paraguay funciono). Resultado:
+111 colt_unico agregados a la base (insertados con colt_aplicar_verificacion.py
+--insertar-en-nuestra-base, Trip_ID 182-292), 6 colt_unico descartados (duplicados
+internos de COLT o viajes desmentidos por evidencia positiva -ver detalle en
+PENDIENTES_VERIFICACION.txt-), 119 discrepancias resueltas (88 corrigieron la hoja
+COLT, 31 corrigieron nuestra base), 80 items (52 colt_unico + 28 discrepancias)
+quedaron No_verificable por falta de evidencia concluyente. Modulo Uruguay: 180 -> 291
+filas (154 -> 265 viajes fisicos). Log completo: 05_BITACORA/anexos_colt_sudamerica/
+cambios_aplicados_uruguay_2026-08-24.csv.
+
+BUG ENCONTRADO Y CORREGIDO DE RAIZ ESTA CAMPAÑA (el bug #4 de Paraguay -derivacion
+mecanica de Visit_Category/Destination_Region/micro-conducta para filas insertadas-
+nunca habia quedado integrado en el script, solo se habia hecho a mano una vez para
+Paraguay con un script de reparacion aparte; al correr Uruguay goteo el mismo problema
+en validate.py, esta vez se soluciono en el pipeline en si, no con otro parche):
+  1. Se agrego a colt_aplicar_verificacion.py la funcion derivar_campos_desde_colt(),
+     que en el momento mismo de insertar una fila nueva lee las columnas de COLT
+     (AttendedMultilatEvent, MetHostHoGS, HostHOGSName, NameMultilatEvent, y los 7
+     campos de micro-conducta) y calcula Visit_Category, Destination_Region (via
+     schema.region_for()), los 7 campos de micro-conducta + 2 de nombre,
+     Counterpart_Event, Counterpart_Type (default "Jefe de Estado/Gobierno" en
+     Bilateral) y Tema_Foro/Visit_Subtype (heuristica por palabras clave, con
+     fallback documentado). Esto es ahora permanente: no hace falta repetir un
+     script de reparacion para cada pais nuevo (Bolivia en adelante).
+  2. Tambien se encontro y corrigio que Verificacion_Status se estaba llenando con
+     una oracion narrativa libre en vez de un valor del dominio cerrado
+     (Verificada-URL | Solo-Query | No-verificable) -bug preexistente desde
+     Paraguay, no detectado en su momento porque el repair script de Paraguay lo
+     habia corregido a mano sin que quedara registrado como bug-. Se deriva ahora
+     automaticamente (Verificada-URL si Source_Verification empieza con "http", si
+     no Solo-Query).
+  3. Como las 111 filas de Uruguay ya habian sido insertadas ANTES de este fix (con
+     el bug), se corrieron dos pasadas de backfill puntual (no reinsercion) sobre
+     esas filas ya existentes: una reutilizando la nueva derivar_campos_desde_colt()
+     importada del script ya corregido, y otra derivando Verificacion_Status para
+     las mismas 111 filas. Un solo caso no se pudo derivar mecanicamente
+     (Trip_ID 292, Orsi, colt_TripID 4217-URY-XXX-46018: COLT registra
+     CountryVisited="Unknown" para un viaje privado de fin de 2025/inicio 2026; el
+     subagente investigador identifico por prensa uruguaya que el destino real fue
+     Brasil) y se corrigio a mano con la misma justificacion que ya habia dejado el
+     subagente en resultados_workpack_06.json.
+validate.py e integrate.py: 0 errores en los 5 modulos tras esta campaña.
+[2026-08-24] INTEGRACION | Base consolidada: 1768 filas / 1450 viajes físicos / 5 país(es): Argentina, Brasil, Chile, Paraguay, Uruguay (recalculada tras el backfill de Uruguay, sin cambios de totales -ya estaban correctos desde la corrida anterior-).
+
+[2026-08-24] REDISEÑO DEL PROYECTO | El usuario redefinio el alcance y la arquitectura:
+(1) el objetivo pasa a ser una base consolidada COLT + investigacion propia + correcciones,
+para un paper sobre viajes presidenciales de TODA Sudamerica (los 12 paises de COLT:
+Argentina, Bolivia, Brasil, Chile, Colombia, Ecuador, Guyana, Paraguay, Peru, Surinam,
+Uruguay, Venezuela) 1994-2025, actualizando a 2026 despues; (2) Base_COLT_Sudamerica.xlsx
+pasa a ser el archivo madre unico, usando el esquema NATIVO de COLT (76 columnas) en vez de
+nuestro esquema propio de 31 columnas -se descartan Visit_Category/Visit_Subtype/Tema_Foro/
+Counterpart_Type/Journey_ID/Verificacion_Status como columnas de trabajo permanentes-;
+(3) ya no se crean archivos nuevos en 03_MODULOS_PAIS por pais -los 6 ya existentes
+(argentina/brasil/chile/paraguay/uruguay/bolivia) quedan como estan, de solo lectura/legado-;
+(4) se eliminaron 01_INSTRUCCIONES, 02_TABLA_MAESTRA y 07_ARCHIVO_TRABAJO_PREVIO (backup en
+05_BITACORA/archivo_historico/backup_pre_rediseno_2026-08-24.zip antes de borrar).
+
+Accion inmediata tomada: se migraron a Base_COLT_Sudamerica.xlsx (hoja Datos_COLT_Sudamerica)
+las filas "nuestro_unico" de Paraguay (49) y Uruguay (29) -viajes investigados por el
+proyecto que COLT nunca tuvo, ya identificados por el triage de cada campaña-, siguiendo la
+misma convencion de TripID ya usada para Argentina/Brasil/Chile en la campaña de "PELATAM
+rows" de agosto (PELATAM-<ISO3>-<Trip_ID original>). Script: 06_SCRIPTS/migrar_nuestro_unico.py
+(script puntual, no forma parte del pipeline recurrente). Se uso el LeaderID/LeaderFullName y
+CountryVisitedISO/Region ya existentes en la hoja (matcheados por nombre normalizado sin
+acentos, con manejo de truncamientos tipo "Duarte Frutos"->"Duarte") para no inventar
+metadata. Unico caso sin resolver: Puerto Rico (Uruguay, 1 fila) no tiene equivalente en el
+vocabulario de paises de COLT -documentado desde antes en colt_country_alias.py-, queda con
+CountryVisitedISO/Region vacíos hasta decidir un criterio. Resultado: 5273 -> 5351 filas en
+Datos_COLT_Sudamerica. Los 78 registros insertados en el CSV de Argentina/Brasil/Chile/
+Paraguay/Uruguay que ya tenian veredicto "colt_unico agregar" (ej. las 111 de Uruguay, las
+130 de Paraguay) NO se migraron aparte porque esas filas YA estaban en Base_COLT_Sudamerica.xlsx
+desde el principio (son filas de COLT, no filas nuestras) -no hacia falta duplicarlas-.
+
+Pendiente (ver tareas 116-119 en el tablero): reescribir 00_CODEBOOK/CODEBOOK.txt y
+README.txt con la nueva metodologia, y redisenar colt_verificacion_triage.py/
+colt_aplicar_verificacion.py/validate.py/integrate.py para trabajar contra un CSV de trabajo
+espejo de la hoja Datos_COLT_Sudamerica (en vez de CSV por pais + Excel COLT separados),
+exportando a xlsx al final de cada campaña.
+
+[2026-08-24] REDISEÑO — SCRIPTS NUEVOS PARA EL ARCHIVO MADRE UNICO | Se completaron
+00_CODEBOOK/CODEBOOK.txt (v2.0) y README.txt con la nueva metodologia (ver seccion
+anterior), y se construyo el pipeline nuevo en 06_SCRIPTS/: colt_export_csv.py (xlsx ->
+csv de trabajo), colt_generar_workpacks.py (arma workpacks por LeaderID desde el csv,
+reemplaza a colt_verificacion_triage.py para paises SIN modulo propio -Bolivia y los 6
+nuevos-), colt_aplicar_workpacks.py (aplica correcciones + filas PELATAM nuevas sobre el
+csv), colt_validar_madre.py (QC liviano: TripID unico/formato, fechas coherentes, dominio
+Yes/No/blanco), colt_importar_csv.py (csv -> xlsx, borra+reescribe filas en vez de tocar
+celda por celda -evita el bug de performance de random-access en modo read_only que nos
+paso con Uruguay el mismo dia-). Los scripts anteriores (colt_verificacion_triage.py,
+colt_aplicar_verificacion.py, validate.py, integrate.py) quedan como LEGADO, no se usan
+para campañas nuevas.
+Prueba de humo completa: export (5351 filas) -> generar_workpacks para Bolivia (424 filas
+ya en COLT, 7 LeaderID, 3 workpacks) -> aplicar_workpacks en dry run con un resultado
+ficticio (confirmado que dry run no toca el csv) -> validar -> importar. Los workpacks
+reales de Bolivia quedaron guardados en 05_BITACORA/anexos_colt_sudamerica/tmp_bolivia/
+como punto de partida para cuando arranque esa investigacion (no son ficticios, son las
+424 filas reales que COLT ya tiene para Bolivia).
+Durante la prueba de humo, colt_validar_madre.py encontro y se corrigieron dos problemas
+reales en el archivo madre (no relacionados con el rediseño en si, preexistentes):
+  - Las 111 filas PELATAM originales de Argentina/Brasil/Chile (campaña del 2026-08-18)
+    nunca tuvieron LeaderID cargado. Se recupero por matching de LeaderFullName contra el
+    resto de la hoja: 108/111 corregidas. Las 3 restantes (PELATAM-CHL-186/187/188, José
+    Antonio Kast) quedan sin LeaderID porque Kast -presidente de Chile desde 2026- todavia
+    no tiene LeaderID asignado en el dataset de COLT; se completaron a mano
+    LeaderCountryOrIGO/ISO/Region/Subregion/Role/Title/Surname (los unicos datos que se
+    pueden inferir con certeza) y se dejo nota en Notes.
+  - 7 filas PELATAM-PRY-* (de la migracion de nuestro_unico de hoy) tenian el TripStartDate
+    literal "NA" (texto arrastrado de la convencion MISSING del esquema anterior, que
+    "or None" no capturaba porque "NA" es un string no vacio). Corregido a blanco -convencion
+    de COLT-.
+  - Se detecto tambien que ~4907/5351 celdas de fecha en toda la hoja madre (preexistente,
+    de reparaciones anteriores a hoy) estaban guardadas como TEXTO con sufijo "T00:00:00"
+    en vez de como fecha real. colt_export_csv.py ahora lo limpia automaticamente al
+    exportar, y al reimportar quedan tipadas como fecha real en el xlsx -corregido en la
+    corrida de hoy, deberia no volver a pasar dado que colt_importar_csv.py siempre tipa
+    fechas correctamente-.
+Quedan documentados en PENDIENTES_VERIFICACION.txt (seccion "QC ARCHIVO MADRE") los 16
+hallazgos que dio colt_validar_madre.py que SI requieren investigacion (no son bugs de
+script): 6 filas con TripEndDate anterior a TripStartDate, y 7 filas PELATAM-PRY sin fecha
+de inicio (solo se sabe el año/mes aproximado).

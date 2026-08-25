@@ -1,0 +1,176 @@
+[
+  {
+    "our_Trip_ID": "2",
+    "President": "Jorge Batlle",
+    "Destination_Country": "Brazil",
+    "Start_Date": "2000-08-31"
+  },
+  {
+    "our_Trip_ID": "3",
+    "President": "Jorge Batlle",
+    "Destination_Country": "United States",
+    "Start_Date": "2000-09-06"
+  },
+  {
+    "our_Trip_ID": "7",
+    "President": "Jorge Batlle",
+    "Destination_Country": "Argentina",
+    "Start_Date": "2002-02-18"
+  },
+  {
+    "our_Trip_ID": "11",
+    "President": "Jorge Batlle",
+    "Destination_Country": "United States",
+    "Start_Date": "2003-04-23"
+  },
+  {
+    "our_Trip_ID": "12",
+    "President": "Jorge Batlle",
+    "Destination_Country": "Puerto Rico",
+    "Start_Date": "2003-08-25"
+  },
+  {
+    "our_Trip_ID": "13",
+    "President": "Jorge Batlle",
+    "Destination_Country": "United States",
+    "Start_Date": "2003-08-27"
+  },
+  {
+    "our_Trip_ID": "29",
+    "President": "Tabaré Vázquez",
+    "Destination_Country": "France",
+    "Start_Date": "2005-10-20"
+  },
+  {
+    "our_Trip_ID": "32",
+    "President": "Tabaré Vázquez",
+    "Destination_Country": "United States",
+    "Start_Date": "2006-05-03"
+  },
+  {
+    "our_Trip_ID": "43",
+    "President": "Tabaré Vázquez",
+    "Destination_Country": "New Zealand",
+    "Start_Date": "2008-09-01"
+  },
+  {
+    "our_Trip_ID": "45",
+    "President": "Tabaré Vázquez",
+    "Destination_Country": "Saudi Arabia",
+    "Start_Date": "2008-12-19"
+  },
+  {
+    "our_Trip_ID": "49",
+    "President": "Tabaré Vázquez",
+    "Destination_Country": "Iran",
+    "Start_Date": "2009-05-05"
+  },
+  {
+    "our_Trip_ID": "55",
+    "President": "José Mujica",
+    "Destination_Country": "Chile",
+    "Start_Date": "2010-03-11"
+  },
+  {
+    "our_Trip_ID": "63",
+    "President": "José Mujica",
+    "Destination_Country": "Brazil",
+    "Start_Date": "2011-11-08"
+  },
+  {
+    "our_Trip_ID": "114",
+    "President": "Luis Lacalle Pou",
+    "Destination_Country": "Brazil",
+    "Start_Date": "2023-01-01"
+  },
+  {
+    "our_Trip_ID": "127",
+    "President": "Luis Lacalle Pou",
+    "Destination_Country": "Argentina",
+    "Start_Date": "2024-04-17"
+  },
+  {
+    "our_Trip_ID": "128",
+    "President": "Luis Lacalle Pou",
+    "Destination_Country": "Argentina",
+    "Start_Date": "2024-04-24"
+  },
+  {
+    "our_Trip_ID": "141",
+    "President": "Yamandú Orsi",
+    "Destination_Country": "Belgium",
+    "Start_Date": "2025-10-15"
+  },
+  {
+    "our_Trip_ID": "145",
+    "President": "Yamandú Orsi",
+    "Destination_Country": "South Africa",
+    "Start_Date": "2025-11-22"
+  },
+  {
+    "our_Trip_ID": "147",
+    "President": "Yamandú Orsi",
+    "Destination_Country": "Paraguay",
+    "Start_Date": "2026-01-17"
+  },
+  {
+    "our_Trip_ID": "148",
+    "President": "Yamandú Orsi",
+    "Destination_Country": "China",
+    "Start_Date": "2026-02-01"
+  },
+  {
+    "our_Trip_ID": "149",
+    "President": "Yamandú Orsi",
+    "Destination_Country": "Chile",
+    "Start_Date": "2026-03-10"
+  },
+  {
+    "our_Trip_ID": "150",
+    "President": "Yamandú Orsi",
+    "Destination_Country": "Colombia",
+    "Start_Date": "2026-03-21"
+  },
+  {
+    "our_Trip_ID": "151",
+    "President": "Yamandú Orsi",
+    "Destination_Country": "Paraguay",
+    "Start_Date": "2026-06-30"
+  },
+  {
+    "our_Trip_ID": "155",
+    "President": "José Mujica",
+    "Destination_Country": "Paraguay",
+    "Start_Date": "2011-05-14"
+  },
+  {
+    "our_Trip_ID": "157",
+    "President": "José Mujica",
+    "Destination_Country": "Argentina",
+    "Start_Date": "2012-04-09"
+  },
+  {
+    "our_Trip_ID": "159",
+    "President": "José Mujica",
+    "Destination_Country": "Brazil",
+    "Start_Date": "2013-11-10"
+  },
+  {
+    "our_Trip_ID": "162",
+    "President": "José Mujica",
+    "Destination_Country": "Peru",
+    "Start_Date": "2013-04-18"
+  },
+  {
+    "our_Trip_ID": "163",
+    "President": "José Mujica",
+    "Destination_Country": "Venezuela",
+    "Start_Date": "2013-04-19"
+  },
+  {
+    "our_Trip_ID": "170",
+    "President": "José Mujica",
+    "Destination_Country": "Argentina",
+    "Start_Date": "2014-07-12"
+  }
+]

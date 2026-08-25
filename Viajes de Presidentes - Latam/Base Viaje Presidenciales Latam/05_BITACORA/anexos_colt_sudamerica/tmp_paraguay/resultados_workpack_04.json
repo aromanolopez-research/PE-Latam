@@ -5,10 +5,20 @@
       "our_Trip_ID": "70",
       "tipo": "discrepancia",
       "veredicto": "COLT_correcto",
-      "campo": "Start_Date;Duration_Days",
-      "valor_correcto": "2012-09-23 hasta aprox. 2012-09-27/28 (5 dias)",
+      "campo": "Start_Date",
+      "valor_correcto": "2012-09-23",
       "fuente": "Búsqueda web: 'Federico Franco viaja a Nueva York' (NOVA Paraguay); readout oficial ONU de la reunión con el Secretario General Ban Ki-moon el 23-sep-2012 (ya citado en nuestra base); crónica agregada indica actividades de Franco en NY hasta la apertura del debate general el 25-sep y posiblemente días después.",
-      "justificacion": "Multiples fuentes de prensa ubican a Franco en Nueva York desde el 23-sep (reunión con Ban Ki-moon, luego con Moreno/BID y Rajoy el 24-sep, apertura del debate general el 25-sep), lo que es compatible con una estadía más larga (hasta 27/28-sep) que la registrada actualmente (22-25-sep). Confianza moderada por tratarse de una síntesis de búsqueda, no de una fuente primaria única."
+      "justificacion": "Multiples fuentes de prensa ubican a Franco en Nueva York desde el 23-sep (reunión con Ban Ki-moon, luego con Moreno/BID y Rajoy el 24-sep, apertura del debate general el 25-sep), lo que es compatible con una estadía más larga (hasta 27/28-sep) que la registrada actualmente (22-25-sep). Confianza moderada por tratarse de una síntesis de búsqueda, no de una fuente primaria única. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "2814-PRY-USA-41175",
+      "our_Trip_ID": "70",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 5,
+      "fuente": "Búsqueda web: 'Federico Franco viaja a Nueva York' (NOVA Paraguay); readout oficial ONU de la reunión con el Secretario General Ban Ki-moon el 23-sep-2012 (ya citado en nuestra base); crónica agregada indica actividades de Franco en NY hasta la apertura del debate general el 25-sep y posiblemente días después.",
+      "justificacion": "Multiples fuentes de prensa ubican a Franco en Nueva York desde el 23-sep (reunión con Ban Ki-moon, luego con Moreno/BID y Rajoy el 24-sep, apertura del debate general el 25-sep), lo que es compatible con una estadía más larga (hasta 27/28-sep) que la registrada actualmente (22-25-sep). Confianza moderada por tratarse de una síntesis de búsqueda, no de una fuente primaria única. [item dividido automaticamente desde un veredicto combinado multi-campo]"
     },
     {
       "colt_TripID": "2814-PRY-USA-41368",
@@ -45,30 +55,60 @@
       "our_Trip_ID": "97",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date;Duration_Days",
-      "valor_correcto": "2017-12-20 a 2017-12-21 (2 días)",
+      "campo": "Start_Date",
+      "valor_correcto": "2017-12-20",
       "fuente": "Agencia IP (oficial, Paraguay): 'Cartes viajó a Brasilia para participar de la cumbre del Mercosur', publicada el 20-dic-2017 (ya citada en nuestra base, alta confiabilidad).",
-      "justificacion": "La fuente oficial paraguaya confirma explícitamente que el viaje comenzó el 20-dic-2017, un día antes de la fecha que registra COLT como inicio; la cumbre en sí se realizó el 21-dic."
+      "justificacion": "La fuente oficial paraguaya confirma explícitamente que el viaje comenzó el 20-dic-2017, un día antes de la fecha que registra COLT como inicio; la cumbre en sí se realizó el 21-dic. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "2931-PRY-BRA-43090",
+      "our_Trip_ID": "97",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "Agencia IP (oficial, Paraguay): 'Cartes viajó a Brasilia para participar de la cumbre del Mercosur', publicada el 20-dic-2017 (ya citada en nuestra base, alta confiabilidad).",
+      "justificacion": "La fuente oficial paraguaya confirma explícitamente que el viaje comenzó el 20-dic-2017, un día antes de la fecha que registra COLT como inicio; la cumbre en sí se realizó el 21-dic. [item dividido automaticamente desde un veredicto combinado multi-campo]"
     },
     {
       "colt_TripID": "2931-PRY-CHL-41708",
       "our_Trip_ID": "79",
       "tipo": "discrepancia",
       "veredicto": "ambos_correctos",
-      "campo": "Start_Date;Duration_Days",
+      "campo": "Start_Date",
       "valor_correcto": "Investidura de Bachelet confirmada para el 2014-03-11 (fuente de alta confiabilidad); posible llegada el día previo (10-mar) según COLT",
       "fuente": "infobae.com (ya citada en nuestra base, alta confiabilidad) confirma la ceremonia de investidura el 11-mar-2014.",
-      "justificacion": "El evento principal (investidura) está confirmado con alta confianza para el 11-mar; la fecha de inicio y duración más larga de COLT (10-mar, 2 días) es compatible con un viaje que incluyó un día de llegada previo al acto protocolar."
+      "justificacion": "El evento principal (investidura) está confirmado con alta confianza para el 11-mar; la fecha de inicio y duración más larga de COLT (10-mar, 2 días) es compatible con un viaje que incluyó un día de llegada previo al acto protocolar. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "2931-PRY-CHL-41708",
+      "our_Trip_ID": "79",
+      "tipo": "discrepancia",
+      "veredicto": "ambos_correctos",
+      "campo": "Duration_Days",
+      "valor_correcto": "Investidura de Bachelet confirmada para el 2014-03-11 (fuente de alta confiabilidad); posible llegada el día previo (10-mar) según COLT",
+      "fuente": "infobae.com (ya citada en nuestra base, alta confiabilidad) confirma la ceremonia de investidura el 11-mar-2014.",
+      "justificacion": "El evento principal (investidura) está confirmado con alta confianza para el 11-mar; la fecha de inicio y duración más larga de COLT (10-mar, 2 días) es compatible con un viaje que incluyó un día de llegada previo al acto protocolar. [item dividido automaticamente desde un veredicto combinado multi-campo]"
     },
     {
       "colt_TripID": "2931-PRY-ECU-42396",
       "our_Trip_ID": "88",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date;Duration_Days",
-      "valor_correcto": "2016-01-26 a 2016-01-27 (2 días)",
+      "campo": "Start_Date",
+      "valor_correcto": "2016-01-26",
       "fuente": "resumenlatinoamericano.org y culturaypatrimonio.gob.ec confirman que la IV Cumbre CELAC se realizó los días 26 y 27 de enero de 2016 en Quito; reportes de prensa indican que Cartes estuvo entre los primeros líderes en llegar.",
-      "justificacion": "La cumbre abarcó dos días completos (26-27 enero) y hay indicios de que Cartes llegó temprano (26-ene), lo que respalda nuestra duración de 2 días frente al único día registrado por COLT."
+      "justificacion": "La cumbre abarcó dos días completos (26-27 enero) y hay indicios de que Cartes llegó temprano (26-ene), lo que respalda nuestra duración de 2 días frente al único día registrado por COLT. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "2931-PRY-ECU-42396",
+      "our_Trip_ID": "88",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "resumenlatinoamericano.org y culturaypatrimonio.gob.ec confirman que la IV Cumbre CELAC se realizó los días 26 y 27 de enero de 2016 en Quito; reportes de prensa indican que Cartes estuvo entre los primeros líderes en llegar.",
+      "justificacion": "La cumbre abarcó dos días completos (26-27 enero) y hay indicios de que Cartes llegó temprano (26-ene), lo que respalda nuestra duración de 2 días frente al único día registrado por COLT. [item dividido automaticamente desde un veredicto combinado multi-campo]"
     },
     {
       "colt_TripID": "2931-PRY-VAT-41756",
@@ -85,10 +125,20 @@
       "our_Trip_ID": "96",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date;Duration_Days",
-      "valor_correcto": "2017-11-07 a 2017-11-10 (4 días)",
+      "campo": "Start_Date",
+      "valor_correcto": "2017-11-07",
       "fuente": "Última Hora, cronología de encuentros Cartes-Francisco (ya citada en nuestra base, alta confiabilidad): salida confirmada 07-nov a las 13:00hs, regreso 10-nov (viernes).",
-      "justificacion": "Nuestra base cita una fuente con horarios exactos de salida y regreso, de mayor precisión que el registro de COLT (que solo marca 1 día de duración desde el 09-nov)."
+      "justificacion": "Nuestra base cita una fuente con horarios exactos de salida y regreso, de mayor precisión que el registro de COLT (que solo marca 1 día de duración desde el 09-nov). [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "2931-PRY-VAT-43048",
+      "our_Trip_ID": "96",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 4,
+      "fuente": "Última Hora, cronología de encuentros Cartes-Francisco (ya citada en nuestra base, alta confiabilidad): salida confirmada 07-nov a las 13:00hs, regreso 10-nov (viernes).",
+      "justificacion": "Nuestra base cita una fuente con horarios exactos de salida y regreso, de mayor precisión que el registro de COLT (que solo marca 1 día de duración desde el 09-nov). [item dividido automaticamente desde un veredicto combinado multi-campo]"
     },
     {
       "colt_TripID": "2931-PRY-ISR-43240",
@@ -96,59 +146,109 @@
       "tipo": "discrepancia",
       "veredicto": "COLT_correcto",
       "campo": "Start_Date",
-      "valor_correcto": "2018-05-20 (salida de Asunción); la inauguración de la embajada fue el lunes 21-may-2018",
+      "valor_correcto": "2018-05-20",
       "fuente": "aurora-israel.co.il / EFE: 'Cartes parte a Israel para la inauguración de la embajada de Paraguay en Jerusalén' — el artículo, redactado en tiempo futuro ('asistir el lunes'), indica que Cartes partió de Asunción el día previo a la inauguración (domingo 20-may).",
-      "justificacion": "La nota de salida confirma que Cartes viajó el día anterior a la inauguración (20-may), coincidiendo con el inicio registrado por COLT y no con el de nuestra base (21-may, día de la sola inauguración). La duración exacta (COLT: 3 días; nuestra base: 1 día) queda No_verificable: el propio registro de COLT señala que 'return date is not clear', y las actividades adicionales mencionadas (Friends of Zion, reunión con Rivlin) no pudieron ubicarse con certeza dentro de este viaje de 2018 vs. eventos posteriores de 2019."
+      "justificacion": "La nota de salida confirma que Cartes viajó el día anterior a la inauguración (20-may), coincidiendo con el inicio registrado por COLT y no con el de nuestra base (21-may, día de la sola inauguración). La duración exacta (COLT: 3 días; nuestra base: 1 día) queda No_verificable: el propio registro de COLT señala que 'return date is not clear', y las actividades adicionales mencionadas (Friends of Zion, reunión con Rivlin) no pudieron ubicarse con certeza dentro de este viaje de 2018 vs. eventos posteriores de 2019. [valor_correcto reemplazado por el valor autoritativo de la tabla de diferencias del triage - correccion 3]"
     },
     {
       "colt_TripID": "2931-PRY-PAN-41564",
       "our_Trip_ID": "77",
       "tipo": "discrepancia",
       "veredicto": "ambos_correctos",
-      "campo": "Start_Date;Duration_Days",
+      "campo": "Start_Date",
       "valor_correcto": "XXIII Cumbre Iberoamericana confirmada para el 18-19 oct 2013; posible llegada el día previo (17-oct) según COLT",
       "fuente": "sica.int y segib.org confirman que la cumbre se celebró el 18 y 19 de octubre de 2013 en Panamá.",
-      "justificacion": "La cumbre oficial coincide exactamente con nuestras fechas (18-19 oct); la fecha de inicio más temprana de COLT (17-oct) es compatible con un día de llegada previo al evento formal."
+      "justificacion": "La cumbre oficial coincide exactamente con nuestras fechas (18-19 oct); la fecha de inicio más temprana de COLT (17-oct) es compatible con un día de llegada previo al evento formal. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "2931-PRY-PAN-41564",
+      "our_Trip_ID": "77",
+      "tipo": "discrepancia",
+      "veredicto": "ambos_correctos",
+      "campo": "Duration_Days",
+      "valor_correcto": "XXIII Cumbre Iberoamericana confirmada para el 18-19 oct 2013; posible llegada el día previo (17-oct) según COLT",
+      "fuente": "sica.int y segib.org confirman que la cumbre se celebró el 18 y 19 de octubre de 2013 en Panamá.",
+      "justificacion": "La cumbre oficial coincide exactamente con nuestras fechas (18-19 oct); la fecha de inicio más temprana de COLT (17-oct) es compatible con un día de llegada previo al evento formal. [item dividido automaticamente desde un veredicto combinado multi-campo]"
     },
     {
       "colt_TripID": "2931-PRY-USA-41538",
       "our_Trip_ID": "75",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date;Duration_Days",
-      "valor_correcto": "2013-09-24 a 2013-09-26 (3 días)",
+      "campo": "Start_Date",
+      "valor_correcto": "2013-09-24",
       "fuente": "Registro oficial de la ONU: discurso de Cartes ante la 68ª Asamblea General el 24-sep-2013.",
-      "justificacion": "El discurso de Cartes ante la AGNU está confirmado para el 24-sep-2013, coincidiendo con nuestra fecha de inicio. La duración de 8 días que registra COLT (21 al 29-sep) se superpondría con su visita ya confirmada a Brasil el 30-sep (Trip_ID 76 de nuestra base), lo que sugiere un posible error de datos en COLT para este ítem (posiblemente una duración mal calculada o conflación con otro evento)."
+      "justificacion": "El discurso de Cartes ante la AGNU está confirmado para el 24-sep-2013, coincidiendo con nuestra fecha de inicio. La duración de 8 días que registra COLT (21 al 29-sep) se superpondría con su visita ya confirmada a Brasil el 30-sep (Trip_ID 76 de nuestra base), lo que sugiere un posible error de datos en COLT para este ítem (posiblemente una duración mal calculada o conflación con otro evento). [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "2931-PRY-USA-41538",
+      "our_Trip_ID": "75",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "Registro oficial de la ONU: discurso de Cartes ante la 68ª Asamblea General el 24-sep-2013.",
+      "justificacion": "El discurso de Cartes ante la AGNU está confirmado para el 24-sep-2013, coincidiendo con nuestra fecha de inicio. La duración de 8 días que registra COLT (21 al 29-sep) se superpondría con su visita ya confirmada a Brasil el 30-sep (Trip_ID 76 de nuestra base), lo que sugiere un posible error de datos en COLT para este ítem (posiblemente una duración mal calculada o conflación con otro evento). [item dividido automaticamente desde un veredicto combinado multi-campo]"
     },
     {
       "colt_TripID": "2931-PRY-USA-42275",
       "our_Trip_ID": "87",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date;Duration_Days",
-      "valor_correcto": "2015-09-26 a 2015-09-28 (3 días)",
+      "campo": "Start_Date",
+      "valor_correcto": "2015-09-26",
       "fuente": "ultimahora.com 'Cartes tuvo un diálogo breve con Obama antes de la Asamblea de la ONU' (ya citada en nuestra base, alta confiabilidad): discurso confirmado el 27-sep-2015.",
-      "justificacion": "Nuestra base tiene una fuente de alta confiabilidad que confirma el discurso el 27-sep, dentro del rango 26-28 sep ya registrado; COLT solo marca el último día (28-sep, 1 día), subestimando la duración real del viaje."
+      "justificacion": "Nuestra base tiene una fuente de alta confiabilidad que confirma el discurso el 27-sep, dentro del rango 26-28 sep ya registrado; COLT solo marca el último día (28-sep, 1 día), subestimando la duración real del viaje. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "2931-PRY-USA-42275",
+      "our_Trip_ID": "87",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "ultimahora.com 'Cartes tuvo un diálogo breve con Obama antes de la Asamblea de la ONU' (ya citada en nuestra base, alta confiabilidad): discurso confirmado el 27-sep-2015.",
+      "justificacion": "Nuestra base tiene una fuente de alta confiabilidad que confirma el discurso el 27-sep, dentro del rango 26-28 sep ya registrado; COLT solo marca el último día (28-sep, 1 día), subestimando la duración real del viaje. [item dividido automaticamente desde un veredicto combinado multi-campo]"
     },
     {
       "colt_TripID": "2931-PRY-USA-42998",
       "our_Trip_ID": "95",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date;Duration_Days",
-      "valor_correcto": "2017-09-19 a 2017-09-20 (2 días)",
+      "campo": "Start_Date",
+      "valor_correcto": "2017-09-19",
       "fuente": "MRE Paraguay (oficial, ya citada en nuestra base, alta confiabilidad): discurso confirmado el 20-sep-2017 en el debate general de la 72ª AGNU.",
-      "justificacion": "Nuestra fuente oficial confirma el discurso el 20-sep; COLT solo registra ese mismo día como único día del viaje (1 día), sin contemplar el día de llegada (19-sep) que sí tenemos documentado."
+      "justificacion": "Nuestra fuente oficial confirma el discurso el 20-sep; COLT solo registra ese mismo día como único día del viaje (1 día), sin contemplar el día de llegada (19-sep) que sí tenemos documentado. [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "2931-PRY-USA-42998",
+      "our_Trip_ID": "95",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "MRE Paraguay (oficial, ya citada en nuestra base, alta confiabilidad): discurso confirmado el 20-sep-2017 en el debate general de la 72ª AGNU.",
+      "justificacion": "Nuestra fuente oficial confirma el discurso el 20-sep; COLT solo registra ese mismo día como único día del viaje (1 día), sin contemplar el día de llegada (19-sep) que sí tenemos documentado. [item dividido automaticamente desde un veredicto combinado multi-campo]"
     },
     {
       "colt_TripID": "2931-PRY-VEN-41849",
       "our_Trip_ID": "81",
       "tipo": "discrepancia",
       "veredicto": "nuestro_correcto",
-      "campo": "Start_Date;Duration_Days",
-      "valor_correcto": "2014-07-28 a 2014-07-29 (2 días)",
+      "campo": "Start_Date",
+      "valor_correcto": "2014-07-28",
       "fuente": "elnacional.com (ya citada en nuestra base, alta confiabilidad), cobertura de la XLVI Cumbre del Mercosur en Caracas.",
-      "justificacion": "Nuestra fuente de alta confiabilidad cubre específicamente este viaje y confirma el rango 28-29 jul; COLT solo marca el último día (29-jul, 1 día)."
+      "justificacion": "Nuestra fuente de alta confiabilidad cubre específicamente este viaje y confirma el rango 28-29 jul; COLT solo marca el último día (29-jul, 1 día). [item dividido automaticamente desde un veredicto combinado multi-campo]"
+    },
+    {
+      "colt_TripID": "2931-PRY-VEN-41849",
+      "our_Trip_ID": "81",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "elnacional.com (ya citada en nuestra base, alta confiabilidad), cobertura de la XLVI Cumbre del Mercosur en Caracas.",
+      "justificacion": "Nuestra fuente de alta confiabilidad cubre específicamente este viaje y confirma el rango 28-29 jul; COLT solo marca el último día (29-jul, 1 día). [item dividido automaticamente desde un veredicto combinado multi-campo]"
     },
     {
       "colt_TripID": "2814-PRY-TWN-41415",

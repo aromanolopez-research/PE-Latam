@@ -165,6 +165,9 @@ REGION_MAP = {
     "Singapore":"Asia-Pacific","Thailand":"Asia-Pacific","Philippines":"Asia-Pacific","Brunei":"Asia-Pacific",
     "Timor-Leste":"Asia-Pacific","Australia":"Asia-Pacific","New Zealand":"Asia-Pacific",
     "Kazakhstan":"Asia-Pacific","Taiwan":"Asia-Pacific",
+    # Uzbekistan agregado 2026-08-24 (extension Paraguay/COLT): mismo criterio que
+    # Kazakhstan (estado de Asia Central, mapeado a Asia-Pacific por consistencia interna).
+    "Uzbekistan":"Asia-Pacific",
     # Africa
     "South Africa":"Africa","Angola":"Africa","Mozambique":"Africa","Namibia":"Africa",
     "Nigeria":"Africa","Ghana":"Africa","Senegal":"Africa","Guinea-Bissau":"Africa",

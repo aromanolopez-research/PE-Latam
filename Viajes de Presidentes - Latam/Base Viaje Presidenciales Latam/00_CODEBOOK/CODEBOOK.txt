@@ -1,452 +1,364 @@
 ================================================================================
-CODEBOOK — VIAJES PRESIDENCIALES DE AMÉRICA (2000–2026)
+CODEBOOK — VIAJES PRESIDENCIALES DE SUDAMÉRICA (1994–2025, luego 2026)
 ================================================================================
-Versión: 1.4
-Fecha: 2026-07-07 (v1.3: 2026-07-07; v1.2: 2026-07-07; v1.1: 2026-07-06; v1.0: 2026-06-28)
-Formato de datos canónico: CSV UTF-8 (minimalista, listo para R / Python / SPSS / Stata)
+Versión: 2.0 (rediseño del proyecto)
+Fecha: 2026-08-24
+Versión anterior: 1.4 (2026-07-07), esquema propio de 31 columnas por país.
+  Ver 05_BITACORA/archivo_historico/ para los documentos de esa etapa.
+Formato de datos canónico: xlsx (archivo madre) con espejo interno en CSV
+  para los scripts. UTF-8.
 
 Este CODEBOOK es el documento de referencia del proyecto. Define qué se mide,
-cómo se mide, qué valores son válidos y cómo replicar el trabajo para otras
-regiones del mundo. Cualquier duda metodológica se resuelve acá.
+cómo se mide, qué valores son válidos y cómo se registra el trabajo. Cualquier
+duda metodológica se resuelve acá.
+
+--------------------------------------------------------------------------------
+0. QUÉ CAMBIÓ EN EL REDISEÑO DE 2026-08-24 (leer si venís de v1.x)
+--------------------------------------------------------------------------------
+El proyecto arrancó como una base propia (31 columnas, un CSV por país) que
+después se empezó a cruzar contra el dataset académico COLT (Country and
+Organization Leader Travel, Pardee Institute, U. Denver) para ganar rigor.
+Con Argentina, Brasil, Chile, Paraguay y Uruguay ya verificados contra COLT,
+el objetivo del proyecto se reformuló:
+
+  OBJETIVO NUEVO: una base de datos CONSOLIDADA (COLT + investigación propia +
+  correcciones a COLT) de los viajes presidenciales de los 12 países de
+  Sudamérica, 1994-2025 (luego actualizada a 2026), como insumo directo de un
+  paper académico.
+
+Esto implicó tres decisiones de arquitectura:
+  1. ALCANCE: los 12 países de Sudamérica que cubre COLT -Argentina, Bolivia,
+     Brasil, Chile, Colombia, Ecuador, Guyana, Paraguay, Perú, Surinam,
+     Uruguay, Venezuela- entran al proyecto, no solo los 6 que ya estaban en
+     curso (Argentina/Bolivia/Brasil/Chile/Paraguay/Uruguay).
+  2. ESQUEMA: se abandona el esquema propio de 31 columnas como formato de
+     trabajo. El archivo madre usa el esquema NATIVO de COLT (76 columnas,
+     sección 4). Las columnas propias que se habían diseñado (Visit_Category,
+     Visit_Subtype, Tema_Foro, Counterpart_Type, Journey_ID,
+     Verificacion_Status) se descartan como columnas de trabajo permanentes
+     -el criterio del usuario es que COLT ya cubre esas dimensiones
+     analíticas con su propio esquema de micro-conducta (MetHostHoGS,
+     AttendedMultilatEvent, etc.), y agregar columnas propias encima puede
+     evaluarse más adelante, pero no es parte del flujo de carga-.
+  3. UN SOLO ARCHIVO: 04_BASE_FINAL/Base_COLT_Sudamerica.xlsx, hoja
+     "Datos_COLT_Sudamerica", es el ARCHIVO MADRE único. Ya no se arma un CSV
+     por país. Los 6 módulos de país que existían (03_MODULOS_PAIS/) quedan
+     congelados como legado/referencia -no se tocan, no se crean nuevos-.
+
+Lo que SIGUE IGUAL: la lógica de verificación (discrepancia -> corregir la
+celda que esté mal, con fuente; colt_unico -> decidir si se agrega o se
+descarta; nuestro_unico -> ya migrado o por migrar como fila PELATAM), el
+principio de "No_verificable en vez de No sin evidencia", y el registro en
+bitácora.txt/PENDIENTES_VERIFICACION.txt.
 
 --------------------------------------------------------------------------------
 1. PROPÓSITO
 --------------------------------------------------------------------------------
-Construir una base de datos exhaustiva, verificable y reproducible de TODOS los
-viajes internacionales oficiales de los jefes de gobierno de América, realizados
-ESTRICTAMENTE durante su mandato, entre 2000-01-01 y la FECHA DE CORTE vigente.
-FECHA DE CORTE: 2026-07-07 (extendida desde 2026-06-28 el 2026-07-07, por decisión
-del usuario). POLÍTICA DE CORTE MÓVIL: el corte se extiende formalmente a medida
-que avanza el proyecto; cada extensión implica actualización incremental de los
-mandatos EN CURSO (re-verificación de los últimos 2-3 meses + alta de viajes
-nuevos) y queda registrada en la bitácora. Viajes "anunciados" posteriores al
-corte NO se cargan (solo cancelaciones formales con destino anunciado).
+Construir la base más completa y verificable posible de los viajes
+internacionales oficiales de los presidentes de Sudamérica, 1994-2025 (y
+luego 2026), como insumo de un paper académico sobre política exterior
+presidencial de la región. La unidad de análisis final es la MISMA que usa
+COLT en su propio dataset publicado, para que nuestros resultados sean
+directamente comparables/combinables con los de COLT y con trabajos que usen
+COLT para otras regiones del mundo.
 
-EXCEPCIÓN DE INICIO — ARGENTINA/MENEM (agregada 2026-08-03): a pedido del
-usuario, tras comparar la base contra el dataset externo Diplometrics COLT
-(ver 05_BITACORA/comparacion_diplometrics_colt.txt), se extendió la ventana de
-Argentina hacia atrás para incorporar a Carlos Menem (1989-1999), usando COLT
-como fuente de leads desde 1994 (año en que arranca su cobertura para
-Argentina; 1989-1993 queda pendiente, no se investigó en esta ronda). Esta es
-una excepción puntual de país, no un cambio general de la regla 2000-01-01
-para el resto de la base. Metodología de uso de COLT: sus filas se tratan como
-LEADS a verificar, nunca como fuente única automática — se sigue la misma
-regla anti-alucinación del punto 5.1 (fuente real verificada o "Search Query"
-+ confiabilidad Low si no se halla URL propia).
-
-Pregunta analítica central: ¿cómo cambia en el tiempo el peso de cada región
-en la agenda internacional de cada país? (p. ej., ¿Argentina viaja cada vez más
-a Sudamérica, a Norteamérica, a Europa, etc.?)
+Alcance geográfico: Argentina, Bolivia, Brasil, Chile, Colombia, Ecuador,
+Guyana, Paraguay, Perú, Surinam, Uruguay, Venezuela.
+Alcance temporal: 1994-01-01 a 2025-12-31 (ventana fija del proyecto, ver
+sección 3 del pipeline anterior en bitacora.txt para el porqué de 1994).
+Política de corte móvil: en algún momento se extenderá a 2026; cuando pase,
+se actualiza esta sección y se registra en bitácora.txt.
 
 --------------------------------------------------------------------------------
-2. ESTRUCTURA DE CARPETAS (replicable)
+2. ESTRUCTURA DE CARPETAS
 --------------------------------------------------------------------------------
-proyecto_viajes_presidenciales/
-  00_CODEBOOK/              Este documento.
-  01_INSTRUCCIONES/         Instrucciones originales del encargo (TXT).
-  02_TABLA_MAESTRA/         Catálogo de mandatarios (esqueleto). CSV.
-  03_MODULOS_PAIS/<pais>/   Un CSV de viajes por país: <pais>_viajes.csv
-  04_BASE_FINAL/            base_consolidada.csv (todos los países integrados).
-  05_BITACORA/              bitacora.txt (registro cronológico del trabajo) +
-                            hallazgos_analiticos.txt (patrones cualitativos por presidente) +
-                            PENDIENTES_VERIFICACION.txt (brechas y datos a validar por país).
-  06_SCRIPTS/               schema.py, validate.py, integrate.py, build_module_template.py
-  07_ARCHIVO_TRABAJO_PREVIO/ Módulos antiguos (formato viejo) conservados como insumo.
-
-Para REPLICAR en otra región (Europa, Asia, África): copiar esta carpeta, vaciar
-03 y 04, reemplazar 02_TABLA_MAESTRA por los mandatarios de la nueva región,
-ajustar REGION_MAP en schema.py si aparecen países nuevos, y seguir el flujo (sección 6).
+00_CODEBOOK/                Este documento.
+03_MODULOS_PAIS/<pais>/     LEGADO. CSV de la etapa anterior (esquema propio
+                             de 31 columnas) para Argentina, Bolivia*, Brasil,
+                             Chile, Paraguay, Uruguay. *Bolivia nunca llegó a
+                             tener CSV real, quedó en checks sueltos. No se
+                             crean archivos nuevos acá; sirven de auditoría/
+                             trazabilidad de cómo se llegó a cada fila
+                             migrada al archivo madre.
+04_BASE_FINAL/               Base_COLT_Sudamerica.xlsx = ARCHIVO MADRE único
+                             (hoja "Datos_COLT_Sudamerica", 76 columnas, ver
+                             sección 4; hoja "Viajes_Cancelados" para
+                             cancelaciones formales; hoja "Leame").
+                             base_consolidada.csv es legado del esquema
+                             anterior -no se actualiza más-.
+05_BITACORA/                 bitacora.txt (registro cronológico),
+                             PENDIENTES_VERIFICACION.txt (brechas y
+                             decisiones pendientes), anexos_colt_sudamerica/
+                             (logs y JSONs de cada campaña de verificación),
+                             archivo_historico/ (backups de carpetas
+                             eliminadas).
+06_SCRIPTS/                   schema.py, validate.py, integrate.py (legado,
+                             sobre el esquema de 31 col.), colt_verificacion_
+                             triage.py, colt_aplicar_verificacion.py,
+                             colt_country_alias.py, migrar_nuestro_unico.py
+                             (migración puntual, no recurrente).
+08_ANALISIS_R/                Análisis exploratorio en R.
 
 --------------------------------------------------------------------------------
 3. UNIDAD DE OBSERVACIÓN
 --------------------------------------------------------------------------------
-La FILA = un TRAMO de viaje en un país de destino.
-  - Una gira que visita varios países genera VARIAS filas (una por país).
-  - Todas las filas de una misma salida física comparten un Journey_ID.
-
-Esto permite dos niveles de análisis sin doble conteo:
-  - "Países visitados" / "tramos"   = contar FILAS.
-  - "Viajes realizados" (salidas)   = contar Journey_ID distintos.
-
---------------------------------------------------------------------------------
-4. DICCIONARIO DE VARIABLES (31 columnas, en este orden)
---------------------------------------------------------------------------------
-01. Journey_ID         Texto. Identificador del VIAJE FÍSICO (una salida del país).
-                       Agrupa las filas de una misma gira. Convención:
-                       {COD_PAIS}-{COD_PRESIDENTE}-J{NNN}  (ej. ARG-DLR-J001).
-02. Trip_ID            Entero secuencial (1,2,3...). Identifica cada FILA. Al integrar
-                       la base final se renumera global. Sin comas.
-03. President          Texto. Nombre del mandatario (igual que en la tabla maestra).
-04. Origin_Country     Texto. País del mandatario (en español; ej. "Argentina").
-05. Trip_Status        {Completed, Canceled}. Los viajes cancelados SE INCLUYEN.
-06. Start_Date         YYYY-MM-DD. Inicio de la estancia en ESTE país. "NA" si se ignora.
-07. End_Date           YYYY-MM-DD. Fin de la estancia en ESTE país. "NA" si se ignora.
-08. Duration_Days      Entero. Días en ESTE país (NO el total de la gira).
-                       "NA" obligatorio si Trip_Status = Canceled.
-09. Destination_Country Texto EN INGLÉS (clave del REGION_MAP; ej. "United States").
-10. Destination_Region {South America, Central America, North America, Caribbean,
-                       Europe, Asia-Pacific, Africa, Middle East, Antarctica}.
-                       Se completa AUTOMÁTICAMENTE desde Destination_Country.
-11. Destination_City   Texto. Ciudad principal del tramo.
-12. Visit_Category     {Bilateral, Multilateral, Other}.
-13. Visit_Subtype      {State Visit, Working Visit, Regional Summit, Global Forum,
-                       Inauguration/Funeral, Transit/Medical}.
-14. Sideline_Bilaterals {TRUE, FALSE, NA}. Ver regla en sección 5.4.
-15. Counterpart_Event  Texto. Funcionario visitado o nombre de la cumbre/evento.
-16. Counterpart_Type   {Jefe de Estado/Gobierno, Ex-mandatario/Opositor,
-                       Premio/Distinción/Honor académico, Movimiento partidario/
-                       ideológico, Otro actor no estatal, NA}. Naturaleza de la
-                       contraparte de una visita Bilateral. SOLO aplica a
-                       Visit_Category = Bilateral; en Multilateral/Other es "NA"
-                       obligatorio (decisión 2026-07-27). Ver reglas en sección 5.8.
-17. Trip_Objective     Texto (máx. 30 palabras). Resumen factual. Si Canceled, indicar
-                       el objetivo original Y el motivo de cancelación.
-18. Source_Verification Texto. URL oficial real; si no es oficial, link de Wayback
-                       Machine; si no hay link, "Search Query: [términos exactos]".
-                       NUNCA inventar URLs.
-19. Source_Reliability {High, Medium, Low}. Ver sección 5.5.
-20. Methodological_Notes Texto. Aclarar si la fecha fue estimada (usar YYYY-MM-01) o
-                       si el dato está incompleto.
-21. Tema_Foro          {Comercio/Integración Económica, Seguridad, Medio Ambiente/Clima,
-                       Derechos Humanos, Salud, Energía, Cooperación Política General,
-                       Otro, NA}. Tema PRINCIPAL del foro multilateral. SOLO aplica a
-                       Visit_Category = Multilateral; en Bilateral/Other es "NA"
-                       obligatorio (decisión 2026-07-06). Ver reglas en sección 5.7.
-22. Verificacion_Status {Verificada-URL, Solo-Query, No-verificable}. Estado de la
-                       fuente (campaña de verificación iniciada 2026-07-07):
-                       - Verificada-URL : Source_Verification es una URL consultable.
-                       - Solo-Query     : aún tiene "Search Query"; pendiente de campaña.
-                       - No-verificable : se buscó activamente y no se halló fuente
-                         consultable; se conserva el Search Query original.
-                       Regla: toda fila con Source_Verification http => Verificada-URL.
-                       El objetivo del proyecto es llevar todas las filas Solo-Query a
-                       Verificada-URL o, en su defecto, a No-verificable documentado.
-23. MetHostHOGS        {TRUE, FALSE, NA}. Reunión bilateral con el Jefe de Estado/
-                       Gobierno del país anfitrión. Tomada del esquema Diplometrics
-                       COLT (decisión 2026-08-03). Ver sección 5.9.
-24. MetNonHostHOGS     {TRUE, FALSE, NA}. Reunión con Jefe/s de Estado/Gobierno de un
-                       TERCER país (no el anfitrión, ej. al margen de una cumbre).
-25. NonHostHOGS_Name   Texto. Nombre(s) de los mandatarios de terceros países
-                       reunidos. "NA" obligatorio si MetNonHostHOGS != TRUE.
-26. PublicAddress      {TRUE, FALSE, NA}. Discurso público, alocución, entrevista no
-                       periodística, panel, videoconferencia pública, etc.
-27. SignedAgreement    {TRUE, FALSE, NA}. Firmó o presenció la firma de un acuerdo,
-                       tratado, memorándum o declaración conjunta.
-28. CulturalSiteOrCeremony {TRUE, FALSE, NA}. Visita a sitio cultural/religioso/
-                       histórico o participación en ceremonia (incluye actos
-                       militares, inauguraciones de embajadas, homenajes).
-29. BusinessLeaderOrForum {TRUE, FALSE, NA}. Reunión, foro o seminario con líderes
-                       del sector privado/empresarial.
-30. MetIGOLeader       {TRUE, FALSE, NA}. Reunión bilateral con el líder de un
-                       organismo internacional (Secretario General ONU, Directora
-                       Gerente FMI, Presidente Banco Mundial, etc.).
-31. IGOLeader_Name     Texto. Nombre y cargo del líder de organismo internacional
-                       reunido. "NA" obligatorio si MetIGOLeader != TRUE.
-
-Valor faltante: SIEMPRE "NA" (en cualquier columna). Sin celdas vacías.
-ADVERTENCIA DE ANÁLISIS: pandas/R leen el texto "NA" como valor nulo por defecto;
-eso NO significa que la celda esté vacía en el CSV (falso positivo de auditoría
-registrado en bitácora el 2026-07-06). Para auditar el crudo usar csv/grep o
-pandas con keep_default_na=False.
+La FILA = un TripID de COLT = un tramo de viaje a un país de destino.
+COLT no modela una gira multi-país como un único "viaje físico" con un ID
+compartido entre tramos -cada tramo/país es una fila independiente, salvo
+que el propio TripID (formato "<LeaderID>-<LeaderISO3>-<DestISO3>-<n>")
+comparta el mismo LeaderID y fechas cercanas, lo cual hay que inferir, no
+viene dado-. Si en algún momento el análisis necesita agrupar por "viaje
+físico" (gira), se reconstruye ad hoc filtrando por LeaderID + rango de
+fechas contiguo, no hay una columna dedicada (a diferencia del viejo
+Journey_ID del esquema propio, descartado en el rediseño).
 
 --------------------------------------------------------------------------------
-5. REGLAS DE CLASIFICACIÓN Y DECISIÓN
+4. ESQUEMA DE COLUMNAS (esquema nativo de COLT, 76 columnas)
 --------------------------------------------------------------------------------
-5.1 INCLUSIÓN / EXCLUSIÓN (de las instrucciones originales)
-    - INCLUIR: todo viaje internacional oficial DURANTE el mandato (completado o cancelado).
-    - INCLUIR: visitas repetidas (son datos válidos y obligatorios).
-    - EXCLUIR: viajes antes de asumir (candidato/electo) o después de terminar (ex presidente).
-    - EXCLUIR: escalas técnicas de reabastecimiento (no diplomáticas).
+Fuente: Diplometrics COLT Codebook v2.6 (Pardee Institute, U. Denver), leído
+por el proyecto el 2026-08 (ver bitácora, tarea "Leer Travel Codebook.docx").
+No se traduce ni se renombra ninguna columna -se mantiene el nombre exacto de
+COLT para poder combinar/comparar datos directamente-.
 
-5.2 DURACIÓN
-    - Duration_Days = días en ESE país (extremos incluidos: llegada y salida cuentan).
-    - En giras multi-país, cada fila lleva los días de SU país, no el total.
-    - Cancelados: Duration_Days = NA (no distorsionar promedios).
-    - Todo análisis cuantitativo de duración/frecuencia debe filtrar Trip_Status = Completed.
+IDENTIFICACIÓN DEL VIAJE Y DEL MANDATARIO
+  TripID              Identificador único de COLT. Formato real de COLT:
+                       "<LeaderID>-<LeaderISO3>-<DestISO3>-<n>" (ej.
+                       "334-ARG-MEX-34668"). Para filas que NOSOTROS agregamos
+                       (COLT no las tiene), se usa la convención propia del
+                       proyecto: "PELATAM-<ISO3 del país del mandatario>-<n>"
+                       (ver sección 6). Nunca inventar un TripID con el
+                       formato de COLT para una fila nuestra -se confundiría
+                       con una fila real de COLT-.
+  LeaderID            ID numérico de COLT para el mandatario. Constante para
+                       todas las filas de un mismo mandatario/mandato.
+  LeaderCountryOrIGO  País (o organismo) del mandatario. En español "de
+                       COLT" (inglés): ej. "Argentina", "Brazil".
+  LeaderCountryISO    Código ISO3 del país del mandatario.
+  LeaderRegion / LeaderSubregion  Región/subregión de COLT para el país del
+                       mandatario (no confundir con RegionVisited, es la del
+                       ORIGEN).
+  PriorityLeader      Flag de COLT sobre si el mandatario es de cobertura
+                       prioritaria en su dataset.
+  LeaderRole          Rol del mandatario (ej. Presidente, jefe de gobierno).
+  LeaderTitle         Título formal.
+  LeaderSurname       Apellido.
+  LeaderFullName      Nombre completo, SIN acentos (convención de COLT). Al
+                       migrar una fila nuestra, copiar la grafía exacta que
+                       ya usa COLT para ese LeaderID -no usar nuestra propia
+                       grafía con acentos-, así todo agrega bien por nombre.
+  Exiled               Flag si el mandatario estaba en el exilio.
 
-5.3 REGIONES (objetivo: medir variación temporal por región)
-    - Asignación automática vía REGION_MAP (schema.py). No asignar a mano.
-    - EE.UU. se aísla SIEMPRE filtrando Destination_Country = "United States"
-      (queda dentro de "North America", junto con Canadá y México).
-    - "Latinoamérica" se reconstruye, si se desea, sumando South America +
-      Central America + Caribbean + México.
-    - Casos transcontinentales (criterio fijado): Rusia=Europe; Turquía=Middle East;
-      Egipto=Africa; Kazajistán=Asia-Pacific; Israel/Palestina=Middle East.
-    - Si aparece un país no mapeado, region_for() devuelve "NA" y el validador lo marca:
-      agregar el país a REGION_MAP (no improvisar).
+DESTINO DEL VIAJE
+  CountryVisited       País de destino, EN INGLÉS, vocabulario propio de
+                       COLT (ej. "Holy See" no "Vatican City", "Turkiye" no
+                       "Turkey" -ver 06_SCRIPTS/colt_country_alias.py para
+                       la lista completa de alias detectados-).
+  CountryVisitedISO    ISO3 del país de destino.
+  RegionVisited / SubRegionVisited  Región/subregión de COLT para el destino.
+  CityVisited           Ciudad principal del tramo.
+  DisputedTerritory     Flag si el destino es un territorio en disputa.
+  SemiAutoTerritory     Flag si el destino es un territorio semi-autónomo.
 
-5.4 SIDELINE_BILATERALS (reunión bilateral al margen de un evento multilateral)
-    - TRUE  : la fuente confirma EXPLÍCITAMENTE un bilateral al margen del evento.
-    - FALSE : la fuente confirma que NO hubo bilaterales al margen.
-    - NA    : no verificable con las fuentes disponibles (caso por defecto).
-    Nota honesta: por su naturaleza, esta columna quedará mayormente en "NA";
-    sólo se marca TRUE/FALSE cuando hay evidencia directa.
-    DECISIÓN 2026-07-06: la verificación retroactiva de bilaterales al margen
-    (331 filas en NA) queda DIFERIDA por volumen de trabajo y debilidad de fuentes
-    para eventos antiguos. Registrada como tarea futura en PENDIENTES_VERIFICACION.
+FECHAS Y DURACIÓN
+  TripYear              Año del viaje (entero).
+  TripStartDate         Fecha de inicio de la estancia en ESTE país.
+  TripEndDate            Fecha de fin de la estancia en ESTE país.
+  TripDuration            Días en ESTE país (no el total de la gira si es
+                       multi-país).
 
-5.5 CONFIABILIDAD DE LA FUENTE
-    - High   : fuente oficial primaria (presidencia/cancillería, boletín/registro oficial,
-               archivo institucional). URL directa.
-    - Medium : prensa de referencia o enciclopedia con datos consistentes y cruzados.
-    - Low    : fuente única, secundaria, o dato reconstruido por "Search Query".
+MICRO-CONDUCTA (qué hizo el mandatario durante la visita)
+  SubHOGSTravelWithHOGS  Si un sub-jefe de gobierno (vice/canciller) viajó
+                       junto con el mandatario. Variable rara, fuera del
+                       foco habitual del proyecto -no se investiga de rutina-.
+  CotravelHOGS           Si viajó acompañado de OTRO jefe de Estado/Gobierno.
+  MetHostHoGS             Yes/No. Reunión bilateral con el jefe de Estado/
+                       Gobierno del país ANFITRIÓN. La variable más usada
+                       para inferir si una visita fue "sustantiva".
+  HostHOGSName            Nombre del jefe de Estado/Gobierno anfitrión
+                       reunido (si MetHostHoGS=Yes).
+  SubHOGSmetHostSubHOGS   Si el sub-jefe que viajó (ver SubHOGSTravelWithHOGS)
+                       se reunió con su contraparte del país anfitrión.
+  HostSubHOGSName         Nombre de esa contraparte.
+  AttendedMultilatEvent   Yes/No. Asistencia a un evento/cumbre multilateral
+                       (3+ países u organismo internacional).
+  NameMultilatEvent       Nombre del evento/cumbre.
+  AttendedMultilatMinisterialEvent  Yes/No. Asistencia a una reunión
+                       MINISTERIAL multilateral (no de jefes de Estado).
+  NameMultilatMinisterialEvent      Nombre de esa reunión ministerial.
+  MetNonhostHOGS           Yes/No. Reunión con jefe/s de Estado/Gobierno de
+                       un TERCER país (no el anfitrión), típicamente al
+                       margen de una cumbre.
+  NonhostHOGSNames         Nombre(s) de esos mandatarios de terceros países.
+  PublicAddress            Yes/No. Discurso público, alocución, entrevista
+                       no periodística, panel.
+  SignedAgreement           Yes/No. Firmó o presenció la firma de un acuerdo,
+                       tratado o declaración conjunta.
+  CulturalSiteOrCeremony    Yes/No. Visita a sitio cultural/religioso/
+                       histórico o participación en ceremonia (incluye
+                       actos militares, inauguraciones de embajadas,
+                       homenajes).
+  BusinessLeaderOrForum     Yes/No. Reunión o foro con líderes del sector
+                       privado/empresarial.
+  MetIGOLeader              Yes/No. Reunión bilateral con el líder de un
+                       organismo internacional (Secretario General ONU,
+                       Directora Gerente FMI, Presidente Banco Mundial, etc.)
+                       -distinto de asistir a un foro DE ese organismo-.
+  IGOLeaderName              Nombre y cargo de ese líder de organismo.
 
-5.6 VISIT_CATEGORY y VISIT_SUBTYPE — guía rápida
-    BILATERAL vs MULTILATERAL (definición de las instrucciones originales):
-    - Bilateral   : visita entre DOS naciones.
-    - Multilateral: involucra 3+ naciones o un organismo internacional.
-    - Other       : categoría RESIDUAL ESTRICTA (auditada 2026-07-07). Solo para
-      viajes sin carácter intergubernamental ni de organismo: premios personales,
-      salidas sin agenda oficial, eventos deportivos sin agenda intergubernamental.
-      NO van en Other: foros ideológicos partidarios con líderes internacionales
-      (CPAC, actos de Vox, Foro de São Paulo, Cumbres Progresistas -> Multilateral,
-      tema Cooperación Política General); foros económicos privados (Davos, Milken,
-      Boao -> Multilateral, tema Comercio/Integración Económica); visitas a
-      organismos internacionales (CERN, OMS, COI -> Multilateral, por la propia
-      definición). Reclasificación retroactiva de 8 filas aplicada el 2026-07-07;
-      quedan 4 Other legítimos en la base.
-    Subtipos:
-    - State Visit         : máximo protocolo, anfitrión Jefe de Estado, honores/banquete.
-    - Working Visit       : bilateral con agenda específica, menor protocolo.
-    - Regional Summit     : cumbre de organismo regional (MERCOSUR, CELAC, OEA, UNASUR, etc.).
-    - Global Forum        : evento global/temático (Asamblea ONU, G20, COP, Davos, G7/G8).
-    - Inauguration/Funeral: asunciones, funerales de Estado, coronaciones, actos protocolares.
-    - Transit/Medical     : tránsito diplomático o motivo médico (las escalas de
-                            reabastecimiento NO se registran; ver 5.1).
+FUENTES Y NOTAS
+  Notes                     Texto libre. Acá van también nuestras propias
+                       anotaciones de trabajo, siempre con el tag
+                       "[PE-Latam <fecha>: <qué se hizo/corrigió>]" al final
+                       del texto existente -nunca se borra lo que ya había-.
+  Confidence(1-5)            Confianza de COLT en el dato (1=baja, 5=alta,
+                       según su propia metodología de fuentes). Para filas
+                       PELATAM (nuestras) se deja en blanco salvo que se
+                       decida adoptar una escala propia -no inventar un
+                       número sin criterio-.
+  SourceLink1..SourceLink33   Hasta 33 URLs/fuentes de COLT para ese TripID.
+                       Para filas PELATAM, la fuente propia va en
+                       SourceLink1 (una URL real, o "Search Query: [términos
+                       exactos]" si no hay URL -nunca inventar una URL-).
 
-
-5.7 TEMA_FORO — clasificación temática de foros multilaterales (agregada 2026-07-06)
-    Objetivo analítico: leer los TÓPICOS DE INTERÉS de la diplomacia presidencial
-    (¿a qué van los presidentes cuando van a foros?: comercio, clima, DDHH, etc.).
-
-    TAXONOMÍA CERRADA (8 categorías + NA):
-      Comercio/Integración Económica | Seguridad | Medio Ambiente/Clima |
-      Derechos Humanos | Salud | Energía | Cooperación Política General | Otro
-
-    ALCANCE: solo Visit_Category = Multilateral. Bilateral/Other -> "NA" obligatorio
-    (aunque la visita bilateral tenga agenda temática clara; decisión del usuario).
-
-    REGLA MAESTRA — doctrina del "mandato fundacional" (consistencia interna):
-      - Foros de AGENDA AMPLIA (política+economía+seguridad+clima a la vez)
-        -> Cooperación Política General.
-      - Foros cuyo MANDATO FUNDACIONAL es económico-comercial
-        -> Comercio/Integración Económica.
-    En consecuencia (casos resueltos y verificados, investigación 2026-07-06):
-      -> Cooperación Política General: AGNU, G20 (todas las ediciones), G7/G8,
-         BRICS, CELAC, UNASUR, ALBA, Grupo de Río/do Rio, G-15, G77+China,
-         Cumbres Iberoamericanas, Cumbres de las Américas, cumbres birregionales
-         UE-ALC/CELAC-UE, CALC y Cumbre de la Unidad (precursoras de CELAC),
-         ASEAN, CPLP, Unión Africana (aniversarios), Cumbre del Milenio,
-         Cumbre Mundial 2005, foros ideológicos (Cumbre Progresista, Gobiernos
-         Progresistas, Tercera Vía, Foro de São Paulo), Cumbre de los Pueblos,
-         iniciativas contra el hambre y la pobreza (Hambre Cero, Cúpula da Ação
-         contra a Fome), foros ideológicos de derecha (CPAC en todas sus sedes,
-         actos internacionales de Vox como "Europa Viva") — simétrico a los foros
-         de izquierda ya clasificados —, asunciones presidenciales, funerales de Estado,
-         coronaciones, misas inaugurales papales, conmemoraciones de Estado
-         (Día D), reuniones político-regionales ad hoc.
-      -> Comercio/Integración Económica: MERCOSUR/MERCOSUL, APEC, APEP, Alianza del
-         Pacífico, Davos (Foro Económico Mundial), Foro de Boao, CARICOM
-         (mercado común), CEDEAO/ECOWAS, ASPA, ASA, IBAS/IBSA, Franja y la
-         Ruta (OBOR), conferencias de Financiación para el Desarrollo
-         (Monterrey, Doha), Nuevo Pacto Financiero Global (París 2023),
-         Global Compact, foros empresariales y seminarios de inversión.
-      -> Medio Ambiente/Clima: toda COP, Río+20, Johannesburgo 2002 (Río+10),
-         cumbres de Acción/Ambición Climática, firma del Acuerdo de París,
-         Cumbre de la Amazonía (OTCA).
-      -> Seguridad: Cumbres de Seguridad Nuclear; cumbres de paz sobre conflictos
-         armados (ej. Cumbre por la Paz en Ucrania, Bürgenstock 2024 — decision
-         2026-07-07: temática de guerra/paz, no cooperación genérica).
-      -> Derechos Humanos: foros de memoria del Holocausto (Estocolmo 2000,
-         Yad Vashem 2020).
-      -> Energía: Cumbre Energética Sudamericana.
-      -> Otro: Conferencia de la OIT (Pacto Mundial por el Empleo) — temática
-         laboral sin categoría propia. Si aparecen más casos laborales o de
-         desarrollo/pobreza, evaluar ampliar la taxonomía (registrado en
-         PENDIENTES_VERIFICACION).
-
-    EVENTOS COMBINADOS (ej. "64ª AGNU + Cúpula do G20", "Cumbre APEC / COP25"):
-      clasificar por el evento PRIMARIO (el primero mencionado en
-      Counterpart_Event); el secundario no se clasifica por separado.
-
-    IMPLEMENTACIÓN: 06_SCRIPTS/add_tema_foro.py aplica (a) una tabla de match
-    exacto para los eventos verificados por investigación y (b) reglas por
-    patrón de keywords (normalizadas sin acentos, ES/PT). Todo evento sin match
-    queda en "NA" y validate.py lo marca como error (fila Multilateral requiere
-    categoría), forzando revisión manual: cero clasificación silenciosa.
-    Clasificaciones de confianza Media revisables listadas en
-    PENDIENTES_VERIFICACION (ASPA/ASA/IBAS, CARICOM, G77+China, OIT->Otro).
-
-5.8 COUNTERPART_TYPE — naturaleza de la contraparte en visitas Bilaterales (agregada 2026-07-27)
-    OBJETIVO ANALÍTICO: la diplomacia presidencial incluye, cada vez más, viajes
-    que formalmente son Bilateral (involucran a un solo país tercero) pero cuyo
-    motivo real NO es una relación Estado-a-Estado: visitas a un ex-mandatario o
-    dirigente opositor que no gobierna (ej. Lula visitando a Cristina Fernández
-    de Kirchner, presa/ex-presidenta), o viajes para recibir un premio o
-    distinción (ej. Milei viajando a España a recibir un premio). Esta columna
-    permite distinguir esa modalidad de la visita bilateral "clásica" sin tener
-    que reclasificar Visit_Category (que sigue midiendo si hay 1, 2+ países o
-    un organismo involucrado).
-
-    TAXONOMÍA CERRADA (5 categorías + NA):
-      - Jefe de Estado/Gobierno          : la contraparte es la autoridad oficial
-        en funciones del país de destino (presidente, primer ministro, rey/reina
-        en su rol de jefe de Estado, etc.). CASO POR DEFECTO — la inmensa mayoría
-        de las filas Bilateral caen acá.
-      - Ex-mandatario/Opositor           : ex-presidente, dirigente opositor o
-        líder partidario del país de destino que NO está gobernando al momento
-        de la visita. Ej.: Lula-Cristina Fernández de Kirchner (2023-2025,
-        Cristina ya no era presidenta).
-      - Premio/Distinción/Honor académico: el motivo central del viaje es recibir
-        un premio, título honoris causa, o distinción cultural/académica —
-        aunque en la agenda haya además una reunión protocolar breve.
-      - Movimiento partidario/ideológico : el viaje es a un evento de un partido
-        o movimiento político (no un acto de Estado ni una cumbre intergubernamental
-        con 3+ países, que seguiría siendo Multilateral por la regla de 5.6).
-      - Otro actor no estatal            : la contraparte es una empresa, ONG,
-        institución religiosa que no es jefe de Estado, think tank, universidad
-        (fuera del caso de premio/honor), etc.
-      - NA: obligatorio si Visit_Category != Bilateral (Multilateral/Other).
-
-    ALCANCE: solo Visit_Category = Bilateral. Las filas Multilateral (incluidos
-    los foros ideológicos como CPAC/Vox/Foro de São Paulo, que por tener 3+
-    países se clasifican Multilateral según 5.6) NO llevan Counterpart_Type;
-    su naturaleza "no estatal" ya queda capturada en Tema_Foro = Cooperación
-    Política General. Tampoco aplica a Other (que por 5.6 ya es la categoría
-    residual estricta para premios/salidas sin agenda oficial cuando NO hay ni
-    siquiera un país tercero identificable con claridad).
-
-    IMPLEMENTACIÓN: migración retroactiva 2026-07-27 sobre las filas Bilateral
-    existentes (columna agregada con default "Jefe de Estado/Gobierno" y luego
-    revisada fila por fila para identificar las excepciones). validate.py exige
-    Counterpart_Type no-NA en toda fila Bilateral y NA obligatorio fuera de
-    Bilateral — sin clasificación silenciosa.
-
-5.9 COLUMNAS DE MICRO-CONDUCTA ESTILO COLT (agregadas 2026-08-03)
-    ORIGEN: el usuario comparó esta base contra el dataset externo Diplometrics
-    COLT (Country and Organization Leader Travel, Pardee Institute, U. Denver;
-    ver 05_BITACORA/comparacion_diplometrics_colt.txt) y pidió "combinar ambas
-    cosas": conservar nuestra taxonomía propia (Visit_Category/Visit_Subtype/
-    Tema_Foro/Counterpart_Type, que clasifican QUÉ TIPO de visita fue) y sumarle
-    las variables de micro-conducta de COLT (que registran QUÉ HIZO el mandatario
-    durante la visita: si se reunió con el anfitrión, si dio un discurso, si
-    firmó algo, etc.). Las 8 columnas nuevas (23-30, más 2 campos de nombre)
-    replican la definición EXACTA del "Diplometrics COLT Codebook v2.6" (marzo
-    2026) para que nuestros datos sean directamente comparables/combinables con
-    los de COLT en estas dimensiones.
-
-    LAS 8 VARIABLES Y SU DEFINICIÓN ORIGINAL (traducida del codebook COLT):
-      - MetHostHOGS: reunión bilateral con el jefe de Estado/Gobierno del país
-        anfitrión. Distinto de Counterpart_Event/Counterpart_Type: estos últimos
-        identifican a la contraparte EN FILAS BILATERALES; MetHostHOGS también
-        aplica a filas Multilateral (¿hubo, además de la cumbre, un bilateral
-        con el anfitrión?) y permite detectar el caso inverso en Bilateral: un
-        viaje Counterpart_Type=Premio/Distinción donde el mandatario NO se
-        reunió con el jefe de Estado del país (ej. el caso Milei-Vox en España).
-      - MetNonHostHOGS + NonHostHOGS_Name: reunión con jefe/s de Estado/Gobierno
-        de un tercer país, típicamente al margen de una cumbre. Complementa a
-        Sideline_Bilaterals (que solo indica SI hubo bilaterales al margen, sin
-        decir con quién).
-      - PublicAddress: discurso, alocución, entrevista no periodística, panel.
-      - SignedAgreement: firma o presencia en la firma de un acuerdo formal —
-        variable proxy de la "productividad" diplomática de una visita.
-      - CulturalSiteOrCeremony: sitio cultural/religioso/histórico o ceremonia
-        (incluye actos militares, inauguraciones de embajadas, homenajes).
-      - BusinessLeaderOrForum: reunión/foro con el sector privado.
-      - MetIGOLeader + IGOLeader_Name: reunión bilateral con el líder de un
-        organismo internacional (ONU, FMI, Banco Mundial, etc.), distinto de
-        asistir a un foro DE ese organismo (que ya se captura vía Visit_Subtype/
-        Tema_Foro).
-
-    DOMINIO Y REGLA DE NA: TRUE|FALSE|NA en las 6 booleanas. A diferencia de
-    Counterpart_Type/Tema_Foro (donde NA está reservado a "no aplica"), acá NA
-    significa "no investigado todavía" — es un rollout incremental. Se completa
-    con datos propios de COLT cuando la fila tiene un viaje equivalente
-    identificado en su dataset (ver PENDIENTES_VERIFICACION, sección Argentina/
-    COLT), y con investigación propia en el resto de los casos donde se decida
-    avanzar. Los campos de nombre (NonHostHOGS_Name, IGOLeader_Name) deben ser
-    "NA" obligatorio si el booleano asociado no es TRUE.
-
-    ALCANCE INICIAL: Argentina (agregada junto con la extensión de la base a
-    Carlos Menem, 1994-1999, y la revisión de brechas 2000-2025 usando COLT como
-    fuente de leads). El resto de los países (Brasil, Chile, Paraguay, Uruguay,
-    Bolivia) recibieron las 3 columnas nuevas con NA en toda fila existente;
-    quedan pendientes de una ronda futura si el usuario decide extender esta
-    combinación de esquemas al resto de la base.
+VALORES FALTANTES: blanco/None (celda vacía), la misma convención que ya usa
+COLT -no usar "NA" como texto, eso es convención del esquema propio viejo,
+descartado-.
 
 --------------------------------------------------------------------------------
-6. FLUJO DE TRABAJO POR MANDATARIO (ciclo estándar)
+5. HOJA "Viajes_Cancelados"
 --------------------------------------------------------------------------------
-Orden del proyecto: PAÍS COMPLETO, mandatario por mandatario en orden cronológico.
-Una vez controlados TODOS los mandatarios de un país, se integra a la base final.
-
-Pasos por mandatario (cada uno con criterio de "hecho"):
-  PASO 1 — TOMAR: siguiente mandatario según la tabla maestra (02_TABLA_MAESTRA).
-  PASO 2 — INVESTIGAR: viajes con fuente oficial del país + cruces de prensa.
-  PASO 3 — CARGAR: una fila por país de destino, con Journey_ID por salida física,
-           usando el formato de 19 columnas (ver build_module_template.py).
-  PASO 4 — CONTROL (QC automático): correr validate.py -> 0 errores obligatorio.
-  PASO 5 — CHEQUEO DE COMPLETITUD: segundo cruce contra una fuente independiente;
-           registrar faltantes detectados (como hicimos en Argentina/Chile/Uruguay).
-  PASO 6 — BITÁCORA: registrar el mandatario procesado (ver formato en 05_BITACORA).
-Al terminar el país:
-  PASO 7 — INTEGRAR: correr integrate.py (valida todo y arma base_consolidada.csv).
+Hoja aparte para viajes formalmente anunciados y cancelados (COLT no
+registra cancelaciones, es un agregado propio del proyecto desde el
+esquema anterior). Se mantiene porque es información real y verificable que
+no tiene otro lugar donde vivir dentro del esquema de COLT. Columnas: ver la
+hoja misma (14 columnas, incluye Visit_Category como clasificación mínima
+del viaje que se iba a hacer). No se expande este esquema sin necesidad.
 
 --------------------------------------------------------------------------------
-7. CONTEO Y ANÁLISIS (evitar doble conteo)
+6. CONVENCIÓN DE ID PARA FILAS PROPIAS (PELATAM-<ISO3>-<n>)
 --------------------------------------------------------------------------------
-  - Nº de VIAJES (salidas)      = count(distinct Journey_ID), filtrando Completed.
-  - Nº de PAÍSES VISITADOS      = count(distinct Destination_Country).
-  - Nº de TRAMOS                = count(filas).
-  - Días en el exterior         = sum(Duration_Days) sobre filas Completed.
-       (ojo: si una gira solapa fechas entre países, los días por país no se solapan;
-        para "días fuera del país de origen" usar la primera/última fecha por Journey_ID).
-  - Peso por región en el tiempo = agrupar por (año de Start_Date, Destination_Region).
+Cuando investigamos un viaje que COLT no tiene, se agrega como fila nueva en
+Datos_COLT_Sudamerica con:
+  TripID = "PELATAM-<ISO3 del país del mandatario>-<n>"
+    <n> es un número que no colisiona con otros TripID PELATAM del mismo
+    país (mirar el máximo ya usado). Convención ya establecida desde la
+    campaña de Argentina/Brasil/Chile de agosto 2026 (111 filas) y extendida
+    a Paraguay/Uruguay (78 filas) en el rediseño del 2026-08-24.
+  Leader* = copiados de cualquier fila EXISTENTE de COLT para ese mismo
+    LeaderID (nombre, ISO, región, etc.) -nunca inventados-. Si el
+    mandatario no tiene ninguna fila propia en COLT (mandato que COLT no
+    cubrió en absoluto), se documenta el caso en PENDIENTES_VERIFICACION y
+    se decide un criterio antes de migrar sus filas.
+  CountryVisited* = vocabulario de COLT (usar colt_country_alias.py si el
+    país tiene un alias conocido).
+  Micro-conducta = copiada de nuestra propia investigación si existe
+    (esquema anterior tenía estas 7 variables ya relevadas para muchas
+    filas), si no, en blanco -nunca inventar Yes/No sin evidencia-.
+  Notes = "[PE-Latam: viaje investigado por el proyecto, NO presente en
+    COLT. <resumen> Fuente: <fuente>. Migrado desde <origen> el <fecha>.]"
+  SourceLink1 = nuestra fuente.
+
+--------------------------------------------------------------------------------
+7. FLUJO DE TRABAJO (campaña de verificación/carga por país)
+--------------------------------------------------------------------------------
+Para un país YA cubierto por COLT (verificar):
+  1. Triage: comparar lo que ya está cargado (COLT + PELATAM de ese país)
+     contra investigación propia nueva, por LeaderID/mandatario.
+  2. Para cada discrepancia: decidir con fuente quién tiene razón, corregir
+     la celda que esté mal directamente en Datos_COLT_Sudamerica, anotar en
+     Notes. Nunca "No" sin evidencia -usar No_verificable-.
+  3. Para cada hallazgo propio que COLT no tiene: agregar fila PELATAM
+     (sección 6).
+  4. Registrar en bitácora.txt (qué se hizo, cuántos items) y
+     PENDIENTES_VERIFICACION.txt (lo que queda sin resolver).
+
+Para un país SIN módulo propio (Bolivia y los 6 nuevos: Colombia, Ecuador,
+Guyana, Perú, Surinam, Venezuela): investigar directamente contra las filas
+de COLT ya cargadas para ese país -no se arma un CSV intermedio, se trabaja
+siempre sobre Datos_COLT_Sudamerica desde el principio-.
 
 --------------------------------------------------------------------------------
 8. SCRIPTS
 --------------------------------------------------------------------------------
-  schema.py                Esquema canónico (columnas, dominios, REGION_MAP, validación).
-  validate.py <csv>        QC de un módulo. Devuelve 0 si OK.
-  build_module_template.py Plantilla de carga por mandatario (con ejemplo).
-  integrate.py             Valida e integra todos los módulos en la base final.
-  add_tema_foro.py         Migración 19->20 col.: clasifica Tema_Foro (match exacto +
-                           patrones) y sanea celdas vacías. Idempotente; reporta sin-match.
+  schema.py, validate.py, integrate.py     LEGADO -operan sobre el esquema
+                                            propio de 31 columnas y los CSV
+                                            de 03_MODULOS_PAIS-. Se mantienen
+                                            solo para no perder capacidad de
+                                            auditar el trabajo histórico, no
+                                            para carga nueva.
+  colt_verificacion_triage.py,
+  colt_aplicar_verificacion.py             LEGADO. Pipeline de verificación
+                                            anterior (CSV por país vs. Excel
+                                            COLT separado). Ya no se usa para
+                                            campañas nuevas -ver los scripts
+                                            de abajo-, se mantiene para
+                                            auditar cómo se migró cada país.
+  colt_export_csv.py                       PASO 1 de toda campaña: exporta
+                                            Datos_COLT_Sudamerica ->
+                                            04_BASE_FINAL/base_colt_sudamerica_
+                                            trabajo.csv (csv de trabajo).
+  colt_generar_workpacks.py <pais_colt>    PASO 2: arma workpacks por
+                                            LeaderID desde el csv de trabajo
+                                            (reemplaza a colt_verificacion_
+                                            triage.py para países sin CSV
+                                            propio -Bolivia y los 6 nuevos-;
+                                            también sirve para re-verificar
+                                            un país ya migrado).
+  colt_aplicar_workpacks.py <pais> <slug>  PASO 3: aplica correcciones y
+    <resultados.json> [--aplicar]          hallazgos_nuevos (filas PELATAM)
+                                            de los workpacks investigados,
+                                            sobre el csv de trabajo. Dry run
+                                            por default, --aplicar para
+                                            escribir de verdad.
+  colt_validar_madre.py                    PASO 4: QC liviano del csv de
+                                            trabajo (TripID único/con formato
+                                            válido, fechas coherentes,
+                                            dominio Yes/No/blanco). Correr
+                                            antes de importar.
+  colt_importar_csv.py                     PASO 5: vuelca el csv de trabajo
+                                            de vuelta a la hoja
+                                            Datos_COLT_Sudamerica del xlsx
+                                            (borra+reescribe filas, rápido;
+                                            no toca Leame/Viajes_Cancelados).
+  colt_country_alias.py                    Diccionario de alias de nombres
+                                            de país (nuestro vocabulario ->
+                                            el de COLT).
+  migrar_nuestro_unico.py                  Script puntual (no recurrente):
+                                            migró las filas "nuestro_unico"
+                                            de Paraguay/Uruguay al archivo
+                                            madre. Ver bitácora 2026-08-24.
+
+  Flujo completo de una campaña:
+    python colt_export_csv.py
+    python colt_generar_workpacks.py <Pais> --items-por-tanda 25
+    ... (subagentes investigan cada workpack) ...
+    python colt_aplicar_workpacks.py <Pais> <slug> resultados_workpack_*.json --aplicar
+    python colt_validar_madre.py                      # debe dar 0 errores
+    python colt_importar_csv.py                        # vuelca al xlsx final
 
 --------------------------------------------------------------------------------
 9. DECISIONES DE DISEÑO (registro de criterio)
 --------------------------------------------------------------------------------
-  - Se agregó Journey_ID como columna 1 (no estaba en las instrucciones originales)
-    para poder distinguir "viajes físicos" de "tramos por país" y evitar el doble
-    conteo que provoca la regla "una fila por país de destino".
-  - Duration_Days se define por país (no total de gira), por pedido explícito.
-  - Cancelados sin duración; se excluyen de los promedios.
-  - Regiones rediseñadas respecto del borrador original para que sean mutuamente
-    excluyentes y exhaustivas, con foco en medir variación temporal por región.
-  - Formato CSV minimalista (no Excel con formato) para portabilidad estadística.
-  - 2026-07-06: se agregó Tema_Foro como columna 20 (al FINAL, para retro-
-    compatibilidad de scripts: new_row() completa con NA lo no informado).
-    Solo Multilateral; taxonomía cerrada de 8 categorías; doctrina del
-    "mandato fundacional" (ver 5.7). Reclasificación retroactiva completa
-    de las 252 filas multilaterales de la base (ARG+BRA+CHL parcial).
-  - 2026-07-06: verificación de Sideline_Bilaterals (331 NA) DIFERIDA
-    (decisión del usuario; tarea futura en PENDIENTES_VERIFICACION).
-  - 2026-07-27: se agregó Counterpart_Type como columna 16 (después de
-    Counterpart_Event, antes de Trip_Objective) a pedido del usuario, para
-    distinguir la diplomacia bilateral "clásica" (con el jefe de Estado/
-    Gobierno en funciones) de una modalidad más nueva: visitas a ex-mandatarios/
-    opositores o viajes para recibir premios/distinciones. Solo Bilateral;
-    taxonomía cerrada de 5 categorías + NA (ver 5.8). Migración retroactiva de
-    las ~550 filas Bilateral de la base (default "Jefe de Estado/Gobierno",
-    revisado y corregido fila por fila).
+  - 2026-08-24: rediseño completo del proyecto (ver sección 0). Se pasa de
+    esquema propio + CSV por país a esquema nativo de COLT + archivo madre
+    único, para poder producir una base consolidada y comparable de los 12
+    países de Sudamérica con vistas a un paper académico.
+  - 2026-08-24: se eliminan 01_INSTRUCCIONES, 02_TABLA_MAESTRA y
+    07_ARCHIVO_TRABAJO_PREVIO (backup en 05_BITACORA/archivo_historico/).
+  - Decisiones de la etapa anterior (Visit_Category/Visit_Subtype/
+    Tema_Foro/Counterpart_Type, Journey_ID, Sideline_Bilaterals, etc.)
+    quedan documentadas en el historial de versiones de este archivo (ver
+    backup) por si se retoman más adelante -no se borran del CSV legado,
+    solo se dejan de usar como flujo de trabajo activo-.
 
 --------------------------------------------------------------------------------
 10. ESTADO Y PRÓXIMOS PASOS
 --------------------------------------------------------------------------------
-  - Andamiaje del flujo: COMPLETO (esta entrega).
-  - Tabla maestra: 193 mandatos de 35 países (en 02_TABLA_MAESTRA).
-  - Trabajo previo (formato viejo de 13-14 col.): conservado en 07_ y pendiente de
-    reconstrucción al nuevo formato MÁS ADELANTE (decisión del usuario).
-  - Próximo: arrancar Argentina, mandatario por mandatario en orden cronológico,
-    empezando por Fernando de la Rúa.
+  - Verificados contra COLT (esquema anterior, ya migrados al archivo madre
+    donde correspondía): Argentina, Brasil, Chile, Paraguay, Uruguay.
+  - Sin módulo propio, pendientes de trabajar directo sobre el archivo
+    madre: Bolivia (en curso), Colombia, Ecuador, Guyana, Perú, Surinam,
+    Venezuela.
+  - Pendiente inmediato: rediseñar colt_verificacion_triage.py y
+    colt_aplicar_verificacion.py para el flujo de archivo único (sección 8).
 ================================================================================

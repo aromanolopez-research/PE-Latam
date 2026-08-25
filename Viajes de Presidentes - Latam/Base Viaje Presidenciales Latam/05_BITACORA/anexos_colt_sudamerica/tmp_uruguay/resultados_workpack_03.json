@@ -1,0 +1,915 @@
+{
+  "resultados": [
+    {
+      "colt_TripID": "2029-URY-ARG-43809",
+      "our_Trip_ID": "100",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 1,
+      "fuente": "https://www.montevideo.com.uy/Noticias/Lacalle-Pou-y-Tabare-Vazquez-viajaron-juntos-a-la-asuncion-de-Alberto-Fernandez-uc738164",
+      "justificacion": "Viaje de un solo dia a Buenos Aires (cruce del Rio de la Plata) para la asuncion de Alberto Fernandez, confirmado por prensa uruguaya que describe ida y vuelta el mismo dia junto al presidente electo Lacalle Pou. COLT tiene Confidence=1 (la mas baja) y sus fuentes no corroboran una segunda jornada."
+    },
+    {
+      "colt_TripID": "2029-URY-AUT-38848",
+      "our_Trip_ID": "33",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "https://www.infobae.com/2006/05/04/253240-bush-y-tabare-acuerdan-intensificar-la-relacion-comercial-sus-paises/",
+      "justificacion": "La IV Cumbre UE-ALC en Viena se realizo los dias 12 y 13 de mayo de 2006, confirmado por dos notas independientes de Infobae; con arribo el 11-may la estadia cubre al menos hasta el 13-may (3 dias). COLT (Confidence=1) marca explicitamente 'date of return unclear based on public information available', indicando subregistro."
+    },
+    {
+      "colt_TripID": "2029-URY-AUT-42883",
+      "our_Trip_ID": "154",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2017-05-28",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/presidente-vazquez-comenzo-gira-oficial-austria-egipto-suiza",
+      "justificacion": "Fuente oficial (Presidencia de Uruguay, 28-may-2017), verificada directamente en esta revision, confirma que Vazquez partio de Montevideo el domingo 28-may en un vuelo comercial hacia Viena como primera escala de la gira Austria-Egipto-Suiza. El Start_Date de nuestra base (29-may) fue marcado internamente como 'ESTIMADO' en la nota metodologica del Trip_ID 154."
+    },
+    {
+      "colt_TripID": "2029-URY-AUT-42883",
+      "our_Trip_ID": "154",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 4,
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/presidente-vazquez-comenzo-gira-oficial-austria-egipto-suiza",
+      "justificacion": "La misma fuente oficial confirma que la delegacion arribo a El Cairo el miercoles 31-may (fecha que coincide con el Start_Date ya confirmado de nuestro Trip_ID 93-Egipto). Esto implica que el tramo de Viena se extendio del 28 al 31-may (4 dias), coincidiendo con el valor de COLT, y no los 2 dias (29-30) actualmente cargados."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-38443",
+      "our_Trip_ID": "24",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2005-03-31",
+      "fuente": "http://archivo.presidencia.gub.uy/_web/noticias/2005/03/2005032903.htm",
+      "justificacion": "Fuente oficial del archivo de Presidencia (publicada 29-mar-2005, ya auditada en segunda opinion) detalla itinerario exacto: partida de Montevideo el jueves 31-mar a las 18hs, llegada a Brasilia esa noche, reunion con Lula el 1-abr y regreso esa misma noche. COLT (Confidence=1, fuentes ProQuest/Getty) solo registra el dia de la reunion (1-abr)."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-38443",
+      "our_Trip_ID": "24",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "http://archivo.presidencia.gub.uy/_web/noticias/2005/03/2005032903.htm",
+      "justificacion": "Mismo itinerario oficial: el viaje cubrio la noche del 31-mar (partida y llegada a Brasilia) y el 1-abr (reunion y regreso), es decir 2 dias, ya verificado en auditoria de segunda opinion con fuente primaria."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-39798",
+      "our_Trip_ID": "44",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2008-12-15",
+      "fuente": "https://legislativo.parlamento.gub.uy:443/temporales/20081209S0063_SSN5083377.html",
+      "justificacion": "La venia parlamentaria (autorizacion oficial de salida del pais) registra la partida el 15-dic-2008 para la gira que incluyo la Cumbre MERCOSUR/UNASUR en Salvador de Bahia. COLT (Confidence=1, fuente unica de licencia de imagen Getty) solo fecha el dia de apertura de la cumbre (16-dic)."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-39882",
+      "our_Trip_ID": "46",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 1,
+      "fuente": "http://archivo.presidencia.gub.uy/_web/MEM_2009/MRREE.pdf",
+      "justificacion": "La Memoria Anual del Ministerio de Relaciones Exteriores (fuente oficial primaria) registra esta visita a Brasilia (firma de acuerdos con Lula) como un viaje de un solo dia. COLT (Confidence=1) se basa unicamente en una licencia de imagen Getty sin notas adicionales que corroboren una segunda jornada."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-42143",
+      "our_Trip_ID": "86",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2015-05-19",
+      "fuente": "https://www.gettyimages.com/license/474237646",
+      "justificacion": "COLT documenta esta visita de Estado con 5 fuentes independientes (incluyendo 2 articulos de prensa contemporaneos via ProQuest) que describen actividad diplomatica ya desde el 19-may, consistente con el formato protocolar de una 'primera visita bilateral del mandato'. Nuestra fuente unica (comunicado conjunto de itamaraty/gov.br) esta title-dated al 21-may, que es plausible el dia de cierre/firma del comunicado y no necesariamente el unico dia de la visita."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-42143",
+      "our_Trip_ID": "86",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "https://www.gettyimages.com/license/474237646",
+      "justificacion": "Ver justificacion de Start_Date: multiples fuentes contemporaneas de COLT sugieren una visita de Estado de varios dias (19-21 may), mientras que nuestra unica fuente (comunicado conjunto) solo fija el dia de cierre sin describir si hubo actividad previa."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-42202",
+      "our_Trip_ID": "87",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2015-07-16",
+      "fuente": "https://www.celag.org/cumbre-del-mercosur-en-brasilia-informe/",
+      "justificacion": "El informe de CELAG sobre la 48a Cumbre del MERCOSUR en Brasilia describe una cumbre de varios dias con reunion bilateral con Maduro incluida en la agenda; COLT (Confidence=1) se basa en una unica licencia de imagen Getty fechada el ultimo dia (17-jul) sin notas adicionales."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-42202",
+      "our_Trip_ID": "87",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://www.celag.org/cumbre-del-mercosur-en-brasilia-informe/",
+      "justificacion": "Misma razon que Start_Date: una cumbre semestral MERCOSUR con bilaterales de agenda (Maduro) tipicamente involucra mas de un dia; la fuente unica de COLT (foto Getty) no permite descartar un primer dia de actividad el 16-jul."
+    },
+    {
+      "colt_TripID": "2029-URY-CHL-39393",
+      "our_Trip_ID": "38",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2007-11-08",
+      "fuente": "https://segib.org/?document=discurso-del-presidente-de-uruguay-tabare-vazquez",
+      "justificacion": "La XVII Cumbre Iberoamericana de Santiago se realizo oficialmente los dias 8, 9 y 10 de noviembre de 2007 (fecha historica documentada por SEGIB). El End_Date de COLT (9-nov) es inconsistente con el cierre real de la cumbre (10-nov); el propio COLT marca 'date of return unclear'. El discurso presidencial upon arrival que cita COLT no tiene fecha especifica adjunta que contradiga el 8-nov como inicio de la estadia vinculada a la cumbre."
+    },
+    {
+      "colt_TripID": "2029-URY-CHN-39893",
+      "our_Trip_ID": "47",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2009-03-21",
+      "fuente": "http://archivo.presidencia.gub.uy/_web/MEM_2009/MRREE.pdf",
+      "justificacion": "Nuestra propia nota metodologica para este Trip_ID señala una discrepancia interna en la fuente oficial (Memoria del MRREE), que ademas de las fechas 19-23 de marzo tambien lista '21 al 26 de marzo' para la gira comercial a China. La fecha de inicio de COLT (21-mar) coincide con el inicio de ese segundo rango citado en nuestra propia fuente primaria."
+    },
+    {
+      "colt_TripID": "2029-URY-CRI-39925",
+      "our_Trip_ID": "48",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2009-04-23",
+      "fuente": "http://archivo.presidencia.gub.uy/_web/MEM_2009/MRREE.pdf",
+      "justificacion": "Fuente oficial (Memoria Anual MRREE/DIPCI) registra la visita presidencial a Costa Rica; COLT (Confidence=1) se basa en una unica fuente ProQuest con nota explicita de 'date of departure and return unclear based on public information available'."
+    },
+    {
+      "colt_TripID": "2029-URY-CUB-39616",
+      "our_Trip_ID": "40",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2008-06-18",
+      "fuente": "http://archivo.presidencia.gub.uy/_web/noticias/2008/06/2008061607.htm",
+      "justificacion": "Esta visita es el segundo tramo de la gira Panama-Cuba-Mexico de junio 2008. El tramo panameno (Trip_ID 39) esta solidamente confirmado por prensa panamena primaria como 15 al 17-jun-2008 (visita oficial de 3 dias); el inicio de Cuba el 18-jun encaja como continuacion logica al dia siguiente. La fecha de COLT (17-jun) se superpondria con el ultimo dia de la visita a Panama."
+    },
+    {
+      "colt_TripID": "2029-URY-CUB-39616",
+      "our_Trip_ID": "40",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "http://archivo.presidencia.gub.uy/_web/noticias/2008/06/2008061607.htm",
+      "justificacion": "La secuencia completa de la gira (Panama 15-17, Cuba 18-20, Mexico 21-22, este ultimo tramo con Start_Date 21-jun coincidente en ambas bases) es internamente consistente con una duracion de 3 dias en Cuba. La duracion de 5 dias de COLT (17-21) generaria una superposicion con el cierre de la visita a Panama."
+    },
+    {
+      "colt_TripID": "2029-URY-EGY-42885",
+      "our_Trip_ID": "93",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2017-05-31",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/presidente-vazquez-comenzo-gira-oficial-austria-egipto-suiza",
+      "justificacion": "Fuente oficial de Presidencia (verificada directamente en esta revision) confirma textualmente: 'El miercoles 31 [de mayo], el mandatario uruguayo... arribaran a El Cairo'. La fecha de COLT (30-may) coincide en cambio con el ultimo dia documentado del tramo previo en Viena, sugiriendo una confusion de fechas entre los dos tramos de la misma gira."
+    },
+    {
+      "colt_TripID": "2029-URY-EGY-42885",
+      "our_Trip_ID": "93",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": "",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/presidente-vazquez-comenzo-gira-oficial-austria-egipto-suiza",
+      "justificacion": "La fuente oficial confirma actividades concretas en El Cairo el miercoles 31-may y el jueves 1-jun, pero no especifica el dia exacto de partida hacia Ginebra (la actividad alli recien se retoma el lunes 5-jun, dejando un vacio de varios dias sin itinerario detallado). No se encontro evidencia que permita determinar con certeza si la duracion en Egipto fue de 2 o mas dias."
+    },
+    {
+      "colt_TripID": "2029-URY-DEU-38639",
+      "our_Trip_ID": "27",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2005-10-16",
+      "fuente": "https://legislativo.parlamento.gub.uy:443/temporales/20051005S0049_SSN4156794.html",
+      "justificacion": "La venia parlamentaria de esta gira europea (Trip_ID 26, Espania) registra salida el 12-oct-2005, consistente con la Cumbre Iberoamericana de Salamanca (14-15-oct, fecha historica documentada). Bajo esa secuencia, el tramo aleman comenzando el 16-oct (dia siguiente al cierre de la cumbre) es la continuacion logica, y enlaza sin superposicion con el inicio confirmado de Italia (18-oct, fecha en la que coinciden ambas bases)."
+    },
+    {
+      "colt_TripID": "2029-URY-DEU-38639",
+      "our_Trip_ID": "27",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://legislativo.parlamento.gub.uy:443/temporales/20051005S0049_SSN4156794.html",
+      "justificacion": "Con Start_Date 16-oct y el tramo de Italia iniciando el 18-oct (fecha no cuestionada, coincidente en ambas bases), la duracion de 2 dias en Alemania (16-17) es la que permite un empalme limpio sin superposiciones en la gira Espania-Alemania-Italia-Francia. La duracion de 5 dias de COLT generaria fechas incoherentes con el resto de la gira ya documentada."
+    },
+    {
+      "colt_TripID": "2029-URY-ITA-38643",
+      "our_Trip_ID": "28",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://legislativo.parlamento.gub.uy:443/temporales/20051005S0049_SSN4156794.html",
+      "justificacion": "Ambas bases coinciden en el Start_Date (18-oct). Con el tramo de Francia iniciando el 20-oct (Trip_ID 29, no cuestionado), una duracion de 2 dias en Italia (18-19) permite un empalme coherente sin superposiciones; los 7 dias de COLT (hasta el 24-oct) chocarian con el inicio ya documentado de Francia."
+    },
+    {
+      "colt_TripID": "2029-URY-MEX-38832",
+      "our_Trip_ID": "31",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2006-04-25",
+      "fuente": "https://search-proquest-com.du.idm.oclc.org/central/docview/452544667/fulltext/D8835A8156BB43DEPQ/50",
+      "justificacion": "COLT documenta esta visita con 5 fuentes independientes (ProQuest + 4 licencias Getty) con detalle especifico (conferencia de prensa con Fox, ofrenda floral en el Altar de la Patria, reunion con el alcalde Encinas). Nuestra unica fuente (Infobae, nota posterior del 4-may sobre otro tema) marca explicitamente 'Fechas estimadas (fines de abril 2006)'."
+    },
+    {
+      "colt_TripID": "2029-URY-MEX-38832",
+      "our_Trip_ID": "31",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 4,
+      "fuente": "https://search-proquest-com.du.idm.oclc.org/central/docview/452544667/fulltext/D8835A8156BB43DEPQ/50",
+      "justificacion": "Misma razon que Start_Date: la fecha de fin (28-abr) coincide en ambas bases; la diferencia de duracion es enteramente consecuencia del Start_Date, para el cual COLT tiene mejor sustento documental."
+    },
+    {
+      "colt_TripID": "2029-URY-MEX-39620",
+      "our_Trip_ID": "41",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 5,
+      "fuente": "https://www.gettyimages.com/license/81675223",
+      "justificacion": "Ambas bases coinciden en el Start_Date (21-jun-2008). COLT documenta con 5 fuentes (todas licencias Getty, sugiriendo fotos de distintos dias) una agenda extensa: monumento a los Ninos Heroes, Bellas Artes, conferencia de prensa con Calderon, llave de la ciudad del alcalde Ebrard, y reunion con el presidente de COMCE — actividades consistentes con una visita de varios dias, mas acorde con 5 dias que con 2."
+    },
+    {
+      "colt_TripID": "2029-URY-MEX-43052",
+      "our_Trip_ID": "96",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2017-11-14",
+      "fuente": "https://www.gob.mx/epn/articulos/visita-oficial-del-presidente-de-la-republica-oriental-del-uruguay-tabare-vazquez",
+      "justificacion": "Fuente oficial de la Presidencia de Mexico (gob.mx), ya auditada (QA-R5 2026-07-26) confirmando explicitamente que la visita oficial fue del 14 al 15 de noviembre de 2017. Es la fuente mas autorizada posible sobre las fechas exactas de una visita de Estado a Mexico (el propio gobierno anfitrion)."
+    },
+    {
+      "colt_TripID": "2029-URY-MEX-43052",
+      "our_Trip_ID": "96",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 2,
+      "fuente": "https://www.gob.mx/epn/articulos/visita-oficial-del-presidente-de-la-republica-oriental-del-uruguay-tabare-vazquez",
+      "justificacion": "Misma fuente oficial mexicana confirma explicitamente 2 dias de visita oficial (14-15 nov). COLT extiende el rango a 5 dias (13-17), posiblemente incluyendo actividades no gubernamentales (conferencias, exposiciones) antes/despues de la visita oficial propiamente dicha."
+    },
+    {
+      "colt_TripID": "2029-URY-PRY-39262",
+      "our_Trip_ID": "36",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2007-06-29",
+      "fuente": "https://www.gettyimages.com/license/74950183",
+      "justificacion": "COLT vincula la visita especificamente a la ceremonia de traspaso de la Presidencia Pro Tempore del MERCOSUR (evento datable con precision, documentado por 2 licencias fotograficas Getty). Nuestra fuente (audio de Presidencia sin fecha especifica citada en la nota) marca 'Fechas estimadas'."
+    },
+    {
+      "colt_TripID": "2029-URY-PRY-39262",
+      "our_Trip_ID": "36",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 1,
+      "fuente": "https://www.gettyimages.com/license/74950183",
+      "justificacion": "La ceremonia de traspaso de PPT es un evento de un solo dia; COLT documenta el discurso presidencial durante esa ceremonia especifica, consistente con una duracion de 1 dia."
+    },
+    {
+      "colt_TripID": "2029-URY-PER-43203",
+      "our_Trip_ID": "97",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 3,
+      "fuente": "https://advance-lexis-com.du.idm.oclc.org/api/permalink/f5347285-215f-4ff8-afcc-4bd3165f2ae0/?context=1516831",
+      "justificacion": "Ambas bases coinciden en el Start_Date (13-abr-2018). COLT tiene aqui Confidence=2 (superior al resto del dataset) con 4 fuentes independientes incluyendo 2 registros de Lexis. La VIII Cumbre de las Americas se desarrollo el 13-14-abr con actividades adicionales; una permanencia hasta el 15-abr (3 dias) es plausible y mejor sustentada que la fuente unica de prensa uruguaya que solo confirma el arribo nocturno del 13-abr."
+    },
+    {
+      "colt_TripID": "2029-URY-QAT-39204",
+      "our_Trip_ID": "35",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2007-05-01",
+      "fuente": "https://www.lr21.com.uy/politica/256412-vazquez-condecorado-por-principe-heredero-de-qatar",
+      "justificacion": "Nuestra entrada fue auditada (QA-R3 2026-07-26) con cita textual de LR21 en tiempo real (publicada el 3-may-2007): 'Hoy culmina la gira...' y 'el mandatario... partiran manana [04-may]', confirmando de forma directa y contemporanea la fecha de regreso, lo que da alta confiabilidad al rango completo de la visita (01 al 04-may)."
+    },
+    {
+      "colt_TripID": "2029-URY-QAT-39204",
+      "our_Trip_ID": "35",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 4,
+      "fuente": "https://www.lr21.com.uy/politica/256412-vazquez-condecorado-por-principe-heredero-de-qatar",
+      "justificacion": "La misma cobertura periodistica en tiempo real confirma el regreso el 4-may, dando una duracion de 4 dias (01 al 04-may) ya corregida y auditada con fuente primaria contemporanea."
+    },
+    {
+      "colt_TripID": "2029-URY-KOR-39690",
+      "our_Trip_ID": "42",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2008-08-30",
+      "fuente": "https://search-proquest-com.du.idm.oclc.org/central/docview/460819409/fulltext/20990B8CB8E04268PQ/45",
+      "justificacion": "COLT documenta esta visita de Estado con 4 fuentes de prensa contemporanea (ProQuest) describiendo la firma de un acuerdo bilateral de pesca. Nuestra propia nota metodologica reconoce explicitamente que 'dias exactos estimados', con solo el mes confirmado por la Embajada de Corea."
+    },
+    {
+      "colt_TripID": "2029-URY-KOR-39690",
+      "our_Trip_ID": "42",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 5,
+      "fuente": "https://search-proquest-com.du.idm.oclc.org/central/docview/460819409/fulltext/20990B8CB8E04268PQ/45",
+      "justificacion": "Misma razon: 4 fuentes de prensa contemporanea documentan la agenda bilateral, sustento mas solido que la estimacion propia (dias exactos no confirmados, solo el mes)."
+    },
+    {
+      "colt_TripID": "2029-URY-ESP-38637",
+      "our_Trip_ID": "26",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2005-10-12",
+      "fuente": "https://legislativo.parlamento.gub.uy:443/temporales/20051005S0049_SSN4156794.html",
+      "justificacion": "Nuestra propia nota metodologica para este Trip_ID cita la venia parlamentaria con salida el 12-oct-2005 ('Venia art.170 (salida 12-oct-2005) cubre la gira europea'), lo cual coincide exactamente con la fecha de COLT y contradice el valor cargado en la celda (13-oct); aparenta ser un error de carga en nuestra propia base, no un desacuerdo real de fuentes."
+    },
+    {
+      "colt_TripID": "2029-URY-CHE-42890",
+      "our_Trip_ID": "94",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": "",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/presidente-vazquez-comenzo-gira-oficial-austria-egipto-suiza",
+      "justificacion": "La fuente oficial de la gira confirma que 'la actividad oficial se retomara el lunes 5 de junio en Ginebra' pero no especifica el dia exacto de arribo a esa ciudad (podria ser el 3 o el 4-jun). No se encontro evidencia adicional que permita determinar con certeza cual de las dos fechas es correcta."
+    },
+    {
+      "colt_TripID": "2029-URY-CHE-42890",
+      "our_Trip_ID": "94",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": "",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/presidente-vazquez-comenzo-gira-oficial-austria-egipto-suiza",
+      "justificacion": "Misma razon que Start_Date: ambas bases coinciden en el End_Date (6-jun), por lo que la diferencia de duracion depende enteramente del dia de arribo a Ginebra, que no pudo confirmarse con la fuente disponible."
+    },
+    {
+      "colt_TripID": "2029-URY-USA-40067",
+      "our_Trip_ID": "52",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2009-09-12",
+      "fuente": "http://archivo.presidencia.gub.uy/_web/MEM_2009/MRREE.pdf",
+      "justificacion": "La Memoria Anual del MRREE (fuente oficial primaria) cita textualmente el rango 'Estados Unidos (12 al 18 de setiembre)' para la 64a Asamblea General de la ONU. Es una fuente gubernamental explicita con fechas literales, superior a las fuentes de COLT (Confidence=1, con nota propia de 'date of return unclear')."
+    },
+    {
+      "colt_TripID": "2029-URY-USA-40067",
+      "our_Trip_ID": "52",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 7,
+      "fuente": "http://archivo.presidencia.gub.uy/_web/MEM_2009/MRREE.pdf",
+      "justificacion": "Misma fuente oficial (MEM/MRREE 2009) confirma explicitamente el rango completo de 7 dias (12 al 18 de setiembre). Nota: existe ademas un TripID separado de COLT (2029-URY-USA-40077, tratado como colt_unico en este mismo workpack) que parece ser un registro interno duplicado de esta misma participacion en la 64a AGNU."
+    },
+    {
+      "colt_TripID": "2029-URY-USA-42275",
+      "our_Trip_ID": "89",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2015-09-25",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/vazquez-partio-hacia-nueva-york-para-participar-70a-asamblea-general-onu",
+      "justificacion": "Fuente oficial de Presidencia especificamente sobre este viaje confirma la partida hacia Nueva York para la 70a AGNU, y la reunion bilateral con Obama el 28-sep (ultimo dia de la visita, consistente con reservar el encuentro bilateral con el presidente estadounidense para el cierre de la agenda). COLT ubica el inicio del viaje el mismo dia de esa reunion bilateral (28-sep), lo cual es inconsistente con que dicha reunion haya sido parte de una agenda mas extensa en la ONU."
+    },
+    {
+      "colt_TripID": "2029-URY-USA-42275",
+      "our_Trip_ID": "89",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": 4,
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/vazquez-partio-hacia-nueva-york-para-participar-70a-asamblea-general-onu",
+      "justificacion": "Misma razon: la fuente oficial confirma una agenda de varios dias en la ONU que culmina con la reunion bilateral con Obama el 28-sep, consistente con una duracion de 4 dias (25-28) y no de 3 dias iniciando el mismo dia de esa reunion."
+    },
+    {
+      "colt_TripID": "2029-URY-USA-42631",
+      "our_Trip_ID": "91",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": "",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/videos/discurso-del-presidente-tabare-vazquez-ante-asamblea-general-naciones-unidas",
+      "justificacion": "La unica fecha confirmada con certeza por fuente oficial es la del discurso presidencial (20-sep-2016), que cae dentro de ambos rangos propuestos (19-21 nuestro, 18-22 COLT). No se encontro evidencia que fije con precision los dias de llegada o partida."
+    },
+    {
+      "colt_TripID": "2029-URY-USA-42631",
+      "our_Trip_ID": "91",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": "",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/videos/discurso-del-presidente-tabare-vazquez-ante-asamblea-general-naciones-unidas",
+      "justificacion": "Misma razon: la fecha confirmada del discurso (20-sep) no permite discriminar entre una duracion de 3 dias (nuestra base) o 5 dias (COLT, que incluye ademas un evento lateral en Johns Hopkins Bloomberg School of Public Health)."
+    },
+    {
+      "colt_TripID": "2029-URY-VEN-40080",
+      "our_Trip_ID": "53",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": "",
+      "fuente": "http://archivo.presidencia.gub.uy/_web/MEM_2009/MRREE.pdf",
+      "justificacion": "Nuestra fuente (Memoria MRREE) confirma la participacion presidencial en la Cumbre ASA de forma generica, sin citar fechas literales especificas para este evento. COLT tambien marca 'date of return unclear based on public information available'. No se encontro evidencia adicional que permita resolver la diferencia entre 24-sep (COLT) y 27-sep (nuestra base)."
+    },
+    {
+      "colt_TripID": "2029-URY-VEN-40080",
+      "our_Trip_ID": "53",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": "",
+      "fuente": "http://archivo.presidencia.gub.uy/_web/MEM_2009/MRREE.pdf",
+      "justificacion": "Misma razon que Start_Date: ninguna de las dos fuentes fija con precision los limites exactos de esta visita a Isla Margarita."
+    },
+    {
+      "colt_TripID": "2029-URY-CHN-42655",
+      "our_Trip_ID": "92",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Start_Date",
+      "valor_correcto": "",
+      "fuente": "https://www.uruguayxxi.gub.uy/en/news/article/uruguay-xxi-acompana-mision-oficial-a-china-encabezada-por-el-sr-presidente-de-la-republica/",
+      "justificacion": "Ambas fuentes son razonablemente solidas (la nuestra es Uruguay XXI, agencia oficial de promocion comercial; COLT aporta 5 licencias Getty) pero ninguna fija explicitamente el dia exacto de llegada a Beijing dentro de esta gira multiciudad (Beijing-Tangshan-Guangzhou). La unica fecha puntual confirmada por nuestra propia fuente es la reunion con Xi Jinping el 18-oct, que cae dentro de ambos rangos propuestos (10 al 20, o 12 al 21)."
+    },
+    {
+      "colt_TripID": "2029-URY-CHN-42655",
+      "our_Trip_ID": "92",
+      "tipo": "discrepancia",
+      "veredicto": "No_verificable",
+      "campo": "Duration_Days",
+      "valor_correcto": "",
+      "fuente": "https://www.uruguayxxi.gub.uy/en/news/article/uruguay-xxi-acompana-mision-oficial-a-china-encabezada-por-el-sr-presidente-de-la-republica/",
+      "justificacion": "Misma razon que Start_Date: la unica fecha puntual verificable (reunion con Xi el 18-oct) no permite discriminar entre una duracion de 11 dias (nuestra base) o 10 dias (COLT) para esta gira multiciudad."
+    },
+    {
+      "colt_TripID": "2029-URY-ARG-38477",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest (docview, mayo 2005)",
+      "justificacion": "Reunion con empresarios en Buenos Aires, 5-may-2005. Encaja con una gira regional de mayo 2005 (Argentina 5-may -> Brasil 9-may, Trip_ID 24 es un viaje distinto de marzo -> Paraguay 11-may, todos colt_unico de este mismo workpack). Fuente unica pero con contenido especifico."
+    },
+    {
+      "colt_TripID": "2029-URY-ARG-38777",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Getty Images (licencia unica, sin fecha adicional)",
+      "justificacion": "COLT marca explicitamente 'date of departure and return unclear based on public information available' y la nota no describe ningun evento especifico verificable; unica fuente es una licencia fotografica generica. Sin evidencia adicional para confirmar o descartar."
+    },
+    {
+      "colt_TripID": "2029-URY-ARG-38799",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (licencia unica, Confidence=3 en COLT)",
+      "justificacion": "COLT le asigna Confidence=3, notablemente mas alta que la mayoria de items de este dataset (usualmente 1), lo que sugiere una fuente fotografica con metadatos claros aunque las notas de texto quedaron vacias. Encaja cronologicamente al final de una serie de visitas regionales de marzo de 2006 (Chile 10-13, Brasil 16-17, Paraguay 17-18, Argentina 23-24), todas alrededor de la asuncion de Bachelet."
+    },
+    {
+      "colt_TripID": "2029-URY-ARG-39426",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images",
+      "justificacion": "Corresponde a la asuncion presidencial de Cristina Fernandez de Kirchner el 10-dic-2007, evento historico bien documentado y ampliamente cubierto por prensa internacional; la asistencia de mandatarios vecinos como Vazquez es consistente con el protocolo regional habitual."
+    },
+    {
+      "colt_TripID": "2029-URY-ARG-39629",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (2 licencias)",
+      "justificacion": "Notas especificas sobre condena a normas de inmigracion de la UE y crisis alimentaria global coinciden con la agenda de una Cumbre del MERCOSUR realizada en Tucuman a fines de junio/inicios de julio de 2008. Dos fuentes fotograficas independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-ARG-42667",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest (2 articulos) + Getty Images",
+      "justificacion": "Conferencia de prensa conjunta con el presidente Macri, 24-oct-2016, con 3 fuentes independientes (1 Getty + 2 ProQuest). Sin conflicto con otros viajes registrados en ese periodo."
+    },
+    {
+      "colt_TripID": "2029-URY-ARG-43012",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images",
+      "justificacion": "Corresponde al anuncio conjunto de la candidatura de Argentina, Uruguay, Paraguay y Chile para organizar el Mundial de Futbol 2030, evento publico bien documentado en la prensa regional de octubre de 2017, coincidente con la fecha de COLT."
+    },
+    {
+      "colt_TripID": "2029-URY-ARG-43079",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Getty Images (licencia unica)",
+      "justificacion": "COLT marca 'date of departure and return unclear based on public information available' sin describir ningun evento especifico; unica fuente es una licencia fotografica generica sin corroboracion adicional encontrada."
+    },
+    {
+      "colt_TripID": "2029-URY-ARG-43270",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "LexisNexis (2 articulos)",
+      "justificacion": "Inauguracion de la nueva sede de la embajada de Uruguay en Buenos Aires, 19-jun-2018, respaldada por 2 articulos de prensa independientes via LexisNexis."
+    },
+    {
+      "colt_TripID": "2029-URY-ARG-43543",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.presidencia.gub.uy/comunicacion/comunicacionnoticias/vazquez-ii-conferencia-cooperacion-sur-sur-argentina",
+      "justificacion": "Corresponde a la Segunda Conferencia de Alto Nivel de la ONU sobre Cooperacion Sur-Sur (BAPA+40), realizada en Buenos Aires del 20 al 22 de marzo de 2019 -evento real y bien documentado-, con la presidenta de la Asamblea General de la ONU Maria Fernanda Espinosa como parte del protocolo. Confirmado por 2 fuentes oficiales de Presidencia de Uruguay (gub.uy) entre las 5 fuentes de COLT."
+    },
+    {
+      "colt_TripID": "2029-URY-ARG-43662",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.presidencia.gub.uy/comunicacion/comunicacionnoticias/vazquez-arribo-santa-fe-cumbre-54-mercosur-acuerdo-union-europea-roaming-gratis-otros-acuerdos",
+      "justificacion": "Corresponde a la 54a Cumbre del MERCOSUR en Santa Fe, Argentina (jul-2019), con el acuerdo UE-MERCOSUR como tema central. Confirmado por 2 fuentes oficiales de Presidencia de Uruguay y una nota de MercoPress, entre 6 fuentes totales de COLT."
+    },
+    {
+      "colt_TripID": "2029-URY-BEL-39340",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (5 licencias)",
+      "justificacion": "Visita al Castillo de Cortewalle cerca de Amberes y participacion en conferencia de prensa junto al presidente de la Comision Europea Barroso, 15-sep-2007. Encaja como primer tramo de una gira europea de septiembre 2007 que continua con Espania (Trip_ID 37, Madrid, 18-20-sep, ya en nuestra base) y Portugal (colt_unico PRT-39345, 20-sep). 5 fuentes fotograficas independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-BOL-38788",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (2 licencias)",
+      "justificacion": "Firma de declaracion conjunta con el presidente Evo Morales, 12-mar-2006, poco despues de la asuncion de Morales (22-ene-2006). Encaja en la serie de visitas regionales de marzo 2006 documentadas en este mismo workpack (Chile, Brasil, Venezuela, Paraguay, Argentina)."
+    },
+    {
+      "colt_TripID": "2029-URY-BOL-39060",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images",
+      "justificacion": "La descripcion (cumbre sobre plan de integracion energetica regional, primer paso hacia una 'gran comunidad sudamericana') coincide con la Cumbre de Cochabamba de diciembre de 2006, que dio origen a la Comunidad Sudamericana de Naciones -evento historico verificable-."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-38481",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest + Getty Images (3 fuentes)",
+      "justificacion": "Visita a Brasilia, 9-may-2005, encaja en una gira regional de mayo 2005 (ver ARG-38477 y PRY-38483 de este mismo workpack). Respaldada por 3 fuentes independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-38792",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (3 licencias)",
+      "justificacion": "Ceremonia de firma de acuerdos bilaterales, 16-mar-2006, parte de la serie de visitas regionales de marzo 2006 (Chile-Bolivia-Brasil-Paraguay-Venezuela-Argentina) documentada en este workpack. Respaldada por 3 fuentes fotograficas independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-38968",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (2 licencias)",
+      "justificacion": "Visita a una refineria, 8-sep-2006, con contenido especifico y 2 fuentes fotograficas independientes; no hay conflicto con otros viajes documentados en ese periodo."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-39100",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Getty Images (licencia unica)",
+      "justificacion": "COLT marca 'date of departure and return unclear based on public information available' sin describir ningun evento especifico; unica fuente fotografica sin corroboracion adicional."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-42695",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (2 licencias)",
+      "justificacion": "Discurso en un almuerzo-debate del grupo empresarial LIDE, 21-nov-2016, evento especifico y nombrado, con 2 fuentes fotograficas independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-BRA-43090",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "ProQuest (fuente unica)",
+      "justificacion": "COLT marca 'date of departure and return unclear based on public information available' sin describir ningun evento especifico; fuente unica sin corroboracion adicional encontrada."
+    },
+    {
+      "colt_TripID": "2029-URY-CHL-38665",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "ProQuest (fuente unica)",
+      "justificacion": "Notas vacias (sin descripcion de ningun evento) y fuente unica; aunque la fecha (9-nov-2005) es cercana a la Cumbre de las Americas de Mar del Plata (4-5-nov, ya en nuestra base), no hay evidencia especifica que confirme una visita separada a Chile."
+    },
+    {
+      "colt_TripID": "2029-URY-CHL-38786",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest (2 articulos) + Getty Images",
+      "justificacion": "Corresponde a la asuncion de Michelle Bachelet (11-mar-2006) y al encuentro trilateral Vazquez-Kirchner mediado por la secretaria de Estado Condoleezza Rice sobre el conflicto de las papeleras -episodio historico ampliamente documentado y coincidente con hechos ya conocidos de este periodo-. 3 fuentes independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-CHL-39181",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (3 licencias)",
+      "justificacion": "Reunion con el presidente del Senado chileno durante visita al Congreso, 9-abr-2007, con detalle especifico y 3 fuentes fotograficas independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-CHL-39706",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (2 licencias)",
+      "justificacion": "Visita a Chile, 15-sep-2008, con 2 fuentes fotograficas independientes (sugiriendo cobertura de mas de un momento/dia); no hay conflicto con otros viajes documentados en ese periodo."
+    },
+    {
+      "colt_TripID": "2029-URY-CHL-39899",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest (3 articulos) + Getty Images (2 licencias)",
+      "justificacion": "Encuentro con el vicepresidente estadounidense Joe Biden en el marco de su gira por America Latina de marzo de 2009 (hecho historico verificable: Biden visito Chile y Costa Rica en esas fechas). 5 fuentes independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-CHL-42342",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (2 licencias)",
+      "justificacion": "Firma de acuerdos bilaterales con la presidenta Bachelet (segundo mandato), 4-dic-2015, con 2 fuentes fotograficas independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-ECU-39310",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (4 licencias)",
+      "justificacion": "Firma de acuerdos bilaterales con el presidente Correa, condolencias por el terremoto en Peru del dia anterior, visita al hospital oncologico SOLCA -detalle especifico y verificable dado el perfil de oncologo de Vazquez-. 4 fuentes fotograficas independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-FIN-42779",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest (3 articulos) + Getty Images",
+      "justificacion": "Foro de negocios, conferencia de prensa con el presidente Niinisto, firma de MOU en bioeconomia, 13-feb-2017. Este viaje enlaza sin superposicion con el tramo a Rusia (colt_unico RUS-42781, inicio 15-feb) y con Alemania (colt_unico DEU-42770, termina ~13-feb), formando una gira europea de Alemania-Finlandia-Rusia en febrero de 2017 enteramente ausente de nuestra base. 4 fuentes independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-FRA-38649",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "ProQuest (3 articulos) + Getty Images (2 licencias)",
+      "justificacion": "Esta entrada de COLT (Paris, 24-oct-2005, conferencia oncologica, UNESCO, conferencia sobre globalizacion) parece corresponder al MISMO viaje a Francia que ya tenemos cargado como Trip_ID 29 (Paris, 20-22-oct-2005, ultimo tramo de la misma gira europea autorizada por venia parlamentaria), no a un viaje adicional. Se recomienda NO agregarlo como viaje nuevo para evitar duplicar el mismo evento; se sugiere revisar en el futuro si las fechas de COLT (mejor sustentadas, con 5 fuentes) son mas precisas que las fechas estimadas del Trip_ID 29 actual."
+    },
+    {
+      "colt_TripID": "2029-URY-FRA-42303",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest (2 articulos) + Getty Images (2 licencias)",
+      "justificacion": "Conferencia de prensa conjunta con el presidente Hollande y firma de acuerdos bilaterales, 26-oct-2015, con 4 fuentes independientes; no hay conflicto con otros viajes documentados en ese periodo."
+    },
+    {
+      "colt_TripID": "2029-URY-FRA-42711",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://agenda.ge/en/news/2016/3027",
+      "justificacion": "Discurso en la Cumbre de la Alianza para el Gobierno Abierto (OGP) en Paris, diciembre de 2016 -evento real y verificable, la Cumbre Global OGP de Paris se realizo el 7-9-dic-2016- y encuentro con el presidente georgiano Margvelashvili, corroborado por una fuente de prensa georgiana independiente (agenda.ge) entre las 3 fuentes de COLT."
+    },
+    {
+      "colt_TripID": "2029-URY-DEU-42770",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest + Getty Images (2 licencias)",
+      "justificacion": "Reunion con el presidente Joachim Gauck, conferencia sobre Uruguay en Hamburgo, conferencia de prensa conjunta con la canciller Merkel, 4-feb-2017. Primer tramo de una gira europea Alemania-Finlandia-Rusia de febrero 2017 (ver FIN-42779 y RUS-42781 de este mismo workpack) enteramente ausente de nuestra base. 3 fuentes independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-VAT-42705",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (5 licencias)",
+      "justificacion": "Reunion con el Secretario de Estado vaticano cardenal Pietro Parolin y el prefecto de la Casa Pontificia Georg Ganswein, 1-dic-2016, con nombres y cargos especificos y verificables para ese periodo. 5 fuentes fotograficas independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-ISR-39681",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest (4 articulos) + Getty Images",
+      "justificacion": "Celebracion del Dia de la Independencia de Uruguay (25 de agosto, fecha correcta) en Jerusalen, reuniones con el presidente Shimon Peres y la canciller Tzipi Livni, visita al Instituto Weizmann y al museo Yad Vashem. Detalle especifico y verificable con 5 fuentes independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-JPN-42310",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest (4 articulos) + Getty Images",
+      "justificacion": "Conferencia de prensa conjunta con el primer ministro Abe, encuentro con el emperador Akihito, seminario de negocios 'Building Bridges Japan-Uruguay', noviembre 2015. Detalle especifico con 5 fuentes independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-MYS-39400",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest (5 articulos)",
+      "justificacion": "Visita a Malasia, 14-nov-2007, con agenda especifica (Petronas Twin Towers, Butterfly Park, reunion con el primer ministro Abdullah Ahmad). Encaja inmediatamente despues de la Cumbre Iberoamericana de Santiago de Chile (Trip_ID 38, cierre 10-nov) y del tramo de Nueva Zelanda (colt_unico NZL-39397, ver nota alli), formando una extensa gira Chile-Nueva Zelanda-Malasia-Vietnam por Asia-Pacifico en noviembre 2007. 5 fuentes independientes de prensa."
+    },
+    {
+      "colt_TripID": "2029-URY-MEX-40231",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "http://www.cnn.com/2010/WORLD/americas/02/22/unity.Summit/index.html",
+      "justificacion": "Corresponde a la Cumbre de la Unidad de America Latina y el Caribe (Playa del Carmen/Cancun, 22-23-feb-2010), evento fundacional que dio origen a la CELAC -hecho historico bien documentado, confirmado independientemente por CNN entre las fuentes de COLT-. Este viaje se ubica en los ultimos dias del mandato de Vazquez (que finalizo el 1-mar-2010)."
+    },
+    {
+      "colt_TripID": "2029-URY-MEX-42526",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest + LexisNexis",
+      "justificacion": "Recepcion del premio Global Health de la Federacion Mundial del Corazon (World Heart Federation), 5-jun-2016, evento especifico y verificable dado el perfil de oncologo/salud publica de Vazquez. 2 fuentes independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-MEX-43304",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://wwwcepalorg/en/pressreleases/eclac-reiterates-commitment-supporting-pacific-alliance-and-praises-efforts-aimed",
+      "justificacion": "Visita a Mexico, 23-jul-2018, vinculada a asuntos de la Alianza del Pacifico segun fuente de CEPAL/ECLAC (organismo oficial de Naciones Unidas), entre 5 fuentes de COLT con Confidence=2 (superior al promedio del dataset)."
+    },
+    {
+      "colt_TripID": "2029-URY-NZL-39397",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "ProQuest (5 articulos)",
+      "justificacion": "POSIBLE DUPLICADO/CONFLICTO DE FECHA con nuestro propio Trip_ID 43 (Nueva Zelanda, actualmente cargado con Start_Date 2008-09-01 pero marcado 'No-verificable' en nuestra base, con una fuente muy debil -solo una consulta de busqueda generica-). COLT fecha la visita a Nueva Zelanda el 11-nov-2007 con 5 fuentes de prensa independientes (ProQuest), y esa fecha encaja de forma coherente inmediatamente despues de la Cumbre Iberoamericana de Santiago (cierre 10-nov, Trip_ID 38) y antes de Malasia (colt_unico MYS-39400, inicio 14-nov). Es probable que se trate del MISMO viaje que ya tenemos cargado bajo una fecha incorrecta (2008 en vez de 2007). Se recomienda NO agregarlo como viaje nuevo sin antes revisar y eventualmente corregir la fecha del Trip_ID 43 existente, para evitar tanto una duplicacion como una perdida de informacion."
+    },
+    {
+      "colt_TripID": "2029-URY-PRY-38483",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest + Getty Images",
+      "justificacion": "Visita a Paraguay, 11-may-2005 (reunion con el vicepresidente Castiglioni), ultimo tramo de una gira regional de mayo 2005 (ver ARG-38477 y BRA-38481 de este mismo workpack, con fecha de cierre de Brasil coincidente). 2 fuentes independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-PRY-38522",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest + Getty Images",
+      "justificacion": "Visita a Paraguay, 19-jun-2005, con 2 fuentes independientes de distinto tipo (Getty y ProQuest), aunque sin detalle descriptivo especifico mas alla de la fecha."
+    },
+    {
+      "colt_TripID": "2029-URY-PRY-38793",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (4 licencias)",
+      "justificacion": "Conferencia de prensa conjunta con el presidente Duarte, 17-mar-2006, parte de la serie de visitas regionales de marzo 2006 (Chile-Bolivia-Brasil-Paraguay-Venezuela-Argentina, todas en este mismo workpack) que enlaza sin superposicion con el tramo de Brasil (colt_unico BRA-38792, 16-17-mar). 4 fuentes fotograficas independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-PRY-38825",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (2 licencias) + LexisNexis",
+      "justificacion": "Visita a Paraguay, 18-abr-2006, con 3 fuentes independientes de distinto tipo (2 Getty + 1 Lexis), poco antes del viaje a Mexico (Trip_ID 31, 26-abr-2006, ya en nuestra base)."
+    },
+    {
+      "colt_TripID": "2029-URY-PRY-39675",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images",
+      "justificacion": "Asuncion del presidente Fernando Lugo, 15-ago-2008, evento historico de primer orden (fin de 61 anios de gobierno del Partido Colorado en Paraguay), ampliamente documentado por prensa regional e internacional."
+    },
+    {
+      "colt_TripID": "2029-URY-PRY-39946",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (5 licencias)",
+      "justificacion": "Celebraciones del 198 aniversario de la independencia paraguaya (14-15 de mayo, fecha correcta: 2009-1811=198), desfile militar en Asuncion, conferencia de prensa con el presidente Lugo, firma de acuerdos bilaterales. Detalle especifico y verificable con 5 fuentes fotograficas independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-PRY-42359",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Getty Images (licencia unica)",
+      "justificacion": "Notas vacias (sin descripcion de ningun evento) y fuente unica; no se encontro evidencia adicional que confirme o descarte esta visita del 21-dic-2015."
+    },
+    {
+      "colt_TripID": "2029-URY-PRY-43269",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://en.mercopress.com/2018/06/18/uruguay-chair-of-mercosur-targets-accord-with-china-exhausted-of-negotiations-with-the-eu",
+      "justificacion": "Visita a Paraguay, 18-jun-2018, coincidente con la presidencia pro-tempore de Uruguay en el MERCOSUR, confirmada por nota de MercoPress entre las 4 fuentes de COLT (Confidence=2, superior al promedio del dataset)."
+    },
+    {
+      "colt_TripID": "2029-URY-PRY-43328",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://english.president.gov.tw/News/5479",
+      "justificacion": "Asuncion del presidente Mario Abdo Benitez, evento historico bien documentado (tradicionalmente 15-ago en Paraguay); corroborado independientemente por el sitio oficial de la Presidencia de Taiwan (dado que Paraguay mantiene relaciones diplomaticas con Taiwan), entre las 2 fuentes de COLT (Confidence=2)."
+    },
+    {
+      "colt_TripID": "2029-URY-PRT-39345",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (2 licencias)",
+      "justificacion": "Visita a Portugal, 20-sep-2007, tramo final de una gira europea de septiembre 2007 que incluye Belgica (colt_unico BEL-39340, 15-sep) y Espania (Trip_ID 37, Madrid, 18-20-sep, ya en nuestra base, con fecha de cierre coincidente con el inicio de este tramo). 2 fuentes fotograficas independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-RUS-42781",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest (5 articulos)",
+      "justificacion": "Reunion con la presidenta del Consejo de la Federacion Valentina Matvienko, ofrenda floral en la Tumba del Soldado Desconocido junto al Kremlin, firma de acuerdo bilateral de cooperacion en defensa, discurso tras reunion bilateral con Putin, 15-feb-2017. Enlaza sin superposicion con el tramo de Finlandia (colt_unico FIN-42779, cierre ~14-feb), formando la gira europea Alemania-Finlandia-Rusia de febrero 2017 (ver DEU-42770 y FIN-42779). 5 fuentes independientes de prensa."
+    },
+    {
+      "colt_TripID": "2029-URY-ESP-42698",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (4 licencias)",
+      "justificacion": "Reunion con el presidente del gobierno espaniol Mariano Rajoy, 24-nov-2016 (8 dias de duracion). Encaja como posible primer tramo de una extensa gira europea de fines de 2016 que continua con el Vaticano (colt_unico VAT-42705, 1-dic) y Paris/OGP (colt_unico FRA-42711, 7-dic), periodo completo (24-nov al 9-dic) enteramente ausente de nuestra base. 4 fuentes fotograficas independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-CHE-43248",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.gainesville.com/news/20180601/us-blocks-un-health-panel-from-backing-taxes-on-sugar-drinks",
+      "justificacion": "Visita a Suiza vinculada a temas de salud publica (impuestos a bebidas azucaradas en paneles de la ONU/OMS), coherente con el perfil de politica de salud de Vazquez (ex-oncologo) documentado en otros viajes a Ginebra (Trip_ID 94, jun-2017). Confidence=3 en COLT (superior al promedio). El propio COLT reconoce fechas de inicio/fin inciertas por relatos contradictorios en los articulos consultados; se recomienda agregar el hecho del viaje pero verificar las fechas exactas en una revision futura."
+    },
+    {
+      "colt_TripID": "2029-URY-TTO-39920",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (2 licencias)",
+      "justificacion": "Corresponde a la V Cumbre de las Americas, realizada en Puerto Espania, Trinidad y Tobago, del 17 al 19 de abril de 2009 -evento historico de primer orden, primera cumbre hemisferica con la participacion del presidente Obama-. 2 fuentes fotograficas independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-ARE-39200",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest (4 articulos)",
+      "justificacion": "Discurso ante la Camara de Comercio e Industria de Dubai, 28-abr-2007, tramo previo del mismo viaje al Golfo que continua con Qatar (Trip_ID 35, inicio 1-may-2007, ya en nuestra base, con fecha de cierre coincidente con el inicio de ese tramo). 4 fuentes independientes de prensa."
+    },
+    {
+      "colt_TripID": "2029-URY-USA-38608",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "http://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_60_1.pdf",
+      "justificacion": "Corresponde a la Cumbre Mundial de la ONU por el 60 aniversario (14-16-sep-2005) y al debate general de la 60a AGNU -evento historico documentado incluso con el propio documento oficial de la ONU (resolucion A/RES/60/1) entre las fuentes de COLT-."
+    },
+    {
+      "colt_TripID": "2029-URY-USA-38836",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "https://history.state.gov/departmenthistory/visits/uruguay",
+      "justificacion": "Esta entrada de COLT (Washington, 29-abr al 4-may-2006, firma de acuerdo comercial bilateral con Bush) corresponde al MISMO viaje ya cargado en nuestra base como Trip_ID 32 (Washington, 3-4-may-2006, reunion con Bush en la Casa Blanca confirmada el 4-may). Confirmado ademas por la base de datos oficial del Departamento de Estado de EEUU (history.state.gov) sobre visitas de jefes de Estado, que es una de las fuentes de COLT. Se recomienda NO agregarlo como viaje nuevo para evitar duplicar a Trip_ID 32; se sugiere revisar si la duracion de Trip_ID 32 deberia extenderse (COLT sugiere 6 dias en vez de 2)."
+    },
+    {
+      "colt_TripID": "2029-URY-USA-40077",
+      "tipo": "colt_unico",
+      "decision": "descartar",
+      "fuente": "Getty Images (licencia unica)",
+      "justificacion": "Esta entrada (Nueva York, 21-sep-2009, discurso ante la Asamblea General de la ONU) muy probablemente sea un DUPLICADO INTERNO de COLT del mismo TripID 2029-URY-USA-40067 (tambien Nueva York, tambien por la 64a AGNU, ya tratado como discrepancia en este mismo workpack y resuelto contra Trip_ID 52 de nuestra base, con fechas oficiales confirmadas del 12 al 18-set-2009 por la Memoria del MRREE). No hay evidencia de que Vazquez haya realizado dos viajes separados a Nueva York por la 64a AGNU en el mismo mes. Se recomienda NO agregarlo como viaje nuevo."
+    },
+    {
+      "colt_TripID": "2029-URY-USA-42995",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/vazquez-arribo-miercoles-uruguay-retomo-presidencia-ejercida-su-ausencia",
+      "justificacion": "Discurso en un panel en Nueva York en la semana de la 72a AGNU, 17-sep-2017, confirmado por 3 fuentes oficiales de Presidencia de Uruguay (gub.uy) entre las fuentes de COLT, incluyendo una nota sobre su encuentro con el presidente ecuatoriano Lenin Moreno."
+    },
+    {
+      "colt_TripID": "2029-URY-USA-43369",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://gadebate.un.org/en/73/uruguay",
+      "justificacion": "Corresponde a la participacion de Vazquez en el debate general de la 73a Asamblea General de la ONU, 26-sep-2018, confirmado directamente por la base de datos oficial de discursos de la ONU (gadebate.un.org) entre las fuentes de COLT (Confidence=2)."
+    },
+    {
+      "colt_TripID": "2029-URY-VEN-38789",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest (3 articulos) + Getty Images",
+      "justificacion": "Firma de acuerdos comerciales bilaterales, homenaje a Bolivar en el Panteon Nacional, condecoracion por el presidente Chavez, 13-mar-2006. Parte de la serie de visitas regionales de marzo 2006 (Chile-Bolivia-Brasil-Paraguay-Venezuela-Argentina, todas en este mismo workpack), con inicio coincidente con el cierre de la visita a Chile (asuncion de Bachelet). 5 fuentes independientes."
+    },
+    {
+      "colt_TripID": "2029-URY-VEN-38902",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "Getty Images (3 licencias)",
+      "justificacion": "Firma del protocolo de incorporacion de Venezuela al MERCOSUR, 4-jul-2006 en Caracas -evento historico de primer orden, ampliamente documentado, con la presencia de Chavez, Kirchner, Lula y Vazquez-, pocas semanas antes de la ratificacion formal en la Cumbre de Cordoba (Trip_ID 34, 20-21-jul-2006, ya en nuestra base)."
+    },
+    {
+      "colt_TripID": "2029-URY-VNM-39404",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "ProQuest (5 articulos)",
+      "justificacion": "Reuniones con el presidente Nguyen Minh Triet y otras autoridades vietnamitas, foro de negocios en Hanoi, 18-nov-2007. Tramo final de la extensa gira por Asia-Pacifico de noviembre 2007 (Chile Ibero-Americana -> Nueva Zelanda -> Malasia -> Vietnam, ver MYS-39400 y NZL-39397 de este mismo workpack). 5 fuentes independientes de prensa."
+    }
+  ]
+}

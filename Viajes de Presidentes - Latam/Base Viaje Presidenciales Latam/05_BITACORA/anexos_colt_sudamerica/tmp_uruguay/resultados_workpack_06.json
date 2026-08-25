@@ -1,0 +1,169 @@
+{
+  "resultados": [
+    {
+      "colt_TripID": "392-URY-BRA-34685",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.mercosur.int/ouro-preto-30-anos-del-hito-historico-que-consolido-al-mercosur ; https://es.wikipedia.org/wiki/Protocolo_de_Ouro_Preto",
+      "justificacion": "Confirmado: el 17-dic-1994 en Ouro Preto (Brasil), Lacalle Herrera firmo junto a Menem, Itamar Franco y Wasmosy el Protocolo de Ouro Preto que cerro el periodo de transicion del MERCOSUR (VII Cumbre de presidentes del bloque). El TripDuration de COLT (17 dias) es implausible para una cumbre de un dia y probablemente es un error de ese campo, pero el viaje/evento en si esta confirmado por fuentes independientes, por lo que corresponde agregarlo."
+    },
+    {
+      "colt_TripID": "392-URY-BRA-34701",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.eltiempo.com/archivo/documento/MAM-308163 (El Tiempo, Colombia, publicado 02-ene-1995, fuente de epoca)",
+      "justificacion": "La cronica contemporanea de la investidura de Fernando Henrique Cardoso (1-ene-1995, Brasilia) lista explicitamente a los nueve presidentes asistentes, incluyendo a 'Luis Lacalle de Uruguay'. Evento confirmado por fuente primaria de la epoca. Nota: la ceremonia fue el 1-ene y el TripStartDate de COLT es 2-ene; posible desfase de un dia en el dato de COLT, pero la asistencia al evento esta confirmada."
+    },
+    {
+      "colt_TripID": "392-URY-USA-34604",
+      "tipo": "colt_unico",
+      "decision": "No_verificable",
+      "fuente": "Busquedas en prensa uruguaya/regional actual y en el repositorio de documentos de Naciones Unidas (digitallibrary.un.org, actas A/49/PV de la 49a Asamblea General, sep-1994) sin resultado directo.",
+      "justificacion": "No se encontro confirmacion positiva ni negativa de un discurso de Lacalle Herrera en la Asamblea General de la ONU el 27-sep-1994. Es plausible dado el activo perfil multilateral de Lacalle en 1994 (Mercosur, Cumbre de las Americas), pero la ausencia de resultados es consistente con la escasa cobertura digital de la prensa uruguaya de los anos 90 (ver advertencia del proyecto), no evidencia de que el viaje no ocurrio. Se recomienda revision futura contra actas primarias de la ONU (A/49/PV.x)."
+    },
+    {
+      "colt_TripID": "392-URY-USA-34676",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "http://www.iin.oas.org/DECLARACIONES/primera_cumbre.htm ; https://summit-americas.org/sas/Cumbres_previas_ICumbre.html",
+      "justificacion": "Confirmado que Uruguay fue representado por el presidente Luis Alberto Lacalle en la Primera Cumbre de las Americas (Miami, 9 al 11-dic-1994), donde se firmo la Declaracion de Principios y el Plan de Accion germen del ALCA (coincide con la nota de COLT sobre 'agreement creating a free trade zone in the Americas'). El TripStartDate de COLT (8-dic) es razonable como dia de viaje previo al inicio formal de la cumbre (9-dic)."
+    },
+    {
+      "colt_TripID": "4217-URY-ARG-45841",
+      "our_Trip_ID": "137",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2025-07-02",
+      "fuente": "https://www.montevideo.com.uy/Noticias/Sevilla-Buenos-Aires-y-Rio-de-Janeiro-los-detalles-del-viaje-de-Orsi-a-inicios-de-julio-uc927271",
+      "justificacion": "La nota de venia parlamentaria (citada textualmente por Montevideo Portal) indica explicitamente 'Orsi viajara el 2 y 3 de julio a Buenos Aires'. Confirma el Start_Date de nuestra base; COLT (03-jul) esta equivocado."
+    },
+    {
+      "colt_TripID": "4217-URY-ARG-45841",
+      "our_Trip_ID": "137",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "2",
+      "fuente": "https://www.montevideo.com.uy/Noticias/Sevilla-Buenos-Aires-y-Rio-de-Janeiro-los-detalles-del-viaje-de-Orsi-a-inicios-de-julio-uc927271",
+      "justificacion": "El viaje a Buenos Aires abarco el 2 y 3 de julio (2 dias) segun la venia parlamentaria oficial. COLT registra Duration=1, subestimando el viaje en un dia."
+    },
+    {
+      "colt_TripID": "4217-URY-BRA-45844",
+      "our_Trip_ID": "138",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2025-07-04",
+      "fuente": "https://www.teledoce.com/telemundo/nacionales/orsi-partio-este-viernes-a-rio-de-janeiro-para-participar-de-cumbre-de-los-brics/ ; https://www.gub.uy/presidencia/comunicacion/noticias/presidente-republica-viaja-brasil-para-asistir-17a-cumbre-brics",
+      "justificacion": "Verificacion independiente muestra que ni nuestro valor original (05-jul) ni el de COLT (06-jul) son exactos: Orsi partio el viernes 4-jul y arribo a Rio esa misma tarde (no de noche, contrario a la nota interna previa), iniciando actividades bilaterales el sabado 5. El valor correcto es 2025-07-04; nuestro dato original estaba mas cerca de la realidad que el de COLT (1 dia de diferencia vs 2)."
+    },
+    {
+      "colt_TripID": "4217-URY-BRA-45844",
+      "our_Trip_ID": "138",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "4",
+      "fuente": "https://www.teledoce.com/telemundo/nacionales/orsi-partio-este-viernes-a-rio-de-janeiro-para-participar-de-cumbre-de-los-brics/ ; https://www.montevideo.com.uy/Noticias/Sevilla-Buenos-Aires-y-Rio-de-Janeiro-los-detalles-del-viaje-de-Orsi-a-inicios-de-julio-uc927271",
+      "justificacion": "Con arribo confirmado el 4-jul y regreso/fin de la gira el 7-jul (segun venia parlamentaria: 'estara entre el 4 y el 7 de julio'), la duracion correcta es 4 dias. Nuestro valor original (3) estaba mas cerca que el de COLT (2)."
+    },
+    {
+      "colt_TripID": "4217-URY-CHL-45859",
+      "our_Trip_ID": "139",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2025-07-20",
+      "fuente": "https://www.elobservador.com.uy/nacional/tras-reunion-chile-orsi-sanchez-lula-boric-y-petro-manifestaron-su-compromiso-la-defensa-la-democracia-n6009407",
+      "justificacion": "Fuente ya documentada en nuestra base confirma que Orsi llego a Santiago el domingo 20-jul y la reunion 'Democracia Siempre' fue el 21-jul en La Moneda; COLT (Start=21-jul) omite el dia de llegada."
+    },
+    {
+      "colt_TripID": "4217-URY-CHL-45859",
+      "our_Trip_ID": "139",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "2",
+      "fuente": "https://www.elobservador.com.uy/nacional/tras-reunion-chile-orsi-sanchez-lula-boric-y-petro-manifestaron-su-compromiso-la-defensa-la-democracia-n6009407",
+      "justificacion": "Llegada 20-jul y actividad 21-jul totalizan 2 dias de viaje; COLT registra Duration=1, contando solo el dia del evento."
+    },
+    {
+      "colt_TripID": "4217-URY-ITA-45945",
+      "our_Trip_ID": "142",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2025-10-16",
+      "fuente": "https://www.infobae.com/america/america-latina/2025/10/15/el-papa-leon-xiv-recibira-este-viernes-a-yamandu-orsi-en-el-vaticano/",
+      "justificacion": "La gira europea de Orsi tuvo tramos separados por pais: Belgica el 15-oct (Trip_ID 141), Italia/Roma (FAO) el 16-oct (este item, Trip_ID 142) y Vaticano el 17-oct (Trip_ID 143). COLT parece haber agrupado varios tramos de la gira bajo un unico registro de 'Italy' con Start=15-oct y Duration=4, lo cual no corresponde a un viaje real de 4 dias solo a Italia sino a una probable conflacion de la gira completa (posible error/duplicado interno de COLT, se deja constancia)."
+    },
+    {
+      "colt_TripID": "4217-URY-ITA-45945",
+      "our_Trip_ID": "142",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "1",
+      "fuente": "https://www.infobae.com/america/america-latina/2025/10/15/el-papa-leon-xiv-recibira-este-viernes-a-yamandu-orsi-en-el-vaticano/",
+      "justificacion": "El tramo en Italia (Roma, 80 aniversario FAO) fue de un solo dia (16-oct), previo al tramo separado del Vaticano el 17-oct. El Duration=4 de COLT es incompatible con el itinerario dia-por-dia confirmado por prensa y parece resultar de agrupar erroneamente varios paises/tramos bajo 'Italy'."
+    },
+    {
+      "colt_TripID": "4217-URY-PAN-45753",
+      "our_Trip_ID": "134",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2025-04-07",
+      "fuente": "https://www.subrayado.com.uy/yamandu-orsi-se-reunio-el-presidente-panama-su-primer-viaje-oficial-queremos-ser-el-camino-la-certeza-n973872 ; https://www.infobae.com/america/america-latina/2025/04/08/yamandu-orsi-realizo-su-primer-viaje-oficial-a-panama-en-busca-de-nuevos-mercados/",
+      "justificacion": "Multiples fuentes confirman que Orsi arribo a Panama el lunes 7-abr-2025 (su primer viaje oficial como presidente), se reunio con Mulino y continuo viaje a Honduras el 8-abr (cumbre CELAC). COLT (Start=6-abr) adelanta la fecha en un dia."
+    },
+    {
+      "colt_TripID": "4217-URY-PAN-45753",
+      "our_Trip_ID": "134",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "1",
+      "fuente": "https://www.subrayado.com.uy/yamandu-orsi-se-reunio-el-presidente-panama-su-primer-viaje-oficial-queremos-ser-el-camino-la-certeza-n973872",
+      "justificacion": "La visita a Panama fue de un solo dia (7-abr), encadenada directamente con el viaje a Honduras que comenzo al dia siguiente (8-abr). COLT registra Duration=2, lo que no es consistente con el itinerario encadenado confirmado por prensa."
+    },
+    {
+      "colt_TripID": "4217-URY-ESP-45837",
+      "our_Trip_ID": "136",
+      "tipo": "discrepancia",
+      "veredicto": "ambos_correctos",
+      "campo": "Destination_City",
+      "valor_correcto": "Seville",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/presidente-orsi-llego-sevilla-para-participar-conferencia-sobre-financiacion",
+      "justificacion": "'Seville' (nuestra base) y 'Sevilla' (COLT) son el mismo lugar en ingles y espanol respectivamente; no es un error factico sino una diferencia de idioma/convencion de nomenclatura. Se mantiene 'Seville' por ser la convencion en ingles usada consistentemente en el resto de nuestra base."
+    },
+    {
+      "colt_TripID": "4217-URY-USA-45922",
+      "our_Trip_ID": "140",
+      "tipo": "discrepancia",
+      "veredicto": "nuestro_correcto",
+      "campo": "Start_Date",
+      "valor_correcto": "2025-09-21",
+      "fuente": "https://www.gub.uy/presidencia/comunicacion/noticias/orsi-nueva-york-mujica-onu (fechado 21/09/2025)",
+      "justificacion": "Fuente oficial de Presidencia, fechada el mismo 21-sep-2025, titulada 'Presidente Orsi inicio viaje a Nueva York...', documenta la ceremonia de traspaso de mando y la partida ese domingo. Multiples medios confirman 'Orsi viaja el domingo [21] a Nueva York'. COLT (22-sep) corresponde probablemente al dia de arribo (vuelo nocturno), pero el dato de inicio de viaje mejor respaldado es el 21-sep."
+    },
+    {
+      "colt_TripID": "4217-URY-USA-45922",
+      "our_Trip_ID": "140",
+      "tipo": "discrepancia",
+      "veredicto": "COLT_correcto",
+      "campo": "Duration_Days",
+      "valor_correcto": "7",
+      "fuente": "https://www.ambito.com/uruguay/yamandu-orsi-destaco-que-hay-mucho-interes-empresarial-su-regreso-estados-unidos-n6195694 (publicado 27-sep-2025, 'Orsi arribo al pais este sabado') ; https://www.gub.uy/presidencia/comunicacion/noticias/orsi-nueva-york-mujica-onu ('El retorno de las autoridades esta previsto para el sabado 27')",
+      "justificacion": "Confirmado por prensa fechada el 27-sep-2025 que Orsi regreso a Uruguay ese sabado, tras reuniones adicionales (incluyendo con el titular de FIFA) posteriores al homenaje a Mujica del 24-sep. Nuestro Duration=4 (hasta el 24-sep) subestima el viaje real en 3 dias; el valor de COLT (6, asumiendo Start=22-sep) esta mucho mas cerca del regreso real del 27-sep. Con Start_Date correcto en 21-sep, la duracion real correcta es de 7 dias (21 al 27-sep inclusive); ninguno de los dos valores originales es exacto, pero el de COLT es sustancialmente mas cercano a la realidad verificada."
+    },
+    {
+      "colt_TripID": "4217-URY-XXX-46018",
+      "tipo": "colt_unico",
+      "decision": "agregar",
+      "fuente": "https://www.subrayado.com.uy/yamandu-orsi-se-tomara-vacaciones-este-sabado-pidio-autorizacion-salir-del-pais-siete-dias-n995834 ; https://www.elobservador.com.uy/nacional/las-vacaciones-yamandu-orsi-el-presidente-pidio-autorizacion-salir-del-pais-el-27-diciembre-y-el-3-enero-n6029318",
+      "justificacion": "Confirmado un viaje privado/vacaciones familiares de Orsi entre el 27-dic-2025 y el 3-ene-2026 (8 dias, coincide exactamente con el TripDuration=8 de COLT), con destino Brasil segun prensa uruguaya (no 'Unknown' como registra COLT). Corresponde agregarlo a la base, señalando que el pais de destino real identificado es Brasil."
+    }
+  ]
+}

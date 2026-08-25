@@ -1,0 +1,60 @@
+[
+  {
+    "LeaderID": "2117",
+    "correcciones": [
+      {
+        "TripID": "2117-BOL-USA-42481",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Paris Agreement High-Level Signature Ceremony",
+        "fuente": "https://www.cepal.org/es/comunicados/nuestra-carrera-es-tiempo-recuerda-ban-ki-moon-la-ceremonia-firma-acuerdo-paris ; http://www.cubadebate.cu/opinion/2016/04/22/evo-morales-el-mayor-defensor-de-la-pachamama/ ; https://enb.iisd.org/events/high-level-signature-ceremony-paris-agreement-climate-change/daily-report-22-april-2016",
+        "justificacion": "El viaje a Nueva York del 21-22 de abril de 2016 correspondió a la ceremonia de alto nivel de firma del Acuerdo de Paris sobre cambio climatico en la sede de la ONU (22 de abril, Dia de la Tierra), no a un periodo de sesiones de la Asamblea General de la ONU (que ademas no sesiona en abril). Evo Morales fue uno de los aproximadamente 175 jefes de Estado/Gobierno que firmaron el acuerdo ese dia, junto a Francois Hollande, Dilma Rousseff, Ollanta Humala, entre otros, con el Secretario General Ban Ki-moon presidiendo la ceremonia."
+      },
+      {
+        "TripID": "2117-BOL-COL-43714",
+        "campo": "MetHostHoGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.france24.com/es/20190906-amazonia-evo-morales-venezuela-leticia ; https://cancilleria.gob.bo/mre/2019/09/06/7455/",
+        "justificacion": "La Cumbre Presidencial por la Amazonia del 6 de septiembre de 2019 en Leticia fue organizada y presidida por el presidente anfitrion de Colombia, Ivan Duque, quien participo presencialmente junto a Evo Morales, Martin Vizcarra (Peru) y Lenin Moreno (Ecuador), firmando todos el Pacto de Leticia. El campo MetHostHoGS figura como 'No' en COLT, lo cual es inconsistente con la presencia confirmada del jefe de Estado anfitrion en la cumbre que el mismo convoco."
+      },
+      {
+        "TripID": "2117-BOL-COL-43714",
+        "campo": "HostHOGSName",
+        "valor_correcto": "President Ivan Duque",
+        "fuente": "https://www.france24.com/es/20190906-amazonia-evo-morales-venezuela-leticia",
+        "justificacion": "Complemento de la correccion anterior: al pasar MetHostHoGS a 'Yes', corresponde consignar el nombre del jefe de Estado anfitrion, el presidente de Colombia Ivan Duque, quien convoco y presidio la cumbre en Leticia."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Netherlands",
+        "CityVisited": "The Hague",
+        "TripStartDate": "2018-09-30",
+        "TripEndDate": "2018-10-01",
+        "TripDuration": "2",
+        "MetHostHoGS": "No",
+        "HostHOGSName": "",
+        "AttendedMultilatEvent": "No",
+        "NameMultilatEvent": "",
+        "fuente": "https://www.emol.com/noticias/Internacional/2018/10/01/922434/Fallo-en-La-Haya-Como-queda-la-imagen-de-Evo-Morales-tras-la-reves-de-Bolivia-en-la-CIJ.html ; https://www.24horas.cl/juicioenlahaya/evo-morales-llega-a-la-haya-seguro-que-habran-buenas-noticias-para-el-pueblo-boliviano-2828137 ; https://www.latercera.com/politica/noticia/asi-cambio-rostro-evo-morales-medida-fallo-desacreditaba-los-argumentos-bolivianos/337438/",
+        "justificacion": "Evo Morales viajo a La Haya, Paises Bajos, llegando el domingo 30 de septiembre de 2018, para presenciar en persona la lectura del fallo de la Corte Internacional de Justicia (CIJ) sobre la demanda maritima de Bolivia contra Chile, emitido el lunes 1 de octubre de 2018 (fallo desfavorable a Bolivia, rechazando la obligacion de Chile de negociar una salida soberana al mar). Este viaje, ampliamente cubierto por prensa regional, no figura en el tramo de COLT aqui revisado (que si registra otros viajes a Paises Bajos vinculados al mismo litigio en feb-2017 y mar-2018, pero no este cierre del caso). No se encontro evidencia de reunion bilateral con el jefe de Estado neerlandes ni de asistencia a un evento multilateral (la lectura del fallo de la CIJ es un acto judicial, no multilateral), por lo que ambos campos se consignan como 'No'."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "2117-BOL-NLD-43266",
+        "campo": "NameMultilatEvent / Notes (motivo del viaje)",
+        "justificacion": "No se pudo confirmar mediante busquedas el motivo especifico del viaje a Paises Bajos del 15 al 18 de junio de 2018, a diferencia de los otros viajes a ese pais en el mismo periodo (febrero de 2017 y marzo de 2018), claramente vinculados a audiencias del caso maritimo Bolivia c. Chile ante la CIJ. Es posible que se trate de gestiones adicionales del mismo litigio o de una agenda bilateral no documentada en fuentes abiertas consultadas."
+      },
+      {
+        "TripID": "2117-BOL-CUB-42228",
+        "campo": "Notes (motivo del viaje)",
+        "justificacion": "No se encontro cobertura periodistica especifica que confirme el motivo del viaje a Cuba del 12-13 de agosto de 2015. Bolivia y Cuba mantenian vinculos frecuentes en ese periodo (ALBA, cooperacion en salud), pero no fue posible verificar un evento puntual asociado a estas fechas exactas con las fuentes consultadas."
+      },
+      {
+        "TripID": "2117-BOL-ARG-43393",
+        "campo": "MetHostHoGS",
+        "justificacion": "Se hallaron notas de prensa contemporaneas (LA NACION, Infobae, Perfil) que indican que la visita de Evo Morales a Argentina del 20-22 de octubre de 2018 fue calificada de 'privada y extraoficial' y que, segun la cobertura del dia de llegada, Morales 'no se vera con Macri'. El valor actual de COLT (MetHostHoGS: No) es consistente con esta cobertura, por lo que no se propone correccion, pero se deja constancia de que existe al menos un articulo (casarosada.gob.ar, 'Macri recibio a Evo Morales...') cuyo contenido corresponde en realidad a un encuentro posterior, en abril de 2019 (ya registrado aparte como TripID 2117-BOL-ARG-43576), y no a octubre de 2018; se señala para evitar confusion en futuras revisiones."
+      }
+    ]
+  }
+]

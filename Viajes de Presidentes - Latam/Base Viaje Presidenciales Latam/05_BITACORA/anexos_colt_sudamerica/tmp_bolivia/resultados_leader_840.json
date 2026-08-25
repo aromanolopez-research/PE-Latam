@@ -1,0 +1,115 @@
+[
+  {
+    "LeaderID": "840",
+    "correcciones": [
+      {
+        "TripID": "840-BOL-ARG-34988",
+        "campo": "TripEndDate",
+        "valor_correcto": "1995-10-17",
+        "fuente": "https://eulacfoundation.org/es/5a-cumbre-iberoamericana-jefes-estado-y-gobierno-declaracion-bariloche-argentina-16-17de-octubre",
+        "justificacion": "La V Cumbre Iberoamericana de Jefes de Estado y de Gobierno se realizo en San Carlos de Bariloche, Argentina, entre el 16 y el 17 de octubre de 1995 (fuentes: EU-LAC Foundation y SEGIB, segib.org/?summit=v-cumbre-iberoamericana-san-carlos-de-bariloche-1995). COLT registra TripStartDate y TripEndDate identicos (1995-10-16), y la propia nota de COLT dice 'Trip details and end date not found'. Al ser una cumbre oficial de dos dias, y no haber evidencia de que GSL se haya retirado antes de su clausura, corresponde corregir la fecha de fin al 17/10/1995."
+      },
+      {
+        "TripID": "840-BOL-ARG-34988",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "fuente": "https://segib.org/?summit=v-cumbre-iberoamericana-san-carlos-de-bariloche-1995",
+        "justificacion": "Consecuencia directa de la correccion de TripEndDate a 1995-10-17: con TripStartDate 1995-10-16 y TripEndDate 1995-10-17, la duracion (contando ambos dias, convencion usada en el resto de la base COLT) pasa de 1 a 2."
+      },
+      {
+        "TripID": "840-BOL-USA-34502",
+        "campo": "TripStartDate",
+        "valor_correcto": "1994-06-16",
+        "fuente": "https://www.chicagotribune.com/1994/06/16/bolivian-president-more-comfortable-playing-soccer-than-watching/",
+        "justificacion": "El Chicago Tribune publico el 16 de junio de 1994 la nota 'Bolivian President More Comfortable Playing Soccer Than Watching', cubriendo a GSL en la ciudad de Chicago un dia antes del partido inaugural Bolivia-Alemania (17/6/1994) y de la ceremonia de apertura del Mundial en el Soldier Field. Esto indica que ya se encontraba en Chicago el 16/6, un dia antes de la fecha unica que registra COLT (16/6=17/6, TripDuration '1'). La propia nota de COLT senala 'trip dates not explicit'."
+      },
+      {
+        "TripID": "840-BOL-USA-34502",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "fuente": "https://www.chicagotribune.com/1994/06/16/bolivian-president-more-comfortable-playing-soccer-than-watching/",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate a 1994-06-16: con TripStartDate 1994-06-16 y TripEndDate 1994-06-17 (sin evidencia de cambio), la duracion pasa de 1 a 2."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Argentina",
+        "CityVisited": "Buenos Aires",
+        "TripStartDate": "1994-04-26",
+        "TripEndDate": "1994-04-27",
+        "TripDuration": "2",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Carlos Saul Menem",
+        "MetNonhostHOGS": "Yes",
+        "NonhostHOGSNames": "President Juan Carlos Wasmosy",
+        "fuente": "Search Query: \"reunion tripartita\" Wasmosy Menem Sanchez de Lozada abril 1994",
+        "justificacion": "Multiples resultados de busqueda (que citan un anexo de Wikipedia sobre visitas presidenciales Argentina-Bolivia, cuyo contenido no pudo confirmarse por fetch directo debido a una falla tecnica reiterada al acceder a paginas es.wikipedia.org con 'Anexo:' en la URL) coinciden en que el 26 de abril de 1994 GSL viajo a Argentina, invitado por el gobierno argentino, para una 'Reunion Internacional Tripartita' con los presidentes Wasmosy (Paraguay) y Menem (Argentina, anfitrion), que se extendio hasta el 27 de abril. No existe ningun TripID de Argentina en items_ya_en_COLT para esta fecha (los unicos son 840-BOL-ARG-34410 de marzo 1994 y 840-BOL-ARG-34988 de octubre 1995). Se deja AttendedMultilatEvent sin completar por no poder determinar si COLT clasificaria esta reunion trilateral como 'evento multilateral' en su sentido estricto (cumbre de organismo formal)."
+      },
+      {
+        "CountryVisited": "Argentina",
+        "CityVisited": "Salta",
+        "TripStartDate": "1995-06-09",
+        "TripEndDate": "1995-06-09",
+        "TripDuration": "1",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Carlos Saul Menem",
+        "SignedAgreement": "Yes",
+        "fuente": "https://www.noticiasfides.com/nacional/sociedad/aprovechamiento-del-rio-bermejo-y-rio-grande-de-tarija-210434",
+        "justificacion": "El 9 de junio de 1995 GSL viajo a la ciudad de Salta, Argentina, para reunirse con el presidente Carlos Menem y firmar el Acuerdo para el Aprovechamiento Multiple de los Recursos de la Alta Cuenca del Rio Bermejo y el Rio Grande de Tarija (tambien conocido como Acuerdo de Oran), que crea la Comision Binacional para el Desarrollo de la Alta Cuenca del Rio Bermejo y Rio Grande de Tarija. Corroborado por fuente boliviana (ANF/Noticias Fides) y por referencias cruzadas en busquedas independientes. No existe ningun TripID de Argentina en COLT para junio de 1995."
+      },
+      {
+        "CountryVisited": "Chile",
+        "CityVisited": "Vina del Mar",
+        "TripStartDate": "1996-11-10",
+        "TripEndDate": "1996-11-11",
+        "TripDuration": "2",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "Ibero-American Summit",
+        "fuente": "https://segib.org/?summit=vi-cumbre-iberoamericana-santiago-y-vina-del-mar-1996",
+        "justificacion": "La VI Cumbre Iberoamericana de Jefes de Estado y de Gobierno se realizo en Santiago y Vina del Mar, Chile, el 10 y 11 de noviembre de 1996, con asistencia plena de los 21 paises miembro (una de solo tres cumbres iberoamericanas con asistencia completa de todos los jefes de Estado/Gobierno). Bolivia es miembro pleno de las Cumbres Iberoamericanas desde su primera edicion (1991), por lo que la asistencia de GSL es consistente con su participacion en el resto de las cumbres iberoamericanas del periodo (Cartagena 1994, Bariloche 1995, Bavaro 2002, todas ya capturadas por COLT). Resulta llamativo que no exista NINGUN TripID con CountryVisited 'Chile' en toda la lista de items_ya_en_COLT para leader_840, en ninguno de los dos mandatos -ausencia total que contrasta con la asistencia documentada a esta cumbre-. No se pudo confirmar con evidencia directa si GSL sostuvo ademas un encuentro bilateral con el anfitrion (presidente Eduardo Frei Ruiz-Tagle), por lo que MetHostHoGS se deja sin completar."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "840-BOL-DEU-35353",
+        "campo": "TripStartDate",
+        "justificacion": "Busqueda activa (multiples consultas en espanol e ingles) no encontro ninguna cobertura de prensa boliviana, alemana ni internacional sobre una visita de GSL a Alemania en octubre de 1996. La propia nota de COLT ya senala 'no articles related to visit found' (confianza 3/5). No se hallo evidencia que confirme ni que descarte el viaje o sus fechas; no corresponde asumir que este mal ni que este bien."
+      },
+      {
+        "TripID": "840-BOL-PRY-35178",
+        "campo": "TripEndDate",
+        "justificacion": "COLT senala 'Trip return date not explicit'. La busqueda no hallo fuente que precise la fecha de regreso de la visita a Paraguay de abril de 1996 (reunion con el presidente Wasmosy)."
+      },
+      {
+        "TripID": "840-BOL-VAT-34986",
+        "campo": "TripStartDate",
+        "justificacion": "COLT senala 'trip departure date not explicit'. No se hallo fuente que precise cuando partio GSL de Bolivia (o del tramo previo de la gira europea) rumbo a la Santa Sede dentro de la gira de octubre de 1995; solo esta documentado el encuentro con el Papa Juan Pablo II el 14/10."
+      },
+      {
+        "TripID": "840-BOL-BRA-37740",
+        "campo": "TripStartDate",
+        "justificacion": "COLT senala 'Exact trip dates not explicit' para esta visita a Brasil de abril-mayo de 2003 (encuentro con el presidente Lula). La busqueda no hallo cobertura de prensa que confirme la fecha exacta de llegada."
+      },
+      {
+        "TripID": "840-BOL-BRA-37740",
+        "campo": "TripEndDate",
+        "justificacion": "Idem al campo TripStartDate del mismo TripID: no se hallo fuente que confirme la fecha exacta de salida de esta visita a Brasil de abril-mayo de 2003."
+      },
+      {
+        "TripID": "840-BOL-CHN-35515",
+        "campo": "TripStartDate",
+        "justificacion": "Busqueda activa en espanol e ingles no hallo cobertura de prensa (boliviana, china o internacional) que confirme las fechas exactas del viaje a China de marzo de 1997 mas alla de referencias genericas a 'un viaje en marzo de 1997'. No se hallo evidencia que contradiga el rango 26-30/3/1997 que registra COLT, pero tampoco que lo confirme de forma independiente."
+      },
+      {
+        "TripID": "840-BOL-ESP-37723",
+        "campo": "TripDuration",
+        "justificacion": "La duracion registrada (10 dias, 12 al 21 de abril de 2003) es inusualmente larga para una visita bilateral de este tipo, en comparacion con el resto de los viajes bilaterales de la base (tipicamente 2 a 5 dias). La busqueda no hallo cobertura de prensa espanola o boliviana que describa una visita de 10 dias ni que detalle su itinerario; tampoco se hallo evidencia que la contradiga directamente."
+      },
+      {
+        "TripID": "840-BOL-USA-35548",
+        "campo": "NameMultilatEvent",
+        "justificacion": "No se hallo ninguna fuente que confirme la existencia de una cumbre oficial llamada 'Agenda for the Americas for the 21st Century Summit' en abril-mayo de 1997. La unica Cumbre de las Americas de la epoca fue Miami 1994 (ya capturada en 840-BOL-USA-34677); la siguiente edicion oficial fue Santiago de Chile 1998 (fuera del primer mandato de GSL). Es posible que se trate de una conferencia civica/academica real con nombre similar (por ejemplo, vinculada al North-South Center u otra institucion), pero no pudo confirmarse ni descartarse su nombre exacto."
+      }
+    ]
+  }
+]

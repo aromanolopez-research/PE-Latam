@@ -1,0 +1,1478 @@
+[
+  {
+    "colt_TripID": "1514-URY-AGO-37911",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "16",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2003-10-15",
+        "colt": "2003-10-17"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-ARG-41088",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "66",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-06-29",
+        "colt": "2012-06-28"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-ARG-41990",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "81",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-12-16",
+        "colt": "2014-12-17"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-ARG-43809",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "100",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-ARG-45269",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "126",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-ARG-45490",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "130",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-ARG-45841",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "137",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-07-02",
+        "colt": "2025-07-03"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-AUT-38848",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "33",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-AUT-42883",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "154",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2017-05-29",
+        "colt": "2017-05-28"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-BEL-40835",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "62",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-BEL-45123",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "120",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-07-17",
+        "colt": "2023-07-16"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-BRA-38443",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "24",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2005-03-31",
+        "colt": "2005-04-01"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-BRA-39798",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "44",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2008-12-15",
+        "colt": "2008-12-16"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-BRA-39882",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "46",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-40544",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "56",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-41081",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "67",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-06-20",
+        "colt": "2012-06-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-41121",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "68",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-07-30",
+        "colt": "2012-07-31"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-41835",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "166",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-07-16",
+        "colt": "2014-07-15"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-41950",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "178",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-11-06",
+        "colt": "2014-11-07"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-BRA-42143",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "86",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2015-05-21",
+        "colt": "2015-05-19"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-BRA-42202",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "87",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2015-07-16",
+        "colt": "2015-07-17"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-BRA-45844",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "138",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-07-05",
+        "colt": "2025-07-06"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-CAN-37000",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "4",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2001-04-20",
+        "colt": "2001-04-19"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-CHL-39393",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "38",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2007-11-08",
+        "colt": "2007-11-07"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-CHL-41299",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "70",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-01-26",
+        "colt": "2013-01-25"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-CHL-41708",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "77",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-03-11",
+        "colt": "2014-03-10"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-CHL-44630",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "109",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-03-11",
+        "colt": "2022-03-10"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-CHL-45179",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "121",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-09-11",
+        "colt": "2023-09-10"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-CHL-45859",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "139",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-07-20",
+        "colt": "2025-07-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-CHN-39893",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "47",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2009-03-19",
+        "colt": "2009-03-21"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-CHN-41419",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "72",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-05-24",
+        "colt": "2013-05-25"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-CHN-42655",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "92",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2016-10-10",
+        "colt": "2016-10-12"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 11,
+        "colt": 10
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-CHN-45251",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "125",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-11-20",
+        "colt": "2023-11-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-COL-41013",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "65",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-04-13",
+        "colt": "2012-04-14"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-COL-44742",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "112",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-COD-38106",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "20",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2004-04-27",
+        "colt": "2004-04-29"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-CRI-38309",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "22",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-CRI-39925",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "48",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2009-04-23",
+        "colt": "2009-04-22"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-CUB-39616",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "40",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2008-06-18",
+        "colt": "2008-06-17"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-CUB-41478",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "175",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-07-24",
+        "colt": "2013-07-23"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-CUB-41667",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "76",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-DOM-45008",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "116",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-03-24",
+        "colt": "2023-03-23"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-ECU-41977",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "174",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-EGY-42885",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "93",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2017-05-31",
+        "colt": "2017-05-30"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-FIN-41898",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "177",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-09-15",
+        "colt": "2014-09-16"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-DEU-38639",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "27",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2005-10-16",
+        "colt": "2005-10-14"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-VAT-37907",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "14",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2003-10-11",
+        "colt": "2003-10-13"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-ITA-37905",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "15",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2003-10-13",
+        "colt": "2003-10-11"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-ITA-38643",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "28",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 7
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-ITA-45945",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "142",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-10-16",
+        "colt": "2025-10-15"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-MEX-37998",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "18",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-MEX-38832",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "31",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2006-04-26",
+        "colt": "2006-04-25"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-MEX-39620",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "41",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-MEX-40862",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "64",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-MEX-41979",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "82",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-12-08",
+        "colt": "2014-12-06"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-MEX-43052",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "96",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2017-11-14",
+        "colt": "2017-11-13"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-NOR-40829",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "60",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-PAN-45753",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "134",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-04-07",
+        "colt": "2025-04-06"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-PRY-39262",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "36",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2007-06-28",
+        "colt": "2007-06-29"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-PRY-40722",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "57",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2011-06-29",
+        "colt": "2011-06-28"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-PRY-41838",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "79",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-PRY-45479",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "129",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2024-07-07",
+        "colt": "2024-07-06"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-PER-40752",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "58",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2011-07-27",
+        "colt": "2011-07-28"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-PER-43203",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "97",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-QAT-39204",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "35",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2007-05-01",
+        "colt": "2007-05-02"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-QAT-44540",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "105",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2021-12-12",
+        "colt": "2021-12-10"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-KOR-39690",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "42",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2008-09-01",
+        "colt": "2008-08-30"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-ESP-38017",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "19",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2004-02-02",
+        "colt": "2004-01-31"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 9
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-ESP-38637",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "26",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2005-10-13",
+        "colt": "2005-10-12"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-ESP-41423",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "73",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-05-28",
+        "colt": "2013-05-29"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 10,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-ESP-45837",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "136",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Destination_City/CityVisited",
+        "nuestro": "Seville",
+        "colt": "Sevilla"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-SWE-40827",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "59",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2011-10-12",
+        "colt": "2011-10-11"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-CHE-42890",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "94",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2017-06-03",
+        "colt": "2017-06-04"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-ARE-44611",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "108",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-02-18",
+        "colt": "2022-02-19"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 6,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-GBR-44703",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "111",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2022-05-21",
+        "colt": "2022-05-22"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-USA-37204",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "5",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2001-11-08",
+        "colt": "2001-11-09"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "1514-URY-USA-38250",
+    "colt_LeaderID": "1514",
+    "our_Trip_ID": "21",
+    "President": "Jorge Batlle",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2004-09-22",
+        "colt": "2004-09-20"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-USA-40067",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "52",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2009-09-12",
+        "colt": "2009-09-11"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 7,
+        "colt": 6
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-USA-41541",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "75",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 6
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-USA-41770",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "78",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-USA-42275",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "89",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2015-09-25",
+        "colt": "2015-09-28"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-USA-42631",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "91",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2016-09-19",
+        "colt": "2016-09-18"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-USA-44460",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "104",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2021-09-20",
+        "colt": "2021-09-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-USA-45090",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "118",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-06-12",
+        "colt": "2023-06-13"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-USA-45186",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "123",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 6
+      }
+    ]
+  },
+  {
+    "colt_TripID": "3698-URY-USA-45231",
+    "colt_LeaderID": "3698",
+    "our_Trip_ID": "124",
+    "President": "Luis Lacalle Pou",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2023-11-03",
+        "colt": "2023-11-01"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "4217-URY-USA-45922",
+    "colt_LeaderID": "4217",
+    "our_Trip_ID": "140",
+    "President": "Yamandú Orsi",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2025-09-21",
+        "colt": "2025-09-22"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 4,
+        "colt": 6
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2029-URY-VEN-40080",
+    "colt_LeaderID": "2029",
+    "our_Trip_ID": "53",
+    "President": "Tabaré Vázquez",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2009-09-27",
+        "colt": "2009-09-24"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-VEN-40569",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "165",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-VEN-40879",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "168",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-VEN-41339",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "71",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-VEN-41848",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "80",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-07-29",
+        "colt": "2014-07-28"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  }
+]

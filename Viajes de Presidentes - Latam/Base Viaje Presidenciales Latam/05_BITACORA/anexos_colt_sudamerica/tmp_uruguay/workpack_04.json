@@ -1,0 +1,742 @@
+[
+  {
+    "colt_TripID": "2552-URY-ARG-41088",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "66",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-06-29",
+        "colt": "2012-06-28"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-ARG-41990",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "81",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-12-16",
+        "colt": "2014-12-17"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-BEL-40835",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "62",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-40544",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "56",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-41081",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "67",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-06-20",
+        "colt": "2012-06-21"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-41121",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "68",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-07-30",
+        "colt": "2012-07-31"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-41835",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "166",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-07-16",
+        "colt": "2014-07-15"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-41950",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "178",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-11-06",
+        "colt": "2014-11-07"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-CHL-41299",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "70",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-01-26",
+        "colt": "2013-01-25"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-CHL-41708",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "77",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-03-11",
+        "colt": "2014-03-10"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-CHN-41419",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "72",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-05-24",
+        "colt": "2013-05-25"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-COL-41013",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "65",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2012-04-13",
+        "colt": "2012-04-14"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-CUB-41478",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "175",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-07-24",
+        "colt": "2013-07-23"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-CUB-41667",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "76",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-ECU-41977",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "174",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-FIN-41898",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "177",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-09-15",
+        "colt": "2014-09-16"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-MEX-40862",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "64",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-MEX-41979",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "82",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-12-08",
+        "colt": "2014-12-06"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-NOR-40829",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "60",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 5
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-PRY-40722",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "57",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2011-06-29",
+        "colt": "2011-06-28"
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-PRY-41838",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "79",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-PER-40752",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "58",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2011-07-27",
+        "colt": "2011-07-28"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-ESP-41423",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "73",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2013-05-28",
+        "colt": "2013-05-29"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 10,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-SWE-40827",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "59",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2011-10-12",
+        "colt": "2011-10-11"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-USA-41541",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "75",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 6
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-USA-41770",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "78",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 5,
+        "colt": 4
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-VEN-40569",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "165",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 3
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-VEN-40879",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "168",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 2,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-VEN-41339",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "71",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 3,
+        "colt": 1
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-VEN-41848",
+    "colt_LeaderID": "2552",
+    "our_Trip_ID": "80",
+    "President": "José Mujica",
+    "diferencias": [
+      {
+        "campo": "Start_Date/TripStartDate",
+        "nuestro": "2014-07-29",
+        "colt": "2014-07-28"
+      },
+      {
+        "campo": "Duration_Days/TripDuration",
+        "nuestro": 1,
+        "colt": 2
+      }
+    ]
+  },
+  {
+    "colt_TripID": "2552-URY-ARG-40296",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2010-04-28",
+    "TripDuration": "1",
+    "Notes": "Participated in a joint press Conference with President Fernandez following bilateral talks"
+  },
+  {
+    "colt_TripID": "2552-URY-ARG-40302",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2010-05-04",
+    "TripDuration": "2",
+    "Notes": "Date of departure and return unclear based on public information available  Delivered public address during the opening session of the UNASUR presidential Summit"
+  },
+  {
+    "colt_TripID": "2552-URY-ARG-40323",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2010-05-25",
+    "TripDuration": "1",
+    "Notes": "Attended the inaguration of the Latin American Heroes Gallery;during celebrations for the Bicentary of the May Revolution that led to the country's final independence on July 9;1816."
+  },
+  {
+    "colt_TripID": "2552-URY-ARG-40387",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2010-07-28",
+    "TripDuration": "1",
+    "Notes": "Signed bilateral joint communique with President Fernandez"
+  },
+  {
+    "colt_TripID": "2552-URY-ARG-40392",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2010-08-02",
+    "TripDuration": "2",
+    "Notes": "Date of return unclear based on public information available."
+  },
+  {
+    "colt_TripID": "2552-URY-ARG-40452",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2010-10-01",
+    "TripDuration": "1",
+    "Notes": "Date of departure and return unclear based on public information available"
+  },
+  {
+    "colt_TripID": "2552-URY-ARG-40515",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2010-12-03",
+    "TripDuration": "2",
+    "Notes": "Themes of Summit include: \"education and social inclusion\"  Date of departure and return unclear based on public information available"
+  },
+  {
+    "colt_TripID": "2552-URY-ARG-40599",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2011-02-25",
+    "TripDuration": "1",
+    "Notes": "Delivered speech at the inauguration of the Casa Grande Presidente Nestor Kirchner in Buenos Aires"
+  },
+  {
+    "colt_TripID": "2552-URY-ARG-41200",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2012-10-18",
+    "TripDuration": "1",
+    "Notes": "Delivered speech after receiving honorary doctorate during visit to La Plata National University from school President;Fernando Tauber  Date of departure and return unclear based on public information available"
+  },
+  {
+    "colt_TripID": "2552-URY-ARG-41546",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Argentina",
+    "CityVisited": null,
+    "TripStartDate": "2013-09-29",
+    "TripDuration": "2",
+    "Notes": "Delivered speech at the inauguration ceremony of a ferryboat which will link Argentina and Uruguay"
+  },
+  {
+    "colt_TripID": "2552-URY-BOL-41459",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2013-07-04",
+    "TripDuration": "1",
+    "Notes": "Meeting involving Latin American leaders gathered in Cochabamba to back President Evo Morales;European nations temporarily refused President Morales's plane access to their airspace amid suspicions U.S. fugitive Edward Snowden was aboard."
+  },
+  {
+    "colt_TripID": "2552-URY-BOL-41805",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Bolivia",
+    "CityVisited": null,
+    "TripStartDate": "2014-06-15",
+    "TripDuration": "1",
+    "Notes": "Date of departure and return unclear based on public information available"
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-40266",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2010-03-29",
+    "TripDuration": "2",
+    "Notes": "Signed bilateral agreements and incresased cooperation between the two South American countries Discussed means of increasing investments and implementing joint infrastructure projects in energy and transportation Bilateral commission of trategic Planning and Productiive Integration created to develop projects for industrial complementation;energy integration;Physical infrastructure  Agreed on removing trade barriers on exporting poultry and dairy products;fresh fish;live cattle and frozen meat"
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-40389",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2010-07-30",
+    "TripDuration": "1",
+    "Notes": "Participated in a ceremony after bilateral talks with President Da Silva.  Witnessed the signing of a series of bilateral agreements.  Participated in the unveiling of a commemorative plaque of their Meeting.  Delivered public address following bilateral talks."
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-40518",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2010-12-06",
+    "TripDuration": "1",
+    "Notes": "Attended the inauguration ceremony of the Darcy Ribeiro Memorial at University of Brasilia."
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-40526",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2010-12-14",
+    "TripDuration": "3",
+    "Notes": "Date of departure unclear based on public information available."
+  },
+  {
+    "colt_TripID": "2552-URY-BRA-42041",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Brazil",
+    "CityVisited": null,
+    "TripStartDate": "2015-02-06",
+    "TripDuration": "1",
+    "Notes": "Attending celebration of the 35th anniversary of the Workers' Party in Belo Horizonte."
+  },
+  {
+    "colt_TripID": "2552-URY-CHL-40921",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Chile",
+    "CityVisited": null,
+    "TripStartDate": "2012-01-13",
+    "TripDuration": "3",
+    "Notes": "Antarctica;Visited the President Frei Montalva air base;the Antarctic port authorities and the Chilean Antarctic Institute's Professor Julio Escudero Base accompanied with President Pinera  Date of return unclear based on public information available"
+  },
+  {
+    "colt_TripID": "2552-URY-COL-40396",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Colombia",
+    "CityVisited": null,
+    "TripStartDate": "2010-08-06",
+    "TripDuration": "1",
+    "Notes": "Attended the inauguration ceremony of president-elect Juan Manuel Santos."
+  },
+  {
+    "colt_TripID": "2552-URY-CRI-42032",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Costa Rica",
+    "CityVisited": null,
+    "TripStartDate": "2015-01-28",
+    "TripDuration": "2",
+    "Notes": "Date of departure and return unclear based on public information available"
+  },
+  {
+    "colt_TripID": "2552-URY-ECU-40498",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Ecuador",
+    "CityVisited": null,
+    "TripStartDate": "2010-11-16",
+    "TripDuration": "1",
+    "Notes": "Participated in a joint press Conference with President Correa.  Signed bilateral cooperation agreements with President Correa.  Delivered public remarks to the press during visit to a housing project at Nueva Prosperina neighbourhood in Guayaquil."
+  },
+  {
+    "colt_TripID": "2552-URY-VAT-41426",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Holy See",
+    "CityVisited": null,
+    "TripStartDate": "2013-06-01",
+    "TripDuration": "2",
+    "Notes": "Date of departure and return unclear based on public information available"
+  },
+  {
+    "colt_TripID": "2552-URY-PRY-40405",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Paraguay",
+    "CityVisited": null,
+    "TripStartDate": "2010-08-15",
+    "TripDuration": "2",
+    "Notes": "Also met with President Evo Moralees in Trilateral talks with President Lugo;President Morales in Paraguay to attend lV Social Forum of the Americas.  Attended the lV Social Forum of the Americas.  Took part in a wreath-laying ceremony in Asuncion.  Decorated by President Lugo at the government palace in Asuncion.  Signed bilateral documents along with President Lugo.  Participated in a joint press Conference with President Lugo following bilateral talks.  Delivered public address during visit to Solar de Artigas school in Asuncion."
+  },
+  {
+    "colt_TripID": "2552-URY-PRY-40529",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Paraguay",
+    "CityVisited": null,
+    "TripStartDate": "2010-12-17",
+    "TripDuration": "1",
+    "Notes": "Signed the URUPABOL agreement in Alto Parana along with Presidents Lugo and Evo Morales"
+  },
+  {
+    "colt_TripID": "2552-URY-ESP-40508",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Spain",
+    "CityVisited": null,
+    "TripStartDate": "2010-11-26",
+    "TripDuration": "3",
+    "Notes": "Date of departure and return unclear based on public information available  Attended the Spanish league football match \"Atletico Madrid vs Espanyol\" at Vicente Calderon stadium"
+  },
+  {
+    "colt_TripID": "2552-URY-ESP-41229",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Spain",
+    "CityVisited": null,
+    "TripStartDate": "2012-11-16",
+    "TripDuration": "4",
+    "Notes": "Attended Ibero-American Summit"
+  },
+  {
+    "colt_TripID": "2552-URY-ESP-41427",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Spain",
+    "CityVisited": null,
+    "TripStartDate": "2013-06-02",
+    "TripDuration": "4",
+    "Notes": "European trip cut short due to health concerns."
+  },
+  {
+    "colt_TripID": "2552-URY-VEN-40275",
+    "colt_LeaderID": "2552",
+    "LeaderFullName": "Jose Mujica",
+    "CountryVisited": "Venezuela",
+    "CityVisited": null,
+    "TripStartDate": "2010-04-07",
+    "TripDuration": "1",
+    "Notes": "Signed eight bilateral agreements on energy;food security;and trade  Decorated by President Chavez with the Order of the Liberator;Venezuela's highest honor;at the Municipal Stadium in Caracas  Also presented him with a replica of the sword used by Venezuela's national hero Simon Bolivar"
+  }
+]

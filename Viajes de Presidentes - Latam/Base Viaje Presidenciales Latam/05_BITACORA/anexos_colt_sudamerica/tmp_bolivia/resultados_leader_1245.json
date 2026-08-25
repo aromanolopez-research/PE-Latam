@@ -1,0 +1,125 @@
+[
+  {
+    "LeaderID": "1245",
+    "correcciones": [
+      {
+        "TripID": "1245-BOL-ARG-36443",
+        "campo": "TripStartDate",
+        "valor_correcto": "1999-12-09",
+        "fuente": "https://es.wikipedia.org/wiki/Presidencia_de_Fernando_de_la_R%C3%BAa ; Search Query: Banzer Bolivia asuncion presidencial De la Rua 9 de diciembre 1999 Buenos Aires",
+        "justificacion": "Fernando de la Rua asumio la presidencia de Argentina el 10 de diciembre de 1999, no el 10 de octubre. COLT registro el mes 10 (octubre) en lugar de 12 (diciembre), un error evidente de transcripcion. Los mandatarios invitados llegaron el dia previo a la ceremonia (9 de diciembre); se corrige la fecha de inicio en consecuencia."
+      },
+      {
+        "TripID": "1245-BOL-ARG-36443",
+        "campo": "TripEndDate",
+        "valor_correcto": "1999-12-10",
+        "fuente": "https://es.wikipedia.org/wiki/Presidencia_de_Fernando_de_la_R%C3%BAa",
+        "justificacion": "La asuncion de De la Rua (evento que motiva el viaje, segun las Notes de COLT) ocurrio el 10 de diciembre de 1999, no el 10 de octubre. Mismo error de mes que en TripStartDate."
+      },
+      {
+        "TripID": "1245-BOL-ARG-36443",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "fuente": "https://es.wikipedia.org/wiki/Presidencia_de_Fernando_de_la_R%C3%BAa",
+        "justificacion": "Con las fechas corregidas (9 al 10 de diciembre de 1999), la duracion del viaje pasa de 1 a 2 dias, siguiendo la convencion de conteo inclusivo usada en el resto de la base de COLT."
+      },
+      {
+        "TripID": "1245-BOL-PRY-36021",
+        "campo": "TripStartDate",
+        "valor_correcto": "1998-08-15",
+        "fuente": "https://mec.gov.py/cms_v2/recursos/5691-raul-cubas-grau-asume-la-jefatura-de-estado-en-1998 ; https://www.cidob.org/lider-politico/raul-cubas-grau",
+        "justificacion": "Raul Cubas Grau asumio la presidencia de Paraguay el 15 de agosto de 1998 (no el 14). Fuentes coinciden en que la ceremonia fue el 15 de agosto y que fue acompanada por los presidentes de Bolivia, Brasil, Chile, Ecuador, Peru y Uruguay, confirmando la presencia de Banzer ese dia."
+      },
+      {
+        "TripID": "1245-BOL-PRY-36021",
+        "campo": "TripEndDate",
+        "valor_correcto": "1998-08-15",
+        "fuente": "https://mec.gov.py/cms_v2/recursos/5691-raul-cubas-grau-asume-la-jefatura-de-estado-en-1998",
+        "justificacion": "Mismo error de fecha que TripStartDate: la inauguracion de Cubas Grau fue el 15, no el 14 de agosto de 1998."
+      },
+      {
+        "TripID": "1245-BOL-ITA-36703",
+        "campo": "MetHostHoGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://archivio.quirinale.it/aspr/fotografico;jsessionid=C5B1C1887829837A057F8AC6921BEC7E/PHOTO-003-038994/presidente/carlo-azeglio-ciampi/il-presidente-ciampi-presidente-della-repubblica-bolivia-hugo-banzer-suarez-al-termine-della-visita-ufficiale",
+        "justificacion": "El archivo fotografico oficial de la Presidencia de la Republica Italiana (Quirinale) documenta una visita oficial de Hugo Banzer Suarez con el presidente Carlo Azeglio Ciampi, contradiciendo el 'No' registrado por COLT en MetHostHoGS. COLT mismo marco la nota 'Purpose of visit unknown' con confianza baja (3), consistente con un dato incompleto mas que con ausencia de reunion."
+      },
+      {
+        "TripID": "1245-BOL-ITA-36703",
+        "campo": "HostHOGSName",
+        "valor_correcto": "President Carlo Azeglio Ciampi",
+        "fuente": "https://archivio.quirinale.it/aspr/fotografico;jsessionid=C5B1C1887829837A057F8AC6921BEC7E/PHOTO-003-038994/presidente/carlo-azeglio-ciampi/il-presidente-ciampi-presidente-della-repubblica-bolivia-hugo-banzer-suarez-al-termine-della-visita-ufficiale",
+        "justificacion": "El archivo fotografico del Quirinale identifica explicitamente al jefe de Estado italiano recibido por Banzer como Carlo Azeglio Ciampi, presidente de Italia en esa fecha."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Chile",
+        "CityVisited": "Santiago",
+        "TripStartDate": "1998-04-18",
+        "TripEndDate": "1998-04-19",
+        "TripDuration": "2",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "Second Summit of the Americas",
+        "fuente": "https://www.oas.org/xxxivga/spanish/reference_docs/CumbreAmericasSantiago_Declaracion.pdf ; https://summit-americas.org/sas/Cumbres_previas_IICumbre.html ; Search Query: Segunda Cumbre de las Americas Santiago 1998 Bolivia Banzer",
+        "justificacion": "La Segunda Cumbre de las Americas se realizo en Santiago de Chile el 18 y 19 de abril de 1998, con 34 mandatarios presentes; Bolivia estuvo representada por el presidente Hugo Banzer Suarez. Este viaje no aparece entre los 19 items ya cargados por COLT para este lider, pese a que si capturaron la Tercera Cumbre de las Americas (Quebec, 2001)."
+      },
+      {
+        "CountryVisited": "Venezuela",
+        "CityVisited": "Isla Margarita",
+        "TripStartDate": "1997-11-08",
+        "TripEndDate": "1997-11-09",
+        "TripDuration": "2",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "VII Ibero-American Summit",
+        "fuente": "https://es.wikipedia.org/wiki/VII_Cumbre_Iberoamericana ; https://segib.org/?summit=vii-cumbre-iberoamericana-isla-margarita-1997",
+        "justificacion": "La VII Cumbre Iberoamericana se realizo en Isla Margarita, Venezuela, el 8 y 9 de noviembre de 1997. Fuentes confirman que Hugo Banzer asistio como presidente de Bolivia. COLT capturo la Cumbre Iberoamericana de Panama (2000) pero no esta, la de Oporto (1998) ni la de La Habana (1999), pese a que Banzer asistio a las cuatro durante su mandato."
+      },
+      {
+        "CountryVisited": "Portugal",
+        "CityVisited": "Porto",
+        "TripStartDate": "1998-10-17",
+        "TripEndDate": "1998-10-18",
+        "TripDuration": "2",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "VIII Ibero-American Summit",
+        "fuente": "https://rieoei.org/historico/oeivirt/rie18a10.htm ; https://www.segib.org/?summit=viii-cumbre-iberoamericana-oporto-1998",
+        "justificacion": "La VIII Cumbre Iberoamericana se realizo en Oporto, Portugal, el 17 y 18 de octubre de 1998. Las fuentes indican que Hugo Banzer participo activamente, incluso solicitando junto a otros mandatarios que la reunion durara solo un dia, lo que confirma su presencia personal (no una simple representacion diplomatica)."
+      },
+      {
+        "CountryVisited": "Cuba",
+        "CityVisited": "Havana",
+        "TripStartDate": "1999-11-15",
+        "TripEndDate": "1999-11-16",
+        "TripDuration": "2",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "IX Ibero-American Summit",
+        "fuente": "https://es.wikipedia.org/wiki/IX_Cumbre_Iberoamericana ; https://www.segib.org/?summit=ix-cumbre-iberoamericana-la-habana-1999 ; https://www.cubanet.org/htdocs/CNews/y99/jan99/21o5.htm",
+        "justificacion": "La IX Cumbre Iberoamericana se realizo en La Habana, Cuba, el 15 y 16 de noviembre de 1999. Fuentes confirman la asistencia de Hugo Banzer como presidente de Bolivia; un despacho de enero de 1999 ya anticipaba que 'Banzer viajara a Venezuela y Cuba este ano', consistente con su asistencia a las cumbres de Margarita (1997, ya pasada) y a esta de La Habana."
+      },
+      {
+        "CountryVisited": "Ecuador",
+        "CityVisited": "Guayaquil",
+        "TripStartDate": "1998-04-04",
+        "TripEndDate": "1998-04-05",
+        "TripDuration": "2",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "X Andean Presidential Council (Comunidad Andina)",
+        "fuente": "https://ipsnoticias.net/1998/04/comunidad-andina-hacia-el-mercado-comun/ ; https://es.wikipedia.org/wiki/Consejo_Presidencial_Andino",
+        "justificacion": "El X Consejo Presidencial Andino se realizo en Guayaquil, Ecuador, el 4 y 5 de abril de 1998, donde los presidentes de Bolivia, Colombia, Ecuador, Peru y Venezuela firmaron el Acta de Guayaquil. COLT capturo cumbres andinas de 1999 (Colombia) y 2000 (Peru) pero no esta de 1998, previa incluso a la Cumbre de las Americas de Santiago del mismo mes."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "1245-BOL-USA-37073",
+        "campo": "TripEndDate",
+        "justificacion": "Multiples fuentes coinciden en que Banzer ingreso al Walter Reed Medical Center el 1 de julio de 2001 y que presento su renuncia formal en Bolivia el 6 de agosto de 2001 (algunas fuentes secundarias mencionan el 7). Sin embargo, no se encontro una fuente que confirme la fecha exacta de su vuelo de regreso a Bolivia; el registro de COLT (2001-08-04) es plausible (regreso previo a la renuncia del 6 de agosto) pero no se pudo verificar con precision si fue el 3, 4, 5 o 6 de agosto. Se mantiene el dato de COLT sin modificacion."
+      },
+      {
+        "TripID": "1245-BOL-ITA-36703",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "Se confirmo que el viaje a Italia ocurrio (reunion con el presidente Ciampi, ver correccion de MetHostHoGS/HostHOGSName), pero no se hallo una fuente que fije con precision las fechas 26-27 de junio de 2000 registradas por COLT. La secuencia es compatible con el viaje a Alemania inmediatamente posterior (28-30 de junio de 2000), pero no se pudo verificar de forma independiente. COLT mismo senala 'trip dates not explicit' con confianza baja (3); se mantienen las fechas sin modificacion por falta de evidencia concluyente en algun sentido."
+      }
+    ]
+  }
+]
