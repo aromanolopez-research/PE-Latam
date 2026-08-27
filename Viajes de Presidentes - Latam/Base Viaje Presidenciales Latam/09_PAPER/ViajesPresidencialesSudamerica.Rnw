@@ -1,0 +1,363 @@
+% ViajesPresidencialesSudamerica.Rnw - Esqueleto Sweave del paper
+% "Viajes presidenciales como indicador de politica exterior en Sudamerica
+%  (1994-2025)"
+% COMO COMPILAR
+% --------------
+% Opcion A (Sweave, base R, sin paquetes adicionales):
+%   R> setwd(".../09_PAPER")
+%   R> Sweave("ViajesPresidencialesSudamerica.Rnw")     # genera ViajesPresidencialesSudamerica.tex
+%   $ pdflatex ViajesPresidencialesSudamerica.tex
+%   $ biber ViajesPresidencialesSudamerica
+%   $ pdflatex ViajesPresidencialesSudamerica.tex
+%   $ pdflatex ViajesPresidencialesSudamerica.tex
+%
+% Opcion B (knitr, si preferis su render mas moderno; requiere install.packages("knitr")):
+%   R> knitr::knit2pdf("ViajesPresidencialesSudamerica.Rnw")
+%
+% NOTA (2026-08-27): referencias.bib ahora se exporta desde Zotero (plugin
+% Better BibTeX, formato "Better BibLaTeX" con auto-export). Por eso las
+% citas usan campos de BibLaTeX (date/journaltitle, no year/journal), y por
+% eso el motor de bibliografia paso de natbib+bibtex a biblatex+biber (ver
+% mas abajo). Si tu instalacion de LaTeX no tiene "biber", instalalo junto
+% con el resto de TeX Live/MiKTeX -viene incluido en cualquier instalacion
+% completa-. En RStudio, el boton "Compile PDF" detecta biblatex solo y
+% corre biber en vez de bibtex automaticamente.
+%
+% NOTA (2026-08-27, mas tarde): 10 cambios de estetica/contenido en las
+% figuras (Fig.1, 3 y 13 pasaron a Cuadro; nuevas figuras de evolucion tras
+% Fig.14/15/16; etc.) + 3 ajustes puntuales despues (Fig.2 solo >50 viajes,
+% regla "solo viajes durante el mandato", tamaño de fuente en Fig.6). Si el
+% archivo alguna vez aparece revertido a una version anterior (por ejemplo
+% por un conflicto de sincronizacion de OneDrive), este comentario sirve de
+% marca para notar que faltan esos cambios.
+%
+% PRERREQUISITO: correr primero 08_ANALISIS_R/graficos_exploratorios.R
+% (genera los PNG/CSV en 08_ANALISIS_R/outputs/ que este documento consume
+% en la seccion de Resultados). Este .Rnw NO reprocesa la base entera: lee
+% los resumenes y figuras ya generados, para que compilar el paper sea
+% rapido y no dependa de tener el .xlsx abierto.
+% ================================================================================
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[backend=biber, style=authoryear, natbib=true]{biblatex}
+\usepackage{csquotes}
+\addbibresource{referencias.bib}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{longtable}
+\geometry{margin=2.5cm}
+
+\title{Viajes presidenciales como indicador de pol\'itica exterior en Sudam\'erica (1994--2025)}
+\author{Alejo Roman\'o L\'opez}
+\date{\today}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+\maketitle
+
+\begin{abstract}
+% TODO: 150-200 palabras. Que pregunta responde el paper, con que datos
+% (base propia cruzada contra COLT, Moyer et al. 2025), que encuentra.
+\end{abstract}
+
+<<setup, echo=FALSE, results=hide>>=
+# ------------------------------------------------------------------------
+# Chunk de setup: NO vuelve a correr todo graficos_exploratorios.R. Lee
+# los CSV de resumen y da por hechas las figuras PNG ya generadas ahi.
+# Si todavia no corriste ese script, hacelo antes de knitear este archivo.
+# ------------------------------------------------------------------------
+RUTA_OUTPUTS <- file.path("..", "08_ANALISIS_R", "outputs")
+
+leer_resumen <- function(archivo) {
+  read.csv(file.path(RUTA_OUTPUTS, archivo), stringsAsFactors = FALSE)
+}
+
+# NOTA: esta variable se llamaba antes "ficha_general" pero en realidad leia
+# el CSV de totales por pais (00b) -nombre enganioso, corregido aca.
+viajes_totales_pais  <- leer_resumen("00b_viajes_totales_por_pais.csv")
+# "Ficha general" real: 7 indicadores (total de viajes, periodo, cantidad de
+# paises/mandatarios, % bilateral/multilateral/otro) -> Cuadro 1 del paper.
+ficha_general         <- tryCatch(leer_resumen("00a_ficha_general.csv"), error = function(e) NULL)
+resumen_estadisticos <- tryCatch(leer_resumen("00d_resumen_estadisticos_descriptivos.csv"), error = function(e) NULL)
+top5_destinos        <- tryCatch(leer_resumen("05_top5_destinos_por_presidente.csv"), error = function(e) NULL)
+tabla_destino_favorito <- tryCatch(leer_resumen("05c_destino_favorito_tabla.csv"), error = function(e) NULL)
+primera_visita        <- tryCatch(leer_resumen("06_primera_visita_por_presidente.csv"), error = function(e) NULL)
+
+total_viajes <- sum(viajes_totales_pais$n_viajes)
+total_paises <- nrow(viajes_totales_pais)
+@
+
+\section{Introducci\'on}
+% TODO. Sugerencias de anclaje bibliografico (ver 09_PAPER/referencias.bib):
+%   - Por que los viajes presidenciales son un indicador valido de PE:
+%     \citep{moyerWhenHeadsGovernment2025, ostranderPresidentsAbroadPolitics2018, balciHighLevelLeaderVisits2025}
+%   - Por que Sudamerica esta subestudiada en este campo:
+%     \citep{thiersPoliticalLeadersRole2025}
+%   - El diseño mas comparable al de este paper:
+%     \citep{frenkelDiplomaciaPresidencialPolitica2026}
+%
+% El total de viajes registrados en la base al momento de compilar este
+% documento es de \Sexpr{total_viajes} viajes en \Sexpr{total_paises} paises
+% (ver Tabla~\ref{tab:totales-pais}).
+
+\section{Marco te\'orico}
+% TODO. Estructura sugerida (ver Bib/1_Bibliografía Priorizada.docx para el
+% detalle de cada texto):
+%   1. Por que el presidente es la unidad de analisis correcta
+%      (presidencializacion de la PE): \citep{casonPresidentializationPluralizationRollback2009,
+%      amorimnetoPolicyMakingCapacityForeign2019, amorimnetoPresidentialDelegationForeign2020,
+%      barnabeItamaratyDiplomaciaPresidencial2010, burgesImportancePresidentialLeadership2017}
+%   2. Los viajes como indicador operacional de PE: \citep{lebovicDiplomaticCoreDeterminants2016,
+%      arasBrothersKaramazovGo2025, leeTravelAlliesAdversaries2024}
+%   3. Diplomacia presidencial multilateral/de cumbres en Sudamerica:
+%      \citep{malamudDiplomaciaPresidencialPilares2010, penaComplejaRedCumbres2005, nolteSummitsPlainsCrisis2021}
+
+\section{Datos y metodolog\'ia}
+% TODO. Describir:
+%   - Universo: 12 paises de Sudamerica, 1994-2025 (2026 se agrega despues).
+%   - Fuente primaria: dataset COLT \citep{moyerWhenHeadsGovernment2025}, cruzado y
+%     corregido/ampliado con investigacion propia (ver 00_CODEBOOK/CODEBOOK.txt
+%     para el esquema completo de 76 columnas y la convencion de IDs
+%     PELATAM-<ISO3>-<n> para filas agregadas que COLT no tenia).
+%   - Categorizacion derivada Bilateral/Multilateral/Otro (no nativa de COLT;
+%     ver comentario en 08_ANALISIS_R/graficos_exploratorios.R seccion 6).
+%   - Regla de inclusion: solo se cuentan viajes cuyo inicio Y fin caen
+%     dentro del mandato presidencial (ver 08_ANALISIS_R/graficos_exploratorios.R,
+%     seccion 1.2c, y las fechas de mandato verificadas en
+%     09_PAPER/mandatos_presidenciales.csv).
+%   - Limitaciones conocidas: cobertura desigual por pais/periodo, ver
+%     05_BITACORA/PENDIENTES_VERIFICACION.txt.
+
+\section{Resultados}
+
+\subsection{Descriptivos generales}
+
+<<tab-ficha-general, echo=FALSE, results=tex>>=
+# La ficha general (antes Figura 1, una imagen) pasa a Cuadro.
+if (requireNamespace("xtable", quietly = TRUE) && !is.null(ficha_general)) {
+  print(xtable::xtable(ficha_general,
+                        caption = "Ficha general de la base: total de viajes, per\\'iodo cubierto, cantidad de pa\\'ises y mandatarios, y participaci\\'on Bilateral/Multilateral/Otro.",
+                        label = "tab:ficha-general"),
+        include.rownames = FALSE, caption.placement = "top")
+} else {
+  cat("% Falta 00a_ficha_general.csv (correr graficos_exploratorios.R) o el paquete 'xtable'.\n")
+}
+@
+
+<<tab-totales-pais, echo=FALSE, results=tex>>=
+if (requireNamespace("xtable", quietly = TRUE)) {
+  print(xtable::xtable(viajes_totales_pais,
+                        caption = "Total de viajes registrados por pais (1994-2025)",
+                        label = "tab:totales-pais"),
+        include.rownames = FALSE, caption.placement = "top")
+} else {
+  cat("% Instalar el paquete 'xtable' para renderizar esta tabla automaticamente.\n")
+}
+@
+
+% Todas las figuras de esta seccion se referencian directamente desde
+% 08_ANALISIS_R/outputs/ (generadas por graficos_exploratorios.R) y NO se
+% regeneran aca. Si corriste una version mas nueva del script de R, alcanza
+% con recompilar este .Rnw para que las figuras se actualicen solas -no
+% hace falta tocar nada de esta seccion salvo que cambien los nombres de
+% archivo.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{../08_ANALISIS_R/outputs/00c_viajes_totales_por_mandatario.png}
+  \caption{Total de viajes registrados por mandatario, 1994-2025, limitado a mandatarios con m\'as de 50 viajes (la tabla completa, sin ese recorte, est\'a en \texttt{00c\_viajes\_totales\_por\_mandatario.csv}). Entre par\'entesis, el per\'iodo de mandato (dos rangos separados por punto y coma para mandatarios con mandatos no consecutivos). Solo se cuentan viajes realizados durante el mandato (ver Datos y metodolog\'ia).}
+  \label{fig:totales-mandatario}
+\end{figure}
+
+<<tab-resumen-estadisticos, echo=FALSE, results=tex>>=
+# De imagen a Cuadro. Se agrega la columna Unidad_n_obs para aclarar que las
+# dos primeras filas cuentan combinaciones pais-anio y la fila de duracion
+# cuenta viajes individuales -son unidades de observacion distintas, por eso
+# n_obs difiere tanto entre filas.
+if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)) {
+  print(xtable::xtable(resumen_estadisticos,
+                        caption = "Estad\\'isticos descriptivos (media, desv\\'io, m\\'inimo, m\\'aximo) de viajes por pa\\'is-a\\~no y de la duraci\\'on de los viajes.",
+                        label = "tab:resumen-estadisticos"),
+        include.rownames = FALSE, caption.placement = "top")
+} else {
+  cat("% Falta 00d_resumen_estadisticos_descriptivos.csv o el paquete 'xtable'.\n")
+}
+@
+
+% Nota: la base solo incluye viajes realizados DURANTE el mandato (tanto el
+% inicio como el fin del viaje deben caer dentro del periodo presidencial;
+% ver 08_ANALISIS_R/graficos_exploratorios.R, seccion 1.2c). Por esta regla
+% se excluyo el viaje de Jair Bolsonaro a Estados Unidos (30-dic-2022 a
+% 30-mar-2023): arranco 2 dias antes de terminar su mandato pero se extendio
+% casi 3 meses despues de dejar el cargo. El maximo actual de "Duracion del
+% viaje" (71 dias) corresponde a Hugo Chavez, Venezuela a Cuba (10-dic-2012
+% a 18-feb-2013) por tratamiento medico -siguio siendo presidente en
+% ejercicio durante todo ese periodo, por eso el viaje si queda incluido.
+
+\subsection{Evoluci\'on temporal}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/01_viajes_por_anio.png}
+  \caption{Cantidad de viajes presidenciales por a\~no, Sudam\'erica 1994-2025.}
+  \label{fig:viajes-por-anio}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/01b_viajes_por_anio_por_pais.png}
+  \caption{Cantidad de viajes por a\~no, desagregado por pa\'is. La l\'inea punteada marca el promedio anual de cada pa\'is.}
+  \label{fig:viajes-por-anio-pais}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{../08_ANALISIS_R/outputs/02_regiones_por_periodo.png}
+  \caption{Prioridad regional de los viajes presidenciales, por per\'iodo (bloques de 5 a\~nos). Etiquetas de dato para Am\'erica Latina y el Caribe, Europa y Norteam\'erica.}
+  \label{fig:regiones-periodo}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{../08_ANALISIS_R/outputs/02b_regiones_por_anio_area.png}
+  \caption{Prioridad regional de los viajes presidenciales, por a\~no.}
+  \label{fig:regiones-anio}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/03_duracion_por_anio.png}
+  \caption{Duraci\'on promedio de los viajes presidenciales, por a\~no.}
+  \label{fig:duracion-anio}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{../08_ANALISIS_R/outputs/03c_viajes_y_duracion_combinado.png}
+  \caption{Cantidad de viajes (barras) y duraci\'on promedio en d\'ias (l\'inea), por a\~no.}
+  \label{fig:viajes-duracion-combinado}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{../08_ANALISIS_R/outputs/04_categoria_visita_por_anio.png}
+  \caption{Participaci\'on de Bilateral / Multilateral / Otro, por a\~no. ``Otro'' = sin reuni\'on registrada con el anfitri\'on ni asistencia a un evento multilateral.}
+  \label{fig:categoria-anio}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/04b_categoria_visita_absoluto.png}
+  \caption{Cantidad absoluta de viajes por categor\'ia (Bilateral/Multilateral/Otro), por a\~no.}
+  \label{fig:categoria-absoluto}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/08_estacionalidad_mensual.png}
+  \caption{Estacionalidad: mes de inicio de los viajes, todos los mandatarios y a\~nos juntos.}
+  \label{fig:estacionalidad}
+\end{figure}
+
+\subsection{Comparaci\'on entre pa\'ises}
+
+% El destino favorito por presidente pasa del grafico facetado de 90+
+% paneles (dificil de leer) a un Cuadro largo (longtable, pagina a pagina)
+% con el pais, el mandatario y su periodo entre parentesis, el destino
+% favorito y la cantidad de viajes a ese destino.
+<<tab-destino-favorito, echo=FALSE, results=tex>>=
+if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_destino_favorito)) {
+  print(xtable::xtable(tabla_destino_favorito,
+                        caption = "Destino favorito de cada mandatario (pa\\'is m\\'as visitado durante su mandato), con el per\\'iodo de mandato entre par\\'entesis.",
+                        label = "tab:destino-favorito"),
+        include.rownames = FALSE, caption.placement = "top",
+        tabular.environment = "longtable", floating = FALSE)
+} else {
+  cat("% Falta 05c_destino_favorito_tabla.csv o el paquete 'xtable'.\n")
+}
+@
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/06_primeros_destinos_frecuencia.png}
+  \caption{Pa\'is elegido como primer viaje al exterior del mandato, cu\'antas veces se repite cada uno (ver \citep{ostranderPresidentsAbroadPolitics2018}, Tabla 1, para el equivalente en EE.\,UU.).}
+  \label{fig:primeros-destinos}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png}
+  \caption{Evoluci\'on 1994-2025 de la cantidad de viajes (todas las categor\'ias) a Estados Unidos, Brasil y Argentina -los 3 pa\'ises m\'as elegidos como primer destino (Figura~\ref{fig:primeros-destinos}).}
+  \label{fig:evolucion-top3-primeros-destinos}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/09a_ranking_destinos_bilaterales.png}
+  \caption{Los 20 destinos bilaterales m\'as visitados (viajes con reuni\'on registrada con el anfitri\'on).}
+  \label{fig:ranking-bilateral}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/09a2_evolucion_bilateral_bra_arg_cuba.png}
+  \caption{Evoluci\'on 1994-2025 de los viajes bilaterales a Brasil, Argentina y Cuba.}
+  \label{fig:evolucion-bilateral-bra-arg-cuba}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/09b_ranking_destinos_multilaterales.png}
+  \caption{Los 20 destinos multilaterales m\'as visitados (viajes con asistencia a un evento multilateral).}
+  \label{fig:ranking-multilateral}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/09b2_evolucion_multilateral_usa_bra_arg.png}
+  \caption{Evoluci\'on 1994-2025 de los viajes multilaterales a Estados Unidos, Brasil y Argentina.}
+  \label{fig:evolucion-multilateral-usa-bra-arg}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/09c_foros_distintos_por_periodo.png}
+  \caption{Cantidad de foros/cumbres multilaterales distintos, por per\'iodo (idea: \citep{penaComplejaRedCumbres2005}).}
+  \label{fig:foros-periodo}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{../08_ANALISIS_R/outputs/09d_composicion_bilateral_multilateral_por_pais.png}
+  \caption{Composici\'on Bilateral / Multilateral / Otro por pa\'is (an\'alisis composicional; m\'etodo: \citep{leeTravelAlliesAdversaries2024}).}
+  \label{fig:composicion-pais}
+\end{figure}
+
+% Nota: 05_top5_destinos_por_presidente.csv y 06_primera_visita_por_presidente.csv
+% son tablas completas (una fila por presidente) demasiado largas para el cuerpo
+% del paper; queda a criterio de la redaccion si van como tabla resumida, anexo,
+% o material suplementario. graficar_top_destinos("Nombre del mandatario") en
+% graficos_exploratorios.R genera el detalle de un presidente puntual si hace
+% falta un caso ilustrativo.
+
+\section{Discusi\'on}
+% TODO. Conectar los hallazgos con el marco teorico: interpretar quiebres
+% con \citep{merkeForeignPolicyChange2020} (ideologia presidencial explica
+% cambios de PE), la caida de multilateralismo regional con
+% \citep{nolteSummitsPlainsCrisis2021, barrosCrisisSouthAmerican2021}, casos especificos con
+% \citep{merkeRightWingPopulismStrategic2026, barrenengoaPoliticaExteriorGobierno2023, romualdosilvaAviaoComPouco2020,
+% gomessaraivaBrazilianForeignPolicy2010}, y el contexto reciente con
+% \citep{gonzalezDesconciertoLatinoamericanoFrente2026}.
+
+\section{Conclusi\'on}
+% TODO.
+
+\printbibliography
+
+\end{document}

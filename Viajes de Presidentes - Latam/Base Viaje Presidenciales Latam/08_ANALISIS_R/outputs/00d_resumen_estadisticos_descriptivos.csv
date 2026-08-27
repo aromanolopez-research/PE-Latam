@@ -1,5 +1,5 @@
-"variable","media","de","minimo","maximo","n_obs"
-"Viajes por pais-anio",12.8,7.4,1,39,377
-"Duracion del viaje (dias)",2.5,2.4,1,91,4830
-"Viajes bilaterales por pais-anio",5.6,4.6,1,27,339
-"Viajes multilaterales por pais-anio",5.7,2.9,1,18,365
+"variable","media","de","minimo","maximo","n_obs","Unidad_n_obs"
+"Viajes por pais-anio",13.2,7.6,1,40,377,"Combinaciones pais-anio"
+"Duracion del viaje (dias)",2.5,2,1,71,4965,"Viajes individuales"
+"Viajes bilaterales por pais-anio",5.7,4.7,1,27,339,"Combinaciones pais-anio"
+"Viajes multilaterales por pais-anio",5.9,3,1,18,365,"Combinaciones pais-anio"

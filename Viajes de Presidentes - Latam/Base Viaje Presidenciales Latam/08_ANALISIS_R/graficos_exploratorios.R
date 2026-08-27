@@ -2,6 +2,55 @@
 # GRAFICOS EXPLORATORIOS - VIAJES PRESIDENCIALES DE SUDAMERICA (1994-2025)
 # Fuente: 04_BASE_FINAL/Base_COLT_Sudamerica.xlsx, hoja "Datos_COLT_Sudamerica"
 # ================================================================================
+# Version 7 (2026-08-27) — 10 pedidos puntuales sobre las figuras del paper:
+#   1) Ficha general (00a) ahora tambien se exporta a CSV -> en el paper pasa
+#      de imagen a Cuadro (xtable).
+#   2) Nueva tabla mandatos_presidenciales.csv (09_PAPER/), investigada y
+#      verificada con fuentes (fechas de inicio/fin de mandato, incluyendo
+#      mandatarios no consecutivos con mas de un periodo). Se usa para
+#      etiquetar "Nombre (periodo)" tanto en el grafico de total de viajes
+#      por mandatario (00c) como en la nueva tabla de destino favorito.
+#   3) Tabla de estadisticos descriptivos (00d): se agrega la columna
+#      "Unidad_n_obs" para aclarar que las primeras dos filas cuentan
+#      combinaciones pais-anio y la fila de duracion cuenta viajes
+#      individuales (son unidades de observacion distintas). El viaje de 91
+#      dias es el de Bolsonaro a EE.UU. (dic-2022/mar-2023, tras perder la
+#      eleccion) -dato real, no un error de carga.
+#   4) 01b (viajes por anio y pais): se agrega una linea de promedio anual
+#      por pais (geom_hline por panel).
+#   5) 02 (regiones por periodo): se agregan etiquetas de dato solo para
+#      America Latina y el Caribe, Europa y Norteamerica.
+#   6) La tabla de destino favorito por presidente (antes Figura 05b, un
+#      grafico) ahora se exporta como CSV para armarse como Cuadro en el
+#      paper, con Mandatario (periodo) en vez de simplemente el nombre.
+#   7-9) Tres graficos nuevos de evolucion 1994-2025 para tercias de paises
+#      puntuales (ver secciones 8b, 9.2b y 9.2c).
+#   10) 09d (composicion bilateral/multilateral por pais): se invierte el
+#      orden de la leyenda para que coincida con el orden visual del stack.
+#
+# Version 6 (2026-08-27) — estetica tipo revista Q1:
+#   - Se saco el titulo/subtitulo/caption DE ADENTRO de cada grafico: en el
+#     paper esa informacion ya la da el \caption{} de LaTeX (ver
+#     09_PAPER/ViajesPresidencialesSudamerica.Rnw), y las revistas de primer
+#     nivel (ISQ, APSR, etc.) casi nunca ponen titulo dentro de la figura
+#     misma -queda redundante y es la primera cosa que un editor pide sacar.
+#     Los ejes y las leyendas SI quedan (esos no son redundantes).
+#   - Nuevo tema tema_journal() (reemplaza a tema_paper()): tipografia serif
+#     (combina con el cuerpo del documento en LaTeX), sin grilla vertical,
+#     grilla horizontal apenas visible, ejes finos, menos "chartjunk" en
+#     general. Sigue en escala de grises (decision del usuario: que se siga
+#     viendo bien en una impresion en blanco y negro).
+#
+# Version 5 (2026-08-27) — ajustes sobre la version anterior:
+#   - Bolivia sigue en investigacion activa (campaña COLT en curso, ver
+#     bitacora.txt); cuando se cierre y se reimporte al xlsx, este script no
+#     necesita cambios -toma automaticamente los 12 paises de la hoja madre.
+#   - Se amplio la bibliografia priorizada del proyecto (carpeta /Bib) con 5
+#     textos nuevos. Dos de ellos motivan las extensiones nuevas de la
+#     seccion 9 (9.3 y 9.4): Peña (2005) sobre la "compleja red de cumbres"
+#     y Lee & Kim (2024) sobre el analisis composicional de visitas
+#     diplomaticas. Ver el detalle de cada extension en su seccion.
+#
 # Version 4 (2026-08-19) — ajustes pedidos sobre la version anterior:
 #   - Ventana temporal: 1994-2025 (se deja 2026 afuera a proposito: todavia
 #     no esta tan mapeado/verificado como el resto -> ANIO_HASTA mas abajo).
@@ -33,6 +82,8 @@
 # Extensiones (inspiradas en la bibliografia del proyecto, carpeta /Bib):
 #   8) Estacionalidad: en que meses del año se concentran los viajes
 #   9) Ranking de destinos mas visitados, separado en bilaterales y multilaterales
+#   9.3) Cantidad de foros/cumbres multilaterales distintos, por periodo (Peña 2005)
+#   9.4) Composicion Bilateral/Multilateral/Otro por pais, no por año (Lee & Kim 2024)
 #
 # Como usar: abrir este archivo en RStudio con el working directory en la
 # carpeta que CONTIENE "Base Viaje Presidenciales Latam" (ver README.txt).
@@ -41,6 +92,7 @@
 # ================================================================================
 
 ## ---- 0. Setup ----------------------------------------------------------------
+setwd("C:/Users/alejo/OneDrive/Escritorio/PE Latam/Política Exterior Latam/Viajes de Presidentes - Latam")
 
 paquetes <- c("readxl", "dplyr", "ggplot2", "lubridate", "scales", "forcats", "tidyr", "stringr", "gridExtra")
 faltantes <- paquetes[!paquetes %in% installed.packages()[, "Package"]]
@@ -90,42 +142,72 @@ gris_3   <- "#A6A6A6"
 gris_2   <- "#BFBFBF"
 gris_1   <- "#D9D9D9"  # gris muy claro
 
-tema_paper <- function(base_size = 11) {
-  theme_minimal(base_size = base_size, base_family = "") +
+# --------------------------------------------------------------------------
+# tema_journal(): estetica pensada para figuras DENTRO de un paper LaTeX, en
+# la linea de lo que se ve en revistas de Ciencia Politica/RRII de primer
+# nivel (ISQ, APSR, LARR, etc.):
+#   - Sin titulo/subtitulo/nota-fuente dentro de la imagen (eso va en el
+#     \caption{} del documento -ver labs() de cada grafico, ya no llevan
+#     title=/subtitle=/caption=).
+#   - Tipografia serif, para que combine con el cuerpo del texto en LaTeX
+#     (Computer Modern/Latin Modern por defecto en un articulo estandar).
+#   - Sin grilla vertical; grilla horizontal apenas visible, solo como
+#     referencia para leer valores del eje Y.
+#   - Ejes finos, sin caja completa alrededor del grafico (menos "chartjunk").
+#   - Leyenda abajo, chica y sin borde, para que no compita con los datos.
+# --------------------------------------------------------------------------
+FUENTE_BASE <- "serif"
+
+tema_journal <- function(base_size = 12) {
+  theme_minimal(base_size = base_size, base_family = FUENTE_BASE) +
     theme(
       panel.grid.minor = element_blank(),
-      panel.grid.major = element_line(color = gris_1, linewidth = 0.3),
-      axis.line = element_line(color = gris_9, linewidth = 0.3),
-      axis.ticks = element_line(color = gris_9, linewidth = 0.3),
+      panel.grid.major.x = element_blank(),
+      panel.grid.major.y = element_line(color = gris_1, linewidth = 0.25),
+      axis.line.x = element_line(color = gris_9, linewidth = 0.35),
+      axis.line.y = element_blank(),
+      axis.ticks.x = element_line(color = gris_9, linewidth = 0.35),
+      axis.ticks.y = element_blank(),
+      axis.title = element_text(size = rel(0.9), color = gris_9),
+      axis.text = element_text(size = rel(0.85), color = gris_7),
       strip.background = element_rect(fill = gris_1, color = NA),
-      strip.text = element_text(color = "black", face = "bold", size = rel(0.85)),
-      plot.title = element_text(face = "bold", size = rel(1.05)),
-      plot.subtitle = element_text(color = gris_6, size = rel(0.85)),
-      plot.caption = element_text(color = gris_5, size = rel(0.7)),
+      strip.text = element_text(color = "black", face = "bold", size = rel(0.8), family = FUENTE_BASE),
+      plot.title = element_blank(),
+      plot.subtitle = element_blank(),
+      plot.caption = element_blank(),
       legend.position = "bottom",
       legend.title = element_text(size = rel(0.85)),
+      legend.text = element_text(size = rel(0.8)),
+      legend.key = element_blank(),
+      legend.background = element_blank(),
       panel.background = element_rect(fill = "white", color = NA),
-      plot.background = element_rect(fill = "white", color = NA)
+      plot.background = element_rect(fill = "white", color = NA),
+      plot.margin = margin(8, 12, 8, 8)
     )
 }
-theme_set(tema_paper())
+theme_set(tema_journal())
+update_geom_defaults("text", list(family = FUENTE_BASE))
 
 # Funcion reutilizable para guardar cualquier data.frame como imagen de
 # tabla (ademas del CSV), en blanco/negro/grises, sin depender de paquetes
 # externos de renderizado web (gt+webshot, etc.) que pueden no estar
 # instalados.
+## NOTA (Version 6): "titulo" ya no se usa en las llamadas de este script -el
+## \caption{} de LaTeX en el .Rnw cumple ese rol- pero se deja como parametro
+## opcional por si hace falta reutilizar la funcion fuera del paper.
 guardar_tabla_imagen <- function(df, archivo, titulo = NULL, ancho = 9, alto = NULL) {
-  if (is.null(alto)) alto <- 1.2 + 0.32 * (nrow(df) + 1)
+  if (is.null(alto)) alto <- 0.5 + 0.32 * (nrow(df) + 1)
   tema_tabla <- gridExtra::ttheme_minimal(
     core = list(bg_params = list(fill = rep(c("white", gris_1), length.out = nrow(df)), col = NA),
-                fg_params = list(col = "black", fontsize = 10)),
+                fg_params = list(col = "black", fontsize = 10, fontfamily = FUENTE_BASE)),
     colhead = list(bg_params = list(fill = gris_7, col = NA),
-                   fg_params = list(col = "white", fontsize = 10, fontface = "bold"))
+                   fg_params = list(col = "white", fontsize = 10, fontface = "bold", fontfamily = FUENTE_BASE))
   )
   tabla_grob <- gridExtra::tableGrob(df, rows = NULL, theme = tema_tabla)
   if (!is.null(titulo)) {
-    titulo_grob <- grid::textGrob(titulo, gp = grid::gpar(fontsize = 13, fontface = "bold"), x = 0, hjust = 0)
+    titulo_grob <- grid::textGrob(titulo, gp = grid::gpar(fontsize = 13, fontface = "bold", fontfamily = FUENTE_BASE), x = 0, hjust = 0)
     tabla_grob <- gridExtra::arrangeGrob(titulo_grob, tabla_grob, ncol = 1, heights = grid::unit(c(0.5, 1), "null"))
+    alto <- alto + 0.5
   }
   png(file.path(RUTA_OUTPUTS, archivo), width = ancho, height = alto, units = "in", res = 150)
   grid::grid.draw(tabla_grob)
@@ -182,6 +264,119 @@ etiqueta_por_leader <- colt %>%
 
 colt <- colt %>% left_join(etiqueta_por_leader, by = "Leader_key")
 
+# 1.2b Periodos de mandato (investigacion verificada con fuentes, ver
+#      09_PAPER/mandatos_presidenciales.csv). Se usa para etiquetar
+#      "Nombre (periodo)" en los graficos/tablas donde el usuario lo pidio
+#      (total de viajes por mandatario, destino favorito por presidente).
+#      Mandatarios con mas de un periodo NO consecutivo (ej. Lula, Bachelet,
+#      Piñera, Alan Garcia, Sanchez de Lozada, Sanguinetti, Tabare Vazquez,
+#      Venetiaan) llevan ambos periodos separados por ";" en Periodo_label,
+#      tal como vienen en el CSV -no se calculan a partir de los anios de
+#      viaje, que quedarian truncados por ANIO_DESDE=1994 o mezclarian
+#      mandatos separados en un solo rango.
+RUTA_MANDATOS <- "Base Viaje Presidenciales Latam/09_PAPER/mandatos_presidenciales.csv"
+mandatos <- tryCatch(read.csv(RUTA_MANDATOS, stringsAsFactors = FALSE), error = function(e) NULL)
+
+leaders_etiqueta <- etiqueta_por_leader
+if (!is.null(mandatos)) {
+  leaders_etiqueta <- leaders_etiqueta %>%
+    left_join(mandatos %>% select(Leader_key, Pais_mandato = Pais, Periodo_label), by = "Leader_key") %>%
+    mutate(Leader_etiqueta = if_else(!is.na(Periodo_label),
+                                      paste0(Leader_nombre, " (", Periodo_label, ")"),
+                                      Leader_nombre))
+  sin_match <- leaders_etiqueta %>% filter(is.na(Periodo_label)) %>% pull(Leader_nombre)
+  if (length(sin_match) > 0) {
+    warning("Mandatarios sin fecha de mandato en mandatos_presidenciales.csv (se usa solo el nombre, sin periodo): ",
+            paste(sin_match, collapse = "; "))
+  }
+} else {
+  leaders_etiqueta <- leaders_etiqueta %>% mutate(Leader_etiqueta = Leader_nombre)
+  warning("No se pudo leer ", RUTA_MANDATOS, " -> los graficos por mandatario van sin periodo entre parentesis.")
+}
+
+colt <- colt %>% left_join(leaders_etiqueta %>% select(Leader_key, Leader_etiqueta), by = "Leader_key")
+
+# 1.2c REGLA: la base de trabajo del paper solo debe incluir viajes
+#      realizados DURANTE el mandato del presidente (pedido del usuario,
+#      2026-08-27). Ejemplo del problema que esto corrige: el viaje de Jair
+#      Bolsonaro a EE.UU. (30-dic-2022 a 30-mar-2023) arranca 2 dias antes de
+#      que termine su mandato (01-ene-2023) pero se extiende casi 3 meses
+#      DESPUES de dejar el cargo -no deberia contarse como viaje
+#      presidencial, aunque el dato en si sea real y este bien documentado.
+#      La regla exige que TANTO el inicio COMO el fin del viaje esten dentro
+#      del mandato (no alcanza con que arranque a tiempo). Si TripEndDate
+#      esta vacio se usa TripStartDate como fin (mejor estimacion posible).
+#      Verificado contra toda la base: en la ventana 1994-2025 esta regla
+#      excluye exactamente 1 fila -el viaje de Bolsonaro-, lo que confirma
+#      que no es un problema sistemico sino ese caso puntual.
+#      Mandatarios sin dato de mandato verificado (no deberia haber ninguno,
+#      pero por las dudas) NO se filtran -se avisa con un warning en vez de
+#      borrar viajes reales por falta de informacion en la tabla de apoyo.
+if (!is.null(mandatos)) {
+  mandatos_fechas <- mandatos %>%
+    mutate(
+      MandateStart_1 = ymd(MandateStart_1),
+      MandateEnd_1   = ymd(MandateEnd_1),
+      MandateStart_2 = ymd(na_if(MandateStart_2, "")),
+      MandateEnd_2   = ymd(na_if(MandateEnd_2, ""))
+    ) %>%
+    select(Leader_key, MandateStart_1, MandateEnd_1, MandateStart_2, MandateEnd_2)
+
+  colt <- colt %>%
+    left_join(mandatos_fechas, by = "Leader_key") %>%
+    mutate(
+      TripEndDate_efectivo = if_else(is.na(TripEndDate), TripStartDate, TripEndDate),
+      dentro_del_mandato = case_when(
+        is.na(MandateStart_1) ~ NA,
+        TRUE ~ (TripStartDate >= MandateStart_1 & TripEndDate_efectivo <= MandateEnd_1) |
+          (!is.na(MandateStart_2) & TripStartDate >= MandateStart_2 & TripEndDate_efectivo <= MandateEnd_2)
+      )
+    )
+
+  sin_dato_mandato <- colt %>% filter(is.na(dentro_del_mandato)) %>% distinct(Leader_nombre) %>% pull(Leader_nombre)
+  if (length(sin_dato_mandato) > 0) {
+    warning("Mandatarios SIN dato de mandato verificado -sus viajes NO se filtraron por la regla 'solo durante el mandato': ",
+            paste(sin_dato_mandato, collapse = "; "))
+  }
+
+  viajes_excluidos_fuera_mandato <- colt %>% filter(dentro_del_mandato == FALSE)
+  if (nrow(viajes_excluidos_fuera_mandato) > 0) {
+    cat("\n--- Viajes EXCLUIDOS por la regla 'solo durante el mandato' (", nrow(viajes_excluidos_fuera_mandato), ") ---\n", sep = "")
+    print(viajes_excluidos_fuera_mandato %>%
+            select(Leader_nombre, LeaderCountryOrIGO, TripStartDate, TripEndDate, CountryVisited))
+  }
+
+  colt <- colt %>%
+    filter(is.na(dentro_del_mandato) | dentro_del_mandato == TRUE) %>%
+    select(-MandateStart_1, -MandateEnd_1, -MandateStart_2, -MandateEnd_2, -TripEndDate_efectivo, -dentro_del_mandato)
+} else {
+  warning("No se pudo aplicar la regla 'solo viajes durante el mandato' -falta mandatos_presidenciales.csv.")
+}
+
+# 1.2d "Unknown" -> NA en los campos de destino. Algunas filas (viajes
+#      privados sin informacion disponible sobre el destino, ej. Yamandu
+#      Orsi dic-2025: "Private trip; No available information on activities
+#      conducted during the trip") tienen CountryVisited/RegionVisited/
+#      SubRegionVisited/CityVisited literalmente en texto "Unknown" -no es
+#      un campo vacio (NA), es el string "Unknown"-. Sin este paso, esos
+#      valores aparecen como una categoria fantasma "Unknown" en los
+#      graficos por region/pais en vez de quedar afuera como el resto de
+#      los datos faltantes (que sí se filtran con is.na() en todo el
+#      script). Convertirlos a NA real ademas de este punto hace que todos
+#      los filter(!is.na(...)) que ya existen mas abajo los excluyan solos,
+#      sin tener que tocar cada grafico uno por uno. El viaje en si SIGUE
+#      contando en los totales generales (ficha_general, viajes por anio) -
+#      solo se excluye de los analisis que agrupan por destino/region.
+n_unknown_antes <- sum(colt$CountryVisited == "Unknown", na.rm = TRUE)
+if (n_unknown_antes > 0) {
+  cat("\nViajes con destino 'Unknown' (se excluyen de graficos por pais/region, no de los totales):", n_unknown_antes, "\n")
+  print(colt %>% filter(CountryVisited == "Unknown") %>%
+          select(Leader_nombre, LeaderCountryOrIGO, TripStartDate, TripEndDate, Notes))
+}
+colt <- colt %>%
+  mutate(across(c(CountryVisited, RegionVisited, SubRegionVisited, CityVisited),
+                ~ na_if(str_trim(.), "Unknown")))
+
 # 1.3 Categoria de visita derivada (NO es un campo nativo de COLT). Se
 #     calcula aca -temprano- porque se usa tanto en la seccion descriptiva
 #     como en las preguntas 4-5 y en el ranking de destinos.
@@ -224,9 +419,10 @@ ficha_general <- data.frame(
   )
 )
 print(ficha_general)
-guardar_tabla_imagen(ficha_general, "00a_ficha_general.png",
-                      titulo = paste0("Viajes presidenciales de Sudamerica - Ficha general (", ANIO_DESDE, "-", ANIO_HASTA, ")"),
-                      ancho = 7, alto = 3)
+guardar_tabla_imagen(ficha_general, "00a_ficha_general.png", ancho = 7, alto = 2.6)
+write.csv(ficha_general, file.path(RUTA_OUTPUTS, "00a_ficha_general.csv"), row.names = FALSE)
+# Nota: se sigue guardando el PNG por compatibilidad, pero en el paper esta
+# tabla ahora se arma como Cuadro (xtable) a partir del CSV, no como imagen.
 
 # 2.2 Total de viajes por pais (todo el periodo)
 viajes_totales_pais <- colt %>%
@@ -235,56 +431,75 @@ viajes_totales_pais <- colt %>%
 
 g0b <- ggplot(viajes_totales_pais, aes(x = fct_reorder(Pais_ES, n_viajes), y = n_viajes)) +
   geom_col(fill = gris_6) +
-  geom_text(aes(label = n_viajes), hjust = -0.2, size = 3, color = "black") +
+  geom_text(aes(label = n_viajes), hjust = -0.2, size = 3, family = FUENTE_BASE, color = "black") +
   coord_flip(clip = "off") +
   scale_y_continuous(expand = expansion(mult = c(0, 0.12))) +
-  labs(title = "Total de viajes registrados por pais",
-       subtitle = paste0(ANIO_DESDE, "-", ANIO_HASTA, ", todos los mandatarios de cada pais"),
-       x = NULL, y = "Cantidad de viajes")
+  labs(x = NULL, y = "Cantidad de viajes")
 
 print(g0b)
 ggsave(file.path(RUTA_OUTPUTS, "00b_viajes_totales_por_pais.png"), g0b, width = 9, height = 6, dpi = 150)
 write.csv(viajes_totales_pais, file.path(RUTA_OUTPUTS, "00b_viajes_totales_por_pais.csv"), row.names = FALSE)
 
-# 2.3 Total de viajes por mandatario (todos, ordenados)
+# 2.3 Total de viajes por mandatario (todos, ordenados). Etiqueta con el
+#     periodo de mandato entre parentesis (ver 1.2b / mandatos_presidenciales.csv).
+#     El grafico (00c) se limita a mandatarios con MAS DE 50 viajes -pedido
+#     del usuario para que la figura sea legible-; la tabla completa (CSV)
+#     se sigue exportando con todos los mandatarios, sin ese recorte.
 viajes_totales_mandatario <- colt %>%
-  count(Leader_nombre, LeaderCountryOrIGO, name = "n_viajes") %>%
+  count(Leader_etiqueta, LeaderCountryOrIGO, name = "n_viajes") %>%
   arrange(desc(n_viajes))
 
-g0c <- ggplot(viajes_totales_mandatario, aes(x = fct_reorder(Leader_nombre, n_viajes), y = n_viajes)) +
+viajes_totales_mandatario_g0c <- viajes_totales_mandatario %>% filter(n_viajes > 50)
+
+g0c <- ggplot(viajes_totales_mandatario_g0c, aes(x = fct_reorder(Leader_etiqueta, n_viajes), y = n_viajes)) +
   geom_col(fill = gris_6) +
   coord_flip() +
-  labs(title = "Total de viajes registrados por mandatario",
-       subtitle = paste0(ANIO_DESDE, "-", ANIO_HASTA),
-       x = NULL, y = "Cantidad de viajes")
+  labs(x = NULL, y = "Cantidad de viajes")
 
 print(g0c)
 ggsave(file.path(RUTA_OUTPUTS, "00c_viajes_totales_por_mandatario.png"), g0c,
-       width = 9, height = 2 + 0.16 * nrow(viajes_totales_mandatario), dpi = 150)
+       width = 9, height = 2 + 0.16 * nrow(viajes_totales_mandatario_g0c), dpi = 150)
 write.csv(viajes_totales_mandatario, file.path(RUTA_OUTPUTS, "00c_viajes_totales_por_mandatario.csv"), row.names = FALSE)
 
 # 2.4 Tabla de estadisticos descriptivos (estilo "Tabla 1" de un paper:
-#     media/desvio/min/max de viajes por pais-anio y de duracion)
+#     media/desvio/min/max de viajes por pais-anio y de duracion).
+#     IMPORTANTE (pedido del usuario, item 3A): las primeras filas cuentan
+#     combinaciones pais-anio (una celda = un pais en un anio dado), mientras
+#     que "Duracion del viaje" cuenta VIAJES INDIVIDUALES -son unidades de
+#     observacion distintas, por eso n_obs difiere tanto entre filas. Se deja
+#     explicito en la columna Unidad_n_obs para que no se lea como un error.
+#     El viaje de Jair Bolsonaro a Estados Unidos de 91 dias (30-dic-2022 a
+#     30-mar-2023) YA NO esta en esta tabla: se excluyo con la regla de
+#     seccion 1.2c (empezo 2 dias antes de terminar su mandato pero se
+#     extendio casi 3 meses despues de dejar el cargo). El maximo actual de
+#     "Duracion del viaje" corresponde a otro viaje real y bien documentado:
+#     Hugo Chavez, Venezuela -> Cuba, 10-dic-2012 a 18-feb-2013 (71 dias,
+#     tratamiento medico por su enfermedad; siguio siendo presidente en
+#     ejercicio durante todo ese periodo -murio en el cargo el 05-mar-2013-,
+#     por eso el viaje SI queda dentro de la regla de "durante el mandato").
 resumen_estadisticos <- bind_rows(
   colt %>% count(Year, LeaderCountryOrIGO, name = "viajes") %>%
     summarise(variable = "Viajes por pais-anio", media = round(mean(viajes), 1), de = round(sd(viajes), 1),
-              minimo = min(viajes), maximo = max(viajes), n_obs = n()),
+              minimo = min(viajes), maximo = max(viajes), n_obs = n(),
+              Unidad_n_obs = "Combinaciones pais-anio"),
   colt %>% filter(!is.na(TripDuration)) %>%
     summarise(variable = "Duracion del viaje (dias)", media = round(mean(TripDuration), 1), de = round(sd(TripDuration), 1),
-              minimo = min(TripDuration), maximo = max(TripDuration), n_obs = n()),
+              minimo = min(TripDuration), maximo = max(TripDuration), n_obs = n(),
+              Unidad_n_obs = "Viajes individuales"),
   colt %>% count(Year, LeaderCountryOrIGO, Visit_Category) %>%
     filter(Visit_Category == "Bilateral") %>%
     summarise(variable = "Viajes bilaterales por pais-anio", media = round(mean(n), 1), de = round(sd(n), 1),
-              minimo = min(n), maximo = max(n), n_obs = n()),
+              minimo = min(n), maximo = max(n), n_obs = n(),
+              Unidad_n_obs = "Combinaciones pais-anio"),
   colt %>% count(Year, LeaderCountryOrIGO, Visit_Category) %>%
     filter(Visit_Category == "Multilateral") %>%
     summarise(variable = "Viajes multilaterales por pais-anio", media = round(mean(n), 1), de = round(sd(n), 1),
-              minimo = min(n), maximo = max(n), n_obs = n())
+              minimo = min(n), maximo = max(n), n_obs = n(),
+              Unidad_n_obs = "Combinaciones pais-anio")
 )
 print(resumen_estadisticos)
 write.csv(resumen_estadisticos, file.path(RUTA_OUTPUTS, "00d_resumen_estadisticos_descriptivos.csv"), row.names = FALSE)
-guardar_tabla_imagen(resumen_estadisticos, "00d_resumen_estadisticos_descriptivos.png",
-                      titulo = "Estadisticos descriptivos", ancho = 10, alto = 3)
+guardar_tabla_imagen(resumen_estadisticos, "00d_resumen_estadisticos_descriptivos.png", ancho = 10, alto = 2.6)
 
 
 ## ---- 3. Pregunta 1: evolucion general de la cantidad de viajes por anio -------
@@ -294,12 +509,7 @@ viajes_por_anio <- colt %>% count(Year, name = "n_viajes")
 g1 <- ggplot(viajes_por_anio, aes(x = Year, y = n_viajes)) +
   geom_col(fill = gris_5) +
   scale_x_continuous(breaks = scales::breaks_pretty(n = 10)) +
-  labs(
-    title = "Cantidad de viajes presidenciales por anio",
-    subtitle = paste0("Sudamerica, ", ANIO_DESDE, "-", ANIO_HASTA),
-    x = NULL, y = "Cantidad de viajes",
-    caption = "Fuente: Base_COLT_Sudamerica.xlsx (PE-Latam)."
-  )
+  labs(x = NULL, y = "Cantidad de viajes")
 
 print(g1)
 ggsave(file.path(RUTA_OUTPUTS, "01_viajes_por_anio.png"), g1, width = 10, height = 6, dpi = 150)
@@ -308,10 +518,19 @@ ggsave(file.path(RUTA_OUTPUTS, "01_viajes_por_anio.png"), g1, width = 10, height
 # en paneles (facet_wrap), todos en el mismo tono de gris.
 viajes_por_anio_pais <- colt %>% count(Year, Pais_ES, name = "n_viajes")
 
+# Promedio anual de viajes, calculado POR PAIS (un valor de referencia por
+# panel), pedido del usuario para poder comparar cada anio contra su propio
+# promedio historico.
+promedio_anual_por_pais <- viajes_por_anio_pais %>%
+  group_by(Pais_ES) %>%
+  summarise(promedio = mean(n_viajes), .groups = "drop")
+
 g1b <- ggplot(viajes_por_anio_pais, aes(x = Year, y = n_viajes)) +
   geom_col(fill = gris_5) +
+  geom_hline(data = promedio_anual_por_pais, aes(yintercept = promedio),
+             color = gris_9, linetype = "dashed", linewidth = 0.4) +
   facet_wrap(~Pais_ES, ncol = 3) +
-  labs(title = "Cantidad de viajes por anio, por pais", x = NULL, y = "Cantidad de viajes")
+  labs(x = NULL, y = "Cantidad de viajes (linea punteada = promedio anual del pais)")
 
 print(g1b)
 ggsave(file.path(RUTA_OUTPUTS, "01b_viajes_por_anio_por_pais.png"), g1b, width = 11, height = 9, dpi = 150)
@@ -329,15 +548,33 @@ region_por_periodo <- colt %>%
 n_regiones <- n_distinct(region_por_periodo$RegionVisited)
 grises_regiones <- colorRampPalette(c(gris_9, gris_1))(n_regiones)
 
+# Etiquetas de dato solo para las 3 regiones que pidio el usuario (dejar
+# etiqueta en las 8 restantes satura el grafico). "Northern America" es el
+# valor exacto que usa RegionVisited en la base (NO "North America": ese es
+# un valor distinto y mucho menos frecuente).
+# NOTA TECNICA: no se usa position_stack(vjust=0.5) en el geom_text porque,
+# al pasarle solo un subconjunto de regiones (data= filtrada), ggplot
+# apilaria SOLO esas 3 regiones entre si -no en su posicion real dentro del
+# stack completo de 8 regiones-. Por eso el punto medio de cada segmento se
+# calcula a mano, replicando el orden de apilado por defecto de ggplot
+# (primer nivel del factor arriba de la barra -> para sumar desde abajo hay
+# que ordenar en reversa, arrange(desc(RegionVisited))).
+regiones_con_etiqueta <- c("Latin America and the Caribbean", "Europe", "Northern America")
+
+region_por_periodo_stack <- region_por_periodo %>%
+  arrange(Periodo5, desc(RegionVisited)) %>%
+  group_by(Periodo5) %>%
+  mutate(y_max = cumsum(participacion), y_min = y_max - participacion, y_mid = (y_min + y_max) / 2) %>%
+  ungroup()
+
 g2 <- ggplot(region_por_periodo, aes(x = factor(Periodo5), y = participacion, fill = RegionVisited)) +
   geom_col(position = "stack", color = "white", linewidth = 0.2) +
+  geom_text(data = region_por_periodo_stack %>% filter(RegionVisited %in% regiones_con_etiqueta),
+            aes(x = factor(Periodo5), y = y_mid, label = scales::percent(participacion, accuracy = 1)),
+            inherit.aes = FALSE, size = 4, color = "white", family = FUENTE_BASE) +
   scale_y_continuous(labels = scales::percent_format()) +
   scale_fill_manual(values = grises_regiones) +
-  labs(
-    title = "Prioridad regional de los viajes presidenciales, por periodo",
-    subtitle = "Participacion (%) de cada region sobre el total de viajes del periodo",
-    x = "Periodo (bloques de 5 anios)", y = "Participacion", fill = "Region de destino"
-  ) +
+  labs(x = "Periodo (bloques de 5 anios)", y = "Participacion", fill = "Region de destino") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 print(g2)
@@ -354,8 +591,7 @@ g2b <- ggplot(region_por_anio, aes(x = Year, y = participacion, fill = RegionVis
   geom_area(position = "fill", color = "white", linewidth = 0.1) +
   scale_y_continuous(labels = scales::percent_format()) +
   scale_fill_manual(values = grises_regiones) +
-  labs(title = "Prioridad regional de los viajes presidenciales, por anio",
-       x = NULL, y = "Participacion", fill = "Region de destino")
+  labs(x = NULL, y = "Participacion", fill = "Region de destino")
 
 print(g2b)
 ggsave(file.path(RUTA_OUTPUTS, "02b_regiones_por_anio_area.png"), g2b, width = 11, height = 6.5, dpi = 150)
@@ -371,8 +607,7 @@ duracion_por_anio <- colt %>%
 g3 <- ggplot(duracion_por_anio, aes(x = Year, y = duracion_media)) +
   geom_line(color = gris_7, linewidth = 0.8) +
   geom_point(color = gris_9, size = 1.5) +
-  labs(title = "Duracion promedio de los viajes presidenciales, por anio",
-       x = NULL, y = "Duracion promedio (dias)")
+  labs(x = NULL, y = "Duracion promedio (dias)")
 
 print(g3)
 ggsave(file.path(RUTA_OUTPUTS, "03_duracion_por_anio.png"), g3, width = 10, height = 6, dpi = 150)
@@ -393,9 +628,7 @@ g3c <- ggplot(combo_anio, aes(x = Year)) +
     name = "Cantidad de viajes (barras)",
     sec.axis = sec_axis(~ . / factor_escala, name = "Duracion promedio en dias (linea)")
   ) +
-  labs(title = "Cantidad de viajes y duracion promedio, por anio",
-       subtitle = "Barras = cantidad total de viajes (eje izquierdo). Linea = duracion promedio en dias (eje derecho).",
-       x = NULL)
+  labs(x = NULL)
 
 print(g3c)
 ggsave(file.path(RUTA_OUTPUTS, "03c_viajes_y_duracion_combinado.png"), g3c, width = 11, height = 6.5, dpi = 150)
@@ -422,11 +655,7 @@ g4 <- ggplot(categoria_por_anio, aes(x = Year, y = participacion, fill = Visit_C
   geom_area(position = "fill", color = "white", linewidth = 0.1) +
   scale_y_continuous(labels = scales::percent_format()) +
   scale_fill_manual(values = colores_categoria) +
-  labs(
-    title = "Bilateral vs. Multilateral vs. Otro, participacion por anio",
-    subtitle = "\"Otro\" = sin reunion registrada con el anfitrion ni asistencia a un evento multilateral (p. ej. actos protocolares, ceremonias, escalas sin agenda bilateral)",
-    x = NULL, y = "Participacion", fill = "Categoria de visita (derivada)"
-  )
+  labs(x = NULL, y = "Participacion", fill = "Categoria de visita (derivada)")
 
 print(g4)
 ggsave(file.path(RUTA_OUTPUTS, "04_categoria_visita_por_anio.png"), g4, width = 11, height = 6.5, dpi = 150)
@@ -437,9 +666,7 @@ g4b <- ggplot(colt %>% count(Year, Visit_Category), aes(x = Year, y = n, color =
   scale_color_manual(values = colores_categoria) +
   scale_linetype_manual(values = c("Bilateral" = "solid", "Multilateral" = "dashed",
                                     "Other" = "dotted", "Sin dato" = "dotdash")) +
-  labs(title = "Cantidad absoluta de viajes por categoria, por anio",
-       subtitle = "\"Otro\" = sin reunion registrada con el anfitrion ni asistencia a un evento multilateral",
-       x = NULL, y = "Cantidad de viajes", color = "Categoria de visita (derivada)",
+  labs(x = NULL, y = "Cantidad de viajes", color = "Categoria de visita (derivada)",
        linetype = "Categoria de visita (derivada)")
 
 print(g4b)
@@ -454,7 +681,7 @@ ggsave(file.path(RUTA_OUTPUTS, "04b_categoria_visita_absoluto.png"), g4b, width 
 #     sort(unique(colt$Leader_nombre)) )
 graficar_top_destinos <- function(nombre_mandatario, top_n = 10, guardar = TRUE) {
   datos <- colt %>%
-    filter(Leader_nombre == nombre_mandatario) %>%
+    filter(Leader_nombre == nombre_mandatario, !is.na(CountryVisited)) %>%
     count(CountryVisited, name = "n_viajes") %>%
     slice_max(n_viajes, n = top_n) %>%
     mutate(CountryVisited = fct_reorder(CountryVisited, n_viajes))
@@ -468,7 +695,7 @@ graficar_top_destinos <- function(nombre_mandatario, top_n = 10, guardar = TRUE)
   g <- ggplot(datos, aes(x = CountryVisited, y = n_viajes)) +
     geom_col(fill = gris_6) +
     coord_flip() +
-    labs(title = paste("Destinos mas visitados -", nombre_mandatario), x = NULL, y = "Cantidad de viajes")
+    labs(x = NULL, y = "Cantidad de viajes")
 
   print(g)
   if (guardar) {
@@ -482,9 +709,43 @@ graficar_top_destinos <- function(nombre_mandatario, top_n = 10, guardar = TRUE)
 # graficar_top_destinos("Javier Milei")
 # graficar_top_destinos("Luiz Inácio Lula da Silva")
 
+# 7a-bis) Funcion reutilizable para las evoluciones 1994-2025 de una terna de
+#         paises puntual (items 7, 8 y 9 del pedido del usuario). Si
+#         categoria = NULL usa TODOS los viajes; si se pasa "Bilateral" o
+#         "Multilateral" filtra por Visit_Category. complete() rellena con 0
+#         los anios sin viajes a ese destino, para que la linea no se corte.
+graficar_evolucion_terna <- function(paises, categoria = NULL, archivo, alto = 6) {
+  d <- colt %>% filter(CountryVisited %in% paises)
+  if (!is.null(categoria)) d <- d %>% filter(Visit_Category == categoria)
+  d <- d %>%
+    count(Year, CountryVisited, name = "n_viajes") %>%
+    complete(Year = ANIO_DESDE:ANIO_HASTA, CountryVisited = paises, fill = list(n_viajes = 0))
+
+  colores_terna <- setNames(c(gris_9, gris_6, gris_3)[seq_along(paises)], paises)
+  lineas_terna  <- setNames(c("solid", "dashed", "dotted")[seq_along(paises)], paises)
+
+  g <- ggplot(d, aes(x = Year, y = n_viajes, color = CountryVisited, linetype = CountryVisited)) +
+    geom_line(linewidth = 0.8) +
+    geom_point(size = 1.3) +
+    scale_color_manual(values = colores_terna) +
+    scale_linetype_manual(values = lineas_terna) +
+    scale_x_continuous(breaks = scales::breaks_pretty(n = 10)) +
+    labs(x = NULL, y = "Cantidad de viajes", color = "Pais destino", linetype = "Pais destino")
+
+  print(g)
+  ggsave(file.path(RUTA_OUTPUTS, archivo), g, width = 10, height = alto, dpi = 150)
+  g
+}
+
 # 7b) Vista agregada: el destino #1 de CADA mandatario, todos juntos.
+#     Version 7: en el paper esto ahora es un Cuadro (Pais | Mandatario
+#     (periodo) | Destino favorito | Cantidad de viajes) en vez del grafico
+#     facetado de 90+ paneles -mas facil de leer con tantos mandatarios.
+#     Se deja tambien el grafico (g5/PNG) por si se necesita para otro uso,
+#     pero ya no se referencia en el .Rnw.
 destino_favorito_por_presidente <- colt %>%
-  count(Leader_nombre, LeaderCountryOrIGO, CountryVisited, name = "n_viajes") %>%
+  filter(!is.na(CountryVisited)) %>%
+  count(Leader_nombre, Leader_etiqueta, LeaderCountryOrIGO, Pais_ES, CountryVisited, name = "n_viajes") %>%
   group_by(Leader_nombre) %>%
   slice_max(n_viajes, n = 1, with_ties = FALSE) %>%
   ungroup() %>%
@@ -493,19 +754,31 @@ destino_favorito_por_presidente <- colt %>%
 g5 <- ggplot(destino_favorito_por_presidente,
              aes(x = fct_reorder(Leader_nombre, n_viajes), y = n_viajes)) +
   geom_col(fill = gris_6) +
-  geom_text(aes(label = CountryVisited), hjust = -0.05, size = 2.8, color = "black") +
+  geom_text(aes(label = CountryVisited), hjust = -0.05, size = 2.8, family = FUENTE_BASE, color = "black") +
   facet_wrap(~LeaderCountryOrIGO, scales = "free_y", ncol = 3) +
   coord_flip(clip = "off") +
   scale_y_continuous(expand = expansion(mult = c(0.02, 0.35))) +
-  labs(title = "Destino mas visitado por cada mandatario",
-       subtitle = "Cantidad de viajes al destino #1 de cada presidente, agrupado por pais de origen",
-       x = NULL, y = "Cantidad de viajes a ese destino")
+  labs(x = NULL, y = "Cantidad de viajes a ese destino")
 
 print(g5)
 ggsave(file.path(RUTA_OUTPUTS, "05b_destino_favorito_todos_los_presidentes.png"), g5,
        width = 12, height = ceiling(n_distinct(colt$Leader_key) / 3) * 1.1 + 3, dpi = 150)
 
+# Tabla para el Cuadro del paper (ordenada por pais y, dentro de cada pais,
+# por el anio de inicio del mandato -que sale de Periodo_label, primeros 4
+# caracteres- para que quede en orden cronologico).
+tabla_destino_favorito <- destino_favorito_por_presidente %>%
+  mutate(Leader_key = str_to_lower(quitar_tildes(Leader_nombre))) %>%
+  left_join(mandatos %>% select(Leader_key, Periodo_label), by = "Leader_key") %>%
+  mutate(anio_inicio = suppressWarnings(as.integer(substr(Periodo_label, 1, 4)))) %>%
+  arrange(Pais_ES, anio_inicio) %>%
+  select(Pais = Pais_ES, `Mandatario (periodo)` = Leader_etiqueta,
+         `Destino favorito` = CountryVisited, `Cantidad de viajes` = n_viajes)
+
+write.csv(tabla_destino_favorito, file.path(RUTA_OUTPUTS, "05c_destino_favorito_tabla.csv"), row.names = FALSE)
+
 top5_por_presidente <- colt %>%
+  filter(!is.na(CountryVisited)) %>%
   count(Leader_nombre, CountryVisited, name = "n_viajes") %>%
   group_by(Leader_nombre) %>%
   slice_max(n_viajes, n = 5, with_ties = FALSE) %>%
@@ -518,7 +791,7 @@ write.csv(top5_por_presidente, file.path(RUTA_OUTPUTS, "05_top5_destinos_por_pre
 ## ---- 8. Pregunta 7: la primera visita de cada mandatario, a que pais fue? ----
 
 primera_visita <- colt %>%
-  filter(!is.na(TripStartDate)) %>%
+  filter(!is.na(TripStartDate), !is.na(CountryVisited)) %>%
   group_by(Leader_nombre) %>%
   slice_min(TripStartDate, n = 1, with_ties = FALSE) %>%
   ungroup() %>%
@@ -540,13 +813,19 @@ g6 <- ggplot(primeros_destinos_frecuencia, aes(x = CountryVisited, y = veces_ele
   geom_col(fill = gris_7) +
   coord_flip() +
   scale_y_continuous(breaks = scales::breaks_pretty()) +
-  labs(title = "Pais elegido como primer viaje al exterior del mandato",
-       subtitle = paste0("Cuantas veces cada pais fue el destino del primer viaje presidencial (",
-                          n_distinct(colt$Leader_key), " mandatos, ", ANIO_DESDE, "-", ANIO_HASTA, ")"),
-       x = NULL, y = "Cantidad de mandatarios")
+  labs(x = NULL, y = "Cantidad de mandatarios")
 
 print(g6)
 ggsave(file.path(RUTA_OUTPUTS, "06_primeros_destinos_frecuencia.png"), g6, width = 9, height = 7, dpi = 150)
+
+# 8b) Evolucion 1994-2025 de la cantidad de viajes (todas las categorias) a
+#     los 3 paises mas elegidos como primer destino (item 7 del pedido:
+#     Estados Unidos, Brasil y Argentina, los primeros 3 de la Figura 14).
+g6b <- graficar_evolucion_terna(
+  paises = c("United States", "Brazil", "Argentina"),
+  categoria = NULL,
+  archivo = "06b_evolucion_top3_primeros_destinos.png"
+)
 
 
 ## ---- 9. Extensiones inspiradas en la bibliografia del proyecto ---------------
@@ -563,9 +842,7 @@ viajes_por_mes <- colt %>%
 
 g8 <- ggplot(viajes_por_mes, aes(x = Mes, y = n)) +
   geom_col(fill = gris_6) +
-  labs(title = "En que meses se concentran los viajes presidenciales",
-       subtitle = "Mes de inicio del viaje, todos los mandatarios y anios juntos",
-       x = NULL, y = "Cantidad de viajes")
+  labs(x = NULL, y = "Cantidad de viajes")
 
 print(g8)
 ggsave(file.path(RUTA_OUTPUTS, "08_estacionalidad_mensual.png"), g8, width = 9, height = 6, dpi = 150)
@@ -584,12 +861,18 @@ top20_bilateral <- colt %>%
 g9a <- ggplot(top20_bilateral, aes(x = CountryVisited, y = n_viajes)) +
   geom_col(fill = gris_9) +
   coord_flip() +
-  labs(title = "Los 20 destinos bilaterales mas visitados",
-       subtitle = paste0("Viajes con reunion registrada con el anfitrion (MetHostHoGS = Yes), ", ANIO_DESDE, "-", ANIO_HASTA),
-       x = NULL, y = "Cantidad de viajes bilaterales")
+  labs(x = NULL, y = "Cantidad de viajes bilaterales")
 
 print(g9a)
 ggsave(file.path(RUTA_OUTPUTS, "09a_ranking_destinos_bilaterales.png"), g9a, width = 9, height = 8, dpi = 150)
+
+# 9.2b) Evolucion 1994-2025 de viajes BILATERALES a Brasil, Argentina y Cuba
+#       (item 8 del pedido, terna elegida por el usuario junto a la Figura 15).
+g9a2 <- graficar_evolucion_terna(
+  paises = c("Brazil", "Argentina", "Cuba"),
+  categoria = "Bilateral",
+  archivo = "09a2_evolucion_bilateral_bra_arg_cuba.png"
+)
 
 top20_multilateral <- colt %>%
   filter(Visit_Category == "Multilateral") %>%
@@ -600,12 +883,81 @@ top20_multilateral <- colt %>%
 g9b <- ggplot(top20_multilateral, aes(x = CountryVisited, y = n_viajes)) +
   geom_col(fill = gris_5) +
   coord_flip() +
-  labs(title = "Los 20 destinos multilaterales mas visitados",
-       subtitle = paste0("Viajes con asistencia a un evento multilateral (AttendedMultilatEvent = Yes), ", ANIO_DESDE, "-", ANIO_HASTA),
-       x = NULL, y = "Cantidad de viajes multilaterales")
+  labs(x = NULL, y = "Cantidad de viajes multilaterales")
 
 print(g9b)
 ggsave(file.path(RUTA_OUTPUTS, "09b_ranking_destinos_multilaterales.png"), g9b, width = 9, height = 8, dpi = 150)
+
+# 9.2c) Evolucion 1994-2025 de viajes MULTILATERALES a Estados Unidos, Brasil
+#       y Argentina (item 9 del pedido, terna elegida por el usuario junto a
+#       la Figura 16).
+g9b2 <- graficar_evolucion_terna(
+  paises = c("United States", "Brazil", "Argentina"),
+  categoria = "Multilateral",
+  archivo = "09b2_evolucion_multilateral_usa_bra_arg.png"
+)
+
+
+## ---- 9.3 y 9.4: extensiones nuevas (bibliografia ampliada, 2026-08-27) --------
+
+# 9.3 Cantidad de foros/cumbres multilaterales DISTINTOS por periodo. Idea
+#     tomada de Peña (2005), que reflexiona sobre la "compleja red" de
+#     espacios de cumbre presidencial en Sudamerica (Mercosur, Grupo de Rio,
+#     Cumbres Iberoamericanas, y despues UNASUR/CELAC). No es lo mismo que
+#     el grafico 09b (que cuenta VIAJES a destinos multilaterales): esto
+#     cuenta cuantos EVENTOS/FOROS distintos (NameMultilatEvent) aparecen
+#     activos en cada periodo, como proxy de que tan "compleja" es la red
+#     de cumbres en cada momento -y permite ver el quiebre que documentan
+#     Nolte (2021) y Barros & Gonçalves (2021) tras el fin de la "epoca
+#     dorada" de las cumbres (~2012-2017).
+foros_por_periodo <- colt %>%
+  filter(!is.na(NameMultilatEvent), NameMultilatEvent != "") %>%
+  distinct(Periodo5, NameMultilatEvent) %>%
+  count(Periodo5, name = "n_foros_distintos")
+
+g9c <- ggplot(foros_por_periodo, aes(x = factor(Periodo5), y = n_foros_distintos)) +
+  geom_col(fill = gris_6) +
+  geom_text(aes(label = n_foros_distintos), vjust = -0.4, size = 3, family = FUENTE_BASE, color = "black") +
+  labs(x = "Periodo (bloques de 5 años)", y = "Cantidad de foros distintos")
+
+print(g9c)
+ggsave(file.path(RUTA_OUTPUTS, "09c_foros_distintos_por_periodo.png"), g9c, width = 9, height = 6, dpi = 150)
+write.csv(foros_por_periodo, file.path(RUTA_OUTPUTS, "09c_foros_distintos_por_periodo.csv"), row.names = FALSE)
+
+# 9.4 Composicion Bilateral/Multilateral/Otro POR PAIS (no por año). Idea
+#     tomada de Lee & Kim (2024), quienes proponen tratar las visitas
+#     diplomaticas como datos composicionales -participaciones relativas de
+#     un recurso politico escaso, que suman 100%- en vez de conteos
+#     independientes. Aca se aplica esa misma logica para comparar, entre
+#     los 12 paises, que porcentaje de sus viajes es bilateral vs.
+#     multilateral vs. otro (en vez de mirar la evolucion en el tiempo,
+#     como ya hace el grafico 04).
+composicion_por_pais <- colt %>%
+  count(Pais_ES, Visit_Category) %>%
+  group_by(Pais_ES) %>%
+  mutate(participacion = n / sum(n)) %>%
+  ungroup()
+
+orden_paises_bilateral <- composicion_por_pais %>%
+  filter(Visit_Category == "Bilateral") %>%
+  arrange(desc(participacion)) %>%
+  pull(Pais_ES)
+
+g9d <- ggplot(composicion_por_pais,
+              aes(x = factor(Pais_ES, levels = rev(orden_paises_bilateral)),
+                  y = participacion, fill = Visit_Category)) +
+  geom_col(position = "stack", color = "white", linewidth = 0.3) +
+  coord_flip() +
+  scale_y_continuous(labels = scales::percent_format()) +
+  # guide_legend(reverse = TRUE): con coord_flip() + barras apiladas, el
+  # orden por defecto de la leyenda queda invertido respecto del orden
+  # visual del stack (de izquierda a derecha). Esto lo corrige (item 10).
+  scale_fill_manual(values = colores_categoria, guide = guide_legend(reverse = TRUE)) +
+  labs(x = NULL, y = "Participacion", fill = "Categoria de visita (derivada)")
+
+print(g9d)
+ggsave(file.path(RUTA_OUTPUTS, "09d_composicion_bilateral_multilateral_por_pais.png"), g9d, width = 10, height = 6.5, dpi = 150)
+write.csv(composicion_por_pais, file.path(RUTA_OUTPUTS, "09d_composicion_bilateral_multilateral_por_pais.csv"), row.names = FALSE)
 
 
 ## ---- 10. Resumen final en consola ----------------------------------------------
@@ -613,20 +965,26 @@ ggsave(file.path(RUTA_OUTPUTS, "09b_ranking_destinos_multilaterales.png"), g9b, 
 cat("\n================================================================\n")
 cat("Graficos y tablas guardados en:", RUTA_OUTPUTS, "\n")
 cat("================================================================\n")
-cat("00a_ficha_general.png                          -> Descriptivos: ficha general\n")
+cat("00a_ficha_general.png/.csv                      -> Descriptivos: ficha general (Cuadro en el paper)\n")
 cat("00b_viajes_totales_por_pais.png/.csv            -> Descriptivos: total de viajes por pais\n")
-cat("00c_viajes_totales_por_mandatario.png/.csv       -> Descriptivos: total de viajes por mandatario\n")
-cat("00d_resumen_estadisticos_descriptivos.png/.csv   -> Descriptivos: tabla tipo 'Tabla 1' de un paper\n")
-cat("01_viajes_por_anio.png / 01b_...pais.png        -> Pregunta 1 (evolucion general)\n")
-cat("02_regiones_por_periodo.png / 02b_...area.png   -> Pregunta 2 (prioridad regional)\n")
+cat("00c_viajes_totales_por_mandatario.png/.csv       -> Descriptivos: total por mandatario (con periodo)\n")
+cat("00d_resumen_estadisticos_descriptivos.png/.csv   -> Descriptivos: tabla tipo 'Tabla 1' (Cuadro en el paper)\n")
+cat("01_viajes_por_anio.png / 01b_...pais.png        -> Pregunta 1 (evolucion general; 01b con linea de promedio)\n")
+cat("02_regiones_por_periodo.png / 02b_...area.png   -> Pregunta 2 (prioridad regional; 02 con etiquetas LAC/Europa/Norteam.)\n")
 cat("03_duracion_por_anio.png                        -> Pregunta 3 (duracion)\n")
 cat("03c_viajes_y_duracion_combinado.png             -> Preguntas 1+3 combinadas (viajes y duracion)\n")
 cat("04_categoria_visita_por_anio.png / 04b_...      -> Preguntas 4 y 5 (bi/multi/otro)\n")
 cat("05_top5_destinos_por_presidente.csv             -> Pregunta 6 (tabla completa)\n")
-cat("05b_destino_favorito_todos_los_presidentes.png  -> Pregunta 6 (resumen visual)\n")
+cat("05b_destino_favorito_todos_los_presidentes.png  -> Pregunta 6 (grafico, ya no se usa en el paper)\n")
+cat("05c_destino_favorito_tabla.csv                  -> Pregunta 6 (Cuadro del paper, con periodo de mandato)\n")
 cat("   (usar graficar_top_destinos(\"Nombre\") para el detalle de un presidente puntual)\n")
 cat("06_primera_visita_por_presidente.csv            -> Pregunta 7 (tabla completa)\n")
 cat("06_primeros_destinos_frecuencia.png             -> Pregunta 7 (que paises se repiten)\n")
+cat("06b_evolucion_top3_primeros_destinos.png        -> Extension: evolucion EE.UU./Brasil/Argentina 1994-2025\n")
 cat("08_estacionalidad_mensual.png                   -> Extension: meses con mas viajes\n")
 cat("09a_ranking_destinos_bilaterales.png            -> Extension: top 20 destinos bilaterales\n")
+cat("09a2_evolucion_bilateral_bra_arg_cuba.png       -> Extension: evolucion bilateral Brasil/Argentina/Cuba\n")
 cat("09b_ranking_destinos_multilaterales.png         -> Extension: top 20 destinos multilaterales\n")
+cat("09b2_evolucion_multilateral_usa_bra_arg.png     -> Extension: evolucion multilateral EE.UU./Brasil/Argentina\n")
+cat("09c_foros_distintos_por_periodo.png/.csv        -> Extension: foros/cumbres distintos por periodo (Peña 2005)\n")
+cat("09d_composicion_bilateral_multilateral_por_pais.png/.csv -> Extension: composicion por pais (Lee & Kim 2024)\n")
