@@ -114,7 +114,7 @@
 \subsection{Descriptivos generales}
 
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Thu Aug 27 20:08:24 2026
+% Thu Aug 27 21:42:30 2026
 \begin{table}[ht]
 \centering
 \caption{Ficha general de la base: total de viajes, per\'iodo cubierto, cantidad de pa\'ises y mandatarios, y participaci\'on Bilateral/Multilateral/Otro.} 
@@ -134,7 +134,7 @@ Total de viajes registrados & 4.966 \\
 \end{tabular}
 \end{table}
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Thu Aug 27 20:08:24 2026
+% Thu Aug 27 21:42:30 2026
 \begin{table}[ht]
 \centering
 \caption{Total de viajes registrados por pais (1994-2025)} 
@@ -173,7 +173,7 @@ Brasil & 617 \\
 \end{figure}
 
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Thu Aug 27 20:08:24 2026
+% Thu Aug 27 21:42:30 2026
 \begin{table}[ht]
 \centering
 \caption{Estad\'isticos descriptivos (media, desv\'io, m\'inimo, m\'aximo) de viajes por pa\'is-a\~no y de la duraci\'on de los viajes.} 
@@ -199,6 +199,13 @@ Viajes por pais-anio & 13.20 & 7.60 &   1 &  40 & 377 & Combinaciones pais-anio 
 % a 18-feb-2013) por tratamiento medico -siguio siendo presidente en
 % ejercicio durante todo ese periodo, por eso el viaje si queda incluido.
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/12_tipo_actividad_viajes.png}
+  \caption{Tipo de actividad incluida en los viajes presidenciales (categor\'ias no excluyentes; cf. \citep{charnockPresidentialTravelEisenhower2009} sobre viajes presidenciales de EE.\,UU.).}
+  \label{fig:tipo-actividad}
+\end{figure}
+
 \subsection{Evoluci\'on temporal}
 
 \begin{figure}[H]
@@ -213,6 +220,13 @@ Viajes por pais-anio & 13.20 & 7.60 &   1 &  40 & 377 & Combinaciones pais-anio 
   \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/01b_viajes_por_anio_por_pais.png}
   \caption{Cantidad de viajes por a\~no, desagregado por pa\'is. La l\'inea punteada marca el promedio anual de cada pa\'is.}
   \label{fig:viajes-por-anio-pais}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/11_viajes_por_anio_de_mandato.png}
+  \caption{Promedio de viajes por a\~no de mandato (a\~no 1, a\~no 2, ...), normalizado por la cantidad de mandatos que efectivamente llegaron a cada a\~no dentro de la ventana 1994-2025. Permite comparar presidentes con mandatos de distinta duraci\'on y detectar patrones de ``luna de miel''/``pato rengo'' (cf. \citep{ostranderPresidentsAbroadPolitics2018}). La etiqueta sobre cada barra indica cu\'antos mandatos aportan datos a ese a\~no.}
+  \label{fig:viajes-por-anio-mandato}
 \end{figure}
 
 \begin{figure}[H]
@@ -259,6 +273,13 @@ Viajes por pais-anio & 13.20 & 7.60 &   1 &  40 & 377 & Combinaciones pais-anio 
 
 \begin{figure}[H]
   \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/13_auge_caida_multilateralismo.png}
+  \caption{Participaci\'on de viajes multilaterales por a\~no, con la fundaci\'on de UNASUR (2008) y su crisis/vaciamiento posterior (desde 2018) marcados como referencia (cf. \citep{nolteSummitsPlainsCrisis2021, barrosCrisisSouthAmerican2021}).}
+  \label{fig:auge-caida-multilateralismo}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/08_estacionalidad_mensual.png}
   \caption{Estacionalidad: mes de inicio de los viajes, todos los mandatarios y a\~nos juntos.}
   \label{fig:estacionalidad}
@@ -271,7 +292,7 @@ Viajes por pais-anio & 13.20 & 7.60 &   1 &  40 & 377 & Combinaciones pais-anio 
 % con el pais, el mandatario y su periodo entre parentesis, el destino
 % favorito y la cantidad de viajes a ese destino.
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Thu Aug 27 20:08:24 2026
+% Thu Aug 27 21:42:30 2026
 \begin{longtable}{lllr}
 \caption{Destino favorito de cada mandatario (pa\'is m\'as visitado durante su mandato), con el per\'iodo de mandato entre par\'entesis.} \\ 
   \hline
@@ -376,6 +397,13 @@ Argentina & Carlos Saul Menem (1989-1999) & United States &  13 \\
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png}
   \caption{Evoluci\'on 1994-2025 de la cantidad de viajes (todas las categor\'ias) a Estados Unidos, Brasil y Argentina -los 3 pa\'ises m\'as elegidos como primer destino (Figura~\ref{fig:primeros-destinos}).}
   \label{fig:evolucion-top3-primeros-destinos}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/14_sesgo_vecino_inmediato.png}
+  \caption{Porcentaje de TODOS los viajes (no s\'olo el primero) que van a un pa\'is con frontera terrestre, por pa\'is de origen. Ostrander \& Rider (2018) encuentran que 7 de 10 presidentes de EE.\,UU. eligen un vecino como primer destino; ac\'a se prueba si el patr\'on se sostiene para el conjunto completo de viajes en Sudam\'erica (ver \citep{ostranderPresidentsAbroadPolitics2018}).}
+  \label{fig:sesgo-vecino-inmediato}
 \end{figure}
 
 \begin{figure}[H]

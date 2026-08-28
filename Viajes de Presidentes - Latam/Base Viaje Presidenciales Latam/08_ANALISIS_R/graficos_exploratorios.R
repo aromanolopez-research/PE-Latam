@@ -326,10 +326,19 @@ if (!is.null(mandatos)) {
     left_join(mandatos_fechas, by = "Leader_key") %>%
     mutate(
       TripEndDate_efectivo = if_else(is.na(TripEndDate), TripStartDate, TripEndDate),
+      en_periodo_1 = !is.na(MandateStart_1) & TripStartDate >= MandateStart_1 & TripEndDate_efectivo <= MandateEnd_1,
+      en_periodo_2 = !is.na(MandateStart_2) & TripStartDate >= MandateStart_2 & TripEndDate_efectivo <= MandateEnd_2,
       dentro_del_mandato = case_when(
         is.na(MandateStart_1) ~ NA,
-        TRUE ~ (TripStartDate >= MandateStart_1 & TripEndDate_efectivo <= MandateEnd_1) |
-          (!is.na(MandateStart_2) & TripStartDate >= MandateStart_2 & TripEndDate_efectivo <= MandateEnd_2)
+        TRUE ~ en_periodo_1 | en_periodo_2
+      ),
+      # Anio_mandato: "año 1", "año 2"... del mandato en curso al momento del
+      # viaje (se conserva como columna de colt -no se dropea mas abajo- para
+      # la seccion 11, "viajes por año de mandato").
+      Anio_mandato = case_when(
+        en_periodo_1 ~ floor(as.numeric(TripStartDate - MandateStart_1) / 365.25) + 1,
+        en_periodo_2 ~ floor(as.numeric(TripStartDate - MandateStart_2) / 365.25) + 1,
+        TRUE ~ NA_real_
       )
     )
 
@@ -348,7 +357,8 @@ if (!is.null(mandatos)) {
 
   colt <- colt %>%
     filter(is.na(dentro_del_mandato) | dentro_del_mandato == TRUE) %>%
-    select(-MandateStart_1, -MandateEnd_1, -MandateStart_2, -MandateEnd_2, -TripEndDate_efectivo, -dentro_del_mandato)
+    select(-MandateStart_1, -MandateEnd_1, -MandateStart_2, -MandateEnd_2,
+           -TripEndDate_efectivo, -dentro_del_mandato, -en_periodo_1, -en_periodo_2)
 } else {
   warning("No se pudo aplicar la regla 'solo viajes durante el mandato' -falta mandatos_presidenciales.csv.")
 }
@@ -960,6 +970,191 @@ ggsave(file.path(RUTA_OUTPUTS, "09d_composicion_bilateral_multilateral_por_pais.
 write.csv(composicion_por_pais, file.path(RUTA_OUTPUTS, "09d_composicion_bilateral_multilateral_por_pais.csv"), row.names = FALSE)
 
 
+## ---- 11. Extension: viajes por "año de mandato" (normalizado) ----------------
+## Idea: en vez de mirar el año calendario, mirar el año N del mandato de cada
+## presidente (año 1, año 2, ...). Esto permite comparar presidentes entre si
+## sin que alguien con un mandato mas corto parezca "viajar menos" solo por
+## haber estado menos tiempo en el cargo -el sesgo que se discutio con el
+## usuario antes de aplicar la regla de fechas de mandato-. Tambien permite
+## ver si existe un patron sistematico de "luna de miel" (mas viajes el
+## primer año) o "pato rengo" (menos viajes el ultimo), algo que Ostrander &
+## Rider (2018) documentan para el caso de EE.UU.
+##
+## Para que el promedio no este sesgado por los años tardios (donde solo
+## sobreviven mandatos largos, ej. 6 años en Argentina/Bolivia vs 4 en
+## Uruguay/Chile), se calcula una "exposicion": cuantos mandatos (persona-
+## periodo) llegaron a ese año N dentro de la ventana de datos 1994-2025.
+## Los presidentes en ejercicio (mandato termina en 2099 en la tabla de
+## apoyo, marcador de "sigue en el cargo") se cortan en ANIO_HASTA -todavia
+## no tenemos sus viajes futuros-.
+if (!is.null(mandatos) && "Anio_mandato" %in% names(colt)) {
+  fecha_corte <- as.Date(paste0(ANIO_HASTA, "-12-31"))
+
+  exposicion_mandato <- mandatos_fechas %>%
+    mutate(
+      fin_1_efectivo = pmin(MandateEnd_1, fecha_corte),
+      anios_1 = pmax(0, floor(as.numeric(fin_1_efectivo - MandateStart_1) / 365.25) + 1),
+      fin_2_efectivo = pmin(MandateEnd_2, fecha_corte),
+      anios_2 = if_else(!is.na(MandateStart_2),
+                         pmax(0, floor(as.numeric(fin_2_efectivo - MandateStart_2) / 365.25) + 1),
+                         NA_real_)
+    ) %>%
+    select(Leader_key, anios_1, anios_2) %>%
+    pivot_longer(cols = c(anios_1, anios_2), values_to = "anios_periodo") %>%
+    filter(!is.na(anios_periodo), anios_periodo > 0) %>%
+    select(Leader_key, anios_periodo)
+
+  # Expande cada mandato a las filas 1..anios_periodo ("expuesto" ese año)
+  exposicion_expandida <- exposicion_mandato %>%
+    rowwise() %>%
+    mutate(Anio_mandato = list(seq_len(anios_periodo))) %>%
+    ungroup() %>%
+    unnest(Anio_mandato) %>%
+    count(Anio_mandato, name = "n_mandatos_expuestos")
+
+  viajes_por_anio_mandato <- colt %>%
+    filter(!is.na(Anio_mandato)) %>%
+    count(Anio_mandato, name = "n_viajes_total") %>%
+    left_join(exposicion_expandida, by = "Anio_mandato") %>%
+    mutate(promedio_viajes = n_viajes_total / n_mandatos_expuestos) %>%
+    # Se corta donde quedan pocos mandatos expuestos (< 5): un promedio con
+    # 1 o 2 casos no es representativo y puede ser enganoso en el grafico.
+    filter(n_mandatos_expuestos >= 5) %>%
+    arrange(Anio_mandato)
+
+  g11 <- ggplot(viajes_por_anio_mandato, aes(x = Anio_mandato, y = promedio_viajes)) +
+    geom_col(fill = gris_6) +
+    geom_text(aes(label = n_mandatos_expuestos), vjust = -0.4, size = 2.6, family = FUENTE_BASE, color = gris_5) +
+    scale_x_continuous(breaks = scales::breaks_width(1)) +
+    labs(x = "Año de mandato", y = "Promedio de viajes por presidente\n(etiqueta = cantidad de mandatos con datos ese año)")
+
+  print(g11)
+  ggsave(file.path(RUTA_OUTPUTS, "11_viajes_por_anio_de_mandato.png"), g11, width = 9, height = 6, dpi = 150)
+  write.csv(viajes_por_anio_mandato, file.path(RUTA_OUTPUTS, "11_viajes_por_anio_de_mandato.csv"), row.names = FALSE)
+} else {
+  warning("No se pudo construir 'viajes por año de mandato' -falta mandatos_presidenciales.csv o Anio_mandato.")
+}
+
+
+## ---- 12. Extension: tipo de actividad de los viajes (Charnock, McCann & Tenpas 2009) --
+## Cinco campos booleanos de COLT que hasta ahora no se habian usado en ningun
+## grafico: si el viaje incluyo un discurso publico, la firma de un acuerdo,
+## un sitio cultural/ceremonia, un foro de negocios, o una reunion con el
+## lider de un organismo internacional. Parecido a como Charnock, McCann &
+## Tenpas (2009) clasifican los viajes presidenciales de EE.UU. desde
+## Eisenhower. Un viaje puede tener mas de una actividad a la vez (no son
+## categorias excluyentes), por eso se muestra como "% de los viajes que
+## incluyeron cada actividad" y no como participacion que suma 100%. El
+## promedio se calcula solo sobre los viajes con dato (na.rm = TRUE) para no
+## castigar la cifra por los campos que vienen vacios.
+actividades <- c(
+  "PublicAddress" = "Discurso publico",
+  "SignedAgreement" = "Acuerdo firmado",
+  "CulturalSiteOrCeremony" = "Sitio cultural / ceremonia",
+  "BusinessLeaderOrForum" = "Foro de negocios",
+  "MetIGOLeader" = "Reunion con lider de organismo internacional"
+)
+
+tipo_actividad <- colt %>%
+  summarise(across(all_of(names(actividades)), ~ mean(. == "Yes", na.rm = TRUE))) %>%
+  pivot_longer(everything(), names_to = "campo", values_to = "participacion") %>%
+  mutate(Actividad = recode(campo, !!!actividades)) %>%
+  select(Actividad, participacion)
+
+g12 <- ggplot(tipo_actividad, aes(x = fct_reorder(Actividad, participacion), y = participacion)) +
+  geom_col(fill = gris_6) +
+  geom_text(aes(label = scales::percent(participacion, accuracy = 1)),
+            hjust = -0.15, size = 3, family = FUENTE_BASE, color = "black") +
+  coord_flip(clip = "off") +
+  scale_y_continuous(labels = scales::percent_format(), expand = expansion(mult = c(0, 0.15))) +
+  labs(x = NULL, y = "% de los viajes que incluyeron esta actividad")
+
+print(g12)
+ggsave(file.path(RUTA_OUTPUTS, "12_tipo_actividad_viajes.png"), g12, width = 9, height = 4.5, dpi = 150)
+write.csv(tipo_actividad, file.path(RUTA_OUTPUTS, "12_tipo_actividad_viajes.csv"), row.names = FALSE)
+
+
+## ---- 13. Extension: auge y caida del multilateralismo (Nolte 2021; Barros & Gonçalves 2021) --
+## Toma la participacion de viajes MULTILATERALES por año (subconjunto de
+## categoria_por_anio, seccion 6) y le agrega lineas de referencia en 2 hitos
+## institucionales para visualizar de un vistazo el quiebre que documenta
+## esta literatura: la fundacion de UNASUR (2008, "epoca dorada" del
+## regionalismo sudamericano) y su crisis/vaciamiento posterior (desde 2018,
+## varios paises suspenden o abandonan el bloque).
+multilateral_por_anio <- categoria_por_anio %>% filter(Visit_Category == "Multilateral")
+
+g13 <- ggplot(multilateral_por_anio, aes(x = Year, y = participacion)) +
+  geom_line(color = gris_9, linewidth = 0.9) +
+  geom_point(color = gris_9, size = 1.4) +
+  geom_vline(xintercept = 2008, linetype = "dashed", color = gris_5, linewidth = 0.4) +
+  geom_vline(xintercept = 2018, linetype = "dashed", color = gris_5, linewidth = 0.4) +
+  annotate("text", x = 2008, y = Inf, label = "Fundacion UNASUR (2008)",
+           angle = 90, vjust = -0.6, hjust = 1.05, size = 2.8, family = FUENTE_BASE, color = gris_7) +
+  annotate("text", x = 2018, y = Inf, label = "Crisis/vaciamiento UNASUR (desde 2018)",
+           angle = 90, vjust = -0.6, hjust = 1.05, size = 2.8, family = FUENTE_BASE, color = gris_7) +
+  scale_y_continuous(labels = scales::percent_format()) +
+  scale_x_continuous(breaks = scales::breaks_pretty(n = 10)) +
+  labs(x = NULL, y = "Participacion de viajes multilaterales")
+
+print(g13)
+ggsave(file.path(RUTA_OUTPUTS, "13_auge_caida_multilateralismo.png"), g13, width = 10, height = 6.5, dpi = 150)
+
+
+## ---- 14. Extension: sesgo hacia el vecino inmediato (Ostrander & Rider 2018) --
+## Ostrander & Rider (2018) encuentran que 7 de 10 presidentes de EE.UU.
+## eligieron un vecino (Mexico o Canada) como PRIMER destino (ya replicado en
+## la seccion 8/Figura 14 para Sudamerica). Aca se extiende la pregunta a
+## TODOS los viajes del mandato, no solo el primero: que porcentaje de los
+## viajes de cada pais se queda en el vecindario inmediato (un pais con
+## frontera terrestre) vs. va a un destino lejano. Las fronteras se
+## codificaron a mano (fuente: geografia politica estandar, fronteras
+## terrestres reconocidas; no incluye territorios no soberanos como Guayana
+## Francesa).
+vecinos_terrestres <- list(
+  "Argentina" = c("Bolivia","Brazil","Chile","Paraguay","Uruguay"),
+  "Bolivia"   = c("Argentina","Brazil","Chile","Paraguay","Peru"),
+  "Brazil"    = c("Argentina","Bolivia","Colombia","Guyana","Paraguay","Peru","Suriname","Uruguay","Venezuela"),
+  "Chile"     = c("Argentina","Bolivia","Peru"),
+  "Colombia"  = c("Brazil","Ecuador","Panama","Peru","Venezuela"),
+  "Ecuador"   = c("Colombia","Peru"),
+  "Guyana"    = c("Brazil","Suriname","Venezuela"),
+  "Paraguay"  = c("Argentina","Bolivia","Brazil"),
+  "Peru"      = c("Bolivia","Brazil","Chile","Colombia","Ecuador"),
+  "Suriname"  = c("Brazil","Guyana"),
+  "Uruguay"   = c("Argentina","Brazil"),
+  "Venezuela" = c("Brazil","Colombia","Guyana")
+)
+
+es_vecino_terrestre <- function(pais_origen, pais_destino) {
+  mapply(function(o, d) !is.na(d) && d %in% vecinos_terrestres[[o]], pais_origen, pais_destino)
+}
+
+vecino_inmediato_por_pais <- colt %>%
+  filter(!is.na(CountryVisited), LeaderCountryOrIGO %in% names(vecinos_terrestres)) %>%
+  mutate(es_vecino = es_vecino_terrestre(LeaderCountryOrIGO, CountryVisited)) %>%
+  group_by(Pais_ES) %>%
+  summarise(participacion_vecino = mean(es_vecino), n_viajes = n(), .groups = "drop")
+
+promedio_general_vecino <- weighted.mean(vecino_inmediato_por_pais$participacion_vecino,
+                                          vecino_inmediato_por_pais$n_viajes)
+cat("\n--- Sesgo hacia el vecino inmediato (Ostrander & Rider 2018), TODOS los viajes ---\n")
+cat("Promedio general (los 12 paises juntos):", scales::percent(promedio_general_vecino, accuracy = 0.1), "\n")
+print(vecino_inmediato_por_pais %>% arrange(desc(participacion_vecino)))
+
+g14 <- ggplot(vecino_inmediato_por_pais, aes(x = fct_reorder(Pais_ES, participacion_vecino), y = participacion_vecino)) +
+  geom_col(fill = gris_6) +
+  geom_hline(yintercept = promedio_general_vecino, linetype = "dashed", color = gris_9, linewidth = 0.4) +
+  geom_text(aes(label = scales::percent(participacion_vecino, accuracy = 1)),
+            hjust = -0.15, size = 3, family = FUENTE_BASE, color = "black") +
+  coord_flip(clip = "off") +
+  scale_y_continuous(labels = scales::percent_format(), expand = expansion(mult = c(0, 0.15))) +
+  labs(x = NULL, y = "% de todos los viajes a un pais con frontera terrestre\n(linea punteada = promedio de los 12 paises)")
+
+print(g14)
+ggsave(file.path(RUTA_OUTPUTS, "14_sesgo_vecino_inmediato.png"), g14, width = 9, height = 6, dpi = 150)
+write.csv(vecino_inmediato_por_pais, file.path(RUTA_OUTPUTS, "14_sesgo_vecino_inmediato.csv"), row.names = FALSE)
+
+
 ## ---- 10. Resumen final en consola ----------------------------------------------
 
 cat("\n================================================================\n")
@@ -988,3 +1183,7 @@ cat("09b_ranking_destinos_multilaterales.png         -> Extension: top 20 destin
 cat("09b2_evolucion_multilateral_usa_bra_arg.png     -> Extension: evolucion multilateral EE.UU./Brasil/Argentina\n")
 cat("09c_foros_distintos_por_periodo.png/.csv        -> Extension: foros/cumbres distintos por periodo (Peña 2005)\n")
 cat("09d_composicion_bilateral_multilateral_por_pais.png/.csv -> Extension: composicion por pais (Lee & Kim 2024)\n")
+cat("11_viajes_por_anio_de_mandato.png/.csv          -> Extension: viajes normalizados por año de mandato\n")
+cat("12_tipo_actividad_viajes.png/.csv               -> Extension: tipo de actividad (Charnock et al. 2009)\n")
+cat("13_auge_caida_multilateralismo.png              -> Extension: multilateralismo con hitos UNASUR (Nolte 2021)\n")
+cat("14_sesgo_vecino_inmediato.png/.csv              -> Extension: sesgo hacia el vecino (Ostrander & Rider 2018)\n")

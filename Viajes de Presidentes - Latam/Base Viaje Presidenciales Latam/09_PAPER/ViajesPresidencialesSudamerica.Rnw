@@ -200,6 +200,13 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
 % a 18-feb-2013) por tratamiento medico -siguio siendo presidente en
 % ejercicio durante todo ese periodo, por eso el viaje si queda incluido.
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/12_tipo_actividad_viajes.png}
+  \caption{Tipo de actividad incluida en los viajes presidenciales (categor\'ias no excluyentes; cf. \citep{charnockPresidentialTravelEisenhower2009} sobre viajes presidenciales de EE.\,UU.).}
+  \label{fig:tipo-actividad}
+\end{figure}
+
 \subsection{Evoluci\'on temporal}
 
 \begin{figure}[H]
@@ -214,6 +221,13 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
   \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/01b_viajes_por_anio_por_pais.png}
   \caption{Cantidad de viajes por a\~no, desagregado por pa\'is. La l\'inea punteada marca el promedio anual de cada pa\'is.}
   \label{fig:viajes-por-anio-pais}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/11_viajes_por_anio_de_mandato.png}
+  \caption{Promedio de viajes por a\~no de mandato (a\~no 1, a\~no 2, ...), normalizado por la cantidad de mandatos que efectivamente llegaron a cada a\~no dentro de la ventana 1994-2025. Permite comparar presidentes con mandatos de distinta duraci\'on y detectar patrones de ``luna de miel''/``pato rengo'' (cf. \citep{ostranderPresidentsAbroadPolitics2018}). La etiqueta sobre cada barra indica cu\'antos mandatos aportan datos a ese a\~no.}
+  \label{fig:viajes-por-anio-mandato}
 \end{figure}
 
 \begin{figure}[H]
@@ -260,6 +274,13 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
 
 \begin{figure}[H]
   \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/13_auge_caida_multilateralismo.png}
+  \caption{Participaci\'on de viajes multilaterales por a\~no, con la fundaci\'on de UNASUR (2008) y su crisis/vaciamiento posterior (desde 2018) marcados como referencia (cf. \citep{nolteSummitsPlainsCrisis2021, barrosCrisisSouthAmerican2021}).}
+  \label{fig:auge-caida-multilateralismo}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/08_estacionalidad_mensual.png}
   \caption{Estacionalidad: mes de inicio de los viajes, todos los mandatarios y a\~nos juntos.}
   \label{fig:estacionalidad}
@@ -295,6 +316,13 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_destino_favorit
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png}
   \caption{Evoluci\'on 1994-2025 de la cantidad de viajes (todas las categor\'ias) a Estados Unidos, Brasil y Argentina -los 3 pa\'ises m\'as elegidos como primer destino (Figura~\ref{fig:primeros-destinos}).}
   \label{fig:evolucion-top3-primeros-destinos}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/14_sesgo_vecino_inmediato.png}
+  \caption{Porcentaje de TODOS los viajes (no s\'olo el primero) que van a un pa\'is con frontera terrestre, por pa\'is de origen. Ostrander \& Rider (2018) encuentran que 7 de 10 presidentes de EE.\,UU. eligen un vecino como primer destino; ac\'a se prueba si el patr\'on se sostiene para el conjunto completo de viajes en Sudam\'erica (ver \citep{ostranderPresidentsAbroadPolitics2018}).}
+  \label{fig:sesgo-vecino-inmediato}
 \end{figure}
 
 \begin{figure}[H]
