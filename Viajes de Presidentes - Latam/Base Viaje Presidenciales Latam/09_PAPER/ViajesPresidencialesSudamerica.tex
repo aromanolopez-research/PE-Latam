@@ -114,7 +114,7 @@
 \subsection{Descriptivos generales}
 
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Thu Aug 27 21:42:30 2026
+% Fri Aug 28 14:03:22 2026
 \begin{table}[ht]
 \centering
 \caption{Ficha general de la base: total de viajes, per\'iodo cubierto, cantidad de pa\'ises y mandatarios, y participaci\'on Bilateral/Multilateral/Otro.} 
@@ -134,7 +134,7 @@ Total de viajes registrados & 4.966 \\
 \end{tabular}
 \end{table}
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Thu Aug 27 21:42:30 2026
+% Fri Aug 28 14:03:22 2026
 \begin{table}[ht]
 \centering
 \caption{Total de viajes registrados por pais (1994-2025)} 
@@ -173,7 +173,7 @@ Brasil & 617 \\
 \end{figure}
 
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Thu Aug 27 21:42:30 2026
+% Fri Aug 28 14:03:22 2026
 \begin{table}[ht]
 \centering
 \caption{Estad\'isticos descriptivos (media, desv\'io, m\'inimo, m\'aximo) de viajes por pa\'is-a\~no y de la duraci\'on de los viajes.} 
@@ -227,6 +227,25 @@ Viajes por pais-anio & 13.20 & 7.60 &   1 &  40 & 377 & Combinaciones pais-anio 
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/11_viajes_por_anio_de_mandato.png}
   \caption{Promedio de viajes por a\~no de mandato (a\~no 1, a\~no 2, ...), normalizado por la cantidad de mandatos que efectivamente llegaron a cada a\~no dentro de la ventana 1994-2025. Permite comparar presidentes con mandatos de distinta duraci\'on y detectar patrones de ``luna de miel''/``pato rengo'' (cf. \citep{ostranderPresidentsAbroadPolitics2018}). La etiqueta sobre cada barra indica cu\'antos mandatos aportan datos a ese a\~no.}
   \label{fig:viajes-por-anio-mandato}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/15_evolucion_por_bloque_destino.png}
+  \caption{Cantidad total de viajes por a\~no a cada bloque de destino: Sudam\'erica, Latinoam\'erica y el Caribe (incluye a Sudam\'erica), Estados Unidos, Europa, \'Africa y Asia. Sudam\'erica y Latinoam\'erica se superponen a prop\'osito -la segunda incluye a la primera-, para comparar el volumen dentro de la vecindad m\'as cercana contra el de la regi\'on en un sentido amplio. La l\'inea punteada marca el promedio anual de cada bloque (1994-2025).}
+  \label{fig:evolucion-por-bloque-destino}
+\end{figure}
+
+% Figura de estilo editorial (rompe a proposito la estetica Q1 del resto del
+% paper -titulo/subtitulo/fuente van adentro de la imagen-, replicando el
+% formato de un grafico de referencia de Diplometrics COLT que el usuario
+% pidio recrear con nuestra base propia). Promedio movil de 3 anios de la
+% participacion de viajes intra-latinoamericanos sobre el total.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{../08_ANALISIS_R/outputs/17_integracion_regional_en_retirada.png}
+  \caption{Participaci\'on de los viajes intra-latinoamericanos sobre el total de viajes presidenciales sudamericanos, promedio m\'ovil de 3 a\~nos, 1994-2025. Recreaci\'on propia -con nuestra base cruzada y verificada- de un gr\'afico de referencia de Diplometrics COLT (que usa datos crudos 1990-2025); no extendemos a 1990-1993 porque la cobertura verificada de varios pa\'ises de nuestra base no llega de forma confiable a esos a\~nos. El patr\'on se sostiene: pico y m\'inimo caen en los mismos a\~nos que en la fuente de referencia (2011 y 2025).}
+  \label{fig:integracion-regional-en-retirada}
 \end{figure}
 
 \begin{figure}[H]
@@ -292,7 +311,7 @@ Viajes por pais-anio & 13.20 & 7.60 &   1 &  40 & 377 & Combinaciones pais-anio 
 % con el pais, el mandatario y su periodo entre parentesis, el destino
 % favorito y la cantidad de viajes a ese destino.
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Thu Aug 27 21:42:30 2026
+% Fri Aug 28 14:03:22 2026
 \begin{longtable}{lllr}
 \caption{Destino favorito de cada mandatario (pa\'is m\'as visitado durante su mandato), con el per\'iodo de mandato entre par\'entesis.} \\ 
   \hline
@@ -406,6 +425,105 @@ Argentina & Carlos Saul Menem (1989-1999) & United States &  13 \\
   \label{fig:sesgo-vecino-inmediato}
 \end{figure}
 
+% Cuadro complementario: el "perfil" de cada presidente resumido en todo el
+% periodo (a diferencia de la Figura anterior, que agrega por pais de
+% origen). Categorias mutuamente excluyentes (a diferencia de la
+% Figura~\ref{fig:evolucion-por-bloque-destino}, que las deja superpuestas a
+% proposito) para que cada fila sume 100%.
+% latex table generated in R 4.5.1 by xtable 1.8-8 package
+% Fri Aug 28 14:03:22 2026
+\begin{longtable}{lllllllllll}
+\caption{Perfil regional de cada mandatario: porcentaje de sus viajes (todo el mandato) a cada bloque de destino. Las categor\'ias son mutuamente excluyentes y suman 100\% por fila.} \\ 
+  \hline
+Pais & Mandatario..periodo. & Total.viajes & Sudamerica & Resto.Latam.y.Caribe & Estados.Unidos & Resto.Norteamerica & Europa & Asia & Africa & Otras..Oceania..etc.. \\ 
+  \hline
+Argentina & Alberto Fernandez (2019-2023) & 55 & 38\% & 7\% & 7\% & 0\% & 38\% & 9\% & 0\% & 0\% \\ 
+  Argentina & Carlos Saul Menem (1989-1999) & 84 & 30\% & 11\% & 15\% & 0\% & 26\% & 13\% & 2\% & 2\% \\ 
+  Argentina & Cristina Fernandez de Kirchner (2007-2015) & 124 & 48\% & 10\% & 10\% & 2\% & 17\% & 9\% & 4\% & 0\% \\ 
+  Argentina & Eduardo Duhalde (2002-2003) & 17 & 47\% & 18\% & 0\% & 0\% & 29\% & 0\% & 6\% & 0\% \\ 
+  Argentina & Fernando de la Rua (1999-2001) & 35 & 46\% & 11\% & 11\% & 6\% & 23\% & 3\% & 0\% & 0\% \\ 
+  Argentina & Javier Milei (2023-2099) & 46 & 20\% & 2\% & 30\% & 0\% & 43\% & 4\% & 0\% & 0\% \\ 
+  Argentina & Mauricio Macri (2015-2019) & 57 & 35\% & 0\% & 14\% & 2\% & 28\% & 19\% & 2\% & 0\% \\ 
+  Argentina & Nestor Kirchner (2003-2007) & 59 & 61\% & 5\% & 12\% & 0\% & 20\% & 2\% & 0\% & 0\% \\ 
+  Bolivia & Carlos Mesa (2003-2005) & 20 & 55\% & 20\% & 5\% & 0\% & 15\% & 5\% & 0\% & 0\% \\ 
+  Bolivia & Eduardo Rodriguez (2005-2006) & 6 & 67\% & 0\% & 17\% & 0\% & 17\% & 0\% & 0\% & 0\% \\ 
+  Bolivia & Evo Morales (2006-2019) & 284 & 49\% & 16\% & 9\% & 0\% & 19\% & 5\% & 2\% & 0\% \\ 
+  Bolivia & Gonzalo Sanchez de Lozada (1993-1997; 2002-2003) & 43 & 51\% & 7\% & 19\% & 0\% & 21\% & 2\% & 0\% & 0\% \\ 
+  Bolivia & Hugo Banzer Suarez (1997-2001) & 19 & 58\% & 11\% & 16\% & 5\% & 11\% & 0\% & 0\% & 0\% \\ 
+  Bolivia & Jorge Quiroga Ramirez (2001-2002) & 5 & 80\% & 0\% & 20\% & 0\% & 0\% & 0\% & 0\% & 0\% \\ 
+  Bolivia & Luis Arce (2020-2025) & 47 & 57\% & 21\% & 11\% & 0\% & 6\% & 0\% & 4\% & 0\% \\ 
+  Brasil & Dilma Rousseff (2011-2016) & 87 & 38\% & 9\% & 9\% & 0\% & 28\% & 6\% & 9\% & 1\% \\ 
+  Brasil & Fernando Henrique Cardoso (1995-2003) & 134 & 40\% & 9\% & 7\% & 1\% & 32\% & 6\% & 4\% & 0\% \\ 
+  Brasil & Itamar Franco (1992-1995) & 7 & 86\% & 0\% & 14\% & 0\% & 0\% & 0\% & 0\% & 0\% \\ 
+  Brasil & Jair Bolsonaro (2019-2023) & 34 & 21\% & 0\% & 21\% & 0\% & 18\% & 41\% & 0\% & 0\% \\ 
+  Brasil & Luiz Inacio Lula da Silva (2003-2011; 2023-2099) & 329 & 35\% & 9\% & 5\% & 0\% & 25\% & 12\% & 13\% & 0\% \\ 
+  Brasil & Michel Temer (2016-2019) & 26 & 35\% & 8\% & 12\% & 0\% & 19\% & 15\% & 12\% & 0\% \\ 
+  Chile & Eduardo Frei Ruiz-Tagle (1994-2000) & 63 & 40\% & 8\% & 8\% & 3\% & 19\% & 17\% & 2\% & 3\% \\ 
+  Chile & Gabriel Boric (2022-2026) & 53 & 40\% & 9\% & 13\% & 2\% & 23\% & 13\% & 0\% & 0\% \\ 
+  Chile & Michelle Bachelet (2006-2010; 2014-2018) & 139 & 33\% & 22\% & 10\% & 1\% & 20\% & 10\% & 2\% & 1\% \\ 
+  Chile & Ricardo Lagos Escobar (2000-2006) & 135 & 36\% & 17\% & 7\% & 1\% & 25\% & 10\% & 1\% & 2\% \\ 
+  Chile & Sebastian Pinera (2010-2014; 2018-2022) & 112 & 41\% & 8\% & 8\% & 1\% & 23\% & 16\% & 0\% & 3\% \\ 
+  Colombia & Alvaro Uribe (2002-2010) & 135 & 41\% & 27\% & 17\% & 1\% & 11\% & 1\% & 0\% & 0\% \\ 
+  Colombia & Andres Pastrana Arango (1998-2002) & 51 & 25\% & 16\% & 20\% & 4\% & 24\% & 8\% & 4\% & 0\% \\ 
+  Colombia & Cesar Gaviria Trujillo (1990-1994) & 2 & 50\% & 0\% & 0\% & 0\% & 0\% & 50\% & 0\% & 0\% \\ 
+  Colombia & Ernesto Samper Pizano (1994-1998) & 26 & 31\% & 4\% & 15\% & 4\% & 12\% & 23\% & 12\% & 0\% \\ 
+  Colombia & Gustavo Petro (2022-2026) & 74 & 32\% & 22\% & 12\% & 0\% & 20\% & 11\% & 3\% & 0\% \\ 
+  Colombia & Ivan Duque (2018-2022) & 50 & 32\% & 16\% & 18\% & 0\% & 26\% & 8\% & 0\% & 0\% \\ 
+  Colombia & Juan Manuel Santos (2010-2018) & 151 & 28\% & 21\% & 13\% & 1\% & 30\% & 7\% & 0\% & 0\% \\ 
+  Ecuador & Abdala Bucaram (1996-1997) & 4 & 100\% & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% \\ 
+  Ecuador & Alfredo Palacio (2005-2007) & 20 & 50\% & 20\% & 10\% & 0\% & 15\% & 0\% & 5\% & 0\% \\ 
+  Ecuador & Daniel Noboa (2023-2025; 2025-2099) & 48 & 17\% & 4\% & 31\% & 2\% & 35\% & 10\% & 0\% & 0\% \\ 
+  Ecuador & Fabian Alarcon (1997-1998) & 9 & 67\% & 0\% & 22\% & 11\% & 0\% & 0\% & 0\% & 0\% \\ 
+  Ecuador & Guillermo Lasso (2021-2023) & 36 & 36\% & 14\% & 25\% & 0\% & 19\% & 6\% & 0\% & 0\% \\ 
+  Ecuador & Gustavo Noboa (2000-2003) & 30 & 47\% & 10\% & 10\% & 7\% & 13\% & 10\% & 3\% & 0\% \\ 
+  Ecuador & Jamil Mahuad (1998-2000) & 21 & 43\% & 19\% & 29\% & 0\% & 5\% & 5\% & 0\% & 0\% \\ 
+  Ecuador & Lenin Moreno (2017-2021) & 33 & 30\% & 9\% & 21\% & 0\% & 30\% & 9\% & 0\% & 0\% \\ 
+  Ecuador & Lucio Gutierrez (2003-2005) & 22 & 45\% & 18\% & 23\% & 0\% & 9\% & 5\% & 0\% & 0\% \\ 
+  Ecuador & Rafael Correa (2007-2017) & 189 & 48\% & 19\% & 4\% & 1\% & 22\% & 6\% & 1\% & 0\% \\ 
+  Ecuador & Sixto Duran-Ballen (1992-1996) & 16 & 75\% & 0\% & 6\% & 0\% & 12\% & 6\% & 0\% & 0\% \\ 
+  Guyana & Bharrat Jagdeo (1999-2011) & 146 & 16\% & 34\% & 21\% & 1\% & 14\% & 11\% & 3\% & 1\% \\ 
+  Guyana & Cheddi Jagan (1992-1997) & 23 & 13\% & 39\% & 13\% & 4\% & 9\% & 13\% & 4\% & 4\% \\ 
+  Guyana & David Granger (2015-2020) & 48 & 15\% & 44\% & 19\% & 0\% & 10\% & 8\% & 4\% & 0\% \\ 
+  Guyana & Donald Ramotar (2011-2015) & 32 & 34\% & 38\% & 12\% & 0\% & 0\% & 12\% & 3\% & 0\% \\ 
+  Guyana & Irfaan Ali (2020-2099) & 52 & 12\% & 35\% & 23\% & 4\% & 10\% & 15\% & 0\% & 2\% \\ 
+  Guyana & Janet Jagan (1997-1999) & 14 & 50\% & 29\% & 14\% & 0\% & 7\% & 0\% & 0\% & 0\% \\ 
+  Paraguay & Federico Franco (2012-2013) & 6 & 0\% & 0\% & 50\% & 0\% & 17\% & 33\% & 0\% & 0\% \\ 
+  Paraguay & Fernando Lugo (2008-2012) & 76 & 59\% & 14\% & 7\% & 0\% & 7\% & 13\% & 0\% & 0\% \\ 
+  Paraguay & Horacio Cartes (2013-2018) & 70 & 51\% & 9\% & 9\% & 0\% & 20\% & 11\% & 0\% & 0\% \\ 
+  Paraguay & Juan Carlos Wasmosy (1993-1998) & 57 & 65\% & 7\% & 5\% & 0\% & 16\% & 7\% & 0\% & 0\% \\ 
+  Paraguay & Luis Angel Gonzalez Macchi (1999-2003) & 31 & 65\% & 16\% & 6\% & 3\% & 3\% & 6\% & 0\% & 0\% \\ 
+  Paraguay & Mario Abdo Benitez (2018-2023) & 59 & 56\% & 8\% & 12\% & 0\% & 15\% & 8\% & 0\% & 0\% \\ 
+  Paraguay & Nicanor Duarte (2003-2008) & 60 & 62\% & 8\% & 7\% & 0\% & 15\% & 7\% & 2\% & 0\% \\ 
+  Paraguay & Raul Cubas Grau (1998-1999) & 4 & 100\% & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% \\ 
+  Paraguay & Santiago Pena (2023-2099) & 62 & 32\% & 11\% & 15\% & 0\% & 26\% & 15\% & 2\% & 0\% \\ 
+  Peru & Alan Garcia (1985-1990; 2006-2011) & 40 & 50\% & 8\% & 10\% & 0\% & 12\% & 18\% & 0\% & 2\% \\ 
+  Peru & Alberto Fujimori (1990-2000) & 93 & 43\% & 9\% & 12\% & 3\% & 10\% & 20\% & 1\% & 2\% \\ 
+  Peru & Alejandro Toledo (2001-2006) & 61 & 43\% & 7\% & 18\% & 0\% & 23\% & 10\% & 0\% & 0\% \\ 
+  Peru & Dina Boluarte (2022-2025) & 17 & 18\% & 0\% & 24\% & 0\% & 41\% & 18\% & 0\% & 0\% \\ 
+  Peru & Jose Jeri (2025-2026) & 1 & 100\% & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% \\ 
+  Peru & Martin Vizcarra (2018-2020) & 16 & 50\% & 25\% & 12\% & 0\% & 12\% & 0\% & 0\% & 0\% \\ 
+  Peru & Ollanta Humala (2011-2016) & 67 & 34\% & 12\% & 9\% & 1\% & 28\% & 15\% & 0\% & 0\% \\ 
+  Peru & Pedro Castillo (2021-2022) & 10 & 60\% & 10\% & 30\% & 0\% & 0\% & 0\% & 0\% & 0\% \\ 
+  Peru & Pedro Pablo Kuczynski (2016-2018) & 14 & 50\% & 0\% & 14\% & 0\% & 21\% & 14\% & 0\% & 0\% \\ 
+  Surinam & Chandrikapersad Santokhi (2020-2025) & 45 & 20\% & 33\% & 16\% & 2\% & 13\% & 13\% & 2\% & 0\% \\ 
+  Surinam & Desi Bouterse (2010-2020) & 38 & 47\% & 37\% & 5\% & 0\% & 0\% & 5\% & 5\% & 0\% \\ 
+  Surinam & Jennifer Geerlings-Simons (2025-2099) & 3 & 33\% & 0\% & 33\% & 0\% & 33\% & 0\% & 0\% & 0\% \\ 
+  Surinam & Jules Wijdenbosch (1996-2000) & 15 & 0\% & 80\% & 7\% & 0\% & 0\% & 13\% & 0\% & 0\% \\ 
+  Surinam & Ronald Venetiaan (1991-1996; 2000-2010) & 40 & 18\% & 50\% & 12\% & 2\% & 5\% & 8\% & 5\% & 0\% \\ 
+  Uruguay & Jorge Batlle (2000-2005) & 56 & 45\% & 20\% & 20\% & 2\% & 5\% & 4\% & 5\% & 0\% \\ 
+  Uruguay & Jose Mujica (2010-2015) & 82 & 78\% & 6\% & 2\% & 0\% & 12\% & 1\% & 0\% & 0\% \\ 
+  Uruguay & Julio Maria Sanguinetti (1985-1990; 1995-2000) & 33 & 45\% & 15\% & 9\% & 0\% & 12\% & 12\% & 6\% & 0\% \\ 
+  Uruguay & Luis Alberto Lacalle (1990-1995) & 4 & 50\% & 0\% & 50\% & 0\% & 0\% & 0\% & 0\% & 0\% \\ 
+  Uruguay & Luis Lacalle Pou (2020-2025) & 36 & 53\% & 11\% & 14\% & 0\% & 8\% & 11\% & 3\% & 0\% \\ 
+  Uruguay & Tabare Vazquez (2005-2010; 2015-2020) & 110 & 51\% & 10\% & 8\% & 0\% & 17\% & 11\% & 1\% & 2\% \\ 
+  Uruguay & Yamandu Orsi (2025-2099) & 14 & 36\% & 14\% & 7\% & 0\% & 29\% & 0\% & 7\% & 7\% \\ 
+  Venezuela & Hugo Chavez (1999-2013) & 344 & 36\% & 26\% & 4\% & 1\% & 15\% & 15\% & 5\% & 0\% \\ 
+  Venezuela & Nicolas Maduro (2013-2099) & 117 & 19\% & 40\% & 3\% & 0\% & 9\% & 24\% & 4\% & 0\% \\ 
+  Venezuela & Rafael Caldera (1994-1999) & 33 & 45\% & 12\% & 12\% & 0\% & 30\% & 0\% & 0\% & 0\% \\ 
+   \hline
+\hline
+\label{tab:perfil-regional}
+\end{longtable}
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/09a_ranking_destinos_bilaterales.png}
@@ -454,6 +572,144 @@ Argentina & Carlos Saul Menem (1989-1999) & United States &  13 \\
 % o material suplementario. graficar_top_destinos("Nombre del mandatario") en
 % graficos_exploratorios.R genera el detalle de un presidente puntual si hace
 % falta un caso ilustrativo.
+
+\subsection{Viajes e ideolog\'ia presidencial}
+
+% Fuente de ideologia: base propia (04_BASE_FINAL/Base_Ideologia_Presidencial.xlsx),
+% que combina \citep{merkeForeignPolicyChange2020} (Merke, Reynoso \& Schenoni 2020,
+% 140 mandatos-termino, encuesta a expertos 1-7 en 8 dimensiones) con una
+% actualizacion propia ("CPE - Latinoamerica") que extiende la cobertura a 23
+% mandatos-termino mas recientes (hasta ~2020) con la misma metodologia. El
+% cruce contra los viajes usa un crosswalk propio de Leader_key + fecha exacta
+% de asuncion/reeleccion (no el "yearinoffice" de la base de ideologia, que en
+% varios casos no coincide con la fecha real de asuncion; ver
+% 08_ANALISIS_R/graficos_exploratorios.R, seccion 18, para el detalle completo
+% de cada fecha usada). Jeanine A\~nez (Bolivia) y Francisco Sagasti (Peru)
+% quedan fuera de este cruce -estan en la base de ideologia pero no tienen
+% viajes cargados ni fecha de mandato verificada en nuestra base; ver
+% 05_BITACORA/PENDIENTES\_VERIFICACION.txt-.
+
+Esta secci\'on examina si la orientaci\'on ideol\'ogica de cada presidente se asocia con la proporci\'on de sus viajes dirigidos a Am\'erica Latina. Se utilizan las ocho dimensiones relevadas por la encuesta a expertos de \citep{merkeForeignPolicyChange2020} (ideolog\'ia general, pol\'itica econ\'omica, geopol\'itica, estilo diplom\'atico, relaci\'on con Estados Unidos, soberan\'ia/autonom\'ia, modelo de desarrollo y reputaci\'on internacional), cada una en una escala de 1 a 7. La unidad de observaci\'on es el mandato-tramo (un presidente reelegido aporta una observaci\'on por cada per\'iodo, ya que su valor de ideolog\'ia puede cambiar de un mandato a otro); se exigi\'o un m\'inimo de 5 viajes por tramo para evitar que porcentajes calculados sobre muestras muy chicas distorsionen la comparaci\'on.
+
+% latex table generated in R 4.5.1 by xtable 1.8-8 package
+% Fri Aug 28 14:03:22 2026
+\begin{table}[ht]
+\centering
+\caption{Correlaci\'on de Pearson entre cada dimensi\'on de ideolog\'ia presidencial y el \% de viajes intra-latinoamericanos, por mandato-tramo (1994-2025).} 
+\label{tab:correlacion-ideologia}
+\begin{tabular}{lrrr}
+  \hline
+Dimension & r\_pearson & valor\_p & n\_mandatos \\ 
+  \hline
+Ideologia general (1=izq., 7=der.) & -0.14 & 0.24 &  73 \\ 
+  Politica economica & -0.15 & 0.21 &  73 \\ 
+  Geopolitica & -0.15 & 0.20 &  73 \\ 
+  Estilo diplomatico & -0.03 & 0.80 &  73 \\ 
+  Relacion con EE.UU. & -0.12 & 0.30 &  73 \\ 
+  Soberania / autonomia & 0.06 & 0.63 &  73 \\ 
+  Modelo de desarrollo & -0.09 & 0.44 &  73 \\ 
+  Reputacion internacional & -0.02 & 0.88 &  73 \\ 
+   \hline
+\end{tabular}
+\end{table}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/18c_ideologia_vs_intralatam.png}
+  \caption{Ideolog\'ia presidencial general (1 = izquierda, 7 = derecha) vs. \% de viajes intra-latinoamericanos, un punto por mandato-tramo. Este es el hallazgo central de \citep{merkeForeignPolicyChange2020} -la ideolog\'ia presidencial es la variable que m\'as explica el cambio de pol\'itica exterior- puesto a prueba espec\'ificamente para el enfoque regional de los viajes.}
+  \label{fig:ideologia-vs-intralatam}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/18d_todas_dimensiones_vs_intralatam.png}
+  \caption{Las ocho dimensiones de ideolog\'ia presidencial vs. \% de viajes intra-latinoamericanos.}
+  \label{fig:todas-dimensiones-intralatam}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/18e_usa_vs_pct_viajes_eeuu.png}
+  \caption{Validaci\'on cruzada: dimensi\'on ``relaci\'on con EE.\,UU.'' vs. \% de viajes efectivamente dirigidos a Estados Unidos (a diferencia de las Figuras~\ref{fig:ideologia-vs-intralatam} y~\ref{fig:todas-dimensiones-intralatam}, ac\'a la variable dependiente no es el \% intra-latinoamericano sino el \% a Estados Unidos, la que en principio deber\'ia relacionarse m\'as directamente con esta dimensi\'on puntual).}
+  \label{fig:usa-vs-pct-eeuu}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{../08_ANALISIS_R/outputs/18f_bloque_ideologico_vs_intralatam.png}
+  \caption{\% de viajes intra-latinoamericanos por bloque ideol\'ogico (izquierda 1-3, centro 3-5, derecha 5-7 en la dimensi\'on de ideolog\'ia general).}
+  \label{fig:bloque-ideologico-intralatam}
+\end{figure}
+
+% latex table generated in R 4.5.1 by xtable 1.8-8 package
+% Fri Aug 28 14:03:22 2026
+\begin{table}[ht]
+\centering
+\caption{Correlaci\'on de Pearson entre la ideolog\'ia general del presidente (1=izq., 7=der.) y el \% de sus viajes dirigidos a Estados Unidos, China y Europa, por mandato-tramo.} 
+\label{tab:correlacion-destinos}
+\begin{tabular}{lrrr}
+  \hline
+Destino & r\_pearson & valor\_p & n\_mandatos \\ 
+  \hline
+Estados Unidos & 0.54 & 0.00 &  73 \\ 
+  China & 0.03 & 0.78 &  73 \\ 
+  Europa & -0.06 & 0.63 &  73 \\ 
+   \hline
+\end{tabular}
+\end{table}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/18h_ideologia_vs_eeuu_china_europa.png}
+  \caption{Ideolog\'ia presidencial general vs. \% de viajes a Estados Unidos, China y Europa, un punto por mandato-tramo. A diferencia de la relaci\'on con el \% intra-latinoamericano (Figura~\ref{fig:ideologia-vs-intralatam}), ac\'a se compara la misma variable X (ideolog\'ia general) contra tres destinos extra-regionales distintos.}
+  \label{fig:ideologia-vs-eeuu-china-europa}
+\end{figure}
+
+\subsection{Homofilia ideol\'ogica en los destinos}
+
+% Pregunta original del usuario: los gobiernos de derecha, tienen mas chances
+% de visitar presidentes de la MISMA ideologia que los de izquierda, a lo
+% largo del tiempo? Ver 08_ANALISIS_R/graficos_exploratorios.R, seccion 19,
+% para el detalle metodologico completo. Se restringe a viajes Sudamerica ->
+% Sudamerica con origen Y destino matcheados a la base de ideologia (1627
+% viajes de 1994-2025).
+
+Esta subsecci\'on cambia la pregunta: en lugar de mirar la orientaci\'on regional agregada de los viajes, compara la ideolog\'ia del presidente que viaja con la del presidente del pa\'is visitado (an\'alisis di\'adico), restringido a viajes entre pa\'ises sudamericanos con ambos lados identificados en la base de ideolog\'ia. Se presentan dos versiones deliberadamente: una \textbf{sin controlar} (el \% crudo de viajes a la misma ideolog\'ia) y una \textbf{controlando} por la oferta -un \'indice observado/esperado que usa la composici\'on ideol\'ogica real de los destinos disponibles en cada per\'iodo de 5 a\~nos como referencia-. La distinci\'on importa: en per\'iodos donde la mayor\'ia de los gobiernos de la regi\'on comparten un mismo bloque ideol\'ogico (ej. la ``marea rosa'' 2004-2015), ese bloque muestra autom\'aticamente m\'as ``viajes a la misma ideolog\'ia'' solo porque hay m\'as destinos de ese tipo disponibles, no necesariamente porque haya una preferencia real por visitar pares.
+
+% latex table generated in R 4.5.1 by xtable 1.8-8 package
+% Fri Aug 28 14:03:22 2026
+\begin{table}[ht]
+\centering
+\caption{\'Indice de homofilia ideol\'ogica (viajes observados a la misma ideolog\'ia / viajes esperados bajo independencia estad\'istica), por bloque, 1994-2025. Un valor $>1$ indica m\'as visitas ``propias'' de las esperadas por azar.} 
+\label{tab:indice-homofilia}
+\begin{tabular}{lrrr}
+  \hline
+Bloque & Viajes\_observados & Viajes\_esperados & Indice\_homofilia \\ 
+  \hline
+Izquierda & 394 & 260.00 & 1.52 \\ 
+  Centro & 139 & 138.40 & 1.00 \\ 
+  Derecha & 212 & 153.60 & 1.38 \\ 
+   \hline
+\end{tabular}
+\end{table}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/19c_homofilia_sin_controlar.png}
+  \caption{\% de viajes a un presidente de la misma ideolog\'ia, por bloque de origen y per\'iodo, SIN controlar por la oferta ideol\'ogica disponible en cada momento.}
+  \label{fig:homofilia-sin-controlar}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/19e_homofilia_controlando.png}
+  \caption{\'Indice de homofilia (observado/esperado) por bloque de origen y per\'iodo, CONTROLANDO por la composici\'on ideol\'ogica real de los destinos disponibles en cada per\'iodo de 5 a\~nos. La l\'inea horizontal en 1 marca el nivel esperado por azar.}
+  \label{fig:homofilia-controlando}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{../08_ANALISIS_R/outputs/19f_matriz_origen_destino.png}
+  \caption{Matriz de bloque ideol\'ogico del origen (fila) vs. bloque ideol\'ogico del destino (columna), \% de fila, todo el per\'iodo 1994-2025 en conjunto.}
+  \label{fig:matriz-origen-destino}
+\end{figure}
 
 \section{Discusi\'on}
 % TODO. Conectar los hallazgos con el marco teorico: interpretar quiebres

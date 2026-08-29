@@ -78,6 +78,11 @@ leer_resumen <- function(archivo) {
   read.csv(file.path(RUTA_OUTPUTS, archivo), stringsAsFactors = FALSE)
 }
 
+fix_na_cuadro <- function(df) {
+  df[] <- lapply(df, function(x) { x[is.na(x)] <- ""; x })
+  df
+}
+
 # NOTA: esta variable se llamaba antes "ficha_general" pero en realidad leia
 # el CSV de totales por pais (00b) -nombre enganioso, corregido aca.
 viajes_totales_pais  <- leer_resumen("00b_viajes_totales_por_pais.csv")
@@ -87,7 +92,11 @@ ficha_general         <- tryCatch(leer_resumen("00a_ficha_general.csv"), error =
 resumen_estadisticos <- tryCatch(leer_resumen("00d_resumen_estadisticos_descriptivos.csv"), error = function(e) NULL)
 top5_destinos        <- tryCatch(leer_resumen("05_top5_destinos_por_presidente.csv"), error = function(e) NULL)
 tabla_destino_favorito <- tryCatch(leer_resumen("05c_destino_favorito_tabla.csv"), error = function(e) NULL)
+tabla_perfil_regional <- tryCatch(leer_resumen("16_perfil_regional_por_presidente.csv"), error = function(e) NULL)
 primera_visita        <- tryCatch(leer_resumen("06_primera_visita_por_presidente.csv"), error = function(e) NULL)
+tabla_correlacion_ideologia <- tryCatch(leer_resumen("18b_correlacion_ideologia_viajes_intralatam.csv"), error = function(e) NULL)
+tabla_correlacion_destinos  <- tryCatch(leer_resumen("18g_correlacion_ideologia_usa_china_europa.csv"), error = function(e) NULL)
+tabla_indice_homofilia      <- tryCatch(leer_resumen("19b_indice_homofilia_total.csv"), error = function(e) NULL)
 
 total_viajes <- sum(viajes_totales_pais$n_viajes)
 total_paises <- nrow(viajes_totales_pais)
@@ -232,6 +241,25 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
 
 \begin{figure}[H]
   \centering
+  \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/15_evolucion_por_bloque_destino.png}
+  \caption{Cantidad total de viajes por a\~no a cada bloque de destino: Sudam\'erica, Latinoam\'erica y el Caribe (incluye a Sudam\'erica), Estados Unidos, Europa, \'Africa y Asia. Sudam\'erica y Latinoam\'erica se superponen a prop\'osito -la segunda incluye a la primera-, para comparar el volumen dentro de la vecindad m\'as cercana contra el de la regi\'on en un sentido amplio. La l\'inea punteada marca el promedio anual de cada bloque (1994-2025).}
+  \label{fig:evolucion-por-bloque-destino}
+\end{figure}
+
+% Figura de estilo editorial (rompe a proposito la estetica Q1 del resto del
+% paper -titulo/subtitulo/fuente van adentro de la imagen-, replicando el
+% formato de un grafico de referencia de Diplometrics COLT que el usuario
+% pidio recrear con nuestra base propia). Promedio movil de 3 anios de la
+% participacion de viajes intra-latinoamericanos sobre el total.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{../08_ANALISIS_R/outputs/17_integracion_regional_en_retirada.png}
+  \caption{Participaci\'on de los viajes intra-latinoamericanos sobre el total de viajes presidenciales sudamericanos, promedio m\'ovil de 3 a\~nos, 1994-2025. Recreaci\'on propia -con nuestra base cruzada y verificada- de un gr\'afico de referencia de Diplometrics COLT (que usa datos crudos 1990-2025); no extendemos a 1990-1993 porque la cobertura verificada de varios pa\'ises de nuestra base no llega de forma confiable a esos a\~nos. El patr\'on se sostiene: pico y m\'inimo caen en los mismos a\~nos que en la fuente de referencia (2011 y 2025).}
+  \label{fig:integracion-regional-en-retirada}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
   \includegraphics[width=0.9\textwidth]{../08_ANALISIS_R/outputs/02_regiones_por_periodo.png}
   \caption{Prioridad regional de los viajes presidenciales, por per\'iodo (bloques de 5 a\~nos). Etiquetas de dato para Am\'erica Latina y el Caribe, Europa y Norteam\'erica.}
   \label{fig:regiones-periodo}
@@ -325,6 +353,24 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_destino_favorit
   \label{fig:sesgo-vecino-inmediato}
 \end{figure}
 
+% Cuadro complementario: el "perfil" de cada presidente resumido en todo el
+% periodo (a diferencia de la Figura anterior, que agrega por pais de
+% origen). Categorias mutuamente excluyentes (a diferencia de la
+% Figura~\ref{fig:evolucion-por-bloque-destino}, que las deja superpuestas a
+% proposito) para que cada fila sume 100%.
+<<tab-perfil-regional, echo=FALSE, results=tex>>=
+if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_perfil_regional)) {
+  print(xtable::xtable(fix_na_cuadro(tabla_perfil_regional),
+                        caption = "Perfil regional de cada mandatario: porcentaje de sus viajes (todo el mandato) a cada bloque de destino. Las categor\\'ias son mutuamente excluyentes y suman 100\\% por fila.",
+                        label = "tab:perfil-regional",
+                        size = "\\footnotesize"),
+        include.rownames = FALSE, caption.placement = "top",
+        tabular.environment = "longtable", floating = FALSE)
+} else {
+  cat("% Falta 16_perfil_regional_por_presidente.csv o el paquete 'xtable'.\n")
+}
+@
+
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/09a_ranking_destinos_bilaterales.png}
@@ -373,6 +419,124 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_destino_favorit
 % o material suplementario. graficar_top_destinos("Nombre del mandatario") en
 % graficos_exploratorios.R genera el detalle de un presidente puntual si hace
 % falta un caso ilustrativo.
+
+\subsection{Viajes e ideolog\'ia presidencial}
+
+% Fuente de ideologia: base propia (04_BASE_FINAL/Base_Ideologia_Presidencial.xlsx),
+% que combina \citep{merkeForeignPolicyChange2020} (Merke, Reynoso \& Schenoni 2020,
+% 140 mandatos-termino, encuesta a expertos 1-7 en 8 dimensiones) con una
+% actualizacion propia ("CPE - Latinoamerica") que extiende la cobertura a 23
+% mandatos-termino mas recientes (hasta ~2020) con la misma metodologia. El
+% cruce contra los viajes usa un crosswalk propio de Leader_key + fecha exacta
+% de asuncion/reeleccion (no el "yearinoffice" de la base de ideologia, que en
+% varios casos no coincide con la fecha real de asuncion; ver
+% 08_ANALISIS_R/graficos_exploratorios.R, seccion 18, para el detalle completo
+% de cada fecha usada). Jeanine A\~nez (Bolivia) y Francisco Sagasti (Peru)
+% quedan fuera de este cruce -estan en la base de ideologia pero no tienen
+% viajes cargados ni fecha de mandato verificada en nuestra base; ver
+% 05_BITACORA/PENDIENTES\_VERIFICACION.txt-.
+
+Esta secci\'on examina si la orientaci\'on ideol\'ogica de cada presidente se asocia con la proporci\'on de sus viajes dirigidos a Am\'erica Latina. Se utilizan las ocho dimensiones relevadas por la encuesta a expertos de \citep{merkeForeignPolicyChange2020} (ideolog\'ia general, pol\'itica econ\'omica, geopol\'itica, estilo diplom\'atico, relaci\'on con Estados Unidos, soberan\'ia/autonom\'ia, modelo de desarrollo y reputaci\'on internacional), cada una en una escala de 1 a 7. La unidad de observaci\'on es el mandato-tramo (un presidente reelegido aporta una observaci\'on por cada per\'iodo, ya que su valor de ideolog\'ia puede cambiar de un mandato a otro); se exigi\'o un m\'inimo de 5 viajes por tramo para evitar que porcentajes calculados sobre muestras muy chicas distorsionen la comparaci\'on.
+
+<<tab-correlacion-ideologia, echo=FALSE, results=tex>>=
+if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_ideologia)) {
+  print(xtable::xtable(tabla_correlacion_ideologia,
+                        caption = "Correlaci\\'on de Pearson entre cada dimensi\\'on de ideolog\\'ia presidencial y el \\% de viajes intra-latinoamericanos, por mandato-tramo (1994-2025).",
+                        label = "tab:correlacion-ideologia"),
+        include.rownames = FALSE, caption.placement = "top")
+} else {
+  cat("% Falta 18b_correlacion_ideologia_viajes_intralatam.csv o el paquete 'xtable'.\n")
+}
+@
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/18c_ideologia_vs_intralatam.png}
+  \caption{Ideolog\'ia presidencial general (1 = izquierda, 7 = derecha) vs. \% de viajes intra-latinoamericanos, un punto por mandato-tramo. Este es el hallazgo central de \citep{merkeForeignPolicyChange2020} -la ideolog\'ia presidencial es la variable que m\'as explica el cambio de pol\'itica exterior- puesto a prueba espec\'ificamente para el enfoque regional de los viajes.}
+  \label{fig:ideologia-vs-intralatam}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/18d_todas_dimensiones_vs_intralatam.png}
+  \caption{Las ocho dimensiones de ideolog\'ia presidencial vs. \% de viajes intra-latinoamericanos.}
+  \label{fig:todas-dimensiones-intralatam}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/18e_usa_vs_pct_viajes_eeuu.png}
+  \caption{Validaci\'on cruzada: dimensi\'on ``relaci\'on con EE.\,UU.'' vs. \% de viajes efectivamente dirigidos a Estados Unidos (a diferencia de las Figuras~\ref{fig:ideologia-vs-intralatam} y~\ref{fig:todas-dimensiones-intralatam}, ac\'a la variable dependiente no es el \% intra-latinoamericano sino el \% a Estados Unidos, la que en principio deber\'ia relacionarse m\'as directamente con esta dimensi\'on puntual).}
+  \label{fig:usa-vs-pct-eeuu}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{../08_ANALISIS_R/outputs/18f_bloque_ideologico_vs_intralatam.png}
+  \caption{\% de viajes intra-latinoamericanos por bloque ideol\'ogico (izquierda 1-3, centro 3-5, derecha 5-7 en la dimensi\'on de ideolog\'ia general).}
+  \label{fig:bloque-ideologico-intralatam}
+\end{figure}
+
+<<tab-correlacion-destinos, echo=FALSE, results=tex>>=
+if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_destinos)) {
+  print(xtable::xtable(tabla_correlacion_destinos,
+                        caption = "Correlaci\\'on de Pearson entre la ideolog\\'ia general del presidente (1=izq., 7=der.) y el \\% de sus viajes dirigidos a Estados Unidos, China y Europa, por mandato-tramo.",
+                        label = "tab:correlacion-destinos"),
+        include.rownames = FALSE, caption.placement = "top")
+} else {
+  cat("% Falta 18g_correlacion_ideologia_usa_china_europa.csv o el paquete 'xtable'.\n")
+}
+@
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/18h_ideologia_vs_eeuu_china_europa.png}
+  \caption{Ideolog\'ia presidencial general vs. \% de viajes a Estados Unidos, China y Europa, un punto por mandato-tramo. A diferencia de la relaci\'on con el \% intra-latinoamericano (Figura~\ref{fig:ideologia-vs-intralatam}), ac\'a se compara la misma variable X (ideolog\'ia general) contra tres destinos extra-regionales distintos.}
+  \label{fig:ideologia-vs-eeuu-china-europa}
+\end{figure}
+
+\subsection{Homofilia ideol\'ogica en los destinos}
+
+% Pregunta original del usuario: los gobiernos de derecha, tienen mas chances
+% de visitar presidentes de la MISMA ideologia que los de izquierda, a lo
+% largo del tiempo? Ver 08_ANALISIS_R/graficos_exploratorios.R, seccion 19,
+% para el detalle metodologico completo. Se restringe a viajes Sudamerica ->
+% Sudamerica con origen Y destino matcheados a la base de ideologia (1627
+% viajes de 1994-2025).
+
+Esta subsecci\'on cambia la pregunta: en lugar de mirar la orientaci\'on regional agregada de los viajes, compara la ideolog\'ia del presidente que viaja con la del presidente del pa\'is visitado (an\'alisis di\'adico), restringido a viajes entre pa\'ises sudamericanos con ambos lados identificados en la base de ideolog\'ia. Se presentan dos versiones deliberadamente: una \textbf{sin controlar} (el \% crudo de viajes a la misma ideolog\'ia) y una \textbf{controlando} por la oferta -un \'indice observado/esperado que usa la composici\'on ideol\'ogica real de los destinos disponibles en cada per\'iodo de 5 a\~nos como referencia-. La distinci\'on importa: en per\'iodos donde la mayor\'ia de los gobiernos de la regi\'on comparten un mismo bloque ideol\'ogico (ej. la ``marea rosa'' 2004-2015), ese bloque muestra autom\'aticamente m\'as ``viajes a la misma ideolog\'ia'' solo porque hay m\'as destinos de ese tipo disponibles, no necesariamente porque haya una preferencia real por visitar pares.
+
+<<tab-indice-homofilia, echo=FALSE, results=tex>>=
+if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_indice_homofilia)) {
+  print(xtable::xtable(tabla_indice_homofilia,
+                        caption = "\\'Indice de homofilia ideol\\'ogica (viajes observados a la misma ideolog\\'ia / viajes esperados bajo independencia estad\\'istica), por bloque, 1994-2025. Un valor $>1$ indica m\\'as visitas ``propias'' de las esperadas por azar.",
+                        label = "tab:indice-homofilia"),
+        include.rownames = FALSE, caption.placement = "top")
+} else {
+  cat("% Falta 19b_indice_homofilia_total.csv o el paquete 'xtable'.\n")
+}
+@
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/19c_homofilia_sin_controlar.png}
+  \caption{\% de viajes a un presidente de la misma ideolog\'ia, por bloque de origen y per\'iodo, SIN controlar por la oferta ideol\'ogica disponible en cada momento.}
+  \label{fig:homofilia-sin-controlar}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/19e_homofilia_controlando.png}
+  \caption{\'Indice de homofilia (observado/esperado) por bloque de origen y per\'iodo, CONTROLANDO por la composici\'on ideol\'ogica real de los destinos disponibles en cada per\'iodo de 5 a\~nos. La l\'inea horizontal en 1 marca el nivel esperado por azar.}
+  \label{fig:homofilia-controlando}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{../08_ANALISIS_R/outputs/19f_matriz_origen_destino.png}
+  \caption{Matriz de bloque ideol\'ogico del origen (fila) vs. bloque ideol\'ogico del destino (columna), \% de fila, todo el per\'iodo 1994-2025 en conjunto.}
+  \label{fig:matriz-origen-destino}
+\end{figure}
 
 \section{Discusi\'on}
 % TODO. Conectar los hallazgos con el marco teorico: interpretar quiebres

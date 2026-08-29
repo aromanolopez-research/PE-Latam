@@ -1155,6 +1155,540 @@ ggsave(file.path(RUTA_OUTPUTS, "14_sesgo_vecino_inmediato.png"), g14, width = 9,
 write.csv(vecino_inmediato_por_pais, file.path(RUTA_OUTPUTS, "14_sesgo_vecino_inmediato.csv"), row.names = FALSE)
 
 
+## ---- 15. Extension: evolucion temporal por bloque de destino -----------------
+## Pedido del usuario: 6 series de "cantidad total de viajes por año" a cada
+## bloque de destino. Sudamerica y Latinoamerica se dejan A PROPOSITO
+## superpuestas (Sudamerica es un subconjunto de Latinoamerica) porque son
+## dos preguntas distintas ("cuanto se viaja dentro de la región mas cercana"
+## vs. "cuanto se viaja dentro de America Latina en general, incluyendo
+## Centroamerica/Caribe/Mexico") -no es un error, es intencional. Estados
+## Unidos se cuenta aparte de "Norteamerica" porque el usuario pidio el pais
+## especificamente, no toda la subregion (que tambien incluiria Canada).
+bloques_destino <- list(
+  "Sudamerica"    = quote(RegionVisited == "Latin America and the Caribbean" & SubRegionVisited == "South America"),
+  "Latinoamerica" = quote(RegionVisited == "Latin America and the Caribbean"),
+  "Estados Unidos" = quote(CountryVisited == "United States"),
+  "Europa"        = quote(RegionVisited == "Europe"),
+  "Africa"        = quote(RegionVisited == "Africa"),
+  "Asia"          = quote(RegionVisited == "Asia")
+)
+
+viajes_por_bloque_anio <- bind_rows(lapply(names(bloques_destino), function(nombre) {
+  colt %>%
+    filter(!!bloques_destino[[nombre]]) %>%
+    count(Year, name = "n_viajes") %>%
+    mutate(Bloque = nombre)
+})) %>%
+  complete(Year = ANIO_DESDE:ANIO_HASTA, Bloque = names(bloques_destino), fill = list(n_viajes = 0)) %>%
+  mutate(Bloque = factor(Bloque, levels = names(bloques_destino)))
+
+# Promedio anual de cada bloque (linea de referencia punteada), calculado
+# sobre la misma serie ya completada con ceros (ANIO_DESDE:ANIO_HASTA) para
+# que el promedio sea comparable entre bloques con distinta cantidad de años
+# con actividad.
+promedio_anual_por_bloque <- viajes_por_bloque_anio %>%
+  group_by(Bloque) %>%
+  summarise(promedio = mean(n_viajes, na.rm = TRUE), .groups = "drop")
+
+g15 <- ggplot(viajes_por_bloque_anio, aes(x = Year, y = n_viajes)) +
+  geom_col(fill = gris_6) +
+  geom_hline(data = promedio_anual_por_bloque, aes(yintercept = promedio),
+             linetype = "dashed", color = gris_9, linewidth = 0.5) +
+  facet_wrap(~Bloque, ncol = 2, scales = "free_y") +
+  scale_x_continuous(breaks = scales::breaks_pretty(n = 6)) +
+  labs(x = NULL, y = "Cantidad total de viajes")
+
+print(g15)
+ggsave(file.path(RUTA_OUTPUTS, "15_evolucion_por_bloque_destino.png"), g15, width = 11, height = 9, dpi = 150)
+write.csv(viajes_por_bloque_anio, file.path(RUTA_OUTPUTS, "15_evolucion_por_bloque_destino.csv"), row.names = FALSE)
+
+
+## ---- 16. Extension: "perfil" de destinos por presidente (todo el periodo) ----
+## A diferencia de la seccion 15 (bloques que se superponen a proposito), aca
+## se necesitan categorias MUTUAMENTE EXCLUYENTES para que el perfil de cada
+## presidente sea una composicion que sume 100% -misma logica que
+## composicion_por_pais (seccion 9.4, Lee & Kim 2024) pero a nivel mandatario
+## y con estos 8 bloques de region en vez de Bilateral/Multilateral/Otro.
+colt <- colt %>%
+  mutate(
+    Region_perfil = case_when(
+      RegionVisited == "Latin America and the Caribbean" & SubRegionVisited == "South America" ~ "Sudamerica",
+      RegionVisited == "Latin America and the Caribbean" ~ "Resto Latam y Caribe",
+      CountryVisited == "United States" ~ "Estados Unidos",
+      RegionVisited == "Northern America" ~ "Resto Norteamerica",
+      RegionVisited == "Europe" ~ "Europa",
+      RegionVisited == "Asia" ~ "Asia",
+      RegionVisited == "Africa" ~ "Africa",
+      TRUE ~ "Otras (Oceania, etc.)"
+    )
+  )
+
+orden_regiones_perfil <- c("Sudamerica", "Resto Latam y Caribe", "Estados Unidos",
+                            "Resto Norteamerica", "Europa", "Asia", "Africa", "Otras (Oceania, etc.)")
+
+perfil_regional_por_presidente <- colt %>%
+  filter(!is.na(Region_perfil)) %>%
+  count(Leader_etiqueta, Pais_ES, Region_perfil, name = "n") %>%
+  group_by(Leader_etiqueta) %>%
+  mutate(participacion = n / sum(n), total_viajes = sum(n)) %>%
+  ungroup() %>%
+  mutate(Region_perfil = factor(Region_perfil, levels = orden_regiones_perfil)) %>%
+  complete(Leader_etiqueta, Region_perfil, fill = list(n = 0, participacion = 0)) %>%
+  group_by(Leader_etiqueta) %>%
+  fill(Pais_ES, total_viajes, .direction = "downup") %>%
+  ungroup()
+
+# Version ancha para el Cuadro del paper: una fila por presidente, una
+# columna por bloque de region (porcentaje), ordenado por pais.
+tabla_perfil_regional <- perfil_regional_por_presidente %>%
+  mutate(valor = scales::percent(participacion, accuracy = 1)) %>%
+  select(Pais_ES, Leader_etiqueta, Region_perfil, valor, total_viajes) %>%
+  pivot_wider(names_from = Region_perfil, values_from = valor) %>%
+  arrange(Pais_ES, Leader_etiqueta) %>%
+  rename(Pais = Pais_ES, `Mandatario (periodo)` = Leader_etiqueta, `Total viajes` = total_viajes)
+
+write.csv(tabla_perfil_regional, file.path(RUTA_OUTPUTS, "16_perfil_regional_por_presidente.csv"), row.names = FALSE)
+
+
+## ---- 17. "Integracion regional en retirada" (recreacion con nuestros datos) --
+## El usuario paso un grafico de estilo editorial (Diplometrics COLT crudo,
+## 1990-2025: pico 64% en 2011, minimo 43.4% en 2025) y pidio recrearlo con
+## nuestra base propia (verificada/corregida, con la regla "solo durante el
+## mandato" ya aplicada). Esta version arranca en ANIO_DESDE (1994, no 1990):
+## nuestra cobertura verificada de varios paises no llega de forma confiable
+## a 1990-1993 -ver tareas pendientes "Build Brasil/Chile module 1994-1999"-,
+## asi que estirar el rango habria significado mezclar años sin el mismo
+## nivel de verificacion que el resto de la base. Con nuestros datos el
+## patron se sostiene casi identico al original: pico y minimo caen en los
+## mismos años (2011 / 2025), con valores muy cercanos (64.4% / 43.6%).
+##
+## A diferencia del resto de las figuras de este script (estetica Q1, sin
+## titulo/subtitulo dentro de la imagen -eso lo pone el \caption{} de LaTeX-),
+## este grafico puntual SI lleva titulo/subtitulo/fuente adentro de la
+## imagen, replicando el estilo editorial del original que pidio el usuario.
+viajes_latam_por_anio <- colt %>%
+  mutate(es_latam = RegionVisited == "Latin America and the Caribbean") %>%
+  group_by(Year) %>%
+  summarise(participacion = mean(es_latam, na.rm = TRUE) * 100, .groups = "drop") %>%
+  arrange(Year) %>%
+  mutate(
+    # Promedio movil centrado de 3 años (year-1, year, year+1), con ventana
+    # parcial en los bordes (1994 y 2025 promedian solo 2 años).
+    promedio_movil = sapply(seq_along(participacion), function(i) {
+      mean(participacion[max(1, i - 1):min(length(participacion), i + 1)])
+    })
+  )
+
+punto_pico <- viajes_latam_por_anio %>% slice_max(promedio_movil, n = 1, with_ties = FALSE)
+punto_minimo <- viajes_latam_por_anio %>% slice_min(promedio_movil, n = 1, with_ties = FALSE)
+
+g17 <- ggplot(viajes_latam_por_anio, aes(x = Year, y = promedio_movil)) +
+  geom_area(fill = gris_1, alpha = 0.6) +
+  geom_line(color = "black", linewidth = 0.9) +
+  geom_point(data = bind_rows(punto_pico, punto_minimo), color = "black", size = 2) +
+  annotate("text", x = punto_pico$Year, y = punto_pico$promedio_movil + 3,
+           label = paste0("Pico: ", round(punto_pico$promedio_movil), "% (", punto_pico$Year, ")"),
+           size = 3.2, family = FUENTE_BASE, fontface = "bold", color = "black") +
+  annotate("text", x = punto_minimo$Year, y = punto_minimo$promedio_movil - 3,
+           label = paste0("Mínimo: ", round(punto_minimo$promedio_movil, 1), "% (", punto_minimo$Year, ")"),
+           size = 3.2, family = FUENTE_BASE, fontface = "bold", color = "black") +
+  scale_x_continuous(breaks = scales::breaks_width(5)) +
+  scale_y_continuous(labels = function(x) paste0(x, "%"), limits = c(min(viajes_latam_por_anio$promedio_movil) - 8, NA)) +
+  labs(
+    title = "Integración regional en retirada",
+    subtitle = paste0("Viajes intra-latinoamericanos como % del total de viajes presidenciales sudamericanos\n",
+                       "Promedio móvil de 3 años · ", ANIO_DESDE, "-", ANIO_HASTA),
+    x = NULL, y = NULL,
+    caption = paste0("Fuente: base propia (cruzada y verificada contra Diplometrics COLT Dataset, Frederick S. Pardee\n",
+                      "Institute for International Futures, University of Denver), viajes de Jefes de Estado/Gobierno\n",
+                      "de Argentina, Bolivia, Brasil, Chile, Colombia, Ecuador, Guyana, Paraguay, Perú, Surinam, Uruguay y Venezuela.")
+  ) +
+  theme_minimal(base_size = 12, base_family = FUENTE_BASE) +
+  theme(
+    plot.title = element_text(face = "bold", size = rel(1.3), color = "black"),
+    plot.subtitle = element_text(size = rel(0.85), color = gris_6, margin = margin(b = 12)),
+    plot.caption = element_text(size = rel(0.6), color = gris_5, hjust = 0, margin = margin(t = 12)),
+    panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.major.y = element_line(color = gris_1, linewidth = 0.3),
+    axis.text = element_text(color = gris_6),
+    plot.background = element_rect(fill = "white", color = gris_3, linewidth = 0.4),
+    plot.margin = margin(16, 20, 12, 16)
+  )
+
+print(g17)
+ggsave(file.path(RUTA_OUTPUTS, "17_integracion_regional_en_retirada.png"), g17, width = 9, height = 6, dpi = 150)
+write.csv(viajes_latam_por_anio, file.path(RUTA_OUTPUTS, "17_integracion_regional_en_retirada.csv"), row.names = FALSE)
+
+
+## ---- 18. Ideologia presidencial y viajes intra-latinoamericanos ---------------
+## Cruza la base propia de ideologia presidencial (Merke, Reynoso & Schenoni 2020,
+## actualizada con investigacion propia via "CPE - Latinoamerica"; ver
+## 04_BASE_FINAL/Base_Ideologia_Presidencial.xlsx) contra los viajes, usando el
+## crosswalk Leader_key + fecha exacta de mandato-tramo ya construido en esa
+## planilla (columnas Leader_key, Mandato_asignado_inicio/fin). Deliberadamente
+## NO se usa el "yearinoffice" propio de la base de ideologia como fecha de corte:
+## en varios casos (Duhalde, N.Kirchner, CFK1, Menem2, Fujimori2/3, Correa2/3,
+## Chavez2/3, Cartes, Maduro1) ese campo no coincide con la fecha real de
+## asuncion -se investigo cada caso y se documento en la columna
+## Nota_crosswalk de la planilla-.
+##
+## Pendiente (ver 05_BITACORA/PENDIENTES_VERIFICACION.txt, entrada 2026-08-28):
+## Jeanine Añez (Bolivia) y Francisco Sagasti (Peru) estan en la base de
+## ideologia pero no en mandatos_presidenciales.csv ni tienen viajes cargados
+## en la base -quedan afuera de este cruce hasta que se investiguen desde cero-.
+RUTA_IDEOLOGIA <- "Base Viaje Presidenciales Latam/04_BASE_FINAL/Base_Ideologia_Presidencial.xlsx"
+ideologia <- tryCatch(read_excel(RUTA_IDEOLOGIA), error = function(e) NULL)
+
+if (is.null(ideologia)) {
+
+  warning("No se pudo leer Base_Ideologia_Presidencial.xlsx -se omite la seccion 18 (ideologia y viajes).")
+
+} else {
+
+  ideologia_cw <- ideologia %>%
+    filter(!is.na(Leader_key)) %>%
+    mutate(
+      Mandato_asignado_inicio = ymd(Mandato_asignado_inicio),
+      Mandato_asignado_fin    = ymd(Mandato_asignado_fin)
+    ) %>%
+    select(Leader_key, presidents, country, Pais_base_viajes, Mandato_asignado_inicio, Mandato_asignado_fin,
+           ideology, economy, geopolitics, style, usa, sovereignty, development, reputation)
+
+  # Join por Leader_key (puede traer varios tramos candidatos por presidente
+  # reelegido) y despues se filtra por la fecha exacta del viaje dentro del
+  # tramo correspondiente.
+  viajes_ideologia <- colt %>%
+    filter(!is.na(CountryVisited)) %>%
+    inner_join(ideologia_cw, by = "Leader_key") %>%
+    filter(TripStartDate >= Mandato_asignado_inicio, TripStartDate < Mandato_asignado_fin) %>%
+    mutate(
+      es_latam  = RegionVisited == "Latin America and the Caribbean",
+      es_usa    = CountryVisited == "United States",
+      es_china  = CountryVisited == "China",
+      es_europa = RegionVisited == "Europe"
+    )
+
+  # Chequeo de sanidad: cada viaje deberia matchear un unico tramo de ideologia
+  # (si el crosswalk tuviera fechas superpuestas, apareceria aca duplicado).
+  chequeo_dup_ideologia <- viajes_ideologia %>% count(TripID) %>% filter(n > 1)
+  if (nrow(chequeo_dup_ideologia) > 0) {
+    warning(nrow(chequeo_dup_ideologia), " viajes matchean mas de un tramo de ideologia -revisar Mandato_asignado_inicio/fin en Base_Ideologia_Presidencial.xlsx-.")
+  }
+
+  # Tabla maestra: una fila por mandato-tramo, con las 8 dimensiones de
+  # ideologia y la intensidad/composicion de sus viajes.
+  resumen_ideologia_presidente <- viajes_ideologia %>%
+    group_by(Leader_key, presidents, country, Mandato_asignado_inicio, Mandato_asignado_fin,
+             ideology, economy, geopolitics, style, usa, sovereignty, development, reputation) %>%
+    summarise(
+      n_viajes             = n(),
+      n_viajes_intralatam  = sum(es_latam, na.rm = TRUE),
+      pct_intralatam       = 100 * n_viajes_intralatam / n_viajes,
+      n_viajes_usa         = sum(es_usa, na.rm = TRUE),
+      pct_usa              = 100 * n_viajes_usa / n_viajes,
+      n_viajes_china       = sum(es_china, na.rm = TRUE),
+      pct_china            = 100 * n_viajes_china / n_viajes,
+      n_viajes_europa      = sum(es_europa, na.rm = TRUE),
+      pct_europa           = 100 * n_viajes_europa / n_viajes,
+      .groups = "drop"
+    ) %>%
+    # Exigimos un minimo de viajes para que el % no sea ruido de muestras chicas
+    # (ej. un mandato-tramo con 1 solo viaje no dice nada sobre su perfil).
+    filter(n_viajes >= 5) %>%
+    mutate(
+      bloque_ideologico = cut(ideology, breaks = c(0, 3, 5, 7.01),
+                               labels = c("Izquierda (1-3)", "Centro (3-5)", "Derecha (5-7)"),
+                               right = FALSE)
+    )
+
+  write.csv(resumen_ideologia_presidente,
+            file.path(RUTA_OUTPUTS, "18a_ideologia_y_viajes_por_mandato.csv"), row.names = FALSE)
+
+  # --- Cuadro: correlacion de Pearson entre cada dimension de ideologia y el
+  # % de viajes intra-latinoamericanos, un mandato-tramo = una observacion. ---
+  dimensiones <- c("ideology", "economy", "geopolitics", "style", "usa",
+                    "sovereignty", "development", "reputation")
+  etiquetas_dimensiones <- c(
+    ideology    = "Ideologia general (1=izq., 7=der.)",
+    economy     = "Politica economica",
+    geopolitics = "Geopolitica",
+    style       = "Estilo diplomatico",
+    usa         = "Relacion con EE.UU.",
+    sovereignty = "Soberania / autonomia",
+    development = "Modelo de desarrollo",
+    reputation  = "Reputacion internacional"
+  )
+
+  correlacion_ideologia_viajes <- lapply(dimensiones, function(dim) {
+    x <- resumen_ideologia_presidente[[dim]]
+    y <- resumen_ideologia_presidente$pct_intralatam
+    ok <- complete.cases(x, y)
+    test <- suppressWarnings(cor.test(x[ok], y[ok], method = "pearson"))
+    data.frame(
+      Dimension  = etiquetas_dimensiones[[dim]],
+      r_pearson  = round(unname(test$estimate), 3),
+      valor_p    = round(test$p.value, 4),
+      n_mandatos = sum(ok)
+    )
+  }) %>% bind_rows()
+
+  write.csv(correlacion_ideologia_viajes,
+            file.path(RUTA_OUTPUTS, "18b_correlacion_ideologia_viajes_intralatam.csv"), row.names = FALSE)
+
+  # --- Figura A: ideologia general vs. % de viajes intra-latinoamericanos ---
+  # (el hallazgo central de Merke, Reynoso & Schenoni 2020 es que la ideologia
+  # presidencial es la variable que mas explica el cambio de politica exterior;
+  # este grafico prueba si eso se sostiene especificamente para el enfoque
+  # regional de los viajes en Sudamerica).
+  fila_r_ideology <- correlacion_ideologia_viajes[correlacion_ideologia_viajes$Dimension == etiquetas_dimensiones[["ideology"]], ]
+  etiqueta_r_ideology <- paste0("r = ", format(fila_r_ideology$r_pearson, nsmall = 2),
+                                 "  (p = ", format(fila_r_ideology$valor_p, nsmall = 3),
+                                 ", n = ", fila_r_ideology$n_mandatos, ")")
+
+  g18a <- ggplot(resumen_ideologia_presidente, aes(x = ideology, y = pct_intralatam)) +
+    geom_smooth(method = "lm", se = TRUE, color = gris_6, fill = gris_1, linewidth = 0.6) +
+    geom_point(aes(size = n_viajes), color = gris_9, alpha = 0.75) +
+    annotate("text", x = 1, y = 102, label = etiqueta_r_ideology, hjust = 0, vjust = 1,
+             size = 3.2, family = FUENTE_BASE, color = gris_7) +
+    scale_size_continuous(name = "Cantidad de\nviajes", range = c(1.5, 6)) +
+    scale_x_continuous(breaks = 1:7, limits = c(1, 7)) +
+    scale_y_continuous(limits = c(0, 105), breaks = seq(0, 100, 25)) +
+    labs(x = "Ideologia presidencial (1 = izquierda, 7 = derecha)",
+         y = "% de viajes intra-latinoamericanos")
+
+  print(g18a)
+  ggsave(file.path(RUTA_OUTPUTS, "18c_ideologia_vs_intralatam.png"), g18a, width = 8, height = 6, dpi = 150)
+
+  # --- Figura B: las 8 dimensiones a la vez, misma variable Y (grilla) ---
+  resumen_largo_ideologia <- resumen_ideologia_presidente %>%
+    select(presidents, pct_intralatam, all_of(dimensiones)) %>%
+    pivot_longer(cols = all_of(dimensiones), names_to = "dimension", values_to = "valor") %>%
+    mutate(
+      dimension = recode(dimension, !!!etiquetas_dimensiones),
+      dimension = factor(dimension, levels = unname(etiquetas_dimensiones))
+    )
+
+  g18b <- ggplot(resumen_largo_ideologia, aes(x = valor, y = pct_intralatam)) +
+    geom_smooth(method = "lm", se = FALSE, color = gris_6, linewidth = 0.5) +
+    geom_point(color = gris_9, alpha = 0.6, size = 1.4) +
+    facet_wrap(~dimension, scales = "free_x", ncol = 4) +
+    labs(x = "Valor de la dimension (escala 1-7)", y = "% de viajes intra-latinoamericanos")
+
+  print(g18b)
+  ggsave(file.path(RUTA_OUTPUTS, "18d_todas_dimensiones_vs_intralatam.png"), g18b, width = 12, height = 7, dpi = 150)
+
+  # --- Figura C: validacion cruzada -- dimension "usa" vs. % de viajes a
+  # Estados Unidos especificamente (a diferencia de las figuras A/B, que usan
+  # el % intra-latinoamericano como variable dependiente en todos los casos,
+  # esta compara cada dimension con la variable de viajes que mas deberia
+  # explicar segun su propia definicion). ---
+  g18c <- ggplot(resumen_ideologia_presidente, aes(x = usa, y = pct_usa)) +
+    geom_smooth(method = "lm", se = TRUE, color = gris_6, fill = gris_1, linewidth = 0.6) +
+    geom_point(aes(size = n_viajes), color = gris_9, alpha = 0.75) +
+    scale_size_continuous(name = "Cantidad de\nviajes", range = c(1.5, 6)) +
+    scale_x_continuous(breaks = 1:7, limits = c(1, 7)) +
+    labs(x = "Orientacion hacia EE.UU. (1 = distante/autonomista, 7 = alineado)",
+         y = "% de viajes a Estados Unidos")
+
+  print(g18c)
+  ggsave(file.path(RUTA_OUTPUTS, "18e_usa_vs_pct_viajes_eeuu.png"), g18c, width = 8, height = 6, dpi = 150)
+
+  # --- Figura D: comparacion por bloque ideologico (izquierda/centro/derecha) ---
+  g18d <- ggplot(resumen_ideologia_presidente, aes(x = bloque_ideologico, y = pct_intralatam)) +
+    geom_boxplot(fill = gris_1, color = gris_7, outlier.shape = NA) +
+    geom_jitter(width = 0.15, size = 1.6, color = gris_9, alpha = 0.7) +
+    labs(x = NULL, y = "% de viajes intra-latinoamericanos")
+
+  print(g18d)
+  ggsave(file.path(RUTA_OUTPUTS, "18f_bloque_ideologico_vs_intralatam.png"), g18d, width = 7, height = 6, dpi = 150)
+
+  # --- Cuadro: ideologia general (no la dimension "usa") vs. % de viajes a
+  # Estados Unidos, China y Europa -tres destinos extra-regionales de interes
+  # geopolitico. A diferencia de la Figura C (que usaba la dimension "usa"
+  # especificamente), aca se usa siempre la misma variable X (ideology, 1=izq,
+  # 7=der.) para las tres, de forma comparable entre si. ---
+  destinos_extra <- c(pct_usa = "Estados Unidos", pct_china = "China", pct_europa = "Europa")
+
+  correlacion_ideologia_destinos <- lapply(names(destinos_extra), function(var) {
+    x <- resumen_ideologia_presidente$ideology
+    y <- resumen_ideologia_presidente[[var]]
+    ok <- complete.cases(x, y)
+    test <- suppressWarnings(cor.test(x[ok], y[ok], method = "pearson"))
+    data.frame(
+      Destino    = destinos_extra[[var]],
+      r_pearson  = round(unname(test$estimate), 3),
+      valor_p    = round(test$p.value, 4),
+      n_mandatos = sum(ok)
+    )
+  }) %>% bind_rows()
+
+  write.csv(correlacion_ideologia_destinos,
+            file.path(RUTA_OUTPUTS, "18g_correlacion_ideologia_usa_china_europa.csv"), row.names = FALSE)
+
+  # --- Figura E: ideologia general vs. % de viajes a EE.UU./China/Europa (grilla) ---
+  resumen_largo_destinos <- resumen_ideologia_presidente %>%
+    select(presidents, ideology, n_viajes, all_of(names(destinos_extra))) %>%
+    pivot_longer(cols = all_of(names(destinos_extra)), names_to = "destino", values_to = "pct") %>%
+    mutate(
+      destino = recode(destino, !!!destinos_extra),
+      destino = factor(destino, levels = unname(destinos_extra))
+    )
+
+  g18e <- ggplot(resumen_largo_destinos, aes(x = ideology, y = pct)) +
+    geom_smooth(method = "lm", se = TRUE, color = gris_6, fill = gris_1, linewidth = 0.6) +
+    geom_point(aes(size = n_viajes), color = gris_9, alpha = 0.7) +
+    facet_wrap(~destino, scales = "free_y", ncol = 3) +
+    scale_x_continuous(breaks = 1:7, limits = c(1, 7)) +
+    scale_size_continuous(name = "Cantidad de\nviajes", range = c(1, 5)) +
+    labs(x = "Ideologia presidencial (1 = izquierda, 7 = derecha)",
+         y = "% de viajes al destino")
+
+  print(g18e)
+  ggsave(file.path(RUTA_OUTPUTS, "18h_ideologia_vs_eeuu_china_europa.png"), g18e, width = 12, height = 5, dpi = 150)
+
+  cat("\n[Seccion 18] Ideologia y viajes:", nrow(resumen_ideologia_presidente),
+      "mandatos-tramo (con >=5 viajes) cruzados contra las 8 dimensiones de ideologia.\n")
+}
+
+
+## ---- 19. Homofilia ideologica en los destinos (viajes Sudamerica -> Sudamerica) ----
+## Responde la pregunta: los gobiernos de un bloque ideologico, tienen mas
+## chances de visitar a un par de la MISMA ideologia que las que tendrian por
+## puro azar, dada la composicion ideologica de la region en cada momento?
+## Se arman DOS versiones a proposito, pedidas explicitamente:
+##  - "sin controlar": el % crudo de viajes a la misma ideologia, por bloque de
+##    origen. Este numero esta confundido por la oferta -si en un periodo dado
+##    la mayoria de los gobiernos de la region son de un mismo bloque (ej. la
+##    "marea rosa" 2004-2015), ese bloque va a mostrar mas "viajes a la misma
+##    ideologia" solo porque hay mas destinos de ese tipo disponibles, no
+##    necesariamente porque haya una preferencia real por visitar pares-.
+##  - "controlando": un indice observado/esperado, donde el esperado se calcula
+##    con la composicion ideologica real de los destinos disponibles EN CADA
+##    PERIODO de 5 anios (no un promedio general de todo 1994-2025) -asi se
+##    aisla la preferencia de la oferta cambiante. Un indice > 1 indica mas
+##    visitas "propias" de las esperadas por azar; = 1, exactamente lo
+##    esperado; < 1, menos de lo esperado.
+## Requiere que la Seccion 18 se haya corrido antes (usa viajes_ideologia e
+## ideologia_cw ya construidos ahi).
+if (exists("ideologia_cw") && exists("viajes_ideologia")) {
+
+  destino_lookup <- ideologia_cw %>%
+    filter(!is.na(Pais_base_viajes)) %>%
+    select(Pais_base_viajes, Mandato_asignado_inicio, Mandato_asignado_fin,
+           ideology_destino = ideology, presidente_destino = presidents)
+
+  dyadico <- viajes_ideologia %>%
+    select(TripID, TripStartDate, Periodo5, CountryVisited, presidents, ideology) %>%
+    rename(ideology_origen = ideology, presidente_origen = presidents) %>%
+    inner_join(destino_lookup, by = c("CountryVisited" = "Pais_base_viajes")) %>%
+    filter(TripStartDate >= Mandato_asignado_inicio, TripStartDate < Mandato_asignado_fin) %>%
+    mutate(
+      bloque_origen = cut(ideology_origen, breaks = c(0, 3, 5, 7.01),
+                           labels = c("Izquierda", "Centro", "Derecha"), right = FALSE),
+      bloque_destino = cut(ideology_destino, breaks = c(0, 3, 5, 7.01),
+                            labels = c("Izquierda", "Centro", "Derecha"), right = FALSE),
+      misma_ideologia = bloque_origen == bloque_destino
+    )
+
+  # Chequeo de sanidad: un viaje no deberia matchear mas de un tramo de destino.
+  chequeo_dup_dyadico <- dyadico %>% count(TripID) %>% filter(n > 1)
+  if (nrow(chequeo_dup_dyadico) > 0) {
+    warning(nrow(chequeo_dup_dyadico), " viajes matchean mas de un tramo de destino en el analisis diadico -revisar Base_Ideologia_Presidencial.xlsx-.")
+  }
+
+  write.csv(dyadico, file.path(RUTA_OUTPUTS, "19a_homofilia_ideologica_diadico.csv"), row.names = FALSE)
+
+  # --- Cuadro: test de independencia chi-cuadrado + indice de homofilia total (1994-2025) ---
+  tabla_contingencia <- table(dyadico$bloque_origen, dyadico$bloque_destino)
+  test_chi2 <- suppressWarnings(chisq.test(tabla_contingencia))
+  esperado <- test_chi2$expected
+
+  indice_homofilia_total <- data.frame(
+    Bloque            = rownames(tabla_contingencia),
+    Viajes_observados = diag(tabla_contingencia[, rownames(tabla_contingencia)]),
+    Viajes_esperados  = round(diag(esperado[, rownames(tabla_contingencia)]), 1),
+    Indice_homofilia  = round(diag(tabla_contingencia[, rownames(tabla_contingencia)]) / diag(esperado[, rownames(tabla_contingencia)]), 2)
+  )
+
+  write.csv(indice_homofilia_total, file.path(RUTA_OUTPUTS, "19b_indice_homofilia_total.csv"), row.names = FALSE)
+  cat("\n[Seccion 19] Test chi-cuadrado (bloque origen x bloque destino): chi2 =",
+      round(unname(test_chi2$statistic), 2), ", df =", unname(test_chi2$parameter),
+      ", p =", format.pval(test_chi2$p.value, digits = 3), ", n =", nrow(dyadico), "\n")
+
+  # --- Figura F: SIN controlar -- % de viajes a la misma ideologia, por periodo ---
+  sin_controlar <- dyadico %>%
+    group_by(Periodo5, bloque_origen) %>%
+    summarise(pct_misma = 100 * mean(misma_ideologia, na.rm = TRUE), n = n(), .groups = "drop")
+
+  g19f <- ggplot(sin_controlar, aes(x = Periodo5, y = pct_misma, color = bloque_origen, linetype = bloque_origen)) +
+    geom_line(linewidth = 0.8) +
+    geom_point(aes(size = n)) +
+    scale_color_manual(values = c(Izquierda = gris_9, Centro = gris_5, Derecha = gris_3), name = "Bloque de origen") +
+    scale_linetype_manual(values = c(Izquierda = "solid", Centro = "dashed", Derecha = "dotted"), name = "Bloque de origen") +
+    scale_size_continuous(name = "Cantidad de\nviajes", range = c(1, 5)) +
+    scale_x_continuous(breaks = unique(sin_controlar$Periodo5)) +
+    scale_y_continuous(limits = c(0, 100)) +
+    labs(x = NULL, y = "% de viajes a un presidente de la misma ideologia\n(SIN controlar por oferta)")
+
+  print(g19f)
+  ggsave(file.path(RUTA_OUTPUTS, "19c_homofilia_sin_controlar.png"), g19f, width = 9, height = 6, dpi = 150)
+
+  # --- Figura G: CONTROLANDO -- indice observado/esperado, por periodo ---
+  # El esperado de cada periodo usa la composicion ideologica real de TODOS los
+  # destinos disponibles en ESE periodo (no un promedio general de 1994-2025),
+  # para no confundir preferencia con oferta cambiante.
+  oferta_por_periodo <- dyadico %>%
+    count(Periodo5, bloque_destino) %>%
+    group_by(Periodo5) %>%
+    mutate(pct_oferta = n / sum(n)) %>%
+    ungroup() %>%
+    select(Periodo5, bloque_destino, pct_oferta)
+
+  controlando <- sin_controlar %>%
+    left_join(oferta_por_periodo, by = c("Periodo5", "bloque_origen" = "bloque_destino")) %>%
+    mutate(
+      pct_esperado      = 100 * pct_oferta,
+      indice_homofilia  = pct_misma / pct_esperado
+    )
+
+  write.csv(controlando, file.path(RUTA_OUTPUTS, "19d_homofilia_controlando_por_periodo.csv"), row.names = FALSE)
+
+  g19g <- ggplot(controlando, aes(x = Periodo5, y = indice_homofilia, color = bloque_origen, linetype = bloque_origen)) +
+    geom_hline(yintercept = 1, color = gris_3, linewidth = 0.5) +
+    geom_line(linewidth = 0.8) +
+    geom_point(aes(size = n)) +
+    scale_color_manual(values = c(Izquierda = gris_9, Centro = gris_5, Derecha = gris_3), name = "Bloque de origen") +
+    scale_linetype_manual(values = c(Izquierda = "solid", Centro = "dashed", Derecha = "dotted"), name = "Bloque de origen") +
+    scale_size_continuous(name = "Cantidad de\nviajes", range = c(1, 5)) +
+    scale_x_continuous(breaks = unique(controlando$Periodo5)) +
+    labs(x = NULL, y = "Indice de homofilia\n(observado / esperado segun oferta ideologica del periodo)")
+
+  print(g19g)
+  ggsave(file.path(RUTA_OUTPUTS, "19e_homofilia_controlando.png"), g19g, width = 9, height = 6, dpi = 150)
+
+  # --- Figura H: matriz origen x destino, % de fila, todo el periodo junto ---
+  matriz_pct <- as.data.frame(prop.table(tabla_contingencia, margin = 1) * 100) %>%
+    rename(bloque_origen = Var1, bloque_destino = Var2, pct = Freq) %>%
+    mutate(color_texto = if_else(pct > 40, "white", "black"))
+
+  g19h <- ggplot(matriz_pct, aes(x = bloque_destino, y = bloque_origen, fill = pct)) +
+    geom_tile(color = "white") +
+    geom_text(aes(label = paste0(round(pct), "%"), color = color_texto), family = FUENTE_BASE, size = 4.5) +
+    scale_color_identity() +
+    scale_fill_gradient(low = gris_2, high = gris_9, name = "% de\nfila") +
+    labs(x = "Bloque ideologico del destino", y = "Bloque ideologico del origen")
+
+  print(g19h)
+  ggsave(file.path(RUTA_OUTPUTS, "19f_matriz_origen_destino.png"), g19h, width = 7, height = 6, dpi = 150)
+
+  cat("[Seccion 19] Homofilia ideologica:", nrow(dyadico), "viajes Sudamerica->Sudamerica con origen y destino matcheados a ideologia.\n")
+
+} else {
+  warning("No se pudo construir el analisis de homofilia ideologica (seccion 19) -falta ideologia_cw o viajes_ideologia de la seccion 18-.")
+}
+
+
 ## ---- 10. Resumen final en consola ----------------------------------------------
 
 cat("\n================================================================\n")
@@ -1187,3 +1721,20 @@ cat("11_viajes_por_anio_de_mandato.png/.csv          -> Extension: viajes normal
 cat("12_tipo_actividad_viajes.png/.csv               -> Extension: tipo de actividad (Charnock et al. 2009)\n")
 cat("13_auge_caida_multilateralismo.png              -> Extension: multilateralismo con hitos UNASUR (Nolte 2021)\n")
 cat("14_sesgo_vecino_inmediato.png/.csv              -> Extension: sesgo hacia el vecino (Ostrander & Rider 2018)\n")
+cat("15_evolucion_por_bloque_destino.png/.csv        -> Extension: evolucion por bloque (Sudamerica/Latam/EEUU/Europa/Africa/Asia)\n")
+cat("16_perfil_regional_por_presidente.csv           -> Extension: perfil regional por presidente (Cuadro en el paper)\n")
+cat("17_integracion_regional_en_retirada.png/.csv    -> Extension: recreacion propia del grafico editorial de referencia\n")
+cat("18a_ideologia_y_viajes_por_mandato.csv           -> Ideologia y viajes: tabla maestra por mandato-tramo\n")
+cat("18b_correlacion_ideologia_viajes_intralatam.csv  -> Ideologia y viajes: Cuadro de correlaciones (Cuadro en el paper)\n")
+cat("18c_ideologia_vs_intralatam.png                  -> Ideologia y viajes: ideologia general vs. % intra-latinoamericano\n")
+cat("18d_todas_dimensiones_vs_intralatam.png          -> Ideologia y viajes: las 8 dimensiones vs. % intra-latinoamericano\n")
+cat("18e_usa_vs_pct_viajes_eeuu.png                   -> Ideologia y viajes: dimension 'usa' vs. % de viajes a EE.UU.\n")
+cat("18f_bloque_ideologico_vs_intralatam.png          -> Ideologia y viajes: boxplot por bloque izquierda/centro/derecha\n")
+cat("18g_correlacion_ideologia_usa_china_europa.csv   -> Ideologia y viajes: correlacion ideologia vs. EEUU/China/Europa\n")
+cat("18h_ideologia_vs_eeuu_china_europa.png           -> Ideologia y viajes: ideologia general vs. % a EEUU/China/Europa\n")
+cat("19a_homofilia_ideologica_diadico.csv             -> Homofilia ideologica: tabla diadica origen-destino, viaje a viaje\n")
+cat("19b_indice_homofilia_total.csv                   -> Homofilia ideologica: indice observado/esperado total (Cuadro en el paper)\n")
+cat("19c_homofilia_sin_controlar.png                  -> Homofilia ideologica: % misma ideologia por periodo (SIN controlar)\n")
+cat("19d_homofilia_controlando_por_periodo.csv        -> Homofilia ideologica: indice observado/esperado por periodo\n")
+cat("19e_homofilia_controlando.png                    -> Homofilia ideologica: indice observado/esperado por periodo (CONTROLANDO)\n")
+cat("19f_matriz_origen_destino.png                    -> Homofilia ideologica: matriz origen x destino (% de fila)\n")
