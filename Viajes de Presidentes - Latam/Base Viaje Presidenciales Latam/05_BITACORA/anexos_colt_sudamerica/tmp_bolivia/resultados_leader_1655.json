@@ -1,0 +1,44 @@
+[
+  {
+    "LeaderID": "1655",
+    "correcciones": [],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Spain",
+        "CityVisited": "Madrid",
+        "TripStartDate": "2002-05-17",
+        "TripEndDate": "2002-05-18",
+        "TripDuration": "2",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "II Summit of Heads of State and Government of the European Union, Latin America and the Caribbean (EU-LAC)",
+        "MetNonhostHOGS": "Yes",
+        "NonhostHOGSNames": "Presidents and Heads of Government of the European Union, Latin America and the Caribbean member states",
+        "fuente": "https://ec.europa.eu/commission/presscorner/detail/es/pres_02_133 ; https://ec.europa.eu/commission/presscorner/detail/es/memo_02_93 ; https://clubmadrid.org/impact/media/el-expresidente-boliviano-quiroga-ve-a-espana-como-ultima-baza-para-la-integracion-comercial-america-latina-ue/",
+        "justificacion": "La II Cumbre UE-America Latina y el Caribe se realizo en Madrid el 17 y 18 de mayo de 2002 (la reunion de altos funcionarios/preparatoria fue el 16/5, pero la cumbre de Jefes de Estado y de Gobierno propiamente dicha fue 17-18/5). Jorge Quiroga participo como vocero de la Comunidad Andina, en su calidad de presidente del Consejo Presidencial Andino durante su mandato (fuente Club de Madrid, que lo confirma explicitamente). No existe ningun TripID con CountryVisited 'Spain' en items_ya_en_COLT para leader_1655 -ausencia total pese a que la cumbre reunio a los jefes de Estado de toda la UE y America Latina/Caribe, y a que Quiroga tuvo un rol protagonico como vocero andino-. No se pudo confirmar con evidencia directa si asistio tambien a la jornada preparatoria del 16/5, por lo que se usa el rango de la cumbre de Jefes de Estado (17-18/5) como estimacion conservadora; tampoco se confirmo un encuentro bilateral especifico con el anfitrion (Jose Maria Aznar) mas alla de la participacion multilateral, por lo que MetHostHoGS se deja sin completar."
+      }
+    ],
+    "no_verificable": [],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1655-BOL-ARG-37305",
+        "justificacion": "Verificado: hubo actividad de Mercosur en Buenos Aires en el entorno de esta fecha (febrero 2002); no se hallo evidencia que contradiga fecha, ciudad o categorizacion registrada por COLT."
+      },
+      {
+        "TripID": "1655-BOL-ARG-37441",
+        "justificacion": "Confirmado independientemente: la reunion del Consejo del Mercado Comun (Mercosur) en Buenos Aires se realizo el 5 de julio de 2002 (fuentes cruzadas sobre la cumbre de Mercosur de julio 2002 en Buenos Aires), consistente con el rango 4-5/7/2002 que registra COLT."
+      },
+      {
+        "TripID": "1655-BOL-ECU-37463",
+        "justificacion": "Confirmado independientemente: la II Cumbre Sudamericana se realizo en Guayaquil, Ecuador, el 26 y 27 de julio de 2002, y produjo el 'Consenso de Guayaquil' sobre integracion, seguridad e infraestructura -coincide exactamente con las fechas, el pais y el nombre del evento (incluida la firma del Consenso) que registra COLT-."
+      },
+      {
+        "TripID": "1655-BOL-PER-37218",
+        "justificacion": "Confirmado independientemente: la XI Cumbre Iberoamericana de Jefes de Estado y de Gobierno ('Unidos para construir el manana') se realizo en Lima, Peru, el 23 y 24 de noviembre de 2001 (fuente: SEGIB) -coincide exactamente con las fechas que registra COLT-."
+      },
+      {
+        "TripID": "1655-BOL-USA-37205",
+        "justificacion": "Confirmado independientemente: el debate general del 56 periodo de sesiones de la Asamblea General de la ONU, pospuesto por los atentados del 11-S, se realizo del 10 al 16 de noviembre de 2001 en Nueva York -consistente con el viaje de Quiroga registrado por COLT el 10-11/11/2001, al comienzo del debate-."
+      }
+    ]
+  }
+]

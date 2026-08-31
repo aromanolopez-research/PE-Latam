@@ -51,6 +51,7 @@
 \usepackage{booktabs}
 \usepackage{float}
 \usepackage{longtable}
+\usepackage{xcolor}
 \geometry{margin=2.5cm}
 
 \title{Viajes presidenciales como indicador de pol\'itica exterior en Sudam\'erica (1994--2025)}
@@ -97,6 +98,7 @@ primera_visita        <- tryCatch(leer_resumen("06_primera_visita_por_presidente
 tabla_correlacion_ideologia <- tryCatch(leer_resumen("18b_correlacion_ideologia_viajes_intralatam.csv"), error = function(e) NULL)
 tabla_correlacion_destinos  <- tryCatch(leer_resumen("18g_correlacion_ideologia_usa_china_europa.csv"), error = function(e) NULL)
 tabla_indice_homofilia      <- tryCatch(leer_resumen("19b_indice_homofilia_total.csv"), error = function(e) NULL)
+tabla_correlacion_vecino    <- tryCatch(leer_resumen("14b_correlacion_vecino_tiempo.csv"), error = function(e) NULL)
 
 total_viajes <- sum(viajes_totales_pais$n_viajes)
 total_paises <- nrow(viajes_totales_pais)
@@ -191,7 +193,7 @@ if (requireNamespace("xtable", quietly = TRUE)) {
 # n_obs difiere tanto entre filas.
 if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)) {
   print(xtable::xtable(resumen_estadisticos,
-                        caption = "Estad\\'isticos descriptivos (media, desv\\'io, m\\'inimo, m\\'aximo) de viajes por pa\\'is-a\\~no y de la duraci\\'on de los viajes.",
+                        caption = "Estad\\'isticos descriptivos (media, desv\\'io, m\\'inimo, m\\'aximo) de viajes por Mandatario-A\\~no (total, bilaterales y multilaterales) y de la duraci\\'on de los viajes.",
                         label = "tab:resumen-estadisticos"),
         include.rownames = FALSE, caption.placement = "top")
 } else {
@@ -208,12 +210,30 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
 % viaje" (71 dias) corresponde a Hugo Chavez, Venezuela a Cuba (10-dic-2012
 % a 18-feb-2013) por tratamiento medico -siguio siendo presidente en
 % ejercicio durante todo ese periodo, por eso el viaje si queda incluido.
+% Nota (correccion pedida por el usuario): las filas de "viajes" del Cuadro
+% de arriba agrupan por MANDATARIO-anio (no por pais-anio como en una
+% version anterior), separadas en total/bilaterales/multilaterales; la fila
+% de duracion no cambio.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/12_tipo_actividad_viajes.png}
-  \caption{Tipo de actividad incluida en los viajes presidenciales (categor\'ias no excluyentes; cf. \citep{charnockPresidentialTravelEisenhower2009} sobre viajes presidenciales de EE.\,UU.).}
-  \label{fig:tipo-actividad}
+  \includegraphics[width=0.75\textwidth]{../08_ANALISIS_R/outputs/12a_tipo_actividad_bilateral.png}
+  \caption{Tipo de actividad incluida en los viajes BILATERALES (categor\'ias no excluyentes; cf. \citep{charnockPresidentialTravelEisenhower2009} sobre viajes presidenciales de EE.\,UU.).}
+  \label{fig:tipo-actividad-bilateral}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\textwidth]{../08_ANALISIS_R/outputs/12b_tipo_actividad_multilateral.png}
+  \caption{Tipo de actividad incluida en los viajes MULTILATERALES (categor\'ias no excluyentes).}
+  \label{fig:tipo-actividad-multilateral}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\textwidth]{../08_ANALISIS_R/outputs/12c_tipo_actividad_otro.png}
+  \caption{Tipo de actividad incluida en los viajes de categor\'ia ``Otro'' (categor\'ias no excluyentes). Separar por categor\'ia de visita (Bilateral/Multilateral/Otro; a diferencia de una versi\'on anterior de esta figura, que mezclaba las tres) permite ver que actividades predominan seg\'un el motivo del viaje.}
+  \label{fig:tipo-actividad-otro}
 \end{figure}
 
 \subsection{Evoluci\'on temporal}
@@ -242,9 +262,12 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/15_evolucion_por_bloque_destino.png}
-  \caption{Cantidad total de viajes por a\~no a cada bloque de destino: Sudam\'erica, Latinoam\'erica y el Caribe (incluye a Sudam\'erica), Estados Unidos, Europa, \'Africa y Asia. Sudam\'erica y Latinoam\'erica se superponen a prop\'osito -la segunda incluye a la primera-, para comparar el volumen dentro de la vecindad m\'as cercana contra el de la regi\'on en un sentido amplio. La l\'inea punteada marca el promedio anual de cada bloque (1994-2025).}
+  \caption{\colorbox{yellow}{Cantidad total de viajes por a\~no a cada bloque de destino: Sudam\'erica, Latinoam\'erica y el Caribe (incluye a Sudam\'erica), Estados Unidos, Europa, \'Africa y Asia. Sudam\'erica y Latinoam\'erica se superponen a prop\'osito -la segunda incluye a la primera-, para comparar el volumen dentro de la vecindad m\'as cercana contra el de la regi\'on en un sentido amplio. La l\'inea punteada marca el promedio anual de cada bloque (1994-2025).}}
   \label{fig:evolucion-por-bloque-destino}
 \end{figure}
+% NOTA: descripcion resaltada en amarillo a pedido del usuario -no esta
+% convencido de dejar esta figura en el paper; revisar antes de la version
+% final.
 
 % Figura de estilo editorial (rompe a proposito la estetica Q1 del resto del
 % paper -titulo/subtitulo/fuente van adentro de la imagen-, replicando el
@@ -265,19 +288,11 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
   \label{fig:regiones-periodo}
 \end{figure}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.9\textwidth]{../08_ANALISIS_R/outputs/02b_regiones_por_anio_area.png}
-  \caption{Prioridad regional de los viajes presidenciales, por a\~no.}
-  \label{fig:regiones-anio}
-\end{figure}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/03_duracion_por_anio.png}
-  \caption{Duraci\'on promedio de los viajes presidenciales, por a\~no.}
-  \label{fig:duracion-anio}
-\end{figure}
+% Figuras "regiones por anio" (area apilada) y "duracion por anio" ELIMINADAS
+% (pedido del usuario): la primera duplicaba la Figura~\ref{fig:regiones-periodo}
+% a nivel anual sin agregar informacion nueva; la segunda queda cubierta por
+% la Figura~\ref{fig:viajes-duracion-combinado} (viajes + duracion en un solo
+% grafico).
 
 \begin{figure}[H]
   \centering
@@ -288,22 +303,22 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{../08_ANALISIS_R/outputs/04_categoria_visita_por_anio.png}
-  \caption{Participaci\'on de Bilateral / Multilateral / Otro, por a\~no. ``Otro'' = sin reuni\'on registrada con el anfitri\'on ni asistencia a un evento multilateral.}
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/04_categoria_visita_por_anio.png}
+  \caption{Participaci\'on de Bilateral / Multilateral / Otro, por per\'iodo (bloques de 5 a\~nos; mismo formato que la Figura~\ref{fig:regiones-periodo}). ``Otro'' = sin reuni\'on registrada con el anfitri\'on ni asistencia a un evento multilateral. Se excluyen los viajes sin dato suficiente para clasificar la categor\'ia (``Sin dato'', ver Datos y metodolog\'ia) hasta resolver esa cobertura.}
   \label{fig:categoria-anio}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/04b_categoria_visita_absoluto.png}
-  \caption{Cantidad absoluta de viajes por categor\'ia (Bilateral/Multilateral/Otro), por a\~no.}
+  \caption{Cantidad absoluta de viajes por categor\'ia (Bilateral/Multilateral/Otro), por a\~no. Se excluyen los viajes de categor\'ia ``Sin dato'' hasta resolver esa cobertura.}
   \label{fig:categoria-absoluto}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/13_auge_caida_multilateralismo.png}
-  \caption{Participaci\'on de viajes multilaterales por a\~no, con la fundaci\'on de UNASUR (2008) y su crisis/vaciamiento posterior (desde 2018) marcados como referencia (cf. \citep{nolteSummitsPlainsCrisis2021, barrosCrisisSouthAmerican2021}).}
+  \caption{Participaci\'on de viajes multilaterales por a\~no, con hitos de multilateralismo regional marcados como referencia: la Comunidad Sudamericana de Naciones y la ALBA (2004), la fundaci\'on de UNASUR (2008), la fundaci\'on de la CELAC (2011), la crisis/vaciamiento de UNASUR (desde 2018) y la fundaci\'on de PROSUR (2019) (cf. \citep{nolteSummitsPlainsCrisis2021, barrosCrisisSouthAmerican2021}).}
   \label{fig:auge-caida-multilateralismo}
 \end{figure}
 
@@ -320,10 +335,23 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
 % paneles (dificil de leer) a un Cuadro largo (longtable, pagina a pagina)
 % con el pais, el mandatario y su periodo entre parentesis, el destino
 % favorito y la cantidad de viajes a ese destino.
+%
+% Metodologia (pedido del usuario, decisiones documentadas explicitamente):
+%  (1) Se separa por MANDATO INDIVIDUAL, no por presidente completo -un
+%      presidente reelecto (ej. Cristina Fernandez de Kirchner, 2007-2011 y
+%      2011-2015) aparece en 2 filas independientes, para poder comparar si
+%      el destino favorito se mantuvo entre un mandato y el siguiente.
+%  (2) El "destino favorito" se calcula SOLO sobre viajes BILATERALES (no
+%      sobre el total), para que un pais que acumula visitas por ser sede
+%      recurrente de cumbres multilaterales no distorsione el resultado.
+%  (3) Regla de desempate cuando 2 o mas paises quedan empatados en el
+%      maximo de viajes bilaterales dentro de un mismo mandato: se
+%      prioriza el pais que ALCANZO ese conteo maximo PRIMERO en el tiempo
+%      (fecha del viaje N-esimo mas temprana).
 <<tab-destino-favorito, echo=FALSE, results=tex>>=
 if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_destino_favorito)) {
   print(xtable::xtable(tabla_destino_favorito,
-                        caption = "Destino favorito de cada mandatario (pa\\'is m\\'as visitado durante su mandato), con el per\\'iodo de mandato entre par\\'entesis.",
+                        caption = "Destino favorito BILATERAL de cada mandato individual (pa\\'is m\\'as visitado en viajes bilaterales durante ese mandato espec\\'ifico), con el mandato entre par\\'entesis. Desempates: prioridad al pa\\'is que alcanz\\'o el conteo m\\'aximo primero en el tiempo.",
                         label = "tab:destino-favorito"),
         include.rownames = FALSE, caption.placement = "top",
         tabular.environment = "longtable", floating = FALSE)
@@ -342,34 +370,79 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_destino_favorit
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png}
-  \caption{Evoluci\'on 1994-2025 de la cantidad de viajes (todas las categor\'ias) a Estados Unidos, Brasil y Argentina -los 3 pa\'ises m\'as elegidos como primer destino (Figura~\ref{fig:primeros-destinos}).}
+  \caption{En qu\'e a\~no cada mandatario eligi\'o a Estados Unidos, Brasil o Argentina como su PRIMER destino -los 3 pa\'ises m\'as elegidos como primer destino en la Figura~\ref{fig:primeros-destinos}-, 1994-2025. A diferencia de una versi\'on anterior de esta figura (que graficaba todos los viajes a estos 3 pa\'ises, sin relaci\'on directa con el primer destino), esta queda directamente conectada con la Figura~\ref{fig:primeros-destinos}.}
   \label{fig:evolucion-top3-primeros-destinos}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/14_sesgo_vecino_inmediato.png}
-  \caption{Porcentaje de TODOS los viajes (no s\'olo el primero) que van a un pa\'is con frontera terrestre, por pa\'is de origen. Ostrander \& Rider (2018) encuentran que 7 de 10 presidentes de EE.\,UU. eligen un vecino como primer destino; ac\'a se prueba si el patr\'on se sostiene para el conjunto completo de viajes en Sudam\'erica (ver \citep{ostranderPresidentsAbroadPolitics2018}).}
+  \caption{\colorbox{yellow}{Porcentaje de TODOS los viajes (no s\'olo el primero) que van a un pa\'is con frontera terrestre, por pa\'is de origen. Ostrander \& Rider (2018) encuentran que 7 de 10 presidentes de EE.\,UU. eligen un vecino como primer destino; ac\'a se prueba si el patr\'on se sostiene para el conjunto completo de viajes en Sudam\'erica (ver \citep{ostranderPresidentsAbroadPolitics2018}).}}
   \label{fig:sesgo-vecino-inmediato}
 \end{figure}
+% NOTA: descripcion resaltada en amarillo a pedido del usuario -no esta
+% seguro de dejar esta figura en el paper; revisar antes de la version final.
 
-% Cuadro complementario: el "perfil" de cada presidente resumido en todo el
-% periodo (a diferencia de la Figura anterior, que agrega por pais de
-% origen). Categorias mutuamente excluyentes (a diferencia de la
-% Figura~\ref{fig:evolucion-por-bloque-destino}, que las deja superpuestas a
-% proposito) para que cada fila sume 100%.
+% Cuadro Nuevo (pedido del usuario, despues de la Figura 18): correlacion
+% entre viaje presidencial y visitar un vecino fronterizo vs. otro pais, A
+% LO LARGO DE TODA LA SERIE (la Figura anterior da un solo valor agregado
+% 1994-2025; esta ve la evolucion anio a anio). Se apoya en una base nueva
+% de referencia -diadas Origen (12 paises de la base de viajes) x Destino
+% (paises efectivamente visitados), con una columna Es_Vecino_Fronterizo y
+% los codigos ISO alpha-3 de LeaderCountryISO/CountryVisitedISO- guardada en
+% 04\_BASE\_FINAL/Base\_Diadas\_Vecinos.xlsx.
+
+<<tab-correlacion-vecino, echo=FALSE, results=tex>>=
+if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_vecino)) {
+  print(xtable::xtable(tabla_correlacion_vecino,
+                        caption = "Correlaci\\'on de Pearson entre el a\\~no (tiempo) y el \\% de viajes a un vecino fronterizo, 1994-2025 (una observaci\\'on por a\\~no).",
+                        label = "tab:correlacion-vecino"),
+        include.rownames = FALSE, caption.placement = "top")
+} else {
+  cat("% Falta 14b_correlacion_vecino_tiempo.csv o el paquete 'xtable'.\n")
+}
+@
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/14b_vecino_fronterizo_a_lo_largo_del_tiempo.png}
+  \caption{Porcentaje de los viajes de cada a\~no dirigidos a un pa\'is con frontera terrestre (los 12 pa\'ises de la base en conjunto), 1994-2025, con l\'inea de tendencia lineal. Extiende la Figura~\ref{fig:sesgo-vecino-inmediato} -que da un solo valor agregado para todo el per\'iodo- a una serie temporal, para ver si el sesgo hacia el vecino inmediato crece, se mantiene o cae con el correr del tiempo.}
+  \label{fig:vecino-a-lo-largo-del-tiempo}
+\end{figure}
+
+% Cuadro complementario: el "perfil" de cada MANDATO (no de cada presidente
+% completo) resumido en todo ese mandato (a diferencia de la Figura
+% anterior, que agrega por pais de origen). Categorias mutuamente
+% excluyentes (a diferencia de la Figura~\ref{fig:evolucion-por-bloque-destino},
+% que las deja superpuestas a proposito) para que cada fila sume 100%.
+% Metodologia (pedido del usuario): separado por mandato individual (mismo
+% criterio que el Cuadro~\ref{tab:destino-favorito}); los mandatos en curso
+% (marcados internamente con el placeholder 2099) se muestran como 2025;
+% orden alfabetico por pais y, DENTRO de cada pais, cronologico por inicio
+% de mandato (ej. Argentina: Menem 1 y 2 primero, Milei ultimo -no
+% alfabetico por nombre de mandatario-).
+% Nota tecnica (TEMPORAL, pedido del usuario): version en formato VERTICAL
+% (no landscape) con fuente muy chica (tiny) y margenes reducidos solo para
+% esta tabla, para que compile sin depender del paquete "pdflscape" (no
+% instalado en la maquina del usuario). Con 8 columnas de region + Pais +
+% Mandatario + Total viajes puede quedar muy apretada igual -si al
+% compilar se corta o se ve mal, la alternativa mas prolija sigue siendo
+% landscape (instalar pdflscape desde MiKTeX Console: Packages -> buscar
+% "pdflscape" -> Install).
+\newgeometry{margin=1cm}
 <<tab-perfil-regional, echo=FALSE, results=tex>>=
 if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_perfil_regional)) {
   print(xtable::xtable(fix_na_cuadro(tabla_perfil_regional),
-                        caption = "Perfil regional de cada mandatario: porcentaje de sus viajes (todo el mandato) a cada bloque de destino. Las categor\\'ias son mutuamente excluyentes y suman 100\\% por fila.",
+                        caption = "Perfil regional de cada MANDATO individual: porcentaje de sus viajes a cada bloque de destino. Las categor\\'ias son mutuamente excluyentes y suman 100\\% por fila.",
                         label = "tab:perfil-regional",
-                        size = "\\footnotesize"),
+                        size = "\\tiny"),
         include.rownames = FALSE, caption.placement = "top",
         tabular.environment = "longtable", floating = FALSE)
 } else {
   cat("% Falta 16_perfil_regional_por_presidente.csv o el paquete 'xtable'.\n")
 }
 @
+\restoregeometry
 
 \begin{figure}[H]
   \centering
@@ -380,8 +453,8 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_perfil_regional
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/09a2_evolucion_bilateral_bra_arg_cuba.png}
-  \caption{Evoluci\'on 1994-2025 de los viajes bilaterales a Brasil, Argentina y Cuba.}
+  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/09a2_evolucion_bilateral_brasil_eeuu.png}
+  \caption{Evoluci\'on 1994-2025 de los viajes bilaterales a Brasil y Estados Unidos.}
   \label{fig:evolucion-bilateral-bra-arg-cuba}
 \end{figure}
 
@@ -409,7 +482,7 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_perfil_regional
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.9\textwidth]{../08_ANALISIS_R/outputs/09d_composicion_bilateral_multilateral_por_pais.png}
-  \caption{Composici\'on Bilateral / Multilateral / Otro por pa\'is (an\'alisis composicional; m\'etodo: \citep{leeTravelAlliesAdversaries2024}).}
+  \caption{Composici\'on Bilateral / Multilateral / Otro por pa\'is, con etiquetas de dato (an\'alisis composicional; m\'etodo: \citep{leeTravelAlliesAdversaries2024}).}
   \label{fig:composicion-pais}
 \end{figure}
 
@@ -463,6 +536,30 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_ide
   \label{fig:todas-dimensiones-intralatam}
 \end{figure}
 
+% 3 variantes de la figura anterior (pedido del usuario): mandato-tramos de
+% ideologia general baja (izquierda) y alta (derecha) por separado, y
+% restringido a los ultimos 10 anios con dato disponible (2012-2022).
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/18i_todas_dimensiones_izquierda.png}
+  \caption{Las ocho dimensiones de ideolog\'ia presidencial vs. \% de viajes intra-latinoamericanos, restringido a mandato-tramos de ideolog\'ia general BAJA (izquierda, $\leq 3$ en la escala 1-7). Compara con la Figura~\ref{fig:todas-dimensiones-derecha} para ver si el patr\'on difiere seg\'un el bloque ideol\'ogico.}
+  \label{fig:todas-dimensiones-izquierda}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/18j_todas_dimensiones_derecha.png}
+  \caption{Las ocho dimensiones de ideolog\'ia presidencial vs. \% de viajes intra-latinoamericanos, restringido a mandato-tramos de ideolog\'ia general ALTA (derecha, $\geq 5$ en la escala 1-7).}
+  \label{fig:todas-dimensiones-derecha}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/18k_todas_dimensiones_2012_2022.png}
+  \caption{Las ocho dimensiones de ideolog\'ia presidencial vs. \% de viajes intra-latinoamericanos, restringido a mandato-tramos que se solapan con la ventana 2012-2022 (los \'ultimos 10 a\~nos con dato de ideolog\'ia disponible).}
+  \label{fig:todas-dimensiones-2012-2022}
+\end{figure}
+
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/18e_usa_vs_pct_viajes_eeuu.png}
@@ -470,23 +567,23 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_ide
   \label{fig:usa-vs-pct-eeuu}
 \end{figure}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.7\textwidth]{../08_ANALISIS_R/outputs/18f_bloque_ideologico_vs_intralatam.png}
-  \caption{\% de viajes intra-latinoamericanos por bloque ideol\'ogico (izquierda 1-3, centro 3-5, derecha 5-7 en la dimensi\'on de ideolog\'ia general).}
-  \label{fig:bloque-ideologico-intralatam}
-\end{figure}
+% Figura "bloque ideologico vs intralatam" (boxplot, 18f) ELIMINADA (pedido
+% del usuario: "no nos dice mucho").
 
 <<tab-correlacion-destinos, echo=FALSE, results=tex>>=
 if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_destinos)) {
-  print(xtable::xtable(tabla_correlacion_destinos,
-                        caption = "Correlaci\\'on de Pearson entre la ideolog\\'ia general del presidente (1=izq., 7=der.) y el \\% de sus viajes dirigidos a Estados Unidos, China y Europa, por mandato-tramo.",
-                        label = "tab:correlacion-destinos"),
+  tabla_correlacion_destinos_tex <- xtable::xtable(
+    tabla_correlacion_destinos,
+    caption = "\\colorbox{yellow}{Correlaci\\'on de Pearson entre la ideolog\\'ia general del presidente (1=izq., 7=der.) y el \\% de sus viajes dirigidos a Estados Unidos, China y Europa, por mandato-tramo.}",
+    label = "tab:correlacion-destinos")
+  print(tabla_correlacion_destinos_tex,
         include.rownames = FALSE, caption.placement = "top")
 } else {
   cat("% Falta 18g_correlacion_ideologia_usa_china_europa.csv o el paquete 'xtable'.\n")
 }
 @
+% NOTA: caption resaltada en amarillo a pedido del usuario -probablemente se
+% elimine este Cuadro en el futuro; revisar antes de la version final.
 
 \begin{figure}[H]
   \centering

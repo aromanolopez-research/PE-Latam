@@ -1,0 +1,41 @@
+[
+  {
+    "LeaderID": "2117",
+    "correcciones": [],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "2117-BOL-USA-39769",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "COLT registra 'Exact trip dates not explicit' para este viaje a Nueva York (17-19/11/2008) por el 63 periodo de sesiones de la Asamblea General de la ONU. La busqueda no logro aislar una fuente que precise el dia exacto de la intervencion de Morales en esa sesion (los resultados de busqueda devolvieron reiteradamente discursos de otros anos ante la Asamblea General). No se hallo evidencia que contradiga el rango registrado por COLT."
+      },
+      {
+        "TripID": "2117-BOL-CHE-40069",
+        "campo": "TripStartDate/TripEndDate/Notas generales",
+        "justificacion": "COLT mismo senala confianza baja (3/5) y nota 'trip details and exact dates not explicit; flew to Madrid from Geneva'. No se hallo cobertura de prensa que documente una escala o actividad oficial de Morales en Ginebra el 13/9/2009 (fecha que coincide con su llegada a Espana, ver TripID 2117-BOL-ESP-40069). Es plausible que se trate de una escala tecnica de combustible sin actividad diplomatica documentada, pero no se pudo confirmar ni descartar con evidencia directa."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "2117-BOL-USA-38979",
+        "justificacion": "Confirmado independientemente (video y cobertura de prensa contemporanea, incluida grabacion de YouTube fechada): Evo Morales pronuncio su discurso ante la Asamblea General de la ONU (61 periodo de sesiones) el 19 de septiembre de 2006 -fecha de inicio del rango 19-22/9/2006 que registra COLT-."
+      },
+      {
+        "TripID": "2117-BOL-URY-39024",
+        "justificacion": "Confirmado independientemente (SEGIB): la XVI Cumbre Iberoamericana de Jefes de Estado y de Gobierno se realizo en Montevideo, Uruguay, los dias 3, 4 y 5 de noviembre de 2006 -coincide exactamente con las fechas que registra COLT-."
+      },
+      {
+        "TripID": "2117-BOL-USA-39349",
+        "justificacion": "Confirmado independientemente: Evo Morales participo del debate general del 62 periodo de sesiones de la Asamblea General de la ONU en Nueva York, con intervenciones documentadas el 24 de septiembre de 2007 (discurso centrado en cambio climatico) y su pais listado entre los oradores del 26 de septiembre en la pagina oficial de la ONU (un.org/es/ga/62) -ambas fechas caen dentro del rango 24-26/9/2007 que registra COLT-."
+      },
+      {
+        "TripID": "2117-BOL-IRN-39692",
+        "justificacion": "Confirmado independientemente (CNN, fotos UPI fechadas): Evo Morales llego a Teheran el 1 de septiembre de 2008 y ofrecio una conferencia de prensa conjunta con el presidente Ahmadinejad el 2 de septiembre de 2008 -consistente con el inicio del rango 1-4/9/2008 que registra COLT; la fecha exacta de salida (4/9) no se pudo confirmar de forma independiente pero tampoco hay evidencia que la contradiga-."
+      },
+      {
+        "TripID": "2117-BOL-USA-40305",
+        "justificacion": "Confirmado independientemente mediante fuente primaria: un comunicado oficial de la ONU sobre la conferencia de prensa de Evo Morales en la sede de Naciones Unidas (identificador de documento 'un.org/press/en/2010/100507_Morales.doc.htm', donde '100507' indica 7 de mayo de 2010) describe su encuentro con el Secretario General Ban Ki-moon para presentar los resultados de la Primera Conferencia Mundial de los Pueblos sobre el Cambio Climatico (Cochabamba, abril de 2010) -coincide exactamente con la fecha que registra COLT-."
+      }
+    ]
+  }
+]

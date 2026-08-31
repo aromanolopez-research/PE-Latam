@@ -1,0 +1,65 @@
+[
+  {
+    "LeaderID": "2117",
+    "correcciones": [],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "2117-BOL-ITA-40315",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "COLT registra confianza baja (3/5) y nota 'Passed through on way to Holy See to visit Pope' para esta escala en Italia el 17/5/2010. Es coherente con el viaje al Vaticano registrado la misma fecha (2117-BOL-VAT-40315), pero no se hallo cobertura de prensa que documente actividad diplomatica especifica en suelo italiano mas alla del transito."
+      },
+      {
+        "TripID": "2117-BOL-ARG-40323",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "COLT mismo senala 'no related articles found' para esta supuesta asistencia a celebraciones del aniversario de independencia argentina el 25/5/2010. La busqueda no hallo cobertura que confirme ni contradiga la presencia de Morales en Argentina esa fecha."
+      },
+      {
+        "TripID": "2117-BOL-PRY-40401",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "COLT senala 'Dates of attendance at Forum not explicit' para la participacion de Morales en el Foro Social de las Americas en Paraguay (11-15/8/2010, rango de 5 dias). No se hallo fuente que precise en cuales de esos dias estuvo Morales presente."
+      },
+      {
+        "TripID": "2117-BOL-USA-40444",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "COLT senala 'Exact trip dates not explicit' para este viaje a Nueva York por la Asamblea General de la ONU y la Cumbre de los Objetivos de Desarrollo del Milenio (23-25/9/2010). La busqueda no logro aislar una fuente que precise el dia exacto de la intervencion de Morales en esa sesion especifica de 2010 (los resultados de busqueda devolvieron reiteradamente discursos de otros anos)."
+      },
+      {
+        "TripID": "2117-BOL-ECU-40463",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "COLT mismo senala 'no related articles found documenting visit' para este viaje a Ecuador el 12/10/2010 con el presidente Correa. No se hallo cobertura que confirme ni contradiga la visita."
+      },
+      {
+        "TripID": "2117-BOL-PER-40470",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "COLT registra confianza baja (2/5) sin nota explicativa adicional para este viaje a Peru el 19/10/2010 con el presidente Alan Garcia. No se hallo cobertura de prensa especifica en la busqueda realizada que permita confirmar o corregir la fecha."
+      },
+      {
+        "TripID": "2117-BOL-SEN-40580",
+        "campo": "TripEndDate",
+        "justificacion": "COLT senala 'Exact departure date from Forum not explicit' para la participacion de Morales en el Foro Social Mundial en Dakar, Senegal (6-11/2/2011). No se hallo fuente que precise el dia exacto de salida dentro de ese rango de 6 dias."
+      },
+      {
+        "TripID": "2117-BOL-VEN-40750",
+        "campo": "TripStartDate/TripEndDate/Notas generales",
+        "justificacion": "COLT senala confianza baja (3/5) y 'Details of trip not explicit' para este encuentro con el presidente Chavez el 26/7/2011 (misma fecha que un viaje registrado a EEUU, 2117-BOL-USA-40750). No se hallo cobertura de prensa que documente esta visita puntual a Venezuela."
+      },
+      {
+        "TripID": "2117-BOL-USA-40807",
+        "campo": "TripEndDate",
+        "justificacion": "COLT registra el rango 21-22/9/2011 para este viaje por la Asamblea General de la ONU ('Exact trip end date not explicit'). Una busqueda independiente sugiere que el discurso de Morales ante la Asamblea General en 2011 se pronuncio el 23 de septiembre, fecha posterior al rango registrado por COLT. No se hallo una fuente primaria (transcripcion oficial de la ONU con fecha) que permita confirmar esta discrepancia con certeza suficiente para una correccion firme; se deja constancia para revision futura con fuente primaria (ONU/press.un.org)."
+      },
+      {
+        "TripID": "2117-BOL-USA-41325",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "COLT senala 'exact trip dates not explicit' para este viaje a Nueva York (20-21/2/2013) por el lanzamiento del Ano Internacional de la Quinua ante la ONU. No se hallo cobertura de prensa adicional que precise las fechas exactas mas alla del rango ya registrado."
+      },
+      {
+        "TripID": "2117-BOL-BRA-41487",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "COLT senala 'exact trip dates not explicit' para la asistencia de Morales al Foro Social de Sao Paulo (1-4/8/2013). No se hallo cobertura de prensa que precise en cuales dias especificos del rango estuvo presente Morales."
+      }
+    ],
+    "confirmados_sin_cambios": []
+  }
+]

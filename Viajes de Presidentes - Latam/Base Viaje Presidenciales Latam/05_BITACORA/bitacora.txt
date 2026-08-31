@@ -1171,3 +1171,32 @@ Quedan documentados en PENDIENTES_VERIFICACION.txt (seccion "QC ARCHIVO MADRE") 
 hallazgos que dio colt_validar_madre.py que SI requieren investigacion (no son bugs de
 script): 6 filas con TripEndDate anterior a TripStartDate, y 7 filas PELATAM-PRY sin fecha
 de inicio (solo se sabe el año/mes aproximado).
+
+[2026-08-30] VERIFICACION COLT — BOLIVIA (primer uso completo del pipeline nuevo del
+rediseño del 2026-08-24, tras la prueba de humo) | 9 mandatarios investigados (Sanchez de
+Lozada, Banzer, Quiroga, Mesa, Eduardo Rodriguez, Evo Morales -3 tandas por volumen-, Luis
+Arce, mas Jeanine Añez y Rodrigo Paz -ambos sin LeaderID/cobertura en COLT, investigados
+desde cero-), 11 archivos resultados_leader_*.json en 05_BITACORA/anexos_colt_sudamerica/
+tmp_bolivia/. Flujo aplicado: colt_export_csv.py (re-export de 5351 filas para asegurar
+sincronia con el xlsx, que tenia un guardado posterior al export original de la prueba de
+humo) -> colt_aplicar_workpacks.py Bolivia bolivia <11 jsons> --aplicar -> colt_validar_madre.py
+-> colt_importar_csv.py. Backup del xlsx pre-campaña: 04_BASE_FINAL/
+Base_COLT_Sudamerica_backup_pre_bolivia_merge.xlsx (y backup del csv de trabajo
+correspondiente). Resultado: 31 correcciones aplicadas, 12 hallazgos nuevos insertados
+(TripID PELATAM-BOL-1 a 12), 32 items no_verificable documentados en
+PENDIENTES_VERIFICACION.txt (seccion "BOLIVIA — VERIFICACION COLT COMPLETA"), 18
+confirmados_sin_cambios. Modulo Bolivia en Datos_COLT_Sudamerica: 5351 -> 5363 filas. Log
+linea por linea: 05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_bolivia_2026-08-30.csv.
+
+BUG DE SCHEMA ENCONTRADO Y CORREGIDO A MANO: 2 hallazgos_nuevos de Luis Arce (Bruselas
+jul-2023, La Habana sep-2023) llegaron del subagente con MetHostHoGS="No_verificable" (y
+HostHOGSName="No_verificable" en el caso de Cuba) en vez de dejar el campo en blanco -
+colt_aplicar_workpacks.py copia el valor tal cual sin validar dominio, y colt_validar_madre.py
+lo detecto correctamente como dominio invalido (solo admite Yes/No/blanco). Se corrigieron
+las 2 filas a mano en el csv de trabajo antes de reimportar (blanco, nunca "No": la
+justificacion del subagente, preservada integra en Notes, aclara que no se pudo confirmar
+NI descartar el encuentro bilateral). colt_validar_madre.py corrio limpio despues: los
+mismos 16 problemas preexistentes de otros paises (ya documentados desde el 2026-08-24),
+0 nuevos atribuibles a esta campaña. Recomendacion para futuras campañas: agregar
+validacion de dominio Yes/No/blanco directamente en colt_aplicar_workpacks.py al leer
+hallazgos_nuevos, para no depender de que el chequeo posterior lo atrape.

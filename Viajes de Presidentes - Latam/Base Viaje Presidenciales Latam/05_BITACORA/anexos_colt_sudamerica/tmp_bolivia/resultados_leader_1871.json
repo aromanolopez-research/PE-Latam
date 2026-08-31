@@ -1,0 +1,55 @@
+[
+  {
+    "LeaderID": "1871",
+    "correcciones": [
+      {
+        "TripID": "1871-BOL-JPN-38452",
+        "campo": "TripEndDate",
+        "valor_correcto": "2005-04-11",
+        "fuente": "https://pancanal.com/en/panama-canal-ceo-speaks-at-idb-conference-in-japan/ ; https://events.iadb.org/calendar/event/27758",
+        "justificacion": "La 46 Reunion Anual de la Asamblea de Gobernadores del BID se realizo en Okinawa, Japon, el 10 y 11 de abril de 2005 (evento de dos dias, con actividades y presentaciones documentadas en ambas fechas). COLT registra unicamente el 10/4/2005 (TripStartDate=TripEndDate, TripDuration '1'). Al ser una reunion oficial de dos dias y no haber evidencia de que Mesa se haya retirado antes de su clausura, corresponde extender TripEndDate al 11/4/2005."
+      },
+      {
+        "TripID": "1871-BOL-JPN-38452",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "fuente": "https://pancanal.com/en/panama-canal-ceo-speaks-at-idb-conference-in-japan/ ; https://events.iadb.org/calendar/event/27758",
+        "justificacion": "Consecuencia directa de la correccion de TripEndDate a 2005-04-11: con TripStartDate 2005-04-10 y TripEndDate 2005-04-11, la duracion (contando ambos dias, convencion usada en el resto de la base COLT) pasa de 1 a 2."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "1871-BOL-USA-38251",
+        "campo": "NameMultilatEvent",
+        "justificacion": "COLT registra el nombre compuesto 'United Nations (UN) General Assembly;Conference of the Americas' para este viaje de 10 dias (21-30/9/2004) a Nueva York. Se confirmo de forma independiente (UN Audiovisual Library / UN Meetings Coverage) que Mesa encabezo la delegacion boliviana en el 59 periodo de sesiones de la Asamblea General y pronuncio su discurso el 22/9/2004, dentro del rango registrado. Sin embargo, no se hallo una fuente que confirme la existencia o el nombre exacto de una 'Conference of the Americas' paralela (posiblemente una confusion con el Council of the Americas, que organiza foros de negocios en Nueva York en fechas cercanas a la Asamblea General, pero no se pudo verificar la participacion especifica de Mesa en un evento con ese nombre)."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1871-BOL-BRA-38151",
+        "justificacion": "Confirmado independientemente: la XI Conferencia de las Naciones Unidas sobre Comercio y Desarrollo (UNCTAD XI) se realizo en Sao Paulo, Brasil, exactamente del 13 al 18 de junio de 2004 -coincide en forma exacta con las fechas que registra COLT, pese a que la propia nota de COLT senalaba 'Exact trips dates not explicit'-."
+      },
+      {
+        "TripID": "1871-BOL-ITA-38449",
+        "justificacion": "Confirmado por coherencia de itinerario: el tramo de transito por Roma registrado por COLT para el 7/4/2005 es consistente con un viaje que continua al Vaticano el 8/4/2005 (funeral del Papa Juan Pablo II, fecha confirmada de forma independiente) y luego a Japon el 10/4/2005 (Reunion Anual del BID en Okinawa, tambien confirmada). No se hallo fuente que precise la hora exacta de llegada a Roma, pero no hay evidencia que contradiga la fecha registrada por COLT."
+      },
+      {
+        "TripID": "1871-BOL-VAT-38450",
+        "justificacion": "Confirmado independientemente: el funeral del Papa Juan Pablo II se realizo en la Ciudad del Vaticano el 8 de abril de 2005, con asistencia masiva de jefes de Estado y de Gobierno de todo el mundo -coincide exactamente con la fecha que registra COLT para la asistencia de Mesa-."
+      },
+      {
+        "TripID": "1871-BOL-ITA-38451",
+        "justificacion": "Confirmado por coherencia de itinerario: el segundo tramo de transito por Roma (9/4/2005) encaja como escala entre el funeral del Papa en el Vaticano (8/4) y la llegada a Japon para la reunion del BID (10/4, confirmada de forma independiente). No se hallo fuente que precise la hora exacta, pero no hay evidencia que contradiga la fecha registrada por COLT."
+      },
+      {
+        "TripID": "1871-BOL-USA-38251",
+        "justificacion": "Confirmado independientemente (UN Audiovisual Library, UN Meetings Coverage/press.un.org): Mesa encabezo la delegacion de Bolivia en el debate general del 59 periodo de sesiones de la Asamblea General de la ONU y pronuncio su discurso el 22 de septiembre de 2004, fecha comprendida dentro del rango 21-30/9/2004 que registra COLT."
+      },
+      {
+        "TripID": "1871-BOL-BRA-38295",
+        "justificacion": "Confirmado independientemente: la XVIII Cumbre del Grupo de Rio se realizo en Rio de Janeiro, Brasil, con apertura el 4 de noviembre de 2004 y participacion de Mesa junto a su canciller -coincide con las fechas y el nombre del evento (Rio Group Summit) que registra COLT-."
+      }
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "LeaderID": "2064",
+    "correcciones": [
+      {
+        "TripID": "2064-BOL-ARG-38660",
+        "campo": "TripStartDate",
+        "valor_correcto": "2005-11-03",
+        "fuente": "https://www.lexivox.org/norms/BO-DP-28433.html",
+        "justificacion": "Decreto Presidencial boliviano Nro. 28433 (3/11/2005, fuente primaria oficial) establece textualmente que el Ministro de la Presidencia debe ausentarse del pais 'a las ciudades de Buenos Aires y Mar del Plata - Republica Argentina, del 3 al 6 de noviembre de 2005, a objeto de asistir a la IV Cumbre de las Americas, acompanando a Su Excelencia el Dr. Eduardo Rodriguez Veltze, Presidente Constitucional de la Republica'. Esto confirma que el propio Presidente viajo del 3 al 6/11/2005, no solo el 4-5/11/2005 que registra COLT."
+      },
+      {
+        "TripID": "2064-BOL-ARG-38660",
+        "campo": "TripEndDate",
+        "valor_correcto": "2005-11-06",
+        "fuente": "https://www.lexivox.org/norms/BO-DP-28433.html",
+        "justificacion": "Misma fuente y razonamiento que la correccion de TripStartDate: el decreto presidencial fija el regreso del 'del 3 al 6 de noviembre de 2005'."
+      },
+      {
+        "TripID": "2064-BOL-ARG-38660",
+        "campo": "TripDuration",
+        "valor_correcto": "4",
+        "fuente": "https://www.lexivox.org/norms/BO-DP-28433.html",
+        "justificacion": "Consecuencia directa de las correcciones de TripStartDate (3/11) y TripEndDate (6/11): la duracion (contando ambos dias, convencion usada en el resto de la base COLT) pasa de 2 a 4."
+      },
+      {
+        "TripID": "2064-BOL-ARG-38660",
+        "campo": "CityVisited",
+        "valor_correcto": "Buenos Aires y Mar del Plata",
+        "fuente": "https://www.lexivox.org/norms/BO-DP-28433.html",
+        "justificacion": "El decreto presidencial especifica que el viaje incluyo tanto Buenos Aires como Mar del Plata (sede de la IV Cumbre de las Americas); COLT tenia el campo CityVisited vacio."
+      },
+      {
+        "TripID": "2064-BOL-PER-38603",
+        "campo": "TripStartDate",
+        "valor_correcto": "2005-09-10",
+        "fuente": "https://www.tiwy.com/read.phtml?id=450",
+        "justificacion": "Cobertura periodistica (Cadena Global/DPA, publicada el mismo dia) confirma que los presidentes de Bolivia (Eduardo Rodriguez Veltze), Brasil (Lula) y Peru (Toledo) colocaron la primera piedra de la Carretera Interoceanica el 10 de septiembre de 2005, con declaraciones textuales de Rodriguez Veltze citadas en la nota. COLT registraba el 8/9/2005; se corrige a la fecha confirmada por fuente periodistica contemporanea."
+      },
+      {
+        "TripID": "2064-BOL-PER-38603",
+        "campo": "TripEndDate",
+        "valor_correcto": "2005-09-10",
+        "fuente": "https://www.tiwy.com/read.phtml?id=450",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: al ser un evento de un solo dia (ceremonia de colocacion de primera piedra), TripEndDate tambien se corrige a 2005-09-10, manteniendo TripDuration en 1."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "2064-BOL-URY-38695",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "La XXIX Reunion del Consejo del Mercado Comun (nivel ministerial/tecnico) se realizo en Montevideo el 7 y 8 de diciembre de 2005 (fuente oficial: Acta CMC No 02/05, argentina.gob.ar). Una fuente secundaria indica que la reunion de Jefes de Estado (8 paises, incluida Bolivia) se realizo 'el jueves' de esa semana, lo que corresponderia al 8/12/2005 y no al 9/12/2005 que registra COLT. Sin embargo, no se hallo una fuente primaria (boletin oficial boliviano o comunicado oficial) que confirme de forma inequivoca la fecha exacta en que Rodriguez Veltze participó personalmente de la Cumbre de Presidentes, por lo que no se realiza una correccion firme; se deja constancia de la posible imprecision de un dia para una revision futura con fuente primaria boliviana."
+      },
+      {
+        "TripID": "2064-BOL-BRA-38625",
+        "campo": "TripStartDate",
+        "justificacion": "La I Reunion de Jefes de Estado de la Comunidad Sudamericana de Naciones se realizo en Brasilia el 29 y 30 de septiembre de 2005 (evento de dos dias). COLT registra unicamente el 30/9/2005 (un dia). No se hallo fuente que confirme si Rodriguez Veltze arribo el dia 29 o solo para la sesion de clausura del 30, por lo que no se corrige sin evidencia directa de su itinerario personal."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "2064-BOL-ESP-38639",
+        "justificacion": "Confirmado independientemente (Wikimedia Commons, foto oficial de la cumbre; SEGIB): la XV Cumbre Iberoamericana de Jefes de Estado y de Gobierno se realizo en Salamanca, Espana, el 14 y 15 de octubre de 2005, con Eduardo Rodriguez Veltze presente en la foto oficial -coincide exactamente con las fechas que registra COLT-."
+      },
+      {
+        "TripID": "2064-BOL-USA-38609",
+        "justificacion": "Confirmado independientemente (UN Meetings Coverage/press.un.org, UN.org): la Cumbre Mundial 2005 (60 aniversario de la ONU) se realizo en Nueva York del 14 al 16 de septiembre de 2005, seguida por el inicio del debate general del 60 periodo de sesiones de la Asamblea General; el rango 14-19/9/2005 que registra COLT para Rodriguez Veltze es consistente con la asistencia a ambos eventos consecutivos."
+      }
+    ]
+  }
+]

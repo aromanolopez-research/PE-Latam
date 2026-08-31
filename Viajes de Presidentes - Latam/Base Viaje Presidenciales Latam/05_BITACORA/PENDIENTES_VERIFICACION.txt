@@ -1794,4 +1794,148 @@ COLT para ninguno de los dos, igual que paso con Añez cuando se investigo
 Bolivia -tarea #129-; Sagasti aun no fue investigado). Por ahora quedan
 fuera del cruce (Leader_key vacio en Base_Ideologia_Presidencial.xlsx, filas
 Bolivia term10 y Peru term11).
+
+[PENDIENTE-DECISION] Cobertura temporal de Base_Ideologia_Presidencial.xlsx
+(2026-08-30): se hizo una verificacion sistematica comparando, para cada
+Leader_key con dato de ideologia, el Mandato_asignado_fin del ULTIMO tramo
+contra el fin real del mandato en mandatos_presidenciales.csv. Resultado:
+todos los mandatarios reelectos de forma consecutiva (Menem, CFK, FHC,
+Lula1-2, Dilma, Evo, Uribe, Santos, Correa, Fujimori, Chavez, Maduro, etc.)
+llegan correctamente hasta el fin real de su ultimo tramo -no hay ningun
+caso, como tema el usuario, en el que se corte antes de tiempo por error-.
+Se encontro UN solo caso real de cobertura incompleta, pero por AUSENCIA DE
+DATO (no por un error de fecha corregible):
+  - Bolivia: Gonzalo Sanchez de Lozada tuvo 2 mandatos NO consecutivos
+    (1993-08-06 a 1997-08-06, y 2002-08-06 a 2003-10-17 segun
+    mandatos_presidenciales.csv). La base de ideologia (Merke, Reynoso &
+    Schenoni 2020 + CPE-Latinoamerica) solo tiene puntaje de ideologia para
+    su PRIMER mandato -no hay fila para el segundo-. Sus viajes durante el
+    2do mandato (2002-2003) por lo tanto quedan automaticamente afuera del
+    merge ideologia-viajes (Section 18 del script R), no por un bug sino
+    por falta de dato de origen. No se investigo ideologia "a mano" para
+    este tramo porque estaria fuera del alcance de las fuentes usadas
+    (Merke et al. 2020 y la extension propia) -inventar un puntaje no
+    documentado violaria la regla anti-alucinacion del proyecto.
+  - Nota aparte (no es un problema, es lo esperable): mandatarios que
+    asumieron por primera vez despues de la ultima ola de datos de las
+    fuentes de ideologia (aprox. 2020-2022) -ej. Milei, Boric, Petro, Lula3,
+    Lasso/Noboa, Peña, Orsi, Paz- no tienen NINGUN dato de ideologia, ni de
+    ese termino ni de ninguno; no es un gap a "corregir" sino un limite de
+    cobertura de las fuentes originales.
+================================================================================
+
+## BOLIVIA — VERIFICACION COLT COMPLETA (2026-08-30)
+================================================================================
+Campaña completa sobre el pipeline nuevo (colt_aplicar_workpacks.py / colt_validar_madre.py
+/ colt_importar_csv.py), 9 mandatarios (7 con LeaderID de COLT + Jeanine Añez y Rodrigo Paz,
+ambos sin cobertura COLT por no tener LeaderID asignado), 11 archivos de resultados
+(Evo Morales en 3 tandas por volumen). Backup del xlsx pre-campaña:
+04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_bolivia_merge.xlsx. Log linea por linea:
+05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_bolivia_2026-08-30.csv
+Resultado agregado: 31 correcciones aplicadas a filas COLT existentes, 12 hallazgos nuevos
+insertados (TripID PELATAM-BOL-1 a 12), 32 items no_verificable (documentados abajo), 18
+items confirmados_sin_cambios (sin accion en la base, solo control de que se reviso ese
+TripID). Modulo Bolivia en Datos_COLT_Sudamerica: 5351 -> 5363 filas.
+
+[BUG DE SCHEMA CORREGIDO A MANO] 2 de los hallazgos_nuevos de Luis Arce (PELATAM-BOL-11,
+Bruselas jul-2023; PELATAM-BOL-12, La Habana sep-2023) llegaron del subagente con
+MetHostHoGS="No_verificable" (y HostHOGSName="No_verificable" en el caso de Cuba) en vez de
+dejar el campo en blanco -colt_validar_madre.py lo detecto (dominio invalido, solo admite
+Yes/No/blanco). Se corrigio a mano dejando ambos campos en blanco (NUNCA "No": la
+justificacion del subagente, ya preservada integra en Notes, aclara que no se pudo
+confirmar/descartar el encuentro bilateral, no que no haya ocurrido). 0 problemas nuevos
+tras la correccion (colt_validar_madre.py: los mismos 16 hallazgos preexistentes de
+paises ya cerrados, ninguno nuevo de Bolivia).
+
+--- GONZALO SANCHEZ DE LOZADA (LeaderID 840, 2 mandatos 1993-1997 y 2002-2003) ---
+4 correcciones (2 TripID x 2 campos: 840-BOL-ARG-34988 TripEndDate 1995-10-16->10-17 +
+TripDuration 1->2 -V Cumbre Iberoamericana Bariloche, duro 2 dias-; 840-BOL-USA-34502
+TripStartDate 1994-06-16 + TripDuration 1->2 -Mundial de EEUU, cobertura Chicago Tribune-).
+3 hallazgos nuevos (PELATAM-BOL-1/2/3): reunion tripartita Wasmosy-Menem-GSL en Buenos
+Aires (abr-1994), firma Acuerdo de Oran en Salta con Menem (jun-1995), VI Cumbre
+Iberoamericana en Viña del Mar (nov-1996) -llamativa ausencia total de Chile en los items
+ya cargados de COLT para este leader pese a la asistencia documentada a todas las demas
+cumbres iberoamericanas del periodo-.
+[No_verificable] 8 items (fechas exactas sin confirmar en Alemania oct-1996, Paraguay
+abr-1996, Vaticano oct-1995, Brasil abr-may-2003, China mar-1997; duracion inusual de 10
+dias en Espania abr-2003 sin poder confirmar ni descartar; nombre de cumbre "Agenda for
+the Americas for the 21st Century Summit" abr-may-1997 no pudo confirmarse como evento
+real). Detalle completo en el log CSV.
+
+--- HUGO BANZER SUAREZ (LeaderID 1245, 1997-2001, renuncio por enfermedad) ---
+7 correcciones de fecha/campo (detalle en el log CSV). 5 hallazgos nuevos (PELATAM-BOL-4 a
+8): Santiago de Chile abr-1998, Isla Margarita/Venezuela nov-1997, Porto/Portugal oct-1998,
+La Habana/Cuba nov-1999, Guayaquil/Ecuador abr-1998.
+[No_verificable] 2 items: fecha de fin de su ultimo viaje a EEUU antes de renunciar por
+enfermedad (jul-2001, internado en Walter Reed); fechas exactas del viaje a Italia
+(reunion con Ciampi, confirmado que ocurrio pero sin fecha exacta).
+
+--- JORGE QUIROGA RAMIREZ (LeaderID 1655, 2001-2002, completo el mandato de Banzer) ---
+0 correcciones. 1 hallazgo nuevo (PELATAM-BOL-9): Madrid, España, may-2002. 0
+no_verificable. 5 confirmados_sin_cambios (items ya en COLT revisados y dados por
+correctos, sin necesidad de tocar la base).
+
+--- CARLOS MESA (LeaderID 1871, 2003-2005) ---
+2 correcciones. 0 hallazgos nuevos. 1 no_verificable: TripID 1871-BOL-USA-38251 (viaje de
+10 dias, 21-30/9/2004), campo NameMultilatEvent -COLT registra el nombre compuesto "United
+Nations (UN) General Assembly;Conference of the Americas", sin poder confirmar/desagregar
+si corresponde a un unico evento o a dos tramos distintos-. 6 confirmados_sin_cambios.
+
+--- EDUARDO RODRIGUEZ (LeaderID 2064, 2005-2006, presidente de transicion) ---
+6 correcciones (detalle en el log CSV). 0 hallazgos nuevos. 2 no_verificable: fechas
+exactas de la XXIX Reunion del Consejo del Mercado Comun en Montevideo (dic-2005) y de la I
+Reunion de Jefes de Estado de la Comunidad Sudamericana de Naciones en Brasilia
+(sep-2005) -ambos eventos confirmados, solo faltan precisar dias exactos-. 2
+confirmados_sin_cambios.
+
+--- EVO MORALES (LeaderID 2117, 2006-2019, investigado en 3 tandas por volumen) ---
+3 correcciones (tanda 3). 1 hallazgo nuevo (PELATAM-BOL-10): La Haya, Paises Bajos,
+sep-2018. 16 no_verificable en total (2 tanda 1, 11 tanda 2, 3 tanda 3): la gran mayoria
+son fechas exactas de inicio/fin que la propia nota de COLT ya marcaba como "not explicit"
+y que la busqueda no pudo precisar (Nueva York AGNU 2008/2010/2011/2013, Ginebra 2009,
+Roma/transito al Vaticano 2010, Argentina 2010, Paraguay Foro Social 2010, Ecuador 2010,
+Peru 2010, Senegal Foro Social Mundial 2011, Venezuela 2011, Brasil Foro Social Sao Paulo
+2013, Cuba ago-2015 motivo del viaje, Paises Bajos jun-2018 motivo del viaje); un caso
+(2117-BOL-ARG-43393, oct-2019) el MetHostHoGS quedo no_verificable pese a nota de prensa
+contemporanea, revisar con mas detalle si hay tiempo. 5 confirmados_sin_cambios (tanda 1).
+
+--- LUIS ARCE (LeaderID 3766, 2020-2025) ---
+9 correcciones (detalle en el log CSV). 2 hallazgos nuevos (PELATAM-BOL-11/12): III Cumbre
+UE-CELAC en Bruselas (jul-2023) y Cumbre del G77+China en La Habana (sep-2023) -ver nota de
+bug de schema arriba, MetHostHoGS/HostHOGSName quedaron en blanco por no poder confirmar
+encuentro bilateral con el anfitrion-. 2 no_verificable: fecha de fin del viaje a Argentina
+abr-2022 (COLT ya señala "Unsure of end date") y fechas exactas de la Cumbre del Mercosur en
+Argentina jul-2023 (COLT ya señala "Exact dates of travel not clear").
+
+--- JEANINE AÑEZ (presidenta interina, 12-nov-2019 a 8-nov-2020, SIN LeaderID en COLT) ---
+[DATO NEGATIVO CONFIRMADO] Busqueda exhaustiva (biografia detallada en inglés y español,
+cronologia dia a dia de sus primeros 100 dias de gobierno) no encontro NINGUN viaje
+internacional de Añez durante su mandato. Toda la actividad de politica exterior del
+periodo (restablecimiento de relaciones con EEUU/Israel, ruptura con Venezuela/Cuba,
+ingreso al Grupo de Lima, salida del ALBA/UNASUR) se gestiono desde La Paz. Se confirmo
+explicitamente la inasistencia a la Cumbre CELAC del 8-ene-2020 (periodo aun anterior a la
+pandemia, descarta que la ausencia se deba solo al cierre de fronteras por COVID-19 desde
+17-mar-2020). No hay filas de Añez en Datos_COLT_Sudamerica (0 antes y 0 despues de esta
+campaña) -no es un gap, es el resultado real de la investigacion-. Registrado como 1 item
+no_verificable (sin TripID asociado, es un hallazgo de ausencia total, no una discrepancia
+puntual).
+
+--- RODRIGO PAZ (desde 8-nov-2025, SIN LeaderID en COLT, EN CURSO) ---
+[DATO NEGATIVO CONFIRMADO, rango investigado 8-nov a 31-dic-2025] Sin viajes
+internacionales en el rango. Confirmacion directa de la vocera presidencial Carla Faval
+(30-dic-2025, via Bolivia Verifica/IFCN): "El presidente no tiene previsto dejar el pais, ni
+realizo viajes al exterior desde la transmision de mando a la fecha". Ausencia fisica
+confirmada por comunicado oficial de Cancilleria en la 67a Cumbre del Mercosur (Foz do
+Iguaçu, 20-dic-2025): Bolivia participo pero representada por el Canciller Fernando Aramayo,
+Paz no viajo. 0 items no_verificable (resultado limpio de "sin hallazgos", no una brecha de
+investigacion). Sin filas en Datos_COLT_Sudamerica para este mandatario (correcto, mandato
+EN CURSO desde 2026 en adelante, actualizar en la proxima extension del corte).
+
+--- RESUMEN BOLIVIA ---
+9 mandatarios investigados (7 con cobertura COLT + 2 sin cobertura, casos negativos
+confirmados). 31 correcciones aplicadas, 12 hallazgos nuevos insertados (PELATAM-BOL-1 a
+12), 32 no_verificable documentados arriba, 18 confirmados_sin_cambios. Modulo Bolivia:
+5351 -> 5363 filas en Datos_COLT_Sudamerica. colt_validar_madre.py: 16 problemas
+preexistentes de otros paises (ya documentados en la seccion "QC ARCHIVO MADRE" arriba),
+0 problemas nuevos atribuibles a esta campaña tras corregir el bug de schema de Arce.
 ================================================================================
