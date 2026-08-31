@@ -1,0 +1,139 @@
+[
+  {
+    "LeaderID": "1654",
+    "correcciones": [
+      {
+        "TripID": "1654-PER-MEX-37998",
+        "campo": "HostHOGSName",
+        "valor_correcto": "President Vicente Fox",
+        "fuente": "https://en.wikipedia.org/wiki/Monterrey_Special_Summit_of_the_Americas ; https://www.everycrsreport.com/reports/RS21700.html",
+        "justificacion": "COLT registra como HostHOGSName a 'President Carlos Mesa', quien era Presidente de Bolivia (2003-2005), no de Mexico. El viaje corresponde a la Cumbre Extraordinaria de las Americas, celebrada en Monterrey, Mexico, el 12-13 de enero de 2004 (fechas identicas a las de COLT), evento organizado y presidido por el anfitrion mexicano, el Presidente Vicente Fox Quesada. Multiples fuentes (EveryCRSReport, Wikipedia, cobertura de prensa de la epoca) confirman que Alejandro Toledo asistio a esta cumbre y que el anfitrion fue Vicente Fox. Se corrige el campo HostHOGSName de 'President Carlos Mesa' (dato imposible para un viaje a Mexico) a 'President Vicente Fox'."
+      },
+      {
+        "TripID": "1654-PER-BRA-38294",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "NA",
+        "fuente": "https://www.lanacion.com.ar/politica/bielsa-paso-calor-nid654189/ ; https://www.infobae.com/2004/11/05/149960-culmino-la-cumbre-del-grupo-rio/",
+        "justificacion": "COLT registra que Toledo se reunio con 'President Vicente Fox' y 'President Nestor Kirchner' durante la XVIII Cumbre del Grupo de Rio en Rio de Janeiro (4-5 de noviembre de 2004). Sin embargo, la nota de LA NACION del 15/11/2004 ('Bielsa paso calor') confirma que Kirchner cancelo su viaje a ultimo momento por una 'ausencia inesperada' y no asistio a la cumbre ('Habia 22 presidentes en la cumbre. Y Kirchner no estaba'), siendo representado por su canciller Rafael Bielsa. Respecto de Mexico, fuentes disponibles indican que el pais participo en la cumbre representado por su Secretario de Relaciones Exteriores, Luis Ernesto Derbez, con estatus de observador no participante, sin que se haya hallado fuente que confirme la presencia personal de Vicente Fox en Rio de Janeiro. Ante la falta de evidencia de encuentro presencial de Toledo con jefes de Estado no anfitriones en este viaje, se corrige el campo a 'NA' en lugar de inventar un reemplazo."
+      },
+      {
+        "TripID": "1654-PER-BRA-38294",
+        "campo": "MetNonhostHOGS",
+        "valor_correcto": "No",
+        "fuente": "https://www.lanacion.com.ar/politica/bielsa-paso-calor-nid654189/",
+        "justificacion": "Consecuencia directa de la correccion del campo NonhostHOGSNames: al no hallarse evidencia de que Toledo se haya reunido con jefes de Estado no anfitriones (Fox y Kirchner estuvieron ausentes, representados por sus cancilleres), se corrige MetNonhostHOGS de 'Yes' a 'No'."
+      },
+      {
+        "TripID": "1654-PER-USA-38249",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "President Luiz Inacio Lula da Silva;President Ricardo Lagos Escobar",
+        "fuente": "https://en.wikipedia.org/wiki/Omar_Torrijos ; https://es.wikipedia.org/wiki/Mart%C3%ADn_Torrijos_Espino",
+        "justificacion": "COLT incluye a 'President Omar Torrijos' entre los jefes de Estado que Toledo habria encontrado durante su viaje a la Asamblea General de la ONU en septiembre de 2004. Este dato es cronologicamente imposible: el General Omar Torrijos, gobernante de facto de Panama, murio el 31 de julio de 1981 en un accidente aereo, 23 anos antes del viaje registrado. Es probable que exista una confusion con Martin Torrijos Espino (hijo de Omar Torrijos), quien asumio la Presidencia constitucional de Panama el 1 de septiembre de 2004, semanas antes de esta Asamblea General; sin embargo, no se hallo una fuente independiente que confirme un encuentro especifico entre Toledo y Martin Torrijos en Nueva York en esa fecha, por lo que -siguiendo la regla de no inventar reemplazos- se elimina unicamente el nombre imposible ('Omar Torrijos') del listado, dejando los dos nombres (Lula da Silva y Lagos Escobar) que no presentan inconsistencia cronologica ni de cargo."
+      },
+      {
+        "TripID": "1654-PER-ESP-37393",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "European Union-Latin America and the Caribbean (EU-LAC) Summit (II Cumbre UE-ALC, Madrid)",
+        "fuente": "https://ec.europa.eu/commission/presscorner/detail/es/pres_02_133 ; https://ec.europa.eu/commission/presscorner/detail/es/memo_02_93 ; https://es.wikipedia.org/wiki/Cumbre_Am%C3%A9rica_Latina,_el_Caribe_y_la_Uni%C3%B3n_Europea",
+        "justificacion": "COLT describe el evento como 'Spain-Caribbean Community (CARICOM) Summit', lo cual es incoherente: Peru no es miembro de CARICOM (bloque exclusivamente caribeno) y no existe una cumbre bilateral 'Espana-CARICOM'. Las fechas del viaje (17-18 de mayo de 2002) coinciden exactamente con la II Cumbre Union Europea-America Latina y el Caribe, celebrada en Madrid esos mismos dias, confirmada por comunicados oficiales de la Comision Europea. Fuentes de prensa de la epoca confirman ademas que Toledo viajo a Madrid a mediados de mayo de 2002 para una cumbre de presidentes latinoamericanos con la Union Europea, donde fue fotografiado saludando a Aznar, Chirac y Blair. Se corrige el nombre del evento por el de la cumbre real."
+      },
+      {
+        "TripID": "1654-PER-AUT-38848",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "European Union-Latin America and the Caribbean (EU-LAC) Summit (IV Cumbre UE-ALC, Viena)",
+        "fuente": "https://ec.europa.eu/commission/presscorner/detail/es/pres_06_137 ; https://eulacfoundation.org/es/declaracion-viena-cuarta-cumbre-union-europea-america-latina-y-el-caribe",
+        "justificacion": "COLT llama al evento 'European Council-Community of Latin American and Caribbean States (ECLAC) Summit', nombre incorrecto y anacronico: la CELAC (Comunidad de Estados Latinoamericanos y Caribenos) no fue fundada hasta 2010-2011, por lo que no pudo existir una cumbre 'Consejo Europeo-CELAC' en mayo de 2006. El evento real, documentado por comunicados oficiales de la Comision Europea, es la IV Cumbre Union Europea-America Latina y el Caribe, celebrada en Viena, Austria, el 11-12 de mayo de 2006 (fechas coincidentes con el rango de COLT, 11-13/5/2006). Fuentes de prensa confirman la participacion de Toledo en esta cumbre, incluido un conocido episodio de tension con el presidente boliviano Evo Morales. Se corrige unicamente el nombre del evento; los demas campos (fechas, MetNonhostHOGS con Chirac y Bachelet) no se modifican por falta de evidencia que los contradiga."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Costa Rica",
+        "CityVisited": "San Jose",
+        "TripStartDate": "2004-11-19",
+        "TripEndDate": "2004-11-20",
+        "TripDuration": "2",
+        "MetHostHoGS": "",
+        "HostHOGSName": "",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "Ibero-American Summit (XIV Cumbre Iberoamericana)",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://es.wikipedia.org/wiki/XIV_Cumbre_Iberoamericana ; https://eulacfoundation.org/es/14a-cumbre-iberoamericana-jefes-estado-y-gobierno-declaracion-san-jose-costa-rica-19-20-noviembre",
+        "justificacion": "La XIV Cumbre Iberoamericana de Jefes de Estado y de Gobierno se celebro en San Jose, Costa Rica, los dias 19 y 20 de noviembre de 2004, bajo el lema 'Educar para Progresar', con la asistencia de los mandatarios de los 21 paises iberoamericanos. Fuentes de prensa de la epoca listan explicitamente a Alejandro Toledo, Presidente de Peru, entre los asistentes. Este viaje no figura entre los 61 items ya cargados en COLT para leader_1654: la agenda de COLT muestra a Toledo en Brasil el 3-5 de noviembre de 2004 (Cumbre del Grupo de Rio) y en Chile el 20-22 de noviembre de 2004 (Cumbre de APEC), dejando un hueco exacto para la Cumbre Iberoamericana de Costa Rica el 19-20 de noviembre, inmediatamente antes de su llegada a Chile. Se trata de un hueco real de una cumbre multilateral de alto perfil no capturada por COLT. Los campos de anfitrion/no-anfitrion y firma de acuerdos se dejan en blanco por no haberse hallado una fuente que detalle esos aspectos especificos de la participacion de Toledo; TripDuration se estima en 2 dias por ser el rango exacto de duracion oficial de la cumbre."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "1654-PER-ESP-38853",
+        "campo": "NameMultilatEvent / TripDates",
+        "justificacion": "COLT registra que Toledo asistio a un evento llamado 'Europa Forum' en Espana el 16 de mayo de 2006 (un dia despues de la Cumbre UE-ALC de Viena), reuniendose con el Presidente del Gobierno Jose Luis Rodriguez Zapatero. Busqueda activa no hallo cobertura de prensa ni fuente oficial que confirme la existencia, nombre exacto o fecha de este 'Europa Forum', por lo que se mantiene sin cambios ante la falta de fuente independiente, sin poder confirmar ni descartar el dato."
+      },
+      {
+        "TripID": "1654-PER-THA-37912",
+        "campo": "TripEndDate",
+        "justificacion": "La Cumbre de Lideres de APEC en Bangkok, Tailandia, se realizo oficialmente el 20-21 de octubre de 2003 (fuente: APEC, everycrsreport.com), mientras que COLT registra el viaje de Toledo como 18-20 de octubre de 2003, es decir, con una fecha de salida (20/10) que coincide solo con el primer dia de la cumbre de dos dias. Busqueda activa no hallo cobertura de prensa que precise si Toledo permanecio en Bangkok hasta el cierre de la cumbre el 21/10 o partio antes, por lo que se deja el campo sin corregir ante la falta de evidencia especifica, senalando la inconsistencia para verificacion futura."
+      },
+      {
+        "TripID": "1654-PER-CHL-37119",
+        "campo": "NameMultilatEvent",
+        "justificacion": "COLT registra una 'Rio Group Summit' en Chile el 16-17 de agosto de 2001, con Ricardo Lagos como anfitrion (presidente de Chile vigente en esa fecha). Busqueda activa no permitio confirmar de forma independiente la realizacion de una cumbre del Grupo de Rio en Chile en esa fecha especifica (agotado el presupuesto de busqueda web disponible en esta sesion antes de poder verificarlo), por lo que se deja constancia de que este item requiere verificacion adicional en una proxima ronda."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "1654-PER-ARG-37766", "justificacion": "Corresponde a la asuncion de Nestor Kirchner como presidente de Argentina el 25 de mayo de 2003, fecha ampliamente documentada, coincidente con el TripStartDate/TripEndDate de COLT (25/5/2003) y con las propias Notes de COLT."},
+      {"TripID": "1654-PER-ARG-38660", "justificacion": "Corresponde a la IV Cumbre de las Americas en Mar del Plata, Argentina, confirmada para el 4-5 de noviembre de 2005, coincidente exactamente con el rango de COLT."},
+      {"TripID": "1654-PER-BEL-37593", "justificacion": "Visita bilateral a Guy Verhofstadt, diciembre de 2002, dentro de una gira europea (Italia-Belgica-Reino Unido-Vaticano) bien documentada por las propias Notes de COLT (incluye encuentro con el Rey Alberto II); Verhofstadt era Primer Ministro belga vigente."},
+      {"TripID": "1654-PER-BEL-38637", "justificacion": "Encuentro con el Presidente de la Comision Europea Jose Manuel Barroso, octubre de 2005, coincidente con la gira europea que incluyo Espana (Cumbre Iberoamericana de Salamanca) esos mismos dias; Barroso era Presidente de la Comision Europea vigente."},
+      {"TripID": "1654-PER-BOL-37210", "justificacion": "Visita bilateral a Jorge Quiroga Ramirez, noviembre de 2001; Quiroga era presidente de Bolivia vigente (agosto 2001-agosto 2002), consistente con las propias Notes de COLT que reconocen incertidumbre en las fechas exactas."},
+      {"TripID": "1654-PER-BOL-37281", "justificacion": "Visita bilateral a Jorge Quiroga Ramirez, enero de 2002; Quiroga era presidente de Bolivia vigente."},
+      {"TripID": "1654-PER-BOL-37474", "justificacion": "Corresponde a la asuncion de Gonzalo Sanchez de Lozada como presidente de Bolivia el 6 de agosto de 2002, fecha ampliamente documentada, coincidente con el TripStartDate/TripEndDate de COLT."},
+      {"TripID": "1654-PER-BOL-37939", "justificacion": "Corresponde a la XIII Cumbre Iberoamericana en Santa Cruz de la Sierra, Bolivia, confirmada para el 14-15 de noviembre de 2003, coincidente exactamente con el rango de COLT."},
+      {"TripID": "1654-PER-BOL-38210", "justificacion": "Inauguracion del 'Puente de la Amistad' Peru-Bolivia-Brasil, 11 de agosto de 2004, evento bilateral/trilateral puntual bien documentado por las propias Notes de COLT."},
+      {"TripID": "1654-PER-BOL-38739", "justificacion": "Corresponde a la asuncion de Evo Morales como presidente de Bolivia el 22 de enero de 2006, fecha ampliamente documentada, coincidente con el TripStartDate/TripEndDate de COLT."},
+      {"TripID": "1654-PER-BRA-37324", "justificacion": "Visita a Brasil con reunion del BID y encuentro con Fernando Henrique Cardoso (presidente brasileno vigente) y Gustavo Noboa (presidente ecuatoriano vigente), marzo de 2002; sin senales de inconsistencia."},
+      {"TripID": "1654-PER-BRA-37610", "justificacion": "Inauguracion de la carretera BR-371 en Acre junto a Fernando Henrique Cardoso, diciembre de 2002, evento bilateral puntual bien documentado por las propias Notes de COLT."},
+      {"TripID": "1654-PER-BRA-37620", "justificacion": "Corresponde a la asuncion de Luiz Inacio Lula da Silva como presidente de Brasil el 1 de enero de 2003, fecha ampliamente documentada, comprendida dentro del rango de COLT (30/12/2002-2/1/2003)."},
+      {"TripID": "1654-PER-BRA-37721", "justificacion": "Visita bilateral a Luiz Inacio Lula da Silva, abril de 2003, sin senales de inconsistencia."},
+      {"TripID": "1654-PER-BRA-38624", "justificacion": "Corresponde a la Primera Cumbre de la Comunidad Sudamericana de Naciones en Brasilia, confirmada para el 29-30 de septiembre de 2005, consistente con el rango 29/9-1/10/2005 de COLT (con un dia adicional de salida)."},
+      {"TripID": "1654-PER-BRA-38738", "justificacion": "Apertura de un puente fronterizo Peru-Brasil, 21 de enero de 2006, evento bilateral puntual bien documentado por las propias Notes de COLT."},
+      {"TripID": "1654-PER-CHL-37490", "justificacion": "Visita bilateral a Ricardo Lagos Escobar, agosto de 2002, sin senales de inconsistencia."},
+      {"TripID": "1654-PER-CHL-38311", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Santiago de Chile, confirmada para el 20-21 de noviembre de 2004, consistente con el rango 20-22/11/2004 de COLT."},
+      {"TripID": "1654-PER-CHL-38787", "justificacion": "Corresponde a la asuncion de Michelle Bachelet como presidenta de Chile el 11 de marzo de 2006, fecha ampliamente documentada, coincidente con el TripStartDate/TripEndDate de COLT; el encuentro con Evo Morales (presidente boliviano vigente) es cronologicamente consistente."},
+      {"TripID": "1654-PER-CHN-37184", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Shanghai, China, confirmada para el 20-21 de octubre de 2001, comprendida dentro del rango 20-23/10/2001 de COLT; los lideres listados (Koizumi, Bush, Chretien, Fox, Jiang Zemin) son consistentes con los asistentes documentados a APEC Shanghai 2001."},
+      {"TripID": "1654-PER-CHN-38504", "justificacion": "Visita bilateral a China con encuentro con Hu Jintao, junio de 2005, sin senales de inconsistencia."},
+      {"TripID": "1654-PER-COL-38093", "justificacion": "Visita bilateral a Alvaro Uribe, abril de 2004; Uribe era presidente colombiano vigente."},
+      {"TripID": "1654-PER-COL-38214", "justificacion": "Visita bilateral a Alvaro Uribe, agosto de 2004; sin senales de inconsistencia."},
+      {"TripID": "1654-PER-CRI-37357", "justificacion": "Corresponde a una Cumbre del Grupo de Rio en Costa Rica, abril de 2002, con Miguel Angel Rodriguez como anfitrion (presidente costarricense vigente hasta el 8/5/2002)."},
+      {"TripID": "1654-PER-ECU-37118", "justificacion": "Visita bilateral a Gustavo Noboa, agosto de 2001, inmediatamente posterior a la propia asuncion de Toledo (28/7/2001); Noboa era presidente ecuatoriano vigente."},
+      {"TripID": "1654-PER-ECU-37180", "justificacion": "Visita bilateral a Gustavo Noboa, octubre de 2001, con firma de acuerdo segun COLT; sin senales de inconsistencia."},
+      {"TripID": "1654-PER-ECU-37636", "justificacion": "Corresponde a la asuncion de Lucio Gutierrez como presidente de Ecuador el 15 de enero de 2003, fecha ampliamente documentada, coincidente con el TripStartDate de COLT."},
+      {"TripID": "1654-PER-ECU-38880", "justificacion": "Corresponde a la Reunion Extraordinaria del Consejo Presidencial Andino en Quito, Ecuador, confirmada para el 13 de junio de 2006, con la participacion documentada de Alejandro Toledo junto a Alfredo Palacio, Evo Morales y Alvaro Uribe; consistente con el rango 12-14/6/2006 de COLT."},
+      {"TripID": "1654-PER-FRA-37903", "justificacion": "Visita a Francia con encuentro con Jacques Chirac y participacion en una reunion vinculada a la UNESCO, octubre de 2003. La 32a Conferencia General de la UNESCO se desarrollo en Paris hasta el 17 de octubre de 2003 (fecha en que se adopto la Convencion para la Salvaguardia del Patrimonio Cultural Inmaterial), lo cual coincide exactamente con el TripEndDate registrado por COLT (17/10/2003), aunque no se hallo una fuente de prensa que detalle especificamente la intervencion de Toledo en dicha conferencia."},
+      {"TripID": "1654-PER-DEU-37911", "justificacion": "Visita bilateral a Gerhard Schroder, octubre de 2003, inmediatamente posterior a Francia; sin senales de inconsistencia."},
+      {"TripID": "1654-PER-VAT-37596", "justificacion": "Audiencia con el Papa Juan Pablo II, diciembre de 2002, dentro de la misma gira europea que incluyo Italia, Belgica y Reino Unido; sin senales de inconsistencia."},
+      {"TripID": "1654-PER-ISR-38497", "justificacion": "Visita bilateral a Israel con encuentro con Ariel Sharon y visita al Memorial del Holocausto, mayo de 2005; Sharon era Primer Ministro israeli vigente."},
+      {"TripID": "1654-PER-ITA-37592", "justificacion": "Visita bilateral a Silvio Berlusconi (con encuentro adicional con el Presidente Carlo Azeglio Ciampi), diciembre de 2002; sin senales de inconsistencia."},
+      {"TripID": "1654-PER-JOR-38501", "justificacion": "Visita bilateral a Jordania con encuentro con el Rey Abdullah II y firma de acuerdos de cooperacion, mayo-junio de 2005; sin senales de inconsistencia."},
+      {"TripID": "1654-PER-MEX-37334", "justificacion": "Corresponde a la Conferencia Internacional de la ONU sobre Financiacion para el Desarrollo ('Consenso de Monterrey'), realizada en Monterrey, Mexico, del 18 al 22 de marzo de 2002, rango que comprende el viaje de Toledo (19-21/3/2002) segun COLT."},
+      {"TripID": "1654-PER-MEX-37553", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Los Cabos, Mexico, confirmada oficialmente para el 26-27 de octubre de 2002, con Alejandro Toledo listado explicitamente como asistente (Wikipedia/APEC), consistente con el rango 24-27/10/2002 de COLT (con dias adicionales de llegada); Vicente Fox era el anfitrion mexicano vigente."},
+      {"TripID": "1654-PER-KOR-38671", "justificacion": "Corresponde a la 13a Cumbre de Lideres de APEC en Busan, Corea del Sur, confirmada para el 18-19 de noviembre de 2005, con la participacion documentada de Alejandro Toledo; consistente con el rango 15-19/11/2005 de COLT (con dias adicionales de llegada); Roh Moo-hyun era el anfitrion surcoreano vigente."},
+      {"TripID": "1654-PER-ESP-37188", "justificacion": "Visita bilateral a Jose Maria Aznar, octubre de 2001; Aznar era Presidente del Gobierno espanol vigente."},
+      {"TripID": "1654-PER-ESP-38173", "justificacion": "Visita bilateral a Jose Luis Rodriguez Zapatero, julio de 2004, con firma de acuerdos segun COLT; Zapatero era Presidente del Gobierno espanol vigente desde abril de 2004."},
+      {"TripID": "1654-PER-ESP-38639", "justificacion": "Corresponde a la XV Cumbre Iberoamericana en Salamanca, Espana, confirmada para el 14-15 de octubre de 2005, coincidente exactamente con el rango de COLT; los no-anfitriones listados (Chavez, Uribe) son consistentes con los presidentes vigentes en esa fecha."},
+      {"TripID": "1654-PER-CHE-37643", "justificacion": "Corresponde al Foro Economico Mundial (WEF) de Davos, enero de 2003, evento anual bien documentado, consistente con el rango 22-27/1/2003 de COLT."},
+      {"TripID": "1654-PER-GBR-37595", "justificacion": "Visita bilateral a Tony Blair, diciembre de 2002, dentro de la misma gira europea; Blair era Primer Ministro britanico vigente."},
+      {"TripID": "1654-PER-USA-37205", "justificacion": "Corresponde a actividades paralelas a la 56a Asamblea General de la ONU y una reunion de trabajo del Grupo de Rio en Nueva York, noviembre de 2001, consistente con las propias Notes de COLT (discurso, entrevista con Larry King, cena de trabajo con el Grupo de Rio)."},
+      {"TripID": "1654-PER-USA-37287", "justificacion": "Corresponde al Foro Economico Mundial (WEF), excepcionalmente trasladado a Nueva York en 2002 tras los atentados del 11-S, realizado del 31/1 al 4/2/2002, coincidente exactamente con el rango de COLT."},
+      {"TripID": "1654-PER-USA-37385", "justificacion": "Corresponde a la Sesion Especial de la Asamblea General de la ONU sobre la Infancia, realizada en Nueva York del 8 al 10 de mayo de 2002, comprendida dentro del rango 9-13/5/2002 de COLT."},
+      {"TripID": "1654-PER-USA-37509", "justificacion": "Viaje descrito por las propias Notes de COLT como 'visita privada' y 'visita a la OEA', septiembre de 2002; sin elementos verificables adicionales que generen dudas sobre su ocurrencia."},
+      {"TripID": "1654-PER-USA-37543", "justificacion": "Corresponde a la Conferencia de Miami sobre America Latina y el Caribe, octubre de 2002, evento anual bien documentado, consistente con el rango de COLT."},
+      {"TripID": "1654-PER-USA-37886", "justificacion": "Corresponde a la 58a Asamblea General de la ONU, septiembre de 2003; los no-anfitriones listados (Aznar, Fox, Duarte) son consistentes con los mandatarios vigentes en esa fecha (Nicanor Duarte asumio la presidencia de Paraguay el 15/8/2003)."},
+      {"TripID": "1654-PER-USA-38611", "justificacion": "Corresponde a una ronda de negociaciones del Tratado de Libre Comercio Peru-EEUU, septiembre de 2005, consistente con las propias Notes de COLT que reconocen incertidumbre sobre la presencia de jefes de Estado."},
+      {"TripID": "1654-PER-USA-38785", "justificacion": "Visita bilateral a George W. Bush, marzo de 2006, documentada tambien por fotografias oficiales de la Casa Blanca (10/3/2006); consistente con el rango 9-10/3/2006 de COLT."},
+      {"TripID": "1654-PER-USA-38819", "justificacion": "Discurso ante el Consejo Permanente de la OEA y encuentro con el Secretario General Jose Miguel Insulza, abril de 2006, evento puntual bien documentado por las propias Notes de COLT."},
+      {"TripID": "1654-PER-USA-38905", "justificacion": "Visita bilateral a George W. Bush para promover la ratificacion del TLC Peru-EEUU, julio de 2006, hacia el final del mandato de Toledo; sin senales de inconsistencia."},
+      {"TripID": "1654-PER-URY-38411", "justificacion": "Corresponde a la asuncion de Tabare Vazquez como presidente de Uruguay el 1 de marzo de 2005, fecha ampliamente documentada, comprendida dentro del rango 28/2-1/3/2005 de COLT."}
+    ]
+  }
+]

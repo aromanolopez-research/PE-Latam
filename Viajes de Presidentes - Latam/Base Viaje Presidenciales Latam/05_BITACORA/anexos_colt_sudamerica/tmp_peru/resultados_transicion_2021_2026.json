@@ -1,0 +1,167 @@
+[
+  {
+    "LeaderID": "3831",
+    "LeaderFullName": "Pedro Castillo",
+    "correcciones": [
+      {
+        "TripID": "3831-PER-COL-44587",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Pacific Alliance Leaders Meeting",
+        "fuente": "https://alianzapacifico.net/finaliza-la-xvi-cumbre-de-la-alianza-del-pacifico/ ; https://www.semana.com/economia/macroeconomia/articulo/presidente-duque-lidera-xvi-cumbre-de-la-alianza-del-pacifico-en-bahia-malaga/202207/ ; https://en.wikipedia.org/wiki/Pacific_Alliance_Leaders_Meeting ; https://sdgs.un.org/partnerships/pacific-islands-leaders-meeting-palm",
+        "justificacion": "COLT etiqueta este evento como 'Pacific Alliance Leaders Meeting (PALM8)'. El evento real fue la XVI Cumbre de la Alianza del Pacifico, realizada el 26 de enero de 2022 en Bahia Malaga-Buenaventura, Colombia (confirmado por el sitio oficial de la Alianza del Pacifico y por Semana), consistente con las fechas 26-27/1/2022 de COLT. Sin embargo, la sigla '(PALM8)' que COLT anade entre parentesis no corresponde a la Alianza del Pacifico: PALM (Pacific Islands Leaders Meeting) es un foro completamente distinto entre Japon y las naciones insulares del Pacifico (confirmado por fuentes oficiales de Naciones Unidas y del gobierno japones), sin ninguna relacion con Peru, Colombia o la Alianza del Pacifico latinoamericana. Se corrige unicamente la denominacion del evento, eliminando el parentesis erroneo; el resto de los campos del registro (fecha, firma de declaraciones, etc.) ya son correctos y no requieren cambio."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [],
+    "confirmados_sin_cambios": [
+      {"TripID": "3831-PER-BOL-44499", "justificacion": "Viaje a La Paz, Bolivia, el 30 de octubre de 2021, para el VI Gabinete Binacional Peru-Bolivia con el presidente Luis Arce, con firma de 10 acuerdos sobre gas y otros temas. Confirmado por multiples fuentes independientes (Infobae, El Comercio, La Republica, Gestion, RPP) que coinciden en la fecha exacta y en los acuerdos firmados; el permiso de viaje fue aprobado por el Congreso peruano el mismo mes."},
+      {"TripID": "3831-PER-CHL-44630", "justificacion": "Asistencia a la toma de posesion de Gabriel Boric como presidente de Chile, confirmada por multiples fuentes (Chile Today, la Casa Blanca, Wikipedia) para el 11 de marzo de 2022, consistente con el rango 10-11/3/2022 de COLT (con un dia de llegada previa); se confirma tambien la presencia de Castillo entre los mandatarios asistentes."},
+      {"TripID": "3831-PER-CHL-44893", "justificacion": "Visita bilateral a Chile el 28-29 de noviembre de 2022 con el presidente Gabriel Boric (ya en funciones desde marzo de 2022), confirmada por Mercopress y fuentes de Advance/Lexis; este viaje fue uno de los pocos autorizados por el Congreso en la recta final del mandato de Castillo (el Congreso aprobo el viaje a Chile en la misma sesion en que nego el viaje a Mexico, segun Infobae del 17/11/2022), consistente con el rango de fechas de COLT."},
+      {"TripID": "3831-PER-COL-44574", "justificacion": "VI Gabinete Binacional Peru-Colombia con el presidente Ivan Duque, realizado el 13 de enero de 2022 en Villa de Leyva (Boyaca), confirmado por Infobae, El Comercio, La Republica, Peru21 y Wapa.pe, consistente con la fecha puntual de COLT y con Ivan Duque como presidente colombiano vigente."},
+      {"TripID": "3831-PER-COL-44587", "justificacion": "Ver correccion aplicada al campo NameMultilatEvent; en lo demas (fechas 26-27/1/2022, firma de declaraciones, sede en Bahia Malaga-Buenaventura), el registro es correcto y esta confirmado por fuentes independientes (Alianza del Pacifico, Semana, Reuters, Taiwan News)."},
+      {"TripID": "3831-PER-ECU-44680", "justificacion": "XIV Gabinete Binacional Peru-Ecuador con el presidente Guillermo Lasso, realizado el 29 de abril de 2022 en Loja, Ecuador, confirmado por La Republica, El Comercio, Infobae y Diario Correo, consistente con la fecha puntual de COLT; las fuentes tambien confirman que el gabinete anterior (XIII) se realizo en Tumbes en noviembre de 2019, validando la numeracion XIV usada por COLT frente a un titular aislado y contradictorio de La Republica que mencionaba erroneamente 'XVI'."},
+      {"TripID": "3831-PER-MEX-44456", "justificacion": "VI Cumbre de la CELAC en Ciudad de Mexico, 17-19 de septiembre de 2021 (llegada 17/9, cumbre el 18/9, viaje a EEUU el 19/9), confirmado por La Republica, El Comercio, Infobae y Forbes Mexico, con reunion bilateral con Andres Manuel Lopez Obrador y firma de la declaracion conjunta de 44 puntos, consistente con el rango de COLT."},
+      {"TripID": "3831-PER-USA-44458", "justificacion": "Participacion en el 76 periodo de sesiones de la Asamblea General de la ONU en Nueva York, 19-22 de septiembre de 2021, con discurso ante el pleno (fuente oficial: gob.pe, discurso publicado integro); fecha y evento ampliamente documentados y consistentes con el rango de COLT, que sigue inmediatamente al viaje a Mexico."},
+      {"TripID": "3831-PER-USA-44718", "justificacion": "IX Cumbre de las Americas en Los Angeles, 6-10 de junio de 2022, con firma de la Declaracion de Los Angeles sobre migracion y reunion con Ivan Duque (confirmado por Infobae del 8/6/2022 y por Reliefweb sobre la Declaracion de Los Angeles), consistente con el rango de COLT."},
+      {"TripID": "3831-PER-USA-44822", "justificacion": "Participacion en el 77 periodo de sesiones de la Asamblea General de la ONU en Nueva York, 18-22 de septiembre de 2022, con reunion con el Secretario General Antonio Guterres (fuente oficial: readout de la ONU, un.org), consistente con el rango de COLT; este fue uno de los ultimos viajes autorizados de Castillo antes de que el Congreso comenzara a negarle sistematicamente los permisos de viaje en las semanas siguientes (Colombia en agosto -viaje a la asuncion de Petro-, Europa/Vaticano en octubre, y Mexico en noviembre de 2022, los tres rechazados por el Pleno del Congreso segun Infobae y El Comercio), lo cual explica por que estos tres destinos NO aparecen en COLT: los viajes fueron autorizados-solicitados pero efectivamente jamas se realizaron, no se trata de huecos de informacion sino de viajes que realmente no ocurrieron. Tampoco se hallo evidencia de asistencia de Castillo a la Cumbre del G20 en Bali (noviembre de 2022); Peru no es miembro del G20 y no se encontro registro de una invitacion o participacion peruana en dicha cumbre."}
+    ]
+  },
+  {
+    "LeaderID": "3981",
+    "LeaderFullName": "Dina Boluarte",
+    "correcciones": [
+      {
+        "TripID": "3981-PER-USA-45186",
+        "campo": "TripEndDate",
+        "valor_correcto": "2023-09-21",
+        "fuente": "https://www.infobae.com/peru/2023/09/21/dina-boluarte-regreso-al-pais-tras-accidentada-participacion-en-asamblea-de-la-onu-pusimos-al-peru-en-el-ojo-del-mundo/ ; https://comunicaciones.congreso.gob.pe/noticias/pleno-autorizo-viaje-de-presidenta-dina-boluarte-a-los-estados-unidos/",
+        "justificacion": "COLT registra el regreso el 19/9/2023, pero el permiso otorgado por el Congreso autorizaba la salida del pais 'del 17 al 21 de septiembre de 2023' y multiples fuentes (Infobae, entre otras) confirman que Boluarte 'regreso al pais' efectivamente el 21 de septiembre, tras participar en la semana de alto nivel de la 78 Asamblea General de la ONU (con su discurso el 19/9). Se corrige la fecha de regreso de 19/9 a 21/9/2023."
+      },
+      {
+        "TripID": "3981-PER-USA-45186",
+        "campo": "TripDuration",
+        "valor_correcto": "5",
+        "fuente": "https://www.infobae.com/peru/2023/09/21/dina-boluarte-regreso-al-pais-tras-accidentada-participacion-en-asamblea-de-la-onu-pusimos-al-peru-en-el-ojo-del-mundo/",
+        "justificacion": "Consecuencia directa de la correccion de TripEndDate: con salida el 17/9 y regreso el 21/9/2023, la duracion pasa de 3 a 5 dias."
+      },
+      {
+        "TripID": "3981-PER-CHN-45467",
+        "campo": "TripStartDate",
+        "valor_correcto": "2024-06-23",
+        "fuente": "https://elcomercio.pe/politica/dina-boluarte-china-esta-es-la-agenda-detallada-de-su-anunciado-viaje-a-china-y-la-reunion-con-xi-jinping-congreso-23-al-30-de-junio-noticia/ ; https://rpp.pe/politica/congreso/dina-boluarte-congreso-aprueba-viaje-a-china-para-reunion-con-xi-jinping-noticia-1559785",
+        "justificacion": "El Congreso autorizo la salida del pais de Boluarte 'del 23 al 30 de junio de 2024' (71 votos a favor) para su visita de Estado a China, con agenda confirmada en Shenzhen (26/6), Shanghai (27/6) y Beijing (28/6, reunion con Xi Jinping). COLT registra el inicio del viaje el 24/6, un dia despues de la fecha real de salida autorizada y ejecutada. Se corrige TripStartDate de 24/6 a 23/6/2024."
+      },
+      {
+        "TripID": "3981-PER-CHN-45467",
+        "campo": "TripDuration",
+        "valor_correcto": "8",
+        "fuente": "https://elcomercio.pe/politica/dina-boluarte-china-esta-es-la-agenda-detallada-de-su-anunciado-viaje-a-china-y-la-reunion-con-xi-jinping-congreso-23-al-30-de-junio-noticia/",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: con el rango real 23-30/6/2024, la duracion pasa de 6 a 8 dias. Esta cifra tambien es consistente con reportes posteriores que indican que en todo 2024 Boluarte estuvo fuera del pais 'ocho dias' en su unico viaje aprobado ese ano (China), lo cual coincide exactamente con un viaje de 8 dias y no de 6."
+      },
+      {
+        "TripID": "3981-PER-FRA-45816",
+        "campo": "TripStartDate",
+        "valor_correcto": "2025-06-07",
+        "fuente": "https://www.tvperu.gob.pe/noticias/politica/congreso-autoriza-viaje-de-la-presidenta-dina-boluarte-a-francia ; https://www.radionacional.gob.pe/noticias/politica/congreso-autoriza-viaje-de-la-presidenta-dina-boluarte-a-francia",
+        "justificacion": "El Congreso autorizo el viaje de Boluarte a Francia 'del 7 al 11 de junio de 2025' para participar en la UNOC3 (Conferencia de la ONU sobre los Oceanos) en Niza. COLT registra el inicio el 8/6, un dia despues de la fecha real de salida autorizada. Se corrige TripStartDate de 8/6 a 7/6/2025."
+      },
+      {
+        "TripID": "3981-PER-FRA-45816",
+        "campo": "TripEndDate",
+        "valor_correcto": "2025-06-11",
+        "fuente": "https://www.tvperu.gob.pe/noticias/politica/congreso-autoriza-viaje-de-la-presidenta-dina-boluarte-a-francia",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: el permiso autorizado cubria hasta el 11/6/2025, dos dias despues del regreso registrado por COLT (10/6). Se corrige TripEndDate de 10/6 a 11/6/2025."
+      },
+      {
+        "TripID": "3981-PER-FRA-45816",
+        "campo": "TripDuration",
+        "valor_correcto": "5",
+        "fuente": "https://www.tvperu.gob.pe/noticias/politica/congreso-autoriza-viaje-de-la-presidenta-dina-boluarte-a-francia",
+        "justificacion": "Consecuencia directa de las correcciones anteriores: con el rango real 7-11/6/2025, la duracion pasa de 3 a 5 dias."
+      },
+      {
+        "TripID": "3981-PER-PRY-45479",
+        "campo": "CountryVisited / TripStartDate / TripEndDate / TripDuration / AttendedMultilatEvent / NameMultilatEvent",
+        "valor_correcto": "NA",
+        "fuente": "https://www.infobae.com/movant/2024/07/08/cumbre-mercosur-paraguay-cede-liderazgo-a-uruguay-con-desafios-en-el-horizonte/ ; https://es.wikipedia.org/wiki/Anexo:Viajes_internacionales_de_la_presidenta_Dina_Boluarte",
+        "justificacion": "El propio COLT ya senalaba baja confianza (Confidence 3/5) y anotaba en sus Notes: 'Nature of visit unclear; No evidence of Boluarte's participation in any MERCOSUR events nor any evidence outside of this article of her presence in Paraguay'. La verificacion independiente confirma esta sospecha: la cobertura de la 64 Cumbre de Mercosur en Asuncion (6-8 de julio de 2024, Infobae) menciona explicitamente solo a los presidentes de Paraguay, Brasil, Uruguay y Bolivia, mas a la canciller argentina; Peru no figura entre los asistentes. Ademas, el anexo exhaustivo de Wikipedia sobre los viajes internacionales de Boluarte -que documenta en detalle sus 12 viajes reales de 2023-2025 con fuentes primarias para cada uno- NO incluye ningun viaje a Paraguay en 2024 (su unico viaje ese ano fue a China, 23-30 de junio); y no se hallo ningun registro de que el Congreso peruano haya autorizado un viaje a Paraguay en julio de 2024 (a diferencia de todos los demas viajes de Boluarte, que si tienen resolucion legislativa de autorizacion documentada). La combinacion de estos tres elementos (ausencia en la cobertura del evento, ausencia en el registro exhaustivo de viajes, ausencia de autorizacion congresal) indica que este es un viaje fantasma que debe corregirse a NA, siguiendo la regla anti-alucinacion del proyecto."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [],
+    "confirmados_sin_cambios": [
+      {"TripID": "3981-PER-BRA-45145", "justificacion": "Primer viaje internacional de Boluarte: IV Reunion de Presidentes de la Organizacion del Tratado de Cooperacion Amazonica (OTCA) en Belem do Para, Brasil, 7-9 de agosto de 2023, con reunion con Lula da Silva y firma de la Declaracion de Belem; confirmado en detalle por el anexo de Wikipedia sobre los viajes de Boluarte y por El Comercio, swissinfo e Infobae, consistente con el rango de COLT."},
+      {"TripID": "3981-PER-ECU-45801", "justificacion": "Asistencia a la toma de mando de Daniel Noboa en Quito el 24 de mayo de 2025, confirmada por el anexo de Wikipedia sobre los viajes de Boluarte, consistente con la fecha puntual de COLT."},
+      {"TripID": "3981-PER-DEU-45210", "justificacion": "Visita a Alemania (Stuttgart y Berlin), 11-13 de octubre de 2023, dentro de la gira Alemania-Italia-Vaticano autorizada por el Congreso 'del 11 al 15 de octubre', con reunion con el presidente Frank-Walter Steinmeier y participacion en el 'Dia de America Latina' en Stuttgart; confirmado por el anexo de Wikipedia y coincidente con el rango de COLT."},
+      {"TripID": "3981-PER-VAT-45213", "justificacion": "Visita al Vaticano, 14-15 de octubre de 2023, con audiencia con el Papa Francisco, dentro de la misma gira europea autorizada 11-15/10/2023; confirmado por Andina y por el boletin oficial de la Sala Stampa del Vaticano (press.vatican.va), consistente con el rango de COLT."},
+      {"TripID": "3981-PER-VAT-45795", "justificacion": "Viaje al Vaticano para la misa de entronizacion del papa Leon XIV, 17-18 de mayo de 2025, confirmado por el anexo de Wikipedia sobre los viajes de Boluarte (rango combinado 16-19/5 para Italia+Vaticano), consistente con el rango de COLT para el tramo especifico de Ciudad del Vaticano."},
+      {"TripID": "3981-PER-IDN-45879", "justificacion": "Visita a Indonesia, 10-12 de agosto de 2025, con reunion con el presidente Prabowo Subianto y firma del Acuerdo Integral de Asociacion Economica (CEPA) Peru-Indonesia, dentro de la gira Japon-Indonesia autorizada por el Congreso 'del 5 al 12 de agosto'; confirmado en detalle por el anexo de Wikipedia, consistente con el rango de COLT."},
+      {"TripID": "3981-PER-ITA-45212", "justificacion": "Visita a Italia (Roma), 13-14 de octubre de 2023, con reunion con el Director General de la FAO Qu Dongyu, dentro de la gira europea 11-15/10/2023; confirmado por el anexo de Wikipedia, consistente con el rango de COLT."},
+      {"TripID": "3981-PER-ITA-45794", "justificacion": "Visita a Roma, 17-18 de mayo de 2025, previa a la entronizacion papal, con visita a la Basilica de Santa Maria Maggiore; confirmado por el anexo de Wikipedia (rango combinado Italia+Vaticano 16-19/5/2025), consistente con el rango de COLT."},
+      {"TripID": "3981-PER-JPN-45875", "justificacion": "Visita a Japon, 6-10 de agosto de 2025 (salida de Peru el 5/8, llegada a Tokio el 6/8 por diferencia horaria/duracion de vuelo, segun Infobae), con reunion con el primer ministro Ishiba Shigeru y el emperador Naruhito, dentro de la gira Japon-Indonesia autorizada 5-12/8/2025; la fecha de inicio de COLT (6/8, fecha de llegada efectiva a Japon) es correcta y no requiere correccion."},
+      {"TripID": "3981-PER-CHE-45677", "justificacion": "Participacion en el Foro Economico Mundial de Davos, 20-24 de enero de 2025, confirmada por el anexo de Wikipedia sobre los viajes de Boluarte, consistente con el rango de COLT."},
+      {"TripID": "3981-PER-USA-45231", "justificacion": "Cumbre inaugural de Lideres de la Alianza de las Americas para la Prosperidad Economica (APEP) en Washington D.C., 1-4 de noviembre de 2023, con la renuncia de la canciller Ana Gervasi tras no concretarse la reunion bilateral con Joe Biden; confirmado en detalle por el anexo de Wikipedia, consistente con el rango de COLT."},
+      {"TripID": "3981-PER-USA-45244", "justificacion": "30 Reunion de Lideres Economicos de APEC en San Francisco, 14-18 de noviembre de 2023, con recepcion de la presidencia pro tempore de APEC de manos de Joe Biden; confirmado por el anexo de Wikipedia, consistente con el rango de COLT."},
+      {"TripID": "3981-PER-USA-45921", "justificacion": "80 periodo de sesiones de la Asamblea General de la ONU en Nueva York, 21-25 de septiembre de 2025, con el incidente del discurso en quechua cuyo tiempo se agoto con el microfono apagado; confirmado en detalle por el anexo de Wikipedia sobre los viajes de Boluarte, consistente con el rango de COLT. Se verifico ademas que en 2024 el Congreso NEGO a Boluarte el permiso para viajar a la 79 Asamblea General de la ONU (17/9/2024, 55 votos en contra) y que en abril de 2025 tambien le nego el permiso para asistir a las exequias del papa Francisco, lo cual explica correctamente la ausencia de esos dos eventos en COLT: no son huecos de informacion sino viajes que realmente no se realizaron."}
+    ]
+  },
+  {
+    "LeaderID": "4255",
+    "LeaderFullName": "Jose Jeri",
+    "correcciones": [],
+    "hallazgos_nuevos": [],
+    "no_verificable": [],
+    "confirmados_sin_cambios": [
+      {"TripID": "4255-PER-ECU-46003", "justificacion": "Unico viaje internacional de Jose Jeri durante su interinato de ~4 meses (10/10/2025-17/2/2026): XVI Gabinete Binacional Peru-Ecuador en Quito (Palacio de Carondelet), 12 de diciembre de 2025, con el presidente Daniel Noboa, firma de la Declaracion Presidencial de Quito y del Plan de Accion de Quito 2025-2026; confirmado en detalle por Infobae, Primicias, El Universo, TVPeru y Diario Correo, consistente con la fecha puntual y con la numeracion 'sixteenth Binational Cabinet' que usa COLT en sus Notes (multiples titulares de prensa ecuatoriana y peruana coinciden en 'XVI Gabinete Binacional'). Se investigo activamente la posible asistencia de Jeri a la IV Cumbre CELAC-Union Europea realizada en Santa Marta, Colombia, el 8-10 de noviembre de 2025 (dentro de su mandato): se confirmo que Jeri DECLINO la invitacion y que el canciller Hugo de Zela represento a Peru en su lugar, por lo que correctamente no figura como viaje de Jeri en COLT. No se hallo evidencia de ningun otro viaje internacional de Jeri en el periodo, consistente con la brevedad de su gobierno (censurado el 17/2/2026 tras solo cuatro meses)."}
+    ]
+  },
+  {
+    "LeaderID": "90004",
+    "LeaderFullName": "Jose Maria Balcazar",
+    "nota_metodologica": "LeaderID sintetico asignado por el proyecto (90004); Balcazar no tiene entrada nativa en COLT. Investigacion realizada desde cero para su mandato como presidente designado por el Congreso (18/2/2026-28/7/2026, sucesor de Jose Jeri tras su censura, hasta la asuncion de la presidenta electa Keiko Fujimori).",
+    "correcciones": [],
+    "hallazgos_nuevos": [
+      {
+        "LeaderID": "90004",
+        "CountryVisited": "Holy See",
+        "CityVisited": "Vatican City",
+        "TripStartDate": "2026-06-17",
+        "TripEndDate": "2026-06-18",
+        "TripDuration": "2",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "Pope Leo XIV",
+        "AttendedMultilatEvent": "No",
+        "NameMultilatEvent": "",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "PublicAddress": "No",
+        "fuente": "https://larepublica.pe/politica/2026/06/18/presidente-jose-balcazar-se-reunio-con-el-papa-leon-xiv-en-el-vaticano-hnews-1700604 ; https://www.infobae.com/peru/2026/06/13/jose-maria-balcazar-viaja-al-vaticano-y-sostendra-reunion-con-el-papa-leon-xiv-cuando-se-dara-dicha-cita-y-que-conversaran/ ; https://www.tvperu.gob.pe/noticias/politica/presidente-balcazar-posterga-viaje-a-roma-por-la-paz-social ; https://andina.pe/agencia/noticia-congreso-autoriza-viaje-del-presidente-balcazar-al-vaticano-para-reunion-papa-leon-xiv-1078993.aspx",
+        "justificacion": "Unico viaje internacional confirmado de Balcazar durante su mandato de transicion. El Congreso autorizo originalmente una gira mas amplia por el Vaticano, Francia (Paris, para reunirse con la OCDE) e Italia (Roma, para reunirse con la FAO), del 15 al 19 de junio de 2026 (61 votos a favor). Sin embargo, el propio Balcazar anuncio el domingo 14/6/2026 la postergacion de su salida en dos dias, para permanecer en Lima coordinando con la Policia y las Fuerzas Armadas la seguridad tras la segunda vuelta electoral 2026 (actas observadas); indico que viajaria recien el miercoles 17/6 para la audiencia con el papa Leon XIV, 'para luego retornar inmediatamente al Peru' (TVPeru). La Republica confirmo que la reunion con el papa Leon XIV se realizo efectivamente el 18 de junio de 2026 y se extendio por casi dos horas (en vez de los 30 minutos programados), en la que el Papa confirmo su proxima visita a Peru en noviembre de 2026. No se hallo cobertura de prensa que confirme si, pese al recorte de la gira, Balcazar tambien llego a cumplir las escalas en Paris (OCDE) y Roma (FAO) originalmente previstas para el 15-16 de junio; dado que el propio presidente anuncio explicitamente que permaneceria en Lima 'manana y pasado' (15 y 16 de junio) y que viajaria unicamente el 17 para la audiencia papal con 'retorno inmediato', se considera mas probable que el tramo de Francia/FAO en Italia haya sido recortado o cancelado, y se codifica conservadoramente el viaje como un desplazamiento acotado a la Ciudad del Vaticano (17-18 de junio de 2026). TripEndDate se estima en 18/6 (mismo dia de la audiencia, dado el 'retorno inmediato' anunciado); no se hallo una fuente que precise la hora o fecha exacta de aterrizaje de regreso en Lima, por lo que esta fecha de cierre debe considerarse una estimacion razonable y no una certeza absoluta."
+      }
+    ],
+    "no_verificable": [
+      {
+        "descripcion": "No fue posible confirmar ni descartar con una fuente independiente si Balcazar efectivamente cumplio, ademas de la audiencia papal del 18/6/2026, las escalas en Paris (reunion con la Secretaria General de la OCDE) y Roma (reunion con el Director General de la FAO) que habian sido autorizadas originalmente por el Congreso como parte de la misma gira 15-19 de junio de 2026.",
+        "fuente": "https://www.tvperu.gob.pe/noticias/politica/presidente-balcazar-posterga-viaje-a-roma-por-la-paz-social",
+        "justificacion": "El titular mismo de la nota de postergacion ('posterga viaje a Roma') sugiere que el tramo de Roma/FAO especificamente podria haber sido el mas afectado por el recorte de la gira, pero la cobertura de prensa disponible se concentra exclusivamente en la audiencia con el papa Leon XIV del 18/6, sin mencionar a Francia o Italia. No se incluye como hallazgo separado por falta de una fuente que confirme la ocurrencia real de esas escalas, en linea con la regla anti-alucinacion del proyecto."
+      }
+    ],
+    "confirmados_sin_cambios": []
+  },
+  {
+    "LeaderID": "90005",
+    "LeaderFullName": "Keiko Fujimori",
+    "nota_metodologica": "LeaderID sintetico asignado por el proyecto (90005); Fujimori no tiene entrada nativa en COLT. Investigacion realizada desde cero para su primer mes de gobierno (28/7/2026-31/8/2026, fecha de esta investigacion), en el marco del quinquenio presidencial 2026-2031.",
+    "correcciones": [],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "descripcion": "No se encontro evidencia de ningun viaje internacional oficial de Keiko Fujimori durante su primer mes como presidenta del Peru (28 de julio al 31 de agosto de 2026). Toda la actividad de politica exterior documentada en este periodo se gestiono desde Lima, ya sea mediante reuniones en Palacio de Gobierno con funcionarios extranjeros que llegaron al Peru (el subsecretario adjunto de EEUU Christopher Landau y el ministro de ciencia y tecnologia de China Yin Hejun, ambos antes de su juramentacion del 28/7; la presidenta del Comite Olimpico Internacional Kirsty Coventry, el 25/8, en el marco de la Asamblea de Panam Sports realizada en Lima) o delegando la representacion internacional en su canciller, Carlos Espa, quien viajo en su lugar tanto a la toma de mando del presidente de Colombia Abelardo de la Espriella (7/8/2026, Cali) como a una reunion de coordinacion sobre el Fenomeno El Nino con el Comando Sur de EEUU en Miami (15/8/2026). Se identifico interes expreso de Fujimori en participar en la Cumbre de Lideres de APEC 2026 en Shenzhen, China, pero dicha cumbre esta programada para el 18-19 de noviembre de 2026, muy posterior a la fecha de esta investigacion, por lo que no constituye un viaje realizado.",
+        "fuente": "https://es.wikipedia.org/wiki/Pol%C3%ADtica_exterior_del_gobierno_de_Keiko_Fujimori ; https://www.infobae.com/peru/2026/08/06/keiko-fujimori-no-ira-a-la-toma-de-mando-de-abelardo-de-la-espriella-canciller-carlos-espa-ira-en-su-lugar/ ; https://cnnespanol.cnn.com/2026/08/03/latinoamerica/peru-china-eeuu-disputa-keiko-fukimori-orix ; https://reporteasia.com/destacado/2026/08/17/peru-china-avanzan-hacia-cumbre-apec-shenzhen-mientras-litigio-chancay-sigue-abierto/ ; https://es.wikipedia.org/wiki/Gobierno_de_Keiko_Fujimori",
+        "justificacion": "Busqueda exhaustiva en el articulo especifico de Wikipedia sobre la politica exterior del gobierno de Fujimori (que detalla cronologicamente cada gestion diplomatica de agosto de 2026, incluyendo relaciones con China, Corea del Sur, Colombia, Estados Unidos, Mexico y Venezuela) y en cobertura de prensa (Infobae, CNN en Espanol, ReporteAsia) sin hallar registro de ningun desplazamiento internacional de la propia presidenta en su primer mes de gobierno. El patron consistente es de una politica exterior de 'primer mes' gestionada desde Lima y a traves de su canciller, sin viajes presidenciales propios, resultado negativo consistente con lo esperado dado lo reciente de su asuncion (28/7/2026, hace aproximadamente un mes al momento de esta investigacion)."
+      }
+    ],
+    "confirmados_sin_cambios": []
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "LeaderID": "756",
+    "correcciones": [
+      {
+        "TripID": "756-BRA-BOL-34017",
+        "campo": "CityVisited",
+        "valor_correcto": "La Paz",
+        "fuente": "https://pt.wikipedia.org/wiki/Lista_de_viagens_presidenciais_de_Itamar_Franco",
+        "justificacion": "La lista de viajes presidenciales de Itamar Franco (Wikipedia PT, sourced a la Biblioteca da Presidência da República) registra el viaje del 17/2/1993 a Bolivia como 'Visita de trabalho' a La Paz, con encuentro con el presidente Jaime Paz Zamora. Coincide exactamente con la fecha unica (17/2/1993) y HostHOGSName ya cargados en COLT. Se completa el campo CityVisited, vacio en el registro original."
+      },
+      {
+        "TripID": "756-BRA-ARG-34113",
+        "campo": "CityVisited",
+        "valor_correcto": "Buenos Aires",
+        "fuente": "https://pt.wikipedia.org/wiki/Lista_de_viagens_presidenciais_de_Itamar_Franco",
+        "justificacion": "La lista de viajes de Itamar Franco (Wikipedia PT / Biblioteca da Presidência) registra la 'Visita de Estado' a Argentina de mayo de 1993 con destino Buenos Aires, encuentro con el presidente Carlos Menem, consistente con la fecha de inicio (24/5/1993) y la nota original de COLT sobre la misa en la Catedral de Buenos Aires."
+      },
+      {
+        "TripID": "756-BRA-PRY-34195",
+        "campo": "CityVisited",
+        "valor_correcto": "Asunción",
+        "fuente": "https://www.upi.com/Archives/1993/08/15/Wasmosy-sworn-in-as-Paraguays-president/2346745387200/",
+        "justificacion": "UPI (despacho del 15/8/1993) confirma que la ceremonia de asuncion de Juan Carlos Wasmosy como presidente de Paraguay se realizo en la Plaza de Armas de Asuncion el domingo 15 de agosto de 1993, con la presencia de 'Itamar Franco of Brazil' entre los cinco jefes de Estado latinoamericanos invitados (junto a Menem, Aylwin, Fujimori y Lacalle). Esto confirma de forma independiente el evento y las fechas ya registradas por COLT (14-15/8/1993, 'Attended inauguration ceremony for Juan Carlos Wasmosy') y permite completar CityVisited."
+      },
+      {
+        "TripID": "756-BRA-CHL-34258",
+        "campo": "CityVisited",
+        "valor_correcto": "Santiago",
+        "fuente": "https://www.eltiempo.com/archivo/documento/MAM-241114",
+        "justificacion": "La VII Cumbre Presidencial del Grupo de Rio se realizo en Santiago de Chile; ver fuente citada tambien para la correccion de fecha del mismo TripID."
+      },
+      {
+        "TripID": "756-BRA-CHL-34258",
+        "campo": "TripStartDate",
+        "valor_correcto": "1993-10-15",
+        "fuente": "https://www.eltiempo.com/archivo/documento/MAM-241114",
+        "justificacion": "El diario El Tiempo (despacho EFE del 12/10/1993, martes) anuncia que los presidentes del Grupo de Rio 'celebraran su VII Cumbre el proximo viernes y sabado en Santiago de Chile', es decir, el 15 y 16 de octubre de 1993. Esto es corroborado por el Archivo Patrimonial de la Universidad Alberto Hurtado (fondo Presidente Aylwin), que fecha la 'Cumbre Presidencial del Grupo de Rio (7a:1993 : Santiago, Chile)' en octubre de 1993 (https://archivopatrimonial.uahurtado.cl/index.php/reunion-preparatoria-vii-cumbre-presidencial-del-grupo-de-rio). COLT ya registraba correctamente el mes (octubre, no septiembre como erroneamente indica el articulo de Wikipedia PT sobre los viajes de Itamar Franco), pero solo con un dia (16/10). Se corrige el TripStartDate a 15/10/1993 (viernes de inicio de la cumbre)."
+      },
+      {
+        "TripID": "756-BRA-CHL-34258",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "fuente": "https://www.eltiempo.com/archivo/documento/MAM-241114",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate a 1993-10-15: con TripStartDate 1993-10-15 y TripEndDate 1993-10-16 (sin cambios), la duracion pasa de 1 a 2 dias."
+      },
+      {
+        "TripID": "756-BRA-ARG-34259",
+        "campo": "CityVisited",
+        "valor_correcto": "Buenos Aires",
+        "fuente": "https://pt.wikipedia.org/wiki/Lista_de_viagens_presidenciais_de_Itamar_Franco",
+        "justificacion": "La lista de viajes de Itamar Franco (Wikipedia PT / Biblioteca da Presidencia) describe esta escala como una 'breve visita' a Menem en Buenos Aires, inmediatamente despues de la VII Cumbre del Grupo de Rio en Santiago (16/10/1993), consistente con la fecha unica ya registrada por COLT (17/10/1993) y la nota 'Visited Menem in hospital'."
+      },
+      {
+        "TripID": "756-BRA-URY-34351",
+        "campo": "CityVisited",
+        "valor_correcto": "Montevideo",
+        "fuente": "https://pt.wikipedia.org/wiki/Lista_de_viagens_presidenciais_de_Itamar_Franco",
+        "justificacion": "La lista de viajes de Itamar Franco (Wikipedia PT / Biblioteca da Presidencia) ubica la V Reunion del Consejo del Mercado Comun (Mercosur) de enero de 1994 en Montevideo, con encuentro con el presidente uruguayo Luis Alberto Lacalle, consistente con NameMultilatEvent ya cargado en COLT ('Common Market of the South (MERCOSUR) Summit')."
+      },
+      {
+        "TripID": "756-BRA-COL-34356",
+        "campo": "CityVisited",
+        "valor_correcto": "Leticia",
+        "fuente": "https://pt.wikipedia.org/wiki/Lista_de_viagens_presidenciais_de_Itamar_Franco",
+        "justificacion": "La lista de viajes de Itamar Franco (Wikipedia PT / Biblioteca da Presidencia) registra el encuentro del 22/1/1994 con el presidente Cesar Gaviria en la ciudad fronteriza de Leticia (Amazonas colombiano), fecha identica a la ya registrada por COLT. Busquedas adicionales indican que el encuentro se vincula a la instalacion de la Comision de Vecindad e Integracion Colombia-Brasil, creada en 1993, coherente con el campo PublicAddress='Yes' ya cargado en COLT."
+      },
+      {
+        "TripID": "756-BRA-VEN-34396",
+        "campo": "TripStartDate",
+        "valor_correcto": "1994-03-04",
+        "fuente": "https://lga.lagranaldea.com/2024/03/04/protocolo-de-la-guzmania-30-anos-despues/",
+        "justificacion": "Articulo detallado de La Gran Aldea (30 anos despues del hecho, con cita textual de fuentes diplomaticas venezolanas) establece explicitamente que 'el 4 [de] marzo de 1994... durante la visita de trabajo que realiza a Venezuela el presidente Itamar Franco, se firmo el Protocolo de La Guzmania' y que 'la visita del presidente Itamar Franco tuvo caracteristicas de escala tecnica. Duro medio dia'. Esto contradice tanto el rango de dos dias que registraba COLT (3-4/3/1994) como el rango de Wikipedia PT ('3 a 5 de abril de 1994', que ademas confunde el mes: marzo, no abril). Se corrige TripStartDate a 1994-03-04 (unico dia documentado de la visita)."
+      },
+      {
+        "TripID": "756-BRA-VEN-34396",
+        "campo": "TripEndDate",
+        "valor_correcto": "1994-03-04",
+        "fuente": "https://lga.lagranaldea.com/2024/03/04/protocolo-de-la-guzmania-30-anos-despues/",
+        "justificacion": "Misma fuente: la visita de Itamar Franco a Venezuela 'duro medio dia', con encuentro, firma del Protocolo de La Guzmania, almuerzo y rueda de prensa antes de la partida del presidente ese mismo dia. No hay evidencia de una estadia de dos dias como registraba COLT."
+      },
+      {
+        "TripID": "756-BRA-VEN-34396",
+        "campo": "TripDuration",
+        "valor_correcto": "1",
+        "fuente": "https://lga.lagranaldea.com/2024/03/04/protocolo-de-la-guzmania-30-anos-despues/",
+        "justificacion": "Consecuencia directa de fijar TripStartDate y TripEndDate en 1994-03-04: la duracion pasa de 2 a 1."
+      },
+      {
+        "TripID": "756-BRA-VEN-34396",
+        "campo": "CityVisited",
+        "valor_correcto": "Macuto (Quinta La Guzmanía)",
+        "fuente": "https://lga.lagranaldea.com/2024/03/04/protocolo-de-la-guzmania-30-anos-despues/",
+        "justificacion": "La fuente indica explicitamente que 'el encuentro se llevo a cabo en la quinta presidencial La Guzmania' y la leyenda de la foto de portada precisa 'Encuentro en La Guzmania, Macuto'. La Guzmania es una residencia presidencial ubicada en Macuto, en el litoral central venezolano (estado Vargas/La Guaira); se prefiere esta precision a la referencia generica 'La Guaira' que aparece en otras fuentes secundarias."
+      },
+      {
+        "TripID": "756-BRA-CHL-34404",
+        "campo": "CityVisited",
+        "valor_correcto": "Valparaíso",
+        "fuente": "https://www.bcn.cl/historiapolitica/resenas_biograficas/wiki/Eduardo_Frei_Ruiz-Tagle",
+        "justificacion": "La Biblioteca del Congreso Nacional de Chile confirma que la ceremonia de investidura de Eduardo Frei Ruiz-Tagle como presidente de Chile, el 11 de marzo de 1994, se realizo en la nueva sede del Congreso Nacional en Valparaiso (no en Santiago, como sugiere de forma generica la lista de viajes de Wikipedia PT sobre Itamar Franco), con asistencia de ocho presidentes latinoamericanos y delegaciones de un centenar de paises."
+      },
+      {
+        "TripID": "756-BRA-COL-34499",
+        "campo": "CityVisited",
+        "valor_correcto": "Cartagena de Indias",
+        "fuente": "https://segib.org/?summit=iv-cumbre-iberoamericana-cartagena-de-indias-1994",
+        "justificacion": "SEGIB confirma que la IV Cumbre Iberoamericana de Jefes de Estado y de Gobierno (14-15/6/1994) se realizo en Cartagena de Indias, Colombia, consistente con NameMultilatEvent ('Ibero-American Summit') ya cargado en COLT."
+      },
+      {
+        "TripID": "756-BRA-ARG-34551",
+        "campo": "CityVisited",
+        "valor_correcto": "Buenos Aires",
+        "fuente": "https://www.infoleg.gob.ar/basehome/decisiones-cmc-94.htm",
+        "justificacion": "Las Decisiones del Consejo del Mercado Comun del Mercosur fechadas 05/08/94 consignan expresamente como origen 'VI CMC - BUENOS AIRES (ARGENTINA)', confirmando la ciudad de la cumbre a la que asistio Itamar Franco."
+      },
+      {
+        "TripID": "756-BRA-USA-34677",
+        "campo": "CityVisited",
+        "valor_correcto": "Miami",
+        "fuente": "http://www.oas.org/XXXIVGA/SPANISH/reference_docs/CumbreAmericasMiami_PlanAccion.pdf",
+        "justificacion": "La OEA confirma que la Primera Cumbre de las Americas se realizo en 'Miami, Florida, 9 al 11 de diciembre de 1994', consistente con NameMultilatEvent ('Summit of the Americas (SOA)') y HostHOGSName (Bill Clinton) ya cargados en COLT."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "756-BRA-ARG-34113",
+        "campo": "TripEndDate",
+        "justificacion": "La lista de viajes de Itamar Franco (Wikipedia PT / Biblioteca da Presidencia) agrupa en una misma 'Visita de Estado' de 24 a 29 de mayo de 1993 el tramo a Argentina (Buenos Aires, encuentro con Menem) y el tramo a Uruguay (Montevideo, encuentro con Lacalle), sin indicar la fecha exacta en que termina el tramo argentino y comienza el uruguayo. No se hallo una fuente independiente (Folha, Estado de S. Paulo, Itamaraty) que precise si la estadia en Buenos Aires se extendio mas alla del 26/5/1993 ya registrado por COLT, por lo que no corresponde ajustar la fecha de fin sin evidencia directa. Se deja constancia de que, si el tramo uruguayo de este mismo periplo no esta cargado como TripID separado en la base madre para leader_756, podria tratarse de un viaje faltante de 1993 (fuera del rango de busqueda activa de esta ronda, acotado a 1994-enero 1995)."
+      },
+      {
+        "TripID": "756-BRA-URY-34351",
+        "campo": "TripStartDate/TripEndDate/TripDuration",
+        "justificacion": "La lista de viajes de Itamar Franco en Wikipedia PT (sourced a la Biblioteca da Presidencia) indica que la V Reunion del Consejo del Mercado Comun (Mercosur) en Montevideo se extendio del 15 al 18 de enero de 1994, mientras que COLT registra un unico dia (17/1/1994). No se pudo corroborar este rango con una segunda fuente independiente (no se hallaron actas del CMC de enero de 1994 con fecha exacta en los repositorios de Mercosur/Cancilleria Argentina consultados, a diferencia de la reunion de agosto de 1994 que si pudo confirmarse via infoleg.gob.ar). Dado que la misma tabla de Wikipedia contiene al menos dos errores de mes verificados en esta misma ronda (Grupo de Rio 1993 y posesion de Frei 1994), se opta por no trasladar el rango 15-18/1 como correccion sin una segunda fuente que lo respalde, y se deja el dato como no verificable."
+      },
+      {
+        "TripID": "756-BRA-COL-34499",
+        "campo": "TripStartDate",
+        "justificacion": "La IV Cumbre Iberoamericana de Cartagena de Indias esta confirmada por SEGIB (https://segib.org/?summit=iv-cumbre-iberoamericana-cartagena-de-indias-1994) y por el archivo de discursos de Fidel Castro (http://www.cuba.cu/gobierno/discursos/1994/esp/f140694e.html, que fecha la sesion inaugural el 14/6/1994) como celebrada el 14 y 15 de junio de 1994, coincidiendo con las fechas ya cargadas por COLT (14-15/6/1994). La lista de viajes de Itamar Franco en Wikipedia PT indica en cambio que su estadia comenzo un dia antes, el 13/6/1994 (llegada previa a la apertura oficial), y que regreso a Brasil antes del cierre del evento por el fallecimiento de un sobrino (nota tambien presente en Wikipedia con fuente en Folha de S.Paulo del 17/6/1994). No se hallo una fuente que confirme de forma independiente el dia exacto de llegada a Cartagena (13 vs 14/6), por lo que no se ajusta el TripStartDate."
+      },
+      {
+        "TripID": "756-BRA-USA-34677",
+        "campo": "TripEndDate",
+        "justificacion": "La Primera Cumbre de las Americas en Miami se desarrollo oficialmente del 9 al 11 de diciembre de 1994 (OEA, http://www.oas.org/XXXIVGA/SPANISH/reference_docs/CumbreAmericasMiami_PlanAccion.pdf). COLT registra el regreso de Itamar Franco recien el 14/12/1994, coincidiendo exactamente con la lista de viajes de Wikipedia PT / Biblioteca da Presidencia (9 a 14 de diciembre de 1994), lo que sugiere una permanencia adicional en Miami/EE.UU. tras el cierre formal de la cumbre (posibles actividades bilaterales no especificadas). No se hallo una fuente de prensa que detalle la agenda de Itamar Franco entre el 12 y el 14 de diciembre, por lo que la extension de tres dias mas alla del cierre oficial de la cumbre no pudo confirmarse en detalle, aunque tampoco hay evidencia que contradiga la fecha de regreso del 14/12 ya registrada."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "756-BRA-BOL-34017",
+        "justificacion": "Fecha unica (17/2/1993), HostHOGSName (Jaime Paz Zamora) y ausencia de evento multilateral confirmados por la lista de viajes de Itamar Franco (Wikipedia PT / Biblioteca da Presidencia): 'Visita de trabalho' a La Paz el 17/2/1993."
+      },
+      {
+        "TripID": "756-BRA-ARG-34113",
+        "justificacion": "TripStartDate (24/5/1993) y HostHOGSName (Carlos Menem) confirmados por la lista de viajes de Itamar Franco (Wikipedia PT) y por el discurso oficial del 25/5/1993 'durante visita oficial a Argentina' publicado en la Biblioteca da Presidencia (citado como referencia [2] en el articulo de Wikipedia). Ver no_verificable para el detalle sobre TripEndDate."
+      },
+      {
+        "TripID": "756-BRA-PRY-34195",
+        "justificacion": "TripStartDate y TripEndDate (14-15/8/1993) y el evento (ceremonia de asuncion de Juan Carlos Wasmosy) confirmados de forma independiente por UPI Archives (despacho del 15/8/1993), que cita explicitamente la presencia de 'Itamar Franco of Brazil' entre los jefes de Estado invitados a la ceremonia en la Plaza de Armas de Asuncion."
+      },
+      {
+        "TripID": "756-BRA-ARG-34259",
+        "justificacion": "Fecha unica (17/10/1993) consistente con la secuencia documentada: cierre de la VII Cumbre del Grupo de Rio en Santiago el 16/10/1993 y escala inmediata al dia siguiente en Buenos Aires para visitar a Menem, hospitalizado, segun la lista de viajes de Itamar Franco (Wikipedia PT / Biblioteca da Presidencia)."
+      },
+      {
+        "TripID": "756-BRA-COL-34356",
+        "justificacion": "Fecha unica (22/1/1994) y HostHOGSName (Cesar Gaviria) confirmados por la lista de viajes de Itamar Franco (Wikipedia PT / Biblioteca da Presidencia)."
+      },
+      {
+        "TripID": "756-BRA-CHL-34404",
+        "justificacion": "TripStartDate (11/3/1994, fecha unica) confirmado como correcta por multiples fuentes independientes (Biblioteca del Congreso Nacional de Chile, Memoria Chilena, Canal 13) sobre la investidura de Eduardo Frei Ruiz-Tagle como presidente de Chile el 11 de marzo de 1994, con asistencia de ocho jefes de Estado latinoamericanos. Esto contradice el rango '10 a 13 de abril de 1994' que erroneamente indica la lista de viajes de Wikipedia PT sobre Itamar Franco (confusion de mes: marzo, no abril), por lo que se confirma el dato original de COLT y NO se traslada el error de Wikipedia."
+      },
+      {
+        "TripID": "756-BRA-COL-34499",
+        "justificacion": "TripStartDate y TripEndDate (14-15/6/1994) confirmados por SEGIB (https://segib.org/?summit=iv-cumbre-iberoamericana-cartagena-de-indias-1994) y por el archivo de discursos de Fidel Castro en la sesion inaugural del 14/6/1994 (http://www.cuba.cu/gobierno/discursos/1994/esp/f140694e.html) como las fechas oficiales de la IV Cumbre Iberoamericana en Cartagena de Indias. NameMultilatEvent ('Ibero-American Summit') ya cargado correctamente en COLT."
+      },
+      {
+        "TripID": "756-BRA-ARG-34551",
+        "justificacion": "Fecha unica (5/8/1994) confirmada por fuente primaria oficial: las Decisiones N. 1 a 11 del Consejo del Mercado Comun del Mercosur estan fechadas '05/08/94' y su origen consta expresamente como 'VI CMC - BUENOS AIRES (ARGENTINA)' (https://www.infoleg.gob.ar/basehome/decisiones-cmc-94.htm). NameMultilatEvent ('Common Market of the South (MERCOSUR) Summit') y SignedAgreement='Yes' ya cargados en COLT son consistentes con este hallazgo."
+      },
+      {
+        "TripID": "756-BRA-USA-34677",
+        "justificacion": "TripStartDate (9/12/1994) confirmado como fecha de inicio de la Primera Cumbre de las Americas en Miami (OEA: 'Miami, Florida, 9 al 11 de diciembre de 1994'), con NameMultilatEvent ('Summit of the Americas (SOA)') y HostHOGSName (Bill Clinton) ya cargados correctamente en COLT. Ver no_verificable respecto del detalle de la extension hasta el 14/12."
+      }
+    ]
+  }
+]

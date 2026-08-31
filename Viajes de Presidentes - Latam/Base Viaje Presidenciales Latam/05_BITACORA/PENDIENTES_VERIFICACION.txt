@@ -1939,3 +1939,187 @@ confirmados). 31 correcciones aplicadas, 12 hallazgos nuevos insertados (PELATAM
 preexistentes de otros paises (ya documentados en la seccion "QC ARCHIVO MADRE" arriba),
 0 problemas nuevos atribuibles a esta campaña tras corregir el bug de schema de Arce.
 ================================================================================
+
+## BRASIL 1994-1999 — VERIFICACION COLT (Itamar Franco + Cardoso 1er mandato) (2026-08-31)
+================================================================================
+Campaña sobre el pipeline colt_export_csv.py / colt_aplicar_workpacks.py / colt_validar_madre.py
+/ colt_importar_csv.py, 2 mandatarios: resto del mandato de Itamar Franco (LeaderID 756,
+1993-1995) y primer mandato de Fernando Henrique Cardoso (LeaderID 994, 1995-1999), 2 archivos
+de resultados en 05_BITACORA/anexos_colt_sudamerica/tmp_brasil_9499/
+(resultados_leader_756.json, resultados_leader_994_mandato1.json). Backup del xlsx
+pre-campaña: 04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_brasil9499_merge.xlsx. Log linea
+por linea: 05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_brasil_9499_2026-08-31.csv.
+Resultado agregado: 27 correcciones aplicadas a filas COLT existentes (17 Itamar Franco + 10
+Cardoso), 0 hallazgos nuevos, 8 items no_verificable (documentados abajo), 60 items
+confirmados_sin_cambios (9 Itamar Franco + 51 Cardoso). Al no haber hallazgos nuevos, el
+modulo Brasil no suma filas: 5363 -> 5363 filas en Datos_COLT_Sudamerica (verificado antes/
+despues del volcado al xlsx).
+
+[CORRECCION DE DATO FALSO, NO SIMPLE DISCREPANCIA] TripID 994-BRA-CHL-35703 (Cardoso, viaje
+a Chile fines sept./principios oct. 1997): COLT tenia cargado NameMultilatEvent = "Asia-
+Pacific Economic Cooperation (APEC) Summit", dato imposible (Brasil nunca fue miembro de
+APEC; ademas la Cumbre de Lideres APEC 1997 fue en Vancouver, Canada, 24-25/11/1997, no en
+Chile ni en esas fechas -fuentes: en.wikipedia.org/wiki/APEC_Canada_1997,
+everycrsreport.com/reports/97-969E.html-). El subagente no pudo identificar el evento real
+que motivo el viaje pese a busqueda activa en portugues/espanol/ingles, y devolvio como
+valor_correcto una oracion explicativa ("Evento no identificado; el valor original ... es
+incorrecto") en vez de un valor limpio de celda. Antes de aplicar, se reemplazo ese
+valor_correcto por "NA" (siguiendo la regla del pipeline de nunca escribir prosa en una
+celda ni dejar un dato falso conocido) -verificado despues del volcado: la celda
+NameMultilatEvent de 994-BRA-CHL-35703 quedo en "NA" tanto en el csv de trabajo como en el
+xlsx final, con la justificacion completa preservada en Notes. CountryVisited, fechas y
+demas campos de esa fila NO se tocaron por falta de fuente que los confirme o contradiga
+especificamente -el evento real del viaje sigue sin identificar, queda abierto para una
+proxima ronda si aparece una fuente nueva-.
+
+--- ITAMAR FRANCO (LeaderID 756, resto de mandato 1993-1995) ---
+17 correcciones (mayormente CityVisited completado con la lista de viajes presidenciales de
+Wikipedia PT/Biblioteca da Presidência da República, cruzada con fuentes independientes como
+UPI y SEGIB; detalle linea por linea en el log CSV). 0 hallazgos nuevos. 4 no_verificable:
+- 756-BRA-ARG-34113 (TripEndDate): el tramo argentino de la Visita de Estado de mayo 1993
+  (Buenos Aires-Menem, seguida de Uruguay-Lacalle) no tiene fecha de corte exacta entre los
+  dos tramos en ninguna fuente hallada; se deja la fecha ya cargada por COLT (26/5/1993) sin
+  ajustar. Posible viaje faltante (tramo Uruguay 1993) fuera del rango de busqueda activa de
+  esta ronda.
+- 756-BRA-URY-34351 (TripStartDate/TripEndDate/TripDuration): Wikipedia PT indica que la V
+  Reunion del CMC/Mercosur en Montevideo duro del 15 al 18/1/1994 (COLT solo carga 17/1/1994),
+  pero no se hallo segunda fuente independiente que confirme ese rango -Wikipedia PT tiene al
+  menos 2 errores de mes ya verificados en esta misma ronda- por lo que no se traslada la
+  correccion sin respaldo adicional.
+- 756-BRA-COL-34499 (TripStartDate): SEGIB y el archivo de discursos de Fidel Castro
+  confirman la IV Cumbre Iberoamericana de Cartagena 14-15/6/1994 (coincide con COLT);
+  Wikipedia PT sugiere llegada un dia antes (13/6) pero sin fuente independiente que lo
+  confirme.
+- 756-BRA-USA-34677 (TripEndDate): la Cumbre de las Americas en Miami cerro oficialmente el
+  11/12/1994 (OEA) pero COLT y Wikipedia PT coinciden en un regreso recien el 14/12/1994 -no
+  se hallo agenda de prensa que explique los 3 dias adicionales, aunque tampoco hay evidencia
+  que contradiga la fecha ya cargada-.
+
+--- FERNANDO HENRIQUE CARDOSO, 1er mandato (LeaderID 994, 1995-1999) ---
+10 correcciones (detalle linea por linea en el log CSV; incluye la correccion de dato falso
+de 994-BRA-CHL-35703 documentada arriba). 0 hallazgos nuevos. 4 no_verificable:
+- 994-BRA-BOL-34965 (NameMultilatEvent): evento multilateral confirmado que ocurrio pero sin
+  poder verificar el nombre exacto cargado por COLT contra una segunda fuente.
+- 994-BRA-GBR-35469 (HostHOGSName): viaje al Reino Unido confirmado, sin poder verificar
+  independientemente el nombre del anfitrion cargado por COLT.
+- 994-BRA-CHE-35823 (NameMultilatEvent): viaje a Suiza confirmado, nombre del evento
+  multilateral sin segunda fuente que lo verifique.
+- 994-BRA-ARG-35162 (NameMultilatEvent): viaje a Argentina confirmado, nombre del evento
+  multilateral sin segunda fuente que lo verifique.
+51 confirmados_sin_cambios (items ya en COLT revisados y dados por correctos, sin necesidad
+de tocar la base).
+
+--- FERNANDO HENRIQUE CARDOSO, tramo 1999 (LeaderID 994, ene-dic 1999) — cierre de cabo
+    suelto (2026-08-31) ---
+Las 16 filas de Cardoso correspondientes a 1999 habian quedado fuera tanto de la ronda de
+"1er mandato" (que corto en 1/1/1999) como de la ronda "2000-2003" (que arranco en 2000).
+Cerradas ahora con resultados_leader_994_1999.json (mismo pipeline). 5 correcciones (todas
+CityVisited/NameMultilatEvent completados con fuente): 994-BRA-MEX-36308 (Veracruz, XIII
+Cumbre del Grupo de Rio, 28/5/1999, confirmado por diplomaciapresidencial.com y
+diputados.gob.mx), 994-BRA-CUB-36478 (La Habana + NameMultilatEvent="IX Ibero-American
+Summit", confirmado por discurso de apertura de Fidel Castro en cuba.cu, 14-16/11/1999),
+994-BRA-ITA-36481 (Roma, 30 Conferencia de la FAO, confirmado por archivo fotografico
+oficial de la FAO), 994-BRA-ITA-36484 (Florencia, "Third Way Summit"/Progressive
+Governance, confirmado por KUNA y el archivo de la Casa Blanca de Clinton -Cardoso
+participo junto a Clinton, Blair, D'Alema, Schroder y Jospin-). 0 hallazgos nuevos.
+11 no_verificable (sin fuente especifica hallada en esta ronda: Bolivia 9/2, Alemania
+15-16/4, Portugal 16-19/4, Reino Unido 19-21/4, EEUU 8-11/5, Peru 20-22/7, Ecuador 23-24/7,
+Colombia 8/10, Uruguay/Mercosur 7-8/12 -fecha exacta no confirmada-, Santa Sede 19/11
+-escala plausible entre Roma y Florencia pero sin fuente directa-, y Republica Dominicana
+13/11 -se confirmo que existio una VII Reunion Plenaria del Circulo de Montevideo en
+noviembre de 1999, pero no se pudo confirmar que la sede haya sido Santo Domingo-). 1
+confirmado_sin_cambios (994-BRA-ARG-36504, asuncion de Fernando de la Rua el 10/12/1999,
+fecha constitucional fija). Filas: 5363 -> 5363 (sin hallazgos nuevos). Backup:
+04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_brasil1999_merge.xlsx. Log:
+05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_brasil_1999_2026-08-31.csv.
+
+[CIERRE] Con este tramo, Brasil queda con verificacion COLT completa de punta a punta para
+el periodo dentro de alcance del proyecto (1994-2026): Itamar Franco, ambos mandatos de
+Cardoso, ambos mandatos de Lula (1-2), Dilma, Temer, Bolsonaro y Lula 3. Quedan sin tocar
+(fuera de alcance, pre-1994) las filas de COLT de Sarney (9) y Collor (24) -ver nota
+PENDIENTE-COMPLETITUD arriba, decision no tomada de extender el proyecto hacia atras de
+1994-.
+
+--- RESUMEN BRASIL 1994-1999 ---
+2 mandatarios investigados (Itamar Franco resto de mandato + Cardoso 1er mandato). 27
+correcciones aplicadas (incluye 1 correccion de dato imposible/falso, ver nota arriba), 0
+hallazgos nuevos, 8 no_verificable documentados arriba, 60 confirmados_sin_cambios. Modulo
+Brasil: 5363 -> 5363 filas en Datos_COLT_Sudamerica (sin cambio, esperado al no haber
+hallazgos nuevos). colt_validar_madre.py: mismos 16 problemas preexistentes de otros paises
+(ARG/CHL/PRY/VEN, ya documentados en la seccion "QC ARCHIVO MADRE" arriba desde antes de
+esta campaña), 0 problemas nuevos atribuibles a Brasil 1994-1999. Ningun TripID de los 2
+archivos de resultados quedo sin encontrar en el csv de trabajo.
+================================================================================
+
+################################################################################
+## CHILE 1994-1999 — VERIFICACION COLT (Eduardo Frei Ruiz-Tagle) (2026-08-31)
+################################################################################
+
+--- EDUARDO FREI RUIZ-TAGLE (LeaderID 907, 11/03/1994 - 11/03/2000) ---
+[NOTA-OK 2026-08-31] CAMPAÑA DE VERIFICACION COLT: CERRADA. 63 filas COLT ya cargadas
+   para leader_907 revisadas contra fuentes independientes (subagente de investigacion).
+   4 correcciones aplicadas:
+   - 907-CHL-BRA-34701: TripStartDate/TripEndDate/TripDuration corregidos a un viaje de
+     1 dia (1995-01-01), asuncion de Fernando Henrique Cardoso en Brasilia.
+   - 907-CHL-ITA-35237: NameMultilatEvent corregido de un valor previo referido a una
+     supuesta "Cumbre del Consejo Europeo" a "NA" -- [CORRECCION DE DATO FALSO] Chile
+     nunca ha sido miembro de la Union Europea ni participa del Consejo Europeo; el
+     campo contenia un dato imposible, analogo al error ya detectado en la ronda de
+     Brasil respecto de una supuesta asistencia de Cardoso a una Cumbre de APEC en un
+     contexto que no correspondia. Se limpio a "NA" en lugar de inventar un evento.
+   1 hallazgo nuevo (PELATAM-CHL): VII Cumbre Iberoamericana, Isla Margarita/Porlamar,
+   Venezuela, 08-09/11/1997 (2 dias). Recibido por el presidente Rafael Caldera;
+   asistencia confirmada por SEGIB (segib.org/es/vii-cumbre-iberoamericana...) y
+   Wikipedia ES. No figuraba entre los 63 items ya cargados en COLT para leader_907;
+   hueco real detectado por el subagente. Nota: los campos MetNonhostHOGS,
+   NonhostHOGSNames y SignedAgreement se dejaron en blanco (no en la prosa original
+   "No especificado por la fuente consultada" que devolvio el subagente) porque la
+   fuente no permitia confirmar esos datos especificos con precision -- mismo patron de
+   limpieza ya aplicado en Bolivia/Arce y Brasil/Cardoso en esta sesion.
+   9 no_verificable (sin fuente especifica hallada en esta ronda: Mexico/Ixtapa bilateral,
+   EEUU/UN-50 (50 aniversario ONU) bilateral, Brasil bilateral, Bolivia/Cumbre Grupo de
+   Rio en Cochabamba -fecha exacta-, Japon bilateral, España bilateral, EEUU/UNGASS
+   bilateral, El Salvador bilateral, Colombia bilateral).
+   52 confirmados_sin_cambios, cotejados extensamente contra el calendario de cumbres
+   APEC 1994-1999 (Bogor, Osaka, Manila, Vancouver, Kuala Lumpur, Auckland -Chile es
+   miembro APEC desde noviembre de 1994-), Cumbres Iberoamericanas, semestres de
+   Mercosur, Cumbres del Grupo de Rio, y varias asunciones presidenciales en la region.
+
+   [NOTA] Dos chequeos de brecha con resultado negativo correcto, documentados por el
+   subagente pero sin accion requerida en COLT: (a) Frei tenia previsto viajar a la IX
+   Cumbre Iberoamericana en La Habana, noviembre de 1999, pero **cancelo** el viaje por
+   la disputa en torno a la extradicion de Pinochet (fuente: IPS Noticias, jul/ago 1999)
+   -- viaje cancelado genuino, pendiente de cargar en la hoja "Viajes Cancelados" del
+   libro Excel (no hecho aun, ver PENDIENTE mas abajo); (b) la Cumbre de las Americas de
+   1998 fue organizada en Santiago (sede domestica), por lo que correctamente no hay
+   entrada de viaje saliente para ese evento.
+
+--- RESUMEN CHILE 1994-1999 ---
+1 mandatario investigado (Eduardo Frei Ruiz-Tagle, mandato completo). 4 correcciones
+aplicadas (incluye 1 correccion de dato imposible/falso, ver nota arriba), 1 hallazgo
+nuevo (PELATAM-CHL, VII Cumbre Iberoamericana Isla Margarita 1997), 9 no_verificable
+documentados arriba, 52 confirmados_sin_cambios. Modulo Chile: 5363 -> 5364 filas en
+Datos_COLT_Sudamerica (+1, por el hallazgo nuevo). Backup:
+04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_chile9499_merge.xlsx. Log:
+05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_chile_9499_2026-08-31.csv.
+colt_validar_madre.py: mismos 16 problemas preexistentes de otros paises
+(ARG/CHL/PRY/VEN, ya documentados en la seccion "QC ARCHIVO MADRE" arriba desde antes de
+esta campaña, incluyendo las 3 filas PELATAM-CHL sin LeaderID que ya existian de rondas
+previas de Chile), 0 problemas nuevos atribuibles a Chile 1994-1999 (la nueva fila
+PELATAM-CHL de esta campaña quedo con LeaderID y TripStartDate correctamente completos).
+
+[NOTA-OK 2026-08-31] Cargado el viaje cancelado de Frei a la IX Cumbre Iberoamericana
+(La Habana, nov-1999) en la hoja Viajes_Cancelados del libro Excel final (fila 45).
+Fuente: IPS Noticias, 28-ago-1999 (ipsnoticias.net/1999/08/integracion-iberoamerica-cuba-
+cumbre-con-ausencias-pero-no-deslucida) -- confirma que el 20/8/1999 Frei anuncio en
+conferencia de prensa junto a Carlos Menem que no asistiria a la cumbre en protesta por
+el reclamo de extradicion de Pinochet por parte de España. Reliability: Medium (la fuente
+documenta el anuncio de intencion, no una confirmacion posterior de ausencia efectiva el
+dia del evento; busquedas adicionales sugieren participacion reducida en la cumbre -del
+orden de 16 de 21 paises miembro-, consistente pero no una prueba directa). Backup previo
+al cambio: 04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_frei_cancelado.xlsx.
+
+[CIERRE] Con este tramo, Chile queda con verificacion COLT completa de punta a punta para
+el periodo dentro de alcance del proyecto (1994-2026): Frei Ruiz-Tagle, Lagos, Bachelet
+(1-2), Piñera (1-2), y Boric. No hay presidentes chilenos sin cobertura entre 1994 y 2026.
+================================================================================

@@ -1200,3 +1200,77 @@ mismos 16 problemas preexistentes de otros paises (ya documentados desde el 2026
 0 nuevos atribuibles a esta campaña. Recomendacion para futuras campañas: agregar
 validacion de dominio Yes/No/blanco directamente en colt_aplicar_workpacks.py al leer
 hallazgos_nuevos, para no depender de que el chequeo posterior lo atrape.
+
+[2026-08-31] VERIFICACION COLT — BRASIL 1994-1999 (Itamar Franco resto de mandato + Cardoso
+1er mandato) | 2 mandatarios investigados (LeaderID 756 y 994), 2 archivos
+resultados_leader_*.json en 05_BITACORA/anexos_colt_sudamerica/tmp_brasil_9499/. Flujo
+aplicado: colt_export_csv.py (re-export de 5363 filas para asegurar sincronia con el xlsx)
+-> colt_aplicar_workpacks.py Brazil brasil_9499 <2 jsons> --aplicar -> colt_validar_madre.py
+-> colt_importar_csv.py. Backup del xlsx pre-campaña: 04_BASE_FINAL/
+Base_COLT_Sudamerica_backup_pre_brasil9499_merge.xlsx. Resultado: 27 correcciones aplicadas
+(17 Itamar Franco + 10 Cardoso), 0 hallazgos nuevos, 8 items no_verificable documentados en
+PENDIENTES_VERIFICACION.txt (seccion "BRASIL 1994-1999 — VERIFICACION COLT"), 60
+confirmados_sin_cambios (9 + 51). Modulo Brasil en Datos_COLT_Sudamerica: 5363 -> 5363 filas
+(sin cambio, esperado al no haber hallazgos nuevos). Log linea por linea: 05_BITACORA/
+anexos_colt_sudamerica/cambios_aplicados_brasil_9499_2026-08-31.csv.
+
+CORRECCION DE DATO FALSO (no una simple discrepancia de fecha): TripID 994-BRA-CHL-35703
+(Cardoso, Chile fines sept./oct. 1997) tenia NameMultilatEvent = "Asia-Pacific Economic
+Cooperation (APEC) Summit" en COLT, dato imposible -Brasil nunca fue miembro de APEC, y la
+Cumbre APEC 1997 fue en Vancouver el 24-25/11/1997, no en Chile-. El subagente confirmo el
+error pero no pudo identificar el evento real, y devolvio como valor_correcto una oracion
+explicativa en vez de un valor de celda limpio; se reemplazo por "NA" antes de aplicar
+(nunca dejar un dato falso conocido ni escribir prosa en una celda). Verificado en el csv de
+trabajo y en el xlsx final: la celda quedo en "NA" con la justificacion completa preservada
+en Notes. colt_validar_madre.py corrio con los mismos 16 problemas preexistentes de otros
+paises (ARG/CHL/PRY/VEN, documentados desde el 2026-08-24/30), 0 nuevos atribuibles a esta
+campaña. Los 27+8 TripID de ambos JSON se encontraron todos en el csv de trabajo (0 "no
+encontrados").
+
+[2026-08-31] CONTROL | Brasil: cierre del cabo suelto Cardoso 1999 (LeaderID 994, ene-dic
+1999, 16 filas que habian quedado fuera tanto de la ronda "1er mandato" -corto en 1/1/1999-
+como de la ronda "2000-2003"). Mismo pipeline (colt_export_csv.py / colt_aplicar_workpacks.py
+/ colt_validar_madre.py / colt_importar_csv.py), resultados_leader_994_1999.json. Backup:
+04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_brasil1999_merge.xlsx. Resultado: 5
+correcciones (Veracruz/XIII Cumbre del Grupo de Rio may-1999; La Habana + IX Cumbre
+Iberoamericana nov-1999; Roma/30 Conferencia FAO nov-1999; Florencia/Third Way Summit
+nov-1999, con Clinton, Blair, D'Alema, Schroder y Jospin), 0 hallazgos nuevos, 11
+no_verificable, 1 confirmado_sin_cambios (asuncion De la Rua 10/12/1999). Datos_COLT_
+Sudamerica: 5363 -> 5363 filas. colt_validar_madre.py: mismos 16 problemas preexistentes de
+otros paises, 0 nuevos. Detalle completo en PENDIENTES_VERIFICACION.txt, seccion "FERNANDO
+HENRIQUE CARDOSO, tramo 1999". Con este cierre, Brasil queda con verificacion COLT completa
+de punta a punta dentro del alcance del proyecto (1994-2026). Sigue Chile (Frei Ruiz-Tagle,
+1994-2000).
+
+[2026-08-31] MANDATARIO | Chile: verificacion COLT de Eduardo Frei Ruiz-Tagle (LeaderID 907,
+11/03/1994-11/03/2000), 63 filas COLT ya cargadas, investigadas via subagente contra fuentes
+independientes. Resultado: 4 correcciones (fecha/duracion asuncion Cardoso Brasilia ene-1995
+corregida a 1 dia; NameMultilatEvent de 907-CHL-ITA-35237 limpiado de un dato imposible -
+supuesta "Cumbre del Consejo Europeo", Chile nunca fue miembro de la UE - a "NA", mismo
+patron que el error APEC de Brasil/Cardoso), 1 hallazgo nuevo (PELATAM-CHL: VII Cumbre
+Iberoamericana, Isla Margarita/Porlamar, Venezuela, 08-09/11/1997, confirmada por SEGIB;
+campos MetNonhostHOGS/NonhostHOGSNames/SignedAgreement dejados en blanco en vez de la prosa
+"No especificado por la fuente consultada" que devolvio el subagente -mismo fix aplicado a
+Bolivia/Arce y Brasil/Cardoso-), 9 no_verificable, 52 confirmados_sin_cambios (cotejados
+contra calendario APEC 1994-1999, Cumbres Iberoamericanas, Mercosur, Grupo de Rio).
+Pipeline: colt_export_csv.py / colt_aplicar_workpacks.py Chile chile_9499 / colt_validar_
+madre.py / colt_importar_csv.py. Backup: 04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_
+chile9499_merge.xlsx. Log: 05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_chile_9499_
+2026-08-31.csv. Datos_COLT_Sudamerica: 5363 -> 5364 filas (+1 por el hallazgo). colt_validar_
+madre.py: mismos 16 problemas preexistentes de otros paises (ARG/CHL/PRY/VEN), 0 nuevos
+atribuibles a esta campaña. Se detectaron ademas dos chequeos de brecha negativos correctos:
+Frei cancelo su viaje previsto a la IX Cumbre Iberoamericana (La Habana, nov-1999) por la
+disputa de la extradicion de Pinochet -pendiente cargar en hoja "Viajes Cancelados"-, y la
+Cumbre de las Americas 1998 fue domestica (Santiago), sin viaje saliente esperado. Detalle
+completo en PENDIENTES_VERIFICACION.txt, seccion "CHILE 1994-1999". Con este cierre, Chile
+queda con verificacion COLT completa de punta a punta dentro del alcance del proyecto
+(1994-2026): Frei, Lagos, Bachelet 1-2, Piñera 1-2, Boric.
+
+[2026-08-31] NOTA | Cargado el viaje cancelado de Frei a la IX Cumbre Iberoamericana (La
+Habana, nov-1999) en la hoja Viajes_Cancelados de Base_COLT_Sudamerica.xlsx (fila 45),
+pendiente que habia quedado abierto tras el cierre de Chile 1994-1999. Fuente: IPS
+Noticias, 28-ago-1999, confirma que Frei anuncio el 20/8/1999 -junto a Menem- que no
+asistiria a la cumbre en protesta por el reclamo de extradicion de Pinochet por España.
+Reliability Medium (documenta el anuncio de intencion, no una confirmacion directa de
+ausencia el dia del evento). Backup: 04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_
+frei_cancelado.xlsx. Hoja Viajes_Cancelados: 44 -> 45 filas.

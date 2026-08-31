@@ -1,0 +1,117 @@
+[
+  {
+    "LeaderID": "3245",
+    "LeaderFullName": "Pedro Pablo Kuczynski",
+    "correcciones": [
+      {
+        "TripID": "3245-PER-ARG-43041",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "fuente": "https://www.infobae.com/politica/2017/11/03/mauricio-macri-y-pedro-kuczynski-firmaron-ocho-convenios-y-acordaron-reimpulsar-las-relaciones-bilaterales/",
+        "justificacion": "El viaje de Kuczynski a Buenos Aires (2-4 de noviembre de 2017) fue una visita de Estado bilateral -el primer encuentro de trabajo entre ambos mandatarios, con firma de ocho convenios y relanzamiento de la relacion bilateral segun Infobae- y NO coincidio con ninguna Cumbre Iberoamericana. La XXV Cumbre Iberoamericana se realizo en Cartagena, Colombia, el 28-29 de octubre de 2016 (ya cargada en COLT como 3245-PER-COL-42671) y la XXVI Cumbre Iberoamericana se realizo en Antigua Guatemala el 15-16 de noviembre de 2018 (posterior al fin del mandato de Kuczynski, quien renuncio el 23-mar-2018): no hubo edicion de la Cumbre Iberoamericana en 2017, y mucho menos en Argentina. El campo AttendedMultilatEvent=Yes es por lo tanto un error de COLT."
+      },
+      {
+        "TripID": "3245-PER-ARG-43041",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "NA",
+        "fuente": "https://www.infobae.com/politica/2017/11/03/mauricio-macri-y-pedro-kuczynski-firmaron-ocho-convenios-y-acordaron-reimpulsar-las-relaciones-bilaterales/",
+        "justificacion": "Consecuencia directa de la correccion de AttendedMultilatEvent: al no existir una Cumbre Iberoamericana en Argentina en 2017 (ver campo anterior), el nombre de evento multilateral consignado por COLT ('Ibero-American Summit') es erroneo y debe eliminarse. El viaje se mantiene como visita bilateral de trabajo a Mauricio Macri, correctamente reflejada en MetHostHoGS=Yes / HostHOGSName='President Mauricio Macri' y SignedAgreement=Yes (8 convenios firmados), campos que no requieren cambio."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "3245-PER-CHL-43169",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "Se confirmo que Kuczynski viajo a Chile para la transmision de mando de Sebastian Pinera, ceremonia realizada el 11 de marzo de 2018 en Valparaiso (fuente: gob.pe, RPP), y que en la reunion previa con Pinera se hablo tambien de la VIII Cumbre de las Americas (Lima, abril 2018). Sin embargo, busqueda activa no logro confirmar con precision si el viaje realmente comenzo el 10/3 (un dia antes de la ceremonia) ni si se extendio hasta el 13/3 como registra COLT (TripDuration 4 dias), por lo que el rango exacto de fechas queda sin verificar de forma independiente, aunque el hecho central del viaje (asistencia a la investidura de Pinera) esta confirmado."
+      },
+      {
+        "TripID": "3245-PER-USA-42633",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "El viaje corresponde a la 71a Asamblea General de la ONU (Nueva York, sesion de alto nivel del 20 al 26 de septiembre de 2016), fechas ampliamente conocidas y consistentes con el rango de COLT, pero no se pudo completar una busqueda dedicada de fuente de prensa que confirme especificamente el itinerario de Kuczynski (fechas exactas de llegada/salida) debido al agotamiento del presupuesto de busqueda web disponible en esta sesion de trabajo. Se deja como no verificable de forma independiente pese a la alta plausibilidad de las fechas registradas por COLT."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "3245-PER-BOL-42678", "justificacion": "Corresponde al II Gabinete Binacional Peru-Bolivia realizado en Sucre, Bolivia, el 4 de noviembre de 2016, confirmado por El Comercio y la Cancilleria de Bolivia (condecoracion Condor de los Andes a Kuczynski), consistente con la fecha puntual de COLT (4/11/2016, 1 dia) y con MetHostHoGS=Yes/Evo Morales."},
+      {"TripID": "3245-PER-CHN-42625", "justificacion": "Corresponde a la primera gira internacional de Kuczynski como jefe de Estado, visita de Estado a China (Beijing y Shanghai) confirmada por la Presidencia del Peru y prensa china/peruana para el periodo 12-16 de septiembre de 2016, coincidente exactamente con el rango de COLT y con MetHostHoGS=Yes/Xi Jinping."},
+      {"TripID": "3245-PER-COL-42671", "justificacion": "Corresponde a la XXV Cumbre Iberoamericana de Cartagena de Indias, Colombia, confirmada para el 28-29 de octubre de 2016, coincidente exactamente con el rango de COLT y con AttendedMultilatEvent=Yes/NameMultilatEvent='Ibero-American Summit'."},
+      {"TripID": "3245-PER-COL-42915", "justificacion": "Corresponde a la XII Cumbre de la Alianza del Pacifico en Cali, Colombia, confirmada por Cancilleria de Colombia y prensa regional para el 29-30 de junio de 2017 (con la participacion tambien de Bachelet, Santos y Pena Nieto), coincidente exactamente con el rango de COLT."},
+      {"TripID": "3245-PER-COL-43157", "justificacion": "Corresponde al IV Gabinete Binacional de Ministros Peru-Colombia y Reunion Presidencial en Cartagena de Indias, confirmado para el 26-27 de febrero de 2018, coincidente exactamente con el rango de COLT y con MetHostHoGS=Yes/Juan Manuel Santos."},
+      {"TripID": "3245-PER-ECU-42879", "justificacion": "Corresponde a la toma de posesion de Lenin Moreno como presidente de Ecuador en la Asamblea Nacional en Quito, confirmada para el 24 de mayo de 2017 (con la confirmacion expresa de la asistencia de Kuczynski segun fuentes de la epoca), coincidente exactamente con la fecha puntual de COLT."},
+      {"TripID": "3245-PER-FRA-42894", "justificacion": "Corresponde a la visita oficial a Francia, reunion con el presidente Emmanuel Macron y discurso en el IX Foro Economico Internacional America Latina y el Caribe de la OCDE en Paris, confirmados para el 8-9 de junio de 2017 (El Comercio, RPP), consistente con el inicio del rango de COLT (8-11/6/2017); el cierre del viaje enlaza directamente con el inicio del siguiente viaje a Espana (12/6/2017)."},
+      {"TripID": "3245-PER-VAT-43000", "justificacion": "Corresponde a la audiencia privada con el Papa Francisco en el Vaticano en septiembre de 2017, en la que Kuczynski invito al Papa a visitar el Peru en enero de 2018 (visita que efectivamente se realizo), confirmada por El Comercio y por la propia Presidencia del Peru, consistente con la fecha puntual de COLT (22/9/2017) y con MetHostHoGS=Yes/Pope Francis."},
+      {"TripID": "3245-PER-ESP-42898", "justificacion": "Corresponde a la primera visita oficial de Kuczynski a Espana, con reuniones con el Rey Felipe VI y el presidente del Gobierno Mariano Rajoy en el Palacio de la Moncloa, confirmada para el 12-13 de junio de 2017 (La Moncloa, RPP, Gestion), coincidente exactamente con el rango de COLT."},
+      {"TripID": "3245-PER-USA-42790", "justificacion": "Corresponde a la reunion bilateral con el presidente Donald Trump en la Casa Blanca, primer mandatario latinoamericano en visitar a Trump, confirmada por fuente primaria oficial (trumpwhitehouse.archives.gov) para el 24 de febrero de 2017, coincidente exactamente con la fecha de inicio de COLT."},
+      {"TripID": "3245-PER-VNM-43048", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Da Nang, Vietnam, confirmada para el 10-11 de noviembre de 2017, consistente con el rango de COLT (9-11/11/2017, con un dia de llegada previa) y con AttendedMultilatEvent=Yes."}
+    ]
+  },
+  {
+    "LeaderID": "3432",
+    "LeaderFullName": "Martin Vizcarra",
+    "correcciones": [
+      {
+        "TripID": "3432-PER-BRA-43466",
+        "campo": "CulturalSiteOrCeremony",
+        "valor_correcto": "No",
+        "fuente": "https://www.infobae.com/america/america-latina/2019/01/01/martin-vizcarra-adelanto-el-regreso-desde-brasil-tras-la-destitucion-de-los-fiscales-que-investigaban-el-caso-odebrecht-en-peru/",
+        "justificacion": "COLT registra DOS entradas distintas para el mismo viaje a Brasilia en torno a la asuncion de Jair Bolsonaro (43465: 31/12/2018-2/1/2019, Notes='Advanced return and did not attend inauguration'; y 43466: 1/1/2019 unico dia, Notes='attended inauguration ceremony for President Jair Bolsonaro; met with Secretary of State Mike Pompeo'), con Notes mutuamente contradictorias. Infobae confirmo de forma explicita que Vizcarra SI viajo a Brasil y SI se reunio con el Secretario de Estado Mike Pompeo en Brasilia (fuente oficial del Departamento de Estado de EEUU, video.state.gov, corrobora la reunion bilateral Vizcarra-Pompeo en Brasilia), pero que adelanto su regreso al Peru por la crisis politica generada por la destitucion de fiscales del caso Odebrecht, y por ello NO asistio a la ceremonia de investidura de Bolsonaro. Se corrige unicamente el campo CulturalSiteOrCeremony (de 'Yes' a 'No') del TripID 43466, ya que la 'ceremonia' que marca este campo (asistencia a la toma de posesion) esta confirmada como NO ocurrida; el resto de datos del viaje (fecha, pais, reunion con Pompeo) se mantienen sin cambio por estar confirmados."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "3432-PER-PRT-43521",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "El viaje de Estado a Portugal (25-26 de febrero de 2019) ya cuenta con multiples fuentes primarias propias de COLT (gob.pe, Cancilleria, Andina en ingles, Xinhua), pero no se realizo una busqueda independiente adicional en esta sesion por agotamiento del presupuesto de busqueda web disponible. Se deja como no verificable de forma independiente, sin indicios de error."
+      },
+      {
+        "TripID": "3432-PER-ESP-43523",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "El viaje de Estado a Espana (27/2-1/3/2019, incluyendo encuentro con el Rey Felipe VI) ya cuenta con multiples fuentes primarias propias de COLT (gob.pe, Cancilleria, Andina en ingles), pero no se realizo una busqueda independiente adicional en esta sesion por agotamiento del presupuesto de busqueda web disponible. Se deja como no verificable de forma independiente, sin indicios de error."
+      },
+      {
+        "TripID": "3432-PER-USA-43731",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "El viaje a la 74a Asamblea General de la ONU (23-25 de septiembre de 2019) ya cuenta con multiples fuentes primarias propias de COLT (gob.pe, webtv.un.org), pero no se realizo una busqueda independiente adicional en esta sesion por agotamiento del presupuesto de busqueda web disponible. Se deja como no verificable de forma independiente, sin indicios de error."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "3432-PER-BOL-43218", "justificacion": "Corresponde al Encuentro Presidencial en Desaguadero (Centro Binacional de Atencion en Frontera - CEBAF) confirmado para el 28 de abril de 2018, con la inauguracion conjunta del CEBAF y acuerdos sobre el Corredor Ferroviario Bioceanico, coincidente exactamente con la fecha puntual de COLT y con MetHostHoGS=Yes/Evo Morales."},
+      {"TripID": "3432-PER-BOL-43346", "justificacion": "Corresponde al IV Gabinete Binacional/Encuentro Presidencial Peru-Bolivia, confirmado por la Cancilleria de Bolivia y El Comercio como realizado en Cobija, Bolivia, el 3 de septiembre de 2018 (Declaracion de Cobija), coincidente exactamente con la fecha puntual de COLT."},
+      {"TripID": "3432-PER-BRA-43465", "justificacion": "Corresponde al viaje a Brasilia para la asuncion de Jair Bolsonaro (31/12/2018-2/1/2019), en el que Vizcarra efectivamente adelanto su regreso al Peru y NO asistio a la ceremonia de investidura por la crisis de los fiscales del caso Odebrecht, tal como ya lo reflejan correctamente las propias Notes de COLT para este TripID especifico ('Advanced return and did not attend inauguration'), confirmado por Infobae."},
+      {"TripID": "3432-PER-CHL-43546", "justificacion": "Corresponde al Encuentro de Presidentes de America del Sur que fundo el foro PROSUR en el Palacio de La Moneda, Santiago de Chile, confirmado para el 22 de marzo de 2019 (con la firma de la Declaracion de Santiago por Vizcarra junto a Macri, Bolsonaro, Piñera, Duque, Moreno y Abdo Benitez), coincidente con el rango de COLT (22-23/3/2019) y con AttendedMultilatEvent=Yes/SignedAgreement=Yes."},
+      {"TripID": "3432-PER-COL-43714", "justificacion": "Corresponde a la Cumbre Presidencial por la Amazonia en Leticia, Colombia, confirmada por gob.pe y la Embajada de Colombia en Peru para el 6 de septiembre de 2019 (Pacto de Leticia por la Amazonia, firmado en el contexto de los incendios forestales de 2019), coincidente exactamente con la fecha puntual de COLT."},
+      {"TripID": "3432-PER-ECU-43398", "justificacion": "Corresponde a la visita bilateral a Ecuador confirmada para el 25-26 de octubre de 2018 con entrega de la Orden Nacional al Merito por el presidente Lenin Moreno, coincidente exactamente con el rango de COLT."},
+      {"TripID": "3432-PER-GTM-43419", "justificacion": "Corresponde a la XXVI Cumbre Iberoamericana en La Antigua Guatemala, confirmada por SEGIB y prensa regional para el 15-16 de noviembre de 2018 (17 jefes de Estado participantes), coincidente exactamente con el rango de COLT y con AttendedMultilatEvent=Yes."},
+      {"TripID": "3432-PER-MEX-43304", "justificacion": "Corresponde a la XIII Cumbre de la Alianza del Pacifico en Puerto Vallarta, Mexico, confirmada para el 24 de julio de 2018 (con acuerdo conjunto Alianza del Pacifico-Mercosur contra el proteccionismo y asuncion de Peru de la presidencia pro tempore), consistente con el rango de COLT (23-24/7/2018, con un dia de llegada previa)."},
+      {"TripID": "3432-PER-MEX-43434", "justificacion": "Corresponde a la toma de posesion de Andres Manuel Lopez Obrador en el Palacio Legislativo de San Lazaro, confirmada por gob.pe para el 1 de diciembre de 2018 con asistencia efectiva de Vizcarra, consistente con el rango de COLT (30/11-1/12/2018, con un dia de llegada previa)."},
+      {"TripID": "3432-PER-PAN-43647", "justificacion": "Corresponde a la toma de posesion de Laurentino Cortizo en el Centro de Convenciones Atlapa, Ciudad de Panama, confirmada por multiples fuentes (Andina, Diario Correo, Peru21, Presidencia de Panama) para el 1 de julio de 2019 con asistencia efectiva de Vizcarra y la primera dama, coincidente exactamente con la fecha puntual de COLT."},
+      {"TripID": "3432-PER-USA-43368", "justificacion": "Corresponde a la 73a Asamblea General de la ONU en Nueva York, confirmada para el 25-28 de septiembre de 2018 (discurso de Vizcarra, reunion con el Presidente del Consejo Europeo Donald Tusk), respaldada por siete fuentes propias de COLT incluyendo comunicados oficiales de gob.pe y el archivo de discursos de la ONU (gadebate.un.org), consistente con el rango de COLT."},
+      {"TripID": "3432-PER-CHL-43431", "justificacion": "Visita bilateral a Chile (27-29 de noviembre de 2018), reunion con el presidente Sebastian Pinera con firma de acuerdo (SignedAgreement=Yes ya en COLT). Las propias fuentes de COLT incluyen fotografias de archivo de Getty Images de ambos mandatarios juntos en esa fecha, consistentes con el encuentro. Item no cubierto en la ronda de investigacion original (omision detectada en el control de cobertura posterior); se agrega como confirmado_sin_cambios sin haberse ejecutado una busqueda de prensa independiente adicional, dado que las fuentes ya propias de COLT (incluida evidencia fotografica) son razonablemente consistentes y no se detecta ninguna senal de error."}
+    ]
+  },
+  {
+    "LeaderID": "90001",
+    "LeaderFullName": "Valentin Paniagua",
+    "correcciones": [],
+    "hallazgos_nuevos": [],
+    "no_verificable": [],
+    "confirmados_sin_cambios": []
+  },
+  {
+    "LeaderID": "90002",
+    "LeaderFullName": "Manuel Merino",
+    "correcciones": [],
+    "hallazgos_nuevos": [],
+    "no_verificable": [],
+    "confirmados_sin_cambios": []
+  },
+  {
+    "LeaderID": "90003",
+    "LeaderFullName": "Francisco Sagasti",
+    "correcciones": [],
+    "hallazgos_nuevos": [],
+    "no_verificable": [],
+    "confirmados_sin_cambios": []
+  }
+]

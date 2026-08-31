@@ -1,0 +1,249 @@
+[
+  {
+    "LeaderID": "448",
+    "correcciones": [
+      {
+        "TripID": "448-PER-BRA-34335",
+        "campo": "TripYear",
+        "valor_correcto": "1995",
+        "fuente": "https://en.wikipedia.org/wiki/Fernando_Henrique_Cardoso ; https://www.biblioteca.presidencia.gov.br/presidencia/ex-presidentes/fernando-henrique-cardoso/discursos/1o-mandato/1995-1/01-discurso-de-posse-no-congresso-nacional-brasilia-distrito-federal-01-01-95/view ; https://pt.wikipedia.org/wiki/Posse_de_Fernando_Henrique_Cardoso_em_1995",
+        "justificacion": "COLT registra este viaje como 'Presidential Inauguration of President Fernando Henrique Cardoso' con TripYear 1994 y TripStartDate 1994-01-01, lo cual es cronologicamente imposible: Cardoso fue elegido presidente de Brasil recien el 3 de octubre de 1994 (primera vuelta) y tomo posesion del cargo el 1 de enero de 1995, no de 1994. En enero de 1994 el presidente en ejercicio de Brasil era Itamar Franco y Cardoso ni siquiera era candidato formal todavia. Se trata de un error de un anio completo en la base COLT (mismo tipo de error de fecha de toma de posesion ya detectado y corregido en la ronda hermana de Chile, leader_907, para este mismo evento). Se corrige el anio a 1995, consistente con la fecha real de la ceremonia de posesion (Congreso Nacional, Brasilia, 1/1/1995)."
+      },
+      {
+        "TripID": "448-PER-BRA-34335",
+        "campo": "TripStartDate",
+        "valor_correcto": "1995-01-01",
+        "fuente": "https://www.biblioteca.presidencia.gov.br/presidencia/ex-presidentes/fernando-henrique-cardoso/discursos/1o-mandato/1995-1/01-discurso-de-posse-no-congresso-nacional-brasilia-distrito-federal-01-01-95/view",
+        "justificacion": "Consecuencia directa de la correccion de TripYear: la ceremonia de toma de posesion de Cardoso como Presidente de Brasil se realizo el 1 de enero de 1995 (discurso de posesion archivado con esa fecha exacta en la Biblioteca de la Presidencia de Brasil), no el 1 de enero de 1994 como registra COLT."
+      },
+      {
+        "TripID": "448-PER-BRA-34335",
+        "campo": "TripEndDate",
+        "valor_correcto": "1995-01-01",
+        "fuente": "https://pt.wikipedia.org/wiki/Posse_de_Fernando_Henrique_Cardoso_em_1995",
+        "justificacion": "No se hallo evidencia de una estadia adicional en Brasilia mas alla del dia de la ceremonia (1/1/1995), por lo que -siguiendo el mismo criterio aplicado a casos analogos en la ronda hermana de Chile (leader_907)- se codifica como viaje de un solo dia, desplazado al 1/1/1995."
+      },
+      {
+        "TripID": "448-PER-BRA-34335",
+        "campo": "TripDuration",
+        "valor_correcto": "1",
+        "fuente": "https://pt.wikipedia.org/wiki/Posse_de_Fernando_Henrique_Cardoso_em_1995",
+        "justificacion": "Consecuencia directa de las correcciones anteriores: con TripStartDate y TripEndDate iguales (1995-01-01), la duracion pasa de 3 a 1 dia."
+      },
+      {
+        "TripID": "448-PER-BRA-36164",
+        "campo": "TripStartDate",
+        "valor_correcto": "1999-01-01",
+        "fuente": "https://atlas.fgv.br/marcos/governo-fernando-henrique-cardoso-1995-2003/midias/segunda-posse-de-fernando-henrique-cardoso",
+        "justificacion": "COLT registra este viaje como 'Attended inauguration of President Fernando Henrique Cardoso' con fecha 1999-01-04, pero la segunda toma de posesion de Cardoso como Presidente de Brasil (reelecto en primera vuelta en 1998) se realizo el 1 de enero de 1999, segun el Atlas Historico do Brasil (FGV), con un desfase de 3 dias respecto de la fecha real registrada por COLT. Se corrige a la fecha real de la ceremonia."
+      },
+      {
+        "TripID": "448-PER-BRA-36164",
+        "campo": "TripEndDate",
+        "valor_correcto": "1999-01-01",
+        "fuente": "https://atlas.fgv.br/marcos/governo-fernando-henrique-cardoso-1995-2003/midias/segunda-posse-de-fernando-henrique-cardoso",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: no hay evidencia de una estadia adicional, por lo que se mantiene como viaje de un solo dia, desplazado al 1/1/1999 (fecha real de la segunda toma de posesion de Cardoso)."
+      },
+      {
+        "TripID": "448-PER-BRA-34946",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "NA",
+        "fuente": "https://www.diputados.gob.mx/comisiones/exteriores/cumbres/gruporio.htm",
+        "justificacion": "COLT registra que Fujimori 'asistio' a una 'Rio Group Summit' en Brasil el 4-5 de septiembre de 1995. Esto es un dato imposible: segun la lista oficial de sedes y fechas de las cumbres del Grupo de Rio (recogida en el Acta de Veracruz y citada por la Camara de Diputados de Mexico), la cumbre de 1995 (IX Cumbre) se realizo en Quito, Ecuador -no en Brasil- los dias 4 y 5 de septiembre de 1995 (mismas fechas exactas que registra COLT para el viaje a Brasil). Brasil no fue sede del Grupo de Rio ese anio (la sede brasileña correspondio a 1994, Rio de Janeiro). Es un patron de error analogo al caso ya documentado de una supuesta cumbre de APEC de Brasil en el proyecto hermano de Chile: se corrige el campo del nombre del evento multilateral a NA porque el evento descrito no pudo haber ocurrido en el pais y fecha que indica este registro. El propio expediente de Fujimori contiene por separado un viaje a Ecuador exactamente en esa fecha (448-PER-ECU-34947, 5/9/1995) que es plausiblemente el registro correcto de esta misma cumbre."
+      },
+      {
+        "TripID": "448-PER-BRA-34946",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "fuente": "https://www.diputados.gob.mx/comisiones/exteriores/cumbres/gruporio.htm",
+        "justificacion": "Consecuencia directa de la correccion anterior: si el Grupo de Rio no se reunio en Brasil en 1995, el campo que indica asistencia a un evento multilateral en Brasil en esa fecha debe corregirse a No, dado que no hay evidencia de que haya ocurrido alli ningun otro evento multilateral que justifique el 'Yes'."
+      },
+      {
+        "TripID": "448-PER-BRA-35310",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "NA",
+        "fuente": "https://www.diputados.gob.mx/comisiones/exteriores/cumbres/gruporio.htm",
+        "justificacion": "COLT registra que Fujimori 'asistio' a una 'Rio Group Summit' en Brasil el 2 de septiembre de 1996. Es un dato imposible: la X Cumbre del Grupo de Rio de 1996 se realizo en Cochabamba, Bolivia (no en Brasil), el 3-4 de septiembre de 1996, segun la lista oficial de sedes del Grupo de Rio. El propio expediente de Fujimori registra, un dia despues (448-PER-BOL-35311, 3/9/1996), un viaje a Bolivia donde se reunio con el presidente de Ecuador Abdala Bucaram -coincidente en fecha y region con la cumbre de Cochabamba- lo que sugiere que el evento multilateral fue mal atribuido a un viaje fantasma a Brasil en lugar de al viaje real a Bolivia. Se corrige el campo del nombre del evento a NA por tratarse de un dato imposible para el registro de Brasil (ver tambien la correccion complementaria propuesta sobre 448-PER-BOL-35311)."
+      },
+      {
+        "TripID": "448-PER-BRA-35310",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "fuente": "https://www.diputados.gob.mx/comisiones/exteriores/cumbres/gruporio.htm",
+        "justificacion": "Consecuencia directa de la correccion anterior: si el Grupo de Rio no se reunio en Brasil en 1996 (fue en Cochabamba, Bolivia), el campo de asistencia a evento multilateral en este registro de Brasil debe corregirse a No."
+      },
+      {
+        "TripID": "448-PER-BOL-35311",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.diputados.gob.mx/comisiones/exteriores/cumbres/gruporio.htm",
+        "justificacion": "Correccion complementaria a la de 448-PER-BRA-35310: la X Cumbre del Grupo de Rio se realizo en Cochabamba, Bolivia, el 3-4 de septiembre de 1996, fecha que coincide exactamente con este registro (3/9/1996) en el que Fujimori aparece reuniendose con el presidente de Ecuador, Abdala Bucaram -tambien miembro del Grupo de Rio y presente tipicamente en estas cumbres-. Es plausible que el encuentro bilateral con Bucaram haya ocurrido en el marco de la cumbre de Cochabamba, que COLT omitio marcar en este registro (AttendedMultilatEvent figuraba como 'No') mientras la etiquetaba erroneamente en un viaje fantasma a Brasil. Se corrige a Yes."
+      },
+      {
+        "TripID": "448-PER-BOL-35311",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Rio Group Summit",
+        "fuente": "https://www.diputados.gob.mx/comisiones/exteriores/cumbres/gruporio.htm",
+        "justificacion": "Consecuencia directa de la correccion anterior: se agrega el nombre del evento multilateral (Rio Group Summit / X Cumbre del Grupo de Rio, Cochabamba, 3-4/9/1996) que corresponde a este registro de Bolivia, trasladado desde el registro erroneo de Brasil (448-PER-BRA-35310)."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Venezuela",
+        "CityVisited": "Isla Margarita (Porlamar)",
+        "TripStartDate": "1997-11-08",
+        "TripEndDate": "1997-11-09",
+        "TripDuration": "2",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Rafael Caldera",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "VII Ibero-American Summit",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://segib.org/?summit=vii-cumbre-iberoamericana-isla-margarita-1997 ; https://es.wikipedia.org/wiki/VII_Cumbre_Iberoamericana ; http://www.cuba.cu/gobierno/discursos/1997/esp/f081197e.htm",
+        "justificacion": "La VII Cumbre Iberoamericana de Jefes de Estado y de Gobierno se realizo en Isla Margarita, Venezuela, los dias 8 y 9 de noviembre de 1997, bajo el lema 'Los valores eticos de la democracia'. Fuentes de la Secretaria General Iberoamericana (SEGIB) y prensa de la epoca listan a Alberto Fujimori entre los jefes de Estado y de Gobierno que asistieron a esta cumbre. Este viaje no figura entre los 93 registros ya cargados en COLT para leader_448: no existe ningun TripID con CountryVisited='Venezuela' en noviembre de 1997 (los unicos viajes de Fujimori a Venezuela en todo el expediente son de febrero 1995, marzo 1995 y enero 1996). Se trata de un hueco real: Fujimori si aparece cubierto en las cumbres iberoamericanas de 1994 (Cartagena), 1995 (Bariloche), 1996 (Vina del Mar) y 1999 (La Habana), pero falta la de 1997 (Isla Margarita). Los campos MetNonhostHOGS/NonhostHOGSNames y SignedAgreement se dejan en blanco por no haberse hallado una fuente que detalle esos aspectos especificos de la participacion de Fujimori; TripDuration se estima en 2 dias por ser el rango exacto de duracion de la cumbre segun SEGIB, sin evidencia de dias adicionales de llegada o salida."
+      },
+      {
+        "CountryVisited": "Portugal",
+        "CityVisited": "Oporto",
+        "TripStartDate": "1998-10-17",
+        "TripEndDate": "1998-10-18",
+        "TripDuration": "2",
+        "MetHostHoGS": "",
+        "HostHOGSName": "",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "VIII Ibero-American Summit",
+        "MetNonhostHOGS": "Yes",
+        "NonhostHOGSNames": "President Jamil Mahuad",
+        "SignedAgreement": "",
+        "fuente": "https://www.segib.org/?summit=viii-cumbre-iberoamericana-oporto-1998 ; https://ipsnoticias.net/1998/10/ecuador-peru-parlamentos-despejan-el-camino-hacia-la-paz/",
+        "justificacion": "La VIII Cumbre Iberoamericana de Jefes de Estado y de Gobierno se realizo en Oporto, Portugal, los dias 17 y 18 de octubre de 1998, bajo el lema 'Los desafios de la globalizacion y la integracion regional'. Segun cobertura de IPS Noticias de la epoca, los presidentes Jamil Mahuad (Ecuador) y Alberto Fujimori (Peru) llegaron a esta cumbre con la noticia de la respuesta afirmativa de ambos paises a la propuesta de mediacion de los cuatro paises garantes del proceso de paz Peru-Ecuador, y los jefes de Estado y de Gobierno celebraron alli los acuerdos procedimentales alcanzados. Este viaje no figura entre los 93 registros ya cargados en COLT para leader_448: no existe ningun TripID con CountryVisited='Portugal' en todo el mandato de Fujimori, constituyendo un hueco real (nueve dias antes, el 7-10/10/1998, Fujimori habia visitado Reino Unido, y nueve dias despues, el 26/10/1998, firmo el acuerdo de paz con Ecuador en Brasilia -448-PER-BRA-36094-, lo que hace cronologicamente coherente una escala en Oporto). El campo HostHOGSName se deja en blanco por no determinarse con precision si hubo un encuentro bilateral formal con el Presidente de Portugal (Jorge Sampaio) o el Primer Ministro (Antonio Guterres) mas alla de la cumbre multilateral; SignedAgreement se deja en blanco por falta de evidencia especifica de firma de acuerdos en esta escala."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "448-PER-CUB-36484",
+        "campo": "TripStartDate / TripEndDate",
+        "justificacion": "COLT marco este item con Confidence 3/5 (la mas baja de todo el dataset de Fujimori) y registra el viaje a La Habana para la 'Ibero-American Summit' como 20-21 de noviembre de 1999. Sin embargo, fuentes oficiales (SEGIB, discurso de clausura de Fidel Castro fechado 16/11/1999) confirman que la IX Cumbre Iberoamericana se realizo en La Habana, Cuba, los dias 15 y 16 de noviembre de 1999 -es decir, la cumbre ya habia concluido varios dias antes del rango que registra COLT-. Busqueda activa no hallo una fuente que precise las fechas exactas de llegada y salida de Fujimori a Cuba, por lo que no es posible determinar si se trata de un error de digitacion en COLT o de una visita bilateral posterior y separada de la cumbre propiamente dicha. Se deja sin corregir por falta de una fuente que fije el valor correcto, pero se documenta la inconsistencia con las fechas oficiales de la cumbre."
+      },
+      {
+        "TripID": "448-PER-EGY-35931",
+        "campo": "TripStartDate",
+        "justificacion": "COLT marco este item con Confidence 3/5 y registra el viaje a Egipto para la 'G15 Summit' como 16 de mayo de 1998. Sin embargo, fuentes especializadas (IRI, Wikipedia sobre el Grupo de los Quince) confirman que la Octava Cumbre del G-15 se realizo en El Cairo, Egipto, del 11 al 13 de mayo de 1998, presidida por Hosni Mubarak -es decir, tres dias antes de la fecha que registra COLT-. Busqueda activa no hallo una fuente especifica que confirme la participacion personal de Fujimori en esta cumbre ni que precise su fecha exacta de llegada a Egipto, por lo que se deja el campo sin corregir pese a la inconsistencia detectada con las fechas oficiales de la cumbre."
+      },
+      {
+        "TripID": "448-PER-ECU-35830",
+        "campo": "TripStartDate",
+        "justificacion": "COLT marco este item con Confidence 3/5 (visita bilateral a Fabian Alarcon, 4 de febrero de 1998). Busqueda activa confirmo que Fabian Alarcon era presidente interino de Ecuador vigente en esa fecha (Feb.1997-Ago.1998), pero no hallo cobertura de prensa que confirme o contradiga la fecha especifica ni los detalles de esta visita puntual."
+      },
+      {
+        "TripID": "448-PER-CAN-36030",
+        "campo": "TripStartDate",
+        "justificacion": "COLT marco este item con Confidence 3/5 y las propias Notes de COLT indican que se trato de unas 'vacaciones familiares privadas' (private family holiday) sin reunion con jefe de Estado ni evento oficial. Por tratarse de un viaje privado, no es esperable que exista cobertura de prensa que permita confirmar o corregir la fecha exacta; se deja como no verificable, respetando la baja confianza que el propio COLT le asigno."
+      },
+      {
+        "TripID": "448-PER-SLV-36395",
+        "campo": "MetHostHoGS / Notes",
+        "justificacion": "COLT registra un viaje a El Salvador el 23-24 de agosto de 1999 sin indicar reunion con jefe de Estado, evento multilateral, acuerdo firmado ni ningun detalle en las Notes (campo vacio). Busqueda activa no hallo cobertura de prensa especifica sobre este viaje puntual que permita confirmar su proposito o los detalles de la agenda; el presidente salvadoreno vigente en esa fecha era Francisco Flores (asumio 1/6/1999), pero COLT no atribuye ninguna reunion con el, por lo que no hay un dato puntual que verificar mas alla de la existencia misma del viaje."
+      },
+      {
+        "TripID": "448-PER-USA-35565",
+        "campo": "TripStartDate / Notes",
+        "justificacion": "Las propias Notes de COLT indican que se trato de un viaje para asistir a la ceremonia de graduacion de su hija en Boston y para someterse a una biopsia medica (mayo de 1997), es decir, un viaje de caracter privado/medico. Por su naturaleza personal, no es esperable cobertura de prensa detallada que permita confirmar las fechas exactas; se mantiene como no verificable."
+      },
+      {
+        "TripID": "448-PER-USA-36303",
+        "campo": "TripStartDate / Notes",
+        "justificacion": "Las propias Notes de COLT indican que se trato de una visita para atender 'asuntos familiares' (family affairs) en mayo de 1999, de caracter privado. Busqueda activa no hallo cobertura de prensa que permita confirmar el proposito especifico o las fechas exactas de este viaje personal."
+      },
+      {
+        "TripID": "448-PER-BOL-36312",
+        "campo": "Notes / evento",
+        "justificacion": "COLT registra un viaje a Bolivia el 1 de junio de 1999 sin indicar reunion con jefe de Estado, evento multilateral ni ningun detalle en las Notes (campo vacio), con Confidence 2/5. Busqueda activa no hallo cobertura de prensa especifica sobre este viaje puntual que permita determinar su proposito o confirmar la fecha."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "448-PER-ARG-34687", "justificacion": "Visita bilateral a Carlos Saul Menem (presidente argentino vigente en su primer mandato, 1989-1995), diciembre de 1994, con ceremonia de inauguracion de planta de tratamiento de agua y marcha contra el narcotrafico, documentada en las propias fuentes FBIS/Newsbank citadas por COLT; sin senales de inconsistencia."},
+      {"TripID": "448-PER-ARG-34988", "justificacion": "Corresponde a la V Cumbre Iberoamericana en San Carlos de Bariloche, Argentina, confirmada por SEGIB para el 16-17 de octubre de 1995, coincidente exactamente con el rango de COLT; ya verificado de forma cruzada en el archivo hermano de Chile (leader_907, mismo TripID numerico 34988)."},
+      {"TripID": "448-PER-BGD-35574", "justificacion": "Visita bilateral a Bangladesh, mayo de 1997, dentro de una gira asiatica multipais (Bangladesh-India-Singapur, mismo cluster de TripID); Sheikh Hasina Wajed era Primera Ministra de Bangladesh vigente desde junio de 1996."},
+      {"TripID": "448-PER-BOL-34588", "justificacion": "Visita bilateral a Bolivia, septiembre de 1994, con ceremonia de integracion Peru-Bolivia-Paraguay mediante corredor de exportacion; Gonzalo Sanchez de Lozada (Bolivia, 1993-1997) y Juan Carlos Wasmosy (Paraguay, 1993-1998) eran los presidentes vigentes correspondientes."},
+      {"TripID": "448-PER-BOL-34966", "justificacion": "Visita bilateral a Bolivia, septiembre de 1995, dedicacion de la carretera Santa Cruz-San Ramon del corredor Transchaco; mismos presidentes vigentes que el viaje anterior (Sanchez de Lozada, Wasmosy), consistente con el patron de cooperacion trilateral de corredores de exportacion iniciado en 1994."},
+      {"TripID": "448-PER-BOL-35210", "justificacion": "Visita bilateral a Bolivia el 25-26 de mayo de 1996 para conmemorar el 187 aniversario de la primera gesta libertaria de America (Chuquisaca, 25 de mayo de 1809): 1996-1809=187, coincidencia exacta de fechas que confirma la precision del registro; Sanchez de Lozada era presidente vigente."},
+      {"TripID": "448-PER-BOL-35524", "justificacion": "Visita bilateral a Bolivia, abril de 1997; Gonzalo Sanchez de Lozada era presidente vigente (su mandato concluyo en agosto de 1997)."},
+      {"TripID": "448-PER-BOL-35938", "justificacion": "Viaje a Bolivia el 23 de mayo de 1998 para asistir en labores de rescate tras un terremoto, consistente con el terremoto de Aiquile-Totora (departamento de Cochabamba, Bolivia) ocurrido el 22 de mayo de 1998, ampliamente documentado; Hugo Banzer Suarez era presidente boliviano vigente desde agosto de 1997."},
+      {"TripID": "448-PER-BRA-34586", "justificacion": "Corresponde a la VIII Cumbre del Grupo de Rio en Rio de Janeiro, Brasil, confirmada segun la Declaracion de Rio de Janeiro (10 de septiembre de 1994) y la lista oficial de sedes del Grupo de Rio, consistente con el rango 9-10/9/1994 de COLT; Itamar Franco era presidente brasileno vigente."},
+      {"TripID": "448-PER-BRA-35120", "justificacion": "Visita bilateral a Brasil, febrero de 1996, con firma de acuerdo de restitucion de bienes culturales sustraidos o exportados ilegalmente; Fernando Henrique Cardoso era presidente vigente."},
+      {"TripID": "448-PER-BRA-35214", "justificacion": "Visita bilateral a Brasil, mayo de 1996, incluyendo el Foro Brasil-Peru segun las propias Notes de COLT; Cardoso era presidente vigente."},
+      {"TripID": "448-PER-BRA-35930", "justificacion": "Visita bilateral a Brasil, mayo de 1998; Cardoso era presidente vigente."},
+      {"TripID": "448-PER-BRA-36020", "justificacion": "Visita bilateral a Brasil, agosto de 1998; Cardoso era presidente vigente."},
+      {"TripID": "448-PER-BRA-36065", "justificacion": "Encuentro con el presidente de Ecuador Jamil Mahuad en Brasil, septiembre de 1998, en el marco del proceso de paz Peru-Ecuador (Brasil era uno de los cuatro paises garantes del proceso); Mahuad era presidente ecuatoriano vigente desde agosto de 1998."},
+      {"TripID": "448-PER-BRA-36075", "justificacion": "Encuentro con Cardoso y con Mahuad en Brasil, octubre de 1998, tres semanas antes de la firma del acuerdo de paz Peru-Ecuador, consistente con las gestiones diplomaticas de cierre del proceso de paz en el pais garante."},
+      {"TripID": "448-PER-BRA-36094", "justificacion": "Corresponde a la firma del Acuerdo de Paz entre Peru y Ecuador en Brasilia el 26 de octubre de 1998, hecho historico ampliamente documentado (Infobae y otras fuentes) que puso fin al conflicto fronterizo; coincide exactamente con la fecha registrada por COLT y con la presencia de Jamil Mahuad como MetNonhostHOGS."},
+      {"TripID": "448-PER-BRA-36497", "justificacion": "Visita a Brasil el 3 de diciembre de 1999 para las celebraciones del 40 aniversario del Banco Interamericano de Desarrollo (BID, fundado en 1959: 1999-1959=40, coincidencia exacta), con encuentro con su presidente Enrique Iglesias y con Cardoso; consistente y bien documentado."},
+      {"TripID": "448-PER-BRA-36768", "justificacion": "Corresponde a la Primera Cumbre de Presidentes de America del Sur en Brasilia, con firma de la Declaracion de Brasilia sobre libre comercio e infraestructura, confirmada por fuente CNN ya citada en COLT para el 31/8-1/9/2000, consistente con el rango 30/8-2/9/2000 de COLT y con el encuentro con Andres Pastrana (Colombia)."},
+      {"TripID": "448-PER-CAN-35461", "justificacion": "Corresponde al encuentro en Toronto, Canada, entre Fujimori, el primer ministro canadiense Jean Chretien y el primer ministro japones Ryutaro Hashimoto a fines de enero de 1997, en el marco de la crisis de rehenes de la embajada japonesa en Lima (dic.1996-abr.1997); prensa de la epoca confirma la reunion Fujimori-Hashimoto en Canada por esas fechas para coordinar la respuesta a la crisis."},
+      {"TripID": "448-PER-CAN-36095", "justificacion": "Visita a Canada, octubre de 1998, con encuentros empresariales y con el jefe de Amnistia Internacional Canada; Jean Chretien era primer ministro vigente."},
+      {"TripID": "448-PER-CHL-35378", "justificacion": "Corresponde a la VI Cumbre Iberoamericana en Vina del Mar, Chile, noviembre de 1996, consistente con el rango 9-11/11/1996 de COLT."},
+      {"TripID": "448-PER-CHL-35902", "justificacion": "Corresponde a la II Cumbre de las Americas en Santiago de Chile, con firma de la Declaracion de Santiago, confirmada para el 18-19 de abril de 1998 (fechas oficiales ampliamente documentadas), consistente con el rango 17-19/4/1998 de COLT (con un dia de llegada previa)."},
+      {"TripID": "448-PER-CHL-36493", "justificacion": "Visita bilateral a Chile, noviembre de 1999, con firma de declaracion conjunta; Eduardo Frei Ruiz-Tagle era presidente chileno vigente (su mandato concluyo en marzo de 2000)."},
+      {"TripID": "448-PER-CHN-34493", "justificacion": "Visita de Estado a China, junio de 1994, con otorgamiento de credito de exportacion y firma de acuerdos; Jiang Zemin era Secretario General del PCCh y Jefe de Estado vigente."},
+      {"TripID": "448-PER-CHN-34956", "justificacion": "Corresponde a la IV Conferencia Mundial de la ONU sobre la Mujer en Beijing, China (4-15 de septiembre de 1995, fechas oficiales ampliamente documentadas), consistente con el rango 14-15/9/1995 de COLT (dias finales de la conferencia)."},
+      {"TripID": "448-PER-COL-34379", "justificacion": "Visita bilateral a Colombia, febrero de 1994, con visita a la estatua de Simon Bolivar y firma de documento binacional; Cesar Gaviria Trujillo era presidente colombiano vigente (su mandato concluyo en agosto de 1994)."},
+      {"TripID": "448-PER-COL-34499", "justificacion": "Corresponde a la IV Cumbre Iberoamericana en Cartagena de Indias, Colombia, junio de 1994, consistente con el rango 14-15/6/1994 de COLT y con el encuentro con los presidentes de Ecuador (Sixto Duran-Ballen) y Bolivia (Sanchez de Lozada), tambien asistentes a la cumbre; ya verificado de forma cruzada en el archivo hermano de Chile (leader_907, TripID 907-CHL-COL-34498)."},
+      {"TripID": "448-PER-COL-34553", "justificacion": "Corresponde a la toma de posesion de Ernesto Samper Pizano como presidente de Colombia, ampliamente documentada para el 7 de agosto de 1994, coincidente exactamente con el TripStartDate de COLT (7-8/8/1994), pese a que las propias Notes de COLT no lo describen explicitamente como tal."},
+      {"TripID": "448-PER-COL-36306", "justificacion": "Corresponde al XI Consejo Presidencial Andino en Cartagena de Indias, Colombia, confirmado para el 27 de mayo de 1999 (en el marco de una semana de actividades andinas del 23 al 27 de mayo), consistente con el rango 26-27/5/1999 de COLT."},
+      {"TripID": "448-PER-COL-36693", "justificacion": "Corresponde a la Cumbre del Grupo de Rio en Cartagena de Indias, Colombia, junio de 2000, consistente con la lista oficial de sedes del Grupo de Rio (Cartagena de Indias, 2000) y con el rango 16-17/6/2000 de COLT."},
+      {"TripID": "448-PER-CUB-35492", "justificacion": "Corresponde al viaje relampago de Fujimori a La Habana el 3 de marzo de 1997, confirmado por prensa de la epoca (Diario Expreso, El Tiempo de Colombia): el avion de Fujimori aterrizo en Cuba a las 10:30 am de ese dia, recibido por Fidel Castro, para negociar una 'solucion cubana' -el asilo de los secuestradores del MRTA- a la crisis de rehenes de la embajada japonesa; ambos mandatarios firmaron un documento confirmando que Cuba aceptaba recibir a los miembros del MRTA. Coincide exactamente con la fecha registrada por COLT.", "fuente_adicional": "https://www.expreso.com.pe/informe/alberto-fujimori-y-fidel-castro-se-reunen-en-la-habana/546448/ ; https://www.eltiempo.com/archivo/documento/MAM-560538"},
+      {"TripID": "448-PER-DNK-34770", "justificacion": "Corresponde a la Cumbre Mundial de Desarrollo Social de la ONU en Copenhague, Dinamarca, confirmada para el 6-12 de marzo de 1995 (fechas oficiales ampliamente documentadas), coincidente con el cierre de la cumbre el 12/3/1995 tal como registra COLT; Kim Young-sam era presidente surcoreano vigente."},
+      {"TripID": "448-PER-DOM-35491", "justificacion": "Visita bilateral a Republica Dominicana, marzo de 1997; Leonel Fernandez era presidente vigente (asumio en agosto de 1996)."},
+      {"TripID": "448-PER-ECU-34947", "justificacion": "Corresponde al VII Consejo Presidencial Andino en Quito, Ecuador, confirmado para septiembre de 1995, consistente con el rango 5/9/1995 de COLT y con el anfitrion Sixto Duran-Ballen, presidente ecuatoriano vigente; este mismo encuentro de Quito coincidio en fecha con la IX Cumbre del Grupo de Rio (4-5/9/1995), erroneamente registrada por COLT como ocurrida en Brasil (ver correccion de 448-PER-BRA-34946)."},
+      {"TripID": "448-PER-ECU-35888", "justificacion": "Corresponde a la cumbre andina de abril de 1998 en la que los presidentes de Bolivia, Colombia, Ecuador, Peru y Venezuela suscribieron el Acta de Guayaquil sobre mercado comun andino; Fabian Alarcon era presidente ecuatoriano vigente y anfitrion de la cumbre, consistente con el rango 3/4/1998 de COLT (COLT no especifica ciudad, por lo que no hay conflicto con que la sede haya sido Guayaquil)."},
+      {"TripID": "448-PER-ECU-36459", "justificacion": "Visita bilateral a Ecuador, octubre de 1999, con acuerdo antidrogas y agenda economica, un año despues del acuerdo de paz; Jamil Mahuad era presidente vigente (su mandato concluyo en enero de 2000)."},
+      {"TripID": "448-PER-DEU-35346", "justificacion": "Visita bilateral a Alemania, octubre de 1996, con encuentros empresariales y participacion en festividades del 'Dia de Iberoamerica'; Helmut Kohl era canciller aleman vigente (su mandato concluyo en 1998); sin senales de inconsistencia en el resto del registro."},
+      {"TripID": "448-PER-HUN-36051", "justificacion": "Visita bilateral a Hungria, septiembre de 1998, con firma de acuerdos de cooperacion; Viktor Orban era primer ministro hungaro vigente (asumio en julio de 1998)."},
+      {"TripID": "448-PER-IND-35575", "justificacion": "Visita bilateral a India, mayo de 1997, con firma de seis acuerdos de cooperacion; Inder Kumar Gujral era primer ministro indio vigente (abril 1997-marzo 1998)."},
+      {"TripID": "448-PER-ITA-35625", "justificacion": "Visita bilateral a Italia, julio de 1997, con encuentro tanto con el primer ministro Romano Prodi como con el presidente Oscar Luigi Scalfaro, ambos vigentes simultaneamente en el sistema semi-presidencial italiano de la epoca."},
+      {"TripID": "448-PER-JPN-34490", "justificacion": "Visita de Estado a Japon, junio de 1994, con encuentro con el Emperador Akihito y doctorado honorario de la Universidad Keio; Tsutomu Hata era primer ministro japones vigente durante su breve mandato de abril a junio de 1994, ventana que coincide exactamente con las fechas del viaje (5-8/6/1994)."},
+      {"TripID": "448-PER-JPN-34957", "justificacion": "Visita no oficial a Japon, septiembre de 1995, sin reunion con jefe de Estado ni evento multilateral segun las propias Notes de COLT; sin senales de inconsistencia."},
+      {"TripID": "448-PER-JPN-35382", "justificacion": "Visita bilateral a Japon, noviembre de 1996, con doctorado honorario de la Universidad de Agricultura de Tokio; Ryutaro Hashimoto era primer ministro japones vigente (1996-1998)."},
+      {"TripID": "448-PER-JPN-35613", "justificacion": "Visita bilateral a Japon, julio de 1997, con visita a instalaciones de biotecnologia y conferencia en la Universidad Hokkaigakuen; Hashimoto era primer ministro vigente."},
+      {"TripID": "448-PER-JPN-35974", "justificacion": "Visita a Japon, junio-julio de 1998, con visita a la prision de Fuchu, encuentro con el Emperador Akihito y participacion en un Simposio sobre America Latina y el Caribe; Hashimoto era primer ministro vigente hasta su renuncia en julio de 1998, coincidente con el cierre de este viaje."},
+      {"TripID": "448-PER-JPN-36110", "justificacion": "Visita no oficial a Japon, noviembre de 1998, sin reunion con jefe de Estado segun COLT, consistente con el caracter no oficial declarado; Keizo Obuchi era primer ministro japones vigente desde julio de 1998."},
+      {"TripID": "448-PER-JPN-36298", "justificacion": "Visita a Japon, mayo de 1999, con encuentro con el Emperador Akihito y participacion en eventos por el centenario de la emigracion japonesa al Peru: los primeros inmigrantes japoneses llegaron al Peru en 1899, por lo que 1999 corresponde exactamente al centenario, coincidencia que confirma la precision del registro; Keizo Obuchi era primer ministro vigente."},
+      {"TripID": "448-PER-MYS-35389", "justificacion": "Visita bilateral a Malasia, noviembre de 1996, con doctorado honorario de la Universidad de Agricultura de Malasia; Mahathir bin Mohamad era primer ministro malasio vigente."},
+      {"TripID": "448-PER-MYS-35737", "justificacion": "Corresponde a la Septima Cumbre del G-15 en la region de Kuala Lumpur/Malaca, Malasia, confirmada para inicios de noviembre de 1997 (fotografia de agencia AP de lideres del G-15 en Malaca fechada 4/11/1997), consistente con el rango 3-5/11/1997 de COLT y con la visita a sitios historicos de Malaca mencionada en las Notes."},
+      {"TripID": "448-PER-MYS-36115", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Kuala Lumpur, Malasia, confirmada para el 17-18 de noviembre de 1998 -la primera cumbre de APEC de Peru como miembro pleno, ingresado en 1998-, consistente con el rango 16-18/11/1998 de COLT y con el encuentro con el primer ministro japones Keizo Obuchi."},
+      {"TripID": "448-PER-MEX-34668", "justificacion": "Corresponde a la toma de posesion de Ernesto Zedillo como presidente de Mexico el 1 de diciembre de 1994 (fecha ampliamente documentada), consistente con el rango 30/11-1/12/1994 de COLT."},
+      {"TripID": "448-PER-MEX-35149", "justificacion": "Visita bilateral a Mexico, marzo de 1996, con negociacion de tratado de libre comercio bilateral; Ernesto Zedillo era presidente vigente."},
+      {"TripID": "448-PER-NZL-35957", "justificacion": "Visita bilateral a Nueva Zelanda, junio de 1998, con visita a plantas lacteas y doctorado honorario de la Universidad de Lincoln; Jenny Shipley era primera ministra neozelandesa vigente (asumio en diciembre de 1997)."},
+      {"TripID": "448-PER-NZL-36413", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Auckland, Nueva Zelanda, confirmada para el 11-13 de septiembre de 1999, consistente con el rango 10-13/9/1999 de COLT y con el encuentro con Joseph Estrada, presidente filipino vigente; ya verificado de forma cruzada en el archivo hermano de Chile (leader_907, mismo evento)."},
+      {"TripID": "448-PER-PAN-35129", "justificacion": "Visita bilateral a Panama, marzo de 1996, con visita a la Camara de Comercio, Industria y Agricultura panameña y firma de acuerdo; Ernesto Perez Balladares era presidente vigente (1994-1999)."},
+      {"TripID": "448-PER-PAN-36042", "justificacion": "Corresponde a la Cumbre del Grupo de Rio en Ciudad de Panama, confirmada por la lista oficial de sedes del Grupo de Rio para 1998, consistente con la fecha puntual 4/9/1998 de COLT y con el encuentro con Jamil Mahuad; ya verificado de forma cruzada en el archivo hermano de Chile (leader_907, TripID 907-CHL-PAN-36041)."},
+      {"TripID": "448-PER-PRY-36022", "justificacion": "Corresponde a la toma de posesion de Raul Cubas Grau como presidente de Paraguay el 15 de agosto de 1998, ya verificada de forma cruzada en el archivo hermano de Chile (leader_907, mismo TripID numerico 36022), evento al que tambien asistio el presidente de Ecuador Jamil Mahuad, consistente con el registro de COLT para Fujimori."},
+      {"TripID": "448-PER-PHL-35383", "justificacion": "Visita bilateral a Filipinas, noviembre de 1996, con firma de acuerdos bilaterales y acuerdo con MATRADE; Fidel Ramos era presidente filipino vigente (1992-1998)."},
+      {"TripID": "448-PER-POL-36048", "justificacion": "Visita bilateral a Polonia, septiembre de 1998, con visita a Auschwitz, Cracovia y Wieliczka y participacion en foro economico polaco-peruano; Aleksander Kwasniewski era presidente polaco vigente."},
+      {"TripID": "448-PER-ROU-36047", "justificacion": "Visita bilateral a Rumania, septiembre de 1998, con conferencia empresarial y firma de acuerdos de cooperacion; Emil Constantinescu era presidente rumano vigente (1996-2000)."},
+      {"TripID": "448-PER-SGP-35574", "justificacion": "Escala en Singapur el 24 de mayo de 1997, dentro de la misma gira asiatica que incluyo Bangladesh e India (mismo cluster numerico de TripID 35574/35575); consistente con un itinerario de gira multipais sin necesidad de verificacion adicional al no involucrar reunion con jefe de Estado ni evento multilateral segun COLT."},
+      {"TripID": "448-PER-KOR-35977", "justificacion": "Escala en Corea del Sur el 1 de julio de 1998, con encuentro con el Canciller Pak Chong-su, dentro de la misma gira asiatica que incluyo Japon y Vietnam (mismo cluster numerico de TripID 35974/35977); Kim Dae-jung era presidente surcoreano vigente desde febrero de 1998."},
+      {"TripID": "448-PER-CHE-35095", "justificacion": "Corresponde a la participacion de Fujimori en el Foro Economico Mundial de Davos, Suiza, en enero-febrero de 1996, confirmada por fuentes que documentan su presentacion de las metas de crecimiento economico del Peru en dicho foro, consistente con el rango 31/1-3/2/1996 de COLT."},
+      {"TripID": "448-PER-THA-35386", "justificacion": "Visita bilateral a Tailandia, noviembre de 1996, con firma de siete acuerdos bilaterales; Banharn Silpa-archa era primer ministro tailandes vigente hasta el 25 de noviembre de 1996 (fin de su mandato por mocion de censura), ventana que coincide con el rango 17-20/11/1996 del viaje."},
+      {"TripID": "448-PER-GBR-35469", "justificacion": "Visita bilateral al Reino Unido, febrero de 1997, con conferencia para exportadores britanicos y encuentro con los presidentes de Brasil (Cardoso) y Panama (Perez Balladares); John Major era primer ministro britanico vigente (su mandato concluyo en mayo de 1997)."},
+      {"TripID": "448-PER-GBR-35983", "justificacion": "Visita bilateral al Reino Unido, julio de 1998, con encuentro con la Reina Isabel II en el Palacio de Buckingham y con la Confederacion de la Industria Britanica; Tony Blair era primer ministro vigente desde mayo de 1997."},
+      {"TripID": "448-PER-USA-34677", "justificacion": "Corresponde a la I Cumbre de las Americas, Miami, confirmada para el 9-11 de diciembre de 1994 (fechas oficiales ampliamente documentadas), coincidente exactamente con el rango de COLT y con el encuentro con el Secretario General de la OEA Cesar Gaviria y el presidente del BID Enrique Iglesias."},
+      {"TripID": "448-PER-USA-35205", "justificacion": "Visita a Estados Unidos, mayo de 1996, con encuentro con Bill Clinton y participacion en la Asamblea General Internacional del Pacific Basin Economic Council; Clinton era presidente vigente."},
+      {"TripID": "448-PER-USA-35462", "justificacion": "Visita a Estados Unidos, febrero de 1997, con encuentro con Bill Clinton y con la Secretaria de Estado Madeleine Albright, quien asumio el cargo el mismo mes (enero de 1997), consistente con la novedad de su nombramiento en las fechas del viaje."},
+      {"TripID": "448-PER-USA-35952", "justificacion": "Corresponde a la Sesion Especial de la Asamblea General de la ONU sobre Drogas (UNGASS), confirmada para el 8-10 de junio de 1998 en Nueva York, consistente en lo sustancial con el rango 6-9/6/1998 de COLT; Fabian Alarcon era aun presidente ecuatoriano vigente en esa fecha (hasta agosto de 1998)."},
+      {"TripID": "448-PER-USA-36077", "justificacion": "Visita a Estados Unidos, octubre de 1998, con encuentro con Bill Clinton y con Jamil Mahuad; ambos jefes de Estado vigentes en esa fecha."},
+      {"TripID": "448-PER-USA-36195", "justificacion": "Visita a Estados Unidos, febrero de 1999, con reunion sobre proyectos de cooperacion fronteriza junto a Clinton y Mahuad, y encuentro con representantes del FMI y el BID, consistente con la agenda de desarrollo fronterizo post-acuerdo de paz Peru-Ecuador."},
+      {"TripID": "448-PER-USA-36424", "justificacion": "Corresponde a un discurso ante la Asamblea General de la ONU sobre narcotrafico, septiembre de 1999, consistente con la apertura del 54 periodo de sesiones de la Asamblea General a mediados de septiembre de ese año."},
+      {"TripID": "448-PER-USA-36775", "justificacion": "Corresponde a la Cumbre del Milenio de la ONU, confirmada para el 6-8 de septiembre de 2000 en Nueva York (fechas oficiales ampliamente documentadas), coincidente exactamente con el rango de COLT y con el encuentro con Fidel Castro, tambien presente en dicha cumbre."},
+      {"TripID": "448-PER-USA-36797", "justificacion": "Visita a Estados Unidos, septiembre-octubre de 2000, con reunion en el BID y encuentro con el Secretario General de la OEA Cesar Gaviria, quien ocupaba dicho cargo desde 1994."},
+      {"TripID": "448-PER-URY-34759", "justificacion": "Corresponde a la toma de posesion de Julio Maria Sanguinetti como presidente de Uruguay el 1 de marzo de 1995, evento ya verificado de forma cruzada en los archivos hermanos de Chile y Brasil (leader_907 y leader_994), consistente con la fecha puntual de COLT y con la presencia de Fernando Henrique Cardoso como MetNonhostHOGS."},
+      {"TripID": "448-PER-VEN-34731", "justificacion": "Viaje a Venezuela el 1-2 de febrero de 1995 para una 'Community of Andean Nations Summit' con encuentro con el presidente ecuatoriano Sixto Duran-Ballen. La fecha coincide con el periodo de la Guerra del Cenepa (conflicto fronterizo Peru-Ecuador de enero-febrero de 1995), lo que hace verosimil una reunion extraordinaria de paises andinos -incluyendo a Ecuador- en ese momento de crisis; Rafael Caldera era presidente venezolano vigente. No se hallo fuente adicional que detalle esta reunion puntual mas alla del contexto historico general, pero no hay senales de inconsistencia."},
+      {"TripID": "448-PER-VEN-34766", "justificacion": "Visita bilateral a Venezuela, marzo de 1995, con ofrenda floral en la estatua del Mariscal Antonio Jose de Sucre; Rafael Caldera era presidente vigente."},
+      {"TripID": "448-PER-VEN-35074", "justificacion": "Visita bilateral a Venezuela, enero de 1996, con doctorado honorario de la Universidad de Carabobo y firma de acuerdo de proteccion de inversiones; Rafael Caldera era presidente vigente."},
+      {"TripID": "448-PER-VNM-35977", "justificacion": "Visita bilateral a Vietnam, julio de 1998, con firma de acuerdos de cooperacion agricola, marina y cientifico-tecnologica, dentro de la misma gira asiatica que incluyo Japon y Corea del Sur (mismo cluster numerico de TripID 35974/35977); Tran Duc Luong era Presidente de Vietnam vigente (1997-2006)."}
+    ]
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "LeaderID": "994",
+    "correcciones": [
+      {
+        "TripID": "994-BRA-ARG-34885",
+        "campo": "TripStartDate",
+        "valor_correcto": "1995-07-08",
+        "fuente": "https://www2.hcdn.gob.ar/export/hcdn/secparl/dgral_info_parlamentaria/dip/archivos/1995-07-08_Mensaje_Presidencial_Menem_Asuncixn.pdf",
+        "justificacion": "La reforma constitucional argentina de 1994 fijo el inicio del mandato presidencial reelecto de Carlos Menem para el 8 de julio de 1995 (no el 5), fecha confirmada por el propio Mensaje Presidencial de asuncion de Menem ante el Congreso (archivo oficial de la Camara de Diputados de la Nacion, con fecha 8-7-1995 en el nombre del archivo) y corroborada por multiples fuentes secundarias (Casa Rosada, es.wikipedia 'Presidencia de Carlos Menem'). COLT registra la fecha del viaje como 1995-07-05, con Notes 'Inauguration of President Carlos Menem', lo cual es inconsistente con la fecha real de la ceremonia."
+      },
+      {
+        "TripID": "994-BRA-ARG-34885",
+        "campo": "TripEndDate",
+        "valor_correcto": "1995-07-08",
+        "fuente": "https://www2.hcdn.gob.ar/export/hcdn/secparl/dgral_info_parlamentaria/dip/archivos/1995-07-08_Mensaje_Presidencial_Menem_Asuncixn.pdf",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: al no hallarse evidencia de una estadia de mas de un dia para este viaje puntual (asistencia a una ceremonia de asuncion), se mantiene como viaje de un solo dia pero desplazado al 8/7/1995."
+      },
+      {
+        "TripID": "994-BRA-PER-34907",
+        "campo": "TripStartDate",
+        "valor_correcto": "1995-07-28",
+        "fuente": "Search Query: \"Alberto Fujimori\" \"28 de julio de 1995\" segunda toma de posesion cinco presidentes latinoamericanos (resultados coincidentes de Infobae y LUM/CDI Peru)",
+        "justificacion": "La segunda toma de posesion de Alberto Fujimori se realizo el 28 de julio de 1995 (coincidiendo con su 52 cumpleanos), en el Palacio Legislativo, con asistencia de cinco presidentes latinoamericanos, segun multiples fuentes (Infobae, LUM/Centro de Documentacion e Investigacion de Peru). COLT registra el viaje como 1995-07-27, un dia antes de la ceremonia real, con Notes 'Attended inauguration of President Alberto Fujimori'."
+      },
+      {
+        "TripID": "994-BRA-PER-34907",
+        "campo": "TripEndDate",
+        "valor_correcto": "1995-07-28",
+        "fuente": "Search Query: \"Alberto Fujimori\" \"28 de julio de 1995\" segunda toma de posesion cinco presidentes latinoamericanos",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: se mantiene como viaje de un solo dia (duracion 1), desplazado al 28/7/1995, dia efectivo de la ceremonia."
+      },
+      {
+        "TripID": "994-BRA-BEL-34968",
+        "campo": "TripStartDate",
+        "valor_correcto": "1995-09-14",
+        "fuente": "https://www.funag.gov.br/chdd/images/Resenhas/Novas/Resenha_N77_2Sem_1995.pdf (Resenha de Politica Exterior do Brasil, a.22, n.77, 2o semestre 1995, Ministerio das Relacoes Exteriores/FUNAG)",
+        "justificacion": "La Resenha de Politica Exterior do Brasil (fuente oficial primaria del Itamaraty/FUNAG, que compila integramente los discursos presidenciales en orden cronologico) registra tres discursos del propio Fernando Henrique Cardoso en Bruselas el 14 de setembro de 1995: almoco ofrecido pelo Presidente da Comissao da Uniao Europeia Jacques Santer; mesa-redonda com membros do Parlamento Europeu; e jantar oferecido pelo Primeiro-Ministro da Belgica Jean-Luc Dehaene. COLT registra la visita a Belgica como 1995-09-26 (posterior, incluso, a la visita a Bolivia del 23/9), lo cual contradice frontalmente el orden cronologico real: Belgica (14-16/9) antecedio a Alemania (19-21/9) y Bolivia (23/9), no al reves."
+      },
+      {
+        "TripID": "994-BRA-BEL-34968",
+        "campo": "TripEndDate",
+        "valor_correcto": "1995-09-16",
+        "fuente": "https://www.funag.gov.br/chdd/images/Resenhas/Novas/Resenha_N77_2Sem_1995.pdf",
+        "justificacion": "La misma Resenha registra una conferencia de Cardoso en el 'College D'Europe' de Brujas (Belgica) el 16 de setembro de 1995, ultimo evento documentado de este tramo del viaje antes de continuar hacia Alemania (Berlim/Bonn, 20-21/9)."
+      },
+      {
+        "TripID": "994-BRA-BEL-34968",
+        "campo": "TripDuration",
+        "valor_correcto": "3",
+        "fuente": "https://www.funag.gov.br/chdd/images/Resenhas/Novas/Resenha_N77_2Sem_1995.pdf",
+        "justificacion": "Consecuencia directa de las correcciones anteriores: con TripStartDate 1995-09-14 y TripEndDate 1995-09-16, la duracion pasa de 1 a 3 dias."
+      },
+      {
+        "TripID": "994-BRA-CHL-35703",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "NA",
+        "fuente": "https://en.wikipedia.org/wiki/APEC_Canada_1997 ; https://www.everycrsreport.com/reports/97-969E.html",
+        "justificacion": "Brasil nunca ha sido miembro de APEC (Asia-Pacific Economic Cooperation), por lo que Cardoso no pudo haber 'asistido' a una Cumbre APEC en calidad de miembro o participante pleno. Ademas, la Cumbre de Lideres de APEC de 1997 se realizo en Vancouver, Canada, el 24-25 de noviembre de 1997 (no en Chile, y no entre el 30/9 y el 2/10), segun multiples fuentes (EveryCRSReport, Wikipedia 'APEC Canada 1997', archivos de la Casa Blanca de Clinton). Busquedas activas (portugues, espanol, ingles) sobre una visita de Cardoso a Chile en esas fechas no permitieron identificar el evento real que motivo este viaje; se corrige unicamente el campo claramente erroneo (nombre del evento multilateral), dejando CountryVisited, fechas y demas campos sin modificar por falta de fuente que los contradiga o confirme especificamente."
+      },
+      {
+        "TripID": "994-BRA-COL-35740",
+        "campo": "TripStartDate",
+        "valor_correcto": "1997-11-07",
+        "fuente": "http://kitplone.itamaraty.gov.br/sala-de-imprensa/notas-a-imprensa/1997/10/27/viagem-do-presidente-fernando-henrique-cardoso-vii/print-notal (Nota a imprensa do Ministerio das Relacoes Exteriores, 27/10/1997, citada en Wikipedia 'Lista de viagens presidenciais de Fernando Henrique Cardoso')",
+        "justificacion": "La nota oficial de prensa del Itamaraty que anuncia este viaje lleva el titulo explicito: 'Viagem do Presidente Fernando Henrique Cardoso - VII Cupula Ibero-americana de Chefes de Estado e de Governo (Ilha de Margarita, Venezuela) e visita a Colombia - 7 a 9 de novembro de 1997', delimitando el tramo completo (Colombia + Venezuela) entre el 7 y el 9 de noviembre. COLT separa a Colombia como visita de un solo dia el 6/11 (un dia antes del rango oficial), mientras que Venezuela queda correctamente en 7-9/11 (994-BRA-VEN-35741)."
+      },
+      {
+        "TripID": "994-BRA-COL-35740",
+        "campo": "TripEndDate",
+        "valor_correcto": "1997-11-07",
+        "fuente": "http://kitplone.itamaraty.gov.br/sala-de-imprensa/notas-a-imprensa/1997/10/27/viagem-do-presidente-fernando-henrique-cardoso-vii/print-notal",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: se mantiene como visita de un solo dia (duracion 1), desplazada al 7/11/1997, coherente con el inicio del tramo venezolano (Ibero-americana) que arranca el mismo dia segun la nota oficial."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "994-BRA-BOL-34965",
+        "campo": "NameMultilatEvent",
+        "justificacion": "COLT marco este item con Confidence 4/5 (la mas baja de todo el dataset de FHC mandato 1), muy por debajo del resto (mayoria Confidence 1). Busqueda activa en portugues, espanol e ingles ('Cardoso Wasmosy Bolivia Paraguay Peru trilateral gasoducto septiembre 1995', variantes con Fujimori y Santa Cruz) no hallo cobertura de prensa ni documentos oficiales que confirmen o contradigan la 'Bolivia-Paraguay-Peru Trilateral Meeting' del 23/9/1995 ni la discusion sobre el proyecto de gasoducto mencionada en las Notes de COLT. Cronologicamente el viaje es plausible (encaja bien despues del tramo europeo de Belgica-Alemania, 14-21/9/1995), pero no se encontro fuente independiente que verifique el evento en si."
+      },
+      {
+        "TripID": "994-BRA-GBR-35469",
+        "campo": "HostHOGSName",
+        "justificacion": "COLT marco este item con Confidence 2/5. Busqueda activa confirmo que Cardoso realizo una visita a Londres en febrero de 1997 (con agenda academica: anuncio de doctorado honoris causa de la London School of Economics, almuerzo con Margaret Thatcher) y que John Major era efectivamente Primer Ministro hasta el 2/5/1997, por lo que un encuentro con Major es cronologicamente plausible. Sin embargo, una fuente (archivo digitalizado del Senado Federal brasileno sobre esta gira) sugiere que un encuentro con Tony Blair (entonces lider de la oposicion laborista) fue considerado pero no se concreto por agenda muy ajustada, lo cual no aporta evidencia positiva sobre un encuentro especifico con Major. No se hallo cobertura de prensa que confirme de forma independiente una reunion bilateral formal con Major en esas fechas exactas (8-10/2/1997)."
+      },
+      {
+        "TripID": "994-BRA-CHE-35823",
+        "campo": "NameMultilatEvent",
+        "justificacion": "COLT marco este item con Confidence 2/5. Busqueda activa confirmo de forma general que Cardoso asistio al Foro Economico Mundial (WEF) de Davos de enero de 1998 (patron consistente con la asistencia anual de jefes de estado a Davos a fines de enero), pero no hallo fuente que confirme especificamente la 'Argentina-Brazil-Chile Trilateral Meeting' mencionada tanto en el campo NameMultilatEvent como en las Notes originales de COLT. No se encontro evidencia que contradiga el dato, solo ausencia de confirmacion independiente."
+      },
+      {
+        "TripID": "994-BRA-ARG-35162",
+        "campo": "NameMultilatEvent",
+        "justificacion": "Busqueda activa sobre el calendario oficial de cumbres presidenciales de Mercosur de 1996 no hallo evidencia de una cumbre presidencial formal en Argentina en abril de 1996; las cumbres documentadas de ese ano son la X Cumbre en Potrero de los Funes, San Luis, Argentina (25/6/1996, ya capturada en 994-BRA-ARG-35241, con ingreso de Chile como estado asociado) y la XI Cumbre en Fortaleza, Brasil (17/12/1996, con ingreso de Bolivia). Es posible que el viaje del 7-10/4/1996 haya sido una visita bilateral a Menem mal clasificada por COLT como 'Common Market of the South (MERCOSUR) Summit', pero no se hallo fuente que lo confirme o lo corrija con un valor alternativo preciso."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "994-BRA-ARG-34747",
+        "justificacion": "Visita bilateral a Menem, febrero 1995, cronologicamente consistente con el inicio del mandato de FHC (1/1/1995) y el mandato de Menem (vigente hasta 8/7/1995)."
+      },
+      {
+        "TripID": "994-BRA-URY-34759",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 1/3/1995 ('Sanguinetti ataca planos Real e Cavallo'), coincidente con la fecha de asuncion de Julio Maria Sanguinetti como presidente de Uruguay el 1/3/1995."
+      },
+      {
+        "TripID": "994-BRA-CHL-34764",
+        "justificacion": "Visita bilateral a Eduardo Frei Ruiz-Tagle, marzo 1995, sin senales de inconsistencia; Frei era presidente vigente de Chile en esa fecha."
+      },
+      {
+        "TripID": "994-BRA-USA-34808",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 17/4/1995 ('FHC enfrenta novo atrito na visita aos EUA'), coincidente con el rango 19-22/4/1995 y con Bill Clinton como presidente de EEUU vigente."
+      },
+      {
+        "TripID": "994-BRA-GBR-34824",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 7/5/1995 ('Major ve afinidade com a politica de FHC'), coincidente con el rango 5-8/5/1995 y con John Major como Primer Ministro britanico vigente."
+      },
+      {
+        "TripID": "994-BRA-VEN-34884",
+        "justificacion": "Coincide con el Dia Nacional de Venezuela (5 de julio) y con Rafael Caldera como presidente vigente; patron consistente con visitas de jefes de estado a conmemoraciones nacionales."
+      },
+      {
+        "TripID": "994-BRA-PRT-34898",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 18/7/1995 ('Temas economicos dominam visita de FHC a Portugal'), coincidente con el inicio del rango 18-22/7/1995."
+      },
+      {
+        "TripID": "994-BRA-PRY-34916",
+        "justificacion": "Cumbre de Mercosur en Asuncion, agosto 1995 (VIII Cumbre), respaldada por referencia cruzada a decisiones del Consejo del Mercado Comun citadas en fuentes oficiales de Mercosur."
+      },
+      {
+        "TripID": "994-BRA-DEU-34961",
+        "justificacion": "Confirmado por fuente primaria oficial (Resenha de Politica Exterior do Brasil / Biblioteca da Presidencia): discursos de Cardoso en Berlim y Bonn (incl. jantar con Roman Herzog) fechados 20-21/9/1995, consistentes con el rango 19-21/9/1995 de COLT."
+      },
+      {
+        "TripID": "994-BRA-ARG-34988",
+        "justificacion": "V Cumbre Iberoamericana en San Carlos de Bariloche, 16-17/10/1995, confirmada por SEGIB y EU-LAC Foundation (fecha ya verificada de forma cruzada en el archivo hermano de Bolivia, leader_840, para el mismo evento)."
+      },
+      {
+        "TripID": "994-BRA-USA-34995",
+        "justificacion": "Confirmado por articulos de Folha de S.Paulo del 20/10/1995 y 22/10/1995 sobre el viaje a la sesion conmemorativa especial del 50 aniversario de la ONU en Nueva York (22-24/10/1995), consistente con el rango 23-25/10/1995 de COLT."
+      },
+      {
+        "TripID": "994-BRA-ARG-35009",
+        "justificacion": "Coincide temporalmente con la sesion especial conmemorativa de la ONU (semana previa) y con el patron de cumbres regionales de fin de 1995 en Argentina; sin evidencia que lo contradiga."
+      },
+      {
+        "TripID": "994-BRA-URY-35039",
+        "justificacion": "Cumbre de Mercosur en Uruguay, diciembre 1995 (IX Cumbre); busqueda no hallo fuente que contradiga la fecha especifica del 6/12/1995 registrada por COLT."
+      },
+      {
+        "TripID": "994-BRA-DEU-35045",
+        "justificacion": "Confirmado por articulos de Folha de S.Paulo del 12/12/1995 y 13/12/1995 ('FHC visita presidente alemao'), coincidente con el 12/12/1995 y con Roman Herzog como presidente aleman vigente."
+      },
+      {
+        "TripID": "994-BRA-CHN-35045",
+        "justificacion": "Continuacion logica del mismo tramo de viaje (12-16/12/1995), con Jiang Zemin como Secretario General del PCCh vigente; el articulo de Folha del 11/12/1995 confirma que esta gira (Alemania-China-Malasia-Espana-EAU) fue la mas larga de FHC hasta ese momento (12 dias)."
+      },
+      {
+        "TripID": "994-BRA-MYS-35050",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 19/12/1995 ('Malasia oferece parceira comercial a FHC'), coincidente con el rango 17-19/12/1995 y con Mahathir bin Mohamad como Primer Ministro vigente."
+      },
+      {
+        "TripID": "994-BRA-ESP-35052",
+        "justificacion": "Escala dentro de la misma gira de diciembre 1995 (confirmada como gira de 12 dias por Folha del 11/12/1995); Felipe Gonzalez era presidente del Gobierno espanol vigente."
+      },
+      {
+        "TripID": "994-BRA-ARE-35053",
+        "justificacion": "Escala tecnica ('Layover' segun Notes de COLT) dentro de la misma gira de diciembre 1995; no requiere verificacion de jefe de estado por tratarse de transito."
+      },
+      {
+        "TripID": "994-BRA-ESP-35087",
+        "justificacion": "Escala en Espana camino a India, enero 1996; consistente con el patron de vuelos Brasil-Asia via Europa de la epoca."
+      },
+      {
+        "TripID": "994-BRA-IND-35088",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 22/1/1996 ('FHC discute na India cooperacao nuclear'), consistente con el rango 24-27/1/1996 y con P.V. Narasimha Rao como Primer Ministro vigente (aunque en transicion electoral)."
+      },
+      {
+        "TripID": "994-BRA-MEX-35113",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 17/2/1996 ('FHC visita o Mexico e da aula sobre a nova ordem internacional'), coincidente con el inicio del rango 18-20/2/1996 y con Ernesto Zedillo como presidente vigente."
+      },
+      {
+        "TripID": "994-BRA-USA-35133",
+        "justificacion": "Confirmado indirectamente por articulo de Folha de S.Paulo del 8/3/1996 ('FHC inicia amanha viagem ao Japao'), que situa la salida de Brasil el 9/3/1996 con escala en San Francisco camino a Japon, consistente con el tramo USA (9-10/3/1996) de COLT."
+      },
+      {
+        "TripID": "994-BRA-JPN-35136",
+        "justificacion": "Continuacion del mismo viaje confirmado por Folha del 8/3/1996; Ryutaro Hashimoto era Primer Ministro japones vigente."
+      },
+      {
+        "TripID": "994-BRA-FRA-35212",
+        "justificacion": "Visita bilateral a Jacques Chirac, mayo 1996, sin senales de inconsistencia; Chirac era presidente frances vigente."
+      },
+      {
+        "TripID": "994-BRA-CHE-35215",
+        "justificacion": "Escala en Suiza inmediatamente posterior a la visita a Francia (patron de gira europea combinada), con proposito especifico (lobby ante el COI) que no requiere confirmacion de jefe de estado anfitrion (MetHostHoGS=No)."
+      },
+      {
+        "TripID": "994-BRA-ARG-35241",
+        "justificacion": "Confirmado como X Cumbre de Mercosur, Potrero de los Funes, San Luis, Argentina, 25/6/1996, cumbre en la que Chile firmo su Acuerdo de Complementacion Economica como estado asociado (fuente: multiples referencias sobre la ACE 35 Mercosur-Chile)."
+      },
+      {
+        "TripID": "994-BRA-PRY-35242",
+        "justificacion": "Visita puntual a Paraguay inmediatamente posterior a la Cumbre de San Luis, con motivo protocolar (condecoracion); no presenta inconsistencias."
+      },
+      {
+        "TripID": "994-BRA-PRT-35262",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 18/7/1996 ('FHC vive dia de brasileiro caipira na viagem a Lisboa') y por el hecho de que la Cumbre fundacional de la Comunidad de Paises de Lengua Portuguesa (CPLP) se realizo en Lisboa el 17/7/1996, coincidente con el rango 16-18/7/1996 de COLT."
+      },
+      {
+        "TripID": "994-BRA-CHL-35378",
+        "justificacion": "VI Cumbre Iberoamericana, Santiago y Vina del Mar, Chile, confirmada oficialmente por SEGIB para el 10-11/11/1996 (verificado de forma cruzada en el archivo hermano leader_840/Bolivia); COLT registra 9-11/11/1996, con un dia adicional de llegada previa, sin contradiccion sustantiva."
+      },
+      {
+        "TripID": "994-BRA-ZAF-35394",
+        "justificacion": "Confirmado por articulos de Folha de S.Paulo del 24/11/1996 y 28/11/1996 sobre la gira a Sudafrica y Angola; Nelson Mandela era presidente sudafricano vigente."
+      },
+      {
+        "TripID": "994-BRA-AGO-35394",
+        "justificacion": "Tramo de la misma gira africana de noviembre 1996 confirmada por Folha; Jose Eduardo dos Santos era presidente angoleno vigente."
+      },
+      {
+        "TripID": "994-BRA-BOL-35406",
+        "justificacion": "Corresponde a la Cumbre de las Americas sobre Desarrollo Sostenible (Santa Cruz de la Sierra, Bolivia, diciembre 1996), evento multilateral ampliamente documentado en la epoca."
+      },
+      {
+        "TripID": "994-BRA-VAT-35472",
+        "justificacion": "Visita al Papa Juan Pablo II, febrero 1997, inmediatamente posterior a la visita a Londres y previa a Italia; sin senales de inconsistencia."
+      },
+      {
+        "TripID": "994-BRA-ITA-35473",
+        "justificacion": "Confirmado por fuente primaria oficial (Biblioteca da Presidencia da Republica): clase de Cardoso con motivo de su Doctorado Honoris Causa por la Universidad de Bolonia, fechada 13/2/1997, consistente con el rango 12-14/2/1997 de COLT; Romano Prodi era Primer Ministro italiano vigente."
+      },
+      {
+        "TripID": "994-BRA-CAN-35541",
+        "justificacion": "Confirmado por articulos de Folha de S.Paulo del 20/4/1997 y 25/4/1997, consistentes con el rango 21-24/4/1997; Jean Chretien era Primer Ministro canadiense vigente."
+      },
+      {
+        "TripID": "994-BRA-URY-35554",
+        "justificacion": "Confirmado por articulos de Folha de S.Paulo del 4/5/1997 ('Presidente faz visita de 3 dias ao Uruguai') y 7/5/1997 ('FHC enfrenta protesto no Uruguai'), consistentes con el rango 4-7/5/1997 de COLT; Julio Maria Sanguinetti era presidente vigente."
+      },
+      {
+        "TripID": "994-BRA-PRY-35600",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 20/6/1997 ('FHC defende aliancas ate o infinito'), coincidente con la Cumbre de Mercosur del 19/6/1997."
+      },
+      {
+        "TripID": "994-BRA-USA-35602",
+        "justificacion": "Corresponde a la sesion especial de la Asamblea General de la ONU sobre seguimiento a la Cumbre de la Tierra (Rio+5), Nueva York, junio 1997; confirmado indirectamente por columna de opinion de Folha de S.Paulo del 28/6/1997 ('FHC, a ONU e a realidade'), consistente con el rango 21-24/6/1997 de COLT."
+      },
+      {
+        "TripID": "994-BRA-VEN-35741",
+        "justificacion": "Confirmado por nota oficial de prensa del Itamaraty (27/10/1997) sobre la VII Cumbre Iberoamericana en Isla Margarita, Venezuela, fechada explicitamente 7-9/11/1997, exactamente coincidente con el rango de COLT."
+      },
+      {
+        "TripID": "994-BRA-FRA-35759",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 25/11/1997 ('FHC se encontra com Chirac na Guiana') y por discurso oficial de la Biblioteca da Presidencia fechado 25/11/1997, ambos coincidentes con la fecha de COLT (encuentro en Guyana Francesa, territorio frances, consistente con CountryVisited='France')."
+      },
+      {
+        "TripID": "994-BRA-GBR-35765",
+        "justificacion": "Corresponde a la visita de Estado de Cardoso al Reino Unido en diciembre de 1997, con ceremonias completas de la Reina Isabel II (segun fuentes secundarias sobre la relacion Cardoso-Reino Unido); columna de opinion de Folha del 5/12/1997 confirma que ya habia regresado a Brasil para esa fecha, consistente con el rango 1-5/12/1997 de COLT."
+      },
+      {
+        "TripID": "994-BRA-URY-35778",
+        "justificacion": "Cumbre de Mercosur en Uruguay, diciembre 1997, sin senales de inconsistencia con el rango 14-15/12/1997."
+      },
+      {
+        "TripID": "994-BRA-BOL-35902",
+        "justificacion": "Visita bilateral a Hugo Banzer Suarez, abril 1998, inmediatamente previa a la Cumbre de las Americas en Chile; Banzer era presidente boliviano vigente desde agosto 1997."
+      },
+      {
+        "TripID": "994-BRA-CHL-35903",
+        "justificacion": "Corresponde a la II Cumbre de las Americas, Santiago de Chile, 18-19 de abril de 1998, evento multilateral ampliamente documentado (con participacion de Bill Clinton y demas jefes de estado del hemisferio), coincidente con el rango de COLT."
+      },
+      {
+        "TripID": "994-BRA-ESP-35905",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 20/4/1998 ('FHC vende industria cultural na Espanha'), coincidente con el inicio del rango 20-22/4/1998; Jose Maria Aznar era presidente del Gobierno espanol vigente."
+      },
+      {
+        "TripID": "994-BRA-CHE-35934",
+        "justificacion": "Corresponde a la conmemoracion del 50 aniversario del GATT / 2a Conferencia Ministerial de la OMC, Ginebra, mayo de 1998, evento multilateral bien documentado (con participacion de Bill Clinton), coincidente con la fecha de COLT."
+      },
+      {
+        "TripID": "994-BRA-USA-35952",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 9/6/1998 ('FHC promete maior prevencao ao trafico'), coincidente con la Sesion Especial de la Asamblea General de la ONU sobre Drogas (UNGASS), Nueva York, junio de 1998, y con Bill Clinton como presidente de EEUU vigente."
+      },
+      {
+        "TripID": "994-BRA-ARG-35999",
+        "justificacion": "Corresponde a la Cumbre de Mercosur en Ushuaia, Argentina, julio de 1998, en la que se firmo el Protocolo de Ushuaia sobre Compromiso Democratico (24/7/1998), coincidente con el rango 23-24/7/1998 de COLT."
+      },
+      {
+        "TripID": "994-BRA-PRY-36021",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 16/8/1998 ('Cubas toma posse a sombra de Oviedo'), coincidente con la asuncion de Raul Cubas Grau como presidente de Paraguay el 15/8/1998, consistente con el rango 14-15/8/1998 de COLT y con la mencion a 'President Cubas Grau' en las Notes originales."
+      },
+      {
+        "TripID": "994-BRA-PRT-36084",
+        "justificacion": "Confirmado por articulo de Folha de S.Paulo del 17/10/1998 ('FHC lanca livro em Portugal no qual critica Saramago'), coincidente con la VIII Cumbre Iberoamericana en Oporto, Portugal, consistente con el rango 16-18/10/1998 de COLT."
+      },
+      {
+        "TripID": "994-BRA-VEN-36122",
+        "justificacion": "Visita bilateral a Rafael Caldera, noviembre 1998, sin senales de inconsistencia; Caldera era presidente venezolano vigente."
+      }
+    ]
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "LeaderID": "2703",
+    "correcciones": [
+      {
+        "TripID": "2703-PER-BOL-41803",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Group of 77 (G77) and China Summit",
+        "fuente": "https://www.un.org/sg/en/node/185163 ; https://dam.media.un.org/archive/Opening-ceremony-of-the-G77-and-China-Summit-2AM9LOBZLV0H.html ; Search Query: Ollanta Humala G77 China Summit Santa Cruz Bolivia June 2014 Ban Ki-moon",
+        "justificacion": "COLT registra el evento como 'G7 Summit', lo cual es un dato imposible: Bolivia nunca ha sido miembro ni sede del G7/G8 (grupo de economias industrializadas), y Peru tampoco es miembro del G7. Lo que realmente ocurrio fue la Cumbre de Jefes de Estado y de Gobierno del G77+China, celebrada en Santa Cruz de la Sierra, Bolivia, los dias 14 y 15 de junio de 2014, con motivo del 50 aniversario del Grupo de los 77. Fuentes de Naciones Unidas confirman que el presidente Humala, junto a la canciller Eda Rivas, se reunio con el Secretario General de la ONU Ban Ki-moon en el margen de esa cumbre. Se corrige el nombre del evento de 'G7 Summit' a 'Group of 77 (G77) and China Summit'; las fechas de COLT (13-15/6/2014) son compatibles con la cumbre real (14-15/6) mas un dia de llegada previa, por lo que no se modifican."
+      },
+      {
+        "TripID": "2703-PER-CUB-41668",
+        "campo": "MetNonhostHOGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://elcomercio.pe/politica/gobierno/humala-pinera-dialogaron-fallo-haya-288085 ; https://www.elnuevosiglo.com.co/articulos/1-2014-presidente-pinera-se-reune-con-humala-tras-fallo-de-cij ; https://laprensa.peru.com/actualidad/noticia-haya-diferendo-maritimo-ollanta-humala-sebastian-pinera-19734",
+        "justificacion": "Durante el cierre de la II Cumbre de la CELAC en La Habana (28-29 de enero de 2014), los presidentes Ollanta Humala y Sebastian Pinera se reunieron cara a cara por primera vez tras el fallo de la Corte Internacional de Justicia de La Haya sobre el limite maritimo Peru-Chile, dialogando por unos 45 minutos sobre la implementacion del fallo mediante el mecanismo de reuniones 2+2 (cancilleres y ministros de Defensa). COLT registraba MetNonhostHOGS='No' pese a tratarse de un encuentro bilateral relevante y ampliamente cubierto por prensa peruana y colombiana, directamente vinculado al eje de investigacion sobre las relaciones Peru-Chile post fallo de La Haya."
+      },
+      {
+        "TripID": "2703-PER-CUB-41668",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "President Sebastian Pinera",
+        "fuente": "https://elcomercio.pe/politica/gobierno/humala-pinera-dialogaron-fallo-haya-288085",
+        "justificacion": "Consecuencia directa de la correccion anterior: se identifica al jefe de Estado no anfitrion con el que se reunio Humala en el cierre de la Cumbre CELAC de La Habana."
+      },
+      {
+        "TripID": "2703-PER-CHL-42551",
+        "campo": "TripEndDate",
+        "valor_correcto": "2016-07-01",
+        "fuente": "https://alianzapacifico.net/en/culmina-xi-cumbre-de-la-alianza-del-pacifico-en-puerto-varas-chile/ ; https://www.iadb.org/es/noticias/comunicados-de-prensa/2016-07-01/cumbre-de-la-alianza-del-pacifico-2016,11511.html",
+        "justificacion": "La XI Cumbre de la Alianza del Pacifico en Puerto Varas, Chile, se desarrollo del 28 de junio al 1 de julio de 2016: la Cumbre Empresarial (con la que COLT ya marca BusinessLeaderOrForum='Yes') se realizo el 30 de junio, y la Cumbre Presidencial -con la participacion confirmada de Humala junto a Bachelet, Santos y Pena Nieto- se realizo al dia siguiente, el 1 de julio de 2016 (fuente BID). COLT registraba el viaje como un unico dia (30/6), omitiendo el dia de la Cumbre Presidencial."
+      },
+      {
+        "TripID": "2703-PER-CHL-42551",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "fuente": "https://www.iadb.org/es/noticias/comunicados-de-prensa/2016-07-01/cumbre-de-la-alianza-del-pacifico-2016,11511.html",
+        "justificacion": "Consecuencia directa de la correccion de TripEndDate: con fechas 30/6-1/7/2016, la duracion pasa de 1 a 2 dias."
+      },
+      {
+        "TripID": "2703-PER-ESP-41230",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Pacific Alliance Leaders Meeting",
+        "fuente": "https://es.wikipedia.org/wiki/VII_Cumbre_de_la_Alianza_del_Pac%C3%ADfico ; Search Query: V Cumbre Alianza del Pacifico Cadiz España 17 noviembre 2012 Declaracion de Cadiz",
+        "justificacion": "COLT tiene dos registros para España en noviembre de 2012: 2703-PER-ESP-41229 (16-17/11) y este (17-18/11), ambos etiquetados como 'Ibero-American Summit'. Sin embargo, el 17 de noviembre de 2012, en el margen de la XXII Cumbre Iberoamericana de Cadiz, se celebro la V Cumbre de la Alianza del Pacifico ('Declaracion de Cadiz'), con la participacion exclusiva de los mandatarios de los cuatro paises miembro: Humala (Peru), Santos (Colombia), Calderon (Mexico, aun en funciones hasta el 1/12/2012) y Piñera (Chile) -coincidiendo exactamente con los NonhostHOGSNames que ya registra COLT para este TripID ('Santos;Calderon;Piñera')-. Esto confirma que el evento real de este segundo registro es la Cumbre de la Alianza del Pacifico, no una segunda asistencia a la Cumbre Iberoamericana (que ya queda cubierta por el TripID ESP-41229). Se corrige unicamente el nombre del evento; fechas y NonhostHOGSNames ya eran correctos y no se modifican."
+      },
+      {
+        "TripID": "2703-PER-PAN-42105",
+        "campo": "TripStartDate",
+        "valor_correcto": "2015-04-10",
+        "fuente": "https://www.emol.com/noticias/internacional/2015/04/10/712132/comienza-historica-cumbre-de-las-americas-en-panama-marcada-por-cita-obama-castro.html ; https://www.infobae.com/2015/04/10/1721537-imagen-historica-obama-y-castro-juntos-la-cumbre-las-americas-panama/",
+        "justificacion": "La VII Cumbre de las Americas se inauguro formalmente el viernes 10 de abril de 2015 en el Centro de Convenciones ATLAPA de Ciudad de Panama (jornada marcada por el histórico saludo Obama-Castro), con la Sesion Plenaria de jefes de Estado tambien el 10 y continuando el 11 de abril. Notas de prensa del 10/4/2015 (Emol) mencionan explicitamente al presidente Humala entre los mandatarios convocados por el presidente mexicano Pena Nieto durante la Cumbre. COLT registraba el viaje como iniciado el 11/4, omitiendo el dia de apertura de la cumbre (10/4)."
+      },
+      {
+        "TripID": "2703-PER-PAN-42105",
+        "campo": "TripDuration",
+        "valor_correcto": "3",
+        "fuente": "https://www.emol.com/noticias/internacional/2015/04/10/712132/comienza-historica-cumbre-de-las-americas-en-panama-marcada-por-cita-obama-castro.html",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: con fechas 10-12/4/2015, la duracion pasa de 2 a 3 dias."
+      },
+      {
+        "TripID": "2703-PER-USA-42272",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "UN Sustainable Development Summit",
+        "fuente": "https://sdg.iisd.org/news/heads-of-state-and-government-adopt-2030-agenda-for-sustainable-development/ ; https://enb.iisd.org/events/un-sustainable-development-summit-2015/summary-report-25-27-september-2015",
+        "justificacion": "Las fechas que registra COLT para este viaje (25-27 de septiembre de 2015) coinciden de forma exacta con la Cumbre de las Naciones Unidas sobre el Desarrollo Sostenible (UN Sustainable Development Summit), celebrada en la sede de la ONU en Nueva York los dias 25-27 de septiembre de 2015 para la adopcion formal de la Agenda 2030 y los Objetivos de Desarrollo Sostenible (ODS), y NO con el Debate General de la 70a Asamblea General de la ONU, que comenzo recien el 28 de septiembre de 2015. Se corrige el nombre del evento genérico 'United Nations (UN) General Assembly' por el evento especifico y verificable cuyas fechas coinciden exactamente con las de COLT."
+      },
+      {
+        "TripID": "2703-PER-CHL-41493",
+        "campo": "Notes",
+        "valor_correcto": "NA",
+        "fuente": "Search Query: Juan Manuel Santos inauguration date Colombia 2010 2014 second term",
+        "justificacion": "Las Notes de COLT para este viaje a Chile (7-8 de agosto de 2013) afirman que Humala 'attend[ed] the inauguration of Colombian President-elect Juan Manuel Santos'. Este dato es imposible: (1) el pais visitado es Chile, no Colombia; (2) Juan Manuel Santos ya era presidente de Colombia desde el 7 de agosto de 2010 (primera toma de posesion) y su segunda toma de posesion (reeleccion) fue el 7 de agosto de 2014, no en 2013 -no existe ninguna toma de posesion de Santos en agosto de 2013-. El dato parece ser un error de copiado/contaminacion de otro registro dentro de la base COLT. Se corrige el campo Notes a 'NA' por tratarse de informacion verificablemente falsa; no fue posible determinar mediante busqueda independiente cual fue el motivo real de esta visita de Humala a Chile en agosto de 2013, por lo que no se propone un reemplazo inventado."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "2703-PER-CHL-41493",
+        "campo": "TripStartDate/TripEndDate/MetIGOLeader/IGOLeaderName",
+        "justificacion": "Una vez descartada como imposible la explicacion registrada en las Notes de COLT (ver correccion de Notes de este mismo TripID), no fue posible hallar mediante busqueda independiente ninguna fuente de prensa o gubernamental que documente una visita de Humala a Chile los dias 7-8 de agosto de 2013, ni que confirme o descarte el encuentro con el Presidente del Consejo Europeo Herman Van Rompuy (MetIGOLeader) registrado por COLT para ese viaje. Confidence de COLT para este item ya era baja (2/5). Se recomienda una revision adicional con acceso a Factiva/Lexis (fuentes citadas por COLT) para esclarecer el motivo real de este viaje."
+      },
+      {
+        "TripID": "2703-PER-CHN-41367",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "Se confirmo mediante busqueda independiente que Humala realizo una visita de Estado a China en abril de 2013 que incluyo una reunion con el presidente Xi Jinping y la participacion en el Foro de Boao para Asia (foro que en 2013 se celebro del 6 al 8 de abril en Hainan), consistente con el evento y el jefe de Estado anfitrion que registra COLT. Sin embargo, las fuentes consultadas dan referencias no enteramente coincidentes sobre el itinerario exacto dentro de China (Sanya/Hainan y Beijing) por lo que no fue posible confirmar con precision si el rango completo de 8 dias que registra COLT (3-10 de abril) es exacto; la propia COLT ya marcaba Confidence 1/5 para este item, reflejando esta misma incertidumbre."
+      },
+      {
+        "TripID": "2703-PER-COL-41758",
+        "campo": "Notes/AttendedMultilatEvent",
+        "justificacion": "No fue posible confirmar mediante busqueda independiente que Humala haya presidido o asistido a la ceremonia de apertura de la Feria Internacional del Libro de Bogota (FILBO) el 29 de abril de 2014; no se hallo cobertura de prensa especifica de ese hecho, y no hay evidencia de que Peru haya sido pais invitado de honor de esa edicion de la feria (lo que normalmente motivaria la presencia protocolar de un jefe de Estado extranjero en la apertura)."
+      },
+      {
+        "TripID": "2703-PER-FRA-41073",
+        "campo": "Notes",
+        "justificacion": "No fue posible confirmar mediante busqueda independiente que Humala haya dirigido una alocucion ante una sesion del Parlamento Europeo en Estrasburgo el 13 de junio de 2012; COLT ya marca este item con Confidence 2/5 y no se hallo cobertura de prensa especifica del hecho durante la busqueda realizada."
+      },
+      {
+        "TripID": "2703-PER-CUB-41668",
+        "campo": "TripStartDate",
+        "justificacion": "La II Cumbre de la CELAC en La Habana se desarrollo los dias 28 y 29 de enero de 2014, y fuentes de prensa (Gestion.pe) confirman que Humala fue autorizado por el Congreso a asistir a la cumbre completa. Sin embargo, no fue posible confirmar con precision mediante busqueda independiente si Humala arribo a La Habana el 28 o el 29 de enero, por lo que se deja sin modificar la fecha de inicio que registra COLT (29/1), aunque existe la posibilidad de que el viaje haya comenzado un dia antes."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "2703-PER-ARG-41240", "justificacion": "Visita bilateral a Cristina Fernandez de Kirchner, noviembre de 2012; Kirchner era presidenta de Argentina vigente (2011-2015)."},
+      {"TripID": "2703-PER-ARG-42348", "justificacion": "Corresponde a la toma de posesion de Mauricio Macri como presidente de Argentina, confirmada ampliamente para el 10 de diciembre de 2015, coincidente con la fecha puntual que registra COLT."},
+      {"TripID": "2703-PER-BEL-42165", "justificacion": "Corresponde a la II Cumbre UE-CELAC en Bruselas, confirmada por fuentes oficiales (Consilium, EU-LAC Foundation) para los dias 10 y 11 de junio de 2015, coincidente exactamente con el rango de COLT."},
+      {"TripID": "2703-PER-BEL-42443", "justificacion": "Visita a Belgica con encuentro con el Presidente del Consejo Europeo Donald Tusk (cargo vigente desde diciembre de 2014), marzo de 2016; sin señales de inconsistencia."},
+      {"TripID": "2703-PER-BOL-41803", "justificacion": "Verificado como la Cumbre del G77+China en Santa Cruz, Bolivia (14-15/6/2014), con reunion confirmada con el Secretario General de la ONU Ban Ki-moon; ver correccion de NameMultilatEvent para este mismo TripID."},
+      {"TripID": "2703-PER-BRA-41080", "justificacion": "Corresponde a la Conferencia de Naciones Unidas sobre Desarrollo Sostenible (Rio+20), confirmada por fuentes de la ONU/CEPAL para el 20-22 de junio de 2012 en Rio de Janeiro, consistente con el rango 20-21/6 de COLT (dentro de la ventana oficial del evento)."},
+      {"TripID": "2703-PER-BRA-41836", "justificacion": "Corresponde a la Cumbre Conjunta BRICS-UNASUR en Brasilia, confirmada para los dias 16 y 17 de julio de 2014 (inmediatamente despues de la VI Cumbre BRICS en Fortaleza, 14-16/7), coincidente exactamente con el rango de COLT; Xi Jinping y Narendra Modi confirmados como asistentes a la gira BRICS de julio de 2014."},
+      {"TripID": "2703-PER-CAN-41737", "justificacion": "Visita bilateral a Stephen Harper (Primer Ministro de Canada 2006-2015) con premio de la Canadian Council for the Americas, abril de 2014; sin señales de inconsistencia."},
+      {"TripID": "2703-PER-CHL-41066", "justificacion": "Corresponde a la IV Cumbre de la Alianza del Pacifico en Antofagasta, Chile, confirmada para el 6 de junio de 2012, coincidente exactamente con la fecha puntual de COLT."},
+      {"TripID": "2703-PER-CHL-41300", "justificacion": "Corresponde a la I Cumbre CELAC-UE en Santiago de Chile, confirmada por fuentes oficiales (EU-LAC Foundation, gobierno de España) para los dias 26 y 27 de enero de 2013, coincidente exactamente con el rango de COLT."},
+      {"TripID": "2703-PER-CHL-41708", "justificacion": "Corresponde a la segunda toma de posesion de Michelle Bachelet como presidenta de Chile, ampliamente documentada para el 11 de marzo de 2014, consistente con el rango 10-11/3/2014 de COLT (con un dia de llegada previa)."},
+      {"TripID": "2703-PER-CHL-42551", "justificacion": "Corresponde a la XI Cumbre de la Alianza del Pacifico en Puerto Varas, Chile (28/6-1/7/2016); ver correccion de TripEndDate/TripDuration para este mismo TripID."},
+      {"TripID": "2703-PER-CHN-41367", "justificacion": "Visita de Estado a China con reunion con Xi Jinping y participacion en el Foro de Boao para Asia (6-8 de abril de 2013), abril de 2013; ver nota de no_verificable sobre precision de fechas exactas."},
+      {"TripID": "2703-PER-CHN-41953", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Beijing, confirmada para el 10-11 de noviembre de 2014 (incluyendo el conocido encuentro Xi Jinping-Shinzo Abe), consistente con el rango 10-13/11/2014 de COLT (incluyendo dias de visita de Estado bilateral)."},
+      {"TripID": "2703-PER-COL-41013", "justificacion": "Corresponde a la VI Cumbre de las Americas en Cartagena de Indias, confirmada para las jornadas principales del 14-15 de abril de 2012, coincidente exactamente con el rango de COLT; Stephen Harper confirmado como asistente."},
+      {"TripID": "2703-PER-COL-41417", "justificacion": "Corresponde a la Cumbre de la Alianza del Pacifico en Cali, Colombia, confirmada para el 23 de mayo de 2013, coincidente exactamente con la fecha puntual de COLT."},
+      {"TripID": "2703-PER-COL-41680", "justificacion": "Corresponde a la Cumbre de la Alianza del Pacifico en Cartagena, Colombia, confirmada para el 10 de febrero de 2014, coincidente con el rango de COLT (10-11/2)."},
+      {"TripID": "2703-PER-COL-42307", "justificacion": "Visita bilateral a Juan Manuel Santos, octubre de 2015; Santos era presidente de Colombia vigente (2010-2018)."},
+      {"TripID": "2703-PER-CUB-41285", "justificacion": "Visita bilateral a Raul Castro, enero de 2013; Castro era presidente de Cuba vigente (2008-2018)."},
+      {"TripID": "2703-PER-CUB-41668", "justificacion": "Corresponde a la II Cumbre de la CELAC en La Habana (28-29 de enero de 2014); ver correccion de MetNonhostHOGS/NonhostHOGSNames (encuentro con Piñera) y nota de no_verificable sobre TripStartDate exacto."},
+      {"TripID": "2703-PER-CUB-42418", "justificacion": "Visita bilateral a Raul Castro, febrero de 2016; Castro era presidente de Cuba vigente."},
+      {"TripID": "2703-PER-ECU-41236", "justificacion": "Visita bilateral a Rafael Correa, noviembre de 2012; Correa era presidente de Ecuador vigente (2007-2017)."},
+      {"TripID": "2703-PER-ECU-42396", "justificacion": "Corresponde a la IV Cumbre de la CELAC en Quito, Ecuador, confirmada para el 27 de enero de 2016, consistente con el rango de COLT (27-28/1); Evo Morales confirmado como jefe de Estado presente en la cumbre."},
+      {"TripID": "2703-PER-ECU-42487", "justificacion": "Visita de solidaridad a Ecuador tras el terremoto del 16 de abril de 2016, realizada el 27 de abril de 2016; consistente con el contexto conocido del desastre."},
+      {"TripID": "2703-PER-FRA-41227", "justificacion": "Visita de Estado a Francois Hollande, noviembre de 2012; Hollande era presidente de Francia vigente desde mayo de 2012."},
+      {"TripID": "2703-PER-FRA-41556", "justificacion": "Visita bilateral a Francois Hollande, octubre de 2013; Hollande era presidente de Francia vigente."},
+      {"TripID": "2703-PER-FRA-41820", "justificacion": "Visita bilateral a Francois Hollande con participacion en el Foro Economico Internacional America Latina-Caribe, foro organizado anualmente por el gobierno frances, junio-julio de 2014; Hollande era presidente de Francia vigente."},
+      {"TripID": "2703-PER-FRA-42338", "justificacion": "Corresponde a la Conferencia de las Naciones Unidas sobre el Cambio Climatico (COP21), cuya sesion de apertura con jefes de Estado y de Gobierno se realizo el 30 de noviembre de 2015 en Paris (con la asistencia confirmada de mas de 140 mandatarios, incluido Vladimir Putin), consistente con el rango 30/11-1/12/2015 de COLT."},
+      {"TripID": "2703-PER-FRA-42521", "justificacion": "Corresponde a la Semana de la OCDE en Paris (Foro OCDE 2016 y Reunion del Consejo a Nivel Ministerial), celebrada del 31 de mayo al 2 de junio de 2016, consistente con el rango de COLT; Francois Hollande era presidente de Francia vigente."},
+      {"TripID": "2703-PER-DEU-41072", "justificacion": "Visita bilateral a Angela Merkel, junio de 2012; Merkel era canciller de Alemania vigente (2005-2021)."},
+      {"TripID": "2703-PER-DEU-41834", "justificacion": "Corresponde al V Dialogo de Petersberg sobre el Clima en Berlin, confirmado por fuentes oficiales alemanas (BMU) para el 14-15 de julio de 2014, con discurso de Humala confirmado junto a Merkel, coincidente exactamente con el rango de COLT."},
+      {"TripID": "2703-PER-VAT-41957", "justificacion": "Audiencia con el Papa Francisco en el Vaticano, confirmada por prensa (La Prensa Grafica) para el 14 de noviembre de 2014, coincidente exactamente con la fecha puntual de COLT."},
+      {"TripID": "2703-PER-IDN-41553", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Bali, Indonesia, confirmada para el 7-8 de octubre de 2013, consistente con el rango 6-8/10/2013 de COLT; Susilo Bambang Yudhoyono, John Key y Park Geun-hye confirmados como jefes de Estado/Gobierno vigentes."},
+      {"TripID": "2703-PER-ISR-41686", "justificacion": "Corresponde a la gira de Humala por Medio Oriente (Israel-Palestina-Qatar) de febrero de 2014, confirmada por multiples fuentes de prensa peruana (El Comercio, America TV, Por Israel), con reunion confirmada con el Primer Ministro Benjamin Netanyahu."},
+      {"TripID": "2703-PER-JPN-41037", "justificacion": "Visita bilateral a Noda Yoshihiko, mayo de 2012; Noda era Primer Ministro de Japon vigente (2011-2012)."},
+      {"TripID": "2703-PER-MEX-41808", "justificacion": "Corresponde a la IX Cumbre de la Alianza del Pacifico en Punta Mita, Nayarit, Mexico, confirmada por fuentes oficiales para el 18-20 de junio de 2014, coincidente con el rango de COLT."},
+      {"TripID": "2703-PER-MEX-41838", "justificacion": "Visita bilateral a Enrique Peña Nieto, julio de 2014; Peña Nieto era presidente de Mexico vigente (2012-2018)."},
+      {"TripID": "2703-PER-MEX-41981", "justificacion": "Corresponde a la XXIV Cumbre Iberoamericana en Veracruz, Mexico, confirmada por fuentes oficiales (SEGIB) para el 8-9 de diciembre de 2014, coincidente exactamente con el rango de COLT."},
+      {"TripID": "2703-PER-PSE-41688", "justificacion": "Corresponde a la etapa palestina de la gira por Medio Oriente de febrero de 2014, con reunion confirmada con el presidente Mahmoud Abbas, inmediatamente despues de la visita a Israel."},
+      {"TripID": "2703-PER-PAN-41757", "justificacion": "Visita bilateral a Ricardo Martinelli, abril de 2014; Martinelli era presidente de Panama vigente hasta el 1/7/2014."},
+      {"TripID": "2703-PER-PAN-42105", "justificacion": "Corresponde a la VII Cumbre de las Americas en Panama, con Juan Carlos Varela como presidente anfitrion vigente; ver correccion de TripStartDate/TripDuration para este mismo TripID."},
+      {"TripID": "2703-PER-PRY-40844", "justificacion": "Corresponde a la XXI Cumbre Iberoamericana en Asuncion, Paraguay, confirmada por fuentes oficiales (SEGIB) para el 28-29 de octubre de 2011, coincidente exactamente con el rango de COLT; se trato del debut de Humala en una cumbre iberoamericana, tres meses despues de asumir la presidencia."},
+      {"TripID": "2703-PER-PRY-41501", "justificacion": "Corresponde a la toma de posesion de Horacio Cartes como presidente de Paraguay, ampliamente documentada para el 15 de agosto de 2013, coincidente exactamente con la fecha puntual de COLT."},
+      {"TripID": "2703-PER-PHL-42326", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Manila, Filipinas, confirmada para el 18-19 de noviembre de 2015, coincidente exactamente con el rango de COLT."},
+      {"TripID": "2703-PER-PRT-41232", "justificacion": "Visita bilateral a Anibal Cavaco Silva, noviembre de 2012, inmediatamente posterior a la Cumbre Iberoamericana de Cadiz; Cavaco Silva era presidente de Portugal vigente (2006-2016)."},
+      {"TripID": "2703-PER-QAT-41689", "justificacion": "Corresponde a la etapa final de la gira por Medio Oriente de febrero de 2014; el Emir Tamim bin Hamad Al Thani asumio el trono de Qatar en junio de 2013, vigente para la fecha del viaje."},
+      {"TripID": "2703-PER-RUS-41160", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Vladivostok, Rusia, confirmada para el 8-9 de septiembre de 2012, coincidente exactamente con el rango de COLT; Felipe Calderon era presidente de Mexico vigente."},
+      {"TripID": "2703-PER-RUS-41950", "justificacion": "Visita bilateral a Vladimir Putin, noviembre de 2014, inmediatamente previa al viaje a China para la Cumbre de APEC Beijing (10-13/11), consistente con un itinerario logico de gira asiatica."},
+      {"TripID": "2703-PER-KOR-41039", "justificacion": "Visita bilateral a Lee Myung-bak con apertura del Pabellon de Peru en la Expo 2012 de Yeosu, mayo de 2012, inmediatamente posterior a la visita a Japon; Lee era presidente de Corea del Sur vigente (2008-2013)."},
+      {"TripID": "2703-PER-ESP-40933", "justificacion": "Visita bilateral a Mariano Rajoy, enero de 2012; Rajoy era Presidente del Gobierno de España vigente desde diciembre de 2011."},
+      {"TripID": "2703-PER-ESP-41229", "justificacion": "Corresponde a la XXII Cumbre Iberoamericana en Cadiz, España, confirmada por fuentes oficiales (SEGIB) para el 16-17 de noviembre de 2012, coincidente exactamente con el rango de COLT."},
+      {"TripID": "2703-PER-ESP-41230", "justificacion": "Corresponde a la V Cumbre de la Alianza del Pacifico ('Declaracion de Cadiz'), celebrada el 17 de noviembre de 2012 en el margen de la Cumbre Iberoamericana; ver correccion de NameMultilatEvent para este mismo TripID."},
+      {"TripID": "2703-PER-ESP-42192", "justificacion": "Visita bilateral a Mariano Rajoy, julio de 2015; Rajoy era Presidente del Gobierno de España vigente."},
+      {"TripID": "2703-PER-ESP-42496", "justificacion": "Visita bilateral a Mariano Rajoy, mayo de 2016; Rajoy se mantenia como Presidente del Gobierno en funciones tras las elecciones de diciembre de 2015, vigente hasta octubre de 2016."},
+      {"TripID": "2703-PER-SUR-41516", "justificacion": "Corresponde a la VII Cumbre de UNASUR en Paramaribo, Surinam, confirmada por fuentes oficiales (declaracion de Paramaribo, MRE Brasil) para el 30 de agosto de 2013, coincidente exactamente con la fecha puntual de COLT."},
+      {"TripID": "2703-PER-THA-41551", "justificacion": "Visita bilateral a Yingluck Shinawatra, octubre de 2013, inmediatamente previa a la Cumbre de APEC en Bali (6-8/10), consistente con un itinerario logico de gira asiatica; Yingluck era Primera Ministra de Tailandia vigente (2011-2014)."},
+      {"TripID": "2703-PER-USA-40858", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Honolulu, confirmada para el 12-13 de noviembre de 2011, consistente con el rango 11-14/11/2011 de COLT; Barack Obama y Hu Jintao confirmados como jefes de Estado vigentes."},
+      {"TripID": "2703-PER-USA-41435", "justificacion": "Visita bilateral a Barack Obama, junio de 2013; Obama era presidente de EEUU vigente."},
+      {"TripID": "2703-PER-USA-41540", "justificacion": "Corresponde al Debate General de la 68a Asamblea General de la ONU, que se inauguro el 24 de septiembre de 2013, consistente con el rango 23-27/9/2013 de COLT; Juan Manuel Santos confirmado como asistente al mismo periodo de sesiones."},
+      {"TripID": "2703-PER-USA-41905", "justificacion": "Corresponde a la Cumbre del Clima de la ONU (23/9/2014) y al inicio del Debate General de la 69a Asamblea General (24/9/2014), consistente con el rango 23-25/9/2014 de COLT."},
+      {"TripID": "2703-PER-USA-42272", "justificacion": "Corresponde a la Cumbre de Naciones Unidas sobre el Desarrollo Sostenible (25-27 de septiembre de 2015); ver correccion de NameMultilatEvent para este mismo TripID."},
+      {"TripID": "2703-PER-USA-42482", "justificacion": "Corresponde a la Ceremonia de Alto Nivel de Firma del Acuerdo de Paris, celebrada en la sede de la ONU en Nueva York el 22 de abril de 2016 (Dia de la Tierra), con la firma de 175 paises, coincidente exactamente con la fecha puntual de COLT."},
+      {"TripID": "2703-PER-URY-42064", "justificacion": "Corresponde a la toma de posesion de Tabare Vazquez como presidente de Uruguay, ampliamente documentada para el 1 de marzo de 2015, consistente con el rango 1-2/3/2015 de COLT."},
+      {"TripID": "2703-PER-VEN-40914", "justificacion": "Visita bilateral a Hugo Chavez, enero de 2012; Chavez era presidente de Venezuela vigente hasta su fallecimiento en marzo de 2013."}
+    ]
+  }
+]

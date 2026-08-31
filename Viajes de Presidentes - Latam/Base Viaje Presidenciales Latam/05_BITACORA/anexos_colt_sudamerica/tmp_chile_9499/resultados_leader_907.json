@@ -1,0 +1,154 @@
+[
+  {
+    "LeaderID": "907",
+    "correcciones": [
+      {
+        "TripID": "907-CHL-BRA-34701",
+        "campo": "TripStartDate",
+        "valor_correcto": "1995-01-01",
+        "fuente": "https://pt.wikipedia.org/wiki/Posse_de_Fernando_Henrique_Cardoso_em_1995 ; https://www.biblioteca.presidencia.gov.br/presidencia/ex-presidentes/fernando-henrique-cardoso/discursos/1o-mandato/1995-1/01-discurso-de-posse-no-congresso-nacional-brasilia-distrito-federal-01-01-95/view ; https://atlas.fgv.br/marcos/governo-fernando-henrique-1995-2003/midias/posse-de-fernando-henrique-cardoso-como-presidente",
+        "justificacion": "La posesion (toma de posesion) de Fernando Henrique Cardoso como Presidente de Brasil se realizo el 1 de enero de 1995 en el Congreso Nacional, Brasilia, hecho confirmado por multiples fuentes primarias y secundarias (discurso de posesion archivado en la Biblioteca de la Presidencia con fecha 01-01-95, Atlas Historico do Brasil/FGV, Wikipedia en portugues). COLT registra el viaje de Frei como 1995-01-02 a 1995-01-03, es decir, iniciado un dia despues de la ceremonia real, con Notes 'President Frei attended the inauguration of President Fernando Henrique Cardoso'. Este mismo patron de error en fechas de tomas de posesion ya fue detectado y corregido en la ronda hermana de Brasil (leader_994, casos de Menem 1995 y Fujimori 1995)."
+      },
+      {
+        "TripID": "907-CHL-BRA-34701",
+        "campo": "TripEndDate",
+        "valor_correcto": "1995-01-01",
+        "fuente": "https://pt.wikipedia.org/wiki/Posse_de_Fernando_Henrique_Cardoso_em_1995",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: no se hallo evidencia de una estadia adicional en Brasilia mas alla del dia de la ceremonia, por lo que se mantiene como viaje de un solo dia, desplazado al 1/1/1995 (fecha real de la posesion), siguiendo el mismo criterio aplicado a casos analogos en el archivo hermano de Brasil (leader_994)."
+      },
+      {
+        "TripID": "907-CHL-BRA-34701",
+        "campo": "TripDuration",
+        "valor_correcto": "1",
+        "fuente": "https://pt.wikipedia.org/wiki/Posse_de_Fernando_Henrique_Cardoso_em_1995",
+        "justificacion": "Consecuencia directa de las correcciones anteriores: con TripStartDate y TripEndDate iguales (1995-01-01), la duracion pasa de 2 a 1 dia."
+      },
+      {
+        "TripID": "907-CHL-ITA-35237",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "NA",
+        "fuente": "https://www.europarl.europa.eu/summits/fir1_es.htm ; https://ec.europa.eu/commission/presscorner/detail/es/doc_96_3 ; https://www.boe.es/buscar/doc.php?id=BOE-A-2000-15176 ; https://ec.europa.eu/commission/presscorner/detail/es/pres_96_180",
+        "justificacion": "El Consejo Europeo (European Council) es un organo institucional propio de la Union Europea, integrado exclusivamente por los jefes de Estado o de Gobierno de sus Estados miembros; Chile nunca ha sido miembro de la UE y por lo tanto no pudo haber 'asistido' a una 'European Council Summit' en el sentido que implica el campo de COLT (participacion como miembro/asistente pleno de la cumbre), de forma analoga al error ya detectado en la ronda de Brasil respecto de una supuesta asistencia de Cardoso a una Cumbre de APEC. Lo que efectivamente ocurrio, documentado por fuentes oficiales (Parlamento Europeo, Comision Europea, BOE), es que el 21 de junio de 1996, en el margen del Consejo Europeo de Florencia (21-22 de junio de 1996), Chile y la Comunidad Europea y sus Estados miembros firmaron el Acuerdo Marco de Cooperacion Chile-UE, acto en el que participo el Presidente Frei. Se corrige unicamente el campo NameMultilatEvent (que describe erroneamente el evento como una cumbre a la que Chile 'asistio'); el campo SignedAgreement=Yes ya reflejaba correctamente la firma del acuerdo, por lo que no requiere cambio. Las fechas del viaje (21-23/6/1996) son compatibles con la fecha de la firma (21/6/1996) y no se modifican por falta de evidencia que las contradiga."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Venezuela",
+        "CityVisited": "Isla Margarita (Porlamar)",
+        "TripStartDate": "1997-11-08",
+        "TripEndDate": "1997-11-09",
+        "TripDuration": "2",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Rafael Caldera",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "VII Ibero-American Summit",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://segib.org/es/vii-cumbre-iberoamericana-los-valores-eticos-de-la-democracia/ ; https://segib.org/?summit=vii-cumbre-iberoamericana-isla-margarita-1997 ; https://es.wikipedia.org/wiki/VII_Cumbre_Iberoamericana",
+        "justificacion": "La VII Cumbre Iberoamericana de Jefes de Estado y de Gobierno se realizo en Isla Margarita, Venezuela, los dias 8 y 9 de noviembre de 1997, bajo el lema 'Los valores eticos de la democracia'. Fuentes oficiales de la Secretaria General Iberoamericana (SEGIB) listan explicitamente a Eduardo Frei Ruiz-Tagle como Presidente de Chile entre los participantes de esta cumbre. Este viaje no figura entre los 63 items ya cargados en COLT para leader_907 (no existe ningun TripID con CountryVisited='Venezuela' en todo el mandato de Frei), constituyendo un hueco real: Chile SI aparece cubierto en las cumbres iberoamericanas de 1994 (Cartagena, Colombia), 1995 (Bariloche, Argentina) y 1998 (Oporto, Portugal), pero falta la de 1997 (Isla Margarita). Los campos MetNonhostHOGS/NonhostHOGSNames y SignedAgreement se dejan sin dato preciso por no haberse hallado una fuente que detalle esos aspectos especificos del viaje de Frei; TripDuration se estima en 2 dias (8-9 de noviembre) por ser el rango exacto de duracion de la cumbre segun SEGIB, sin evidencia de dias adicionales de llegada o salida."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "907-CHL-MEX-34948",
+        "campo": "TripEndDate",
+        "justificacion": "El propio COLT senala en las Notes: 'President Frei had a private visit to Ixtapa-Zihuatanejo after official visit concluded. Unsure about how long private visit lasted; coded it as one extra day.' Busqueda activa no hallo cobertura de prensa que precise la duracion real de esta visita privada posterior a la visita oficial a Mexico de septiembre de 1995, por lo que se mantiene la incertidumbre ya reconocida por la fuente original."
+      },
+      {
+        "TripID": "907-CHL-USA-34992",
+        "campo": "TripEndDate",
+        "justificacion": "COLT marco este item con Confidence 2/5. La sesion conmemorativa especial de la Asamblea General de la ONU por el 50 aniversario de la organizacion se realizo oficialmente entre el 22 y el 24 de octubre de 1995 en Nueva York (confirmado por comunicados de prensa oficiales de la ONU, press.un.org), periodo que queda comprendido dentro del rango mas amplio que registra COLT (20-27 de octubre, 8 dias). Busqueda activa no hallo fuente especifica que confirme o contradiga los dos dias adicionales al inicio (20-21/10) ni los tres dias adicionales al final (25-27/10) mas alla de la sesion oficial de 3 dias, por lo que se deja el campo sin corregir por falta de evidencia que fije con precision la fecha real de llegada y salida de Frei de Nueva York."
+      },
+      {
+        "TripID": "907-CHL-BRA-35148",
+        "campo": "TripStartDate",
+        "justificacion": "COLT marco este item con Confidence 2/5 (visita bilateral a Cardoso, marzo de 1996). Busqueda activa en portugues y espanol no hallo cobertura de prensa ni comunicados oficiales que confirmen o contradigan las fechas 24-28 de marzo de 1996 registradas por COLT."
+      },
+      {
+        "TripID": "907-CHL-BOL-35310",
+        "campo": "TripEndDate",
+        "justificacion": "El propio COLT senala en las Notes: 'Unsure about return date.' Se trata de la Cumbre del Grupo de Rio en Cochabamba, Bolivia (septiembre de 1996), evento confirmado en fuentes generales (con participacion de 13 jefes de Estado), pero busqueda activa no hallo una fuente que precise la fecha exacta de cierre de la cumbre ni la fecha de regreso de Frei a Chile, por lo que se mantiene la incertidumbre ya reconocida por la fuente original."
+      },
+      {
+        "TripID": "907-CHL-JPN-35672",
+        "campo": "TripStartDate",
+        "justificacion": "COLT marco este item con Confidence 2/5 (visita bilateral a Japon, agosto-septiembre de 1997). Busqueda activa no hallo cobertura de prensa que confirme o contradiga las fechas 30/8 al 3/9 de 1997 registradas por COLT."
+      },
+      {
+        "TripID": "907-CHL-ESP-35827",
+        "campo": "TripStartDate",
+        "justificacion": "COLT marco este item con Confidence 2/5 (visita bilateral a Espana, febrero de 1998). Busqueda activa confirmo que Jose Maria Aznar era Presidente del Gobierno espanol vigente en esa fecha, pero no hallo cobertura de prensa que confirme o contradiga las fechas especificas 1-3 de febrero de 1998 registradas por COLT."
+      },
+      {
+        "TripID": "907-CHL-USA-35955",
+        "campo": "TripStartDate",
+        "justificacion": "COLT marco este item con Confidence 2/5. La 20a Sesion Especial de la Asamblea General de la ONU sobre el problema mundial de las drogas (UNGASS) se realizo oficialmente entre el 8 y el 10 de junio de 1998 en Nueva York (fuente: Transnational Institute, portal PNSD del gobierno espanol), mientras que COLT registra el viaje de Frei como 9-11 de junio de 1998, con un desfase de un dia respecto del inicio y cierre oficiales de la sesion. Sin embargo, las Notes de COLT indican tambien que 'President Frei open[ed] a two-day seminar on Wall Street con el Ministro de Hacienda Eduardo Aninat', lo que sugiere una agenda combinada (UNGASS + seminario de Wall Street) cuyas fechas individuales no fue posible reconstruir con una fuente independiente. Por no hallarse evidencia especifica de los dias exactos de estadia de Frei en Nueva York, se deja el campo sin corregir."
+      },
+      {
+        "TripID": "907-CHL-SLV-36046",
+        "campo": "TripStartDate",
+        "justificacion": "COLT marco este item con Confidence 2/5 (visita bilateral a El Salvador, septiembre de 1998). Busqueda activa confirmo que Armando Calderon Sol era presidente salvadoreno vigente en esa fecha, pero no hallo cobertura de prensa que confirme o contradiga las fechas especificas 8-9 de septiembre de 1998 registradas por COLT."
+      },
+      {
+        "TripID": "907-CHL-COL-36399",
+        "campo": "TripStartDate",
+        "justificacion": "COLT marco este item con Confidence 2/5 (visita bilateral a Colombia, agosto de 1999). Busqueda activa confirmo que Andres Pastrana Arango era presidente colombiano vigente en esa fecha, pero no hallo cobertura de prensa que confirme o contradiga las fechas especificas 27-29 de agosto de 1999 registradas por COLT."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "907-CHL-COL-34498", "justificacion": "I Cumbre Iberoamericana... corresponde a la Cumbre Iberoamericana de Cartagena de Indias, Colombia, junio de 1994, primera edicion de la serie de cumbres iberoamericanas, consistente con el rango 13-16/6/1994 de COLT y con Cesar Gaviria como presidente colombiano vigente hasta el 7/8/1994."},
+      {"TripID": "907-CHL-USA-34511", "justificacion": "Visita bilateral de trabajo a Bill Clinton, junio de 1994, sin senales de inconsistencia; Clinton era presidente de EEUU vigente."},
+      {"TripID": "907-CHL-BRA-34585", "justificacion": "Corresponde a una Cumbre del Grupo de Rio realizada en Brasil en septiembre de 1994, consistente con el ciclo anual rotativo del Grupo de Rio (del que Chile es miembro desde 1990); Itamar Franco era presidente brasileno vigente hasta el 1/1/1995."},
+      {"TripID": "907-CHL-ARG-34618", "justificacion": "Escala tecnica de un dia camino a Italia, segun las propias Notes de COLT; no requiere verificacion adicional al no involucrar reunion con jefe de Estado ni evento multilateral."},
+      {"TripID": "907-CHL-ITA-34619", "justificacion": "COLT marco este item con Confidence 2/5. Confirmado que la beatificacion del Padre Alberto Hurtado por el Papa Juan Pablo II se realizo en Roma el 16 de octubre de 1994 (fuente: archivo oficial del Vaticano, vatican.va), fecha que coincide exactamente con el TripEndDate registrado por COLT (12-16/10/1994), consistente con un viaje que incluyo tanto la Conferencia de la FAO como la ceremonia de beatificacion al cierre del viaje."},
+      {"TripID": "907-CHL-VAT-34619", "justificacion": "COLT marco este item con Confidence 3/5 (la mas baja de todo el dataset de Frei). Corresponde a una audiencia privada con el Papa Juan Pablo II el 12/10/1994, al inicio del mismo viaje a Roma que culmino con la beatificacion del Padre Hurtado el 16/10/1994 (ver 907-CHL-ITA-34619); es plausible que la audiencia privada con el Pontifice haya ocurrido en un dia distinto de la ceremonia publica de beatificacion. No se hallo fuente que contradiga la fecha especifica de la audiencia."},
+      {"TripID": "907-CHL-AUS-34649", "justificacion": "Visita bilateral a Paul Keating, noviembre de 1994, sin senales de inconsistencia; Keating era Primer Ministro australiano vigente."},
+      {"TripID": "907-CHL-IDN-34651", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Bogor, Indonesia (15 de noviembre de 1994), primera cumbre de APEC a la que asistio Chile como miembro pleno (ingreso en noviembre de 1994), consistente con el rango 13-16/11/1994 de COLT."},
+      {"TripID": "907-CHL-JPN-34654", "justificacion": "Visita bilateral a Japon inmediatamente posterior a APEC Bogor, incluyendo audiencia con el Emperador Akihito; Murayama Tomiichi era Primer Ministro japones vigente."},
+      {"TripID": "907-CHL-KOR-34658", "justificacion": "Visita bilateral a Corea del Sur, primera de un jefe de Estado chileno segun las propias Notes de COLT; Kim Young-sam era presidente surcoreano vigente."},
+      {"TripID": "907-CHL-MEX-34668", "justificacion": "Corresponde a la toma de posesion de Ernesto Zedillo como presidente de Mexico el 1 de diciembre de 1994 (fecha ampliamente documentada), consistente con el rango 30/11-2/12/1994 de COLT."},
+      {"TripID": "907-CHL-USA-34677", "justificacion": "Corresponde a la I Cumbre de las Americas, Miami, 9-11 de diciembre de 1994 (fechas oficiales ampliamente documentadas, con participacion de 34 naciones segun las propias Notes de COLT), coincidente exactamente con el rango de COLT."},
+      {"TripID": "907-CHL-URY-34758", "justificacion": "Corresponde a la toma de posesion de Julio Maria Sanguinetti como presidente de Uruguay el 1 de marzo de 1995, evento ya verificado de forma cruzada en el archivo hermano de Brasil (leader_994, TripID 994-BRA-URY-34759), consistente con el rango 28/2-2/3/1995 de COLT."},
+      {"TripID": "907-CHL-ARG-34887", "justificacion": "Corresponde a la segunda toma de posesion de Carlos Menem como presidente de Argentina, confirmada por fuente oficial (Mensaje Presidencial de asuncion ante el Congreso, Camara de Diputados de la Nacion) como el 8 de julio de 1995, ya verificada en la ronda hermana de Brasil (leader_994). El TripEndDate de COLT para Chile (8/7/1995) ya coincide con la fecha real; no requiere correccion."},
+      {"TripID": "907-CHL-PER-34907", "justificacion": "Corresponde a la segunda toma de posesion de Alberto Fujimori como presidente de Peru, confirmada por multiples fuentes (Infobae, LUM/Centro de Documentacion e Investigacion de Peru, ya verificada en la ronda hermana de Brasil) como el 28 de julio de 1995. El rango de COLT para Chile (27-29/7/1995) ya comprende la fecha real de la ceremonia; no requiere correccion."},
+      {"TripID": "907-CHL-PRY-34915", "justificacion": "Corresponde a la VIII Cumbre de Mercosur en Asuncion, Paraguay, agosto de 1995, ya verificada de forma cruzada en el archivo hermano de Brasil (leader_994, TripID 994-BRA-PRY-34916)."},
+      {"TripID": "907-CHL-ECU-34945", "justificacion": "Corresponde a la IX Reunion del Grupo de Rio en Quito, Ecuador, confirmada para el 4-5 de septiembre de 1995 (bajo la presidencia de Sixto Duran-Ballen), consistente con el rango 3-5/9/1995 de COLT (con un dia de llegada previa al inicio oficial)."},
+      {"TripID": "907-CHL-ARG-34988", "justificacion": "Corresponde a la V Cumbre Iberoamericana en San Carlos de Bariloche, Argentina, confirmada por SEGIB y EU-LAC Foundation para el 16-17 de octubre de 1995, coincidente exactamente con el rango de COLT (ya verificado de forma cruzada en el archivo hermano de Brasil, leader_994)."},
+      {"TripID": "907-CHL-ARG-35007", "justificacion": "Corresponde a la V Cumbre del G-15 en Buenos Aires, confirmada para el 5-7 de noviembre de 1995 bajo la presidencia de Carlos Menem, consistente con el rango 4-7/11/1995 de COLT (con un dia de llegada previa)."},
+      {"TripID": "907-CHL-JPN-35020", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Osaka, Japon (19 de noviembre de 1995), consistente con el rango 17-20/11/1995 de COLT."},
+      {"TripID": "907-CHL-PHL-35023", "justificacion": "Visita bilateral/conferencia de la Internacional Democrata Cristiana en Filipinas, noviembre de 1995; Fidel Ramos era presidente filipino vigente."},
+      {"TripID": "907-CHL-MYS-35024", "justificacion": "Visita bilateral a Malasia, inmediatamente posterior a Filipinas, dentro de la misma gira asiatica de noviembre de 1995; Mahathir bin Mohamad era Primer Ministro malasio vigente."},
+      {"TripID": "907-CHL-CHN-35026", "justificacion": "Visita bilateral a China, cierre de la gira asiatica de noviembre de 1995 (Japon-Filipinas-Malasia-China); Jiang Zemin era Secretario General del PCCh vigente."},
+      {"TripID": "907-CHL-ARG-35179", "justificacion": "Visita bilateral a Carlos Menem, abril de 1996, sin senales de inconsistencia."},
+      {"TripID": "907-CHL-ARG-35239", "justificacion": "Corresponde a la X Cumbre de Mercosur en Potrero de los Funes, San Luis, Argentina, confirmada para el 25 de junio de 1996 (cumbre en la que Chile firmo su Acuerdo de Complementacion Economica como estado asociado), ya verificada de forma cruzada en el archivo hermano de Brasil (leader_994, TripID 994-BRA-ARG-35241), consistente con el rango 23-25/6/1996 de COLT."},
+      {"TripID": "907-CHL-CRI-35257", "justificacion": "Cumbre Centroamerica-Chile en San Jose, julio de 1996, con firma de tratado de proteccion de inversiones segun las propias Notes de COLT; Jose Maria Figueres era presidente costarricense vigente."},
+      {"TripID": "907-CHL-GBR-35352", "justificacion": "Visita bilateral al Reino Unido, octubre de 1996, incluyendo encuentro con la Reina Isabel II segun las propias Notes de COLT; sin senales de inconsistencia."},
+      {"TripID": "907-CHL-CAN-35386", "justificacion": "Visita bilateral a Jean Chretien, noviembre de 1996, sin senales de inconsistencia."},
+      {"TripID": "907-CHL-SGP-35390", "justificacion": "Visita bilateral con agenda de negocios ('A Business Dialogue with Chile') en Singapur, noviembre de 1996, inmediatamente previa a APEC Manila; Goh Chok Tong era Primer Ministro vigente."},
+      {"TripID": "907-CHL-PHL-35393", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Subic Bay/Manila, Filipinas, confirmada para el 24-25 de noviembre de 1996, consistente con el rango 24-26/11/1996 de COLT (con un dia adicional de salida)."},
+      {"TripID": "907-CHL-USA-35486", "justificacion": "Visita bilateral a EEUU, febrero de 1997, con discurso ante el Congreso segun las propias Notes de COLT; Bill Clinton era presidente vigente."},
+      {"TripID": "907-CHL-FRA-35530", "justificacion": "Visita bilateral a Jacques Chirac, abril de 1997, sin senales de inconsistencia."},
+      {"TripID": "907-CHL-ARG-35649", "justificacion": "Inauguracion del primer gasoducto a Chile junto a Carlos Menem, agosto de 1997, evento bilateral puntual de un solo dia bien documentado por las propias Notes de COLT."},
+      {"TripID": "907-CHL-CAN-35757", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Vancouver, Canada, confirmada para el 24-25 de noviembre de 1997, consistente con el rango 23-26/11/1997 de COLT."},
+      {"TripID": "907-CHL-URY-35779", "justificacion": "Cumbre de Mercosur en Montevideo, diciembre de 1997, consistente con la fecha puntual 15/12/1997 de COLT y con el patron semestral de cumbres de Mercosur."},
+      {"TripID": "907-CHL-CHE-35825", "justificacion": "Corresponde al Foro Economico Mundial (WEF) de Davos de enero-febrero de 1998, evento anual bien documentado, consistente con el rango 30/1-2/2/1998 de COLT."},
+      {"TripID": "907-CHL-ARG-35999", "justificacion": "Corresponde a la Cumbre de Mercosur en Ushuaia, Argentina, julio de 1998 (Protocolo de Ushuaia sobre Compromiso Democratico, 24/7/1998), ya verificada de forma cruzada en el archivo hermano de Brasil (leader_994, TripID 994-BRA-ARG-35999), consistente con el rango 23-25/7/1998 de COLT."},
+      {"TripID": "907-CHL-PRY-36022", "justificacion": "Corresponde a la toma de posesion de Raul Cubas Grau como presidente de Paraguay el 15 de agosto de 1998, ya verificada de forma cruzada en el archivo hermano de Brasil (leader_994, TripID 994-BRA-PRY-36021), consistente con el rango 15-16/8/1998 de COLT."},
+      {"TripID": "907-CHL-PAN-36041", "justificacion": "Corresponde a la Cumbre del Grupo de Rio en Panama, confirmada para el 4-5 de septiembre de 1998, consistente con el rango 3-5/9/1998 de COLT (con un dia de llegada previa)."},
+      {"TripID": "907-CHL-PRT-36085", "justificacion": "Corresponde a la VIII Cumbre Iberoamericana en Oporto, Portugal, octubre de 1998, ya verificada de forma cruzada en el archivo hermano de Brasil (leader_994, TripID 994-BRA-PRT-36084), consistente con el rango 17-21/10/1998 de COLT."},
+      {"TripID": "907-CHL-ZAF-36111", "justificacion": "Visita bilateral a Nelson Mandela, noviembre de 1998, sin senales de inconsistencia."},
+      {"TripID": "907-CHL-MYS-36115", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Kuala Lumpur, Malasia, confirmada para el 17-18 de noviembre de 1998, consistente con el rango 16-19/11/1998 de COLT."},
+      {"TripID": "907-CHL-BRA-36138", "justificacion": "Cumbre de Mercosur en Brasil, diciembre de 1998, con Fernando Henrique Cardoso como presidente anfitrion vigente; sin senales de inconsistencia."},
+      {"TripID": "907-CHL-ARG-36144", "justificacion": "Visita bilateral a Carlos Menem, diciembre de 1998; el encuentro con el presidente electo Hugo Chavez (electo el 6/12/1998) mencionado en las Notes de COLT es cronologicamente consistente con la fecha del viaje (15-16/12/1998)."},
+      {"TripID": "907-CHL-ARG-36207", "justificacion": "Visita bilateral a Carlos Menem, febrero de 1999, sin senales de inconsistencia."},
+      {"TripID": "907-CHL-FRA-36234", "justificacion": "Corresponde a una reunion del Banco Interamericano de Desarrollo (BID) en Paris, marzo de 1999, segun las propias Notes de COLT; Jacques Chirac era presidente frances vigente."},
+      {"TripID": "907-CHL-CZE-36235", "justificacion": "Visita bilateral a Vaclav Havel, marzo de 1999, con visita al Monumento Nacional de Terezin segun las propias Notes de COLT; sin senales de inconsistencia."},
+      {"TripID": "907-CHL-DEU-36265", "justificacion": "Visita bilateral a Gerhard Schroder, abril de 1999, sin senales de inconsistencia."},
+      {"TripID": "907-CHL-POL-36269", "justificacion": "Visita bilateral a Aleksander Kwasniewski, abril de 1999, inmediatamente posterior a Alemania; sin senales de inconsistencia."},
+      {"TripID": "907-CHL-BRA-36339", "justificacion": "Corresponde a la Primera Cumbre entre Jefes de Estado y de Gobierno de America Latina y el Caribe y la Union Europea, Rio de Janeiro, confirmada para el 28-29 de junio de 1999, consistente con el rango 28-30/6/1999 de COLT (con un dia adicional de salida)."},
+      {"TripID": "907-CHL-ECU-36401", "justificacion": "Visita bilateral a Jamil Mahuad, agosto de 1999, inmediatamente posterior a Colombia; sin senales de inconsistencia."},
+      {"TripID": "907-CHL-NZL-36414", "justificacion": "Corresponde a la Cumbre de Lideres de APEC en Auckland, Nueva Zelanda, confirmada para el 11-13 de septiembre de 1999 (con la presencia expresa de Eduardo Frei entre los mandatarios latinoamericanos asistentes segun fuentes de la epoca), coincidente exactamente con el rango de COLT."}
+    ]
+  }
+]
