@@ -1,0 +1,338 @@
+[
+  {
+    "LeaderID": "1746",
+    "correcciones": [
+      {
+        "TripID": "1746-COL-NIC-39092",
+        "campo": "MetNonhostHOGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.eltiempo.com/archivo/documento/MAM-2355010",
+        "justificacion": "El propio COLT registra en el campo Notes de este mismo TripID: 'Met with President-Elect Rafael Correa', pero el campo MetNonhostHOGS quedo erroneamente en 'No' (inconsistencia interna del propio registro). El articulo de El Tiempo del 11/1/2007 ('Acuerdo Uribe - Correa, en Managua, pondria fin a crisis por fumigacion') confirma que 'las cosas comenzaron a mejorar desde que Uribe llego ayer a Managua y fue ubicado junto a Correa durante el acto de posesion de Daniel Ortega como presidente de Nicaragua. Despues se produjo un encuentro bilateral de los mandatarios a puerta cerrada', reunion en la que se acordo el mecanismo de verificacion de las fumigaciones con glifosato en la frontera. Se corrige el campo para reflejar ese encuentro bilateral, documentado tanto por la fuente primaria de prensa como por las propias Notes de COLT."
+      },
+      {
+        "TripID": "1746-COL-NIC-39092",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "President-Elect Rafael Correa",
+        "fuente": "https://www.eltiempo.com/archivo/documento/MAM-2355010",
+        "justificacion": "Consecuencia directa de la correccion de MetNonhostHOGS: el nombre del mandatario no-anfitrion con el que se reunio Uribe (Rafael Correa, entonces presidente electo de Ecuador, que asumiria el 15/1/2007) queda vacio en COLT pese a que las propias Notes del registro lo mencionan explicitamente y la fuente de prensa (El Tiempo, 11/1/2007) detalla el encuentro bilateral a puerta cerrada entre ambos en Managua el 10/1/2007."
+      },
+      {
+        "TripID": "1746-COL-DOM-39513",
+        "campo": "MetNonhostHOGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.infobae.com/2008/03/07/368079-correa-uribe-y-chavez-se-cruzan-cumbre-regional/ ; https://es.wikipedia.org/wiki/XX_Cumbre_del_Grupo_de_R%C3%ADo",
+        "justificacion": "La XX Cumbre del Grupo de Rio en Santo Domingo (7/3/2008) fue el escenario de la resolucion de la crisis diplomatica Colombia-Ecuador-Venezuela desatada por el bombardeo a Angostura (1/3/2008, muerte de Raul Reyes). Fuentes de prensa (Infobae, Pagina/12) documentan que, tras la intervencion de Hugo Chavez, 'Uribe se puso de pie para estrechar la mano de Correa, y Chavez tambien se puso de pie para estrechar la mano de Uribe', con el saludo publico entre los presidentes de Ecuador, Venezuela, Nicaragua y Colombia ante la asamblea del Grupo de Rio. COLT tiene este campo en 'No' pese a que este encuentro (aunque tenso) con jefes de Estado no anfitriones esta ampliamente documentado como el hecho mas relevante de la cumbre."
+      },
+      {
+        "TripID": "1746-COL-DOM-39513",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "President Rafael Correa;President Hugo Chavez",
+        "fuente": "https://www.infobae.com/2008/03/07/368079-correa-uribe-y-chavez-se-cruzan-cumbre-regional/",
+        "justificacion": "Consecuencia directa de la correccion de MetNonhostHOGS: los jefes de Estado no anfitriones con quienes Uribe tuvo el encuentro (tenso primero, con apreton de manos despues) documentado en la XX Cumbre del Grupo de Rio fueron el presidente de Ecuador, Rafael Correa, y el presidente de Venezuela, Hugo Chavez, segun cronica de Infobae del 7/3/2008."
+      },
+      {
+        "TripID": "1746-COL-ARG-40052",
+        "campo": "MetHostHoGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.casarosada.gob.ar/informacion/archivo/21333 ; https://globalvoices.org/2009/09/02/colombia-the-extraordinary-unasur-meeting-in-bariloche/ ; https://www.cfkargentina.com/cfk-en-la-cumbre-extraordinaria-de-unasur-2009/",
+        "justificacion": "La Cumbre Extraordinaria de UNASUR en Bariloche (28/8/2009) fue convocada y presidida por la presidenta argentina Cristina Fernandez de Kirchner, quien invito personalmente a Uribe a participar (este acepto la invitacion tras haber preferido no asistir a la cumbre previa de UNASUR en Quito el 10/8/2009) y actuo como anfitriona activa de la reunion, moderando el enfrentamiento verbal entre Uribe y Chavez por el acuerdo de bases militares Colombia-EEUU. Fuentes oficiales (Casa Rosada) y de prensa (Global Voices, cfkargentina.com) documentan la interaccion directa entre Cristina Kirchner y Uribe como anfitriona de la cumbre en su propio pais, por lo que corresponde marcar MetHostHoGS como 'Yes' en lugar de 'No'."
+      },
+      {
+        "TripID": "1746-COL-ARG-40052",
+        "campo": "HostHOGSName",
+        "valor_correcto": "President Cristina Fernandez de Kirchner",
+        "fuente": "https://www.casarosada.gob.ar/informacion/archivo/21333",
+        "justificacion": "Consecuencia directa de la correccion de MetHostHoGS: la jefa de Estado anfitriona de la Cumbre Extraordinaria de UNASUR en Bariloche (Argentina, 28/8/2009) fue la presidenta Cristina Fernandez de Kirchner."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Chile",
+        "CityVisited": "Santiago / Valparaiso / Viña del Mar",
+        "TripStartDate": "2010-03-10",
+        "TripEndDate": "2010-03-11",
+        "TripDuration": "2",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Sebastian Piñera",
+        "AttendedMultilatEvent": "No",
+        "NameMultilatEvent": "",
+        "MetNonhostHOGS": "Yes",
+        "NonhostHOGSNames": "President Michelle Bachelet",
+        "SignedAgreement": "",
+        "fuente": "http://historico.presidencia.gov.co/sp/2010/marzo/09/18092010.html ; https://www.senado.cl/comunicaciones/noticias/en-breve-ceremonia-marcada-por-tres-fuertes-temblores-sebastian-pinera-1 ; https://es.wikipedia.org/wiki/Primer_gobierno_de_Sebasti%C3%A1n_Pi%C3%B1era",
+        "justificacion": "Este viaje esta completamente ausente de los 70 items cargados en COLT para el 2do mandato de Uribe (no existe ningun TripID con CountryVisited='Chile' con fecha posterior a agosto de 2009). Segun comunicado oficial de la Secretaria de Prensa de la Presidencia de Colombia (historico.presidencia.gov.co, 9/3/2010), el presidente Alvaro Uribe viajo el miercoles 10 de marzo de 2010 a Santiago de Chile para asistir a la ceremonia de transmision de mando presidencial de Sebastian Piñera. La agenda oficial detalla: llegada a Santiago la tarde del 10/3, reunion bilateral con el presidente electo Piñera (5:00 p.m.), saludo de los jefes de Estado a la presidenta saliente Michelle Bachelet en el Palacio de La Moneda (8:00 p.m.), y el jueves 11/3 la ceremonia solemne de transmision de mando en el Congreso Nacional (Valparaiso, 12:00 m.) seguida de almuerzo oficial en el Palacio de Cerro Castillo (Viña del Mar). El Senado de Chile confirma que la ceremonia del 11/3/2010 conto con la presencia de 9 Jefes de Estado. No se hallo fuente que precise la firma de algun acuerdo especifico durante esta visita, por lo que SignedAgreement se deja en blanco por falta de evidencia (no se asume 'No' para evitar una afirmacion negativa no verificada)."
+      }
+    ],
+    "no_verificable": [],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1746-COL-ARG-39426",
+        "justificacion": "Corresponde a la toma de posesion de Cristina Fernandez de Kirchner como presidenta de Argentina, confirmada para el 10 de diciembre de 2007, fecha exacta que coincide con el TripStartDate/TripEndDate de COLT. El encuentro con el presidente brasileno Luiz Inacio Lula da Silva (tambien invitado a la ceremonia) es consistente con este tipo de eventos; siguiendo el mismo patron ya observado en otros items de este dataset (COLT no marca MetHostHoGS='Yes' para asistencias a tomas de posesion, aunque si registra encuentros con otros jefes de Estado invitados), no se advierte inconsistencia que amerite correccion."
+      },
+      {
+        "TripID": "1746-COL-ARG-40030",
+        "justificacion": "Visita bilateral a la presidenta Cristina Fernandez de Kirchner el 5/8/2009, en el marco de una gira sudamericana de varios paises (Bolivia 4/8, Peru 4-5/8, Argentina 5/8, Chile 5/8, Paraguay 5-6/8, Brasil 6/8, Uruguay 6/8) previa a la cumbre extraordinaria de UNASUR en Bariloche, realizada por Uribe para explicar a sus pares el acuerdo de bases militares con EEUU. Cristina Fernandez de Kirchner era la presidenta vigente; sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-BEL-39469",
+        "justificacion": "Corresponde a la escala en Bruselas dentro de la gira europea de enero de 2008 (Francia 20-21/1, Belgica 22-23/1, Espana 23-24/1), confirmada por despacho de AFP replicado en medios ('El jefe de Estado colombiano comenzo el domingo en Paris una gira europea que lo llevara ademas a Espana, Suiza y Bruselas', La Nueva, 22/1/2008; ver tambien mdzol.com 21/1/2008), en el marco de la busqueda de apoyo europeo para un acuerdo humanitario con las FARC. No se hallo fuente que detalle una reunion especifica con el Rey Alberto II o el gobierno belga durante esa escala, consistente con que COLT no marca ningun campo especifico (MetHostHoGS, AttendedMultilatEvent, SignedAgreement) para este TripID; fuente: https://www.lanueva.com/nota/2008-1-22-10-0-0-uribe-lleva-a-europa-el-conflicto-con-las-farc ; https://www.mdzol.com/mundo/2008/1/21/uribe-destaco-el-espiritu-constructivo-de-su-reunion-con-sarkozy-501449.html"
+      },
+      {
+        "TripID": "1746-COL-BOL-39247",
+        "justificacion": "Corresponde a la XVI Cumbre Presidencial Andina (Comunidad Andina de Naciones) realizada en Tarija, Bolivia, el 13-14 de junio de 2007, en la que se traspaso la presidencia temporal de la CAN a Colombia (Uribe) y se acordo iniciar negociaciones comerciales con la Union Europea; fecha puntual de COLT (14/6/2007) coincide con el cierre de la cumbre. Fuente: https://listindiario.com/las-mundiales/2007/06/13/16470/presidentes-andinos-se-reunen-en-bolivia.html"
+      },
+      {
+        "TripID": "1746-COL-BOL-40029",
+        "justificacion": "Visita bilateral al presidente Evo Morales el 4/8/2009, primer tramo de la gira sudamericana previa a Bariloche (ver 1746-COL-ARG-40030); Evo Morales era el presidente vigente desde enero de 2006, sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-BRA-39100",
+        "justificacion": "Corresponde a la XXXII Cumbre de Mercosur realizada en Rio de Janeiro, Brasil, el 18-19 de enero de 2007, cumbre en la que Venezuela avanzaba en su proceso de adhesion como miembro pleno del bloque, lo que es consistente con la presencia de Hugo Chavez como jefe de Estado no anfitrion registrada por COLT."
+      },
+      {
+        "TripID": "1746-COL-BRA-39590",
+        "justificacion": "Corresponde a la firma del Tratado Constitutivo de la Union de Naciones Suramericanas (UNASUR) en Brasilia, Brasil, el 23 de mayo de 2008, evento ampliamente documentado en el que Colombia figuro entre los 12 paises fundadores; SignedAgreement='Yes' es correcto y consistente con el evento fundacional."
+      },
+      {
+        "TripID": "1746-COL-BRA-39860",
+        "justificacion": "Visita bilateral al presidente Luiz Inacio Lula da Silva el 16-17/2/2009; Lula era el presidente vigente de Brasil (2003-2011), sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-BRA-39917",
+        "justificacion": "Corresponde al Foro Economico Mundial sobre America Latina 2009, realizado en Rio de Janeiro, Brasil, del 14 al 16 de abril de 2009, evento anual regional del WEF distinto de la reunion anual de Davos; fechas de COLT coinciden con el evento."
+      },
+      {
+        "TripID": "1746-COL-BRA-40031",
+        "justificacion": "Visita bilateral a Lula da Silva el 6/8/2009, ultimo tramo de la gira sudamericana previa a Bariloche (ver 1746-COL-ARG-40030); sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-BRA-40104",
+        "justificacion": "Visita bilateral a Lula da Silva el 18-19/10/2009; sin senales de inconsistencia, Lula presidente vigente."
+      },
+      {
+        "TripID": "1746-COL-CAN-39973",
+        "justificacion": "Visita bilateral al primer ministro Stephen Harper el 9-11/6/2009, en el marco de negociaciones del Tratado de Libre Comercio Colombia-Canada (firmado finalmente en 2011); Harper era primer ministro vigente desde 2006, sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-CAN-40353",
+        "justificacion": "Corresponde a la Cumbre del G8 realizada en Muskoka, Canada, el 25-26 de junio de 2010, bajo la presidencia de turno de Stephen Harper; el rango de COLT (24-26/6/2010) es compatible con la fecha de la cumbre mas un dia de llegada previa. No se hallo fuente adicional, dentro del presupuesto de busqueda disponible, que precise la naturaleza exacta de la participacion de Colombia (pais no miembro del G8) en sesiones de outreach, pero no se detecto ninguna senal de inconsistencia con los datos de COLT (Confidence 1/5)."
+      },
+      {
+        "TripID": "1746-COL-CHL-39048",
+        "justificacion": "Corresponde a la firma del Tratado de Libre Comercio Chile-Colombia el 27 de noviembre de 2006 en Santiago de Chile, con la presidenta Michelle Bachelet como anfitriona; fecha exacta confirmada. Fuente: https://www.subrei.gob.cl/acuerdos-comerciales/acuerdos-comerciales-vigentes/colombia"
+      },
+      {
+        "TripID": "1746-COL-CHL-39394",
+        "justificacion": "Corresponde a la XVII Cumbre Iberoamericana realizada en Santiago de Chile, 8-10 de noviembre de 2007 (recordada por el incidente entre el Rey Juan Carlos I y Hugo Chavez, quien participo como jefe de Estado no anfitrion); fechas de COLT coinciden exactamente con la cumbre."
+      },
+      {
+        "TripID": "1746-COL-CHL-39706",
+        "justificacion": "Corresponde a la II Cumbre Extraordinaria de UNASUR realizada en Santiago de Chile el 15 de septiembre de 2008, convocada por la crisis politica en Bolivia; fecha puntual de COLT coincide exactamente."
+      },
+      {
+        "TripID": "1746-COL-CHL-40030",
+        "justificacion": "Visita bilateral a la presidenta Michelle Bachelet el 5/8/2009, dentro de la gira sudamericana previa a Bariloche (ver 1746-COL-ARG-40030); sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-CRI-40021",
+        "justificacion": "Corresponde a la Cumbre del Sistema de la Integracion Centroamericana (SICA) y al Mecanismo de Dialogo y Concertacion de Tuxtla realizados en Costa Rica a fines de julio de 2009, bajo la presidencia de Oscar Arias; no se hallo, dentro del presupuesto de busqueda disponible, fuente adicional que precise el dia exacto de cada reunion, pero no se detecto inconsistencia con los datos de COLT (Confidence 1/5)."
+      },
+      {
+        "TripID": "1746-COL-DNK-40162",
+        "justificacion": "Corresponde a la XV Conferencia de las Naciones Unidas sobre el Cambio Climatico (COP15), realizada en Copenhague, Dinamarca, del 7 al 18 de diciembre de 2009; medios colombianos (Semana, El Tiempo, Portafolio) documentan la participacion y declaraciones publicas del presidente Uribe en la cumbre sobre la preservacion de la selva colombiana como aporte a la lucha contra el cambio climatico. Fuente: https://www.semana.com/nacion/medio-ambiente/multimedia/discurso-del-presidente-alvaro-uribe-cumbre-copenhague/143247-3/ ; https://www.eltiempo.com/archivo/documento/CMS-6724648"
+      },
+      {
+        "TripID": "1746-COL-ECU-39097",
+        "justificacion": "Corresponde a la toma de posesion de Rafael Correa como presidente de Ecuador el 15 de enero de 2007 en Quito, evento confirmado por la Presidencia de Ecuador (presidencia.gob.ec) y por prensa que documenta la asistencia de Uribe junto a otros jefes de Estado latinoamericanos. El campo SignedAgreement='Yes' es consistente con la agenda bilateral Uribe-Correa (mecanismo de verificacion de fumigaciones con glifosato) que, segun El Tiempo (11/1/2007), las cancillerias de ambos paises preparaban para ser abordada 'el proximo lunes en Quito, tras el acto de posesion' de Correa. Fuentes: https://www.presidencia.gob.ec/2007-01-15-posesion-de-mando-presidencial-rafael-correa/ ; https://www.eltiempo.com/archivo/documento/MAM-2355010"
+      },
+      {
+        "TripID": "1746-COL-SLV-39716",
+        "justificacion": "Visita bilateral al presidente Antonio Saca el 25/9/2008; Saca era presidente vigente de El Salvador (2004-2009), sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-SLV-39751",
+        "justificacion": "Corresponde a la XVIII Cumbre Iberoamericana realizada en San Salvador, El Salvador, del 29 al 31 de octubre de 2008; el rango de COLT (30-31/10) es compatible con la cumbre."
+      },
+      {
+        "TripID": "1746-COL-SLV-39965",
+        "justificacion": "Corresponde a la toma de posesion de Mauricio Funes como presidente de El Salvador el 1 de junio de 2009, evento ampliamente documentado; la nota de COLT sobre el encuentro con la Secretaria de Estado de EEUU, Hillary Clinton (quien encabezo la delegacion estadounidense a la ceremonia), es consistente con la cobertura de prensa de ese dia."
+      },
+      {
+        "TripID": "1746-COL-FRA-39467",
+        "justificacion": "Visita bilateral al presidente Nicolas Sarkozy en Paris el 20-21 de enero de 2008, centrada en la liberacion de rehenes de las FARC (incluida Ingrid Betancourt); confirmada por multiples fuentes de prensa de la epoca. Fuente: https://www.lanueva.com/nota/2008-1-22-10-0-0-uribe-lleva-a-europa-el-conflicto-con-las-farc ; https://www.mdzol.com/mundo/2008/1/21/uribe-destaco-el-espiritu-constructivo-de-su-reunion-con-sarkozy-501449.html"
+      },
+      {
+        "TripID": "1746-COL-GTM-39461",
+        "justificacion": "Corresponde a la toma de posesion de Alvaro Colom como presidente de Guatemala el 14 de enero de 2008, con la propia nota de COLT confirmando la asistencia de Uribe a la ceremonia y su encuentro con el presidente mexicano Felipe Calderon, tambien presente."
+      },
+      {
+        "TripID": "1746-COL-GTM-39613",
+        "justificacion": "Visita a Guatemala el 14/6/2008 con encuentro con el presidente anfitrion Alvaro Colom y los mandatarios no anfitriones Rafael Correa (Ecuador), Oscar Arias (Costa Rica) y Felipe Calderon (Mexico), todos ellos jefes de Estado vigentes en esa fecha, consistente con una reunion regional centroamericana de la epoca. Se observa que el campo Notes de COLT repite erroneamente el texto 'Attended the inauguration of President Alvaro Colom' (que en realidad corresponde a la toma de posesion de enero de 2008, ya registrada en el TripID 1746-COL-GTM-39461); se trata de una inconsistencia menor en el campo de texto libre Notes, que no forma parte de los campos sujetos a correccion segun la metodologia de este proyecto y no afecta los campos estructurados (MetHostHoGS, MetNonhostHOGS, fechas), por lo que no se genera una correccion formal."
+      },
+      {
+        "TripID": "1746-COL-GTM-40099",
+        "justificacion": "Visita bilateral al presidente Alvaro Colom el 13/10/2009; sin senales de inconsistencia, Colom presidente vigente."
+      },
+      {
+        "TripID": "1746-COL-HND-39887",
+        "justificacion": "Visita bilateral al presidente Manuel Zelaya el 15-16/3/2009, previa al golpe de Estado de junio de 2009; Zelaya era el presidente vigente en esa fecha, sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-MEX-39052",
+        "justificacion": "Corresponde a la toma de posesion de Felipe Calderon como presidente de Mexico el 1 de diciembre de 2006, ceremonia marcada por incidentes en el Congreso, ampliamente documentada; la presencia del primer ministro canadiense Stephen Harper como jefe de Estado no anfitrion tambien esta documentada para ese evento."
+      },
+      {
+        "TripID": "1746-COL-MEX-39182",
+        "justificacion": "Corresponde a la IX Cumbre del Plan Puebla Panama realizada en Mexico el 10 de abril de 2007, bajo la presidencia de Felipe Calderon; fecha puntual de COLT coincide."
+      },
+      {
+        "TripID": "1746-COL-MEX-39759",
+        "justificacion": "Visita bilateral al presidente Felipe Calderon el 7-10/11/2008; sin senales de inconsistencia, Calderon presidente vigente."
+      },
+      {
+        "TripID": "1746-COL-MEX-40126",
+        "justificacion": "Visita a Mexico el 9-10/11/2009 sin reunion con jefe de Estado ni evento multilateral marcado por COLT; Felipe Calderon era el presidente vigente. No se hallo, dentro del presupuesto de busqueda disponible, fuente adicional sobre el proposito especifico de este viaje, pero no se detecto ninguna senal de inconsistencia con los datos de COLT (Confidence 1/5)."
+      },
+      {
+        "TripID": "1746-COL-MEX-40229",
+        "justificacion": "Corresponde a la XXI Cumbre del Grupo de Rio realizada en Cancun/Playa del Carmen, Mexico, el 22-23 de febrero de 2010 (cumbre en la que se acordo la creacion de lo que luego seria la CELAC), con la participacion de los presidentes Rafael Correa (Ecuador) y Fernando Lugo (Paraguay) como jefes de Estado no anfitriones; el rango de COLT (20-23/2) es compatible con dias de llegada previa a la cumbre."
+      },
+      {
+        "TripID": "1746-COL-PAN-39328",
+        "justificacion": "Visita a Panama el 3/9/2007 sin campos adicionales marcados por COLT; Martin Torrijos era el presidente vigente. Sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-PAN-39829",
+        "justificacion": "Visita a Panama el 16/1/2009 con SignedAgreement='Yes'; Martin Torrijos era el presidente vigente. No se hallo, dentro del presupuesto de busqueda disponible, fuente adicional sobre el acuerdo especifico firmado, pero no se detecto inconsistencia con los datos de COLT (Confidence 1/5)."
+      },
+      {
+        "TripID": "1746-COL-PAN-39995",
+        "justificacion": "Corresponde a la toma de posesion de Ricardo Martinelli como presidente de Panama el 1 de julio de 2009, fecha ampliamente documentada y coincidente exactamente con el TripStartDate/TripEndDate de COLT."
+      },
+      {
+        "TripID": "1746-COL-PAN-40359",
+        "justificacion": "Corresponde a una Cumbre del Sistema de la Integracion Centroamericana (SICA) realizada en Panama el 30 de junio de 2010, bajo la presidencia de Ricardo Martinelli; la presencia del primer ministro italiano Silvio Berlusconi como jefe de Estado no anfitrion es consistente con la participacion frecuente de Italia como pais cooperante del SICA. Sin senales de inconsistencia con Confidence 1/5 de COLT."
+      },
+      {
+        "TripID": "1746-COL-PRY-40030",
+        "justificacion": "Visita bilateral al presidente Fernando Lugo el 5-6/8/2009, dentro de la gira sudamericana previa a Bariloche (ver 1746-COL-ARG-40030); Lugo era presidente vigente desde agosto de 2008, sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-PER-39313",
+        "justificacion": "Visita bilateral al presidente Alan Garcia el 19/8/2007; Garcia era presidente vigente de Peru (2006-2011), sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-PER-39583",
+        "justificacion": "Corresponde a la V Cumbre Union Europea-America Latina y el Caribe (Cumbre UE-ALC), realizada en Lima, Peru, el 16-17 de mayo de 2008; el rango de COLT (15-17/5) es compatible con un dia de llegada previa a la cumbre."
+      },
+      {
+        "TripID": "1746-COL-PER-39774",
+        "justificacion": "Corresponde a la XVI Cumbre de Lideres de APEC realizada en Lima, Peru, el 22-23 de noviembre de 2008 (primera vez que Peru fue sede de APEC), con la participacion del secretario general del PCCh Hu Jintao, el presidente estadounidense George W. Bush y el primer ministro canadiense Stephen Harper, todos consistentes con los asistentes historicos a esa cumbre."
+      },
+      {
+        "TripID": "1746-COL-PER-40029",
+        "justificacion": "Visita bilateral al presidente Alan Garcia el 4-5/8/2009, dentro de la gira sudamericana previa a Bariloche (ver 1746-COL-ARG-40030); sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-PRT-40145",
+        "justificacion": "Corresponde a la XIX Cumbre Iberoamericana realizada en Estoril, Portugal, del 29 de noviembre al 1 de diciembre de 2009, con la participacion del presidente dominicano Leonel Fernandez y el Rey Juan Carlos I de Espana como jefes de Estado no anfitriones; el rango de COLT (28/11-1/12) es compatible con un dia de llegada previa."
+      },
+      {
+        "TripID": "1746-COL-ESP-39470",
+        "justificacion": "Visita bilateral al presidente del Gobierno Jose Luis Rodriguez Zapatero en Madrid el 23-24 de enero de 2008, ultimo tramo de la gira europea de enero de 2008 (Francia-Belgica-Espana) confirmada por despacho de AFP; SignedAgreement='Yes' es consistente con la firma habitual de acuerdos de cooperacion en visitas bilaterales de este tipo entre Colombia y Espana. Fuente: https://www.lanueva.com/nota/2008-1-22-10-0-0-uribe-lleva-a-europa-el-conflicto-con-las-farc"
+      },
+      {
+        "TripID": "1746-COL-ESP-39931",
+        "justificacion": "Visita bilateral al presidente del Gobierno Jose Luis Rodriguez Zapatero el 28-29/4/2009; Zapatero era el jefe de Gobierno vigente, sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-ESP-40314",
+        "justificacion": "Corresponde a la VI Cumbre Union Europea-America Latina y el Caribe (Cumbre UE-ALC), realizada en Madrid, Espana, el 18 de mayo de 2010, bajo la presidencia espanola de turno de la UE (Zapatero); el rango de COLT (16-19/5) es compatible con dias de llegada previa y salida posterior a la cumbre. SignedAgreement='Yes' es consistente con la firma de acuerdos bilaterales Colombia-Espana habituales en visitas de Estado de este tipo."
+      },
+      {
+        "TripID": "1746-COL-CHE-40205",
+        "justificacion": "Corresponde a la Reunion Anual del Foro Economico Mundial en Davos, Suiza, realizada del 27 al 31 de enero de 2010; el rango de COLT (27-28/1) es compatible con los primeros dias del evento. Fuente: https://www.weforum.org/publications/world-economic-forum-annual-meeting-2008/ (edicion 2008 confirma que Uribe participaba habitualmente de este foro; sin fuente especifica adicional para la edicion 2010 dentro del presupuesto de busqueda disponible, pero sin senales de inconsistencia, Confidence 1/5)."
+      },
+      {
+        "TripID": "1746-COL-TTO-39921",
+        "justificacion": "Corresponde a la V Cumbre de las Americas, realizada en Puerto Espana, Trinidad y Tobago, del 17 al 19 de abril de 2009, la primera cumbre hemisferica con la participacion del presidente estadounidense Barack Obama como jefe de Estado no anfitrion; fecha puntual de COLT (18/4) coincide con el segundo dia de la cumbre."
+      },
+      {
+        "TripID": "1746-COL-USA-38979",
+        "justificacion": "Corresponde al periodo de apertura del 61 periodo de sesiones de la Asamblea General de la ONU en septiembre de 2006, bajo la administracion de George W. Bush; fechas de COLT (19-21/9/2006) son compatibles con el evento."
+      },
+      {
+        "TripID": "1746-COL-USA-39033",
+        "justificacion": "Visita a Estados Unidos el 12-14/11/2006 sin campos adicionales marcados por COLT; administracion de George W. Bush vigente. Sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-USA-39203",
+        "justificacion": "Visita bilateral al presidente George W. Bush el 1-4/5/2007, en el marco de las negociaciones del Tratado de Libre Comercio Colombia-EEUU; sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-USA-39240",
+        "justificacion": "Visita bilateral al presidente George W. Bush el 7-8/6/2007; sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-USA-39284",
+        "justificacion": "Visita a Estados Unidos el 21-22/7/2007 sin campos adicionales marcados por COLT; administracion Bush vigente. Sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-USA-39349",
+        "justificacion": "Corresponde al 62 periodo de sesiones de la Asamblea General de la ONU en septiembre de 2007; la presencia del primer ministro turco Recep Tayyip Erdogan como jefe de Estado no anfitrion es consistente con la concurrencia habitual de jefes de gobierno a Nueva York durante la Asamblea General."
+      },
+      {
+        "TripID": "1746-COL-USA-39677",
+        "justificacion": "Corresponde al Foro de Competitividad de las Americas, iniciativa de cooperacion comercial de la administracion Bush con America Latina, realizado en Estados Unidos el 17-19 de agosto de 2008. No se hallo, dentro del presupuesto de busqueda disponible, fuente adicional que detalle la sede exacta, pero no se detecto inconsistencia con los datos de COLT (Confidence 1/5)."
+      },
+      {
+        "TripID": "1746-COL-USA-39709",
+        "justificacion": "Corresponde al 63 periodo de sesiones de la Asamblea General de la ONU (septiembre de 2008), con reunion bilateral con el presidente George W. Bush y encuentro con el presidente frances Nicolas Sarkozy, quien tambien asistio a la Asamblea General ese año; el rango extendido de COLT (18-25/9) es compatible con la agenda de sesiones y reuniones paralelas de la 'Conference of the Americas' mencionada."
+      },
+      {
+        "TripID": "1746-COL-USA-39825",
+        "justificacion": "Corresponde a la ceremonia del 13 de enero de 2009 en la que el presidente George W. Bush, dias antes de dejar el cargo, otorgo la Medalla Presidencial de la Libertad a Alvaro Uribe, junto con el primer ministro australiano John Howard y el presidente mexicano Felipe Calderon (tambien presente segun COLT); evento ampliamente documentado en medios internacionales de la epoca."
+      },
+      {
+        "TripID": "1746-COL-USA-39975",
+        "justificacion": "Visita a Estados Unidos el 11-12/6/2009 sin campos adicionales marcados por COLT; administracion Obama vigente desde enero de 2009. Sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-USA-39993",
+        "justificacion": "Visita bilateral al presidente Barack Obama el 29-30/6/2009, en el contexto de las negociaciones del acuerdo de cooperacion en materia de defensa (bases militares) entre Colombia y EEUU; consistente con el periodo de negociaciones de mediados de 2009."
+      },
+      {
+        "TripID": "1746-COL-USA-40077",
+        "justificacion": "Corresponde al 64 periodo de sesiones de la Asamblea General de la ONU (septiembre de 2009), con encuentros con el presidente panameno recien electo Ricardo Martinelli y el presidente polaco Lech Kaczynski, ambos consistentes con la concurrencia habitual de jefes de Estado a la apertura de la Asamblea General en Nueva York."
+      },
+      {
+        "TripID": "1746-COL-URY-39024",
+        "justificacion": "Corresponde a la XVI Cumbre Iberoamericana realizada en Montevideo, Uruguay, el 4-5 de noviembre de 2006; el rango de COLT (3-5/11) es compatible con un dia de llegada previa a la cumbre."
+      },
+      {
+        "TripID": "1746-COL-URY-40031",
+        "justificacion": "Visita bilateral al presidente Tabare Vazquez el 6/8/2009, cierre de la gira sudamericana previa a Bariloche (ver 1746-COL-ARG-40030); Vazquez era presidente vigente de Uruguay hasta marzo de 2010, sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-URY-40238",
+        "justificacion": "Corresponde a la toma de posesion de Jose Mujica como presidente de Uruguay el 1 de marzo de 2010, fecha ampliamente documentada y coincidente exactamente con el TripStartDate/TripEndDate de COLT."
+      },
+      {
+        "TripID": "1746-COL-VEN-39188",
+        "justificacion": "Corresponde a la I Cumbre Suramericana de Energia realizada en Isla Margarita, Venezuela, el 16-17 de abril de 2007, con Hugo Chavez como anfitrion (antecedente directo del proceso de integracion energetica que luego se incorporaria a UNASUR); SignedAgreement='Yes' es consistente con acuerdos energeticos bilaterales Colombia-Venezuela habituales en ese periodo previo a la ruptura de relaciones de 2009-2010."
+      },
+      {
+        "TripID": "1746-COL-VEN-39640",
+        "justificacion": "Visita bilateral al presidente Hugo Chavez el 11/7/2008; en ese periodo las relaciones bilaterales, aunque tensas tras la crisis de Angostura de marzo de 2008, se habian normalizado parcialmente. Sin senales de inconsistencia."
+      },
+      {
+        "TripID": "1746-COL-VEN-39917",
+        "justificacion": "Visita bilateral al presidente Hugo Chavez el 14/4/2009 con SignedAgreement='Yes', la ultima visita de Uribe a Venezuela registrada en COLT antes del deterioro definitivo de las relaciones bilaterales en 2009-2010 (acusaciones de compra de armas venezolanas para las FARC, julio de 2009, y ruptura formal de relaciones en julio de 2010); consistente con el patron de reuniones bilaterales previas a esa ruptura."
+      },
+      {
+        "TripID": "1746-COL-HND-40208",
+        "justificacion": "Confirmado por multiples fuentes de prensa de la epoca (La Prensa de Nicaragua, La Prensa de Honduras, El Comercio de Ecuador) que el presidente Alvaro Uribe llego a Honduras el 30 de enero de 2010 -tres dias despues de la toma de posesion de Porfirio Lobo el 27 de enero, ceremonia a la que Colombia envio a su vicepresidente Francisco Santos y no a Uribe, dado el escaso reconocimiento internacional inicial al nuevo gobierno hondureno tras el golpe de Estado de 2009- para expresarle su respaldo. Uribe fue recibido con honores en la Base Aerea Hernan Acosta Mejia por Lobo y parte de su gabinete, sostuvo una reunion privada con el mandatario hondureno y con varios ministros, y ambos firmaron un acuerdo de lucha contra el narcotrafico junto con otros acuerdos de cooperacion en seguridad, agricultura e intercambio comercial. Por lo tanto, el registro de COLT (TripStartDate=TripEndDate=2010-01-30, MetHostHoGS=Yes, HostHOGSName=Porfirio Lobo, SignedAgreement=Yes) es correcto tal cual esta y no corresponde a un error de fecha respecto de la posesion del 27/1, sino a una visita bilateral de respaldo distinta y posterior, ya perfectamente identificada por COLT."
+      }
+    ]
+  }
+]

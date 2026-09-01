@@ -1,0 +1,189 @@
+[
+  {
+    "LeaderID": "3477",
+    "correcciones": [
+      {
+        "TripID": "3477-COL-BOL-44142",
+        "campo": "TripStartDate",
+        "valor_correcto": "2020-11-08",
+        "fuente": "https://www.larepublica.co/economia/ivan-duque-llega-a-bolivia-para-el-evento-de-posesion-del-nuevo-presidente-luis-arce-3086374 ; https://www.rcnradio.com/politica/presidente-duque-ya-esta-en-bolivia-para-posesion-de-luis-arce ; https://es.wikipedia.org/wiki/Investidura_presidencial_de_Luis_Arce",
+        "justificacion": "Multiples fuentes independientes (La Republica, RCN Radio, El Colombiano) confirman que Ivan Duque aterrizo en el Aeropuerto Internacional de El Alto en la madrugada del domingo 8 de noviembre de 2020 para asistir a la posesion de Luis Arce, que se realizo ese mismo dia (8/11/2020) ante la presencia del Rey Felipe VI de España y varios presidentes de la region. COLT registra el viaje como iniciado y concluido el 7 de noviembre de 2020, un dia antes de la fecha real de la posesion y del arribo confirmado de Duque a Bolivia."
+      },
+      {
+        "TripID": "3477-COL-BOL-44142",
+        "campo": "TripEndDate",
+        "valor_correcto": "2020-11-08",
+        "fuente": "https://www.larepublica.co/economia/ivan-duque-llega-a-bolivia-para-el-evento-de-posesion-del-nuevo-presidente-luis-arce-3086374 ; https://es.wikipedia.org/wiki/Anexo:Visitas_oficiales_al_exterior_del_presidente_Iv%C3%A1n_Duque",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: se trato de un viaje de un solo dia (8 de noviembre de 2020), coincidente con la fecha real de la posesion de Luis Arce; el propio anexo de visitas oficiales de Duque (respaldo secundario) confirma que tanto la posesion en La Paz como la reunion posterior con Piñera en Chile ocurrieron el mismo 8 de noviembre de 2020."
+      },
+      {
+        "TripID": "3477-COL-CHL-44142",
+        "campo": "TripStartDate",
+        "valor_correcto": "2020-11-08",
+        "fuente": "https://www.24horas.cl/nacional/pinera-se-reune-con-duque-en-cerro-castillo-y-se-refiere-a-eleccion-de-biden-en-estados-unidos-4522374 ; https://www.biobiochile.cl/noticias/nacional/chile/2020/11/08/pinera-recibe-al-presidente-de-colombia-en-cerro-castillo.shtml ; https://www.t13.cl/noticia/politica/presidente-pinera-recibe-al-presidente-colombia-ivan-duque-cerro-castillo",
+        "justificacion": "Fuentes chilenas independientes (24Horas, BioBioChile, T13) confirman y datan el 8 de noviembre de 2020 la reunion entre Piñera y Duque en el Palacio de Cerro Castillo (Viña del Mar), explicitando ademas que 'Duque arrived in the country after attending the swearing-in ceremony of Luis Arce as the new President of Bolivia' el mismo dia. Esto es incompatible con el TripStartDate de COLT (7/11/2020), ya que Duque se encontraba en Bolivia en la madrugada del 8/11/2020 y por tanto no pudo haber iniciado su visita a Chile el dia anterior. TripDuration pasa de 2 a 1 dia (ver corregido aparte)."
+      },
+      {
+        "TripID": "3477-COL-CHL-44142",
+        "campo": "TripDuration",
+        "valor_correcto": "1",
+        "fuente": "https://www.biobiochile.cl/noticias/nacional/chile/2020/11/08/pinera-recibe-al-presidente-de-colombia-en-cerro-castillo.shtml",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate a 2020-11-08 (igual al TripEndDate ya registrado por COLT): el viaje de Duque a Chile en esta escala fue de un unico dia (8 de noviembre de 2020), no de dos como constaba en COLT."
+      },
+      {
+        "TripID": "3477-COL-PRY-43327",
+        "campo": "TripStartDate",
+        "valor_correcto": "2018-08-14",
+        "fuente": "https://www.eltiempo.com/politica/gobierno/ivan-duque-viajo-a-paraguay-a-la-posesion-de-mario-abdo-benitez-256384 ; https://paraguay.embajada.gov.co/sala-de-prensa/noticias/el-presidente-ivan-duque-y-el-canciller-carlos-holmes-trujillo-asistieron-la-transmision-de-mando-y-posesion-del-presidente-electo-de-paraguay-mario-abdo-benitez ; https://es.wikipedia.org/wiki/Anexo:Visitas_oficiales_al_exterior_del_presidente_Iv%C3%A1n_Duque",
+        "justificacion": "Multiples fuentes (El Tiempo, Embajada de Colombia en Paraguay, cobertura de prensa de la epoca sobre 'los 20 viajes de Duque en su primer año') coinciden en que este fue el primer viaje internacional de Duque como presidente, iniciado el 14 de agosto de 2018 (un dia antes de la posesion de Mario Abdo Benitez, realizada el 15/8/2018), no unicamente el 15 de agosto como registra COLT. TripDuration se corrige de 1 a 2 dias."
+      },
+      {
+        "TripID": "3477-COL-PRY-43327",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "fuente": "https://www.eltiempo.com/politica/gobierno/ivan-duque-viajo-a-paraguay-a-la-posesion-de-mario-abdo-benitez-256384",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate a 2018-08-14: con TripEndDate ya registrado por COLT en 2018-08-15 (fecha real de la posesion), la duracion pasa de 1 a 2 dias."
+      },
+      {
+        "TripID": "3477-COL-PRY-43327",
+        "campo": "MetHostHoGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.eltiempo.com/politica/gobierno/ivan-duque-viajo-a-paraguay-a-la-posesion-de-mario-abdo-benitez-256384",
+        "justificacion": "COLT registra este item con MetHostHoGS='No' y HostHOGSName=null pese a que las propias Notes de COLT indican 'attended the inauguration of President Mario Benitez'. Fuentes de prensa confirman explicitamente que Duque tuvo un encuentro bilateral con el nuevo presidente paraguayo durante el viaje ('Duque had a bilateral meeting with Paraguay's new president, at which he highlighted...'), por lo que corresponde corregir MetHostHoGS a 'Yes'."
+      },
+      {
+        "TripID": "3477-COL-PRY-43327",
+        "campo": "HostHOGSName",
+        "valor_correcto": "President Mario Abdo Benitez",
+        "fuente": "https://www.eltiempo.com/politica/gobierno/ivan-duque-viajo-a-paraguay-a-la-posesion-de-mario-abdo-benitez-256384",
+        "justificacion": "Consecuencia directa de la correccion de MetHostHoGS: el jefe de Estado anfitrion con quien Duque se reunio y a cuya posesion asistio fue el Presidente Mario Abdo Benitez de Paraguay, confirmado por fuentes de prensa independientes."
+      },
+      {
+        "TripID": "3477-COL-PAN-43493",
+        "campo": "TripStartDate",
+        "valor_correcto": "2019-01-27",
+        "fuente": "https://www.critica.com.pa/nacional/mandatarios-de-6-paises-estaran-misa-de-cierre-de-jmj-con-francisco-en-panama-341929 ; https://www.laprensa.hn/honduras/juan-orlando-hernandez-misa-papa-francisco-panama-ACLP1253751 ; https://es.wikipedia.org/wiki/Jornada_Mundial_de_la_Juventud_2019 ; https://es.wikipedia.org/wiki/Anexo:Visitas_oficiales_al_exterior_del_presidente_Iv%C3%A1n_Duque",
+        "justificacion": "Multiples fuentes independientes (Critica.com.pa, La Prensa de Honduras, cobertura de agencias sobre la JMJ Panama 2019) confirman que la misa de clausura de la XXXIV Jornada Mundial de la Juventud, presidida por el Papa Francisco y a la que asistio Ivan Duque junto a los presidentes de Panama, Costa Rica, Guatemala, El Salvador y Honduras, se realizo el domingo 27 de enero de 2019 en el Campo San Juan Pablo II (Metro Park). COLT registra el viaje como iniciado el 28 de enero, es decir un dia despues de que el evento al que asistio Duque ya habia concluido, lo cual es cronologicamente inconsistente."
+      },
+      {
+        "TripID": "3477-COL-PAN-43493",
+        "campo": "TripEndDate",
+        "valor_correcto": "2019-01-27",
+        "fuente": "https://www.critica.com.pa/nacional/mandatarios-de-6-paises-estaran-misa-de-cierre-de-jmj-con-francisco-en-panama-341929",
+        "justificacion": "No se hallo evidencia de una estadia de Duque en Panama mas alla del dia de la misa de clausura de la JMJ (27/1/2019); se corrige el viaje a un solo dia, desplazado desde el rango original de COLT (28-29/1/2019) que resultaba posterior a la finalizacion del evento."
+      },
+      {
+        "TripID": "3477-COL-PAN-43493",
+        "campo": "TripDuration",
+        "valor_correcto": "1",
+        "fuente": "https://es.wikipedia.org/wiki/Jornada_Mundial_de_la_Juventud_2019",
+        "justificacion": "Consecuencia directa de las correcciones anteriores: con TripStartDate y TripEndDate iguales (2019-01-27), la duracion pasa de 2 a 1 dia."
+      },
+      {
+        "TripID": "3477-COL-CHN-43676",
+        "campo": "TripStartDate",
+        "valor_correcto": "2019-07-29",
+        "fuente": "https://efectococuyo.com/internacionales/encuentro-con-xi-jinping-y-dos-foros-con-empresarios-marcan-visita-de-ivan-duque-a-china/ ; https://www.larepublica.co/economia/xi-jinping-e-ivan-duque-firmaron-15-convenios-binacionales-en-visita-de-estado-2891383 ; https://www.eltiempo.com/politica/gobierno/duque-en-china-los-avances-que-logro-el-presidente-en-su-visita-de-estado-395820 ; http://en.cidca.gov.cn/2019-07/31/c_392850.htm",
+        "justificacion": "Multiples fuentes independientes (Efecto Cocuyo, La Republica, El Tiempo, portal oficial chino CIDCA) coinciden en que la visita de Estado de Duque a China, que incluyo la etapa de Shanghai y la de Pekin (con la reunion con Xi Jinping en el Gran Palacio del Pueblo el 31 de julio), se desarrollo entre el 28-29 de julio (llegada/inicio de actividades en Shanghai) y el 31 de julio de 2019, no entre el 30 de julio y el 1 de agosto como registra COLT. Se toma el 29 de julio (primer dia de actividades oficiales documentadas en Shanghai) como fecha de inicio."
+      },
+      {
+        "TripID": "3477-COL-CHN-43676",
+        "campo": "TripEndDate",
+        "valor_correcto": "2019-07-31",
+        "fuente": "http://en.cidca.gov.cn/2019-07/31/c_392850.htm ; https://www.larepublica.co/economia/xi-jinping-e-ivan-duque-firmaron-15-convenios-binacionales-en-visita-de-estado-2891383",
+        "justificacion": "La reunion de cierre con Xi Jinping y la firma de los 15 acuerdos bilaterales (mencionados en las propias Notes de COLT) se realizaron el 31 de julio de 2019 en Pekin, segun el portal oficial chino CIDCA y medios colombianos; no hay evidencia de actividades oficiales de Duque en China el 1 de agosto de 2019 (fecha de cierre que registraba COLT)."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "United States",
+        "CityVisited": "Cupertino y Mountain View (California) y Seattle (Washington)",
+        "TripStartDate": "2019-05-08",
+        "TripEndDate": "2019-05-09",
+        "TripDuration": "2",
+        "MetHostHoGS": "No",
+        "HostHOGSName": "NA",
+        "AttendedMultilatEvent": "No",
+        "NameMultilatEvent": "NA",
+        "MetNonhostHOGS": "No",
+        "NonhostHOGSNames": "NA",
+        "SignedAgreement": "Yes",
+        "fuente": "https://www.portafolio.co/economia/gobierno/duque-de-visita-en-silicon-valley-529304 ; https://mincit.gov.co/prensa/noticias/industria/presidente-ivan-duque-se-reunira-desde-este-mierco ; https://www.pulzo.com/tecnologia/primer-dia-visita-ivan-duque-silicon-valley-PP692074 ; https://www.larepublica.co/empresas/los-14-emprendimientos-que-estan-acompanando-a-duque-en-silicon-valley-2860037 ; https://es.wikipedia.org/wiki/Anexo:Visitas_oficiales_al_exterior_del_presidente_Iv%C3%A1n_Duque",
+        "justificacion": "Duque realizo el 8 y 9 de mayo de 2019 la primera mision de un presidente colombiano a Silicon Valley: el dia 8 visito Apple Park en Cupertino (reunion con Tim Cook) y las oficinas de Google en Mountain View, firmando memorandos de entendimiento con Cisco y 500 Startups; el dia 9 viajo a Seattle para reunirse con el presidente de Microsoft, Satya Nadella, y el presidente de Amazon Web Services, Andy Jassy, ademas de trabajadores colombianos de Amazon. El viaje esta ampliamente documentado por multiples medios colombianos independientes (Portafolio, MinCIT, Pulzo, La Republica) y no figura entre los 50 items ya cargados en COLT para leader_3477 (no existe ningun TripID con estas fechas de mayo de 2019 para Estados Unidos). No se registra encuentro con jefe de Estado o de gobierno anfitrion (la agenda fue exclusivamente empresarial/tecnologica)."
+      },
+      {
+        "CountryVisited": "Costa Rica",
+        "CityVisited": "San Jose",
+        "TripStartDate": "2022-05-08",
+        "TripEndDate": "2022-05-08",
+        "TripDuration": "1",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Rodrigo Chaves",
+        "AttendedMultilatEvent": "No",
+        "NameMultilatEvent": "NA",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://www.eltiempo.com/politica/gobierno/ivan-duque-en-costa-rica-para-la-posesion-de-rodrigo-chaves-670747 ; https://www.semana.com/nacion/articulo/presidente-duque-felicito-a-rodrigo-chaves-nuevo-mandatario-de-costa-rica/202210/ ; https://es.wikipedia.org/wiki/Anexo:Visitas_oficiales_al_exterior_del_presidente_Iv%C3%A1n_Duque",
+        "justificacion": "Ivan Duque asistio a la toma de posesion de Rodrigo Chaves como presidente de Costa Rica, realizada en San Jose el 8 de mayo de 2022, confirmado por El Tiempo y Semana; segun El Tiempo estaba prevista una reunion bilateral entre ambos mandatarios para tratar temas de cooperacion internacional. Este viaje ocurre en el hueco cronologico que deja COLT entre el viaje a Republica Dominicana (29/4/2022, ultimo TripID cargado antes de esta fecha) y el viaje a Suiza (Davos, 22-25/5/2022), y no figura entre los 50 items cargados (Costa Rica no aparece como CountryVisited en ningun TripID de leader_3477). No se hallo fuente que precise si hubo firma de acuerdos o encuentro con otros jefes de Estado no anfitriones durante esta visita puntual, por lo que esos campos se dejan sin dato preciso (vacio) en lugar de asumirlos."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "3477-COL-CHE-43488",
+        "campo": "TripStartDate",
+        "justificacion": "COLT marco este item con Confidence 2/5 (Foro Economico Mundial de Davos, enero de 2019). La busqueda activa arrojo fuentes contradictorias sobre la fecha exacta de llegada de Duque a Davos: algunos medios (El Tiempo) sugieren el martes 22 de enero de 2019, mientras que otras coberturas de la epoca hacen referencia a su llegada 'este miercoles', lo que correspondería al 23 de enero de 2019. Al no poder resolver la contradiccion entre fuentes independientes, se deja el campo sin corregir por falta de evidencia concluyente, en linea con la regla de no cargar datos sin fuente confiable."
+      },
+      {
+        "TripID": "3477-COL-PER-43652",
+        "campo": "TripEndDate",
+        "justificacion": "COLT marco este item con Confidence 2/5 (XIV Cumbre de la Alianza del Pacifico, Lima, julio de 2019). Fuentes independientes indican que la VI Reunion Empresarial de la Alianza del Pacifico cerro el 5 de julio de 2019 y que la Cumbre Presidencial propiamente dicha, con la publicacion de la Declaracion de Lima, se realizo el 6 de julio de 2019 (fecha que coincide con la publicacion oficial 'Palabras del Presidente Ivan Duque en la clausura de la XIV Cumbre' del 6/7/2019 en id.presidencia.gov.co, ya citada como fuente en COLT). Esto sugiere que el evento principal concluyo el 6 de julio, un dia antes del TripEndDate que registra COLT (7/7/2019). Sin embargo, no se hallo una fuente independiente que confirme o descarte de forma concluyente si Duque permanecio en Lima un dia adicional despues de la clausura oficial, por lo que se deja el campo sin corregir."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "3477-COL-ARG-43625", "justificacion": "Visita bilateral a Buenos Aires, 9-10 de junio de 2019, con firma de acuerdos de cooperacion en economias creativas y turismo con el presidente Mauricio Macri; consistente con las fuentes oficiales ya citadas en COLT (presidencia.gov.co) y con cobertura de prensa de la epoca (Diario de Cuyo: 'Duque arranco su visita con una cena informal con Macri')."},
+      {"TripID": "3477-COL-BEL-43396", "justificacion": "Visita a Bruselas los dias 23-24 de octubre de 2018, confirmada por multiples fuentes independientes (El Comercio, Cancilleria de Colombia, El Tiempo): el 23 de octubre Duque visito la sede de la OTAN reuniendose con el Secretario General Jens Stoltenberg, y el 24 de octubre se reunio con el Primer Ministro belga Charles Michel, como parte de una gira que incluyo tambien Roma (22-23/10) y Bruselas (23-24/10)."},
+      {"TripID": "3477-COL-BRA-44486", "justificacion": "Visita de Estado a Brasil, confirmada por Cancilleria de Colombia e Infobae: Duque arribo a Sao Paulo la noche del domingo 17 de octubre de 2021 y continuo a Brasilia, donde se reunio con el presidente Jair Bolsonaro y firmaron 7 acuerdos de cooperacion (seguridad, medio ambiente, comercio, saneamiento, agricultura, formacion tecnica), consistente con el rango 17-19/10/2021 de COLT."},
+      {"TripID": "3477-COL-CHL-43545", "justificacion": "Corresponde a la primera cumbre del Foro para el Progreso y Desarrollo de America del Sur (PROSUR), realizada en Santiago de Chile el 21-22 de marzo de 2019 con el presidente Sebastian Piñera como anfitrion, ampliamente documentada por fuentes oficiales colombianas y por Reuters ('South American presidents announce creation of new regional bloc'), consistente con el rango de COLT."},
+      {"TripID": "3477-COL-CHL-44176", "justificacion": "Corresponde a la XV Cumbre de la Alianza del Pacifico y a la cumbre de PROSUR, realizadas en Santiago de Chile en diciembre de 2020, donde Colombia asumio la presidencia pro tempore de ambos mecanismos (segun el propio anexo de visitas oficiales de Duque, respaldo secundario, y la fuente oficial de la Alianza del Pacifico ya citada en COLT), consistente con el rango 11-13/12/2020 de COLT."},
+      {"TripID": "3477-COL-DOM-44680", "justificacion": "Visita a Santo Domingo el 29 de abril de 2022 para reunirse con el presidente Luis Abinader y firmar un acuerdo de cooperacion en hidrocarburos, migracion, deporte y administracion publica; fecha coincidente exactamente con el anexo de visitas oficiales de Duque (respaldo secundario) y con la fuente oficial de la Presidencia de Colombia ya citada en COLT."},
+      {"TripID": "3477-COL-ECU-43438", "justificacion": "Reunion bilateral en Quito el 4 de diciembre de 2018 con el presidente Lenin Moreno, en el marco del VII Gabinete Binacional Colombia-Ecuador y la firma de la Declaracion de Quito; confirmado por NODAL, La Republica (Ecuador), Cancilleria de Colombia y Presidencia de Ecuador, consistente con la fecha puntual de COLT."},
+      {"TripID": "3477-COL-ECU-44206", "justificacion": "Encuentro fronterizo entre Duque y Lenin Moreno en la zona de Mataje-San Lorenzo, confirmado de forma independiente y coincidente por El Universo, El Comercio y la Embajada de Colombia en Ecuador como realizado el 10 de enero de 2021 (primera cita presencial entre ambos desde marzo de 2020), fecha que coincide exactamente con el TripStartDate/TripEndDate de COLT. Se descarta la fecha alternativa (14 de enero) que aparece en el anexo de Wikipedia de visitas oficiales de Duque, por tratarse de una fuente secundaria contradicha por multiples fuentes primarias independientes que fijan el encuentro en el 10 de enero."},
+      {"TripID": "3477-COL-ECU-44521", "justificacion": "Encuentro con el presidente Guillermo Lasso en Quito el 21 de noviembre de 2021, con intercambio de condecoraciones, confirmado por publicacion propia de Ivan Duque en Twitter/X el mismo dia y consistente con el anexo de visitas oficiales de Duque (respaldo secundario)."},
+      {"TripID": "3477-COL-ECU-44575", "justificacion": "Visita a las Islas Galapagos los dias 14-15 de enero de 2022 para la firma del decreto de creacion de la Reserva Marina de Galapagos junto al presidente Guillermo Lasso, confirmada por Yahoo News ('Ecuador ratified creation Galapagos marine') y por publicaciones de la propia Presidencia de Ecuador, consistente con el rango de COLT."},
+      {"TripID": "3477-COL-SLV-43616", "justificacion": "Asistencia a la toma de posesion de Nayib Bukele en San Salvador el 1 de junio de 2019, con reunion la noche previa (31 de mayo) con Bukele como presidente electo, confirmado por la Presidencia de El Salvador (presidencia.gob.sv) y por la Presidencia de Colombia; consistente con el rango 31/5-1/6/2019 de COLT."},
+      {"TripID": "3477-COL-FRA-43415", "justificacion": "Participacion en los actos conmemorativos del centenario del fin de la Primera Guerra Mundial y en el Foro de Paris por la Paz, celebrados en Paris en noviembre de 1918; el rango 11-13/11/2018 de COLT es consistente con la fecha del Armisticio (11 de noviembre) y la apertura del Foro de Paris por la Paz ese mismo dia, documentado en fuentes oficiales ya citadas en COLT."},
+      {"TripID": "3477-COL-FRA-43636", "justificacion": "Visita de trabajo a Francia (Paris y Cannes) los dias 20-21 de junio de 2019, con reunion con el presidente Emmanuel Macron, participacion en el Festival Cannes Lions y firma de acuerdo de cooperacion ambiental, confirmado por multiples fuentes oficiales ya citadas en COLT (presidencia.gov.co) dentro de la gira europea de Duque de junio de 2019 (Londres-Ginebra-Paris-Berna-Cannes)."},
+      {"TripID": "3477-COL-FRA-44503", "justificacion": "Reunion con el presidente Emmanuel Macron y con presidentes de empresas francesas (MEDEF International) en Paris el 3 de noviembre de 2021, fecha que coincide exactamente con el anexo de visitas oficiales de Duque (respaldo secundario), en el tramo de la gira europea que incluyo tambien Glasgow (COP26) y Dubai."},
+      {"TripID": "3477-COL-GTM-43843", "justificacion": "Asistencia a la toma de posesion de Alejandro Giammattei como presidente de Guatemala, confirmada por El Heraldo, La Nacion y El Tiempo como realizada el 14 de enero de 2020; el rango de COLT (13-15/1/2020) es consistente con un dia de llegada previa y uno de salida posterior a la ceremonia."},
+      {"TripID": "3477-COL-VAT-43395", "justificacion": "Audiencia privada con el Papa Francisco en el Vaticano el 22 de octubre de 2018 (duracion de 28 minutos segun El Tiempo), confirmada tambien por France24 y la Conferencia Episcopal de Colombia; primera audiencia que el Papa concedio al nuevo presidente colombiano, consistente con la fecha puntual de COLT."},
+      {"TripID": "3477-COL-ISR-44507", "justificacion": "Visita a Israel los dias 7-9 de noviembre de 2021, con reunion con el Primer Ministro Naftali Bennett y el Presidente Isaac Herzog y visita a sitios religiosos en Jerusalen, confirmada por publicaciones propias de Ivan Duque en Twitter/X durante el viaje y consistente con el tramo final de la gira europea-asiatica de noviembre de 2021 (Glasgow-Paris-Dubai-Jerusalen)."},
+      {"TripID": "3477-COL-ITA-43395", "justificacion": "Reuniones en Roma con el presidente Sergio Mattarella, el primer ministro Giuseppe Conte y la presidenta del Senado Maria Elisabetta Alberti Casellati, los dias 22-23 de octubre de 2018, como primer tramo de la gira europea de Duque que continuo a Bruselas; consistente con el rango de COLT y con la cobertura de El Pais.com.co y France24 sobre esta gira."},
+      {"TripID": "3477-COL-MEX-43435", "justificacion": "Asistencia a la toma de posesion de Andres Manuel Lopez Obrador como presidente de Mexico, realizada en Ciudad de Mexico el 1 de diciembre de 2018, confirmada por El Universal, La Republica y El Tiempo (Duque llego de madrugada ese mismo dia con una comitiva reducida); consistente con la fecha puntual de COLT."},
+      {"TripID": "3477-COL-MEX-43899", "justificacion": "Visita de trabajo a Ciudad de Mexico los dias 9-10 de marzo de 2020, con reunion con el presidente Andres Manuel Lopez Obrador y desayuno empresarial, confirmada por cobertura de prensa de la epoca (El Imparcial) y por el anexo de visitas oficiales de Duque, que ubica este tramo como parte de un viaje que incluyo tambien Nueva York (reunion con el Secretario General de la ONU) inmediatamente antes; consistente con el rango de COLT para Mexico."},
+      {"TripID": "3477-COL-PAN-43353", "justificacion": "Primera visita oficial de Duque como presidente a Panama, realizada el 10 de septiembre de 2018 para reunirse con el presidente Juan Carlos Varela y firmar acuerdos comerciales, confirmada por La Republica, Cancilleria de Colombia y el propio comunicado de Presidencia del 7/9/2018 anunciando la visita; consistente con la fecha puntual de COLT."},
+      {"TripID": "3477-COL-PAN-43647", "justificacion": "Asistencia a la toma de posesion de Laurentino Cortizo como presidente de Panama el 1 de julio de 2019, consistente con el anexo de visitas oficiales de Duque (respaldo secundario) y con la fecha puntual de COLT."},
+      {"TripID": "3477-COL-PER-43611", "justificacion": "Visita de Estado a Peru y participacion en la XIX Cumbre del Consejo Presidencial Andino en Lima, realizada el 26 de mayo de 2019 en conmemoracion de los 50 años de la Comunidad Andina, confirmada por El Colombiano, El Tiempo y la Embajada de Colombia en Peru, que ademas señalan explicitamente que la visita incluyo una 'visita de Estado' bilateral mas amplia con el presidente Martin Vizcarra; consistente con el rango 26-28/5/2019 de COLT, que incorpora dias adicionales de agenda bilateral tras el Consejo Presidencial Andino del 26/5."},
+      {"TripID": "3477-COL-PER-43703", "justificacion": "Visita bilateral a Lima los dias 26-27 de agosto de 2019 con el presidente Martin Vizcarra; no se hallaron fuentes independientes que contradigan las fechas registradas por COLT (Confidence 1/5 en el dataset original)."},
+      {"TripID": "3477-COL-PER-44404", "justificacion": "Asistencia a la toma de posesion de Pedro Castillo como presidente de Peru, realizada en Lima el 28 de julio de 2021 (Bicentenario de la independencia peruana), con encuentro previo con el Rey Felipe VI; consistente con el rango 27-28/7/2021 de COLT y con el anexo de visitas oficiales de Duque (respaldo secundario)."},
+      {"TripID": "3477-COL-KOR-44432", "justificacion": "Visita de Estado a Corea del Sur los dias 24-26 de agosto de 2021, con firma de cuatro memorandos de entendimiento con el presidente Moon Jae-in y visita al Cementerio de Seul en honor a los caidos de la Guerra de Corea, consistente con el rango de COLT y con el anexo de visitas oficiales de Duque (respaldo secundario)."},
+      {"TripID": "3477-COL-ESP-44454", "justificacion": "Visita a España (Madrid y Santiago de Compostela) los dias 15-18 de septiembre de 2021, con reunion con el Rey Felipe VI, el Presidente del Gobierno Pedro Sanchez y firma de 6 acuerdos de proteccion de inversiones y cooperacion en seguridad, consistente exactamente con el rango de COLT y con el anexo de visitas oficiales de Duque (respaldo secundario)."},
+      {"TripID": "3477-COL-CHE-43635", "justificacion": "Visita a Ginebra y Berna (Suiza) los dias 19-20 de junio de 2019, con reunion con el presidente de la Confederacion Suiza Ueli Maurer y discurso ante la Organizacion Internacional del Trabajo, en el marco de la gira europea de junio de 2019; consistente con el rango de COLT."},
+      {"TripID": "3477-COL-CHE-43851", "justificacion": "Participacion en el Foro Economico Mundial de Davos, enero de 2020, con sesiones sobre transformacion de sistemas alimentarios y participacion junto a Al Gore y Jane Goodall; consistente con el rango 21-23/1/2020 de COLT y con cobertura de prensa de la epoca (El Tiempo, 'Asi le ha ido a Ivan Duque en el Foro Economico Mundial en Davos 2020')."},
+      {"TripID": "3477-COL-CHE-44703", "justificacion": "Participacion en el Foro Economico Mundial de Davos, mayo de 2022 (edicion excepcionalmente trasladada de enero a mayo por la pandemia), con reuniones con Bill Gates y el presidente ruandes Paul Kagame; consistente con el rango 22-25/5/2022 de COLT y con el anexo de visitas oficiales de Duque (respaldo secundario, que ubica esta edicion de Davos entre el 22 y 26 de mayo de 2022)."},
+      {"TripID": "3477-COL-ARE-44504", "justificacion": "Visita a Dubai (EAU) los dias 4-6 de noviembre de 2021 para participar en la Expo Dubai 2020 y reunirse con inversionistas emiratíes, consistente con el rango de COLT y con el anexo de visitas oficiales de Duque (respaldo secundario)."},
+      {"TripID": "3477-COL-GBR-43633", "justificacion": "Visita de trabajo a Londres los dias 17-19 de junio de 2019, con reunion con la primera ministra saliente Theresa May y el Principe Carlos, y firma de acuerdo de crecimiento sostenible, en el marco de la gira europea de junio de 2019; consistente con el rango de COLT y con el anexo de visitas oficiales de Duque (respaldo secundario)."},
+      {"TripID": "3477-COL-GBR-44500", "justificacion": "Participacion en la Conferencia de las Naciones Unidas sobre el Cambio Climatico (COP26) en Glasgow, confirmada por El Heraldo, El Colombiano y El Tiempo como iniciada el domingo 31 de octubre de 2021 (fecha de apertura de la cumbre) con agenda oficial hasta el 3 de noviembre incluyendo la Cumbre de Lideres Mundiales, la Sesion Plenaria y el evento sobre bosques y uso de la tierra; consistente con el rango 31/10-2/11/2021 de COLT."},
+      {"TripID": "3477-COL-USA-43366", "justificacion": "Participacion en la 73a Asamblea General de las Naciones Unidas en Nueva York, con reunion con el presidente Donald Trump y el Secretario de Estado Mike Pompeo, los dias 23-26 de septiembre de 2018; consistente con el rango de COLT y con el anexo de visitas oficiales de Duque (respaldo secundario)."},
+      {"TripID": "3477-COL-USA-43509", "justificacion": "Visita de trabajo a Washington los dias 13-15 de febrero de 2019, con reunion con el presidente Donald Trump, la Congresista Nancy Pelosi, el Senador Mitch McConnell y el Consejo Permanente de la OEA; no se hallaron fuentes independientes que contradigan las fechas de COLT (Confidence 1/5 en el dataset original)."},
+      {"TripID": "3477-COL-USA-43730", "justificacion": "Participacion en la 74a Asamblea General de las Naciones Unidas, la Cumbre de Accion Climatica y la Cumbre del Grupo de Lima en Nueva York, entre el 22 y el 28 de septiembre de 2019, consistente con el rango de COLT y con el anexo de visitas oficiales de Duque (respaldo secundario)."},
+      {"TripID": "3477-COL-USA-43892", "justificacion": "Visita a Washington los dias 2-3 de marzo de 2020 con reunion con el presidente Donald Trump, inmediatamente antes de la visita a Nueva York (reunion con el Secretario General de la ONU) y Ciudad de Mexico; consistente con el rango de COLT, ocurrido justo antes de la declaracion de pandemia de COVID-19 (11/3/2020), por lo que no hay inconsistencia con el periodo de restriccion de viajes señalado para 2020-2021."},
+      {"TripID": "3477-COL-USA-44459", "justificacion": "Participacion en la 76a Asamblea General de las Naciones Unidas en Nueva York, con discurso en el Concordia Annual Summit y reunion con Michael Bloomberg, entre el 20 y 23 de septiembre de 2021; consistente con el rango de COLT."},
+      {"TripID": "3477-COL-USA-44480", "justificacion": "Reuniones en Washington y Nueva York con el presidente del Banco Mundial David Malpass, la directora del FMI Kristalina Georgieva, el presidente del BID Mauricio Claver-Carone y el Secretario General de la OEA Luis Almagro, los dias 11-12 de octubre de 2021, consistente con el rango de COLT y con el anexo de visitas oficiales de Duque (respaldo secundario)."},
+      {"TripID": "3477-COL-USA-44630", "justificacion": "Reunion con el presidente Joe Biden en Washington el 10 de marzo de 2022, en la que Colombia fue declarada aliado principal no perteneciente a la OTAN, consistente con el rango 10-11/3/2022 de COLT y con el anexo de visitas oficiales de Duque (respaldo secundario)."},
+      {"TripID": "3477-COL-USA-44718", "justificacion": "Participacion en la IX Cumbre de las Americas en Los Angeles (California), con firma de la Declaracion de Los Angeles sobre migracion, entre el 6 y 10 de junio de 2022; consistente con el rango de COLT y con el anexo de visitas oficiales de Duque (respaldo secundario)."},
+      {"TripID": "3477-COL-USA-44755", "justificacion": "Participacion en la Cumbre Concordia de las Americas en Miami el 13-14 de julio de 2022, donde Duque recibio un reconocimiento, consistente con el rango de COLT y con el anexo de visitas oficiales de Duque (respaldo secundario)."},
+      {"TripID": "3477-COL-URY-43891", "justificacion": "Asistencia a la toma de posesion de Luis Alberto Lacalle Pou como presidente de Uruguay en Montevideo el 1 de marzo de 2020, con presencia tambien del Rey Felipe VI segun las propias Notes de COLT; consistente con la fecha puntual de COLT y con el anexo de visitas oficiales de Duque (respaldo secundario)."}
+    ]
+  }
+]

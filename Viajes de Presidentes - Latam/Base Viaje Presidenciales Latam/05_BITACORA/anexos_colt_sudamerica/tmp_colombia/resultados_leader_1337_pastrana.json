@@ -1,0 +1,147 @@
+[
+  {
+    "LeaderID": "1337",
+    "correcciones": [
+      {
+        "TripID": "1337-COL-BRA-36093",
+        "campo": "TripStartDate",
+        "valor_correcto": "1998-10-26",
+        "fuente": "https://en.wikipedia.org/wiki/Brasilia_Presidential_Act ; https://andrespastrana.org/rueda-de-prensa-del-presidente-pastrana-antes-de-su-viaje-a-brasil-25-de-octubre-de-1998/",
+        "justificacion": "El evento multilateral descrito en las Notes de COLT (con presencia de los presidentes de Ecuador -Mahuad-, Peru -Fujimori-, Espana -Juan Carlos I-, Brasil -Cardoso-, Argentina -Menem-, Bolivia -Banzer- y Chile -Frei-, ademas de Pastrana por Colombia, un total de 8 paises que coincide exactamente con el nombre del evento 'Argentina-Bolivia-Brazil-Chile-Colombia-Ecuador-Peru-Spain Multilateral Meeting') corresponde al Acta Presidencial de Brasilia, la ceremonia de firma del tratado de paz Ecuador-Peru en el Palacio de Itamaraty, Brasilia, confirmada por Wikipedia (en ingles, citando fuentes del Congreso de Peru) como realizada el 26 de octubre de 1998, no el 25. El sitio oficial de archivo de Pastrana confirma que hubo una rueda de prensa el 25 de octubre 'antes de su viaje a Brasil', es decir, la salida/llegada a Brasil fue el 25 pero el evento en si (y por tanto la fecha relevante del viaje segun la logica de COLT, que databa otros casos similares -tomas de posesion- por la fecha del evento) fue el 26. Se corrige a un viaje de un solo dia, 26/10/1998, siguiendo el mismo criterio de correccion de fechas de eventos ceremoniales aplicado en las rondas hermanas de Brasil y Chile."
+      },
+      {
+        "TripID": "1337-COL-BRA-36093",
+        "campo": "TripEndDate",
+        "valor_correcto": "1998-10-26",
+        "fuente": "https://en.wikipedia.org/wiki/Brasilia_Presidential_Act",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: el Acta Presidencial de Brasilia (firma del tratado de paz Ecuador-Peru) se realizo en un unico dia, el 26 de octubre de 1998, por lo que TripEndDate debe coincidir con TripStartDate."
+      },
+      {
+        "TripID": "1337-COL-PAN-36508",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Panama Canal Transfer Ceremony",
+        "fuente": "https://www.eldia.com/nota/1999-12-15-historico-traspaso-del-canal-de-panama ; https://www.laestrella.com.pa/panama/nacional/canal-manos-entrega-panamenas-BOLE254713 ; https://www.tvn-2.com/contenido-exclusivo/reversion-del-canal-canal-de-panama-31-de-diciembre-de-1999-panama-estados-unidos-jimmy-carter-omar-torrijos_1_2169174.html",
+        "justificacion": "El nombre de evento registrado por COLT ('Spain-Bolivia-Colombia-Costa Rica-Ecuador-Mexico-Panama-Non-Aligned Movement (NAM) Summit') es erroneo: no hubo ninguna Cumbre del Movimiento de Paises No Alineados en Panama en diciembre de 1999. El evento real, plenamente confirmado por multiples fuentes de prensa de la epoca (El Dia, La Estrella de Panama, TVN Panama), fue la ceremonia de intercambio de notas e izada de bandera por la transferencia del Canal de Panama, realizada el 14 de diciembre de 1999 en las esclusas de Miraflores, con la firma del expresidente estadounidense Jimmy Carter y la presidenta Mireya Moscoso, y la presencia confirmada como testigos/firmantes de los presidentes de Bolivia (Banzer), Colombia (Pastrana), Costa Rica (Rodriguez), Ecuador (Mahuad), Honduras (Flores), Mexico (Zedillo) y el Rey Juan Carlos I de Espana -lista que coincide casi exactamente con los paises listados en el NameMultilatEvent original de COLT y con las Notes del propio COLT ('President Mireya Moscoso;President Ernesto Zedillo;King Juan Carlos;President Jamil Mahuad;President Miguel Angel Rodriguez;President Hugo Banzer')-. Se corrige unicamente la etiqueta del evento (que erroneamente lo describe como cumbre del NAM); el resto de los campos del viaje (fecha 14/12/1999, CulturalSiteOrCeremony=Yes, MetHostHoGS=No, AttendedMultilatEvent=Yes) ya son consistentes con la ceremonia real y no requieren cambio."
+      },
+      {
+        "TripID": "1337-COL-PER-37017",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "fuente": "https://www.comunidadandina.org/notas-de-prensa/paniagua-destaca-el-caracter-politico-de-la-integracion-andina-y-aboga-por-mayor-participacion-de-la-sociedad/ ; https://www.panamaamerica.com.pa/deportes/pastrana-reafirma-excelentes-relaciones-13040",
+        "justificacion": "COLT etiqueta este viaje (6-8 mayo 2001, Lima) como 'Community of Andean Nations Summit', pero las reuniones del Consejo Presidencial Andino de ese periodo se realizaron en fechas y sedes distintas: el XII Consejo Presidencial Andino fue en Lima el 9-10 de junio de 2000 (ya cubierto por COLT en el TripID 1337-COL-PER-36686) y el XIII Consejo Presidencial Andino fue en Valencia, Venezuela, el 23-24 de junio de 2001 (ya cubierto por COLT en el TripID 1337-COL-VEN-37065); no existio ninguna cumbre de la Comunidad Andina en Lima en mayo de 2001. La fuente oficial de la Comunidad Andina describe el evento de mayo de 2001 como una visita oficial de Estado de tres dias de Pastrana a Peru para reafirmar relaciones bilaterales con el presidente transitorio Valentin Paniagua (la primera visita de Estado recibida por su gobierno desde noviembre de 2000), en la que aprovecho para visitar la sede de la CAN en Lima -de alli probablemente la confusion de COLT al etiquetarlo como 'cumbre'-, pero sin que se tratara de una reunion formal del Consejo Presidencial Andino. Se corrige el campo AttendedMultilatEvent a 'No'; el resto de los campos (MetHostHoGS=Yes, HostHOGSName=Paniagua, SignedAgreement=Yes) ya son consistentes con una visita bilateral y no requieren cambio."
+      },
+      {
+        "TripID": "1337-COL-PER-37017",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "NA",
+        "fuente": "https://www.comunidadandina.org/notas-de-prensa/paniagua-destaca-el-caracter-politico-de-la-integracion-andina-y-aboga-por-mayor-participacion-de-la-sociedad/",
+        "justificacion": "Consecuencia directa de la correccion de AttendedMultilatEvent a 'No': al tratarse de una visita de Estado bilateral y no de una cumbre de la Comunidad Andina, el campo NameMultilatEvent no debe contener el nombre de un evento multilateral que no ocurrio en esa fecha; se deja en NA en lugar de inventar una etiqueta alternativa."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Cuba",
+        "CityVisited": "La Habana",
+        "TripStartDate": "1999-11-15",
+        "TripEndDate": "1999-11-16",
+        "TripDuration": "2",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Fidel Castro",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "IX Ibero-American Summit",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://segib.org/?summit=ix-cumbre-iberoamericana-la-habana-1999 ; https://es.wikipedia.org/wiki/IX_Cumbre_Iberoamericana ; Search Query: Pastrana Habana noviembre 1999 Cumbre Iberoamericana asistio Colombia",
+        "justificacion": "La IX Cumbre Iberoamericana de Jefes de Estado y de Gobierno se realizo en La Habana, Cuba, los dias 15 y 16 de noviembre de 1999, confirmada por la fuente oficial de la Secretaria General Iberoamericana (SEGIB) y por Wikipedia. Multiples resultados de busqueda independientes confirman que Andres Pastrana, como Presidente de Colombia (miembro fundador de las Cumbres Iberoamericanas desde 1991), asistio personalmente a esta cumbre. Este viaje NO figura entre los 51 items ya cargados en COLT para leader_1337: la unica visita de Pastrana a Cuba registrada por COLT es la de enero de 1999 (TripID 1337-COL-CUB-36174, bilateral con Castro), constituyendo un hueco real dado que Colombia tambien aparece cubierta en las cumbres iberoamericanas de 1998 (Oporto, TripID 1337-COL-PRT-36085) y 2000 (Panama, TripID 1337-COL-PAN-36847) pero falta la de 1999 (La Habana). Los campos MetNonhostHOGS/NonhostHOGSNames y SignedAgreement se dejan sin dato preciso por no haberse hallado una fuente que detalle esos aspectos especificos de la participacion de Pastrana; TripDuration se estima en 2 dias por ser el rango exacto de la cumbre segun SEGIB, sin evidencia de dias adicionales de llegada o salida."
+      },
+      {
+        "CountryVisited": "Peru",
+        "CityVisited": "Lima",
+        "TripStartDate": "2001-11-23",
+        "TripEndDate": "2001-11-24",
+        "TripDuration": "2",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Alejandro Toledo",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "XI Ibero-American Summit",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://segib.org/?summit=xi-cumbre-iberoamericana-lima-2001 ; https://es.wikipedia.org/wiki/XI_Cumbre_Iberoamericana ; Search Query: Andres Pastrana Lima noviembre 2001 cumbre iberoamericana foto oficial jefes de estado",
+        "justificacion": "La XI Cumbre Iberoamericana de Jefes de Estado y de Gobierno se realizo en Lima, Peru, los dias 23 y 24 de noviembre de 2001 bajo la presidencia de Alejandro Toledo, confirmada por SEGIB y Wikipedia. Resultados de busqueda independientes (incluyendo referencia a la fotografia oficial de familia de la cumbre, en la que Pastrana aparece listado como Presidente de Colombia) indican que Pastrana asistio personalmente. Este viaje NO figura entre los 51 items ya cargados en COLT para leader_1337 (no existe ningun TripID con CountryVisited='Peru' en noviembre de 2001; los dos viajes de Pastrana a Peru en COLT son de junio de 2000 y mayo de 2001), constituyendo un hueco real. Los campos MetNonhostHOGS/NonhostHOGSNames y SignedAgreement se dejan sin dato preciso por no haberse hallado una fuente que detalle esos aspectos especificos; TripDuration se estima en 2 dias por ser el rango exacto de la cumbre segun SEGIB, sin evidencia de dias adicionales de llegada o salida. Confianza moderada: a diferencia del hallazgo de La Habana 1999, no se pudo confirmar la asistencia de Pastrana mediante una fuente primaria directa (solo referencias de sintesis de busqueda a la foto oficial), por lo que se recomienda una verificacion adicional antes de incorporar este registro con alta confianza."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "1337-COL-ECU-37464",
+        "campo": "TripStartDate",
+        "justificacion": "La II Cumbre Sudamericana (Consenso de Guayaquil) se realizo en Guayaquil, Ecuador, los dias 26 y 27 de julio de 2002, confirmado por Wikipedia y otras fuentes. COLT registra el viaje de Pastrana como un unico dia, 27 de julio de 2002, sin cubrir el 26 de julio. Busqueda activa no hallo una fuente especifica que confirme si Pastrana llego a Guayaquil el 26 o el 27 de julio, por lo que no se puede determinar con certeza si la fecha de inicio del viaje esta subestimada en un dia."
+      },
+      {
+        "TripID": "1337-COL-GBR-36629",
+        "campo": "TripStartDate",
+        "justificacion": "El propio COLT marco este item con Confidence 3/5 y anoto en Notes 'no article could be founds' (sic), usando como unicas fuentes tres licencias de fotografia de Getty Images sin articulo de prensa asociado. Busqueda activa no hallo cobertura de prensa independiente que confirme la reunion bilateral entre Pastrana y Tony Blair en Londres el 13 de abril de 2000, por lo que se mantiene la incertidumbre ya reconocida por la fuente original."
+      },
+      {
+        "TripID": "1337-COL-CHL-36808",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra este viaje (9-11 de octubre de 2000, Chile) como asistencia a la 'American Christian Democratic Organization Summit' (ODCA). Una fuente academica (Dialnet) ubica una sesion del XVI Congreso de la ODCA el 8 de octubre de 2000 en Santiago de Chile, fecha que no coincide exactamente con el rango 9-11 de octubre registrado por COLT. Busqueda activa no hallo una fuente que precise la duracion completa del evento (si se extendio mas alla del 8 de octubre) ni confirme la fecha exacta de llegada de Pastrana, por lo que no se puede determinar con certeza si el rango de fechas de COLT es preciso."
+      },
+      {
+        "TripID": "1337-COL-ESP-37392",
+        "campo": "TripEndDate",
+        "justificacion": "COLT marco este item con Confidence 4/5 y anoto en Notes 'no arrival / departure dates given'. La I Cumbre Union Europea-America Latina y el Caribe se realizo oficialmente en Madrid los dias 16, 17 y 18 de mayo de 2002 (fuente: Comision Europea), mientras que COLT registra el viaje de Pastrana hasta el 19 de mayo. Busqueda activa no hallo una fuente que confirme o contradiga un dia adicional de estadia de Pastrana en Madrid mas alla del cierre oficial de la cumbre el 18 de mayo, por lo que se mantiene la incertidumbre ya reconocida por la fuente original."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "1337-COL-BRA-36769", "justificacion": "Corresponde a la I Cumbre Sudamericana de Presidentes en Brasilia, confirmada por multiples fuentes para el 31 de agosto-1 de septiembre de 2000, coincidente exactamente con el rango de COLT; Fernando Henrique Cardoso era presidente brasileno anfitrion vigente."},
+      {"TripID": "1337-COL-CAN-36310", "justificacion": "Visita bilateral a Jean Chretien, mayo-junio de 1999, sin senales de inconsistencia; Chretien era Primer Ministro canadiense vigente."},
+      {"TripID": "1337-COL-CAN-37001", "justificacion": "Corresponde a la III Cumbre de las Americas en Quebec, confirmada por multiples fuentes (incluyendo la propia declaracion oficial de la cumbre) para el 20-22 de abril de 2001, coincidente exactamente con el rango de COLT; Pastrana presento en esta cumbre la agenda de paz y del Plan Colombia."},
+      {"TripID": "1337-COL-CHL-36595", "justificacion": "Corresponde a la investidura de Ricardo Lagos como presidente de Chile, confirmada para el 11 de marzo de 2000 ante el Congreso Nacional en Valparaiso, consistente con el rango 10-11/3/2000 de COLT (con un dia de llegada previa)."},
+      {"TripID": "1337-COL-CHL-36808", "justificacion": "Visita a Chile en octubre de 2000 vinculada a un evento de la Organizacion Democrata Cristiana de America (ODCA), organizacion internacional de la que el Partido Conservador Colombiano es miembro; Ricardo Lagos era presidente chileno anfitrion vigente."},
+      {"TripID": "1337-COL-CHN-36293", "justificacion": "Visita bilateral a China, mayo de 1999, inmediatamente posterior a Japon dentro de la misma gira asiatica; Jiang Zemin era Secretario General del PCCh vigente."},
+      {"TripID": "1337-COL-CUB-36174", "justificacion": "Visita bilateral a Fidel Castro, enero de 1999, con encuentro adicional con el presidente electo Hugo Chavez segun las propias Notes de COLT; sin senales de inconsistencia."},
+      {"TripID": "1337-COL-DOM-36266", "justificacion": "Corresponde a la II Cumbre de la Asociacion de Estados del Caribe (AEC) en Santo Domingo, confirmada para el 16-17 de abril de 1999, coincidente exactamente con el rango de COLT; Leonel Fernandez era presidente dominicano anfitrion vigente."},
+      {"TripID": "1337-COL-ECU-36797", "justificacion": "Visita bilateral a Gustavo Noboa, septiembre de 2000, sin senales de inconsistencia; Noboa era presidente ecuatoriano vigente tras la caida de Mahuad en enero de 2000."},
+      {"TripID": "1337-COL-FRA-36910", "justificacion": "Visita bilateral a Jacques Chirac, enero de 2001, sin senales de inconsistencia."},
+      {"TripID": "1337-COL-DEU-37006", "justificacion": "Visita bilateral a Gerhard Schroder, abril de 2001, sin senales de inconsistencia."},
+      {"TripID": "1337-COL-VAT-37417", "justificacion": "Audiencia con el Papa Juan Pablo II el 10 de junio de 2002, mismo dia y en el marco del viaje a Roma para la Cumbre Mundial de la Alimentacion (ver 1337-COL-ITA-37417); consistente cronologica y geograficamente."},
+      {"TripID": "1337-COL-IND-36954", "justificacion": "Visita bilateral a la India, marzo de 2001, inmediatamente posterior a Malasia dentro de la misma gira asiatica; Atal Bihari Vajpayee era Primer Ministro indio vigente."},
+      {"TripID": "1337-COL-IRL-37411", "justificacion": "Corresponde al 41o Salute to Excellence and International Achievement Summit de la Academy of Achievement, celebrado en Dublin, Irlanda, del 6 al 9 de junio de 2002, evento en el que fuentes independientes (Academy of Achievement) confirman explicitamente la presencia de 'the President of Colombia, Andres Pastrana Arango' entre los honorados asistentes junto a figuras como Bill Clinton, Mikhail Gorbachov y Lech Walesa; el rango 4-10/6/2002 de COLT es compatible con el nucleo del evento (6-9/6) mas dias de viaje."},
+      {"TripID": "1337-COL-ITA-37417", "justificacion": "Corresponde a la Cumbre Mundial sobre la Alimentacion: cinco anos despues, realizada en Roma del 10 al 13 de junio de 2002 bajo los auspicios de la FAO, coincidente exactamente con el rango de COLT; se registra ademas encuentro con el Secretario General de la ONU Kofi Annan, consistente con un evento de Naciones Unidas."},
+      {"TripID": "1337-COL-JPN-36292", "justificacion": "Visita bilateral a Japon, mayo de 1999, inicio de la gira asiatica que continuo a China; Obuchi Keizo era Primer Ministro japones vigente."},
+      {"TripID": "1337-COL-MYS-36951", "justificacion": "Visita bilateral a Malasia, marzo de 2001, inmediatamente previa a India dentro de la misma gira asiatica; sin senales de inconsistencia."},
+      {"TripID": "1337-COL-MEX-36135", "justificacion": "Visita bilateral a Ernesto Zedillo, diciembre de 1998, sin senales de inconsistencia."},
+      {"TripID": "1337-COL-MEX-36861", "justificacion": "Visita de un dia a Mexico, diciembre de 2000, sin evento multilateral ni reunion con jefe de Estado registrada; consistente con las fuentes citadas por COLT."},
+      {"TripID": "1337-COL-MEX-37336", "justificacion": "Corresponde a la Conferencia Internacional sobre la Financiacion para el Desarrollo (Consenso de Monterrey), realizada en Monterrey, Mexico, del 18 al 22 de marzo de 2002, con encuentro registrado con el presidente George W. Bush, consistente con el rango 21-22/3/2002 de COLT y con fuentes oficiales de la ONU citadas."},
+      {"TripID": "1337-COL-MAR-36236", "justificacion": "Visita bilateral al Rey Hassan II de Marruecos, marzo de 1999, pocos meses antes de su fallecimiento en julio de 1999; sin senales de inconsistencia."},
+      {"TripID": "1337-COL-PAN-36042", "justificacion": "Corresponde a la XIV Cumbre del Grupo de Rio en Panama, confirmada por la Declaracion de Panama del 4-5 de septiembre de 1998, coincidente exactamente con el rango de COLT."},
+      {"TripID": "1337-COL-PAN-36508", "justificacion": "Corresponde a la ceremonia de transferencia del Canal de Panama del 14 de diciembre de 1999, confirmada por multiples fuentes de prensa panamenas que listan explicitamente a Pastrana entre los presidentes presentes junto a Moscoso, Zedillo, Juan Carlos I, Mahuad, Rodriguez y Banzer -lista que coincide con las propias Notes de COLT-; unicamente se corrigio el nombre del evento (ver correcciones)."},
+      {"TripID": "1337-COL-PAN-36847", "justificacion": "Corresponde a la X Cumbre Iberoamericana en Panama, confirmada por SEGIB para el 17-18 de noviembre de 2000, coincidente exactamente con el rango de COLT."},
+      {"TripID": "1337-COL-PER-36686", "justificacion": "Corresponde al XII Consejo Presidencial Andino en Lima, confirmado para el 9-10 de junio de 2000, coincidente exactamente con el rango de COLT."},
+      {"TripID": "1337-COL-PRT-36085", "justificacion": "Corresponde a la VIII Cumbre Iberoamericana en Oporto, confirmada por SEGIB para el 17-18 de octubre de 1998, coincidente exactamente con el rango de COLT."},
+      {"TripID": "1337-COL-ZAF-36040", "justificacion": "Corresponde a la XII Cumbre del Movimiento de Paises No Alineados en Durban, Sudafrica, septiembre de 1998, con encuentros adicionales registrados con Yasser Arafat y Fidel Castro, consistente con el rango 2-3/9/1998 de COLT; Nelson Mandela era presidente sudafricano anfitrion vigente."},
+      {"TripID": "1337-COL-ESP-36087", "justificacion": "Visita a Espana en octubre de 1998 con reunion multilateral junto a los presidentes de Argentina (Menem), Chile (Frei), Ecuador (Mahuad) y Costa Rica (Rodriguez), segun las propias Notes de COLT; Jose Maria Aznar era Presidente del Gobierno espanol vigente."},
+      {"TripID": "1337-COL-ESP-36232", "justificacion": "Visita bilateral a Jose Maria Aznar, marzo de 1999, sin senales de inconsistencia."},
+      {"TripID": "1337-COL-ESP-37392", "justificacion": "Corresponde a la I Cumbre Union Europea-America Latina y el Caribe en Madrid, confirmada por la Comision Europea para el 16-18 de mayo de 2002 (con la sesion principal del 17 de mayo), consistente con el rango 16-19/5/2002 de COLT; ver no_verificable respecto del ultimo dia."},
+      {"TripID": "1337-COL-SWE-36915", "justificacion": "Visita bilateral a Goran Persson, enero de 2001, sin senales de inconsistencia."},
+      {"TripID": "1337-COL-CHE-36551", "justificacion": "Corresponde al Foro Economico Mundial de Davos, enero de 2000, con escala previa en Washington D.C. segun las propias Notes de COLT; evento anual bien documentado, consistente con el rango 26-29/1/2000 de COLT."},
+      {"TripID": "1337-COL-USA-36060", "justificacion": "Corresponde a la 53a Asamblea General de la ONU, septiembre de 1998, con discurso registrado en las actas oficiales de la ONU (A/53/PV.11), consistente con el rango de COLT."},
+      {"TripID": "1337-COL-USA-36095", "justificacion": "Visita bilateral a Bill Clinton, octubre de 1998, confirmada por el registro oficial del Departamento de Estado de EEUU (history.state.gov/departmenthistory/visits/colombia)."},
+      {"TripID": "1337-COL-USA-36423", "justificacion": "Corresponde a la 54a Asamblea General de la ONU, septiembre de 1999, con encuentro registrado con Bill Clinton y con el presidente costarricense Miguel Angel Rodriguez, consistente con las actas oficiales de la ONU (A/54/PV.5) y el registro del Departamento de Estado."},
+      {"TripID": "1337-COL-USA-36452", "justificacion": "Visita a EEUU en octubre de 1999 con agenda de negocios, sin reunion con jefe de Estado registrada; sin senales de inconsistencia."},
+      {"TripID": "1337-COL-USA-36549", "justificacion": "Visita bilateral a Bill Clinton, enero de 2000, confirmada por el registro oficial del Departamento de Estado de EEUU."},
+      {"TripID": "1337-COL-USA-36627", "justificacion": "Visita a EEUU en abril de 2000, sin reunion con jefe de Estado ni evento multilateral registrado; sin senales de inconsistencia."},
+      {"TripID": "1337-COL-USA-36775", "justificacion": "Corresponde a la 55a Asamblea General de la ONU (Cumbre del Milenio), septiembre de 2000, con encuentro registrado con el presidente irani Mohammad Khatami, consistente con las actas oficiales de la ONU (A/55/PV.4)."},
+      {"TripID": "1337-COL-USA-36946", "justificacion": "Visita bilateral a George W. Bush, febrero de 2001, confirmada por el registro oficial del Departamento de Estado de EEUU."},
+      {"TripID": "1337-COL-USA-37205", "justificacion": "Corresponde a la 56a Asamblea General de la ONU, noviembre de 2001, con discurso y encuentro con George W. Bush registrados, consistente con las actas oficiales de la ONU (A/56/PV.45) y el registro del Departamento de Estado."},
+      {"TripID": "1337-COL-USA-37362", "justificacion": "Visita bilateral a George W. Bush, abril de 2002, confirmada por el registro oficial del Departamento de Estado de EEUU."},
+      {"TripID": "1337-COL-VEN-36192", "justificacion": "Reunion trilateral Colombia-Cuba-Venezuela, febrero de 1999, con encuentro con Fidel Castro y el presidente electo Hugo Chavez segun las propias Notes de COLT; consistente con la intensa actividad diplomatica de Pastrana con Cuba y Venezuela en ese periodo."},
+      {"TripID": "1337-COL-VEN-36284", "justificacion": "Visita bilateral a Hugo Chavez, mayo de 1999, poco despues de su toma de posesion en febrero de 1999; sin senales de inconsistencia."},
+      {"TripID": "1337-COL-VEN-36973", "justificacion": "Visita bilateral a Hugo Chavez, marzo de 2001, sin senales de inconsistencia."},
+      {"TripID": "1337-COL-VEN-36988", "justificacion": "Reunion trilateral Colombia-Mexico-Venezuela (Grupo de los Tres), abril de 2001, con encuentro con Hugo Chavez y Vicente Fox segun las propias Notes de COLT; sin senales de inconsistencia."},
+      {"TripID": "1337-COL-VEN-37065", "justificacion": "Corresponde al XIII Consejo Presidencial Andino en Valencia, Venezuela, confirmado para el 24 de junio de 2001, consistente con el rango 23-24/6/2001 de COLT (con un dia de llegada previa)."}
+    ]
+  }
+]

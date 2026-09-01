@@ -1,0 +1,171 @@
+[
+  {
+    "LeaderID": "2597",
+    "correcciones": [
+      {
+        "TripID": "2597-COL-BRA-41080",
+        "campo": "Notes",
+        "valor_correcto": "NA",
+        "fuente": "https://www.un.org/es/conferences/environment/rio2012 ; https://www.cepal.org/rio20/es/index",
+        "justificacion": "COLT registra en Notes 'summit on displaced peoples' para este viaje, que corresponde en realidad a la Conferencia de las Naciones Unidas sobre el Desarrollo Sostenible (Rio+20), celebrada en Rio de Janeiro del 20 al 22 de junio de 2012 sobre desarrollo sostenible y economia verde, sin relacion alguna con desplazados. El mismo texto erroneo ('summit on displaced peoples') aparece copiado identicamente en otros dos TripIDs de este mismo leader (2597-COL-CRI-41075 y 2597-COL-MEX-41078), correspondientes a eventos completamente distintos (visita bilateral a Costa Rica y Cumbre del G20 en Los Cabos), lo que confirma que se trata de un error de copiado/pegado en la carga de datos y no de informacion real sobre el viaje."
+      },
+      {
+        "TripID": "2597-COL-BRA-41836",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "BRICS-UNASUR Outreach Summit",
+        "fuente": "https://www.iri.edu.ar/images/Documentos/CENSUD/boletines/46/art_donofrio.pdf ; https://www.telesurtv.net/news/Cumbre-del-BRICS-se-celebrara-el-15-de-julio-en-Brasil-20140609-0021.html ; https://es.wikipedia.org/wiki/Sexta_Cumbre_BRICS_2014",
+        "justificacion": "La VI Cumbre BRICS propiamente dicha se realizo en Fortaleza, Brasil, entre el 14 y el 16 de julio de 2014, y esta reservada a los cinco paises miembros (Brasil, Rusia, India, China, Sudafrica); Colombia no es miembro del BRICS. El 16 de julio de 2014, inmediatamente despues del cierre de la cumbre en Fortaleza, la presidenta Dilma Rousseff convoco en Brasilia una reunion de acercamiento BRICS-UNASUR a la que si asistio Santos junto a otros mandatarios suramericanos. El rango de fechas que registra COLT (16-18 de julio) es compatible con la reunion de acercamiento en Brasilia (16/7) y no con la cumbre BRICS de Fortaleza (14-16/7), por lo que el nombre del evento debe corregirse para reflejar que se trato del encuentro BRICS-UNASUR y no de la Cumbre BRICS en si misma, de la cual Colombia no pudo haber sido parte plena."
+      },
+      {
+        "TripID": "2597-COL-CHL-41066",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Alianza del Pacifico - Firma del Acuerdo Marco (Cumbre de Antofagasta/Paranal)",
+        "fuente": "https://dof.gob.mx/nota_detalle.php?codigo=5400952&fecha=17/07/2015 ; https://es.wikipedia.org/wiki/Alianza_del_Pac%C3%ADfico",
+        "justificacion": "El 6 de junio de 2012, en el Observatorio Paranal, Antofagasta (Chile), los presidentes de Chile, Peru, Colombia y Mexico firmaron el Acuerdo Marco de la Alianza del Pacifico, formalizando el bloque; esta reunion corresponde a la fecha exacta registrada por COLT (6/6/2012), pero la denominacion 'Pacific Alliance Leaders Meeting (PALM8)' es incorrecta: 'PALM8' es la sigla de la Octava Reunion de Lideres de las Islas del Pacifico (Pacific Islands Leaders Meeting), un foro de cooperacion entre Japon y los paises insulares del Oceano Pacifico, sin ninguna relacion con la Alianza del Pacifico latinoamericana. Se trata de una confusion de siglas homonimas en la carga de datos de COLT."
+      },
+      {
+        "TripID": "2597-COL-MEX-41810",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "IX Cumbre de la Alianza del Pacifico (Punta Mita)",
+        "fuente": "https://www.gob.mx/sre/documentos/declaracion-de-la-ix-cumbre-de-la-alianza-del-pacifico ; https://es.wikipedia.org/wiki/VIII_Cumbre_de_la_Alianza_del_Pac%C3%ADfico",
+        "justificacion": "La IX Cumbre de la Alianza del Pacifico se realizo en Punta Mita, Nayarit (Mexico), del 18 al 20 de junio de 2014, coincidiendo con el rango de fechas registrado por COLT (20-21/6/2014, dias de cierre de la cumbre); alli Mexico recibio la presidencia pro-tempore de manos de Colombia. Al igual que en el caso de 2597-COL-CHL-41066, el nombre 'Pacific Alliance Leaders Meeting (PALM8)' que usa COLT corresponde en realidad a la sigla de la Octava Reunion de Lideres de las Islas del Pacifico (Japon-islas del Pacifico), un foro totalmente distinto y sin relacion con la Alianza del Pacifico latinoamericana; ademas la cumbre de Punta Mita fue la IX (novena), no la octava."
+      },
+      {
+        "TripID": "2597-COL-CHL-41300",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "I Cumbre Union Europea-CELAC (seguida de la I Cumbre CELAC)",
+        "fuente": "https://eulacfoundation.org/en/i-eu-celac-summit-santiago-declaration-santiago-26-27-january-2013 ; http://europa.eu/rapid/press-release_MEMO-13-15_es.htm",
+        "justificacion": "La I Cumbre Union Europea-CELAC se celebro en Santiago de Chile los dias 26 y 27 de enero de 2013, seguida inmediatamente por la I Cumbre de la CELAC (27-28 de enero de 2013); el rango de fechas de COLT (26-28/1/2013) es exactamente consistente con la secuencia real de ambas cumbres. Sin embargo, el nombre que usa COLT, 'European Council-Community of Latin American and Caribbean States (CELAC) Summit', es impreciso: el 'European Council' (Consejo Europeo) es un organo institucional propio y exclusivo de la Union Europea (jefes de Estado/Gobierno de sus Estados miembro); el evento realmente celebrado fue una cumbre entre la Union Europea como bloque y la CELAC, no una reunion del Consejo Europeo. Este mismo tipo de confusion entre 'European Council' y 'European Union' ya fue detectado como error sistematico de COLT en la ronda hermana de Chile (leader_907, caso 907-CHL-ITA-35237)."
+      },
+      {
+        "TripID": "2597-COL-CRI-41075",
+        "campo": "Notes",
+        "valor_correcto": "NA",
+        "fuente": "Ver justificacion cruzada en 2597-COL-BRA-41080",
+        "justificacion": "COLT registra en Notes 'summit on displaced peoples' para esta visita bilateral a Costa Rica (encuentro con la presidenta Laura Chinchilla, 15/6/2012), texto identico y evidentemente copiado por error del mismo campo en los TripIDs 2597-COL-BRA-41080 (Rio+20) y 2597-COL-MEX-41078 (Cumbre G20 Los Cabos), ninguno de los cuales trata sobre desplazados; se trata de un error de carga de datos (copiar/pegar) y no de un dato real sobre este viaje bilateral."
+      },
+      {
+        "TripID": "2597-COL-MEX-41078",
+        "campo": "Notes",
+        "valor_correcto": "NA",
+        "fuente": "https://es.wikipedia.org/wiki/Cumbre_del_G-20_de_Los_Cabos ; Ver justificacion cruzada en 2597-COL-BRA-41080",
+        "justificacion": "COLT registra en Notes 'summit on displaced peoples' para este viaje correspondiente a la VII Cumbre del G-20 en Los Cabos, Mexico (18-19 de junio de 2012), cumbre centrada en la crisis de la zona euro y el sistema financiero internacional, sin relacion con desplazados; el mismo texto erroneo aparece copiado identicamente en los TripIDs 2597-COL-BRA-41080 (Rio+20) y 2597-COL-CRI-41075 (visita bilateral a Costa Rica), confirmando un error sistematico de copiado en la carga de datos de COLT."
+      },
+      {
+        "TripID": "2597-COL-MEX-40875",
+        "campo": "TripStartDate",
+        "valor_correcto": "2011-12-04",
+        "fuente": "https://www.cancilleria.gov.co/sala-de-prensa/noticias/en-la-ii-cumbre-de-la-alianza-del-pacifico-colombia-mexico-chile-y-peru-acordaron-fortalecer-la-integracion-entre-sus-pueblos-y-sus-economias ; https://www.cancilleria.gov.co/sites/default/files/news/field_attached_news/declaracion_de_merida_de_la_ii_cumbre_de_la_alianza_del_pacifico.pdf",
+        "justificacion": "La II Cumbre de la Alianza del Pacifico, en la que se firmo la Declaracion de Merida, se realizo en Merida, Yucatan (Mexico), el 4 de diciembre de 2011 (domingo), segun fuente oficial de la Cancilleria de Colombia, con la participacion expresa del presidente Juan Manuel Santos, la canciller Maria Angela Holguin y el ministro Sergio Diaz-Granados. COLT registra el viaje con fecha 28 de noviembre de 2011, seis dias antes de la fecha real de la cumbre, por lo que corresponde corregir tanto la fecha de inicio como la de cierre del viaje."
+      },
+      {
+        "TripID": "2597-COL-MEX-40875",
+        "campo": "TripEndDate",
+        "valor_correcto": "2011-12-04",
+        "fuente": "https://www.cancilleria.gov.co/sala-de-prensa/noticias/en-la-ii-cumbre-de-la-alianza-del-pacifico-colombia-mexico-chile-y-peru-acordaron-fortalecer-la-integracion-entre-sus-pueblos-y-sus-economias",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: la II Cumbre de la Alianza del Pacifico en Merida fue un evento de un solo dia (4 de diciembre de 2011), por lo que la fecha de cierre del viaje tambien debe corregirse a esa fecha, sin evidencia de una estadia adicional posterior."
+      },
+      {
+        "TripID": "2597-COL-PER-41244",
+        "campo": "TripStartDate",
+        "valor_correcto": "2012-11-30",
+        "fuente": "http://www.iirsa.org/El/Event/Detail?Id=241 ; https://es.wikipedia.org/wiki/Uni%C3%B3n_de_Naciones_Suramericanas",
+        "justificacion": "La reunion extraordinaria de presidentes de UNASUR en Lima, en la que participo expresamente el presidente Juan Manuel Santos junto a los mandatarios de Peru, Chile, Guyana, Uruguay y Surinam (entre otros), se realizo el viernes 30 de noviembre de 2012, no el 1 de diciembre como registra COLT. Esta correccion es ademas consistente con el TripID 2597-COL-MEX-41244 del mismo leader, que registra a Santos en la toma de posesion de Enrique Peña Nieto en Ciudad de Mexico el 1 de diciembre de 2012: la secuencia real y logisticamente coherente es Lima (UNASUR) el 30/11 seguido de Ciudad de Mexico (posesion presidencial) el 1/12, no ambos eventos el mismo dia 1/12 como sugeriria la carga actual de COLT."
+      },
+      {
+        "TripID": "2597-COL-PER-41244",
+        "campo": "TripEndDate",
+        "valor_correcto": "2012-11-30",
+        "fuente": "http://www.iirsa.org/El/Event/Detail?Id=241",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: la reunion extraordinaria de UNASUR en Lima fue un evento de un solo dia (30/11/2012), y Santos debio partir ese mismo dia o la madrugada siguiente hacia Ciudad de Mexico para llegar a tiempo a la posesion presidencial de Peña Nieto el 1/12/2012 (ver TripID 2597-COL-MEX-41244), por lo que no permanecio en Peru hasta el 1 de diciembre."
+      },
+      {
+        "TripID": "2597-COL-PER-40661",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "Yes",
+        "fuente": "https://es.wikipedia.org/wiki/Alianza_del_Pac%C3%ADfico ; Declaracion de Lima, 28 de abril de 2011",
+        "justificacion": "El 28 de abril de 2011, en Lima, los presidentes de Chile, Colombia, Mexico y Peru suscribieron la Declaracion de Lima, acto fundacional que dio origen a la Alianza del Pacifico (formalizada despues con el Acuerdo Marco de 2012); esta fecha coincide exactamente con la registrada por COLT para este viaje de Santos a Peru (28/4/2011), que sin embargo COLT marca con AttendedMultilatEvent en 'No', omitiendo el caracter multilateral fundacional del evento. Corresponde corregir el campo a 'Yes'."
+      },
+      {
+        "TripID": "2597-COL-PER-40661",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Declaracion de Lima - Cumbre fundacional de la Alianza del Pacifico",
+        "fuente": "https://es.wikipedia.org/wiki/Alianza_del_Pac%C3%ADfico",
+        "justificacion": "Consecuencia directa de la correccion anterior: al confirmarse que Santos asistio a un evento multilateral (la cumbre fundacional de la Alianza del Pacifico, Lima, 28/4/2011, en la que se suscribio la Declaracion de Lima junto a los presidentes de Chile, Mexico y Peru), corresponde completar el campo NameMultilatEvent, que COLT dejo vacio (null)."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "2597-COL-CAN-40808",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra un viaje de un dia a Canada (22/9/2011) con agenda de negocios, sin reunion con jefe de gobierno ni evento multilateral. Busqueda activa no hallo cobertura de prensa independiente que confirme especificamente este viaje de Santos a Canada en esa fecha; el evento bilateral Colombia-Canada mas documentado de ese periodo fue en realidad la visita del primer ministro Stephen Harper a Bogota el 10 de agosto de 2011, en el marco de la entrada en vigor del TLC Colombia-Canada (15/8/2011), un episodio distinto (Harper viajando a Colombia, no Santos a Canada). No se hallo fuente que confirme ni contradiga el viaje especifico que registra COLT, por lo que se mantiene sin cambios ante la falta de evidencia independiente."
+      },
+      {
+        "TripID": "2597-COL-TUR-40865",
+        "campo": "TripStartDate",
+        "justificacion": "COLT marco este item con Confidence 2/5 (la mas baja de este dataset), correspondiente a una visita bilateral a Turquia y encuentro con el presidente Abdullah Gul (18-19/11/2011), inmediatamente anterior al viaje a Reino Unido (19-22/11/2011). Busqueda activa no hallo cobertura de prensa independiente que confirme o contradiga las fechas especificas de esta visita a Turquia, mas alla de las fuentes ya citadas por el propio COLT (ProQuest); dado que el propio dataset original ya señala una confianza reducida, se mantiene el registro sin cambios por falta de fuente independiente adicional."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "2597-COL-ARG-40451", "justificacion": "Corresponde a la reunion de emergencia de presidentes de UNASUR convocada por Cristina Fernandez de Kirchner en Buenos Aires (Palacio San Martin) el 30 de septiembre de 2010, tras el intento de golpe de Estado contra el presidente Rafael Correa en Ecuador, con la participacion confirmada de Santos junto a los mandatarios de Argentina, Bolivia, Chile, Peru, Uruguay y Venezuela; el rango de fechas de COLT (30/9-1/10/2010) es consistente con la reunion de presidentes del 30/9 seguida por la reunion de cancilleres en Quito el 1/10."},
+      {"TripID": "2597-COL-ARG-40479", "justificacion": "Nestor Kirchner murio el 27 de octubre de 2010; el funeral de Estado se realizo el 28 de octubre en la Casa Rosada con asistencia de mandatarios latinoamericanos, y el 29 de octubre sus restos fueron trasladados a Rio Gallegos, consistente exactamente con el rango de fechas de COLT (28-29/10/2010)."},
+      {"TripID": "2597-COL-ARG-40515", "justificacion": "La XX Cumbre Iberoamericana se realizo en Mar del Plata, Argentina, los dias 3 y 4 de diciembre de 2010, coincidiendo exactamente con el rango de fechas de COLT; la presencia del Rey Juan Carlos I (MetNonhostHOGS) es consistente con su participacion habitual en las cumbres iberoamericanas de esa epoca."},
+      {"TripID": "2597-COL-ARG-40772", "justificacion": "Visita bilateral a la presidenta Cristina Fernandez de Kirchner, agosto de 2011; Fernandez de Kirchner era la presidenta argentina vigente en esa fecha, sin señales de inconsistencia en el registro."},
+      {"TripID": "2597-COL-BRA-40422", "justificacion": "Visita bilateral al presidente Luiz Inacio Lula da Silva, septiembre de 2010; Lula era el presidente brasileno vigente hasta el 1/1/2011, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-BRA-40543", "justificacion": "Corresponde a la toma de posesion de Dilma Rousseff como presidenta de Brasil el 1 de enero de 2011, consistente con el rango de COLT (31/12/2010-1/1/2011) y con el MetHostHoGS 'President Dilma Rousseff' registrado."},
+      {"TripID": "2597-COL-BRA-41809", "justificacion": "Visita bilateral a la presidenta Dilma Rousseff en Brasil el 19 de junio de 2014, periodo que coincide con la fase de grupos del Mundial de Futbol Brasil 2014 en el que participaba la seleccion colombiana; Rousseff era la presidenta vigente, sin señales de inconsistencia en el registro."},
+      {"TripID": "2597-COL-CHL-40769", "justificacion": "Visita bilateral al presidente Sebastian Piñera, agosto de 2011; Piñera era el presidente chileno vigente, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-CHL-41709", "justificacion": "Michelle Bachelet asumio la presidencia de Chile el 11 de marzo de 2014 en ceremonias en Santiago y Valparaiso, consistente exactamente con la fecha puntual de COLT y con las Notes del propio registro ('Attended the inauguration of Michelle Bachelet')."},
+      {"TripID": "2597-COL-CHN-41037", "justificacion": "Visita bilateral a China (8-12 de mayo de 2012), inmediatamente posterior a la visita a Singapur (6-8 de mayo de 2012), dentro de una misma gira asiatica; Hu Jintao era el Secretario General del PCCh vigente en esa fecha, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-CUB-40975", "justificacion": "Visita a Cuba el 7 de marzo de 2012 con encuentro con el presidente Raul Castro, periodo consistente con el inicio de los contactos exploratorios secretos que dieron origen al proceso de paz con las FARC (fase exploratoria iniciada en La Habana desde inicios de 2012); Raul Castro era el presidente cubano vigente."},
+      {"TripID": "2597-COL-CUB-41667", "justificacion": "La II Cumbre de la CELAC se realizo en La Habana, Cuba, los dias 28 y 29 de enero de 2014, coincidiendo exactamente con el rango de fechas de COLT; en esta cumbre se declaro a America Latina y el Caribe como 'Zona de Paz' y la presidencia pro-tempore paso de Raul Castro a Laura Chinchilla."},
+      {"TripID": "2597-COL-DOM-40821", "justificacion": "El American Competitiveness Forum se realizo en Santo Domingo, Republica Dominicana, del 5 al 7 de octubre de 2011, coincidiendo exactamente con el rango de fechas de COLT."},
+      {"TripID": "2597-COL-DOM-41137", "justificacion": "Danilo Medina asumio como presidente constitucional de la Republica Dominicana el 16 de agosto de 2012, con presencia de mas de 14 jefes de Estado, consistente exactamente con la fecha puntual de COLT y con las Notes del propio registro sobre la posesion del presidente electo dominicano."},
+      {"TripID": "2597-COL-ECU-40896", "justificacion": "Visita bilateral al presidente Rafael Correa, diciembre de 2011; Correa era el presidente ecuatoriano vigente, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-ECU-41418", "justificacion": "Rafael Correa inicio su nuevo periodo presidencial el 24 de mayo de 2013, fecha que coincide exactamente con la registrada por COLT y con las Notes del propio registro sobre la posesion de Correa."},
+      {"TripID": "2597-COL-FRA-40566", "justificacion": "Visita a Francia (23-26 de enero de 2011) con encuentro con el presidente Nicolas Sarkozy en el marco de un foro sobre America Latina y el Caribe vinculado al BID; Sarkozy era el presidente frances vigente, y el propio COLT cita como fuentes independientes a la Agencia Francesa de Desarrollo (afd.fr) y Trend.az, sin evidencia contraria hallada."},
+      {"TripID": "2597-COL-DEU-40645", "justificacion": "Visita bilateral a la canciller Angela Merkel, abril de 2011; Merkel era la canciller alemana vigente, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-GTM-40716", "justificacion": "La Conferencia Internacional de Apoyo a la Estrategia de Seguridad de Centroamerica se realizo en Ciudad de Guatemala el 22 y 23 de junio de 2011, coincidiendo con la fecha puntual de COLT (22/6/2011)."},
+      {"TripID": "2597-COL-GTM-40922", "justificacion": "Otto Perez Molina asumio como presidente de Guatemala el 14 de enero de 2012, fecha que coincide exactamente con la registrada por COLT y con las Notes del propio registro sobre la toma de posesion."},
+      {"TripID": "2597-COL-GUY-40508", "justificacion": "La IV Cumbre de UNASUR se realizo en Georgetown, Guyana, el 26 de noviembre de 2010, con la firma de un protocolo adicional al Tratado Constitutivo (clausula democratica) y traspaso de la presidencia pro-tempore a Guyana; consistente con el rango de fechas de COLT (26-27/11/2010)."},
+      {"TripID": "2597-COL-VAT-41406", "justificacion": "Audiencia con el Papa Francisco el 12 de mayo de 2013; Francisco fue elegido Papa en marzo de 2013, por lo que la fecha es cronologicamente consistente con el inicio de su pontificado, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-ISR-41433", "justificacion": "Corresponde al primer tramo de la gira de Santos por Israel y los territorios palestinos (8-9 de junio de 2013), confirmada por comunicado oficial de la Cancilleria de Colombia sobre el encuentro con el presidente palestino Mahmoud Abbas, en el cual Santos señalo haber hablado 'durante estos tres dias' con el primer ministro Netanyahu, el enviado del Cuarteto Tony Blair y la secretaria de Estado Hillary Clinton, lo que confirma una gira de varios dias con entradas y salidas de Israel."},
+      {"TripID": "2597-COL-ISR-41435", "justificacion": "Corresponde al segundo tramo de la misma gira por Israel (10-11 de junio de 2013), tras la visita a los territorios palestinos el 9/6; consistente con la declaracion de Santos sobre una gira de 'tres dias' con multiples encuentros en Israel, y con el encuentro adicional con el presidente israeli Shimon Peres señalado en las Notes de COLT."},
+      {"TripID": "2597-COL-JAM-40501", "justificacion": "Visita bilateral al primer ministro Bruce Golding, noviembre de 2010; Golding era el primer ministro jamaiquino vigente, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-JPN-40797", "justificacion": "Visita a Japon (11-14 de septiembre de 2011) con audiencia con el emperador Akihito, inmediatamente anterior a la visita a Corea del Sur (14-16/9/2011), dentro de una misma gira asiatica; sin señales de inconsistencia."},
+      {"TripID": "2597-COL-MEX-40435", "justificacion": "Las celebraciones del Bicentenario de la Independencia de Mexico se realizaron el 15 y 16 de septiembre de 2010 con la presencia de jefes de Estado invitados, consistente con el viaje de Santos el 14/9/2010 (dia de llegada) y su encuentro con el presidente Felipe Calderon."},
+      {"TripID": "2597-COL-MEX-40489", "justificacion": "Corresponde a una reunion de la Sociedad Interamericana de Prensa (SIP) en Mexico, noviembre de 2010; evento periodico de esta organizacion gremial de medios, sin señales de inconsistencia en el registro de COLT."},
+      {"TripID": "2597-COL-MEX-40754", "justificacion": "Visita bilateral al presidente Felipe Calderon, julio-agosto de 2011; Calderon era el presidente mexicano vigente, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-MEX-41244", "justificacion": "Enrique Peña Nieto asumio como presidente de Mexico el 1 de diciembre de 2012 en una ceremonia con amplia asistencia de jefes de Estado extranjeros y representantes de organismos internacionales (confirmado por SEGIB), consistente con la fecha puntual de COLT y con el HostHOGSName registrado; la secuencia logistica es ademas coherente con la correccion aplicada al TripID hermano 2597-COL-PER-41244 (UNASUR Lima 30/11, luego Ciudad de Mexico 1/12)."},
+      {"TripID": "2597-COL-PSE-41434", "justificacion": "Encuentro con el presidente palestino Mahmoud Abbas en Ramala el 9 de junio de 2013, confirmado por comunicado oficial de la Cancilleria de Colombia sobre las declaraciones conjuntas de Santos y Abbas relativas al proceso de paz israelo-palestino, dentro de la misma gira por Israel y los territorios palestinos (ver TripIDs 2597-COL-ISR-41433 y 2597-COL-ISR-41435)."},
+      {"TripID": "2597-COL-PAN-41565", "justificacion": "La XXIII Cumbre Iberoamericana se realizo en la Ciudad de Panama los dias 18 y 19 de octubre de 2013; el rango de fechas de COLT (18-21/10/2013) es consistente con el inicio exacto de la cumbre, con dias adicionales de estadia posiblemente vinculados a los encuentros bilaterales con Peña Nieto y Chinchilla que registra el propio COLT (MetNonhostHOGS)."},
+      {"TripID": "2597-COL-PER-40751", "justificacion": "Ollanta Humala asumio la presidencia de Peru el 28 de julio de 2011, fecha en la que tambien se realizo una reunion de presidentes de UNASUR en Lima con motivo de la posesion, consistente con el rango de fechas de COLT (27-28/7/2011) y con el HostHOGSName registrado."},
+      {"TripID": "2597-COL-PER-41382", "justificacion": "UNASUR convoco una reunion extraordinaria de presidentes en Lima el 18 de abril de 2013 para abordar la crisis politica venezolana tras las elecciones presidenciales del 14 de abril (en las que resulto electo Nicolas Maduro), con participacion confirmada de los presidentes de Peru, Brasil, Argentina, Colombia, Uruguay, Chile, Guyana y Bolivia; fecha que coincide exactamente con la registrada por COLT."},
+      {"TripID": "2597-COL-PRT-41228", "justificacion": "Visita bilateral al primer ministro Pedro Passos Coelho, noviembre de 2012, inmediatamente anterior a la Cumbre Iberoamericana de Cadiz (16-17/11/2012); Passos Coelho era el primer ministro portugues vigente, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-PRT-41664", "justificacion": "Visita personal a Lisboa el 25 de enero de 2014 para visitar al futbolista colombiano Radamel Falcao, quien se recuperaba de una cirugia de ligamento cruzado tras su lesion de enero de 2014 mientras jugaba en el Atletico de Madrid/AS Monaco, episodio ampliamente cubierto por la prensa deportiva de la epoca y consistente con las Notes del propio registro de COLT."},
+      {"TripID": "2597-COL-KNA-40726", "justificacion": "La XXXII Reunion Ordinaria de la Conferencia de Jefes de Gobierno de CARICOM se realizo en Basseterre, San Cristobal y Nieves, del 30 de junio al 4 de julio de 2011; la fecha puntual de COLT (2/7/2011) cae dentro de ese rango, consistente con la asistencia de Santos como invitado no miembro."},
+      {"TripID": "2597-COL-SGP-41035", "justificacion": "Visita bilateral al presidente Tony Tan de Singapur (6-8 de mayo de 2012), inmediatamente anterior a la visita a China (8-12/5/2012), dentro de una misma gira asiatica; sin señales de inconsistencia."},
+      {"TripID": "2597-COL-KOR-40800", "justificacion": "Visita bilateral al presidente Lee Myung-bak, septiembre de 2011, inmediatamente posterior a la visita a Japon dentro de la misma gira asiatica; Lee Myung-bak era el presidente surcoreano vigente, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-ESP-40643", "justificacion": "Visita bilateral al presidente del Gobierno Jose Luis Rodriguez Zapatero, abril de 2011, inmediatamente anterior a la visita a Alemania; Zapatero era el presidente del Gobierno español vigente, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-ESP-41229", "justificacion": "La XXII Cumbre Iberoamericana se realizo en Cadiz, España, los dias 16 y 17 de noviembre de 2012, coincidiendo exactamente con el rango de fechas de COLT."},
+      {"TripID": "2597-COL-ESP-41660", "justificacion": "Visita bilateral al presidente del Gobierno Mariano Rajoy, enero de 2014, al inicio de una gira europea que continuo con el Foro de Davos (22-25/1/2014) y Portugal (25/1/2014); Rajoy era el presidente del Gobierno español vigente, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-CHE-40570", "justificacion": "La 41a reunion anual del Foro Economico Mundial se realizo en Davos-Klosters, Suiza, del 26 al 30 de enero de 2011; la fecha puntual de COLT (27/1/2011) cae dentro de ese rango, dentro de una gira europea que incluyo tambien Francia (23-26/1/2011)."},
+      {"TripID": "2597-COL-CHE-41661", "justificacion": "La 44a reunion anual del Foro Economico Mundial se realizo en Davos-Klosters, Suiza, del 22 al 25 de enero de 2014, coincidiendo exactamente con el rango de fechas de COLT."},
+      {"TripID": "2597-COL-GBR-40866", "justificacion": "Visita bilateral al primer ministro David Cameron (19-22 de noviembre de 2011), inmediatamente posterior a la visita a Turquia; Cameron era el primer ministro britanico vigente, y el encuentro adicional con la Reina Isabel II (Notes de COLT) es consistente con el protocolo habitual de visitas de Estado al Reino Unido."},
+      {"TripID": "2597-COL-GBR-41431", "justificacion": "Corresponde a la conferencia 'Colombia: Inside Out', evento sobre inversion y percepcion internacional de Colombia realizado en Londres el 6 de junio de 2013 con participacion del primer ministro David Cameron, coincidiendo con la fecha puntual de COLT y de forma cronologicamente consistente con la gira por Israel y Palestina que Santos realizo inmediatamente despues (8-11/6/2013)."},
+      {"TripID": "2597-COL-USA-40442", "justificacion": "El 65o periodo de sesiones de la Asamblea General de la ONU se realizo en septiembre de 2010 en Nueva York, con el debate general iniciando el 23/9/2010; el rango de COLT (21-24/9/2010) y el encuentro con el presidente Barack Obama son consistentes con la agenda habitual de un jefe de Estado visitante durante la semana de alto nivel de la ONU."},
+      {"TripID": "2597-COL-USA-40518", "justificacion": "La Novena Asamblea de los Estados Parte del Estatuto de Roma de la Corte Penal Internacional se realizo en Nueva York del 6 al 10 de diciembre de 2010; la fecha puntual de COLT (6/12/2010, dia de apertura) es consistente con esta sesion, y el encuentro con el Secretario General Ban Ki-moon y el presidente de la CPI Sang-Hyun Song (MetIGOLeader) refuerza la coherencia del registro."},
+      {"TripID": "2597-COL-USA-40637", "justificacion": "Colombia fue miembro no permanente del Consejo de Seguridad de la ONU durante el periodo 2011-2012; la visita de abril de 2011 con reunion en el Consejo de Seguridad y encuentro con el presidente Barack Obama es consistente con ese rol, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-USA-40806", "justificacion": "El 66o periodo de sesiones de la Asamblea General de la ONU se realizo en septiembre de 2011; el rango de COLT (20-22/9/2011) es consistente con la semana de alto nivel, y los encuentros adicionales con Dilma Rousseff y Netanyahu (MetNonhostHOGS) son plausibles en el contexto de la concurrencia de jefes de Estado en Nueva York durante esa semana."},
+      {"TripID": "2597-COL-USA-41054", "justificacion": "Viaje de un dia a Estados Unidos con agenda de foro de negocios (25/5/2012), sin reunion con jefe de Estado ni evento multilateral relevante que contradiga el registro; sin señales de inconsistencia."},
+      {"TripID": "2597-COL-USA-41176", "justificacion": "El 67o periodo de sesiones de la Asamblea General de la ONU se realizo en septiembre de 2012; el rango de COLT (24-26/9/2012) es consistente con la semana de alto nivel de la Asamblea General."},
+      {"TripID": "2597-COL-USA-41541", "justificacion": "El 68o periodo de sesiones de la Asamblea General de la ONU se realizo en septiembre de 2013; el rango de COLT (24-25/9/2013) es consistente con la semana de alto nivel, y el encuentro con el presidente uruguayo Jose Mujica (MetNonhostHOGS) es plausible en el contexto de la concurrencia de jefes de Estado en Nueva York."},
+      {"TripID": "2597-COL-USA-41609", "justificacion": "Visita a Estados Unidos con encuentro con el presidente Barack Obama y visita a la Universidad de Miami, confirmada por comunicado oficial de la Casa Blanca (whitehouse.gov, 3/12/2013) y por la propia Universidad de Miami sobre esta 'historic visit', consistente con el rango de fechas de COLT (1-3/12/2013)."},
+      {"TripID": "2597-COL-VEN-40484", "justificacion": "Visita a Venezuela con encuentro con el presidente Hugo Chavez el 2 de noviembre de 2010, en el marco del proceso de restablecimiento de relaciones diplomaticas y comerciales iniciado con el Acuerdo de Santa Marta del 10 de agosto de 2010; Chavez era el presidente venezolano vigente, sin señales de inconsistencia."},
+      {"TripID": "2597-COL-VEN-40879", "justificacion": "La cumbre fundacional de la CELAC se realizo en Caracas, Venezuela, los dias 2 y 3 de diciembre de 2011, en el marco de la III Cumbre de la CALC y la XXII Cumbre del Grupo de Rio, coincidiendo exactamente con el rango de fechas de COLT; el encuentro con el presidente cubano Raul Castro (MetNonhostHOGS) es consistente con la asistencia de la totalidad de jefes de Estado de America Latina y el Caribe."},
+      {"TripID": "2597-COL-VEN-41341", "justificacion": "Hugo Chavez fallecio el 5 de marzo de 2013 y su funeral de Estado se realizo en Caracas el 8 de marzo de 2013 con presencia de lideres latinoamericanos, coincidiendo exactamente con la fecha puntual de COLT y con las Notes del propio registro."},
+      {"TripID": "2597-COL-VEN-41477", "justificacion": "Encuentro bilateral entre Santos y el presidente Nicolas Maduro en Puerto Ayacucho, Venezuela, confirmado por comunicado oficial de la Cancilleria de Colombia (resumen semanal de noticias del 22 al 26 de julio de 2013) y por el articulo de Wikipedia sobre la crisis diplomatica Colombia-Venezuela de 2013, consistente con la fecha del 22/7/2013 registrada por COLT, que el propio COLT ya señala como no totalmente explicita en sus Notes."}
+    ]
+  }
+]

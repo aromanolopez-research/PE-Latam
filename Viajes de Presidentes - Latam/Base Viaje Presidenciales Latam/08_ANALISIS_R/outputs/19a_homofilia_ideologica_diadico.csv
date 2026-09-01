@@ -166,7 +166,7 @@
 "3670-ARG-URY-45226",2023-10-27,2020,"Uruguay","Alberto Fernandez",3,2020-03-01,2025-03-01,5.83,"Luis Alberto Lacalle Pou","Centro","Derecha",FALSE
 "840-BOL-ARG-34410",1994-03-17,1990,"Argentina","Gonzalo Sanchez de Lozada",5.90000009536743,1989-07-08,1995-07-08,6.09999990463257,"Carlos Saul Menem1","Derecha","Derecha",TRUE
 "840-BOL-ARG-34988",1995-10-16,1995,"Argentina","Gonzalo Sanchez de Lozada",5.90000009536743,1995-07-08,1999-12-10,6.30000019073486,"Carlos Saul Menem2","Derecha","Derecha",TRUE
-"1245-BOL-ARG-36443",1999-10-10,1995,"Argentina","Hugo Banzer Suarez",6.5,1995-07-08,1999-12-10,6.30000019073486,"Carlos Saul Menem2","Derecha","Derecha",TRUE
+"1245-BOL-ARG-36443",1999-12-09,1995,"Argentina","Hugo Banzer Suarez",6.5,1995-07-08,1999-12-10,6.30000019073486,"Carlos Saul Menem2","Derecha","Derecha",TRUE
 "1871-BOL-ARG-38098",2004-04-21,2000,"Argentina","Carlos Diego Mesa Gisbert",4.5,2003-05-25,2007-12-10,2.79999995231628,"Nestor Carlos Kirchner","Centro","Izquierda",FALSE
 "1871-BOL-ARG-38175",2004-07-07,2000,"Argentina","Carlos Diego Mesa Gisbert",4.5,2003-05-25,2007-12-10,2.79999995231628,"Nestor Carlos Kirchner","Centro","Izquierda",FALSE
 "2117-BOL-ARG-38841",2006-05-04,2005,"Argentina","Juan Evo Morales Ayma1",2.20000004768372,2003-05-25,2007-12-10,2.79999995231628,"Nestor Carlos Kirchner","Izquierda","Izquierda",TRUE
@@ -262,7 +262,6 @@
 "840-BOL-PRY-34407",1994-03-14,1990,"Paraguay","Gonzalo Sanchez de Lozada",5.90000009536743,1993-08-15,1998-08-15,5.75,"Juan Carlos Maria Wasmosy Monti","Derecha","Derecha",TRUE
 "840-BOL-PRY-35178",1996-04-23,1995,"Paraguay","Gonzalo Sanchez de Lozada",5.90000009536743,1993-08-15,1998-08-15,5.75,"Juan Carlos Maria Wasmosy Monti","Derecha","Derecha",TRUE
 "840-BOL-PRY-35600",1997-06-19,1995,"Paraguay","Gonzalo Sanchez de Lozada",5.90000009536743,1993-08-15,1998-08-15,5.75,"Juan Carlos Maria Wasmosy Monti","Derecha","Derecha",TRUE
-"1245-BOL-PRY-36021",1998-08-14,1995,"Paraguay","Hugo Banzer Suarez",6.5,1993-08-15,1998-08-15,5.75,"Juan Carlos Maria Wasmosy Monti","Derecha","Derecha",TRUE
 "1245-BOL-PRY-36326",1999-06-15,1995,"Paraguay","Hugo Banzer Suarez",6.5,1999-03-28,2003-08-15,5.75,"Luis Angel Gonzalez Macchi","Derecha","Derecha",TRUE
 "1245-BOL-PRY-37064",2001-06-22,2000,"Paraguay","Hugo Banzer Suarez",6.5,1999-03-28,2003-08-15,5.75,"Luis Angel Gonzalez Macchi","Derecha","Derecha",TRUE
 "2117-BOL-PRY-38826",2006-04-19,2005,"Paraguay","Juan Evo Morales Ayma1",2.20000004768372,2003-08-15,2008-08-15,3.79999995231628,"Oscar Nicanor Duarte Frutos","Izquierda","Centro",FALSE
@@ -351,7 +350,7 @@
 "3766-BOL-VEN-45640",2024-12-14,2020,"Venezuela","Luis Arce",5,2019-01-10,2099-12-31,4.5,"Nicolas Maduro Moros2","Derecha","Centro",FALSE
 "756-BRA-ARG-34551",1994-08-05,1990,"Argentina","Itamar Augusto Cautiero Franco",4.44000005722046,1989-07-08,1995-07-08,6.09999990463257,"Carlos Saul Menem1","Centro","Derecha",FALSE
 "994-BRA-ARG-34747",1995-02-17,1995,"Argentina","Fernando Henrique Cardoso1",4.78000020980835,1989-07-08,1995-07-08,6.09999990463257,"Carlos Saul Menem1","Centro","Derecha",FALSE
-"994-BRA-ARG-34885",1995-07-05,1995,"Argentina","Fernando Henrique Cardoso1",4.78000020980835,1989-07-08,1995-07-08,6.09999990463257,"Carlos Saul Menem1","Centro","Derecha",FALSE
+"994-BRA-ARG-34885",1995-07-08,1995,"Argentina","Fernando Henrique Cardoso1",4.78000020980835,1995-07-08,1999-12-10,6.30000019073486,"Carlos Saul Menem2","Centro","Derecha",FALSE
 "994-BRA-ARG-34988",1995-10-16,1995,"Argentina","Fernando Henrique Cardoso1",4.78000020980835,1995-07-08,1999-12-10,6.30000019073486,"Carlos Saul Menem2","Centro","Derecha",FALSE
 "994-BRA-ARG-35009",1995-11-06,1995,"Argentina","Fernando Henrique Cardoso1",4.78000020980835,1995-07-08,1999-12-10,6.30000019073486,"Carlos Saul Menem2","Centro","Derecha",FALSE
 "994-BRA-ARG-35162",1996-04-07,1995,"Argentina","Fernando Henrique Cardoso1",4.78000020980835,1995-07-08,1999-12-10,6.30000019073486,"Carlos Saul Menem2","Centro","Derecha",FALSE
@@ -432,7 +431,7 @@
 "3531-BRA-CHL-43546",2019-03-22,2015,"Chile","Jair Messias Bolsonaro",6.6,2018-03-11,2022-03-11,5.81,"Sebastián Piñera2","Derecha","Derecha",TRUE
 "756-BRA-COL-34356",1994-01-22,1990,"Colombia","Itamar Augusto Cautiero Franco",4.44000005722046,1990-08-07,1994-08-07,5.42999982833862,"Cesar Augusto Gaviria Trujillo","Centro","Derecha",FALSE
 "756-BRA-COL-34499",1994-06-14,1990,"Colombia","Itamar Augusto Cautiero Franco",4.44000005722046,1990-08-07,1994-08-07,5.42999982833862,"Cesar Augusto Gaviria Trujillo","Centro","Derecha",FALSE
-"994-BRA-COL-35740",1997-11-06,1995,"Colombia","Fernando Henrique Cardoso1",4.78000020980835,1994-08-07,1998-08-07,4.1399998664856,"Ernesto Samper Pizano","Centro","Centro",TRUE
+"994-BRA-COL-35740",1997-11-07,1995,"Colombia","Fernando Henrique Cardoso1",4.78000020980835,1994-08-07,1998-08-07,4.1399998664856,"Ernesto Samper Pizano","Centro","Centro",TRUE
 "994-BRA-COL-36441",1999-10-08,1995,"Colombia","Fernando Henrique Cardoso2",4.78000020980835,1998-08-07,2002-08-07,6,"Andres Pastrana Arango","Centro","Derecha",FALSE
 "994-BRA-COL-36692",2000-06-15,2000,"Colombia","Fernando Henrique Cardoso2",4.78000020980835,1998-08-07,2002-08-07,6,"Andres Pastrana Arango","Centro","Derecha",FALSE
 "1780-BRA-COL-37799",2003-06-27,2000,"Colombia","Luiz Inacio Lula da Silva1",2.44000005722046,2002-08-07,2006-08-07,6.8600001335144,"Alvaro Uribe Velez1","Izquierda","Derecha",FALSE
@@ -472,7 +471,7 @@
 "2652-BRA-PRY-40722",2011-06-28,2010,"Paraguay","Dilma Rousseff",3,2008-08-15,2012-06-22,2.59999990463257,"Fernando Armindo Lugo Mendez","Centro","Izquierda",FALSE
 "3224-BRA-PRY-43269",2018-06-18,2015,"Paraguay","Michel Temmer",5.1,2013-08-15,2018-08-15,5.59999990463257,"Horacio Manuel Cartes Jara","Derecha","Derecha",TRUE
 "3224-BRA-PRY-43455",2018-12-21,2015,"Paraguay","Michel Temmer",5.1,2018-08-15,2023-08-15,6.6,"Mario Abdo Beníte","Derecha","Derecha",TRUE
-"994-BRA-PER-34907",1995-07-27,1995,"Peru","Fernando Henrique Cardoso1",4.78000020980835,1990-07-28,1995-07-28,4.78000020980835,"Alberto Kenya Fujimori Fujimori1","Centro","Centro",TRUE
+"994-BRA-PER-34907",1995-07-28,1995,"Peru","Fernando Henrique Cardoso1",4.78000020980835,1995-07-28,2000-07-28,5.44000005722046,"Alberto Kenya Fujimori Fujimori2","Centro","Derecha",FALSE
 "994-BRA-PER-36361",1999-07-20,1995,"Peru","Fernando Henrique Cardoso2",4.78000020980835,1995-07-28,2000-07-28,5.44000005722046,"Alberto Kenya Fujimori Fujimori2","Centro","Derecha",FALSE
 "994-BRA-PER-37218",2001-11-23,2000,"Peru","Fernando Henrique Cardoso2",4.78000020980835,2001-07-28,2006-07-28,4.67000007629395,"Alejandro Celestino Toledo Manrique","Centro","Centro",TRUE
 "1780-BRA-PER-37763",2003-05-22,2000,"Peru","Luiz Inacio Lula da Silva1",2.44000005722046,2001-07-28,2006-07-28,4.67000007629395,"Alejandro Celestino Toledo Manrique","Izquierda","Centro",FALSE
@@ -512,7 +511,7 @@
 "2652-BRA-URY-42063",2015-02-28,2015,"Uruguay","Dilma Rousseff2",2.6,2010-03-01,2015-03-01,2.5,"Jose Alberto Mujica Cordano","Izquierda","Izquierda",TRUE
 "3224-BRA-URY-43452",2018-12-18,2015,"Uruguay","Michel Temmer",5.1,2015-03-01,2020-03-01,2.83,"Tabaré Vázquez","Derecha","Izquierda",FALSE
 "3531-BRA-URY-43891",2020-03-01,2020,"Uruguay","Jair Messias Bolsonaro",6.6,2020-03-01,2025-03-01,5.83,"Luis Alberto Lacalle Pou","Derecha","Derecha",TRUE
-"756-BRA-VEN-34396",1994-03-03,1990,"Venezuela","Itamar Augusto Cautiero Franco",4.44000005722046,1994-02-02,1999-02-02,4.13000011444092,"Rafael Antonio Caldera Rodriguez","Centro","Centro",TRUE
+"756-BRA-VEN-34396",1994-03-04,1990,"Venezuela","Itamar Augusto Cautiero Franco",4.44000005722046,1994-02-02,1999-02-02,4.13000011444092,"Rafael Antonio Caldera Rodriguez","Centro","Centro",TRUE
 "994-BRA-VEN-34884",1995-07-04,1995,"Venezuela","Fernando Henrique Cardoso1",4.78000020980835,1994-02-02,1999-02-02,4.13000011444092,"Rafael Antonio Caldera Rodriguez","Centro","Centro",TRUE
 "994-BRA-VEN-35741",1997-11-07,1995,"Venezuela","Fernando Henrique Cardoso1",4.78000020980835,1994-02-02,1999-02-02,4.13000011444092,"Rafael Antonio Caldera Rodriguez","Centro","Centro",TRUE
 "994-BRA-VEN-36122",1998-11-23,1995,"Venezuela","Fernando Henrique Cardoso1",4.78000020980835,1994-02-02,1999-02-02,4.13000011444092,"Rafael Antonio Caldera Rodriguez","Centro","Centro",TRUE
@@ -571,7 +570,7 @@
 "2134-CHL-BOL-39247",2007-06-14,2005,"Bolivia","Veronica Michelle Bachelet Jeria",2.85999989509583,2006-01-22,2010-01-22,2.20000004768372,"Juan Evo Morales Ayma1","Izquierda","Izquierda",TRUE
 "2134-CHL-BOL-39433",2007-12-17,2005,"Bolivia","Veronica Michelle Bachelet Jeria",2.85999989509583,2006-01-22,2010-01-22,2.20000004768372,"Juan Evo Morales Ayma1","Izquierda","Izquierda",TRUE
 "907-CHL-BRA-34585",1994-09-08,1990,"Brazil","Eduardo Frei Ruiz-Tagle",4.1399998664856,1992-12-29,1995-01-01,4.44000005722046,"Itamar Augusto Cautiero Franco","Centro","Centro",TRUE
-"907-CHL-BRA-34701",1995-01-02,1995,"Brazil","Eduardo Frei Ruiz-Tagle",4.1399998664856,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Centro","Centro",TRUE
+"907-CHL-BRA-34701",1995-01-01,1995,"Brazil","Eduardo Frei Ruiz-Tagle",4.1399998664856,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Centro","Centro",TRUE
 "907-CHL-BRA-35148",1996-03-24,1995,"Brazil","Eduardo Frei Ruiz-Tagle",4.1399998664856,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Centro","Centro",TRUE
 "907-CHL-BRA-36138",1998-12-09,1995,"Brazil","Eduardo Frei Ruiz-Tagle",4.1399998664856,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Centro","Centro",TRUE
 "907-CHL-BRA-36339",1999-06-28,1995,"Brazil","Eduardo Frei Ruiz-Tagle",4.1399998664856,1999-01-01,2003-01-01,4.78000020980835,"Fernando Henrique Cardoso2","Centro","Centro",TRUE
@@ -677,9 +676,11 @@
 "949-COL-BOL-35310",1996-09-02,1995,"Bolivia","Ernesto Samper Pizano",4.1399998664856,1993-08-06,1997-08-06,5.90000009536743,"Gonzalo Sanchez de Lozada","Centro","Derecha",FALSE
 "949-COL-BOL-35542",1997-04-22,1995,"Bolivia","Ernesto Samper Pizano",4.1399998664856,1993-08-06,1997-08-06,5.90000009536743,"Gonzalo Sanchez de Lozada","Centro","Derecha",FALSE
 "1746-COL-BOL-37938",2003-11-13,2000,"Bolivia","Alvaro Uribe Velez1",6.8600001335144,2003-10-17,2005-06-09,4.5,"Carlos Diego Mesa Gisbert","Derecha","Centro",FALSE
+"1746-COL-BOL-38738",2006-01-22,2005,"Bolivia","Alvaro Uribe Velez1",6.8600001335144,2006-01-22,2010-01-22,2.20000004768372,"Juan Evo Morales Ayma1","Derecha","Izquierda",FALSE
 "1746-COL-BOL-39247",2007-06-14,2005,"Bolivia","Alvaro Uribe Velez2",6.8600001335144,2006-01-22,2010-01-22,2.20000004768372,"Juan Evo Morales Ayma1","Derecha","Izquierda",FALSE
 "1746-COL-BOL-40029",2009-08-04,2005,"Bolivia","Alvaro Uribe Velez2",6.8600001335144,2006-01-22,2010-01-22,2.20000004768372,"Juan Evo Morales Ayma1","Derecha","Izquierda",FALSE
-"1337-COL-BRA-36093",1998-10-25,1995,"Brazil","Andres Pastrana Arango",6,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Derecha","Centro",FALSE
+"3477-COL-BOL-44142",2020-11-08,2020,"Bolivia","Iván Duque Márquez",6,2020-11-08,2025-11-08,5,"Luis Arce","Derecha","Derecha",TRUE
+"1337-COL-BRA-36093",1998-10-26,1995,"Brazil","Andres Pastrana Arango",6,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Derecha","Centro",FALSE
 "1337-COL-BRA-36769",2000-08-31,2000,"Brazil","Andres Pastrana Arango",6,1999-01-01,2003-01-01,4.78000020980835,"Fernando Henrique Cardoso2","Derecha","Centro",FALSE
 "1746-COL-BRA-37687",2003-03-07,2000,"Brazil","Alvaro Uribe Velez1",6.8600001335144,2003-01-01,2007-01-01,2.44000005722046,"Luiz Inacio Lula da Silva1","Derecha","Izquierda",FALSE
 "1746-COL-BRA-38159",2004-06-21,2000,"Brazil","Alvaro Uribe Velez1",6.8600001335144,2003-01-01,2007-01-01,2.44000005722046,"Luiz Inacio Lula da Silva1","Derecha","Izquierda",FALSE
@@ -710,7 +711,7 @@
 "2597-COL-CHL-41709",2014-03-11,2010,"Chile","Juan Manuel Santos Calderon",4.57000017166138,2014-03-11,2018-03-11,2.9,"Michelle Bachelet","Centro","Izquierda",FALSE
 "2597-COL-CHL-42550",2016-06-29,2015,"Chile","Juan Manuel Santos Calderon2",5,2014-03-11,2018-03-11,2.9,"Michelle Bachelet","Derecha","Izquierda",FALSE
 "3477-COL-CHL-43545",2019-03-21,2015,"Chile","Iván Duque Márquez",6,2018-03-11,2022-03-11,5.81,"Sebastián Piñera2","Derecha","Derecha",TRUE
-"3477-COL-CHL-44142",2020-11-07,2020,"Chile","Iván Duque Márquez",6,2018-03-11,2022-03-11,5.81,"Sebastián Piñera2","Derecha","Derecha",TRUE
+"3477-COL-CHL-44142",2020-11-08,2020,"Chile","Iván Duque Márquez",6,2018-03-11,2022-03-11,5.81,"Sebastián Piñera2","Derecha","Derecha",TRUE
 "3477-COL-CHL-44176",2020-12-11,2020,"Chile","Iván Duque Márquez",6,2018-03-11,2022-03-11,5.81,"Sebastián Piñera2","Derecha","Derecha",TRUE
 "949-COL-ECU-34946",1995-09-04,1995,"Ecuador","Ernesto Samper Pizano",4.1399998664856,1992-08-10,1996-08-10,6.5,"Sixto Alfonso Duran Ballen Cordovez","Centro","Derecha",FALSE
 "949-COL-ECU-35685",1997-09-12,1995,"Ecuador","Ernesto Samper Pizano",4.1399998664856,1997-02-11,1998-08-10,5,"Fabian Ernesto Alarcon Rivera","Centro","Derecha",FALSE
@@ -740,21 +741,21 @@
 "1746-COL-PRY-38522",2005-06-19,2005,"Paraguay","Alvaro Uribe Velez1",6.8600001335144,2003-08-15,2008-08-15,3.79999995231628,"Oscar Nicanor Duarte Frutos","Derecha","Centro",FALSE
 "1746-COL-PRY-40030",2009-08-05,2005,"Paraguay","Alvaro Uribe Velez2",6.8600001335144,2008-08-15,2012-06-22,2.59999990463257,"Fernando Armindo Lugo Mendez","Derecha","Izquierda",FALSE
 "2597-COL-PRY-42848",2017-04-23,2015,"Paraguay","Juan Manuel Santos Calderon2",5,2013-08-15,2018-08-15,5.59999990463257,"Horacio Manuel Cartes Jara","Derecha","Derecha",TRUE
-"3477-COL-PRY-43327",2018-08-15,2015,"Paraguay","Iván Duque Márquez",6,2018-08-15,2023-08-15,6.6,"Mario Abdo Beníte","Derecha","Derecha",TRUE
-"452-COL-PER-34528",1994-07-13,1990,"Peru","Cesar Augusto Gaviria Trujillo",5.42999982833862,1990-07-28,1995-07-28,4.78000020980835,"Alberto Kenya Fujimori Fujimori1","Derecha","Centro",FALSE
+"3477-COL-PRY-43327",2018-08-14,2015,"Paraguay","Iván Duque Márquez",6,2013-08-15,2018-08-15,5.59999990463257,"Horacio Manuel Cartes Jara","Derecha","Derecha",TRUE
+"452-COL-PER-34528",1994-07-12,1990,"Peru","Cesar Augusto Gaviria Trujillo",5.42999982833862,1990-07-28,1995-07-28,4.78000020980835,"Alberto Kenya Fujimori Fujimori1","Derecha","Centro",FALSE
 "1337-COL-PER-36686",2000-06-09,2000,"Peru","Andres Pastrana Arango",6,1995-07-28,2000-07-28,5.44000005722046,"Alberto Kenya Fujimori Fujimori2","Derecha","Derecha",TRUE
 "1746-COL-PER-37763",2003-05-22,2000,"Peru","Alvaro Uribe Velez1",6.8600001335144,2001-07-28,2006-07-28,4.67000007629395,"Alejandro Celestino Toledo Manrique","Derecha","Centro",FALSE
 "1746-COL-PER-38282",2004-10-22,2000,"Peru","Alvaro Uribe Velez1",6.8600001335144,2001-07-28,2006-07-28,4.67000007629395,"Alejandro Celestino Toledo Manrique","Derecha","Centro",FALSE
 "1746-COL-PER-38329",2004-12-08,2000,"Peru","Alvaro Uribe Velez1",6.8600001335144,2001-07-28,2006-07-28,4.67000007629395,"Alejandro Celestino Toledo Manrique","Derecha","Centro",FALSE
 "1746-COL-PER-38551",2005-07-18,2005,"Peru","Alvaro Uribe Velez1",6.8600001335144,2001-07-28,2006-07-28,4.67000007629395,"Alejandro Celestino Toledo Manrique","Derecha","Centro",FALSE
-"1746-COL-PER-38925",2006-07-27,2005,"Peru","Alvaro Uribe Velez1",6.8600001335144,2001-07-28,2006-07-28,4.67000007629395,"Alejandro Celestino Toledo Manrique","Derecha","Centro",FALSE
+"1746-COL-PER-38925",2006-07-28,2005,"Peru","Alvaro Uribe Velez1",6.8600001335144,2006-07-28,2011-07-28,5.67000007629395,"Alan Gabriel Ludwig Garcia Perez2","Derecha","Derecha",TRUE
 "1746-COL-PER-39313",2007-08-19,2005,"Peru","Alvaro Uribe Velez2",6.8600001335144,2006-07-28,2011-07-28,5.67000007629395,"Alan Gabriel Ludwig Garcia Perez2","Derecha","Derecha",TRUE
 "1746-COL-PER-39583",2008-05-15,2005,"Peru","Alvaro Uribe Velez2",6.8600001335144,2006-07-28,2011-07-28,5.67000007629395,"Alan Gabriel Ludwig Garcia Perez2","Derecha","Derecha",TRUE
 "1746-COL-PER-39774",2008-11-22,2005,"Peru","Alvaro Uribe Velez2",6.8600001335144,2006-07-28,2011-07-28,5.67000007629395,"Alan Gabriel Ludwig Garcia Perez2","Derecha","Derecha",TRUE
 "1746-COL-PER-40029",2009-08-04,2005,"Peru","Alvaro Uribe Velez2",6.8600001335144,2006-07-28,2011-07-28,5.67000007629395,"Alan Gabriel Ludwig Garcia Perez2","Derecha","Derecha",TRUE
 "2597-COL-PER-40661",2011-04-28,2010,"Peru","Juan Manuel Santos Calderon",4.57000017166138,2006-07-28,2011-07-28,5.67000007629395,"Alan Gabriel Ludwig Garcia Perez2","Centro","Derecha",FALSE
 "2597-COL-PER-40751",2011-07-27,2010,"Peru","Juan Manuel Santos Calderon",4.57000017166138,2006-07-28,2011-07-28,5.67000007629395,"Alan Gabriel Ludwig Garcia Perez2","Centro","Derecha",FALSE
-"2597-COL-PER-41244",2012-12-01,2010,"Peru","Juan Manuel Santos Calderon",4.57000017166138,2011-07-28,2016-07-28,4.55999994277954,"Ollanta Moises Humala Tasso","Centro","Centro",TRUE
+"2597-COL-PER-41244",2012-11-30,2010,"Peru","Juan Manuel Santos Calderon",4.57000017166138,2011-07-28,2016-07-28,4.55999994277954,"Ollanta Moises Humala Tasso","Centro","Centro",TRUE
 "2597-COL-PER-41382",2013-04-18,2010,"Peru","Juan Manuel Santos Calderon",4.57000017166138,2011-07-28,2016-07-28,4.55999994277954,"Ollanta Moises Humala Tasso","Centro","Centro",TRUE
 "2597-COL-PER-41914",2014-10-02,2010,"Peru","Juan Manuel Santos Calderon2",5,2011-07-28,2016-07-28,4.55999994277954,"Ollanta Moises Humala Tasso","Derecha","Centro",FALSE
 "2597-COL-PER-41983",2014-12-10,2010,"Peru","Juan Manuel Santos Calderon2",5,2011-07-28,2016-07-28,4.55999994277954,"Ollanta Moises Humala Tasso","Derecha","Centro",FALSE
@@ -1158,7 +1159,7 @@
 "3245-PER-BOL-42678",2016-11-04,2015,"Bolivia","Pedro Pablo Kuczynski",6.4,2015-01-22,2019-11-10,4,"Juan Evo Morales Ayma3","Derecha","Centro",FALSE
 "3432-PER-BOL-43218",2018-04-28,2015,"Bolivia","Martín Vizcarra",4.5,2015-01-22,2019-11-10,4,"Juan Evo Morales Ayma3","Centro","Centro",TRUE
 "3432-PER-BOL-43346",2018-09-03,2015,"Bolivia","Martín Vizcarra",4.5,2015-01-22,2019-11-10,4,"Juan Evo Morales Ayma3","Centro","Centro",TRUE
-"448-PER-BRA-34335",1994-01-01,1990,"Brazil","Alberto Kenya Fujimori Fujimori1",4.78000020980835,1992-12-29,1995-01-01,4.44000005722046,"Itamar Augusto Cautiero Franco","Centro","Centro",TRUE
+"448-PER-BRA-34335",1995-01-01,1995,"Brazil","Alberto Kenya Fujimori Fujimori1",4.78000020980835,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Centro","Centro",TRUE
 "448-PER-BRA-34586",1994-09-09,1990,"Brazil","Alberto Kenya Fujimori Fujimori1",4.78000020980835,1992-12-29,1995-01-01,4.44000005722046,"Itamar Augusto Cautiero Franco","Centro","Centro",TRUE
 "448-PER-BRA-34946",1995-09-04,1995,"Brazil","Alberto Kenya Fujimori Fujimori2",5.44000005722046,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Derecha","Centro",FALSE
 "448-PER-BRA-35120",1996-02-25,1995,"Brazil","Alberto Kenya Fujimori Fujimori2",5.44000005722046,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Derecha","Centro",FALSE
@@ -1169,7 +1170,7 @@
 "448-PER-BRA-36065",1998-09-27,1995,"Brazil","Alberto Kenya Fujimori Fujimori2",5.44000005722046,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Derecha","Centro",FALSE
 "448-PER-BRA-36075",1998-10-07,1995,"Brazil","Alberto Kenya Fujimori Fujimori2",5.44000005722046,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Derecha","Centro",FALSE
 "448-PER-BRA-36094",1998-10-26,1995,"Brazil","Alberto Kenya Fujimori Fujimori2",5.44000005722046,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Derecha","Centro",FALSE
-"448-PER-BRA-36164",1999-01-04,1995,"Brazil","Alberto Kenya Fujimori Fujimori2",5.44000005722046,1999-01-01,2003-01-01,4.78000020980835,"Fernando Henrique Cardoso2","Derecha","Centro",FALSE
+"448-PER-BRA-36164",1999-01-01,1995,"Brazil","Alberto Kenya Fujimori Fujimori2",5.44000005722046,1999-01-01,2003-01-01,4.78000020980835,"Fernando Henrique Cardoso2","Derecha","Centro",FALSE
 "448-PER-BRA-36497",1999-12-03,1995,"Brazil","Alberto Kenya Fujimori Fujimori2",5.44000005722046,1999-01-01,2003-01-01,4.78000020980835,"Fernando Henrique Cardoso2","Derecha","Centro",FALSE
 "448-PER-BRA-36768",2000-08-30,2000,"Brazil","Alberto Kenya Fujimori Fujimori3",5.78000020980835,1999-01-01,2003-01-01,4.78000020980835,"Fernando Henrique Cardoso2","Derecha","Centro",FALSE
 "1654-PER-BRA-37324",2002-03-09,2000,"Brazil","Alejandro Celestino Toledo Manrique",4.67000007629395,1999-01-01,2003-01-01,4.78000020980835,"Fernando Henrique Cardoso2","Centro","Centro",TRUE
@@ -1180,7 +1181,6 @@
 "1654-PER-BRA-38624",2005-09-29,2005,"Brazil","Alejandro Celestino Toledo Manrique",4.67000007629395,2003-01-01,2007-01-01,2.44000005722046,"Luiz Inacio Lula da Silva1","Centro","Izquierda",FALSE
 "1654-PER-BRA-38738",2006-01-21,2005,"Brazil","Alejandro Celestino Toledo Manrique",4.67000007629395,2003-01-01,2007-01-01,2.44000005722046,"Luiz Inacio Lula da Silva1","Centro","Izquierda",FALSE
 "198-PER-BRA-39030",2006-11-09,2005,"Brazil","Alan Gabriel Ludwig Garcia Perez2",5.67000007629395,2003-01-01,2007-01-01,2.44000005722046,"Luiz Inacio Lula da Silva1","Derecha","Izquierda",FALSE
-"198-PER-BRA-39709",2008-09-18,2005,"Brazil","Alan Gabriel Ludwig Garcia Perez2",5.67000007629395,2007-01-01,2011-01-01,2.55999994277954,"Luiz Inacio Lula da Silva2","Derecha","Izquierda",FALSE
 "198-PER-BRA-39931",2009-04-28,2005,"Brazil","Alan Gabriel Ludwig Garcia Perez2",5.67000007629395,2007-01-01,2011-01-01,2.55999994277954,"Luiz Inacio Lula da Silva2","Derecha","Izquierda",FALSE
 "2703-PER-BRA-41080",2012-06-20,2010,"Brazil","Ollanta Moises Humala Tasso",4.55999994277954,2011-01-01,2015-01-01,3,"Dilma Rousseff","Centro","Centro",TRUE
 "2703-PER-BRA-41836",2014-07-16,2010,"Brazil","Ollanta Moises Humala Tasso",4.55999994277954,2011-01-01,2015-01-01,3,"Dilma Rousseff","Centro","Centro",TRUE
@@ -1626,3 +1626,14 @@
 "PELATAM-URY-162",2013-04-18,2010,"Peru","Jose Alberto Mujica Cordano",2.5,2011-07-28,2016-07-28,4.55999994277954,"Ollanta Moises Humala Tasso","Izquierda","Centro",FALSE
 "PELATAM-URY-163",2013-04-19,2010,"Venezuela","Jose Alberto Mujica Cordano",2.5,2013-04-19,2019-01-10,1.37999999523163,"Nicolas Maduro Moros","Izquierda","Izquierda",TRUE
 "PELATAM-URY-170",2014-07-12,2010,"Argentina","Jose Alberto Mujica Cordano",2.5,2011-12-10,2015-12-10,1.89999997615814,"Cristina Fernandez2","Izquierda","Izquierda",TRUE
+"PELATAM-BOL-1",1994-04-26,1990,"Argentina","Gonzalo Sanchez de Lozada",5.90000009536743,1989-07-08,1995-07-08,6.09999990463257,"Carlos Saul Menem1","Derecha","Derecha",TRUE
+"PELATAM-BOL-2",1995-06-09,1995,"Argentina","Gonzalo Sanchez de Lozada",5.90000009536743,1989-07-08,1995-07-08,6.09999990463257,"Carlos Saul Menem1","Derecha","Derecha",TRUE
+"PELATAM-BOL-3",1996-11-10,1995,"Chile","Gonzalo Sanchez de Lozada",5.90000009536743,1994-03-11,2000-03-11,4.1399998664856,"Eduardo Frei Ruiz-Tagle","Derecha","Centro",FALSE
+"PELATAM-BOL-4",1998-04-18,1995,"Chile","Hugo Banzer Suarez",6.5,1994-03-11,2000-03-11,4.1399998664856,"Eduardo Frei Ruiz-Tagle","Derecha","Centro",FALSE
+"PELATAM-BOL-5",1997-11-08,1995,"Venezuela","Hugo Banzer Suarez",6.5,1994-02-02,1999-02-02,4.13000011444092,"Rafael Antonio Caldera Rodriguez","Derecha","Centro",FALSE
+"PELATAM-BOL-8",1998-04-04,1995,"Ecuador","Hugo Banzer Suarez",6.5,1997-02-11,1998-08-10,5,"Fabian Ernesto Alarcon Rivera","Derecha","Derecha",TRUE
+"PELATAM-CHL-325",1997-11-08,1995,"Venezuela","Eduardo Frei Ruiz-Tagle",4.1399998664856,1994-02-02,1999-02-02,4.13000011444092,"Rafael Antonio Caldera Rodriguez","Centro","Centro",TRUE
+"PELATAM-PER-1",1997-11-08,1995,"Venezuela","Alberto Kenya Fujimori Fujimori2",5.44000005722046,1994-02-02,1999-02-02,4.13000011444092,"Rafael Antonio Caldera Rodriguez","Derecha","Centro",FALSE
+"PELATAM-PER-4",2008-05-23,2005,"Brazil","Alan Gabriel Ludwig Garcia Perez2",5.67000007629395,2007-01-01,2011-01-01,2.55999994277954,"Luiz Inacio Lula da Silva2","Derecha","Izquierda",FALSE
+"PELATAM-COL-3",2001-11-23,2000,"Peru","Andres Pastrana Arango",6,2001-07-28,2006-07-28,4.67000007629395,"Alejandro Celestino Toledo Manrique","Derecha","Centro",FALSE
+"PELATAM-COL-5",2010-03-10,2010,"Chile","Alvaro Uribe Velez2",6.8600001335144,2006-03-11,2010-03-11,2.85999989509583,"Veronica Michelle Bachelet Jeria","Derecha","Izquierda",FALSE

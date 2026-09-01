@@ -1274,3 +1274,68 @@ asistiria a la cumbre en protesta por el reclamo de extradicion de Pinochet por 
 Reliability Medium (documenta el anuncio de intencion, no una confirmacion directa de
 ausencia el dia del evento). Backup: 04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_
 frei_cancelado.xlsx. Hoja Viajes_Cancelados: 44 -> 45 filas.
+
+[2026-08-31] MANDATARIO | Peru: construccion desde cero del modulo completo, 14
+mandatarios 1994-2026 (record regional de rotacion: 8 cambios de presidente solo entre
+2016 y 2026). Se actualizo mandatos_presidenciales.csv con 5 filas faltantes (Paniagua,
+Merino, Sagasti, Balcazar, Keiko Fujimori), confirmadas via prensa contemporanea (Infobae
+jul-2026). 9 mandatarios con cobertura nativa en COLT investigados via 6 subagentes en
+paralelo (Fujimori 448 -93 items-, Toledo 1654 -61-, Garcia 2do mandato 198 -40-, Humala
+2703 -67-, PPK 3245 + Vizcarra 3432 + Merino/Sagasti desde cero, Castillo 3831 + Boluarte
+3981 + Jeri 4255 + Balcazar/Keiko desde cero); 5 mandatarios sin cobertura en COLT
+(Paniagua, Merino, Sagasti, Balcazar, Keiko) investigados desde cero con LeaderID
+sinteticos 90001-90005 (primera vez en el proyecto que se usan IDs sinteticos para
+multiples lideres). Resultado agregado: 43 correcciones (incluye 2 datos imposibles/falsos
+corregidos a NA -Cumbres del Grupo de Rio mal atribuidas a Brasil bajo Fujimori, viaje
+fantasma a Paraguay/Mercosur bajo Boluarte- mas 3 "asistentes/viajes fantasma" adicionales
+-Torrijos, Kirchner-Mexico, Garcia-Brasil invertido-), 5 hallazgos nuevos (PELATAM-PER-1 a
+5: 2 Cumbres Iberoamericanas bajo Fujimori, 1 bajo Toledo, la Cumbre Constitutiva de UNASUR
+bajo Garcia, y el viaje de Balcazar al Vaticano jun-2026), 30 no_verificable, 276
+confirmados_sin_cambios. Pipeline: colt_export_csv.py / colt_aplicar_workpacks.py Peru
+peru_1994_2026 (6 archivos JSON) / colt_validar_madre.py / colt_importar_csv.py. Un item
+de correccion (Boluarte/Paraguay) llego con el campo mal formateado como string compuesto
+multi-campo, dividido en 3 correcciones separadas antes de aplicar. Backup: 04_BASE_FINAL/
+Base_COLT_Sudamerica_backup_pre_peru_merge.xlsx. Log: 05_BITACORA/anexos_colt_sudamerica/
+cambios_aplicados_peru_1994_2026_2026-08-31.csv. Datos_COLT_Sudamerica: 5364 -> 5369 filas.
+colt_validar_madre.py: mismos 16 problemas preexistentes de otros paises, 0 nuevos
+atribuibles a Peru tras corregir manualmente las columnas de identidad de lider faltantes
+en la fila PELATAM-PER-5 (Balcazar/Vaticano) -limitacion conocida del pipeline al insertar
+hallazgos para lideres sin ninguna fila COLT nativa previa, mismo patron ya visto en
+PELATAM-CHL-186/187/188-. Detalle completo en PENDIENTES_VERIFICACION.txt, seccion "PERU
+— VERIFICACION COLT COMPLETA". Con este cierre, Peru queda con verificacion COLT completa
+de punta a punta dentro del alcance del proyecto (1994-2026).
+
+[2026-09-01] MANDATARIO | Colombia: construccion desde cero del modulo completo, 489
+viajes, la campaña de mayor volumen del proyecto hasta la fecha, 8 mandatarios/tramos
+1994-2026. Se actualizo mandatos_presidenciales.csv con 1 fila faltante (Abelardo de la
+Espriella, presidente electo 2026-2030). 7 mandatarios con cobertura nativa en COLT
+investigados via 8 subagentes en paralelo (Gaviria 452 + Samper 949 -28 items-, Pastrana
+1337 -51-, Uribe 1746 dividido en p1 2002-2006 -65- y p2 2006-2010 -70- por manejo de
+carga de trabajo, Santos 2597 dividido en p1 2010-2014 -70- y p2 2014-2018 -81- por el
+mismo motivo, Duque 3477 -50-, Petro 3960 -74-); 1 mandatario sin cobertura en COLT
+(Abelardo de la Espriella, presidente electo, en el cargo ~3 semanas al momento de la
+investigacion) investigado desde cero con LeaderID sintetico 90006, 0 hallazgos -declaro
+explicitamente que no viajara al exterior durante su mandato-. La campaña topo con el
+limite de uso de la API a mitad del primer despacho paralelo: 2 de 8 workpacks se
+completaron a la primera (Pastrana, Santos 2), 2 quedaron con output truncado sin
+archivo valido (Gaviria/Samper, Uribe 1) y 4 fallaron sin ningun output (Uribe 2, Santos
+1, Duque, Petro/De la Espriella); los 6 afectados se redespacharon con exito en una
+segunda tanda. Resultado agregado: 68 correcciones (incluye 2 datos imposibles -anfitrion
+Bucaram ya destituido bajo Samper, anfitrion Xi Jinping en APEC Lima bajo Santos 2- mas 2
+casos de homonimia de siglas "PALM8" -mismo patron de error ya visto en Peru/Castillo-,
+corregidos en 5 TripID entre Santos 1 y 2), 7 hallazgos nuevos (PELATAM-COL-1 a 7:
+Argelia bajo Samper, 2 Cumbres Iberoamericanas bajo Pastrana, Estrasburgo bajo Uribe 1,
+transmision de mando de Piñera bajo Uribe 2, gira tecnologica EEUU y posesion de Chaves
+en Costa Rica bajo Duque), 50 no_verificable -incluyendo 1 candidato a "viaje fantasma"
+sin confirmar, Petro/Paraguay jul-2024, mismo patron que Boluarte/Peru-, 405
+confirmados_sin_cambios. Pipeline: colt_export_csv.py / colt_aplicar_workpacks.py
+Colombia colombia_1994_2026 (8 archivos JSON) / colt_validar_madre.py /
+colt_importar_csv.py. Backup: 04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_colombia_
+merge.xlsx. Log: 05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_colombia_1994_2026
+_2026-09-01.csv. Datos_COLT_Sudamerica: 5369 -> 5376 filas. colt_validar_madre.py:
+mismos 16 problemas preexistentes de otros paises, 0 nuevos -a diferencia de Peru, esta
+vez ningun hallazgo nuevo cayo sobre el leader sintetico 90006, por lo que no hizo falta
+el fix manual de columnas de identidad de lider-. Detalle completo en
+PENDIENTES_VERIFICACION.txt, seccion "COLOMBIA — VERIFICACION COLT COMPLETA". Con este
+cierre, Colombia queda con verificacion COLT completa de punta a punta dentro del
+alcance del proyecto (1994-2026).

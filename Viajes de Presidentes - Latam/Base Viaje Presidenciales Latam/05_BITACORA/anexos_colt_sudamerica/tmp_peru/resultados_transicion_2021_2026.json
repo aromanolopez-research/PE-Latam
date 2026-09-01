@@ -81,10 +81,24 @@
       },
       {
         "TripID": "3981-PER-PRY-45479",
-        "campo": "CountryVisited / TripStartDate / TripEndDate / TripDuration / AttendedMultilatEvent / NameMultilatEvent",
+        "campo": "CountryVisited",
         "valor_correcto": "NA",
         "fuente": "https://www.infobae.com/movant/2024/07/08/cumbre-mercosur-paraguay-cede-liderazgo-a-uruguay-con-desafios-en-el-horizonte/ ; https://es.wikipedia.org/wiki/Anexo:Viajes_internacionales_de_la_presidenta_Dina_Boluarte",
-        "justificacion": "El propio COLT ya senalaba baja confianza (Confidence 3/5) y anotaba en sus Notes: 'Nature of visit unclear; No evidence of Boluarte's participation in any MERCOSUR events nor any evidence outside of this article of her presence in Paraguay'. La verificacion independiente confirma esta sospecha: la cobertura de la 64 Cumbre de Mercosur en Asuncion (6-8 de julio de 2024, Infobae) menciona explicitamente solo a los presidentes de Paraguay, Brasil, Uruguay y Bolivia, mas a la canciller argentina; Peru no figura entre los asistentes. Ademas, el anexo exhaustivo de Wikipedia sobre los viajes internacionales de Boluarte -que documenta en detalle sus 12 viajes reales de 2023-2025 con fuentes primarias para cada uno- NO incluye ningun viaje a Paraguay en 2024 (su unico viaje ese ano fue a China, 23-30 de junio); y no se hallo ningun registro de que el Congreso peruano haya autorizado un viaje a Paraguay en julio de 2024 (a diferencia de todos los demas viajes de Boluarte, que si tienen resolucion legislativa de autorizacion documentada). La combinacion de estos tres elementos (ausencia en la cobertura del evento, ausencia en el registro exhaustivo de viajes, ausencia de autorizacion congresal) indica que este es un viaje fantasma que debe corregirse a NA, siguiendo la regla anti-alucinacion del proyecto."
+        "justificacion": "[Viaje fantasma - ver detalle completo en la correccion de AttendedMultilatEvent del mismo TripID] El propio COLT ya senalaba baja confianza (Confidence 3/5) y anotaba en sus Notes: 'Nature of visit unclear; No evidence of Boluarte's participation in any MERCOSUR events nor any evidence outside of this article of her presence in Paraguay'."
+      },
+      {
+        "TripID": "3981-PER-PRY-45479",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "fuente": "https://www.infobae.com/movant/2024/07/08/cumbre-mercosur-paraguay-cede-liderazgo-a-uruguay-con-desafios-en-el-horizonte/ ; https://es.wikipedia.org/wiki/Anexo:Viajes_internacionales_de_la_presidenta_Dina_Boluarte",
+        "justificacion": "La verificacion independiente confirma la sospecha de COLT: la cobertura de la 64 Cumbre de Mercosur en Asuncion (6-8 de julio de 2024, Infobae) menciona explicitamente solo a los presidentes de Paraguay, Brasil, Uruguay y Bolivia, mas a la canciller argentina; Peru no figura entre los asistentes. Ademas, el anexo exhaustivo de Wikipedia sobre los viajes internacionales de Boluarte -que documenta en detalle sus 12 viajes reales de 2023-2025 con fuentes primarias para cada uno- NO incluye ningun viaje a Paraguay en 2024 (su unico viaje ese ano fue a China, 23-30 de junio); y no se hallo ningun registro de que el Congreso peruano haya autorizado un viaje a Paraguay en julio de 2024 (a diferencia de todos los demas viajes de Boluarte, que si tienen resolucion legislativa de autorizacion documentada). La combinacion de estos tres elementos (ausencia en la cobertura del evento, ausencia en el registro exhaustivo de viajes, ausencia de autorizacion congresal) indica que este es un viaje fantasma, siguiendo la regla anti-alucinacion del proyecto."
+      },
+      {
+        "TripID": "3981-PER-PRY-45479",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "NA",
+        "fuente": "https://www.infobae.com/movant/2024/07/08/cumbre-mercosur-paraguay-cede-liderazgo-a-uruguay-con-desafios-en-el-horizonte/",
+        "justificacion": "Consecuencia directa de la correccion de AttendedMultilatEvent a No: al no haber asistido Boluarte a la Cumbre de Mercosur, el nombre de evento consignado por COLT no aplica."
       }
     ],
     "hallazgos_nuevos": [],

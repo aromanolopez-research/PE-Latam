@@ -1,0 +1,239 @@
+[
+  {
+    "LeaderID": "1746",
+    "correcciones": [
+      {
+        "TripID": "1746-COL-ECU-37635",
+        "campo": "MetNonhostHOGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.vozdeamerica.com/a/a-2003-01-15-5-1/23489.html ; https://www.emol.com/noticias/internacional/2003/01/15/102487/lucio-gutierrez-juro-como-nuevo-presidente-de-ecuador.html ; https://www.libertaddigital.com/internacional/2003-01-15/toma-posesion-como-presidente-de-ecuador-el-ex-coronel-lucio-gutierrez-1275328472/",
+        "justificacion": "La posesion de Lucio Gutierrez como presidente de Ecuador el 15 de enero de 2003 conto con la presencia confirmada, ademas de Uribe (HostHOGS), de los jefes de Estado de Bolivia (Gonzalo Sanchez de Lozada), Brasil (Lula da Silva), Cuba (Fidel Castro), Chile (Ricardo Lagos), Peru (Alejandro Toledo) y Venezuela (Hugo Chavez), exactamente los mismos nombres que ya figuran en el campo Notes de este mismo TripID en COLT ('President Fidel Castro;President Hugo Chavez;President Luiz Inacio Lula da Silva;President Alejandro Toledo;President Gonzalo Sanchez de Lozada;President Ricardo Lagos Escobar'). Existe una inconsistencia interna en COLT: el campo Notes lista a esos seis jefes de Estado como presentes en el mismo evento, pero el campo estructurado MetNonhostHOGS esta marcado como 'No' y NonhostHOGSNames esta vacio. Con fuente independiente que confirma la presencia simultanea de todos ellos en la ceremonia, se corrige MetNonhostHOGS a 'Yes' para reflejar consistentemente lo que el propio COLT ya documento en su campo de notas."
+      },
+      {
+        "TripID": "1746-COL-ECU-37635",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "President Fidel Castro;President Hugo Chavez;President Luiz Inacio Lula da Silva;President Alejandro Toledo;President Gonzalo Sanchez de Lozada;President Ricardo Lagos Escobar",
+        "fuente": "https://www.vozdeamerica.com/a/a-2003-01-15-5-1/23489.html ; https://www.emol.com/noticias/internacional/2003/01/15/102487/lucio-gutierrez-juro-como-nuevo-presidente-de-ecuador.html",
+        "justificacion": "Consecuencia directa de la correccion de MetNonhostHOGS: fuente independiente (Voz de America, Emol) confirma que en la posesion de Gutierrez (15/1/2003) estuvieron presentes, junto a Uribe, los presidentes de Bolivia, Brasil, Cuba, Chile, Peru y Venezuela, exactamente la misma lista que ya aparece en el campo Notes de este TripID en COLT pero que no fue trasladada al campo estructurado NonhostHOGSNames, que aparece vacio (null)."
+      },
+      {
+        "TripID": "1746-COL-BOL-38738",
+        "campo": "TripStartDate",
+        "valor_correcto": "2006-01-22",
+        "fuente": "https://www.voanews.com/a/a-13-2006-01-22-voa30/328374.html ; https://www.npr.org/2006/01/22/5167202/ceremony-precedes-bolivian-presidents-inauguration ; https://www.jornada.com.mx/2006/01/23/index.php?section=mundo&article=030n1mun",
+        "justificacion": "Multiples fuentes independientes (VOA, NPR, La Jornada, Wikipedia 'Presidency of Evo Morales') coinciden en que la posesion de Evo Morales como presidente de Bolivia se realizo el 22 de enero de 2006 en La Paz, con asistencia de jefes de Estado de la region (Kirchner, Lula, Chavez, Lagos, entre otros). COLT registra este viaje como TripStartDate y TripEndDate 2006-01-21, un dia antes de la fecha real de la ceremonia, sin evidencia de una actividad separada de Uribe en Bolivia el dia 21. Se corrige la fecha al dia real de la posesion."
+      },
+      {
+        "TripID": "1746-COL-BOL-38738",
+        "campo": "TripEndDate",
+        "valor_correcto": "2006-01-22",
+        "fuente": "https://www.voanews.com/a/a-13-2006-01-22-voa30/328374.html ; https://www.npr.org/2006/01/22/5167202/ceremony-precedes-bolivian-presidents-inauguration",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: al no hallarse evidencia de una estadia adicional de Uribe en Bolivia mas alla del dia de la ceremonia, se mantiene como viaje de un solo dia, desplazado al 22/1/2006 (fecha real de la posesion de Evo Morales)."
+      },
+      {
+        "TripID": "1746-COL-ECU-38311",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "NA",
+        "fuente": "https://segib.org/?summit=xiv-cumbre-iberoamericana-san-jose-2004 ; https://www.lamoncloa.gob.es/presidente/intervenciones/Paginas/2004/p2011040.aspx",
+        "justificacion": "La XIV Cumbre Iberoamericana de Jefes de Estado y de Gobierno se realizo en San Jose, Costa Rica, el 19-20 de noviembre de 2004 (confirmado por SEGIB y La Moncloa), no en Ecuador. Este mismo evento y estas mismas fechas (19-20 de noviembre de 2004) ya estan correctamente registrados en COLT bajo el TripID 1746-COL-CRI-38310 (Costa Rica), donde ademas figura un encuentro con el 'Presidente Lucio Gutierrez' como NonhostHOGS, es decir, el propio Ecuador aparece representado alli. El TripID 1746-COL-ECU-38311 registra una supuesta visita a Ecuador el mismo 20 de noviembre de 2004 con el mismo nombre de evento ('Ibero-American Summit') y el mismo Lucio Gutierrez como HostHOGS, lo cual es geograficamente imposible de forma simultanea con la asistencia a la cumbre en San Jose y sugiere una duplicacion o error de codificacion del mismo hecho. Dado que Ecuador nunca fue sede de una Cumbre Iberoamericana en 2004, se corrige el campo NameMultilatEvent a NA, dejando constancia en esta justificacion de la probable duplicidad con el TripID 1746-COL-CRI-38310 para que el equipo de control de calidad del proyecto evalue si el registro completo debe fusionarse o eliminarse."
+      },
+      {
+        "TripID": "1746-COL-PER-38925",
+        "campo": "TripStartDate",
+        "valor_correcto": "2006-07-28",
+        "fuente": "https://www.infobae.com/2006/07/29/268017-alan-garcia-juro-como-presidente-peru-y-se-baja-el-sueldo/ ; https://es.wikipedia.org/wiki/Segundo_gobierno_de_Alan_Garc%C3%ADa",
+        "justificacion": "La posesion de Alan Garcia como presidente de Peru se realizo el viernes 28 de julio de 2006 en el Congreso, con la presencia confirmada de nueve jefes de Estado latinoamericanos, incluido explicitamente Alvaro Uribe de Colombia (junto a Lula da Silva de Brasil, Evo Morales de Bolivia y Michelle Bachelet de Chile, segun nota de Infobae del 29/7/2006). COLT registra este viaje como un solo dia, 27 de julio de 2006, un dia antes de la fecha real de la ceremonia. Se corrige la fecha al dia real de la posesion."
+      },
+      {
+        "TripID": "1746-COL-PER-38925",
+        "campo": "TripEndDate",
+        "valor_correcto": "2006-07-28",
+        "fuente": "https://www.infobae.com/2006/07/29/268017-alan-garcia-juro-como-presidente-peru-y-se-baja-el-sueldo/",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: se mantiene como viaje de un solo dia, desplazado al 28/7/2006 (fecha real de la posesion de Alan Garcia, confirmada con asistencia expresa de Uribe)."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "France",
+        "CityVisited": "Strasbourg",
+        "TripStartDate": "2004-02-10",
+        "TripEndDate": "2004-02-10",
+        "TripDuration": "1",
+        "MetHostHoGS": "No",
+        "HostHOGSName": "NA",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "European Parliament Plenary Session",
+        "MetNonhostHOGS": "No",
+        "NonhostHOGSNames": "NA",
+        "SignedAgreement": "No",
+        "fuente": "http://historico.presidencia.gov.co/prensa_new/discursos/discursos2004/febrero/rueda_prensa.htm ; http://historico.presidencia.gov.co/prensa_new/discursos/discursos2004/febrero/parlamento_europeo.htm ; http://historico.presidencia.gov.co/prensa_new/discursos/discursos2004/febrero/febrero2004.htm",
+        "justificacion": "El archivo oficial de la Presidencia de la Republica de Colombia registra que el 10 de febrero de 2004 el presidente Alvaro Uribe Velez dio una rueda de prensa y pronuncio un discurso ante el Pleno del Parlamento Europeo en Estrasburgo, Francia, en el marco de la misma gira europea que incluyo Belgica (ya cargada en COLT como TripID 1746-COL-BEL-38025, con mencion textual de Uribe a 'la noche anterior en Bruselas'), el Vaticano (TripID 1746-COL-VAT-38029) y Alemania (TripID 1746-COL-DEU-38029). Francia/Estrasburgo no figura como pais visitado en ningun TripID de COLT para el primer mandato de Uribe, constituyendo un hueco real dentro de la misma gira europea de febrero de 2004 ya parcialmente cubierta. No se hallo evidencia de una reunion bilateral formal con el presidente frances Jacques Chirac durante esta escala especifica en Estrasburgo (a diferencia del encuentro con Chirac documentado en mayo de 2004 en Guadalajara, Mexico, TripID 1746-COL-MEX-38134), por lo que MetNonhostHOGS se deja en 'No'."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "1746-COL-ARG-37768",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra un encuentro con el 'Presidente Nestor Kirchner' en Argentina el 27 de mayo de 2003, apenas dos dias despues de que Kirchner asumiera la presidencia (25/5/2003). Busqueda activa en fuentes de la epoca (Pagina/12, La Nacion, Casa Rosada, archivos historicos) no hallo cobertura especifica que confirme una visita de Uribe a Argentina o un encuentro bilateral en esa fecha puntual; los resultados solo documentan la propia asuncion de Kirchner y su primer acto de gobierno (viaje a Entre Rios) el 27/5/2003, sin mencion de Uribe. No se encontro fuente que confirme ni contradiga este viaje."
+      },
+      {
+        "TripID": "1746-COL-BRA-37687",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra un encuentro con el 'Presidente Luiz Inacio Lula da Silva' en Brasil el 7 de marzo de 2003. Busqueda activa no hallo cobertura de prensa de la epoca que confirme una visita de Uribe a Brasilia en esa fecha especifica (los resultados solo documentan la posesion de Lula el 1/1/2003 y visitas posteriores de 2005 en adelante). No se encontro fuente independiente que confirme ni contradiga este viaje puntual."
+      },
+      {
+        "TripID": "1746-COL-BRA-38159",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra una visita bilateral a Lula da Silva el 21-22 de junio de 2004. Busqueda activa no hallo cobertura de prensa independiente que confirme esta visita especifica en esas fechas."
+      },
+      {
+        "TripID": "1746-COL-BRA-38832",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra una visita bilateral a Lula da Silva el 25-26 de abril de 2006. Busqueda activa no hallo cobertura de prensa independiente que confirme esta visita especifica en esas fechas."
+      },
+      {
+        "TripID": "1746-COL-DOM-38875",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra asistencia a la 'Mesoamerican Energy Initiative Summit' en Republica Dominicana el 7 de junio de 2006. Busqueda activa confirmo la existencia de una Cumbre Energetica Mesoamericana con participacion de Colombia realizada en el periodo 2005-2006, pero no se hallo una fuente que confirme la fecha exacta del 7 de junio de 2006 en Santo Domingo ni la presencia especifica de Uribe en ese dia puntual."
+      },
+      {
+        "TripID": "1746-COL-ECU-37855",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra una visita bilateral a Lucio Gutierrez el 22 de agosto de 2003. Busqueda activa confirmo multiples encuentros bilaterales Uribe-Gutierrez durante 2003-2004 (por ejemplo, marzo de 2004 y 15 de octubre de 2004 en Esmeraldas), pero no hallo fuente que confirme especificamente esta fecha del 22 de agosto de 2003."
+      },
+      {
+        "TripID": "1746-COL-ECU-38281",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra una visita bilateral a Lucio Gutierrez el 21 de octubre de 2004. Busqueda activa hallo referencia a un encuentro Uribe-Gutierrez el 15 de octubre de 2004 en Esmeraldas (frontera), fecha cercana pero no coincidente con la registrada por COLT, y no se hallo fuente que confirme especificamente el 21 de octubre de 2004 como fecha de un encuentro adicional."
+      },
+      {
+        "TripID": "1746-COL-ECU-38648",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra una visita bilateral al presidente Alfredo Palacio el 23 de octubre de 2005. Busqueda activa no hallo cobertura de prensa independiente que confirme esta visita especifica en esa fecha."
+      },
+      {
+        "TripID": "1746-COL-SLV-38140",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra una visita bilateral al presidente Antonio Saca el 2 de junio de 2004. Busqueda activa no hallo cobertura de prensa independiente que confirme esta visita especifica en esa fecha."
+      },
+      {
+        "TripID": "1746-COL-SLV-38737",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra una visita bilateral al presidente Antonio Saca el 20 de enero de 2006, en el marco de lo que parece ser una gira centroamericana/andina de mediados de enero de 2006 (ver tambien 1746-COL-GTM-38736, 20 dias antes de la posesion de Evo Morales). Busqueda activa no hallo cobertura de prensa independiente que confirme esta escala especifica en El Salvador en esa fecha."
+      },
+      {
+        "TripID": "1746-COL-GTM-38736",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra una visita bilateral al presidente Oscar Berger el 19-20 de enero de 2006. Busqueda activa (incluida consulta directa al archivo de la Presidencia de Colombia en historico.presidencia.gov.co/especial/guatemala/) solo devolvio informacion sobre una gira posterior de Uribe a Guatemala y Costa Rica en enero de 2008 (posesion de Alvaro Colom), no de 2006. No se hallo fuente independiente que confirme esta visita especifica de enero de 2006 a Guatemala."
+      },
+      {
+        "TripID": "1746-COL-MEX-37634",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra asistencia a una 'Summit of the Americas (SOA)' en Mexico el 13 de enero de 2003. Busqueda activa exhaustiva no hallo evidencia de ninguna Cumbre de las Americas ni Cumbre Extraordinaria de las Americas realizada en enero de 2003: la unica Cumbre Extraordinaria de las Americas de ese periodo se realizo en Monterrey, Mexico, el 12-13 de enero de 2004 (un año despues), evento que ya esta correctamente registrado en COLT bajo el TripID separado 1746-COL-MEX-37998 (con HostHOGSName Vicente Fox y encuentro con el director del FMI Horst Kohler, datos verificados independientemente). Ademas, el TripID inmediatamente siguiente en la base (1746-COL-ECU-37635, 14-15 de enero de 2003) coincide con un viaje de Uribe ya confirmado a Ecuador para la posesion de Lucio Gutierrez, dejando muy poco margen de tiempo para un viaje adicional a Mexico el 13 de enero de 2003. Se marca como no verificable en lugar de proponerse como correccion porque no fue posible determinar con una fuente independiente que evento, si alguno, ocurrio realmente en Mexico en esa fecha; se deja constancia de la fuerte sospecha de que se trate de un registro duplicado o mal fechado del evento de enero de 2004 (TripID 1746-COL-MEX-37998), para que el equipo de control de calidad del proyecto lo revise."
+      },
+      {
+        "TripID": "1746-COL-PAN-37663",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra asistencia a una reunion multilateral Colombia-Costa Rica-El Salvador-Guatemala-Honduras-Nicaragua en Panama el 11-12 de febrero de 2003, con firma de acuerdo. Busqueda activa no hallo cobertura de prensa independiente que confirme este evento multilateral especifico en esa fecha en Panama."
+      },
+      {
+        "TripID": "1746-COL-PAN-38214",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra un viaje a Panama el 15-16 de agosto de 2004 (ceremonia cultural, sin reunion con jefe de Estado segun el propio COLT). Busqueda activa no hallo cobertura de prensa independiente que confirme esta visita especifica en esa fecha."
+      },
+      {
+        "TripID": "1746-COL-PAN-38424",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra una visita bilateral al presidente Martin Torrijos el 13 de marzo de 2005. Busqueda activa no hallo cobertura de prensa independiente que confirme esta visita especifica en esa fecha."
+      },
+      {
+        "TripID": "1746-COL-PER-38282",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra asistencia a la 'XLII Conference of Executives' (CADE) en Peru el 22-23 de octubre de 2004, con encuentro con el presidente Alejandro Toledo. Busqueda activa confirmo que CADE Ejecutivos es un evento anual real organizado por IPAE en Peru al que Uribe ha asistido como invitado internacional en distintas ediciones, pero no se hallo fuente independiente que confirme especificamente su participacion en la edicion de octubre de 2004."
+      },
+      {
+        "TripID": "1746-COL-USA-37510",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra asistencia a la Asamblea General de la ONU en Nueva York del 11 al 15 de septiembre de 2002, con Confidence 4/5 y nota propia 'departure date not given'. Busqueda activa no incluyo una verificacion independiente especifica de las fechas exactas de estadia de Uribe en Nueva York durante el 57 periodo de sesiones de la Asamblea General; se respeta la incertidumbre ya reconocida por la fuente original de COLT."
+      },
+      {
+        "TripID": "1746-COL-USA-38050",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra un viaje de un solo dia a Estados Unidos el 4 de marzo de 2004 (foro de negocios, sin reunion con jefe de Estado segun el propio COLT). Busqueda activa no hallo cobertura de prensa independiente que confirme esta visita especifica en esa fecha."
+      },
+      {
+        "TripID": "1746-COL-USA-38258",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra asistencia a la Asamblea General de la ONU en Nueva York del 28 al 30 de septiembre de 2004. Busqueda activa no incluyo una verificacion independiente especifica de las fechas exactas de estadia de Uribe en Nueva York durante ese periodo de sesiones."
+      },
+      {
+        "TripID": "1746-COL-USA-38609",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra asistencia a la Asamblea General de la ONU en Nueva York del 14 al 18 de septiembre de 2005 (Cumbre Mundial 2005 de la ONU). Busqueda activa no incluyo una verificacion independiente especifica de las fechas exactas de estadia de Uribe en Nueva York durante ese periodo."
+      },
+      {
+        "TripID": "1746-COL-USA-38761",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra un viaje a Estados Unidos del 13 al 18 de febrero de 2006 para negociaciones del TLC Colombia-EEUU, con encuentro con el presidente Bush. Busqueda activa no hallo cobertura de prensa independiente que confirme especificamente esta visita y sus fechas."
+      },
+      {
+        "TripID": "1746-COL-USA-38882",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra un encuentro de un solo dia con el presidente Bush en Estados Unidos el 14 de junio de 2006. Busqueda activa no hallo cobertura de prensa independiente que confirme especificamente esta visita en esa fecha."
+      },
+      {
+        "TripID": "1746-COL-VEN-38440",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra asistencia a una reunion cuatripartita Brasil-Colombia-Espana-Venezuela el 29 de marzo de 2005 en Venezuela, con Hugo Chavez, Lula da Silva y Jose Luis Rodriguez Zapatero. Busqueda activa no hallo cobertura de prensa independiente que confirme especificamente este encuentro cuatripartito en esa fecha."
+      },
+      {
+        "TripID": "1746-COL-VEN-38692",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra un viaje a Venezuela el 6 de diciembre de 2005. Busqueda activa hallo un encuentro Uribe-Chavez en Santa Marta, Colombia (no en Venezuela) el 17 de diciembre de 2005, fecha y lugar distintos a los registrados por COLT, por lo que no se pudo confirmar ni contradecir con precision este viaje especifico del 6 de diciembre."
+      },
+      {
+        "TripID": "1746-COL-VEN-38911",
+        "campo": "TripStartDate",
+        "justificacion": "COLT registra un viaje a Venezuela el 13 de julio de 2006, con encuentro con el presidente panameno Martin Torrijos (NonhostHOGS) en territorio venezolano, dato inusual que no fue posible verificar. Busqueda activa no hallo cobertura de prensa independiente que confirme este viaje ni el encuentro con Torrijos en Venezuela en esa fecha."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "1746-COL-DOM-37574", "justificacion": "Corresponde a la XII Cumbre Iberoamericana realizada en Bavaro, Republica Dominicana, el 15-16 de noviembre de 2002 (confirmado por SEGIB), consistente con el rango 14-16/11/2002 de COLT (con un dia de llegada previa). Fuente: https://segib.org/?summit=xii-cumbre-iberoamericana-bavaro-2002"},
+      {"TripID": "1746-COL-ARG-38659", "justificacion": "Corresponde a la IV Cumbre de las Americas en Mar del Plata, Argentina, confirmada para el 4-5 de noviembre de 2005 con participacion de Uribe entre los 34 lideres asistentes, consistente con el rango 3-4/11/2005 de COLT (con un dia de llegada previa). Fuente: https://en.wikipedia.org/wiki/4th_Summit_of_the_Americas"},
+      {"TripID": "1746-COL-BEL-38025", "justificacion": "El archivo oficial de la Presidencia de Colombia confirma que, en el marco de la gira europea de febrero de 2004, Uribe tuvo una reunion en Bruselas ('la noche anterior en Bruselas tuve la oportunidad de una reunion muy constructiva con organizaciones no gubernamentales') la noche previa a su discurso del 10 de febrero en el Parlamento Europeo, consistente con el rango 8-12/2/2004 de COLT. Fuente: http://historico.presidencia.gov.co/prensa_new/discursos/discursos2004/febrero/rueda_prensa.htm"},
+      {"TripID": "1746-COL-BOL-37938", "justificacion": "Corresponde a la XIII Cumbre Iberoamericana en Santa Cruz de la Sierra, Bolivia, confirmada para el 14-15 de noviembre de 2003, consistente con el rango 13-14/11/2003 de COLT (con un dia de llegada previa). Fuente: https://segib.org/?summit=xiii-cumbre-iberoamericana-santa-cruz-de-la-sierra-2003"},
+      {"TripID": "1746-COL-BRA-38294", "justificacion": "Corresponde a la XVIII Cumbre del Grupo de Rio en Rio de Janeiro, Brasil, confirmada para el 2-5 de noviembre de 2004, consistente con el rango 3-5/11/2004 de COLT. Fuente: https://en.wikipedia.org/wiki/Group_of_Rio"},
+      {"TripID": "1746-COL-CHN-38448", "justificacion": "Fotografia de prensa (AP) confirma que Uribe arribo a Beijing el 6 de abril de 2005 y fue recibido por el presidente Hu Jintao en una ceremonia de bienvenida en el Gran Salon del Pueblo, consistente con el rango 6-9/4/2005 de COLT. Fuente: https://www.alamy.com/colombian-president-alvaro-uribe-velez-left-and-chinese-president-hu-jintao-listen-to-their-national-anthems-during-a-welcome-ceremony-in-beijings-great-hall-of-the-people-wednesday-april-6-2005"},
+      {"TripID": "1746-COL-CRI-38310", "justificacion": "Corresponde a la XIV Cumbre Iberoamericana en San Jose, Costa Rica, confirmada por SEGIB para el 19-20 de noviembre de 2004, coincidente exactamente con el rango de COLT. Fuente: https://www.segib.org/?summit=xiv-cumbre-iberoamericana-san-jose-2004"},
+      {"TripID": "1746-COL-CRI-38540", "justificacion": "Corresponde a la Cumbre de Paises Latinoamericanos Exportadores de Banano en San Jose, Costa Rica, confirmada para el 7 de julio de 2005, con Uribe entre los firmantes de la declaracion conjunta, coincidente exactamente con la fecha puntual de COLT. Fuente: https://www6.rel-uita.org/sectores/banano/confirman-cumbre-banano.htm"},
+      {"TripID": "1746-COL-DOM-38215", "justificacion": "Corresponde a la toma de posesion de Leonel Fernandez como presidente de Republica Dominicana el 16 de agosto de 2004, coincidente exactamente con la fecha puntual de COLT. Fuente: https://listindiario.com/la-republica/2004/08/16/718861/discurso-de-toma-de-posesion-de-leonel-fernandez-en-el-ano-2004.html"},
+      {"TripID": "1746-COL-ECU-38180", "justificacion": "Corresponde al XV Consejo Presidencial Andino en Quito, Ecuador, confirmado para el 12 de julio de 2004, consistente con el rango 12-13/7/2004 de COLT. Fuente: https://www.comunidadandina.org/quienes-somos/consejo-presidencial-andino/"},
+      {"TripID": "1746-COL-ECU-38881", "justificacion": "Corresponde a la Reunion Extraordinaria del Consejo Presidencial Andino en Quito, Ecuador, confirmada para el 13 de junio de 2006, coincidente exactamente con la fecha puntual de COLT. Fuente: https://www.comunidadandina.org/notas-de-prensa/principales-acuerdos-de-la-reunion-extraordinaria-del-consejo-presidencial-andino-realizada-en-quito-el-13-de-junio-del-2006/"},
+      {"TripID": "1746-COL-DEU-38029", "justificacion": "El archivo oficial de la Presidencia de Colombia registra el discurso de Uribe en el Foro Economico de la Asociacion Federal de Empresarios de Alemania, en Berlin, el 12 de febrero de 2004 ('justamente en el momento de llegar a Alemania'), coincidente exactamente con el TripStartDate de COLT (rango 12-14/2/2004). Fuente: http://historico.presidencia.gov.co/prensa_new/discursos/discursos2004/febrero/foro_economico.htm"},
+      {"TripID": "1746-COL-VAT-38029", "justificacion": "El archivo oficial de la Presidencia de Colombia registra el pronunciamiento del Papa Juan Pablo II durante el encuentro con el presidente Uribe en la Ciudad del Vaticano el 12 de febrero de 2004, coincidente exactamente con la fecha puntual de COLT. Fuente: http://historico.presidencia.gov.co/prensa_new/discursos/discursos2004/febrero/pronunciamiento.htm"},
+      {"TripID": "1746-COL-HND-38532", "justificacion": "Corresponde a la XXVI Reunion Ordinaria de Jefes de Estado y de Gobierno del Sistema de la Integracion Centroamericana (SICA), con resolucion sobre la situacion en Nicaragua aprobada el 30 de junio de 2005, consistente con el rango 29-30/6/2005 de COLT. Fuente: https://nicaragua.justia.com/nacionales/instrumentos-internacionales/xxvi-reunion-ordinaria-de-jefes-de-estado-y-de-gobierno-de-los-paises-del-sistema-de-la-integracion-centroamericana-sica/gdoc"},
+      {"TripID": "1746-COL-JPN-38451", "justificacion": "Fuentes de prensa confirman que Uribe arribo a Japon el 9 de abril de 2005 para la reunion del BID y sostuvo encuentros con el primer ministro Junichiro Koizumi y una audiencia con el emperador Akihito el 11 de abril, consistente con el rango 9-12/4/2005 de COLT."},
+      {"TripID": "1746-COL-MEX-37998", "justificacion": "Corresponde a la Cumbre Extraordinaria de las Americas en Monterrey, Mexico, confirmada oficialmente para el 12-13 de enero de 2004, coincidente exactamente con el rango de COLT y con los datos adicionales de COLT (encuentro con el presidente Vicente Fox como anfitrion y con el director gerente del FMI Horst Kohler). Fuente: https://en.wikipedia.org/wiki/Monterrey_Special_Summit_of_the_Americas"},
+      {"TripID": "1746-COL-MEX-38134", "justificacion": "Corresponde a la III Cumbre Union Europea-America Latina y el Caribe en Guadalajara, Mexico, confirmada para el 28-29 de mayo de 2004, consistente con el rango 27-30/5/2004 de COLT (con dias adicionales de llegada y salida), y compatible con los jefes de Estado europeos listados por COLT como NonhostHOGS (Chirac, Schroder, Ahern, Kwasniewski, Lagos). Fuente: https://en.wikipedia.org/wiki/Latin_America,_the_Caribbean_and_the_European_Union_Summit"},
+      {"TripID": "1746-COL-PAN-38230", "justificacion": "Corresponde a la toma de posesion de Martin Torrijos como presidente de Panama el 1 de septiembre de 2004, con presencia confirmada de Alvaro Uribe entre los jefes de Estado asistentes (junto a los de Ecuador, Chile, Republica Dominicana, El Salvador y Honduras), consistente con el rango 31/8-1/9/2004 de COLT. Fuente: https://www.eluniverso.com/2004/09/01/0001/14/B3F098D14C704625992794D307BF8529.html/"},
+      {"TripID": "1746-COL-PRY-37847", "justificacion": "Corresponde a la toma de posesion de Nicanor Duarte Frutos como presidente de Paraguay el 15 de agosto de 2003, con presencia de representaciones de unos 70 paises y nueve jefes de Estado, consistente con el rango 14-16/8/2003 de COLT. Fuente: https://www.cidob.org/lider-politico/nicanor-duarte-frutos"},
+      {"TripID": "1746-COL-PRY-38522", "justificacion": "Corresponde a la XXVIII Reunion Ordinaria del Consejo del Mercado Comun (Mercosur) en Asuncion, Paraguay, confirmada para el 18-19 de junio de 2005, consistente con el rango 19-20/6/2005 de COLT. Fuente: https://www.mercosur.int/asuncion-se-prepara-para-la-cumbre-de-jefes-de-estado-del-mercosur-y-reuniones-previas/"},
+      {"TripID": "1746-COL-PER-37763", "justificacion": "Corresponde a la XVII Cumbre del Grupo de Rio en Cusco, Peru, confirmada para el 23-24 de mayo de 2003, consistente con el rango 22-23/5/2003 de COLT (con un dia de llegada previa). Fuente: https://www.eluniverso.com/2003/05/23/0001/8/24C18FD562004014AC2C67D710A11DD2.html/"},
+      {"TripID": "1746-COL-PER-38329", "justificacion": "Corresponde a la III Reunion de Jefes de Estado que dio origen a la Comunidad Sudamericana de Naciones (Declaracion de Cusco), firmada por doce presidentes sudamericanos, incluido Colombia, el 8 de diciembre de 2004 en Cusco, Peru, consistente con el rango 8-9/12/2004 de COLT. Fuente: https://es.wikipedia.org/wiki/Declaraci%C3%B3n_de_Cuzco"},
+      {"TripID": "1746-COL-PER-38551", "justificacion": "Corresponde a la XVI Cumbre del Consejo Presidencial Andino en Lima, Peru, confirmada para el 18 de julio de 2005, consistente con el rango 18-19/7/2005 de COLT. Fuente: https://www.comunidadandina.org/notas-de-prensa/cumbre-andina-congregara-en-lima-el-18-de-julio-a-presidentes-de-la-can-paises-asociados-y-paises-observadores/"},
+      {"TripID": "1746-COL-ESP-38544", "justificacion": "El archivo oficial de la Presidencia de Colombia confirma que Uribe realizo una visita de Estado a España, con llegada a Madrid el 11 de julio y actividades hasta el 12 de julio de 2005, reunido con el presidente del Gobierno Jose Luis Rodriguez Zapatero, consistente con el rango 11-13/7/2005 de COLT. Fuente: http://historico.presidencia.gov.co/prensa_new/sne/2005/julio/09/17092005.htm"},
+      {"TripID": "1746-COL-ESP-38639", "justificacion": "Corresponde a la XV Cumbre Iberoamericana en Salamanca, España, confirmada para el 14-15 de octubre de 2005, coincidente exactamente con el rango de COLT. Fuente: https://segib.org/?summit=xv-cumbre-iberoamericana-salamanca-2005"},
+      {"TripID": "1746-COL-CHE-37646", "justificacion": "Corresponde al Foro Economico Mundial (WEF) de Davos de enero de 2003, cuya sesion se documenta en curso hacia el 23-25 de enero de 2003, consistente con el rango 25-26/1/2003 de COLT, y con fuentes propias de COLT (Getty Images, WNC Eastview) que registran la asistencia de Uribe a este evento."},
+      {"TripID": "1746-COL-GBR-38546", "justificacion": "Prensa de la epoca (El Tiempo, 'URIBE SE REUNE HOY CON BLAIR') confirma que Uribe sostuvo un encuentro de 30 minutos con el primer ministro britanico Tony Blair en Londres alrededor del 14 de julio de 2005, en el marco de su gira europea, y que durante esa visita tambien visito en el hospital St Thomas a un colombiano herido en los atentados de Londres del 7/7/2005, consistente con el rango 13-14/7/2005 de COLT. Fuente: https://www.eltiempo.com/archivo/documento/MAM-1962225"},
+      {"TripID": "1746-COL-USA-37522", "justificacion": "La Casa Blanca confirma que el presidente Bush recibio a Uribe para una reunion y almuerzo de trabajo el 25 de septiembre de 2002, dentro del rango 23-26/9/2002 de COLT."},
+      {"TripID": "1746-COL-USA-37740", "justificacion": "La Casa Blanca confirma una sesion fotografica de Bush y Uribe en el Despacho Oval el 30 de abril de 2003, dentro del rango 29/4-3/5/2003 de COLT. Fuente: https://georgewbush-whitehouse.archives.gov/news/releases/2003/04/20030430-25.es.html"},
+      {"TripID": "1746-COL-USA-37893", "justificacion": "Foto oficial de la Casa Blanca confirma que el presidente Bush recibio a Uribe en el Despacho Oval el miercoles 1 de octubre de 2003, dentro del rango 29/9-1/10/2003 de COLT, coincidente con la asistencia a la Asamblea General de la ONU que tambien registra COLT. Fuente: https://georgewbush-whitehouse.archives.gov/news/releases/2003/10/images/20031001-1_p33979-28-515h.html"},
+      {"TripID": "1746-COL-USA-38068", "justificacion": "La Casa Blanca confirma que Uribe visito la Casa Blanca para una reunion con Bush el 23 de marzo de 2004, dentro del rango 22-25/3/2004 de COLT."},
+      {"TripID": "1746-COL-USA-38567", "justificacion": "Multiples fuentes (El Tiempo, El Universo, El Espectador) confirman que Bush recibio a Uribe en su rancho de Crawford, Texas, el 4 de agosto de 2005, dentro del rango 3-5/8/2005 de COLT. Fuente: https://www.eluniverso.com/2005/08/04/0001/14/EE6F3CA05F704B67ADF5A1B5C8B07058.html/"},
+      {"TripID": "1746-COL-VEN-37734", "justificacion": "Prensa de la epoca confirma que Uribe y Chavez se reunieron en Puerto Ordaz, Venezuela, el 23 de abril de 2003 para tratar seguridad fronteriza y proyectos energeticos, coincidente exactamente con la fecha puntual de COLT."},
+      {"TripID": "1746-COL-VEN-38044", "justificacion": "Corresponde a la XII Cumbre del G-15 en Caracas, Venezuela, confirmada para el 27-28 de febrero de 2004, con Uribe entre los jefes de Estado asistentes, coincidente exactamente con el rango de COLT. Fuente: https://en.wikipedia.org/wiki/12th_G-15_summit"},
+      {"TripID": "1746-COL-VEN-38182", "justificacion": "Prensa de la epoca (El Tiempo, Wikinoticias) confirma que Uribe y Chavez firmaron el 14 de julio de 2004 en El Tablazo, Venezuela, un acuerdo de interconexion del sistema de gasoductos entre ambos paises, coincidente exactamente con la fecha puntual de COLT y consistente con el campo SignedAgreement=Yes ya registrado. Fuente: https://www.eltiempo.com/archivo/documento/MAM-2094622"},
+      {"TripID": "1746-COL-VEN-38398", "justificacion": "Fuentes independientes confirman un encuentro entre Uribe y Chavez en Caracas el 15 de febrero de 2005, coincidente exactamente con la fecha puntual de COLT."}
+    ]
+  }
+]

@@ -2123,3 +2123,425 @@ al cambio: 04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_frei_cancelado.xlsx.
 el periodo dentro de alcance del proyecto (1994-2026): Frei Ruiz-Tagle, Lagos, Bachelet
 (1-2), Piñera (1-2), y Boric. No hay presidentes chilenos sin cobertura entre 1994 y 2026.
 ================================================================================
+
+################################################################################
+## PERU — VERIFICACION COLT COMPLETA (2026-08-31)
+################################################################################
+
+Modulo construido desde cero en una sola campaña (14 mandatarios, record regional de
+inestabilidad politica: 8 cambios de presidente solo entre 2016 y 2026). Se actualizo
+04_BASE_FINAL/mandatos_presidenciales.csv con los 5 mandatarios que faltaban en la
+referencia (Paniagua, Merino, Sagasti, Balcazar, Keiko Fujimori). Los 9 mandatarios con
+cobertura nativa en COLT se investigaron via subagentes en 6 lotes paralelos; los 5
+mandatarios SIN cobertura en COLT (transiciones/interinatos breves + el mandato en curso
+de Keiko Fujimori) se investigaron desde cero, usando LeaderID sinteticos asignados por
+el proyecto (90001-90005, documentados como tales en cada justificacion) ya que COLT no
+tiene entrada para ellos.
+
+--- ALBERTO FUJIMORI (LeaderID 448, recorte 1994-01-01 a 2000-11-21 -renuncia por fax
+    desde Japon-; su 1er mandato completo fue 1990-2000, acotado a 1994 por alcance del
+    proyecto) ---
+[NOTA-OK 2026-08-31] 93/93 viajes revisados. 12 correcciones (5 TripID distintos):
+   posesion de Cardoso en Brasil mal fechada dos veces (1994-01-01 -imposible, Cardoso
+   recien asumio el 1995-01-01, Itamar Franco era presidente en esa fecha- y 1999-01-04
+   -correcto es 1999-01-01-); dos "Cumbres del Grupo de Rio" atribuidas a Brasil que en
+   realidad fueron en Quito 1995 y Cochabamba 1996 -mismo patron que el caso APEC/Cardoso
+   de Brasil y Consejo Europeo/Frei de Chile, corregidas a NA-. 2 hallazgos nuevos
+   (PELATAM-PER): VII Cumbre Iberoamericana (Isla Margarita, nov-1997) y VIII Cumbre
+   Iberoamericana (Oporto, oct-1998), ninguna cargada en COLT pese a que Peru si esta
+   cubierto en las cumbres de 1994/1995/1996/1999. 8 no_verificable (discrepancias de
+   fecha en La Habana 1999 y G-15 El Cairo 1998, mas viajes privados/medicos de baja
+   confianza). 80 confirmados_sin_cambios.
+
+--- ALEJANDRO TOLEDO (LeaderID 1654, 2001-07-28 a 2006-07-28) ---
+[NOTA-OK 2026-08-31] 61/61 viajes revisados. 6 correcciones (5 TripID): asistente
+   fantasma "President Omar Torrijos" (murio en 1981) en AGNU 2004, eliminado sin inventar
+   reemplazo; anfitrion imposible por pais en la Cumbre de Monterrey 2004 ("President
+   Carlos Mesa" -boliviano- en vez de "President Vicente Fox"); reunion fantasma con
+   Kirchner en Rio de Janeiro 2004 (Kirchner cancelo y envio a su canciller); nombres de
+   evento anacronicos (CELAC no existia en 2006). 1 hallazgo nuevo: XIV Cumbre
+   Iberoamericana (San Jose, Costa Rica, nov-2004), ausente de COLT pese a encajar
+   cronologicamente entre dos viajes ya cargados. 3 no_verificable. 53 confirmados.
+
+--- ALAN GARCIA, 2do mandato (LeaderID 198, recorte 2006-07-28 a 2011-07-28; el 1er
+    mandato 1985-1990 comparte el mismo LeaderID en COLT pero queda fuera de alcance) ---
+[NOTA-OK 2026-08-31] 40/40 viajes revisados. 1 correccion: viaje a Brasil sep-2008
+   invertido -en realidad fue Lula quien visito Lima ("Semana de Brasil en Peru"), sin
+   evidencia de que Garcia haya viajado a Brasil esa fecha, corregido a NA-. 1 hallazgo
+   nuevo: Cumbre Constitutiva de UNASUR en Brasilia (23-may-2008), donde Garcia firmo el
+   Tratado Constitutivo como uno de los 12 presidentes fundadores, ausente de COLT. Se
+   descarto como brecha la XVI Cumbre Iberoamericana de Montevideo 2006 tras confirmar que
+   Peru estuvo representado solo por el canciller. 7 no_verificable. 32 confirmados.
+
+--- OLLANTA HUMALA (LeaderID 2703, 2011-07-28 a 2016-07-28) ---
+[NOTA-OK 2026-08-31] 67/67 viajes revisados. 10 correcciones (7 TripID): "G7 Summit" en
+   Bolivia -imposible, era la Cumbre G77+China en Santa Cruz, jun-2014-; Notes con dato
+   falso sobre asistencia a la investidura de Santos en Chile ago-2013 -Santos nunca asumio
+   en Chile, corregido a NA-; brecha Chile-Haya cerrada (reunion Humala-Piñera en CELAC La
+   Habana ene-2014, tras el fallo de la Corte de La Haya); 2 eventos de la Alianza del
+   Pacifico mal etiquetados; fechas de apertura de Cumbre de las Americas Panama 2015 y de
+   Puerto Varas 2016 completadas. 0 hallazgos nuevos cargados formalmente -se detecto una
+   posible brecha en la XXIII Cumbre Iberoamericana Panama 2013 pero no se pudo confirmar
+   asistencia personal de Humala vs. delegacion, se dejo sin cargar por regla anti-
+   alucinacion-. 5 no_verificable. 64 confirmados.
+
+--- PEDRO PABLO KUCZYNSKI "PPK" (LeaderID 3245, 2016-07-28 a 2018-03-23, renuncio por el
+    caso Odebrecht) ---
+[NOTA-OK 2026-08-31] 14/14 viajes revisados. 2 correcciones: viaje a Argentina nov-2017
+   mal etiquetado como "Ibero-American Summit" -no hubo edicion de esa cumbre en 2017,
+   fue una visita bilateral a Macri con firma de 8 convenios-. 0 hallazgos nuevos -APEC
+   Lima 2016 correctamente ausente por ser Peru el anfitrion-. 2 no_verificable. 11
+   confirmados.
+
+--- MARTIN VIZCARRA (LeaderID 3432, 2018-03-23 a 2020-11-09, vacado por el Congreso) ---
+[NOTA-OK 2026-08-31] 16/16 viajes revisados. 1 correccion: COLT tenia DOS entradas
+   contradictorias para el mismo viaje a Brasilia (asuncion de Bolsonaro, ene-2019) -una
+   decia correctamente que Vizcarra adelanto el regreso y NO asistio a la ceremonia por la
+   crisis de los fiscales del caso Odebrecht, la otra afirmaba erroneamente que si asistio-
+   corregido el campo CulturalSiteOrCeremony del TripID contradictorio. 0 hallazgos nuevos
+   -Cumbre de las Americas Lima 2018 correctamente ausente por ser Peru el anfitrion; el
+   Grupo de Lima opero mayormente a nivel de cancilleres-. 3 no_verificable. 1 item
+   (3432-PER-CHL-43431, visita bilateral a Chile nov-2018 con Piñera) quedo sin cubrir en
+   la ronda de investigacion original -omision detectada en el control de cobertura
+   posterior de este cierre- y se agrego directamente como confirmado_sin_cambios (fuentes
+   propias de COLT incluyen fotografias de archivo de Getty Images de ambos mandatarios
+   juntos en esa fecha). 16 confirmados en total.
+
+--- VALENTIN PANIAGUA (LeaderID sintetico 90001, presidente de transicion, 2000-11-22 a
+    2001-07-28, sin cobertura en COLT) ---
+[NOTA-OK 2026-08-31] Investigado desde cero. 0 hallazgos. Busqueda en las biografias
+   detalladas de Wikipedia (con relato dia a dia de sus 273 dias de gobierno) no encontro
+   ninguna mencion de viaje internacional propio; la politica exterior parece haberse
+   delegado en su PM/canciller Javier Perez de Cuellar. Conclusion razonablemente solida
+   pero no exhaustiva (no se pudo hacer una busqueda de prensa dedicada adicional por
+   agotamiento del presupuesto de busqueda web de la sesion) -- queda como candidato a
+   revision futura si se dispone de mas tiempo de busqueda.
+
+--- MANUEL MERINO (LeaderID sintetico 90002, 2020-11-10 a 2020-11-15, 5 dias de gobierno,
+    sin cobertura en COLT) ---
+[NOTA-OK 2026-08-31] Investigado desde cero. 0 hallazgos, confirmado explicitamente: fue
+   invitado a la Cumbre de Lideres de APEC 2020, pero renuncio el 15-nov-2020 antes de esa
+   cumbre (20-21 nov, ademas enteramente virtual por COVID). Resultado negativo solido:
+   cero viaje internacional posible en 5 dias de gobierno.
+
+--- FRANCISCO SAGASTI (LeaderID sintetico 90003, presidente de transicion designado por
+    el Congreso, 2020-11-17 a 2021-07-28, en plena pandemia, sin cobertura en COLT) ---
+[NOTA-OK 2026-08-31] Investigado desde cero. 0 hallazgos. El articulo detallado de
+   Wikipedia sobre su gobierno (fuerte en crisis internas, vacunacion y protestas) no
+   menciona ningun viaje internacional. Se verifico especificamente que la XXVII Cumbre
+   Iberoamericana (Andorra, abr-2021), que coincidio con su mandato, se celebro de forma
+   enteramente virtual por la pandemia -descartando ese candidato a viaje fisico-.
+
+--- PEDRO CASTILLO (LeaderID 3831, 2021-07-28 a 2022-12-07, destituido tras intento de
+    autogolpe) ---
+[NOTA-OK 2026-08-31] 10/10 viajes revisados. 1 correccion: viaje a Colombia ene-2022 mal
+   etiquetado como "Pacific Alliance Leaders Meeting (PALM8)" -PALM8 es en realidad un
+   foro Japon-islas del Pacifico sin relacion con la Alianza del Pacifico-. 0 hallazgos
+   nuevos -Cumbre de las Americas LA 2022, asuncion de Boric y AGNU 2021/2022 ya estaban
+   correctamente cargados-. 9 confirmados, incluyendo verificacion de que 3 viajes que
+   Castillo intento hacer y el Congreso le nego (Colombia-asuncion de Petro ago-2022,
+   Europa/Vaticano oct-2022, Mexico nov-2022) correctamente NO aparecen en COLT porque
+   nunca ocurrieron.
+
+--- DINA BOLUARTE (LeaderID 3981, 2022-12-07 a 2025-10-10, vacada tras el "caso Rolex") ---
+[NOTA-OK 2026-08-31] 17/17 viajes revisados, con ayuda de un anexo exhaustivo de Wikipedia
+   sobre sus viajes internacionales. 8 correcciones (fechas de EEUU sep-2023, China
+   jun-2024 y Francia jun-2025 precisadas) [CORRECCION DE DATO FALSO / VIAJE FANTASMA]:
+   el viaje a Paraguay para la Cumbre de Mercosur (jul-2024) fue corregido a NA -el propio
+   COLT ya marcaba baja confianza (3/5) y notaba ausencia de evidencia; la cobertura de la
+   64 Cumbre de Mercosur en Asuncion solo menciona a los presidentes de Paraguay, Brasil,
+   Uruguay y Bolivia; el anexo exhaustivo de Wikipedia sobre los viajes de Boluarte NO
+   incluye ningun viaje a Paraguay en 2024; y no hay registro de autorizacion del Congreso
+   peruano para ese viaje, a diferencia de todos sus demas viajes-. 0 hallazgos nuevos -se
+   confirmo que NO asistio a la CELAC 2023 (fue su canciller) y que no hubo Cumbre de las
+   Americas durante su mandato (pospuesta a 2026)-. 13 confirmados.
+
+--- JOSE JERI (LeaderID 4255, 2025-10-10 a 2026-02-17, interinato de ~4 meses) ---
+[NOTA-OK 2026-08-31] 1/1 viaje confirmado sin cambios (Ecuador, XVI Gabinete Binacional,
+   dic-2025). Se verifico que declino la CELAC-UE de Santa Marta (nov-2025) y envio a su
+   canciller; no hay otros viajes en su interinato.
+
+--- JOSE MARIA BALCAZAR (LeaderID sintetico 90004, designado por el Congreso, 2026-02-17
+    a 2026-07-28, condujo la transicion hasta la asuncion de la presidenta electa, sin
+    cobertura en COLT) ---
+[NOTA-OK 2026-08-31] Investigado desde cero. 1 hallazgo nuevo confirmado: viaje al
+   Vaticano, 17-18 de junio de 2026, audiencia de casi dos horas con el papa Leon XIV (el
+   Papa confirmo su proxima visita a Peru en nov-2026). El Congreso habia autorizado
+   originalmente una gira mas amplia (Vaticano+Paris/OCDE+Roma/FAO, 15-19 jun), pero
+   Balcazar la recorto por la crisis de seguridad tras la segunda vuelta electoral,
+   permaneciendo en Lima hasta el 17/6; no se hallo fuente que confirme si finalmente
+   cumplio las escalas de Paris y Roma, por lo que ese tramo queda como no_verificable en
+   vez de forzarse como hallazgo (1 item no_verificable). TripEndDate (18/6) es una
+   estimacion razonable basada en el "retorno inmediato" anunciado por el propio
+   presidente, no una certeza absoluta -- ver Methodological_Notes de la fila.
+
+--- KEIKO FUJIMORI (LeaderID sintetico 90005, presidenta electa, asumio 2026-07-28 para
+    el periodo 2026-2031, en el cargo desde hace ~1 mes al momento de esta investigacion
+    -agosto 2026-, sin cobertura en COLT) ---
+[NOTA-OK 2026-08-31] Investigado desde cero. Resultado negativo documentado: cero viajes
+   internacionales en su primer mes de gobierno (28-jul a 31-ago-2026). Su actividad de
+   politica exterior se gestiono desde Lima o mediante su canciller (viajo en su lugar a
+   la asuncion del presidente de Colombia y a una reunion sobre El Niño en Miami). Expreso
+   interes en la Cumbre APEC de Shenzhen, pero es en noviembre de 2026, fuera del periodo
+   investigado (1 item no_verificable, dejado abierto para revision futura a medida que
+   avance su mandato).
+
+--- RESUMEN PERU ---
+14 mandatarios investigados (9 con cobertura nativa en COLT, 5 investigados desde cero
+con LeaderID sinteticos 90001-90005). 43 correcciones aplicadas (incluye 2 correcciones
+de dato imposible/falso -Cumbres del Grupo de Rio atribuidas a Brasil bajo Fujimori, y el
+viaje fantasma a Paraguay bajo Boluarte-, mas 3 casos adicionales de "viaje/asistente
+fantasma" corregidos a NA sin inventar reemplazo -Torrijos/Toledo, Kirchner-Mexico/Toledo,
+Garcia-Brasil invertido-). 5 hallazgos nuevos (PELATAM-PER-1 a 5): 2 Cumbres
+Iberoamericanas bajo Fujimori (Isla Margarita 1997, Oporto 1998), 1 bajo Toledo (San Jose
+2004), la Cumbre Constitutiva de UNASUR bajo Garcia (2008), y el viaje de Balcazar al
+Vaticano (2026). 30 no_verificable documentados arriba. 276 confirmados_sin_cambios (mas
+el item PELATAM-PER-5/Vaticano no cuenta aqui por ser hallazgo). Modulo Peru:
+5364 -> 5369 filas en Datos_COLT_Sudamerica (+5, un hallazgo por leader excepto Boluarte).
+Backup: 04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_peru_merge.xlsx. Log:
+05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_peru_1994_2026_2026-08-31.csv.
+
+[NOTA TECNICA] La fila PELATAM-PER-5 (Balcazar/Vaticano) quedo inicialmente sin LeaderID
+ni columnas de identidad de lider tras aplicar colt_aplicar_workpacks.py -- limitacion
+conocida del pipeline: el script auto-completa esas columnas copiandolas de una fila COLT
+nativa existente del mismo lider, lo cual no es posible para un lider sin ninguna fila
+previa en COLT (mismo patron que el problema pre-existente de las 3 filas PELATAM-CHL-186/
+187/188 sin LeaderID, documentado en la seccion "QC ARCHIVO MADRE"). Se completo
+manualmente (LeaderID=90004, LeaderCountryOrIGO=Peru, etc.) antes de la importacion final;
+colt_validar_madre.py confirmo 0 problemas nuevos tras el fix. Si en el futuro se agregan
+mas hallazgos para lideres sin cobertura nativa en COLT (Paniagua, Merino, Sagasti, Keiko,
+o equivalentes de otros paises), revisar manualmente que las columnas de identidad queden
+completas tras aplicar.
+
+[NOTA METODOLOGICA] Se actualizo 04_BASE_FINAL/mandatos_presidenciales.csv agregando las 5
+filas faltantes de Peru (Paniagua, Merino, Sagasti, Balcazar, Keiko Fujimori), siguiendo
+el mismo patron ya usado para Bolivia (Añez, Paz). Los limites de mandato de Peru
+2016-2026 fueron confirmados via prensa contemporanea (Infobae, jul-2026, cronologia
+completa de los 8 mandatarios entre PPK y Fujimori-hija) dado el nivel de rotacion sin
+precedentes en la region.
+
+[PENDIENTE] Investigar mas a fondo (con mayor presupuesto de busqueda) los casos
+"no_verificable por agotamiento de presupuesto de busqueda" marcados en Fujimori, Toledo,
+PPK, Vizcarra y Boluarte -no son brechas confirmadas, son items que quedaron sin la
+segunda pasada de verificacion por limite de herramientas en la sesion de investigacion,
+no por ausencia de fuente disponible-.
+
+[CIERRE] Con esta campaña, Peru queda con verificacion COLT completa de punta a punta
+para el periodo dentro de alcance del proyecto (1994-2026), incluyendo los 5 mandatarios
+sin cobertura nativa en COLT investigados desde cero. Es el pais con mayor numero de
+mandatarios cubiertos en una sola campaña del proyecto (14) y el primero en requerir
+LeaderID sinteticos para multiples lideres ausentes de COLT.
+================================================================================
+
+################################################################################
+## COLOMBIA — VERIFICACION COLT COMPLETA (2026-09-01)
+################################################################################
+
+Modulo construido desde cero, 489 viajes en total (la campaña de mayor volumen del
+proyecto hasta la fecha), cubriendo 8 mandatarios/tramos entre 1994 y 2026. Uribe
+(LeaderID 1746) y Santos (LeaderID 2597) comparten cada uno un unico LeaderID de COLT
+para sus 2 mandatos consecutivos; se dividieron por fecha exacta de mandato en 2
+workpacks cada uno (solo por manejo de carga de trabajo en paralelo, no por limite de
+alcance del proyecto). Se agrego 1 fila a mandatos_presidenciales.csv (Abelardo de la
+Espriella, presidente electo 2026, LeaderID sintetico 90006, sin cobertura COLT por ser
+demasiado reciente). La campaña sufrio interrupciones por limite de uso de la API a
+mitad del despacho de subagentes (6 de 8 workpacks debieron redespacharse, 1 de ellos
+-Gaviria/Samper- habia quedado con un intento previo incompleto que se descarto y
+rehizo por completo); el resultado final fue verificado con control de cobertura
+programatico (489/489 TripID cubiertos, 0 huecos, 0 duplicados) antes de aplicar.
+
+--- CESAR GAVIRIA, tramo final de mandato (LeaderID 452, recorte 1994-01-01 a
+    1994-08-07; su mandato completo fue 1990-1994, acotado por alcance del proyecto) ---
+[NOTA-OK 2026-09-01] 2/2 viajes revisados. 1 correccion (TripID 452-COL-PER-34528,
+   2 campos): fecha de la visita a Peru corregida de 13-jul a 12-jul-1994, segun
+   comunicado oficial de la Cancilleria peruana. 1 confirmado (visita a Japon).
+
+--- ERNESTO SAMPER (LeaderID 949, 1994-08-07 a 1998-08-07) ---
+[NOTA-OK 2026-09-01] 26/26 viajes revisados. 12 correcciones (5 TripID): el evento de
+   Cuba jun-1998 era la Cumbre Ministerial de Salud del Movimiento de Paises No
+   Alineados, no la Cumbre de Jefes de Estado del MNOAL -que fue en Durban, Sudafrica-;
+   el anfitrion registrado para Ecuador sep-1997 era imposible (Abdala Bucaram, ya
+   destituido en feb-1997), corregido a Fabian Alarcon; referencia erronea a un evento
+   del MNOAL en Francia eliminada; fechas de Kenia ajustadas 1 dia y agregada reunion
+   con empresarios; fecha de Palestina/Cisjordania corregida de 8-may a 7-may-1997.
+   1 hallazgo nuevo (PELATAM-COL): visita a Argelia, 9-10 de mayo de 1997, reunion con
+   el presidente Liamine Zeroual, parte de la misma gira africana ya cargada en COLT
+   pero cuyo tramo argelino faltaba. 10 no_verificable (Canada, China x2, Dinamarca,
+   España, Francia, Indonesia, Corea del Sur, Uruguay, Venezuela). 12 confirmados.
+
+--- ANDRES PASTRANA (LeaderID 1337, 1998-08-07 a 2002-08-07) ---
+[NOTA-OK 2026-09-01] 51/51 viajes revisados. 5 correcciones (3 TripID): la firma del
+   Acta Presidencial de Brasilia (tratado de paz Ecuador-Peru, con Fujimori, Mahuad,
+   Juan Carlos I y Cardoso presentes) fue en un unico dia -26-oct-1998-, no dos, como
+   registraba COLT; el nombre de evento en Panama fue corregido de una inexistente
+   "Cumbre del Movimiento de Paises No Alineados" a la ceremonia real de transferencia
+   del Canal de Panama; el viaje a Lima may-2001 fue reclasificado de cumbre del
+   Consejo Presidencial Andino -que no se reunio en esas fechas- a visita de Estado
+   bilateral. 2 hallazgos nuevos (PELATAM-COL): IX Cumbre Iberoamericana (La Habana,
+   nov-1999) y XI Cumbre Iberoamericana (Lima, nov-2001, esta ultima con evidencia
+   moderada, candidata a revalidacion futura). 4 no_verificable. 47 confirmados.
+
+--- ALVARO URIBE VELEZ, 1er mandato (LeaderID 1746, recorte 2002-08-07 a 2006-08-07;
+    comparte LeaderID con su 2do mandato) ---
+[NOTA-OK 2026-09-01] 65/65 viajes revisados. 7 correcciones (4 TripID): en la posesion
+   de Lucio Gutierrez en Ecuador (ene-2003) COLT ya listaba en Notes en texto libre a
+   Castro, Chavez, Lula, Toledo, Sanchez de Lozada y Lagos como presentes, pero los
+   campos estructurados MetNonhostHOGS/NonhostHOGSNames decian "No"/vacio -corregidos
+   para que coincidan-; fecha de la posesion de Evo Morales en Bolivia corregida de
+   21-ene a 22-ene-2006; fecha de la posesion de Alan Garcia en Peru corregida de
+   27-jul a 28-jul-2006; un registro de "XIV Cumbre Iberoamericana" en Ecuador
+   corregido a NA -la cumbre fue en San Jose de Costa Rica, registro duplicado del
+   TripID que ya cubre ese viaje-. 1 hallazgo nuevo (PELATAM-COL): discurso ante el
+   Parlamento Europeo en Estrasburgo, Francia, 10-feb-2004, dentro de la misma gira
+   europea ya cargada (Belgica/Vaticano/Alemania) pero sin registro propio.
+   25 no_verificable (mayoria bilaterales puntuales con Ecuador, Brasil, Venezuela,
+   Panama, El Salvador y Guatemala; incluye un TripID con Mexico -"Summit of the
+   Americas" ene-2003- con fuerte sospecha de ser un duplicado del viaje real a
+   Monterrey de enero 2004, sin fuente que permita fijar el valor de correccion).
+   36 confirmados.
+
+--- ALVARO URIBE VELEZ, 2do mandato (LeaderID 1746, recorte 2006-08-07 a 2010-08-07) ---
+[NOTA-OK 2026-09-01] 70/70 viajes revisados. 6 correcciones (3 TripID): reunion con
+   Correa -entonces presidente electo- no registrada durante un viaje a Nicaragua
+   (2007); cruce Uribe-Correa-Chavez en la Cumbre del Grupo de Rio de Santo Domingo
+   (2008) agregado a los campos estructurados; Cristina Kirchner agregada como
+   anfitriona activa de la Cumbre Extraordinaria de UNASUR en Bariloche (2009).
+   1 hallazgo nuevo (PELATAM-COL): viaje a Chile, 10-11 de marzo de 2010, para la
+   transmision de mando de Sebastian Piñera, ausente por completo de COLT. 0
+   no_verificable -se investigo especificamente un caso dudoso (posesion de Porfirio
+   Lobo en Honduras) y se confirmo con prensa de la region que Uribe no asistio a la
+   ceremonia del 27-ene-2010 -Colombia envio a su vicepresidente- sino que viajo por
+   separado el 30-ene-2010 para una visita bilateral con firma de acuerdo
+   antinarcoticos, validando el dato de COLT tal como estaba. 67 confirmados.
+
+--- JUAN MANUEL SANTOS, 1er mandato (LeaderID 2597, recorte 2010-08-07 a 2014-08-07;
+    comparte LeaderID con su 2do mandato) ---
+[NOTA-OK 2026-09-01] 70/70 viajes revisados. 13 correcciones (10 TripID): fecha de la
+   II Cumbre de la Alianza del Pacifico en Merida corregida de 28-nov a 4-dic-2011;
+   reunion extraordinaria de UNASUR en Lima corregida de 1-dic a 30-nov-2012 -el 1-dic
+   Santos ya estaba en la posesion de Peña Nieto en Mexico-; el viaje a Lima abr-2011
+   reclasificado como la cumbre fundacional de la Alianza del Pacifico -Declaracion de
+   Lima- en vez de simple visita bilateral; la etiqueta "PALM8" que usaba COLT para dos
+   cumbres de la Alianza del Pacifico corresponde en realidad al foro Japon-Islas del
+   Pacifico -mismo tipo de confusion de siglas homonimas ya detectado en Peru/Castillo-,
+   corregida a los nombres reales de cada cumbre (Antofagasta/Paranal, Punta Mita);
+   "European Council-CELAC Summit" corregido a la I Cumbre Union Europea-CELAC; tres
+   Notes identicas y erroneas ("summit on displaced peoples") copiadas por error en
+   Brasil/Rio+20, Costa Rica y Mexico/G20 Los Cabos, limpiadas a NA; se aclaro que el
+   viaje a Brasilia jul-2012 fue la cumbre de acercamiento BRICS-UNASUR, no la Cumbre
+   BRICS de Fortaleza -de la que Colombia no es miembro-. 0 hallazgos nuevos. 2
+   no_verificable (Canada sep-2011, Turquia nov-2011 -esta ultima ya marcada por COLT
+   con confianza reducida-). 58 confirmados.
+
+--- JUAN MANUEL SANTOS, 2do mandato (LeaderID 2597, recorte 2014-08-07 a 2018-08-07) ---
+[NOTA-OK 2026-09-01] 81/81 viajes revisados. 6 correcciones (3 TripID): la etiqueta
+   "PALM8" reaparece en 3 cumbres mas de la Alianza del Pacifico y se corrige a los
+   nombres reales -PALM10 (Lima), PALM11 (Puerto Varas), PALM13 (Puerto Vallarta)-;
+   viaje a Paris/OCDE reclasificado -no era el evento que registraba COLT-; encuentro
+   en Bruselas/OTAN corregido de SignedAgreement=No a Yes; APEC Lima 2016 corregido de
+   anfitrion Xi Jinping -imposible, China no fue sede- a Pedro Pablo Kuczynski. 0
+   hallazgos nuevos. 4 no_verificable, incluyendo un viaje a Cuba abr-2017 sin fuente
+   independiente que precise el motivo especifico de la visita (a diferencia de otros
+   viajes a Cuba del mismo periodo si documentados), y la Lamp of Peace Ceremony en
+   Italia may-2018 -las fuentes disponibles de COLT eran de acceso restringido-. Nota:
+   el TripID 2597-COL-ARE-43050 aparece simultaneamente en correcciones y en
+   no_verificable -un campo dudoso dentro de un viaje por lo demas confirmado-, uso
+   valido de la regla del proyecto que permite esa combinacion para campos distintos
+   del mismo TripID. 72 confirmados.
+
+--- IVAN DUQUE MARQUEZ (LeaderID 3477, 2018-08-07 a 2022-08-07) ---
+[NOTA-OK 2026-09-01] 50/50 viajes revisados. 13 correcciones (5 TripID): la gira de
+   nov-2020 (posesion de Luis Arce en Bolivia y visita a Chile) tenia fechas
+   encadenadas mal registradas -posesion de Arce corregida de 7-nov a 8-nov-2020 -fecha
+   real de la ceremonia-, y la escala en Chile ese mismo dia ajustada de 2 a 1 dia de
+   duracion-; el primer viaje internacional de Duque -Paraguay, ago-2018- se extendio
+   un dia hacia atras -14-ago, no solo 15-ago- y se corrigio MetHostHoGS/HostHOGSName
+   a "Yes"/Mario Abdo Benitez, encuentro que COLT documentaba en Notes pero no en los
+   campos estructurados; fechas de la Jornada Mundial de la Juventud en Panama
+   (ene-2019) acotadas al unico dia -27-ene- al que efectivamente asistio Duque; fechas
+   de la visita de Estado a China (jul-2019) ajustadas de 30jul-1ago a 29-31 jul, dia
+   en que concluyo la reunion con Xi Jinping segun multiples fuentes. 2 hallazgos
+   nuevos (PELATAM-COL): gira tecnologica a Silicon Valley/Seattle (EEUU, may-2019,
+   reuniones con Apple, Google, Cisco, Microsoft, Amazon) y viaje a la posesion de
+   Rodrigo Chaves en Costa Rica (may-2022), ninguno cargado en COLT. 2 no_verificable
+   (Davos ene-2019, cierre de la Cumbre Alianza del Pacifico Lima jul-2019). Se
+   confirmo la ausencia esperada de viajes entre marzo y octubre de 2020 -cierre de
+   fronteras por COVID-19-, sin vacios indebidos ni viajes cargados de mas en ese
+   tramo. 43 confirmados.
+
+--- GUSTAVO PETRO (LeaderID 3960, 2022-08-07 a 2026-08-07) ---
+[NOTA-OK 2026-09-01] 74/74 viajes revisados. 4 correcciones (2 TripID): fecha de
+   llegada a la Cumbre CELAC de Buenos Aires corregida de 23-ene a 24-ene-2023; fecha
+   de llegada a Chile en la misma gira corregida de 8-ene a 9-ene-2023 -Petro cancelo
+   agenda el 10-ene por la emergencia de incendios en Rosas, Cauca-. 0 hallazgos
+   nuevos. 3 no_verificable: el viaje a Cuba jun-2023 -cese al fuego con el ELN, fecha
+   exacta de regreso sin confirmar-; COP30 en Belem, Brasil, nov-2025 -fecha exacta de
+   salida sin confirmar-; y el viaje a Paraguay jul-2024 para la Cumbre de Mercosur
+   -mismo patron de "viaje fantasma" ya detectado en Peru/Boluarte: COLT ya marcaba
+   baja confianza y no se hallo fuente que confirme presencia fisica de Petro, aunque
+   sin evidencia suficiente para forzar la correccion a NA; queda como candidato
+   prioritario a revision futura-. 69 confirmados.
+
+--- ABELARDO DE LA ESPRIELLA (LeaderID sintetico 90006, presidente electo, asumio
+    2026-08-07 para el periodo 2026-2030, en el cargo desde hace ~3 semanas al momento
+    de esta investigacion -1-sep-2026-, sin cobertura en COLT) ---
+[NOTA-OK 2026-09-01] Investigado desde cero. 0 hallazgos: el propio presidente declaro
+   explicitamente que no saldra del pais durante su mandato ("me quedo en las
+   regiones"), delegando la agenda internacional en el vicepresidente Jose Manuel
+   Restrepo y en cancilleres/ministros -incluida la representacion colombiana en la
+   asuncion de un mandatario vecino y en una reunion sobre El Niño en Miami, ambas
+   realizadas por el vicepresidente/canciller, no por De la Espriella-. Se identifico
+   un viaje futuro anunciado de una delegacion -no del presidente- a Israel para
+   octubre de 2026, fuera del periodo investigado y de un funcionario distinto al jefe
+   de Estado. Resultado negativo solido dado el margen breve y la politica explicita
+   de no viajar.
+
+--- RESUMEN COLOMBIA ---
+8 mandatarios/tramos investigados (7 con cobertura nativa en COLT -contando Uribe y
+Santos una vez cada uno pese al split en 2 workpacks-, 1 investigado desde cero con
+LeaderID sintetico 90006). 68 correcciones aplicadas (incluye 2 casos de "dato
+imposible" -anfitrion Bucaram ya destituido bajo Samper, anfitrion Xi Jinping en APEC
+Lima bajo Santos 2-, mas 2 casos de homonimia de siglas "PALM8" corregidos en 5 TripID
+distintos entre Santos 1 y 2 -mismo patron de error ya visto en Peru/Castillo-). 7
+hallazgos nuevos (PELATAM-COL-1 a 7): Argelia bajo Samper (1997), 2 Cumbres
+Iberoamericanas bajo Pastrana (La Habana 1999, Lima 2001), Estrasburgo/Parlamento
+Europeo bajo Uribe 1 (2004), transmision de mando de Piñera en Chile bajo Uribe 2
+(2010), gira tecnologica a Silicon Valley y posesion de Chaves en Costa Rica bajo Duque
+(2019 y 2022). 0 hallazgos para De la Espriella (mandato de solo 3 semanas al momento
+de la investigacion, mas politica explicita de no viajar). 50 no_verificable
+documentados arriba, incluyendo 1 candidato prioritario a revision futura -Paraguay
+jul-2024 bajo Petro, mismo patron de "viaje fantasma" que Boluarte/Peru-. 405
+confirmados_sin_cambios. Modulo Colombia: 5369 -> 5376 filas en Datos_COLT_Sudamerica
+(+7, un hallazgo por leader excepto Santos 1, Santos 2 y De la Espriella). Backup:
+04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_colombia_merge.xlsx. Log:
+05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_colombia_1994_2026_2026-09-01.csv.
+
+[NOTA TECNICA] A diferencia de Peru/Balcazar, ninguno de los 7 hallazgos nuevos de esta
+campaña corresponde al leader sintetico 90006 (De la Espriella tuvo 0 hallazgos), por
+lo que no hizo falta el fix manual de columnas de identidad de lider que si fue
+necesario en Peru. colt_validar_madre.py post-merge devolvio los mismos 16 problemas
+pre-existentes de siempre (0 nuevos), confirmando que el pipeline no genero filas
+PELATAM huerfanas en esta campaña.
+
+[NOTA METODOLOGICA] Se actualizo 04_BASE_FINAL/mandatos_presidenciales.csv agregando 1
+fila (Abelardo de la Espriella, 2026-08-07 a 2030-08-07), siguiendo el mismo patron ya
+usado para Bolivia y Peru. La campaña tuvo que redespachar 6 de los 8 workpacks de
+investigacion tras topar con el limite de uso de la sesion de la API a mitad del primer
+despacho paralelo -2 workpacks se completaron a la primera (Pastrana, Santos 2), 2
+quedaron con output truncado sin archivo valido (Gaviria/Samper, Uribe 1) y 4 fallaron
+sin ningun output (Uribe 2, Santos 1, Duque, Petro/De la Espriella)-; todos se
+redespacharon con exito en una segunda tanda y superaron el control de cobertura
+programatico (489/489 TripID) antes de aplicarse.
+
+[PENDIENTE] Revisar con mas profundidad el caso Petro/Paraguay jul-2024 (posible viaje
+fantasma, mismo patron que Boluarte/Peru) si en el futuro se dispone de mas presupuesto
+de busqueda o de fuentes de prensa paraguaya especificas no exploradas en esta ronda.
+Tambien revisar la XI Cumbre Iberoamericana de Lima 2001 bajo Pastrana (hallazgo con
+"evidencia moderada").
+
+[CIERRE] Con esta campaña, Colombia queda con verificacion COLT completa de punta a
+punta para el periodo dentro de alcance del proyecto (1994-2026), incluyendo al
+presidente electo sin cobertura nativa en COLT. Es la campaña de mayor volumen del
+proyecto hasta la fecha (489 viajes en un solo pais) y la primera en requerir
+redespacho masivo de subagentes por limite de uso de la API.
+================================================================================

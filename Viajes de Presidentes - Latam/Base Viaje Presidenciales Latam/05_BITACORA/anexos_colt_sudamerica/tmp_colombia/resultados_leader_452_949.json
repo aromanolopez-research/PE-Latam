@@ -1,0 +1,238 @@
+[
+  {
+    "LeaderID": "452",
+    "correcciones": [
+      {
+        "TripID": "452-COL-PER-34528",
+        "campo": "TripStartDate",
+        "valor_correcto": "1994-07-12",
+        "fuente": "https://apps.rree.gob.pe/portal/webtratados.nsf/xsp/.ibmmodres/domino/OpenAttachment/VICUS/MREPERU!!portal/tratados.nsf/96F22FA01D8FF96905256E830067571A/$FILE/B-2187.pdf",
+        "justificacion": "Comunicado de prensa conjunto oficial entre el Presidente de la Republica de Colombia (Cesar Gaviria) y el Presidente de la Republica del Peru (Alberto Fujimori), publicado por el Ministerio de Relaciones Exteriores del Peru, fechado el 12 de julio de 1994 en Lima, relacionado con la eleccion de Gaviria como Secretario General de la OEA. Esta fuente primaria oficial establece que el encuentro ocurrio el 12 de julio de 1994, un dia antes de la fecha registrada por COLT (13/7/1994)."
+      },
+      {
+        "TripID": "452-COL-PER-34528",
+        "campo": "TripEndDate",
+        "valor_correcto": "1994-07-12",
+        "fuente": "https://apps.rree.gob.pe/portal/webtratados.nsf/xsp/.ibmmodres/domino/OpenAttachment/VICUS/MREPERU!!portal/tratados.nsf/96F22FA01D8FF96905256E830067571A/$FILE/B-2187.pdf",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: el comunicado de prensa conjunto oficial del Ministerio de Relaciones Exteriores del Peru fecha el encuentro Gaviria-Fujimori en Lima el 12 de julio de 1994, por lo que se mantiene como viaje de un solo dia, desplazado al 12/7/1994. La duracion (1 dia) no varia."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "452-COL-JPN-34391",
+        "justificacion": "Fuente independiente confirma que Cesar Gaviria realizo una visita de cinco dias a Japon a fines de febrero de 1994, en la que expreso su interes en que Colombia ingresara a APEC durante una reunion con el Primer Ministro Morihiro Hosokawa, segun funcionarios de la Cancilleria colombiana. Esto coincide con el rango de fechas de COLT (26/2 al 2/3/1994, 5 dias) y con el HostHOGSName registrado (Primer Ministro Hosokawa Morihiro)."
+      }
+    ]
+  },
+  {
+    "LeaderID": "949",
+    "correcciones": [
+      {
+        "TripID": "949-COL-CUB-35972",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "fuente": "http://www.cuba.cu/gobierno/discursos/1998/esp/f260698e.html",
+        "justificacion": "Fuente oficial del gobierno cubano (discurso de clausura pronunciado por Fidel Castro) confirma que el evento realizado en el Palacio de las Convenciones de La Habana el 26 de junio de 1998 fue la 'Cumbre de Ministros de Salud del Movimiento de Paises No Alineados', es decir, una reunion ministerial, no una Cumbre de Jefes de Estado y de Gobierno del MNOAL. La XII Cumbre de Jefes de Estado y de Gobierno del MNOAL (el evento que corresponde propiamente al campo AttendedMultilatEvent/NameMultilatEvent) se realizo en Durban, Sudafrica, en septiembre de 1998, no en Cuba. Por lo tanto el campo AttendedMultilatEvent, que en COLT indica asistencia a una cumbre de jefes de Estado, debe corregirse a 'No', trasladando el evento correctamente al campo de nivel ministerial."
+      },
+      {
+        "TripID": "949-COL-CUB-35972",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "NA",
+        "fuente": "http://www.cuba.cu/gobierno/discursos/1998/esp/f260698e.html",
+        "justificacion": "Consecuencia directa de la correccion de AttendedMultilatEvent: al no tratarse de una cumbre de jefes de Estado y de Gobierno del MNOAL sino de una reunion de Ministros de Salud, el campo NameMultilatEvent (que en COLT decia 'Non-Aligned Movement (NAM) Summit') debe quedar en NA, y el nombre correcto del evento debe registrarse en el campo ministerial correspondiente."
+      },
+      {
+        "TripID": "949-COL-CUB-35972",
+        "campo": "AttendedMultilatMinisterialEvent",
+        "valor_correcto": "Yes",
+        "fuente": "http://www.cuba.cu/gobierno/discursos/1998/esp/f260698e.html",
+        "justificacion": "El evento verificado independientemente (Cumbre de Ministros de Salud del MNOAL, La Habana, 26 de junio de 1998, con discurso de clausura de Fidel Castro) corresponde a un evento de nivel ministerial del MNOAL. Samper, en su calidad de Presidente en ejercicio del Movimiento de Paises No Alineados desde octubre de 1995, presidio o participo en la clausura de este evento ministerial junto a Castro, consistente con las fechas de COLT (26-28/6/1998) y con el MetHostHoGS=Yes/HostHOGSName=Fidel Castro ya registrados (los cuales no se modifican por no hallarse evidencia que los contradiga)."
+      },
+      {
+        "TripID": "949-COL-CUB-35972",
+        "campo": "NameMultilatMinisterialEvent",
+        "valor_correcto": "Non-Aligned Movement (NAM) Health Ministers Summit",
+        "fuente": "http://www.cuba.cu/gobierno/discursos/1998/esp/f260698e.html",
+        "justificacion": "Nombre correcto del evento ministerial verificado por fuente oficial del gobierno cubano: 'Cumbre de Ministros de Salud del Movimiento de Paises No Alineados', celebrada en el Palacio de las Convenciones de La Habana, con sesion de clausura el 26 de junio de 1998."
+      },
+      {
+        "TripID": "949-COL-ECU-35685",
+        "campo": "HostHOGSName",
+        "valor_correcto": "President Fabian Alarcon Rivera",
+        "fuente": "https://es.wikipedia.org/wiki/Crisis_pol%C3%ADtica_en_Ecuador_de_1996-1997 ; https://www.ecured.cu/Fabi%C3%A1n_Alarc%C3%B3n_Rivera ; https://www.eltiempo.com/archivo/documento/mam-701142",
+        "justificacion": "Abdala Bucaram Ortiz fue destituido por el Congreso ecuatoriano el 11 de febrero de 1997 por 'incapacidad mental para gobernar', y Fabian Alarcon Rivera asumio como presidente interino constitucional desde esa fecha hasta el 10 de agosto de 1998 (fuente: Wikipedia en espanol y EcuRed, coincidentes). Por lo tanto, en la fecha del viaje de Samper a Ecuador registrado por COLT (12-14/9/1997), el presidente ecuatoriano vigente era Fabian Alarcon, no Abdala Bucaram como indica erroneamente COLT. Un articulo de archivo de El Tiempo (mam-701142) documenta ademas negociaciones bilaterales Colombia-Ecuador de esa epoca conducidas por los gobiernos de Samper y Alarcon (acordadas en una cumbre presidencial previa en Sucre, Bolivia, abril de 1997), consistente con relaciones bilaterales activas entre ambos mandatarios en ese periodo."
+      },
+      {
+        "TripID": "949-COL-FRA-35278",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "fuente": "Search Query: Ernesto Samper Francia agosto 1996 Chirac visita bilateral No Alineados sede Paris",
+        "justificacion": "Francia nunca ha sido miembro del Movimiento de Paises No Alineados (MNOAL), por lo que no pudo haber una 'Cumbre' o evento del MNOAL en Paris al que Colombia 'asistiera' en el sentido que implica este campo de COLT, de forma analoga al error ya detectado en la ronda hermana de Chile respecto de una supuesta asistencia de Frei a una cumbre del Consejo Europeo. Fuentes consultadas confirman que la visita de Samper a Francia en agosto de 1996 fue una visita bilateral de trabajo a Jacques Chirac (con quien discutio temas de narcotrafico y sustitucion de cultivos ilicitos), sin relacion con un evento multilateral del MNOAL organizado en suelo frances. No se hallo evidencia de ninguna cumbre o reunion formal del MNOAL celebrada en Francia en 1996."
+      },
+      {
+        "TripID": "949-COL-FRA-35278",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "NA",
+        "fuente": "Search Query: Ernesto Samper Francia agosto 1996 Chirac visita bilateral No Alineados sede Paris",
+        "justificacion": "Consecuencia directa de la correccion de AttendedMultilatEvent: al no existir una cumbre del MNOAL en Francia, el campo NameMultilatEvent (que en COLT decia 'Non-Alignment Movement') debe quedar en NA. El MetHostHoGS=Yes/HostHOGSName=Jacques Chirac se mantiene sin cambios por estar confirmado independientemente como visita bilateral de trabajo."
+      },
+      {
+        "TripID": "949-COL-KEN-35554",
+        "campo": "TripStartDate",
+        "valor_correcto": "1997-05-03",
+        "fuente": "https://www.eltiempo.com/archivo/documento/MAM-531480",
+        "justificacion": "El itinerario detallado dia a dia de la gira de Samper por Africa y Medio Oriente, publicado por El Tiempo el 30 de abril de 1997 (dos dias antes del inicio del viaje), indica: 'Sabado 3 de mayo: Samper llegara a Kenia. Sera recibido por el presidente Daniel Arap Moi.' Esto ubica la llegada a Kenia el 3 de mayo de 1997, un dia antes de la fecha registrada por COLT (4/5/1997). El mismo itinerario confirma con exactitud las fechas de COLT para Sudafrica (encuentro Samper-Mandela el viernes 2 de mayo) y Egipto (entrevista con Mubarak el jueves 8 de mayo), lo que respalda la fiabilidad de este itinerario tambien para Kenia."
+      },
+      {
+        "TripID": "949-COL-KEN-35554",
+        "campo": "TripEndDate",
+        "valor_correcto": "1997-05-05",
+        "fuente": "https://www.eltiempo.com/archivo/documento/MAM-531480",
+        "justificacion": "Segun el mismo itinerario de El Tiempo, el domingo 4 de mayo Samper sostuvo encuentros con empresarios y academicos en Kenia, y el lunes 5 de mayo partio con rumbo a Israel. Por lo tanto la estadia en Kenia (llegada sabado 3, salida lunes 5) cubre el 3-5 de mayo de 1997, no el 4-6 de mayo registrado por COLT. La duracion de 3 dias no cambia (3,4,5 en vez de 4,5,6)."
+      },
+      {
+        "TripID": "949-COL-KEN-35554",
+        "campo": "BusinessLeaderOrForum",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.eltiempo.com/archivo/documento/MAM-531480",
+        "justificacion": "El itinerario de El Tiempo indica explicitamente que el domingo 4 de mayo, durante su estadia en Kenia, Samper 'sostendra encuentros con empresarios y academicos', lo que corresponde a una actividad de tipo BusinessLeaderOrForum. COLT registra este campo como 'No', lo cual se corrige a 'Yes' con base en esta fuente independiente."
+      },
+      {
+        "TripID": "949-COL-PSE-35558",
+        "campo": "TripStartDate",
+        "valor_correcto": "1997-05-07",
+        "fuente": "https://www.eltiempo.com/archivo/documento/MAM-531480",
+        "justificacion": "El itinerario detallado de El Tiempo (30/4/1997) indica: 'Miercoles 7 de mayo: Desplazamiento hacia el punto de Chequeo de Erez. Entrevista con el lider palestino Yasser Arafat', mientras que el jueves 8 de mayo la agenda pasa a 'Entrevistas con Moubarak' (Egipto). Esto ubica la visita a territorio palestino (paso de Erez, entrevista con Arafat) el 7 de mayo de 1997, un dia antes de la fecha registrada por COLT (8/5/1997), la cual coincide en cambio con el dia de la reunion con Mubarak en Egipto (evento ya confirmado para el 8/5 en el TripID 949-COL-EGY-35558)."
+      },
+      {
+        "TripID": "949-COL-PSE-35558",
+        "campo": "TripEndDate",
+        "valor_correcto": "1997-05-07",
+        "fuente": "https://www.eltiempo.com/archivo/documento/MAM-531480",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: se trata de un viaje de un solo dia (miercoles 7 de mayo de 1997), por lo que TripEndDate tambien se corrige a 1997-05-07. La duracion (1 dia) no cambia."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Algeria",
+        "CityVisited": "Algiers",
+        "TripStartDate": "1997-05-09",
+        "TripEndDate": "1997-05-10",
+        "TripDuration": "2",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Liamine Zeroual",
+        "AttendedMultilatEvent": "No",
+        "NameMultilatEvent": "NA",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://www.eltiempo.com/archivo/documento/MAM-531480",
+        "justificacion": "El itinerario oficial de la gira de Samper por Africa y Medio Oriente publicado por El Tiempo (30/4/1997) incluye una etapa en Argelia no presente en los 28 items de COLT para leader_949: 'Viernes 9 de mayo: Entrevista con el director del Maghreb y con empresarios. Luego llega a Argel y se entrevista con el Presidente de esa nacion' y 'Sabado 10 de mayo: Visita al Palacio... y entrevista con el presidente de esa nacion. A las 6 p.m. llega a Madrid.' Esto documenta una visita de Samper a Argel los dias 9-10 de mayo de 1997, con reunion con el Jefe de Estado argelino (Liamine Zeroual, presidente de Argelia desde 1994), como parte de la misma gira que incluyo Sudafrica, Kenia, Israel, Palestina y Egipto (todos estos ya presentes en COLT) pero que no incluyo un item separado para Argelia. Los campos MetNonhostHOGS/NonhostHOGSNames y SignedAgreement se dejan sin dato preciso por falta de una fuente que detalle esos aspectos especificos de la etapa argelina del viaje."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "949-COL-CAN-35811",
+        "campo": "TripStartDate",
+        "justificacion": "Se trata de un viaje descrito por las propias Notes de COLT como de caracter privado (visita al hijo Andres, residente en Montreal, y un chequeo medico). Busqueda activa no hallo cobertura de prensa independiente que confirme o contradiga las fechas 16-20 de enero de 1998 registradas por COLT, lo cual es esperable tratandose de un viaje de naturaleza privada y no oficial."
+      },
+      {
+        "TripID": "949-COL-CHN-35358",
+        "campo": "HostHOGSName",
+        "justificacion": "Existe evidencia contextual general de que Samper realizo una gira por Asia en octubre de 1996 que incluyo a China (mencionada por el columnista Fernando Cepeda en El Tiempo como el 'rimbombante desplazamiento a China', y por Rodrigo Pardo como antecedente de la posterior gira africana de 1997), pero busqueda activa no hallo una fuente independiente que confirme especificamente una reunion de Samper con el Secretario General Jiang Zemin en las fechas exactas del 20-23 de octubre de 1996 registradas por COLT."
+      },
+      {
+        "TripID": "949-COL-CHN-35611",
+        "campo": "TripStartDate",
+        "justificacion": "La ceremonia de traspaso de soberania de Hong Kong a China el 1 de julio de 1997 esta ampliamente documentada (con la delegacion china encabezada por Jiang Zemin y la britanica por el Principe Carlos), pero busqueda activa no hallo ninguna fuente independiente que confirme la asistencia personal de Ernesto Samper a dicha ceremonia ni las fechas especificas de su viaje (30/6/1997 segun COLT, con Notas que ya senalan 'Exact trip dates not explicit')."
+      },
+      {
+        "TripID": "949-COL-DNK-34769",
+        "campo": "NonhostHOGSNames",
+        "justificacion": "Fuentes oficiales de Naciones Unidas confirman que la Cumbre Mundial sobre Desarrollo Social se realizo en Copenhague, Dinamarca, del 6 al 12 de marzo de 1995, con participacion de 117 paises a nivel de Jefes de Estado o de Gobierno, lo cual es consistente con el nombre del evento y las fechas de COLT (11-12/3/1995). Sin embargo, busqueda activa no hallo una fuente independiente que confirme especificamente el encuentro de Samper con el Premier chino Li Peng ni la firma de un acuerdo durante esta cumbre, datos que se mantienen sin verificar por falta de fuente."
+      },
+      {
+        "TripID": "949-COL-ESP-35280",
+        "campo": "TripStartDate",
+        "justificacion": "Las propias Notes de COLT indican que se trato de un viaje privado con fechas no explicitas, inmediatamente posterior a la visita oficial a Francia (1-4/8/1996) y a la escala en Venezuela (30/7/1996) registradas en el mismo periodo. Busqueda activa no hallo cobertura de prensa independiente que confirme o contradiga la fecha puntual del 3 de agosto de 1996 registrada por COLT para esta visita privada a Espana."
+      },
+      {
+        "TripID": "949-COL-FRA-35278",
+        "campo": "TripEndDate",
+        "justificacion": "Fuente independiente describe la visita de Samper a Francia en agosto de 1996 como una 'visita oficial de dos dias' en la que se reunio con Jacques Chirac el 1 de agosto, lo que sugeriria una duracion de 1-2 de agosto en lugar del rango 1-4 de agosto registrado por COLT. Sin embargo, al tratarse de un resumen de busqueda sin cita textual directa de una fuente primaria fechada, no se cuenta con evidencia suficientemente solida para corregir la fecha exacta de salida, por lo que se deja el campo TripEndDate sin modificar."
+      },
+      {
+        "TripID": "949-COL-IDN-35361",
+        "campo": "HostHOGSName",
+        "justificacion": "Se hallo una referencia secundaria de baja confiabilidad (wiki no academica) que sugiere una reunion entre Samper y el presidente Suharto de Indonesia el 25 de octubre de 1996 relacionada con el ingreso de Colombia a APEC, dato que coincidiria en fechas con el rango de COLT (23-25/10/1996). Sin embargo, dado que esta fuente no es una fuente primaria ni periodistica verificable de la epoca y el proyecto exige no cargar datos sin fuente confiable, no se realiza una correccion del campo MetHostHoGS/HostHOGSName (actualmente 'No'/vacio en COLT) por falta de una fuente independiente solida que lo confirme o lo contradiga con certeza."
+      },
+      {
+        "TripID": "949-COL-KOR-35363",
+        "campo": "TripStartDate",
+        "justificacion": "Se confirmo de forma general que Samper visito Corea del Sur durante su mandato (referencia historica a visitas presidenciales colombianas a Corea, incluyendo la de Samper, en publicacion conmemorativa de 60 anos de relaciones diplomaticas Colombia-Corea de la Cancilleria), pero busqueda activa no hallo una fuente independiente que confirme las fechas especificas del 25-28 de octubre de 1996 ni el encuentro puntual con el presidente Kim Young-sam registrados por COLT (las propias Notes de COLT ya señalan 'Return date estimated', Confidence 3/5)."
+      },
+      {
+        "TripID": "949-COL-URY-34760",
+        "campo": "TripStartDate",
+        "justificacion": "Busqueda activa no hallo cobertura de prensa independiente sobre un encuentro de Samper con los presidentes Gonzalo Sanchez de Lozada (Bolivia) y Fernando Henrique Cardoso (Brasil) en la embajada brasilena en Montevideo el 2 de marzo de 1995, evento que las propias Notes de COLT ya señalan como de 'fechas exactas no explicitas', Confidence 2/5."
+      },
+      {
+        "TripID": "949-COL-VEN-35276",
+        "campo": "TripStartDate",
+        "justificacion": "Se trata de una escala tecnica de un dia en Venezuela camino a Francia, segun las propias Notes de COLT. Busqueda activa no hallo cobertura de prensa independiente que confirme o contradiga la fecha puntual del 30 de julio de 1996 registrada por COLT para esta escala."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "949-COL-ARG-34987",
+        "justificacion": "Corresponde a la V Cumbre Iberoamericana en San Carlos de Bariloche, Argentina, confirmada por SEGIB y EU-LAC Foundation para el 16-17 de octubre de 1995 (ya verificada de forma cruzada en la ronda hermana de Chile, leader_907, TripID 907-CHL-ARG-34988), consistente con el rango 15-17/10/1995 de COLT para Colombia (con un dia de llegada previa) y con la firma de la Declaracion de Bariloche y el encuentro con el presidente Fernando Henrique Cardoso."
+      },
+      {
+        "TripID": "949-COL-BOL-35310",
+        "justificacion": "Fuente independiente confirma que la Cumbre del Grupo de Rio en Cochabamba, Bolivia, se realizo el 2 y 3 de septiembre de 1996, con presencia de 13 jefes de Estado. Esto coincide con el inicio del rango de COLT (2-4/9/1996), con un dia adicional de salida al final, patron habitual en este dataset."
+      },
+      {
+        "TripID": "949-COL-BOL-35542",
+        "justificacion": "Fuente independiente (SICE/OEA, Acta de Sucre) confirma que el IX Consejo Presidencial Andino se realizo el 22 de abril de 1997 en Sucre, Bolivia, coincidente exactamente con el TripStartDate de COLT (22-23/4/1997), correspondiente a la Cumbre de la Comunidad Andina registrada por COLT."
+      },
+      {
+        "TripID": "949-COL-ECU-34946",
+        "justificacion": "Corresponde a la IX Reunion del Grupo de Rio en Quito, Ecuador, confirmada para el 4-5 de septiembre de 1995 (ya verificada de forma cruzada en la ronda hermana de Chile, leader_907, TripID 907-CHL-ECU-34945), coincidente exactamente con el rango 4-5/9/1995 de COLT para Colombia."
+      },
+      {
+        "TripID": "949-COL-EGY-35558",
+        "justificacion": "El itinerario detallado de la gira de Samper por Africa y Medio Oriente publicado por El Tiempo (30/4/1997) confirma explicitamente: 'Jueves 8 de mayo: Entrevistas con Moubarak', coincidente exactamente con el TripStartDate/TripEndDate de COLT (8/5/1997) y con el HostHOGSName registrado (Presidente Hosni Mubarak)."
+      },
+      {
+        "TripID": "949-COL-ISR-35556",
+        "justificacion": "El mismo itinerario de El Tiempo confirma: 'Martes 6 de mayo: En Israel se entrevista con el presidente israeli Ezer Weizman y los lideres de ese pais, Shimon Peres y Benjamin Netanyahu' y 'Miercoles 7 de mayo: Desplazamiento hacia el punto de Chequeo de Erez', consistente con el rango 6-7/5/1997 de COLT y con el HostHOGSName registrado (Presidente Ezer Weizman)."
+      },
+      {
+        "TripID": "949-COL-PRY-35664",
+        "justificacion": "Fuente independiente confirma que Samper ofrecio una conferencia de prensa el 23 de agosto tras la clausura de la XI Cumbre de Jefes de Estado del Grupo de Rio en Asuncion, Paraguay, en la que abordo temas de narcotrafico y trafico de armas, consistente con el rango 22-24/8/1997 de COLT y con el encuentro con el presidente Ernesto Zedillo."
+      },
+      {
+        "TripID": "949-COL-ZAF-35552",
+        "justificacion": "El itinerario detallado de El Tiempo (30/4/1997) confirma explicitamente: 'Viernes 2 de mayo: Encuentro entre los presidentes Samper y Nelson Mandela, de Sudafrica', coincidente exactamente con el rango 2-3/5/1997 de COLT y con el HostHOGSName registrado (Presidente Nelson Mandela)."
+      },
+      {
+        "TripID": "949-COL-USA-34677",
+        "justificacion": "Corresponde a la I Cumbre de las Americas, Miami, 9-11 de diciembre de 1994 (fechas oficiales ampliamente documentadas y ya verificadas de forma cruzada en la ronda hermana de Chile, leader_907, TripID 907-CHL-USA-34677), coincidente exactamente con el rango de COLT para Colombia."
+      },
+      {
+        "TripID": "949-COL-USA-35329",
+        "justificacion": "El 51 periodo de sesiones de la Asamblea General de la ONU se inauguro el 17 de septiembre de 1996; el rango de COLT (21-24/9/1996) para el discurso de Samper ante la Asamblea cae dentro del periodo de debate general habitual de la sesion, consistente ademas con las multiples fuentes ya citadas por COLT (incluyendo el propio sitio oficial de la ONU, un.org/ga/search/view_doc.asp?symbol=A/51/PV.5, y el LA Times)."
+      },
+      {
+        "TripID": "949-COL-USA-35697",
+        "justificacion": "El 52 periodo de sesiones de la Asamblea General de la ONU se inauguro el 16 de septiembre de 1997 bajo el Secretario General Kofi Annan; el rango de COLT (24-25/9/1997) coincide con un comunicado de prensa oficial de la ONU fechado especificamente el 24 de septiembre de 1997 (ya citado como fuente propia de COLT, un.org/press/en/1997/19970924.noTE5455.html), consistente con el encuentro con el Secretario General Kofi Annan registrado."
+      },
+      {
+        "TripID": "949-COL-USA-35954",
+        "justificacion": "Fuente oficial de la ONU (press.un.org/en/1998/19980610.ga9423.html) confirma que la 20a Sesion Especial de la Asamblea General sobre el Problema Mundial de las Drogas (UNGASS) se realizo en Nueva York del 8 al 10 de junio de 1998, coincidente con el inicio del rango de COLT (8-11/6/1998), con un dia adicional de salida al final."
+      }
+    ]
+  }
+]

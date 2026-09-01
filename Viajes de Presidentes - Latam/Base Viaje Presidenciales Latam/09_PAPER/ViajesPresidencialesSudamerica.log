@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.27)  30 AUG 2026 21:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.27)  1 SEP 2026 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -617,11 +617,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 123.
-<../08_ANALISIS_R/outputs/00c_viajes_totales_por_mandatario.png, id=5, 650.43pt x 549.252pt>
+<../08_ANALISIS_R/outputs/00c_viajes_totales_por_mandatario.png, id=5, 650.43pt x 560.8152pt>
 File: ../08_ANALISIS_R/outputs/00c_viajes_totales_por_mandatario.png Graphic file (type png)
 <use ../08_ANALISIS_R/outputs/00c_viajes_totales_por_mandatario.png>
 Package pdftex.def Info: ../08_ANALISIS_R/outputs/00c_viajes_totales_por_mandatario.png  used on input line 171.
-(pdftex.def)             Requested size: 409.71692pt x 345.98868pt.
+(pdftex.def)             Requested size: 409.71692pt x 353.27266pt.
 
 Underfull \hbox (badness 3965) in paragraph at lines 172--172
 []\T1/cmr/m/n/10.95 Figura 1: []Total de via-jes re-gis-tra-dos por man-da-ta-rio, 1994-2025, li-mi-ta-do a man-
@@ -1271,9 +1271,9 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  62i,8n,67p,1068b,1891s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk><c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on ViajesPresidencialesSudamerica.pdf (28 pages, 2426135 bytes).
+Output written on ViajesPresidencialesSudamerica.pdf (28 pages, 2425413 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
+ 543 PDF objects out of 1000 (max. 8388607)
  208 compressed objects within 3 object streams
  84 named destinations out of 1000 (max. 500000)
  180 words of extra memory for PDF output out of 10000 (max. 10000000)
