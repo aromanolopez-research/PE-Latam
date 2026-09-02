@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.27)  1 SEP 2026 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.27)  1 SEP 2026 20:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -620,15 +620,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <../08_ANALISIS_R/outputs/00c_viajes_totales_por_mandatario.png, id=5, 650.43pt x 560.8152pt>
 File: ../08_ANALISIS_R/outputs/00c_viajes_totales_por_mandatario.png Graphic file (type png)
 <use ../08_ANALISIS_R/outputs/00c_viajes_totales_por_mandatario.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/00c_viajes_totales_por_mandatario.png  used on input line 171.
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/00c_viajes_totales_por_mandatario.png  used on input line 196.
 (pdftex.def)             Requested size: 409.71692pt x 353.27266pt.
 
-Underfull \hbox (badness 3965) in paragraph at lines 172--172
+Underfull \hbox (badness 3965) in paragraph at lines 197--197
 []\T1/cmr/m/n/10.95 Figura 1: []Total de via-jes re-gis-tra-dos por man-da-ta-rio, 1994-2025, li-mi-ta-do a man-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 \T1/cmr/m/n/10.95 da-ta-rios con más de 50 via-jes (la ta-bla com-ple-ta, sin ese re-cor-te, es-tá en
  []
 
@@ -638,106 +638,113 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--172
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.175 
+l.200 
       ]
-Overfull \hbox (137.09662pt too wide) in paragraph at lines 182--192
- [][] 
- []
+Overfull \vbox (208.78432pt too high) has occurred while \output is active []
 
-<../08_ANALISIS_R/outputs/12a_tipo_actividad_bilateral.png, id=23, 650.43pt x 325.215pt>
-File: ../08_ANALISIS_R/outputs/12a_tipo_actividad_bilateral.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/12a_tipo_actividad_bilateral.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/12a_tipo_actividad_bilateral.png  used on input line 209.
-(pdftex.def)             Requested size: 341.43307pt x 170.72058pt.
-
-LaTeX Warning: Citation 'charnockPresidentialTravelEisenhower2009' on page 2 undefined on input line 210.
-
-
-LaTeX Warning: Citation 'charnockPresidentialTravelEisenhower2009' on page 2 undefined on input line 210.
-
-[2
+ [2
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 
+l.200 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.200 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 
+l.200 
        <../08_ANALISIS_R/outputs/00c_viajes_totales_por_mandatario.png>]
-<../08_ANALISIS_R/outputs/12b_tipo_actividad_multilateral.png, id=31, 650.43pt x 325.215pt>
+Overfull \hbox (137.09662pt too wide) in paragraph at lines 207--217
+ [][] 
+ []
+
+<../08_ANALISIS_R/outputs/12a_tipo_actividad_bilateral.png, id=31, 650.43pt x 325.215pt>
+File: ../08_ANALISIS_R/outputs/12a_tipo_actividad_bilateral.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/12a_tipo_actividad_bilateral.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/12a_tipo_actividad_bilateral.png  used on input line 234.
+(pdftex.def)             Requested size: 341.43307pt x 170.72058pt.
+
+LaTeX Warning: Citation 'charnockPresidentialTravelEisenhower2009' on page 3 undefined on input line 235.
+
+
+LaTeX Warning: Citation 'charnockPresidentialTravelEisenhower2009' on page 3 undefined on input line 235.
+
+<../08_ANALISIS_R/outputs/12b_tipo_actividad_multilateral.png, id=32, 650.43pt x 325.215pt>
 File: ../08_ANALISIS_R/outputs/12b_tipo_actividad_multilateral.png Graphic file (type png)
 <use ../08_ANALISIS_R/outputs/12b_tipo_actividad_multilateral.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/12b_tipo_actividad_multilateral.png  used on input line 216.
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/12b_tipo_actividad_multilateral.png  used on input line 241.
 (pdftex.def)             Requested size: 341.43307pt x 170.72058pt.
-<../08_ANALISIS_R/outputs/12c_tipo_actividad_otro.png, id=32, 650.43pt x 325.215pt>
+<../08_ANALISIS_R/outputs/12c_tipo_actividad_otro.png, id=33, 650.43pt x 325.215pt>
 File: ../08_ANALISIS_R/outputs/12c_tipo_actividad_otro.png Graphic file (type png)
 <use ../08_ANALISIS_R/outputs/12c_tipo_actividad_otro.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/12c_tipo_actividad_otro.png  used on input line 223.
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/12c_tipo_actividad_otro.png  used on input line 248.
 (pdftex.def)             Requested size: 341.43307pt x 170.72058pt.
- [3
-pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.227 
+l.252 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.227 
+l.252 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.227 
+l.252 
        <../08_ANALISIS_R/outputs/12a_tipo_actividad_bilateral.png> <../08_ANALISIS_R/outputs/12b_tipo_actividad_multilateral.png>]
-<../08_ANALISIS_R/outputs/01_viajes_por_anio.png, id=41, 722.7pt x 433.62pt>
+<../08_ANALISIS_R/outputs/01_viajes_por_anio.png, id=42, 722.7pt x 433.62pt>
 File: ../08_ANALISIS_R/outputs/01_viajes_por_anio.png Graphic file (type png)
 <use ../08_ANALISIS_R/outputs/01_viajes_por_anio.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/01_viajes_por_anio.png  used on input line 232.
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/01_viajes_por_anio.png  used on input line 257.
 (pdftex.def)             Requested size: 386.96027pt x 232.1796pt.
-<../08_ANALISIS_R/outputs/01b_viajes_por_anio_por_pais.png, id=42, 794.97pt x 650.43pt>
+<../08_ANALISIS_R/outputs/01b_viajes_por_anio_por_pais.png, id=43, 794.97pt x 650.43pt>
 File: ../08_ANALISIS_R/outputs/01b_viajes_por_anio_por_pais.png Graphic file (type png)
 <use ../08_ANALISIS_R/outputs/01b_viajes_por_anio_por_pais.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/01b_viajes_por_anio_por_pais.png  used on input line 239.
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/01b_viajes_por_anio_por_pais.png  used on input line 264.
 (pdftex.def)             Requested size: 455.24411pt x 372.48578pt.
  [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.243 
+l.268 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.243 
+l.268 
        <../08_ANALISIS_R/outputs/12c_tipo_actividad_otro.png> <../08_ANALISIS_R/outputs/01_viajes_por_anio.png>]
-<../08_ANALISIS_R/outputs/11_viajes_por_anio_de_mandato.png, id=50, 650.43pt x 433.62pt>
+<../08_ANALISIS_R/outputs/11_viajes_por_anio_de_mandato.png, id=51, 650.43pt x 433.62pt>
 File: ../08_ANALISIS_R/outputs/11_viajes_por_anio_de_mandato.png Graphic file (type png)
 <use ../08_ANALISIS_R/outputs/11_viajes_por_anio_de_mandato.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/11_viajes_por_anio_de_mandato.png  used on input line 246.
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/11_viajes_por_anio_de_mandato.png  used on input line 271.
 (pdftex.def)             Requested size: 386.96027pt x 257.97733pt.
 
 
-LaTeX Warning: Citation 'ostranderPresidentsAbroadPolitics2018' on page 5 undefined on input line 247.
+LaTeX Warning: Citation 'ostranderPresidentsAbroadPolitics2018' on page 5 undefined on input line 272.
 
 
-LaTeX Warning: Citation 'ostranderPresidentsAbroadPolitics2018' on page 5 undefined on input line 247.
+LaTeX Warning: Citation 'ostranderPresidentsAbroadPolitics2018' on page 5 undefined on input line 272.
 
 [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.250 
+l.275 
        <../08_ANALISIS_R/outputs/01b_viajes_por_anio_por_pais.png>]
-<../08_ANALISIS_R/outputs/15_evolucion_por_bloque_destino.png, id=56, 794.97pt x 650.43pt>
+<../08_ANALISIS_R/outputs/15_evolucion_por_bloque_destino.png, id=57, 794.97pt x 650.43pt>
 File: ../08_ANALISIS_R/outputs/15_evolucion_por_bloque_destino.png Graphic file (type png)
 <use ../08_ANALISIS_R/outputs/15_evolucion_por_bloque_destino.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/15_evolucion_por_bloque_destino.png  used on input line 253.
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/15_evolucion_por_bloque_destino.png  used on input line 278.
 (pdftex.def)             Requested size: 455.24411pt x 372.48578pt.
 
-Overfull \hbox (1657.82748pt too wide) in paragraph at lines 254--254
+Overfull \hbox (1657.82748pt too wide) in paragraph at lines 279--279
 []\T1/cmr/m/n/10.95 Figura 8: [][][][][][][] 
  []
 
@@ -745,197 +752,226 @@ Overfull \hbox (1657.82748pt too wide) in paragraph at lines 254--254
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.260 
+l.285 
        <../08_ANALISIS_R/outputs/11_viajes_por_anio_de_mandato.png>]
-<../08_ANALISIS_R/outputs/17_integracion_regional_en_retirada.png, id=62, 650.43pt x 433.62pt>
+<../08_ANALISIS_R/outputs/17_integracion_regional_en_retirada.png, id=63, 650.43pt x 433.62pt>
 File: ../08_ANALISIS_R/outputs/17_integracion_regional_en_retirada.png Graphic file (type png)
 <use ../08_ANALISIS_R/outputs/17_integracion_regional_en_retirada.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/17_integracion_regional_en_retirada.png  used on input line 268.
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/17_integracion_regional_en_retirada.png  used on input line 293.
 (pdftex.def)             Requested size: 364.19667pt x 242.8057pt.
  [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.272 
+l.297 
        <../08_ANALISIS_R/outputs/15_evolucion_por_bloque_destino.png>]
-<../08_ANALISIS_R/outputs/02_regiones_por_periodo.png, id=69, 794.97pt x 469.755pt>
-File: ../08_ANALISIS_R/outputs/02_regiones_por_periodo.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/02_regiones_por_periodo.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/02_regiones_por_periodo.png  used on input line 275.
-(pdftex.def)             Requested size: 409.71692pt x 242.10931pt.
-<../08_ANALISIS_R/outputs/03c_viajes_y_duracion_combinado.png, id=70, 794.97pt x 469.755pt>
-File: ../08_ANALISIS_R/outputs/03c_viajes_y_duracion_combinado.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/03c_viajes_y_duracion_combinado.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/03c_viajes_y_duracion_combinado.png  used on input line 288.
-(pdftex.def)             Requested size: 409.71692pt x 242.10931pt.
+<../08_ANALISIS_R/outputs/17b_viajes_recibidos_intra_sudamerica.png, id=70, 794.97pt x 939.51pt>
+File: ../08_ANALISIS_R/outputs/17b_viajes_recibidos_intra_sudamerica.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/17b_viajes_recibidos_intra_sudamerica.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/17b_viajes_recibidos_intra_sudamerica.png  used on input line 304.
+(pdftex.def)             Requested size: 455.24411pt x 538.03502pt.
  [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.292 
-      
+l.308 
+       <../08_ANALISIS_R/outputs/17_integracion_regional_en_retirada.png>]
+<../08_ANALISIS_R/outputs/17c_viajes_recibidos_cuba.png, id=76, 650.43pt x 361.35pt>
+File: ../08_ANALISIS_R/outputs/17c_viajes_recibidos_cuba.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/17c_viajes_recibidos_cuba.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/17c_viajes_recibidos_cuba.png  used on input line 311.
+(pdftex.def)             Requested size: 341.43307pt x 189.68953pt.
+
+
+LaTeX Warning: Reference `fig:viajes-recibidos-intra-sudamerica' on page 9 undefined on input line 312.
+
+
+LaTeX Warning: Reference `fig:viajes-recibidos-intra-sudamerica' on page 9 undefined on input line 312.
+
+[9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.292 
-       <../08_ANALISIS_R/outputs/17_integracion_regional_en_retirada.png> <../08_ANALISIS_R/outputs/02_regiones_por_periodo.png>]
-<../08_ANALISIS_R/outputs/04_categoria_visita_por_anio.png, id=77, 722.7pt x 469.755pt>
-File: ../08_ANALISIS_R/outputs/04_categoria_visita_por_anio.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/04_categoria_visita_por_anio.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/04_categoria_visita_por_anio.png  used on input line 295.
-(pdftex.def)             Requested size: 386.96027pt x 251.5279pt.
-
-
-LaTeX Warning: Reference `fig:regiones-periodo' on page 9 undefined on input line 296.
-
-
-LaTeX Warning: Reference `fig:regiones-periodo' on page 9 undefined on input line 296.
-
-<../08_ANALISIS_R/outputs/04b_categoria_visita_absoluto.png, id=78, 722.7pt x 433.62pt>
-File: ../08_ANALISIS_R/outputs/04b_categoria_visita_absoluto.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/04b_categoria_visita_absoluto.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/04b_categoria_visita_absoluto.png  used on input line 302.
-(pdftex.def)             Requested size: 386.96027pt x 232.1796pt.
-[9
+l.315 
+       <../08_ANALISIS_R/outputs/17b_viajes_recibidos_intra_sudamerica.png>]
+<../08_ANALISIS_R/outputs/02_regiones_por_periodo.png, id=82, 794.97pt x 469.755pt>
+File: ../08_ANALISIS_R/outputs/02_regiones_por_periodo.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/02_regiones_por_periodo.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/02_regiones_por_periodo.png  used on input line 318.
+(pdftex.def)             Requested size: 409.71692pt x 242.10931pt.
+<../08_ANALISIS_R/outputs/03c_viajes_y_duracion_combinado.png, id=83, 794.97pt x 469.755pt>
+File: ../08_ANALISIS_R/outputs/03c_viajes_y_duracion_combinado.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/03c_viajes_y_duracion_combinado.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/03c_viajes_y_duracion_combinado.png  used on input line 331.
+(pdftex.def)             Requested size: 409.71692pt x 242.10931pt.
+ [10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.306 
+l.335 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.306 
-       <../08_ANALISIS_R/outputs/03c_viajes_y_duracion_combinado.png> <../08_ANALISIS_R/outputs/04_categoria_visita_por_anio.png>]
-<../08_ANALISIS_R/outputs/13_auge_caida_multilateralismo.png, id=85, 722.7pt x 469.755pt>
-File: ../08_ANALISIS_R/outputs/13_auge_caida_multilateralismo.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/13_auge_caida_multilateralismo.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/13_auge_caida_multilateralismo.png  used on input line 309.
+l.335 
+       <../08_ANALISIS_R/outputs/17c_viajes_recibidos_cuba.png> <../08_ANALISIS_R/outputs/02_regiones_por_periodo.png>]
+<../08_ANALISIS_R/outputs/04_categoria_visita_por_anio.png, id=90, 722.7pt x 469.755pt>
+File: ../08_ANALISIS_R/outputs/04_categoria_visita_por_anio.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/04_categoria_visita_por_anio.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/04_categoria_visita_por_anio.png  used on input line 338.
 (pdftex.def)             Requested size: 386.96027pt x 251.5279pt.
 
 
-LaTeX Warning: Citation 'nolteSummitsPlainsCrisis2021' on page 10 undefined on input line 310.
+LaTeX Warning: Reference `fig:regiones-periodo' on page 11 undefined on input line 339.
 
 
-LaTeX Warning: Citation 'barrosCrisisSouthAmerican2021' on page 10 undefined on input line 310.
+LaTeX Warning: Reference `fig:regiones-periodo' on page 11 undefined on input line 339.
 
-
-LaTeX Warning: Citation 'nolteSummitsPlainsCrisis2021' on page 10 undefined on input line 310.
-
-
-LaTeX Warning: Citation 'barrosCrisisSouthAmerican2021' on page 10 undefined on input line 310.
-
-<../08_ANALISIS_R/outputs/08_estacionalidad_mensual.png, id=86, 650.43pt x 433.62pt>
-File: ../08_ANALISIS_R/outputs/08_estacionalidad_mensual.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/08_estacionalidad_mensual.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/08_estacionalidad_mensual.png  used on input line 316.
-(pdftex.def)             Requested size: 386.96027pt x 257.97733pt.
-[10
+<../08_ANALISIS_R/outputs/04b_categoria_visita_absoluto.png, id=91, 722.7pt x 433.62pt>
+File: ../08_ANALISIS_R/outputs/04b_categoria_visita_absoluto.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/04b_categoria_visita_absoluto.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/04b_categoria_visita_absoluto.png  used on input line 345.
+(pdftex.def)             Requested size: 386.96027pt x 232.1796pt.
+[11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.320 
+l.349 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.320 
-       <../08_ANALISIS_R/outputs/04b_categoria_visita_absoluto.png> <../08_ANALISIS_R/outputs/13_auge_caida_multilateralismo.png>]
-Overfull \hbox (61.14844pt too wide) in alignment at lines 342--454
- [] [] [] [] 
- []
-
-[11
-pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.454 \end{longtable}
-                      <../08_ANALISIS_R/outputs/08_estacionalidad_mensual.png>] [12]
-<../08_ANALISIS_R/outputs/06_primeros_destinos_frecuencia.png, id=104, 650.43pt x 505.89pt>
-File: ../08_ANALISIS_R/outputs/06_primeros_destinos_frecuencia.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/06_primeros_destinos_frecuencia.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/06_primeros_destinos_frecuencia.png  used on input line 457.
-(pdftex.def)             Requested size: 386.96027pt x 300.97354pt.
-
-
-LaTeX Warning: Citation 'ostranderPresidentsAbroadPolitics2018' on page 13 undefined on input line 458.
-
-
-LaTeX Warning: Citation 'ostranderPresidentsAbroadPolitics2018' on page 13 undefined on input line 458.
-
-[13]
-<../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png, id=110, 722.7pt x 433.62pt>
-File: ../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png  used on input line 464.
-(pdftex.def)             Requested size: 386.96027pt x 232.1796pt.
-
-
-LaTeX Warning: Reference `fig:primeros-destinos' on page 14 undefined on input line 465.
-
-
-LaTeX Warning: Reference `fig:primeros-destinos' on page 14 undefined on input line 465.
-
-
-LaTeX Warning: Reference `fig:primeros-destinos' on page 14 undefined on input line 465.
-
-
-LaTeX Warning: Reference `fig:primeros-destinos' on page 14 undefined on input line 465.
-
-<../08_ANALISIS_R/outputs/14_sesgo_vecino_inmediato.png, id=111, 650.43pt x 433.62pt>
-File: ../08_ANALISIS_R/outputs/14_sesgo_vecino_inmediato.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/14_sesgo_vecino_inmediato.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/14_sesgo_vecino_inmediato.png  used on input line 471.
-(pdftex.def)             Requested size: 386.96027pt x 257.97733pt.
-
-LaTeX Warning: Citation 'ostranderPresidentsAbroadPolitics2018' on page 14 undefined on input line 472.
-
-
-LaTeX Warning: Citation 'ostranderPresidentsAbroadPolitics2018' on page 14 undefined on input line 472.
-
-
-Overfull \hbox (1362.45723pt too wide) in paragraph at lines 472--472
-[]\T1/cmr/m/n/10.95 Figura 18: [][][][][][][] 
- []
-
-[14
-pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.477 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.477 
-       <../08_ANALISIS_R/outputs/06_primeros_destinos_frecuencia.png> <../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png>]
-<../08_ANALISIS_R/outputs/14b_vecino_fronterizo_a_lo_largo_del_tiempo.png, id=118, 722.7pt x 469.755pt>
-File: ../08_ANALISIS_R/outputs/14b_vecino_fronterizo_a_lo_largo_del_tiempo.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/14b_vecino_fronterizo_a_lo_largo_del_tiempo.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/14b_vecino_fronterizo_a_lo_largo_del_tiempo.png  used on input line 503.
+l.349 
+       <../08_ANALISIS_R/outputs/03c_viajes_y_duracion_combinado.png> <../08_ANALISIS_R/outputs/04_categoria_visita_por_anio.png>]
+<../08_ANALISIS_R/outputs/13_auge_caida_multilateralismo.png, id=98, 722.7pt x 469.755pt>
+File: ../08_ANALISIS_R/outputs/13_auge_caida_multilateralismo.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/13_auge_caida_multilateralismo.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/13_auge_caida_multilateralismo.png  used on input line 352.
 (pdftex.def)             Requested size: 386.96027pt x 251.5279pt.
 
 
-LaTeX Warning: Reference `fig:sesgo-vecino-inmediato' on page 15 undefined on input line 504.
+LaTeX Warning: Citation 'nolteSummitsPlainsCrisis2021' on page 12 undefined on input line 353.
 
 
-LaTeX Warning: Reference `fig:sesgo-vecino-inmediato' on page 15 undefined on input line 504.
+LaTeX Warning: Citation 'barrosCrisisSouthAmerican2021' on page 12 undefined on input line 353.
 
-[15
+
+LaTeX Warning: Citation 'nolteSummitsPlainsCrisis2021' on page 12 undefined on input line 353.
+
+
+LaTeX Warning: Citation 'barrosCrisisSouthAmerican2021' on page 12 undefined on input line 353.
+
+<../08_ANALISIS_R/outputs/08_estacionalidad_mensual.png, id=99, 650.43pt x 433.62pt>
+File: ../08_ANALISIS_R/outputs/08_estacionalidad_mensual.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/08_estacionalidad_mensual.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/08_estacionalidad_mensual.png  used on input line 359.
+(pdftex.def)             Requested size: 386.96027pt x 257.97733pt.
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.363 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.363 
+       <../08_ANALISIS_R/outputs/04b_categoria_visita_absoluto.png> <../08_ANALISIS_R/outputs/13_auge_caida_multilateralismo.png>]
+Overfull \hbox (61.14844pt too wide) in alignment at lines 385--497
+ [] [] [] [] 
+ []
+
+[13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.497 \end{longtable}
+                      <../08_ANALISIS_R/outputs/08_estacionalidad_mensual.png>] [14]
+<../08_ANALISIS_R/outputs/06_primeros_destinos_frecuencia.png, id=118, 650.43pt x 505.89pt>
+File: ../08_ANALISIS_R/outputs/06_primeros_destinos_frecuencia.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/06_primeros_destinos_frecuencia.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/06_primeros_destinos_frecuencia.png  used on input line 500.
+(pdftex.def)             Requested size: 386.96027pt x 300.97354pt.
+
+
+LaTeX Warning: Citation 'ostranderPresidentsAbroadPolitics2018' on page 15 undefined on input line 501.
+
+
+LaTeX Warning: Citation 'ostranderPresidentsAbroadPolitics2018' on page 15 undefined on input line 501.
+
+[15]
+<../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png, id=123, 722.7pt x 433.62pt>
+File: ../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png  used on input line 507.
+(pdftex.def)             Requested size: 386.96027pt x 232.1796pt.
+
+
+LaTeX Warning: Reference `fig:primeros-destinos' on page 16 undefined on input line 508.
+
+
+LaTeX Warning: Reference `fig:primeros-destinos' on page 16 undefined on input line 508.
+
+
+LaTeX Warning: Reference `fig:primeros-destinos' on page 16 undefined on input line 508.
+
+
+LaTeX Warning: Reference `fig:primeros-destinos' on page 16 undefined on input line 508.
+
+<../08_ANALISIS_R/outputs/14_sesgo_vecino_inmediato.png, id=124, 650.43pt x 433.62pt>
+File: ../08_ANALISIS_R/outputs/14_sesgo_vecino_inmediato.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/14_sesgo_vecino_inmediato.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/14_sesgo_vecino_inmediato.png  used on input line 514.
+(pdftex.def)             Requested size: 386.96027pt x 257.97733pt.
+
+LaTeX Warning: Citation 'ostranderPresidentsAbroadPolitics2018' on page 16 undefined on input line 515.
+
+
+LaTeX Warning: Citation 'ostranderPresidentsAbroadPolitics2018' on page 16 undefined on input line 515.
+
+
+Overfull \hbox (1362.45723pt too wide) in paragraph at lines 515--515
+[]\T1/cmr/m/n/10.95 Figura 20: [][][][][][][] 
+ []
+
+[16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.507 
+l.520 
       
-pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.507 
-       <../08_ANALISIS_R/outputs/14_sesgo_vecino_inmediato.png>] [16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.527 \newgeometry{margin=1cm}
+l.520 
+       <../08_ANALISIS_R/outputs/06_primeros_destinos_frecuencia.png> <../08_ANALISIS_R/outputs/06b_evolucion_top3_primeros_destinos.png>]
+<../08_ANALISIS_R/outputs/14b_vecino_fronterizo_a_lo_largo_del_tiempo.png, id=131, 722.7pt x 469.755pt>
+File: ../08_ANALISIS_R/outputs/14b_vecino_fronterizo_a_lo_largo_del_tiempo.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/14b_vecino_fronterizo_a_lo_largo_del_tiempo.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/14b_vecino_fronterizo_a_lo_largo_del_tiempo.png  used on input line 546.
+(pdftex.def)             Requested size: 386.96027pt x 251.5279pt.
+
+
+LaTeX Warning: Reference `fig:sesgo-vecino-inmediato' on page 17 undefined on input line 547.
+
+
+LaTeX Warning: Reference `fig:sesgo-vecino-inmediato' on page 17 undefined on input line 547.
+
+[17
+pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.550 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.550 
+       <../08_ANALISIS_R/outputs/14_sesgo_vecino_inmediato.png>] [18
+pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.570 \newgeometry{margin=1cm}
                                <../08_ANALISIS_R/outputs/14b_vecino_fronterizo_a_lo_largo_del_tiempo.png>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -970,266 +1006,266 @@ l.527 \newgeometry{margin=1cm}
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (410.91904pt too wide) in alignment at lines 530--646
+Overfull \hbox (410.91904pt too wide) in alignment at lines 573--689
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[17
+[19
 
-] [18]
-<../08_ANALISIS_R/outputs/09a_ranking_destinos_bilaterales.png, id=139, 650.43pt x 578.16pt>
+] [20]
+<../08_ANALISIS_R/outputs/09a_ranking_destinos_bilaterales.png, id=153, 650.43pt x 578.16pt>
 File: ../08_ANALISIS_R/outputs/09a_ranking_destinos_bilaterales.png Graphic file (type png)
 <use ../08_ANALISIS_R/outputs/09a_ranking_destinos_bilaterales.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/09a_ranking_destinos_bilaterales.png  used on input line 650.
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/09a_ranking_destinos_bilaterales.png  used on input line 693.
 (pdftex.def)             Requested size: 386.96027pt x 343.96977pt.
-<../08_ANALISIS_R/outputs/09a2_evolucion_bilateral_brasil_eeuu.png, id=140, 722.7pt x 433.62pt>
+<../08_ANALISIS_R/outputs/09a2_evolucion_bilateral_brasil_eeuu.png, id=154, 722.7pt x 433.62pt>
 File: ../08_ANALISIS_R/outputs/09a2_evolucion_bilateral_brasil_eeuu.png Graphic file (type png)
 <use ../08_ANALISIS_R/outputs/09a2_evolucion_bilateral_brasil_eeuu.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/09a2_evolucion_bilateral_brasil_eeuu.png  used on input line 657.
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/09a2_evolucion_bilateral_brasil_eeuu.png  used on input line 700.
 (pdftex.def)             Requested size: 386.96027pt x 232.1796pt.
-<../08_ANALISIS_R/outputs/09b_ranking_destinos_multilaterales.png, id=141, 650.43pt x 578.16pt>
+<../08_ANALISIS_R/outputs/09b_ranking_destinos_multilaterales.png, id=155, 650.43pt x 578.16pt>
 File: ../08_ANALISIS_R/outputs/09b_ranking_destinos_multilaterales.png Graphic file (type png)
 <use ../08_ANALISIS_R/outputs/09b_ranking_destinos_multilaterales.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/09b_ranking_destinos_multilaterales.png  used on input line 664.
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/09b_ranking_destinos_multilaterales.png  used on input line 707.
 (pdftex.def)             Requested size: 386.96027pt x 343.96977pt.
- [19
+ [21
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.668 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.668 
-       <../08_ANALISIS_R/outputs/09a_ranking_destinos_bilaterales.png> <../08_ANALISIS_R/outputs/09a2_evolucion_bilateral_brasil_eeuu.png>]
-<../08_ANALISIS_R/outputs/09b2_evolucion_multilateral_usa_bra_arg.png, id=149, 722.7pt x 433.62pt>
-File: ../08_ANALISIS_R/outputs/09b2_evolucion_multilateral_usa_bra_arg.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/09b2_evolucion_multilateral_usa_bra_arg.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/09b2_evolucion_multilateral_usa_bra_arg.png  used on input line 671.
-(pdftex.def)             Requested size: 386.96027pt x 232.1796pt.
-<../08_ANALISIS_R/outputs/09c_foros_distintos_por_periodo.png, id=150, 650.43pt x 433.62pt>
-File: ../08_ANALISIS_R/outputs/09c_foros_distintos_por_periodo.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/09c_foros_distintos_por_periodo.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/09c_foros_distintos_por_periodo.png  used on input line 678.
-(pdftex.def)             Requested size: 386.96027pt x 257.97733pt.
-
-
-LaTeX Warning: Citation 'penaComplejaRedCumbres2005' on page 20 undefined on input line 679.
-
-
-LaTeX Warning: Citation 'penaComplejaRedCumbres2005' on page 20 undefined on input line 679.
-
-
-Underfull \hbox (badness 7595) in paragraph at lines 679--679
-[]\T1/cmr/m/n/10.95 Figura 24: []Cantidad de fo-ros/cumbres mul-ti-la-te-ra-les dis-tin-tos, por pe-río-do (idea:
- []
-
-[20
 pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.682 
+l.711 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.682 
-       <../08_ANALISIS_R/outputs/09b_ranking_destinos_multilaterales.png> <../08_ANALISIS_R/outputs/09b2_evolucion_multilateral_usa_bra_arg.png>]
-<../08_ANALISIS_R/outputs/09d_composicion_bilateral_multilateral_por_pais.png, id=157, 722.7pt x 469.755pt>
-File: ../08_ANALISIS_R/outputs/09d_composicion_bilateral_multilateral_por_pais.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/09d_composicion_bilateral_multilateral_por_pais.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/09d_composicion_bilateral_multilateral_por_pais.png  used on input line 685.
-(pdftex.def)             Requested size: 409.71692pt x 266.31522pt.
+l.711 
+       <../08_ANALISIS_R/outputs/09a_ranking_destinos_bilaterales.png> <../08_ANALISIS_R/outputs/09a2_evolucion_bilateral_brasil_eeuu.png>]
+<../08_ANALISIS_R/outputs/09b2_evolucion_multilateral_usa_bra_arg.png, id=163, 722.7pt x 433.62pt>
+File: ../08_ANALISIS_R/outputs/09b2_evolucion_multilateral_usa_bra_arg.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/09b2_evolucion_multilateral_usa_bra_arg.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/09b2_evolucion_multilateral_usa_bra_arg.png  used on input line 714.
+(pdftex.def)             Requested size: 386.96027pt x 232.1796pt.
+<../08_ANALISIS_R/outputs/09c_foros_distintos_por_periodo.png, id=164, 650.43pt x 433.62pt>
+File: ../08_ANALISIS_R/outputs/09c_foros_distintos_por_periodo.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/09c_foros_distintos_por_periodo.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/09c_foros_distintos_por_periodo.png  used on input line 721.
+(pdftex.def)             Requested size: 386.96027pt x 257.97733pt.
 
 
-LaTeX Warning: Citation 'leeTravelAlliesAdversaries2024' on page 21 undefined on input line 686.
+LaTeX Warning: Citation 'penaComplejaRedCumbres2005' on page 22 undefined on input line 722.
 
 
-LaTeX Warning: Citation 'leeTravelAlliesAdversaries2024' on page 21 undefined on input line 686.
+LaTeX Warning: Citation 'penaComplejaRedCumbres2005' on page 22 undefined on input line 722.
 
 
-LaTeX Warning: Citation 'merkeForeignPolicyChange2020' on page 21 undefined on input line 713.
+Underfull \hbox (badness 7595) in paragraph at lines 722--722
+[]\T1/cmr/m/n/10.95 Figura 26: []Cantidad de fo-ros/cumbres mul-ti-la-te-ra-les dis-tin-tos, por pe-río-do (idea:
+ []
 
-[21
+[22
 pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.714 
+l.725 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.714 
-       <../08_ANALISIS_R/outputs/09c_foros_distintos_por_periodo.png> <../08_ANALISIS_R/outputs/09d_composicion_bilateral_multilateral_por_pais.png>]
-<../08_ANALISIS_R/outputs/18c_ideologia_vs_intralatam.png, id=166, 578.16pt x 433.62pt>
-File: ../08_ANALISIS_R/outputs/18c_ideologia_vs_intralatam.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/18c_ideologia_vs_intralatam.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/18c_ideologia_vs_intralatam.png  used on input line 738.
-(pdftex.def)             Requested size: 386.96027pt x 290.21953pt.
+l.725 
+       <../08_ANALISIS_R/outputs/09b_ranking_destinos_multilaterales.png> <../08_ANALISIS_R/outputs/09b2_evolucion_multilateral_usa_bra_arg.png>]
+<../08_ANALISIS_R/outputs/09d_composicion_bilateral_multilateral_por_pais.png, id=171, 722.7pt x 469.755pt>
+File: ../08_ANALISIS_R/outputs/09d_composicion_bilateral_multilateral_por_pais.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/09d_composicion_bilateral_multilateral_por_pais.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/09d_composicion_bilateral_multilateral_por_pais.png  used on input line 728.
+(pdftex.def)             Requested size: 409.71692pt x 266.31522pt.
 
 
-LaTeX Warning: Citation 'merkeForeignPolicyChange2020' on page 22 undefined on input line 739.
+LaTeX Warning: Citation 'leeTravelAlliesAdversaries2024' on page 23 undefined on input line 729.
 
 
-LaTeX Warning: Citation 'merkeForeignPolicyChange2020' on page 22 undefined on input line 739.
+LaTeX Warning: Citation 'leeTravelAlliesAdversaries2024' on page 23 undefined on input line 729.
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 739--739
-[]\T1/cmr/m/n/10.95 Figura 26: []Ideología pre-si-den-cial ge-ne-ral (1 = iz-quier-da, 7 = de-re-cha) vs.$ $% de via-
- []
+LaTeX Warning: Citation 'merkeForeignPolicyChange2020' on page 23 undefined on input line 756.
 
-<../08_ANALISIS_R/outputs/18d_todas_dimensiones_vs_intralatam.png, id=167, 867.24pt x 505.89pt>
-File: ../08_ANALISIS_R/outputs/18d_todas_dimensiones_vs_intralatam.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/18d_todas_dimensiones_vs_intralatam.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/18d_todas_dimensiones_vs_intralatam.png  used on input line 745.
-(pdftex.def)             Requested size: 455.24411pt x 265.55762pt.
-[22
-pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.749 
-      
+[23
 pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.749 
-       <../08_ANALISIS_R/outputs/18c_ideologia_vs_intralatam.png>]
-<../08_ANALISIS_R/outputs/18i_todas_dimensiones_izquierda.png, id=174, 867.24pt x 505.89pt>
-File: ../08_ANALISIS_R/outputs/18i_todas_dimensiones_izquierda.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/18i_todas_dimensiones_izquierda.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/18i_todas_dimensiones_izquierda.png  used on input line 755.
-(pdftex.def)             Requested size: 455.24411pt x 265.55762pt.
-
-
-LaTeX Warning: Reference `fig:todas-dimensiones-derecha' on page 23 undefined on input line 756.
-
-
-LaTeX Warning: Reference `fig:todas-dimensiones-derecha' on page 23 undefined on input line 756.
-
-<../08_ANALISIS_R/outputs/18j_todas_dimensiones_derecha.png, id=175, 867.24pt x 505.89pt>
-File: ../08_ANALISIS_R/outputs/18j_todas_dimensiones_derecha.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/18j_todas_dimensiones_derecha.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/18j_todas_dimensiones_derecha.png  used on input line 762.
-(pdftex.def)             Requested size: 455.24411pt x 265.55762pt.
-[23
+l.757 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.766 
+l.757 
+       <../08_ANALISIS_R/outputs/09c_foros_distintos_por_periodo.png> <../08_ANALISIS_R/outputs/09d_composicion_bilateral_multilateral_por_pais.png>]
+<../08_ANALISIS_R/outputs/18c_ideologia_vs_intralatam.png, id=179, 578.16pt x 433.62pt>
+File: ../08_ANALISIS_R/outputs/18c_ideologia_vs_intralatam.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/18c_ideologia_vs_intralatam.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/18c_ideologia_vs_intralatam.png  used on input line 781.
+(pdftex.def)             Requested size: 386.96027pt x 290.21953pt.
+
+
+LaTeX Warning: Citation 'merkeForeignPolicyChange2020' on page 24 undefined on input line 782.
+
+
+LaTeX Warning: Citation 'merkeForeignPolicyChange2020' on page 24 undefined on input line 782.
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 782--782
+[]\T1/cmr/m/n/10.95 Figura 28: []Ideología pre-si-den-cial ge-ne-ral (1 = iz-quier-da, 7 = de-re-cha) vs.$ $% de via-
+ []
+
+<../08_ANALISIS_R/outputs/18d_todas_dimensiones_vs_intralatam.png, id=180, 867.24pt x 505.89pt>
+File: ../08_ANALISIS_R/outputs/18d_todas_dimensiones_vs_intralatam.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/18d_todas_dimensiones_vs_intralatam.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/18d_todas_dimensiones_vs_intralatam.png  used on input line 788.
+(pdftex.def)             Requested size: 455.24411pt x 265.55762pt.
+[24
+pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.792 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.766 
-       <../08_ANALISIS_R/outputs/18d_todas_dimensiones_vs_intralatam.png> <../08_ANALISIS_R/outputs/18i_todas_dimensiones_izquierda.png>]
-<../08_ANALISIS_R/outputs/18k_todas_dimensiones_2012_2022.png, id=184, 867.24pt x 505.89pt>
-File: ../08_ANALISIS_R/outputs/18k_todas_dimensiones_2012_2022.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/18k_todas_dimensiones_2012_2022.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/18k_todas_dimensiones_2012_2022.png  used on input line 769.
+l.792 
+       <../08_ANALISIS_R/outputs/18c_ideologia_vs_intralatam.png>]
+<../08_ANALISIS_R/outputs/18i_todas_dimensiones_izquierda.png, id=187, 867.24pt x 505.89pt>
+File: ../08_ANALISIS_R/outputs/18i_todas_dimensiones_izquierda.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/18i_todas_dimensiones_izquierda.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/18i_todas_dimensiones_izquierda.png  used on input line 798.
 (pdftex.def)             Requested size: 455.24411pt x 265.55762pt.
-<../08_ANALISIS_R/outputs/18e_usa_vs_pct_viajes_eeuu.png, id=185, 578.16pt x 433.62pt>
-File: ../08_ANALISIS_R/outputs/18e_usa_vs_pct_viajes_eeuu.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/18e_usa_vs_pct_viajes_eeuu.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/18e_usa_vs_pct_viajes_eeuu.png  used on input line 776.
-(pdftex.def)             Requested size: 386.96027pt x 290.21953pt.
 
 
-LaTeX Warning: Reference `fig:ideologia-vs-intralatam' on page 24 undefined on input line 777.
+LaTeX Warning: Reference `fig:todas-dimensiones-derecha' on page 25 undefined on input line 799.
 
 
-LaTeX Warning: Reference `fig:todas-dimensiones-intralatam' on page 24 undefined on input line 777.
+LaTeX Warning: Reference `fig:todas-dimensiones-derecha' on page 25 undefined on input line 799.
 
-
-LaTeX Warning: Reference `fig:ideologia-vs-intralatam' on page 24 undefined on input line 777.
-
-
-LaTeX Warning: Reference `fig:todas-dimensiones-intralatam' on page 24 undefined on input line 777.
-
-[24
+<../08_ANALISIS_R/outputs/18j_todas_dimensiones_derecha.png, id=188, 867.24pt x 505.89pt>
+File: ../08_ANALISIS_R/outputs/18j_todas_dimensiones_derecha.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/18j_todas_dimensiones_derecha.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/18j_todas_dimensiones_derecha.png  used on input line 805.
+(pdftex.def)             Requested size: 455.24411pt x 265.55762pt.
+[25
 pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.780 
+l.809 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.780 
-       <../08_ANALISIS_R/outputs/18j_todas_dimensiones_derecha.png> <../08_ANALISIS_R/outputs/18k_todas_dimensiones_2012_2022.png>]
-Overfull \hbox (394.43013pt too wide) in paragraph at lines 788--788
-[]\T1/cmr/m/n/10.95 Cuadro 8: [][][][][][][] 
- []
+l.809 
+       <../08_ANALISIS_R/outputs/18d_todas_dimensiones_vs_intralatam.png> <../08_ANALISIS_R/outputs/18i_todas_dimensiones_izquierda.png>]
+<../08_ANALISIS_R/outputs/18k_todas_dimensiones_2012_2022.png, id=198, 867.24pt x 505.89pt>
+File: ../08_ANALISIS_R/outputs/18k_todas_dimensiones_2012_2022.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/18k_todas_dimensiones_2012_2022.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/18k_todas_dimensiones_2012_2022.png  used on input line 812.
+(pdftex.def)             Requested size: 455.24411pt x 265.55762pt.
+<../08_ANALISIS_R/outputs/18e_usa_vs_pct_viajes_eeuu.png, id=199, 578.16pt x 433.62pt>
+File: ../08_ANALISIS_R/outputs/18e_usa_vs_pct_viajes_eeuu.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/18e_usa_vs_pct_viajes_eeuu.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/18e_usa_vs_pct_viajes_eeuu.png  used on input line 819.
+(pdftex.def)             Requested size: 386.96027pt x 290.21953pt.
 
-<../08_ANALISIS_R/outputs/18h_ideologia_vs_eeuu_china_europa.png, id=192, 867.24pt x 361.35pt>
-File: ../08_ANALISIS_R/outputs/18h_ideologia_vs_eeuu_china_europa.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/18h_ideologia_vs_eeuu_china_europa.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/18h_ideologia_vs_eeuu_china_europa.png  used on input line 804.
-(pdftex.def)             Requested size: 455.24411pt x 189.68402pt.
 
-LaTeX Warning: Reference `fig:ideologia-vs-intralatam' on page 25 undefined on input line 805.
+LaTeX Warning: Reference `fig:ideologia-vs-intralatam' on page 26 undefined on input line 820.
 
 
-LaTeX Warning: Reference `fig:ideologia-vs-intralatam' on page 25 undefined on input line 805.
+LaTeX Warning: Reference `fig:todas-dimensiones-intralatam' on page 26 undefined on input line 820.
 
-[25
+
+LaTeX Warning: Reference `fig:ideologia-vs-intralatam' on page 26 undefined on input line 820.
+
+
+LaTeX Warning: Reference `fig:todas-dimensiones-intralatam' on page 26 undefined on input line 820.
+
+[26
 pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.808 
+l.823 
       
-pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.808 
-       <../08_ANALISIS_R/outputs/18e_usa_vs_pct_viajes_eeuu.png>]
-<../08_ANALISIS_R/outputs/19c_homofilia_sin_controlar.png, id=200, 650.43pt x 433.62pt>
-File: ../08_ANALISIS_R/outputs/19c_homofilia_sin_controlar.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/19c_homofilia_sin_controlar.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/19c_homofilia_sin_controlar.png  used on input line 838.
-(pdftex.def)             Requested size: 386.96027pt x 257.97733pt.
- [26
 pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.842 
+l.823 
+       <../08_ANALISIS_R/outputs/18j_todas_dimensiones_derecha.png> <../08_ANALISIS_R/outputs/18k_todas_dimensiones_2012_2022.png>]
+Overfull \hbox (394.43013pt too wide) in paragraph at lines 831--831
+[]\T1/cmr/m/n/10.95 Cuadro 9: [][][][][][][] 
+ []
+
+<../08_ANALISIS_R/outputs/18h_ideologia_vs_eeuu_china_europa.png, id=206, 867.24pt x 361.35pt>
+File: ../08_ANALISIS_R/outputs/18h_ideologia_vs_eeuu_china_europa.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/18h_ideologia_vs_eeuu_china_europa.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/18h_ideologia_vs_eeuu_china_europa.png  used on input line 847.
+(pdftex.def)             Requested size: 455.24411pt x 189.68402pt.
+
+LaTeX Warning: Reference `fig:ideologia-vs-intralatam' on page 27 undefined on input line 848.
+
+
+LaTeX Warning: Reference `fig:ideologia-vs-intralatam' on page 27 undefined on input line 848.
+
+[27
+pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.851 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.842 
-       <../08_ANALISIS_R/outputs/18h_ideologia_vs_eeuu_china_europa.png>]
-<../08_ANALISIS_R/outputs/19e_homofilia_controlando.png, id=209, 650.43pt x 433.62pt>
-File: ../08_ANALISIS_R/outputs/19e_homofilia_controlando.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/19e_homofilia_controlando.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/19e_homofilia_controlando.png  used on input line 845.
+l.851 
+       <../08_ANALISIS_R/outputs/18e_usa_vs_pct_viajes_eeuu.png>]
+<../08_ANALISIS_R/outputs/19c_homofilia_sin_controlar.png, id=213, 650.43pt x 433.62pt>
+File: ../08_ANALISIS_R/outputs/19c_homofilia_sin_controlar.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/19c_homofilia_sin_controlar.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/19c_homofilia_sin_controlar.png  used on input line 881.
 (pdftex.def)             Requested size: 386.96027pt x 257.97733pt.
-<../08_ANALISIS_R/outputs/19f_matriz_origen_destino.png, id=210, 505.89pt x 433.62pt>
-File: ../08_ANALISIS_R/outputs/19f_matriz_origen_destino.png Graphic file (type png)
-<use ../08_ANALISIS_R/outputs/19f_matriz_origen_destino.png>
-Package pdftex.def Info: ../08_ANALISIS_R/outputs/19f_matriz_origen_destino.png  used on input line 852.
-(pdftex.def)             Requested size: 273.14923pt x 234.13145pt.
- [27
-pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.856 
-      
+ [28
 pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.856 
-       <../08_ANALISIS_R/outputs/19c_homofilia_sin_controlar.png> <../08_ANALISIS_R/outputs/19e_homofilia_controlando.png>]
-
-LaTeX Warning: Empty bibliography on input line 869.
-
-[28
+l.885 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.885 
+       <../08_ANALISIS_R/outputs/18h_ideologia_vs_eeuu_china_europa.png>]
+<../08_ANALISIS_R/outputs/19e_homofilia_controlando.png, id=222, 650.43pt x 433.62pt>
+File: ../08_ANALISIS_R/outputs/19e_homofilia_controlando.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/19e_homofilia_controlando.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/19e_homofilia_controlando.png  used on input line 888.
+(pdftex.def)             Requested size: 386.96027pt x 257.97733pt.
+<../08_ANALISIS_R/outputs/19f_matriz_origen_destino.png, id=223, 505.89pt x 433.62pt>
+File: ../08_ANALISIS_R/outputs/19f_matriz_origen_destino.png Graphic file (type png)
+<use ../08_ANALISIS_R/outputs/19f_matriz_origen_destino.png>
+Package pdftex.def Info: ../08_ANALISIS_R/outputs/19f_matriz_origen_destino.png  used on input line 895.
+(pdftex.def)             Requested size: 273.14923pt x 234.13145pt.
+ [29
 pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.871 \end{document}
+l.899 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.899 
+       <../08_ANALISIS_R/outputs/19c_homofilia_sin_controlar.png> <../08_ANALISIS_R/outputs/19e_homofilia_controlando.png>]
+
+LaTeX Warning: Empty bibliography on input line 912.
+
+[30
+pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.914 \end{document}
                      <../08_ANALISIS_R/outputs/19f_matriz_origen_destino.png>] (./ViajesPresidencialesSudamerica.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -1263,18 +1299,18 @@ Package logreq Info: Writing requests to 'ViajesPresidencialesSudamerica.run.xml
 
  ) 
 Here is how much of TeX's memory you used:
- 19835 strings out of 469140
- 362262 string characters out of 5457729
+ 19857 strings out of 469140
+ 363326 string characters out of 5457729
  1327489 words of memory out of 5000000
- 48576 multiletter control sequences out of 15000+600000
+ 48593 multiletter control sequences out of 15000+600000
  637716 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,8n,67p,1068b,1891s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 62i,8n,67p,1068b,1894s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> <c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk><c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/alejo/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on ViajesPresidencialesSudamerica.pdf (28 pages, 2425413 bytes).
+Output written on ViajesPresidencialesSudamerica.pdf (30 pages, 2537340 bytes).
 PDF statistics:
- 543 PDF objects out of 1000 (max. 8388607)
- 208 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
- 180 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 557 PDF objects out of 1000 (max. 8388607)
+ 218 compressed objects within 3 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 190 words of extra memory for PDF output out of 10000 (max. 10000000)
 

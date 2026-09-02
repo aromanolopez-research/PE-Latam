@@ -52,6 +52,7 @@
 \usepackage{float}
 \usepackage{longtable}
 \usepackage{xcolor}
+\usepackage{pdflscape}
 \geometry{margin=2.5cm}
 
 \title{Viajes presidenciales como indicador de pol\'itica exterior en Sudam\'erica (1994--2025)}
@@ -90,6 +91,7 @@ viajes_totales_pais  <- leer_resumen("00b_viajes_totales_por_pais.csv")
 # "Ficha general" real: 7 indicadores (total de viajes, periodo, cantidad de
 # paises/mandatarios, % bilateral/multilateral/otro) -> Cuadro 1 del paper.
 ficha_general         <- tryCatch(leer_resumen("00a_ficha_general.csv"), error = function(e) NULL)
+diferencias_colt      <- tryCatch(leer_resumen("00a2_diferencias_colt.csv"), error = function(e) NULL)
 resumen_estadisticos <- tryCatch(leer_resumen("00d_resumen_estadisticos_descriptivos.csv"), error = function(e) NULL)
 top5_destinos        <- tryCatch(leer_resumen("05_top5_destinos_por_presidente.csv"), error = function(e) NULL)
 tabla_destino_favorito <- tryCatch(leer_resumen("05c_destino_favorito_tabla.csv"), error = function(e) NULL)
@@ -155,9 +157,28 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(ficha_general)) {
   print(xtable::xtable(ficha_general,
                         caption = "Ficha general de la base: total de viajes, per\\'iodo cubierto, cantidad de pa\\'ises y mandatarios, y participaci\\'on Bilateral/Multilateral/Otro.",
                         label = "tab:ficha-general"),
-        include.rownames = FALSE, caption.placement = "top")
+        include.rownames = FALSE, caption.placement = "top",
+        latex.environments = c("center"))
 } else {
   cat("% Falta 00a_ficha_general.csv (correr graficos_exploratorios.R) o el paquete 'xtable'.\n")
+}
+@
+
+<<tab-diferencias-colt, echo=FALSE, results=tex>>=
+# Cuadro con la sintesis de diferencias encontradas vs la Base COLT por pais
+# (agregados/modificados/eliminados/pendientes de validar). Ver el comentario
+# de la seccion 2.1b en graficos_exploratorios.R para la metodologia exacta
+# de cada columna. Ecuador, Guyana, Surinam y Venezuela todavia no pasaron
+# por esta verificacion y quedan marcados "Sin iniciar".
+if (requireNamespace("xtable", quietly = TRUE) && !is.null(diferencias_colt)) {
+  names(diferencias_colt) <- c("Pa\\'is", "Agregados", "Modificados", "Eliminados", "Pendientes de validar")
+  print(xtable::xtable(diferencias_colt,
+                        caption = "Diferencias encontradas al cruzar y verificar la base contra la Base COLT (Diplometrics), por pa\\'is: viajes agregados que COLT no ten\\'ia, viajes con al menos un campo corregido, candidatos propios finalmente no incorporados, y filas que quedan pendientes de validar por falta de fuente independiente. Ecuador, Guyana, Surinam y Venezuela todav\\'ia no pasaron por esta verificaci\\'on.",
+                        label = "tab:diferencias-colt"),
+        include.rownames = FALSE, caption.placement = "top",
+        sanitize.text.function = identity, latex.environments = c("center"))
+} else {
+  cat("% Falta 00a2_diferencias_colt.csv (correr graficos_exploratorios.R) o el paquete 'xtable'.\n")
 }
 @
 
@@ -166,7 +187,8 @@ if (requireNamespace("xtable", quietly = TRUE)) {
   print(xtable::xtable(viajes_totales_pais,
                         caption = "Total de viajes registrados por pais (1994-2025)",
                         label = "tab:totales-pais"),
-        include.rownames = FALSE, caption.placement = "top")
+        include.rownames = FALSE, caption.placement = "top",
+        latex.environments = c("center"))
 } else {
   cat("% Instalar el paquete 'xtable' para renderizar esta tabla automaticamente.\n")
 }
@@ -195,7 +217,8 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
   print(xtable::xtable(resumen_estadisticos,
                         caption = "Estad\\'isticos descriptivos (media, desv\\'io, m\\'inimo, m\\'aximo) de viajes por Mandatario-A\\~no (total, bilaterales y multilaterales) y de la duraci\\'on de los viajes.",
                         label = "tab:resumen-estadisticos"),
-        include.rownames = FALSE, caption.placement = "top")
+        include.rownames = FALSE, caption.placement = "top",
+        latex.environments = c("center"))
 } else {
   cat("% Falta 00d_resumen_estadisticos_descriptivos.csv o el paquete 'xtable'.\n")
 }
@@ -241,7 +264,7 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/01_viajes_por_anio.png}
-  \caption{Cantidad de viajes presidenciales por a\~no, Sudam\'erica 1994-2025.}
+  \caption{Cantidad de viajes presidenciales por a\~no, Sudam\'erica 1994-2025. La l\'inea punteada marca el promedio anual de todo el per\'iodo.}
   \label{fig:viajes-por-anio}
 \end{figure}
 
@@ -279,6 +302,24 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
   \includegraphics[width=0.8\textwidth]{../08_ANALISIS_R/outputs/17_integracion_regional_en_retirada.png}
   \caption{Participaci\'on de los viajes intra-latinoamericanos sobre el total de viajes presidenciales sudamericanos, promedio m\'ovil de 3 a\~nos, 1994-2025. Recreaci\'on propia -con nuestra base cruzada y verificada- de un gr\'afico de referencia de Diplometrics COLT (que usa datos crudos 1990-2025); no extendemos a 1990-1993 porque la cobertura verificada de varios pa\'ises de nuestra base no llega de forma confiable a esos a\~nos. El patr\'on se sostiene: pico y m\'inimo caen en los mismos a\~nos que en la fuente de referencia (2011 y 2025).}
   \label{fig:integracion-regional-en-retirada}
+\end{figure}
+
+% Mismo estilo que la Figura~\ref{fig:evolucion-por-bloque-destino} (facet_wrap
+% con promedio por panel), pero mirando quien RECIBE los viajes en vez de a
+% donde viajan los presidentes. Solo viajes Bilaterales (visita puntual
+% dirigida a ese pais, no cumbres multilaterales alojadas ahi).
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/17b_viajes_recibidos_intra_sudamerica.png}
+  \caption{Cantidad de viajes BILATERALES recibidos por a\~no por cada pa\'is sudamericano, de mandatarios de otros pa\'ises sudamericanos (1994-2025). Cada panel es un pa\'is de destino, todos con la MISMA escala en el eje Y (a diferencia de la Figura~\ref{fig:evolucion-por-bloque-destino}, que usa escala libre por panel) para poder comparar directamente cu\'anto recibe cada pa\'is frente a los dem\'as; la l\'inea punteada marca el promedio anual propio de cada pa\'is. Permite ver qu\'e pa\'ises ganan o pierden peso como destino de la diplomacia bilateral de sus vecinos a lo largo del tiempo.}
+  \label{fig:viajes-recibidos-intra-sudamerica}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\textwidth]{../08_ANALISIS_R/outputs/17c_viajes_recibidos_cuba.png}
+  \caption{Cantidad de viajes BILATERALES recibidos por Cuba de mandatarios sudamericanos, por a\~no (1994-2025). Cuba no es un pa\'is sudamericano -por eso queda fuera de la grilla de la Figura~\ref{fig:viajes-recibidos-intra-sudamerica}- pero se incluye aparte por su peso simb\'olico/hist\'orico como destino de la diplomacia sudamericana. La l\'inea punteada marca el promedio anual del per\'iodo.}
+  \label{fig:viajes-recibidos-cuba}
 \end{figure}
 
 \begin{figure}[H]
@@ -421,15 +462,20 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_vec
 % orden alfabetico por pais y, DENTRO de cada pais, cronologico por inicio
 % de mandato (ej. Argentina: Menem 1 y 2 primero, Milei ultimo -no
 % alfabetico por nombre de mandatario-).
-% Nota tecnica (TEMPORAL, pedido del usuario): version en formato VERTICAL
-% (no landscape) con fuente muy chica (tiny) y margenes reducidos solo para
-% esta tabla, para que compile sin depender del paquete "pdflscape" (no
-% instalado en la maquina del usuario). Con 8 columnas de region + Pais +
-% Mandatario + Total viajes puede quedar muy apretada igual -si al
-% compilar se corta o se ve mal, la alternativa mas prolija sigue siendo
-% landscape (instalar pdflscape desde MiKTeX Console: Packages -> buscar
-% "pdflscape" -> Install).
-\newgeometry{margin=1cm}
+% Nota tecnica (2026-09-02, reemplaza la version anterior "vertical
+% forzada"): con 8 columnas de region + Pais + Mandatario + Total viajes (11
+% columnas en total) la tabla no entraba ni en vertical con margenes de 1cm
+% y fuente tiny -quedaba desbordada y descentrada, como marco el usuario-.
+% Se pasa a landscape real (paquete pdflscape) dentro de \begin{landscape},
+% que da bastante mas ancho util (~24cm en A4 apaisado vs ~19cm en vertical
+% con margen de 1cm) y deja que longtable centre la tabla como corresponde
+% -pdflscape rota la PAGINA del PDF, no solo el contenido, asi que se lee
+% bien girando el celular/monitor u hoja impresa-. Requiere tener pdflscape
+% instalado (viene en cualquier instalacion completa de TeX Live/MiKTeX; si
+% falta, instalarlo desde MiKTeX Console: Packages -> buscar "pdflscape" ->
+% Install, o "tlmgr install pdflscape" en TeX Live).
+\begin{landscape}
+\newgeometry{margin=1.5cm}
 <<tab-perfil-regional, echo=FALSE, results=tex>>=
 if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_perfil_regional)) {
   print(xtable::xtable(fix_na_cuadro(tabla_perfil_regional),
@@ -443,6 +489,7 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_perfil_regional
 }
 @
 \restoregeometry
+\end{landscape}
 
 \begin{figure}[H]
   \centering

@@ -115,7 +115,7 @@
 \subsection{Descriptivos generales}
 
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Tue Sep  1 15:07:29 2026
+% Tue Sep  1 20:07:21 2026
 \begin{table}[ht]
 \centering
 \caption{Ficha general de la base: total de viajes, per\'iodo cubierto, cantidad de pa\'ises y mandatarios, y participaci\'on Bilateral/Multilateral/Otro.} 
@@ -135,7 +135,32 @@ Total de viajes registrados & 4.990 \\
 \end{tabular}
 \end{table}
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Tue Sep  1 15:07:29 2026
+% Tue Sep  1 20:07:21 2026
+\begin{table}[ht]
+\centering
+\caption{Diferencias encontradas al cruzar y verificar la base contra la Base COLT (Diplometrics), por pa\'is: viajes agregados que COLT no ten\'ia, viajes con al menos un campo corregido, candidatos propios finalmente no incorporados, y filas que quedan pendientes de validar por falta de fuente independiente. Ecuador, Guyana, Surinam y Venezuela todav\'ia no pasaron por esta verificaci\'on.} 
+\label{tab:diferencias-colt}
+\begin{tabular}{lllll}
+  \hline
+Pa\'is & Agregados & Modificados & Eliminados & Pendientes de validar \\ 
+  \hline
+Argentina & 25 & 96 & 4 & 75 \\ 
+  Bolivia & 12 & 14 & 0 & 30 \\ 
+  Brasil & 27 & 94 & 5 & 49 \\ 
+  Chile & 60 & 101 & 7 & 68 \\ 
+  Colombia & 7 & 39 & 0 & 50 \\ 
+  Ecuador & Sin iniciar & Sin iniciar & Sin iniciar & Sin iniciar \\ 
+  Guyana & Sin iniciar & Sin iniciar & Sin iniciar & Sin iniciar \\ 
+  Paraguay & 49 & 54 & 16 & 120 \\ 
+  Peru & 5 & 25 & 0 & 28 \\ 
+  Surinam & Sin iniciar & Sin iniciar & Sin iniciar & Sin iniciar \\ 
+  Uruguay & 29 & 56 & 6 & 69 \\ 
+  Venezuela & Sin iniciar & Sin iniciar & Sin iniciar & Sin iniciar \\ 
+   \hline
+\end{tabular}
+\end{table}
+% latex table generated in R 4.5.1 by xtable 1.8-8 package
+% Tue Sep  1 20:07:21 2026
 \begin{table}[ht]
 \centering
 \caption{Total de viajes registrados por pais (1994-2025)} 
@@ -174,7 +199,7 @@ Brasil & 617 \\
 \end{figure}
 
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Tue Sep  1 15:07:29 2026
+% Tue Sep  1 20:07:21 2026
 \begin{table}[ht]
 \centering
 \caption{Estad\'isticos descriptivos (media, desv\'io, m\'inimo, m\'aximo) de viajes por Mandatario-A\~no (total, bilaterales y multilaterales) y de la duraci\'on de los viajes.} 
@@ -230,7 +255,7 @@ Viajes por Mandatario-Anio & 11.80 & 7.90 &   1 &  40 & 424 & Combinaciones mand
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/01_viajes_por_anio.png}
-  \caption{Cantidad de viajes presidenciales por a\~no, Sudam\'erica 1994-2025.}
+  \caption{Cantidad de viajes presidenciales por a\~no, Sudam\'erica 1994-2025. La l\'inea punteada marca el promedio anual de todo el per\'iodo.}
   \label{fig:viajes-por-anio}
 \end{figure}
 
@@ -268,6 +293,24 @@ Viajes por Mandatario-Anio & 11.80 & 7.90 &   1 &  40 & 424 & Combinaciones mand
   \includegraphics[width=0.8\textwidth]{../08_ANALISIS_R/outputs/17_integracion_regional_en_retirada.png}
   \caption{Participaci\'on de los viajes intra-latinoamericanos sobre el total de viajes presidenciales sudamericanos, promedio m\'ovil de 3 a\~nos, 1994-2025. Recreaci\'on propia -con nuestra base cruzada y verificada- de un gr\'afico de referencia de Diplometrics COLT (que usa datos crudos 1990-2025); no extendemos a 1990-1993 porque la cobertura verificada de varios pa\'ises de nuestra base no llega de forma confiable a esos a\~nos. El patr\'on se sostiene: pico y m\'inimo caen en los mismos a\~nos que en la fuente de referencia (2011 y 2025).}
   \label{fig:integracion-regional-en-retirada}
+\end{figure}
+
+% Mismo estilo que la Figura~\ref{fig:evolucion-por-bloque-destino} (facet_wrap
+% con promedio por panel), pero mirando quien RECIBE los viajes en vez de a
+% donde viajan los presidentes. Solo viajes Bilaterales (visita puntual
+% dirigida a ese pais, no cumbres multilaterales alojadas ahi).
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/17b_viajes_recibidos_intra_sudamerica.png}
+  \caption{Cantidad de viajes BILATERALES recibidos por a\~no por cada pa\'is sudamericano, de mandatarios de otros pa\'ises sudamericanos (1994-2025). Cada panel es un pa\'is de destino; la l\'inea punteada marca su propio promedio anual. Permite ver qu\'e pa\'ises ganan o pierden peso como destino de la diplomacia bilateral de sus vecinos a lo largo del tiempo.}
+  \label{fig:viajes-recibidos-intra-sudamerica}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\textwidth]{../08_ANALISIS_R/outputs/17c_viajes_recibidos_cuba.png}
+  \caption{Cantidad de viajes BILATERALES recibidos por Cuba de mandatarios sudamericanos, por a\~no (1994-2025). Cuba no es un pa\'is sudamericano -por eso queda fuera de la grilla de la Figura~\ref{fig:viajes-recibidos-intra-sudamerica}- pero se incluye aparte por su peso simb\'olico/hist\'orico como destino de la diplomacia sudamericana. La l\'inea punteada marca el promedio anual del per\'iodo.}
+  \label{fig:viajes-recibidos-cuba}
 \end{figure}
 
 \begin{figure}[H]
@@ -338,7 +381,7 @@ Viajes por Mandatario-Anio & 11.80 & 7.90 &   1 &  40 & 424 & Combinaciones mand
 %      prioriza el pais que ALCANZO ese conteo maximo PRIMERO en el tiempo
 %      (fecha del viaje N-esimo mas temprana).
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Tue Sep  1 15:07:29 2026
+% Tue Sep  1 20:07:21 2026
 \begin{longtable}{lllr}
 \caption{Destino favorito BILATERAL de cada mandato individual (pa\'is m\'as visitado en viajes bilaterales durante ese mandato espec\'ifico), con el mandato entre par\'entesis. Desempates: prioridad al pa\'is que alcanz\'o el conteo m\'aximo primero en el tiempo.} \\ 
   \hline
@@ -485,7 +528,7 @@ Argentina & Carlos Saul Menem (1989-1995) & Mexico &   1 \\
 % 04\_BASE\_FINAL/Base\_Diadas\_Vecinos.xlsx.
 
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Tue Sep  1 15:07:29 2026
+% Tue Sep  1 20:07:21 2026
 \begin{table}[ht]
 \centering
 \caption{Correlaci\'on de Pearson entre el a\~no (tiempo) y el \% de viajes a un vecino fronterizo, 1994-2025 (una observaci\'on por a\~no).} 
@@ -526,7 +569,7 @@ Anio (tiempo) vs. \% de viajes a un vecino fronterizo & -0.44 & 0.01 &  32 \\
 % "pdflscape" -> Install).
 \newgeometry{margin=1cm}
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Tue Sep  1 15:07:29 2026
+% Tue Sep  1 20:07:21 2026
 \begin{longtable}{lllllllllll}
 \caption{Perfil regional de cada MANDATO individual: porcentaje de sus viajes a cada bloque de destino. Las categor\'ias son mutuamente excluyentes y suman 100\% por fila.} \\ 
   \hline
@@ -713,7 +756,7 @@ Argentina & Carlos Saul Menem (1989-1995) & 7 & 43\% & 14\% & 14\% & 0\% & 14\% 
 Esta secci\'on examina si la orientaci\'on ideol\'ogica de cada presidente se asocia con la proporci\'on de sus viajes dirigidos a Am\'erica Latina. Se utilizan las ocho dimensiones relevadas por la encuesta a expertos de \citep{merkeForeignPolicyChange2020} (ideolog\'ia general, pol\'itica econ\'omica, geopol\'itica, estilo diplom\'atico, relaci\'on con Estados Unidos, soberan\'ia/autonom\'ia, modelo de desarrollo y reputaci\'on internacional), cada una en una escala de 1 a 7. La unidad de observaci\'on es el mandato-tramo (un presidente reelegido aporta una observaci\'on por cada per\'iodo, ya que su valor de ideolog\'ia puede cambiar de un mandato a otro); se exigi\'o un m\'inimo de 5 viajes por tramo para evitar que porcentajes calculados sobre muestras muy chicas distorsionen la comparaci\'on.
 
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Tue Sep  1 15:07:29 2026
+% Tue Sep  1 20:07:21 2026
 \begin{table}[ht]
 \centering
 \caption{Correlaci\'on de Pearson entre cada dimensi\'on de ideolog\'ia presidencial y el \% de viajes intra-latinoamericanos, por mandato-tramo (1994-2025).} 
@@ -782,7 +825,7 @@ Ideologia general (1=izq., 7=der.) & -0.13 & 0.28 &  73 \\
 % del usuario: "no nos dice mucho").
 
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Tue Sep  1 15:07:29 2026
+% Tue Sep  1 20:07:21 2026
 \begin{table}[ht]
 \centering
 \caption{\colorbox{yellow}{Correlaci\'on de Pearson entre la ideolog\'ia general del presidente (1=izq., 7=der.) y el \% de sus viajes dirigidos a Estados Unidos, China y Europa, por mandato-tramo.}} 
@@ -818,7 +861,7 @@ Estados Unidos & 0.54 & 0.00 &  73 \\
 Esta subsecci\'on cambia la pregunta: en lugar de mirar la orientaci\'on regional agregada de los viajes, compara la ideolog\'ia del presidente que viaja con la del presidente del pa\'is visitado (an\'alisis di\'adico), restringido a viajes entre pa\'ises sudamericanos con ambos lados identificados en la base de ideolog\'ia. Se presentan dos versiones deliberadamente: una \textbf{sin controlar} (el \% crudo de viajes a la misma ideolog\'ia) y una \textbf{controlando} por la oferta -un \'indice observado/esperado que usa la composici\'on ideol\'ogica real de los destinos disponibles en cada per\'iodo de 5 a\~nos como referencia-. La distinci\'on importa: en per\'iodos donde la mayor\'ia de los gobiernos de la regi\'on comparten un mismo bloque ideol\'ogico (ej. la ``marea rosa'' 2004-2015), ese bloque muestra autom\'aticamente m\'as ``viajes a la misma ideolog\'ia'' solo porque hay m\'as destinos de ese tipo disponibles, no necesariamente porque haya una preferencia real por visitar pares.
 
 % latex table generated in R 4.5.1 by xtable 1.8-8 package
-% Tue Sep  1 15:07:29 2026
+% Tue Sep  1 20:07:21 2026
 \begin{table}[ht]
 \centering
 \caption{\'Indice de homofilia ideol\'ogica (viajes observados a la misma ideolog\'ia / viajes esperados bajo independencia estad\'istica), por bloque, 1994-2025. Un valor $>1$ indica m\'as visitas ``propias'' de las esperadas por azar.} 

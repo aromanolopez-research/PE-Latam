@@ -555,6 +555,59 @@ write.csv(ficha_general, file.path(RUTA_OUTPUTS, "00a_ficha_general.csv"), row.n
 # Nota: se sigue guardando el PNG por compatibilidad, pero en el paper esta
 # tabla ahora se arma como Cuadro (xtable) a partir del CSV, no como imagen.
 
+# 2.1b Diferencias encontradas vs la Base COLT, por pais.
+#
+# A diferencia del resto de las tablas de esta seccion, esta NO se calcula a
+# partir del data.frame `colt` en memoria: las 4 columnas resumen el trabajo
+# de verificacion pais por pais (campaña "COLT-verificacion") y se recalcularon
+# a mano, en una sola pasada uniforme, a partir de las fuentes primarias de
+# cada campaña (05_BITACORA/anexos_colt_sudamerica/) el 2026-09-01:
+#   - Agregados:  cantidad de filas TripID "PELATAM-<ISO3>-n" actualmente en
+#     el archivo madre para ese pais -viajes que investigamos y agregamos
+#     porque COLT no los tenia-. Es un conteo directo sobre la base final
+#     (ground truth), no depende del formato de los logs de cada campaña.
+#   - Modificados: cantidad de filas NATIVAS de COLT (no PELATAM) a las que
+#     le corregimos al menos un campo, contando cada TripID una sola vez aunque
+#     se le hayan corregido varios campos. Fuente: los archivos
+#     resultados_*.json de cada campaña (categoria "correcciones"/
+#     "Nuestro_correcto"/"Ninguno_exacto" segun la generacion del pipeline
+#     que le toco a cada pais). Validado cruzando contra el tag "[PE-Latam...
+#     corregido de" en la columna Notes del archivo madre para los 5 paises
+#     cuyo pipeline lo escribe (Bolivia, Paraguay, Uruguay, Peru, Colombia):
+#     coincide exactamente.
+#   - Eliminados: candidatos propios (de una etapa temprana del proyecto,
+#     "nuestro_unico" vs COLT) que se investigaron pero finalmente NO se
+#     incorporaron a la base -veredicto "Descartado"/"descartar" en los logs
+#     colt_unico de cada pais-. Solo aplica a los 5 paises que pasaron por esa
+#     etapa (Argentina, Brasil, Chile, Paraguay, Uruguay); Bolivia/Peru/
+#     Colombia se construyeron con el pipeline unificado posterior, que no
+#     tiene esta etapa separada.
+#   - Pendientes de validar: filas (nativas de COLT o de nuestra propia
+#     investigacion temprana) que se revisaron pero para las que no se
+#     encontro fuente independiente que permita confirmar NI corregir el
+#     dato -quedan marcadas "no_verificable", el dato de COLT no se toca-.
+#     Un TripID puede figurar en Modificados y en Pendientes a la vez si un
+#     campo se pudo corregir y otro del mismo viaje no.
+# Ecuador, Guyana y Surinam y Venezuela todavia no pasaron por esta
+# verificacion (quedan con la cobertura original de COLT sin cruzar), se
+# marcan "Sin iniciar" en las 4 columnas hasta que se investiguen.
+diferencias_colt <- data.frame(
+  Pais = c("Argentina", "Bolivia", "Brasil", "Chile", "Colombia", "Ecuador",
+           "Guyana", "Paraguay", "Peru", "Surinam", "Uruguay", "Venezuela"),
+  Agregados = c("25", "12", "27", "60", "7", "Sin iniciar",
+                "Sin iniciar", "49", "5", "Sin iniciar", "29", "Sin iniciar"),
+  Modificados = c("96", "14", "94", "101", "39", "Sin iniciar",
+                  "Sin iniciar", "54", "25", "Sin iniciar", "56", "Sin iniciar"),
+  Eliminados = c("4", "0", "5", "7", "0", "Sin iniciar",
+                 "Sin iniciar", "16", "0", "Sin iniciar", "6", "Sin iniciar"),
+  Pendientes_de_validar = c("75", "30", "49", "68", "50", "Sin iniciar",
+                             "Sin iniciar", "120", "28", "Sin iniciar", "69", "Sin iniciar"),
+  stringsAsFactors = FALSE
+)
+print(diferencias_colt)
+guardar_tabla_imagen(diferencias_colt, "00a2_diferencias_colt.png", ancho = 9, alto = 4.2)
+write.csv(diferencias_colt, file.path(RUTA_OUTPUTS, "00a2_diferencias_colt.csv"), row.names = FALSE)
+
 # 2.2 Total de viajes por pais (todo el periodo)
 viajes_totales_pais <- colt %>%
   count(Pais_ES, name = "n_viajes") %>%
@@ -640,9 +693,11 @@ guardar_tabla_imagen(resumen_estadisticos, "00d_resumen_estadisticos_descriptivo
 ## ---- 3. Pregunta 1: evolucion general de la cantidad de viajes por anio -------
 
 viajes_por_anio <- colt %>% count(Year, name = "n_viajes")
+promedio_anual_viajes <- mean(viajes_por_anio$n_viajes, na.rm = TRUE)
 
 g1 <- ggplot(viajes_por_anio, aes(x = Year, y = n_viajes)) +
   geom_col(fill = gris_5) +
+  geom_hline(yintercept = promedio_anual_viajes, linetype = "dashed", color = gris_9, linewidth = 0.5) +
   scale_x_continuous(breaks = scales::breaks_pretty(n = 10)) +
   labs(x = NULL, y = "Cantidad de viajes")
 
@@ -1693,6 +1748,73 @@ g17 <- ggplot(viajes_latam_por_anio, aes(x = Year, y = promedio_movil)) +
 print(g17)
 ggsave(file.path(RUTA_OUTPUTS, "17_integracion_regional_en_retirada.png"), g17, width = 9, height = 6, dpi = 150)
 write.csv(viajes_latam_por_anio, file.path(RUTA_OUTPUTS, "17_integracion_regional_en_retirada.csv"), row.names = FALSE)
+
+
+## ---- 17b. Viajes BILATERALES recibidos por cada pais sudamericano, de otros --
+## paises sudamericanos (mismo estilo que la Figura 8/seccion 15: facet_wrap
+## con geom_col + linea de promedio por panel). A diferencia de la seccion 15
+## (que mira a DONDE viajan los presidentes sudamericanos), esta mira quien
+## RECIBE esos viajes -permite ver, pais por pais, si gana o pierde peso como
+## destino de sus vecinos a lo largo del tiempo (ej. Venezuela).
+## Se restringe a Visit_Category == "Bilateral" (visita puntual dirigida a ese
+## pais) para no mezclar "recibir una visita" con "ser sede de una cumbre
+## multilateral" -son fenomenos distintos; decision del usuario, 2026-09-01-.
+paises_sudamerica_en <- c("Argentina", "Bolivia", "Brazil", "Chile", "Colombia", "Ecuador",
+                           "Guyana", "Paraguay", "Peru", "Suriname", "Uruguay", "Venezuela")
+orden_pais_receptor <- unname(etiquetas_es[paises_sudamerica_en])  # ya alfabetico en es
+
+viajes_recibidos_intra_sudamerica <- colt %>%
+  filter(Visit_Category == "Bilateral",
+         LeaderCountryOrIGO %in% paises_sudamerica_en,
+         CountryVisited %in% paises_sudamerica_en,
+         LeaderCountryOrIGO != CountryVisited) %>%
+  mutate(Pais_receptor = recode(CountryVisited, !!!etiquetas_es)) %>%
+  count(Year, Pais_receptor, name = "n_viajes") %>%
+  complete(Year = ANIO_DESDE:ANIO_HASTA, Pais_receptor = orden_pais_receptor, fill = list(n_viajes = 0)) %>%
+  mutate(Pais_receptor = factor(Pais_receptor, levels = orden_pais_receptor))
+
+promedio_recibidos_por_pais <- viajes_recibidos_intra_sudamerica %>%
+  group_by(Pais_receptor) %>%
+  summarise(promedio = mean(n_viajes, na.rm = TRUE), .groups = "drop")
+
+g17b <- ggplot(viajes_recibidos_intra_sudamerica, aes(x = Year, y = n_viajes)) +
+  geom_col(fill = gris_6) +
+  geom_hline(data = promedio_recibidos_por_pais, aes(yintercept = promedio),
+             linetype = "dashed", color = gris_9, linewidth = 0.5) +
+  # Escala fija (NO free_y, pedido del usuario 2026-09-02): los 12 paneles
+  # comparten el mismo eje Y para que se pueda comparar a simple vista
+  # cuanto recibe cada pais frente a los demas, no solo su propia forma.
+  facet_wrap(~Pais_receptor, ncol = 3) +
+  scale_x_continuous(breaks = scales::breaks_pretty(n = 5)) +
+  labs(x = NULL, y = "Cantidad de viajes bilaterales recibidos")
+
+print(g17b)
+ggsave(file.path(RUTA_OUTPUTS, "17b_viajes_recibidos_intra_sudamerica.png"), g17b, width = 11, height = 13, dpi = 150)
+write.csv(viajes_recibidos_intra_sudamerica, file.path(RUTA_OUTPUTS, "17b_viajes_recibidos_intra_sudamerica.csv"), row.names = FALSE)
+
+## Panel aparte, mas grande, para Cuba: no es un pais sudamericano (queda
+## fuera de la grilla de 12 de arriba) pero el usuario pidio verlo aparte por
+## su peso simbolico/historico como destino de la diplomacia sudamericana
+## (cumbres del ALBA, relacion con Venezuela, giras medicas/de cooperacion,
+## etc.) -mismo criterio Bilateral-only que el resto de esta seccion.
+viajes_recibidos_cuba <- colt %>%
+  filter(Visit_Category == "Bilateral",
+         LeaderCountryOrIGO %in% paises_sudamerica_en,
+         CountryVisited == "Cuba") %>%
+  count(Year, name = "n_viajes") %>%
+  complete(Year = ANIO_DESDE:ANIO_HASTA, fill = list(n_viajes = 0))
+
+promedio_recibidos_cuba <- mean(viajes_recibidos_cuba$n_viajes, na.rm = TRUE)
+
+g17c <- ggplot(viajes_recibidos_cuba, aes(x = Year, y = n_viajes)) +
+  geom_col(fill = gris_6) +
+  geom_hline(yintercept = promedio_recibidos_cuba, linetype = "dashed", color = gris_9, linewidth = 0.5) +
+  scale_x_continuous(breaks = scales::breaks_pretty(n = 10)) +
+  labs(x = NULL, y = "Cantidad de viajes bilaterales recibidos")
+
+print(g17c)
+ggsave(file.path(RUTA_OUTPUTS, "17c_viajes_recibidos_cuba.png"), g17c, width = 9, height = 5, dpi = 150)
+write.csv(viajes_recibidos_cuba, file.path(RUTA_OUTPUTS, "17c_viajes_recibidos_cuba.csv"), row.names = FALSE)
 
 
 ## ---- 18. Ideologia presidencial y viajes intra-latinoamericanos ---------------
