@@ -1,0 +1,177 @@
+[
+  {
+    "LeaderID": "2179",
+    "correcciones": [
+      {
+        "TripID": "2179-VEN-AZE-44728",
+        "campo": "MetHostHoGS",
+        "valor_correcto": "No",
+        "justificacion": "La fuente primaria azerbaiyana (AZERTAC) indica explícitamente que la reunión entre el presidente Ilham Aliyev y Maduro se realizó en formato de videoconferencia, no cara a cara, porque miembros de la delegación venezolana dieron positivo a COVID-19. Maduro sí se encontraba físicamente en Azerbaiyán en 'working visit', por lo que el viaje en sí es real, pero no hubo encuentro presencial con el jefe de Estado anfitrión.",
+        "fuente": "https://azertag.az/en/xeber/President_Ilham_Aliyev_met_with_President_of_Venezuela_Nicolas_Maduro_in_format_of_video_conference_VIDEO-2181719"
+      },
+      {
+        "TripID": "2179-VEN-MEX-45222",
+        "campo": "TripEndDate",
+        "valor_correcto": "2023-10-23",
+        "justificacion": "Múltiples fuentes (La Jornada, Infobae, Proceso) ubican la Cumbre de Palenque sobre migración únicamente el 22 y 23 de octubre de 2023, con la firma del acuerdo de 13 puntos el 22 de octubre. No se encontró evidencia de actividad de Maduro en México el 24 de octubre. Esta entrada además parece duplicar el mismo evento ya registrado como TripID 2179-VEN-MEX-45221 (mismo lugar, mismo anfitrión, mismas fuentes de tipo tuit), ver nota en no_verificable.",
+        "fuente": "https://www.jornada.com.mx/noticia/2023/10/22/politica/llegan-diaz-canel-y-maduro-a-palenque-para-cumbre-sobre-migracion-8564"
+      },
+      {
+        "TripID": "2179-VEN-VCT-45351",
+        "campo": "TripStartDate",
+        "valor_correcto": "2024-03-01",
+        "justificacion": "Fuentes oficiales y de prensa (MPPRE, Infobae, La Jornada, El Nacional) coinciden en que Maduro llegó a San Vicente y las Granadinas el 1 de marzo de 2024 para la VIII Cumbre de la CELAC, celebrada ese mismo día. No se halló evidencia de su presencia el 29 de febrero de 2024.",
+        "fuente": "https://mppre.gob.ve/2024/03/01/presidente-maduro-llega-san-vicente-granadinas-participar-viii-cumbre-celac/"
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "2179-VEN-CUB-44526",
+        "campo": "TripStartDate / TripEndDate",
+        "motivo": "Fuentes cubanas oficiales (Granma, Cubadebate) fechan la inauguración del Centro Fidel Castro Ruz en La Habana el 25 de noviembre de 2021, mientras que la fuente citada en el propio registro COLT (France24, 'Maduro makes surprise visit to Havana as Cuba marks Castro's death anniversary') está fechada el 26 de noviembre de 2021. No se pudo determinar con certeza si la presencia de Maduro correspondió al 25, al 26, o a ambos días.",
+        "fuente_intentada": "Search Query: Maduro Centro Fidel Castro Ruz inauguracion presencia 25 noviembre 2021 Havana"
+      },
+      {
+        "TripID": "2179-VEN-MEX-45221",
+        "campo": "TripID (posible duplicado con 2179-VEN-MEX-45222)",
+        "motivo": "Esta entrada y 2179-VEN-MEX-45222 describen aparentemente el mismo viaje (Cumbre de Palenque sobre migración, 22-23 oct 2023, mismo anfitrión Andrés Manuel López Obrador) con fuentes solapadas (mismos tuits de Maduro) pero con datos no coincidentes entre sí (el presidente Ariel Henry de Haití figura solo en esta entrada, no en la 45222). No se pudo determinar con las fuentes disponibles si corresponden a dos tramos reales distintos o a una duplicación de un mismo viaje en la base COLT.",
+        "fuente_intentada": "Search Query: Maduro Palenque Mexico cumbre migracion 22 23 octubre 2023 itinerario completo"
+      },
+      {
+        "TripID": "2179-VEN-RUS-45587",
+        "campo": "TripEndDate",
+        "motivo": "La Cumbre de los BRICS en Kazán se desarrolló formalmente entre el 22 y el 24 de octubre de 2024 y la llegada de Maduro el 22 de octubre está bien documentada, pero no se encontró una fuente que confirme específicamente si su salida de Rusia fue el 23 o el 24 de octubre. Una nota de prensa del 27-oct-2024 sobre declaraciones a su 'regreso a Venezuela' no permite establecer con precisión la fecha de salida de Kazán ni si hubo escalas intermedias.",
+        "fuente_intentada": "Search Query: Maduro Kazan BRICS fecha exacta de salida 23 OR 24 octubre 2024 regreso Caracas"
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "2179-VEN-DZA-44720",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2022-06-08 a 2022-06-10; President Abdelmajid Tebboune",
+        "justificacion": "Consistente con la gira internacional de 11 días (Turquía, Argelia, Irán, Kuwait, Catar, Azerbaiyán) confirmada por prensa, con regreso a Venezuela el sábado 18 de junio de 2022; Maduro y Tebboune acordaron vuelos directos y una hoja de ruta de cooperación.",
+        "fuente": "https://www.infobae.com/america/venezuela/2022/06/09/el-dictador-nicolas-maduro-llego-a-argelia-para-reunirse-con-abdelmadijd-tebboune/"
+      },
+      {
+        "TripID": "2179-VEN-DZA-45183",
+        "campo": "TripStartDate/TripEndDate/Notes",
+        "valor": "2023-09-14 a 2023-09-15; escala en Argel camino a Cuba",
+        "justificacion": "Confirmado como escala de regreso desde China antes de dirigirse a Cuba para la Cumbre del G77+China; Maduro se reunió con el primer ministro argelino Aymene Benabderrahmane y se selló un acuerdo de vuelos directos.",
+        "fuente": "https://www.ntn24.com/noticias-actualidad/maduro-regreso-a-venezuela-luego-de-recorrer-china-argelia-cuba-y-conversar-con-guterres-444524"
+      },
+      {
+        "TripID": "2179-VEN-BRA-45074",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2023-05-28 a 2023-05-30; President Luiz Inácio Lula da Silva",
+        "justificacion": "Confirmado: Maduro llegó a Brasilia el domingo 28 de mayo, se reunió bilateralmente con Lula el 29 y participó en la Cumbre Sudamericana el 30 de mayo de 2023.",
+        "fuente": "https://larepublica.pe/mundo/venezuela/2023/05/29/nicolas-maduro-llega-a-brasil-para-cumbre-convocada-por-lula-da-silva-con-presidentes-de-sudamerica-nicolas-maduro-brasil-lula-da-silva-recompensa-nicolas-maduro-lrtmv-744662"
+      },
+      {
+        "TripID": "2179-VEN-CHN-45177",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2023-09-08 a 2023-09-14; General Secretary Xi Jinping",
+        "justificacion": "Coincide exactamente con el listado de viajes presidenciales de Maduro (visita de Estado a Beijing, 8-14 de septiembre de 2023) y con la cobertura de Bloomberg sobre la visita previa a las elecciones.",
+        "fuente": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Nicol%C3%A1s_Maduro"
+      },
+      {
+        "TripID": "2179-VEN-CUB-44543",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "2021-12-13 a 2021-12-15; XX Cumbre ALBA-TCP",
+        "justificacion": "Confirmado parcialmente: Maduro arribó a La Habana la noche del lunes 13 de diciembre y la sesión plenaria de la XX Cumbre del ALBA-TCP se realizó el martes 14 de diciembre de 2021; no se halló fuente independiente que contradiga la fecha de salida (15 dic).",
+        "fuente": "https://www.infobae.com/america/venezuela/2021/12/14/el-dictador-nicolas-maduro-viajo-a-cuba-para-la-cumbre-del-alba/"
+      },
+      {
+        "TripID": "2179-VEN-CUB-44708",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "2022-05-27; XXI Cumbre ALBA-TCP",
+        "justificacion": "Confirmado: la XXI Cumbre del ALBA-TCP sesionó en La Habana el 27 de mayo de 2022, coincidiendo exactamente con la fecha registrada.",
+        "fuente": "http://www.cubadebate.cu/noticias/2022/05/27/comienza-en-la-habana-xxi-cumbre-del-alba-tcp/"
+      },
+      {
+        "TripID": "2179-VEN-CUB-44909",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "2022-12-14; XXII Cumbre ALBA-TCP",
+        "justificacion": "Confirmado: Maduro arribó a La Habana el 14 de diciembre de 2022 para la XXII Cumbre del ALBA-TCP (18º aniversario), realizada ese mismo día en el Palacio de las Convenciones.",
+        "fuente": "https://mppre.gob.ve/2022/12/14/presidente-maduro-arriba-habana-participar-cumbre-alba-tcp/"
+      },
+      {
+        "TripID": "2179-VEN-EGY-44870",
+        "campo": "TripStartDate/CountryVisited",
+        "valor": "Llegada 2022-11-05, COP27, Sharm El Sheikh",
+        "justificacion": "Confirmado: Maduro arribó a Egipto la tarde del sábado 5 de noviembre de 2022 para participar en la COP27; la fecha de salida (10 nov) es consistente con reportes de Bloomberg del 11 de noviembre que ya lo describen fuera de Egipto continuando su gira.",
+        "fuente": "https://www.telesurtv.net/news/venezuela-presidente-nicolas-maduro-arriba-egipto-cop-20221105-0012.html"
+      },
+      {
+        "TripID": "2179-VEN-IRN-44722",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2022-06-10 a 2022-06-11; President Ebrahim Raisi",
+        "justificacion": "Coincide con el listado de viajes presidenciales de Maduro y con la gira de junio de 2022 (Turquía-Argelia-Irán-Kuwait-Catar-Azerbaiyán), confirmada por IRNA y otras fuentes ya citadas en COLT.",
+        "fuente": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Nicol%C3%A1s_Maduro"
+      },
+      {
+        "TripID": "2179-VEN-KWT-44725",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2022-06-13 a 2022-06-14",
+        "justificacion": "Confirmado por Reuters ('Venezuela's Maduro in Kuwait for official visit', 2022-06-13), consistente con la gira de junio de 2022.",
+        "fuente": "https://www.reuters.com/world/venezuelans-maduro-kuwait-official-visit-2022-06-13/"
+      },
+      {
+        "TripID": "2179-VEN-MEX-44456",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2021-09-17 a 2021-09-19",
+        "justificacion": "Confirmado con precisión: Maduro llegó a Ciudad de México el viernes 17 de septiembre de 2021 (su primer viaje internacional desde 2020) y se despidió la tarde del domingo 19 de septiembre tras la Cumbre de la CELAC.",
+        "fuente": "https://efectococuyo.com/politica/maduro-mexico-fracasaron-provocadores-celac/"
+      },
+      {
+        "TripID": "2179-VEN-QAT-44726",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2022-06-14 a 2022-06-15",
+        "justificacion": "Confirmado por Reuters ('Venezuela, Qatar pledge direct flights - Maduro', 2022-06-16), consistente con la gira de junio de 2022.",
+        "fuente": "https://www.reuters.com/world/venezuela-qatar-pledge-direct-flights-maduro-2022-06-16/"
+      },
+      {
+        "TripID": "2179-VEN-RUS-45783",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2025-05-06 a 2025-05-09; President Vladimir Putin",
+        "justificacion": "Confirmado por múltiples fuentes de prensa y del gobierno venezolano (presidencia.gob.ve): Maduro viajó a Moscú para las celebraciones del 80º aniversario del Día de la Victoria, firmó un tratado de asociación estratégica de 10 años con Putin el 7 de mayo. Esta fue la última salida internacional de Maduro antes de su captura en enero de 2026, según el listado de Wikipedia de sus viajes presidenciales.",
+        "fuente": "https://www.themoscowtimes.com/2025/05/07/putin-and-maduro-sign-strategic-partnership-treaty-in-moscow-a89010"
+      },
+      {
+        "TripID": "2179-VEN-VCT-45274",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2023-12-14; Prime Minister Ralph Gonsalves",
+        "justificacion": "Confirmado por Forbes ('Guyana's Irfaan Ali And Venezuela's Nicolas Maduro Meet In St Vincent', 2023-12-14): reunión bilateral Venezuela-Guyana sobre el Esequibo, facilitada por Gonsalves.",
+        "fuente": "https://www.forbes.com/sites/eliasferrerbreda/2023/12/14/guyanas-irfaan-ali-and-venezuelas-nicolas-maduro-meet-in-st-vincent/"
+      },
+      {
+        "TripID": "2179-VEN-SAU-45081",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2023-06-04 a 2023-06-06; Crown Prince Mohammed bin Salman",
+        "justificacion": "Confirmado con precisión: Maduro llegó el domingo 4 de junio de 2023 a Jeddah y se reunió con el príncipe heredero Mohammed bin Salman la mañana del martes 6 de junio de 2023.",
+        "fuente": "https://www.thenationalnews.com/gulf-news/saudi-arabia/2023/06/06/saudi-crown-prince-mohammed-bin-salman-meets-venezuelan-president-nicolas-maduro-in-jeddah/"
+      },
+      {
+        "TripID": "2179-VEN-TUR-44719",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2022-06-07 a 2022-06-08; President Recep Tayyip Erdogan",
+        "justificacion": "Confirmado por France24 ('Excluded from Americas Summit, Venezuela's Maduro visits Turkey', 8 junio 2022) como primera etapa de la gira de junio de 2022.",
+        "fuente": "https://www.france24.com/en/europe/20220608-excluded-from-americas-summit-venezuela-s-maduro-visits-turkey"
+      },
+      {
+        "TripID": "2179-VEN-TUR-45080",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2023-06-03 a 2023-06-04; asistencia a investidura de Erdogan",
+        "justificacion": "Confirmado: la ceremonia de investidura de Recep Tayyip Erdogan para su nuevo mandato se realizó el 3 de junio de 2023 en Ankara, coincidiendo con el listado de viajes de Wikipedia.",
+        "fuente": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Nicol%C3%A1s_Maduro"
+      },
+      {
+        "TripID": "2179-VEN-CUB-45184",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "2023-09-15 a 2023-09-17; Cumbre del G77+China",
+        "justificacion": "Confirmado con precisión por MPPRE y Prensa Latina: Maduro participó en la Cumbre del G77+China en La Habana entre el 15 y el 17 de septiembre de 2023.",
+        "fuente": "https://mppre.gob.ve/2023/09/15/presidente-maduro-participa-cumbre-del-g77-china-cuba/"
+      }
+    ]
+  }
+]

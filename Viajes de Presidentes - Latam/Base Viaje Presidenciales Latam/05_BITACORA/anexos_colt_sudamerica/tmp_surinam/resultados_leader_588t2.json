@@ -1,0 +1,203 @@
+[
+  {
+    "LeaderID": "588",
+    "correcciones": [
+      {
+        "TripID": "588-SUR-BRB-36938",
+        "campo": "TripStartDate",
+        "valor_correcto": "2001-02-14",
+        "fuente": "https://caricom.org/address-by-the-rt-hon-owen-arthur-prime-minister-of-barbados-at-the-opening-ceremony-of-the-12th-inter-sessional-meeting-of-the-conference-of-heads-of-government-of-the-caribbean-community-14-febr-2/",
+        "justificacion": "La 12th Inter-Sessional Meeting of the Conference of Heads of Government of CARICOM se realizó en el Sherbourne Conference Centre, Bridgetown, Barbados, del 14 al 16 de febrero de 2001 (discursos de apertura del 14 de febrero de 2001 confirmados en fuente oficial CARICOM). El archivo cargado solo registra el 16-02-2001 como día único, lo que subestima la duración real del viaje."
+      },
+      {
+        "TripID": "588-SUR-BRB-36938",
+        "campo": "TripDuration",
+        "valor_correcto": "3",
+        "fuente": "https://caricom.org/address-by-the-rt-hon-owen-arthur-prime-minister-of-barbados-at-the-opening-ceremony-of-the-12th-inter-sessional-meeting-of-the-conference-of-heads-of-government-of-the-caribbean-community-14-febr-2/",
+        "justificacion": "Consistente con la corrección de TripStartDate: la reunión duró del 14 al 16 de febrero de 2001 (3 días), no 1 día como figura actualmente."
+      },
+      {
+        "TripID": "588-SUR-GUY-37441",
+        "campo": "TripStartDate",
+        "valor_correcto": "2002-07-03",
+        "fuente": "https://caricom.org/communique-issued-at-the-conclusion-of-the-twenty-third-meeting-of-the-conference-of-heads-of-government-of-the-caribbean-community-georgetown-guyana-3-5-july-2002/",
+        "justificacion": "El comunicado oficial de CARICOM confirma que la Twenty-Third Meeting of the Conference of Heads of Government se realizó en Georgetown, Guyana, del 3 al 5 de julio de 2002 (no 4-6 de julio como figura en el archivo cargado)."
+      },
+      {
+        "TripID": "588-SUR-GUY-37441",
+        "campo": "TripEndDate",
+        "valor_correcto": "2002-07-05",
+        "fuente": "https://caricom.org/communique-issued-at-the-conclusion-of-the-twenty-third-meeting-of-the-conference-of-heads-of-government-of-the-caribbean-community-georgetown-guyana-3-5-july-2002/",
+        "justificacion": "Ver justificación de TripStartDate: la reunión concluyó el 5 de julio de 2002, no el 6 de julio."
+      },
+      {
+        "TripID": "588-SUR-GUY-39996",
+        "campo": "TripEndDate",
+        "valor_correcto": "2009-07-05",
+        "fuente": "https://caricom.org/communique-issued-at-the-conclusion-of-the-thirtieth-regular-meeting-of-the-conference-of-heads-of-government-of-the-caribbean-community-2-5-july-2009-georgetown-guyana/",
+        "justificacion": "El comunicado oficial de CARICOM confirma que la Thirtieth Regular Meeting se realizó en Georgetown, Guyana, del 2 al 5 de julio de 2009 (4 días), no 2-4 de julio como figura en el archivo cargado."
+      },
+      {
+        "TripID": "588-SUR-GUY-39996",
+        "campo": "TripDuration",
+        "valor_correcto": "4",
+        "fuente": "https://caricom.org/communique-issued-at-the-conclusion-of-the-thirtieth-regular-meeting-of-the-conference-of-heads-of-government-of-the-caribbean-community-2-5-july-2009-georgetown-guyana/",
+        "justificacion": "Consistente con la corrección de TripEndDate: la reunión duró 4 días (2-5 de julio de 2009), no 3."
+      },
+      {
+        "TripID": "588-SUR-BRA-39592",
+        "campo": "TripStartDate",
+        "valor_correcto": "2008-05-23",
+        "fuente": "Search Query: UNASUR Constitutive Treaty signed Brasilia May 23 2008",
+        "justificacion": "El Tratado Constitutivo de UNASUR fue firmado el 23 de mayo de 2008 durante la Cumbre Extraordinaria de Jefes de Estado y de Gobierno en Brasilia (no el 24 de mayo como figura en el archivo). Suriname fue uno de los 12 países signatarios originales."
+      },
+      {
+        "TripID": "588-SUR-BRA-39592",
+        "campo": "TripEndDate",
+        "valor_correcto": "2008-05-23",
+        "fuente": "Search Query: UNASUR Constitutive Treaty signed Brasilia May 23 2008",
+        "justificacion": "La ceremonia de firma del Tratado Constitutivo de UNASUR se realizó en un único día, el 23 de mayo de 2008, no el 24."
+      },
+      {
+        "TripID": "588-SUR-NGA-39051",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Africa-South America (ASA) Summit",
+        "fuente": "https://esafr.cancilleria.gob.ar/userfiles/Declaracion%20de%20ASA%20I%20-%20(Abuja%202006)_1.pdf",
+        "justificacion": "La 5ta Cumbre ACP se realizó en Jartum, Sudán, en diciembre de 2006, NO en Nigeria. El evento real realizado en Abuja, Nigeria, entre el 26 y el 30 de noviembre de 2006 (declaración fechada 30-nov-2006) fue la Primera Cumbre África-América del Sur (ASA), que reunió a jefes de Estado de 53 países africanos y 12 naciones sudamericanas, incluida Suriname, liderada por el anfitrión nigeriano Olusegun Obasanjo y promovida por Lula da Silva. Esto es coherente con el campo ya cargado 'MetNonhostHOGS: President Luiz Inacio Lula da Silva', que corrobora que se trató de la Cumbre ASA y no de una cumbre ACP."
+      },
+      {
+        "TripID": "588-SUR-CHN-38039",
+        "campo": "HostHOGSName",
+        "valor_correcto": "President Hu Jintao",
+        "fuente": "https://pg.china-embassy.gov.cn/eng/fyrth/200402/t20040212_915895.htm",
+        "justificacion": "La vocera del Ministerio de Relaciones Exteriores de China anunció el 12/02/2004 que el presidente Venetiaan realizaría una visita de trabajo a China 'a invitación del Presidente chino Hu Jintao' (título usado oficialmente: 'President', no 'General Secretary'). Dado que se trata de una reunión protocolar entre jefes de Estado, corresponde usar el título de Jefe de Estado."
+      },
+      {
+        "TripID": "588-SUR-PER-38329",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "South American States Summit",
+        "fuente": "https://www.cvce.eu/en/obj/cusco_declaration_on_the_south_american_community_of_nations_cusco_8_december_2004-en-4a54e28f-18a1-4f82-bba7-bc5464f66698.html",
+        "justificacion": "En diciembre de 2004 aún no existía la Unión de Naciones Suramericanas (UNASUR, fundada recién en mayo de 2008); lo que se creó en Cusco fue la Comunidad Sudamericana de Naciones (CSN/CASA). Para mantener coherencia con el nombre ya usado en el propio archivo para la primera cumbre (Brasilia, 2000: 'South American States Summit'), se sugiere renombrar este evento de la misma manera en vez de 'UNASUR Summit', que es anacrónico para esta fecha. Corrección de confianza moderada: si la metodología COLT usa 'UNASUR Summit' como categoría retroactiva para toda la serie de cumbres sudamericanas, este campo podría mantenerse sin cambios."
+      },
+      {
+        "TripID": "588-SUR-USA-37385",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "UN Special Session on Children",
+        "fuente": "https://press.un.org/en/2002/ga10022.doc.htm",
+        "justificacion": "El evento realizado en Nueva York del 8 al 10 de mayo de 2002 fue oficialmente la 'UN General Assembly Special Session on Children' (primera sesión especial de la Asamblea General dedicada exclusivamente a la infancia), no el 'World Summit on Children' (nombre correspondiente a la cumbre de 1990). El nombre cargado en el archivo corresponde a un evento distinto y anterior."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "588-SUR-LCA-37938",
+        "campo": "NameMultilatEvent / TripStartDate / TripEndDate",
+        "justificacion": "El archivo cita como fuente un comunicado de CARICOM titulado 'press-statement-issued-at-the-conclusion-of-the-ninth-special-Meeting-of-th' fechado 13-14 de noviembre de 2003 en Santa Lucía. Se intentó acceder directamente a esa URL (sin resultado, página vacía) y se realizaron múltiples búsquedas en fuentes independientes (CARICOM, prensa) sobre una 'Ninth Special Meeting' de la Conferencia de Jefes de Gobierno de CARICOM en Santa Lucía en noviembre de 2003, sin poder confirmar su existencia ni sus fechas exactas. No se encontró evidencia independiente que corrobore ni contradiga el dato cargado."
+      },
+      {
+        "TripID": "588-SUR-GHA-39720",
+        "campo": "TripStartDate / TripEndDate",
+        "justificacion": "La 6ta Cumbre de Jefes de Estado y de Gobierno del Grupo ACP se realizó en Accra, Ghana, el 2 y 3 de octubre de 2008 (fuente: ACP/OACPS). El archivo cargado registra un viaje del 29 de septiembre al 4 de octubre de 2008 (6 días), un rango considerablemente más amplio que la cumbre confirmada (2 días). No se encontró fuente independiente que documente actividades bilaterales adicionales de Venetiaan en Ghana antes o después de la cumbre que justifiquen la duración total cargada, por lo que no se puede confirmar ni corregir con certeza el rango exacto de fechas del viaje."
+      },
+      {
+        "TripID": "588-SUR-PER-38329",
+        "campo": "TripEndDate",
+        "justificacion": "La Tercera Reunión de Presidentes de América del Sur / Declaración del Cusco (creación de la Comunidad Sudamericana de Naciones) se realizó del 7 al 9 de diciembre de 2004 en Cusco y Ayacucho, Perú. El archivo cargado indica que el viaje se extendió hasta el 13 de diciembre (6 días), 4 días después del cierre confirmado de la cumbre, sin fuente independiente que corrobore actividades adicionales en Perú hasta esa fecha. No se encontró evidencia que confirme la fecha exacta de regreso de Venetiaan a Surinam. [Nota QC: se movio de 'correcciones' a 'no_verificable' porque no se determino un valor de fecha exacto y unico -el subagente habia puesto la palabra 'no_verificable' como si fuera el valor corregido, lo cual viola el esquema; el dato original de COLT (2004-12-13) se mantiene sin cambios]."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "588-SUR-ATG-39630",
+        "justificacion": "CARICOM confirma que la 29th Meeting of the Conference of Heads of Government se realizó en Bolans, Antigua y Barbuda, del 1 al 4 de julio de 2008, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-BHS-37075",
+        "justificacion": "Comunicado oficial de CARICOM confirma la 22nd Meeting realizada en Nassau, Bahamas, del 3 al 6 de julio de 2001, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-BHS-39514",
+        "justificacion": "La 19th Inter-Sessional Meeting de CARICOM se realizó en Nassau, Bahamas, el 7-8 de marzo de 2008, coincidiendo exactamente con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-BRB-39264",
+        "justificacion": "El comunicado oficial de CARICOM (ya citado como fuente en el archivo) confirma la 28th Meeting en Needham's Point, Barbados, del 1 al 4 de julio de 2007, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-BLZ-37290",
+        "justificacion": "La 13th Inter-Sessional Meeting de CARICOM se realizó en Belize City del 3 al 5 de febrero de 2002, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-BLZ-39884",
+        "justificacion": "La 20th Inter-Sessional Meeting de CARICOM se realizó en Belize City los días 12-13 de marzo de 2009, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-BRA-36769",
+        "justificacion": "La Primera Cumbre de Presidentes Sudamericanos (Brasilia) fue organizada por el presidente Fernando Henrique Cardoso del 31 de agosto al 1 de septiembre de 2000, con participación confirmada de los jefes de Estado sudamericanos incluyendo Guyana (Bharrat Jagdeo), coincidiendo con las fechas y el dato de reunión no-host cargados."
+      },
+      {
+        "TripID": "588-SUR-BRA-39100",
+        "justificacion": "Fuentes de prensa confirman que la Cumbre de MERCOSUR se realizó en Río de Janeiro en enero de 2007; aunque no se pudo confirmar el día exacto en fuente independiente adicional a la ya citada (ProQuest), la fecha cargada (18-19 enero 2007) es consistente con las referencias encontradas a 'la cumbre de este mes' en un artículo del 24 de enero de 2007."
+      },
+      {
+        "TripID": "588-SUR-CAN-37001",
+        "justificacion": "La Tercera Cumbre de las Américas se realizó en Quebec, Canadá, del 20 al 22 de abril de 2001, coincidiendo exactamente con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-DNK-40162",
+        "justificacion": "La COP15 (Conferencia de Naciones Unidas sobre Cambio Climático) se realizó en Copenhague del 7 al 18 de diciembre de 2009; el tramo de viaje cargado (15-17 diciembre) corresponde al segmento de alto nivel con jefes de Estado, consistente con el evento."
+      },
+      {
+        "TripID": "588-SUR-GRD-38172",
+        "justificacion": "La 25th Meeting de la Conferencia de CARICOM (incluyendo la Declaración de Calivigny sobre Haití) se realizó en St. George's, Granada, del 4 al 7 de julio de 2004, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-JAM-37804",
+        "justificacion": "Comunicado oficial de CARICOM confirma la 24th Meeting en Montego Bay, Jamaica, del 2 al 5 de julio de 2003, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-MEX-37998",
+        "justificacion": "La Cumbre Especial de las Américas se realizó en Monterrey, México, el 12 y 13 de enero de 2004, coincidiendo exactamente con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-NLD-37119",
+        "justificacion": "Wim Kok fue Primer Ministro de los Países Bajos hasta julio de 2002, por lo que es cronológicamente consistente con una visita en agosto de 2001; el archivo ya cuenta con dos fuentes (ProQuest y fotografía de archivo Getty Images) que documentan el encuentro, sin evidencia independiente que lo contradiga."
+      },
+      {
+        "TripID": "588-SUR-KNA-38071",
+        "justificacion": "La 15th Inter-Sessional Meeting de CARICOM se realizó en Basseterre, San Cristóbal y Nieves, el 25-26 de marzo de 2004, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-KNA-38901",
+        "justificacion": "Comunicado oficial de CARICOM confirma la 27th Meeting en Bird Rock, San Cristóbal y Nieves, del 3 al 6 de julio de 2006, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-LCA-38536",
+        "justificacion": "Comunicado oficial de CARICOM confirma la 26th Meeting en Gros Islet, Santa Lucía, del 3 al 6 de julio de 2005, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-VCT-39125",
+        "justificacion": "Comunicado oficial de CARICOM confirma la 18th Inter-Sessional Meeting en Kingstown, San Vicente y las Granadinas, del 12 al 14 de febrero de 2007, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-TTO-37666",
+        "justificacion": "La 14th Inter-Sessional Meeting de CARICOM se realizó en Puerto España, Trinidad y Tobago, el 14-15 de febrero de 2003, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-TTO-38299",
+        "justificacion": "La 10th Special Meeting de CARICOM se realizó en Puerto España, Trinidad y Tobago, el 8-9 de noviembre de 2004, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-TTO-38757",
+        "justificacion": "La 17th Inter-Sessional Meeting de CARICOM se realizó en Trinidad y Tobago el 9-10 de febrero de 2006, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "588-SUR-TTO-39340",
+        "justificacion": "La Cumbre Regional sobre Enfermedades Crónicas No Transmisibles, convocada bajo el marco de la Conferencia de Jefes de Gobierno de CARICOM, se realizó en Puerto España el 15 de septiembre de 2007, coincidiendo con la fecha cargada."
+      },
+      {
+        "TripID": "588-SUR-USA-38611",
+        "justificacion": "La Reunión Plenaria de Alto Nivel de la Asamblea General de la ONU ('World Summit 2005') se realizó del 14 al 16 de septiembre de 2005 en Nueva York, seguida por el debate general del 60º período de sesiones; el tramo de viaje cargado (16-20 septiembre) es consistente con la participación en ambos segmentos."
+      }
+    ]
+  }
+]

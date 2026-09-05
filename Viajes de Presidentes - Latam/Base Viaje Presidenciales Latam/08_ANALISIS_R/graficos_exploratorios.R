@@ -588,20 +588,31 @@ write.csv(ficha_general, file.path(RUTA_OUTPUTS, "00a_ficha_general.csv"), row.n
 #     dato -quedan marcadas "no_verificable", el dato de COLT no se toca-.
 #     Un TripID puede figurar en Modificados y en Pendientes a la vez si un
 #     campo se pudo corregir y otro del mismo viaje no.
-# Ecuador, Guyana y Surinam y Venezuela todavia no pasaron por esta
-# verificacion (quedan con la cobertura original de COLT sin cruzar), se
-# marcan "Sin iniciar" en las 4 columnas hasta que se investiguen.
+# Ecuador (9 pres., 1994-2026) verificado 2026-09-03: 428 TripID cubiertos
+# (100%), 20 agregados (PELATAM, 1 hallazgo adicional -gira Vietnam de Noboa,
+# ago-2026- se documento como cancelacion en la hoja Viajes_Cancelados y NO
+# se conto como agregado real), 47 modificados, 0 eliminados, 64 pendientes.
+# Guyana (6 pres., 1994-2026) verificado 2026-09-04: 315 TripID cubiertos
+# (100%), 10 agregados, 33 modificados, 0 eliminados, 35 pendientes.
+# Surinam (5 pres., 1994-2026) verificado 2026-09-04: 141 TripID cubiertos
+# (100%), 7 agregados, 24 modificados, 0 eliminados, 14 pendientes.
+# Venezuela (5 pres./mandatarios, 1994-2026, ultimo pais del proyecto)
+# verificado 2026-09-05: 494 TripID cubiertos (100% de los elegibles; Carlos
+# Andres Perez y Ramon Jose Velasquez excluidos por ser integramente
+# pre-1994) mas 1 mandataria investigada desde cero (Delcy Rodriguez, sin
+# cobertura COLT), 13 agregados (PELATAM, todos viajes reales, 0
+# cancelaciones), 87 modificados, 0 eliminados, 50 pendientes.
 diferencias_colt <- data.frame(
   Pais = c("Argentina", "Bolivia", "Brasil", "Chile", "Colombia", "Ecuador",
            "Guyana", "Paraguay", "Peru", "Surinam", "Uruguay", "Venezuela"),
-  Agregados = c("25", "12", "27", "60", "7", "Sin iniciar",
-                "Sin iniciar", "49", "5", "Sin iniciar", "29", "Sin iniciar"),
-  Modificados = c("96", "14", "94", "101", "39", "Sin iniciar",
-                  "Sin iniciar", "54", "25", "Sin iniciar", "56", "Sin iniciar"),
-  Eliminados = c("4", "0", "5", "7", "0", "Sin iniciar",
-                 "Sin iniciar", "16", "0", "Sin iniciar", "6", "Sin iniciar"),
-  Pendientes_de_validar = c("75", "30", "49", "68", "50", "Sin iniciar",
-                             "Sin iniciar", "120", "28", "Sin iniciar", "69", "Sin iniciar"),
+  Agregados = c("25", "12", "27", "60", "7", "20",
+                "10", "49", "5", "7", "29", "13"),
+  Modificados = c("96", "14", "94", "101", "39", "47",
+                  "33", "54", "25", "24", "56", "87"),
+  Eliminados = c("4", "0", "5", "7", "0", "0",
+                 "0", "16", "0", "0", "6", "0"),
+  Pendientes_de_validar = c("75", "30", "49", "68", "50", "64",
+                             "35", "120", "28", "14", "69", "50"),
   stringsAsFactors = FALSE
 )
 print(diferencias_colt)

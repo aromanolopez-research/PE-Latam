@@ -1,0 +1,342 @@
+[
+  {
+    "LeaderID": "2223",
+    "correcciones": [
+      {
+        "TripID": "2223-ECU-ARG-40302",
+        "campo": "TripStartDate",
+        "valor_correcto": "2010-05-03",
+        "fuente": "https://cancilleria.gob.ar/es/actualidad/comunicados/unasur-declaracion-final-de-los-presidentes-luego-de-la-reunion-en-los",
+        "justificacion": "La reunión extraordinaria de Jefes de Estado de UNASUR se realizó los días 3 y 4 de mayo de 2010 en Los Cardales, Campana (provincia de Buenos Aires). Rafael Correa, como presidente pro tempore de UNASUR en ese momento, tuvo un rol central en la reunión desde su inicio el día 3, no solo el 4 como figura actualmente cargado."
+      },
+      {
+        "TripID": "2223-ECU-ARG-40302",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "fuente": "https://cancilleria.gob.ar/es/actualidad/comunicados/unasur-declaracion-final-de-los-presidentes-luego-de-la-reunion-en-los",
+        "justificacion": "Consecuencia directa de la corrección de TripStartDate: la cumbre extraordinaria de UNASUR duró dos días (3 y 4 de mayo de 2010), no uno solo."
+      },
+      {
+        "TripID": "2223-ECU-TUR-40982",
+        "campo": "TripEndDate",
+        "valor_correcto": "2012-03-16",
+        "fuente": "https://www.eluniverso.com/2012/03/16/1/1355/rafael-correa-turquia-recibe-doctorado-honoris-causa.html/",
+        "justificacion": "Según prensa ecuatoriana, Correa recibió un doctorado honoris causa en Estambul el viernes 16 de marzo de 2012 y partió de Turquía esa misma tarde rumbo a España, donde se reunió con el Primer Ministro Mariano Rajoy los días 17-18 de marzo (viaje ya cargado como 2223-ECU-ESP-40985). El viaje a Turquía debería terminar el 16, no el 17 de marzo."
+      },
+      {
+        "TripID": "2223-ECU-TUR-40982",
+        "campo": "TripDuration",
+        "valor_correcto": "3",
+        "fuente": "https://www.eluniverso.com/2012/03/16/1/1355/rafael-correa-turquia-recibe-doctorado-honoris-causa.html/",
+        "justificacion": "Consecuencia directa de la corrección de TripEndDate: el viaje a Turquía duró del 14 al 16 de marzo de 2012 (3 días), no 4."
+      },
+      {
+        "TripID": "2223-ECU-DEU-41380",
+        "campo": "TripStartDate",
+        "valor_correcto": "2013-04-15",
+        "fuente": "https://www.presidencia.gob.ec/primer-mandatario-arriba-a-berlin-para-afianzar-las-relaciones-entre-ecuador-y-alemania/",
+        "justificacion": "La Presidencia de la República del Ecuador y prensa (El Universo, Cooperativa.cl) reportan que Correa arribó a Berlín el lunes 15 de abril de 2013, y que su visita oficial a Alemania duró tres días, culminando con el encuentro con la Canciller Angela Merkel el miércoles 17 de abril. El registro actual solo cubre el 16-17, perdiendo el primer día."
+      },
+      {
+        "TripID": "2223-ECU-DEU-41380",
+        "campo": "TripDuration",
+        "valor_correcto": "3",
+        "fuente": "https://www.presidencia.gob.ec/primer-mandatario-arriba-a-berlin-para-afianzar-las-relaciones-entre-ecuador-y-alemania/",
+        "justificacion": "Consecuencia directa de la corrección de TripStartDate: la visita oficial a Alemania duró tres días (15-17 de abril de 2013), no dos."
+      },
+      {
+        "TripID": "2223-ECU-CHL-41300",
+        "campo": "TripStartDate",
+        "valor_correcto": "2013-01-27",
+        "fuente": "https://es.wikipedia.org/wiki/I_Cumbre_de_la_Celac_de_2013",
+        "justificacion": "El evento cargado en NameMultilatEvent (\"Community of Latin American and Caribbean States (CELAC) Summit\") corresponde a la I Cumbre de la CELAC, realizada en Santiago de Chile específicamente los días 27 y 28 de enero de 2013 (distinta de la Cumbre CELAC-UE que la precedió el 26-27 de enero). La fecha actualmente cargada (26 de enero únicamente) no se superpone con las fechas reales de la cumbre CELAC nombrada en el registro."
+      },
+      {
+        "TripID": "2223-ECU-CHL-41300",
+        "campo": "TripEndDate",
+        "valor_correcto": "2013-01-28",
+        "fuente": "https://es.wikipedia.org/wiki/I_Cumbre_de_la_Celac_de_2013",
+        "justificacion": "La I Cumbre de la CELAC concluyó el 28 de enero de 2013, día en que se adoptó la Declaración de Santiago; esa es la fecha de cierre real del evento nombrado en el registro."
+      },
+      {
+        "TripID": "2223-ECU-CHL-41300",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "fuente": "https://es.wikipedia.org/wiki/I_Cumbre_de_la_Celac_de_2013",
+        "justificacion": "Consecuencia directa de la corrección de fechas: la I Cumbre de la CELAC duró dos días (27-28 de enero de 2013)."
+      },
+      {
+        "TripID": "2223-ECU-VEN-40944",
+        "campo": "TripStartDate",
+        "valor_correcto": "2012-02-04",
+        "fuente": "http://www.cubadebate.cu/noticias/2012/02/04/comienza-en-caracas-xi-cumbre-del-alba/",
+        "justificacion": "La XI Cumbre del ALBA se realizó en Caracas los días 4 y 5 de febrero de 2012. Prensa (Cubadebate, El Telégrafo de Ecuador) ubica a Correa presente en la instalación de la cumbre el 4 de febrero en el Palacio de Miraflores, no solo el día 5 como figura cargado."
+      },
+      {
+        "TripID": "2223-ECU-VEN-40944",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "fuente": "http://www.cubadebate.cu/noticias/2012/02/04/comienza-en-caracas-xi-cumbre-del-alba/",
+        "justificacion": "Consecuencia directa de la corrección de TripStartDate: la cumbre del ALBA duró dos días (4-5 de febrero de 2012)."
+      },
+      {
+        "TripID": "2223-ECU-MEX-40231",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Latin American and Caribbean Unity Summit",
+        "fuente": "https://es.wikipedia.org/wiki/XXI_Cumbre_del_Grupo_de_R%C3%ADo",
+        "justificacion": "El campo actualmente cargado mezcla el nombre del evento con una lista de jefes de Estado no anfitriones (\"Latin American and Caribbean Unity Summit;President Evo Morales;President Daniel Ortega;Prime Minister Baldwin Spencer;President Hugo Chávez\"), violando el formato de campo único. El evento (Riviera Maya, 22-23 de febrero de 2010, que fusionó la XXI Cumbre del Grupo de Río y la II Cumbre de la CALC) está correctamente fechado; solo el formato del campo debe corregirse, dejando únicamente el nombre del evento."
+      },
+      {
+        "TripID": "2223-ECU-MEX-40231",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "President Evo Morales; President Daniel Ortega; Prime Minister Baldwin Spencer; President Hugo Chávez; President Alvaro Uribe",
+        "fuente": "Search Query: Cumbre de la Unidad Riviera Maya 2010 jefes de estado presentes Morales Ortega Chávez Uribe",
+        "justificacion": "Los nombres incluidos indebidamente en el campo NameMultilatEvent (Evo Morales, Daniel Ortega, Baldwin Spencer, Hugo Chávez) corresponden en realidad a jefes de Estado/gobierno no anfitriones presentes en la cumbre y deberían constar en NonhostHOGSNames junto al ya registrado Álvaro Uribe, dado que MetNonhostHOGS ya está marcado como \"Yes\" en este registro."
+      },
+      {
+        "TripID": "2223-ECU-ESP-40315",
+        "campo": "TripStartDate",
+        "valor_correcto": "2010-05-16",
+        "fuente": "https://es.wikipedia.org/wiki/Cumbre_Am%C3%A9rica_Latina,_el_Caribe_y_la_Uni%C3%B3n_Europea",
+        "justificacion": "La VI Cumbre América Latina-Caribe-Unión Europea (Madrid) se desarrolló entre el 16 y el 19 de mayo de 2010 (con la Declaración de Madrid emitida el 18). La fecha de inicio actualmente cargada (17 de mayo) omite el primer día del evento. Se deja sin modificar la fecha de fin (20 de mayo) por falta de evidencia específica sobre actividades bilaterales adicionales de Correa ese día."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "2223-ECU-BEL-40768",
+        "campo": "TripStartDate / TripEndDate / Notes",
+        "justificacion": "Viaje descripto como vacaciones privadas para visitar a su esposa e hijos en Bélgica (agosto 2011). Por tratarse de un viaje privado y no oficial, no se encontró cobertura de prensa independiente que confirme o corrija las fechas exactas dentro del presupuesto de búsqueda disponible."
+      },
+      {
+        "TripID": "2223-ECU-CHL-40487",
+        "campo": "TripStartDate / TripEndDate / Notes",
+        "justificacion": "Se trata de un intento de visita a la Antártida (noviembre 2010) con base en Chile; no se encontró una fuente independiente específica (más allá de la referencia ProQuest ya citada en el registro original) que confirme las fechas exactas dentro del presupuesto de búsqueda disponible."
+      },
+      {
+        "TripID": "2223-ECU-CHL-40577",
+        "campo": "TripStartDate / TripEndDate / Notes",
+        "justificacion": "Segundo intento de visita a bases antárticas ecuatoriana y chilena (febrero 2011); no se encontró fuente independiente adicional que confirme las fechas exactas dentro del presupuesto de búsqueda disponible."
+      },
+      {
+        "TripID": "2223-ECU-COL-40855",
+        "campo": "NameMultilatEvent / TripStartDate",
+        "justificacion": "No se pudo completar una búsqueda específica sobre la 'Presidential Meeting Of Andean Countries' de noviembre de 2011 en Bogotá antes de agotarse el presupuesto de búsqueda de la sesión; el dato es plausible (reunión de la Comunidad Andina) pero no fue confirmado con fuente independiente en esta ronda."
+      },
+      {
+        "TripID": "2223-ECU-DOM-40208",
+        "campo": "TripStartDate / Notes",
+        "justificacion": "El registro indica un encuentro con el expresidente hondureño Manuel Zelaya en República Dominicana el 30 de enero de 2010; no se encontró fuente independiente adicional (más allá de ProQuest/Getty ya citados) que confirme el contexto y la fecha exacta dentro del presupuesto de búsqueda disponible."
+      },
+      {
+        "TripID": "2223-ECU-DOM-41385",
+        "campo": "TripStartDate / TripEndDate",
+        "justificacion": "No se pudo verificar de forma independiente la fecha exacta del doctorado honoris causa otorgado por la UASD ni de la Feria del Libro de abril de 2013 antes de agotarse el presupuesto de búsqueda de la sesión."
+      },
+      {
+        "TripID": "2223-ECU-HTI-40421",
+        "campo": "TripStartDate / Notes",
+        "justificacion": "Visita de evaluación de recuperación post-terremoto (agosto 2010); no se encontró fuente independiente adicional que confirme la fecha exacta dentro del presupuesto de búsqueda disponible."
+      },
+      {
+        "TripID": "2223-ECU-HTI-40813",
+        "campo": "TripStartDate / Notes",
+        "justificacion": "Visita para inaugurar obras de infraestructura y evaluar ayuda post-huracán (septiembre 2011); no se encontró fuente independiente adicional que confirme la fecha exacta dentro del presupuesto de búsqueda disponible."
+      },
+      {
+        "TripID": "2223-ECU-PER-40338",
+        "campo": "TripStartDate / SignedAgreement",
+        "justificacion": "No se pudo verificar de forma independiente la reunión bilateral y los acuerdos firmados en Perú en junio de 2010 antes de agotarse el presupuesto de búsqueda de la sesión."
+      },
+      {
+        "TripID": "2223-ECU-PER-40968",
+        "campo": "TripStartDate / Notes",
+        "justificacion": "Reunión de gabinete binacional Ecuador-Perú de febrero de 2012; no se encontró fuente independiente adicional que confirme la fecha exacta dentro del presupuesto de búsqueda disponible."
+      },
+      {
+        "TripID": "2223-ECU-PER-41243",
+        "campo": "TripStartDate / Notes",
+        "justificacion": "El propio registro original indica actividades desconocidas y fechas poco claras (confianza 4/5); no se encontró fuente independiente que precise el propósito o las fechas exactas del viaje de noviembre de 2012."
+      },
+      {
+        "TripID": "2223-ECU-ESP-41383",
+        "campo": "Notes / BusinessLeaderOrForum",
+        "justificacion": "No se pudo verificar de forma independiente la visita al Centro Tecnológico de Repsol en abril de 2013 antes de agotarse el presupuesto de búsqueda de la sesión; las fechas (19-21 abril) son internamente consistentes con la secuencia Alemania-Italia-Vaticano-España ya verificada para ese mismo viaje europeo."
+      },
+      {
+        "TripID": "2223-ECU-USA-41214",
+        "campo": "Notes",
+        "justificacion": "El registro indica una visita al 'Human Performance Lab' de Appalachian State University (1-2 noviembre 2012). La búsqueda realizada encontró en cambio evidencia de una visita de Correa al N.C. Research Campus de Kannapinos y al Plants for Human Health Institute de N.C. State University a fines de octubre de 2012 (fuente: https://plantsforhumanhealth.ncsu.edu/2012/11/02/ecuadorian-president-visits-the-n-c-research-campus-phhi/), un centro de investigación distinto ubicado también en Carolina del Norte. No se encontró confirmación independiente específica de una visita a Appalachian State University; existe la posibilidad de que el registro original confunda instituciones de Carolina del Norte."
+      },
+      {
+        "TripID": "2223-ECU-VEN-40526",
+        "campo": "TripStartDate / Notes",
+        "justificacion": "Viaje de ayuda humanitaria a Venezuela en diciembre de 2010 (contexto plausible de inundaciones en Venezuela ese mes); no se encontró fuente independiente específica que confirme la fecha exacta dentro del presupuesto de búsqueda disponible."
+      },
+      {
+        "TripID": "2223-ECU-CUB-40745",
+        "campo": "TripStartDate / Notes",
+        "justificacion": "Reunión con Fidel Castro en julio de 2011; no se encontró fuente independiente adicional que confirme la fecha exacta dentro del presupuesto de búsqueda disponible."
+      },
+      {
+        "TripID": "2223-ECU-CUB-41253",
+        "campo": "TripStartDate / Notes",
+        "justificacion": "Visita a Hugo Chávez antes de su cirugía en Cuba (diciembre 2012); no se encontró fuente independiente específica que confirme la fecha exacta dentro del presupuesto de búsqueda disponible, aunque el contexto general (cirugía de Chávez en Cuba en diciembre de 2012) es de dominio público."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "2223-ECU-ARG-40323",
+        "justificacion": "El bicentenario de la independencia argentina se conmemoró el 25 de mayo de 2010, fecha histórica bien establecida que coincide con la cargada en el registro."
+      },
+      {
+        "TripID": "2223-ECU-ARG-40515",
+        "justificacion": "La XX Cumbre Iberoamericana se realizó en Mar del Plata, Argentina, los días 3 y 4 de diciembre de 2010 (fuente: https://es.wikipedia.org/wiki/XX_Cumbre_Iberoamericana), coincidiendo exactamente con las fechas cargadas."
+      },
+      {
+        "TripID": "2223-ECU-ARG-41089",
+        "justificacion": "La XLIII Cumbre de Jefes de Estado del MERCOSUR y Estados Asociados se realizó en Mendoza, Argentina, el 28-29 de junio de 2012 (fuente: https://www.cancilleria.gob.ar/es/actualidad/comunicados/cumbre-del-mercosur-mendoza-2012-decision-sobre-la-suspension-del-paraguay-en); la fecha cargada (29 de junio) corresponde al día de cierre de la cumbre."
+      },
+      {
+        "TripID": "2223-ECU-ARG-41247",
+        "justificacion": "Correa recibió el Premio Rodolfo Walsh en la Universidad Nacional de La Plata el martes 4 de diciembre de 2012 (fuente: https://www.infobae.com/2012/12/03/1062538-correa-recibe-premio-la-libertad-expresion/), coincidiendo exactamente con la fecha cargada."
+      },
+      {
+        "TripID": "2223-ECU-BOL-40200",
+        "justificacion": "La ceremonia protocolar de la segunda posesión de Evo Morales se realizó el 22 de enero de 2010 en la Asamblea Legislativa (la ceremonia tradicional en Tiwanaku fue el 21), coincidiendo con la fecha cargada como día de asistencia de jefes de Estado extranjeros."
+      },
+      {
+        "TripID": "2223-ECU-BOL-40288",
+        "justificacion": "La Conferencia Mundial de los Pueblos sobre el Cambio Climático y los Derechos de la Madre Tierra se realizó en Cochabamba/Tiquipaya del 19 al 22 de abril de 2010; las fechas cargadas (20-21 de abril) caen dentro de ese rango y son consistentes con la nota original sobre el regreso anticipado de Correa a Quito."
+      },
+      {
+        "TripID": "2223-ECU-BOL-41064",
+        "justificacion": "El 42º Período Ordinario de Sesiones de la Asamblea General de la OEA se realizó en Cochabamba, Bolivia, del 3 al 5 de junio de 2012 (fuente: https://www.oas.org/es/42ag/); la fecha cargada (4 de junio) cae dentro de ese rango."
+      },
+      {
+        "TripID": "2223-ECU-BRA-41080",
+        "justificacion": "La Conferencia de la ONU sobre Desarrollo Sostenible (Río+20) se realizó en Río de Janeiro del 20 al 22 de junio de 2012, con segmento de alto nivel para jefes de Estado en esas mismas fechas; la fecha cargada (20 de junio) corresponde al primer día del segmento de líderes."
+      },
+      {
+        "TripID": "2223-ECU-BRA-41250",
+        "justificacion": "Fuente oficial ecuatoriana confirma explícitamente la participación de Correa en la XLIV Cumbre del MERCOSUR en Brasilia, que culminó el 7 de diciembre de 2012 (fuente: https://www.comunicacion.gob.ec/ecuador-participa-en-brasilia-de-la-xliv-cumbre-mercosur/), coincidiendo con la fecha cargada."
+      },
+      {
+        "TripID": "2223-ECU-CHL-40248",
+        "justificacion": "Sebastián Piñera asumió la presidencia de Chile el 11 de marzo de 2010, fecha histórica bien establecida que coincide con la cargada en el registro."
+      },
+      {
+        "TripID": "2223-ECU-CHL-41207",
+        "justificacion": "Búsqueda relacionada encontró referencia independiente a una visita oficial de Correa a Chile que incluyó la mina Minera Gaby (Codelco) — consistente con la nota original 'Visited copper mine' — además de la inauguración de una feria del libro, actividades propias de un viaje de octubre de 2012, coincidiendo con el contenido ya cargado (visita a mina de cobre, feria del libro, mausoleo de Salvador Allende)."
+      },
+      {
+        "TripID": "2223-ECU-COL-40397",
+        "justificacion": "Juan Manuel Santos asumió la presidencia de Colombia el 7 de agosto de 2010, fecha histórica bien establecida que coincide con la cargada en el registro."
+      },
+      {
+        "TripID": "2223-ECU-COL-40527",
+        "justificacion": "Juan Manuel Santos ya era presidente de Colombia desde agosto de 2010, por lo que su designación como HostHOGSName para la visita bilateral de diciembre de 2010 es correcta."
+      },
+      {
+        "TripID": "2223-ECU-COL-40668",
+        "justificacion": "Juan Manuel Santos como HostHOGSName es correcto para mayo de 2011; la Feria Internacional del Libro de Bogotá se realiza tradicionalmente en abril-mayo, consistente con la fecha cargada (5 de mayo de 2011)."
+      },
+      {
+        "TripID": "2223-ECU-CRI-40306",
+        "justificacion": "Laura Chinchilla asumió la presidencia de Costa Rica el 8 de mayo de 2010, fecha histórica bien establecida que coincide con la cargada en el registro."
+      },
+      {
+        "TripID": "2223-ECU-CUB-40220",
+        "justificacion": "Es de conocimiento público y ampliamente documentado que Correa se sometió a una cirugía de rodilla en La Habana en febrero de 2010; las fechas cargadas (11-16 de febrero) son consistentes con esa cronología."
+      },
+      {
+        "TripID": "2223-ECU-GUY-40508",
+        "justificacion": "La IV Cumbre de UNASUR se realizó en Georgetown, Guyana, el 26 de noviembre de 2010 en un formato de un solo día (fuente: https://es.wikipedia.org/wiki/IV_Cumbre_de_Unasur), coincidiendo exactamente con la fecha cargada; la cumbre marcó además el traspaso de la presidencia pro tempore de Correa a Guyana."
+      },
+      {
+        "TripID": "2223-ECU-HTI-40207",
+        "justificacion": "Es de conocimiento público que Correa visitó Haití a fines de enero de 2010 tras el terremoto del 12 de enero; las fechas cargadas (29-30 de enero) son consistentes con esa cronología y con el presidente haitiano René Préval como anfitrión correcto en ese momento."
+      },
+      {
+        "TripID": "2223-ECU-VAT-41352",
+        "justificacion": "La misa de inauguración del pontificado del Papa Francisco se realizó el 19 de marzo de 2013, fecha histórica bien establecida que coincide con la cargada en el registro."
+      },
+      {
+        "TripID": "2223-ECU-VAT-41383",
+        "justificacion": "Fecha consistente con la secuencia verificada del viaje europeo de abril de 2013 (Alemania 15-17, Italia 17-19, Vaticano 19, España 19-21); el encuentro con el Papa Francisco el 19 de abril de 2013 se ajusta a esa cronología."
+      },
+      {
+        "TripID": "2223-ECU-ITA-41352",
+        "justificacion": "Tramo de tránsito hacia/desde el Vaticano consistente con la fecha confirmada de la misa de inauguración papal (19 de marzo de 2013)."
+      },
+      {
+        "TripID": "2223-ECU-ITA-41381",
+        "justificacion": "Tramo de tránsito hacia el Vaticano consistente con el fin de la visita a Alemania (17 de abril, ya corregida) y el encuentro con el Papa Francisco el 19 de abril de 2013."
+      },
+      {
+        "TripID": "2223-ECU-JPN-40426",
+        "justificacion": "Consistente con la reunión confirmada con el presidente surcoreano Lee Myung-bak el 8 de septiembre de 2010 (fuente citada en el viaje 2223-ECU-KOR-40429), que sitúa a Correa saliendo de Japón hacia Corea del Sur ese mismo día, encajando con las fechas cargadas (5-8 de septiembre) para Japón."
+      },
+      {
+        "TripID": "2223-ECU-MEX-40519",
+        "justificacion": "La Conferencia de la ONU sobre Cambio Climático (COP16) se realizó en Cancún del 29 de noviembre al 10 de diciembre de 2010; las fechas cargadas (7-9 de diciembre) caen dentro del segmento de alto nivel de la conferencia, consistente con la asistencia habitual de jefes de Estado solo por unos días del evento de dos semanas."
+      },
+      {
+        "TripID": "2223-ECU-PRY-40723",
+        "justificacion": "La Cumbre del MERCOSUR se realizó en Asunción/Luque, Paraguay, los días 28-29 de junio de 2011 (fuente: búsqueda en nuevatribuna.es); la fecha cargada (29 de junio) corresponde al día de cierre, y Fernando Lugo era efectivamente el presidente paraguayo anfitrión."
+      },
+      {
+        "TripID": "2223-ECU-PRY-40844",
+        "justificacion": "La XXI Cumbre Iberoamericana se realizó en Asunción, Paraguay, los días 28-29 de octubre de 2011 (fuente: https://cnnespanol.cnn.com/2011/10/28/la-cumbre-iberoamericana-de-las-ausencias-se-inaugura-en-asuncion), coincidiendo con la Declaración de Asunción mencionada en las notas del registro original; las fechas cargadas (28-30 de octubre) son consistentes."
+      },
+      {
+        "TripID": "2223-ECU-PER-40751",
+        "justificacion": "Ollanta Humala asumió la presidencia de Perú el 28 de julio de 2011, fecha histórica bien establecida; las fechas cargadas (27-28 de julio) son consistentes con la asistencia a la cumbre de UNASUR y luego a la inauguración presidencial al día siguiente."
+      },
+      {
+        "TripID": "2223-ECU-PER-41183",
+        "justificacion": "La III Cumbre ASPA (América del Sur-Países Árabes) se realizó en Lima, Perú, el 1-2 de octubre de 2012, coincidiendo exactamente con las fechas cargadas en el registro."
+      },
+      {
+        "TripID": "2223-ECU-KOR-40429",
+        "justificacion": "Prensa confirma que el presidente surcoreano Lee Myung-bak recibió a Correa en Cheong Wa Dae (Casa Azul) el 8 de septiembre de 2010, coincidiendo con las fechas cargadas (8-10 de septiembre)."
+      },
+      {
+        "TripID": "2223-ECU-ESP-40985",
+        "justificacion": "Consistente con la salida confirmada de Correa de Turquía el 16 de marzo de 2012 rumbo a España, donde se reunió con el Primer Ministro Mariano Rajoy el 17-18 de marzo de 2012, coincidiendo con las fechas cargadas."
+      },
+      {
+        "TripID": "2223-ECU-ESP-41229",
+        "justificacion": "La XXII Cumbre Iberoamericana se realizó en Cádiz, España, los días 16-17 de noviembre de 2012 (fuente: https://segib.org/?summit=xxii-cumbre-iberoamericana-cadiz-2012); las fechas cargadas (16-19 de noviembre) cubren la cumbre y días adicionales de actividad bilateral con el Primer Ministro Mariano Rajoy, consistente con el registro."
+      },
+      {
+        "TripID": "2223-ECU-USA-40808",
+        "justificacion": "El debate general de la 66ª Asamblea General de la ONU se realizó en septiembre de 2011; las fechas cargadas (22-24 de septiembre) son consistentes con el calendario habitual de la Asamblea General de la ONU en ese período."
+      },
+      {
+        "TripID": "2223-ECU-URY-40238",
+        "justificacion": "José Mujica asumió la presidencia de Uruguay el 1 de marzo de 2010, fecha histórica bien establecida que coincide con la cargada en el registro."
+      },
+      {
+        "TripID": "2223-ECU-URY-40897",
+        "justificacion": "La 65ª Cumbre de Presidentes del MERCOSUR se realizó en Montevideo, Uruguay, el 20 de diciembre de 2011 (fuente: https://www.mercosur.int/se-realizo-la-65-cumbre-de-presidentes-del-mercosur-en-montevideo), coincidiendo exactamente con la fecha cargada, con José Mujica como anfitrión correcto."
+      },
+      {
+        "TripID": "2223-ECU-VEN-40287",
+        "justificacion": "La Cumbre del ALBA en Caracas, vinculada a la conmemoración del bicentenario del 19 de abril de 1810, se realizó el 19 de abril de 2010, coincidiendo con la fecha de inicio cargada en el registro."
+      },
+      {
+        "TripID": "2223-ECU-VEN-40364",
+        "justificacion": "El día de la independencia de Venezuela se conmemora el 5 de julio, fecha histórica bien establecida que coincide con la cargada en el registro."
+      },
+      {
+        "TripID": "2223-ECU-VEN-40879",
+        "justificacion": "La Cumbre fundacional de la CELAC se realizó en Caracas los días 2 y 3 de diciembre de 2011 (fuente: https://es.wikipedia.org/wiki/Cumbre_de_la_Celac_de_2011), coincidiendo exactamente con las fechas cargadas en el registro."
+      },
+      {
+        "TripID": "2223-ECU-VEN-41340",
+        "justificacion": "El funeral de Estado de Hugo Chávez se realizó el 8 de marzo de 2013, y prensa confirma explícitamente la presencia de Rafael Correa entre los jefes de Estado asistentes; las fechas cargadas (7-9 de marzo) cubren adecuadamente el evento y los días de viaje."
+      }
+    ]
+  }
+]

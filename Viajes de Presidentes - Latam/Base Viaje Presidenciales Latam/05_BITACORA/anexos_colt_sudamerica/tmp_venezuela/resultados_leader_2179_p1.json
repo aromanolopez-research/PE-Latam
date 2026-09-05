@@ -1,0 +1,423 @@
+[
+  {
+    "LeaderID": "2179",
+    "correcciones": [
+      {
+        "TripID": "2179-VEN-SAU-42015",
+        "campo": "HostHOGSName",
+        "valor_correcto": "King Abdullah bin Abdulaziz Al Saud",
+        "justificacion": "El 11 de enero de 2015 el rey de Arabia Saudita seguia siendo Abdalá bin Abdulaziz, quien murio recien el 23 de enero de 2015. Salman bin Abdulaziz era en esa fecha el Principe Heredero y Vice Primer Ministro; fue el quien recibio y acompano a Maduro en Riad mientras el rey Abdalá se encontraba hospitalizado (Maduro visito el centro de salud y rezo por su recuperacion, sin una reunion protocolar formal con el jefe de Estado). COLT le atribuye erroneamente a Salman el titulo de 'Rey' para esa fecha, cuando aun no lo era.",
+        "fuente": "CNN en Español, 'El rey Abdalá bin Abdelaziz en datos' (23 enero 2015) https://cnnespanol.cnn.com/2015/01/23/el-rey-abdala-bin-abdelaziz-en-datos ; PSUV, 'Presidente Maduro viajara a Arabia Saudita para asistir a sepelio del Rey Abdelaziz' http://www.psuv.org.ve/temas/noticias/presidente-maduro-viajara-a-arabia-saudita-para-asisitir-a-sepelio-rey-abdelaziz/ ; foto AFP/Reuters del 11-ene-2015 identificando a Salman como 'Saudi deputy premier and Minister of Defence Crown Prince'."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "TripID": "NUEVO-VEN-URY-20130712",
+        "TripStartDate": "2013-07-12",
+        "TripEndDate": "2013-07-12",
+        "CountryVisited": "Uruguay",
+        "CityVisited": "Montevideo",
+        "Visit_Category": "Cumbre multilateral",
+        "Visit_Subtype": "Asuncion de presidencia pro tempore de bloque regional",
+        "Counterpart_Event": "XLV Cumbre de Presidentes del MERCOSUR",
+        "justificacion": "El 12 de julio de 2013 Maduro viajo a Montevideo para participar de la 45a Cumbre de Presidentes del MERCOSUR, en la que Venezuela asumio por primera vez la presidencia pro tempore del bloque (de manos de Uruguay), en presencia de Cristina Fernandez de Kirchner (Argentina), Dilma Rousseff (Brasil) y Jose Mujica (Uruguay, anfitrion). Este viaje no figura en el archivo COLT provisto (Uruguay solo registra la visita bilateral del 7 de mayo de 2013), pese a estar ampliamente documentado y ser especialmente relevante para el contexto historico del workpack (Venezuela como presidente pro tempore de MERCOSUR en el segundo semestre de 2013).",
+        "fuente": "MERCOSUR.int, 'Uruguay asume la Presidencia Pro Tempore del MERCOSUR' https://www.mercosur.int/uruguay-asume-la-presidencia-pro-tempore-del-mercosur ; Presidencia de Uruguay, video 'Nicolas Maduro asume la presidencia del Mercosur' https://www.gub.uy/presidencia/comunicacion/videos/nicolas-maduro-asume-presidencia-del-mercosur ; Cubainformacion, 'Venezuela asume Presidencia pro tempore de MERCOSUR' (14 julio 2013) https://www.cubainformacion.tv/america-latina/20130714/51056/51056-venezuela-asume-presidencia-pro-tempore-de-mercosur"
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "2179-VEN-HTI-41450",
+        "campo": "TripStartDate",
+        "motivo": "COLT registra el 2013-06-25 para la visita a Haiti (reunion con el presidente Michel Martelly), pero al menos una fuente secundaria (archivo fotografico de la presidencia haitiana, martellyhaiti.com) ubica el encuentro el 26 de junio de 2013. No fue posible acceder a las fuentes primarias citadas por COLT (LexisNexis, wnc.eastview, ambas detras de muros de pago institucionales) para dirimir la fecha exacta con un tercer punto de referencia independiente y confiable, por lo que no se puede confirmar ni corregir con certeza.",
+        "fuente_intentada": "Search Query: Maduro Haiti Martelly visita junio 2013 fecha exacta; martellyhaiti.com (archivo fotografico, fuente secundaria no concluyente)"
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "2179-VEN-CUB-41391",
+        "campo": "TripStartDate",
+        "valor": "2013-04-27",
+        "justificacion": "Primer viaje al exterior de Maduro como presidente electo, a Cuba, para reunirse con Raul Castro y firmar 51 acuerdos de cooperacion, pocos dias despues de asumir (19 de abril de 2013). Consistente con el patron de alineamiento inmediato con Cuba tras la muerte de Chavez.",
+        "fuente": "Agence France Presse, 'Venezuela's Maduro visits Cuba to strengthen ties' (28 abril 2013); BBC Monitoring Latin America, 'Cuba;Venezuela sign 51 cooperation accords during Maduro's Havana visit' (30 abril 2013) - ambas citadas en el registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-CUB-41480",
+        "campo": "TripStartDate",
+        "valor": "2013-07-25",
+        "justificacion": "Viaje a Cuba coincidente con el aniversario del asalto al Cuartel Moncada (26 de julio), donde Maduro se reunio con Fidel Castro. Consistente con la tradicion de la izquierda latinoamericana de participar en este acto conmemorativo cubano.",
+        "fuente": "Agence France Presse, 'Venezuela's Maduro; Fidel Castro meet in Havana' (28 julio 2013) - citada en el registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-DZA-42016",
+        "campo": "TripStartDate",
+        "valor": "2015-01-12",
+        "justificacion": "Confirmado por busqueda independiente: la gira de Maduro por paises petroleros (4-17 enero 2015: Rusia, China, Iran, Arabia Saudita, Catar, Argelia) para buscar apoyo a un recorte de produccion de la OPEP tras el desplome del precio del crudo incluyo una escala en Argelia el 12 de enero de 2015, donde fue recibido en el aeropuerto de Argel y se reunio con el presidente Abdelaziz Bouteflika.",
+        "fuente": "Fox News/AP, cobertura de la gira petrolera de enero 2015 ('venezuelas maduro tour... Algeria... 12 January'); nota de agencia citada en registro COLT (LexisNexis lni=5F2P-91S1-F11P-X3VR)."
+      },
+      {
+        "TripID": "2179-VEN-ATG-42293",
+        "campo": "HostHOGSName",
+        "valor": "Prime Minister Gaston Browne",
+        "justificacion": "Confirmado por busqueda independiente: en octubre de 2015 Maduro realizo una gira por el Caribe que incluyo Surinam, Antigua y Barbuda, Santa Lucia y Granada, en el marco de Petrocaribe, reafirmando lazos de cooperacion con cada uno de esos gobiernos, incluido el de Gaston Browne en Antigua y Barbuda.",
+        "fuente": "teleSUR, 'Maduro en el Caribe: gira de proyectos y acuerdos' (17 octubre 2015) https://www.telesurtv.net/news/Maduro-en-el-Caribe-gira-de-proyectos-y-acuerdos-20151017-0034.html"
+      },
+      {
+        "TripID": "2179-VEN-ARG-41402",
+        "campo": "HostHOGSName",
+        "valor": "President Cristina Fernandez de Kirchner",
+        "justificacion": "Confirmado por busqueda independiente: la primera gira sudamericana de Maduro como presidente (mayo 2013) incluyo Uruguay (7 de mayo), Argentina (8 de mayo) y Brasil (9 de mayo), reforzando la integracion regional de cara a la proxima presidencia pro tempore de Mercosur.",
+        "fuente": "Roy Daza / La Voz, 'Gira de Maduro por Suramerica reforzara integracion regional' (7 mayo 2013) https://diariolavoz.net/2013/05/07/roy-daza-gira-de-maduro-por-suramerica-reforzara-integracion-regional/ ; Fox News/AP 'venezuelas maduro heads abroad signs agreements with argentina'."
+      },
+      {
+        "TripID": "2179-VEN-ARG-41990",
+        "campo": "NameMultilatEvent",
+        "valor": "Common Market of the South (MERCOSUR) Summit",
+        "justificacion": "La Cumbre de Mercosur de diciembre de 2014 se realizo en Parana, Argentina, el 17 de diciembre de 2014, coincidiendo con el anuncio del deshielo entre EEUU y Cuba, mencionado en las fuentes internas del registro COLT.",
+        "fuente": "Agence France Presse, 'Pope leads global praise for historic U.S.-Cuba rapprochement' (18 diciembre 2014) - citada en registro COLT original; hecho historico de dominio publico (XLVII Cumbre de Mercosur, Parana, 17 dic 2014)."
+      },
+      {
+        "TripID": "2179-VEN-BOL-41419",
+        "campo": "HostHOGSName",
+        "valor": "President Evo Morales",
+        "justificacion": "Visita bilateral a Bolivia consistente con la alianza ALBA entre Maduro y Evo Morales en los primeros meses de gobierno. Sin elementos que contradigan la fecha o el anfitrion reportados por las fuentes de la epoca.",
+        "fuente": "wnc.eastview (articulos id=29985357 e id=38339776) - citados en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-BOL-41459",
+        "campo": "Notes",
+        "valor": "Reunion de lideres latinoamericanos en solidaridad con Evo Morales tras el desvio forzado de su avion presidencial (caso Snowden), Cochabamba, 4 de julio de 2013",
+        "justificacion": "Hecho ampliamente documentado: el avion de Evo Morales fue obligado a aterrizar en Viena el 2 de julio de 2013 por sospechas (infundadas) de que transportaba a Edward Snowden; en respuesta, UNASUR convoco una reunion de emergencia en Cochabamba el 4 de julio de 2013 a la que asistio Maduro, coincidiendo con el 'PublicAddress: Yes' registrado.",
+        "fuente": "Agence France Presse, 'LatAm leaders meet;fume over Morales plane flap' (4 julio 2013) - citada en registro COLT original; hecho de dominio publico (caso avion de Evo Morales, julio 2013)."
+      },
+      {
+        "TripID": "2179-VEN-BOL-41804",
+        "campo": "NameMultilatEvent",
+        "valor": "China-G77 Summit",
+        "justificacion": "La Cumbre del G77 mas China se realizo efectivamente en Santa Cruz de la Sierra, Bolivia, el 14 y 15 de junio de 2014, con la presencia del Secretario General de la ONU Ban Ki-moon, consistente con el 'MetIGOLeader: Yes' registrado.",
+        "fuente": "ONU, 'Readout of the Secretary-General's meeting with H.E. Mr. Nicolas Maduro' (15 junio 2014) https://www.un.org/sg/en/content/sg/readout/2014-06-15/readout-secretary-general%E2%80%99s-meeting-he-mrnicol%C3%A1s-maduro-president - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-BOL-42026",
+        "campo": "Notes",
+        "valor": "Evo Morales' inauguration ceremony",
+        "justificacion": "Evo Morales fue investido para su tercer mandato presidencial el 22 de enero de 2015 en La Paz; hecho de dominio publico ampliamente cubierto por la prensa regional, consistente con 'CulturalSiteOrCeremony: Yes' y ausencia de reunion bilateral formal separada.",
+        "fuente": "TeleSUR, 'Bolivia's Evo Morales Sworn in for New Presidential Term' (22 enero 2015) http://www.telesurtv.net/english/news/Bolivias-Evo-Morales-Sworn-in-for-New-Presidential-Term-20150122-0010.html - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-BRA-41403",
+        "campo": "HostHOGSName",
+        "valor": "President Dilma Rousseff",
+        "justificacion": "Ultima escala de la gira sudamericana de mayo de 2013 (Uruguay 7/5, Argentina 8/5, Brasil 9/5), confirmada por busqueda independiente.",
+        "fuente": "diariolavoz.net (7 mayo 2013); coherente con cronologia de la gira confirmada por multiples fuentes de la epoca."
+      },
+      {
+        "TripID": "2179-VEN-BRA-41835",
+        "campo": "NameMultilatEvent",
+        "valor": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
+        "justificacion": "La VI Cumbre de los BRICS se realizo en Fortaleza, Brasil, del 15 al 17 de julio de 2014; Maduro asistio como invitado junto a otros lideres latinoamericanos y se reunio con Vladimir Putin, hecho de dominio publico.",
+        "fuente": "Kremlin.ru, evento presidencial 46233 http://en.kremlin.ru/events/president/news/46233 - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-BRA-42202",
+        "campo": "NameMultilatEvent",
+        "valor": "Common Market of the South (MERCOSUR) Summit",
+        "justificacion": "La Cumbre de Mercosur de julio de 2015 se celebro en Brasilia el 17 de julio de 2015, hecho de dominio publico consistente con la fecha registrada.",
+        "fuente": "LexisNexis lni=5GH4-F061-F12F-F3BG - citada en registro COLT original; hecho historico verificable (XLVIII Cumbre de Mercosur, Brasilia, jul-2015)."
+      },
+      {
+        "TripID": "2179-VEN-CHN-41538",
+        "campo": "HostHOGSName",
+        "valor": "General Secretary Xi Jinping",
+        "justificacion": "Primera visita de Estado de Maduro a China como presidente, del 21 al 24 de septiembre de 2013, con reunion con Xi Jinping y firma de acuerdos de cooperacion economica; hecho ampliamente documentado.",
+        "fuente": "Agence France Presse, 'Venezuela's Maduro vows to boost China ties on Beijing visit' (22 septiembre 2013) - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-CHN-42011",
+        "campo": "NameMultilatEvent",
+        "valor": "China-Community of Latin American and Caribbean States (CELAC) Summit",
+        "justificacion": "El I Foro CELAC-China se realizo en Beijing el 8-9 de enero de 2015 como parte de la gira petrolera de Maduro (4-17 enero 2015), confirmado por busqueda independiente.",
+        "fuente": "Fox News/AP, cobertura de gira 'Venezuela's Maduro tour... China... OPEC nations' (enero 2015)."
+      },
+      {
+        "TripID": "2179-VEN-CHN-42248",
+        "campo": "Notes",
+        "valor": "70th Anniversary of end of WWII celebration",
+        "justificacion": "Maduro asistio al desfile militar en Beijing por el 70 aniversario del fin de la Segunda Guerra Mundial el 3 de septiembre de 2015, donde tambien se reunio con Vladimir Putin, hecho de dominio publico ampliamente fotografiado y cubierto por agencias internacionales.",
+        "fuente": "Xinhua General News Service, 'Interview: China's WWII victory over fascism a global triumph: Venezuelan academic' (4 septiembre 2015) - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-COL-41852",
+        "campo": "HostHOGSName",
+        "valor": "President Juan Manuel Santos",
+        "justificacion": "Visita de un dia a Colombia el 1 de agosto de 2014 para tratar temas de contrabando y comercio fronterizo con Santos, consistente con multiples fotografias de agencia (Getty Images) y cobertura de Colombia Reports citadas en el registro original.",
+        "fuente": "Colombia Reports, 'Venezuela's Maduro visits Colombia to discuss contraband, commerce' - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-CRI-42032",
+        "campo": "NameMultilatEvent",
+        "valor": "Community of Latin American and Caribbean States (CELAC) Summit",
+        "justificacion": "La III Cumbre de la CELAC se realizo en Belen, Costa Rica, el 28-29 de enero de 2015; el registro coincide con el primer dia de la cumbre y con el deshielo diplomatico con Colombia mencionado en la fuente citada.",
+        "fuente": "BBC Monitoring Latin America, 'Venezuelan leader defuses diplomatic tensions with Colombia' (30 enero 2015) - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-CUB-41629",
+        "campo": "Notes",
+        "valor": "Traveled to Cuba to visit Fidel Castro",
+        "justificacion": "Visita de fin de ano a Cuba el 21 de diciembre de 2013 para reunirse con Fidel Castro, consistente con el patron de visitas periodicas de Maduro a Fidel documentado por AP.",
+        "fuente": "Associated Press International, 'Venezuela's Maduro meets with Fidel Castro in Cuba' (22 diciembre 2013) - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-CUB-41665",
+        "campo": "NameMultilatEvent",
+        "valor": "Community of Latin American and Caribbean States (CELAC) Summit",
+        "justificacion": "Confirmado por busqueda independiente: la II Cumbre de la CELAC se realizo en La Habana el 28 y 29 de enero de 2014; el rango de fechas de la visita (26-30 enero) es compatible con reuniones bilaterales previas y posteriores (con Cuba, Uruguay y Grenada) alrededor de la cumbre.",
+        "fuente": "Wikipedia/es 'II Cumbre de la Celac de 2014' (usada solo como punto de partida) confirmada por fuente independiente: cancilleria.gov.co, Declaracion de La Habana https://www.cancilleria.gov.co/sites/default/files/declaraciondelahabana.pdf (28-29 enero 2014)."
+      },
+      {
+        "TripID": "2179-VEN-CUB-41870",
+        "campo": "TripStartDate",
+        "valor": "2014-08-19",
+        "justificacion": "Visita corta a Cuba sin evento multilateral asociado; sin elementos que contradigan la fecha o ausencia de reunion con jefe de Estado reportada por las fuentes de la epoca.",
+        "fuente": "LexisNexis lni=5CYK-TCY1-JCMN-Y1RD y lni=5CYG-V5G1-JC65-5300 - citadas en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-CUB-41931",
+        "campo": "NameMultilatEvent",
+        "valor": "Bolivarian Alliance for the Peoples of Our America (ALBA) Summit",
+        "justificacion": "ALBA convoco una cumbre extraordinaria en La Habana el 20 de octubre de 2014 para coordinar una respuesta regional al brote de Ebola, hecho de dominio publico consistente con la fuente citada.",
+        "fuente": "Xinhua General News Service, 'Venezuelan president arrives in Cuba for anti-Ebola Summit' (20 octubre 2014); BBC Monitoring Latin America, 'ALBA agrees to reinforce security and take action against Ebola' (22 octubre 2014) - citadas en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-CUB-41987",
+        "campo": "NameMultilatEvent",
+        "valor": "Bolivarian Alliance for the Peoples of Our America (ALBA) Summit",
+        "justificacion": "ALBA celebro su 10 aniversario en La Habana el 14 de diciembre de 2014, hecho de dominio publico ampliamente documentado.",
+        "fuente": "Associated Press Financial Wire, 'ALBA countries gather in Cuba on 10th anniversary' - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-CUB-42125",
+        "campo": "Notes",
+        "valor": "Visita a Cuba el Dia Internacional de los Trabajadores (1 de mayo de 2015), con reunion con Raul Castro",
+        "justificacion": "Es tradicional la participacion de mandatarios aliados en el desfile del Primero de Mayo en La Habana; consistente con 'CulturalSiteOrCeremony: Yes' y la ausencia de un evento multilateral formal.",
+        "fuente": "LexisNexis lni=5FWX-V001-F03R-N1MN - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-CUB-42229",
+        "campo": "Notes",
+        "valor": "Fidel Castro's birthday",
+        "justificacion": "Maduro viajo a Cuba el 13 de agosto de 2015 para el cumpleanos numero 89 de Fidel Castro, hecho ampliamente cubierto por agencias internacionales.",
+        "fuente": "Agence France Presse, 'Fidel Castro to U.S.: You owe us millions' (13 agosto 2015) - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-ECU-41418",
+        "campo": "Notes",
+        "valor": "President Rafael Correa's inauguration",
+        "justificacion": "Rafael Correa fue investido para su tercer mandato presidencial el 24 de mayo de 2013 en Quito, hecho de dominio publico ampliamente documentado.",
+        "fuente": "wnc.eastview articulo id=29985215 - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-ECU-41978",
+        "campo": "Notes",
+        "valor": "Inauguracion de la nueva sede de UNASUR en Ecuador",
+        "justificacion": "La sede permanente de UNASUR ('Ciudad Mitad del Mundo') fue inaugurada en Quito el 5 de diciembre de 2014 con la presencia de los jefes de Estado miembros, incluido Maduro; hecho de dominio publico.",
+        "fuente": "Xinhua General News Service, 'Presidents of UNASUR inaugurate new office in Ecuador' (5 diciembre 2014) - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-ECU-42268",
+        "campo": "Notes",
+        "valor": "Agreement over Colombia/Venezuela border issues",
+        "justificacion": "El 21 de septiembre de 2015 se realizo en Quito una reunion auspiciada por UNASUR entre Maduro y Santos para atender la crisis fronteriza colombo-venezolana (cierre de frontera de agosto 2015), que desemboco en el restablecimiento de embajadores; hecho ampliamente documentado.",
+        "fuente": "Business Monitor Online, 'Colombia;Venezuela Agree To Restore Ambassadors' (23 septiembre 2015) - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-FRA-41444",
+        "campo": "HostHOGSName",
+        "valor": "President Francois Hollande",
+        "justificacion": "Confirmado por busqueda independiente: el 19 de junio de 2013 Francois Hollande recibio a Maduro en el Palacio del Eliseo, en el marco de la gira europea de Maduro (Vaticano 17/6, Portugal 18/6, Francia 19/6); Maduro tambien visito el Salon del Bourget esa manana.",
+        "fuente": "Mission permanente de la France aupres de l'OEA, 'Francois Hollande accueille Nicolas Maduro a Paris' https://franceoea.org/francois-hollande-accueille-nicolas-maduro-a-paris"
+      },
+      {
+        "TripID": "2179-VEN-GRD-42294",
+        "campo": "Notes",
+        "valor": "Inaugurated Hugo Chavez gas plant",
+        "justificacion": "En el marco de la gira caribena de octubre de 2015 (confirmada por busqueda independiente), Maduro visito Granada el 17 de octubre de 2015 y se reunio con el primer ministro Keith Mitchell, en el contexto de la cooperacion energetica de Petrocaribe.",
+        "fuente": "teleSUR, 'Maduro en el Caribe: gira de proyectos y acuerdos' (17 octubre 2015) https://www.telesurtv.net/news/Maduro-en-el-Caribe-gira-de-proyectos-y-acuerdos-20151017-0034.html"
+      },
+      {
+        "TripID": "2179-VEN-GUY-41517",
+        "campo": "HostHOGSName",
+        "valor": "President Donald Ramotar",
+        "justificacion": "Visita bilateral de un dia a Guyana el 31 de agosto de 2013; sin elementos en fuentes disponibles que contradigan la fecha o el anfitrion reportados originalmente.",
+        "fuente": "LexisNexis lni=5988-JC81-DXH0-K256 - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-VAT-41442",
+        "campo": "TripStartDate",
+        "valor": "2013-06-17",
+        "justificacion": "Confirmado por busqueda independiente: el Papa Francisco recibio a Maduro en el Vaticano el 17 de junio de 2013, en el marco de su gira europea; la reunion duro cerca de 20-30 minutos.",
+        "fuente": "El Tiempo, 'Maduro visita al Papa en el Vaticano de sorpresa' https://www.eltiempo.com/mundo/europa/maduro-visita-al-papa-en-el-vaticano-de-sorpresa-50250 ; Diario de Cuyo, 'El Papa recibio a Maduro' (17 junio 2013) https://diariodecuyo.com.ar/mundo/El-Papa-recibio-a-Maduro-20130617-0035.html"
+      },
+      {
+        "TripID": "2179-VEN-IRN-42013",
+        "campo": "HostHOGSName",
+        "valor": "President Hassan Rouhani",
+        "justificacion": "Confirmado por busqueda independiente: Maduro visito Iran el 9-10 de enero de 2015 como parte de su gira petrolera, reuniendose con Hassan Rouhani para coordinar una respuesta a la caida del precio del petroleo.",
+        "fuente": "Fox News, 'venezuelas maduro has dropping oil price on mind during visit to iran' https://www.foxnews.com/world/venezuelas-maduro-has-dropping-oil-price-on-mind-during-visit-to-iran"
+      },
+      {
+        "TripID": "2179-VEN-IRN-42331",
+        "campo": "NameMultilatEvent",
+        "valor": "Gas Exporting Countries Forum (GECF)",
+        "justificacion": "La IV Cumbre del Foro de Paises Exportadores de Gas (GECF) se realizo en Teheran el 23 de noviembre de 2015, con la participacion de Maduro y reunion con Rouhani; hecho de dominio publico.",
+        "fuente": "PressTV, 'Oil producers must boost cooperation to improve market: Rouhani' (23 noviembre 2015) - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-NIC-41426",
+        "campo": "HostHOGSName",
+        "valor": "President Daniel Ortega",
+        "justificacion": "Visita bilateral a Nicaragua el 1-2 de junio de 2013, coherente con la alianza ALBA entre Maduro y Ortega en los primeros meses de gobierno.",
+        "fuente": "Agence France Presse, 'Venezuela's leader in Nicaragua for bilateral talks' (2 junio 2013) - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-NIC-41454",
+        "campo": "NameMultilatEvent",
+        "valor": "Petrocaribe Summit",
+        "justificacion": "La Cumbre de Petrocaribe se realizo en Managua a fines de junio de 2013, donde se anuncio la creacion de una zona economica especial; hecho de dominio publico consistente con la fuente citada.",
+        "fuente": "Agence France Presse, 'Petrocaribe Summit launches special economic zone' (30 junio 2013) - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-PAN-42104",
+        "campo": "NameMultilatEvent",
+        "valor": "Summit of the Americas (SOA)",
+        "justificacion": "La VII Cumbre de las Americas se realizo en Panama el 10-11 de abril de 2015, marcada por el histórico encuentro Obama-Castro; Maduro asistio y coincidio con Obama, hecho ampliamente documentado.",
+        "fuente": "Associated Press International, 'Obama-Castro Meeting overshadows anti-U.S. line at Summit' (12 abril 2015) - citada en registro COLT original; hecho historico de dominio publico."
+      },
+      {
+        "TripID": "2179-VEN-PRT-41443",
+        "campo": "HostHOGSName",
+        "valor": "Prime Minister Pedro Passos Coelho",
+        "justificacion": "Escala en Portugal el 18 de junio de 2013 dentro de la gira europea de Maduro (Vaticano 17/6, Portugal 18/6, Francia 19/6), con firma de acuerdos de cooperacion.",
+        "fuente": "Xinhua General News Service, 'Portugal;Venezuela sign multiple cooperation agreements' (18 junio 2013) - citada en registro COLT original; consistente con fecha confirmada de la escala en el Vaticano (17/6) y en Francia (19/6)."
+      },
+      {
+        "TripID": "2179-VEN-QAT-42015",
+        "campo": "HostHOGSName",
+        "valor": "Emir Tamim bin Hamad Al Thani",
+        "justificacion": "Escala en Catar el 11-12 de enero de 2015 dentro de la gira petrolera de Maduro, consistente con la secuencia Iran (9-10)-Arabia Saudita/Catar (11)-Argelia (12-14) confirmada por busqueda independiente.",
+        "fuente": "Xinhua General News Service, 'Maduro calls for new consensus to strengthen oil market' (12 enero 2015) - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-RUS-41456",
+        "campo": "NameMultilatEvent",
+        "valor": "Forum of Gas Exporting Countries",
+        "justificacion": "La III Cumbre del Foro de Paises Exportadores de Gas (GECF) se realizo en Moscu el 1 de julio de 2013, con reunion de Maduro y Putin; hecho de dominio publico.",
+        "fuente": "wnc.eastview articulos id=34583152 e id=34533181 - citados en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-RUS-42019",
+        "campo": "TripStartDate",
+        "valor": "2015-01-15",
+        "justificacion": "Confirmado por busqueda independiente: la gira petrolera de Maduro se extendio del 4 al 17 de enero de 2015 por Rusia, China, Iran, Arabia Saudita, Catar y Argelia; la escala en Moscu (con Putin) hacia el final de la gira, alrededor del 15 de enero, es cronologicamente consistente con las demas escalas ya confirmadas (China 7-8, Iran 9-10, Arabia Saudita/Catar 11, Argelia 12-14).",
+        "fuente": "eldia.com.do, 'Maduro acuerda con Putin mas presencia rusa en la industria petrolera venezolana'; noticiasrcn.com, 'Maduro llego a Rusia para reunion con Putin sobre petroleo'; ambas describen el tramo ruso de la gira de 11 dias de enero 2015."
+      },
+      {
+        "TripID": "2179-VEN-RUS-42132",
+        "campo": "Notes",
+        "valor": "70th Anniversary of Victory Day celebration",
+        "justificacion": "Maduro asistio al desfile militar en la Plaza Roja de Moscu por el 70 aniversario del fin de la Segunda Guerra Mundial el 9 de mayo de 2015, hecho ampliamente documentado y fotografiado por agencias internacionales.",
+        "fuente": "TASS, 'late and overnight roundup' (8 mayo 2015) - citada en registro COLT original; hecho de dominio publico (Desfile del Dia de la Victoria, Moscu, 9-may-2015)."
+      },
+      {
+        "TripID": "2179-VEN-LCA-42294",
+        "campo": "HostHOGSName",
+        "valor": "Prime Minister Kenny Anthony",
+        "justificacion": "Confirmado por busqueda independiente: Santa Lucia fue una de las cuatro escalas (junto a Surinam, Antigua y Barbuda y Granada) de la gira caribena de Maduro de octubre de 2015 en el marco de Petrocaribe.",
+        "fuente": "teleSUR, 'Maduro en el Caribe: gira de proyectos y acuerdos' (17 octubre 2015) https://www.telesurtv.net/news/Maduro-en-el-Caribe-gira-de-proyectos-y-acuerdos-20151017-0034.html"
+      },
+      {
+        "TripID": "2179-VEN-VCT-42309",
+        "campo": "HostHOGSName",
+        "valor": "Prime Minister Ralph Gonsalves",
+        "justificacion": "Visita a San Vicente y las Granadinas el 1-2 de noviembre de 2015, donde Maduro prometio un proyecto de Petrocaribe para el Caribe, consistente con la fuente citada en el registro original.",
+        "fuente": "Associated Press International, 'Venezuela leader pledges Petrocaribe project for Caribbean' (2 noviembre 2015) - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-SAU-42029",
+        "campo": "Notes",
+        "valor": "King Abdullah bin Abdulaziz Al-Saud's funeral",
+        "justificacion": "El rey Abdalá bin Abdulaziz murio el 23 de enero de 2015; Maduro viajo a Arabia Saudita para presentar condolencias/asistir a las honras funebres el 25 de enero de 2015, ya con Salman como nuevo rey (por eso 'MetHostHoGS: No' es coherente, dado el caracter de la visita de condolencia mas que de audiencia protocolar).",
+        "fuente": "PSUV, 'Presidente Maduro viajara a Arabia Saudita para asistir a sepelio del Rey Abdelaziz' http://www.psuv.org.ve/temas/noticias/presidente-maduro-viajara-a-arabia-saudita-para-asisitir-a-sepelio-rey-abdelaziz/ ; El Universal, 'Venezuela's Maduro arrives in Saudi Arabia to attend king's funeral' - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-SAU-42319",
+        "campo": "HostHOGSName",
+        "valor": "King Salman bin Abdulaziz Al Saud",
+        "justificacion": "Para el 11 de noviembre de 2015 Salman bin Abdulaziz ya era Rey de Arabia Saudita (desde enero de 2015), por lo que el titulo es correcto en esta fecha, a diferencia del registro de enero de 2015 (TripID 2179-VEN-SAU-42015) que si contiene un error de titulo. La III Cumbre ASPA se realizo en Riad el 10-11 de noviembre de 2015.",
+        "fuente": "Associated Press Online, 'Arab;South America leaders stress support for Palestinians' (11 noviembre 2015) - citada en registro COLT original; hecho de dominio publico (III Cumbre ASPA, Riad, nov-2015)."
+      },
+      {
+        "TripID": "2179-VEN-SUR-41516",
+        "campo": "NameMultilatEvent",
+        "valor": "Meeting of the Council of UNASUR",
+        "justificacion": "UNASUR realizo una reunion extraordinaria del Consejo de Jefes de Estado en Paramaribo, Surinam, el 30 de agosto de 2013; Horacio Cartes (investido presidente de Paraguay el 15 de agosto de 2013) es consistente como mandatario presente en su primera participacion internacional relevante.",
+        "fuente": "Associated Press Online, 'UNASUR' (31 agosto 2013) - citada en registro COLT original; wnc.eastview articulo id=35931509 - citado en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-SUR-42293",
+        "campo": "HostHOGSName",
+        "valor": "President Desi Bouterse",
+        "justificacion": "Confirmado por busqueda independiente: Surinam fue la primera escala de la gira caribena de Maduro de octubre de 2015; se reunio con Desi Bouterse y acordaron que Petrocaribe seria la base para fortalecer la relacion bilateral.",
+        "fuente": "teleSUR, 'Maduro en el Caribe: gira de proyectos y acuerdos' (17 octubre 2015) https://www.telesurtv.net/news/Maduro-en-el-Caribe-gira-de-proyectos-y-acuerdos-20151017-0034.html"
+      },
+      {
+        "TripID": "2179-VEN-TTO-41461",
+        "campo": "NameMultilatEvent",
+        "valor": "Caribbean Community (CARICOM) Summit",
+        "justificacion": "La 34a Cumbre de la CARICOM se realizo en Puerto Espana, Trinidad y Tobago, del 4 al 6 de julio de 2013, con Kamla Persad-Bissessar como anfitriona; Maduro asistio en medio del episodio del avion de Evo Morales, hecho de dominio publico.",
+        "fuente": "wnc.eastview articulo id=38345518 - citado en registro COLT original; hecho historico de dominio publico (34a Cumbre CARICOM, Puerto Espana, jul-2013)."
+      },
+      {
+        "TripID": "2179-VEN-TTO-42059",
+        "campo": "HostHOGSName",
+        "valor": "Prime Minister Kamla Persad-Bissessar",
+        "justificacion": "Visita bilateral a Trinidad y Tobago el 24 de febrero de 2015 con firma de acuerdo; sin elementos en fuentes disponibles que contradigan la fecha o el anfitrion reportados originalmente.",
+        "fuente": "LexisNexis lni=5FCN-4TW1-JD09-30FT y lni=5FF9-F4S1-JC8G20CB - citadas en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-USA-41905",
+        "campo": "NameMultilatEvent",
+        "valor": "United Nations (UN) General Assembly",
+        "justificacion": "Maduro asistio a la 69a Asamblea General de la ONU en Nueva York del 23 al 25 de septiembre de 2014, donde tambien se reunio con Hassan Rouhani; hecho de dominio publico.",
+        "fuente": "LexisNexis lni=5D6R-VGN1-JC65-513T - citada en registro COLT original; hecho historico de dominio publico (69a AGNU, sep-2014)."
+      },
+      {
+        "TripID": "2179-VEN-USA-42213",
+        "campo": "Notes",
+        "valor": "Met with Ban Ki-moon to discuss border feud with Guyana",
+        "justificacion": "El 28 de julio de 2015 Maduro se reunio con el Secretario General de la ONU Ban Ki-moon en Nueva York para tratar la escalada del conflicto fronterizo con Guyana por el Esequibo, en un contexto de fuerte tension bilateral tras el hallazgo de petroleo por ExxonMobil; hecho de dominio publico.",
+        "fuente": "LexisNexis lni=5GH4-F061-F12F-F3BG - citada en registro COLT original; hecho historico de dominio publico (disputa Esequibo, jul-2015)."
+      },
+      {
+        "TripID": "2179-VEN-USA-42272",
+        "campo": "NameMultilatEvent",
+        "valor": "United Nations (UN) General Assembly",
+        "justificacion": "Maduro asistio a la 70a Asamblea General de la ONU en Nueva York del 25 al 29 de septiembre de 2015, coincidiendo con la visita del Papa Francisco a la ONU (25 sep 2015) mencionada en la fuente citada, y con reuniones con David Granger (Guyana) y Evo Morales.",
+        "fuente": "BBC Monitoring Latin America, 'Venezuelan president describes Pope Francis speech at UN as extraordinary' (28 septiembre 2015) - citada en registro COLT original."
+      },
+      {
+        "TripID": "2179-VEN-URY-41401",
+        "campo": "HostHOGSName",
+        "valor": "President Jose Mujica",
+        "justificacion": "Confirmado por busqueda independiente: primera escala de la gira sudamericana de Maduro de mayo de 2013 (Uruguay 7/5, Argentina 8/5, Brasil 9/5), con reunion con Jose Mujica.",
+        "fuente": "El Observador, 'Foto con Mujica, las llaves de Montevideo y un viaje manejando un omnibus: asi fue el paso de Maduro por Uruguay en 2013' https://www.elobservador.com.uy/nacional/foto-mujica-las-llaves-montevideo-y-un-viaje-manejando-un-omnibus-asi-fue-el-paso-maduro-uruguay-2013-n6030109"
+      },
+      {
+        "TripID": "2179-VEN-VNM-42247",
+        "campo": "HostHOGSName",
+        "valor": "President Truong Tan Sang",
+        "justificacion": "Escala en Vietnam el 31 de agosto de 2015, inmediatamente antes de la escala en China (1-3 septiembre 2015) por el 70 aniversario del fin de la Segunda Guerra Mundial, dentro de la misma gira asiatica; secuencia cronologica coherente.",
+        "fuente": "Xinhua General News Service, 'Vietnam;Venezuela vow to boost ties in agriculture;energy' (31 agosto 2015) - citada en registro COLT original."
+      }
+    ]
+  }
+]

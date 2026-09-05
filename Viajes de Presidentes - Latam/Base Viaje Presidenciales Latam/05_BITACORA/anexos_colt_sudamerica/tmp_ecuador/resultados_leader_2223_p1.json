@@ -1,0 +1,271 @@
+[
+  {
+    "LeaderID": "2223",
+    "correcciones": [
+      {
+        "TripID": "2223-ECU-ARG-39426",
+        "campo": "TripStartDate",
+        "valor_correcto": "2007-12-09",
+        "fuente": "https://www.infobae.com/2007/11/13/348713-kirchner-inaugurara-el-banco-del-sur-buenos-aires/ ; Search Query: Correa asistio inauguracion Banco del Sur 9 diciembre 2007 Buenos Aires presidentes firmaron",
+        "justificacion": "El acta fundacional del Banco del Sur se firmo el 9 de diciembre de 2007 en la Casa Rosada, Buenos Aires, con la presencia del presidente Correa, un dia antes de la asuncion de Cristina Fernandez de Kirchner (10 de diciembre). El registro actual data el inicio del viaje el 10 de diciembre, mientras que el evento que el propio registro describe ('Bank of the South Summit') ocurrio el 9 de diciembre."
+      },
+      {
+        "TripID": "2223-ECU-ARG-39426",
+        "campo": "TripDuration",
+        "valor_correcto": "3",
+        "fuente": "https://www.infobae.com/2007/11/13/348713-kirchner-inaugurara-el-banco-del-sur-buenos-aires/",
+        "justificacion": "Si el viaje comenzo el 9 de diciembre (firma del Banco del Sur) y el registro ya documentaba actividades hasta el 11 de diciembre, la duracion correcta es de 3 dias (9-11 de diciembre de 2007), no 2."
+      },
+      {
+        "TripID": "2223-ECU-BRA-39511",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "fuente": "https://en.wikipedia.org/wiki/2008_Andean_diplomatic_crisis ; Search Query: Rafael Correa Brasil marzo 2008 Lula visita gira cinco paises crisis Colombia",
+        "justificacion": "El viaje a Brasil del 4-5 de marzo de 2008 fue el inicio de una gira bilateral de Correa por Peru, Brasil, Venezuela, Panama, Nicaragua y Republica Dominicana para explicar la crisis con Colombia (bombardeo de Angostura, 1 de marzo de 2008) y buscar apoyo regional, segun fuentes independientes. No hay evidencia de una 'Asamblea General de la OEA' en Brasilia en esa fecha; las Asambleas Generales de la OEA se celebran habitualmente a mitad de ano (la de 2008 fue en junio en Medellin), y la sesion de la OEA sobre la crisis de Angostura se realizo en Washington, no en Brasilia."
+      },
+      {
+        "TripID": "2223-ECU-BRA-39511",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "",
+        "fuente": "https://en.wikipedia.org/wiki/2008_Andean_diplomatic_crisis",
+        "justificacion": "Al no corresponder a una Asamblea General de la OEA (ver correccion de AttendedMultilatEvent), el campo NameMultilatEvent debe quedar vacio; se trato de una visita bilateral a Lula dentro de la gira regional post-Angostura."
+      },
+      {
+        "TripID": "2223-ECU-GTM-39613",
+        "campo": "TripStartDate",
+        "valor_correcto": "2008-01-14",
+        "fuente": "https://www.eluniverso.com/2008/01/15/0001/14/23C139EC3FCB4F8D93D38C61EAE5105D.html",
+        "justificacion": "La posesion presidencial de Alvaro Colom en Guatemala fue el 14 de enero de 2008 (no el 14 de junio de 2008 como figura en el registro). El diario El Universo publico el 15 de enero de 2008 la nota 'Tensa cita Correa-Uribe en la posesion de Alvaro Colom', confirmando que Correa asistio el 14 de enero de 2008 y sostuvo alli un tenso encuentro de 45 minutos con Uribe, coherente con el resto de los datos del registro (MetNonhostHOGS: Uribe)."
+      },
+      {
+        "TripID": "2223-ECU-GTM-39613",
+        "campo": "TripEndDate",
+        "valor_correcto": "2008-01-14",
+        "fuente": "https://www.eluniverso.com/2008/01/15/0001/14/23C139EC3FCB4F8D93D38C61EAE5105D.html",
+        "justificacion": "Ceremonia de un solo dia (14 de enero de 2008); se corrige junto con TripStartDate y TripYear permanece en 2008."
+      },
+      {
+        "TripID": "2223-ECU-DOM-39514",
+        "campo": "MetNonhostHOGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.elespectador.com/politica/apreton-de-manos-alivia-crisis-con-vecinos-article-5497/ ; https://www.lapoliticaonline.com/nota/nota-35911/",
+        "justificacion": "En la XX Cumbre del Grupo de Rio en Santo Domingo (7 de marzo de 2008), ademas de reunirse con el anfitrion Leonel Fernandez, Correa protagonizo el celebre apreton de manos de reconciliacion con Alvaro Uribe (Colombia) y Hugo Chavez (Venezuela) tras la crisis de Angostura, documentado por multiples medios. El campo MetNonhostHOGS deberia reflejar 'Yes'."
+      },
+      {
+        "TripID": "2223-ECU-DOM-39514",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "President Alvaro Uribe;President Hugo Chavez",
+        "fuente": "https://www.elespectador.com/politica/apreton-de-manos-alivia-crisis-con-vecinos-article-5497/",
+        "justificacion": "El apreton de manos entre Uribe, Correa y Chavez, mediado por el presidente dominicano Leonel Fernandez, es el hecho mas documentado de esa cumbre y da cierre publico a la crisis diplomatica desatada por el bombardeo de Angostura."
+      },
+      {
+        "TripID": "2223-ECU-HND-39964",
+        "campo": "TripStartDate",
+        "valor_correcto": "2009-06-02",
+        "fuente": "https://www.wsws.org/en/articles/2009/06/oasv-j05.html",
+        "justificacion": "La 39a Asamblea General de la OEA se celebro en San Pedro Sula, Honduras, del 2 al 4 de junio de 2009 (la votacion sobre el retorno de Cuba a la OEA fue el 3 de junio). El registro actual data el viaje el 31 de mayo de 2009, varios dias antes del evento que el propio registro cita como motivo del viaje (AttendedMultilatEvent: OAS General Assembly)."
+      },
+      {
+        "TripID": "2223-ECU-PER-39583",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "European Union-Latin America and the Caribbean (EU-LAC) Summit",
+        "fuente": "https://eulacfoundation.org/es/v-cumbre-entre-la-union-europea-y-america-latina-y-el-caribe-lima-peru-16-mayo-2008 ; https://es.wikipedia.org/wiki/Cumbre_Am%C3%A9rica_Latina,_el_Caribe_y_la_Uni%C3%B3n_Europea",
+        "justificacion": "El evento realizado en Lima, Peru, el 16-17 de mayo de 2008 (con actividades desde el 13) fue la V Cumbre America Latina, el Caribe y la Union Europea (ALC-UE), no una 'Caribbean-European Council Summit' (nombre que no corresponde a ningun organismo o cumbre real). Correa asistio, confirmado por fuentes de prensa espanola sobre su gira europea previa (con escala en Madrid el 12 de mayo, ya documentada en el registro ESP-39580) camino a Lima."
+      },
+      {
+        "TripID": "2223-ECU-PRY-39895",
+        "campo": "HostHOGSName",
+        "valor_correcto": "President Fernando Lugo",
+        "fuente": "https://www.elimparcial.es/noticia/35880/america/correa-sera-el-primer-mandatario-que-visita-paraguay-con-lugo-en-poder.html ; https://www.pj.gov.py/notas/2165-visita-oficial-del-presidente-del-ecuador-rafael-correa-a-la-corte-suprema",
+        "justificacion": "El presidente de Paraguay en marzo de 2009 era Fernando Lugo (asumio el 15 de agosto de 2008), no Fernando Henrique Cardoso (quien fue presidente de Brasil entre 1995 y 2003 y nunca goberno Paraguay). Fuentes de prensa confirman que la visita de Correa en marzo de 2009 fue la primera visita oficial de un jefe de Estado a Paraguay desde la asuncion de Lugo."
+      },
+      {
+        "TripID": "2223-ECU-ESP-39921",
+        "campo": "CountryVisited",
+        "valor_correcto": "DUPLICADO / REGISTRO ERRONEO - ver TripID 2223-ECU-TTO-39921",
+        "fuente": "https://es.wikipedia.org/wiki/V_Cumbre_de_las_Am%C3%A9ricas",
+        "justificacion": "La V Cumbre de las Americas (Summit of the Americas) se realizo en Puerto Espana (Port of Spain), Trinidad y Tobago, del 17 al 19 de abril de 2009 -no en Espana-. Este registro (2223-ECU-ESP-39921) comparte fechas identicas (18-20 abril 2009) y el mismo evento multilateral que el registro correcto 2223-ECU-TTO-39921 (Trinidad y Tobago), que ademas detalla correctamente los encuentros con Obama, Chavez, Bachelet y Golding en esa cumbre. Todo indica un error de carga de datos (posible confusion entre 'Port of Spain' y 'Spain'/'Espana'). Se recomienda eliminar o fusionar este registro duplicado con 2223-ECU-TTO-39921."
+      },
+      {
+        "TripID": "2223-ECU-CUB-40046",
+        "campo": "HostHOGSName",
+        "valor_correcto": "President Raul Castro",
+        "fuente": "https://www.presidencia.gob.ec/los-hermanos-castro-mostraron-su-aprecio-por-el-presidente-correa/ ; https://www.eltiempo.com/archivo/documento/CMS-6139089",
+        "justificacion": "Desde febrero de 2008 el Jefe de Estado de Cuba era Raul Castro, no Fidel Castro (quien habia cedido el cargo formalmente y no ostentaba titulo de gobierno en agosto de 2009). Fuentes confirman que durante este viaje (chequeo medico/preparacion de cirugia de rodilla) Correa se reunio oficialmente con el presidente Raul Castro y, de manera no agendada, con Fidel Castro durante unas dos horas."
+      },
+      {
+        "TripID": "2223-ECU-CUB-40046",
+        "campo": "MetNonhostHOGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.presidencia.gob.ec/los-hermanos-castro-mostraron-su-aprecio-por-el-presidente-correa/",
+        "justificacion": "Fidel Castro, al no ostentar cargo de gobierno formal en 2009, corresponde clasificarlo como encuentro con un 'Non-host HOGS' historico/simbolico y no como el Host HOGS oficial del pais (que era Raul Castro)."
+      },
+      {
+        "TripID": "2223-ECU-CUB-40046",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "Fidel Castro",
+        "fuente": "https://www.presidencia.gob.ec/los-hermanos-castro-mostraron-su-aprecio-por-el-presidente-correa/",
+        "justificacion": "El encuentro informal de aproximadamente dos horas entre Correa y Fidel Castro (sin cargo oficial desde 2008) durante este viaje esta documentado por la Presidencia de Ecuador y por prensa regional."
+      },
+      {
+        "TripID": "2223-ECU-VEN-39778",
+        "campo": "Notes",
+        "valor_correcto": "Also at the Meeting with Medvedev, Dominica Prime Minister Roosevelt Skerrit and Cuban State Council Vice President Carlos Lage",
+        "fuente": "https://www.emol.com/noticias/internacional/2008/11/26/332641/medvedev-llega-a-venezuela-para-suscribir-acuerdos-con-chavez.html",
+        "justificacion": "Correccion de error tipografico: 'Mevdev' debe leerse 'Medvedev' (presidente ruso Dmitri Medvedev, quien llego a Caracas el 26 de noviembre de 2008 mientras se desarrollaba la Cumbre Extraordinaria del ALBA, coincidiendo con las fechas de este registro)."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Bolivia",
+        "CityVisited": "La Paz",
+        "TripStartDate": "2010-01-22",
+        "TripEndDate": "2010-01-22",
+        "TripDuration": "1",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Evo Morales",
+        "AttendedMultilatEvent": "No",
+        "NameMultilatEvent": "",
+        "MetNonhostHOGS": "Yes",
+        "NonhostHOGSNames": "President Hugo Chavez;President Fernando Lugo;President Michelle Bachelet",
+        "SignedAgreement": "",
+        "fuente": "https://www.comunicacion.gob.ec/presidente-correa-arribo-a-bolivia-para-posesion-de-evo-morales/ ; https://diariodecuyo.com.ar/mundo/Evo-Morales-juro-su-segundo-mandato-consecutivo-20100122-0020.html",
+        "justificacion": "Viaje no incluido en el archivo cargado. Rafael Correa asistio el 22 de enero de 2010 a la ceremonia de investidura del segundo mandato consecutivo (primero bajo la nueva Constitucion del Estado Plurinacional) de Evo Morales en la Asamblea Legislativa Plurinacional en La Paz, Bolivia, junto a los presidentes de Venezuela (Chavez), Paraguay (Lugo) y Chile (Bachelet), segun fuentes oficiales ecuatorianas y de prensa regional. La fecha cae dentro del rango de este tramo (hasta enero de 2010)."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "2223-ECU-BEL-40116",
+        "campo": "TripStartDate/TripEndDate/general",
+        "justificacion": "El propio registro original senala 'Visit planned; but unconfirmed. Dates implied', citando solo articulos de wire service (WNC Eastview) sin fecha exacta verificable. Se realizaron busquedas sobre la gira europea de Correa de octubre-noviembre de 2009 vinculada a la iniciativa Yasuni-ITT (Londres, Bruselas, Paris, Estocolmo, Ottawa) pero no se hallo una fuente independiente que confirme fechas precisas de la escala en Belgica distinta de la visita de Estado posterior (26-28 de noviembre de 2009, ya registrada aparte en 2223-ECU-BEL-40143)."
+      },
+      {
+        "TripID": "2223-ECU-FRA-40119",
+        "campo": "TripStartDate/TripEndDate/general",
+        "justificacion": "Registro con Confidence(1-5)=4 y notas del propio archivo que indican 'Dates unclear'. Se buscaron fuentes independientes sobre la escala francesa de la gira Yasuni-ITT de octubre-noviembre 2009 sin lograr una confirmacion adicional a los dos articulos ProQuest ya citados en el registro original."
+      },
+      {
+        "TripID": "2223-ECU-SWE-40120",
+        "campo": "TripStartDate/TripEndDate/general",
+        "justificacion": "Mismo caso que las escalas de Francia y Canada de esta gira: el registro original reconoce 'Dates unclear' (Confidence=4). No se encontro fuente periodistica independiente adicional que confirme con precision la escala sueca de la gira Yasuni-ITT de noviembre de 2009."
+      },
+      {
+        "TripID": "2223-ECU-CAN-40121",
+        "campo": "TripStartDate/TripEndDate/general",
+        "justificacion": "Mismo patron que las otras escalas de la gira internacional Yasuni-ITT de octubre-noviembre 2009: el registro original reconoce fechas inciertas (Confidence=4) basadas en las mismas dos fuentes ProQuest genericas sobre la gira, sin una nota de prensa canadiense especifica localizada que confirme la escala en Canada de forma independiente."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "2223-ECU-ARG-39344", "justificacion": "Consistente con la cronologia conocida: Correa viajo a Buenos Aires el 19 de septiembre de 2007, encuentro con Nestor Kirchner (presidente en funciones hasta el 10 de diciembre de 2007) y apoyo publico a la candidatura presidencial de Cristina Fernandez (elecciones del 28 de octubre de 2007); ya citado con fuentes Getty Images y ProQuest."
+      },
+      {"TripID": "2223-ECU-ARG-40052", "justificacion": "Verificado: la Cumbre Extraordinaria de UNASUR en Bariloche, Argentina, se realizo el 28 de agosto de 2009 sobre el tema de las bases militares de EE.UU. en Colombia; Correa participo activamente como parte del organismo, coincide con las fechas del registro (27-28 de agosto)."
+      },
+      {"TripID": "2223-ECU-BEL-39277", "justificacion": "Sin evidencia contraria hallada; coincide con cronologia de liberacion de migrantes ecuatorianos en Belgica en julio de 2007, ya citado con fuente de prensa (Newsbank)."
+      },
+      {"TripID": "2223-ECU-BEL-40143", "justificacion": "Visita de Estado a Belgica, 26-28 de noviembre de 2009, encuentro con el Rey Alberto II, coherente con la agenda internacional conocida de Correa sobre la iniciativa Yasuni-ITT en ese periodo; ya citado con multiples fuentes (Getty Images, ProQuest, WNC Eastview)."
+      },
+      {"TripID": "2223-ECU-BOL-40010", "justificacion": "El 16 de julio de 2009 se conmemoro el bicentenario del Grito Libertario de La Paz (16 de julio de 1809); la participacion de mandatarios regionales en la conmemoracion es consistente con la practica diplomatica de la epoca."
+      },
+      {"TripID": "2223-ECU-BOL-40101", "justificacion": "Cumbre del ALBA en Bolivia, octubre de 2009, coherente con el proceso de acercamiento de Ecuador al bloque que culmino con su ingreso pleno en junio de 2009 (ver VEN-39988)."
+      },
+      {"TripID": "2223-ECU-BRA-39099", "justificacion": "Cumbre del MERCOSUR en Rio de Janeiro, enero de 2007, poco despues de la asuncion de Correa (15 de enero de 2007); coherente con la practica de invitar a nuevos mandatarios sudamericanos a la primera cumbre del bloque tras asumir. Ya citado con fuentes de prensa (Newsbank, Getty Images)."
+      },
+      {"TripID": "2223-ECU-BRA-39175", "justificacion": "Visita bilateral a Brasil, abril de 2007, con Lula da Silva; coherente con la agenda energetica Ecuador-Brasil de la epoca (cooperacion petrolera y electrica). Ya citado con multiples fuentes ProQuest."
+      },
+      {"TripID": "2223-ECU-BRA-39345", "justificacion": "Escala en Brasil el 20 de septiembre de 2007, justo antes del viaje a EE.UU. para la Asamblea General de la ONU que inicio el 21 de septiembre (ver USA-39346); secuencia de viaje coherente."
+      },
+      {"TripID": "2223-ECU-BRA-39591", "justificacion": "Verificado: el Tratado Constitutivo de UNASUR fue firmado en Brasilia el 23 de mayo de 2008 por los 12 jefes de Estado sudamericanos, incluido Correa."
+      },
+      {"TripID": "2223-ECU-BRA-39798", "justificacion": "Cumbres superpuestas de CALC, MERCOSUR, UNASUR y Grupo de Rio en Costa do Sauipe (Bahia), diciembre de 2008, ampliamente documentadas; coherente con el proceso que desemboco en la creacion de la CELAC."
+      },
+      {"TripID": "2223-ECU-BRA-39841", "justificacion": "Foro Social Mundial en Belem do Para, enero de 2009, con fuerte presencia de mandatarios de izquierda de la region incluido Correa; ya citado con fuentes Getty Images y ProQuest."
+      },
+      {"TripID": "2223-ECU-CHL-39394", "justificacion": "XVII Cumbre Iberoamericana en Santiago de Chile, noviembre de 2007; ya citado con fuente oficial (presidencia.gob.ec) y Getty Images."
+      },
+      {"TripID": "2223-ECU-CHL-39517", "justificacion": "Visita bilateral a Chile, marzo de 2008, con Michelle Bachelet, en el contexto de la gira regional posterior a la crisis de Angostura; ya citado con fuente oficial (discurso presidencial publicado) y Getty Images."
+      },
+      {"TripID": "2223-ECU-CHL-39706", "justificacion": "Cumbre Extraordinaria de UNASUR en Santiago de Chile, 15 de septiembre de 2008, convocada por la crisis politica en Bolivia; coherente con el rol activo de UNASUR en ese conflicto."
+      },
+      {"TripID": "2223-ECU-CHN-39405", "justificacion": "Visita de Estado a China, noviembre de 2007, con el presidente Hu Jintao; registro de alta confianza (Confidence=1) con multiples fuentes ProQuest y Getty Images ya citadas."
+      },
+      {"TripID": "2223-ECU-COL-39367", "justificacion": "Inauguracion del gasoducto Colombia-Venezuela, octubre de 2007, con Uribe y Chavez, previo a la crisis de Angostura (marzo 2008); coherente con el periodo de relaciones normales entre Ecuador y Colombia antes del quiebre."
+      },
+      {"TripID": "2223-ECU-CUB-39820", "justificacion": "Primera visita oficial de Correa a Cuba como presidente, enero de 2009, con Raul Castro como anfitrion oficial (Jefe de Estado desde febrero de 2008); consistente y sin conflicto con otras fuentes."
+      },
+      {"TripID": "2223-ECU-CUB-40071", "justificacion": "Viaje a La Habana en septiembre de 2009 por cirugia de rodilla, confirmado por El Universo y El Tiempo; el registro ya marca correctamente la incertidumbre sobre si los encuentros con los hermanos Castro fueron de caracter oficial (MetHostHoGS: No), lo cual es razonable dado el caracter medico del viaje."
+      },
+      {"TripID": "2223-ECU-SLV-39750", "justificacion": "XVIII Cumbre Iberoamericana en El Salvador, octubre-noviembre de 2008 (fechas 29-31 oct), con visita a la tumba de Monsenor Romero; coherente con el patron de las Cumbres Iberoamericanas de la epoca."
+      },
+      {"TripID": "2223-ECU-SLV-39999", "justificacion": "Coherente con la cronologia: el golpe de Estado en Honduras contra Manuel Zelaya ocurrio el 28 de junio de 2009, por lo que reuniones regionales de emergencia en los dias siguientes (5-6 de julio) son consistentes con la reaccion diplomatica de la region."
+      },
+      {"TripID": "2223-ECU-FRA-39581", "justificacion": "Visita bilateral a Francia, mayo de 2008, con Nicolas Sarkozy, en el marco de la gira europea previa a la Cumbre ALC-UE de Lima (ver correccion en PER-39583); ya citado con fuentes ProQuest."
+      },
+      {"TripID": "2223-ECU-GUY-39143", "justificacion": "Cumbre del Grupo de Rio en Georgetown, Guyana, marzo de 2007; coherente con el calendario de cumbres del Grupo de Rio de la epoca."
+      },
+      {"TripID": "2223-ECU-IDN-39411", "justificacion": "Visita a Indonesia, noviembre de 2007, inmediatamente despues de la visita a China (19-25 nov); secuencia de gira asiatica coherente con firma de acuerdo petrolero, ya citado con fuente ProQuest."
+      },
+      {"TripID": "2223-ECU-IRN-39787", "justificacion": "Visita de Estado a Iran, diciembre de 2008, con Mahmoud Ahmadinejad; registro de alta confianza (Confidence=1) con multiples fuentes ya citadas (Getty Images, ProQuest)."
+      },
+      {"TripID": "2223-ECU-ITA-39276", "justificacion": "Escala en Italia, julio de 2007, previa a la visita a Belgica (14-17 julio, ver BEL-39277); secuencia de gira europea coherente."
+      },
+      {"TripID": "2223-ECU-ITA-39375", "justificacion": "Verificado: el encuentro internacional 'Hombres y Religiones' de la Comunidad de Sant'Egidio se realizo en Napoles en octubre de 2007, coincidiendo con las fechas del registro (20-22 octubre)."
+      },
+      {"TripID": "2223-ECU-MEX-39548", "justificacion": "Visita bilateral a Mexico, abril de 2008, con Felipe Calderon y visita a la Basilica de Guadalupe; coherente con la practica diplomatica de visitas de Estado de la epoca. Registro de alta confianza (Confidence=1)."
+      },
+      {"TripID": "2223-ECU-NIC-39513", "justificacion": "Parte de la gira regional de cinco paises (Peru-Brasil-Venezuela-Panama/Nicaragua-Republica Dominicana) tras la crisis de Angostura de marzo de 2008, confirmada de forma independiente (ver Wikipedia '2008 Andean diplomatic crisis' y correccion en BRA-39511); encuentro bilateral con Daniel Ortega."
+      },
+      {"TripID": "2223-ECU-NIC-39575", "justificacion": "Verificado: la Cumbre Presidencial sobre Soberania Alimentaria ('Alimentos para la Vida') se realizo en Managua el 7 de mayo de 2008, con la Declaracion de Managua adoptada por varios gobiernos incluido Ecuador."
+      },
+      {"TripID": "2223-ECU-NIC-39992", "justificacion": "Cumbre de emergencia del ALBA en Managua, 28-30 de junio de 2009, en respuesta directa al golpe de Estado en Honduras del 28 de junio de 2009; coherencia cronologica confirmada."
+      },
+      {"TripID": "2223-ECU-PAN-39513", "justificacion": "Parte de la misma gira regional de cinco paises tras la crisis de Angostura (ver NIC-39513 y BRA-39511); encuentro bilateral con Martin Torrijos, 6 de marzo de 2008."
+      },
+      {"TripID": "2223-ECU-PRY-39261", "justificacion": "Cumbre del MERCOSUR en Asuncion, junio de 2007; coherente con el calendario de cumbres del bloque en ese periodo. Ya citado con multiples fuentes de prensa."
+      },
+      {"TripID": "2223-ECU-PRY-39675", "justificacion": "Verificado: Fernando Lugo asumio la presidencia de Paraguay el 15 de agosto de 2008; fecha del registro coincide exactamente."
+      },
+      {"TripID": "2223-ECU-PER-39511", "justificacion": "Primera escala de la gira regional de cinco paises tras la crisis de Angostura de marzo de 2008 (ver correccion en BRA-39511); encuentro bilateral con Alan Garcia, 4 de marzo de 2008."
+      },
+      {"TripID": "2223-ECU-PER-39703", "justificacion": "Visita bilateral a Peru, septiembre de 2008, con Alan Garcia; sin evidencia contraria hallada, ya citado con fuente ProQuest."
+      },
+      {"TripID": "2223-ECU-PER-40108", "justificacion": "Visita bilateral a Peru, octubre de 2009, con Alan Garcia, firma de acuerdos de agricultura y transporte; coherente con la agenda bilateral Ecuador-Peru de la epoca."
+      },
+      {"TripID": "2223-ECU-PRT-40145", "justificacion": "XIX Cumbre Iberoamericana en Estoril, Portugal, noviembre de 2009; coherente con el patron de Cumbres Iberoamericanas anuales de la epoca (2007 Chile, 2008 El Salvador, 2009 Portugal, ya cubiertas en el archivo)."
+      },
+      {"TripID": "2223-ECU-RUS-40114", "justificacion": "Visita de Estado a Rusia, octubre de 2009, con Dmitry Medvedev; registro de alta confianza (Confidence=1) con multiples fuentes ya citadas (ProQuest, Getty Images, WNC Eastview)."
+      },
+      {"TripID": "2223-ECU-SAU-39402", "justificacion": "Cumbre de la OPEP en Riad, Arabia Saudita, 17-18 de noviembre de 2007; Ecuador reingreso a la OPEP en 2007, coherente con la asistencia de Correa a esta cumbre fundacional para su politica petrolera."
+      },
+      {"TripID": "2223-ECU-ESP-39275", "justificacion": "Escala en Espana, julio de 2007, previa a la visita a Italia y Belgica (ver ITA-39276, BEL-39277); encuentro bilateral con Zapatero, secuencia de gira europea coherente."
+      },
+      {"TripID": "2223-ECU-ESP-39373", "justificacion": "Visita a Espana, octubre de 2007, con encuentro con el Rey Juan Carlos I y actividades con la comunidad ecuatoriana migrante; coherente con la agenda migratoria prioritaria de Correa en ese periodo."
+      },
+      {"TripID": "2223-ECU-ESP-39580", "justificacion": "Verificado: escala en Espana (Madrid) el 12 de mayo de 2008, con reunion con Zapatero, como parte de la gira europea previa a la V Cumbre ALC-UE de Lima (13-17 de mayo de 2008, ver correccion en PER-39583)."
+      },
+      {"TripID": "2223-ECU-TTO-39921", "justificacion": "Verificado: la V Cumbre de las Americas se realizo en Puerto Espana, Trinidad y Tobago, del 17 al 19 de abril de 2009, con la participacion de Obama, Chavez, Bachelet y otros mandatarios, coincidiendo con los datos del registro."
+      },
+      {"TripID": "2223-ECU-ARE-39404", "justificacion": "Escala en Dubai (EAU) el 18 de noviembre de 2007, coherente con la secuencia de la gira a Medio Oriente/Asia de Correa: Arabia Saudita (Cumbre OPEP, 16-18 nov) - escala en EAU (18 nov) - China (19-25 nov) - Indonesia (25-26 nov)."
+      },
+      {"TripID": "2223-ECU-GBR-40111", "justificacion": "Visita al Reino Unido, octubre de 2009 (25-28), con conferencia en el Oxford Union documentada especificamente por fuente de wire service (WNC Eastview), como parte de la gira internacional sobre la iniciativa Yasuni-ITT."
+      },
+      {"TripID": "2223-ECU-USA-39346", "justificacion": "Asamblea General de la ONU, septiembre de 2007; registro de alta confianza con fuente oficial de la ONU (un.org, registro de la sesion A/62/PV.7) ademas de multiples fuentes de prensa."
+      },
+      {"TripID": "2223-ECU-USA-39989", "justificacion": "Conferencia de la ONU sobre la Crisis Financiera y Economica Mundial, Nueva York, 24-30 de junio de 2009; fechas del registro (25-28 junio) coherentes con el rango de la conferencia."
+      },
+      {"TripID": "2223-ECU-VEN-39188", "justificacion": "Verificado: la I Cumbre Energetica Suramericana se realizo en Isla Margarita, Venezuela, el 16-17 de abril de 2007, con la participacion confirmada de Michelle Bachelet (Chile) junto a los presidentes de Argentina, Bolivia, Brasil, Colombia y Ecuador."
+      },
+      {"TripID": "2223-ECU-VEN-39512", "justificacion": "Parte de la gira regional de cinco paises tras la crisis de Angostura (ver correccion en BRA-39511); encuentro bilateral con Hugo Chavez, 5-6 de marzo de 2008."
+      },
+      {"TripID": "2223-ECU-VEN-39689", "justificacion": "Inauguracion de una estacion de perforacion petrolera con Hugo Chavez, agosto de 2008; coherente con la cooperacion energetica Ecuador-Venezuela de la epoca (PDVSA-Petroecuador)."
+      },
+      {"TripID": "2223-ECU-VEN-39846", "justificacion": "Cumbre del ALBA en Cumana, Venezuela, febrero de 2009, con visita al lugar de nacimiento de Antonio Jose de Sucre; coherente con el calendario de cumbres del ALBA de la epoca."
+      },
+      {"TripID": "2223-ECU-VEN-39988", "justificacion": "Cumbre del ALBA en Maracay, Venezuela, 24-25 de junio de 2009, donde Ecuador formalizo su ingreso pleno al bloque; coincide con las celebraciones de la Batalla de Carabobo (24 de junio)."
+      },
+      {"TripID": "2223-ECU-VEN-40082", "justificacion": "II Cumbre America del Sur-Africa (ASA), Isla Margarita, septiembre de 2009, con la firma del acuerdo de constitucion del Banco del Sur; coherente con el proceso de ratificacion del Banco del Sur iniciado en diciembre de 2007 (ver ARG-39426)."
+      },
+      {"TripID": "2223-ECU-VEN-40093", "justificacion": "Visita bilateral a Venezuela, octubre de 2009, con firma de acuerdo minero conjunto; sin evidencia contraria hallada, coherente con la intensa agenda bilateral Ecuador-Venezuela de la epoca."
+      }
+    ]
+  }
+]

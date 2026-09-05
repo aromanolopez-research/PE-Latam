@@ -1,0 +1,417 @@
+[
+  {
+    "LeaderID": "1383",
+    "correcciones": [
+      {
+        "TripID": "1383-VEN-MEX-37336",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "International Conference on Financing for Development",
+        "justificacion": "El evento multilateral en Monterrey, México, los días 21-22 de marzo de 2002 fue la Conferencia Internacional sobre la Financiación para el Desarrollo (Consenso de Monterrey), celebrada del 18 al 22 de marzo de 2002 en el Cintermex. No fue una sesión de la Asamblea General de la ONU (esa se celebra en Nueva York, no en México). Chávez participó como Presidente del G-77 y criticó los compromisos de AOD. COLT registró incorrectamente el nombre del evento.",
+        "fuente": "https://www.un.org/webcast/ffd/2002/statements/venezuelaE.htm ; https://www.un.org/webcast/ffd/2002/pressrel/22c.htm"
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "1383-VEN-AUT-37181",
+        "campo": "TripStartDate / CountryVisited",
+        "motivo": "No se encontró ninguna fuente independiente que confirme una visita de Chávez a Austria/Viena entre el 17 y el 19 de octubre de 2001. La única fuente citada por COLT (The Globe and Mail, con fecha de publicación 8 de octubre de 2001) trata sobre declaraciones genéricas de Chávez sobre precios del petróleo hechas durante la etapa suiza de la gira (Ginebra, 8 de octubre), no sobre una visita a Austria el 17 de octubre. Además esta fecha de inicio (2001-10-17) coincide exactamente con la fecha de inicio del viaje a Portugal (1383-VEN-PRT-37181), lo cual genera una superposición sospechosa dentro de la misma gira europea/OPEP.",
+        "fuente_intentada": "Search Query: Chavez Vienna Austria October 2001 OPEC visit ; Search Query: Chavez Bouteflika Vienna gira octubre 2001"
+      },
+      {
+        "TripID": "1383-VEN-PRT-37181",
+        "campo": "TripStartDate / TripEndDate",
+        "motivo": "Se confirmó de forma independiente que Chávez visitó Portugal en octubre de 2001 (su primera visita), pasando un día en Madeira y siendo recibido por el primer ministro António Guterres en el Palacio de São Bento, pero la fuente hallada no precisa las fechas exactas (17-19 de octubre) ni permite resolver la superposición con la fecha de inicio de la visita a Austria (mismo TripID base 37181, mismo día de inicio 17 de octubre), por lo que no puede confirmarse con precisión el rango de fechas ni si ambos países se visitaron en la misma gira sin contradicción de itinerario.",
+        "fuente_intentada": "https://tvi.iol.pt/noticias/internacional/hugo-chavez-portugal/as-quatro-visitas-de-hugo-chavez-a-portugal (no incluye fechas exactas); Search Query: Chavez Portugal visita octubre 2001 fechas exactas Madeira Guterres"
+      },
+      {
+        "TripID": "1383-VEN-IRN-37184",
+        "campo": "SourceLink1 / evento",
+        "motivo": "La única fuente citada por COLT para esta visita a Irán del 20 de octubre de 2001 (\"Putin and Chavez meet for oil price talks\", AFP, 22 de octubre de 2001) es en realidad la nota sobre el encuentro Chávez-Putin en Rusia (fechado dos días después), no un artículo sobre una visita a Irán. No se halló ninguna fuente independiente que documente un encuentro Chávez-Khatami el 20 de octubre de 2001; solo está bien documentada la primera visita de Chávez a Irán en mayo de 2001. Es posible que se trate de un error de carga de fuente o una entrada duplicada/errónea vinculada al mismo ID numérico COLT (37184) que la visita a Arabia Saudita del mismo día, la cual sí está bien documentada.",
+        "fuente_intentada": "Search Query: Chavez Iran Tehran Khatami October 20 2001 ; Search Query: Chavez Middle East tour October 2001 Iran Saudi Arabia itinerary"
+      },
+      {
+        "TripID": "1383-VEN-NLD-37317",
+        "campo": "CountryVisited / NameMultilatEvent",
+        "motivo": "No se encontró ninguna fuente independiente que confirme una visita de Chávez a los Países Bajos el 2 de marzo de 2002, ni una conexión entre Chávez y un evento llamado \"UNITAS\" en territorio neerlandés. UNITAS es históricamente un ejercicio naval multinacional centrado en América Latina/Caribe, no un evento asociado a los Países Bajos, lo cual genera dudas razonables sobre la exactitud de este registro (posible error de país o de nombre del evento, quizás correspondiente a una escala en el Caribe neerlandés -Aruba/Curazao- en lugar de la Holanda continental). El único enlace de origen (u.afp.com/4oEM) es un acortador de AFP ya inactivo y no se pudo recuperar su contenido.",
+        "fuente_intentada": "Search Query: Chavez Netherlands visit March 2002 ; Search Query: Chavez Aruba Curacao UNITAS 2002 ; Search Query: Chávez Holanda visita 2002"
+      },
+      {
+        "TripID": "1383-VEN-SLV-37590",
+        "campo": "Notes / asistencia confirmada",
+        "motivo": "Se confirmó que los XIX Juegos Centroamericanos y del Caribe se realizaron en San Salvador del 22 de noviembre al 8 de diciembre de 2002, por lo que el evento en sí es real y las fechas del viaje (30 nov-2 dic) caen dentro de ese rango. Sin embargo, no se halló ninguna fuente independiente que confirme específicamente la asistencia de Chávez a los Juegos en esas fechas; las únicas fuentes citadas por COLT son un enlace de foro de AFP no verificable y un acortador de AFP inactivo, y el propio registro de COLT ya marca una confianza baja (2 de 5).",
+        "fuente_intentada": "Search Query: Chavez El Salvador Central American Caribbean Games November December 2002 asistencia ; Search Query: Chávez Flores San Salvador Juegos Centroamericanos 2002"
+      },
+      {
+        "TripID": "1383-VEN-FRA-37544",
+        "campo": "BusinessLeaderOrForum / Notes",
+        "motivo": "La única fuente citada por COLT (\"Chirac calls for dialogue to solve Venezuela crisis\", AFP, 16 de octubre de 2002) trata sobre un llamado de Chirac al diálogo político venezolano, no sobre una reunión de Chávez con inversionistas petroleros franceses (incluido el presidente de Totalfina Elf) como describen las Notes. No se encontró una fuente independiente que confirme específicamente esa reunión empresarial el 15 de octubre de 2002.",
+        "fuente_intentada": "Search Query: Chavez Chirac Totalfina Elf October 2002 Paris oil investors meeting"
+      },
+      {
+        "TripID": "1383-VEN-CUB-37445",
+        "campo": "Notes / evento",
+        "motivo": "No se encontró ninguna fuente independiente que confirme la asistencia de Chávez a un partido de béisbol con Fidel Castro el 8 de julio de 2002 en Cuba. El único enlace de origen (u.afp.com/4oET) es un acortador de AFP inactivo cuyo contenido no pudo recuperarse.",
+        "fuente_intentada": "Search Query: Chavez Castro baseball game July 2002 Havana"
+      },
+      {
+        "TripID": "1383-VEN-MOZ-37504",
+        "campo": "evento / fuente",
+        "motivo": "La única fuente citada por COLT es un enlace de LexisNexis con muro de pago inaccesible para verificación independiente. No se halló ninguna fuente abierta que confirme una visita de Chávez a Mozambique el 5 de septiembre de 2002 (aunque es plausible como escala de regreso desde la Cumbre de Johannesburgo, dado que Mozambique es un país limítrofe de Sudáfrica).",
+        "fuente_intentada": "Search Query: Chavez Mozambique Chissano September 2002 visit"
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1383-VEN-CUB-36961",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2001-03-11 a 2001-03-12; Fidel Castro",
+        "justificacion": "Triangulado por tres agencias de noticias independientes contemporáneas (AFP x2, Deutsche Presse-Agentur) con fecha de publicación coincidente (12 de marzo de 2001), sin contradicciones internas.",
+        "fuente": "Agence France Presse, 12 March 2001; Deutsche Presse-Agentur, 12 March 2001 (citados en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-DZA-37177",
+        "campo": "TripStartDate/CountryVisited/HostHOGSName",
+        "valor": "2001-10-13; Argelia; Presidente Abdelaziz Bouteflika",
+        "justificacion": "Se confirmó de forma independiente que Chávez realizó una de sus cuatro visitas oficiales a Argelia en 2001 (además de 2000, 2006 y 2009), consistente con la etapa argelina de su gira europea/africana de octubre de 2001.",
+        "fuente": "Search Query: Chavez Bouteflika Algiers October 2001 visit (algeria-watch.org, fpa.org)"
+      },
+      {
+        "TripID": "1383-VEN-BGD-37034",
+        "campo": "TripStartDate/CountryVisited/HostHOGSName",
+        "valor": "2001-05-23; Bangladesh; Primera Ministra Hasina Wajed",
+        "justificacion": "Fuente de agencia de noticias contemporánea (AFP, 21 mayo 2001) describe explícitamente el viaje inaugural de Chávez a Bangladesh como parte de su gira asiática de mayo de 2001; consistente con la secuencia de la gira (India 22/5, China 24-27/5).",
+        "fuente": "Agence France Presse, 21 May 2001 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-BEL-37179",
+        "campo": "TripStartDate/TripEndDate/IGOLeaderName",
+        "valor": "2001-10-15 a 2001-10-16; Presidente de la Comisión Europea Romano Prodi",
+        "justificacion": "Triangulado por dos agencias independientes (Xinhua, AFP) con fechas de publicación coincidentes (15-16 octubre 2001), consistente con la gira europea de octubre 2001.",
+        "fuente": "Xinhua General News Service, 15 October 2001; Agence France Presse, 16 October 2001 (citadas en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-BOL-37285",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "2002-01-29 a 2002-01-30; Cumbre de la Comunidad Andina de Naciones",
+        "justificacion": "Evento histórico real y bien documentado (Cumbre Andina en Bolivia, enero 2002); fuente de agencia (AP) con fecha coincidente.",
+        "fuente": "Associated Press International, 29 January 2002 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-BOL-37474",
+        "campo": "TripStartDate/HostHOGSName/CulturalSiteOrCeremony",
+        "valor": "2002-08-06; Presidente Gonzalo Sánchez de Lozada; asistió a la investidura",
+        "justificacion": "Confirmado de forma independiente: Sánchez de Lozada juró como presidente el 6 de agosto de 2002, con la asistencia de Hugo Chávez, el presidente peruano Alejandro Toledo y el Príncipe Felipe de España.",
+        "fuente": "VOA News, 7 August 2002, https://www.voanews.com/a/a-13-a-2002-08-07-38-bolivia-67577307/288240.html"
+      },
+      {
+        "TripID": "1383-VEN-BRA-36984",
+        "campo": "TripStartDate/HostHOGSName",
+        "valor": "2001-04-03; Presidente Fernando Henrique Cardoso",
+        "justificacion": "Consistente con la agenda diplomática previa a la III Cumbre de las Américas (Québec, 20-22 abril 2001); dos fuentes citadas (World News Connection/Eastview).",
+        "fuente": "wnc.eastview.com (citadas en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-CAN-37001",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent/NonhostHOGSNames",
+        "valor": "2001-04-20 a 2001-04-22; III Cumbre de las Américas, Québec; Cardoso, De la Rúa, Bush",
+        "justificacion": "Confirmado de forma independiente: la III Cumbre de las Américas se celebró en Quebec del 20 al 22 de abril de 2001 con asistencia de 34 jefes de Estado, incluido George W. Bush.",
+        "fuente": "EveryCRSReport, \"Summit of the Americas III, Quebec City, Canada, April 20-22, 2001\"; georgewbush-whitehouse.archives.gov"
+      },
+      {
+        "TripID": "1383-VEN-CAN-37188",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2001-10-24 a 2001-10-25; Primer Ministro Jean Chrétien",
+        "justificacion": "Consistente con la secuencia de la gira de octubre 2001 (Rusia 21-22, Reino Unido 23, Canadá 24-25, México 26). La fuente citada por COLT (Xinhua) fue publicada desde Canadá anunciando la próxima etapa mexicana, lo cual es coherente con el itinerario, no contradictorio.",
+        "fuente": "Xinhua General News Service, 24 October 2001 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-CHL-37120",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent/SignedAgreement",
+        "valor": "2001-08-17 a 2001-08-20; Cumbre del Grupo de Río y Conferencia de la CEPAL",
+        "justificacion": "Triangulado por cuatro fuentes (Proquest/prensa, gobierno mexicano, Getty Images, Proquest), consistente con la agenda regional de agosto de 2001.",
+        "fuente": "search.proquest.com (citadas en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-CHN-37035",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2001-05-24 a 2001-05-27; Secretario General Jiang Zemin",
+        "justificacion": "Triangulado por tres agencias independientes (AFP, DPA, Proquest) con fechas coincidentes; parte de la gira asiática de mayo 2001.",
+        "fuente": "Agence France Presse, 24 May 2001; Deutsche Presse-Agentur, 24 May 2001 (citadas en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-COL-36998",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2001-04-17 a 2001-04-18; reunión de presidentes andinos previa a la Cumbre de las Américas",
+        "justificacion": "Triangulado por cuatro fuentes independientes (AP, Xinhua, AFP x2) describiendo la reunión de líderes andinos en Colombia antes de la Cumbre de Quebec.",
+        "fuente": "Associated Press International, 17 April 2001; Agence France Presse, 19 April 2001 (citadas en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-COL-37015",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2001-05-04 a 2001-05-05; Presidente Andrés Pastrana Arango",
+        "justificacion": "Fuente de agencia (AFP) fechada exactamente el mismo día del inicio del viaje, sin contradicciones.",
+        "fuente": "Agence France Presse, 4 May 2001 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-COL-37158",
+        "campo": "TripStartDate/Notes",
+        "valor": "2001-09-24; asistió a la reunión del Parlamento Amazónico en Bogotá",
+        "justificacion": "Fuente de prensa indexada (Proquest) consistente con la fecha y el evento descrito.",
+        "fuente": "search.proquest.com (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-COL-37475",
+        "campo": "TripStartDate/HostHOGSName/CulturalSiteOrCeremony",
+        "valor": "2002-08-07; Presidente Álvaro Uribe; asistió a la investidura",
+        "justificacion": "Confirmado de forma independiente que Chávez asistió a la investidura de Álvaro Uribe el 7 de agosto de 2002 en Bogotá, día en que las FARC lanzaron un ataque con \"rockets\" cerca de la Casa de Nariño.",
+        "fuente": "Infobae, JEP acredita 31 víctimas del atentado del 7 de agosto de 2002; CNN, \"Colombia blasts kill 13 as Uribe takes office\", 7-8 August 2002"
+      },
+      {
+        "TripID": "1383-VEN-COL-37573",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2002-11-13 a 2002-11-14; Presidente Álvaro Uribe",
+        "justificacion": "Consistente con la relación bilateral activa Chávez-Uribe documentada en el mismo periodo (fuente WNC/Eastview); sin contradicciones de fecha.",
+        "fuente": "wnc.eastview.com (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-DOM-36959",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2001-03-09 a 2001-03-11; Presidente Hipólito Mejía",
+        "justificacion": "Triangulado por cuatro fuentes independientes (AFP, Proquest, AP x2) con fechas coincidentes (9-11 marzo 2001).",
+        "fuente": "Agence France Presse, 11 March 2001; Associated Press International, 10 March 2001 (citadas en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-DOM-37575",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "2002-11-15 a 2002-11-16; XII Cumbre Iberoamericana, Bávaro",
+        "justificacion": "Confirmado de forma independiente: la XII Cumbre Iberoamericana se realizó en Bávaro, República Dominicana, los días 15 y 16 de noviembre de 2002.",
+        "fuente": "Secretaría General Iberoamericana (SEGIB), https://segib.org/es/cumbre/xii-cumbre-iberoamericana/"
+      },
+      {
+        "TripID": "1383-VEN-ECU-37463",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "2002-07-26 a 2002-07-27; II Cumbre Suramericana, Guayaquil",
+        "justificacion": "Confirmado de forma independiente: la Segunda Cumbre Suramericana se realizó en Guayaquil, Ecuador, el 26 y 27 de julio de 2002.",
+        "fuente": "Wikinews, \"South American Community of Nations announced at Third South American Summit\" (referencia histórica a la segunda cumbre de 2002)"
+      },
+      {
+        "TripID": "1383-VEN-ECU-37589",
+        "campo": "TripStartDate/MetNonhostHOGS/Notes",
+        "valor": "2002-11-29; encendido de la Llama Eterna en la inauguración de la Capilla del Hombre (museo Guayasamín) en Quito, con Fidel Castro presente",
+        "justificacion": "Confirmado de forma independiente: el 29 de noviembre de 2002 se inauguró la Capilla del Hombre en Quito en homenaje al pintor Oswaldo Guayasamín, con la presencia de Fidel Castro, Hugo Chávez y el presidente ecuatoriano Gustavo Noboa.",
+        "fuente": "Notas de prensa sobre la inauguración de la Capilla del Hombre, Quito, 29 de noviembre de 2002 (ej. clave.com.ec, notyouraverageamerican.com)"
+      },
+      {
+        "TripID": "1383-VEN-FRA-37173",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2001-10-09 a 2001-10-11; Presidente Jacques Chirac",
+        "justificacion": "Consistente con la gira europea de octubre 2001; dos fuentes de agencia (Xinhua, AP) con fechas coincidentes.",
+        "fuente": "Xinhua General News Services, 10 October 2001 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-IND-37033",
+        "campo": "TripStartDate/Notes",
+        "valor": "2001-05-22; reunión con Reliance Industries en Bombay tras posponerse la visita oficial a Nueva Delhi",
+        "justificacion": "Dos fuentes AFP con fechas coincidentes (11 y 22 de mayo de 2001) narran de forma consistente la postergación de la visita de Estado y el viaje de negocios a Bombay.",
+        "fuente": "Agence France Presse, 11 y 22 May 2001 (citadas en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-IDN-37040",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "2001-05-29 a 2001-06-01; Cumbre del G-15, Yakarta",
+        "justificacion": "La Cumbre del G-15 de 2001 se celebró en Yakarta, Indonesia, hecho históricamente conocido y consistente con las cuatro fuentes de agencia citadas.",
+        "fuente": "Agence France Presse, 31 May 2001 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-IRN-37029",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2001-05-18 a 2001-05-21; Presidente Mohammad Khatami",
+        "justificacion": "Confirmado de forma independiente que la visita de Chávez a Teherán en mayo de 2001 fue su primera visita a Irán, donde declaró venir a \"preparar el camino para la paz\".",
+        "fuente": "RFE/RL, \"The Unlikely Partnership Of Venezuela And Iran\"; UANI, \"Relations under Khatami and Chávez\""
+      },
+      {
+        "TripID": "1383-VEN-ITA-37176",
+        "campo": "TripStartDate/HostHOGSName/MetNonhostHOGS",
+        "valor": "2001-10-12; Primer Ministro Silvio Berlusconi; Papa Juan Pablo II",
+        "justificacion": "Fuente de agencia (AP) con fecha exacta coincidente describe el encuentro entre el Papa y Chávez sobre el terrorismo.",
+        "fuente": "Associated Press International, 12 October 2001 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-ITA-37545",
+        "campo": "TripStartDate/Notes",
+        "valor": "2002-10-16; discurso como invitado de honor en la FAO (Día Mundial de la Alimentación), Roma",
+        "justificacion": "Confirmado de forma independiente que Chávez dio un discurso en la FAO durante la presentación del Día Mundial de la Alimentación el 16 de octubre de 2002 en Roma.",
+        "fuente": "Cobertura de agencia sobre el discurso de Chávez en la FAO, Roma, 16 de octubre de 2002 (Agence France Presse, citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-LBY-37178",
+        "campo": "TripStartDate/HostHOGSName",
+        "valor": "2001-10-14; Muammar al-Qaddafi",
+        "justificacion": "Consistente con la secuencia de la gira norteafricana de octubre 2001 (Argelia 13/10, Libia 14/10, Bélgica 15-16/10); fuente WNC/Eastview.",
+        "fuente": "wnc.eastview.com (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-MYS-37039",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2001-05-28 a 2001-05-29; Primer Ministro Mahathir bin Mohamad",
+        "justificacion": "Consistente con la gira asiática de mayo 2001, previa a la Cumbre del G-15 en Yakarta; dos fuentes Proquest.",
+        "fuente": "search.proquest.com (citadas en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-MEX-37190",
+        "campo": "TripStartDate/HostHOGSName",
+        "valor": "2001-10-26; Presidente Vicente Fox",
+        "justificacion": "Consistente con el cierre de la gira de octubre 2001 tras la escala en Canadá (24-25/10), tal como anunciaba la fuente Xinhua del 24 de octubre.",
+        "fuente": "search.proquest.com; lexisnexis.com (citadas en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-NOR-37547",
+        "campo": "TripStartDate/HostHOGSName",
+        "valor": "2002-10-18; Primer Ministro Kjell Magne Bondevik",
+        "justificacion": "Consistente con la gira europea de octubre 2002 (Francia 15/10, Italia 16/10, Reino Unido 17/10, Noruega 18/10); fuente AP con fecha exacta coincidente.",
+        "fuente": "Associated Press International, 18 October 2002 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-PRY-37063",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2001-06-21 a 2001-06-22; Presidente Luis Ángel González Macchi",
+        "justificacion": "Dos fuentes Proquest describen el viaje a Paraguay incluyendo la escala previa en Lima explicada en el registro hermano (PER-37063).",
+        "fuente": "search.proquest.com (citadas en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-PER-37063",
+        "campo": "TripStartDate/Notes",
+        "valor": "2001-06-21; escala de reabastecimiento en Lima camino a Paraguay, reunión con el presidente electo Alejandro Toledo",
+        "justificacion": "Consistente internamente con el registro PRY-37063 del mismo día/fuente; narrativa de escala técnica coherente con la política exterior de la época (caso Montesinos).",
+        "fuente": "search.proquest.com (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-PER-37099",
+        "campo": "TripStartDate/TripEndDate/Notes",
+        "valor": "2001-07-27 a 2001-07-28; asistió a la investidura del presidente electo Alejandro Toledo",
+        "justificacion": "Confirmado de forma independiente que Alejandro Toledo asumió la presidencia de Perú el 28 de julio de 2001; la fuente AFP citada documenta la llegada de jefes de Estado a Lima para la investidura.",
+        "fuente": "Wikipedia/fuentes generales sobre la investidura de Alejandro Toledo, 28 julio 2001; Agence France Presse, 28 July 2001 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-PER-37218",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "2001-11-23 a 2001-11-24; XI Cumbre Iberoamericana, Lima",
+        "justificacion": "Confirmado de forma independiente: la XI Cumbre Iberoamericana se celebró en Lima, Perú, el 23 y 24 de noviembre de 2001 bajo el lema \"Unidos para construir el mañana\", presidida por Alejandro Toledo.",
+        "fuente": "Secretaría General Iberoamericana (SEGIB), https://segib.org/es/cumbre/xi-cumbre-iberoamericana/"
+      },
+      {
+        "TripID": "1383-VEN-QAT-36943",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2001-02-21 a 2001-02-22; Emir Hamad bin Khalifa Al Thani",
+        "justificacion": "Triangulado por tres fuentes independientes (AP, Proquest, AFP) con fechas coincidentes; parte de la gira a Arabia Saudita y Qatar de febrero de 2001.",
+        "fuente": "Associated Press International, 21 February 2001; Agence France Presse, 30 January 2001 (citadas en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-RUS-37024",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2001-05-13 a 2001-05-17; Presidente Vladimir Putin",
+        "justificacion": "Triangulado por tres fuentes independientes (Proquest x2, AFP); primera visita de Chávez a Rusia bajo la presidencia de Putin, con acuerdos petroleros firmados.",
+        "fuente": "Agence France Presse, 13 May 2001 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-RUS-37185",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2001-10-21 a 2001-10-22; Presidente Vladimir Putin, conversaciones sobre precios petroleros",
+        "justificacion": "Dos fuentes independientes (WNC/Eastview, Proquest) documentan el encuentro Chávez-Putin sobre precios del petróleo el 21-22 de octubre de 2001, consistente con la gira europea.",
+        "fuente": "wnc.eastview.com; search.proquest.com (citadas en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-VCT-37217",
+        "campo": "TripStartDate/HostHOGSName/SignedAgreement",
+        "valor": "2001-11-22; Primer Ministro Ralph Gonsalves; firma de acuerdo petrolero",
+        "justificacion": "Fuente AP fechada 23 de noviembre de 2001 describe explícitamente la visita a San Vicente y la firma del acuerdo petrolero, justo antes de la Cumbre Iberoamericana de Lima.",
+        "fuente": "Associated Press International, 23 November 2001 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-SAU-36939",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2001-02-17 a 2001-02-20; Rey Fahd bin Abdulaziz Al Saud",
+        "justificacion": "Triangulado por tres agencias independientes (Xinhua, AP, DPA) con fechas coincidentes (17 febrero 2001).",
+        "fuente": "Xinhua General News Service, 17 February 2001; Deutsche Presse-Agentur, 17 February 2001 (citadas en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-SAU-37184",
+        "campo": "TripStartDate/HostHOGSName",
+        "valor": "2001-10-20; Rey Fahd bin Abdulaziz Al Saud, acuerdo sobre estabilidad del mercado petrolero",
+        "justificacion": "Fuente AFP con título y fecha exactamente coincidentes con el registro (\"Saudi Arabia;Venezuela agree on oil market stability\", 20 October 2001), sin contradicciones.",
+        "fuente": "Agence France Presse, 20 October 2001 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-ZAF-37500",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent/PublicAddress",
+        "valor": "2002-09-01 a 2002-09-05; Cumbre Mundial sobre Desarrollo Sostenible, Johannesburgo; discurso pronunciado",
+        "justificacion": "Confirmado de forma independiente que la Cumbre Mundial sobre el Desarrollo Sostenible se celebró en Johannesburgo del 26 de agosto al 4 de septiembre de 2002, y que Chávez pronunció un discurso durante la cumbre (llamando a un cambio del capitalismo al socialismo); las fechas del viaje son coherentes con la llegada y el regreso (vía Mozambique) tras el cierre del evento.",
+        "fuente": "ENB/IISD, \"Summary report 26 August – 4 September 2002\"; cobertura de prensa sobre el discurso de Chávez en la WSSD"
+      },
+      {
+        "TripID": "1383-VEN-ESP-37392",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent/HostHOGSName",
+        "valor": "2002-05-16 a 2002-05-18; Cumbre UE-América Latina y Caribe, Madrid; Presidente del Gobierno José María Aznar",
+        "justificacion": "Confirmado de forma independiente que la Cumbre UE-ALC se celebró en Madrid los días 16, 17 y 18 de mayo de 2002.",
+        "fuente": "Comisión Europea, https://ec.europa.eu/commission/presscorner/detail/en/memo_02_93"
+      },
+      {
+        "TripID": "1383-VEN-CHE-37172",
+        "campo": "TripStartDate/NameMultilatEvent/IGOLeaderName",
+        "valor": "2001-10-08; Reunión de la ONU sobre Desertificación, Ginebra; Director General de la OMC Mike Moore",
+        "justificacion": "Dos fuentes independientes (Proquest, AFP) con fecha exacta coincidente (8 de octubre de 2001), inicio de la gira europea/africana de octubre 2001.",
+        "fuente": "Agence France Presse, 8 October 2001 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-GBR-37187",
+        "campo": "TripStartDate/HostHOGSName",
+        "valor": "2001-10-23; Primer Ministro Tony Blair",
+        "justificacion": "Consistente con la secuencia de la gira de octubre 2001 (Rusia 21-22, Reino Unido 23, Canadá 24-25); fuente AFP con fecha próxima (22 de octubre) sobre la misma etapa europea.",
+        "fuente": "Agence France Presse, 22 October 2001 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-GBR-37546",
+        "campo": "TripStartDate/PublicAddress/Notes",
+        "valor": "2002-10-17; discurso ante estudiantes de la Universidad de Oxford",
+        "justificacion": "Consistente con la gira europea de octubre 2002 (Francia 15/10, Italia 16/10, Reino Unido 17/10, Noruega 18/10); fuente lexisnexis con fecha coincidente.",
+        "fuente": "lexisnexis.com (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-USA-37004",
+        "campo": "TripStartDate/Notes",
+        "valor": "2001-04-23; visita al distrito del representante Cass Ballenger tras la Cumbre de las Américas en Quebec",
+        "justificacion": "Consistente cronológicamente con el cierre de la Cumbre de Quebec (20-22 abril 2001); fuente Lexis/Nexis.",
+        "fuente": "lexisnexis.com (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-USA-37044",
+        "campo": "TripStartDate/Notes",
+        "valor": "2001-06-02; visita a la refinería de Citgo en Corpus Christi, Texas, de regreso de Indonesia",
+        "justificacion": "Consistente cronológicamente con el regreso desde la Cumbre del G-15 en Yakarta (termina 1 de junio de 2001); fuente AP con fecha exacta coincidente.",
+        "fuente": "Associated Press International, 2 June 2001 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-USA-37204",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "2001-11-09 a 2001-11-10; Asamblea General de la ONU, Nueva York",
+        "justificacion": "Cuatro fuentes independientes (Xinhua, Washington Post, AP, WNC/Eastview) documentan el viaje de Chávez a Nueva York en medio de tensiones con Washington tras el 11-S.",
+        "fuente": "Xinhua General News Service, 9 November 2001; Washington Post, https://www.washingtonpost.com/archive/politics/2001/11/11/extraordinary-security-greets-un-delegates/"
+      },
+      {
+        "TripID": "1383-VEN-USA-37267",
+        "campo": "TripStartDate/NameMultilatEvent",
+        "valor": "2002-01-11; evento del Grupo de los 77 en Nueva York",
+        "justificacion": "Fuente Xinhua fechada exactamente el mismo día documenta el llamado de Kofi Annan al G-77 a construir consenso sobre desarrollo.",
+        "fuente": "Xinhua General News Service, 11 January 2002 (citada en el registro original)"
+      },
+      {
+        "TripID": "1383-VEN-USA-37512",
+        "campo": "TripStartDate/NameMultilatEvent",
+        "valor": "2002-09-13; Asamblea General de la ONU, Nueva York",
+        "justificacion": "Consistente con la asistencia anual habitual de Chávez a la apertura del período de sesiones de la Asamblea General de la ONU en septiembre; coherente cronológicamente con su viaje a Sudáfrica/Mozambique (1-5 de septiembre) inmediatamente anterior.",
+        "fuente": "u.afp.com (enlaces originales inactivos, pero evento consistente con el calendario habitual de la Asamblea General de la ONU en septiembre de 2002)"
+      }
+    ]
+  }
+]

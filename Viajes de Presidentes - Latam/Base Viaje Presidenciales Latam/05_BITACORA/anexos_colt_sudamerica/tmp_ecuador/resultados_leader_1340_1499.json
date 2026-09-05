@@ -1,0 +1,290 @@
+[
+  {
+    "LeaderID": "1340",
+    "correcciones": [
+      {
+        "TripID": "1340-ECU-BRA-36339",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "EU-Latin America and the Caribbean Summit (Rio Summit)",
+        "fuente": "https://www.europarl.europa.eu/cmsdata/266740/1999_ES_rio_decl.pdf ; https://www.oei.es/historico/cumbrerio.htm",
+        "justificacion": "La 'Community of Latin American and Caribbean States (CELAC)' no existía en 1999 -- CELAC fue creada recién en 2010 en Cancún, por lo que el nombre del evento es anacrónico e imposible para esta fecha. El propio SourceLink3 ya cargado en el registro (europarl.europa.eu/.../i_29_6_1999_rio_en.pdf) apunta a la Primera Cumbre entre Jefes de Estado y de Gobierno de America Latina y el Caribe y la Union Europea, realizada en Rio de Janeiro los dias 28 y 29 de junio de 1999 -- fechas que coinciden exactamente con TripStartDate/TripEndDate del registro (1999-06-28/29). El nombre correcto del evento es la Cumbre UE-America Latina y el Caribe (Cumbre de Rio), no una cumbre de CELAC."
+      },
+      {
+        "TripID": "1340-ECU-USA-36281",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Transparency for Growth in the Americas Conference",
+        "fuente": "https://www.cartercenter.org/news/documents/doc883.html",
+        "justificacion": "El campo actual contiene texto duplicado y saltos de linea corruptos ('Transparency for Growth in the Americas Conference\\n\\n\\n\\nfor Growth in the Americas Conference'). El Carter Center confirma la existencia real de la conferencia 'Transparency for Growth' del Council of Presidents and Prime Ministers of the Americas en 1999; se corrige unicamente el formato del campo, dejando el nombre limpio del evento."
+      },
+      {
+        "TripID": "1340-ECU-BRA-36094",
+        "campo": "Notes",
+        "valor_correcto": "El representante de EE.UU. presente en la firma del Acta de Brasilia (26 de octubre de 1998) fue Thomas F. McLarty III, enviado especial del presidente Clinton -- no el presidente Clinton en persona.",
+        "fuente": "https://elcomercio.pe/mundo/latinoamerica/aniversario-de-la-firma-del-acuerdo-de-brasilia-el-peru-y-ecuador-celebran-un-cuarto-de-siglo-en-paz-guerra-del-cenepa-noticia/ ; https://es.wikipedia.org/wiki/Acta_de_Brasilia",
+        "justificacion": "Las Notes actuales afirman 'Brazil foreign minister and President Clinton present at the signing', pero fuentes independientes (El Comercio, Wikipedia) coinciden en que los cuatro paises garantes del Protocolo de Rio de Janeiro estuvieron representados por Fernando Henrique Cardoso (Brasil), Carlos Menem (Argentina) y Eduardo Frei Ruiz-Tagle (Chile) como jefes de Estado, mientras que Estados Unidos fue representado por Thomas F. McLarty III, no por el presidente Clinton en persona. Esto es ademas consistente con el propio registro, que ya marca MetNonhostHOGS como 'No'."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "1340-ECU-CUB-36479",
+        "campo": "MetHostHoGS / HostHOGSName",
+        "justificacion": "Se confirmo que la IX Cumbre Iberoamericana se realizo en La Habana, Cuba, los dias 15 y 16 de noviembre de 1999 (SEGIB), coincidiendo exactamente con las fechas del viaje. Sin embargo, no se hallo una fuente independiente que confirme especificamente un encuentro bilateral entre Mahuad y Fidel Castro (anfitrion de la cumbre) durante esos dias, por lo que no se puede corregir el campo MetHostHoGS con certeza."
+      },
+      {
+        "TripID": "1340-ECU-BRA-36065",
+        "campo": "TripStartDate / TripEndDate / Notes",
+        "justificacion": "Se confirmo el contexto general del proceso de paz Ecuador-Peru en 1998 (incluida la Cumbre de Panama del Grupo de Rio, 3-5 de septiembre de 1998, con presencia de los garantes), pero no se encontro una fuente independiente que confirme especificamente una reunion bilateral en Brasilia los dias 27-29 de septiembre de 1998 con firma de 'letter of intent'. No se pudo confirmar ni refutar con fuentes independientes."
+      },
+      {
+        "TripID": "1340-ECU-COL-36303",
+        "campo": "MetHostHoGS / HostHOGSName",
+        "justificacion": "Se confirmo que el XI Consejo Presidencial Andino se realizo en Cartagena de Indias, Colombia, entre el 23 y el 27 de mayo de 1999, coincidiendo con las fechas del viaje, presidido por Andres Pastrana. No se hallo fuente independiente que confirme explicitamente un encuentro bilateral Mahuad-Pastrana durante esos dias (mas alla de la presencia conjunta en la cumbre), por lo que no se corrige el campo."
+      },
+      {
+        "TripID": "1340-ECU-USA-36055",
+        "campo": "NameMultilatEvent",
+        "justificacion": "No se logro identificar con certeza independiente el nombre exacto ni organizador de la 'Americas Conference' de septiembre de 1998 en la que Mahuad habria dado un discurso. Podria tratarse de la serie de conferencias 'Conference of the Americas' de Miami/Washington, pero no se encontro una fuente que lo confirme especificamente para 1998."
+      },
+      {
+        "TripID": "1340-ECU-USA-36272",
+        "campo": "General (viaje a Boston, abril 1999)",
+        "justificacion": "No se encontro fuente independiente adicional sobre el viaje de Mahuad a Boston en abril de 1999 vinculado a gestiones con el FMI (Camdessus) mas alla de lo ya citado en el registro original. El propio registro ya senala baja confianza y fuentes limitadas."
+      },
+      {
+        "TripID": "1340-ECU-USA-36194",
+        "campo": "NameMultilatEvent / TripStartDate",
+        "justificacion": "Se confirmo el contexto general (reunion en Washington en febrero de 1999 vinculada al 'Plan Binacional para la Region Fronteriza' con el Banco Mundial y el BID, tras el Acta de Brasilia), pero no se hallo una fuente independiente que confirme el nombre exacto 'Border Funding Summit' ni las fechas precisas 3-6 de febrero de 1999."
+      },
+      {
+        "TripID": "1340-ECU-BRA-36164",
+        "campo": "TripStartDate",
+        "justificacion": "La segunda toma de posesion de Fernando Henrique Cardoso como presidente de Brasil se realizo el 1 de enero de 1999 (confirmado por el Atlas Historico del Brasil de la FGV y por Wikipedia en portugues). El registro actual fecha el viaje del 4 al 5 de enero de 1999, es decir 3-4 dias despues del evento que las Notes describen explicitamente como 'Second Inauguration of Brazilian President Fernando Henrique Cardoso'. No se encontro fuente independiente que confirme una presencia de Mahuad en Brasilia especificamente el 1 de enero, por lo que se marca como correccion de alta probabilidad pero sin fecha exacta verificada de forma independiente para el viaje de Mahuad. [Nota QC: se movio de 'correcciones' a 'no_verificable' porque no se pudo determinar un valor de fecha exacto y unico -- la fuente solo permite acotar un rango/limite, consistente con la fuente citada: https://atlas.fgv.br/marcos/governo-fernando-henrique-cardoso-1995-2003/midias/segunda-posse-de-fernando-henrique-cardoso ; https://pt.wikipedia.org/wiki/Posse_de_Fernando_Henrique_Cardoso_em_1999]"
+      },
+      {
+        "TripID": "1340-ECU-BRA-36164",
+        "campo": "TripEndDate",
+        "justificacion": "Consecuencia directa de la correccion de TripStartDate: si el evento (investidura) ocurrio el 1 de enero de 1999, el viaje no puede haber terminado el 5 de enero salvo que Mahuad se haya quedado varios dias adicionales en Brasil, lo cual no esta documentado en las Notes del registro ni en fuentes independientes consultadas. [Nota QC: se movio de 'correcciones' a 'no_verificable' porque no se pudo determinar un valor de fecha exacto y unico -- la fuente solo permite acotar un rango/limite, consistente con la fuente citada: https://atlas.fgv.br/marcos/governo-fernando-henrique-cardoso-1995-2003/midias/segunda-posse-de-fernando-henrique-cardoso]"
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1340-ECU-CUB-36479",
+        "justificacion": "La IX Cumbre Iberoamericana se realizo en La Habana, Cuba, el 15 y 16 de noviembre de 1999 (SEGIB), coincidiendo exactamente con TripStartDate y TripEndDate del registro."
+      },
+      {
+        "TripID": "1340-ECU-BRA-36094",
+        "justificacion": "El Acta de Brasilia (fin del conflicto Ecuador-Peru) se firmo efectivamente el 26 de octubre de 1998 en Brasilia, con Mahuad y Fujimori como firmantes y los presidentes de Brasil, Argentina y Chile como garantes, coincidiendo con TripStartDate/TripEndDate del registro (El Comercio, Wikipedia, Congreso de Peru)."
+      },
+      {
+        "TripID": "1340-ECU-BRA-36339",
+        "justificacion": "Las fechas del viaje (1999-06-28/29) coinciden exactamente con la Primera Cumbre UE-America Latina y el Caribe realizada en Rio de Janeiro esos mismos dias (ver correccion de NameMultilatEvent en la lista de correcciones)."
+      },
+      {
+        "TripID": "1340-ECU-COL-36303",
+        "justificacion": "El XI Consejo Presidencial Andino se realizo en Cartagena de Indias, Colombia, entre el 23 y el 27 de mayo de 1999, coincidiendo exactamente con las fechas del registro."
+      },
+      {
+        "TripID": "1340-ECU-MEX-36308",
+        "justificacion": "La XIII Cumbre del Grupo de Rio se realizo en Veracruz, Mexico, el 28 de mayo de 1999, coincidiendo exactamente con la fecha unica del viaje (1999-05-28)."
+      },
+      {
+        "TripID": "1340-ECU-PAN-36041",
+        "justificacion": "La XIV Cumbre del Grupo de Rio se realizo en Ciudad de Panama el 4 y 5 de septiembre de 1998 (Declaracion de Panama); las fechas del viaje (3-5 sept. 1998) son consistentes, incluyendo un dia de llegada previo."
+      },
+      {
+        "TripID": "1340-ECU-PAN-36508",
+        "justificacion": "La ceremonia de transferencia del Canal de Panama se realizo efectivamente el 14 de diciembre de 1999, con presencia de Jimmy Carter, Mireya Moscoso, el Rey Juan Carlos I, Ernesto Zedillo y otros mandatarios latinoamericanos, tal como describen las Notes del registro."
+      },
+      {
+        "TripID": "1340-ECU-PRY-36022",
+        "justificacion": "La investidura de Raul Cubas Grau como presidente de Paraguay se realizo el 15 de agosto de 1998, coincidiendo con la fecha unica del viaje."
+      },
+      {
+        "TripID": "1340-ECU-PRT-36084",
+        "justificacion": "La VIII Cumbre Iberoamericana se realizo en Oporto, Portugal, el 17 y 18 de octubre de 1998 (SEGIB), coincidiendo con las fechas del viaje (llegada el 16, cumbre el 17-18)."
+      },
+      {
+        "TripID": "1340-ECU-VEN-36193",
+        "justificacion": "La investidura de Hugo Chavez como presidente de Venezuela se realizo el 2 de febrero de 1999, coincidiendo con la fecha de inicio del viaje."
+      },
+      {
+        "TripID": "1340-ECU-CHN-36401",
+        "justificacion": "Las fechas del viaje a China (29 de agosto - 4 de septiembre de 1999) son consistentes con el viaje de transito registrado por separado (1340-ECU-USA-36400, 28-29 de agosto de 1999, Miami-Los Angeles-Beijing), lo que corrobora la coherencia interna del itinerario."
+      },
+      {
+        "TripID": "1340-ECU-USA-36400",
+        "justificacion": "El viaje de transito (Miami, luego Los Angeles) es consistente como primera etapa del viaje a China que comienza el dia siguiente (1340-ECU-CHN-36401, inicio 1999-08-29)."
+      },
+      {
+        "TripID": "1340-ECU-USA-36069",
+        "justificacion": "El 53o periodo de sesiones de la Asamblea General de la ONU tuvo su debate general entre fines de septiembre y comienzos de octubre de 1998; las fechas del viaje (1-10 de octubre de 1998) son consistentes con la participacion de Mahuad en la etapa final del debate general."
+      },
+      {
+        "TripID": "1340-ECU-PER-36296",
+        "justificacion": "El viaje (16 de mayo de 1999) es consistente con el calendario de implementacion del Acta de Brasilia (26 de octubre de 1998), periodo en el que Mahuad y Fujimori sostuvieron varias reuniones bilaterales de seguimiento en la zona fronteriza; no se hallaron elementos que contradigan la fecha ni al anfitrion (Fujimori) ya cargados."
+      },
+      {
+        "TripID": "1340-ECU-PER-36383",
+        "justificacion": "El viaje (11-13 de agosto de 1999) a Sarameriza es consistente con el mismo proceso de implementacion del Plan Binacional de Desarrollo Fronterizo Ecuador-Peru derivado del Acta de Brasilia, que tambien motiva el viaje de Mahuad a Washington en febrero de 1999 (1340-ECU-USA-36194) para gestionar financiamiento del Banco Mundial y el BID; no se hallaron elementos que contradigan los datos ya cargados."
+      }
+    ]
+  },
+  {
+    "LeaderID": "1499",
+    "correcciones": [],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Panama",
+        "CityVisited": "Ciudad de Panama",
+        "TripStartDate": "2000-11-17",
+        "TripEndDate": "2000-11-18",
+        "TripDuration": "2",
+        "MetHostHoGS": "No",
+        "HostHOGSName": "",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "X Cumbre Iberoamericana ('Unidos por la Ninez y la Adolescencia, Base de la Justicia y la Equidad en el Nuevo Milenio')",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://segib.org/es/cumbre/x-cumbre-iberoamericana/ ; https://es.wikipedia.org/wiki/X_Cumbre_Iberoamericana",
+        "justificacion": "La X Cumbre Iberoamericana se realizo en Ciudad de Panama los dias 17 y 18 de noviembre de 2000. SEGIB confirma explicitamente que 'los Jefes de Estado y de Gobierno de los 21 paises Iberoamericanos se reunieron' en esa cumbre, y Ecuador es miembro pleno de la Conferencia Iberoamericana. Este viaje NO figura en la base de 30 viajes cargados para Noboa, pese a que si figuran todas las demas Cumbres Iberoamericanas de su periodo y del de Mahuad (Oporto 1998, La Habana 1999, Lima 2001, Bavaro 2002), lo que sugiere una omision. No se encontro una fuente que liste explicitamente el nombre de Noboa entre los asistentes personales (a diferencia de la Cumbre Sudamericana de Brasilia 2000, donde si se lo nombra explicitamente), por lo que este hallazgo debe tratarse como probable pero no verificado al 100% -- se recomienda una busqueda adicional en prensa ecuatoriana de noviembre de 2000 antes de incorporarlo de forma definitiva a la base."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "1499-ECU-COL-36851",
+        "campo": "NameMultilatEvent",
+        "justificacion": "No se logro identificar con fuentes independientes una 'Summit on Combating Corruption' realizada en Colombia el 21 de noviembre de 2000. El propio registro ya reconoce 'Limited sources. Unclear on details.' No se pudo confirmar ni refutar."
+      },
+      {
+        "TripID": "1499-ECU-FRA-36968",
+        "campo": "NameMultilatEvent / fechas",
+        "justificacion": "No se pudo verificar de forma independiente (por agotamiento del cupo de busquedas web durante esta sesion) el coloquio 'Three Linguistic Spaces Facing the Challenges of Globalization' de marzo de 2001 en Francia. El evento es plausible (existieron foros de las 'tres culturas/espacios linguisticos' hispano-franco-lusofonos en ese periodo) pero no se confirmo con fuente independiente."
+      },
+      {
+        "TripID": "1499-ECU-DEU-36800",
+        "campo": "General (viaje a Alemania, octubre 2000)",
+        "justificacion": "El propio registro ya senala confianza muy baja (Confidence=5) y una unica fuente (Getty Images). No se pudo verificar de forma independiente por agotamiento del cupo de busquedas web durante esta sesion."
+      },
+      {
+        "TripID": "1499-ECU-ESP-37081",
+        "campo": "General (viaje a Espana, julio 2001)",
+        "justificacion": "No se pudo verificar de forma independiente (agotamiento del cupo de busquedas web) el acuerdo bilateral con Aznar de julio de 2001, mas alla de la fuente unica ya citada en el registro."
+      },
+      {
+        "TripID": "1499-ECU-USA-37542",
+        "campo": "NameMultilatEvent",
+        "justificacion": "No se pudo verificar de forma independiente (agotamiento del cupo de busquedas web) 'The Miami Herald's Americas Conference' de octubre de 2002, mas alla de las fuentes ya citadas en el registro."
+      },
+      {
+        "TripID": "1499-ECU-PER-37218",
+        "campo": "MetHostHoGS / HostHOGSName",
+        "justificacion": "Se confirmo que la XI Cumbre Iberoamericana se realizo en Lima, Peru, el 23 y 24 de noviembre de 2001, presidida por Alejandro Toledo, coincidiendo exactamente con las fechas del viaje. No se encontro fuente independiente que confirme un encuentro bilateral especifico Noboa-Toledo (mas alla de la cumbre en si), por lo que no se corrige el campo pese a ser altamente probable."
+      },
+      {
+        "TripID": "1499-ECU-COL-36998",
+        "campo": "Notes / NameMultilatEvent",
+        "justificacion": "Es plausible por contexto cronologico (inmediatamente antes de la Cumbre de las Americas de Quebec, 20-22 abril 2001) que hubiera una reunion previa de la Comunidad Andina el 17-18 de abril de 2001, pero no se encontro fuente independiente especifica que lo confirme (agotamiento del cupo de busquedas web)."
+      },
+      {
+        "TripID": "1499-ECU-PER-37322",
+        "campo": "General (viaje a Peru, marzo 2002)",
+        "justificacion": "No se pudo verificar de forma independiente (agotamiento del cupo de busquedas web) el viaje bilateral a Peru de marzo de 2002, mas alla de las fuentes ya citadas en el registro. Es cronologicamente consistente con el viaje inmediatamente posterior a Brasil (Fortaleza, 9-11 marzo 2002)."
+      },
+      {
+        "TripID": "1499-ECU-USA-37516",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "El 57o periodo de sesiones de la Asamblea General de la ONU comenzo su debate general el 12 de septiembre de 2002; las fechas del viaje (17-21 de septiembre de 2002) son plausibles dentro del periodo de debate general, pero no se confirmo con fuente independiente la fecha exacta del discurso de Noboa."
+      },
+      {
+        "TripID": "1499-ECU-DOM-37577",
+        "campo": "TripStartDate",
+        "justificacion": "La XII Cumbre Iberoamericana se realizo en Bavaro, Republica Dominicana, los dias 15 y 16 de noviembre de 2002 (SEGIB), pero el registro actual fecha el inicio del viaje el 17 de noviembre, es decir, DESPUES de que la cumbre ya habia terminado. Esto es ademas inconsistente con el propio registro de Noboa en Cuba (1499-ECU-CUB-37572), cuyo viaje termina el 15 de noviembre de 2002 -- si volo de Cuba a Republica Dominicana, logicamente habria llegado a mas tardar el 15 o 16 de noviembre para alcanzar la cumbre, no el 17. Las propias Notes del registro ya reconocen 'Unclear on arrival and departure dates'. No se encontro fuente independiente con la fecha exacta de llegada/salida de Noboa, por lo que se marca como correccion de alta probabilidad pero sin fecha exacta verificada. [Nota QC: se movio de 'correcciones' a 'no_verificable' porque no se pudo determinar un valor de fecha exacto y unico -- la fuente solo permite acotar un rango/limite, consistente con la fuente citada: https://segib.org/es/cumbre/xii-cumbre-iberoamericana/]"
+      },
+      {
+        "TripID": "1499-ECU-DOM-37577",
+        "campo": "TripEndDate",
+        "justificacion": "Misma inconsistencia que TripStartDate: si la Cumbre Iberoamericana que motiva el viaje (AttendedMultilatEvent=Yes, NameMultilatEvent='Ibero-American Summit') se realizo el 15-16 de noviembre, una ventana de viaje de 17 al 23 de noviembre no se corresponde con el evento citado como motivo del viaje. [Nota QC: se movio de 'correcciones' a 'no_verificable' porque no se pudo determinar un valor de fecha exacto y unico -- la fuente solo permite acotar un rango/limite, consistente con la fuente citada: https://segib.org/es/cumbre/xii-cumbre-iberoamericana/]"
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1499-ECU-BOL-37286",
+        "justificacion": "La Reunion Extraordinaria del Consejo Presidencial Andino se realizo en Santa Cruz de la Sierra, Bolivia, el 30 de enero de 2002, coincidiendo con la fecha de inicio del viaje, incluyendo la firma de la 'Declaracion de Santa Cruz de la Sierra' mencionada en las Notes."
+      },
+      {
+        "TripID": "1499-ECU-BRA-36769",
+        "justificacion": "La Primera Cumbre Sudamericana se realizo en Brasilia entre el 31 de agosto y el 1 de septiembre de 2000; una fuente independiente nombra explicitamente a Gustavo Noboa entre los presidentes participantes, invitados por Fernando Henrique Cardoso."
+      },
+      {
+        "TripID": "1499-ECU-BRA-37324",
+        "justificacion": "La 43a Asamblea Anual de Gobernadores del BID se realizo en Fortaleza, Brasil, con sesion inaugural el 11 de marzo de 2002 y actividades desde comienzos de esa semana; las fechas del viaje (9-11 de marzo de 2002) son consistentes."
+      },
+      {
+        "TripID": "1499-ECU-CAN-36681",
+        "justificacion": "El XXX periodo ordinario de sesiones de la Asamblea General de la OEA se realizo en Windsor, Canada, del 4 al 6 de junio de 2000, coincidiendo exactamente con las fechas del viaje."
+      },
+      {
+        "TripID": "1499-ECU-CAN-37000",
+        "justificacion": "La Tercera Cumbre de las Americas se realizo en la Ciudad de Quebec del 20 al 22 de abril de 2001; las fechas del viaje (19-23 abril 2001) son consistentes, incluyendo dias de llegada y salida."
+      },
+      {
+        "TripID": "1499-ECU-CHL-37121",
+        "justificacion": "La XV Cumbre del Grupo de Rio se realizo en Santiago de Chile el 17 y 18 de agosto de 2001; las fechas del viaje (18-19 agosto 2001) son consistentes."
+      },
+      {
+        "TripID": "1499-ECU-COL-36692",
+        "justificacion": "La XIV Cumbre del Grupo de Rio se realizo en Cartagena de Indias, Colombia, el 15 y 16 de junio de 2000, coincidiendo exactamente con las fechas del viaje, con Andres Pastrana como anfitrion."
+      },
+      {
+        "TripID": "1499-ECU-PER-36686",
+        "justificacion": "El XII Consejo Presidencial Andino se realizo en Lima, Peru, el 9 y 10 de junio de 2000, coincidiendo exactamente con las fechas del viaje; una fuente independiente confirma la lista de mandatarios presentes (Banzer, Pastrana, Noboa, Fujimori como anfitrion, y Chavez), coincidiendo con el campo NonhostHOGSNames del registro."
+      },
+      {
+        "TripID": "1499-ECU-PER-37100",
+        "justificacion": "La investidura de Alejandro Toledo como presidente de Peru se realizo el 28 de julio de 2001 (dia de la independencia peruana), coincidiendo con la fecha unica del viaje."
+      },
+      {
+        "TripID": "1499-ECU-PER-37218",
+        "justificacion": "La XI Cumbre Iberoamericana se realizo en Lima, Peru, el 23 y 24 de noviembre de 2001, coincidiendo exactamente con las fechas del viaje."
+      },
+      {
+        "TripID": "1499-ECU-ZAF-37502",
+        "justificacion": "La Cumbre Mundial sobre el Desarrollo Sostenible se realizo en Johannesburgo del 26 de agosto al 4 de septiembre de 2002, con el segmento de alto nivel (jefes de Estado y de Gobierno) entre el 2 y el 4 de septiembre; las fechas del viaje (3-4 septiembre 2002) caen dentro de ese segmento de alto nivel."
+      },
+      {
+        "TripID": "1499-ECU-CHE-36703",
+        "justificacion": "La Sesion Especial de la Asamblea General de la ONU sobre Desarrollo Social ('Copenhague+5') se realizo en Ginebra del 26 al 30 de junio de 2000, coincidiendo exactamente con las fechas del viaje (ya citado en el propio registro via un.org)."
+      },
+      {
+        "TripID": "1499-ECU-USA-36774",
+        "justificacion": "La Cumbre del Milenio de la ONU se realizo en Nueva York del 6 al 8 de septiembre de 2000; las fechas del viaje (5-10 septiembre 2000) engloban ese periodo con margenes de viaje razonables."
+      },
+      {
+        "TripID": "1499-ECU-VEN-37065",
+        "justificacion": "La XIII Reunion del Consejo Presidencial Andino se realizo en Valencia, Venezuela, el 23 y 24 de junio de 2001, coincidiendo exactamente con las fechas del viaje; ademas coincide con el 180 aniversario de la Batalla de Carabobo (24 de junio de 1821), tal como describen las Notes del registro."
+      },
+      {
+        "TripID": "1499-ECU-CHL-36835",
+        "justificacion": "Ricardo Lagos Escobar era presidente de Chile desde el 11 de marzo de 2000, por lo que es el HostHOGSName correcto para el viaje bilateral de noviembre de 2000."
+      },
+      {
+        "TripID": "1499-ECU-MEX-36861",
+        "justificacion": "La investidura de Vicente Fox como presidente de Mexico se realizo el 1 de diciembre de 2000, coincidiendo con la fecha de inicio del viaje."
+      },
+      {
+        "TripID": "1499-ECU-CHN-37334",
+        "justificacion": "Jiang Zemin era Secretario General del PCCh y Presidente de China hasta marzo de 2003, por lo que es el HostHOGSName correcto; ademas la fecha del viaje (19-24 marzo 2002) enlaza cronologicamente sin superposicion con el viaje inmediatamente posterior a Corea del Sur (24-28 marzo) y luego Japon (28-31 marzo), formando una gira asiatica internamente consistente."
+      },
+      {
+        "TripID": "1499-ECU-KOR-37339",
+        "justificacion": "Kim Dae-jung era presidente de Corea del Sur (1998-2003); la fecha del viaje (24-28 marzo 2002) es consistente con la gira asiatica que continua en China (19-24 marzo) y Japon (28-31 marzo)."
+      },
+      {
+        "TripID": "1499-ECU-JPN-37343",
+        "justificacion": "Junichiro Koizumi era Primer Ministro de Japon desde abril de 2001; la fecha del viaje (28-31 marzo 2002) cierra de forma consistente la gira asiatica iniciada en China y continuada en Corea del Sur."
+      }
+    ]
+  }
+]

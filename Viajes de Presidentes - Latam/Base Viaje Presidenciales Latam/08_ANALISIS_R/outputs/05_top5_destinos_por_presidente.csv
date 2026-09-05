@@ -58,10 +58,10 @@
 "Chandrikapersad Santokhi","United States",7
 "Chandrikapersad Santokhi","Guyana",6
 "Chandrikapersad Santokhi","Barbados",4
-"Chandrikapersad Santokhi","Netherlands",3
+"Chandrikapersad Santokhi","Netherlands",4
 "Chandrikapersad Santokhi","Bahamas",2
+"Cheddi Jagan","Barbados",3
 "Cheddi Jagan","United States",3
-"Cheddi Jagan","Barbados",2
 "Cheddi Jagan","Colombia",2
 "Cheddi Jagan","Trinidad and Tobago",2
 "Cheddi Jagan","Bahrain",1
@@ -99,7 +99,7 @@
 "Donald Ramotar","Suriname",4
 "Donald Ramotar","United States",4
 "Donald Ramotar","Brazil",3
-"Donald Ramotar","India",2
+"Donald Ramotar","Cuba",2
 "Eduardo Duhalde","Brazil",4
 "Eduardo Duhalde","Chile",2
 "Eduardo Duhalde","Spain",2
@@ -184,7 +184,7 @@
 "Hugo Banzer Suarez","Colombia",2
 "Hugo Banzer Suarez","Panama",2
 "Hugo Chavez","Cuba",45
-"Hugo Chavez","Brazil",30
+"Hugo Chavez","Brazil",31
 "Hugo Chavez","Argentina",19
 "Hugo Chavez","Colombia",16
 "Hugo Chavez","Bolivia",13
@@ -262,11 +262,11 @@
 "Julio Maria Sanguinetti","Argentina",3
 "Julio Maria Sanguinetti","United States",3
 "Julio Maria Sanguinetti","Egypt",2
-"Lenin Moreno","United States",7
+"Lenin Moreno","United States",8
 "Lenin Moreno","Colombia",4
 "Lenin Moreno","Peru",4
+"Lenin Moreno","Chile",3
 "Lenin Moreno","Spain",3
-"Lenin Moreno","Chile",2
 "Lucio Gutierrez","United States",5
 "Lucio Gutierrez","Argentina",2
 "Lucio Gutierrez","Colombia",2
@@ -329,11 +329,11 @@
 "Nicanor Duarte","Uruguay",7
 "Nicanor Duarte","Bolivia",4
 "Nicanor Duarte","United States",4
-"Nicolas Maduro","Cuba",26
+"Nicolas Maduro","Cuba",27
 "Nicolas Maduro","Russia",8
+"Nicolas Maduro","Turkiye",6
 "Nicolas Maduro","Bolivia",5
 "Nicolas Maduro","China",5
-"Nicolas Maduro","Ecuador",5
 "Ollanta Humala","France",6
 "Ollanta Humala","United States",6
 "Ollanta Humala","Chile",5
@@ -356,8 +356,8 @@
 "Rafael Caldera","Colombia",2
 "Rafael Correa","Venezuela",17
 "Rafael Correa","Peru",12
+"Rafael Correa","Bolivia",11
 "Rafael Correa","Argentina",10
-"Rafael Correa","Bolivia",10
 "Rafael Correa","Brazil",10
 "Raul Cubas Grau","Brazil",3
 "Raul Cubas Grau","Venezuela",1

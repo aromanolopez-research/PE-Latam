@@ -1,0 +1,202 @@
+[
+  {
+    "LeaderID": "720",
+    "correcciones": [
+      {
+        "TripID": "720-ECU-COL-34498",
+        "campo": "TripEndDate",
+        "valor_correcto": "1994-06-15",
+        "fuente": "https://segib.org/?summit=iv-cumbre-iberoamericana-cartagena-de-indias-1994 ; http://www.cuba.cu/gobierno/discursos/1994/esp/f140694e.html",
+        "justificacion": "La IV Cumbre Iberoamericana de Cartagena de Indias (Colombia) se celebró oficialmente los días 14 y 15 de junio de 1994 (SEGIB; discurso de Fidel Castro fechado 14 de junio de 1994 en la sesión inaugural de la cumbre). El registro actual tiene TripEndDate en 1994-06-14, lo que implicaría que Durán-Ballén se retiró el primer día de la cumbre. Lo más probable, dado que asistió al evento completo (Notes: 'Agreed to various free trade pacts'), es que permaneciera hasta el cierre el 15 de junio."
+      },
+      {
+        "TripID": "720-ECU-ARG-34987",
+        "campo": "TripEndDate",
+        "valor_correcto": "1995-10-17",
+        "fuente": "https://eulacfoundation.org/es/5a-cumbre-iberoamericana-jefes-estado-y-gobierno-declaracion-bariloche-argentina-16-17de-octubre ; https://segib.org/?summit=v-cumbre-iberoamericana-san-carlos-de-bariloche-1995",
+        "justificacion": "La V Cumbre Iberoamericana de San Carlos de Bariloche (Argentina) se realizó oficialmente los días 16 y 17 de octubre de 1995. El registro original ya señala en sus Notes 'Unclear on departure' (fecha de salida incierta) y consigna TripEndDate en 1995-10-16, es decir, el primer día de la cumbre. Dado que asistió al evento (AttendedMultilatEvent: Yes), es más consistente con la fuente que haya permanecido hasta el cierre oficial el 17 de octubre."
+      },
+      {
+        "TripID": "720-ECU-BRA-34585",
+        "campo": "Notes",
+        "valor_correcto": "VIII Cumbre del Grupo de Río, celebrada en Río de Janeiro (Brasil) en septiembre de 1994, bajo la anfitrionía del presidente Itamar Franco. No hubo ninguna toma de posesión presidencial brasileña en esa fecha: Itamar Franco ejercía la presidencia desde diciembre de 1992 (tras el juicio político a Collor) y Fernando Henrique Cardoso asumiría recién el 1 de enero de 1995.",
+        "fuente": "http://www.summit-americas.org/Rio%20Group/DEC-Rio.htm",
+        "justificacion": "La Declaración de la VIII Cumbre del Grupo de Río (texto oficial, fuente primaria) confirma que la cumbre se celebró en Río de Janeiro en septiembre de 1994 y agradece expresamente al 'Presidente Itamar Franco' por la hospitalidad y organización de la cumbre — es decir, Franco fue el anfitrión, no un presidente recién investido. La nota original del registro ('Inauguration of Brazilian President Franco') es un error factual: Itamar Franco no fue investido en 1994, sino que completaba el mandato de Collor de Mello desde 1992."
+      },
+      {
+        "TripID": "720-ECU-BRA-34730",
+        "campo": "Notes",
+        "valor_correcto": "El 31 de enero de 1995 Ecuador y Perú rechazaron bilateralmente un llamado internacional a un cese al fuego inmediato; no hay evidencia de una cumbre presidencial de los países garantes en Brasil ese día ni de un acuerdo de cese al fuego alcanzado en esa fecha. El primer acuerdo formal (Declaración de Paz de Itamaraty) se firmó recién el 17 de febrero de 1995, a nivel de viceministros de relaciones exteriores de Ecuador y Perú (Marcelo Fernández de Córdoba y Eduardo Ponce), no a nivel presidencial.",
+        "fuente": "https://es.wikipedia.org/wiki/Guerra_del_Cenepa",
+        "justificacion": "El cronograma detallado de la Guerra del Cenepa en Wikipedia (con múltiples referencias) indica explícitamente para el 31 de enero de 1995: 'Después de 24 horas de calma, tropas peruanas renuevan sus ataques... Ecuador y Perú rechazan bilateralmente una llamada internacional para un cese al fuego inmediato.' Esto contradice directamente la nota del registro original ('Agreed to cease-fire' el 31 de enero). Además, la Declaración de Itamaraty —el primer acuerdo real de cese de hostilidades— se firmó el 17 de febrero de 1995 a nivel de viceministros, no de presidentes, por lo que calificar el evento como 'War Summit' con acuerdo de cese al fuego presidencial el 31 de enero es inconsistente con la evidencia disponible."
+      },
+      {
+        "TripID": "720-ECU-URY-34759",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Presidential inauguration of Julio María Sanguinetti",
+        "fuente": "Search Query: Julio Maria Sanguinetti toma de posesion 1 marzo 1995 Montevideo jefes de estado",
+        "justificacion": "La fecha (1995-03-01) coincide con la toma de posesión presidencial de Julio María Sanguinetti en Uruguay, evento ampliamente documentado al que asistieron numerosos jefes de Estado de la región, tal como indican las propias Notes del registro original ('Inauguration of Uruguayan president Julio Sanguinetti'). 'War Summit' no es el nombre de un evento multilateral real y no corresponde a esta ceremonia; la declaración de Montevideo sobre el conflicto Ecuador-Perú se firmó el 28 de febrero de 1995 a nivel de cancilleres (no en esta fecha ni por los presidentes), por lo que el campo NameMultilatEvent debe reflejar el evento real al que asistió Durán-Ballén: la investidura presidencial de Sanguinetti."
+      },
+      {
+        "TripID": "720-ECU-VEN-34733",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Cumbre Bolivariana",
+        "fuente": "https://ipsnoticias.net/1995/02/cumbre-bolivariana-pacto-andino-y-amazonico-penden-de-la-guerra/",
+        "justificacion": "La nota de IPS del 4 de febrero de 1995 describe una 'Cumbre Bolivariana' de dos días en Cumaná, Venezuela, con la presencia de Durán-Ballén (Ecuador), Gonzalo Sánchez de Lozada (Bolivia), Ernesto Samper (Colombia), Ernesto Pérez Balladares (Panamá) y Rafael Caldera (Venezuela), y con la ausencia notoria de Alberto Fujimori (Perú) por el conflicto del Cenepa — coincidiendo con la nota original del registro ('Peruvian President did not show up'). El nombre 'Community of Andean Nations Summit' es anacrónico: la Comunidad Andina (CAN) como tal no existió hasta el Protocolo de Trujillo de marzo de 1996; en 1995 el bloque se llamaba 'Pacto Andino' o 'Grupo Andino', y este encuentro específico fue denominado 'Cumbre Bolivariana' por la prensa."
+      },
+      {
+        "TripID": "720-ECU-VEN-34733",
+        "campo": "CityVisited",
+        "valor_correcto": "Cumaná",
+        "fuente": "https://ipsnoticias.net/1995/02/cumbre-bolivariana-pacto-andino-y-amazonico-penden-de-la-guerra/",
+        "justificacion": "La fuente de IPS confirma que la Cumbre Bolivariana de febrero de 1995 se realizó en la ciudad caribeña de Cumaná, Venezuela. El campo CityVisited está vacío en el registro original."
+      },
+      {
+        "TripID": "720-ECU-CHL-34402",
+        "campo": "TripStartDate",
+        "valor_correcto": "1994-03-11",
+        "fuente": "Search Query: Eduardo Frei Ruiz-Tagle inauguracion presidencial Chile 11 marzo 1994",
+        "justificacion": "Eduardo Frei Ruiz-Tagle asumió la presidencia de Chile el 11 de marzo de 1994 (dato ampliamente documentado, incluyendo en Wikipedia). El registro original data la 'ceremony for democratic transition' el 9 de marzo de 1994, dos días antes de la fecha real de la toma de posesión. Se recomienda corregir la fecha al 11 de marzo de 1994 (con TripEndDate también ajustable a esa fecha o posterior, dado que Confidence original era baja: 2)."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "720-ECU-ARG-34736",
+        "campo": "TripStartDate / HostHOGSName",
+        "justificacion": "Busqué confirmación independiente de una reunión bilateral entre Durán-Ballén y Carlos Menem en Argentina el 6 de febrero de 1995. El contexto general (diplomacia de los países garantes del Protocolo de Río durante la Guerra del Cenepa) hace plausible una gira de Durán-Ballén por Argentina, Brasil y Chile en esas fechas, pero no encontré una fuente periodística o de archivo independiente que confirme específicamente este encuentro con Menem. Nota: la combinación de este viaje con 720-ECU-BRA-34735 (Brasil, 5-6 feb) y 720-ECU-CHL-34736 (Chile, 6 feb) implicaría estar en tres países en 48 horas, lo cual es logísticamente ajustado y amerita revisión con fuentes primarias (los SourceLinks originales son de ProQuest/ArchiveNews, inaccesibles para esta verificación)."
+      },
+      {
+        "TripID": "720-ECU-BRA-34735",
+        "campo": "HostHOGSName",
+        "justificacion": "No pude confirmar independientemente el encuentro Durán-Ballén-Cardoso en Brasil el 5-6 de febrero de 1995. Es cronológicamente plausible (Cardoso ya era presidente desde el 1 de enero de 1995) y consistente con la intensa diplomacia de shuttle entre los países garantes del Protocolo de Río durante la Guerra del Cenepa, pero no localicé una fuente de prensa independiente accesible que lo confirme específicamente."
+      },
+      {
+        "TripID": "720-ECU-CHL-34736",
+        "campo": "HostHOGSName",
+        "justificacion": "No pude confirmar independientemente el encuentro Durán-Ballén-Frei en Chile el 6 de febrero de 1995 más allá del contexto general de diplomacia de garantes durante la Guerra del Cenepa. Ver también nota sobre la apretada logística de este viaje combinado con Argentina y Brasil en las mismas fechas."
+      },
+      {
+        "TripID": "720-ECU-BRA-35130",
+        "campo": "AttendedMultilatEvent / NameMultilatEvent",
+        "justificacion": "El propio registro original marca 'Presence unclear' y Confidence 4 (baja). No encontré fuentes independientes sobre una 'War Summit' en Brasil el 6-7 de marzo de 1996; para esa fecha la guerra del Cenepa ya había concluido diplomáticamente un año antes (los acuerdos de Itamaraty y Montevideo son de febrero de 1995). Además, este viaje se superpone con el inicio del viaje a Perú (720-ECU-PER-35131, con llegada documentada el 7 de marzo de 1996 para la cumbre de Trujillo), lo que genera una logística muy ajustada. No hay evidencia suficiente para confirmar ni corregir este registro."
+      },
+      {
+        "TripID": "720-ECU-VAT-34782",
+        "campo": "TripStartDate / TripEndDate",
+        "justificacion": "No encontré una fuente independiente que confirme la fecha exacta (24 de marzo de 1995) del encuentro de Durán-Ballén con el papa Juan Pablo II. El propio registro original señala 'Unclear on departure' y que este viaje sería el cierre de una gira europea de la que no se encontraron fuentes sobre etapas previas. Es plausible pero no verificable con las fuentes abiertas consultadas."
+      },
+      {
+        "TripID": "720-ECU-ITA-34782",
+        "campo": "TripStartDate / TripEndDate",
+        "justificacion": "Mismo caso que el viaje al Vaticano: no encontré fuente independiente que confirme el tránsito por Italia el 24 de marzo de 1995. El propio registro señala 'Dates implied. Passing into Vatican', reconociendo que la fecha fue inferida, no confirmada."
+      },
+      {
+        "TripID": "720-ECU-JPN-34408",
+        "campo": "HostHOGSName / TripStartDate / TripEndDate",
+        "justificacion": "No encontré una fuente independiente que confirme la visita de Durán-Ballén a Japón del 15 al 17 de marzo de 1994 ni el encuentro con el primer ministro Morihiro Hosokawa. Es cronológicamente posible (Hosokawa fue primer ministro hasta su renuncia el 8 de abril de 1994), pero no logré verificar el hecho con fuentes de prensa independientes accesibles. El propio registro reconoce 'Unclear on arrival or departure dates. Limited sources.'"
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "720-ECU-PER-35131",
+        "justificacion": "El VIII Consejo Presidencial Andino se celebró en Trujillo, Perú, el 9-10 de marzo de 1996, ocasión en la que se firmó el Acta de Trujillo que creó la Comunidad Andina (CAN) y el Sistema Andino de Integración. Las fechas del registro (llegada 7 de marzo, salida 10 de marzo) son coherentes con la fecha de cierre oficial de la cumbre. Fuente: https://www.iri.edu.ar/publicaciones_iri/anuario/A97/A97-DALA6.htm y https://es.wikipedia.org/wiki/Consejo_Presidencial_Andino"
+      },
+      {
+        "TripID": "720-ECU-USA-34675",
+        "justificacion": "La Primera Cumbre de las Américas se celebró en Miami del 9 al 11 de diciembre de 1994. El registro (7-12 diciembre) es coherente con una estadía que incluye actividades bilaterales previas y posteriores a la cumbre oficial. Fuente: https://2009-2017.state.gov/p/wha/rt/soa/2015/history/index.htm"
+      }
+    ]
+  },
+  {
+    "LeaderID": "1139",
+    "correcciones": [
+      {
+        "TripID": "1139-ECU-CHL-35377",
+        "campo": "TripEndDate",
+        "valor_correcto": "1996-11-11",
+        "fuente": "https://segib.org/?summit=vi-cumbre-iberoamericana-santiago-y-vina-del-mar-1996",
+        "justificacion": "La VI Cumbre Iberoamericana se celebró oficialmente en Santiago y Viña del Mar (Chile) los días 10 y 11 de noviembre de 1996. El registro original tiene TripEndDate en 1996-11-10, es decir, el primer día de la cumbre, lo cual es inconsistente con haber asistido al evento completo (AttendedMultilatEvent: Yes). Se recomienda ajustar la fecha de salida al 11 de noviembre, cierre oficial de la cumbre."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "1139-ECU-COL-35418",
+        "campo": "General (fechas y reunión con el alcalde Mockus)",
+        "justificacion": "No encontré una fuente de prensa independiente accesible que confirme la visita de Bucaram a Colombia el 19 de diciembre de 1996 ni el encuentro con el entonces alcalde de Bogotá, Antanas Mockus. El propio registro original reconoce 'Unclear on departure date.' El SourceLink original es un artículo de pago de NewsBank al que no tuve acceso."
+      },
+      {
+        "TripID": "1139-ECU-PER-35443",
+        "campo": "General (fechas y reunión con Fujimori)",
+        "justificacion": "No encontré una fuente independiente accesible que confirme específicamente el encuentro entre Bucaram y Fujimori en Perú el 13-14 de enero de 1997. Es plausible dado que la búsqueda de la paz con Perú era, según fuentes biográficas de Bucaram, uno de los tres ejes declarados de su plan de gobierno, pero no logré verificar el hecho puntual con fuentes abiertas."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1139-ECU-BOL-35310",
+        "justificacion": "La X Cumbre del Grupo de Río se inauguró en Cochabamba, Bolivia, el 3 de septiembre de 1996, con la asistencia de presidentes de 11 países latinoamericanos y caribeños. Las fechas del registro (2-3 de septiembre) son coherentes con la apertura de la cumbre documentada por IPS. Fuente: http://www.ipsnews.net/1996/09/rio-group-the-21st-century-crusade-against-poverty/"
+      }
+    ]
+  },
+  {
+    "LeaderID": "1190",
+    "correcciones": [
+      {
+        "TripID": "1190-ECU-CAN-35757",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "fuente": "https://en.wikipedia.org/wiki/APEC_Canada_1997 ; https://www.everycrsreport.com/reports/97-969E.html",
+        "justificacion": "Ecuador NO era miembro del Foro de Cooperación Económica Asia-Pacífico (APEC) en 1997 (ni lo es en la actualidad); la lista oficial de participantes de la Cumbre de Líderes de APEC Canadá 1997 (Vancouver, 24-25 de noviembre de 1997) incluye a Estados Unidos, Canadá, México, Perú, Chile, Japón, Rusia, Corea del Sur, China, Taiwán, Hong Kong, Indonesia, Brunéi, Malasia, Singapur, Tailandia, Vietnam, Filipinas, Australia, Nueva Zelanda y Papúa Nueva Guinea — Ecuador no figura. No encontré tampoco fuentes independientes que confirmen un viaje de Alarcón a Canadá en noviembre de 1997 por otro motivo. Dado que Ecuador no podía 'asistir' a una cumbre de líderes de un foro del que no era miembro, se corrige AttendedMultilatEvent a 'No' y se recomienda una revisión completa de este registro con las fuentes originales de ProQuest citadas en el archivo COLT, que no pude consultar."
+      },
+      {
+        "TripID": "1190-ECU-VEN-35742",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Ibero-American Summit",
+        "fuente": "https://segib.org/es/vii-cumbre-iberoamericana-los-valores-eticos-de-la-democracia/ ; https://es.wikipedia.org/wiki/VII_Cumbre_Iberoamericana",
+        "justificacion": "La VII Cumbre Iberoamericana se celebró en Isla Margarita, Venezuela, el 8-9 de noviembre de 1997, con la participación confirmada de los 21 países miembros incluyendo Ecuador. Las fechas del registro (8-10 de noviembre de 1997) coinciden casi exactamente con esta cumbre. 'Latin American Leaders Summit' no es el nombre de un evento multilateral real documentado para esas fechas en Venezuela; corresponde en realidad a la VII Cumbre Iberoamericana."
+      },
+      {
+        "TripID": "1190-ECU-VEN-35742",
+        "campo": "CityVisited",
+        "valor_correcto": "Isla Margarita",
+        "fuente": "https://segib.org/es/vii-cumbre-iberoamericana-los-valores-eticos-de-la-democracia/",
+        "justificacion": "La VII Cumbre Iberoamericana de noviembre de 1997 se realizó en Isla Margarita, Venezuela. El campo CityVisited está vacío en el registro original."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "1190-ECU-PER-35832",
+        "campo": "TripStartDate / HostHOGSName",
+        "justificacion": "No encontré una fuente independiente accesible que confirme específicamente el encuentro entre Alarcón y Fujimori en Perú el 6 de febrero de 1998. Es contextualmente plausible: según la biografía de Alarcón en CIDOB, con Perú se celebraron 'varias rondas negociadoras en Brasil' durante su presidencia para resolver la disputa fronteriza del Cenepa, lo que confirma un patrón de encuentros bilaterales frecuentes con Fujimori en ese período, pero no logré verificar este encuentro puntual en Perú con fuentes abiertas."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1190-ECU-BOL-35541",
+        "justificacion": "El IX Consejo Presidencial Andino se celebró en Sucre, Bolivia, el 22 de abril de 1997. Las fechas del registro (21-23 de abril) son coherentes con la fecha oficial de la cumbre. Fuente: https://es.wikipedia.org/wiki/Consejo_Presidencial_Andino"
+      },
+      {
+        "TripID": "1190-ECU-CHL-35902",
+        "justificacion": "La Segunda Cumbre de las Américas se celebró en Santiago, Chile, el 18-19 de abril de 1998. Las fechas del registro (17-19 de abril) son coherentes con la cumbre oficial (llegada un día antes del inicio). Fuente: https://www.oas.org/xxxivga/spanish/reference_docs/CumbreAmericasSantiago_Declaracion.pdf"
+      },
+      {
+        "TripID": "1190-ECU-PRY-35664",
+        "justificacion": "La XI Cumbre del Grupo de Río se celebró en Asunción, Paraguay, el 23-24 de agosto de 1997. Las fechas del registro (22-24 de agosto) son coherentes, con llegada un día antes del inicio oficial."
+      },
+      {
+        "TripID": "1190-ECU-USA-35698",
+        "justificacion": "El registro está sustentado directamente en el acta oficial de la Asamblea General de la ONU (A/52/PV.12), fuente primaria de Naciones Unidas que confirma el discurso de Alarcón ante la Asamblea General el 25 de septiembre de 1997, en el marco del 52º período de sesiones (debate general de septiembre de 1997)."
+      },
+      {
+        "TripID": "1190-ECU-USA-35955",
+        "justificacion": "La Sesión Especial de la Asamblea General de la ONU sobre el problema mundial de las drogas (UNGASS) se celebró en Nueva York del 8 al 10 de junio de 1998. La fecha del registro (9 de junio de 1998) cae dentro de ese rango y está además sustentada en el acta oficial de la ONU (A/S-20/PV.5), fuente primaria. Fuente: https://press.un.org/en/1998/19980610.ga9423.html"
+      },
+      {
+        "TripID": "1190-ECU-BRA-35947",
+        "justificacion": "Según la biografía de Fabián Alarcón en CIDOB, durante su presidencia 'con el Perú se celebraron varias rondas negociadoras en Brasil para zanjar la disputa fronteriza en la región altoamazónica de Cenepa', lo que confirma el patrón general de viajes de Alarcón a Brasil para reunirse con la contraparte peruana (Fujimori) como parte del proceso de paz, aunque no pude confirmar de forma independiente la fecha exacta (1 de junio de 1998) de este encuentro puntual. Fuente: https://www.cidob.org/lider-politico/fabian-alarcon-rivera"
+      }
+    ]
+  }
+]

@@ -15,12 +15,12 @@
 "Colombia","Bilateral",227,0.457661290322581
 "Colombia","Multilateral",204,0.411290322580645
 "Colombia","Other",65,0.131048387096774
-"Ecuador","Bilateral",125,0.292056074766355
-"Ecuador","Multilateral",185,0.432242990654206
-"Ecuador","Other",118,0.275700934579439
-"Guyana","Bilateral",58,0.184126984126984
-"Guyana","Multilateral",185,0.587301587301587
-"Guyana","Other",72,0.228571428571429
+"Ecuador","Bilateral",129,0.298611111111111
+"Ecuador","Multilateral",185,0.428240740740741
+"Ecuador","Other",118,0.273148148148148
+"Guyana","Bilateral",58,0.18125
+"Guyana","Multilateral",187,0.584375
+"Guyana","Other",75,0.234375
 "Paraguay","Bilateral",133,0.312941176470588
 "Paraguay","Multilateral",189,0.444705882352941
 "Paraguay","Other",89,0.209411764705882
@@ -28,13 +28,14 @@
 "Peru","Bilateral",139,0.430340557275542
 "Peru","Multilateral",136,0.421052631578947
 "Peru","Other",48,0.148606811145511
-"Surinam","Bilateral",18,0.127659574468085
-"Surinam","Multilateral",105,0.74468085106383
-"Surinam","Other",18,0.127659574468085
+"Surinam","Bilateral",19,0.132867132867133
+"Surinam","Multilateral",106,0.741258741258741
+"Surinam","Other",18,0.125874125874126
 "Uruguay","Bilateral",118,0.352238805970149
 "Uruguay","Multilateral",136,0.405970149253731
 "Uruguay","Other",67,0.2
 "Uruguay","Sin dato",14,0.0417910447761194
-"Venezuela","Bilateral",273,0.552631578947368
-"Venezuela","Multilateral",145,0.293522267206478
-"Venezuela","Other",76,0.153846153846154
+"Venezuela","Bilateral",272,0.541832669322709
+"Venezuela","Multilateral",146,0.290836653386454
+"Venezuela","Other",76,0.151394422310757
+"Venezuela","Sin dato",8,0.0159362549800797

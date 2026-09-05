@@ -1,0 +1,24 @@
+[
+  {
+    "LeaderID": "1499",
+    "correcciones": [],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "1499-ECU-CUB-37572",
+        "campo": "Notes",
+        "justificacion": "El núcleo del registro (fecha de inicio del viaje y contraparte) fue verificado de forma independiente: Gustavo Noboa viajó a Cuba el 12 de noviembre de 2002 por invitación de Fidel Castro, acompañado de su esposa María Isabel Baquerizo, el canciller Heinz Moeller y varios ministros (fuente: Mariana Neira, 'Las cuatro visitas de Fidel al Ecuador', Plan V, https://planv.com.ec/historias/politica/cuatro-visitas-fidel-al-ecuador/, texto tomado del libro 'Un ciclón llamado Fidel'). Sin embargo, no se pudo confirmar de forma independiente el detalle específico de las Notes de COLT (reunión con Carlos Lage y con el 'Government Minister' Ricardo Cabrisas, la ofrenda floral en el Parque de la Fraternidad, y el encuentro con estudiantes de medicina y trabajadores azucareros ecuatorianos). Se realizaron búsquedas específicas (Search Query: \"Noboa Castro Cuba Carlos Lage Ricardo Cabrisas 2002\"; Search Query: \"Noboa Cuba Fraternidad ofrenda floral 2002\"; Search Query: \"Noboa Cuba noviembre 2002 azucareros zafra estudiantes ecuatorianos medicina Castro\") sin resultados que confirmen o contradigan estos detalles puntuales. Es coherente con el contexto histórico (Lage era en esa época Secretario del Comité Ejecutivo del Consejo de Ministros de Cuba, y Cabrisas era un alto funcionario del gobierno cubano), pero no se encontró una fuente primaria o periodística independiente que lo confirme explícitamente. Dado que COLT ya asigna Confidence 1/5 a este registro, se recomienda mantenerlo pero señalando esta limitación; no se propone ninguna corrección porque no hay evidencia que contradiga el dato."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1499-ECU-COL-36761",
+        "justificacion": "Verificado con fuente independiente: El Comercio (Ecuador), 'El bombardeo de Angostura provocó el impase más grave entre Ecuador y Colombia en 35 años' (https://www.elcomercio.com/actualidad/relacion-colombia-ecuador-presidentes/), que en su recuento cronológico de encuentros presidenciales Ecuador-Colombia señala: 'El Plan Colombia fue un tema puntual en el diálogo entre el Gustavo Noboa y Andrés Pastrana, que se realizó el 24 de agosto del 2000'. Esto confirma que el encuentro Noboa-Pastrana ocurrió el 24 de agosto de 2000, consistente con el TripEndDate de COLT (2000-08-24) y con TripStartDate 2000-08-23 (fecha de llegada previa a la reunión del día 24). Andrés Pastrana Arango fue efectivamente presidente de Colombia entre 1998 y 2002, por lo que el HostHOGSName 'President Andres Pastrana Arango' es correcto para esa fecha. No se encontraron discrepancias en fechas, duración ni contraparte."
+      },
+      {
+        "TripID": "1499-ECU-CUB-37572",
+        "justificacion": "Verificado con fuente independiente: Mariana Neira, 'Las cuatro visitas de Fidel al Ecuador', Plan V (https://planv.com.ec/historias/politica/cuatro-visitas-fidel-al-ecuador/), texto tomado del libro 'Un ciclón llamado Fidel' (2010), que afirma textualmente: 'Por invitación de Fidel Castro, Gustavo Noboa viajó a Cuba el 12 de noviembre del 2002, acompañado de su esposa María Isabel Baquerizo, el canciller Heinz Moeller, los ministros de Educación, Salud, Vivienda, Turismo, Ambiente, el Secretario General de Información y una delegación de empresarios'. La misma fuente explica que el propósito del viaje fue que Noboa, a pedido de la Fundación Guayasamín, invitara personalmente a Fidel Castro a la inauguración de 'La Capilla del Hombre' en Quito (que se realizó el 28 de noviembre de 2002). Esto confirma el TripStartDate 2002-11-12 y la contraparte HostHOGSName 'President Fidel Castro', quien efectivamente era el Jefe de Estado de Cuba en esa fecha (Presidente del Consejo de Estado desde 1976 hasta 2008). El TripEndDate (2002-11-15) y la duración de 4 días no fueron contradichos por ninguna fuente consultada; son plausibles dado que el propio Castro viajó por separado a Ecuador dos semanas después (28 de noviembre). Los detalles específicos de las Notes (reunión con Lage y Cabrisas, ofrenda floral, estudiantes de medicina, trabajadores azucareros) no pudieron verificarse de forma independiente (ver sección 'no_verificable'), pero no hay evidencia que los contradiga, y el registro ya está marcado con Confidence 1/5 en COLT, lo cual es consistente con la dificultad de encontrar fuentes que corroboren cada detalle secundario."
+      }
+    ]
+  }
+]

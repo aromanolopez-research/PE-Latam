@@ -1,0 +1,77 @@
+[
+  {
+    "LeaderID": "90007",
+    "correcciones": [],
+    "hallazgos_nuevos": [
+      {
+        "TripID": "90007-VEN-GRD-1",
+        "TripStartDate": "2026-04-09",
+        "TripEndDate": "2026-04-09",
+        "CountryVisited": "Grenada",
+        "CityVisited": "St. George's",
+        "Visit_Category": "Bilateral",
+        "Visit_Subtype": "Official Visit",
+        "Counterpart_Event": "Reunión con el primer ministro Dickon Mitchell y la gobernadora general Cécile La Grenade; cooperación en energía, agricultura, educación, comercio, turismo y transporte",
+        "justificacion": "Primer viaje internacional de Delcy Rodríguez como Presidenta Encargada de Venezuela, confirmado por múltiples medios y por su propia cuenta oficial de X (@delcyrodriguezv, 9-10 abril 2026). Viajó acompañada del canciller Yván Gil y la ministra de Hidrocarburos, Paula Henao. No se encontró fuente que precise una fecha de regreso distinta al mismo día del viaje, por lo que se registra como visita de un día.",
+        "fuente": "https://www.semana.com/mundo/articulo/delcy-rodriguez-hace-su-primer-viaje-como-presidenta-interina-de-venezuela-este-fue-el-pais-que-visito/202619/ ; https://www.infobae.com/venezuela/2026/04/10/delcy-rodriguez-realizo-su-primer-viaje-oficial-a-granada-para-fortalecer-la-cooperacion-bilateral/ ; https://www.eltiempo.com/mundo/venezuela/delcy-rodriguez-llega-a-la-isla-de-granada-en-su-primer-viaje-oficial-tras-90-dias-de-presidencia-encargada-de-venezuela-buscaran-afianzar-alianzas-3546578"
+      },
+      {
+        "TripID": "90007-VEN-BRB-1",
+        "TripStartDate": "2026-04-26",
+        "TripEndDate": "2026-04-27",
+        "CountryVisited": "Barbados",
+        "CityVisited": "Bridgetown",
+        "Visit_Category": "Bilateral",
+        "Visit_Subtype": "Official Visit",
+        "Counterpart_Event": "Agenda de trabajo estratégica con autoridades de Barbados (cooperación y desarrollo); recibida con honores en el aeropuerto Grantley Adams",
+        "justificacion": "Segundo viaje internacional de Rodríguez como Presidenta Encargada, confirmado por la televisión estatal venezolana (VTV) y prensa regional. Llegó la noche del domingo 26 de abril y cumplió agenda oficial el lunes 27 de abril. No se detallan actividades específicas bilaterales más allá de la 'agenda de trabajo estratégica' mencionada por VTV.",
+        "fuente": "https://www.infobae.com/venezuela/2026/04/27/delcy-rodriguez-llego-a-barbados-en-su-segunda-visita-internacional-como-presidenta-encargada-de-venezuela/"
+      },
+      {
+        "TripID": "90007-VEN-NLD-1",
+        "TripStartDate": "2026-05-10",
+        "TripEndDate": "2026-05-13",
+        "CountryVisited": "Netherlands",
+        "CityVisited": "The Hague",
+        "Visit_Category": "Multilateral / Institucional-Judicial",
+        "Visit_Subtype": "Comparecencia ante tribunal internacional (CIJ)",
+        "Counterpart_Event": "Audiencias orales ante la Corte Internacional de Justicia (CIJ) en el caso Guyana vs. Venezuela sobre el Esequibo (Laudo Arbitral de 1899); lideró personalmente la delegación venezolana en la última jornada",
+        "justificacion": "Viaje confirmado por numerosos medios: llegó a los Países Bajos el domingo 10 de mayo de 2026 para cerrar personalmente la semana de audiencias públicas (4-11 mayo) del caso Esequibo, y regresó a Venezuela el miércoles 13 de mayo, según declaró ella misma ('Feliz de estar de regreso en Venezuela...'). Viajó acompañada de Jorge Rodríguez (presidente de la Asamblea Nacional) y Diosdado Cabello (ministro de Interior y Justicia). No se benefició de sanciones europeas gracias a una exención puntual para el caso judicial.",
+        "fuente": "https://www.infobae.com/venezuela/2026/05/09/delcy-rodriguez-anuncio-que-viajara-a-la-haya-para-representar-a-venezuela-en-la-disputa-con-guyana-por-el-esequibo/ ; https://es.mercopress.com/2026/05/11/delcy-rodriguez-defiende-en-la-haya-el-esequibo-bajo-una-exencion-puntual-a-las-sanciones-europeas ; https://www.infobae.com/america/agencias/2026/05/13/delcy-rodriguez-regresa-a-venezuela-tras-asistir-a-la-cij-por-la-disputa-con-guyana/ ; https://www.elnacional.com/2026/05/delcy-rodriguez-anuncio-viaje-fuera-de-venezuela-para-defender-la-patria/"
+      },
+      {
+        "TripID": "90007-VEN-IND-1",
+        "TripStartDate": "2026-06-03",
+        "TripEndDate": "2026-06-07",
+        "CountryVisited": "India",
+        "CityVisited": "New Delhi",
+        "Visit_Category": "Bilateral",
+        "Visit_Subtype": "State/Official Visit",
+        "Counterpart_Event": "Reunión con el primer ministro Narendra Modi, el canciller Subrahmanyam Jaishankar y el ministro de Petróleo y Gas Natural Hardeep Singh Puri; cooperación petrolera, comercio, salud, farmacéutica, transporte y energías renovables; visita a la refinería de Jamnagar",
+        "justificacion": "Primera visita oficial de Rodríguez a Asia y primer viaje fuera del continente americano desde que asumió la presidencia encargada. Anunciada previamente por el secretario de Estado de EE.UU., Marco Rubio (21 de mayo), y confirmada por la cancillería india. Se extendió del miércoles 3 al domingo 7 de junio (India), enlazando después con una escala en Turquía (ver TripID 90007-VEN-TUR-1) antes de regresar a Caracas. Contexto: India se había convertido en el segundo mayor importador de petróleo venezolano en mayo de 2026.",
+        "fuente": "https://www.semana.com/mundo/articulo/delcy-rodriguez-inicia-gira-internacional-que-podria-redefinir-el-futuro-del-petroleo-venezolano/202646/ ; https://elpitazo.net/politica/los-viajes-de-delcy-rodriguez-a-la-india-y-turquia-en-los-que-solo-hubo-imagenes-y-buenas-intenciones/ ; https://en.cibercuba.com/noticias/2026-05-21-u1-e135253-s27061-nid329967-marco-rubio-dice-delcy-rodriguez-viajara-india-busca"
+      },
+      {
+        "TripID": "90007-VEN-TUR-1",
+        "TripStartDate": "2026-06-08",
+        "TripEndDate": "2026-06-08",
+        "CountryVisited": "Turkey",
+        "CityVisited": "Istanbul",
+        "Visit_Category": "Bilateral",
+        "Visit_Subtype": "Official Visit (no programada originalmente en la agenda inicial)",
+        "Counterpart_Event": "Reunión bilateral con el presidente Recep Tayyip Erdoğan; acuerdo para celebrar en noviembre de 2026 la V Comisión Mixta de Cooperación Turquía-Venezuela (energía, transporte, minería, conectividad aérea, ciencia y tecnología, industria, electricidad y comercio)",
+        "justificacion": "Escala/visita añadida por invitación de Erdoğan al cierre de la gira asiática que comenzó en India; primera visita de alto nivel venezolana a Turquía desde la salida de Maduro. Rodríguez regresó a Caracas en la madrugada del 9 de junio de 2026, cerrando así la gira internacional India-Turquía.",
+        "fuente": "https://www.infobae.com/venezuela/2026/06/09/delcy-rodriguez-se-reunio-con-erdogan-en-estambul-y-fijo-meta-de-triplicar-el-comercio-bilateral-con-turquia/ ; https://www.libertaddigital.com/internacional/oriente-medio/2026-06-08/delcy-rodriguez-viaja-por-sorpresa-a-turquia-tras-una-invitacion-de-erdogan-7417303/ ; https://www.diariolibre.com/mundo/america-latina/2026/06/08/delcy-rodriguez-se-reunen-en-estambul-con-erdogan/3559864 ; https://elpitazo.net/politica/los-viajes-de-delcy-rodriguez-a-la-india-y-turquia-en-los-que-solo-hubo-imagenes-y-buenas-intenciones/"
+      }
+    ],
+    "no_verificable": [
+      {
+        "descripcion": "Visita a Washington D.C. / reunión con Donald Trump en Casa Blanca",
+        "detalle": "Anunciada reiteradamente como inminente por la Casa Blanca desde el 21 de enero de 2026 (sería la primera visita de un mandatario venezolano en ejercicio a EE.UU. en 25-30 años), reiterada en marzo, y mencionada nuevamente en julio-agosto de 2026 sin fecha concreta. Al 2026-09-04 (fecha de corte de esta investigación) no se encontró evidencia de que el viaje se haya concretado; el gobierno venezolano llegó a desmentir explícitamente que estuviera prevista ('no está previsto que su jefa interina viaje fuera del país tras rumores de visita a Casa Blanca', El Tiempo). Se documenta como 'no verificable / no ocurrido dentro del período' en vez de forzarlo como hallazgo.",
+        "fuente": "Search Query: \"Delcy Rodríguez visita Washington confirmada fecha 2026\" ; https://es.euronews.com/2026/01/21/delcy-rodriguez-visitara-washington-proximamente-segun-la-casa-blanca ; https://www.eltiempo.com/mundo/venezuela/regimen-de-venezuela-informa-que-no-esta-previsto-que-su-jefa-interina-delcy-rodriguez-viaje-fuera-del-pais-tras-rumores-de-visita-a-casa-blanca-3523269"
+      }
+    ],
+    "confirmados_sin_cambios": [],
+    "nota": "Investigación construida enteramente desde cero mediante búsqueda web (no existe fila base COLT para Delcy Rodríguez bajo ningún LeaderID). Se identificaron 5 viajes internacionales físicos reales y verificables de Delcy Rodríguez como Presidenta Encargada de Venezuela entre su asunción (2026-01-05) y la fecha de corte (2026-09-04): Grenada (9 abr), Barbados (26-27 abr), Países Bajos/La Haya por audiencias ante la CIJ en el caso Esequibo (10-13 may), India (3-7 jun) y Turquía (8 jun, escala añadida al cierre de la gira asiática, con regreso a Caracas en la madrugada del 9 de junio). ALUCINACIONES DESCARTADAS EXPLÍCITAMENTE tras verificación cruzada: (1) su participación en el FII Priority Summit de Miami (25 marzo 2026) fue ÚNICAMENTE VIRTUAL/remota, no un viaje físico a EE.UU. -confirmado por verificación de Cotejo.info y por Globovisión ('participa de manera virtual')-, por lo que NO se incluyó como hallazgo pese a que varias fuentes secundarias/resúmenes automatizados sugerían erróneamente un viaje presencial; (2) su intervención en un evento de inversión en Madrid (mayo 2026, organizado por Abanca en Casa de América) también fue por videollamada, no presencial. Sobre la pregunta específica del encargo: NO se encontró evidencia de participación de Rodríguez (presencial ni virtual) en ninguna cumbre CELAC o ALBA durante el período investigado; su agenda internacional se ha orientado casi exclusivamente a la normalización con Washington (recepciones en Caracas a delegaciones de EE.UU., Arabia Saudita e India) y a alianzas petroleras puntuales (India, Turquía), no a la institucionalidad regional latinoamericana tradicional. Tampoco se verificó que algún país la haya recibido en visita bilateral CON reconocimiento formal explícito de 'jefa de Estado' más allá del protocolo habitual de cortesía diplomática entre gobiernos (Grenada, Barbados, India y Turquía la recibieron con honores de mandataria en ejercicio, lo cual sí se documenta en los hallazgos). Pendiente/fuera del período: España invitó a Rodríguez a la Cumbre Iberoamericana de Madrid de noviembre de 2026, pero al cierre de esta investigación (4 sept 2026) ella misma declaró que 'aún es temprano' para decidir si asistirá; por ocurrir después de la fecha de corte, no se incluye como hallazgo ni se puede clasificar como confirmado o descartado. Se registra un único caso en 'no_verificable': la anunciada pero nunca concretada (dentro del período) visita a Washington/reunión con Trump."
+  }
+]

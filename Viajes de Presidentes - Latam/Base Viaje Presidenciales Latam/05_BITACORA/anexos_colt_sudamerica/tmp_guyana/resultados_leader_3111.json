@@ -1,0 +1,215 @@
+[
+  {
+    "LeaderID": "3111",
+    "correcciones": [
+      {
+        "TripID": "3111-GUY-CHE-43005",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Minamata Convention on Mercury - First Meeting of the Conference of the Parties (COP1)",
+        "fuente": "https://dpi.gov.gy/guyana-elected-as-vice-president-of-the-bureau-of-the-conference-of-the-parties-to-the-minamata-conference-on-mercury-3-cops3/ ; https://minamataconvention.org/en/meetings/cop1",
+        "justificacion": "El evento registrado como 'Conference of the Parties (COP)' es ambiguo y puede confundirse con una COP climática de la CMNUCC (la COP23 de cambio climático se realizo en Bonn, Alemania, del 6 al 17 de noviembre de 2017, NO en Suiza). El viaje a Ginebra (Suiza) del 27-29 de septiembre de 2017 correspondio en realidad a la Primera Reunion de la Conferencia de las Partes del Convenio de Minamata sobre el Mercurio (COP1), realizada en el Centro Internacional de Conferencias de Ginebra del 24 al 29 de septiembre de 2017. Fuentes de Guyana (DPI) confirman que el presidente Granger participo y se reunio con la entonces presidenta suiza Doris Leuthard al margen de esa conferencia sobre mercurio, no de una cumbre climatica."
+      },
+      {
+        "TripID": "3111-GUY-BRB-43348",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Prime Ministerial Sub-Committee on the Caribbean Single Market and Economy (CSME)",
+        "fuente": "https://gisbarbados.gov.bb/blog/statement-by-chairman-csme-prime-ministerial-sub-committee-prime-minister-mia-amor-mottley/",
+        "justificacion": "El nombre oficial del organismo/reunion (segun el comunicado del Barbados Government Information Service del 5 de septiembre de 2018, presidido por la Primera Ministra Mia Amor Mottley en su calidad de Chairman del Prime Ministerial Sub-Committee on the CSME) es 'Prime Ministerial Sub-Committee on the CSME', no una 'Summit'. Esto es consistente con el nombre usado en el propio SourceLink1 original del registro para un evento analogo anterior ('Ninth Prime Ministerial Sub-committee on CSME')."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "3111-GUY-USA-42167",
+        "campo": "Notes / motivo del viaje",
+        "justificacion": "Viaje a Estados Unidos del 12 al 21 de junio de 2015 (10 dias), sin evento multilateral registrado ni jefe de Estado/gobierno recibido. Se realizaron busquedas (Search Query: 'David Granger United States visit June 2015 first trip president') sin encontrar cobertura de prensa independiente que precise el motivo o itinerario detallado de este viaje temprano en su mandato (apenas un mes despues de asumir el 16 de mayo de 2015). No se encontro evidencia que contradiga las fechas cargadas, pero tampoco confirmacion independiente del proposito o actividades especificas."
+      },
+      {
+        "TripID": "3111-GUY-USA-42420",
+        "campo": "MetIGOLeader / IGOLeaderName",
+        "justificacion": "El registro indica una reunion con el Secretario General de la ONU Ban Ki-moon en Nueva York, 20-22 de febrero de 2016, sin evento multilateral asociado. Se intento verificar (Search Query: 'Granger Guyana Ban Ki-moon meeting February 2016 New York') pero no se pudo completar la busqueda por limite de sesion de la herramienta antes de obtener una fuente independiente que confirme esta reunion puntual. Ademas, el SourceLink1 de este registro es identico al SourceLink1 del viaje 3111-GUY-BLZ-42416 (CARICOM Belice, febrero 2016), lo que sugiere una posible duplicacion o error de atribucion de fuente en la carga original que no pudo resolverse con las busquedas disponibles."
+      },
+      {
+        "TripID": "3111-GUY-USA-42531",
+        "campo": "Notes / NameMultilatEvent",
+        "justificacion": "El registro anota 'attended Jubilee Day celebrations' para un viaje a EE.UU. del 10-13 de junio de 2016, sin mas detalle. Se intento verificar (Search Query: 'Granger Guyana Jubilee Day June 2016 United States celebration') pero la busqueda no pudo completarse por limite de sesion de la herramienta. No fue posible confirmar independientemente a que evento especifico ('Jubilee Day') se refiere ni su ubicacion exacta dentro de EE.UU."
+      },
+      {
+        "TripID": "3111-GUY-CHL-42667",
+        "campo": "SignedAgreement / HostHOGSName",
+        "justificacion": "Se confirma que Michelle Bachelet era presidenta de Chile en octubre de 2016 (dato consistente con fuentes generales), pero la busqueda especifica (Search Query: 'Granger Chile October 2016 Bachelet agreement signed visit Santiago') no arrojo articulos de prensa independientes sobre esta visita bilateral especifica ni sobre el acuerdo firmado mencionado en el campo SignedAgreement. No se encontro evidencia que contradiga el registro, pero tampoco confirmacion independiente directa."
+      },
+      {
+        "TripID": "3111-GUY-VCT-42779",
+        "campo": "PublicAddress / Notes",
+        "justificacion": "El viaje a San Vicente y las Granadinas (13-14 de febrero de 2017) para la inauguracion del Aeropuerto Internacional Argyle esta bien documentado en la fuente oficial de Guyana (motp.gov.gy) ya incluida en el registro; el evento (comisionamiento del aeropuerto, 14 de febrero de 2017) es de conocimiento publico y coincide con las fechas cargadas. Se incluye aqui solo para dejar constancia de que no se hallaron fuentes adicionales independientes (prensa caribena) mas alla de la ya citada."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "3111-GUY-BHS-42796",
+        "justificacion": "Confirmado por fuentes independientes: visita de Estado de tres dias del presidente Granger a Bahamas, 2-4 de marzo de 2017 (la primera visita de Estado a Bahamas desde 2003), incluyendo llamada de cortesia a la Gobernadora General Dame Marguerite Pindling y visita a Freeport, Gran Bahama. Fuentes: Ministry of Foreign Affairs of the Bahamas (mofa.gov.bs) y The Tribune (tribune242.com, 'State visit for president of Cooperative Republic of Guyana', 2 marzo 2017)."
+      },
+      {
+        "TripID": "3111-GUY-BRB-42187",
+        "justificacion": "La 36ta Reunion Ordinaria de Jefes de Gobierno de CARICOM se realizo en Bridgetown, Barbados, en julio de 2015, coincidiendo con las fechas cargadas (2-4 julio 2015). Consistente con la reunion de Granger y el entonces Secretario General de la ONU Ban Ki-moon reportada por fuentes de la ONU (un.org, readout del 3 de julio de 2015)."
+      },
+      {
+        "TripID": "3111-GUY-BRB-42704",
+        "justificacion": "El 30 de noviembre de 2016 Barbados celebro el 50 aniversario (Jubileo de Oro) de su independencia; es consistente con el registro de asistencia de Granger a las 'independence celebrations' en esa fecha exacta."
+      },
+      {
+        "TripID": "3111-GUY-BEL-42893",
+        "justificacion": "Los European Development Days (EDD) 2017 se realizaron en Bruselas, Belgica, los dias 7 y 8 de junio de 2017, coincidiendo exactamente con las fechas del viaje cargado."
+      },
+      {
+        "TripID": "3111-GUY-BLZ-42416",
+        "justificacion": "La 27ma Reunion Inter-Sesional de Jefes de Gobierno de CARICOM se realizo en Belice en febrero de 2016, consistente con las fechas cargadas (16-17 febrero 2016)."
+      },
+      {
+        "TripID": "3111-GUY-BRA-42201",
+        "justificacion": "La Cumbre de MERCOSUR de julio de 2015 se realizo en Brasilia con Dilma Rousseff como presidenta anfitriona (en el cargo hasta su destitucion en agosto/septiembre de 2016), consistente con el HostHOGSName registrado y las fechas del viaje (16-17 julio 2015)."
+      },
+      {
+        "TripID": "3111-GUY-BRA-43090",
+        "justificacion": "Michel Temer era presidente de Brasil en diciembre de 2017 (desde agosto de 2016 hasta enero de 2019). Se confirma que la Cumbre de MERCOSUR de diciembre de 2017 se realizo en Brasilia y que se firmo el Protocolo de Contrataciones Publicas del MERCOSUR, consistente con el campo SignedAgreement:'Yes'."
+      },
+      {
+        "TripID": "3111-GUY-BRA-43177",
+        "justificacion": "El 8vo Foro Mundial del Agua se realizo en Brasilia del 18 al 23 de marzo de 2018 (confirmado por World Water Council, worldwatercouncil.org y fao.org), coincidiendo con el rango de fechas del viaje cargado (18-21 marzo 2018). Michel Temer era presidente de Brasil en esa fecha."
+      },
+      {
+        "TripID": "3111-GUY-DOM-42759",
+        "justificacion": "La V Cumbre de la CELAC se realizo en Punta Cana, Republica Dominicana, el 24 y 25 de enero de 2017 (confirmado por Wikipedia/EU-LAC Foundation), dentro del rango de fechas del viaje cargado (24-27 enero 2017)."
+      },
+      {
+        "TripID": "3111-GUY-ECU-42393",
+        "justificacion": "La IV Cumbre de la CELAC se realizo en Quito, Ecuador, el 26 y 27 de enero de 2016, dentro del rango de fechas del viaje cargado (24-27 enero 2016)."
+      },
+      {
+        "TripID": "3111-GUY-GRD-42920",
+        "justificacion": "La 38va Reunion Ordinaria de Jefes de Gobierno de CARICOM se realizo en Grenada del 4 al 6 de julio de 2017 (confirmado por comunicado oficial de CARICOM, today.caricom.org), coincidiendo exactamente con las fechas del viaje cargado."
+      },
+      {
+        "TripID": "3111-GUY-HTI-42773",
+        "justificacion": "Jovenel Moise fue investido presidente de Haiti el 7 de febrero de 2017, coincidiendo exactamente con la fecha del viaje cargado y con la nota original ('inauguration of President Jovenel Moses')."
+      },
+      {
+        "TripID": "3111-GUY-IND-43170",
+        "justificacion": "Narendra Modi, como Primer Ministro de India, presidio la Conferencia y Cumbre Fundacional de la International Solar Alliance (ISA) en Nueva Delhi el 11 de marzo de 2018, consistente con las fechas y el HostHOGSName cargados."
+      },
+      {
+        "TripID": "3111-GUY-JAM-43285",
+        "justificacion": "La 39na Reunion Ordinaria de Jefes de Gobierno de CARICOM se realizo en Montego Bay, Jamaica, del 4 al 6 de julio de 2018, con Andrew Holness (Primer Ministro de Jamaica) como anfitrion, confirmado por comunicado oficial de CARICOM (today.caricom.org)."
+      },
+      {
+        "TripID": "3111-GUY-KEN-43073",
+        "justificacion": "La Tercera Asamblea de las Naciones Unidas sobre el Medio Ambiente (UNEA-3) se realizo en Nairobi, Kenia, del 4 al 6 de diciembre de 2017, coincidiendo exactamente con las fechas del viaje cargado."
+      },
+      {
+        "TripID": "3111-GUY-MLT-42334",
+        "justificacion": "La Reunion de Jefes de Gobierno del Commonwealth (CHOGM) 2015 se realizo en Malta del 27 al 29 de noviembre de 2015 (confirmado por The Commonwealth y Wikipedia). El presidente Granger participo en el Heads of Delegation Retreat previo a la cumbre formal, lo que es consistente con la llegada registrada el 26 de noviembre (un dia antes del inicio formal)."
+      },
+      {
+        "TripID": "3111-GUY-MAR-42681",
+        "justificacion": "La COP22 (Conferencia de Cambio Climatico de la ONU) se realizo en Marrakech, Marruecos, del 7 al 18 de noviembre de 2016, coincidiendo exactamente con las fechas del viaje cargado (12 dias de duracion)."
+      },
+      {
+        "TripID": "3111-GUY-SAU-42317",
+        "justificacion": "La IV Cumbre de Paises Sudamericanos y Arabes (ASPA) se realizo en Riad, Arabia Saudita, del 9 al 11 de noviembre de 2015 (confirmado por gov.br y Arab News), coincidiendo exactamente con las fechas del viaje cargado. El Rey Salman bin Abdulaziz Al Saud era el monarca reinante desde enero de 2015."
+      },
+      {
+        "TripID": "3111-GUY-SAU-42875",
+        "justificacion": "La Cumbre Arabe Islamica Americana se realizo en Riad, Arabia Saudita, el 20 y 21 de mayo de 2017, coincidiendo con las fechas del viaje cargado (20-22 mayo 2017)."
+      },
+      {
+        "TripID": "3111-GUY-SUR-42228",
+        "justificacion": "Desi Bouterse fue investido para su segundo mandato como presidente de Surinam el 12 de agosto de 2015, coincidiendo exactamente con la fecha del viaje cargado y la nota original."
+      },
+      {
+        "TripID": "3111-GUY-TTO-42216",
+        "justificacion": "Kamla Persad-Bissessar era Primera Ministra de Trinidad y Tobago hasta las elecciones de septiembre de 2015 (perdio el 7 de septiembre de 2015), por lo que en julio de 2015 aun ocupaba el cargo, consistente con el HostHOGSName cargado."
+      },
+      {
+        "TripID": "3111-GUY-TTO-43395",
+        "justificacion": "Fuente independiente (demerarawaves.com, 30 octubre 2018: 'Video: President Granger confirms recent visit to Trinidad prompted visit to Cuba for medical investigation') confirma que la visita a Trinidad ocurrio antes de su viaje a Cuba del 30 de octubre de 2018, resolviendo la duda anotada en el registro original ('end dates don't quite align with sources'). Las fechas cargadas (22-23 octubre 2018) son consistentes con esta secuencia de eventos."
+      },
+      {
+        "TripID": "3111-GUY-GBR-42849",
+        "justificacion": "Fuentes independientes (Stabroek News, 'President meets Queen Elizabeth', 26 abril 2017; Guyana Chronicle, 'President Granger to meet Queen Elizabeth II during UK visit', 23 abril 2017) confirman la visita del presidente Granger al Reino Unido del 24 al 28 de abril de 2017 y su encuentro con la Reina Isabel II en el Castillo de Windsor el 26 de abril de 2017, coincidiendo exactamente con las fechas y el HostHOGSName cargados."
+      },
+      {
+        "TripID": "3111-GUY-GBR-43207",
+        "justificacion": "La Reunion de Jefes de Gobierno del Commonwealth (CHOGM) 2018 se realizo en Londres del 16 al 20 de abril de 2018 (confirmado por The Royal Family y Wikipedia), dentro del rango de fechas del viaje cargado (17-19 abril 2018)."
+      },
+      {
+        "TripID": "3111-GUY-USA-42271",
+        "justificacion": "Confirmado por prensa independiente (Fox News, 'Venezuela president plans to meet with Guyanese counterpart at UN amid border conflict') que el presidente Maduro se reunio con Granger en Nueva York en el marco de la Asamblea General de la ONU de septiembre de 2015, con el apoyo del Secretario General Ban Ki-moon, consistente con el NonhostHOGSNames cargado ('President Nicolas Maduro') y el MetIGOLeader ('Ban Ki-moon')."
+      },
+      {
+        "TripID": "3111-GUY-USA-42481",
+        "justificacion": "La ceremonia de firma del Acuerdo de Paris se realizo en la sede de la ONU en Nueva York el 22 de abril de 2016, coincidiendo con las fechas del viaje cargado (21-23 abril 2016) y el campo SignedAgreement:'Yes'. Consistente con el SourceLink2 ya incluido en el registro (Wikipedia, Paris Agreement)."
+      },
+      {
+        "TripID": "3111-GUY-VNM-43276",
+        "justificacion": "Confirmado por fuente oficial del Global Environment Facility (thegef.org, 'President David Granger of Guyana - Closing Remarks for the 6th GEF Assembly') que el presidente Granger asistio y dio observaciones de cierre en la 6ta Asamblea del GEF, realizada en Da Nang, Vietnam, en junio de 2018, consistente con las fechas y el NameMultilatEvent cargado ('Global Environmental Facility'). Tran Dai Quang era presidente de Vietnam hasta su fallecimiento en septiembre de 2018, por lo que en junio de 2018 aun ocupaba el cargo."
+      },
+      {
+        "TripID": "3111-GUY-CUB-43403",
+        "justificacion": "Confirmado por multiples fuentes de prensa (Stabroek News, Kaieteur News, Demerara Waves) que el presidente Granger viajo a Cuba el 30 de octubre de 2018 y regreso a Guyana el 20 de noviembre de 2018 (fecha de retorno confirmada explicitamente por Demerara Waves, 19 noviembre 2018: 'President Granger returns on Tuesday from Cuba'), coincidiendo exactamente con las fechas cargadas (2018-10-30 a 2018-11-20). Fue durante este viaje que se le diagnostico un linfoma no Hodgkin."
+      },
+      {
+        "TripID": "3111-GUY-CUB-43438",
+        "justificacion": "Consistente con el patron documentado de tratamientos periodicos de quimioterapia del presidente Granger en Cuba tras su diagnostico de linfoma no Hodgkin en noviembre de 2018; las fuentes oficiales de Guyana (motp.gov.gy) ya incluidas en el registro documentan este viaje de diciembre de 2018."
+      },
+      {
+        "TripID": "3111-GUY-CUB-43480",
+        "justificacion": "Miguel Diaz-Canel era presidente de Cuba desde abril de 2018, consistente con el HostHOGSName cargado para el viaje de enero de 2019. Confirmado por fuentes de prensa caribena ya incluidas en el registro (Nation News Barbados, Stabroek News) sobre el patron de tratamiento de quimioterapia cada 90 dias."
+      },
+      {
+        "TripID": "3111-GUY-CUB-43501",
+        "justificacion": "Consistente con el patron documentado de visitas medicas periodicas a Cuba; el registro ya incluye fuente directa de Stabroek News (5 febrero 2019, 'President for another round of treatment') que confirma el viaje de febrero de 2019."
+      },
+      {
+        "TripID": "3111-GUY-CUB-43544",
+        "justificacion": "Consistente con el patron documentado de visitas medicas periodicas a Cuba cada 90 dias; el registro ya incluye fuente directa (inewsguyana.com) sobre este viaje de marzo de 2019."
+      },
+      {
+        "TripID": "3111-GUY-CUB-43575",
+        "justificacion": "Consistente con el patron documentado de visitas medicas periodicas a Cuba cada 90 dias; el registro ya incluye fuente directa de Nation News Barbados sobre este viaje de abril de 2019."
+      },
+      {
+        "TripID": "3111-GUY-CUB-43666",
+        "justificacion": "Confirmado por fuente directa de Stabroek News ya incluida en el registro (23 julio 2019, 'President Granger returns') sobre el retorno del presidente de este viaje medico a Cuba de julio de 2019."
+      },
+      {
+        "TripID": "3111-GUY-CUB-43756",
+        "justificacion": "Confirmado por fuente directa de Stabroek News ya incluida en el registro (23 octubre 2019, 'Cuban doctors say president's cancer in remission'), que documenta este viaje medico de octubre de 2019 y su resultado (remision del cancer)."
+      },
+      {
+        "TripID": "3111-GUY-USA-42208",
+        "justificacion": "La Conferencia Hemisferica de EE.UU. sobre Defensa y Seguridad de julio de 2015 es consistente con el periodo (Granger, ex Brigadier General, con fuerte interes en temas de defensa/seguridad) y las fechas cargadas (23-26 julio 2015); no se hallo evidencia contradictoria."
+      },
+      {
+        "TripID": "3111-GUY-USA-42493",
+        "justificacion": "Reunion con el entonces Vicepresidente de EE.UU. Joe Biden en mayo de 2016 es consistente con el periodo (Biden era Vicepresidente hasta enero de 2017); no se hallo evidencia contradictoria y el registro ya cuenta con fuente directa (Lexis-Nexis) citada."
+      },
+      {
+        "TripID": "3111-GUY-USA-42631",
+        "justificacion": "La 71ra Asamblea General de la ONU tuvo su Debate General en septiembre de 2016 en Nueva York; confirmado por fuente de la ONU (un.int/guyana) que el presidente Granger dirigio la palabra a la 71ra sesion el 20 de septiembre de 2016, consistente con las fechas del viaje cargado (18-26 septiembre 2016) y con la reunion registrada con el Secretario General Ban Ki-moon."
+      },
+      {
+        "TripID": "3111-GUY-USA-42997",
+        "justificacion": "Confirmado por fuente oficial de la Mision de Guyana ante la ONU (un.int/guyana) que el presidente Granger dirigio la palabra a la 72da sesion de la Asamblea General de la ONU el 20 de septiembre de 2017, consistente con las fechas del viaje cargado (19-27 septiembre 2017) y con el MetIGOLeader (Secretario General Antonio Guterres, en el cargo desde enero de 2017)."
+      },
+      {
+        "TripID": "3111-GUY-TTO-43240",
+        "justificacion": "El registro ya cuenta con fuente directa oficial de Guyana (motp.gov.gy, 'President, First Lady annual medical checks being done in Trinidad for over 12 year as members of a Caribbean medical insurance scheme') que confirma el proposito y las fechas del viaje de mayo de 2018; no se hallo evidencia contradictoria."
+      },
+      {
+        "TripID": "3111-GUY-SUR-42552",
+        "justificacion": "Desi Bouterse era presidente de Surinam en julio de 2016 (en el cargo 2010-2020), consistente con el HostHOGSName cargado para esta visita bilateral de un dia; no se hallo evidencia contradictoria."
+      }
+    ]
+  }
+]

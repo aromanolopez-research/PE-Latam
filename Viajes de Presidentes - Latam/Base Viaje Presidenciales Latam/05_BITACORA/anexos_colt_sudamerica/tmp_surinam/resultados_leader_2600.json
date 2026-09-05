@@ -1,0 +1,183 @@
+[
+  {
+    "LeaderID": "2600",
+    "correcciones": [
+      {
+        "TripID": "2600-SUR-MEX-41049",
+        "campo": "CountryVisited",
+        "valor_correcto": "Barbados",
+        "fuente": "https://caricom.org/second-caricom-mexico-summit-set-for-monday-in-barbados/",
+        "justificacion": "Fuente primaria de CARICOM confirma que la Segunda Cumbre CARICOM-México se realizó en Bridgetown, Barbados, el lunes 21 de mayo de 2012, no en México. El presidente Bouterse, como presidente de turno de CARICOM, presidió junto al presidente mexicano Felipe Calderón la ceremonia de apertura en el Barbados Hilton. La primera cumbre (2010) sí fue en México, lo que probablemente generó la confusión en la carga original."
+      },
+      {
+        "TripID": "2600-SUR-MEX-41049",
+        "campo": "CountryVisitedISO",
+        "valor_correcto": "BRB",
+        "fuente": "https://caricom.org/second-caricom-mexico-summit-set-for-monday-in-barbados/",
+        "justificacion": "Consecuencia directa de la corrección de país (Barbados, no México)."
+      },
+      {
+        "TripID": "2600-SUR-MEX-41049",
+        "campo": "SubRegionVisited",
+        "valor_correcto": "Caribbean",
+        "fuente": "https://caricom.org/second-caricom-mexico-summit-set-for-monday-in-barbados/",
+        "justificacion": "Barbados pertenece a la subregión Caribe, no Centroamérica (la subregión original 'Central America' correspondía al registro erróneo de México)."
+      },
+      {
+        "TripID": "2600-SUR-MEX-41049",
+        "campo": "TripStartDate",
+        "valor_correcto": "2012-05-21",
+        "fuente": "https://caricom.org/second-caricom-mexico-summit-set-for-monday-in-barbados/",
+        "justificacion": "El comunicado de CARICOM (publicado 18 de mayo de 2012) anuncia explícitamente que la cumbre se realizaría 'on Monday 21 May', es decir el 21-05-2012, no el 20-05-2012 como figura cargado."
+      },
+      {
+        "TripID": "2600-SUR-MEX-41049",
+        "campo": "TripEndDate",
+        "valor_correcto": "2012-05-21",
+        "fuente": "https://caricom.org/second-caricom-mexico-summit-set-for-monday-in-barbados/",
+        "justificacion": "Evento de un solo día (21 de mayo de 2012) en Bridgetown, Barbados."
+      },
+      {
+        "TripID": "2600-SUR-MEX-41049",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Second CARICOM-Mexico Summit",
+        "fuente": "https://caricom.org/second-caricom-mexico-summit-set-for-monday-in-barbados/",
+        "justificacion": "El evento no fue una 'Caribbean Community (CARICOM) Summit' regular sino la Segunda Cumbre CARICOM-México (Second CARICOM-Mexico Summit), un mecanismo bilateral-regional distinto realizado en Barbados."
+      },
+      {
+        "TripID": "2600-SUR-MEX-41049",
+        "campo": "MetNonhostHOGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://caricom.org/second-caricom-mexico-summit-set-for-monday-in-barbados/",
+        "justificacion": "Bouterse, como presidente de turno de CARICOM, encabezó junto al presidente mexicano Felipe Calderón la apertura de la cumbre; Calderón fue el jefe de Estado no anfitrión (el anfitrión fue Barbados)."
+      },
+      {
+        "TripID": "2600-SUR-MEX-41049",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "President Felipe Calderon",
+        "fuente": "https://caricom.org/second-caricom-mexico-summit-set-for-monday-in-barbados/",
+        "justificacion": "El presidente mexicano Felipe Calderón fue el jefe de Estado extranjero (no anfitrión, dado que el anfitrión territorial fue Barbados) con quien Bouterse coincidió y participó en la ceremonia de apertura de la cumbre."
+      },
+      {
+        "TripID": "2600-SUR-BOL-41459",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Union of South American Nations (UNASUR) Extraordinary Summit",
+        "fuente": "https://www.foxnews.com/world/leftist-latam-leaders-to-meet-over-morales-jet-row.amp; https://en.wikipedia.org/wiki/Evo_Morales_grounding_incident",
+        "justificacion": "El 4 de julio de 2013 no hubo una 'Latin America Security Conference' en Bolivia; el evento real fue una cumbre extraordinaria de UNASUR (Declaración de Cochabamba) convocada de urgencia en solidaridad con el presidente boliviano Evo Morales tras el desvío forzado de su avión presidencial en Europa por sospechas (falsas) de que transportaba a Edward Snowden. Participaron los presidentes de Bolivia, Venezuela, Argentina, Uruguay, Ecuador y Surinam (Bouterse), entre otros."
+      },
+      {
+        "TripID": "2600-SUR-BOL-41459",
+        "campo": "MetNonhostHOGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.foxnews.com/world/leftist-latam-leaders-to-meet-over-morales-jet-row.amp",
+        "justificacion": "En la cumbre extraordinaria de Cochabamba (4-7-2013), Bouterse coincidió con los presidentes Evo Morales (anfitrión), Nicolás Maduro, Cristina Fernández de Kirchner, José Mujica y Rafael Correa."
+      },
+      {
+        "TripID": "2600-SUR-BOL-41459",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "President Nicolas Maduro; President Cristina Fernandez de Kirchner; President Jose Mujica; President Rafael Correa",
+        "fuente": "https://www.foxnews.com/world/leftist-latam-leaders-to-meet-over-morales-jet-row.amp",
+        "justificacion": "Jefes de Estado presentes en la reunión extraordinaria de Cochabamba junto al anfitrión Evo Morales, según cobertura periodística de la época."
+      },
+      {
+        "TripID": "2600-SUR-PER-40587",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "fuente": "https://en.mercopress.com/2012/10/01/the-34-country-arab-league-unasur-political-and-trade-summit-takes-off-in-peru; https://www.kaieteurnewsonline.com/2011/01/25/jagdeo-to-attend-arab-american-summit-in-peru/",
+        "justificacion": "La III Cumbre ASPA (Sudamérica-Países Árabes), originalmente prevista para Lima en febrero de 2011, fue pospuesta debido a la Primavera Árabe y finalmente se realizó recién el 2 de octubre de 2012 en Lima. Por lo tanto, ese evento multilateral no tuvo lugar en las fechas cargadas (13-16 feb. 2011); el registro de asistencia a la ASPA en esa fecha es incorrecto."
+      },
+      {
+        "TripID": "2600-SUR-PER-40587",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "",
+        "fuente": "https://en.mercopress.com/2012/10/01/the-34-country-arab-league-unasur-political-and-trade-summit-takes-off-in-peru",
+        "justificacion": "Se limpia el campo dado que el evento indicado (ASPA) no ocurrió en las fechas cargadas; ver nota en no_verificable sobre el motivo real del viaje."
+      },
+      {
+        "TripID": "2600-SUR-CUB-42704",
+        "campo": "TripStartDate",
+        "valor_correcto": "2016-11-29",
+        "fuente": "https://www.ctvnews.ca/world/article/fidel-castro-honoured-by-supporters-regional-leaders-at-massive-rally-in-havana/; https://www.npr.org/2016/11/30/503825352/havana-hosts-massive-commemoration-for-fidel-castro",
+        "justificacion": "El acto masivo de homenaje a Fidel Castro en la Plaza de la Revolución de La Habana, al que asistieron mandatarios extranjeros (entre ellos jefes de Estado de Bolivia, Sudáfrica, Venezuela, Ecuador, Nicaragua, México), tuvo lugar la noche del martes 29 de noviembre de 2016, no el 30 de noviembre. La fecha 30-11-2016 corresponde a la publicación de las notas de prensa (incluida la fuente original 'The Times', 30 nov. 2016) que reportaban el acto de la noche anterior."
+      },
+      {
+        "TripID": "2600-SUR-CUB-42704",
+        "campo": "TripEndDate",
+        "valor_correcto": "2016-11-29",
+        "fuente": "https://www.ctvnews.ca/world/article/fidel-castro-honoured-by-supporters-regional-leaders-at-massive-rally-in-havana/",
+        "justificacion": "Consistente con la corrección de TripStartDate; no se halló evidencia independiente de que la presencia de Bouterse en Cuba se extendiera más allá del acto del 29 de noviembre de 2016 (no se confirmó su asistencia al entierro en Santiago de Cuba el 4 de diciembre)."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Trinidad and Tobago",
+        "CityVisited": "Port of Spain",
+        "TripStartDate": "2013-07-04",
+        "TripEndDate": "2013-07-06",
+        "TripDuration": "3",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "Prime Minister Kamla Persad-Bissessar",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "Caribbean Community (CARICOM) Summit (34th Regular Meeting)",
+        "MetNonhostHOGS": "Yes",
+        "NonhostHOGSNames": "President Nicolas Maduro; President Danilo Medina",
+        "SignedAgreement": "No",
+        "fuente": "https://caricom.org/communique-issued-at-the-conclusion-of-the-thirty-fourth-regular-meeting-of-the-conference-of-heads-of-government-of-the-caribbean-community-3-6-july-2013-port-of-spain-trinidad-and-tobago/",
+        "justificacion": "El comunicado oficial de CARICOM de la 34ª Reunión Regular de Jefes de Gobierno (Puerto España, Trinidad y Tobago, 4-6 de julio de 2013) lista explícitamente entre los asistentes al 'President of the Republic of Suriname, His Excellency Desire Delano Bouterse'. Este viaje no figura en la base cargada (es distinto del viaje ya cargado TripID 2600-SUR-TTO-41427, que corresponde a una visita separada un mes antes, el 2 de junio de 2013, con motivo de la gira de Xi Jinping). En la cumbre, los jefes de Gobierno de CARICOM se reunieron como invitados especiales con el presidente venezolano Nicolás Maduro y el presidente dominicano Danilo Medina. Suriname no figura entre los seis Estados miembro que realizaron acciones de firma/ratificación de tratados en esa reunión."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "2600-SUR-PER-40587",
+        "campo": "Notes / motivo real del viaje",
+        "justificacion": "Se confirmó que la Cumbre ASPA prevista para Lima en febrero de 2011 fue pospuesta hasta octubre de 2012 por la Primavera Árabe, por lo que el evento cargado (ASPA) no pudo haber ocurrido en las fechas 13-16 de febrero de 2011. Se buscó (consultas: 'Bouterse Peru February 2011 visit Garcia Humala Lima'; 'Bouterse Peru 2011 visita bilateral') una explicación alternativa del viaje a Perú en esas fechas exactas, sin resultados independientes que confirmen el motivo real (posible visita bilateral, evento preparatorio de la cumbre pospuesta, u otro). Se recomienda revisar la fuente original en ProQuest (docview/831503012) para precisar el motivo, ya que la confianza original del registro (Confidence 1) también era baja."
+      },
+      {
+        "TripID": "2600-SUR-GNQ-41327",
+        "campo": "TripStartDate/TripEndDate",
+        "justificacion": "Múltiples fuentes (GFAR, Cancillería Argentina, prensa) coinciden en que la III Cumbre África-Sudamérica (ASA) se realizó en Malabo, Guinea Ecuatorial, entre el 20 y el 22 de febrero de 2013 (Declaración de Malabo adoptada el 22-2-2013), mientras que el registro cargado indica fechas de viaje del 22 al 24 de febrero de 2013. No se halló una fuente independiente que precise el día exacto de llegada/salida de Bouterse a Malabo, por lo que no se puede confirmar si el registro refleja con exactitud sus fechas de viaje (podría haber llegado el día de clausura de la cumbre, 22-2, y permanecido dos días más) o si hay un desfasaje. Se mantiene el registro original sin corregir por falta de evidencia concluyente."
+      },
+      {
+        "TripID": "2600-SUR-CUB-40686",
+        "campo": "Notes (detalle del tratamiento médico)",
+        "justificacion": "No se hallaron fuentes independientes adicionales (más allá de la fuente Lexis/Nexis ya citada en la carga original) que precisen la naturaleza del tratamiento médico recibido por Bouterse en Cuba en mayo de 2011. Búsqueda: 'Bouterse Cuba May 2011 medical treatment visit'. Se mantiene el registro original por no encontrar evidencia contradictoria."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "2600-SUR-CUB-40686", "justificacion": "Consistente con patrón de visitas médicas de Bouterse a Cuba; no se halló evidencia contradictoria sobre el viaje de mayo de 2011."},
+      {"TripID": "2600-SUR-CUB-41051", "justificacion": "Raúl Castro era efectivamente el presidente de Cuba en mayo de 2012; fecha y contraparte consistentes con el patrón de visitas bilaterales de Bouterse a Cuba."},
+      {"TripID": "2600-SUR-ARG-41088", "justificacion": "Confirmado de forma independiente: la 43ª Cumbre de Presidentes del MERCOSUR se realizó en Mendoza, Argentina, el 28-29 de junio de 2012, con la participación de Bouterse como invitado (Suriname no es miembro pleno del MERCOSUR). Fuente: MercoPress / Cancillería Argentina."},
+      {"TripID": "2600-SUR-BRB-42187", "justificacion": "La 36ª Reunión Regular de Jefes de Gobierno de CARICOM se realizó en Barbados el 2-3 de julio de 2015 (fuente: caricom.org, discurso del PM Freundel Stuart), consistente con el registro cargado (2-4 julio 2015)."},
+      {"TripID": "2600-SUR-BRA-40529", "justificacion": "Consistente con la Cumbre de Presidentes del MERCOSUR realizada en Brasil en diciembre de 2010, a la que asistió Bouterse como invitado junto a otros mandatarios sudamericanos (fuente Getty ya citada muestra a Bouterse junto al presidente chileno Piñera en el evento)."},
+      {"TripID": "2600-SUR-BRA-41483", "justificacion": "Consistente con la visita del Papa Francisco a Brasil (Jornada Mundial de la Juventud, Río de Janeiro) en julio de 2013, evento ampliamente documentado al que asistieron numerosos jefes de Estado."},
+      {"TripID": "2600-SUR-BRA-41835", "justificacion": "La Cumbre BRICS de Fortaleza (julio de 2014) incluyó una sesión de diálogo BRICS-UNASUR (outreach) a la que asistió Bouterse como presidente de Suriname/pro-tempore de UNASUR, consistente con la fuente Getty citada (foto de familia BRICS-UNASUR)."},
+      {"TripID": "2600-SUR-BRA-43222", "justificacion": "Michel Temer era efectivamente el presidente de Brasil en mayo de 2018; visita bilateral consistente con las fuentes ya citadas (Getty, Lexis)."},
+      {"TripID": "2600-SUR-CHN-41447", "justificacion": "Confirmado de forma independiente: Xi Jinping se reunió con Bouterse en Beijing el 26 de junio de 2013, con motivo de la visita de Bouterse al II Foro de Paz Mundial (World Peace Forum). Fuente: se.china-embassy.gov.cn."},
+      {"TripID": "2600-SUR-CHN-43796", "justificacion": "Confirmado de forma independiente: Bouterse realizó su primera visita de Estado a China del 27 al 30 de noviembre de 2019 por invitación de Xi Jinping, coincidiendo con la fecha en que se dictó sentencia en el juicio por 'Diciembre Sangriento' (29-11-2019) en Surinam, la cual Bouterse no presenció por estar en China. Fuentes: chinadaily.com.cn, xinhuanet.com, caribbeannewsglobal.com."},
+      {"TripID": "2600-SUR-COL-41013", "justificacion": "Confirmado de forma independiente: la VI Cumbre de las Américas se realizó en Cartagena, Colombia, el 14-15 de abril de 2012; fuente CARICOM menciona una reunión de jefes de gobierno de CARICOM con el presidente Calderón 'in Cartagena last month' (respecto de mayo de 2012)."},
+      {"TripID": "2600-SUR-ECU-41978", "justificacion": "La inauguración de la sede de UNASUR en Quito (diciembre de 2014) es un evento ampliamente documentado; fecha y descripción consistentes."},
+      {"TripID": "2600-SUR-SLV-40774", "justificacion": "Confirmado de forma independiente: los jefes de Estado/Gobierno de CARICOM y del SICA se reunieron en San Salvador el 19 de agosto de 2011 para su Tercera Cumbre, con Bouterse como miembro del Bureau de CARICOM presente."},
+      {"TripID": "2600-SUR-GNQ-41327", "justificacion": "Confirmado de forma independiente que Bouterse asistió a la III Cumbre África-Sudamérica en Malabo, Guinea Ecuatorial (20-22 feb. 2013); ver nota en no_verificable sobre posible desfasaje menor de fechas exactas de viaje."},
+      {"TripID": "2600-SUR-GUY-40427", "justificacion": "Confirmado de forma independiente: Bouterse visitó Guyana el 6 de septiembre de 2010 y se reunió con el presidente Bharrat Jagdeo, además de saludar al entonces secretario general saliente de CARICOM, Edwin Carrington."},
+      {"TripID": "2600-SUR-GUY-40508", "justificacion": "Consistente con la V Cumbre de UNASUR realizada en Georgetown, Guyana, el 26 de noviembre de 2010, evento en el que Bouterse participó como uno de los firmantes según la fuente ya citada (venezuelanalysis.com)."},
+      {"TripID": "2600-SUR-GUY-42555", "justificacion": "Confirmado con fuente primaria ya citada (comunicado oficial de CARICOM): 37ª Reunión Regular de Jefes de Gobierno, Georgetown, Guyana, 4-6 de julio de 2016."},
+      {"TripID": "2600-SUR-JAM-43285", "justificacion": "Confirmado con fuente primaria ya citada (comunicado oficial de CARICOM): 39ª Reunión Regular de Jefes de Gobierno, Montego Bay, Jamaica, julio de 2018."},
+      {"TripID": "2600-SUR-MEX-41015", "justificacion": "Consistente con el Foro Económico Mundial sobre América Latina realizado en México en abril de 2012, con la participación del presidente mexicano Felipe Calderón como orador principal (fuente Getty ya citada)."},
+      {"TripID": "2600-SUR-NIC-40918", "justificacion": "Confirmado de forma independiente: la investidura del presidente Daniel Ortega en Nicaragua el 10 de enero de 2012 fue un evento ampliamente cubierto (incluyendo la presencia del presidente iraní Mahmoud Ahmadinejad); fuente CNN ya citada."},
+      {"TripID": "2600-SUR-PAN-42104", "justificacion": "Consistente con la VII Cumbre de las Américas realizada en Ciudad de Panamá el 10-11 de abril de 2015, evento ampliamente documentado."},
+      {"TripID": "2600-SUR-PER-40752", "justificacion": "Confirmado de forma independiente: tras la investidura del presidente Ollanta Humala el 28 de julio de 2011, los jefes de Estado de UNASUR sostuvieron una reunión sub-regional ese mismo día en Lima; catorce presidentes asistieron a la investidura (fuente: COHA)."},
+      {"TripID": "2600-SUR-PER-41242", "justificacion": "Confirmado de forma independiente: la VI Reunión Ordinaria del Consejo de Jefas y Jefes de Estado de UNASUR se realizó en Lima el 30 de noviembre de 2012."},
+      {"TripID": "2600-SUR-KNA-40724", "justificacion": "Confirmado con fuente primaria ya citada (comunicado oficial de CARICOM): 32ª Reunión Regular de Jefes de Gobierno, Basseterre, San Cristóbal y Nieves, 30 junio-4 julio de 2011."},
+      {"TripID": "2600-SUR-LCA-41094", "justificacion": "Confirmado con fuente primaria ya citada (comunicado oficial de CARICOM): 33ª Reunión Regular de Jefes de Gobierno, Gros Islet, Santa Lucía, 4-6 de julio de 2012 (Bouterse presidía la Conferencia como Chairman saliente de CARICOM en esa reunión)."},
+      {"TripID": "2600-SUR-ZAF-41623", "justificacion": "Confirmado: el funeral/servicio conmemorativo de Nelson Mandela en Sudáfrica se realizó el 15 de diciembre de 2013, evento al que asistieron numerosos jefes de Estado."},
+      {"TripID": "2600-SUR-TTO-41427", "justificacion": "Confirmado de forma independiente: Xi Jinping realizó una gira por el Caribe en junio de 2013 y se reunió por separado con los presidentes de Surinam (Bouterse) y el primer ministro de Barbados en Puerto España, Trinidad y Tobago, el 2 de junio de 2013 (fuente: South China Morning Post, embajada china)."},
+      {"TripID": "2600-SUR-USA-40441", "justificacion": "Consistente con la 65ª Asamblea General de la ONU (septiembre de 2010); alta confianza original (4) y fuente oficial de la ONU."},
+      {"TripID": "2600-SUR-USA-40810", "justificacion": "Consistente con la 66ª Asamblea General de la ONU (septiembre de 2011)."},
+      {"TripID": "2600-SUR-VEN-40879", "justificacion": "Consistente con la Cumbre fundacional de la CELAC realizada en Caracas, Venezuela, el 2-3 de diciembre de 2011."},
+      {"TripID": "2600-SUR-VEN-40943", "justificacion": "Confirmado de forma independiente: en la XI Cumbre del ALBA (Caracas, 4-5 de febrero de 2012), Surinam (junto con Santa Lucía y Haití) fue admitido como país invitado/observador del ALBA."},
+      {"TripID": "2600-SUR-VEN-41704", "justificacion": "Nicolás Maduro era efectivamente el presidente de Venezuela en marzo de 2014; visita bilateral consistente con la fuente ya citada."},
+      {"TripID": "2600-SUR-VEN-41893", "justificacion": "Confirmado de forma independiente y con alta precisión: Bouterse, como presidente pro-tempore de UNASUR, tomó juramento a Ernesto Samper como nuevo Secretario General de UNASUR en el Palacio de Miraflores, Caracas, el 11 de septiembre de 2014, en presencia del presidente venezolano Nicolás Maduro."},
+      {"TripID": "2600-SUR-CUB-43336", "justificacion": "Miguel Díaz-Canel era efectivamente el presidente de Cuba desde abril de 2018; viaje de 13 días (24 agosto-5 septiembre de 2018) consistente con múltiples fuentes ya citadas (Lexis, Periódico 26, Radio Habana Cuba) que describen una visita combinando cirugía/tratamiento médico e intercambio bilateral."}
+    ]
+  }
+]

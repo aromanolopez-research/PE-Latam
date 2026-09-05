@@ -1,0 +1,364 @@
+[
+  {
+    "LeaderID": "2179",
+    "correcciones": [
+      {
+        "TripID": "2179-VEN-AZE-42665",
+        "campo": "TripStartDate",
+        "valor_correcto": "2016-10-21",
+        "justificacion": "Fuente independiente (Últimas Noticias, 2022) al reportar la segunda visita de Maduro a Azerbaiyán aclara explícitamente que 'su primera visita de Estado' fue 'efectuada el 21 de octubre de 2016', no el 22. La lista de Wikipedia de viajes presidenciales también registra el rango 21-22 de octubre para esta visita.",
+        "fuente": "https://ultimasnoticias.com.ve/politica/maduro-arriba-a-azerbaiyan-sexto-destino-de-su-recorrido-internacional/"
+      },
+      {
+        "TripID": "2179-VEN-AZE-42665",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "justificacion": "Derivado de la corrección de TripStartDate a 2016-10-21 manteniendo TripEndDate en 2016-10-22, la duración pasa de 1 a 2 días.",
+        "fuente": "Derivado de la corrección de TripStartDate en este mismo registro"
+      },
+      {
+        "TripID": "2179-VEN-BOL-43059",
+        "campo": "TripStartDate",
+        "valor_correcto": "2017-11-24",
+        "justificacion": "COLT registra el viaje como 2017-11-20/21, pero múltiples fuentes de prensa contemporáneas coinciden en que el Foro de Países Exportadores de Gas (FPEG) en Santa Cruz de la Sierra se desarrolló del 21 al 24 de noviembre de 2017 a nivel ministerial, y que la Cumbre de Jefes de Estado (a la que asistió Maduro) tuvo lugar específicamente el viernes 24 de noviembre de 2017, presidida por Evo Morales.",
+        "fuente": "https://www.telesurtv.net/news/Maduro-defiende-soberania-energetica-entre-exportadores-de-gas-20171124-0029.html ; búsqueda adicional: 'Bolivia se proyecta como potencia energética en la región' (resumenlatinoamericano.org, 27-nov-2017) confirma evento 21-24 nov con cumbre presidencial el día 24"
+      },
+      {
+        "TripID": "2179-VEN-BOL-43059",
+        "campo": "TripEndDate",
+        "valor_correcto": "2017-11-24",
+        "justificacion": "No se halló evidencia de que la presencia de Maduro se prolongara más allá del día de la Cumbre de Jefes de Estado (24 de noviembre); las notas de prensa lo ubican en Santa Cruz ese día.",
+        "fuente": "https://www.telesurtv.net/news/Maduro-defiende-soberania-energetica-entre-exportadores-de-gas-20171124-0029.html"
+      },
+      {
+        "TripID": "2179-VEN-BOL-43059",
+        "campo": "TripDuration",
+        "valor_correcto": "1",
+        "justificacion": "Consistente con la corrección de fecha de inicio y fin al mismo día (24 de noviembre de 2017).",
+        "fuente": "Derivado de las correcciones de fecha en este mismo registro"
+      },
+      {
+        "TripID": "2179-VEN-MEX-43435",
+        "campo": "Notes",
+        "valor_correcto": "attended the presidential inauguration reception of Andres Manuel Lopez Obrador at the National Palace in Mexico City",
+        "justificacion": "El campo Notes original indica erróneamente que Maduro 'attended the Presidential inauguration of Enrique Pena Nieto', pero la toma de posesión de Peña Nieto fue en diciembre de 2012, no en 2018. La fecha del viaje (2018-12-01) y el campo HostHOGSName (correctamente registrado como 'President Andres Manuel Lopez Obrador') corresponden a la toma de posesión de AMLO como nuevo presidente de México el 1 de diciembre de 2018, evento al que Maduro efectivamente asistió.",
+        "fuente": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Nicol%C3%A1s_Maduro (cita FT: 'Mexico's López Obrador vows to end neo-liberalism in inauguration', 1-dic-2018); Search Query: Maduro asiste toma de posesion Andres Manuel Lopez Obrador 1 diciembre 2018"
+      },
+      {
+        "TripID": "2179-VEN-QAT-42666",
+        "campo": "TripEndDate",
+        "valor_correcto": "2016-10-24",
+        "justificacion": "COLT registra un único día (23 de octubre) para la visita de Estado a Catar, pero la fuente Dohanews confirma la llegada el 23 de octubre de 2016, y el itinerario documentado del recorrido (con la escala inmediatamente posterior en el Vaticano el 24 de octubre) indica que la estadía en Catar se extendió hasta el 24.",
+        "fuente": "https://dohanews.co/venezuelan-president-maduro-arrives-qatar-today-state-visit/ ; Search Query: Maduro Qatar emir Tamim despedida 24 octubre 2016"
+      },
+      {
+        "TripID": "2179-VEN-QAT-42666",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "justificacion": "Consistente con la corrección de TripEndDate a 2016-10-24.",
+        "fuente": "Derivado de la corrección de TripEndDate en este mismo registro"
+      },
+      {
+        "TripID": "2179-VEN-TUR-42653",
+        "campo": "TripEndDate",
+        "valor_correcto": "2016-10-11",
+        "justificacion": "COLT registra un único día (10 de octubre) para la visita al 23° Congreso Mundial de Energía en Estambul, pero fuentes de la época señalan que Maduro concluyó una serie de acuerdos bilaterales con Turquía y Azerbaiyán el 11 de octubre de 2016 en el marco del mismo Congreso, indicando que su presencia se extendió al menos hasta ese día.",
+        "fuente": "https://venezuelanalysis.com/news/12717/ (Venezuela's Maduro Signs Deals with Turkey and Azerbaijan, Meets with Putin); https://www.opec.org/pn-detail/242-11-october-2016.html"
+      },
+      {
+        "TripID": "2179-VEN-TUR-42653",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "justificacion": "Consistente con la corrección de TripEndDate a 2016-10-11.",
+        "fuente": "Derivado de la corrección de TripEndDate en este mismo registro"
+      },
+      {
+        "TripID": "2179-VEN-RUS-43439",
+        "campo": "TripStartDate",
+        "valor_correcto": "2018-12-04",
+        "justificacion": "COLT registra el inicio del viaje el 5 de diciembre de 2018, pero fuentes independientes (Al Jazeera, Univision) confirman que Maduro llegó a Moscú el 4 de diciembre de 2018 y que la reunión formal con Putin ocurrió al día siguiente, 5 de diciembre.",
+        "fuente": "https://www.aljazeera.com/news/2018/12/4/venezuelas-maduro-is-on-his-way-to-russia-to-meet-putin"
+      },
+      {
+        "TripID": "2179-VEN-RUS-43439",
+        "campo": "TripEndDate",
+        "valor_correcto": "2018-12-05",
+        "justificacion": "Consistente con la corrección de TripStartDate: la reunión con Putin fue el 5 de diciembre de 2018, por lo que el rango correcto es 4-5 de diciembre, no 5-6.",
+        "fuente": "https://www.aljazeera.com/news/2018/12/4/venezuelas-maduro-is-on-his-way-to-russia-to-meet-putin"
+      },
+      {
+        "TripID": "2179-VEN-CUB-43447",
+        "campo": "TripStartDate",
+        "valor_correcto": "2018-12-14",
+        "justificacion": "COLT registra el inicio del viaje el 13 de diciembre de 2018, pero un artículo de teleSUR fechado y titulado explícitamente el 14 de diciembre de 2018 ('Presidente Nicolás Maduro arriba a Cuba... cumbre ALBA') reporta la llegada de Maduro ese mismo día, coincidiendo con la fecha de la Cumbre XVI del ALBA-TCP y el 14° aniversario de su fundación. Confianza moderada: no se descarta que haya llegado la noche anterior.",
+        "fuente": "https://www.telesurtv.net/news/presidente-nicolas-maduro-arriba-cuba-cumbre-alba-20181214-0002.html"
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "TripID": "NUEVO-2179-VAT-20161024",
+        "TripStartDate": "2016-10-24",
+        "TripEndDate": "2016-10-24",
+        "CountryVisited": "Vatican City",
+        "CityVisited": "Vatican City",
+        "Visit_Category": "Bilateral working visit",
+        "Visit_Subtype": "Head of state / religious leader meeting",
+        "Counterpart_Event": "Private audience with Pope Francis",
+        "justificacion": "Como escala final de su gira por Oriente Medio (tras Bakú, Teherán, Riad y Doha), Maduro fue recibido por el Papa Francisco en el Vaticano el 24 de octubre de 2016, en un encuentro privado no anunciado previamente, en el que el Papa pidió 'diálogo sincero y constructivo' con la oposición venezolana. Este viaje no figura en el archivo COLT.",
+        "fuente": "https://cnnespanol.cnn.com/2016/10/24/el-papa-francisco-recibio-a-nicolas-maduro-en-el-vaticano/ ; https://www.infobae.com/america/america-latina/2016/10/24/nicolas-maduro-mantuvo-un-encuentro-privado-con-el-papa-francisco-en-el-vaticano/"
+      },
+      {
+        "TripID": "NUEVO-2179-DOM-20170124",
+        "TripStartDate": "2017-01-24",
+        "TripEndDate": "2017-01-25",
+        "CountryVisited": "Dominican Republic",
+        "CityVisited": "Punta Cana",
+        "Visit_Category": "Multilateral summit",
+        "Visit_Subtype": "Regional bloc summit",
+        "Counterpart_Event": "V Cumbre de la Comunidad de Estados Latinoamericanos y Caribeños (CELAC)",
+        "justificacion": "Maduro asistió a la V Cumbre de la CELAC celebrada en Punta Cana, República Dominicana, el 24-25 de enero de 2017, donde coincidió con los presidentes de Cuba, Ecuador, Bolivia, El Salvador, Haití y Nicaragua. Este viaje (distinto del de agosto de 2016 a Santo Domingo para la toma de posesión de Danilo Medina, que sí está en COLT) no figura en el archivo.",
+        "fuente": "http://www.tachira.gob.ve/2017/01/25/presidente-maduro-arriba-a-republica-dominicana-para-participar-en-la-v-cumbre-de-la-celac/ ; https://elcooperante.com/maduro-arriba-a-republica-dominicana-para-incorporarse-a-la-v-cumbre-de-la-celac/"
+      },
+      {
+        "TripID": "NUEVO-2179-CUB-20170815",
+        "TripStartDate": "2017-08-15",
+        "TripEndDate": "2017-08-16",
+        "CountryVisited": "Cuba",
+        "CityVisited": "Santiago de Cuba",
+        "Visit_Category": "Working visit",
+        "Visit_Subtype": "Cultural site / ceremony visit",
+        "Counterpart_Event": "Visita sorpresa a la tumba de Fidel Castro en el Cementerio Santa Ifigenia",
+        "justificacion": "Maduro realizó una visita sorpresa a Santiago de Cuba (no a La Habana) para visitar las tumbas de Fidel Castro y José Martí en el Cementerio Santa Ifigenia, acompañado por Raúl Castro, días después de lo que habría sido el cumpleaños 91 de Castro. Múltiples medios (Univision, La Nación, RT, CiberCuba) reportaron el viaje como distinto de las otras visitas a Cuba de 2017 ya presentes en COLT (que solo registra un viaje a La Habana en septiembre 2017).",
+        "fuente": "https://www.lanacion.com.ar/el-mundo/nicolas-maduro-viajo-de-sorpresa-a-cuba-y-visito-la-tumba-de-fidel-castro-nid2053751/ ; https://www.univision.com/noticias/obama-en-cuba/nicolas-maduro-visita-cuba-por-sorpresa-dos-dias-antes-que-obama"
+      },
+      {
+        "TripID": "NUEVO-2179-TUR-20171005",
+        "TripStartDate": "2017-10-05",
+        "TripEndDate": "2017-10-06",
+        "CountryVisited": "Turkiye",
+        "CityVisited": "Ankara",
+        "Visit_Category": "Official visit",
+        "Visit_Subtype": "Head of state bilateral meeting",
+        "Counterpart_Event": "Reunión con el presidente Recep Tayyip Erdogan / Segunda Comisión Mixta Turquía-Venezuela",
+        "justificacion": "Como continuación de su viaje a Rusia (4 de octubre) y Bielorrusia (5 de octubre), Maduro viajó a Ankara para reunirse con Erdogan el 5-6 de octubre de 2017, en lo que medios describieron como la primera visita de Estado de un presidente venezolano a Turquía. COLT no tiene ningún registro de Turquía para 2017 (solo 2016, julio 2018 y septiembre 2018).",
+        "fuente": "https://www.infobae.com/america/mundo/2017/10/06/nicolas-maduro-se-reunio-con-recep-tayyip-erdogan-y-afirmo-que-venezuela-y-turquia-comparten-la-vision-de-un-mundo-diferente/ ; https://www.mfa.gov.tr/venezuela-bolivar-cumhuriyeti-cumhurbaskani-nicolas-maduro-morosun-ulkemizi-ziyareti_en.en.mfa"
+      },
+      {
+        "TripID": "NUEVO-2179-BLR-20171005",
+        "TripStartDate": "2017-10-05",
+        "TripEndDate": "2017-10-05",
+        "CountryVisited": "Belarus",
+        "CityVisited": "Minsk",
+        "Visit_Category": "Working visit",
+        "Visit_Subtype": "Head of state bilateral meeting",
+        "Counterpart_Event": "Reunión con el presidente Alexander Lukashenko",
+        "justificacion": "Entre su visita a Rusia (4 de octubre de 2017) y su llegada a Turquía (5-6 de octubre), Maduro hizo una escala en Minsk el 5 de octubre de 2017 para reunirse con el presidente Alexander Lukashenko, donde además inauguró una estatua de Simón Bolívar. Este país no aparece en ningún registro del archivo COLT para el período 2016-2019.",
+        "fuente": "https://www.infobae.com/america/venezuela/2017/10/05/nicolas-maduro-se-reunio-con-el-ultimo-dictador-de-europa-alexandr-lukashenko-presidente-de-bielorrusia/ ; https://mvsnoticias.com/mundo/2017/10/5/maduro-llega-minsk-para-visita-con-el-presidente-de-bielorrusia-352288.html"
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "2179-VEN-DZA-42989",
+        "campo": "TripStartDate / TripEndDate",
+        "motivo": "No se encontraron fuentes de prensa independientes contemporáneas (septiembre de 2017) que confirmen o contradigan las fechas del viaje de Maduro a Argelia. Las búsquedas solo devolvieron cobertura de visitas de Maduro a Argelia de 2015, 2022, 2023 y 2024. La única fuente disponible es el enlace de Lexis-Nexis citado en COLT (no accesible sin suscripción), que además comparte el mismo SourceLink1 que el registro de Kazajistán (2179-VEN-KAZ-42990), lo cual no permite una verificación cruzada independiente.",
+        "fuente_intentada": "Search Query: Maduro Argelia septiembre 2017 visita bilateral fecha 11 12"
+      },
+      {
+        "TripID": "2179-VEN-KAZ-42990",
+        "campo": "TripEndDate",
+        "motivo": "Fuentes coinciden en que la Cumbre de Ciencia y Tecnología de la Organización de Cooperación Islámica (OCI) en Astaná se celebró entre el 10 y el 12 de septiembre de 2017 (algunas fuentes indican 10-11, otras 10-12), y que Maduro asistió como representante de un país no miembro. Sin embargo, no se halló confirmación independiente de que su participación se extendiera hasta el 14 de septiembre, como indica COLT (TripEndDate 2017-09-14).",
+        "fuente_intentada": "http://www.iasworld.org/the-first-summit-on-science-and-technology-of-the-oic-astana-kazakhstan-10-11-september-2017/ ; https://astanatimes.com/2017/09/first-oic-summit-on-science-and-technology-takes-place-in-astana/"
+      },
+      {
+        "TripID": "2179-VEN-CUB-42997",
+        "campo": "TripStartDate / TripEndDate",
+        "motivo": "COLT registra el viaje como 19-20 de septiembre de 2017, sin detalle en el campo Notes. Un artículo de Cubadebate fechado el 22 de septiembre de 2017 describe a Raúl Castro recibiendo a Maduro en el aeropuerto para entregar un donativo por los daños del huracán Irma, lo que sugiere que la visita pudo haber ocurrido en fecha distinta (alrededor del 22) a la registrada por COLT, aunque no se puede descartar que el artículo se publicara días después del hecho. No se encontró una fuente que fije con precisión el día exacto de llegada y salida.",
+        "fuente_intentada": "http://www.cubadebate.cu/noticias/2017/09/22/recibe-raul-castro-a-nicolas-maduro-quien-hara-un-donativo-a-cuba-para-danos-de-huracan-irma/"
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "2179-VEN-AZE-43763",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2019-10-25 a 2019-10-26",
+        "justificacion": "Confirmado por Wikipedia (lista de viajes presidenciales) y por prensa de la época: Maduro asistió a la 18ª Cumbre del Movimiento de Países No Alineados (NAM) en Bakú, Azerbaiyán, el 25-26 de octubre de 2019.",
+        "fuente": "https://en.escambray.cu/2019/18th-non-aligned-movement-summit-underway-in-azerbaijan/"
+      },
+      {
+        "TripID": "2179-VEN-CHN-43355",
+        "campo": "TripStartDate",
+        "valor": "2018-09-12",
+        "justificacion": "Confirmado por prensa de la época: Maduro llegó a Beijing el 12 de septiembre de 2018 para una visita de Estado con Xi Jinping que se extendió hasta el 16 de septiembre.",
+        "fuente": "https://www.infobae.com/america/venezuela/2018/09/13/china-respaldo-a-la-dictadura-de-nicolas-maduro-ante-la-sorpresiva-visita-oficial-del-lider-chavista/ ; https://www.scmp.com/news/china/diplomacy/article/2164136/nicolas-maduro-heads-china-he-tries-salvage-venezuelan-economy"
+      },
+      {
+        "TripID": "2179-VEN-COL-42639",
+        "campo": "TripStartDate",
+        "valor": "2016-09-26",
+        "justificacion": "Confirmado: Maduro asistió a la firma del Acuerdo Final de Paz entre el gobierno colombiano y las FARC en Cartagena el 26 de septiembre de 2016, y se reunió con el secretario de Estado de EE.UU. John Kerry.",
+        "fuente": "https://www.cancilleria.gov.co/sala-de-prensa/noticias/llego-el-dia-de-la-paz-presidente-de-venezuela-nicolas-maduro-su-llegada-cartagena-para-asistir-acompanar-al-colombia-en-la-firma-del-acuerdo-de-paz ; https://www.nbcnews.com/news/latino/john-kerry-meets-venezuela-pres-maduro-colombia-n655401"
+      },
+      {
+        "TripID": "2179-VEN-CUB-42447",
+        "campo": "TripStartDate",
+        "valor": "2016-03-18",
+        "justificacion": "Confirmado por Washington Post ('Venezuela's Maduro visits ahead of Obama', 18-mar-2016): Maduro visitó Cuba el 18 de marzo de 2016, poco antes de la visita histórica de Obama.",
+        "fuente": "https://www.washingtonpost.com/national/world-digest-march-18-2016/2016/03/18/8a934cbc-ed27-11e5-a6f3-21ccdbc5f74e_story.html"
+      },
+      {
+        "TripID": "2179-VEN-CUB-42525",
+        "campo": "TripStartDate",
+        "valor": "2016-06-04",
+        "justificacion": "Confirmado: la VII Cumbre de la Asociación de Estados del Caribe (AEC) se celebró en La Habana el 4 de junio de 2016, con la 'Declaración de La Habana' como resultado.",
+        "fuente": "http://www.acs-aec.org/index.php?q=es/2016/vii-cumbre-de-la-aec-declaracion-de-la-habana"
+      },
+      {
+        "TripID": "2179-VEN-CUB-42544",
+        "campo": "TripStartDate",
+        "valor": "2016-06-23",
+        "justificacion": "Confirmado por The Guardian: el gobierno colombiano y las FARC firmaron el acuerdo de cese al fuego bilateral y definitivo en La Habana el 23 de junio de 2016, con Maduro presente como país garante.",
+        "fuente": "https://www.theguardian.com/world/2016/jun/23/colombia-farc-rebel-ceasefire-agreement-havana"
+      },
+      {
+        "TripID": "2179-VEN-CUB-42595",
+        "campo": "TripStartDate",
+        "valor": "2016-08-13",
+        "justificacion": "Confirmado: Fidel Castro celebró públicamente su cumpleaños 90 en el Teatro Karl Marx de La Habana el 13 de agosto de 2016, con Raúl Castro y Nicolás Maduro presentes; fue la última aparición pública de Fidel antes de su muerte.",
+        "fuente": "https://www.granma.cu/cuba/2016-08-13/junto-a-fidel-celebrando-sus-90-13-08-2016-18-08-35 ; https://www.aljazeera.com/news/2016/8/14/cuba-celebrates-fidel-castros-90th-birthday"
+      },
+      {
+        "TripID": "2179-VEN-CUB-42703",
+        "campo": "TripStartDate",
+        "valor": "2016-11-29",
+        "justificacion": "Confirmado: el acto masivo de homenaje a Fidel Castro en la Plaza de la Revolución de La Habana, al que asistieron Maduro, Cilia Flores y Evo Morales, tuvo lugar el 29 de noviembre de 2016 (distinto del entierro privado en Santiago de Cuba el 4 de diciembre, al que no asistieron jefes de Estado extranjeros).",
+        "fuente": "https://www.globalsecurity.org/wmd/library/news/cuba/cuba-161129-voa01.htm"
+      },
+      {
+        "TripID": "2179-VEN-CUB-42718",
+        "campo": "TripStartDate",
+        "valor": "2016-12-14",
+        "justificacion": "Consistente con el patrón anual bien documentado de celebración del aniversario de fundación del ALBA (14 de diciembre de 2004) en Cuba, replicado en años posteriores (2018, 2019, 2022) con la presencia de Maduro; no se hallaron fuentes que contradigan la fecha de 2016 registrada por COLT.",
+        "fuente": "https://www.nodal.am/2018/12/el-alba-tcp-celebra-14-anos-con-una-cumbre-de-presidentes-en-cuba/ (referencia al patrón anual del 14 de diciembre)"
+      },
+      {
+        "TripID": "2179-VEN-CUB-43210",
+        "campo": "TripStartDate",
+        "valor": "2018-04-20",
+        "justificacion": "Confirmado: Maduro llegó a Cuba el viernes 20 de abril de 2018 y participó el sábado 21 en el homenaje floral a José Martí en la Plaza de la Revolución, además de reunirse con el recién electo presidente Miguel Díaz-Canel en su primera visita oficial recibida.",
+        "fuente": "https://www.infobae.com/america/america-latina/2018/04/21/el-nuevo-presidente-cubano-miguel-diaz-canel-recibio-a-nicolas-maduro-en-el-palacio-de-la-revolucion-de-la-habana/ ; https://www.france24.com/es/20180422-maduro-visita-oficial-cuba-presidente"
+      },
+      {
+        "TripID": "2179-VEN-CUB-43297",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2018-07-16 a 2018-07-17",
+        "justificacion": "Confirmado: el XXIV Encuentro del Foro de São Paulo se celebró en La Habana del 15 al 17 de julio de 2018; Maduro participó en la sesión de clausura del 17 de julio, con llegada consistente con el rango 16-17 registrado en COLT.",
+        "fuente": "https://forodesaopaulo.org/memoria-del-xxiv-encuentro-del-foro-de-sao-paulo-la-habana-cuba-15-al-17-de-julio-de-2018/"
+      },
+      {
+        "TripID": "2179-VEN-CUB-43772",
+        "campo": "TripStartDate",
+        "valor": "2019-11-03",
+        "justificacion": "Confirmado por fuentes primarias oficiales venezolanas (Presidencia y Cancillería) incluidas en el propio registro COLT: Maduro asistió a la Conferencia de Solidaridad Antiimperialista en La Habana del 3 al 5 de noviembre de 2019.",
+        "fuente": "http://mppre.gob.ve/en/2019/11/04/president-maduro-cuban-intellectual-havana/"
+      },
+      {
+        "TripID": "2179-VEN-CUB-43813",
+        "campo": "TripStartDate",
+        "valor": "2019-12-14",
+        "justificacion": "Confirmado por Telesur English y fuentes oficiales: Maduro asistió a la XVII Cumbre del ALBA-TCP en La Habana el 14-15 de diciembre de 2019.",
+        "fuente": "https://www.telesurenglish.net/news/Venezuela-Maduro-Attends-Anti-Neoliberal-ALBA-Summit-in-Cuba-20191214-0002.html"
+      },
+      {
+        "TripID": "2179-VEN-DOM-42598",
+        "campo": "TripStartDate",
+        "valor": "2016-08-16",
+        "justificacion": "Confirmado: Maduro llegó a Santo Domingo el 16 de agosto de 2016 para la toma de posesión del segundo mandato de Danilo Medina, junto a otros 13 jefes de Estado.",
+        "fuente": "https://runrun.es/internacional/274996/maduro-arribo-a-republica-dominicana-para-asistir-a-toma-de-posesion-de-danilo-medina/"
+      },
+      {
+        "TripID": "2179-VEN-ECU-42396",
+        "campo": "TripStartDate",
+        "valor": "2016-01-27",
+        "justificacion": "Confirmado: aunque la IV Cumbre de la CELAC se inauguró formalmente el 26 de enero de 2016, la sesión de jefes de Estado con la participación e intervención de Maduro tuvo lugar el 27 de enero de 2016 en Quito.",
+        "fuente": "https://www.infobae.com/2016/01/27/1785867-iv-cumbre-la-celac-nicolas-maduro-prometio-ir-todo-contra-mauricio-macri/"
+      },
+      {
+        "TripID": "2179-VEN-ECU-42660",
+        "campo": "TripStartDate",
+        "valor": "2016-10-17",
+        "justificacion": "Confirmado: la Conferencia Hábitat III de la ONU se celebró en Quito del 17 al 20 de octubre de 2016, con ceremonia de apertura el 17 de octubre, coincidiendo con la fecha registrada por COLT para la asistencia de Maduro.",
+        "fuente": "https://www.un.org/es/conferences/habitat/quito2016"
+      },
+      {
+        "TripID": "2179-VEN-IRN-42665",
+        "campo": "TripStartDate",
+        "valor": "2016-10-22",
+        "justificacion": "No se halló evidencia que contradiga la fecha; es consistente con el itinerario documentado de la gira de octubre de 2016 (Bakú 21 oct., confirmado independientemente; Doha 23-24 oct., confirmado independientemente; Vaticano 24 oct., confirmado independientemente), lo que ubica la escala en Teherán el 22 de octubre entre ambas.",
+        "fuente": "Reconstrucción a partir de https://ultimasnoticias.com.ve/politica/maduro-arriba-a-azerbaiyan-sexto-destino-de-su-recorrido-internacional/ y https://dohanews.co/venezuelan-president-maduro-arrives-qatar-today-state-visit/"
+      },
+      {
+        "TripID": "2179-VEN-JAM-42511",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2016-05-21 a 2016-05-22",
+        "justificacion": "Confirmado por Wikipedia y por prensa de la época: visita de trabajo a Kingston, Jamaica, el 21-22 de mayo de 2016, con reunión con el primer ministro Andrew Holness.",
+        "fuente": "https://guyaneseonline.wordpress.com/2016/05/23/venezuelan-president-nicolas-maduro-visits-jamaica-and-trinidad/"
+      },
+      {
+        "TripID": "2179-VEN-NIC-42745",
+        "campo": "TripStartDate",
+        "valor": "2017-01-10",
+        "justificacion": "Confirmado: Maduro asistió a la toma de posesión del tercer mandato de Daniel Ortega en Managua el 10 de enero de 2017, junto a Evo Morales y otros mandatarios.",
+        "fuente": "https://www.infobae.com/venezuela/2025/01/10/el-dictador-de-nicaragua-daniel-ortega-no-asistira-a-la-jura-ilegitima-de-maduro/ (referencia histórica a la asistencia de Maduro en 2017)"
+      },
+      {
+        "TripID": "2179-VEN-RUS-43012",
+        "campo": "TripStartDate",
+        "valor": "2017-10-04",
+        "justificacion": "Confirmado por el sitio oficial del Kremlin: Maduro se reunió con Putin en Moscú el 4 de octubre de 2017, como primera escala de una gira que continuó en Bielorrusia y Turquía (ver hallazgos nuevos).",
+        "fuente": "http://www.en.kremlin.ru/events/president/news/55769/photos"
+      },
+      {
+        "TripID": "2179-VEN-RUS-43732",
+        "campo": "TripStartDate",
+        "valor": "2019-09-24",
+        "justificacion": "Confirmado por el sitio oficial del Kremlin y Al Jazeera: Maduro se reunió con Putin en Moscú el 24-25 de septiembre de 2019, en momentos en que Maduro se ausentó de la Asamblea General de la ONU.",
+        "fuente": "http://en.kremlin.ru/events/president/news/61640 ; https://www.aljazeera.com/news/2019/09/skipping-unga-putin-maduro-hold-talks-russia-190925061418590.html"
+      },
+      {
+        "TripID": "2179-VEN-SAU-42666",
+        "campo": "TripStartDate",
+        "valor": "2016-10-23",
+        "justificacion": "No se halló evidencia que contradiga la fecha; es consistente con el itinerario documentado de la gira de octubre de 2016 entre la escala confirmada en Bakú (21 oct.) y la escala confirmada en Doha (23-24 oct.).",
+        "fuente": "Reconstrucción a partir de https://ultimasnoticias.com.ve/politica/maduro-arriba-a-azerbaiyan-sexto-destino-de-su-recorrido-internacional/ y https://dohanews.co/venezuelan-president-maduro-arrives-qatar-today-state-visit/"
+      },
+      {
+        "TripID": "2179-VEN-TTO-42513",
+        "campo": "TripStartDate",
+        "valor": "2016-05-23",
+        "justificacion": "Confirmado por Wikipedia y UPI: visita de trabajo a Puerto España, Trinidad y Tobago, el 23 de mayo de 2016, con reunión con el primer ministro Keith Rowley y firma de acuerdo de exploración de gas.",
+        "fuente": "https://www.upi.com/Top_News/World-News/2016/05/25/Venezuela-Trinidad-and-Tobago-sign-gas-exploration-trade-agreement/4361464182088/"
+      },
+      {
+        "TripID": "2179-VEN-TUR-43290",
+        "campo": "TripStartDate",
+        "valor": "2018-07-09",
+        "justificacion": "Confirmado: Maduro viajó a Ankara para asistir a la ceremonia de investidura de Recep Tayyip Erdogan bajo el nuevo sistema presidencial turco, celebrada el 9 de julio de 2018, junto a otros 21 jefes de Estado.",
+        "fuente": "https://www.elnacional.com/venezuela/politica/maduro-llego-a-turquia-para-asistir-a-la-toma-de-posesion-de-erdogan/"
+      },
+      {
+        "TripID": "2179-VEN-TUR-43360",
+        "campo": "TripStartDate",
+        "valor": "2018-09-17",
+        "justificacion": "Confirmado por CNN (fuente ya incluida en el propio registro COLT): Maduro cenó en el restaurante del chef turco Nusret Gökçe ('Salt Bae') en Estambul el 17 de septiembre de 2018, generando amplia repercusión mediática por la crisis económica venezolana.",
+        "fuente": "https://www.cnn.com/2018/09/18/world/venezuela-maduro-salt-bae-steak-intl/index.html"
+      },
+      {
+        "TripID": "2179-VEN-USA-43369",
+        "campo": "TripStartDate",
+        "valor": "2018-09-26",
+        "justificacion": "Confirmado por la ONU: Maduro se dirigió al debate general del 73° período de sesiones de la Asamblea General de la ONU en Nueva York el 26 de septiembre de 2018.",
+        "fuente": "https://news.un.org/en/story/2018/09/1021002"
+      }
+    ]
+  }
+]

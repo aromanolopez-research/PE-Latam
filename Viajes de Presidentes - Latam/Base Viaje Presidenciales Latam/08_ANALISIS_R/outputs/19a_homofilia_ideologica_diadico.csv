@@ -798,9 +798,9 @@
 "1495-ECU-ARG-38175",2004-07-07,2000,"Argentina","Lucio Edwin Gutierrez Borba",5.32999992370605,2003-05-25,2007-12-10,2.79999995231628,"Nestor Carlos Kirchner","Derecha","Izquierda",FALSE
 "2053-ECU-ARG-38659",2005-11-03,2005,"Argentina","Luis Alfredo Palacio Gonzalez",4.5,2003-05-25,2007-12-10,2.79999995231628,"Nestor Carlos Kirchner","Centro","Izquierda",FALSE
 "2223-ECU-ARG-39344",2007-09-19,2005,"Argentina","Rafael Vicente Correa Delgado1",1.83000004291534,2003-05-25,2007-12-10,2.79999995231628,"Nestor Carlos Kirchner","Izquierda","Izquierda",TRUE
-"2223-ECU-ARG-39426",2007-12-10,2005,"Argentina","Rafael Vicente Correa Delgado1",1.83000004291534,2007-12-10,2011-12-10,2.5,"Cristina Fernandez1","Izquierda","Izquierda",TRUE
+"2223-ECU-ARG-39426",2007-12-09,2005,"Argentina","Rafael Vicente Correa Delgado1",1.83000004291534,2003-05-25,2007-12-10,2.79999995231628,"Nestor Carlos Kirchner","Izquierda","Izquierda",TRUE
 "2223-ECU-ARG-40052",2009-08-27,2005,"Argentina","Rafael Vicente Correa Delgado2",2.82999992370606,2007-12-10,2011-12-10,2.5,"Cristina Fernandez1","Izquierda","Izquierda",TRUE
-"2223-ECU-ARG-40302",2010-05-04,2010,"Argentina","Rafael Vicente Correa Delgado2",2.82999992370606,2007-12-10,2011-12-10,2.5,"Cristina Fernandez1","Izquierda","Izquierda",TRUE
+"2223-ECU-ARG-40302",2010-05-03,2010,"Argentina","Rafael Vicente Correa Delgado2",2.82999992370606,2007-12-10,2011-12-10,2.5,"Cristina Fernandez1","Izquierda","Izquierda",TRUE
 "2223-ECU-ARG-40323",2010-05-25,2010,"Argentina","Rafael Vicente Correa Delgado2",2.82999992370606,2007-12-10,2011-12-10,2.5,"Cristina Fernandez1","Izquierda","Izquierda",TRUE
 "2223-ECU-ARG-40515",2010-12-03,2010,"Argentina","Rafael Vicente Correa Delgado2",2.82999992370606,2007-12-10,2011-12-10,2.5,"Cristina Fernandez1","Izquierda","Izquierda",TRUE
 "2223-ECU-ARG-41089",2012-06-29,2010,"Argentina","Rafael Vicente Correa Delgado2",2.82999992370606,2011-12-10,2015-12-10,1.89999997615814,"Cristina Fernandez2","Izquierda","Izquierda",TRUE
@@ -842,7 +842,7 @@
 "2223-ECU-BRA-41080",2012-06-20,2010,"Brazil","Rafael Vicente Correa Delgado2",2.82999992370606,2011-01-01,2015-01-01,3,"Dilma Rousseff","Izquierda","Centro",FALSE
 "2223-ECU-BRA-41250",2012-12-07,2010,"Brazil","Rafael Vicente Correa Delgado2",2.82999992370606,2011-01-01,2015-01-01,3,"Dilma Rousseff","Izquierda","Centro",FALSE
 "2223-ECU-BRA-41836",2014-07-16,2010,"Brazil","Rafael Vicente Correa Delgado3",3.5,2011-01-01,2015-01-01,3,"Dilma Rousseff","Centro","Centro",TRUE
-"720-ECU-CHL-34402",1994-03-09,1990,"Chile","Sixto Alfonso Duran Ballen Cordovez",6.5,1990-03-11,1994-03-11,4,"Patricio Aylwin Azocar","Derecha","Centro",FALSE
+"720-ECU-CHL-34402",1994-03-11,1990,"Chile","Sixto Alfonso Duran Ballen Cordovez",6.5,1994-03-11,2000-03-11,4.1399998664856,"Eduardo Frei Ruiz-Tagle","Derecha","Centro",FALSE
 "720-ECU-CHL-34736",1995-02-06,1995,"Chile","Sixto Alfonso Duran Ballen Cordovez",6.5,1994-03-11,2000-03-11,4.1399998664856,"Eduardo Frei Ruiz-Tagle","Derecha","Centro",FALSE
 "1190-ECU-CHL-35902",1998-04-17,1995,"Chile","Fabian Ernesto Alarcon Rivera",5,1994-03-11,2000-03-11,4.1399998664856,"Eduardo Frei Ruiz-Tagle","Derecha","Centro",FALSE
 "1499-ECU-CHL-36835",2000-11-05,2000,"Chile","Gustavo Jose Joaquin Noboa Bejarano",6.32999992370605,2000-03-11,2006-03-11,3.5699999332428,"Ricardo Froilin Lagos Escobar","Derecha","Centro",FALSE
@@ -856,7 +856,7 @@
 "2223-ECU-CHL-40487",2010-11-05,2010,"Chile","Rafael Vicente Correa Delgado2",2.82999992370606,2010-03-11,2014-03-11,5.69999980926514,"Sebastian Pinera","Izquierda","Derecha",FALSE
 "2223-ECU-CHL-40577",2011-02-03,2010,"Chile","Rafael Vicente Correa Delgado2",2.82999992370606,2010-03-11,2014-03-11,5.69999980926514,"Sebastian Pinera","Izquierda","Derecha",FALSE
 "2223-ECU-CHL-41207",2012-10-25,2010,"Chile","Rafael Vicente Correa Delgado2",2.82999992370606,2010-03-11,2014-03-11,5.69999980926514,"Sebastian Pinera","Izquierda","Derecha",FALSE
-"2223-ECU-CHL-41300",2013-01-26,2010,"Chile","Rafael Vicente Correa Delgado2",2.82999992370606,2010-03-11,2014-03-11,5.69999980926514,"Sebastian Pinera","Izquierda","Derecha",FALSE
+"2223-ECU-CHL-41300",2013-01-27,2010,"Chile","Rafael Vicente Correa Delgado2",2.82999992370606,2010-03-11,2014-03-11,5.69999980926514,"Sebastian Pinera","Izquierda","Derecha",FALSE
 "2223-ECU-CHL-41708",2014-03-10,2010,"Chile","Rafael Vicente Correa Delgado3",3.5,2010-03-11,2014-03-11,5.69999980926514,"Sebastian Pinera","Centro","Derecha",FALSE
 "2223-ECU-CHL-41772",2014-05-13,2010,"Chile","Rafael Vicente Correa Delgado3",3.5,2014-03-11,2018-03-11,2.9,"Michelle Bachelet","Centro","Izquierda",FALSE
 "3334-ECU-CHL-43169",2018-03-10,2015,"Chile","Lenín Moreno Garcés",6,2014-03-11,2018-03-11,2.9,"Michelle Bachelet","Derecha","Izquierda",FALSE
@@ -942,7 +942,7 @@
 "2223-ECU-VEN-40364",2010-07-05,2010,"Venezuela","Rafael Vicente Correa Delgado2",2.82999992370606,2007-01-10,2013-03-05,1.25,"Hugo Chavez3","Izquierda","Izquierda",TRUE
 "2223-ECU-VEN-40526",2010-12-14,2010,"Venezuela","Rafael Vicente Correa Delgado2",2.82999992370606,2007-01-10,2013-03-05,1.25,"Hugo Chavez3","Izquierda","Izquierda",TRUE
 "2223-ECU-VEN-40879",2011-12-02,2010,"Venezuela","Rafael Vicente Correa Delgado2",2.82999992370606,2007-01-10,2013-03-05,1.25,"Hugo Chavez3","Izquierda","Izquierda",TRUE
-"2223-ECU-VEN-40944",2012-02-05,2010,"Venezuela","Rafael Vicente Correa Delgado2",2.82999992370606,2007-01-10,2013-03-05,1.25,"Hugo Chavez3","Izquierda","Izquierda",TRUE
+"2223-ECU-VEN-40944",2012-02-04,2010,"Venezuela","Rafael Vicente Correa Delgado2",2.82999992370606,2007-01-10,2013-03-05,1.25,"Hugo Chavez3","Izquierda","Izquierda",TRUE
 "2223-ECU-VEN-41484",2013-07-29,2010,"Venezuela","Rafael Vicente Correa Delgado3",3.5,2013-04-19,2019-01-10,1.37999999523163,"Nicolas Maduro Moros","Centro","Izquierda",FALSE
 "2223-ECU-VEN-41625",2013-12-17,2010,"Venezuela","Rafael Vicente Correa Delgado3",3.5,2013-04-19,2019-01-10,1.37999999523163,"Nicolas Maduro Moros","Centro","Izquierda",FALSE
 "2223-ECU-VEN-42630",2016-09-17,2015,"Venezuela","Rafael Vicente Correa Delgado3",3.5,2013-04-19,2019-01-10,1.37999999523163,"Nicolas Maduro Moros","Centro","Izquierda",FALSE
@@ -1448,7 +1448,7 @@
 "2179-VEN-BOL-41459",2013-07-04,2010,"Bolivia","Nicolas Maduro Moros",1.37999999523163,2010-01-22,2015-01-22,2.90000009536743,"Juan Evo Morales Ayma2","Izquierda","Izquierda",TRUE
 "2179-VEN-BOL-41804",2014-06-14,2010,"Bolivia","Nicolas Maduro Moros",1.37999999523163,2010-01-22,2015-01-22,2.90000009536743,"Juan Evo Morales Ayma2","Izquierda","Izquierda",TRUE
 "2179-VEN-BOL-42026",2015-01-22,2015,"Bolivia","Nicolas Maduro Moros",1.37999999523163,2015-01-22,2019-11-10,4,"Juan Evo Morales Ayma3","Izquierda","Centro",FALSE
-"2179-VEN-BOL-43059",2017-11-20,2015,"Bolivia","Nicolas Maduro Moros",1.37999999523163,2015-01-22,2019-11-10,4,"Juan Evo Morales Ayma3","Izquierda","Centro",FALSE
+"2179-VEN-BOL-43059",2017-11-24,2015,"Bolivia","Nicolas Maduro Moros",1.37999999523163,2015-01-22,2019-11-10,4,"Juan Evo Morales Ayma3","Izquierda","Centro",FALSE
 "898-VEN-BRA-34585",1994-09-08,1990,"Brazil","Rafael Antonio Caldera Rodriguez",4.13000011444092,1992-12-29,1995-01-01,4.44000005722046,"Itamar Augusto Cautiero Franco","Centro","Centro",TRUE
 "898-VEN-BRA-35204",1996-05-19,1995,"Brazil","Rafael Antonio Caldera Rodriguez",4.13000011444092,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Centro","Centro",TRUE
 "898-VEN-BRA-35531",1997-04-11,1995,"Brazil","Rafael Antonio Caldera Rodriguez",4.13000011444092,1995-01-01,1999-01-01,4.78000020980835,"Fernando Henrique Cardoso1","Centro","Centro",TRUE
@@ -1637,3 +1637,7 @@
 "PELATAM-PER-4",2008-05-23,2005,"Brazil","Alan Gabriel Ludwig Garcia Perez2",5.67000007629395,2007-01-01,2011-01-01,2.55999994277954,"Luiz Inacio Lula da Silva2","Derecha","Izquierda",FALSE
 "PELATAM-COL-3",2001-11-23,2000,"Peru","Andres Pastrana Arango",6,2001-07-28,2006-07-28,4.67000007629395,"Alejandro Celestino Toledo Manrique","Derecha","Centro",FALSE
 "PELATAM-COL-5",2010-03-10,2010,"Chile","Alvaro Uribe Velez2",6.8600001335144,2006-03-11,2010-03-11,2.85999989509583,"Veronica Michelle Bachelet Jeria","Derecha","Izquierda",FALSE
+"PELATAM-ECU-2",2010-01-22,2010,"Bolivia","Rafael Vicente Correa Delgado2",2.82999992370606,2010-01-22,2015-01-22,2.90000009536743,"Juan Evo Morales Ayma2","Izquierda","Izquierda",TRUE
+"PELATAM-ECU-4",2019-05-05,2015,"Chile","Lenín Moreno Garcés",6,2018-03-11,2022-03-11,5.81,"Sebastián Piñera2","Derecha","Derecha",TRUE
+"PELATAM-VEN-2",2009-04-28,2005,"Brazil","Hugo Chavez3",1.25,2007-01-01,2011-01-01,2.55999994277954,"Luiz Inacio Lula da Silva2","Izquierda","Izquierda",TRUE
+"PELATAM-VEN-3",2013-07-12,2010,"Uruguay","Nicolas Maduro Moros",1.37999999523163,2010-03-01,2015-03-01,2.5,"Jose Alberto Mujica Cordano","Izquierda","Izquierda",TRUE

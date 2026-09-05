@@ -1,0 +1,393 @@
+[
+  {
+    "LeaderID": "1383",
+    "correcciones": [
+      {
+        "TripID": "1383-VEN-CUB-36479",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "Yes",
+        "justificacion": "El viaje a Cuba del 15 al 18 de noviembre de 1999 coincide exactamente con la IX Cumbre Iberoamericana, celebrada en La Habana el 15-16 de noviembre de 1999, a la que Chávez asistió junto a Castro y otros jefes de Estado iberoamericanos. El juego de béisbol con Castro (18 nov) ocurrió al cierre de la misma visita. COLT registra 'No' para AttendedMultilatEvent, lo cual omite el evento multilateral que motivó/enmarcó el viaje.",
+        "fuente": "https://www.npr.org/1999/11/17/1066730/ibero-american-summit"
+      },
+      {
+        "TripID": "1383-VEN-CUB-36479",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "IX Cumbre Iberoamericana",
+        "justificacion": "Nombre del evento multilateral que coincidió con las fechas del viaje (La Habana, 15-16 de noviembre de 1999), confirmado por archivo de la cumbre y cobertura de prensa de la época.",
+        "fuente": "https://www.cbsnews.com/news/cuba-hosts-latin-leaders"
+      },
+      {
+        "TripID": "1383-VEN-FRA-36459",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "",
+        "justificacion": "COLT indica que Chávez asistió a la 'Shanghai Cooperation Organization (SCO) Summit' en Francia el 26-28 de octubre de 1999. Esto es cronológicamente imposible: la Organización de Cooperación de Shanghái (OCS) recién fue fundada en junio de 2001 en Shanghái, dos años después de la fecha registrada, y nunca ha celebrado cumbres en Francia. Se trata de un error de carga de datos (posible copia/pegado de otro registro).",
+        "fuente": "Search Query: \"Shanghai Cooperation Organization founding date June 2001\""
+      },
+      {
+        "TripID": "1383-VEN-FRA-36459",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "justificacion": "Consecuencia directa de la corrección anterior: al ser imposible que la Cumbre de la OCS haya ocurrido en 1999, no puede sostenerse que Chávez la haya 'atendido'. No se halló evidencia independiente de que el viaje registrado como 'Francia' incluyera asistencia a un evento multilateral real en esas fechas.",
+        "fuente": "Search Query: \"Shanghai Cooperation Organization founding date June 2001\""
+      },
+      {
+        "TripID": "1383-VEN-MEX-36308",
+        "campo": "MetHostHoGS",
+        "valor_correcto": "Yes",
+        "justificacion": "La XIII Cumbre del Grupo de Río se celebró el 28 de mayo de 1999 en Veracruz/Ciudad de México, y fue el propio presidente anfitrión, Ernesto Zedillo, quien recibió a Hugo Chávez y a los demás mandatarios asistentes. COLT registra 'No' para MetHostHoGS y deja HostHOGSName vacío, lo cual contradice el hecho de que el jefe de Estado anfitrión (Zedillo) recibió personalmente a los visitantes.",
+        "fuente": "https://diplomaciapresidencial.com/general/xiii-cumbre-del-grupo-de-rio-g-rio/"
+      },
+      {
+        "TripID": "1383-VEN-MEX-36308",
+        "campo": "HostHOGSName",
+        "valor_correcto": "President Ernesto Zedillo",
+        "justificacion": "Ernesto Zedillo era el presidente de México (anfitrión de la XIII Cumbre del Grupo de Río, Veracruz, 28 de mayo de 1999) y recibió a Chávez en dicha cumbre.",
+        "fuente": "https://diplomaciapresidencial.com/general/xiii-cumbre-del-grupo-de-rio-g-rio/"
+      },
+      {
+        "TripID": "1383-VEN-SGP-36453",
+        "campo": "Notes",
+        "valor_correcto": "Also met President S.R. Nathan (Sellapan Ramanathan)",
+        "justificacion": "El nombre en el campo Notes ('President Sellapa Rama Nathan') contiene un error tipográfico. El presidente de Singapur en esa fecha (asumió el 1 de septiembre de 1999) era Sellapan Ramanathan, conocido como S.R. Nathan, no 'Sellapa Rama Nathan'.",
+        "fuente": "Search Query: \"S R Nathan sworn in President of Singapore September 1999\""
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "1383-VEN-FRA-36459",
+        "campo": "CountryVisited / HostHOGSName",
+        "motivo": "Las cuatro fuentes citadas por COLT para este viaje (SourceLink1-4) se refieren en su totalidad a la llegada de Chávez a Madrid, declaraciones sobre la reforma venezolana y el fin de una 'gira extranjera' — ninguna menciona a Francia, París o Jacques Chirac. No encontré ninguna fuente independiente (prensa, comunicado oficial francés o venezolano) que confirme una visita de Estado de Chávez a Francia entre el 26 y el 28 de octubre de 1999, ni una reunión con Chirac en esas fechas. Es posible que el registro completo corresponda en realidad a una extensión de la visita a España (ESP-36457, 24-25 oct 1999) mal etiquetada como Francia, pero no puedo confirmarlo con certeza suficiente para proponerlo como corrección.",
+        "fuente_intentada": "Search Query: \"Chavez Chirac Paris October 1999 visit\" / \"Chávez Francia 1999 Elíseo\""
+      },
+      {
+        "TripID": "1383-VEN-BOL-36766",
+        "campo": "Todo el registro (viaje a Bolivia 28-29 agosto 2000)",
+        "motivo": "No encontré cobertura de prensa independiente y accesible que confirme específicamente esta visita bilateral a Bolivia (La Paz) los días 28-29 de agosto de 2000 ni la reunión con el presidente Hugo Banzer Suárez, más allá de las citas de ProQuest/WNC (con acceso restringido) que cita el propio COLT. Es cronológicamente plausible como escala previa a la I Reunión de Presidentes de Sudamérica en Brasilia (30 ago-2 sep 2000, registrada en 1383-VEN-BRA-36768), pero no pude verificarlo de forma independiente con las herramientas disponibles en esta sesión.",
+        "fuente_intentada": "Search Query: \"Chavez Bolivia La Paz Banzer agosto 2000 visita\""
+      },
+      {
+        "TripID": "1383-VEN-PAN-36387",
+        "campo": "Todo el registro (viaje a Panamá 15 agosto 1999)",
+        "motivo": "El propio COLT asigna a este registro una confianza baja (Confidence=2) y cita una única fuente de acceso restringido (WNC/Eastview). No logré encontrar ninguna nota de prensa independiente y de acceso abierto que confirme esta visita de un día a Panamá el 15 de agosto de 1999, el motivo del viaje (ceremonia cultural) ni con quién se reunió Chávez.",
+        "fuente_intentada": "Search Query: \"Chavez Panama agosto 1999 visita\""
+      },
+      {
+        "TripID": "1383-VEN-COL-36306",
+        "campo": "MetHostHoGS",
+        "motivo": "Confirmé independientemente que la XI Cumbre Presidencial Andina se celebró en Cartagena de Indias (23-27 mayo 1999) presidida por el anfitrión Andrés Pastrana, y que Chávez asistió (fechas de COLT: 26-27 mayo 1999, consistentes). Sin embargo, no encontré una fuente que confirme o descarte específicamente un encuentro bilateral Chávez-Pastrana durante esa cumbre en Cartagena (distinto del encuentro Chávez-Pastrana que sí está documentado en Santo Domingo, un mes antes, durante la Cumbre de la AEC). Por eso dejo el campo 'MetHostHoGS'='No' como no verificado en lugar de corregirlo sin evidencia directa.",
+        "fuente_intentada": "Search Query: \"Chávez Pastrana Cartagena mayo 1999 Cumbre Andina reunión bilateral\""
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1383-VEN-CUB-36479",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "1999-11-15 a 1999-11-18, President Fidel Castro",
+        "justificacion": "Confirmado que Chávez estuvo en La Habana estas fechas (coincidiendo con la IX Cumbre Iberoamericana, 15-16 nov) y que participó en un partido de béisbol amistoso con Castro el 18 de noviembre de 1999, tal como reportan fuentes de la época.",
+        "fuente": "https://www.cbsnews.com/news/cuba-hosts-latin-leaders"
+      },
+      {
+        "TripID": "1383-VEN-CUB-36627",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "2000-04-11 a 2000-04-14, South Summit",
+        "justificacion": "La Cumbre del Sur del Grupo de los 77 (primera cumbre del Sur) se celebró en La Habana del 10 al 14 de abril de 2000, organizada por Fidel Castro; es un hecho histórico ampliamente documentado que Chávez asistió. Las fechas y el nombre del evento en COLT son correctos.",
+        "fuente": "Search Query: \"G-77 South Summit Havana April 2000\""
+      },
+      {
+        "TripID": "1383-VEN-DZA-36752",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2000-08-14 a 2000-08-15, President Abdelaziz Bouteflika",
+        "justificacion": "Argelia fue la última escala de la gira de Chávez por los 10 países miembros de la OPEP (6-15 agosto 2000), confirmado por AFP; Bouteflika era el presidente argelino desde abril de 1999.",
+        "fuente": "https://www.emol.com/noticias/economia/2000/08/06/28569/chavez-inicio-historica-visita-por-paises-de-la-opep.html"
+      },
+      {
+        "TripID": "1383-VEN-BRA-36286",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "1999-05-06 a 1999-05-08, President Fernando Henrique Cardoso",
+        "justificacion": "Cardoso era el presidente de Brasil en esa fecha; la visita se enmarca en la agenda de integración energética y comercial bilateral de comienzos de la presidencia de Chávez, consistente con las fuentes de agencia (AFP/AP/Xinhua) citadas por COLT.",
+        "fuente": "Search Query: \"Chavez Brazil Cardoso May 1999 visit energy integration\""
+      },
+      {
+        "TripID": "1383-VEN-BRA-36768",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent/NonhostHOGSNames",
+        "valor": "2000-08-30 a 2000-09-02, Summit of South American Presidents",
+        "justificacion": "La I Reunión de Presidentes de América del Sur, organizada por Cardoso, se celebró en Brasilia entre el 31 de agosto y el 1 de septiembre de 2000, con la asistencia de los mandatarios sudamericanos, incluidos Fujimori (Perú), Jagdeo (Guyana) y Pastrana (Colombia), consistente con el registro de COLT.",
+        "fuente": "Search Query: \"Reunión de Presidentes de América del Sur Brasilia agosto 2000\""
+      },
+      {
+        "TripID": "1383-VEN-CHN-36442",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "1999-10-09 a 1999-10-12, General Secretary Jiang Zemin",
+        "justificacion": "Confirmado que Chávez viajó a China en octubre de 1999 (primera gira asiática) y se reunió con Jiang Zemin; es de esta visita que provienen sus conocidas declaraciones admirando a Mao Zedong.",
+        "fuente": "https://www.caracaschronicles.com/2025/06/11/when-caracas-was-camelot/"
+      },
+      {
+        "TripID": "1383-VEN-CHN-36450",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName/SemiAutoTerritory",
+        "valor": "1999-10-17 a 1999-10-18, Chief Executive Tung Chee-hwa, SemiAutoTerritory=Yes",
+        "justificacion": "Hong Kong es correctamente clasificado como territorio semiautónomo de China; Tung Chee-hwa era su Jefe Ejecutivo en 1999, consistente con la escala de la gira asiática de Chávez.",
+        "fuente": "Search Query: \"Chavez Hong Kong October 1999 Tung Chee-hwa\""
+      },
+      {
+        "TripID": "1383-VEN-COL-36306",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "1999-05-26 a 1999-05-27, Community of Andean Nations Summit",
+        "justificacion": "La XI Cumbre Presidencial Andina se celebró en Cartagena de Indias del 23 al 27 de mayo de 1999 (30° aniversario del Acuerdo de Cartagena), presidida por Andrés Pastrana, con asistencia de Chávez; las fechas de COLT son consistentes con el tramo final de la cumbre.",
+        "fuente": "https://www.comunidadandina.org/notas-de-prensa/conferencia-de-prensa-de-los-jefes-de-estado-andinos-al-culminar-la-xiii-cumbre-presidencial/"
+      },
+      {
+        "TripID": "1383-VEN-COL-36692",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "2000-06-15 a 2000-06-17, Rio Group Summit",
+        "justificacion": "La XIV Cumbre del Grupo de Río se realizó en Cartagena de Indias, Colombia, en junio de 2000; las fechas y el marco multilateral coinciden con el registro de COLT.",
+        "fuente": "Search Query: \"XIV Cumbre Grupo de Río Cartagena junio 2000\""
+      },
+      {
+        "TripID": "1383-VEN-CRI-36845",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2000-11-15 a 2000-11-16, President Miguel Angel Rodriguez",
+        "justificacion": "Miguel Ángel Rodríguez era el presidente de Costa Rica (1998-2002); la visita se ubica al inicio de la gira centroamericana de Chávez previa a la Cumbre Iberoamericana de Panamá (17-18 nov 2000).",
+        "fuente": "Search Query: \"Chavez Costa Rica noviembre 2000 Miguel Angel Rodriguez\""
+      },
+      {
+        "TripID": "1383-VEN-DOM-36266",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent/NonhostHOGSNames",
+        "valor": "1999-04-16 a 1999-04-18, Association of Caribbean States (ACS) Summit, met Pastrana and Castro",
+        "justificacion": "La II Cumbre de la Asociación de Estados del Caribe se celebró en Santo Domingo el 16-17 de abril de 1999; una nota de prensa de El Tiempo del 17/04/1999 confirma específicamente el encuentro bilateral entre Chávez y Pastrana ese día en República Dominicana, en el marco de dicha cumbre del Caribe.",
+        "fuente": "https://www.eltiempo.com/archivo/documento/MAM-903963"
+      },
+      {
+        "TripID": "1383-VEN-SLV-36850",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2000-11-20, President Francisco Flores",
+        "justificacion": "Francisco Flores era el presidente de El Salvador (1999-2004); la visita de un día se enmarca en la gira centroamericana de Chávez de noviembre de 2000.",
+        "fuente": "Search Query: \"Chavez El Salvador noviembre 2000 Francisco Flores\""
+      },
+      {
+        "TripID": "1383-VEN-DEU-36715",
+        "campo": "TripStartDate/TripEndDate/Notes",
+        "valor": "2000-07-08, Attended World Fair Expo (Hannover)",
+        "justificacion": "La Expo 2000 se celebró en Hannover, Alemania, entre junio y octubre de 2000; una visita de un día de Chávez en ese contexto es consistente con la fuente AFP citada por COLT ('Venezuelan President arrives in Hanover').",
+        "fuente": "Search Query: \"Chavez Expo 2000 Hannover julio 2000\""
+      },
+      {
+        "TripID": "1383-VEN-GTM-36849",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2000-11-19 a 2000-11-20, President Alfonso Portillo",
+        "justificacion": "Alfonso Portillo asumió la presidencia de Guatemala en enero de 2000; su encuentro con Chávez se ubica en la gira centroamericana previa a la Cumbre Iberoamericana de Panamá.",
+        "fuente": "Search Query: \"Chavez Guatemala noviembre 2000 Alfonso Portillo\""
+      },
+      {
+        "TripID": "1383-VEN-IND-36456",
+        "campo": "TripStartDate/TripEndDate/Notes",
+        "valor": "1999-10-23, Stopover on way to Spain from Philippines",
+        "justificacion": "Escala técnica coherente con la ruta de la gira asiática-europea de Chávez de octubre de 1999 (de Filipinas a España), reportada por Associated Press International.",
+        "fuente": "Search Query: \"Chavez India stopover October 1999 plane\""
+      },
+      {
+        "TripID": "1383-VEN-IDN-36750",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2000-08-12, President Abdurrahman Wahid",
+        "justificacion": "Abdurrahman Wahid era presidente de Indonesia (oct 1999-jul 2001); Indonesia era miembro pleno de la OPEP en 2000, consistente con su inclusión en la gira petrolera de Chávez confirmada por AFP.",
+        "fuente": "https://www.emol.com/noticias/economia/2000/08/06/28569/chavez-inicio-historica-visita-por-paises-de-la-opep.html"
+      },
+      {
+        "TripID": "1383-VEN-IRN-36748",
+        "campo": "TripStartDate/HostHOGSName",
+        "valor": "2000-08-10, President Mohammad Khatami",
+        "justificacion": "Confirmado por fuentes de prensa de la época que Chávez se reunió con Khatami en Irán la mañana del 10 de agosto de 2000, antes de cruzar por tierra hacia Bagdad ese mismo día.",
+        "fuente": "https://www.aei.org/research-products/report/chavez-and-china-challenging-u-s-interests/"
+      },
+      {
+        "TripID": "1383-VEN-IRN-36749",
+        "campo": "TripStartDate",
+        "valor": "2000-08-11",
+        "justificacion": "Consistente con el regreso de Chávez a suelo iraní el 11 de agosto de 2000 tras su visita de un día a Bagdad (cruzada por tierra desde/hacia la frontera irano-iraquí), antes de continuar su gira hacia Indonesia.",
+        "fuente": "https://www.washingtonpost.com/archive/politics/2000/08/11/defying-us-venezuelan-visits-baghdad/9d6fbcb4-0dc6-4d61-af3e-f8560a819149/"
+      },
+      {
+        "TripID": "1383-VEN-IRQ-36748",
+        "campo": "TripStartDate/HostHOGSName",
+        "valor": "2000-08-10, President Saddam Hussein",
+        "justificacion": "Ampliamente confirmado: el 10 de agosto de 2000 Chávez se convirtió en el primer jefe de Estado en reunirse cara a cara con Saddam Hussein en Bagdad desde la Guerra del Golfo de 1991, cruzando por tierra desde Irán para eludir el embargo aéreo de la ONU.",
+        "fuente": "https://www.washingtonpost.com/archive/politics/2000/08/11/defying-us-venezuelan-visits-baghdad/9d6fbcb4-0dc6-4d61-af3e-f8560a819149/"
+      },
+      {
+        "TripID": "1383-VEN-JAM-36200",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "1999-02-09 a 1999-02-11, G15 Summit",
+        "justificacion": "La IX Cumbre del G-15 se celebró en Montego Bay, Jamaica, del 10 al 12 de febrero de 1999; Chávez, recién asumido (2 feb 1999), llegó a Jamaica alrededor del 8-9 de febrero para asistir, consistente con las fechas de COLT.",
+        "fuente": "Search Query: \"9th G-15 Summit Montego Bay Jamaica February 1999\""
+      },
+      {
+        "TripID": "1383-VEN-JAM-36370",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "1999-07-29 a 1999-07-30, Prime Minister P.J. Patterson",
+        "justificacion": "P.J. Patterson era el Primer Ministro de Jamaica en 1999; la fuente de Associated Press citada por COLT (foto fechada 30 julio 1999) corrobora la fecha del viaje.",
+        "fuente": "Search Query: \"Chavez Jamaica July 1999 Patterson visit\""
+      },
+      {
+        "TripID": "1383-VEN-JPN-36446",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "1999-10-13 a 1999-10-14, Prime Minister Obuchi Keizo",
+        "justificacion": "Keizo Obuchi era el Primer Ministro de Japón (jul 1998-abr 2000); su encuentro con Chávez se ubica en la gira asiática de octubre de 1999.",
+        "fuente": "Search Query: \"Chavez Japan October 1999 Obuchi oil exports\""
+      },
+      {
+        "TripID": "1383-VEN-KWT-36746",
+        "campo": "TripStartDate/HostHOGSName",
+        "valor": "2000-08-08, Emir Jaber Al-Ahmad Al-Jaber Al-Sabah",
+        "justificacion": "Jaber Al-Ahmad Al-Sabah era el Emir de Kuwait (1977-2006); Kuwait fue una de las 10 escalas confirmadas de la gira de Chávez por países de la OPEP en agosto de 2000.",
+        "fuente": "https://www.emol.com/noticias/economia/2000/08/06/28569/chavez-inicio-historica-visita-por-paises-de-la-opep.html"
+      },
+      {
+        "TripID": "1383-VEN-LBY-36751",
+        "campo": "TripStartDate/HostHOGSName",
+        "valor": "2000-08-13, Muammar al-Qaddafi",
+        "justificacion": "Confirmado que Gadafi recibió a Chávez con honores militares en Libia el 13 de agosto de 2000, en el marco de la gira de países de la OPEP; este encuentro marcó el inicio de su relación personal.",
+        "fuente": "https://www.cnn.com/2011/10/21/world/americas/venezuela-chavez-gadhafi"
+      },
+      {
+        "TripID": "1383-VEN-MYS-36451",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "1999-10-18 a 1999-10-20, Prime Minister Mahathir bin Mohamad",
+        "justificacion": "Mahathir Mohamad era el Primer Ministro de Malasia (1981-2003); su recepción a Chávez ('red-carpet welcome') fue reportada por Associated Press en octubre de 1999.",
+        "fuente": "Search Query: \"Chavez Malaysia October 1999 Mahathir\""
+      },
+      {
+        "TripID": "1383-VEN-MEX-36861",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName/NonhostHOGSNames",
+        "valor": "2000-12-01 a 2000-12-03, President Vicente Fox, met Fidel Castro",
+        "justificacion": "Vicente Fox asumió la presidencia de México el 1 de diciembre de 2000 en una ceremonia (la 'Foxifiesta') a la que asistieron numerosos jefes de Estado latinoamericanos, incluidos Chávez y Castro; el titular citado por COLM del Toronto Star coincide con este hecho histórico ampliamente documentado.",
+        "fuente": "Search Query: \"Vicente Fox inauguration December 1 2000 Chavez Castro attended\""
+      },
+      {
+        "TripID": "1383-VEN-NIC-36851",
+        "campo": "TripStartDate/HostHOGSName",
+        "valor": "2000-11-21, President Arnoldo Aleman",
+        "justificacion": "Arnoldo Alemán era el presidente de Nicaragua (1997-2002); la visita cierra la gira centroamericana de Chávez de noviembre de 2000.",
+        "fuente": "Search Query: \"Chavez Nicaragua noviembre 2000 Arnoldo Aleman\""
+      },
+      {
+        "TripID": "1383-VEN-NGA-36751",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2000-08-13 a 2000-08-14, President Olusegun Obasanjo",
+        "justificacion": "Olusegun Obasanjo era el presidente de Nigeria desde mayo de 1999; Nigeria formaba parte de las 10 escalas de la gira de Chávez por la OPEP en agosto de 2000.",
+        "fuente": "https://www.emol.com/noticias/economia/2000/08/06/28569/chavez-inicio-historica-visita-por-paises-de-la-opep.html"
+      },
+      {
+        "TripID": "1383-VEN-PAN-36847",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent",
+        "valor": "2000-11-17 a 2000-11-18, Ibero-American Summit",
+        "justificacion": "La X Cumbre Iberoamericana se celebró en la Ciudad de Panamá los días 17 y 18 de noviembre de 2000; la fecha coincide exactamente con el registro de COLT.",
+        "fuente": "Search Query: \"X Cumbre Iberoamericana Panama noviembre 2000\""
+      },
+      {
+        "TripID": "1383-VEN-PER-36685",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName/NonhostHOGSNames",
+        "valor": "2000-06-08 a 2000-06-10, President Alberto Fujimori, met Noboa/Banzer/Pastrana",
+        "justificacion": "La Cumbre de la Comunidad Andina de Naciones se celebró en Lima en junio de 2000; Fujimori era el presidente peruano (aún en el cargo hasta noviembre de 2000), y Noboa (Ecuador, desde enero de 2000), Banzer (Bolivia) y Pastrana (Colombia) eran los jefes de Estado andinos vigentes.",
+        "fuente": "Search Query: \"Cumbre Comunidad Andina Lima junio 2000 Fujimori\""
+      },
+      {
+        "TripID": "1383-VEN-PHL-36454",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "1999-10-21 a 1999-10-23, President Joseph Estrada",
+        "justificacion": "Joseph Estrada era el presidente de Filipinas (1998-2001); su encuentro con Chávez, reportado por AFP, se ubica en la gira asiática de octubre de 1999.",
+        "fuente": "Search Query: \"Chavez Philippines October 1999 Estrada oil\""
+      },
+      {
+        "TripID": "1383-VEN-QAT-36746",
+        "campo": "TripStartDate/HostHOGSName",
+        "valor": "2000-08-08, Emir Hamad bin Khalifa Al Thani",
+        "justificacion": "Hamad bin Khalifa Al Thani era el Emir de Catar desde 1995; Catar fue una de las escalas de la gira de la OPEP de agosto de 2000.",
+        "fuente": "https://www.emol.com/noticias/economia/2000/08/06/28569/chavez-inicio-historica-visita-por-paises-de-la-opep.html"
+      },
+      {
+        "TripID": "1383-VEN-SAU-36745",
+        "campo": "TripStartDate/HostHOGSName",
+        "valor": "2000-08-07, King Fahd bin Abdulaziz Al Saud",
+        "justificacion": "El Rey Fahd era el monarca de Arabia Saudita (1982-2005); Arabia Saudita fue la primera escala de la gira de Chávez por la OPEP, iniciada el 6-7 de agosto de 2000, confirmado por AFP.",
+        "fuente": "https://www.emol.com/noticias/economia/2000/08/06/28569/chavez-inicio-historica-visita-por-paises-de-la-opep.html"
+      },
+      {
+        "TripID": "1383-VEN-SGP-36453",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "1999-10-20 a 1999-10-21, Prime Minister Goh Chok Tong",
+        "justificacion": "Goh Chok Tong era el Primer Ministro de Singapur (1990-2004); su encuentro con Chávez, reportado por AFP y Straits Times, se ubica en la gira asiática de octubre de 1999.",
+        "fuente": "Search Query: \"Chavez Singapore October 1999 Goh Chok Tong\""
+      },
+      {
+        "TripID": "1383-VEN-KOR-36448",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "1999-10-15 a 1999-10-16, President Kim Dae-jung",
+        "justificacion": "Kim Dae-jung era el presidente de Corea del Sur (1998-2003); su encuentro con Chávez, incluyendo un doctorado honorario, fue reportado por AFP y Korea Herald.",
+        "fuente": "Search Query: \"Chavez South Korea October 1999 Kim Dae-jung honorary doctorate\""
+      },
+      {
+        "TripID": "1383-VEN-ESP-36457",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName/Notes",
+        "valor": "1999-10-24 a 1999-10-25, Prime Minister Jose Maria Aznar, also met King Juan Carlos I",
+        "justificacion": "José María Aznar era el Presidente del Gobierno español (1996-2004) y Juan Carlos I el Rey de España; la visita cierra la gira asiático-europea de Chávez de octubre de 1999, confirmada por Associated Press ('Venezuelan President arrives in Madrid').",
+        "fuente": "Search Query: \"Chavez Madrid October 1999 Aznar Juan Carlos\""
+      },
+      {
+        "TripID": "1383-VEN-ESP-36576",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName",
+        "valor": "2000-02-20 a 2000-02-23, Prime Minister Jose Maria Aznar",
+        "justificacion": "Tras las inundaciones de Vargas de diciembre de 1999, España fue sede de una conferencia/foro de donantes para la reconstrucción de Venezuela en febrero de 2000, a la que asistió Chávez, siendo Aznar el jefe de gobierno anfitrión, consistente con la fuente AP citada por COLT.",
+        "fuente": "Search Query: \"Chavez Madrid febrero 2000 foro inundaciones Vargas Aznar\""
+      },
+      {
+        "TripID": "1383-VEN-SUR-36855",
+        "campo": "TripStartDate/Notes",
+        "valor": "2000-11-25, attended Suriname's 25th Anniversary of Independence",
+        "justificacion": "Surinam obtuvo su independencia el 25 de noviembre de 1975; por lo tanto, el 25 de noviembre de 2000 corresponde exactamente al 25° aniversario, verificable de forma independiente por simple aritmética de fechas históricas ampliamente documentadas, consistente con la fuente AP citada por COLT sobre el pacto petrolero ofrecido por Venezuela a Surinam.",
+        "fuente": "Search Query: \"Suriname independence day 25 November 1975\""
+      },
+      {
+        "TripID": "1383-VEN-TTO-36346",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent/HostHOGSName",
+        "valor": "1999-07-05 a 1999-07-06, Caribbean Community (CARICOM) Summit, Prime Minister Basdeo Panday",
+        "justificacion": "La 20ª Cumbre de Jefes de Gobierno de CARICOM se celebró en Puerto España, Trinidad y Tobago, en julio de 1999, presidida por el entonces Primer Ministro Basdeo Panday; consistente con las fuentes AFP/AP citadas por COLT.",
+        "fuente": "Search Query: \"20th CARICOM Heads of Government summit Trinidad July 1999\""
+      },
+      {
+        "TripID": "1383-VEN-ARE-36747",
+        "campo": "TripStartDate/Notes",
+        "valor": "2000-08-09, Met with Crown Prince Sheikh Khalifa bin Zayed al-Nahyan",
+        "justificacion": "En agosto de 2000 el Jefe de Estado de EAU era el Presidente Sheikh Zayed bin Sultan Al Nahyan; su hijo, el Jeque Khalifa, ostentaba entonces el título de Príncipe Heredero de Abu Dabi (recién asumiría la presidencia en 2004). Que COLT registre 'MetHostHoGS=No' pero SÍ un encuentro con el príncipe heredero en Notes es coherente y correcto, ya que Chávez no se reunió con el jefe de Estado sino con el heredero.",
+        "fuente": "Search Query: \"Sheikh Zayed bin Sultan Al Nahyan president UAE 2000 Crown Prince Khalifa\""
+      },
+      {
+        "TripID": "1383-VEN-USA-36319",
+        "campo": "TripStartDate/TripEndDate/MetHostHoGS",
+        "valor": "1999-06-08 a 1999-06-11, MetHostHoGS=No (se reunió con el expresidente Bush, no con Clinton)",
+        "justificacion": "Bill Clinton era el presidente en funciones de EE.UU. en junio de 1999; las fuentes citadas por COLM mencionan un encuentro con '(el expresidente) Bush' e inversionistas de Wall Street, no con el jefe de Estado en funciones, lo que hace coherente que COLT registre MetHostHoGS='No' en este viaje (a diferencia del viaje de septiembre de 1999, donde sí se registra el encuentro con Clinton).",
+        "fuente": "Search Query: \"Chavez Wall Street June 1999 Bush investors baseball\""
+      },
+      {
+        "TripID": "1383-VEN-USA-36423",
+        "campo": "TripStartDate/TripEndDate/HostHOGSName/NameMultilatEvent",
+        "valor": "1999-09-20 a 1999-09-23, President Bill Clinton, United Nations General Assembly",
+        "justificacion": "El 54° período de sesiones de la Asamblea General de la ONU se inauguró el 20 de septiembre de 1999; está ampliamente documentado que Chávez se reunió con Clinton y con el Secretario General Kofi Annan durante esa semana, buscando desmarcarse de su imagen post-golpe de 1992.",
+        "fuente": "Search Query: \"Chavez Clinton September 1999 UN General Assembly meeting\""
+      },
+      {
+        "TripID": "1383-VEN-USA-36442",
+        "campo": "TripStartDate",
+        "valor": "1999-10-09",
+        "justificacion": "Escala breve en Nueva York (discusión sobre un 'fondo permanente' con inversores) inmediatamente antes del inicio de la gira asiática de Chávez (China, mismo día 9 de octubre por diferencia horaria al cruzar el Pacífico), consistente con la fuente de Associated Press citada por COLT.",
+        "fuente": "Search Query: \"Chavez New York October 1999 permanent fund investors\""
+      },
+      {
+        "TripID": "1383-VEN-USA-36774",
+        "campo": "TripStartDate/TripEndDate/NameMultilatEvent/NonhostHOGSNames",
+        "valor": "2000-09-05 a 2000-09-08, UN Millennium Summit, met Castro and Putin",
+        "justificacion": "La Cumbre del Milenio de la ONU se celebró en Nueva York del 6 al 8 de septiembre de 2000, con récord de asistencia de jefes de Estado, incluidos Chávez, Castro y Putin, quien sostuvo encuentros bilaterales con una veintena de líderes mundiales, tal como reporta la fuente AFP citada por COLT.",
+        "fuente": "Search Query: \"UN Millennium Summit September 2000 Chavez Castro Putin attendees\""
+      }
+    ]
+  }
+]

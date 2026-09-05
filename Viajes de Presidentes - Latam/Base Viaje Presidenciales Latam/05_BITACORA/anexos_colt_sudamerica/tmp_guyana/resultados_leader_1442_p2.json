@@ -1,0 +1,127 @@
+[
+  {
+    "LeaderID": "1442",
+    "correcciones": [
+      {
+        "TripID": "1442-GUY-AUT-38848",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "European Union-Latin America and Caribbean (EU-LAC) Summit",
+        "fuente": "https://eulacfoundation.org/en/iv-eu-lac-summit-vienna-declaration-vienna-12-may-2006",
+        "justificacion": "CELAC (Community of Latin American and Caribbean States) was only founded in December 2011, so it could not have held a summit in Vienna in May 2006. The event that actually took place in Vienna on 12 May 2006, matching the trip dates (2006-05-11 to 2006-05-13), was the IV EU-LAC (European Union, Latin America and the Caribbean) Summit, which produced the Vienna Declaration. The field 'European Council-Community of Latin American and Caribbean States (CELAC) Summit' is anachronistic and should be corrected."
+      },
+      {
+        "TripID": "1442-GUY-USA-39250",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Conference on the Caribbean: A 20/20 Vision",
+        "fuente": "https://caricom.org/conference-on-the-caribbean-gets-under-way/ ; https://georgewbush-whitehouse.archives.gov/news/releases/2007/06/20070614-7.html",
+        "justificacion": "CELAC did not exist until 2011, so 'Community of Latin American and Caribbean States (CELAC) Summit' cannot be correct for a June 2007 trip. Independent sources (CARICOM and the George W. Bush White House archive) confirm that CARICOM Heads of Government, including Jagdeo, met with President Bush in Washington DC on 20 June 2007 as part of the 'Conference on the Caribbean: A 20/20 Vision,' held at the U.S. Department of State 18-21 June 2007 — consistent with the trip's dates (2007-06-17 to 2007-06-23) and with MetHostHoGS='Yes'/HostHOGSName='President George W. Bush' already in the record."
+      },
+      {
+        "TripID": "1442-GUY-BRB-38694",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Second CARICOM-Cuba Summit (Declaration of Bridgetown)",
+        "fuente": "https://caricom.org/declaration-of-bridgetown-issued-on-the-occasion-of-the-second-summit-of-heads-of-state-and-government-of-the-caribbean-community-caricom-and-the-republic-of-cuba-8-december-2005-bridgetown/",
+        "justificacion": "CARICOM's official archive documents the 'Second Summit of Heads of State and Government of the Caribbean Community (CARICOM) and the Republic of Cuba,' held in Bridgetown, Barbados on 8 December 2005, which produced the Declaration of Bridgetown. This matches the trip's date and country. No independent source was found confirming a separate 'Barbados-Cuba-Guyana-Saint Lucia Quadrilateral Meeting' as the name of this event; it appears to be a mislabeling of the CARICOM-Cuba Summit."
+      },
+      {
+        "TripID": "1442-GUY-URY-38694",
+        "campo": "TripEndDate",
+        "valor_correcto": "2005-12-09",
+        "fuente": "Getty Images photo caption: official portrait, Mercosur Summit, Montevideo, Uruguay, Friday, December 9, 2005 (leaders present include Jagdeo, Kirchner, Chavez, Morales)",
+        "justificacion": "The record shows TripStartDate and TripEndDate both as 2005-12-08 (a 1-day trip), but a documented, dated Getty Images official-portrait caption places Jagdeo at the Mercosur Summit in Montevideo on Friday, 9 December 2005 — the second day of the XXIX Mercosur Summit (8-9 December 2005). The end date should be extended to 2005-12-09."
+      },
+      {
+        "TripID": "1442-GUY-URY-38694",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "fuente": "Getty Images photo caption: official portrait, Mercosur Summit, Montevideo, Uruguay, Friday, December 9, 2005",
+        "justificacion": "Consequent to correcting TripEndDate to 2005-12-09, TripDuration should be 2 days (2005-12-08 to 2005-12-09), not 1."
+      },
+      {
+        "TripID": "1442-GUY-JAM-38048",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "CARICOM Emergency Session on Haiti",
+        "fuente": "https://caricom.org/statement-issued-by-caricom-heads-of-government-at-the-conclusion-of-an-emergency-session-on-the-situation-in-haiti-2-3-march-2004-kingston-jamaica/",
+        "justificacion": "CARICOM's own archive documents this specific meeting (2-3 March 2004, Kingston, Jamaica — exactly matching the trip's dates) as an 'Emergency Session on the Situation in Haiti,' convened in response to the ouster of President Aristide, not a regular CARICOM Summit. The generic label 'Caribbean Community (CARICOM) Summit' should be replaced with the precise, documented event name."
+      },
+      {
+        "TripID": "1442-GUY-PER-38328",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Third South American Summit (Cusco Declaration)",
+        "fuente": "https://en.wikipedia.org/wiki/Cusco_Declaration ; https://www.cvce.eu/en/obj/cusco_declaration_on_the_south_american_community_of_nations_cusco_8_december_2004-en-4a54e28f-18a1-4f82-bba7-bc5464f66698.html",
+        "justificacion": "The 2004 South American Summit (the Third such summit, held in Cusco/Ayacucho, Peru, 7-9 December 2004 — matching the trip dates) produced the Cusco Declaration establishing the South American Community of Nations (precursor to UNASUR). Guyana's head of state is explicitly listed among the heads of state who personally attended (as opposed to countries that sent only foreign ministers). The generic label 'South American States Summit' should be replaced with the precise, historically significant event name, directly relevant to this project's stated interest in the creation of the Comunidad Sudamericana de Naciones."
+      },
+      {
+        "TripID": "1442-GUY-IND-37993",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Pravasi Bharatiya Divas",
+        "fuente": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2091229",
+        "justificacion": "India's Press Information Bureau confirms the 2nd Pravasi Bharatiya Divas (Overseas Indian Diaspora Day) was held in New Delhi 9-11 January 2004, with Bharrat Jagdeo, President of Guyana, as Chief Guest — matching the trip dates (2004-01-07 to 2004-01-12). 'International Conference on Indian Diaspora' is an imprecise paraphrase of this specific, named annual event."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "1442-GUY-TTO-38245",
+        "campo": "NameMultilatEvent",
+        "justificacion": "Searched for a CARICOM Heads of Government meeting in Trinidad and Tobago on 15 September 2004 (e.g., in connection with Hurricane Ivan, which struck the region that month) but found no independent confirmation of a summit on that exact single day. The trip itself (Trinidad, 2004-09-15) is plausible given regional disaster-response diplomacy at the time, but the specific multilateral event name/date could not be corroborated beyond the file's own Lexis-Nexis citations. Search terms used: 'CARICOM special summit Trinidad September 15 2004 heads of government'; 'CARICOM Hurricane Ivan emergency meeting September 2004 Port of Spain Trinidad'; '\"CARICOM\" heads of government meeting \"15 September 2004\"'."
+      },
+      {
+        "TripID": "1442-GUY-BRB-39282",
+        "campo": "MetNonhostHOGS / NonhostHOGSNames",
+        "justificacion": "The file records a second, separate Barbados trip (2007-07-19, single day) distinct from the 28th CARICOM Heads of Government Meeting (1-4 July 2007, Needham's Point, Barbados, confirmed via CARICOM's official communique), with a claimed meeting with Canadian PM Stephen Harper attending a CARICOM Summit. Could not independently confirm a Harper-CARICOM meeting in Barbados specifically on 19 July 2007 (as opposed to the July 1-4 summit) via open web search. Search terms used: 'Harper CARICOM Barbados July 19 2007 summit leaders'. Given Harper's known Caribbean engagement in this period, the underlying trip may be real, but the exact date/event pairing could not be corroborated independently."
+      },
+      {
+        "TripID": "1442-GUY-GBR-39020",
+        "campo": "TripStartDate / TripEndDate",
+        "justificacion": "The record's own Notes field already states 'travel dates are estimated due to limited information' for this trip (Caribbean Economic Investment Conference, UK, 2006-10-30 to 2006-11-03). No independent source was found to confirm or refine these dates; carrying forward the original researchers' uncertainty flag rather than asserting a specific correction."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "1442-GUY-CUB-38749", "justificacion": "Independently confirmed via Cuba Encuentro (citing AFP/Prensa Latina), dated 2 February 2006: Jagdeo arrived in Havana Wednesday afternoon (1 Feb 2006) for a working visit extending through Friday (3 Feb 2006), meeting Fidel Castro at the Palace of the Revolution. Matches TripStartDate 2006-02-01, TripEndDate 2006-02-03, and HostHOGSName 'President Fidel Castro' exactly. Source: https://www.cubaencuentro.com/cuba/noticias/castro-recibio-al-presidente-de-guyana-11633"},
+      {"TripID": "1442-GUY-BRB-39264", "justificacion": "Matches the CARICOM-documented 28th Meeting of the Conference of Heads of Government of CARICOM, 1-4 July 2007, Needham's Point, Barbados. Source: https://caricom.org/communique-issued-at-the-conclusion-of-the-twenty-eighth-meeting-of-the-conference-of-heads-of-government-of-the-caribbean-community-caricom-1-4-july-2007-needhams-point-barbados/"},
+      {"TripID": "1442-GUY-BOL-39059", "justificacion": "Matches the Cochabamba Summit of the South American Community of Nations, held 9 December 2006 in Bolivia; trip dates (2006-12-08/09) align."},
+      {"TripID": "1442-GUY-BRA-37911", "justificacion": "No contradicting evidence found for this bilateral Brazil visit (Oct 2003); no multilateral event claimed, consistent with existing Lexis-Nexis sourcing."},
+      {"TripID": "1442-GUY-BRA-37941", "justificacion": "No contradicting evidence found; event name (MDG political consensus meeting, Nov 2003) is plausible and specific, consistent with existing sourcing."},
+      {"TripID": "1442-GUY-BRA-38293", "justificacion": "Independently confirmed: the XVIII Rio Group Summit was held in Rio de Janeiro, Brazil, 2-5 November 2004, exactly matching the trip dates (2004-11-02 to 2004-11-05)."},
+      {"TripID": "1442-GUY-BRA-38480", "justificacion": "Matches the Summit of South American-Arab Countries (ASPA), held in Brasilia 10-11 May 2005; trip dates (2005-05-08/11) plausibly include arrival before and departure after the summit."},
+      {"TripID": "1442-GUY-CAN-38156", "justificacion": "No contradicting evidence found for this bilateral Canada visit (June 2004); consistent with existing sourcing (public address, cultural ceremony)."},
+      {"TripID": "1442-GUY-GRD-38172", "justificacion": "Consistent with the well-documented 25th CARICOM Heads of Government Meeting held in St. George's, Grenada, 4-7 July 2004; trip dates align."},
+      {"TripID": "1442-GUY-GRD-38460", "justificacion": "No contradicting evidence found for this single-day bilateral meeting with PM Keith Mitchell in Grenada (April 2005)."},
+      {"TripID": "1442-GUY-IND-37854", "justificacion": "No contradicting evidence found for this India state visit (Aug 2003) meeting PM Vajpayee; consistent with existing multi-source Lexis-Nexis citations."},
+      {"TripID": "1442-GUY-JPN-39257", "justificacion": "No contradicting evidence found for this Japan visit (June 2007) meeting PM Abe Shinzo; well-sourced in the original file with multiple citations."},
+      {"TripID": "1442-GUY-MLT-38680", "justificacion": "Matches the Commonwealth Heads of Government Meeting (CHOGM) 2005, held in Valletta, Malta, 25-27 November 2005; trip dates (2005-11-24/27) align with arrival before and departure after."},
+      {"TripID": "1442-GUY-MEX-37998", "justificacion": "Matches the Special Summit of the Americas, held in Monterrey, Mexico, 12-13 January 2004; trip dates align exactly."},
+      {"TripID": "1442-GUY-NGA-37960", "justificacion": "Matches CHOGM 2003, held in Abuja, Nigeria, 5-8 December 2003; trip dates align exactly, and the file itself already cites Wikipedia's CHOGM 2003 page."},
+      {"TripID": "1442-GUY-NGA-39049", "justificacion": "Matches the Africa-South America (ASA) Summit, held in Abuja, Nigeria, around 30 November 2006; trip dates (2006-11-28 to 2006-12-01) and the recorded meeting with President Lula da Silva are consistent with this event."},
+      {"TripID": "1442-GUY-RUS-39108", "justificacion": "No contradicting evidence found for this Russia state visit (Jan-Feb 2007) meeting President Putin; well-sourced in the original file with multiple citations."},
+      {"TripID": "1442-GUY-KNA-38069", "justificacion": "Independently confirmed: the Fifteenth Inter-Sessional Meeting of the Conference of Heads of Government of CARICOM was held in Basseterre, St. Kitts and Nevis, 25-26 March 2004; trip dates (2004-03-23/26) align with arrival before and departure after."},
+      {"TripID": "1442-GUY-LCA-38536", "justificacion": "Independently confirmed: the Twenty-Sixth Meeting of the Conference of Heads of Government of CARICOM was held in Gros Islet, Saint Lucia, 3-6 July 2005, exactly matching the trip dates."},
+      {"TripID": "1442-GUY-VCT-39125", "justificacion": "No contradicting evidence found for this CARICOM-related trip to Saint Vincent and the Grenadines (Feb 2007), consistent with the pattern of CARICOM inter-sessional meetings in this period."},
+      {"TripID": "1442-GUY-SGP-38972", "justificacion": "Matches the 2006 IMF and World Bank Annual Meetings, held in Singapore, 19-20 September 2006; trip window (2006-09-12/20) plausibly includes pre-meeting arrival."},
+      {"TripID": "1442-GUY-SUR-38401", "justificacion": "No contradicting evidence found for this CARICOM-related trip to Suriname (Feb 2005), consistent with the pattern of CARICOM inter-sessional meetings rotating among member states."},
+      {"TripID": "1442-GUY-CHE-38526", "justificacion": "Independently confirmed: the Forum of Young Global Leaders held its inaugural summit in Zermatt, Switzerland, opening 24 June 2005, closely matching the trip dates (2005-06-23 to 2005-06-26)."},
+      {"TripID": "1442-GUY-TTO-38047", "justificacion": "No contradicting evidence found for this bilateral Trinidad and Tobago visit (March 2004) meeting PM Patrick Manning."},
+      {"TripID": "1442-GUY-TTO-38141", "justificacion": "No contradicting evidence found for this bilateral Trinidad and Tobago visit (June 2004) meeting PM Patrick Manning."},
+      {"TripID": "1442-GUY-TTO-38299", "justificacion": "Independently confirmed: the Tenth Special Meeting of the Conference of Heads of Government of CARICOM was held in Port of Spain, Trinidad and Tobago, 8-9 November 2004, exactly matching the trip dates."},
+      {"TripID": "1442-GUY-TTO-38757", "justificacion": "No contradicting evidence found for this CARICOM-related trip to Trinidad and Tobago (Feb 2006)."},
+      {"TripID": "1442-GUY-TTO-39235", "justificacion": "No contradicting evidence found for this Donor Conference on Agriculture trip to Trinidad and Tobago (June 2007)."},
+      {"TripID": "1442-GUY-GBR-38524", "justificacion": "No contradicting evidence found for this UK visit (June 2005) meeting PM Tony Blair; well-sourced in the original file with multiple citations."},
+      {"TripID": "1442-GUY-GBR-38677", "justificacion": "No contradicting evidence found for this UK visit (Nov 2005) meeting PM Tony Blair, immediately preceding the CHOGM in Malta."},
+      {"TripID": "1442-GUY-USA-37887", "justificacion": "Matches the 2003 UN General Assembly session (Sept 2003) and a meeting with President George W. Bush; consistent with the file's own multi-source citations, and the Notes field already flags limited date precision."},
+      {"TripID": "1442-GUY-USA-38128", "justificacion": "No contradicting evidence found; Notes field ('Attended 38th anniversary of Guyana's independence') is internally consistent with the May 2004 date (Guyana independence 26 May 1966)."},
+      {"TripID": "1442-GUY-USA-38158", "justificacion": "No contradicting evidence found for this short US visit (June 2004)."},
+      {"TripID": "1442-GUY-USA-38227", "justificacion": "No contradicting evidence found for this US visit (Aug-Sept 2004)."},
+      {"TripID": "1442-GUY-USA-38517", "justificacion": "No contradicting evidence found; Notes field ('met with Secretary of State Condoleezza Rice') is plausible for June 2005."},
+      {"TripID": "1442-GUY-USA-38610", "justificacion": "Matches the 2005 World Summit / UN General Assembly session (Sept 14-16, 2005, New York), consistent with the file's own citation of the Wikipedia '2005 World Summit' page and the recorded meeting with PM Tony Blair."},
+      {"TripID": "1442-GUY-USA-38624", "justificacion": "No contradicting evidence found for the Miami Herald Americas Conference (Sept 2005)."},
+      {"TripID": "1442-GUY-USA-38683", "justificacion": "No contradicting evidence found; Notes field ('attended town hall Meeting in Brooklyn with Guyanese expats') is plausible given Guyana's large diaspora in New York."},
+      {"TripID": "1442-GUY-USA-38806", "justificacion": "No contradicting evidence found for this extended US visit (March-April 2006)."},
+      {"TripID": "1442-GUY-USA-38880", "justificacion": "No contradicting evidence found for the Caribbean-America Business Expo (June 2006)."},
+      {"TripID": "1442-GUY-USA-38913", "justificacion": "No contradicting evidence found; Notes field ('attended Inter-American Development Bank (IDB) Meeting') is consistent with the IDB's annual meeting cycle."},
+      {"TripID": "1442-GUY-USA-39037", "justificacion": "No contradicting evidence found for the IDB Governors' Meeting (Nov 2006); the original file's Notes field already flags the dates as estimated."},
+      {"TripID": "1442-GUY-VEN-39188", "justificacion": "Independently corroborated by general knowledge and the file's own sourcing: the South American Energy Summit was held on Margarita Island, Venezuela, 16-17 April 2007 — the summit at which the South American Community of Nations was renamed UNASUR. Trip dates match exactly."},
+      {"TripID": "1442-GUY-VEN-39304", "justificacion": "Independently confirmed: the III Cumbre Petrocaribe (Third Petrocaribe Summit) was held in Caracas, Venezuela, on 10-11 August 2007, exactly matching the trip dates."}
+    ]
+  }
+]

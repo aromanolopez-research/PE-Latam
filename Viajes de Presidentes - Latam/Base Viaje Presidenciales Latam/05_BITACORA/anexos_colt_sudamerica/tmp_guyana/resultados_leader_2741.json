@@ -1,0 +1,210 @@
+[
+  {
+    "LeaderID": "2741",
+    "correcciones": [
+      {
+        "TripID": "2741-GUY-USA-41043",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "fuente": "https://www.guyanagraphic.caribbeancommunitylive.com/uncategorized/embassy-guyana-washington-dc-hosts-president-donald-ramotars-first-visit-us/",
+        "justificacion": "Este viaje (12-19 de mayo de 2012, según la crónica de la embajada de Guyana) fue la primera visita oficial de Ramotar a EE.UU.: una gira de trabajo bilateral con funcionarios estadounidenses, representantes de agencias multilaterales (incluida la OEA, coherente con la nota ya cargada 'addressed the Organization of American States (OAS) Council') y la diáspora guyanesa en Washington. La Asamblea General de la ONU (AGNU) no sesiona en mayo -su debate general es en septiembre/octubre-, por lo que el evento multilateral cargado es cronológicamente imposible."
+      },
+      {
+        "TripID": "2741-GUY-USA-41043",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "",
+        "fuente": "https://www.guyanagraphic.caribbeancommunitylive.com/uncategorized/embassy-guyana-washington-dc-hosts-president-donald-ramotars-first-visit-us/",
+        "justificacion": "Ver justificación de la corrección de AttendedMultilatEvent para el mismo TripID: no hubo Asamblea General de la ONU en mayo de 2012; el campo debe quedar vacío salvo que se identifique el nombre exacto del evento en la OEA (no confirmado con fuente independiente)."
+      },
+      {
+        "TripID": "2741-GUY-SUR-41237",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "fuente": "https://www.oacps.org/uncategorized/acp-heads-of-state-and-government-to-meet-in-suriname/ ; http://www.acp.int/summit2012/main-agenda",
+        "justificacion": "No existió una Cumbre ACP (Africa, Caribbean and Pacific Group) en Suriname en 2012. La 7ª Cumbre ACP se realizó en Malabo, Guinea Ecuatorial, el 13-14 de diciembre de 2012; la 8ª Cumbre ACP -la que sí se realizó en Paramaribo, Suriname- tuvo lugar el 6-7 de noviembre de 2014, no en 2012. El evento cargado para el 24 de noviembre de 2012 es fácticamente imposible tal como está descripto."
+      },
+      {
+        "TripID": "2741-GUY-SUR-41237",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "no_verificable",
+        "fuente": "https://www.oacps.org/uncategorized/acp-heads-of-state-and-government-to-meet-in-suriname/ ; http://www.acp.int/summit2012/main-agenda",
+        "justificacion": "No se pudo determinar qué evento real motivó el viaje a Suriname el 24 de noviembre de 2012 (no fue la Cumbre ACP, que ese año se celebró en Malabo en diciembre). Podría tratarse de una visita bilateral o de otro evento no identificado; se buscó en Stabroek News, Kaieteur News y CARICOM sin resultado concluyente."
+      },
+      {
+        "TripID": "2741-GUY-ZAF-41616",
+        "campo": "Notes",
+        "valor_correcto": "attended memorial service for Nelson Mandela at FNB Stadium, Johannesburg (10 December 2013)",
+        "fuente": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Nelson_Mandela",
+        "justificacion": "Las fechas del viaje (8-11 de diciembre de 2013) coinciden con el servicio conmemorativo (memorial service) realizado el 10 de diciembre de 2013 en el estadio FNB de Johannesburgo, NO con el funeral de Estado, que se realizó después, el 15 de diciembre de 2013, en Qunu (fuera del rango de fechas del viaje). La nota cargada dice erróneamente 'attended funeral of Nelson Mandela'."
+      },
+      {
+        "TripID": "2741-GUY-TTO-41422",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "CARICOM-United States Meeting",
+        "fuente": "https://obamawhitehouse.archives.gov/blog/2013/05/29/vice-president-biden-visits-trinidad-and-tobago",
+        "justificacion": "El 28 de mayo de 2013 no hubo una Cumbre regular de CARICOM en Puerto España; fue un encuentro especial entre el vicepresidente estadounidense Joe Biden y los jefes de Estado/Gobierno de CARICOM (más República Dominicana), en el que se firmó el Trade and Investment Framework Agreement (TIFA) EE.UU.-CARICOM. Esto es coherente con la nota ya cargada 'met with Vice President Joe Biden', pero el nombre del evento multilateral debe reflejar que fue una reunión CARICOM-EE.UU., no la Cumbre de CARICOM en sí."
+      },
+      {
+        "TripID": "2741-GUY-TTO-41427",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "CARICOM-China Meeting",
+        "fuente": "https://www.chinadaily.com.cn/china/2013xivisit/2013-06/02/content_16556036.htm",
+        "justificacion": "El 2 de junio de 2013 el presidente chino Xi Jinping ofreció un almuerzo/reunión con jefes de Estado y Gobierno del Caribe (incluido Ramotar) en Puerto España, durante su gira por Trinidad y Tobago, Costa Rica, México y EE.UU. No fue una Cumbre regular de CARICOM sino un encuentro CARICOM-China; es coherente con el dato ya cargado 'MetNonhostHOGS: Yes - General Secretary Xi Jinping'."
+      },
+      {
+        "TripID": "2741-GUY-TTO-41848",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "CARICOM-Japan Summit",
+        "fuente": "http://www.news.gov.tt/content/statement-prime-minister-japan-he-shinzo-abe-first-caricom-japan-summit",
+        "justificacion": "El 28 de julio de 2014 se celebró en Puerto España la Primera Cumbre CARICOM-Japón, con el primer ministro japonés Shinzo Abe, no una Cumbre regular de CARICOM (la 35ª Reunión Regular de CARICOM de 2014 fue en Antigua y Barbuda, 1-4 de julio, ya cargada como TripID 2741-GUY-ATG-41821). El propio SourceLink3 ya cargado en el registro original ('caricom-and-japan-hold-first-Summit') respalda esta corrección."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Cuba",
+        "CityVisited": "Havana",
+        "TripStartDate": "2014-01-28",
+        "TripEndDate": "2014-01-29",
+        "TripDuration": "2",
+        "MetHostHoGS": "No",
+        "HostHOGSName": "",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "Community of Latin American and Caribbean States (CELAC) Summit",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://guyanachronicle.com/2014/01/25/president-ramotar-to-attend-celac-summit-in-cuba/ ; https://en.wikipedia.org/wiki/2014_CELAC_summit",
+        "justificacion": "Viaje faltante en la base cargada: el presidente Ramotar viajó a La Habana para asistir a la II Cumbre de la CELAC (Cumbre de Jefes de Estado y Gobierno), celebrada en el centro de convenciones PABEXPO el 28 y 29 de enero de 2014, según nota de Guyana Chronicle del 25/1/2014 ('President Ramotar to attend CELAC Summit in Cuba') confirmada por Wikipedia (2014 CELAC summit). No se encontró confirmación independiente de un encuentro bilateral específico con Raúl Castro en esa oportunidad, por lo que MetHostHoGS se deja en 'No'."
+      },
+      {
+        "CountryVisited": "Venezuela",
+        "CityVisited": "Caracas",
+        "TripStartDate": "2014-12-17",
+        "TripEndDate": "2014-12-17",
+        "TripDuration": "1",
+        "MetHostHoGS": "No",
+        "HostHOGSName": "",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "PetroCaribe-ALBA Summit",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://caricom.org/guyana-remains-firmly-with-petrocaribe/",
+        "justificacion": "Viaje faltante en la base cargada: según artículo de CARICOM.org ('Guyana remains firmly with PetroCaribe'), el presidente Ramotar participó en una reunión conjunta de PetroCaribe y la Alianza Bolivariana para los Pueblos de Nuestra América (ALBA) en Caracas, el 17 de diciembre de 2014, donde declaró que PetroCaribe era 'un acuerdo de previsión y de especial importancia para el Caribe'. No se encontró confirmación independiente de un encuentro bilateral formal con el presidente Maduro (que presidió el evento como anfitrión), por lo que MetHostHoGS se deja en 'No' por precaución; la duración del viaje (posibles días de traslado) tampoco pudo confirmarse con precisión."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "2741-GUY-BRB-41049",
+        "campo": "NameMultilatEvent",
+        "justificacion": "Se buscó en los archivos de CARICOM.org, prensa caribeña y buscadores generales una Cumbre o Reunión Inter-Sesional de CARICOM en Barbados en mayo de 2012, sin encontrar ningún resultado que confirme dicho evento en esa fecha (las reuniones de CARICOM de 2012 identificadas fueron: 23ª Inter-Sesional en Suriname en marzo, y 33ª Regular en Santa Lucía en julio). La única fuente del registro original es un permalink de Lexis-Nexis no accesible públicamente, por lo que no pudo verificarse de forma independiente."
+      },
+      {
+        "TripID": "2741-GUY-BRA-41018",
+        "campo": "Notes",
+        "justificacion": "No se encontró cobertura de prensa independiente (Stabroek News, Kaieteur News, Guyana Chronicle, prensa brasileña) que precise el propósito específico de la visita a Brasil del 19-20 de abril de 2012. El registro no consigna evento multilateral ni contraparte, y no fue posible corroborar o refutar los datos cargados con fuentes abiertas."
+      },
+      {
+        "TripID": "2741-GUY-CHL-41300",
+        "campo": "TripEndDate",
+        "justificacion": "La I Cumbre de la CELAC en Santiago de Chile se realizó el 27-28 de enero de 2013, precedida por la Cumbre UE-CELAC el 26-27 de enero de 2013. Las fechas cargadas (26-27 de enero) coinciden con la Cumbre UE-CELAC, no con el día final de la Cumbre CELAC propiamente dicha (28 de enero). No se pudo confirmar con una fuente independiente si Ramotar permaneció en Santiago hasta el 28 de enero o partió antes; el registro podría estar subestimando la duración del viaje en un día."
+      },
+      {
+        "TripID": "2741-GUY-TTO-41388",
+        "campo": "Notes",
+        "justificacion": "No se encontró cobertura de prensa independiente sobre el propósito específico del viaje bilateral a Trinidad y Tobago del 24-25 de abril de 2013. No fue posible corroborar ni refutar los datos cargados (que provienen únicamente de un permalink de Lexis-Nexis) con fuentes abiertas."
+      },
+      {
+        "TripID": "2741-GUY-ARE-41596",
+        "campo": "HostHOGSName",
+        "justificacion": "No se encontró cobertura de prensa independiente que confirme un encuentro entre el presidente Ramotar y el jeque Mohammed bin Rashid Al Maktoum (vicepresidente y primer ministro de los EAU, gobernante de Dubái) durante el viaje a los Emiratos Árabes Unidos del 18-19 de noviembre de 2013 (foro de negocios). La única fuente del registro original es un permalink de Lexis-Nexis no accesible públicamente."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "2741-GUY-ATG-41821",
+        "justificacion": "La 35ª Reunión Regular de la Conferencia de Jefes de Gobierno de CARICOM se realizó en Dickenson Bay, Antigua y Barbuda, del 1 al 4 de julio de 2014, coincidiendo exactamente con las fechas cargadas. Confirmado también por el comunicado de CARICOM ya citado como SourceLink2 en el registro original."
+      },
+      {
+        "TripID": "2741-GUY-BRA-41077",
+        "justificacion": "La Conferencia de la ONU sobre Desarrollo Sostenible (Rio+20) se celebró en Río de Janeiro con el segmento de alto nivel el 20-22 de junio de 2012, precedido por reuniones preparatorias desde el 13 de junio; las fechas cargadas (17-22 de junio) son compatibles. Se confirmó además que el primer ministro noruego Jens Stoltenberg era efectivamente el jefe de gobierno de Noruega en esa fecha."
+      },
+      {
+        "TripID": "2741-GUY-BRA-41835",
+        "justificacion": "La VI Cumbre BRICS se realizó en Fortaleza, Brasil, el 15 de julio de 2014, seguida por la reunión BRICS-UNASUR en Brasilia el 16 de julio de 2014, coincidiendo exactamente con las fechas cargadas (15-16 de julio de 2014)."
+      },
+      {
+        "TripID": "2741-GUY-COL-41012",
+        "justificacion": "La VI Cumbre de las Américas se realizó en Cartagena de Indias, Colombia, el 14-15 de abril de 2012; las fechas cargadas (13-15 de abril) son compatibles, incluyendo un día de llegada previo al inicio formal."
+      },
+      {
+        "TripID": "2741-GUY-HTI-41323",
+        "justificacion": "La 24ª Reunión Inter-Sesional de la Conferencia de Jefes de Gobierno de CARICOM se realizó en Puerto Príncipe, Haití, el 18-19 de febrero de 2013, coincidiendo exactamente con las fechas cargadas, según comunicado oficial de CARICOM."
+      },
+      {
+        "TripID": "2741-GUY-IND-41305",
+        "justificacion": "La 13ª Delhi Sustainable Development Summit (DSDS) se realizó del 31 de enero al 2 de febrero de 2013 en Nueva Delhi, coincidiendo exactamente con las fechas cargadas; confirmado por Stabroek News ('President at Delhi development conference') y TERI."
+      },
+      {
+        "TripID": "2741-GUY-IND-42011",
+        "justificacion": "El Pravasi Bharatiya Divas 2015 se realizó en Gandhinagar, India, el 7-9 de enero de 2015; las fechas cargadas (7-10 de enero) son compatibles. Confirmado también que Ramotar recibió el premio Pravasi Bharatiya Samman de manos del primer ministro Narendra Modi en esa ocasión (Wikipedia, Guyana Times)."
+      },
+      {
+        "TripID": "2741-GUY-MEX-41757",
+        "justificacion": "La 6ª Cumbre de Jefes de Estado y/o Gobierno de la Asociación de Estados del Caribe (AEC) se realizó en Mérida, México, el 28-30 de abril de 2014 (con la reunión plenaria de jefes el 29 de abril); las fechas cargadas (28-29 de abril) son compatibles."
+      },
+      {
+        "TripID": "2741-GUY-PAN-42104",
+        "justificacion": "La VII Cumbre de las Américas se realizó en Ciudad de Panamá el 10-11 de abril de 2015, coincidiendo exactamente con las fechas cargadas."
+      },
+      {
+        "TripID": "2741-GUY-PER-41242",
+        "justificacion": "La reunión ejecutiva de UNASUR se realizó en Lima, Perú, el 30 de noviembre de 2012; las fechas cargadas (29-30 de noviembre) son compatibles, incluyendo un día de llegada previo."
+      },
+      {
+        "TripID": "2741-GUY-LCA-41094",
+        "justificacion": "La 33ª Reunión Regular de la Conferencia de Jefes de Gobierno de CARICOM se realizó en Santa Lucía del 4 al 6 de julio de 2012, coincidiendo exactamente con las fechas cargadas y con el SourceLink1 ya presente en el registro original (CARICOM.org)."
+      },
+      {
+        "TripID": "2741-GUY-LKA-41593",
+        "justificacion": "La Reunión de Jefes de Gobierno del Commonwealth (CHOGM) 2013 se realizó en Colombo, Sri Lanka, del 15 al 17 de noviembre de 2013; las fechas cargadas (15-18 de noviembre) son compatibles, incluyendo un día adicional de partida."
+      },
+      {
+        "TripID": "2741-GUY-SUR-40956",
+        "justificacion": "Kaieteur News reportó el 25 de febrero de 2012 sobre el fortalecimiento de las relaciones Guyana-Suriname ('Enhanced Guyana/Suriname relations fuelled by common goals'), consistente con una visita bilateral de Ramotar al presidente Dési Bouterse a mediados de febrero de 2012, según las fechas cargadas (17-18 de febrero)."
+      },
+      {
+        "TripID": "2741-GUY-SUR-40976",
+        "justificacion": "La 23ª Reunión Inter-Sesional de la Conferencia de Jefes de Gobierno de CARICOM se realizó en Paramaribo, Suriname, el 8-9 de marzo de 2012, coincidiendo exactamente con las fechas cargadas."
+      },
+      {
+        "TripID": "2741-GUY-SUR-41516",
+        "justificacion": "La VII Cumbre de UNASUR (Declaración de Paramaribo) se realizó en Paramaribo, Suriname, el 30 de agosto de 2013, coincidiendo exactamente con la fecha cargada, según comunicado del Ministerio de Relaciones Exteriores de Brasil."
+      },
+      {
+        "TripID": "2741-GUY-TTO-41459",
+        "justificacion": "La 34ª Reunión Regular de la Conferencia de Jefes de Gobierno de CARICOM se realizó en Trinidad y Tobago del 4 al 6 de julio de 2013, coincidiendo con el 40º aniversario de la firma del Tratado de Chaguaramas (4 de julio de 1973) y con las fechas cargadas."
+      },
+      {
+        "TripID": "2741-GUY-USA-41176",
+        "justificacion": "El 67º período de sesiones de la Asamblea General de la ONU comenzó el 24 de septiembre de 2012; las fechas cargadas (24-30 de septiembre) son compatibles, y se confirmó independientemente el encuentro con el Secretario General Ban Ki-moon como parte de la agenda habitual de la AGNU."
+      },
+      {
+        "TripID": "2741-GUY-USA-41541",
+        "justificacion": "El 68º período de sesiones de la Asamblea General de la ONU comenzó el 24 de septiembre de 2013; las fechas cargadas (24 de septiembre-1 de octubre) son compatibles con el debate general habitual."
+      },
+      {
+        "TripID": "2741-GUY-USA-41904",
+        "justificacion": "La Cumbre sobre el Clima de la ONU se realizó el 23 de septiembre de 2014 y el 69º período de sesiones de la AGNU comenzó el 24 de septiembre de 2014; las fechas cargadas (22-28 de septiembre) son compatibles. El discurso de Ramotar ante la 69ª AGNU está publicado en el sitio oficial de la ONU (un.org) y replicado por CARICOM.org."
+      },
+      {
+        "TripID": "2741-GUY-VEN-41340",
+        "justificacion": "Hugo Chávez falleció el 5 de marzo de 2013 y su funeral de Estado se realizó el 8 de marzo de 2013 en Caracas; las fechas cargadas (7-8 de marzo de 2013) coinciden exactamente con ese evento."
+      },
+      {
+        "TripID": "2741-GUY-CUB-41200",
+        "justificacion": "Se confirmó mediante fuentes de prensa que el presidente cubano Raúl Castro ofreció una ceremonia de bienvenida a Ramotar en el Palacio de la Revolución en La Habana el 18 de octubre de 2012, coincidiendo exactamente con la fecha cargada y con el jefe de Estado anfitrión consignado (President Raul Castro)."
+      }
+    ]
+  }
+]

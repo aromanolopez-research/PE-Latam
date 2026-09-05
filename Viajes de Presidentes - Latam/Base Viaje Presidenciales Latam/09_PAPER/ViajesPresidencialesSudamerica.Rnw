@@ -52,7 +52,6 @@
 \usepackage{float}
 \usepackage{longtable}
 \usepackage{xcolor}
-\usepackage{pdflscape}
 \geometry{margin=2.5cm}
 
 \title{Viajes presidenciales como indicador de pol\'itica exterior en Sudam\'erica (1994--2025)}
@@ -168,12 +167,12 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(ficha_general)) {
 # Cuadro con la sintesis de diferencias encontradas vs la Base COLT por pais
 # (agregados/modificados/eliminados/pendientes de validar). Ver el comentario
 # de la seccion 2.1b en graficos_exploratorios.R para la metodologia exacta
-# de cada columna. Ecuador, Guyana, Surinam y Venezuela todavia no pasaron
-# por esta verificacion y quedan marcados "Sin iniciar".
+# de cada columna. Los 12 paises sudamericanos del proyecto pasaron por esta
+# verificacion (Venezuela, el ultimo, cerrado el 2026-09-05).
 if (requireNamespace("xtable", quietly = TRUE) && !is.null(diferencias_colt)) {
   names(diferencias_colt) <- c("Pa\\'is", "Agregados", "Modificados", "Eliminados", "Pendientes de validar")
   print(xtable::xtable(diferencias_colt,
-                        caption = "Diferencias encontradas al cruzar y verificar la base contra la Base COLT (Diplometrics), por pa\\'is: viajes agregados que COLT no ten\\'ia, viajes con al menos un campo corregido, candidatos propios finalmente no incorporados, y filas que quedan pendientes de validar por falta de fuente independiente. Ecuador, Guyana, Surinam y Venezuela todav\\'ia no pasaron por esta verificaci\\'on.",
+                        caption = "Diferencias encontradas al cruzar y verificar la base contra la Base COLT (Diplometrics), por pa\\'is: viajes agregados que COLT no ten\\'ia, viajes con al menos un campo corregido, candidatos propios finalmente no incorporados, y filas que quedan pendientes de validar por falta de fuente independiente.",
                         label = "tab:diferencias-colt"),
         include.rownames = FALSE, caption.placement = "top",
         sanitize.text.function = identity, latex.environments = c("center"))
@@ -214,9 +213,15 @@ if (requireNamespace("xtable", quietly = TRUE)) {
 # cuenta viajes individuales -son unidades de observacion distintas, por eso
 # n_obs difiere tanto entre filas.
 if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)) {
+  # size="\footnotesize" (agregado 2026-09-02): la columna "variable" llega a
+  # 41 caracteres (ej. "Viajes Multilaterales por Mandatario-Anio") y sumada
+  # a "Unidad_n_obs" (hasta 29 caracteres) mas las 4 columnas numericas se
+  # acercaba al ancho de pagina disponible, arriesgando que la tabla se
+  # desborde y no quede centrada.
   print(xtable::xtable(resumen_estadisticos,
                         caption = "Estad\\'isticos descriptivos (media, desv\\'io, m\\'inimo, m\\'aximo) de viajes por Mandatario-A\\~no (total, bilaterales y multilaterales) y de la duraci\\'on de los viajes.",
-                        label = "tab:resumen-estadisticos"),
+                        label = "tab:resumen-estadisticos",
+                        size = "\\footnotesize"),
         include.rownames = FALSE, caption.placement = "top",
         latex.environments = c("center"))
 } else {
@@ -391,9 +396,17 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
 %      (fecha del viaje N-esimo mas temprana).
 <<tab-destino-favorito, echo=FALSE, results=tex>>=
 if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_destino_favorito)) {
+  # size="\footnotesize" (agregado 2026-09-02): la columna "Mandatario
+  # (mandato)" llega a 42 caracteres (ej. "Cristina Fernandez de Kirchner
+  # (2007-2011)") y sumada a las otras 3 columnas se acercaba/superaba el
+  # ancho de texto disponible (~16cm con margen de 2.5cm), lo que hacia que
+  # el longtable se desbordara a la derecha en vez de quedar centrado -el
+  # centrado automatico de longtable (\LTleft/\LTright=\fill) solo funciona
+  # si la tabla entra en el ancho de pagina-.
   print(xtable::xtable(tabla_destino_favorito,
                         caption = "Destino favorito BILATERAL de cada mandato individual (pa\\'is m\\'as visitado en viajes bilaterales durante ese mandato espec\\'ifico), con el mandato entre par\\'entesis. Desempates: prioridad al pa\\'is que alcanz\\'o el conteo m\\'aximo primero en el tiempo.",
-                        label = "tab:destino-favorito"),
+                        label = "tab:destino-favorito",
+                        size = "\\footnotesize"),
         include.rownames = FALSE, caption.placement = "top",
         tabular.environment = "longtable", floating = FALSE)
 } else {
@@ -438,7 +451,8 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_vec
   print(xtable::xtable(tabla_correlacion_vecino,
                         caption = "Correlaci\\'on de Pearson entre el a\\~no (tiempo) y el \\% de viajes a un vecino fronterizo, 1994-2025 (una observaci\\'on por a\\~no).",
                         label = "tab:correlacion-vecino"),
-        include.rownames = FALSE, caption.placement = "top")
+        include.rownames = FALSE, caption.placement = "top",
+        latex.environments = c("center"))
 } else {
   cat("% Falta 14b_correlacion_vecino_tiempo.csv o el paquete 'xtable'.\n")
 }
@@ -462,20 +476,21 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_vec
 % orden alfabetico por pais y, DENTRO de cada pais, cronologico por inicio
 % de mandato (ej. Argentina: Menem 1 y 2 primero, Milei ultimo -no
 % alfabetico por nombre de mandatario-).
-% Nota tecnica (2026-09-02, reemplaza la version anterior "vertical
-% forzada"): con 8 columnas de region + Pais + Mandatario + Total viajes (11
-% columnas en total) la tabla no entraba ni en vertical con margenes de 1cm
-% y fuente tiny -quedaba desbordada y descentrada, como marco el usuario-.
-% Se pasa a landscape real (paquete pdflscape) dentro de \begin{landscape},
-% que da bastante mas ancho util (~24cm en A4 apaisado vs ~19cm en vertical
-% con margen de 1cm) y deja que longtable centre la tabla como corresponde
-% -pdflscape rota la PAGINA del PDF, no solo el contenido, asi que se lee
-% bien girando el celular/monitor u hoja impresa-. Requiere tener pdflscape
-% instalado (viene en cualquier instalacion completa de TeX Live/MiKTeX; si
-% falta, instalarlo desde MiKTeX Console: Packages -> buscar "pdflscape" ->
-% Install, o "tlmgr install pdflscape" en TeX Live).
-\begin{landscape}
-\newgeometry{margin=1.5cm}
+% Nota tecnica (2026-09-02, v2 -la v1 con pdflscape fallo por no tener ese
+% paquete instalado, "File pdflscape.sty not found"-): con 8 columnas de
+% region + Pais + Mandatario + Total viajes (11 columnas en total) la tabla
+% no entraba ni en vertical con margenes de 1cm y fuente tiny -quedaba
+% desbordada y descentrada-. En vez de rotar el CONTENIDO 90 grados (que es
+% lo que hacen lscape/pdflscape, y requiere ese paquete extra), esta version
+% agranda directamente el tama\~no de PAGINA a A4 apaisado (29.7x21cm) solo
+% para esta tabla, usando nada mas que el paquete "geometry" -que este
+% documento ya carga en el preambulo, sin dependencias nuevas-. El resultado
+% practico es el mismo (bastante mas ancho util, ~26.7cm vs ~19cm en
+% vertical con margen de 1cm) pero el texto queda derecho -no hay que girar
+% nada para leerlo, la pagina simplemente es mas ancha que alta en esa
+% seccion del PDF-.
+\newpage
+\newgeometry{paperwidth=29.7cm, paperheight=21cm, margin=1.5cm}
 <<tab-perfil-regional, echo=FALSE, results=tex>>=
 if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_perfil_regional)) {
   print(xtable::xtable(fix_na_cuadro(tabla_perfil_regional),
@@ -489,7 +504,7 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_perfil_regional
 }
 @
 \restoregeometry
-\end{landscape}
+\newpage
 
 \begin{figure}[H]
   \centering
@@ -563,7 +578,8 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_ide
   print(xtable::xtable(tabla_correlacion_ideologia,
                         caption = "Correlaci\\'on de Pearson entre cada dimensi\\'on de ideolog\\'ia presidencial y el \\% de viajes intra-latinoamericanos, por mandato-tramo (1994-2025).",
                         label = "tab:correlacion-ideologia"),
-        include.rownames = FALSE, caption.placement = "top")
+        include.rownames = FALSE, caption.placement = "top",
+        latex.environments = c("center"))
 } else {
   cat("% Falta 18b_correlacion_ideologia_viajes_intralatam.csv o el paquete 'xtable'.\n")
 }
@@ -624,7 +640,8 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_des
     caption = "\\colorbox{yellow}{Correlaci\\'on de Pearson entre la ideolog\\'ia general del presidente (1=izq., 7=der.) y el \\% de sus viajes dirigidos a Estados Unidos, China y Europa, por mandato-tramo.}",
     label = "tab:correlacion-destinos")
   print(tabla_correlacion_destinos_tex,
-        include.rownames = FALSE, caption.placement = "top")
+        include.rownames = FALSE, caption.placement = "top",
+        latex.environments = c("center"))
 } else {
   cat("% Falta 18g_correlacion_ideologia_usa_china_europa.csv o el paquete 'xtable'.\n")
 }
@@ -655,7 +672,8 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_indice_homofili
   print(xtable::xtable(tabla_indice_homofilia,
                         caption = "\\'Indice de homofilia ideol\\'ogica (viajes observados a la misma ideolog\\'ia / viajes esperados bajo independencia estad\\'istica), por bloque, 1994-2025. Un valor $>1$ indica m\\'as visitas ``propias'' de las esperadas por azar.",
                         label = "tab:indice-homofilia"),
-        include.rownames = FALSE, caption.placement = "top")
+        include.rownames = FALSE, caption.placement = "top",
+        latex.environments = c("center"))
 } else {
   cat("% Falta 19b_indice_homofilia_total.csv o el paquete 'xtable'.\n")
 }

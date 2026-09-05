@@ -1,0 +1,246 @@
+[
+  {
+    "LeaderID": "3334",
+    "correcciones": [
+      {
+        "TripID": "3334-ECU-GTM-43420",
+        "campo": "TripStartDate",
+        "valor_correcto": "2018-11-15",
+        "fuente": "https://donortracker.org/policy-updates/november-15-16-2018-ibero-american-summit-guatemala-focus-sdgs",
+        "justificacion": "Fuentes independientes (CEPAL, Donor Tracker, EU-LAC Foundation) confirman que la XXVI Cumbre Iberoamericana en La Antigua, Guatemala se realizó los días 15 y 16 de noviembre de 2018, no 16-17 como figura en la base."
+      },
+      {
+        "TripID": "3334-ECU-GTM-43420",
+        "campo": "TripEndDate",
+        "valor_correcto": "2018-11-16",
+        "fuente": "https://donortracker.org/policy-updates/november-15-16-2018-ibero-american-summit-guatemala-focus-sdgs",
+        "justificacion": "La cumbre concluyó el 16 de noviembre de 2018; la base tenía el rango 16-17 de noviembre, un día corrido respecto a la fecha real del evento."
+      },
+      {
+        "TripID": "3334-ECU-GTM-43420",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "fuente": "https://donortracker.org/policy-updates/november-15-16-2018-ibero-american-summit-guatemala-focus-sdgs",
+        "justificacion": "Consistente con la corrección de TripStartDate (2018-11-15) y TripEndDate (2018-11-16)."
+      },
+      {
+        "TripID": "3334-ECU-USA-44220",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "No",
+        "fuente": "https://www.eluniverso.com/noticias/2021/01/28/nota/9604651/lenin-moreno-viaje-estado-unidos-visita-oficial/",
+        "justificacion": "No existe evidencia de una cumbre multilateral llamada 'World Summit for Social Development' en enero de 2021. Los artículos de El Universo (28 y 29 de enero de 2021) describen el viaje como una visita de trabajo bilateral/institucional a Washington D.C., con reuniones en el Senado de EE.UU., el BID, el FMI y la OEA, sin mención de ninguna cumbre multilateral formal."
+      },
+      {
+        "TripID": "3334-ECU-USA-44220",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "",
+        "fuente": "https://www.eluniverso.com/noticias/2021/01/28/nota/9604651/lenin-moreno-viaje-estado-unidos-visita-oficial/",
+        "justificacion": "El nombre 'World Summit for Social Development' no corresponde a ningún evento real documentado en enero de 2021; el viaje fue una gira de reuniones bilaterales/institucionales, no una cumbre multilateral con ese nombre."
+      },
+      {
+        "TripID": "3334-ECU-USA-44220",
+        "campo": "CityVisited",
+        "valor_correcto": "Washington D.C.",
+        "fuente": "https://www.eluniverso.com/noticias/2021/01/28/nota/9604651/lenin-moreno-viaje-estado-unidos-visita-oficial/",
+        "justificacion": "Los artículos de prensa confirman que todo el viaje (24-29 de enero de 2021) se desarrolló en Washington D.C.; el campo CityVisited estaba vacío en la base."
+      },
+      {
+        "TripID": "3334-ECU-USA-44220",
+        "campo": "IGOLeaderName",
+        "valor_correcto": "Inter-American Development Bank (IDB) President Mauricio Claver-Carone;International Monetary Fund (IMF) Managing Director Kristalina Georgieva;Organization of American States (OAS) Secretary-General Luis Almagro",
+        "fuente": "https://www.eluniverso.com/noticias/2021/01/28/nota/9604651/lenin-moreno-viaje-estado-unidos-visita-oficial/",
+        "justificacion": "El artículo confirma reuniones de Moreno con el presidente del BID Mauricio Claver-Carone, la directora gerente del FMI Kristalina Georgieva (quien lo visitó en la embajada de Ecuador) y el secretario general de la OEA Luis Almagro. La base solo registraba al líder del BID."
+      },
+      {
+        "TripID": "3334-ECU-USA-44320",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Forum for the Defense of Democracy in the Americas",
+        "fuente": "https://www.infobae.com/america/america-latina/2021/04/23/presidentes-ex-jefes-de-estado-y-lideres-regionales-participaran-del-foro-defensa-de-la-democracia-en-las-americas-en-miami/",
+        "justificacion": "No existe una cumbre real llamada 'World Summit on Sustainable Development' en mayo de 2021 en la que participara Moreno. Múltiples medios (El Comercio, Infobae, NODAL, Diario Las Américas) confirman que el evento fue el 'Foro para la Defensa de la Democracia en las Américas', organizado por el Interamerican Institute for Democracy, realizado el 5 de mayo de 2021 en el Hotel Biltmore de Miami. Coincide con la nota interna del propio registro ('Defense of Democracy in the Americas' forum)."
+      },
+      {
+        "TripID": "3334-ECU-USA-44320",
+        "campo": "CityVisited",
+        "valor_correcto": "Miami",
+        "fuente": "https://www.infobae.com/america/america-latina/2021/04/23/presidentes-ex-jefes-de-estado-y-lideres-regionales-participaran-del-foro-defensa-de-la-democracia-en-las-americas-en-miami/",
+        "justificacion": "El foro se realizó en Miami (Hotel Biltmore), no en Washington; el campo CityVisited estaba vacío en la base."
+      },
+      {
+        "TripID": "3334-ECU-USA-44320",
+        "campo": "MetNonhostHOGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.nodal.am/2021/05/pinera-duque-moreno-almagro-y-macri-en-un-foro-en-miami-en-defensa-de-la-democracia-en-las-americas/",
+        "justificacion": "Moreno compartió el panel principal 'Concrete Actions for the Defense of Democracy' con los presidentes de Paraguay (Mario Abdo Benítez), Costa Rica (Carlos Alvarado Quesada) y El Salvador (Nayib Bukele)."
+      },
+      {
+        "TripID": "3334-ECU-USA-44320",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "President Mario Abdo Benitez;President Carlos Alvarado Quesada;President Nayib Bukele",
+        "fuente": "https://www.nodal.am/2021/05/pinera-duque-moreno-almagro-y-macri-en-un-foro-en-miami-en-defensa-de-la-democracia-en-las-americas/",
+        "justificacion": "Confirmado por cobertura periodística del foro (Infobae, NODAL, Diario Las Américas) del 5 de mayo de 2021."
+      },
+      {
+        "TripID": "3334-ECU-USA-44320",
+        "campo": "MetIGOLeader",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.nodal.am/2021/05/pinera-duque-moreno-almagro-y-macri-en-un-foro-en-miami-en-defensa-de-la-democracia-en-las-americas/",
+        "justificacion": "El secretario general de la OEA, Luis Almagro, participó en el mismo foro."
+      },
+      {
+        "TripID": "3334-ECU-USA-44320",
+        "campo": "IGOLeaderName",
+        "valor_correcto": "Organization of American States (OAS) Secretary-General Luis Almagro",
+        "fuente": "https://www.nodal.am/2021/05/pinera-duque-moreno-almagro-y-macri-en-un-foro-en-miami-en-defensa-de-la-democracia-en-las-americas/",
+        "justificacion": "Ver justificación del campo MetIGOLeader del mismo TripID."
+      },
+      {
+        "TripID": "3334-ECU-PER-43652",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Pacific Alliance Leaders Summit (XIV Cumbre de la Alianza del Pacifico)",
+        "fuente": "https://www.gob.pe/institucion/rree/noticias/45449-declaracion-de-lima-xiv-cumbre-de-la-alianza-del-pacifico",
+        "justificacion": "El sufijo '(PALM8)' es incorrecto: PALM (Pacific Islands Leaders Meeting) es un foro de Japón con los países insulares del Pacífico, sin relación con la Alianza del Pacífico latinoamericana. La propia fuente ya citada en el registro (gob.pe) identifica el evento como la 'XIV Cumbre de la Alianza del Pacífico', celebrada en Lima el 6 de julio de 2019."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "United States",
+        "CityVisited": "Washington D.C.",
+        "TripStartDate": "2019-10-15",
+        "TripEndDate": "2019-10-15",
+        "TripDuration": "1",
+        "MetHostHoGS": "No",
+        "HostHOGSName": "",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "Organization of American States (OAS) Extraordinary Permanent Council Session",
+        "MetNonhostHOGS": "No",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "No",
+        "fuente": "https://www.eluniverso.com/noticias/2020/08/20/nota/7948900/cancilleria-viajes-lenin-moreno-rendicion-cuentas-2019/",
+        "justificacion": "Segun el informe oficial de rendicion de cuentas 2019 de la Cancilleria ecuatoriana (citado por El Universo, 20 ago 2020), uno de los 15 viajes de Moreno en 2019 fue a 'la sesion extraordinaria del Consejo Permanente de la Organizacion de Estados Americanos (OEA) en Washington, el 15 de octubre', relacionada con los disturbios de octubre de 2019 en Ecuador. Este viaje no figura en la base cargada."
+      },
+      {
+        "CountryVisited": "Chile",
+        "CityVisited": "Santiago",
+        "TripStartDate": "2019-05-05",
+        "TripEndDate": "2019-05-06",
+        "TripDuration": "2",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Sebastian Pinera",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "V Ecuador-Chile Binational Council (V Consejo Binacional)",
+        "MetNonhostHOGS": "No",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://www.eluniverso.com/noticias/2020/08/20/nota/7948900/cancilleria-viajes-lenin-moreno-rendicion-cuentas-2019/",
+        "justificacion": "El mismo informe de rendicion de cuentas de la Cancilleria ecuatoriana lista entre los 15 viajes de Moreno en 2019 'al V Consejo Binacional y visita oficial presidencial en Santiago de Chile (5 y 6 de mayo)'. Este viaje bilateral a Chile (distinto de los otros dos viajes a Chile de marzo 2018 y marzo 2019 ya cargados) no figura en la base."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "3334-ECU-USA-43571",
+        "campo": "TripStartDate / TripEndDate",
+        "justificacion": "El informe oficial de rendicion de cuentas 2019 de la Cancilleria ecuatoriana (via El Universo, 20 ago 2020) indica que la visita de trabajo de Moreno a organismos internacionales en Washington fue 'entre el 14 a 17 de abril' de 2019, mientras que la base tiene el rango 2019-04-16 al 2019-04-20. No se encontro una fuente que reconcilie de forma concluyente ambas versiones (podria tratarse de una extension del viaje mas alla de la agenda institucional reportada por Cancilleria), por lo que se deja como discrepancia sin resolver en lugar de forzar una correccion."
+      },
+      {
+        "TripID": "3334-ECU-JPN-43346",
+        "campo": "TripDuration",
+        "justificacion": "El viaje a Japon (3 al 9 de septiembre de 2018, 7 dias) no pudo verificarse en detalle dia a dia mas alla de los enlaces ya citados en la base (Getty Images, Advance Lexis); no se hallaron fuentes adicionales independientes que confirmen o contradigan la duracion exacta de 7 dias."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "3334-ECU-CHL-43169", "justificacion": "La toma de posesion de Sebastian Pinera en Chile fue el 11 de marzo de 2018, consistente con el viaje registrado (10-13 marzo 2018) y con las fuentes ya citadas en la base."},
+      {"TripID": "3334-ECU-CHL-43546", "justificacion": "La primera Cumbre Presidencial de PROSUR se realizo en Santiago el 22 de marzo de 2019, fecha confirmada por multiples fuentes (Emol, BA Times, NODAL), consistente con el registro."},
+      {"TripID": "3334-ECU-CHN-43446", "justificacion": "Xi Jinping era Secretario General del PCCh en diciembre de 2018; la visita de Moreno a China (12-14 dic 2018) es consistente con la cronologia y fuentes citadas."},
+      {"TripID": "3334-ECU-COL-43145", "justificacion": "Juan Manuel Santos era presidente de Colombia en febrero de 2018 (dejo el cargo en agosto de 2018); consistente con el registro."},
+      {"TripID": "3334-ECU-COL-43319", "justificacion": "Ivan Duque asumio la presidencia de Colombia el 7 de agosto de 2018, fecha exacta que coincide con el viaje registrado."},
+      {"TripID": "3334-ECU-COL-43714", "justificacion": "El Pacto de Leticia por la Amazonia se firmo el 6 de septiembre de 2019 en Leticia, Colombia, con la participacion de Duque, Moreno y Vizcarra, consistente con el registro y con el informe de Cancilleria de 2019."},
+      {"TripID": "3334-ECU-COL-43810", "justificacion": "El VIII Gabinete Binacional Ecuador-Colombia en Cali se realizo el 11 de diciembre de 2019, confirmado por el informe de rendicion de cuentas de la Cancilleria ecuatoriana y la fuente Alamy ya citada."},
+      {"TripID": "3334-ECU-FRA-43656", "justificacion": "Consistente con la gira europea de julio de 2019 (Italia 8-10, Francia 10-11, Paises Bajos 11-12), confirmada por el informe de rendicion de cuentas de la Cancilleria ecuatoriana."},
+      {"TripID": "3334-ECU-VAT-43085", "justificacion": "Visita al Vaticano en diciembre de 2017, consistente con la fuente Getty Images ya citada; el Papa Francisco era el Papa en ejercicio."},
+      {"TripID": "3334-ECU-ITA-43654", "justificacion": "Parte de la gira europea de julio de 2019 confirmada por el informe de la Cancilleria ecuatoriana; Sergio Mattarella era presidente de Italia."},
+      {"TripID": "3334-ECU-JPN-43346", "justificacion": "Shinzo Abe era primer ministro de Japon en septiembre de 2018; consistente con las fuentes ya citadas en la base (aunque la duracion exacta no se pudo reverificar de forma independiente, ver nota en no_verificable)."},
+      {"TripID": "3334-ECU-MEX-43435", "justificacion": "Andres Manuel Lopez Obrador asumio la presidencia de Mexico el 1 de diciembre de 2018, fecha exacta que coincide con el viaje registrado."},
+      {"TripID": "3334-ECU-NLD-43657", "justificacion": "Mark Rutte era primer ministro de los Paises Bajos; visita del 11-12 de julio de 2019 confirmada por el informe de Cancilleria (viaje a La Haya el 12 de julio, parte de la gira europea)."},
+      {"TripID": "3334-ECU-PER-43202", "justificacion": "La Cumbre de las Americas se realizo en Lima el 13-14 de abril de 2018; el regreso anticipado de Moreno por el asesinato de los periodistas de El Comercio en la frontera con Colombia (abril 2018) es un hecho historico ampliamente documentado."},
+      {"TripID": "3334-ECU-PER-43611", "justificacion": "La Cumbre del 50 aniversario de la Comunidad Andina se realizo en Lima el 26 de mayo de 2019, confirmada por el informe de Cancilleria ecuatoriana y las fuentes ya citadas."},
+      {"TripID": "3334-ECU-PER-43652", "justificacion": "La XIV Cumbre de la Alianza del Pacifico se realizo en Lima el 6 de julio de 2019, confirmada por el informe de Cancilleria y la fuente gob.pe ya citada (se corrige unicamente el nombre del evento, ver correcciones)."},
+      {"TripID": "3334-ECU-PER-43775", "justificacion": "El XIII Gabinete Binacional Ecuador-Peru (Declaracion de Tumbes) se realizo el 7 de noviembre de 2019, confirmado por el informe de Cancilleria ecuatoriana."},
+      {"TripID": "3334-ECU-QAT-43449", "justificacion": "El Doha Forum 2018 se realizo del 15-16 de diciembre de 2018; consistente con el registro y las fuentes ya citadas."},
+      {"TripID": "3334-ECU-ESP-43087", "justificacion": "Consistente con la fuente Getty Images ya citada (evento Tribuna Americana EFE-Casa America, diciembre 2017)."},
+      {"TripID": "3334-ECU-ESP-43307", "justificacion": "Pedro Sanchez era presidente del Gobierno de España desde junio de 2018 y Felipe VI era el rey; consistente con el viaje de julio de 2018."},
+      {"TripID": "3334-ECU-ESP-43799", "justificacion": "La COP25 se traslado a Madrid y se realizo del 2 al 13 de diciembre de 2019 (la Cumbre de Jefes de Estado el 2 de diciembre), consistente con el informe de Cancilleria ecuatoriana y con el registro."},
+      {"TripID": "3334-ECU-CHE-43487", "justificacion": "El Foro Economico Mundial de Davos 2019 se realizo del 22 al 25 de enero, confirmado por fuente oficial del WEF; coincide con el viaje registrado (22-24 enero)."},
+      {"TripID": "3334-ECU-CHE-43851", "justificacion": "El WEF de Davos 2020 se realizo del 21 al 24 de enero de 2020, coincidiendo exactamente con el viaje registrado."},
+      {"TripID": "3334-ECU-GBR-43305", "justificacion": "El Global Disability Summit se realizo en Londres el 24 de julio de 2018, consistente con el registro y la fuente disabilitynewsservice.com ya citada."},
+      {"TripID": "3334-ECU-USA-42996", "justificacion": "La 72a Asamblea General de la ONU se realizo en septiembre de 2017; el discurso de Moreno esta documentado en la fuente elcomercio.com ya citada."},
+      {"TripID": "3334-ECU-USA-43368", "justificacion": "La 73a AGNU y la Nelson Mandela Peace Summit (24-25 sept 2018) se realizaron en las fechas del viaje registrado."},
+      {"TripID": "3334-ECU-USA-43873", "justificacion": "Confirmado de forma independiente: Trump recibio a Moreno en la Casa Blanca el 12 de febrero de 2020, primera visita de un presidente ecuatoriano a Washington en 17 anos (CBS News, White House statement)."},
+      {"TripID": "3334-ECU-USA-43731", "justificacion": "La Cumbre de Accion Climatica de la ONU (23 sept) y la 74a AGNU (23-27 sept 2019) son consistentes con el viaje registrado y el informe de Cancilleria."},
+      {"TripID": "3334-ECU-USA-44320", "justificacion": "Confirmado (con correcciones de nombre de evento y ciudad, ver seccion correcciones) que Moreno viajo a Miami en mayo de 2021 para el Foro por la Defensa de la Democracia."}
+    ]
+  },
+  {
+    "LeaderID": "3822",
+    "correcciones": [
+      {
+        "TripID": "3822-ECU-COL-44587",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Pacific Alliance Leaders Summit",
+        "fuente": "Search Query: Pacific Alliance Leaders Meeting PALM Japan Pacific Islands Forum",
+        "justificacion": "El sufijo '(PALM8)' es erroneo: PALM (Pacific Islands Leaders Meeting) es un foro de Japon con paises insulares del Pacifico, sin relacion con la Alianza del Pacifico latinoamericana. Este es el mismo error de etiquetado que aparece en el registro de Moreno (TripID 3334-ECU-PER-43652) para el mismo tipo de evento, lo que sugiere un problema sistematico en la fuente original de COLT al nombrar cumbres de la Alianza del Pacifico."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "3822-ECU-USA-45124",
+        "campo": "TripStartDate",
+        "justificacion": "Este viaje a Estados Unidos (2023-07-17 a 2023-07-24) se superpone con el viaje ya confirmado a Belgica para la Cumbre UE-CELAC (3822-ECU-BEL-45123, 2023-07-16 a 2023-07-18), evento que Lasso efectivamente atendio el 17-18 de julio de 2023 en Bruselas segun Infobae ('Alberto Fernandez se reencontro con Guillermo Lasso' en la Cumbre UE-CELAC, 18 jul 2023). Por lo tanto, las fechas de inicio del viaje a EE.UU. (17 de julio) son incompatibles con la presencia simultanea en Bruselas. No se pudo determinar la fecha real de llegada a EE.UU. (probablemente el 18 o 19 de julio), por lo que se deja como inconsistencia sin resolver en lugar de forzar una correccion sin fuente que confirme la fecha exacta."
+      },
+      {
+        "TripID": "3822-ECU-URY-44670",
+        "campo": "NameMultilatEvent",
+        "justificacion": "No se pudo verificar de forma independiente la existencia de una 'Conferencia ALADI' especifica el 19 de abril de 2022 en Montevideo con participacion presidencial; ALADI es un organismo tecnico de comercio con sede en Montevideo que normalmente no celebra cumbres de jefes de Estado. La visita bilateral a Uruguay (ofrenda floral a Artigas, ceremonia del guayacan) esta bien documentada en las notas del registro, pero la naturaleza exacta del evento multilateral asociado no pudo confirmarse con una fuente independiente dentro del tiempo disponible."
+      },
+      {
+        "TripID": "3822-ECU-COL-44394",
+        "campo": "NameMultilatEvent",
+        "justificacion": "No se pudo confirmar de forma independiente el numero ordinal exacto ('21st Andean Presidents' Council') de la reunion de julio de 2021 en Bogota; la fecha (17-18 julio 2021) y el contexto (Lasso asumiendo la presidencia pro-tempore de la CAN, con la mayoria de mandatarios participando de forma virtual) son plausibles pero no se hallo una fuente independiente que confirme el numero de la reunion dentro del tiempo disponible."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "3822-ECU-ARG-44668", "justificacion": "Alberto Fernandez era presidente de Argentina en abril de 2022; visita bilateral consistente con las fuentes ya citadas."},
+      {"TripID": "3822-ECU-BEL-45123", "justificacion": "La Cumbre UE-CELAC se realizo en Bruselas el 17-18 de julio de 2023, confirmada de forma independiente (Infobae, cobertura del reencuentro Fernandez-Lasso el 18 de julio de 2023)."},
+      {"TripID": "3822-ECU-BRA-45075", "justificacion": "La Cumbre de Presidentes Suramericanos convocada por Lula se realizo en Brasilia el 30 de mayo de 2023, consistente con el viaje registrado (29-31 mayo)."},
+      {"TripID": "3822-ECU-CHL-44629", "justificacion": "Gabriel Boric asumio la presidencia de Chile el 11 de marzo de 2022, fecha que coincide con el viaje registrado (9-12 marzo 2022)."},
+      {"TripID": "3822-ECU-CHN-44594", "justificacion": "Los Juegos Olimpicos de Invierno de Beijing 2022 se inauguraron el 4 de febrero de 2022; Xi Jinping era Secretario General del PCCh; consistente con el viaje registrado (2-9 febrero)."},
+      {"TripID": "3822-ECU-COL-44422", "justificacion": "Ivan Duque era presidente de Colombia en agosto de 2021; visita bilateral para inauguracion de via consistente con el registro."},
+      {"TripID": "3822-ECU-COL-44547", "justificacion": "Ivan Duque era presidente de Colombia en diciembre de 2021; consistente con el registro."},
+      {"TripID": "3822-ECU-COL-44779", "justificacion": "Gustavo Petro asumio la presidencia de Colombia el 7 de agosto de 2022, fecha exacta que coincide con el viaje registrado (6-7 agosto)."},
+      {"TripID": "3822-ECU-COL-45227", "justificacion": "Gustavo Petro era presidente de Colombia en octubre de 2023; Lasso aun era presidente de Ecuador en ese periodo de transicion tras la 'muerte cruzada' (su mandato termino el 23 de noviembre de 2023)."},
+      {"TripID": "3822-ECU-CRI-44986", "justificacion": "Rodrigo Chaves Robles era presidente de Costa Rica desde mayo de 2022; consistente con la firma del acuerdo comercial en marzo de 2023."},
+      {"TripID": "3822-ECU-DOM-45009", "justificacion": "La XXVIII Cumbre Iberoamericana se realizo en Santo Domingo el 24-25 de marzo de 2023, consistente con el registro."},
+      {"TripID": "3822-ECU-VAT-44947", "justificacion": "El Papa Francisco era el Papa en ejercicio en enero de 2023; consistente con el registro."},
+      {"TripID": "3822-ECU-ISR-44688", "justificacion": "Naftali Bennett era primer ministro de Israel hasta junio-julio de 2022; la visita de mayo de 2022 es consistente con esa cronologia."},
+      {"TripID": "3822-ECU-MEX-44431", "justificacion": "Andres Manuel Lopez Obrador era presidente de Mexico; consistente con las conmemoraciones del bicentenario de la independencia mexicana en agosto de 2021."},
+      {"TripID": "3822-ECU-MEX-44456", "justificacion": "La Cumbre de la CELAC se realizo en Ciudad de Mexico el 18 de septiembre de 2021, confirmada de forma independiente; consistente con el viaje registrado (17-19 septiembre)."},
+      {"TripID": "3822-ECU-MEX-44888", "justificacion": "AMLO era presidente de Mexico en noviembre de 2022; consistente con el registro sobre negociaciones del Acuerdo de Integracion Productiva."},
+      {"TripID": "3822-ECU-PER-44404", "justificacion": "Pedro Castillo asumio la presidencia de Peru el 28 de julio de 2021, fecha que coincide con el viaje registrado."},
+      {"TripID": "3822-ECU-PER-44802", "justificacion": "Pedro Castillo era presidente de Peru en agosto de 2022 (hasta su autogolpe fallido de diciembre de 2022); consistente con el registro."},
+      {"TripID": "3822-ECU-PER-45224", "justificacion": "Dina Boluarte era presidenta de Peru desde diciembre de 2022; consistente con el viaje registrado de octubre de 2023."},
+      {"TripID": "3822-ECU-ESP-44504", "justificacion": "Pedro Sanchez era presidente del Gobierno espanol y Felipe VI el rey en noviembre de 2021; consistente con el registro, y con la secuencia logica de viaje inmediatamente despues de la COP26 en Glasgow."},
+      {"TripID": "3822-ECU-ESP-44939", "justificacion": "Visita a España en enero de 2023 consistente con las fuentes ya citadas en la base; sin contraparte oficial (MetHostHoGS: No), lo cual es plausible para una visita centrada en la comunidad ecuatoriana y actores no gubernamentales."},
+      {"TripID": "3822-ECU-ESP-45121", "justificacion": "Visita a España en julio de 2023, consistente con la secuencia de viaje que continua hacia la Cumbre UE-CELAC en Bruselas dias despues."},
+      {"TripID": "3822-ECU-CHE-44942", "justificacion": "El Foro Economico Mundial de Davos 2023 se realizo del 16 al 20 de enero de 2023, consistente con el viaje registrado (16-21 enero)."},
+      {"TripID": "3822-ECU-GBR-44501", "justificacion": "La COP26 se realizo en Glasgow del 31 de octubre al 12 de noviembre de 2021, con la Cumbre de Lideres Mundiales el 1-2 de noviembre; consistente con el viaje registrado (1-4 noviembre)."},
+      {"TripID": "3822-ECU-USA-44367", "justificacion": "Viaje medico privado a Miami (20 junio-2 julio 2021), ampliamente documentado en medios ecuatorianos de la epoca; no corresponde a actividad diplomatica formal."},
+      {"TripID": "3822-ECU-USA-44459", "justificacion": "La 76a Asamblea General de la ONU se realizo en septiembre de 2021, consistente con el viaje registrado (20-22 septiembre)."},
+      {"TripID": "3822-ECU-USA-44718", "justificacion": "La Cumbre de las Americas en Los Angeles (Biden anfitrion) se realizo del 6 al 10 de junio de 2022, con la Declaracion de Los Angeles sobre Migracion; consistente con el registro."},
+      {"TripID": "3822-ECU-USA-44817", "justificacion": "Consistente con la 77a AGNU (septiembre 2022) y reuniones bilaterales asociadas."},
+      {"TripID": "3822-ECU-USA-44914", "justificacion": "Confirmado de forma independiente: la visita de diciembre de 2022 a Washington incluyo reuniones con el BID, el Banco Mundial y el FMI (que habia aprobado el ultimo desembolso la semana previa), consistente con el registro y con la reunion con Biden."},
+      {"TripID": "3822-ECU-USA-45070", "justificacion": "Viaje medico privado (cirugia de prostata, 24-28 mayo 2023), consistente con la descripcion de la base."},
+      {"TripID": "3822-ECU-USA-45186", "justificacion": "La 78a Asamblea General de la ONU se realizo en septiembre de 2023, consistente con el viaje registrado (17-21 septiembre)."},
+      {"TripID": "3822-ECU-USA-45231", "justificacion": "La primera Cumbre de Lideres de la Asociacion de las Americas para la Prosperidad Economica (APEP) se realizo en Washington el 3 de noviembre de 2023 con Biden como anfitrion, consistente con el viaje registrado, ocurrido pocas semanas antes de que Lasso dejara el cargo (23 de noviembre de 2023)."}
+    ]
+  }
+]

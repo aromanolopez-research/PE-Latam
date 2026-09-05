@@ -1,0 +1,292 @@
+[
+  {
+    "LeaderID": "898",
+    "correcciones": [
+      {
+        "TripID": "898-VEN-ARG-35008",
+        "campo": "CityVisited",
+        "valor_correcto": "Buenos Aires",
+        "justificacion": "El campo estaba vacío. La 5ta Cumbre del G-15 (5-7 noviembre 1995) se realizó en Buenos Aires, presidida por Carlos Menem. La fecha de viaje registrada (5-6 nov) coincide con el inicio del evento.",
+        "fuente": "https://en.wikipedia.org/wiki/Group_of_15"
+      },
+      {
+        "TripID": "898-VEN-BOL-35311",
+        "campo": "CityVisited",
+        "valor_correcto": "Cochabamba",
+        "justificacion": "El campo estaba vacío. La Cumbre del Grupo de Río de 1996 se realizó en Cochabamba, Bolivia, en fechas coincidentes (principios de septiembre 1996) con las registradas en el trip (3-4 sep).",
+        "fuente": "Search Query: Grupo de Río cumbre Cochabamba Bolivia septiembre 1996 fechas presidentes declaración"
+      },
+      {
+        "TripID": "898-VEN-BOL-35541",
+        "campo": "CityVisited",
+        "valor_correcto": "Sucre",
+        "justificacion": "El campo estaba vacío. El IX Consejo Presidencial Andino (Acta de Sucre) se celebró en Sucre, Bolivia, el 22-23 de abril de 1997. La fecha de llegada registrada (21 abril) es consistente con arribo un día antes del evento.",
+        "fuente": "http://www.sice.oas.org/Trade/Junac/IXacta_s.asp"
+      },
+      {
+        "TripID": "898-VEN-BRA-34585",
+        "campo": "CityVisited",
+        "valor_correcto": "Rio de Janeiro",
+        "justificacion": "El campo estaba vacío. La VIII Cumbre del Grupo de Río de 1994 fue organizada por el presidente brasileño Itamar Franco en Rio de Janeiro, coincidiendo con el país y año del registro.",
+        "fuente": "http://www.summit-americas.org/Rio%20Group/DEC-Rio.htm"
+      },
+      {
+        "TripID": "898-VEN-CHL-35379",
+        "campo": "CityVisited",
+        "valor_correcto": "Santiago y Viña del Mar",
+        "justificacion": "El campo estaba vacío. La VI Cumbre Iberoamericana se realizó en Santiago y Viña del Mar, Chile, el 10 y 11 de noviembre de 1996 (fuente oficial SEGIB), coincidiendo exactamente con las fechas registradas en el trip (1996-11-10 a 1996-11-11).",
+        "fuente": "https://segib.org/?summit=vi-cumbre-iberoamericana-santiago-y-vina-del-mar-1996"
+      },
+      {
+        "TripID": "898-VEN-CHL-35902",
+        "campo": "CityVisited",
+        "valor_correcto": "Santiago",
+        "justificacion": "El campo estaba vacío. La II Cumbre de las Américas se celebró en Santiago de Chile el 18-19 de abril de 1998. El trip registra llegada el 17 de abril, un día antes del inicio oficial.",
+        "fuente": "https://clinton.presidentiallibraries.us/items/show/94223"
+      },
+      {
+        "TripID": "898-VEN-COL-34498",
+        "campo": "AttendedMultilatEvent",
+        "valor_correcto": "Yes",
+        "justificacion": "El registro dice 'No', pero las propias Notes del trip mencionan la firma del G-3 y la '4th Iber-American Summit'. Fuente oficial SEGIB confirma que la IV Cumbre Iberoamericana se realizó en Cartagena de Indias, Colombia, el 14-15 de junio de 1994, coincidiendo con las fechas del viaje (13-15 junio 1994).",
+        "fuente": "https://segib.org/?summit=iv-cumbre-iberoamericana-1994"
+      },
+      {
+        "TripID": "898-VEN-COL-34498",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "IV Cumbre Iberoamericana",
+        "justificacion": "El campo estaba vacío pese a que el viaje corresponde, según fuente oficial SEGIB, a la IV Cumbre Iberoamericana (Cartagena de Indias, 14-15 junio 1994), coincidente con la firma del tratado de libre comercio del G-3 mencionada en las Notes originales.",
+        "fuente": "https://segib.org/?summit=iv-cumbre-iberoamericana-1994"
+      },
+      {
+        "TripID": "898-VEN-COL-34498",
+        "campo": "CityVisited",
+        "valor_correcto": "Cartagena de Indias",
+        "justificacion": "El campo estaba vacío. La IV Cumbre Iberoamericana y la firma del G-3 tuvieron lugar en Cartagena de Indias, Colombia.",
+        "fuente": "https://segib.org/?summit=iv-cumbre-iberoamericana-1994"
+      },
+      {
+        "TripID": "898-VEN-COL-34498",
+        "campo": "Notes",
+        "valor_correcto": "Signing of the G-3 free trade agreement (Colombia, Mexico, Venezuela) and attendance at the IV Ibero-American Summit in Cartagena de Indias",
+        "justificacion": "La nota original incluye la frase 'attended Cultural Capital of Europe 1985 Celebration', un dato inconexo y anacrónico (el programa 'Capital Europea de la Cultura' de 1985 corresponde a Atenas y no guarda relación con este viaje), que aparenta ser un error de copia/pegado de otro registro. Se limpia el texto manteniendo solo los hechos verificados.",
+        "fuente": "https://segib.org/?summit=iv-cumbre-iberoamericana-1994"
+      },
+      {
+        "TripID": "898-VEN-COL-34948",
+        "campo": "CityVisited",
+        "valor_correcto": "Bogotá",
+        "justificacion": "El campo estaba vacío. Según el anexo de viajes internacionales de Caldera (fuente primaria citada: Fundación Empresas Polar, Diccionario de Historia de Venezuela), el 6 de septiembre de 1995 Caldera se reunió con el presidente Ernesto Samper en Bogotá, coincidiendo exactamente con la fecha del trip.",
+        "fuente": "https://es.wikipedia.org/wiki/Anexo:Viajes_internacionales_del_presidente_Rafael_Caldera"
+      },
+      {
+        "TripID": "898-VEN-ECU-34946",
+        "campo": "CityVisited",
+        "valor_correcto": "Quito",
+        "justificacion": "El campo estaba vacío. La Declaración de Quito del Grupo de Río está fechada 4-5 de septiembre de 1995, coincidiendo exactamente con las fechas del trip.",
+        "fuente": "Search Query: Declaración de Quito Grupo de Río septiembre 1995 fecha"
+      },
+      {
+        "TripID": "898-VEN-ECU-35889",
+        "campo": "CityVisited",
+        "valor_correcto": "Guayaquil",
+        "justificacion": "El campo estaba vacío. El X Consejo Presidencial Andino (Acta de Guayaquil) se celebró en Guayaquil, Ecuador, el 4-5 de abril de 1998, coincidiendo exactamente con las fechas del trip.",
+        "fuente": "https://www.comunidadandina.org/notas-de-prensa/cumbre-de-presidentes-andinos-para-consolidar-el-proceso-de-integracion/"
+      },
+      {
+        "TripID": "898-VEN-FRA-35874",
+        "campo": "CityVisited",
+        "valor_correcto": "Paris",
+        "justificacion": "El campo estaba vacío. Fuente AFP ('France: Paris: Venezuelan president meets Chirac', 20 marzo 1998) confirma que la reunión con Chirac ocurrió en París, coincidiendo con la fecha de inicio del trip (20 de marzo de 1998).",
+        "fuente": "https://es.wikipedia.org/wiki/Anexo:Viajes_internacionales_del_presidente_Rafael_Caldera"
+      },
+      {
+        "TripID": "898-VEN-PAN-34578",
+        "campo": "Notes",
+        "valor_correcto": "Attended inauguration of President Ernesto Pérez Balladares",
+        "justificacion": "El registro original dice que Caldera asistió a la 'inauguración del Presidente Guillermo Endara', pero Endara era el presidente saliente de Panamá (1989-1994), no el que asumía el cargo. El presidente inaugurado el 1 de septiembre de 1994 fue Ernesto Pérez Balladares, ganador de la elección de mayo de 1994.",
+        "fuente": "https://en.wikipedia.org/wiki/Ernesto_P%C3%A9rez_Balladares"
+      },
+      {
+        "TripID": "898-VEN-PAN-36043",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Rio Group Summit",
+        "justificacion": "El campo original mezcla el nombre del evento con nombres de mandatarios ('Rio Group Summit;President Ernesto Zedillo;President Andres Pastrana'), lo cual no es un valor limpio de un solo campo. Se confirma que la Cumbre de Panamá del Grupo de Río se realizó el 4-5 de septiembre de 1998 (Declaración de Ciudad de Panamá), coincidiendo con el país/fecha del trip. Los nombres de otros mandatarios mencionados deberían figurar, si se confirman, en el campo NonhostHOGSNames y no en el nombre del evento.",
+        "fuente": "https://www.eltiempo.com/archivo/documento/MAM-799020"
+      },
+      {
+        "TripID": "898-VEN-PRT-36085",
+        "campo": "CityVisited",
+        "valor_correcto": "Porto",
+        "justificacion": "El campo estaba vacío. Fuente oficial SEGIB confirma que la VIII Cumbre Iberoamericana se celebró en Porto (Oporto), Portugal, el 17-18 de octubre de 1998, coincidiendo exactamente con las fechas del trip.",
+        "fuente": "https://segib.org/?summit=viii-cumbre-iberoamericana-1998"
+      },
+      {
+        "TripID": "898-VEN-TTO-34928",
+        "campo": "CityVisited",
+        "valor_correcto": "Port of Spain",
+        "justificacion": "El campo estaba vacío. La I Cumbre de la Asociación de Estados del Caribe (ACS) se celebró en Port of Spain, Trinidad y Tobago, el 17-18 de agosto de 1995, coincidiendo exactamente con las fechas del trip.",
+        "fuente": "https://www.acs-aec.org/en/article/new-era-regional-cooperation-birth-association-caribbean-states"
+      },
+      {
+        "TripID": "898-VEN-USA-34677",
+        "campo": "CityVisited",
+        "valor_correcto": "Miami",
+        "justificacion": "El campo estaba vacío. La Primera Cumbre de las Américas se celebró en Miami, Florida, el 9-11 de diciembre de 1994, coincidiendo con la fecha de inicio del trip.",
+        "fuente": "https://en.wikipedia.org/wiki/1st_Summit_of_the_Americas"
+      },
+      {
+        "TripID": "898-VEN-USA-35954",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "UN General Assembly Special Session on the World Drug Problem (UNGASS)",
+        "justificacion": "El registro dice genéricamente 'United Nations (UN) General Assembly', pero la Asamblea General ordinaria nunca sesiona en junio. Fuente primaria de Naciones Unidas confirma que del 8 al 10 de junio de 1998 se celebró en Nueva York el vigésimo período extraordinario de sesiones de la Asamblea General, dedicado al problema mundial de las drogas, coincidiendo con la fecha del trip (8 de junio de 1998).",
+        "fuente": "https://press.un.org/en/1998/19980610.ga9423.html"
+      },
+      {
+        "TripID": "898-VEN-VAT-34824",
+        "campo": "CityVisited",
+        "valor_correcto": "Vatican City",
+        "justificacion": "El campo estaba vacío; dado que CountryVisited es 'Holy See', la ciudad correspondiente es la Ciudad del Vaticano.",
+        "fuente": "Search Query: Rafael Caldera Vaticano beatificación María de San José mayo 1995"
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "TripID": "NUEVO-898-VEN-MEX-19970205",
+        "TripStartDate": "1997-02-05",
+        "TripEndDate": "1997-02-08",
+        "CountryVisited": "Mexico",
+        "CityVisited": "Mexico City",
+        "Visit_Category": "Bilateral",
+        "Visit_Subtype": "State Visit",
+        "Counterpart_Event": "State visit; working meetings with President Ernesto Zedillo; address to the Solemn Session of the Permanent Commission of the Mexican Congress; wreath-laying at the Monument to the Niños Héroes and the Monument to Simón Bolívar; signing of cooperation agreements (including a double-taxation treaty)",
+        "justificacion": "Viaje real de Rafael Caldera a México, del 5 al 8 de febrero de 1997, ausente del archivo COLT para este LeaderID/rango de fechas. Confirmado por la cronología oficial de política exterior de México (SRE) y corroborado independientemente por el anexo de viajes internacionales de Caldera en Wikipedia (que a su vez cita la Fundación Empresas Polar).",
+        "fuente": "https://re.sre.gob.mx/rmpe/index.php/rmpe/article/download/1141/1078/1123"
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "898-VEN-BRA-35204",
+        "campo": "TripStartDate/TripEndDate",
+        "motivo": "No se encontró, dentro del tiempo de búsqueda disponible, una fuente independiente (prensa, comunicado oficial de Brasil o Venezuela) que confirme de forma directa la visita bilateral a Brasil del 19 al 22 de mayo de 1996 y el encuentro con Fernando Henrique Cardoso. El hecho es plausible dado el contexto de relaciones bilaterales de la época, pero no pudo ser corroborado de forma independiente.",
+        "fuente_intentada": "Search Query: Rafael Caldera visita Brasil mayo 1996 Fernando Henrique Cardoso"
+      },
+      {
+        "TripID": "898-VEN-BRA-35531",
+        "campo": "TripStartDate/TripEndDate",
+        "motivo": "No se encontró una fuente independiente que confirme la visita de un día a Brasil el 11 de abril de 1997 y la firma de un acuerdo con Cardoso. No hay evidencia que contradiga el registro, pero tampoco corroboración directa.",
+        "fuente_intentada": "Search Query: Rafael Caldera Brasil abril 1997 Cardoso acuerdo firma"
+      },
+      {
+        "TripID": "898-VEN-VAT-34824",
+        "campo": "TripStartDate/TripEndDate",
+        "motivo": "Se detectó una posible inconsistencia de fecha: el registro ubica la ceremonia de beatificación de la Madre María de San José (Venezuela) en el Vaticano el 5-6 de mayo de 1995, pero el anexo de viajes internacionales de Caldera (Wikipedia, citando Fundación Empresas Polar) y un despacho de Associated Press Worldstream titulado 'Pope Beatifies First Venezuelan' (ya citado como SourceLink3 en el registro ITA-34826 del propio archivo) están fechados el 7 de mayo de 1995. No fue posible resolver con confianza si la beatificación ocurrió el 5-6 o el 7 de mayo, por lo que no se realiza una corrección de fecha sin mayor certeza.",
+        "fuente_intentada": "https://es.wikipedia.org/wiki/Anexo:Viajes_internacionales_del_presidente_Rafael_Caldera"
+      },
+      {
+        "TripID": "898-VEN-NIC-35780",
+        "campo": "TripStartDate/HostHOGSName",
+        "motivo": "No se encontró una fuente independiente que confirme la visita de un día a Nicaragua el 16 de diciembre de 1997 y la reunión con el presidente Arnoldo Alemán. El dato es plausible pero no se pudo corroborar de forma independiente en el tiempo disponible.",
+        "fuente_intentada": "Search Query: Rafael Caldera Nicaragua diciembre 1997 Arnoldo Alemán visita"
+      },
+      {
+        "TripID": "898-VEN-PER-34907",
+        "campo": "CulturalSiteOrCeremony/TripStartDate",
+        "motivo": "El registro no incluye Notes ni detalle sobre la naturaleza del 'sitio o ceremonia cultural' visitado en Perú el 27-28 de julio de 1995 (fecha cercana a Fiestas Patrias peruanas). No se encontró una fuente independiente que precise el motivo exacto del viaje.",
+        "fuente_intentada": "Search Query: Rafael Caldera Perú julio 1995 visita Fujimori Fiestas Patrias"
+      },
+      {
+        "TripID": "898-VEN-CHE-35947",
+        "campo": "TripStartDate/HostHOGSName",
+        "motivo": "No se encontró una fuente independiente que confirme específicamente la visita de Caldera a Suiza el 1-2 de junio de 1998 y su reunión con el presidente Flavio Cotti en el marco de la Conferencia de la OIT. Si bien la Conferencia Internacional del Trabajo se celebra anualmente en Ginebra en junio, lo que hace el dato plausible, no se pudo verificar de forma independiente esta escala específica dentro del tiempo disponible.",
+        "fuente_intentada": "Search Query: Rafael Caldera Suiza Ginebra junio 1998 Conferencia OIT Flavio Cotti"
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "898-VEN-ARG-35008",
+        "campo": "NameMultilatEvent",
+        "valor": "G15 Summit",
+        "justificacion": "Confirmado: la 5ta Cumbre del G-15 se celebró en Buenos Aires del 5 al 7 de noviembre de 1995, coincidiendo con el inicio del viaje registrado (5-6 nov).",
+        "fuente": "https://en.wikipedia.org/wiki/Group_of_15"
+      },
+      {
+        "TripID": "898-VEN-BEL-35871",
+        "campo": "TripStartDate",
+        "valor": "1998-03-17",
+        "justificacion": "Consistente con la gira europea de marzo de 1998, confirmada de forma independiente en su tramo francés inmediatamente posterior (ver TripID 898-VEN-FRA-35874, 20 de marzo, encuentro con Chirac corroborado por AFP). La secuencia Países Bajos (15-17 marzo) → Bélgica (17 marzo) → Alemania (18-19 marzo) → Francia (20-21 marzo) es internamente coherente y sin superposiciones.",
+        "fuente": "https://es.wikipedia.org/wiki/Anexo:Viajes_internacionales_del_presidente_Rafael_Caldera"
+      },
+      {
+        "TripID": "898-VEN-DEU-35872",
+        "campo": "TripStartDate",
+        "valor": "1998-03-18",
+        "justificacion": "Consistente con la misma gira europea de marzo de 1998 descrita arriba; el tramo alemán se ubica de forma coherente entre las escalas de Países Bajos/Bélgica y Francia, esta última confirmada de forma independiente.",
+        "fuente": "https://es.wikipedia.org/wiki/Anexo:Viajes_internacionales_del_presidente_Rafael_Caldera"
+      },
+      {
+        "TripID": "898-VEN-NLD-35869",
+        "campo": "TripStartDate",
+        "valor": "1998-03-15",
+        "justificacion": "Consistente con la misma gira europea de marzo de 1998; el tramo neerlandés antecede de forma coherente a las escalas de Bélgica, Alemania y Francia (esta última confirmada de forma independiente vía fuente AFP).",
+        "fuente": "https://es.wikipedia.org/wiki/Anexo:Viajes_internacionales_del_presidente_Rafael_Caldera"
+      },
+      {
+        "TripID": "898-VEN-ITA-34823",
+        "campo": "HostHOGSName",
+        "valor": "President Oscar Luigi Scalfaro",
+        "justificacion": "La visita bilateral a Italia del 4-5 de mayo de 1995 es consistente con la fuente contemporánea UPI ya citada en el propio registro ('Venezuelan president visits Italy', 4 de mayo de 1995), que sitúa el inicio de la gira italiana en esa fecha.",
+        "fuente": "http://www.upi.com/Archives/1995/05/04/Venezuelan-president-visits-Italy/5210799560000/"
+      },
+      {
+        "TripID": "898-VEN-ITA-34826",
+        "campo": "CountryVisited",
+        "valor": "Italy",
+        "justificacion": "Se confirma la identidad general del viaje (estadía en Italia del 7-9 de mayo de 1995 vinculada a gestiones económicas); el propio registro ya expresa incertidumbre razonable sobre si se firmaron documentos, la cual se mantiene sin forzar una corrección adicional.",
+        "fuente": "http://www.upi.com/Archives/1995/05/04/Venezuelan-president-visits-Italy/5210799560000/"
+      },
+      {
+        "TripID": "898-VEN-PER-35904",
+        "campo": "HostHOGSName",
+        "valor": "President Alberto Fujimori",
+        "justificacion": "Confirmado de forma independiente: el anexo de viajes internacionales de Caldera (citando Fundación Empresas Polar) registra el 20 de abril de 1998 una reunión con el 'dictador Alberto Fujimori' para discutir cooperación antinarcóticos y candidaturas a organismos internacionales, coincidiendo con el trip (llegada 19 abril, reunión 20 abril).",
+        "fuente": "https://es.wikipedia.org/wiki/Anexo:Viajes_internacionales_del_presidente_Rafael_Caldera"
+      },
+      {
+        "TripID": "898-VEN-ESP-35329",
+        "campo": "HostHOGSName",
+        "valor": "Prime Minister Jose Maria Aznar",
+        "justificacion": "Confirmado parcialmente de forma independiente: el anexo de viajes de Caldera registra, citando al Congreso de los Diputados de España, una intervención de Caldera en el Senado español el 25 de septiembre de 1996, fecha comprendida dentro del rango del trip (21-27 septiembre de 1996).",
+        "fuente": "https://es.wikipedia.org/wiki/Anexo:Viajes_internacionales_del_presidente_Rafael_Caldera"
+      },
+      {
+        "TripID": "898-VEN-USA-34607",
+        "campo": "NameMultilatEvent",
+        "valor": "United Nations (UN) General Assembly",
+        "justificacion": "El 49º período de sesiones de la Asamblea General de la ONU (1994) sesionó su debate general en septiembre; la fecha registrada (30 de septiembre de 1994) es consistente con ese calendario y con la fuente contemporánea Xinhua ya citada en el propio registro.",
+        "fuente": "Search Query: 49th session United Nations General Assembly 1994 general debate dates"
+      },
+      {
+        "TripID": "898-VEN-USA-36062",
+        "campo": "NameMultilatEvent",
+        "valor": "United Nations (UN) General Assembly",
+        "justificacion": "El 53º período de sesiones de la Asamblea General de la ONU (1998) abrió su debate general el 21 de septiembre de 1998; la fecha registrada (24 de septiembre de 1998) cae dentro de ese calendario, consistente con la fuente FSM Government ya citada en el propio registro.",
+        "fuente": "Search Query: 53rd session United Nations General Assembly 1998 general debate dates opening"
+      },
+      {
+        "TripID": "898-VEN-URY-35010",
+        "campo": "TripStartDate",
+        "valor": "1995-11-07",
+        "justificacion": "Consistente con la secuencia de viajes de noviembre de 1995: Caldera asistió a la Cumbre del G-15 en Buenos Aires (5-6 nov, confirmada de forma independiente) y a continuación viajó a Uruguay (7-9 nov), sin superposiciones ni huecos en el itinerario.",
+        "fuente": "https://en.wikipedia.org/wiki/Group_of_15"
+      },
+      {
+        "TripID": "898-VEN-ECU-35889",
+        "campo": "NameMultilatEvent",
+        "valor": "Summit of Andean Presidents",
+        "justificacion": "Confirmado: el X Consejo Presidencial Andino (Acta de Guayaquil) se celebró en Guayaquil, Ecuador, el 4-5 de abril de 1998, coincidiendo exactamente con las fechas registradas en el trip. El nombre registrado es una descripción genérica válida aunque el nombre oficial es 'X Consejo Presidencial Andino'.",
+        "fuente": "https://www.comunidadandina.org/notas-de-prensa/cumbre-de-presidentes-andinos-para-consolidar-el-proceso-de-integracion/"
+      }
+    ]
+  }
+]

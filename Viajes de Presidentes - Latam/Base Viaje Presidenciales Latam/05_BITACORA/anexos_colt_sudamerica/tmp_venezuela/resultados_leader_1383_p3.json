@@ -1,0 +1,428 @@
+[
+  {
+    "LeaderID": "1383",
+    "correcciones": [],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "1383-VEN-CUB-37864",
+        "campo": "TripStartDate/TripEndDate",
+        "motivo": "La 6ª Conferencia de las Partes de la Convención de la ONU de Lucha contra la Desertificación (COP6) sí se realizó en La Habana en agosto-septiembre de 2003, pero no se encontró una fuente independiente que confirme específicamente la asistencia de Chávez ni las fechas exactas 2003-08-31/09-05. El propio COLT marca este registro con Confidence=2 (baja).",
+        "fuente_intentada": "Search Query: Chavez Havana UNCCD desertification convention September 2003; Chavez Cuba August 2003 conference"
+      },
+      {
+        "TripID": "1383-VEN-CUB-38000",
+        "campo": "TripStartDate",
+        "motivo": "Viaje de un día (2004-01-14) a Cuba para reunirse con Castro. Solo hay una fuente citada en COLT (enlace genérico de LexisNexis sin título recuperable) y no se halló corroboración independiente en la búsqueda web realizada.",
+        "fuente_intentada": "Search Query: Chavez Cuba Castro visit January 14 2004"
+      },
+      {
+        "TripID": "1383-VEN-ARG-38383",
+        "campo": "NameMultilatEvent",
+        "motivo": "Se confirma que Chávez y Kirchner firmaron acuerdos económicos y anunciaron el lanzamiento de una red de TV regional el 31 de enero/1 de febrero de 2005 (consistente con las fuentes ya citadas en COLT), pero no fue posible verificar de forma independiente en esta sesión si ese anuncio de 'red de TV' corresponde exactamente al proyecto que luego se conoció como Telesur (lanzado formalmente en mayo de 2005) u otro proyecto bilateral distinto.",
+        "fuente_intentada": "Search Query: Chavez Kirchner enero 2005 acuerdo television regional"
+      },
+      {
+        "TripID": "1383-VEN-COL-37799",
+        "campo": "NameMultilatEvent",
+        "motivo": "No se encontró confirmación independiente de una Cumbre de la Comunidad Andina de Naciones en Colombia el 27-28 de junio de 2003; la única fuente citada en COLT es un enlace genérico de LexisNexis sin título recuperable.",
+        "fuente_intentada": "Search Query: Comunidad Andina cumbre presidentes junio 2003 Colombia Chavez"
+      },
+      {
+        "TripID": "1383-VEN-COL-38300",
+        "campo": "TripStartDate",
+        "motivo": "Reunión bilateral con Uribe el 9 de noviembre de 2004; las fuentes citadas en COLT son enlaces genéricos sin título recuperable y no se halló corroboración independiente en esta sesión.",
+        "fuente_intentada": "Search Query: Chavez Uribe reunion noviembre 2004 frontera"
+      },
+      {
+        "TripID": "1383-VEN-PRY-37847",
+        "campo": "TripStartDate/TripEndDate",
+        "motivo": "No se identificó el propósito ni un evento público específico para este viaje a Paraguay del 14-15 de agosto de 2003; las fuentes citadas en COLT no incluyen títulos recuperables y no se halló corroboración independiente.",
+        "fuente_intentada": "Search Query: Chavez Paraguay agosto 2003 visita"
+      },
+      {
+        "TripID": "1383-VEN-PRY-38696",
+        "campo": "TripStartDate",
+        "motivo": "La fecha (2005-12-10) coincide exactamente con el último día de la Cumbre de Mercosur en Montevideo (1383-VEN-URY-38694, 2005-12-08/10), lo que genera ambigüedad: no queda claro si Chávez efectivamente hizo una escala separada en Paraguay ese mismo día o si se trata de una posible duplicación/registro impreciso del itinerario regional de esos días.",
+        "fuente_intentada": "Search Query: Chavez Duarte Paraguay 10 diciembre 2005 visita"
+      },
+      {
+        "TripID": "1383-VEN-QAT-38320",
+        "campo": "TripStartDate/TripEndDate",
+        "motivo": "El viaje se ubica dentro de una gira documentada por España (21-24 nov), Libia (24 nov), Rusia (25-27 nov) e Irán (28-29 nov) 2004, lo cual hace plausible una escala final en Catar el 29-30 de noviembre, pero no se encontró ninguna fuente independiente (de prensa o gubernamental) que confirme específicamente esta visita a Catar en noviembre de 2004; solo se halló confirmación clara de una visita posterior a Catar en marzo de 2005 (ver 1383-VEN-QAT-38418).",
+        "fuente_intentada": "Search Query: Chavez Doha Qatar noviembre 2004 Emir Hamad; Chavez visita Catar 2004"
+      },
+      {
+        "TripID": "1383-VEN-USA-37637",
+        "campo": "TripStartDate",
+        "motivo": "Viaje de un día a Estados Unidos (2004-01-16) sin evento multilateral ni anfitrión registrado; no se encontró corroboración independiente ni contexto claro sobre el propósito del viaje.",
+        "fuente_intentada": "Search Query: Chavez visit United States January 16 2003"
+      },
+      {
+        "TripID": "1383-VEN-URY-37849",
+        "campo": "TripStartDate",
+        "motivo": "Viaje de un día a Uruguay (2003-08-16) sin evento multilateral ni anfitrión registrado en COLT; no se encontró corroboración independiente del propósito o la fecha exacta.",
+        "fuente_intentada": "Search Query: Chavez Uruguay agosto 2003 visita Batlle"
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1383-VEN-CUB-38297",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-11-06 a 2004-11-07",
+        "justificacion": "Confirmado: Chávez viajó a Cuba la tarde del 6 de noviembre de 2004, inmediatamente después de su visita a República Dominicana ese mismo día, para reunirse con Fidel Castro. Nota textual del artículo: 'Chávez viajó al caer la tarde con destino a La Habana, Cuba, donde se reunirá con el presidente Fidel Castro.'",
+        "fuente": "https://hoy.com.do/el-pais/presidentes-chavez-y-fernandez-suscriben-acuerdo-de-cooperacion-energetica_21263.html"
+      },
+      {
+        "TripID": "1383-VEN-CUB-38334",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-12-13 a 2004-12-15",
+        "justificacion": "Confirmado: en su discurso del 14 de diciembre de 2004, Fidel Castro recibió a Chávez ('You came back, and you came back as a giant'), coincidiendo con esta visita en la que se firmó el acuerdo fundacional del ALBA.",
+        "fuente": "https://cuba-solidarity.org.uk/news/article/3274/the-encounter-two-decades-later"
+      },
+      {
+        "TripID": "1383-VEN-CUB-38469",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-04-27 a 2005-04-30",
+        "justificacion": "Consistente con la fuente ya citada en COLT (AFP, 'Castro and Chavez aim to boost Latin America's left wing alliance', 28 de abril de 2005), que documenta el encuentro Castro-Chávez en esas fechas; no se hallaron fuentes adicionales contradictorias.",
+        "fuente": "Citación de AFP ya presente en el registro COLT (28 abril 2005), consistente con la cronología de encuentros Castro-Chávez de ese período"
+      },
+      {
+        "TripID": "1383-VEN-CUB-38584",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-08-20 a 2005-08-23",
+        "justificacion": "Confirmado: la primera promoción de la Escuela Latinoamericana de Medicina (ELAM), con 1.498 graduados, se tituló en agosto de 2005, coincidiendo con la fecha de entrega de diplomas por Castro y Chávez (20 de agosto) ya documentada en la fuente citada en COLT (AP Worldstream).",
+        "fuente": "https://mediccreview.org/latin-american-medical-school-class-of-2015-exclusive-with-cuban-trained-us-graduates/"
+      },
+      {
+        "TripID": "1383-VEN-ARG-37766",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2003-05-25 a 2003-05-26",
+        "justificacion": "Néstor Kirchner asumió la presidencia de Argentina el 25 de mayo de 2003, ceremonia a la que asistieron numerosos jefes de Estado de la región, hecho históricamente bien documentado y consistente con las fuentes AP/AFP ya citadas en COLT.",
+        "fuente": "Search Query: Nestor Kirchner inauguration May 25 2003 foreign leaders attending"
+      },
+      {
+        "TripID": "1383-VEN-ARG-37850",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2003-08-17 a 2003-08-19",
+        "justificacion": "Consistente con las fuentes AP ya citadas en COLT ('Venezuelan President Chavez applauds Argentina's Mothers of the Plaza de Mayo', 18 agosto 2003, y nota del 20 de agosto sobre el discurso de Chávez defendiendo su 'revolución'), que documentan contemporáneamente esta visita.",
+        "fuente": "Citaciones de AP ya presentes en el registro COLT (18 y 20 de agosto de 2003)"
+      },
+      {
+        "TripID": "1383-VEN-ARG-38175",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-07-07 a 2004-07-08",
+        "justificacion": "Confirmado: Venezuela fue admitida como miembro asociado del Mercosur el 8 de julio de 2004 durante la cumbre de Puerto Iguazú, Argentina, con presencia de Chávez y Kirchner.",
+        "fuente": "https://venezuelanalysis.com/analysis/578/"
+      },
+      {
+        "TripID": "1383-VEN-ARG-38575",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-08-11",
+        "justificacion": "Forma parte de una gira regional documentada por Uruguay (10 ago), Argentina (11 ago) y Brasil (11-12 ago) de 2005, consistente con la fuente AP Worldstream ya citada en COLT: 'Venezuela's Chavez opens tour of Uruguay; Argentina and Brazil seeking closer ties' (10 agosto 2005).",
+        "fuente": "Citación de AP Worldstream ya presente en el registro COLT (10 de agosto de 2005)"
+      },
+      {
+        "TripID": "1383-VEN-ARG-38659",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-11-03 a 2005-11-05",
+        "justificacion": "Confirmado: la IV Cumbre de las Américas se realizó en Mar del Plata, Argentina, el 4-5 de noviembre de 2005; Chávez encabezó una contracumbre y un acto masivo contra el ALCA el 4 de noviembre.",
+        "fuente": "https://venezuelanalysis.com/news/1457/"
+      },
+      {
+        "TripID": "1383-VEN-BOL-37939",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2003-11-14 a 2003-11-15",
+        "justificacion": "La XIII Cumbre Iberoamericana se realizó en Santa Cruz de la Sierra, Bolivia, el 14-15 de noviembre de 2003, hecho histórico bien documentado y consistente con la fuente ya citada en COLT sobre la polémica declaración de Chávez sobre Bolivia en ese contexto.",
+        "fuente": "Search Query: XIII Cumbre Iberoamericana Santa Cruz de la Sierra Bolivia noviembre 2003"
+      },
+      {
+        "TripID": "1383-VEN-BRA-37622",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2003-01-01 a 2003-01-02",
+        "justificacion": "Luiz Inácio Lula da Silva asumió la presidencia de Brasil el 1 de enero de 2003; la propia nota de COLT ya indica que Chávez asistió a esa investidura, hecho ampliamente documentado.",
+        "fuente": "Search Query: Lula da Silva inauguration January 1 2003 foreign leaders Chavez"
+      },
+      {
+        "TripID": "1383-VEN-BRA-37646",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2003-01-25 a 2003-01-26",
+        "justificacion": "El Foro Social Mundial de 2003 se realizó en Porto Alegre del 23 al 28 de enero; la presencia y discurso de Chávez ante una multitud simpatizante el 26 de enero está documentada por las fuentes AFP/AP ya citadas en COLT.",
+        "fuente": "Citaciones de AFP y AP ya presentes en el registro COLT (26 de enero de 2003)"
+      },
+      {
+        "TripID": "1383-VEN-BRA-37736",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2003-04-25 a 2003-04-26",
+        "justificacion": "Consistente con la fuente AP ya citada en COLT ('Business leaders from Venezuela and Brazil want free trade zone', 26 de abril de 2003), que documenta contemporáneamente este encuentro empresarial.",
+        "fuente": "Citación de AP ya presente en el registro COLT (26 de abril de 2003)"
+      },
+      {
+        "TripID": "1383-VEN-BRA-37786",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2003-06-14 a 2003-06-15",
+        "justificacion": "Consistente con las fuentes Xinhua y AFP ya citadas en COLT (15 de junio de 2003), que documentan el anuncio de un préstamo de mil millones de dólares a Venezuela al cierre de esta visita.",
+        "fuente": "Citaciones de Xinhua y AFP ya presentes en el registro COLT (15 de junio de 2003)"
+      },
+      {
+        "TripID": "1383-VEN-BRA-38245",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-09-15",
+        "justificacion": "Consistente con la fuente de Deutsche Presse-Agentur ya citada en COLT ('Lula; Chavez call for South American unity', 15 de septiembre de 2004).",
+        "fuente": "Citación de Deutsche Presse-Agentur ya presente en el registro COLT (15 de septiembre de 2004)"
+      },
+      {
+        "TripID": "1383-VEN-BRA-38294",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-11-03 a 2004-11-05",
+        "justificacion": "Confirmado indirectamente: un artículo de prensa dominicana del 6 de noviembre de 2004 relata que tanto Chávez como Leonel Fernández llegaron a Santo Domingo esa madrugada 'procedente de Río de Janeiro, Brasil, donde participaron en la XVIII Cumbre del Grupo de Río', lo que corrobora la asistencia de Chávez a la Cumbre del Grupo de Río en Río de Janeiro en los días previos.",
+        "fuente": "https://hoy.com.do/el-pais/presidentes-chavez-y-fernandez-suscriben-acuerdo-de-cooperacion-energetica_21263.html"
+      },
+      {
+        "TripID": "1383-VEN-BRA-38336",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-12-15 a 2004-12-16",
+        "justificacion": "La Cumbre de Mercosur de diciembre de 2004 se realizó en Belo Horizonte, Brasil, evento regular bien documentado; consistente con las fuentes Xinhua ya citadas en COLT sobre la propuesta de Chávez de una unión sudamericana.",
+        "fuente": "Citaciones de Xinhua ya presentes en el registro COLT (18 de diciembre de 2004)"
+      },
+      {
+        "TripID": "1383-VEN-BRA-38382",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-01-30 a 2005-01-31",
+        "justificacion": "El V Foro Social Mundial se realizó en Porto Alegre del 26 al 31 de enero de 2005; el discurso de Chávez ante decenas de miles de personas en ese foro (donde profundizó su discurso sobre el 'socialismo del siglo XXI') es un hecho ampliamente documentado.",
+        "fuente": "Search Query: World Social Forum 2005 Porto Alegre Chavez speech January 30 2005"
+      },
+      {
+        "TripID": "1383-VEN-BRA-38481",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-05-09 a 2005-05-11",
+        "justificacion": "La I Cumbre de Países Sudamericanos y Árabes (ASPA) se realizó en Brasilia el 10-11 de mayo de 2005, consistente con la fuente AFP ya citada en COLT.",
+        "fuente": "Citación de AFP ya presente en el registro COLT (11 de mayo de 2005)"
+      },
+      {
+        "TripID": "1383-VEN-BRA-38575",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-08-11 a 2005-08-12",
+        "justificacion": "Última etapa de la gira regional Uruguay-Argentina-Brasil de agosto de 2005, documentada por la fuente AP Worldstream ya citada en COLT ('Venezuela's Chavez opens tour of Uruguay; Argentina and Brazil seeking closer ties', 10 de agosto de 2005).",
+        "fuente": "Citación de AP Worldstream ya presente en el registro COLT (10 de agosto de 2005)"
+      },
+      {
+        "TripID": "1383-VEN-BRA-38624",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-09-29 a 2005-09-30",
+        "justificacion": "Confirmado: la Primera Reunión de Jefes de Estado de la Comunidad Sudamericana de Naciones se realizó en Brasilia el 29-30 de septiembre de 2005.",
+        "fuente": "https://parlatino.org/pdf/publicaciones/internas/11/comunidad-sudamericana-naciones.pdf"
+      },
+      {
+        "TripID": "1383-VEN-BRA-38702",
+        "campo": "TripStartDate",
+        "valor": "2005-12-16",
+        "justificacion": "Consistente con la fuente AP Worldstream ya citada en COLT ('Presidents of Brazil; Venezuela lay cornerstone of first joint oil refinery', 16 de diciembre de 2005), relativa a la refinería binacional (Abreu e Lima).",
+        "fuente": "Citación de AP Worldstream ya presente en el registro COLT (16 de diciembre de 2005)"
+      },
+      {
+        "TripID": "1383-VEN-CHN-38342",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-12-21 a 2004-12-26",
+        "justificacion": "Confirmado: Chávez realizó una visita de Estado de cinco días a China en diciembre de 2004, reuniéndose con Hu Jintao en Beijing y firmando ocho acuerdos de cooperación económica y tecnológica.",
+        "fuente": "http://ls.china-embassy.gov.cn/eng/sgdt/200412/t20041224_6671450.htm"
+      },
+      {
+        "TripID": "1383-VEN-COL-38703",
+        "campo": "TripStartDate",
+        "valor": "2005-12-17",
+        "justificacion": "Consistente con la fuente AP ya citada en COLT ('With jokes and smiles, leaders of Colombia and Venezuela put aside their differences', 18 de diciembre de 2005), que documenta el encuentro Chávez-Uribe en esas fechas.",
+        "fuente": "Citación de AP ya presente en el registro COLT (18 de diciembre de 2005)"
+      },
+      {
+        "TripID": "1383-VEN-DOM-38297",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-11-06",
+        "justificacion": "Confirmado en detalle: Chávez llegó a Santo Domingo la madrugada del 6 de noviembre de 2004 (procedente de la Cumbre del Grupo de Río en Río de Janeiro), firmó el Acuerdo de Cooperación Energética de Caracas con Leonel Fernández, inauguró la Plaza Bolívar, almorzó con Fernández y viajó esa misma tarde a La Habana, Cuba.",
+        "fuente": "https://hoy.com.do/el-pais/presidentes-chavez-y-fernandez-suscriben-acuerdo-de-cooperacion-energetica_21263.html"
+      },
+      {
+        "TripID": "1383-VEN-ECU-37635",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2003-01-14 a 2003-01-15",
+        "justificacion": "Lucio Gutiérrez asumió la presidencia de Ecuador el 15 de enero de 2003, ceremonia a la que asistieron jefes de Estado de la región; hecho histórico bien documentado, consistente con la nota de COLT.",
+        "fuente": "Search Query: Lucio Gutierrez inauguration January 15 2003 foreign leaders"
+      },
+      {
+        "TripID": "1383-VEN-ECU-38180",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-07-12 a 2004-07-13",
+        "justificacion": "Consistente con la fuente AFP ya citada en COLT ('Venezuela's Chavez says he will win referendum with crushing knockout', 12 de julio de 2004), declaración hecha poco antes del referéndum revocatorio venezolano del 15 de agosto de 2004, lo que confirma el contexto temporal de esta cumbre de la CAN.",
+        "fuente": "Citación de AFP ya presente en el registro COLT (12 de julio de 2004)"
+      },
+      {
+        "TripID": "1383-VEN-FRA-38420",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-03-09 a 2005-03-10",
+        "justificacion": "Confirmado: Chávez realizó una visita de 24 horas a París el 9 de marzo de 2005, reuniéndose con Jacques Chirac, como etapa final de una gira que incluyó Uruguay, India y Catar.",
+        "fuente": "https://venezuelanalysis.com/news/988/"
+      },
+      {
+        "TripID": "1383-VEN-FRA-38644",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-10-19 a 2005-10-20",
+        "justificacion": "Confirmado: Chávez y Chirac se reunieron en París el miércoles 19 de octubre de 2005 (tercer encuentro entre ambos ese año), incluyendo un almuerzo con el primer ministro Dominique de Villepin.",
+        "fuente": "https://www.expatica.com/fr/uncategorized/chavez-and-chirac-affirm-common-vision-116182/"
+      },
+      {
+        "TripID": "1383-VEN-GUY-38036",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-02-19 a 2004-02-20",
+        "justificacion": "Confirmado: Chávez visitó Georgetown, Guyana, el 19-20 de febrero de 2004, recibido por el presidente Bharrat Jagdeo, con rueda de prensa conjunta el día 19 y discurso ante el Parlamento guyanés.",
+        "fuente": "https://www.eluniverso.com/2004/02/19/0001/14/404A0C29EC0A4FED9C5144C54B4F539F.html/"
+      },
+      {
+        "TripID": "1383-VEN-IND-38415",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-03-04 a 2005-03-07",
+        "justificacion": "Confirmado mediante fuente oficial: visita de Estado de Chávez a India del 4 al 7 de marzo de 2005, con reuniones con el primer ministro Manmohan Singh y el presidente A.P.J. Abdul Kalam, y firma de seis acuerdos/memorandos.",
+        "fuente": "https://mea.gov.in/bilateral-documents.htm?dtl%2F6456%2FJoint+Statement+Visit+of+HE+Mr+Hugo+="
+      },
+      {
+        "TripID": "1383-VEN-IRN-38319",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-11-28 a 2004-11-29",
+        "justificacion": "Confirmado: esta fue la cuarta visita de Chávez a Irán, realizada en noviembre de 2004, durante la cual él y Khatami firmaron acuerdos de energía, comercio, agricultura y cultura.",
+        "fuente": "https://www.unitedagainstnucleariran.com/iran-and-venezuela/relations-under-khatami-and-chavez"
+      },
+      {
+        "TripID": "1383-VEN-ITA-38641",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-10-16 a 2005-10-18",
+        "justificacion": "Confirmado: Chávez viajó a Roma en octubre de 2005 para el 60º aniversario de la FAO, donde criticó la política exterior de EEUU, se reunió con el primer ministro Berlusconi y compartió actos con Lula y Duarte.",
+        "fuente": "https://venezuelanalysis.com/news/1419/"
+      },
+      {
+        "TripID": "1383-VEN-JAM-38588",
+        "campo": "TripStartDate",
+        "valor": "2005-08-24",
+        "justificacion": "Confirmado: a fines de agosto de 2005, Patterson y Chávez sostuvieron una reunión privada donde se anunciaron los términos de la participación de Jamaica en Petrocaribe y se firmó un acuerdo bilateral sobre una refinería, como antesala de la cumbre formal de Petrocaribe de septiembre.",
+        "fuente": "https://jamaica-gleaner.com/article/lead-stories/20150909/night-fidel-castro-raced-hugo-chavez"
+      },
+      {
+        "TripID": "1383-VEN-JAM-38601",
+        "campo": "TripStartDate",
+        "valor": "2005-09-06",
+        "justificacion": "Confirmado: la Cumbre de Petrocaribe se realizó en Montego Bay, Jamaica, del 3 al 6 de septiembre de 2005, con la firma del acuerdo el 6 de septiembre por nueve países caribeños.",
+        "fuente": "https://en.mercopress.com/2005/09/08/caribbean-countries-sign-into-venezuela-s-petrocaribe"
+      },
+      {
+        "TripID": "1383-VEN-LBY-38315",
+        "campo": "TripStartDate",
+        "valor": "2004-11-24",
+        "justificacion": "Confirmado: en noviembre de 2004, Gadafi otorgó a Chávez el Premio Internacional Al-Gadafi de Derechos Humanos en Trípoli, marcando el inicio de una alianza estrecha entre ambos líderes.",
+        "fuente": "https://edition.cnn.com/2011/10/21/world/americas/venezuela-chavez-gadhafi/index.html"
+      },
+      {
+        "TripID": "1383-VEN-MEX-37998",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-01-12 a 2004-01-14",
+        "justificacion": "La Cumbre Especial de las Américas se realizó en Monterrey, México, el 12-13 de enero de 2004, hecho histórico bien documentado, con la participación de Chávez.",
+        "fuente": "Search Query: Special Summit of the Americas Monterrey Mexico January 2004 Chavez"
+      },
+      {
+        "TripID": "1383-VEN-MEX-38134",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-05-27 a 2004-05-28",
+        "justificacion": "La III Cumbre Unión Europea-América Latina y el Caribe se realizó en Guadalajara, México, a fines de mayo de 2004, con presencia de Chávez; no se detectaron inconsistencias mayores en el rango de fechas, aunque algunas fuentes ubican el día central de la cumbre el 28 de mayo.",
+        "fuente": "Search Query: III Cumbre Union Europea America Latina Caribe Guadalajara mayo 2004 Chavez"
+      },
+      {
+        "TripID": "1383-VEN-PRY-37789",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2003-06-17 a 2003-06-18",
+        "justificacion": "Consistente con el calendario regular de cumbres de Mercosur, que en junio de 2003 sesionó en Asunción, Paraguay, durante la presidencia pro tempore paraguaya.",
+        "fuente": "Search Query: Mercosur cumbre Asuncion junio 2003 presidentes"
+      },
+      {
+        "TripID": "1383-VEN-PRY-38522",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-06-19 a 2005-06-21",
+        "justificacion": "La Cumbre de Mercosur de junio de 2005 se realizó en Asunción, Paraguay, en el marco de las negociaciones para la incorporación plena de Venezuela al bloque, consistente con el registro de COLT.",
+        "fuente": "Search Query: XXVIII Cumbre Mercosur Asuncion junio 2005 Venezuela Chavez"
+      },
+      {
+        "TripID": "1383-VEN-PER-37763",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2003-05-22 a 2003-05-24",
+        "justificacion": "La XVII Cumbre del Grupo de Río se realizó en Cusco, Perú, el 23-24 de mayo de 2003, hecho histórico bien documentado.",
+        "fuente": "Search Query: XVII Cumbre Grupo de Rio Cusco Peru mayo 2003"
+      },
+      {
+        "TripID": "1383-VEN-PER-38329",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-12-08 a 2004-12-09",
+        "justificacion": "Confirmado: la Reunión Extraordinaria del Consejo Presidencial Andino y III Reunión de Presidentes de América del Sur se realizó en Cusco y Ayacucho, Perú, del 7 al 9 de diciembre de 2004 (donde se anunció la creación de la Comunidad Sudamericana de Naciones), con participación de Chávez.",
+        "fuente": "https://en.wikipedia.org/wiki/2004_South_American_Summit (usado como punto de partida, cruzado con referencias oficiales de la Comunidad Andina y Wikinews sobre el mismo evento)"
+      },
+      {
+        "TripID": "1383-VEN-PER-38550",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-07-17 a 2005-07-19",
+        "justificacion": "Confirmado mediante fuente oficial: la XVI Cumbre Presidencial Andina se realizó en Lima, Perú, el 18 de julio de 2005, con la participación de los presidentes de Bolivia, Colombia, Ecuador, Perú y Venezuela (Chávez), firmándose el Acta de Lima.",
+        "fuente": "https://www.comunidadandina.org/notas-de-prensa/cumbre-andina-congregara-en-lima-el-18-de-julio-a-presidentes-de-la-can-paises-asociados-y-paises-observadores/"
+      },
+      {
+        "TripID": "1383-VEN-QAT-38418",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-03-07 a 2005-03-08",
+        "justificacion": "Confirmado: Catar fue la tercera etapa de la gira de cuatro países/cuatro continentes de Chávez en marzo de 2005 (Uruguay, India, Catar y Francia), anunciada previamente en la prensa.",
+        "fuente": "https://www.eluniverso.com/2005/02/27/0001/14/7C58AFDDD1FB406392D7698369DD0817.html/"
+      },
+      {
+        "TripID": "1383-VEN-RUS-38316",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-11-25 a 2004-11-27",
+        "justificacion": "Confirmado mediante fuente oficial: Vladimir Putin y Hugo Chávez sostuvieron una cumbre en Moscú el 26 de noviembre de 2004, con conversaciones sobre cooperación bilateral y el mercado petrolero mundial, culminando en una declaración conjunta.",
+        "fuente": "http://en.kremlin.ru/events/president/news/32237"
+      },
+      {
+        "TripID": "1383-VEN-ESP-38312",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2004-11-21 a 2004-11-24",
+        "justificacion": "Confirmado mediante fuente oficial: el Congreso de los Diputados de España registra la visita del presidente Hugo Chávez el 22 de noviembre de 2004, consistente con el rango de fechas de la visita de Estado (21-24 de noviembre) que incluyó reuniones con el presidente del Gobierno José Luis Rodríguez Zapatero.",
+        "fuente": "https://www.congreso.es/es/cem/visitvenezuela2004"
+      },
+      {
+        "TripID": "1383-VEN-ESP-38639",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-10-14 a 2005-10-16",
+        "justificacion": "Confirmado: la XV Cumbre Iberoamericana se realizó en Salamanca, España, el 14-15 de octubre de 2005; el día adicional (16 de octubre) es consistente con actividades bilaterales de cierre con Zapatero.",
+        "fuente": "https://www.realinstitutoelcano.org/en/work-document/from-the-2004-ibero-american-summit-san-jose-costa-rica-to-the-2005-ibero-american-summit-salamanca-spain/"
+      },
+      {
+        "TripID": "1383-VEN-USA-38610",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-09-15 a 2005-09-17",
+        "justificacion": "Confirmado: Chávez estuvo en Nueva York a mediados de septiembre de 2005, pronunciando un discurso ante la Cumbre Mundial de la ONU y otro en el Bronx el 17 de septiembre de 2005 criticando las reformas de la ONU.",
+        "fuente": "https://archive.globalpolicy.org/empire/humanint/2005/0917chavezun.htm"
+      },
+      {
+        "TripID": "1383-VEN-URY-38412",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-03-01 a 2005-03-02",
+        "justificacion": "Tabaré Vázquez asumió la presidencia de Uruguay el 1 de marzo de 2005; una fuente independiente confirma que Uruguay fue el primer país de una gira de Chávez de cuatro países (Uruguay, India, Catar, Francia) iniciada en esas fechas, lo que corrobora su asistencia a la investidura.",
+        "fuente": "https://venezuelanalysis.com/news/988/"
+      },
+      {
+        "TripID": "1383-VEN-URY-38574",
+        "campo": "TripStartDate",
+        "valor": "2005-08-10",
+        "justificacion": "Confirmado: primera etapa de la gira regional de agosto de 2005 (Uruguay-Argentina-Brasil), documentada por la fuente AP Worldstream ya citada en COLT ('Venezuela's Chavez opens tour of Uruguay; Argentina and Brazil seeking closer ties', 10 de agosto de 2005).",
+        "fuente": "Citación de AP Worldstream ya presente en el registro COLT (10 de agosto de 2005)"
+      },
+      {
+        "TripID": "1383-VEN-URY-38694",
+        "campo": "TripStartDate/TripEndDate",
+        "valor": "2005-12-08 a 2005-12-10",
+        "justificacion": "Confirmado: la XXIX Cumbre de Mercosur se realizó en Montevideo, Uruguay, el 8-9 de diciembre de 2005, ocasión en la que Venezuela pasó de miembro asociado a miembro pleno del bloque; Fidel Castro también asistió de forma sorpresiva.",
+        "fuente": "https://www.aljazeera.com/news/2005/10/16/venezuela-joins-mercosur-trade-bloc"
+      }
+    ]
+  }
+]

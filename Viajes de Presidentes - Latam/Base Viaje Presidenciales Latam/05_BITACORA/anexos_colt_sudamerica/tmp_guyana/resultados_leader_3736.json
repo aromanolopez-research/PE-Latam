@@ -1,0 +1,327 @@
+[
+  {
+    "LeaderID": "3736",
+    "correcciones": [
+      {
+        "TripID": "3736-GUY-GRD-45501",
+        "campo": "TripEndDate",
+        "valor_correcto": "2024-07-30",
+        "fuente": "https://caricom.org/communique-issued-at-the-conclusion-of-the-47hgc/",
+        "justificacion": "El 47° Regular Meeting of the Conference of Heads of Government of CARICOM se realizó en St George's, Grenada, del 28 al 30 de julio de 2024 (reprogramado desde el 3-5 de julio por el huracán Beryl). El comunicado oficial de CARICOM y medios confirman que la ceremonia de clausura, con discurso de Ali como presidente saliente de CARICOM, ocurrió el 30 de julio, no el 29 como figura en la base."
+      },
+      {
+        "TripID": "3736-GUY-GRD-45501",
+        "campo": "TripDuration",
+        "valor_correcto": "3",
+        "fuente": "https://caricom.org/media-advisory-new-date-for-the-47th-regular-meeting-of-the-conference-of-heads-of-government-of-the-caribbean-community-caricom-28-30-july-2024-grenada/",
+        "justificacion": "Consecuencia de la corrección de TripEndDate a 2024-07-30: la duración del viaje (28 al 30 de julio) es de 3 días, no 2."
+      },
+      {
+        "TripID": "3736-GUY-USA-45181",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "United Nations (UN) General Assembly;Concordia Annual Summit;OAS Permanent Council Protocolary Meeting",
+        "fuente": "https://www.minfor.gov.gy/newsroom/his-excellency-president-dr-irfaan-ali-attended-protocolary-meeting-permanent-council",
+        "justificacion": "Durante el mismo viaje a Estados Unidos (12-20 sept 2023), el 15 de septiembre de 2023 Ali también asistió a una Reunión Protocolar del Consejo Permanente de la OEA en Washington DC (confirmado por el Ministerio de Relaciones Exteriores de Guyana, la OEA -AVI-170/23- y video de sus palabras del 15-sep-2023), evento no reflejado en el campo NameMultilatEvent ni en las Notes del registro actual."
+      },
+      {
+        "TripID": "3736-GUY-USA-45181",
+        "campo": "CityVisited",
+        "valor_correcto": "New York;Washington, DC",
+        "fuente": "https://www.oas.org/en/media_center/press_release.asp?sCodigo=AVI-170/23",
+        "justificacion": "El campo CityVisited está vacío en la base, pero el viaje incluyó tanto Nueva York (UNGA, Concordia Summit) como Washington DC (reunión protocolar en la sede de la OEA el 15 de septiembre de 2023)."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Saint Kitts and Nevis",
+        "CityVisited": "Basseterre",
+        "TripStartDate": "2026-02-24",
+        "TripEndDate": "2026-02-27",
+        "TripDuration": "4",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "Prime Minister Terrance Drew",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "Caribbean Community (CARICOM) Summit",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://caricom.org/fiftieth-50th-regular-meeting-of-the-conference-of-caricom-heads-of-government-st-kitts-and-nevis-24-27-february-2026/ ; https://www.stabroeknews.com/2026/02/25/news/guyana/president-ali-us-secretary-of-state-in-bilateral-meeting/",
+        "justificacion": "El 50° Regular Meeting de CARICOM se realizó en Basseterre, San Cristóbal y Nieves, del 24 al 27 de febrero de 2026, bajo la presidencia del PM Terrance Drew, con asistencia histórica de todos los jefes de Estado/Gobierno miembros. Prensa (Stabroek News, Kaieteur News) confirma la presencia de Ali, quien además sostuvo una reunión bilateral con el Secretario de Estado de EE.UU. Marco Rubio en los márgenes de la cumbre el 25 de febrero de 2026. Viaje no incluido en la base cargada (que termina en diciembre de 2025)."
+      },
+      {
+        "CountryVisited": "United States",
+        "CityVisited": "Doral",
+        "TripStartDate": "2026-03-07",
+        "TripEndDate": "2026-03-07",
+        "TripDuration": "1",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Donald Trump",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "Shield of the Americas Summit",
+        "MetNonhostHOGS": "Yes",
+        "NonhostHOGSNames": "Prime Minister Kamla Persad-Bissessar;President Daniel Noboa",
+        "SignedAgreement": "Yes",
+        "fuente": "https://kaieteurnewsonline.com/2026/03/11/irfaan-allying-with-president-trump-americas-shield/ ; https://usforeignpolicy.org/articles/shield-of-americas-trump-latin-america-cartel-coalition-march-2026.html ; https://www.state.gov/releases/office-of-the-spokesperson/2026/03/the-united-states-to-host-the-shield-of-the-americas-summit",
+        "justificacion": "El 7 de marzo de 2026 Trump convocó la cumbre inaugural 'Shield of the Americas' en su resort de Doral (Miami), Florida, reuniendo a 12 jefes de Estado latinoamericanos que firmaron la 'Doral Charter' creando la 'Americas Counter-Cartel Coalition'. Guyana y Trinidad y Tobago fueron los dos únicos países de CARICOM invitados; Kaieteur News confirma explícitamente la asistencia de Ali. El evento no figura en la base cargada."
+      },
+      {
+        "CountryVisited": "United States",
+        "CityVisited": "Houston",
+        "TripStartDate": "2026-05-04",
+        "TripEndDate": "2026-05-04",
+        "TripDuration": "1",
+        "MetHostHoGS": "No",
+        "HostHOGSName": "",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "Offshore Technology Conference (OTC) 2026",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://www.otcnet.org/press-releases/otc-2026-wraps-four-days-dialogue-offshore-energys-next-frontiers ; https://jpt.spe.org/president-of-guyana-makes-case-for-oil-and-gas-in-a-balanced-energy-system-at-otc ; https://worldoil.com/news/2026/5/4/otc-day-1-guyana-s-president-delivers-somewhat-confusing-message/",
+        "justificacion": "Ali dio el discurso de apertura de la Offshore Technology Conference (OTC) 2026 en Houston, Texas, el 4 de mayo de 2026 (Día 1 de la conferencia), liderando una delegación de unos 100 funcionarios y representantes del sector privado guyanés. Fecha exacta de regreso a Guyana no confirmada en fuentes; se usa el 4 de mayo como fecha mínima documentada (discurso de apertura). Viaje no incluido en la base cargada."
+      },
+      {
+        "CountryVisited": "Canada",
+        "CityVisited": "Toronto",
+        "TripStartDate": "2026-05-08",
+        "TripEndDate": "2026-05-08",
+        "TripDuration": "1",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "Prime Minister Mark Carney",
+        "AttendedMultilatEvent": "No",
+        "NameMultilatEvent": "",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://www.pm.gc.ca/en/news/readouts/2026/05/08/prime-minister-carney-meets-president-guyana-dr-mohamed-irfaan-ali ; https://newsroom.gy/2026/05/09/guyanas-ali-canadas-carney-explore-more-investment-opportunities/",
+        "justificacion": "El 8 de mayo de 2026, el primer ministro canadiense Mark Carney se reunió bilateralmente con el presidente Ali en Toronto (Royal York Hotel), en los márgenes de la Canada 2020 Global Progress Summit, para discutir inversión canadiense en energía, tecnología, agricultura y minería en Guyana. No se trató formalmente de una cumbre Canadá-CARICOM (esa ya ocurrió en Ottawa en octubre de 2023, capturada en TripID 3736-GUY-CAN-45216). Viaje no incluido en la base cargada."
+      },
+      {
+        "CountryVisited": "Saint Lucia",
+        "CityVisited": "Gros Islet",
+        "TripStartDate": "2026-07-05",
+        "TripEndDate": "2026-07-08",
+        "TripDuration": "4",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "Prime Minister Philip J. Pierre",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "Caribbean Community (CARICOM) Summit",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://caricom.org/media-advisory-fifty-first-regular-meeting-of-caricom-heads-of-government-5-8-july-2026-gros-islet-saint-lucia/ ; https://caricom.org/communique-fifty-first-regular-meeting-of-the-conference-of-heads-of-government-of-the-caribbean-community-caricom-saint-lucia/",
+        "justificacion": "El 51° Regular Meeting de CARICOM se celebró en Gros Islet, Santa Lucía, del 5 al 8 de julio de 2026, bajo la presidencia del PM Philip J. Pierre. El comunicado oficial de CARICOM confirma a Ali entre los jefes de Estado/Gobierno presentes. Viaje no incluido en la base cargada."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "3736-GUY-CAN-45528",
+        "campo": "TripEndDate",
+        "justificacion": "La propia base marca 'Trip end date unclear'. Se buscó cobertura de prensa sobre la visita de Ali a Toronto en agosto de 2024 (reuniones con Masai Ujiri, Air Canada, Ministro Ahmed Hussen) pero no se encontró una fuente independiente que precise la fecha exacta de salida más allá del 24-25 de agosto de 2024 ya cargado; no se pudo confirmar ni corregir con certeza."
+      },
+      {
+        "TripID": "3736-GUY-BRA-45967",
+        "campo": "TripEndDate",
+        "justificacion": "La base indica 'Trip end date is not clear'. COP30 se realizó en Belém del 10 al 21/22 de noviembre de 2025 y Ali participó en un panel sobre transición energética, pero no se halló una fuente independiente (prensa o gobierno de Guyana) que precise el día exacto de su regreso a Georgetown dentro del rango 6-8 de noviembre cargado."
+      },
+      {
+        "TripID": "3736-GUY-GBR-45556",
+        "campo": "TripStartDate;TripEndDate",
+        "justificacion": "La base indica 'Trip start and end dates unclear'. Se buscó información sobre la visita de Ali a Escocia/Reino Unido en septiembre de 2024 (reunión con el Rey Carlos III, discurso en Oxford, premio Caribbean Global Leader) pero no se encontró una fuente independiente que confirme con precisión las fechas de inicio y fin más allá del rango 21-23 de septiembre de 2024 ya cargado en la base."
+      },
+      {
+        "TripID": "3736-GUY-USA-45727",
+        "campo": "TripEndDate",
+        "justificacion": "La base indica 'Unsure about Exit date'. Se confirmó que CERAWeek 2025 se realizó en Houston y que Ali sostuvo reuniones con el Secretario de Energía Chris Wright y el Secretario del Interior Doug Burgum, pero no se halló una fuente independiente que precise con exactitud la fecha de salida de Ali de Estados Unidos."
+      },
+      {
+        "TripID": "3736-GUY-USA-45960",
+        "campo": "TripStartDate;TripEndDate",
+        "justificacion": "La base indica 'Trip start and end dates are not clear'. Se confirmó mediante fuentes (Time, Facebook oficial) que Ali asistió a la gala Time100 Next en Manhattan a fines de octubre de 2025, pero no se encontró una fuente independiente que precise con exactitud las fechas de entrada y salida de Estados Unidos."
+      },
+      {
+        "TripID": "3736-GUY-USA-46004",
+        "campo": "TripStartDate;TripEndDate",
+        "justificacion": "La base indica 'Trip start and end dates are not clear'. Se confirmó que Ali visitó Nueva York a mediados de diciembre de 2025 (evento del International Centre for Democracy, Ex-Guyana Defence Force Association, diáspora guyanesa), pero no se encontró una fuente independiente que precise con exactitud las fechas de entrada y salida."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "3736-GUY-BHS-44972",
+        "justificacion": "El 44° CARICOM Heads of Government Meeting se realizó en Nassau, Bahamas, 15-17 de febrero de 2023, bajo la presidencia del PM Philip Davis. Fechas y evento confirmados por comunicado oficial de CARICOM; no se halló evidencia de reunión bilateral formal con Davis que justifique cambiar MetHostHoGS."
+      },
+      {
+        "TripID": "3736-GUY-BHS-45084",
+        "justificacion": "Ali llegó a Nassau la tarde del 7 de junio de 2023 para la reunión de líderes EE.UU.-CARICOM del 8 de junio, confirmado por la cancillería de Guyana; fechas y evento coinciden con lo cargado en la base."
+      },
+      {
+        "TripID": "3736-GUY-BHS-45455",
+        "justificacion": "El 31° Afreximbank Annual Meeting se realizó en Bahamas en junio de 2024; las fuentes ya citadas en la base (Bahamas Chronicle, iNews Guyana, Newsroom Guyana) son independientes y consistentes con las fechas cargadas."
+      },
+      {
+        "TripID": "3736-GUY-BRB-44473",
+        "justificacion": "Mia Mottley era la PM de Barbados en octubre de 2021 y UNCTAD15 se realizó en Bridgetown en esas fechas; consistente con fuentes ya citadas (GIS Barbados, Barbados Today, Stabroek News)."
+      },
+      {
+        "TripID": "3736-GUY-BRB-44677",
+        "justificacion": "Escala breve en Barbados el 26 de abril de 2022 antes de continuar viaje al Reino Unido (mismo día de inicio del viaje GBR-44677); consistente con el itinerario combinado."
+      },
+      {
+        "TripID": "3736-GUY-BRB-45707",
+        "justificacion": "El 48° CARICOM Summit se realizó en Bridgetown, Barbados, en febrero de 2025, con Mia Mottley como PM anfitriona; datos consistentes con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-BEL-45124",
+        "justificacion": "La Cumbre UE-CELAC se realizó en Bruselas los días 17-18 de julio de 2023; fuentes ya citadas (EPA Images, Guyana Chronicle) son independientes y consistentes."
+      },
+      {
+        "TripID": "3736-GUY-BLZ-44620",
+        "justificacion": "El 4° CARICOM-SICA Summit se realizó en Belice a fines de febrero/inicios de marzo de 2022; fuentes ya citadas (Loop News, cancillería de Guyana, Guyana Chronicle) son consistentes."
+      },
+      {
+        "TripID": "3736-GUY-BRA-45075",
+        "justificacion": "La Cumbre de Presidentes Sudamericanos convocada por Lula se realizó en Brasilia el 29-30 de mayo de 2023; consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-BRA-45821",
+        "justificacion": "Lula da Silva era presidente de Brasil en junio de 2025; la Cumbre Brasil-CARICOM en Brasilia el 13-14 de junio de 2025 y la reunión bilateral con Ali son consistentes con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-CAN-45216",
+        "justificacion": "La primera Cumbre Canadá-CARICOM se realizó en Ottawa del 17 al 19 de octubre de 2023, copresidida por Justin Trudeau; confirmado también por búsqueda independiente (embajada de Guyana en Kuwait, PM Canadá), coincide con fechas cargadas."
+      },
+      {
+        "TripID": "3736-GUY-CHN-45131",
+        "justificacion": "Xi Jinping era el líder de China en julio de 2023; Ali visitó los World University Games en Chengdu, consistente con fuentes oficiales chinas ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-CRI-45202",
+        "justificacion": "Rodrigo Chaves era presidente de Costa Rica en octubre de 2023; la Conferencia de Ministros de Agricultura de las Américas 2023 del IICA es consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-DOM-45146",
+        "justificacion": "Luis Abinader era presidente de República Dominicana en agosto de 2023; la firma de memorandos de entendimiento sobre refinería y petroquímica es consistente con fuentes ya citadas (Reuters, presidencia RD)."
+      },
+      {
+        "TripID": "3736-GUY-DOM-45520",
+        "justificacion": "Confirmado de forma independiente: la segunda toma de posesión de Luis Abinader se realizó el 16 de agosto de 2024 en el Teatro Nacional de Santo Domingo, con Irfaan Ali entre los 14 jefes de Estado/Gobierno confirmados como invitados (Diario Libre, Listín Diario, SWI). Fecha única (1 día) consistente con lo cargado."
+      },
+      {
+        "TripID": "3736-GUY-IND-44934",
+        "justificacion": "Narendra Modi era primer ministro de India en enero de 2023; la Pravasi Bhartiya Divas Convention y la gira de Ali por seis ciudades son consistentes con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-JAM-45362",
+        "justificacion": "La 45° reunión de CARICOM se realizó en Jamaica en marzo de 2024; fuentes ya citadas son consistentes con las fechas cargadas."
+      },
+      {
+        "TripID": "3736-GUY-JAM-45844",
+        "justificacion": "Confirmado: el 49° Regular Meeting de CARICOM se realizó en Montego Bay, Jamaica, del 6 al 8 de julio de 2025, según comunicado oficial de CARICOM citado en la propia base; datos consistentes."
+      },
+      {
+        "TripID": "3736-GUY-JAM-45978",
+        "justificacion": "Los líderes de CARICOM, incluido Ali, visitaron Jamaica el 17 de noviembre de 2025 para evaluar daños del huracán Melissa; consistente con comunicado de CARICOM ya citado."
+      },
+      {
+        "TripID": "3736-GUY-MEX-44456",
+        "justificacion": "Andrés Manuel López Obrador era presidente de México en septiembre de 2021; la Cumbre CELAC en Ciudad de México es consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-QAT-45061",
+        "justificacion": "El Emir Tamim bin Hamad Al Thani gobernaba Catar en mayo de 2023; la inauguración de la embajada de Guyana en Doha es consistente con fuentes ya citadas (The Peninsula Qatar, OANA)."
+      },
+      {
+        "TripID": "3736-GUY-VCT-45274",
+        "justificacion": "La reunión Ali-Maduro en Kingstown, San Vicente y las Granadinas, el 14 de diciembre de 2023 (Declaración de Argyle) es un hecho ampliamente documentado y consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-VCT-45350",
+        "justificacion": "La Cumbre CELAC se realizó en Kingstown, San Vicente y las Granadinas, el 28 de febrero de 2024, con Lula como uno de los asistentes; consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-WSM-45589",
+        "justificacion": "El CHOGM 2024 se realizó en Apia, Samoa, el 24-25 de octubre de 2024, con Keir Starmer como primer ministro británico presente; consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-SAU-45245",
+        "justificacion": "La primera Cumbre Arabia Saudita-CARICOM se realizó en Riad a mediados de noviembre de 2023; consistente con fuentes ya citadas (SPA, embajada saudita)."
+      },
+      {
+        "TripID": "3736-GUY-SAU-45957",
+        "justificacion": "El Future Investment Initiative Forum se realizó en Riad del 27 al 29 de octubre de 2025, con el príncipe heredero Mohammed bin Salman como anfitrión de facto; consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-SUR-44158",
+        "justificacion": "Chandrikapersad Santokhi era presidente de Surinam en noviembre de 2020; el 45° aniversario de independencia de Surinam es consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-SUR-44581",
+        "justificacion": "Jair Bolsonaro era presidente de Brasil en enero de 2022; la reunión trilateral Guyana-Surinam-Brasil sobre integración energética es consistente con fuentes ya citadas (incluyendo Euronews)."
+      },
+      {
+        "TripID": "3736-GUY-SUR-45913",
+        "justificacion": "Jennifer Geerlings-Simons, electa presidenta de Surinam el 6 de julio de 2025 e investida el 16 de julio de 2025, era la jefa de Estado correcta para la reunión bilateral del 13 de septiembre de 2025 en Nieuw Nickerie; consistente con fuentes ya citadas (Gobierno de Surinam, iNews Guyana)."
+      },
+      {
+        "TripID": "3736-GUY-TTO-44790",
+        "justificacion": "Keith Rowley era primer ministro de Trinidad y Tobago en agosto de 2022; la primera visita de Estado de Ali y el Agri-Investment Forum son consistentes con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-ARE-44488",
+        "justificacion": "La Expo 2020 Dubai (extendida a 2021-2022) y el Día Nacional de Guyana en la Expo son consistentes con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-ARE-44642",
+        "justificacion": "El Caribbean Investment Forum en Dubai en marzo de 2022 es consistente con fuentes ya citadas (Stabroek News, Loop News)."
+      },
+      {
+        "TripID": "3736-GUY-ARE-45260",
+        "justificacion": "Mohammed bin Zayed Al Nahyan era presidente de EAU en noviembre-diciembre de 2023; la COP28 en Dubai y las reuniones bilaterales con Modi, Lula, Macron y el rey Carlos III son consistentes con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-GBR-44500",
+        "justificacion": "Boris Johnson era primer ministro del Reino Unido en octubre-noviembre de 2021; la COP26 en Glasgow es consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-GBR-44677",
+        "justificacion": "Boris Johnson seguía siendo primer ministro en abril de 2022; el seminario de inversión Guyana-Reino Unido es consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-GBR-45050",
+        "justificacion": "La coronación de Carlos III se realizó en Londres el 6 de mayo de 2023 (viaje 4-7 de mayo); consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-USA-44459",
+        "justificacion": "El 76° período de sesiones de la Asamblea General de la ONU se realizó en septiembre de 2021; consistente con fuentes ya citadas, incluyendo la web oficial de la ONU."
+      },
+      {
+        "TripID": "3736-GUY-USA-44718",
+        "justificacion": "Joe Biden era presidente de EE.UU. y anfitrión de la Cumbre de las Américas en Los Ángeles en junio de 2022; consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-USA-44767",
+        "justificacion": "La primera visita oficial de Ali a EE.UU. en julio de 2022, con reunión con el Secretario de Estado Blinken, es consistente con fuentes ya citadas (Reuters, Departamento de Estado)."
+      },
+      {
+        "TripID": "3736-GUY-USA-44818",
+        "justificacion": "El 77° período de sesiones de la Asamblea General de la ONU se realizó en septiembre de 2022, con reunión de Ali con Biden y Guterres; consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-USA-44869",
+        "justificacion": "La gala anual de la American Caribbean Maritime Foundation en Fort Lauderdale el 4 de noviembre de 2022 es consistente con fuentes ya citadas (Stabroek News, cancillería de Guyana)."
+      },
+      {
+        "TripID": "3736-GUY-USA-45558",
+        "justificacion": "El 79° período de sesiones de la Asamblea General de la ONU se realizó en septiembre de 2024; la reunión con Blinken y otros funcionarios es consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-USA-45750",
+        "justificacion": "La visita a Berkeley, San Francisco, Mountain View, Santa Clara y San José en abril de 2025 (Berkeley Innovation Forum, NASA Ames, Google X, Nvidia, IBM) es consistente con fuentes ya citadas."
+      },
+      {
+        "TripID": "3736-GUY-USA-45922",
+        "justificacion": "El 80° período de sesiones de la Asamblea General de la ONU se realizó en septiembre de 2025; la reunión con el Secretario de Estado Marco Rubio está confirmada de forma independiente por el propio Departamento de Estado de EE.UU. (fuente ya citada en la base)."
+      }
+    ]
+  }
+]

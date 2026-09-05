@@ -1339,3 +1339,126 @@ el fix manual de columnas de identidad de lider-. Detalle completo en
 PENDIENTES_VERIFICACION.txt, seccion "COLOMBIA — VERIFICACION COLT COMPLETA". Con este
 cierre, Colombia queda con verificacion COLT completa de punta a punta dentro del
 alcance del proyecto (1994-2026).
+
+[2026-09-03] MANDATARIO | Ecuador: verificacion COLT completa, 9 mandatarios/tramos
+(1994-2026, incluye a Daniel Noboa en funciones, investigado hasta hoy). 428/428 TripID
+cubiertos. 47 correcciones aplicadas, 21 hallazgos reportados (20 cargados como filas
+PELATAM reales + 1 cancelacion -gira a Vietnam de Noboa, ago-2026- documentada en la
+hoja Viajes_Cancelados en vez de como viaje realizado), 64 no_verificable, 329
+confirmados_sin_cambios, 0 eliminaciones. Pipeline: colt_export_csv.py / colt_aplicar_
+workpacks.py Ecuador ecuador_completo (10 archivos JSON, incluye 1 rehecho entero y 2
+parches puntuales tras cortes por limite de uso de la API) / colt_validar_madre.py /
+colt_importar_csv.py. QC post-merge detecto y corrigio 3 problemas nuevos (2 TripID con
+TripEndDate<TripStartDate por correccion incompleta del subagente, 1 fila PELATAM de
+cancelacion mal cargada en la hoja principal) mas 1 archivo de parche con nombres de
+campo fuera de esquema detectado antes de aplicar. Backup: 04_BASE_FINAL/Base_COLT_
+Sudamerica_backup_pre_ecuador_merge.xlsx. Log: 05_BITACORA/anexos_colt_sudamerica/
+cambios_aplicados_ecuador_completo_2026-09-03.csv. Datos_COLT_Sudamerica: 5376 -> 5396
+filas (+20). Viajes_Cancelados: 45 -> 46 filas (+1). colt_validar_madre.py: mismos 16
+problemas preexistentes de otros paises, 0 nuevos tras los fixes. Se actualizo tambien
+08_ANALISIS_R/graficos_exploratorios.R (Cuadro diferencias_colt del paper, reemplazando
+los placeholders "Sin iniciar" de Ecuador por las cifras reales: Agregados=20,
+Modificados=47, Eliminados=0, Pendientes_de_validar=64). Detalle completo en
+PENDIENTES_VERIFICACION.txt, seccion "ECUADOR — VERIFICACION COLT COMPLETA". Con este
+cierre, Ecuador queda con verificacion COLT completa de punta a punta dentro del alcance
+del proyecto (1994-2026); quedan 9 de 12 paises sudamericanos cerrados, restan Guyana,
+Surinam y Venezuela.
+
+[2026-09-04] MANDATARIO | Guyana: verificacion COLT completa, 6 mandatarios/tramos
+(1994-2026, incluye a Irfaan Ali en funciones, investigado hasta hoy). 315/315 TripID
+cubiertos. 33 correcciones aplicadas, 10 hallazgos nuevos cargados como filas PELATAM
+reales (PELATAM-GUY-1 a 10, sin cancelaciones esta vez), 35 no_verificable, 248
+confirmados_sin_cambios, 0 eliminaciones. Pipeline: colt_export_csv.py / colt_aplicar_
+workpacks.py Guyana guyana_completo (7 archivos JSON, 5 redespachados tras cortes por
+limite de uso de la API) / colt_validar_madre.py / colt_importar_csv.py. QC previo al
+merge detecto y corrigio 2 archivos de resultados mal estructurados (objeto JSON suelto
+en vez de array) antes de aplicar; colt_validar_madre.py post-merge no encontro
+problemas nuevos (mismos 16 preexistentes de siempre). Backup: 04_BASE_FINAL/Base_COLT_
+Sudamerica_backup_pre_guyana_merge.xlsx. Log: 05_BITACORA/anexos_colt_sudamerica/
+cambios_aplicados_guyana_completo_2026-09-04.csv. Datos_COLT_Sudamerica: 5396 -> 5406
+filas (+10). Se actualizo tambien 08_ANALISIS_R/graficos_exploratorios.R (Cuadro
+diferencias_colt del paper, reemplazando los placeholders "Sin iniciar" de Guyana por
+las cifras reales: Agregados=10, Modificados=33, Eliminados=0, Pendientes_de_validar=
+35). Detalle completo en PENDIENTES_VERIFICACION.txt, seccion "GUYANA — VERIFICACION
+COLT COMPLETA". Hallazgo destacado verificado de forma independiente: captura de
+Nicolas Maduro por EEUU el 3 de enero de 2026 ("Operation Absolute Resolve"), relevante
+para el futuro modulo de Venezuela. Con este cierre, Guyana queda con verificacion COLT
+completa de punta a punta dentro del alcance del proyecto (1994-2026); quedan 10 de 12
+paises sudamericanos cerrados, restan Surinam y Venezuela.
+
+[2026-09-04] MANDATARIO | Surinam: verificacion COLT completa, 5 mandatarios/tramos
+(1994-2026, incluye a Jennifer Geerlings-Simons en funciones, investigada hasta hoy).
+141/141 TripID cubiertos. 24 correcciones aplicadas, 7 hallazgos nuevos cargados como
+filas PELATAM reales (PELATAM-SUR-1 a 7), 14 no_verificable, 113 confirmados_sin_
+cambios, 0 eliminaciones. Pipeline: colt_export_csv.py / colt_aplicar_workpacks.py
+Suriname surinam_completo (5 archivos JSON, los 5 completados en el primer despacho sin
+redespachos por limite de API) / colt_validar_madre.py / colt_importar_csv.py. QC
+posterior al merge detecto y corrigio 1 problema nuevo (un valor literal "no_verificable"
+cargado por error en un campo de fecha en vez de mover el item al array correcto);
+colt_validar_madre.py post-fix no encontro problemas nuevos (mismos 16 preexistentes de
+siempre). Backup: 04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_surinam_merge.xlsx. Log:
+05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_surinam_completo_2026-09-04.csv.
+Datos_COLT_Sudamerica: 5406 -> 5413 filas (+7). Se actualizo tambien 08_ANALISIS_R/
+graficos_exploratorios.R (Cuadro diferencias_colt del paper, reemplazando los
+placeholders "Sin iniciar" de Surinam por las cifras reales: Agregados=7, Modificados=
+24, Eliminados=0, Pendientes_de_validar=14). Detalle completo en PENDIENTES_
+VERIFICACION.txt, seccion "SURINAM — VERIFICACION COLT COMPLETA". Con este cierre,
+Surinam queda con verificacion COLT completa de punta a punta dentro del alcance del
+proyecto (1994-2026); queda 1 solo pais sudamericano por cerrar: Venezuela.
+
+[2026-09-04] PREPARATIVOS | Venezuela: por decision del usuario, esta sesion se limito a
+dejar preparado el ultimo modulo del proyecto (12/12) para despacho en la proxima sesion.
+Se actualizo mandatos_presidenciales.csv (Maduro con fin de mandato acotado al 2026-01-03,
+fecha de su captura por EEUU -Operacion "Absolute Resolve", reverificada independientemente
+esta sesion via subagente de fact-check dedicado-; nueva fila para Delcy Rodriguez, presidenta
+encargada desde 2026-01-05, LeaderID sintetico 90007, siguiente disponible tras 90001-90006).
+Se extrajeron y verificaron programaticamente 494/494 TripID elegibles de los 532 crudos de
+Venezuela (532 filas totales, el modulo individual mas grande del proyecto), excluyendo del
+alcance -documentados, sin workpack- a Carlos Andres Perez (307, 37 filas, integramente
+pre-1994) y Ramon Jose Velasquez (815, 1 fila, pre-1994). Se armaron 10 workpacks + 1
+investigacion desde cero (Delcy Rodriguez) en 05_BITACORA/anexos_colt_sudamerica/
+tmp_venezuela/ (WP1 Caldera completo; WP2-WP7 Chavez dividido en 6 tramos por fecha; WP8-WP10
+Maduro dividido en 3 tramos por fecha, con instruccion especial en WP10 de investigar
+activamente la brecha documental entre el ultimo registro COLT -2025-05-06- y el fin real de
+gestion -2026-01-03-; WP11 Delcy Rodriguez sin cobertura COLT previa). Prompts de dispatch
+completos (contexto comun + notas historicas/politicas especificas de cada tramo) redactados
+en tmp_venezuela/PROMPTS_VENEZUELA.md, listos para copiar/pegar en la proxima sesion. NO se
+despacharon subagentes de investigacion ni se aplico nada al archivo madre esta sesion -eso
+queda reservado para la proxima sesion, que cerrara el pais 12 de 12 y con el todo el
+proyecto de verificacion COLT-Sudamerica-. Detalle completo en PENDIENTES_VERIFICACION.txt,
+seccion "VENEZUELA — PREPARATIVOS COMPLETADOS".
+
+[2026-09-05] MANDATARIO | Venezuela: CIERRE. Ultimo pais del proyecto (12/12). Modulo
+individual mas grande de la base (532 filas crudas en 5 LeaderID: Perez, Velasquez,
+Caldera, Chavez, Maduro). Excluidos por ser integramente pre-1994: Carlos Andres Perez
+(307, 37 filas) y Ramon Jose Velasquez (815, 1 fila). mandatos_presidenciales.csv
+actualizado antes de investigar: Maduro con fin de mandato acotado al 2026-01-03 (su
+captura por EEUU, Operacion "Absolute Resolve", reverificada independientemente con
+multiples fuentes); nueva fila para Delcy Rodriguez, presidenta encargada desde
+2026-01-05, LeaderID sintetico 90007. 494/494 TripID elegibles investigados via 10
+workpacks por rango de fechas (Caldera completo; Chavez en 6 tramos 1999-2012; Maduro
+en 3 tramos 2013-2026) mas 1 investigacion desde cero (Delcy Rodriguez). De los 11
+workpacks, 5 requirieron redespacho por limite de API (mismo patron de verificacion
+programatica en disco ya usado en Ecuador/Guyana); todos completaron en la segunda
+ronda. 87 correcciones aplicadas, 13 hallazgos nuevos cargados como filas PELATAM
+reales (PELATAM-VEN-1 a 13, ninguno cancelacion), 50 no_verificable, 0 eliminaciones.
+Pipeline: colt_export_csv.py / colt_aplicar_workpacks.py Venezuela venezuela_completo
+(11 archivos JSON) / fix manual de columnas de identidad de lider para las 5 filas de
+Delcy Rodriguez (limitacion conocida del pipeline con LeaderID sintetico sin fila COLT
+previa, mismo patron que PELATAM-CHL-186/187/188 y PELATAM-PER-5) / colt_validar_
+madre.py (mismos 16 problemas preexistentes de siempre, 0 nuevos) / colt_importar_
+csv.py. Backup: 04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_venezuela_merge.xlsx.
+Log: 05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_venezuela_completo_
+2026-09-05.csv. Datos_COLT_Sudamerica: 5413 -> 5426 filas (+13). Se actualizo tambien
+08_ANALISIS_R/graficos_exploratorios.R (Cuadro diferencias_colt del paper,
+reemplazando el placeholder "Sin iniciar" de Venezuela por las cifras reales:
+Agregados=13, Modificados=87, Eliminados=0, Pendientes_de_validar=50). Hallazgo
+destacado: Delcy Rodriguez (sin cobertura COLT) tuvo 5 viajes reales, incluida su
+defensa personal de Venezuela ante la Corte Internacional de Justicia en La Haya
+(caso Esequibo vs. Guyana, may-2026); tambien se confirmo, via busqueda dirigida, que
+Maduro NO realizo ningun viaje internacional entre may-2025 y su captura en ene-2026
+(hallazgo negativo genuino). Detalle completo en PENDIENTES_VERIFICACION.txt, seccion
+"VENEZUELA — VERIFICACION COLT COMPLETA". Con este cierre, Venezuela queda con
+verificacion COLT completa de punta a punta dentro del alcance del proyecto
+(1994-2026), y con ella se cierran los 12 de 12 paises sudamericanos del proyecto:
+LA CAMPAÑA DE VERIFICACION COLT-SUDAMERICA QUEDA COMPLETA.

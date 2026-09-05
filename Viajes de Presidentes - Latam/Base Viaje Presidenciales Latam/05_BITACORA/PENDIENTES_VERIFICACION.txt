@@ -2545,3 +2545,373 @@ presidente electo sin cobertura nativa en COLT. Es la campaña de mayor volumen 
 proyecto hasta la fecha (489 viajes en un solo pais) y la primera en requerir
 redespacho masivo de subagentes por limite de uso de la API.
 ================================================================================
+
+## ECUADOR — VERIFICACION COLT COMPLETA (2026-09-03)
+
+Cobertura: 9 mandatarios/tramos dentro del periodo del proyecto (1994-2026), todos con
+cobertura nativa en COLT. Se excluyen expresamente los viajes de Rodrigo Borja
+(1988-1992, mandato integro anterior al 1994-01-01) y los de Sixto Duran-Ballen
+anteriores al 1994-01-01, por quedar fuera del alcance temporal del proyecto.
+
+Mandatarios investigados (workpacks):
+  - Sixto Duran-Ballen (LeaderID 720, solo tramo 1994-1996): 16 TripID
+  - Abdala Bucaram (LeaderID 1139): 4 TripID
+  - Fabian Alarcon (LeaderID 1190): 9 TripID
+  - Jamil Mahuad (LeaderID 1340): 21 TripID
+  - Gustavo Noboa (LeaderID 1499): 30 TripID
+  - Lucio Gutierrez (LeaderID 1495): 22 TripID
+  - Alfredo Palacio (LeaderID 2053): 20 TripID
+  - Rafael Correa (LeaderID 2223, dividido en 3 tramos por volumen: 2007-2010 [69],
+    2010-2013 [61], 2013-2017 [59]): 189 TripID
+  - Lenin Moreno (LeaderID 3334): 33 TripID
+  - Guillermo Lasso (LeaderID 3822): 36 TripID
+  - Daniel Noboa (LeaderID 4051, ambos tramos: completando el periodo de Lasso
+    nov-2023/may-2025 y mandato propio may-2025/hoy): 48 TripID
+
+TOTAL: 428/428 TripID cubiertos (100%).
+
+Por mandatario (correcciones = TripID unicos con >=1 campo corregido):
+  Duran-Ballen:   7 correcciones,  0 hallazgos,  7 no_verificable,  2 confirmados
+  Bucaram:        1 correccion,   0 hallazgos,  2 no_verificable,  1 confirmado
+  Alarcon:        2 correcciones, 0 hallazgos,  1 no_verificable,  6 confirmados
+  Mahuad:         3 correcciones, 0 hallazgos,  7 no_verificable, 15 confirmados
+  Gustavo Noboa:  0 correcciones, 1 hallazgo,  11 no_verificable, 21 confirmados
+  Gutierrez:      2 correcciones, 0 hallazgos,  1 no_verificable, 20 confirmados
+  Palacio:        3 correcciones, 0 hallazgos,  1 no_verificable, 17 confirmados
+  Correa (3 tramos): 22 correcciones, 1 hallazgo, 25 no_verificable, 142 confirmados
+  Moreno:         5 correcciones, 2 hallazgos,  2 no_verificable, 30 confirmados
+  Lasso:          1 correccion,   0 hallazgos,  3 no_verificable, 32 confirmados
+  Daniel Noboa:   1 correccion,  17 hallazgos,   4 no_verificable, 43 confirmados
+
+RESUMEN ECUADOR: 47 correcciones aplicadas (TripID unicos). 21 hallazgos reportados por
+los subagentes, de los cuales 20 se cargaron como filas PELATAM reales (PELATAM-ECU-1 a
+20) y 1 (la etapa de Vietnam de la gira asiatica de Daniel Noboa, ago-2026) se identifico
+como un viaje CANCELADO -no se carga como fila de viaje realizado; se documento en la
+hoja Viajes_Cancelados del Excel madre, siguiendo la regla 5.1 del proyecto (los viajes
+cancelados se incluyen como dato de primera clase, en su hoja separada, no en
+Datos_COLT_Sudamerica-. 64 no_verificable documentados en el log. 329 confirmados_sin_
+cambios. 0 eliminaciones (ningun "viaje fantasma" detectado en Ecuador). Modulo Ecuador:
+5376 -> 5396 filas en Datos_COLT_Sudamerica (+20). Backup:
+04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_ecuador_merge.xlsx. Log:
+05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_ecuador_completo_2026-09-03.csv.
+
+[NOTA METODOLOGICA] La campaña tuvo que redespachar 4 de los 8 workpacks iniciales tras
+topar con el limite de uso de la sesion de la API a mitad del primer despacho paralelo:
+1 quedo con output completamente ausente (Correa tramo 1, 2007-2010) y se rehizo entero
+desde cero; otros 2 quedaron con output parcial faltando 2 y 1 TripID respectivamente
+(Gustavo Noboa: 1499-ECU-COL-36761 y 1499-ECU-CUB-37572; Lenin Moreno: 3334-ECU-GTM-
+43843) y se completaron con workpacks de parche puntuales; un cuarto (Palacio/Gutierrez)
+si habia completado su archivo de resultados pese al error reportado por la herramienta.
+Verificacion programatica de cobertura (comparando TripID esperados vs TripID cubiertos
+en cada JSON contra los archivos crudos extraidos) confirmo 428/428 antes de aplicar.
+
+[NOTA TECNICA] El QC posterior al merge (colt_validar_madre.py) detecto 3 problemas
+nuevos introducidos por esta campaña, los 3 corregidos manualmente antes del cierre:
+(1-2) dos TripID (720-ECU-CHL-34402, ceremonia de asuncion de Frei Ruiz-Tagle en Chile;
+y 2223-ECU-HND-39964, 39a Asamblea General de la OEA en Honduras) donde el subagente
+corrigio TripStartDate pero no ajusto TripEndDate en consecuencia, dejando el fin
+anterior al inicio -se corrigio TripEndDate a la misma fecha corregida en ambos casos,
+manteniendo TripDuration=1, consistente con el propio razonamiento del subagente-; (3)
+el hallazgo de la cancelacion de Vietnam (ver arriba) habia sido cargado inicialmente
+como fila PELATAM-ECU-21 con fechas vacias por el subagente de Daniel Noboa -se removio
+de Datos_COLT_Sudamerica y se re-cargo correctamente en la hoja Viajes_Cancelados-.
+Ademas se detecto y corrigio un archivo de parche (Lenin Moreno) que usaba nombres de
+campo/clave distintos al esquema del pipeline (StartDate/EndDate en vez de TripStartDate/
+TripEndDate, valor_corregido en vez de valor_correcto), lo que habria causado que 2 de
+sus 3 correcciones se aplicaran con valor vacio de forma silenciosa; se detecto por
+inspeccion antes de la corrida real (--aplicar) gracias al dry run previo, y se corrigio
+el JSON antes de aplicar. colt_validar_madre.py post-fix devolvio los mismos 16
+problemas pre-existentes de siempre (Argentina, Brasil, Chile, Paraguay), 0 nuevos.
+
+[HALLAZGO DESTACADO] Dentro del tramo 2 de Correa (2010-2013) se confirmo de forma
+independiente que Correa NO asistio a la VI Cumbre de las Americas (Cartagena, abril
+2012) por boicot contra la exclusion de Cuba -unico caso entre los mandatarios
+sudamericanos verificados hasta ahora de una ausencia deliberada y documentada a una
+Cumbre de las Americas-, lo cual explica correctamente la ausencia de esa fila en la
+base sin que constituya un hueco de datos.
+
+[PENDIENTE] Revisar mas a fondo el TripID 1495-ECU-PER-38017 (Lucio Gutierrez, supuesta
+visita a base antartica Pedro Vicente Maldonado) marcado no_verificable por dudas sobre
+la veracidad de la propia nota de COLT.
+
+[CIERRE] Con esta campaña, Ecuador queda con verificacion COLT completa de punta a punta
+para el periodo dentro de alcance del proyecto (1994-2026), incluyendo al mandatario en
+funciones (Daniel Noboa, investigado hasta la fecha actual de cierre de la campaña). Con
+Ecuador, quedan 9 de 12 paises sudamericanos con verificacion COLT completa; restan
+Guyana, Surinam y Venezuela.
+================================================================================
+
+## GUYANA — VERIFICACION COLT COMPLETA (2026-09-04)
+
+Cobertura: 6 mandatarios/tramos dentro del periodo del proyecto (1994-2026), todos con
+cobertura nativa en COLT. Se excluyen expresamente los viajes de Desmond Hoyte
+(1985-1992, mandato integro anterior al 1994-01-01) y los de Cheddi Jagan anteriores
+al 1994-01-01, por quedar fuera del alcance temporal del proyecto.
+
+Nota de contexto: a diferencia de los demas paises sudamericanos verificados hasta
+ahora, Guyana tiene vinculos diplomaticos historicos mucho mas orientados al Caribe
+anglofono (CARICOM, Commonwealth) que al resto de Sudamerica, lo que se reflejo en la
+investigacion: gran parte de la cobertura de prensa independiente utilizada fue
+caribena (Stabroek News, Kaieteur News, Guyana Chronicle, Demerara Waves) en vez de
+sudamericana.
+
+Mandatarios investigados (workpacks):
+  - Cheddi Jagan (LeaderID 740, solo tramo 1994-1997, murio en el cargo): 23 TripID
+  - Janet Jagan (LeaderID 1203): 14 TripID
+  - Bharrat Jagdeo (LeaderID 1442, dividido en 3 tramos por volumen: 1999-2003 [27],
+    2003-2007 [54], 2007-2011 [65]): 146 TripID
+  - Donald Ramotar (LeaderID 2741): 32 TripID
+  - David Granger (LeaderID 3111): 48 TripID
+  - Irfaan Ali (LeaderID 3736, ambos mandatos consecutivos sin interrupcion: 2020-2025
+    y reeleccion 2025-hoy): 52 TripID
+
+TOTAL: 315/315 TripID cubiertos (100%).
+
+Por mandatario (correcciones = TripID unicos con >=1 campo corregido):
+  Cheddi Jagan:   4 correcciones,  1 hallazgo,   5 no_verificable, 14 confirmados
+  Janet Jagan:    0 correcciones,  0 hallazgos,  1 no_verificable, 13 confirmados
+  Jagdeo (3 tramos): 19 correcciones, 2 hallazgos, 13 no_verificable, 115 confirmados
+  Ramotar:        6 correcciones,  2 hallazgos,   5 no_verificable, 21 confirmados
+  Granger:        2 correcciones,  0 hallazgos,   5 no_verificable, 41 confirmados
+  Irfaan Ali:     2 correcciones,  5 hallazgos,   6 no_verificable, 44 confirmados
+
+RESUMEN GUYANA: 33 correcciones aplicadas (TripID unicos). 10 hallazgos nuevos, todos
+cargados como filas PELATAM reales (PELATAM-GUY-1 a 10) -a diferencia de Ecuador, esta
+vez no hubo ningun caso de cancelacion a documentar aparte-. 35 no_verificable
+documentados en el log. 248 confirmados_sin_cambios. 0 eliminaciones (ningun "viaje
+fantasma" detectado en Guyana). Modulo Guyana: 5396 -> 5406 filas en
+Datos_COLT_Sudamerica (+10). Backup:
+04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_guyana_merge.xlsx. Log:
+05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_guyana_completo_2026-09-04.csv.
+
+[NOTA METODOLOGICA] La campaña tuvo que redespachar 5 de los 7 workpacks iniciales tras
+topar con el limite de uso de la sesion de la API a mitad del primer despacho paralelo
+(Jagan/Janet Jagan, Jagdeo tramo 1, Jagdeo tramo 3, Ramotar, Irfaan Ali fallaron sin
+output o quedaron truncados; Jagdeo tramo 2 y Granger completaron a la primera). Todos
+los redespachos tuvieron exito en una segunda tanda. Ademas se detecto y corrigio un
+problema estructural en 2 de los 7 archivos de resultados (Jagdeo tramo 1 e Irfaan Ali):
+el subagente guardo el JSON como un objeto suelto en vez de un array con un objeto
+adentro (`{"LeaderID": ...}` en lugar de `[{"LeaderID": ...}]`), lo cual habria hecho
+fallar el pipeline de aplicacion; se detecto en el chequeo de cobertura programatico
+previo al dry run y se corrigio envolviendo ambos archivos en una lista antes de
+aplicar. Verificacion programatica de cobertura (comparando TripID esperados vs TripID
+cubiertos en cada JSON contra los archivos crudos extraidos) confirmo 315/315 antes de
+aplicar. colt_validar_madre.py post-merge devolvio los mismos 16 problemas
+pre-existentes de siempre (Argentina, Brasil, Chile, Paraguay), 0 nuevos introducidos
+por Guyana -a diferencia de Ecuador, esta vez no hizo falta ningun fix manual post-QC-.
+
+[HALLAZGO DESTACADO] El workpack de Irfaan Ali confirmo, via busqueda independiente,
+que en enero de 2026 EE.UU. realizo una operacion militar en Venezuela ("Operation
+Absolute Resolve", 3 de enero de 2026) que resulto en la captura de Nicolas Maduro,
+quien fue trasladado a Nueva York para enfrentar cargos; Delcy Rodriguez asumio como
+presidenta interina el 5 de enero de 2026. Este hallazgo, aunque no es un viaje en si,
+se verifico independientemente por su relevancia directa para: (a) la seccion de
+politica exterior de Guyana a partir de esa fecha (giro hacia cooperacion de seguridad
+bilateral con EEUU, cumbre "Shield of the Americas" con Trump en marzo de 2026); y (b)
+el futuro modulo de Venezuela del proyecto, que debera reflejar esta transicion de
+gobierno no electoral al definir el/los LeaderID y rangos de mandato correspondientes.
+
+[PENDIENTE] Revisar con mas profundidad 2 fechas dudosas en el tramo 1 de Jagdeo: el
+viaje a Barbados de nov-2000 (evidencia sugiere que en realidad fue nov-2002, sin
+confirmacion del dia exacto) y el viaje a Cuba de oct-2001 (la unica fuente hallada
+sobre un encuentro Castro-presidente de Guyana resulto ser de 2006, no de 2001).
+Tambien revisar el TripID 1442-GUY-ECU-40038 (discrepancia de 3-5 dias en la duracion
+de la Cumbre UNASUR de Quito 2009 vs. lo cargado en COLT).
+
+[CIERRE] Con esta campaña, Guyana queda con verificacion COLT completa de punta a punta
+para el periodo dentro de alcance del proyecto (1994-2026), incluyendo al mandatario en
+funciones (Irfaan Ali, investigado hasta la fecha actual de cierre de la campaña). Con
+Guyana, quedan 10 de 12 paises sudamericanos con verificacion COLT completa; restan
+Surinam y Venezuela.
+================================================================================
+
+## SURINAM — VERIFICACION COLT COMPLETA (2026-09-04)
+
+Cobertura: 5 mandatarios/tramos dentro del periodo del proyecto (1994-2026), todos con
+cobertura nativa en COLT. Se excluyen expresamente los viajes de Ramsewak Shankar
+(1988-1990, depuesto por golpe militar, mandato integro anterior al 1994-01-01), los
+de Johan Kraag (interino 1990-1991, tambien integro anterior al 1994-01-01) y los de
+Ronald Venetiaan anteriores al 1994-01-01 (su primer mandato, 1991-1996, arranca antes
+del alcance del proyecto), por quedar fuera del alcance temporal del proyecto.
+
+Nota de contexto: al igual que Guyana, Surinam tiene vinculos diplomaticos historicos
+mucho mas orientados al Caribe (CARICOM) que al resto de Sudamerica; a diferencia de
+Guyana (excolonia britanica, anglofona), Surinam es una excolonia neerlandesa con
+idioma oficial holandes y vinculos bilaterales particularmente fuertes con los Paises
+Bajos, lo que se reflejo en la investigacion: buena parte de la cobertura de prensa
+independiente utilizada fue holandesa y caribena (NOS, De Ware Tijd, Suriname Herald,
+Waterkant) en vez de sudamericana.
+
+Nota tecnica sobre el LeaderID de Venetiaan: Ronald Venetiaan gobernó en 3 mandatos NO
+consecutivos (1991-1996, 2000-2005, 2005-2010, con Jules Wijdenbosch gobernando en el
+medio, 1996-2000); COLT usa un unico LeaderID (588) para los 3 mandatos combinados. Se
+investigo en 2 workpacks separados por tramo cronologico (1994-1996 y 2000-2010) pero
+ambos se aplicaron bajo el mismo LeaderID 588, consistente con la convencion ya usada
+en el proyecto para casos analogos (p.ej. Rafael Correa en Ecuador).
+
+Mandatarios investigados (workpacks):
+  - Ronald Venetiaan, 1er mandato (LeaderID 588, solo tramo 1994-1996): 7 TripID
+  - Jules Wijdenbosch (LeaderID 1145): 15 TripID
+  - Ronald Venetiaan, 2do y 3er mandato (LeaderID 588, tramo 2000-2010): 33 TripID
+  - Desi Bouterse (LeaderID 2600): 38 TripID
+  - Chandrikapersad "Chan" Santokhi (LeaderID 3733): 45 TripID
+  - Jennifer Geerlings-Simons (LeaderID 4241, mandataria en funciones): 3 TripID
+
+TOTAL: 141/141 TripID cubiertos (100%).
+
+Por mandatario (correcciones = TripID unicos con >=1 campo corregido; Venetiaan
+combina ambos tramos bajo el mismo LeaderID 588):
+  Venetiaan (ambos tramos): 12 correcciones, 0 hallazgos,  4 no_verificable, 28 confirmados
+  Wijdenbosch:               4 correcciones, 1 hallazgo,   3 no_verificable,  8 confirmados
+  Bouterse:                  4 correcciones, 1 hallazgo,   3 no_verificable, 34 confirmados
+  Santokhi:                  4 correcciones, 0 hallazgos,  3 no_verificable, 42 confirmados
+  Geerlings-Simons:          2 correcciones, 5 hallazgos,  1 no_verificable,  1 confirmado
+
+RESUMEN SURINAM: 24 correcciones aplicadas (TripID unicos). 7 hallazgos nuevos, todos
+cargados como filas PELATAM reales (PELATAM-SUR-1 a 7) -sin cancelaciones que
+documentar aparte esta vez: se identifico una visita cancelada de Geerlings-Simons a
+Barbados (ago-2025) pero el propio subagente la excluyo correctamente de hallazgos_
+nuevos por tratarse de un viaje que nunca se realizo, sin necesidad de intervencion
+manual posterior-. 14 no_verificable documentados en el log. 113 confirmados_sin_
+cambios. 0 eliminaciones (ningun "viaje fantasma" detectado en Surinam). Modulo
+Surinam: 5406 -> 5413 filas en Datos_COLT_Sudamerica (+7). Backup:
+04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_surinam_merge.xlsx. Log:
+05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_surinam_completo_2026-09-04.csv.
+
+[NOTA METODOLOGICA] A diferencia de las ultimas campañas, los 5 workpacks de esta
+ronda se completaron exitosamente en el primer despacho paralelo, sin necesidad de
+redespacho por limite de la API.
+
+[NOTA TECNICA] El QC posterior al merge (colt_validar_madre.py) detecto 1 problema
+nuevo introducido por esta campaña, corregido antes del cierre: el TripID
+588-SUR-PER-38329 (Venetiaan, cumbre de Cusco dic-2004) quedo con el valor literal
+"no_verificable" cargado en el campo TripEndDate, porque el subagente uso esa palabra
+como si fuera el valor corregido en vez de mover el item al array `no_verificable` del
+JSON (violacion de la regla de valores limpios). Se corrigio moviendo el item al array
+correcto en el JSON de resultados y revirtiendo la celda del CSV al dato original de
+COLT (2004-12-13), dado que no se determino una fecha alternativa exacta con fuente
+independiente. colt_validar_madre.py post-fix devolvio los mismos 16 problemas
+pre-existentes de siempre (Argentina, Brasil, Chile, Paraguay), 0 nuevos.
+
+[HALLAZGO DESTACADO] El workpack de Geerlings-Simons (mandataria en funciones desde
+jul-2025) encontro 5 viajes reales no cargados en COLT pese a que el archivo de
+entrada solo tenia 3 TripID -confirmando el patron ya visto en otros mandatarios muy
+recientes del proyecto (Noboa en Ecuador, Ali en Guyana) de que la cobertura nativa de
+COLT para lideres en funciones es sistematicamente incompleta y requiere busqueda
+activa exhaustiva, no solo verificacion de lo ya cargado-.
+
+[PENDIENTE] Ninguno critico. Quedan 2 no_verificable menores en el tramo 1994-1996 de
+Venetiaan (encuentro con Jagan en Guyana 1995) sin mayor relevancia.
+
+[CIERRE] Con esta campaña, Surinam queda con verificacion COLT completa de punta a
+punta para el periodo dentro de alcance del proyecto (1994-2026), incluyendo a la
+mandataria en funciones (Jennifer Geerlings-Simons, investigada hasta la fecha actual
+de cierre de la campaña). Con Surinam, quedan 11 de 12 paises sudamericanos con
+verificacion COLT completa; resta unicamente Venezuela.
+
+################################################################################
+## VENEZUELA — VERIFICACION COLT COMPLETA (2026-09-05)
+################################################################################
+Ultimo pais del proyecto (12/12). El modulo individual mas grande de la base: 532
+filas crudas en 5 LeaderID (Carlos Andres Perez 307 n=37, Ramon Jose Velasquez 815
+n=1, Rafael Caldera 898 n=33, Hugo Chavez 1383 n=344, Nicolas Maduro 2179 n=117), mas
+una mandataria (Delcy Rodriguez) investigada desde cero por no tener ninguna
+cobertura nativa en COLT.
+
+[EXCLUIDOS DEL ALCANCE] Carlos Andres Perez (307, 37 filas, rango 1990-01-27 a
+1992-10-18) y Ramon Jose Velasquez (815, 1 fila, 1993-10-15): ambos integramente
+pre-1994, verificado programaticamente que 0 filas de cualquiera de los dos caen
+post-1994-01-01. Documentados pero sin workpack, misma convencion que Borja en
+Ecuador y Hoyte/Kraag en Guyana/Surinam.
+
+[mandatos_presidenciales.csv] Actualizado antes de investigar: la fila unica de
+Maduro ("2013-2099... Situacion irregular desde ene-2026") se reemplazo por dos
+filas: (1) Maduro con TripEndDate acotado al 2026-01-03 (fecha de su captura por
+EEUU, Operacion "Absolute Resolve", verificada independientemente via subagente de
+fact-check dedicado con multiples fuentes -Reuters, Fox News, CSIS, Small Wars
+Journal, US Army War College-: operacion de Delta Force con apoyo del 160th SOAR,
+ejecutada en Caracas, Maduro trasladado al USS Iwo Jima, luego Guantanamo, luego
+Nueva York para ser procesado por narcoterrorismo); (2) Delcy Rodriguez, presidenta
+encargada desde 2026-01-05 (sucesion vicepresidencial invocada por el TSJ tras la
+captura), LeaderID sintetico nuevo 90007 (siguiente disponible tras 90001-90006, ya
+en uso por Añez/De la Espriella/Balcazar y otros), sin fecha de fin fijada
+(elecciones no convocadas al cierre de esta campaña). Se descarto deliberadamente
+representar el reclamo rival de legitimidad de Maria Corina Machado/Edmundo Gonzalez
+como una fila de "presidente" alternativa, siguiendo la convencion del proyecto de
+trackear mandatarios con capacidad de gobierno efectiva, no reclamos disputados.
+
+[COBERTURA] 494/494 TripID elegibles investigados (100%) via 10 workpacks por rango
+de fechas (Caldera completo; Chavez dividido en 6 tramos, 1999-2012; Maduro dividido
+en 3 tramos, 2013-2026) mas 1 investigacion desde cero (Delcy Rodriguez, WP11).
+
+RESUMEN VENEZUELA: 87 correcciones aplicadas (TripID unicos). 13 hallazgos nuevos,
+todos cargados como filas PELATAM reales (PELATAM-VEN-1 a 13; ninguno resulto ser
+cancelacion, 0 filas fueron a la hoja Viajes_Cancelados). 50 no_verificable
+documentados en el log. Modulo Venezuela: 5413 -> 5426 filas en Datos_COLT_Sudamerica
+(+13). Backup: 04_BASE_FINAL/Base_COLT_Sudamerica_backup_pre_venezuela_merge.xlsx.
+Log: 05_BITACORA/anexos_colt_sudamerica/cambios_aplicados_venezuela_completo_
+2026-09-05.csv.
+
+[NOTA METODOLOGICA] Redespacho por limite de API: de los 11 workpacks originales, 6
+completaron en el primer despacho (Caldera, Chavez p1, Chavez p3, Chavez p4, Maduro
+p1, Delcy Rodriguez) y 5 requirieron redespacho completo (Chavez p2, Chavez p5,
+Chavez p6, Maduro p2, Maduro p3) tras verificar programaticamente que sus archivos de
+salida no existian en disco (mismo patron de verificacion que Ecuador/Guyana). Los 5
+redespachos completaron exitosamente en la sesion siguiente, con instruccion adicional
+de escribir el archivo de salida apenas se alcance cobertura completa (en vez de
+dejarlo para el final) para mitigar cortes por limite de sesion.
+
+[NOTA TECNICA] QC de esquema pre-merge no encontro violaciones reales: 2 casos de
+"correccion sin valor_correcto" resultaron ser blanqueos intencionales de campos
+erroneos (NameMultilatEvent de una Cumbre OCS cronologicamente imposible en 1999 -la
+OCS se fundo en 2001-, y un Notes que afirmaba una reunion Chavez-Correa en Teheran
+inconsistente con el propio registro de COLT), no bugs. 3 casos de un mismo TripID
+apareciendo en no_verificable Y confirmados_sin_cambios resultaron ser verificacion
+de campos distintos del mismo viaje con resultados distintos (patron legitimo, no el
+bug de "valor literal mal puesto" visto en Surinam). colt_validar_madre.py post-merge
+devolvio los mismos 16 problemas preexistentes de siempre (Argentina, Brasil, Chile,
+Paraguay), 0 nuevos atribuibles a Venezuela — incluyendo el fix manual de las columnas
+de identidad de lider (LeaderCountryOrIGO/LeaderCountryISO/LeaderRegion/etc.) para las
+5 filas PELATAM-VEN-9 a 13 de Delcy Rodriguez, que el pipeline deja en blanco al
+insertar hallazgos para un LeaderID sintetico sin ninguna fila COLT nativa previa
+(misma limitacion conocida ya vista en PELATAM-CHL-186/187/188 y PELATAM-PER-5).
+
+[HALLAZGO DESTACADO] El workpack de Delcy Rodriguez (sin cobertura COLT) encontro 5
+viajes reales: Grenada y Barbados (abr-2026), La Haya (may-2026, defendiendo
+personalmente a Venezuela ante la Corte Internacional de Justicia en el caso del
+Esequibo vs. Guyana — notable por conectar directamente con el modulo Guyana de este
+mismo proyecto), India y Turquia (jun-2026). El subagente descarto explicitamente dos
+falsos positivos (apariciones solo virtuales en Miami y Madrid) tras leer las fuentes
+primarias completas en vez de confiar en resumenes de busqueda, y confirmo que
+Rodriguez NO participo en ninguna cumbre CELAC/ALBA en el periodo investigado.
+Tambien se confirmo el patron ya visto en otros mandatarios muy recientes del
+proyecto (Noboa en Ecuador, Ali en Guyana, Geerlings-Simons en Surinam): la cobertura
+nativa de COLT para lideres en funciones es sistematicamente incompleta.
+
+[HALLAZGO DESTACADO 2] La tarea especial de investigar la brecha documental entre el
+ultimo registro COLT de Maduro (2025-05-06, Rusia) y su captura (2026-01-03) dio un
+resultado NEGATIVO GENUINO: tras busquedas dirigidas (Rusia/China/Cuba, CELAC, prensa
+internacional sobre la escalada de tension con EEUU), no se encontro evidencia de
+ningun viaje internacional de Maduro en esos 8 meses — consistente con multiples
+notas de prensa que lo describen permaneciendo en Venezuela durante el periodo de
+mayor presion militar previo a la captura. Se documenta como hallazgo negativo, no
+como vacio de busqueda.
+
+[NOTA TECNICA 2] Se verifico especificamente que ningun TripID de Chavez quedara mal
+fechado durante el golpe de Estado de abril de 2002 (11-14 abril, periodo en que
+Chavez estuvo depuesto/detenido): COLT ya excluia correctamente esos dias, sin
+necesidad de correccion. Tambien se verifico que los viajes medicos a Cuba durante el
+tratamiento de cancer de Chavez (2011-2013) esten categorizados razonablemente
+(usando el campo Notes/Visit_Subtype segun disponibilidad del esquema por archivo).
+
+[PENDIENTE] 50 no_verificable menores repartidos en los distintos tramos (ver
+detalle en los JSON de resultados, 05_BITACORA/anexos_colt_sudamerica/tmp_venezuela/),
+sobre todo discrepancias de fecha de un dia entre fuentes secundarias y posibles
+duplicados COLT (ej. Mexico oct-2023, Cumbre de Palenque). Ninguno critico.
+
+[CIERRE] Con esta campaña, Venezuela queda con verificacion COLT completa de punta a
+punta para el periodo dentro de alcance del proyecto (1994-2026), incluyendo a la
+mandataria en funciones (Delcy Rodriguez, investigada hasta la fecha de corte). Con
+Venezuela, se cierran los 12 de 12 paises sudamericanos del proyecto: LA CAMPAÑA DE
+VERIFICACION COLT-SUDAMERICA QUEDA COMPLETA.
+================================================================================

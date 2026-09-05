@@ -1,0 +1,168 @@
+[
+  {
+    "LeaderID": "1442",
+    "correcciones": [
+      {
+        "TripID": "1442-GUY-BLZ-37291",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Thirteenth Inter-Sessional Meeting of the Conference of Heads of Government of CARICOM / First CARICOM-SICA-Dominican Republic Summit",
+        "fuente": "https://caricom.org/joint-declaration-issued-at-the-conclusion-of-the-first-summit-of-heads-of-state-and-government-of-caricom-sica-dominican-republic-5-february-2002-belize-city-belize/",
+        "justificacion": "El evento del 4-5 de febrero de 2002 en Belize City no fue una 'CARICOM Summit' regular (esas se celebran en julio), sino la Décimo Tercera Reunión Intersesional de Jefes de Gobierno de CARICOM, combinada con la Primera Cumbre CARICOM-SICA-República Dominicana del 5 de febrero de 2002. Confirmado por fuentes CARICOM y por News 5 Belize ('CARICOM, C.A. leaders wind up historic summit')."
+      },
+      {
+        "TripID": "1442-GUY-TTO-36459",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Seventh Special Meeting of the Conference of Heads of Government of CARICOM",
+        "fuente": "https://caricom.org/communique-issued-at-the-conclusion-of-the-seventh-special-meeting-of-the-conference-of-heads-of-government-of-the-caribbean-community-caricom-26-27-october-1999-chaguaramas-trinidad-and-to/",
+        "justificacion": "El comunicado oficial de CARICOM confirma que la reunión del 26-27 de octubre de 1999 en Chaguaramas, Trinidad y Tobago, fue la 'Seventh Special Meeting' de Jefes de Gobierno (convocada para tratar la Visión de la región y la creación del Quasi-Cabinet), y no la reunión ordinaria anual de julio. El propio comunicado señala que fue la primera reunión de la Conferencia a la que asistió Jagdeo como Jefe de Estado. No es, por tanto, una 'Cumbre CARICOM' genérica sino una reunión especial con nombre propio."
+      },
+      {
+        "TripID": "1442-GUY-BHS-37076",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "President Vicente Fox;President Ronald Venetiaan",
+        "fuente": "https://caricom.org/guyana-and-suriname-work-towards-peaceful-border-solution/",
+        "justificacion": "Nota de prensa de CARICOM (6 de julio de 2001) confirma que, durante la 22ª Reunión de Jefes de Gobierno de CARICOM en Nassau, Bahamas, el presidente Jagdeo sostuvo una conferencia de prensa conjunta con el presidente de Surinam, Ronald Venetiaan (Runaldo Venetiaan), sobre la disputa fronteriza Guyana-Surinam. Esta reunión con un Jefe de Estado no CARICOM-anfitrión no figuraba en el registro original, que solo listaba al presidente mexicano Vicente Fox."
+      },
+      {
+        "TripID": "1442-GUY-SUR-37284",
+        "campo": "SignedAgreement",
+        "valor_correcto": "Yes",
+        "fuente": "https://stabroeknews.com/2008/guyana-review/11/05/nervous-neighbours-guyana-and-suriname",
+        "justificacion": "Según Stabroek News ('Nervous neighbours: Guyana and Suriname'), durante la visita de Jagdeo a Surinam del 28-29 de enero de 2002 se emitió una Declaración Conjunta (Joint Declaration) con el presidente Ronald Venetiaan, instruyendo a las Comisiones de Frontera de ambos países a evaluar modalidades para una eventual exploración conjunta del área en disputa. El registro original indicaba 'No' para SignedAgreement, lo cual es inconsistente con la emisión de esa declaración conjunta."
+      },
+      {
+        "TripID": "1442-GUY-USA-37413",
+        "campo": "Notes",
+        "valor_correcto": "attended gala in New York marking 36th anniversary of nation's independence",
+        "fuente": "https://caricom.org/speech-by-his-excellency-bharrat-jagdeo-president-of-guyana-at-the-opening-of-the-twenty-third-meeting-of-the-conference-of-heads-of-government-of-the-caribbean-community-3-july-2002-georgetown/",
+        "justificacion": "Guyana obtuvo su independencia el 26 de mayo de 1966. Fuentes de la época documentan el discurso de Jagdeo por el '36th Independence Anniversary' el 26 de mayo de 2002, por lo que el evento de mayo/junio de 2002 corresponde al 36º aniversario de la independencia y no al 35º (que fue en 2001, un año antes de este viaje). El campo Notes del registro original contiene un error aritmético de un año."
+      },
+      {
+        "TripID": "1442-GUY-ECU-37463",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Second Meeting of Presidents of South America (Guayaquil)",
+        "fuente": "Search Query: Second South American Summit Guayaquil Ecuador July 2002 dates",
+        "justificacion": "Múltiples fuentes coinciden en que la reunión de jefes de Estado sudamericanos en Guayaquil, Ecuador, del 26 al 27 de julio de 2002, fue la 'Segunda Reunión de Presidentes de América del Sur' (la primera había sido Brasilia, agosto-septiembre de 2000, ya registrada como TripID 1442-GUY-BRA-36769). El nombre 'South American States Summit' del registro original es genérico e impreciso; el nombre oficial y numerado es más específico."
+      },
+      {
+        "TripID": "1442-GUY-CUB-37597",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "CARICOM-Cuba Summit (30th Anniversary of Diplomatic Relations)",
+        "fuente": "https://caricom.org/the-havana-declaration-on-the-thirtieth-anniversary-of-the-establishment-of-diplomatic-relations-between-member-states-of-the-caribbean-community-and-the-republic-of-cuba/",
+        "justificacion": "El evento del 7-9 de diciembre de 2002 en La Habana no fue una 'Cumbre CARICOM' regular, sino la primera Cumbre CARICOM-Cuba, que conmemoró el 30º aniversario del establecimiento de relaciones diplomáticas entre Barbados, Guyana, Jamaica, Trinidad y Tobago y Cuba (Declaración de La Habana, adoptada el 8 de diciembre de 2002). Jagdeo asistió en su calidad de Presidente de Guyana y Chairman de CARICOM, según su discurso de respuesta a Fidel Castro en esa cumbre."
+      },
+      {
+        "TripID": "1442-GUY-BRB-36843",
+        "campo": "TripYear",
+        "valor_correcto": "2002",
+        "fuente": "Search Query: \"Fifteenth Meeting of the Bureau\" CARICOM Bridgetown Barbados Musa Pierre Charles Jagdeo",
+        "justificacion": "Varios resultados de búsqueda describen la 'Fifteenth Meeting of the Bureau of the Conference of Heads of Government of CARICOM', celebrada un lunes 11 de noviembre en Bridgetown, Barbados, con Jagdeo como Chairman en ejercicio, Said Musa (Belice) como chairman inmediatamente saliente, y Pierre Charles (Dominica) como chairman entrante. Jagdeo únicamente ejerció la presidencia rotativa de CARICOM entre julio de 2002 y julio de 2003 (tras la 23ª Reunión en Georgetown), por lo que esta reunión del Bureau en Barbados corresponde a noviembre de 2002 y no a noviembre de 2000 como figura en el registro original. No fue posible confirmar con una fuente primaria de acceso abierto el día exacto (11 vs. 13 de noviembre), por lo que solo se corrige el año."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Cuba",
+        "CityVisited": "Havana",
+        "TripStartDate": "2000-04-12",
+        "TripEndDate": "2000-04-14",
+        "TripDuration": "3",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Fidel Castro",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "G-77 South Summit",
+        "MetNonhostHOGS": "Yes",
+        "NonhostHOGSNames": "President Olusegun Obasanjo;President Thabo Mbeki",
+        "SignedAgreement": "Yes",
+        "fuente": "https://www.g77.org/summit/journal_04e.htm ; https://www.g77.org/summit/summit.htm ; https://www.twn.my/title/havana.htm",
+        "justificacion": "El G-77 South Summit se realizó en La Habana, Cuba, del 10 al 14 de abril de 2000, con la participación de 42 jefes de Estado y de gobierno (segmento de Jefes de Estado y Gobierno: 12-14 de abril). El 'Journal No. 4' oficial del South Summit incluye a Guyana en la 'LIST OF SPEAKERS FOR THE GENERAL DEBATE OF HEADS OF STATE AND GOVERNMENTS' (no en la lista de Jefes de Delegación), lo que confirma que el propio Jefe de Estado (Jagdeo) asistió y habló en el segmento de más alto nivel. La ceremonia de bienvenida y una recepción oficial para los Jefes de Estado y Gobierno fueron presididas por Fidel Castro. La Declaración del South Summit fue adoptada al cierre (14 de abril). Este viaje no figura en el registro original de 27 viajes cargados; se trata de un viaje adicional a Cuba distinto de los dos ya registrados (octubre 2001 y diciembre 2002)."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "1442-GUY-CUB-37189",
+        "campo": "TripStartDate / TripEndDate",
+        "justificacion": "Se buscó confirmación independiente de una visita de Jagdeo a Cuba entre el 25 y el 28 de octubre de 2001 (Search Queries: 'Jagdeo Cuba visit October 2001 Castro Guyana'; 'Jagdeo Havana Cuba visit October 2001 health cooperation President Castro welcome'). El único artículo hallado sobre 'Castro recibió al presidente de Guyana' (Cubaencuentro) está fechado en 2006 y menciona el programa cubano-venezolano 'Operación Milagro' (iniciado en 2004), por lo que corresponde a una visita posterior y no a este viaje de octubre de 2001. No se encontró fuente de prensa independiente y de acceso abierto que confirme las fechas exactas de este viaje específico; el registro original se apoya únicamente en enlaces de pago (Lexis-Nexis / WNC Eastview)."
+      },
+      {
+        "TripID": "1442-GUY-JAM-36797",
+        "campo": "NameMultilatEvent",
+        "justificacion": "No se halló evidencia independiente de una 'CARICOM Summit' (reunión regular de Jefes de Gobierno) en Jamaica el 28-29 de septiembre de 2000. La reunión regular de 2000 fue la 21ª, celebrada en Canouan, San Vicente y las Granadinas, del 2 al 5 de julio de 2000 (ya registrada como TripID 1442-GUY-VCT-36709); la siguiente reunión regular fue en julio de 2001 en Nassau, Bahamas. Se encontró evidencia de conversaciones facilitadas por el Primer Ministro P.J. Patterson entre Guyana y Surinam por la disputa fronteriza hacia noviembre de 2000 (CBC News), pero no se pudo determinar si el viaje a Jamaica de finales de septiembre de 2000 corresponde a esas negociaciones bilaterales o a otro tipo de evento; tampoco se confirmó que se tratara formalmente de una 'Cumbre CARICOM'."
+      },
+      {
+        "TripID": "1442-GUY-HTI-37601",
+        "campo": "MetHostHoGS / AttendedMultilatEvent",
+        "justificacion": "Se confirmó que Haití formalizó su adhesión a CARICOM el 1 de julio de 2002, durante la 23ª Reunión de Jefes de Gobierno en Georgetown, Guyana, con el propio presidente Jean-Bertrand Aristide presente (fuente: caricom.org, comunicado de la 23ª Reunión). Sin embargo, no se halló una fuente independiente de acceso abierto que confirme el viaje de Jagdeo a Haití los días 11-12 de diciembre de 2002 mencionado en el registro original como una visita posterior de 'bienvenida' a Haití liderando una delegación de CARICOM, ni si en esa visita se reunió formalmente con algún jefe de Estado o de gobierno haitiano. El propio registro original ya señalaba 'Unclear if met with any HoGS'."
+      },
+      {
+        "TripID": "1442-GUY-RUS-37754",
+        "campo": "HostHOGSName / TripStartDate / TripEndDate",
+        "justificacion": "No se encontró cobertura de prensa independiente y de acceso abierto que confirme la visita de Estado de Jagdeo a Rusia y su reunión con el presidente Vladimir Putin entre el 13 y el 17 de mayo de 2003 (Search Query: 'Jagdeo Putin Moscow visit May 2003 Guyana Russia state visit'). El registro original se apoya únicamente en enlaces de pago (Lexis-Nexis / WNC Eastview) no accesibles para esta verificación."
+      },
+      {
+        "TripID": "1442-GUY-GBR-37068",
+        "campo": "HostHOGSName / TripStartDate / TripEndDate",
+        "justificacion": "No se encontró cobertura de prensa independiente y de acceso abierto que confirme el encuentro de Jagdeo con el primer ministro Tony Blair en Londres entre el 26 y el 29 de junio de 2001 (Search Query: 'Jagdeo Tony Blair London visit June 2001 Guyana United Kingdom'). El registro original se apoya únicamente en un enlace de pago (Lexis-Nexis)."
+      },
+      {
+        "TripID": "1442-GUY-USA-37307",
+        "campo": "Notes / propósito del viaje",
+        "justificacion": "No se encontró fuente independiente sobre el propósito específico del viaje a Estados Unidos del 20-21 de febrero de 2002 (2 días, sin evento multilateral registrado, sin reuniones bilaterales listadas). El registro original tiene Confidence 5/5 pero se apoya en un único enlace de pago (Lexis-Nexis) que no fue posible consultar."
+      },
+      {
+        "TripID": "1442-GUY-USA-37679",
+        "campo": "Notes / propósito del viaje",
+        "justificacion": "No se encontró fuente independiente sobre el propósito específico del viaje a Estados Unidos del 27 de febrero al 4 de marzo de 2003 (6 días, sin evento multilateral registrado). Los enlaces de origen incluyen únicamente Lexis-Nexis y una licencia de imagen de Getty Images, sin artículo de prensa asociado accesible."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1442-GUY-AUS-37317",
+        "justificacion": "Confirmado: el Commonwealth Heads of Government Meeting (CHOGM) 2002 se celebró en Coolum, Queensland, Australia, del 2 al 5 de marzo de 2002 (pospuesto desde 2001 por la crisis de fiebre aftosa). Las fechas y el evento multilateral coinciden con fuentes independientes (Wikipedia ya citada en el registro y referencias cruzadas)."
+      },
+      {
+        "TripID": "1442-GUY-BRA-36769",
+        "justificacion": "Confirmado: la Primera Cumbre de Presidentes de América del Sur se celebró en Brasilia del 31 de agosto al 1 de septiembre de 2000, organizada por el presidente Fernando Henrique Cardoso, con la asistencia confirmada de Guyana (Jagdeo) según cobertura de CNN y otras fuentes sobre la 'Declaración de Brasilia' e IIRSA."
+      },
+      {
+        "TripID": "1442-GUY-BRA-37831",
+        "justificacion": "Confirmado: Luiz Inácio Lula da Silva era presidente de Brasil desde enero de 2003, por lo que es consistente que fuera el anfitrión de la visita de Jagdeo del 29-31 de julio de 2003."
+      },
+      {
+        "TripID": "1442-GUY-CAN-37001",
+        "justificacion": "Confirmado: la Tercera Cumbre de las Américas se celebró en Quebec, Canadá, del 20 al 22 de abril de 2001, fecha ampliamente documentada y consistente con el registro."
+      },
+      {
+        "TripID": "1442-GUY-CHN-37704",
+        "justificacion": "Confirmado en términos generales: Hu Jintao asumió la presidencia de China el 15 de marzo de 2003, por lo que es consistente que fuera el anfitrión de la visita de Jagdeo del 24 de marzo al 2 de abril de 2003."
+      },
+      {
+        "TripID": "1442-GUY-CRI-37357",
+        "justificacion": "Confirmado: la XVI Cumbre del Grupo de Río se celebró en San José, Costa Rica, con comunicado adoptado el 12 de abril de 2002, consistente con las fechas del registro (11-12 abril 2002)."
+      },
+      {
+        "TripID": "1442-GUY-JAM-36720",
+        "justificacion": "Confirmado: P.J. Patterson era primer ministro de Jamaica en julio de 2000; no se halló evidencia contradictoria sobre esta visita bilateral del 13-16 de julio de 2000."
+      },
+      {
+        "TripID": "1442-GUY-JAM-37804",
+        "justificacion": "Confirmado: la 24ª Reunión de Jefes de Gobierno de CARICOM se celebró en Montego Bay, Jamaica, del 2 al 5 de julio de 2003. Se confirmó además que el presidente de Chile, Ricardo Lagos, asistió como invitado especial a ese encuentro, consistente con el registro original."
+      },
+      {
+        "TripID": "1442-GUY-TTO-37666",
+        "justificacion": "Confirmado: la Décimo Cuarta Reunión Intersesional de Jefes de Gobierno de CARICOM se celebró en Puerto España, Trinidad y Tobago, el 14 de febrero de 2003, consistente con las fechas del registro (14-15 febrero 2003)."
+      },
+      {
+        "TripID": "1442-GUY-USA-36775",
+        "justificacion": "Confirmado: la Cumbre del Milenio de la ONU se celebró en Nueva York del 6 al 8 de septiembre de 2000, fecha ampliamente documentada (incluido el propio enlace oficial de la ONU ya citado en el registro) y consistente con el viaje."
+      },
+      {
+        "TripID": "1442-GUY-VCT-36709",
+        "justificacion": "Confirmado: la 21ª Reunión de Jefes de Gobierno de CARICOM se celebró en Canouan, San Vicente y las Granadinas, del 2 al 5 de julio de 2000, consistente con el registro original y con el discurso oficial de apertura pronunciado por Jagdeo en esa fecha."
+      },
+      {
+        "TripID": "1442-GUY-VEN-37236",
+        "justificacion": "Confirmado: la Tercera Cumbre de la Asociación de Estados del Caribe (ACS) se celebró en Isla Margarita, Venezuela, el 11-12 de diciembre de 2001, bajo el lema 'Consolidación del Gran Caribe', consistente con las fechas y el evento multilateral registrados."
+      }
+    ]
+  }
+]

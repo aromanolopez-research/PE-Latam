@@ -1,0 +1,46 @@
+[
+  {
+    "LeaderID": "3334",
+    "correcciones": [
+      {
+        "TripID": "3334-ECU-GTM-43843",
+        "campo": "TripStartDate",
+        "valor_correcto": "2020-01-14",
+        "justificacion": "El comunicado oficial de la Secretaría General de Comunicación de la Presidencia de Ecuador, publicado el mismo 14/01/2020, afirma explícitamente: 'Este martes 14 de enero, el primer mandatario, Lenín Moreno, arribará al país centroamericano para formar parte de la investidura de Alejandro Giammattei Falla... En la agenda prevista, que se extenderá hasta el miércoles 15 de enero...'. Esto contradice la fecha de inicio 2020-01-13 registrada en COLT. Un artículo previo de El Comercio (anterior al viaje, basado en fuentes gubernamentales no oficiales y sin decreto de viaje aún expedido) especulaba con una salida el lunes 13 para una estadía de 'dos días', pero el comunicado oficial posterior (con información confirmada el día de la llegada) y la nota de El Comercio del 16/01/2020 sobre la reunión con empresarios ('Moreno visitó Guatemala durante día y medio') son consistentes entre sí y apuntan a una estadía real de solo dos días calendario (14 y 15 de enero), no de tres.",
+        "fuente": "https://www.comunicacion.gob.ec/presidente-lenin-moreno-participara-en-cambio-de-mando-en-guatemala/ ; https://www.elcomercio.com/actualidad/lenin-moreno-reunion-empresarios-guatemala.html"
+      },
+      {
+        "TripID": "3334-ECU-GTM-43843",
+        "campo": "MetHostHoGS",
+        "valor_correcto": "Yes",
+        "justificacion": "El comunicado oficial de la Presidencia de Ecuador (comunicacion.gob.ec, 14/01/2020) detalla la agenda del día: tras el saludo protocolar con las nuevas autoridades guatemaltecas a las 17:00 (18:00 hora Ecuador), señala textualmente: 'Y en la noche, mantendrá un encuentro bilateral con Giammattei.' Esto confirma un encuentro directo entre Lenín Moreno y Alejandro Giammattei el 14 de enero de 2020, por lo que el campo MetHostHoGS='No' es incorrecto.",
+        "fuente": "https://www.comunicacion.gob.ec/presidente-lenin-moreno-participara-en-cambio-de-mando-en-guatemala/"
+      },
+      {
+        "TripID": "3334-ECU-GTM-43843",
+        "campo": "HostHOGSName",
+        "valor_correcto": "President Alejandro Giammattei",
+        "justificacion": "Consistente con la corrección de MetHostHoGS: el comunicado oficial de la Presidencia de Ecuador confirma un 'encuentro bilateral con Giammattei' la noche del 14 de enero de 2020, en Ciudad de Guatemala, tras la ceremonia de investidura y el saludo protocolar.",
+        "fuente": "https://www.comunicacion.gob.ec/presidente-lenin-moreno-participara-en-cambio-de-mando-en-guatemala/"
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "3334-ECU-GTM-43843",
+        "campo": "EndDate",
+        "valor": "2020-01-15",
+        "justificacion": "Confirmado por el comunicado oficial de la Presidencia de Ecuador (agenda 'se extenderá hasta el miércoles 15 de enero', con reunión empresarial programada ese día a las 11:00/12:00 en el Hotel Westin Camino Real) y por el artículo de El Comercio del 16/01/2020 que describe la reunión de Moreno con empresarios guatemaltecos el miércoles 15 de enero de 2020, día en que concluyó su visita ('día y medio' en Guatemala).",
+        "fuente": "https://www.comunicacion.gob.ec/presidente-lenin-moreno-participara-en-cambio-de-mando-en-guatemala/ ; https://www.elcomercio.com/actualidad/lenin-moreno-reunion-empresarios-guatemala.html"
+      },
+      {
+        "TripID": "3334-ECU-GTM-43843",
+        "campo": "Notes",
+        "valor": "attended inauguration of President Alejandro Giammattei",
+        "justificacion": "Confirmado de forma independiente y detallada por el comunicado oficial de la Presidencia de Ecuador (comunicacion.gob.ec) y por múltiples notas de El Comercio (antes y después del viaje), que describen la participación de Lenín Moreno, al frente de una delegación (canciller José Valencia, ministro de Finanzas Richard Martínez, entre otros), en la ceremonia de transmisión de mando de Alejandro Giammattei como Presidente Constitucional de Guatemala, el 14 de enero de 2020 en el Centro Cultural Miguel Ángel Asturias, Ciudad de Guatemala.",
+        "fuente": "https://www.comunicacion.gob.ec/presidente-lenin-moreno-participara-en-cambio-de-mando-en-guatemala/ ; https://www.elcomercio.com/actualidad/lenin-moreno-investidura-giammattei-guatemala.html"
+      }
+    ]
+  }
+]

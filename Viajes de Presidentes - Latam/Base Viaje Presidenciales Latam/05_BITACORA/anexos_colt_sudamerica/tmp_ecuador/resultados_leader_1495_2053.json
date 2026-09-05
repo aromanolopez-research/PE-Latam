@@ -1,0 +1,236 @@
+[
+  {
+    "LeaderID": "1495",
+    "correcciones": [
+      {
+        "TripID": "1495-ECU-MEX-38165",
+        "campo": "TripStartDate",
+        "valor_correcto": "2004-05-28",
+        "fuente": "https://es.wikipedia.org/wiki/Cumbre_Am%C3%A9rica_Latina,_el_Caribe_y_la_Uni%C3%B3n_Europea ; https://eulacfoundation.org/es/la-cumbre-guadalajara-y-la-consolidacion-la-asociacion-estrategica-entre-america-latina-y-el-caribe",
+        "justificacion": "La III Cumbre Unión Europea-América Latina y el Caribe (identificada en el registro como 'European Council-Community of Latin American and Caribbean States (CELAC) Summit') se celebró en Guadalajara, México, los días 28 y 29 de mayo de 2004, con la participación de 58 jefes de Estado y de Gobierno, no el 27-29 de junio de 2004 como consta en el registro. El propio registro admite 'Details of trip unclear', lo que es consistente con el error de fecha detectado. Gutiérrez, como presidente de Ecuador entre 2003 y 2005, era el mandatario en funciones en la fecha correcta de la cumbre."
+      },
+      {
+        "TripID": "1495-ECU-MEX-38165",
+        "campo": "TripEndDate",
+        "valor_correcto": "2004-05-29",
+        "fuente": "https://es.wikipedia.org/wiki/Cumbre_Am%C3%A9rica_Latina,_el_Caribe_y_la_Uni%C3%B3n_Europea",
+        "justificacion": "La Cumbre de Guadalajara UE-ALC se celebró el 28 y 29 de mayo de 2004, no el 27-29 de junio de 2004. Ver justificación de la corrección de TripStartDate para el mismo TripID."
+      },
+      {
+        "TripID": "1495-ECU-MEX-38165",
+        "campo": "TripDuration",
+        "valor_correcto": "2",
+        "fuente": "https://es.wikipedia.org/wiki/Cumbre_Am%C3%A9rica_Latina,_el_Caribe_y_la_Uni%C3%B3n_Europea",
+        "justificacion": "Con las fechas corregidas (28-29 de mayo de 2004), la duración del viaje pasa de 3 a 2 días."
+      },
+      {
+        "TripID": "1495-ECU-PER-38017",
+        "campo": "Notes",
+        "valor_correcto": "Requiere revisión: la afirmación de que Gutiérrez visitó la base antártica Pedro Vicente Maldonado y firmó allí el decreto de creación del Instituto Antártico Ecuatoriano (INAE) en enero-febrero de 2004 es dudosa. El Decreto Ejecutivo No. 1610 que crea el INAE fue firmado el 23 de abril de 2004 (publicado en el Registro Oficial No. 326 el 3 de mayo de 2004), no en enero de 2004. Además, fuentes de prensa ecuatoriana señalan explícitamente que Rafael Correa fue 'por primera vez' el primer presidente ecuatoriano en llegar físicamente a la Antártida (viaje realizado junto al presidente chileno Sebastián Piñera, posterior a octubre de 2010), lo cual contradice que Gutiérrez haya viajado físicamente a la base antártica en 2004.",
+        "fuente": "https://www.elcomercio.com/actualidad/politica/22-anos-ecuador-antartida/ ; https://www.ecolex.org/details/legislation/decreto-no-1610-crea-el-instituto-antartico-ecuatoriano-inae-lex-faoc043667/",
+        "justificacion": "El artículo de El Comercio (Ecuador) declara textualmente: 'Por primera vez está previsto que el presidente ecuatoriano Rafael Correa llegue a la Antártida', en referencia a un viaje posterior a 2010, lo que es incompatible con que Gutiérrez ya hubiera llegado físicamente en 2004. Combinado con el hecho de que el decreto de creación del INAE se firmó en abril (no enero) de 2004, hay fuerte evidencia de que este registro contiene un error factual sobre la naturaleza del viaje. No se pudo determinar con certeza qué ocurrió realmente (posible confusión con una ceremonia en territorio ecuatoriano continental, o con el decreto firmado en otra fecha), por lo que se marca también en 'no_verificable'."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "1495-ECU-PER-38017",
+        "campo": "CountryVisited",
+        "justificacion": "Se buscó confirmación de un viaje de Gutiérrez a la Antártida (o a Perú en el contexto de una expedición antártica) entre el 31 de enero y el 4 de febrero de 2004 (búsquedas: '\"Lucio Gutierrez\" Antartida enero 2004 base ecuatoriana visita presidente'; 'presidente ecuatoriano visita Antartida historia unico presidente Lucio Gutierrez'). No se encontró ninguna fuente de prensa o institucional que confirme que Gutiérrez viajó físicamente a la Antártida o a una base peruana en esas fechas. Por el contrario, se halló evidencia (El Comercio) de que Rafael Correa fue el primer presidente ecuatoriano en llegar a la Antártida, años después. No fue posible determinar si el registro corresponde a un evento real mal fechado/mal atribuido, o a un error de la base COLT; se recomienda revisión adicional con fuentes primarias ecuatorianas (Cancillería, Instituto Antártico Ecuatoriano) antes de mantener este registro sin cambios."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1495-ECU-ARG-37766",
+        "justificacion": "Viaje coherente con el 'tour de tres países' (Perú 22-24 may, Argentina 25-27 may, Brasil 27-29 may 2003) ya documentado en los TripID 1495-ECU-PER-37763 y 1495-ECU-BRA-37768, ambos con fuentes de prensa contemporáneas. Las fechas encajan de forma continua sin superposición, lo que corrobora la secuencia aunque no exista fuente directa dedicada a la escala argentina, tal como el propio registro admite."
+      },
+      {
+        "TripID": "1495-ECU-ARG-38175",
+        "justificacion": "La Cumbre de Mercosur de julio de 2004 se realizó en Puerto Iguazú, Argentina, el 7 y 8 de julio de 2004, coincidiendo con las fechas del registro (7-8 jul 2004); Ecuador, como país asociado en negociación, participó de las discusiones sobre membresía mencionadas en las Notes."
+      },
+      {
+        "TripID": "1495-ECU-BOL-37939",
+        "justificacion": "La XIII Cumbre Iberoamericana se celebró en Santa Cruz de la Sierra, Bolivia, el 14 y 15 de noviembre de 2003 (confirmado en es.wikipedia.org/wiki/XIII_Cumbre_Iberoamericana y segib.org), coincidiendo con las fechas de inicio del registro (14-16 nov 2003, con un día adicional de salida)."
+      },
+      {
+        "TripID": "1495-ECU-BRA-37768",
+        "justificacion": "Lula da Silva era presidente de Brasil desde enero de 2003, consistente con el HostHOGSName registrado; la firma de un acuerdo de libre comercio en mayo de 2003 está documentada por las fuentes de ProQuest/Newsbank ya citadas en el registro."
+      },
+      {
+        "TripID": "1495-ECU-CHL-38098",
+        "justificacion": "Ricardo Lagos era presidente de Chile en abril de 2004, consistente con el HostHOGSName; no se halló evidencia contradictoria sobre la firma de documentos de cooperación bilateral en esas fechas."
+      },
+      {
+        "TripID": "1495-ECU-CHN-37858",
+        "justificacion": "Se confirmó por búsqueda independiente que Gutiérrez se reunió con el presidente chino Hu Jintao el 26 de agosto de 2003, dato consistente con el rango de fechas del viaje (25 ago-2 sep 2003) y con Hu Jintao como Secretario General/Presidente desde marzo de 2003."
+      },
+      {
+        "TripID": "1495-ECU-COL-37799",
+        "justificacion": "El XIV Consejo Presidencial Andino se realizó en Quirama, Colombia, el 28 de junio de 2003, coincidiendo con las fechas del registro (27-28 jun 2003, con un día de llegada previo)."
+      },
+      {
+        "TripID": "1495-ECU-COL-38062",
+        "justificacion": "Álvaro Uribe era presidente de Colombia desde agosto de 2002, consistente con el HostHOGSName registrado para marzo de 2004."
+      },
+      {
+        "TripID": "1495-ECU-CRI-38310",
+        "justificacion": "La XIV Cumbre Iberoamericana se celebró en San José, Costa Rica, el 19 y 20 de noviembre de 2004 (es.wikipedia.org/wiki/XIV_Cumbre_Iberoamericana), coincidiendo con las fechas del registro (19-21 nov 2004, con un día adicional de salida)."
+      },
+      {
+        "TripID": "1495-ECU-MEX-37998",
+        "justificacion": "La Cumbre Extraordinaria de las Américas se realizó en Monterrey, México, los días 12 y 13 de enero de 2004, consistente con las fechas del registro (12-14 ene 2004) y con Vicente Fox como presidente anfitrión de México en ese momento."
+      },
+      {
+        "TripID": "1495-ECU-PAN-38231",
+        "justificacion": "Martín Torrijos fue investido presidente de Panamá el 1 de septiembre de 2004, coincidiendo exactamente con la fecha registrada."
+      },
+      {
+        "TripID": "1495-ECU-PRY-37847",
+        "justificacion": "Nicanor Duarte Frutos fue investido presidente de Paraguay el 15 de agosto de 2003, coincidiendo con la fecha de cierre del viaje registrado (14-15 ago 2003)."
+      },
+      {
+        "TripID": "1495-ECU-PER-37763",
+        "justificacion": "La XVII Cumbre del Grupo de Río tuvo su reunión de Jefes de Estado en Cusco, Perú, el 23 y 24 de mayo de 2003 (El Universo, 23-may-2003), consistente con las fechas del registro (22-24 may 2003, con un día de llegada previo)."
+      },
+      {
+        "TripID": "1495-ECU-ESP-38128",
+        "justificacion": "La boda del entonces Príncipe Felipe de Borbón con Letizia Ortiz se celebró el 22 de mayo de 2004 en Madrid, consistente con las fechas del registro (21-22 may 2004)."
+      },
+      {
+        "TripID": "1495-ECU-CHE-38006",
+        "justificacion": "El Foro Económico Mundial de Davos 2004 se realizó del 21 al 25 de enero de 2004; se confirmó por búsqueda independiente que Gutiérrez participó en un panel en Davos el 24 de enero de 2004, consistente con el rango de fechas del registro (20-25 ene 2004)."
+      },
+      {
+        "TripID": "1495-ECU-USA-37662",
+        "justificacion": "Se confirmó por búsqueda independiente que este fue el primer viaje de Gutiérrez a Washington en 2003, coincidiendo con el HostHOGSName (Bush) y las fechas registradas (10-14 feb 2003)."
+      },
+      {
+        "TripID": "1495-ECU-USA-37887",
+        "justificacion": "El 58º período de sesiones de la Asamblea General de la ONU se inauguró el 23 de septiembre de 2003, coincidiendo con el inicio del viaje registrado."
+      },
+      {
+        "TripID": "1495-ECU-USA-37921",
+        "justificacion": "No se halló evidencia contradictoria sobre la participación de Gutiérrez en la Conferencia de las Américas del Miami Herald en octubre de 2003; las fuentes de ProQuest/Newsbank ya citadas en el registro sustentan el evento."
+      },
+      {
+        "TripID": "1495-ECU-USA-38249",
+        "justificacion": "El 59º período de sesiones de la Asamblea General de la ONU inició su debate general el 21 de septiembre de 2004, consistente con el rango de fechas del registro (19-25 sep 2004, con reunión adicional con Kofi Annan y ceremonia de la OEA)."
+      },
+      {
+        "TripID": "1495-ECU-USA-38368",
+        "justificacion": "No se halló evidencia contradictoria sobre reuniones de Gutiérrez con inversionistas en Nueva York en enero de 2005; consistente con el contexto de búsqueda de financiamiento externo en los últimos meses de su gobierno."
+      }
+    ]
+  },
+  {
+    "LeaderID": "2053",
+    "correcciones": [
+      {
+        "TripID": "2053-ECU-CUB-38974",
+        "campo": "HostHOGSName",
+        "valor_correcto": "General Raúl Castro (Presidente en funciones)",
+        "fuente": "https://www.cubanet.org/cumbre-no-alineados-otra-gran-derrota-de-fidel-castro/ ; https://gk.city/2025/05/22/quien-fue-alfredo-palacio/",
+        "justificacion": "Fidel Castro delegó el poder presidencial en su hermano Raúl el 31 de julio de 2006 por motivos de salud (cirugía intestinal) y no realizó apariciones públicas ni recibió jefes de Estado en persona durante la XIV Cumbre del Movimiento de Países No Alineados (La Habana, 11-16 sep. 2006); fue Raúl Castro quien presidió la cumbre en su representación. Una nota biográfica sobre Alfredo Palacio (GK, 2025) confirma explícitamente que en esa cumbre 'fue recibido por el comandante militar cubano Raúl Castro'. El propio campo 'Notes' del registro original ya reconocía esta ambigüedad ('though Raúl Castro had largely assumed presidential responsibilities'), pero el campo HostHOGSName no reflejaba ese matiz."
+      },
+      {
+        "TripID": "2053-ECU-ARG-38659",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Summit of the Americas (SOA)",
+        "fuente": "Search Query: Cumbre de las Americas Mar del Plata noviembre 2005 Palacio Ecuador",
+        "justificacion": "El campo NameMultilatEvent contiene, además del nombre del evento, una lista de nombres de mandatarios ('President George W. Bush;President Ãƒlvaro Uribe Velez;President Alejandro Toledo') que no corresponde a ese campo según el esquema COLT. El nombre del evento debe limitarse a 'Summit of the Americas (SOA)' (IV Cumbre de las Américas, Mar del Plata, Argentina, 4-5 noviembre 2005)."
+      },
+      {
+        "TripID": "2053-ECU-ARG-38659",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "President Luiz Inacio Lula da Silva;President George W. Bush;President Alvaro Uribe Velez;President Alejandro Toledo",
+        "fuente": "Search Query: Cumbre de las Americas Mar del Plata noviembre 2005 Palacio Ecuador",
+        "justificacion": "Los nombres de Bush, Uribe y Toledo, incorrectamente incluidos en el campo NameMultilatEvent, corresponden en realidad a mandatarios no anfitriones presentes en la IV Cumbre de las Américas y deben trasladarse al campo NonhostHOGSNames, que ya incluía a Lula da Silva."
+      },
+      {
+        "TripID": "2053-ECU-PER-38895",
+        "campo": "HostHOGSName",
+        "valor_correcto": "No verificado — dato inconsistente",
+        "fuente": "https://es.wikipedia.org/wiki/Segundo_gobierno_de_Alan_Garc%C3%ADa",
+        "justificacion": "Alan García asumió la presidencia de Perú recién el 28 de julio de 2006 (confirmado por fuente independiente); en las fechas registradas para este viaje (27-28 de junio de 2006) el presidente en funciones de Perú era Alejandro Toledo, no Alan García. Este registro es casi con certeza un error de fecha/duplicado del viaje correctamente documentado en el TripID 2053-ECU-PER-38926 (28 jul 2006, investidura de García, sí confirmada por fuentes independientes)."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "2053-ECU-PER-38895",
+        "campo": "TripStartDate",
+        "justificacion": "Se buscó confirmación de un viaje de Palacio a Perú entre el 27 y 28 de junio de 2006 (búsquedas: 'Palacio Ecuador viaje Perú junio 2006'; 'Alfredo Palacio Peru junio 2006 Toledo visita bilateral Ecuador'; 'Palacio Ecuador presidente viaje Peru julio 2006 antes toma posesion Garcia'). No se halló ninguna fuente que confirme un viaje presidencial a Perú en esas fechas exactas; sólo se encontró referencia a que el presidente electo de Perú, Alan García, visitó Quito el 6 de julio de 2006. Dado que las Notes de este registro ('Begin date implied. Attended inauguaration of Alan García') son casi idénticas a las del TripID 2053-ECU-PER-38926 (fechado correctamente el 28 de julio de 2006), es muy probable que se trate de un registro duplicado con fecha errónea en la base COLT original, pero no fue posible confirmarlo de forma independiente ni determinar si existió algún viaje real y distinto en esa fecha de junio."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "2053-ECU-AUT-38848",
+        "justificacion": "La IV Cumbre Unión Europea-América Latina y el Caribe se celebró en Viena, Austria, el 12 y 13 de mayo de 2006, consistente con las fechas del registro (11-13 may 2006, con un día de llegada previo); Michelle Bachelet había asumido la presidencia de Chile el 11 de marzo de 2006, consistente con el NonhostHOGSNames registrado."
+      },
+      {
+        "TripID": "2053-ECU-BOL-38738",
+        "justificacion": "Evo Morales fue investido presidente de Bolivia el 22 de enero de 2006, coincidiendo con la fecha de cierre del viaje registrado (21-22 ene 2006)."
+      },
+      {
+        "TripID": "2053-ECU-BRA-38624",
+        "justificacion": "Se confirmó por búsqueda independiente que Palacio fue uno de los siete presidentes que participaron en la Primera Reunión de Jefes de Estado de la Comunidad Sudamericana de Naciones en Brasilia, el 29 y 30 de septiembre de 2005, coincidiendo exactamente con las fechas del registro."
+      },
+      {
+        "TripID": "2053-ECU-CHL-38740",
+        "justificacion": "Ricardo Lagos aún era presidente de Chile en enero de 2006 (hasta el 11 de marzo de 2006), y Michelle Bachelet ya era presidenta electa desde el 15 de enero de 2006, consistente con ambos campos del registro (HostHOGSName y Notes)."
+      },
+      {
+        "TripID": "2053-ECU-COL-38733",
+        "justificacion": "Álvaro Uribe era presidente de Colombia en enero de 2006, consistente con el HostHOGSName registrado; no se halló evidencia contradictoria."
+      },
+      {
+        "TripID": "2053-ECU-CRI-38540",
+        "justificacion": "No se halló evidencia contradictoria sobre la participación de Palacio en la Cumbre de Países Bananeros en Costa Rica en julio de 2005; las fuentes de ProQuest/Newsbank/Getty ya citadas en el registro sustentan el evento y la presencia de Uribe."
+      },
+      {
+        "TripID": "2053-ECU-DEU-38888",
+        "justificacion": "El partido Ecuador-Alemania de la fase de grupos del Mundial de Fútbol 2006 se disputó en Berlín el 20 de junio de 2006, coincidiendo exactamente con la fecha registrada."
+      },
+      {
+        "TripID": "2053-ECU-HTI-38978",
+        "justificacion": "Fecha consistente con la salida de Palacio de La Habana tras la Cumbre de No Alineados (que concluyó el 16 de septiembre de 2006) camino a Ecuador, con escala en Haití el 18 de septiembre de 2006 para visitar el contingente de cascos azules ecuatorianos; no se halló evidencia contradictoria."
+      },
+      {
+        "TripID": "2053-ECU-MEX-38830",
+        "justificacion": "Se confirmó por búsqueda independiente que Palacio estuvo en México en abril de 2006; Vicente Fox era presidente de México en esa fecha, consistente con el HostHOGSName registrado."
+      },
+      {
+        "TripID": "2053-ECU-NGA-39050",
+        "justificacion": "La Cumbre América del Sur-África (ASA) se celebró en Abuja, Nigeria, a fines de noviembre de 2006, consistente con las fechas del registro y con la presencia de Lula da Silva como mandatario no anfitrión."
+      },
+      {
+        "TripID": "2053-ECU-PRY-38522",
+        "justificacion": "La Cumbre Presidencial de Mercosur se realizó en Asunción, Paraguay, el 20 de junio de 2005 (tras reuniones previas del Consejo del Mercado Común el 18-19 de junio), consistente con las fechas del registro (19-20 jun 2005)."
+      },
+      {
+        "TripID": "2053-ECU-PER-38551",
+        "justificacion": "No se halló evidencia contradictoria sobre la participación de Palacio en una Cumbre de la Comunidad Andina de Naciones en Perú en julio de 2005; las fuentes de ProQuest/Newsbank ya citadas en el registro sustentan el evento."
+      },
+      {
+        "TripID": "2053-ECU-PER-38926",
+        "justificacion": "Se confirmó por búsqueda independiente que Alan García fue investido presidente de Perú el 28 de julio de 2006 y que Alfredo Palacio González, presidente de Ecuador, asistió a la ceremonia de transmisión de mando en Lima, junto con Lula da Silva, Evo Morales, Michelle Bachelet, Álvaro Uribe y otros mandatarios."
+      },
+      {
+        "TripID": "2053-ECU-ESP-38639",
+        "justificacion": "La XV Cumbre Iberoamericana se celebró en Salamanca, España, el 14 y 15 de octubre de 2005, coincidiendo exactamente con las fechas del registro."
+      },
+      {
+        "TripID": "2053-ECU-USA-38608",
+        "justificacion": "El 60º período de sesiones de la Asamblea General de la ONU, junto con la Cumbre Mundial 2005, se realizó a mediados de septiembre de 2005, consistente con el rango de fechas del registro (13-19 sep 2005)."
+      },
+      {
+        "TripID": "2053-ECU-USA-38978",
+        "justificacion": "El 61º período de sesiones de la Asamblea General de la ONU inició su debate general el 19 de septiembre de 2006, consistente con el rango de fechas del registro (18-21 sep 2006)."
+      },
+      {
+        "TripID": "2053-ECU-URY-39024",
+        "justificacion": "Se confirmó por búsqueda independiente que la XVI Cumbre Iberoamericana se celebró en Montevideo, Uruguay, el 3, 4 y 5 de noviembre de 2006, y que el Secretario General de la ONU, Kofi Annan, asistió y fue homenajeado por los mandatarios semanas antes de dejar su cargo, confirmando tanto las fechas como el campo MetIGOLeader/IGOLeaderName del registro."
+      }
+    ]
+  }
+]

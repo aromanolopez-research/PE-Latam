@@ -1,0 +1,444 @@
+[
+  {
+    "LeaderID": "1383",
+    "correcciones": [
+      {
+        "TripID": "1383-VEN-CUB-40158",
+        "campo": "TripStartDate",
+        "valor_correcto": "2009-12-13",
+        "justificacion": "Múltiples fuentes de prensa coinciden en que la VIII Cumbre del ALBA (celebrando el 5to aniversario del mecanismo) se realizó en La Habana los días 13 y 14 de diciembre de 2009, no del 11 al 13 como indica COLT.",
+        "fuente": "https://rebelion.org/declaracion-final-de-la-viii-cumbre-del-alba/"
+      },
+      {
+        "TripID": "1383-VEN-CUB-40158",
+        "campo": "TripEndDate",
+        "valor_correcto": "2009-12-14",
+        "justificacion": "La VIII Cumbre del ALBA concluyó el 14 de diciembre de 2009; una de las fuentes originales de COLT (nota sobre acuerdos Venezuela-Cuba por 3.200 millones de dólares) está fechada el 14 de diciembre, consistente con el cierre de la cumbre ese día.",
+        "fuente": "https://rebelion.org/declaracion-final-de-la-viii-cumbre-del-alba/"
+      },
+      {
+        "TripID": "1383-VEN-DZA-40058",
+        "campo": "TripEndDate",
+        "valor_correcto": "2009-09-03",
+        "justificacion": "Según reportes de la gira de Chávez por el Magreb y Medio Oriente, salió de Argelia el 3 de septiembre de 2009 rumbo a Damasco, lo que indica que la visita a Argelia se extendió del 2 al 3 de septiembre, no un único día (2 de septiembre) como indica COLT.",
+        "fuente": "Search Query: Chavez sale de Argelia 3 septiembre 2009 rumbo Damasco gira Libia Argelia Siria"
+      },
+      {
+        "TripID": "1383-VEN-SYR-40059",
+        "campo": "TripStartDate",
+        "valor_correcto": "2009-09-04",
+        "justificacion": "Fuentes independientes (VOA News, Al Jazeera) confirman que Chávez llegó a Damasco y fue recibido por Bashar al-Assad el viernes 4 de septiembre de 2009, no el 3 de septiembre como indica COLT.",
+        "fuente": "https://www.voanews.com/a/venezuelas-chavez-visits-syria-105448053/164122.html"
+      },
+      {
+        "TripID": "1383-VEN-SYR-40059",
+        "campo": "TripEndDate",
+        "valor_correcto": "2009-09-04",
+        "justificacion": "La visita a Siria fue de un solo día (4 de septiembre de 2009), según las mismas fuentes que documentan la llegada a Damasco.",
+        "fuente": "https://www.voanews.com/a/venezuelas-chavez-visits-syria-105448053/164122.html"
+      },
+      {
+        "TripID": "1383-VEN-NIC-39463",
+        "campo": "TripStartDate",
+        "valor_correcto": "2008-01-15",
+        "justificacion": "Fuentes de prensa (La Prensa de Honduras, Aporrea) indican que Chávez concluyó su gira centroamericana (Guatemala 14/1, Honduras y Nicaragua) precisamente el martes 15 de enero de 2008, coincidiendo con la inauguración de la serie final de béisbol junto a Daniel Ortega en Managua, no el 16 de enero como indica COLT.",
+        "fuente": "https://www.laprensa.hn/honduras/chavez-concluye-gira-por-centroamerica-ESLP683766"
+      },
+      {
+        "TripID": "1383-VEN-NIC-39463",
+        "campo": "TripEndDate",
+        "valor_correcto": "2008-01-15",
+        "justificacion": "La visita a Nicaragua fue de un solo día (15 de enero de 2008), día en que concluyó la gira centroamericana.",
+        "fuente": "https://www.aporrea.org/actualidad/n107598.html"
+      },
+      {
+        "TripID": "1383-VEN-COL-39837",
+        "campo": "CityVisited",
+        "valor_correcto": "Cartagena",
+        "justificacion": "La reunión bilateral Chávez-Uribe del 24 de enero de 2009 tuvo lugar en Cartagena de Indias, dato que en COLT figura vacío.",
+        "fuente": "Search Query: Uribe Chavez reunion bilateral 24 enero 2009 Cartagena"
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "TripID": "NUEVO-1383-VEN-BRA-20090428",
+        "TripStartDate": "2009-04-28",
+        "TripEndDate": "2009-04-28",
+        "CountryVisited": "Brazil",
+        "CityVisited": "Brasilia",
+        "Visit_Category": "Bilateral",
+        "Visit_Subtype": "Reunión de jefes de Estado",
+        "Counterpart_Event": "Reunión bilateral con el presidente Luiz Inácio Lula da Silva; firma de acuerdos incluyendo cooperación minera",
+        "justificacion": "Se encontró referencia a una reunión entre Chávez y Lula da Silva en Brasilia el 28 de abril de 2009 con firma de acuerdos (incluyendo minería), evento que no aparece en el archivo de entrada. Podría tratarse de un viaje adicional de Chávez a Brasil no capturado por COLT, o de una confusión de fecha con el viaje BRA-39959 (26 de mayo de 2009), que no pudo confirmarse independientemente. Se recomienda verificación adicional con fuentes primarias antes de incorporarlo definitivamente a la base.",
+        "fuente": "Search Query: Chavez Lula Brasilia 28 abril 2009 acuerdo mineria"
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "1383-VEN-CUB-39514",
+        "campo": "TripStartDate",
+        "motivo": "No se encontró cobertura de prensa independiente que confirme una visita de Chávez a Cuba específicamente el 7-8 de marzo de 2008; las búsquedas solo devuelven resultados sobre la primera visita histórica de Chávez a Cuba en 1994.",
+        "fuente_intentada": "Search Query: Chavez visita Cuba 7 marzo 2008 Raul Castro"
+      },
+      {
+        "TripID": "1383-VEN-CUB-40141",
+        "campo": "TripStartDate",
+        "motivo": "No se halló ningún artículo de prensa que documente específicamente una visita de Chávez a Cuba el 24 de noviembre de 2009.",
+        "fuente_intentada": "Search Query: Chavez Cuba 24 noviembre 2009 visita Raul Castro"
+      },
+      {
+        "TripID": "1383-VEN-BOL-40010",
+        "campo": "TripStartDate",
+        "motivo": "No se encontró fuente que confirme una visita de Chávez a Bolivia el 16-17 de julio de 2009; las fuentes disponibles documentan visitas de Chávez a Bolivia en agosto de 2008 (referéndum revocatorio) y noviembre de 2009 (Juegos Bolivarianos), pero ninguna en julio de 2009.",
+        "fuente_intentada": "Search Query: Chavez Bolivia Evo Morales julio 2009 visita fecha"
+      },
+      {
+        "TripID": "1383-VEN-BRA-39959",
+        "campo": "TripStartDate",
+        "motivo": "No se pudo confirmar con precisión una visita de Chávez a Brasil el 26 de mayo de 2009. Las búsquedas arrojan una reunión Chávez-Lula el 28 de abril de 2009 en Brasilia (ver hallazgo nuevo) y referencias vagas a un encuentro 'a fines de mayo', pero ninguna fuente confirma el 26 de mayo específicamente.",
+        "fuente_intentada": "Search Query: Chavez Lula 26 mayo 2009 Brasil acuerdos"
+      },
+      {
+        "TripID": "1383-VEN-NIC-39993",
+        "campo": "TripStartDate",
+        "motivo": "Las fuentes sobre la cumbre de emergencia del ALBA en Managua tras el golpe de Estado en Honduras son contradictorias: una indica que la reunión de emergencia ocurrió la noche del 28 de junio de 2009 (con presencia mencionada de 'el presidente de Venezuela'), otra sitúa el evento el 29 de junio (fecha que indica COLT), y una tercera describe una reunión conjunta ALBA-Grupo de Río recién el 30 de junio. No se pudo determinar con certeza en cuál de esos días estuvo físicamente presente Chávez.",
+        "fuente_intentada": "Search Query: cumbre ALBA Managua junio 2009 golpe Honduras Chavez fecha exacta presencia"
+      },
+      {
+        "TripID": "1383-VEN-PER-39584",
+        "campo": "TripStartDate",
+        "motivo": "Fuentes sobre la V Cumbre UE-América Latina y Caribe en Lima (mayo de 2008) señalan que Evo Morales cerró la 'Cumbre de los Pueblos' paralela 'sin Chávez y sin Correa', lo cual genera duda sobre si Chávez efectivamente viajó a Lima y asistió a la cumbre oficial UE-ALC, o si se ausentó del evento. No se encontró una fuente que confirme de forma inequívoca su presencia física en Lima esos días.",
+        "fuente_intentada": "Search Query: Chavez ausente cumbre Lima mayo 2008 Union Europea America Latina Caribe"
+      },
+      {
+        "TripID": "1383-VEN-PRT-39652",
+        "campo": "TripStartDate",
+        "motivo": "No se encontró fuente independiente que confirme específicamente una visita a Portugal el 23-24 de julio de 2008. Solo se pudo verificar de forma independiente la visita a Portugal de septiembre de 2008 (TripID 1383-VEN-PRT-39718). La fecha de julio es plausible por la lógica de la gira europea (Rusia 22-23/7, Bielorrusia 23/7, España 25/7), pero no fue confirmada con una fuente primaria propia.",
+        "fuente_intentada": "Search Query: Chavez Portugal Socrates julio 2008 visita Lisboa fecha"
+      },
+      {
+        "TripID": "1383-VEN-TKM-40062",
+        "campo": "TripStartDate",
+        "motivo": "Las fuentes sobre la visita a Turkmenistán son contradictorias: Al Jazeera fecha la llegada de Chávez a Asjabad el lunes 7 de septiembre de 2009 (un día después de lo que indica COLT, que señala 6-7 de septiembre), mientras otra fuente indica que Chávez aún se encontraba en el aeropuerto de Asjabad el 8 de septiembre. No se pudo determinar con certeza el rango exacto de fechas.",
+        "fuente_intentada": "Search Query: Chavez Turkmenistan Berdimuhamedov Ashgabat septiembre 2009 fecha llegada"
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1383-VEN-CUB-39615",
+        "campo": "TripStartDate",
+        "valor": "2008-06-16",
+        "justificacion": "Coincide con nota de Associated Press del 16 de junio de 2008 (citada por COLT) y con reportes de que la última aparición de Fidel Castro en TV cubana fue en junio de 2008, en un encuentro con Chávez.",
+        "fuente": "Search Query: Chavez Cuba junio 16 2008 Fidel Castro"
+      },
+      {
+        "TripID": "1383-VEN-CUB-39712",
+        "campo": "TripStartDate",
+        "valor": "2008-09-21",
+        "justificacion": "Confirmado como escala en La Habana a fines de septiembre de 2008, previa a la gira de Chávez por China, Rusia, Francia y Portugal.",
+        "fuente": "https://www.cubaencuentro.com/txt/cuba/noticias/hugo-chavez-visita-sorpresivamente-cuba-157761"
+      },
+      {
+        "TripID": "1383-VEN-CUB-39719",
+        "campo": "TripStartDate",
+        "valor": "2008-09-28",
+        "justificacion": "Confirmado como escala de regreso en La Habana tras concluir la gira por China, Rusia, Francia y Portugal en septiembre de 2008.",
+        "fuente": "https://www.pagina12.com.ar/diario/ultimas/20-120336-2009-02-21.html"
+      },
+      {
+        "TripID": "1383-VEN-CUB-39865",
+        "campo": "TripStartDate",
+        "valor": "2009-02-21",
+        "justificacion": "Confirmado: Chávez realizó una visita sorpresa a Cuba pocos días después de ganar el referéndum constitucional del 15 de febrero de 2009, para celebrar con Fidel y Raúl Castro.",
+        "fuente": "https://www.france24.com/en/20090221-chavez-makes-surprise-visit-cuba-"
+      },
+      {
+        "TripID": "1383-VEN-CUB-40038",
+        "campo": "TripStartDate",
+        "valor": "2009-08-13",
+        "justificacion": "Confirmado: Chávez viajó a Cuba para celebrar el cumpleaños 83 de Fidel Castro el 13 de agosto de 2009.",
+        "fuente": "https://www.nbcnews.com/news/amp/wbna32428585"
+      },
+      {
+        "TripID": "1383-VEN-ARG-39629",
+        "campo": "TripStartDate",
+        "valor": "2008-06-30",
+        "justificacion": "Confirmado: la XXXV Cumbre del Mercosur se realizó en San Miguel de Tucumán el 30 de junio y 1 de julio de 2008, con la firma de un memorando de entendimiento y un discurso de Chávez.",
+        "fuente": "https://www.infobae.com/2008/06/30/388983-la-presidente-y-chavez-afianzan-la-relacion-bilateral-tucuman/?outputType=amp-type"
+      },
+      {
+        "TripID": "1383-VEN-ARG-39664",
+        "campo": "TripEndDate",
+        "valor": "2008-08-05",
+        "justificacion": "Confirmado por fuentes contemporáneas citadas en el propio registro COLT (Platts LNG Daily y Associated Press, ambas del 5 de agosto de 2008) sobre acuerdos de refinería y GNL entre Argentina y Venezuela.",
+        "fuente": "Search Query: Argentina Venezuela acuerdo refineria GNL agosto 2008 Chavez Cristina Fernandez"
+      },
+      {
+        "TripID": "1383-VEN-ARG-40053",
+        "campo": "TripStartDate",
+        "valor": "2009-08-28",
+        "justificacion": "Confirmado: la Cumbre Extraordinaria de UNASUR sobre las bases militares de EE.UU. en Colombia se realizó en Bariloche el 28 de agosto de 2009, con activa participación de Chávez.",
+        "fuente": "https://globalvoices.org/2009/09/02/colombia-the-extraordinary-unasur-meeting-in-bariloche/"
+      },
+      {
+        "TripID": "1383-VEN-BLR-39652",
+        "campo": "TripStartDate",
+        "valor": "2008-07-23",
+        "justificacion": "Confirmado: Chávez visitó Minsk el 23 de julio de 2008 y firmó acuerdos petroleros con Lukashenko.",
+        "fuente": "https://www.france24.com/en/20080723-chavez-dubs-belarus-president-brother-venezuela-belarus"
+      },
+      {
+        "TripID": "1383-VEN-BLR-40064",
+        "campo": "TripStartDate",
+        "valor": "2009-09-08",
+        "justificacion": "Consistente con la secuencia confirmada de la gira de septiembre de 2009 (Turkmenistán 7/9, Bielorrusia 8-9/9, Rusia 9-10/9).",
+        "fuente": "Search Query: Chavez gira internacional septiembre 2009 Bielorrusia Rusia fechas"
+      },
+      {
+        "TripID": "1383-VEN-BOL-40102",
+        "campo": "TripStartDate",
+        "valor": "2009-10-16",
+        "justificacion": "Confirmado por las fuentes originales citadas en COLT (Associated Press, 17 y 18 de octubre de 2009) sobre la Cumbre del ALBA que rechazó las elecciones de Honduras.",
+        "fuente": "Search Query: Cumbre ALBA octubre 2009 Bolivia rechaza elecciones Honduras"
+      },
+      {
+        "TripID": "1383-VEN-BRA-39533",
+        "campo": "TripStartDate",
+        "valor": "2008-03-26",
+        "justificacion": "Confirmado: Lula y Chávez visitaron la obra de la Refinería Abreu e Lima en Pernambuco el 26 de marzo de 2008.",
+        "fuente": "Search Query: Chavez Lula Pernambuco refineria Abreu e Lima 26 marzo 2008"
+      },
+      {
+        "TripID": "1383-VEN-BRA-39591",
+        "campo": "TripStartDate",
+        "valor": "2008-05-23",
+        "justificacion": "Confirmado: el Tratado Constitutivo de UNASUR fue firmado en Brasilia el 23 de mayo de 2008 por los 12 mandatarios sudamericanos, incluido Chávez.",
+        "fuente": "https://www.sela.org/publicaciones/tratado-constitutivo-de-la-union-de-naciones-suramericanas-unasur-brasilia-23-de-mayo-de-2008/"
+      },
+      {
+        "TripID": "1383-VEN-BRA-39798",
+        "campo": "TripStartDate",
+        "valor": "2008-12-16",
+        "justificacion": "Confirmado: la Cumbre de América Latina y el Caribe sobre Integración y Desarrollo (CALC) se realizó en Costa do Sauípe, Bahía, el 16 y 17 de diciembre de 2008, con la asistencia de Chávez.",
+        "fuente": "https://aquiescencia.net/2008/12/21/cumbre-de-jefes-de-estado-y-de-gobierno-de-america-latina-y-el-caribe-sobre-integracion-y-desarrollo/"
+      },
+      {
+        "TripID": "1383-VEN-BRA-39842",
+        "campo": "TripStartDate",
+        "valor": "2009-01-29",
+        "justificacion": "Confirmado: Chávez participó junto a Correa, Evo Morales y Lugo en un diálogo sobre integración popular en el marco del IX Foro Social Mundial en Belém, el 29 de enero de 2009.",
+        "fuente": "Search Query: Foro Social Mundial Belem enero 2009 Chavez Correa Evo Lugo dialogo 29"
+      },
+      {
+        "TripID": "1383-VEN-CHN-39714",
+        "campo": "TripStartDate",
+        "valor": "2008-09-23",
+        "justificacion": "Confirmado por fuente oficial china: Chávez llegó a Beijing el martes 23 de septiembre de 2008 y se reunió con Hu Jintao en el Gran Palacio del Pueblo la tarde del 24 de septiembre.",
+        "fuente": "https://www.fmprc.gov.cn/esp/gjhdq/ldmz/v3538/3540/200809/t20080926_968852.html"
+      },
+      {
+        "TripID": "1383-VEN-CHN-39910",
+        "campo": "TripStartDate",
+        "valor": "2009-04-07",
+        "justificacion": "Confirmado: Chávez llegó a Beijing la noche del martes 7 de abril de 2009 y permaneció hasta el jueves 9 de abril; la reunión con Hu Jintao fue el miércoles 8 de abril.",
+        "fuente": "https://tl.china-embassy.gov.cn/eng/xwdt/200904/t20090413_1111858.htm"
+      },
+      {
+        "TripID": "1383-VEN-COL-39837",
+        "campo": "TripStartDate",
+        "valor": "2009-01-24",
+        "justificacion": "Confirmado: Uribe y Chávez sostuvieron una cumbre bilateral en Cartagena el 24 de enero de 2009.",
+        "fuente": "Search Query: Uribe Chavez cumbre bilateral Cartagena 24 enero 2009"
+      },
+      {
+        "TripID": "1383-VEN-DNK-40163",
+        "campo": "TripStartDate",
+        "valor": "2009-12-16",
+        "justificacion": "Confirmado: Chávez llegó a Copenhague el 16 de diciembre de 2009 para la Cumbre Climática COP15 y pronunció su discurso 'no cambiemos el clima, cambiemos el sistema'; también intervino el 18 de diciembre, coincidiendo con el rango de fechas de COLT.",
+        "fuente": "https://www.juventudrebelde.cu/internacionales/2009-12-18/discurso-de-hugo-chavez-en-la-cumbre-climatica-en-copenhague"
+      },
+      {
+        "TripID": "1383-VEN-DMA-39977",
+        "campo": "TripStartDate",
+        "valor": "2009-06-13",
+        "justificacion": "Confirmado: Chávez visitó Dominica el sábado 13 de junio de 2009, tras concluir la VI Cumbre de Petrocaribe en San Cristóbal y Nieves.",
+        "fuente": "https://www.diariocritico.com/noticia/155932/noticias/chavez-visita-dominica-para-reforzar-acuerdos-de-petrocaribe.html"
+      },
+      {
+        "TripID": "1383-VEN-DOM-39513",
+        "campo": "TripStartDate",
+        "valor": "2008-03-06",
+        "justificacion": "Confirmado: la XX Cumbre del Grupo de Río se celebró en Santo Domingo el 6, 7 y 8 de marzo de 2008, con la intervención decisiva de Chávez el 7 de marzo para destensar la crisis Ecuador-Colombia.",
+        "fuente": "https://es.wikipedia.org/wiki/XX_Cumbre_del_Grupo_de_R%C3%ADo"
+      },
+      {
+        "TripID": "1383-VEN-ECU-39749",
+        "campo": "TripStartDate",
+        "valor": "2008-10-28",
+        "justificacion": "Confirmado: Correa y Chávez se reunieron en El Puyo el 28 de octubre de 2008 y firmaron 10 acuerdos de cooperación.",
+        "fuente": "Search Query: Chavez Correa El Puyo 28 octubre 2008 acuerdos cooperacion"
+      },
+      {
+        "TripID": "1383-VEN-ECU-39956",
+        "campo": "TripEndDate",
+        "valor": "2009-05-24",
+        "justificacion": "Confirmado: Chávez realizó su quinta visita a Ecuador el domingo 24 de mayo de 2009, coincidiendo con la conmemoración de la Batalla de Pichincha.",
+        "fuente": "https://www.eluniverso.com/2009/05/18/1/1355/BA690E8CD25C450C8486F324DCCC8A3A.html/"
+      },
+      {
+        "TripID": "1383-VEN-ECU-40034",
+        "campo": "TripStartDate",
+        "valor": "2009-08-09",
+        "justificacion": "Confirmado: la III Reunión Ordinaria de UNASUR y la posesión de Rafael Correa (con celebraciones del bicentenario) se realizaron en Quito el 9 y 10 de agosto de 2009.",
+        "fuente": "Search Query: III Cumbre UNASUR Quito agosto 2009 posesion Correa bicentenario"
+      },
+      {
+        "TripID": "1383-VEN-FRA-39717",
+        "campo": "TripStartDate",
+        "valor": "2008-09-26",
+        "justificacion": "Consistente con la gira confirmada de septiembre de 2008 (China 23-25/9, Rusia 25-26/9, Francia 26/9, Portugal 27/9, escala en Cuba 28/9).",
+        "fuente": "Search Query: Chavez gira internacional septiembre 2008 China Rusia Francia Portugal fechas"
+      },
+      {
+        "TripID": "1383-VEN-GTM-39461",
+        "campo": "TripStartDate",
+        "valor": "2008-01-14",
+        "justificacion": "Confirmado: Chávez asistió a la investidura de Álvaro Colom como presidente de Guatemala el lunes 14 de enero de 2008.",
+        "fuente": "https://www.prensalibre.com/guatemala/politica/recuerdan-estadia-chavez-pais_0_877712705-html/"
+      },
+      {
+        "TripID": "1383-VEN-HND-39462",
+        "campo": "TripStartDate",
+        "valor": "2008-01-15",
+        "justificacion": "Confirmado: Chávez visitó a Zelaya en Tegucigalpa el 15 de enero de 2008 en el marco de su gira centroamericana.",
+        "fuente": "http://www.todochavez.gob.ve/todochavez/402-declaraciones-del-comandante-presidente-hugo-chavez-luego-de-reunion-con-el-ex-presidente-de-la-republica-de-honduras-manuel-zelaya"
+      },
+      {
+        "TripID": "1383-VEN-HND-39685",
+        "campo": "TripStartDate",
+        "valor": "2008-08-25",
+        "justificacion": "Confirmado: Manuel Zelaya firmó el ingreso de Honduras al ALBA el 25 de agosto de 2008, en ceremonia con Chávez, Evo Morales y Daniel Ortega presentes.",
+        "fuente": "https://www.nacion.com/archivo/gobierno-hondureno-firma-adhesion-al-alba-en-franco-desafio-a-empresarios/DXV64B2GKFFQVDJUV4MSTRQ4VY/story/"
+      },
+      {
+        "TripID": "1383-VEN-IRN-39904",
+        "campo": "TripStartDate",
+        "valor": "2009-04-01",
+        "justificacion": "Consistente con las fuentes que documentan la visita de Chávez a Irán a comienzos de abril de 2009, incluyendo su recepción por el Ayatolá Jamenei (4 de abril) y por Ahmadinejad; el rango 1-5 de abril es coherente con la fecha de partida hacia Japón (5 de abril).",
+        "fuente": "https://www.vozdeamerica.com/a/chavez-iran-mahmoud-ahmadinejad-visita-105241413/90659.html"
+      },
+      {
+        "TripID": "1383-VEN-IRN-40061",
+        "campo": "TripStartDate",
+        "valor": "2009-09-05",
+        "justificacion": "Confirmado: el 5 de septiembre de 2009 (sábado) Chávez aterrizó en Teherán en el marco de su gira por países árabes y Asia Central.",
+        "fuente": "Search Query: Chavez Iran Ahmadinejad septiembre 2009 sabado llegada Teheran"
+      },
+      {
+        "TripID": "1383-VEN-ITA-40063",
+        "campo": "TripStartDate",
+        "valor": "2009-09-07",
+        "justificacion": "Confirmado: Chávez asistió el lunes 7 de septiembre de 2009 al estreno de 'South of the Border' de Oliver Stone en el Festival de Cine de Venecia.",
+        "fuente": "https://www.voanews.com/a/a-13-2009-09-07-voa40-68807132/412544.html"
+      },
+      {
+        "TripID": "1383-VEN-JPN-39908",
+        "campo": "TripEndDate",
+        "valor": "2009-04-07",
+        "justificacion": "Confirmado: Chávez se reunió con el primer ministro Taro Aso en Tokio el 7 de abril de 2009, acordando cooperación en gas y petróleo.",
+        "fuente": "https://www.eltiempo.com/amp/archivo/documento/CMS-4952805"
+      },
+      {
+        "TripID": "1383-VEN-LBY-40056",
+        "campo": "TripStartDate",
+        "valor": "2009-08-31",
+        "justificacion": "Confirmado: Chávez llegó a Trípoli el 31 de agosto de 2009 como invitado de honor en los actos por el 40 aniversario de la llegada al poder de Gadafi.",
+        "fuente": "https://venezuelanalysis.com/news/4770/"
+      },
+      {
+        "TripID": "1383-VEN-PRY-39675",
+        "campo": "TripStartDate",
+        "valor": "2008-08-15",
+        "justificacion": "Confirmado: Chávez viajó a Paraguay el 15 de agosto de 2008 para la asunción de Fernando Lugo (fecha tradicional de investidura presidencial paraguaya, coincidente con el Día de la Fundación de Asunción).",
+        "fuente": "https://www.youtube.com/watch?v=CEIPSA4kly0"
+      },
+      {
+        "TripID": "1383-VEN-PRT-39718",
+        "campo": "TripStartDate",
+        "valor": "2008-09-27",
+        "justificacion": "Consistente con la gira de septiembre de 2008: Chávez concluyó su gira internacional en Lisboa, firmando 14 acuerdos con José Sócrates, incluyendo un contrato marco de vivienda.",
+        "fuente": "https://www.nacion.com/archivo/el-presidente-chavez-concluye-su-gira-internacional-en-portugal/I2K4OJIHMVGO5HIBZ55S36ZLOY/story/"
+      },
+      {
+        "TripID": "1383-VEN-QAT-39902",
+        "campo": "TripEndDate",
+        "valor": "2009-03-31",
+        "justificacion": "Confirmado: la II Cumbre América del Sur-Países Árabes (ASPA) fue inaugurada en Doha el 31 de marzo de 2009; Chávez propuso allí la creación del 'petro' como divisa alternativa al dólar.",
+        "fuente": "https://es.wikipedia.org/wiki/II_Cumbre_Am%C3%A9rica_del_Sur-Pa%C3%ADses_%C3%81rabes"
+      },
+      {
+        "TripID": "1383-VEN-RUS-39651",
+        "campo": "TripStartDate",
+        "valor": "2008-07-22",
+        "justificacion": "Confirmado: Chávez inició su visita a Moscú buscando una alianza con Rusia el 22 de julio de 2008, previo a su viaje a Bielorrusia el 23 de julio.",
+        "fuente": "https://www.aljazeera.com/news/2008/7/22/chavez-seeks-alliance-with-moscow"
+      },
+      {
+        "TripID": "1383-VEN-RUS-39716",
+        "campo": "TripStartDate",
+        "valor": "2008-09-25",
+        "justificacion": "Confirmado: Chávez se reunió con el primer ministro Putin en Moscú el 25 de septiembre de 2008, negociando la compra de tanques y misiles antiaéreos S-300 en su octava visita a Moscú.",
+        "fuente": "https://www.globalsecurity.org/military/library/news/2008/09/mil-080926-rferl03.htm"
+      },
+      {
+        "TripID": "1383-VEN-RUS-40065",
+        "campo": "TripStartDate",
+        "valor": "2009-09-09",
+        "justificacion": "Confirmado: Chávez se reunió con Medvedev en Moscú el jueves 10 de septiembre de 2009 (llegada previa el 9), donde Rusia se comprometió a suministrar tanques y armamento a Venezuela.",
+        "fuente": "https://www.globalsecurity.org/military/library/news/2009/09/mil-090910-rianovosti02.htm"
+      },
+      {
+        "TripID": "1383-VEN-KNA-39976",
+        "campo": "TripStartDate",
+        "valor": "2009-06-12",
+        "justificacion": "Confirmado: la VI Cumbre de Petrocaribe se realizó en Basseterre, San Cristóbal y Nieves, el 12 de junio de 2009.",
+        "fuente": "https://www.ecured.cu/VI_Cumbre_Petrocaribe"
+      },
+      {
+        "TripID": "1383-VEN-ZAF-39693",
+        "campo": "TripStartDate",
+        "valor": "2008-09-02",
+        "justificacion": "Confirmado: Chávez llegó a Sudáfrica el martes 2 de septiembre de 2008 para una visita de Estado programada para el 2 y 3 de septiembre, firmando un Acuerdo Marco de Cooperación con Thabo Mbeki.",
+        "fuente": "https://www.ultimahora.com/hugo-chavez-promueve-integracion-los-pueblos-del-sur-sudafrica-n150758"
+      },
+      {
+        "TripID": "1383-VEN-ESP-39654",
+        "campo": "TripStartDate",
+        "valor": "2008-07-25",
+        "justificacion": "Confirmado: Chávez se reunió con el Rey Juan Carlos en Palma de Mallorca y con Zapatero en Madrid el viernes 25 de julio de 2008.",
+        "fuente": "https://www.publico.es/actualidad/chavez-llega-hoy-madrid-entrevistarse-rey-zapatero.html"
+      },
+      {
+        "TripID": "1383-VEN-ESP-40066",
+        "campo": "TripEndDate",
+        "valor": "2009-09-11",
+        "justificacion": "Confirmado: Chávez se reunió con el Rey Juan Carlos en Mallorca y con Zapatero en Madrid el viernes 11 de septiembre de 2009, al cierre de su gira por Medio Oriente, Asia Central y Europa del Este.",
+        "fuente": "https://www.nuevatribuna.es/articulo/mundo/la-visita-de-chvez-una-oportunidad-para-espaa/20090911095239026064.html"
+      },
+      {
+        "TripID": "1383-VEN-TTO-39920",
+        "campo": "TripStartDate",
+        "valor": "2009-04-17",
+        "justificacion": "Confirmado: la V Cumbre de las Américas se celebró en Puerto España, Trinidad y Tobago, del 17 al 19 de abril de 2009; Chávez entregó a Obama el libro 'Las venas abiertas de América Latina' el 18 de abril.",
+        "fuente": "https://es.wikipedia.org/wiki/V_Cumbre_de_las_Am%C3%A9ricas"
+      },
+      {
+        "TripID": "1383-VEN-USA-40079",
+        "campo": "TripStartDate",
+        "valor": "2009-09-24",
+        "justificacion": "Confirmado: Chávez pronunció su discurso ante la Asamblea General de la ONU en Nueva York el 24 de septiembre de 2009, señalando que el podio 'ya no huele a azufre, sino a esperanza'.",
+        "fuente": "https://news.un.org/es/story/2009/09/1174381"
+      }
+    ]
+  }
+]

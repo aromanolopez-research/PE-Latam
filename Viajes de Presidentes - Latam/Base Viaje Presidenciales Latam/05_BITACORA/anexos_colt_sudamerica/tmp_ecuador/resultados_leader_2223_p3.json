@@ -1,0 +1,128 @@
+[
+  {
+    "LeaderID": "2223",
+    "correcciones": [
+      {
+        "TripID": "2223-ECU-BOL-41804",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "Group of 77 and China (G-77) Extraordinary Summit",
+        "fuente": "https://www.presidencia.gob.ec/presidente-correa-arriba-a-bolivia-para-participar-de-cumbre-g77-video/ ; https://www.noticiasfides.com/mundo/el-documento-aprobado-por-la-cumbre-del-g77-china-en-santa-cruz-343398",
+        "justificacion": "El campo NameMultilatEvent cargado dice 'China-G7 Summit', evento que no existe. La fuente primaria (Presidencia de Ecuador) y prensa boliviana confirman que Correa viajó a Santa Cruz de la Sierra, Bolivia, para participar en la Cumbre Extraordinaria del G-77 más China (50 aniversario del G-77), realizada el 14-15 de junio de 2014 en el Estadio Tahuichi Aguilera, con Bolivia como presidencia pro-tempore del grupo. Las fechas ya cargadas (2014-06-14/15) coinciden con la Cumbre del G-77+China, no con ningún 'G7'; se corrige únicamente el nombre del evento."
+      },
+      {
+        "TripID": "2223-ECU-BRA-41836",
+        "campo": "NameMultilatEvent",
+        "valor_correcto": "BRICS-South America Leaders' Dialogue (outreach meeting held alongside the VI BRICS Summit)",
+        "fuente": "https://www.fmprc.gov.cn/esp/wjb/zzjg/ldmzs/xwlb/201407/t20140716_934896.html ; https://es.wikipedia.org/wiki/Sexta_Cumbre_BRICS_2014",
+        "justificacion": "Ecuador no es miembro de BRICS, por lo que Correa no participó de la VI Cumbre BRICS propiamente dicha (Fortaleza, 14-16 julio 2014), sino del encuentro de diálogo BRICS-Sudamérica/UNASUR realizado en Brasilia el 16 de julio de 2014, donde sí se reunió con Xi Jinping junto a otros mandatarios sudamericanos. Las fechas cargadas (16-17 julio) son consistentes con este encuentro de outreach, no con la cumbre completa en Fortaleza. Se recomienda precisar el nombre del evento para reflejar que fue el diálogo BRICS-UNASUR y no la cumbre BRICS de miembros plenos."
+      },
+      {
+        "TripID": "2223-ECU-ITA-42475",
+        "campo": "Notes",
+        "valor_correcto": "Travelling to and from Holy See. Trip cut short: Correa was in Rome/Vatican when the magnitude-7.8 earthquake struck Ecuador on 2016-04-16; he declared a state of emergency from Rome via Twitter and flew back early the next morning, landing directly in Manta (near the epicenter in Manabí) instead of Quito, to lead the disaster response.",
+        "fuente": "https://es.wikipedia.org/wiki/Terremoto_de_Ecuador_de_2016",
+        "justificacion": "Fuentes de prensa confirman que Correa se encontraba en Roma/Vaticano el 16 de abril de 2016 cuando ocurrió el terremoto de Ecuador (magnitud 7.8), declaró el estado de excepción desde Roma por Twitter, y adelantó su regreso aterrizando directamente en Manta en lugar de Quito para atender la emergencia. Este es un dato relevante para el proyecto (impacto del terremoto en la agenda de viajes) que no estaba reflejado en las Notes existentes, que solo decían 'Travelling to and from Holy See'."
+      },
+      {
+        "TripID": "2223-ECU-VAT-42475",
+        "campo": "Notes",
+        "valor_correcto": "Spoke on restraining capitalism at the Centesimus Annus Conference. Trip cut short: Correa was in Rome/Vatican when the magnitude-7.8 earthquake struck Ecuador on 2016-04-16; he declared a state of emergency from Rome via Twitter and flew back early, landing directly in Manta (near the epicenter in Manabí) instead of Quito, to lead the disaster response.",
+        "fuente": "https://es.wikipedia.org/wiki/Terremoto_de_Ecuador_de_2016",
+        "justificacion": "Mismo hallazgo que en el TripID 2223-ECU-ITA-42475 (viaje conjunto Italia/Santa Sede): Correa se encontraba en el Vaticano/Roma el día del terremoto de Ecuador (16 abril 2016) y tuvo que adelantar su regreso, aterrizando en Manta para gestionar la emergencia. Dato relevante no capturado en las Notes actuales."
+      },
+      {
+        "TripID": "2223-ECU-ESP-42763",
+        "campo": "MetNonhostHOGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2017/300117correa.aspx ; https://www.eluniverso.com/noticias/2017/01/25/nota/6015364/rafael-correa-se-reunira-espana-felipe-vi-mariano-rajoy/ ; https://thediplomatinspain.com/2017/01/31/correa-agradece-ante-el-rey-y-rajoy-el-papel-de-espana-tras-el-terremoto-y-ante-la-ue/",
+        "justificacion": "El registro actual solo indica MetHostHoGS=Yes con HostHOGSName='Prime Minister Mariano Rajoy', pero MetNonhostHOGS quedó en 'No'. Las fuentes (La Moncloa, El Universo, The Diplomat in Spain) confirman que el 30 de enero de 2017 Correa fue recibido primero por el Rey Felipe VI en el Palacio de la Zarzuela (9:30h) y luego por el presidente Rajoy en La Moncloa (13:00h), es decir, se reunió con ambos. Falta registrar el encuentro con el Jefe de Estado."
+      },
+      {
+        "TripID": "2223-ECU-ESP-42763",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "King Felipe VI",
+        "fuente": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2017/300117correa.aspx ; https://www.eluniverso.com/noticias/2017/01/25/nota/6015364/rafael-correa-se-reunira-espana-felipe-vi-mariano-rajoy/",
+        "justificacion": "Complementa la corrección de MetNonhostHOGS: la reunión adicional del 30 de enero de 2017 fue con el Rey Felipe VI (Jefe de Estado de España), distinta de la reunión con el Primer Ministro Rajoy ya registrada como HostHOGSName. Nota: en otros viajes de Correa a España dentro de esta misma base (p.ej. 2223-ECU-ESP-41751, abril 2014) el campo HostHOGSName sí usa al Rey ('King Juan Carlos I') como jefe de Estado anfitrión; para mantener consistencia interna del criterio usado en esta base, el equipo de investigación podría considerar alternativamente mover 'King Felipe VI' a HostHOGSName y 'Prime Minister Mariano Rajoy' a un campo secundario, pero como corrección mínima y verificable se documenta aquí el encuentro no capturado."
+      }
+    ],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "2223-ECU-ARG-41536",
+        "campo": "MetHostHoGS / Notes",
+        "justificacion": "El registro (Confidence 3) indica 'Likely met with President Cristina Fernández de Kirchner' sin confirmarlo, con fuentes solo de Getty Images y ProQuest (no accesibles públicamente). Se realizaron búsquedas sobre el viaje de Correa a Argentina el 19 de septiembre de 2013 y su participación en la apertura de la Conferencia Interamericana de Scouts, pero no se encontró cobertura de prensa independiente y de acceso abierto que confirme o descarte el encuentro con Fernández de Kirchner. No se pudo verificar de forma independiente."
+      },
+      {
+        "TripID": "2223-ECU-ETH-42399",
+        "campo": "AttendedMultilatEvent / TripStartDate / TripEndDate",
+        "justificacion": "Se buscó específicamente la asistencia de Rafael Correa a la 26a Cumbre de la Unión Africana en Adís Abeba (30-31 enero 2016) en fuentes en español e inglés ('Correa Etiopía Unión Africana enero 2016', 'Correa African Union summit Ethiopia 2016 Ecuador president attend'). Se confirmó que la cumbre efectivamente tuvo lugar en esas fechas, pero no se encontró ninguna fuente de prensa independiente (más allá de la única cita de ProQuest ya cargada, con Confidence 3 y notas 'Dates unclear') que confirme la presencia de Correa como invitado en dicha cumbre. Ecuador no es miembro de la UA y no es habitual que un presidente sudamericano asista; no se pudo verificar de forma independiente."
+      },
+      {
+        "TripID": "2223-ECU-PER-41592",
+        "campo": "CityVisited / Notes",
+        "justificacion": "El propio registro cargado tiene Confidence 5 (la más baja de la escala) y advierte que 'Details of trip unclear. Wording of article indicates visit to Lima; but not explicitly stated', basado en una sola fuente de ProQuest no accesible públicamente. No se encontró cobertura de prensa abierta adicional sobre un viaje de Correa a Perú el 14 de noviembre de 2013 para reunirse con el presidente Ollanta Humala. No se pudo verificar de forma independiente."
+      },
+      {
+        "TripID": "2223-ECU-PER-41601",
+        "campo": "TripStartDate / Notes",
+        "justificacion": "Se trata de un viaje personal (Correa habría viajado a Trujillo, Perú, para ver competir a su hija en los Juegos Bolivarianos de noviembre de 2013), con fechas de inicio marcadas como 'unclear' en el propio registro y basado únicamente en fuentes de Getty Images (licencias de fotografía, sin texto verificable de forma independiente). No se encontró cobertura periodística independiente que documente este viaje puntual. No se pudo verificar de forma independiente."
+      },
+      {
+        "TripID": "2223-ECU-VEN-41625",
+        "campo": "TripStartDate / TripEndDate",
+        "justificacion": "El registro ubica la Cumbre de ALBA en Caracas el 17 de diciembre de 2013 (fecha de fin implícita). No fue posible ejecutar una búsqueda adicional para confirmar la fecha exacta de esta XI Cumbre de ALBA (el presupuesto de búsquedas web de la sesión se agotó antes de poder verificarlo). Dado que existe cierta incertidumbre en la literatura sobre si la cumbre fue a mediados de diciembre de 2013, se recomienda una verificación adicional en una ronda posterior."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {"TripID": "2223-ECU-ARG-42348", "justificacion": "Fechas y evento (asunción presidencial de Mauricio Macri, 10 de diciembre de 2015) coinciden con el registro histórico ampliamente documentado de la transición presidencial argentina."},
+      {"TripID": "2223-ECU-BLR-41578", "justificacion": "Verificado mediante búsqueda: prensa ecuatoriana y boliviana (La República, El Universo, La Hora) confirman que Correa se reunió con Lukashenko en su primera visita a Bielorrusia el 31 de octubre de 2013, dato consistente con el registro cargado."},
+      {"TripID": "2223-ECU-BEL-42165", "justificacion": "La Cumbre Unión Europea-CELAC de Bruselas, ampliamente documentada, se realizó el 10-11 de junio de 2015; las fechas y el nombre del evento cargados son correctos."},
+      {"TripID": "2223-ECU-BOL-41459", "justificacion": "Verificado mediante búsqueda: prensa internacional (Fox News, El Economista, teleSUR/CFK) confirma que Correa convocó y asistió a la reunión extraordinaria de UNASUR en Cochabamba, Bolivia, en julio de 2013, tras el desvío del avión de Evo Morales por sospechas de que transportaba a Edward Snowden."},
+      {"TripID": "2223-ECU-BOL-41550", "justificacion": "Visita bilateral de bajo perfil a Bolivia (3 de octubre de 2013) con encuentro con el presidente Evo Morales; consistente con el patrón de relaciones bilaterales Ecuador-Bolivia de la época, sin elementos que generen dudas."},
+      {"TripID": "2223-ECU-BOL-42026", "justificacion": "La tercera asunción presidencial de Evo Morales tuvo lugar el 22 de enero de 2015, fecha ampliamente documentada y consistente con el registro cargado."},
+      {"TripID": "2223-ECU-BOL-42289", "justificacion": "Verificado mediante búsqueda: fuentes bolivianas (Cancillería de Bolivia, Resumen Latinoamericano) confirman que la II Conferencia Mundial de los Pueblos sobre Cambio Climático y Defensa de la Vida se realizó en Tiquipaya/Cochabamba del 10 al 12 de octubre de 2015, y que Correa participó en la sesión de clausura, coincidiendo exactamente con la TripEndDate cargada (2015-10-12)."},
+      {"TripID": "2223-ECU-CHL-41708", "justificacion": "La segunda asunción presidencial de Michelle Bachelet se realizó el 11 de marzo de 2014, fecha ampliamente documentada y consistente con el registro cargado (10-11 marzo)."},
+      {"TripID": "2223-ECU-CHL-41772", "justificacion": "Visita bilateral a Chile en mayo de 2014 con encuentro con la presidenta Bachelet y actividad en la sede de la CEPAL en Santiago; consistente con el patrón de relaciones y actividades de Correa en la región."},
+      {"TripID": "2223-ECU-CHN-42009", "justificacion": "El primer Foro CELAC-China (con cumbre de cancilleres/jefes de Estado) se realizó en Beijing en enero de 2015, con Xi Jinping como anfitrión; fechas y evento consistentes con el registro cargado."},
+      {"TripID": "2223-ECU-COL-41603", "justificacion": "Reunión binacional Ecuador-Colombia en la zona fronteriza de Ipiales (noviembre 2013) con el presidente Juan Manuel Santos e inauguración de un puente; consistente con la agenda bilateral de la época."},
+      {"TripID": "2223-ECU-COL-41858", "justificacion": "La segunda asunción presidencial de Juan Manuel Santos se realizó el 7 de agosto de 2014, fecha ampliamente documentada y consistente con el registro cargado."},
+      {"TripID": "2223-ECU-COL-42353", "justificacion": "Reunión binacional Ecuador-Colombia en diciembre de 2015 con el presidente Santos; consistente con el patrón de encuentros bilaterales fronterizos frecuentes entre ambos países."},
+      {"TripID": "2223-ECU-COL-42639", "justificacion": "La firma del acuerdo de paz entre el gobierno colombiano y las FARC en Cartagena tuvo lugar el 26 de septiembre de 2016, evento ampliamente documentado con presencia de numerosos jefes de Estado, consistente con el registro cargado."},
+      {"TripID": "2223-ECU-COL-42671", "justificacion": "La XXV Cumbre Iberoamericana se realizó en Cartagena de Indias, Colombia, el 28-29 de octubre de 2016, consistente con el registro cargado."},
+      {"TripID": "2223-ECU-CRI-41767", "justificacion": "La asunción presidencial de Luis Guillermo Solís en Costa Rica se realizó el 8 de mayo de 2014, fecha ampliamente documentada y consistente con el registro cargado."},
+      {"TripID": "2223-ECU-CRI-42032", "justificacion": "La III Cumbre de la CELAC se realizó en San José, Costa Rica, el 28-29 de enero de 2015, consistente con el registro cargado."},
+      {"TripID": "2223-ECU-DOM-42759", "justificacion": "La IV Cumbre de la CELAC se realizó en Punta Cana, República Dominicana, el 25 de enero de 2017, consistente con el registro cargado."},
+      {"TripID": "2223-ECU-SLV-41791", "justificacion": "La asunción presidencial de Salvador Sánchez Cerén en El Salvador se realizó el 1 de junio de 2014, fecha ampliamente documentada y consistente con el registro cargado."},
+      {"TripID": "2223-ECU-FRA-41583", "justificacion": "Visita de Estado a Francia en noviembre de 2013 con encuentro con el presidente François Hollande y participación en actividades de la UNESCO en París; consistente con la agenda diplomática registrada."},
+      {"TripID": "2223-ECU-FRA-42335", "justificacion": "La Conferencia de las Naciones Unidas sobre Cambio Climático (COP21) se realizó en París del 30 de noviembre al 12 de diciembre de 2015; las fechas cargadas (27 nov-5 dic) son consistentes con la asistencia de un jefe de Estado al segmento de líderes de apertura y actividades conexas (incluida una conferencia en Poitiers)."},
+      {"TripID": "2223-ECU-GTM-41870", "justificacion": "Participación en el Foro Regional de Esquipulas en Guatemala (agosto 2014); consistente con la actividad diplomática regional de Correa."},
+      {"TripID": "2223-ECU-GTM-42383", "justificacion": "La asunción presidencial de Jimmy Morales en Guatemala se realizó el 14 de enero de 2016, fecha ampliamente documentada y consistente con el registro cargado."},
+      {"TripID": "2223-ECU-VAT-41756", "justificacion": "La canonización conjunta de los papas Juan XXIII y Juan Pablo II se realizó el 27 de abril de 2014 en el Vaticano, evento ampliamente documentado y consistente con el registro cargado."},
+      {"TripID": "2223-ECU-VAT-42122", "justificacion": "El Foro sobre Cambio Climático y Esclavitud Moderna del Vaticano ('Protect the Earth, Dignify Humanity') se realizó el 28 de abril de 2015 con presencia del Papa Francisco; consistente con el registro cargado."},
+      {"TripID": "2223-ECU-VAT-42123", "justificacion": "Continuación de la visita al Vaticano (29 de abril de 2015) con nuevo encuentro con el Papa Francisco; consistente con la agenda de dos días registrada en el viaje conjunto a Italia/Santa Sede."},
+      {"TripID": "2223-ECU-ITA-41755", "justificacion": "Visita a Italia en abril de 2014 vinculada a la ceremonia de repatriación de piezas arqueológicas ecuatorianas; consistente con la actividad cultural registrada."},
+      {"TripID": "2223-ECU-ITA-42122", "justificacion": "Tránsito por Italia como parte del mismo viaje al Vaticano de abril de 2015 (ver 2223-ECU-VAT-42122 y 2223-ECU-VAT-42123); consistente con el patrón de viajes combinados Italia-Santa Sede en esta base."},
+      {"TripID": "2223-ECU-ITA-42168", "justificacion": "La Expo Milán 2015 tuvo actividades y jornadas nacionales de países participantes, incluido Ecuador, a mediados de junio de 2015; consistente con el registro cargado."},
+      {"TripID": "2223-ECU-ITA-42762", "justificacion": "Visita a Italia (Génova) los días 27-28 de enero de 2017, inmediatamente antes del viaje a España del 28-30 de enero de 2017 confirmado por fuentes oficiales (La Moncloa, El Universo); ambos viajes forman parte de la misma gira europea de fines de enero de 2017."},
+      {"TripID": "2223-ECU-MEX-41981", "justificacion": "La XXIV Cumbre Iberoamericana se realizó en Veracruz, México, el 8-9 de diciembre de 2014, consistente con el registro cargado."},
+      {"TripID": "2223-ECU-PAN-42104", "justificacion": "La VII Cumbre de las Américas se realizó en la Ciudad de Panamá el 10-11 de abril de 2015, evento ampliamente documentado (histórico por el encuentro Obama-Castro) y consistente con el registro cargado."},
+      {"TripID": "2223-ECU-PER-42579", "justificacion": "La asunción presidencial de Pedro Pablo Kuczynski en Perú se realizó el 28 de julio de 2016, fecha ampliamente documentada y consistente con el registro cargado."},
+      {"TripID": "2223-ECU-QAT-41933", "justificacion": "Verificado mediante búsqueda: prensa confirma que Correa inició su gira por Catar y Suiza el martes 21 de octubre de 2014, con recepción ceremonial del Emir Tamim bin Hamad Al Thani, coincidiendo exactamente con la TripStartDate cargada."},
+      {"TripID": "2223-ECU-RUS-41575", "justificacion": "Visita de Estado a Rusia en octubre de 2013 con encuentro con el presidente Vladimir Putin y firma de acuerdo de financiamiento de planta eléctrica; consistente con la gira que continuó a Bielorrusia el 31 de octubre (verificado en TripID 2223-ECU-BLR-41578)."},
+      {"TripID": "2223-ECU-SAU-42318", "justificacion": "La III Cumbre de Países Sudamericanos-Árabes (ASPA) se realizó en Riad, Arabia Saudita, el 10-11 de noviembre de 2015, consistente con el registro cargado (rey Salman bin Abdulaziz ya reinaba desde enero de 2015)."},
+      {"TripID": "2223-ECU-ESP-41751", "justificacion": "Visita de Estado a España en abril de 2014 con encuentro con el Rey Juan Carlos I, quien aún reinaba (abdicó recién en junio de 2014); consistente con el registro cargado."},
+      {"TripID": "2223-ECU-SUR-41516", "justificacion": "La VII Cumbre de UNASUR se realizó en Paramaribo, Surinam, el 30 de agosto de 2013, consistente con el registro cargado."},
+      {"TripID": "2223-ECU-CHE-41936", "justificacion": "La 15a Conferencia Raúl Prebisch de la UNCTAD se dictó en Ginebra en octubre de 2014; consistente con el registro cargado y con la naturaleza académica del evento."},
+      {"TripID": "2223-ECU-USA-41738", "justificacion": "Gira académica de Correa por universidades estadounidenses (Yale, MIT, Harvard) en abril de 2014; consistente con su perfil como expresidente docente/economista y con la cobertura de prensa académica de la época."},
+      {"TripID": "2223-ECU-USA-42274", "justificacion": "Verificado mediante búsqueda: múltiples fuentes (El Universo, Noticias ONU, Presidencia) confirman que Correa regresó a la Asamblea General de la ONU en septiembre de 2015 después de siete años de ausencia (última participación en 2007), consistente con el registro cargado y descartando la posibilidad de viajes similares no registrados en otros años de este tramo (2013, 2014, 2016)."},
+      {"TripID": "2223-ECU-USA-42472", "justificacion": "Reunión con el Secretario General de la ONU Ban Ki-moon en abril de 2016 para invitar a jefes de Estado a Hábitat III (Quito, octubre 2016); ocurre el 12 de abril de 2016, antes del terremoto del 16 de abril, por lo que no se vio afectada por dicho evento."},
+      {"TripID": "2223-ECU-USA-42748", "justificacion": "Reunión con el Secretario General de la ONU António Guterres en enero de 2017, poco después de que Guterres asumiera el cargo (1 de enero de 2017); consistente con el registro cargado."},
+      {"TripID": "2223-ECU-URY-42064", "justificacion": "La segunda asunción presidencial de Tabaré Vázquez en Uruguay se realizó el 1 de marzo de 2015, fecha ampliamente documentada y consistente con el registro cargado."},
+      {"TripID": "2223-ECU-VEN-41484", "justificacion": "Visita a Venezuela en julio de 2013 con encuentro con el presidente Nicolás Maduro y visita a la tumba de Hugo Chávez; consistente con la estrecha relación bilateral de la época."},
+      {"TripID": "2223-ECU-VEN-42630", "justificacion": "La XVII Cumbre del Movimiento de Países No Alineados se realizó en Porlamar, Isla Margarita, Venezuela, el 17-18 de septiembre de 2016, consistente con el registro cargado."},
+      {"TripID": "2223-ECU-CUB-41537", "justificacion": "Visita a Cuba en septiembre de 2013 con encuentro con el presidente Raúl Castro y con el expresidente Fidel Castro; consistente con la agenda diplomática Ecuador-Cuba de la época."},
+      {"TripID": "2223-ECU-CUB-41667", "justificacion": "La II Cumbre de la CELAC se realizó en La Habana, Cuba, el 28-29 de enero de 2014, consistente con el registro cargado."},
+      {"TripID": "2223-ECU-CUB-42703", "justificacion": "Fidel Castro falleció el 25 de noviembre de 2016; las ceremonias de homenaje y funeral en Cuba se extendieron entre el 29 de noviembre y el 4 de diciembre de 2016, consistente con el registro cargado de la asistencia de Correa."}
+    ]
+  }
+]

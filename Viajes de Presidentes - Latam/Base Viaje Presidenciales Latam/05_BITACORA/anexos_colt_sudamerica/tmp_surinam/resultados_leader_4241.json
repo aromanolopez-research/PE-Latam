@@ -1,0 +1,130 @@
+[
+  {
+    "LeaderID": "4241",
+    "correcciones": [
+      {
+        "TripID": "4241-SUR-NLD-45964",
+        "campo": "MetHostHoGS",
+        "valor_correcto": "Yes",
+        "fuente": "https://gobiernu.cw/notisia_di_ministernan/prome-minister-pisas-minister-di-owcs-i-minister-di-hustisia-ta-papia-ku-presidente-di-republika-di-surinam-riba-desaroyonan-regional-i-koperashon-den-futuro/",
+        "justificacion": "El registro ya cargado incluye en 'Notes' que la presidenta 'Met with Prime Minister Gilmar Pisas and discussed bilateral cooperation and regional developments' durante su escala en Curazao el 3 de noviembre de 2025, pero el campo MetHostHoGS estaba en 'No'. La fuente oficial del gobierno de Curazao confirma el encuentro con el primer ministro Gilmar Pisas, por lo que corresponde 'Yes'."
+      },
+      {
+        "TripID": "4241-SUR-NLD-45964",
+        "campo": "HostHOGSName",
+        "valor_correcto": "Prime Minister Gilmar Pisas",
+        "fuente": "https://gobiernu.cw/notisia_di_ministernan/prome-minister-pisas-minister-di-owcs-i-minister-di-hustisia-ta-papia-ku-presidente-di-republika-di-surinam-riba-desaroyonan-regional-i-koperashon-den-futuro/",
+        "justificacion": "Consistente con la corrección de MetHostHoGS: el jefe de gobierno anfitrión en Curazao (territorio semiautónomo del Reino de los Países Bajos) es el primer ministro Gilmar Pisas, con quien se reunió la presidenta el 3 de noviembre de 2025."
+      },
+      {
+        "TripID": "4241-SUR-USA-45922",
+        "campo": "MetIGOLeader",
+        "valor_correcto": "Yes",
+        "fuente": "https://www.un.org/sg/en/content/sg/readouts/2025-09-25/readout-of-the-secretary-generals-meeting-he-ms-jennifer-geerlings-simons-president-of-the-republic-of-suriname",
+        "justificacion": "El comunicado oficial de la Secretaría General de la ONU (readout, 25 de septiembre de 2025) confirma una reunión bilateral entre la presidenta Geerlings-Simons y el Secretario General António Guterres durante la Cumbre UN80/AGNU 80, dentro del rango de fechas del viaje (22-26 sept. 2025). El campo estaba en 'No'."
+      },
+      {
+        "TripID": "4241-SUR-USA-45922",
+        "campo": "IGOLeaderName",
+        "valor_correcto": "Secretary-General António Guterres",
+        "fuente": "https://www.un.org/sg/en/content/sg/readouts/2025-09-25/readout-of-the-secretary-generals-meeting-he-ms-jennifer-geerlings-simons-president-of-the-republic-of-suriname",
+        "justificacion": "Consistente con la corrección de MetIGOLeader: se reunieron para discutir la crisis climática, la preservación de la biodiversidad y la protección forestal."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Brazil",
+        "CityVisited": "Brasília",
+        "TripStartDate": "2026-05-28",
+        "TripEndDate": "2026-05-29",
+        "TripDuration": "2",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Luiz Inacio Lula da Silva",
+        "AttendedMultilatEvent": "No",
+        "NameMultilatEvent": "",
+        "MetNonhostHOGS": "No",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "Yes",
+        "fuente": "https://www.gov.br/mre/en/contact-us/press-area/press-releases/visit-of-the-president-of-suriname-jennifer-geerlings-simons-2013-brasilia-may-28201329-2026 ; https://agenciabrasil.ebc.com.br/en/internacional/noticia/2026-05/brazil-suriname-negotiate-trade-expansion-agreement ; https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/05/201cbrasil-acompanha-com-entusiasmo-o-novo-ciclo-de-crescimento-do-suriname201d-declara-lula-em-visita-da-presidenta-jennifer-geerlings-simons",
+        "justificacion": "Visita de Estado a Brasilia el 28-29 de mayo de 2026 (primer tramo de una misión combinada Brasil-República Dominicana del 27 de mayo al 2 de junio de 2026, según fuentes surinamesas). Reunión bilateral con el presidente Lula da Silva en el Planalto; se firmaron acuerdos de infraestructura, defensa, seguridad pública, ciencia y tecnología, políticas sociales y desarrollo sostenible; la presidenta visitó también una unidad de Embrapa. Confirmado por comunicado oficial del Ministerio de Relaciones Exteriores de Brasil y por Agência Brasil/Planalto."
+      },
+      {
+        "CountryVisited": "Dominican Republic",
+        "CityVisited": "Santo Domingo",
+        "TripStartDate": "2026-06-01",
+        "TripEndDate": "2026-06-02",
+        "TripDuration": "2",
+        "MetHostHoGS": "Yes",
+        "HostHOGSName": "President Luis Abinader",
+        "AttendedMultilatEvent": "No",
+        "NameMultilatEvent": "",
+        "MetNonhostHOGS": "No",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "Yes",
+        "fuente": "https://www.srherald.com/suriname/2026/04/21/president-simons-brengt-officieel-bezoek-aan-dominicaanse-republiek/ ; https://www.srherald.com/suriname/2026/05/31/president-simons-aangekomen-in-dominicaanse-republiek/ ; https://gov.sr/president-simons-richt-zich-in-dominicaanse-republiek-op-duurzame-samenwerking-in-toerisme-en-investeringen/",
+        "justificacion": "Visita oficial a Santo Domingo el 1-2 de junio de 2026, segundo tramo de la misma misión que incluyó Brasil (27 mayo-2 junio 2026). Consulta bilateral con el presidente Luis Abinader en el Palacio Presidencial; se firmó una declaración conjunta sobre cooperación económica, turismo e inversión. Confirmado por Suriname Herald y gov.sr."
+      },
+      {
+        "CountryVisited": "Saint Kitts and Nevis",
+        "CityVisited": "Basseterre",
+        "TripStartDate": "2026-02-22",
+        "TripEndDate": "2026-02-27",
+        "TripDuration": "6",
+        "MetHostHoGS": "No",
+        "HostHOGSName": "",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "50th Regular Meeting of the Conference of Heads of Government of CARICOM",
+        "MetNonhostHOGS": "Yes",
+        "NonhostHOGSNames": "Prime Minister Kamla Persad-Bissessar (Trinidad and Tobago); Prime Minister Andrew Holness (Jamaica); President Irfaan Ali (Guyana); Prime Minister Mia Mottley (Barbados)",
+        "SignedAgreement": "No",
+        "fuente": "https://www.srherald.com/suriname/2026/02/22/president-simons-vertrokken-naar-50ste-caricom-top-in-saint-kitts-en-nevis/ ; https://abcsuriname.com/president-simons-keert-terug-van-50ste-caricom-staatshoofdenvergadering/ ; https://caricom.org/communique-fiftieth-regular-meeting-of-the-conference-of-heads-of-government-of-caricom-24-27-february-2026/",
+        "justificacion": "La presidenta partió el domingo 22 de febrero de 2026 desde el aeropuerto Johan Adolf Pengel hacia la 50ª Reunión Ordinaria de la Conferencia de Jefes de Gobierno de CARICOM (Basseterre, San Cristóbal y Nieves, 24-27 feb. 2026), presidida por el primer ministro Terrance Drew. Sostuvo encuentros bilaterales con varios jefes de Estado/Gobierno de la región (confirmado por ABC Suriname). No se halló confirmación de un encuentro bilateral específico con el anfitrión Terrance Drew, por lo que MetHostHoGS se dejó en 'No'. La fecha exacta de regreso a Suriname no fue confirmada de forma independiente en las fuentes disponibles; se usó como TripEndDate la fecha de clausura oficial de la cumbre (27 de febrero)."
+      },
+      {
+        "CountryVisited": "Saint Lucia",
+        "CityVisited": "Gros Islet",
+        "TripStartDate": "2026-07-07",
+        "TripEndDate": "2026-07-07",
+        "TripDuration": "1",
+        "MetHostHoGS": "No",
+        "HostHOGSName": "",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "51st Regular Meeting of the Conference of Heads of Government of CARICOM",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "No",
+        "fuente": "https://gov.sr/president-simons-participeert-aan-51ste-caricom-staatshoofdenvergadering/",
+        "justificacion": "Fuente oficial gov.sr confirma que la presidenta viajó el martes 7 de julio de 2026 a Saint Lucia (Isla Grosa/Gros Islet) para participar de la 51ª Reunión Ordinaria de la Conferencia de Jefes de Gobierno de CARICOM (5-8 julio 2026, presidida por el primer ministro Philip J. Pierre) y regresó el mismo día a Suriname; el ministro de Relaciones Exteriores, Melvin Bouva, continuó participando en representación de Suriname el resto de la conferencia. No se encontró evidencia de reunión bilateral específica durante esa jornada."
+      },
+      {
+        "CountryVisited": "United Kingdom",
+        "CityVisited": "No especificado en fuentes",
+        "TripStartDate": "2026-07-22",
+        "TripEndDate": "2026-07-26",
+        "TripDuration": "5",
+        "MetHostHoGS": "No",
+        "HostHOGSName": "",
+        "AttendedMultilatEvent": "No",
+        "NameMultilatEvent": "",
+        "MetNonhostHOGS": "No",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "No",
+        "fuente": "https://gov.sr/president-simons-maakt-werkbezoek-naar-engeland-voor-economische-gesprekken/ ; https://www.srherald.com/suriname/2026/07/23/president-simons-met-klm-naar-europa-vertrokken-voor-economische-en-offshoregesprekken/ ; https://www.waterkant.net/suriname/2026/07/27/simons-keert-tevreden-terug-uit-engeland-na-gesprekken-met-bank-of-america/",
+        "justificacion": "Visita de trabajo a Inglaterra del miercoles 22 al domingo 26 de julio de 2026 (viajó vía KLM), a invitación de instituciones financieras internacionales, con la ministra de Finanzas y Planificación, Adelien Wijnerman. Reuniones con altos representantes de Bank of America y con la dirección de Subsea 7 (ingeniería offshore) sobre inversiones, desarrollo del sector petrolero/gasífero offshore de Suriname y un eventual fondo soberano de riqueza. Ninguna de las fuentes consultadas especifica la ciudad exacta (ni Londres ni otra); tampoco se reporta un encuentro con el jefe de gobierno británico, por lo que MetHostHoGS se registró como 'No'. Confirmado por gov.sr y múltiples medios surinameses."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "4241-SUR-BRA-45964",
+        "campo": "TripEndDate",
+        "justificacion": "Se confirmó de forma independiente la fecha de inicio (3 de noviembre de 2025, corroborada por la escala en Curazao) y los hitos centrales del viaje (TIME100 Impact Dinner en Rio de Janeiro el 4 de noviembre; reunión bilateral con Lula en Belém el 6 de noviembre, en el marco de la Cumbre de Líderes de la COP30 del 6-7 de noviembre de 2025). No se halló una fuente que confirme explícitamente el regreso a Suriname el 8 de noviembre de 2025; se buscaron términos como 'president Simons keert terug COP30 Belem november 2025' sin resultados que precisen la fecha exacta de retorno."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "4241-SUR-BRA-45964",
+        "justificacion": "HostHOGSName (Lula da Silva) y NameMultilatEvent (COP30 / United Nations Climate Change Conference) confirmados por Agência Brasil, Planalto y gov.sr. La fecha de inicio del viaje (3 nov. 2025) es consistente con la escala en Curazao documentada de forma independiente ese mismo día."
+      }
+    ]
+  }
+]

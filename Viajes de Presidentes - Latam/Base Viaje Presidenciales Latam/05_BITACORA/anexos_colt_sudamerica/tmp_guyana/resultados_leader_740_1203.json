@@ -1,0 +1,253 @@
+[
+  {
+    "LeaderID": "740",
+    "correcciones": [
+      {
+        "TripID": "740-GUY-NLD-34763",
+        "campo": "CountryVisited",
+        "valor_correcto": "Denmark",
+        "fuente": "https://digitallibrary.un.org/record/175053?ln=en",
+        "justificacion": "El evento asociado a este viaje, 'UN World Summit for Social Development', se celebró en el Bella Center de Copenhague, Dinamarca, del 6 al 12 de marzo de 1995 (fechas que coinciden exactamente con TripStartDate/TripEndDate del registro: 1995-03-05 a 1995-03-12). El país cargado en la base, 'Netherlands' (Países Bajos), es incorrecto; la cumbre nunca se realizó en los Países Bajos."
+      },
+      {
+        "TripID": "740-GUY-NLD-34763",
+        "campo": "CountryVisitedISO",
+        "valor_correcto": "DNK",
+        "fuente": "https://digitallibrary.un.org/record/175053?ln=en",
+        "justificacion": "Consecuencia directa de la corrección de CountryVisited: el código ISO de Dinamarca es DNK, no NLD (Países Bajos)."
+      },
+      {
+        "TripID": "740-GUY-NLD-34763",
+        "campo": "SubRegionVisited",
+        "valor_correcto": "Northern Europe",
+        "fuente": "https://digitallibrary.un.org/record/175053?ln=en",
+        "justificacion": "Dinamarca pertenece a la subregión de Europa del Norte (Northern Europe) según la clasificación UN M49 utilizada por COLT, no a Europa Occidental (Western Europe) donde erróneamente estaban clasificados los Países Bajos en el registro original."
+      },
+      {
+        "TripID": "740-GUY-COL-34991",
+        "campo": "NonhostHOGSNames",
+        "valor_correcto": "Prime Minister Mahathir bin Mohamad",
+        "fuente": "https://press.un.org/en/1995/19951019.dh2003.html",
+        "justificacion": "El campo original tenía el título 'Prime Minister' duplicado ('Prime Minister Prime Minister Mahathir bin Mohamad'), un error de tipeo evidente. Mahathir bin Mohamad era el Primer Ministro de Malasia y asistió a la XI Cumbre del Movimiento de Países No Alineados en Cartagena de Indias, Colombia (18-20 de octubre de 1995), evento confirmado como real y coincidente con las fechas del viaje registrado (1995-10-19/20)."
+      },
+      {
+        "TripID": "740-GUY-PAN-35110",
+        "campo": "TripYear",
+        "valor_correcto": "1997",
+        "fuente": "https://www.stabroeknews.com/2015/03/18/news/guyana/cheddi-jagan-delayed-critical-cardiac-surgery-to-save/",
+        "justificacion": "Este viaje está descrito en la nota original como 'on the way to U.S. for medical treatment', lo cual corresponde al episodio real y bien documentado del infarto de Cheddi Jagan: sufrió un ataque cardíaco el 14/15 de febrero de 1997 en Georgetown y fue trasladado en avión medicalizado el sábado 15 de febrero de 1997, haciendo escala en Panamá antes de continuar a Washington D.C. el domingo 16 de febrero de 1997 (fuente: relato de su hija, Cheddi Jagan Research Centre / Stabroek News). El año cargado en la base (1996) es incorrecto; el evento ocurrió en 1997, apenas semanas antes de su muerte (6 de marzo de 1997)."
+      },
+      {
+        "TripID": "740-GUY-PAN-35110",
+        "campo": "TripStartDate",
+        "valor_correcto": "1997-02-15",
+        "fuente": "https://www.stabroeknews.com/2015/03/18/news/guyana/cheddi-jagan-delayed-critical-cardiac-surgery-to-save/",
+        "justificacion": "El avión medicalizado que trasladó a Jagan partió de Guyana el sábado 15 de febrero de 1997 (no 1996) con destino a Panamá como escala."
+      },
+      {
+        "TripID": "740-GUY-PAN-35110",
+        "campo": "TripEndDate",
+        "valor_correcto": "1997-02-16",
+        "fuente": "https://www.stabroeknews.com/2015/03/18/news/guyana/cheddi-jagan-delayed-critical-cardiac-surgery-to-save/",
+        "justificacion": "Según el relato familiar publicado por Stabroek News, Jagan permaneció en escala en Panamá y continuó viaje a Washington D.C. el domingo 16 de febrero de 1997 (no 1996)."
+      },
+      {
+        "TripID": "740-GUY-USA-35111",
+        "campo": "TripYear",
+        "valor_correcto": "1997",
+        "fuente": "https://www.washingtonpost.com/archive/local/1997/03/07/president-cheddi-jagan-dies/4e83f7ff-7479-4bdb-a965-5121c4c29b77/",
+        "justificacion": "Cheddi Jagan llegó a Andrews Air Force Base y fue trasladado al Walter Reed Army Medical Center el domingo 16 de febrero de 1997, y murió allí el 6 de marzo de 1997 (confirmado por Washington Post, Deseret News y Cheddi Jagan Research Centre). El año cargado en la base (1996) es un error de un año completo; el registro debe ser 1997, coincidiendo con la fecha real de su fallecimiento en el cargo."
+      },
+      {
+        "TripID": "740-GUY-USA-35111",
+        "campo": "TripStartDate",
+        "valor_correcto": "1997-02-16",
+        "fuente": "https://www.washingtonpost.com/archive/local/1997/03/07/president-cheddi-jagan-dies/4e83f7ff-7479-4bdb-a965-5121c4c29b77/",
+        "justificacion": "Arribo a EE.UU. (Andrews AFB) el domingo 16 de febrero de 1997, no 1996."
+      },
+      {
+        "TripID": "740-GUY-USA-35111",
+        "campo": "TripEndDate",
+        "valor_correcto": "1997-03-06",
+        "fuente": "https://www.washingtonpost.com/archive/local/1997/03/07/president-cheddi-jagan-dies/4e83f7ff-7479-4bdb-a965-5121c4c29b77/",
+        "justificacion": "Cheddi Jagan murió en el Walter Reed Army Medical Center el 6 de marzo de 1997 (no 1996), tres semanas después del infarto. Esta es la fecha ampliamente documentada de su fallecimiento en el cargo."
+      },
+      {
+        "TripID": "740-GUY-USA-35111",
+        "campo": "TripDuration",
+        "valor_correcto": "19",
+        "fuente": "https://www.washingtonpost.com/archive/local/1997/03/07/president-cheddi-jagan-dies/4e83f7ff-7479-4bdb-a965-5121c4c29b77/",
+        "justificacion": "Recalculado tras la corrección de año: del 16 de febrero al 6 de marzo de 1997 (año no bisiesto, febrero de 28 días) son 19 días (13 días restantes de febrero + 6 días de marzo), no 20 como figuraba en la base (valor que solo cuadra si se asume erróneamente el año bisiesto 1996)."
+      }
+    ],
+    "hallazgos_nuevos": [
+      {
+        "CountryVisited": "Barbados",
+        "CityVisited": "",
+        "TripStartDate": "1996-12-16",
+        "TripEndDate": "1996-12-16",
+        "TripDuration": "1",
+        "MetHostHoGS": "",
+        "HostHOGSName": "",
+        "AttendedMultilatEvent": "Yes",
+        "NameMultilatEvent": "Caribbean Community (CARICOM) Fifth Special Meeting of the Conference of Heads of Government",
+        "MetNonhostHOGS": "",
+        "NonhostHOGSNames": "",
+        "SignedAgreement": "",
+        "fuente": "https://caricom.org/heads-of-government-at-their-fifth-special-meeting-held-in-barbados-on-16-december-1996-reviewed-the-issues-of-co-operation-between-the-united-states-and-governments-of-the-caribbean-community-in-the/ ; https://clintonwhitehouse6.archives.gov/1996/12/1996-12-16-us-and-eu-caribbean-counternarcotics-cooperation.html",
+        "justificacion": "Se identificó un 'Fifth Special Meeting' de Jefes de Gobierno de CARICOM realizado en Barbados el 16 de diciembre de 1996, dedicado a la cooperación antinarcóticos entre CARICOM, EE.UU. y la UE, corroborado independientemente por un documento del archivo de la Casa Blanca de Clinton fechado el mismo día. Este viaje NO figura en la base cargada (los únicos viajes a Barbados registrados para Jagan son julio de 1994 y julio de 1996). ADVERTENCIA/CAVEAT: no se pudo acceder a la lista completa y verificada de asistentes de esta reunión específica (la página de CARICOM que documenta el evento presenta contenido de cuerpo duplicado/mezclado con el de la Decimoséptima Reunión de julio de 1996), por lo que la asistencia personal de Jagan (en su carácter de presidente de Guyana y miembro pleno de la Conferencia) es altamente probable pero no está confirmada con una fuente que liste asistentes nominales de este encuentro puntual. Se recomienda verificación adicional con prensa caribeña de diciembre de 1996 antes de incorporar definitivamente este viaje a la base."
+      }
+    ],
+    "no_verificable": [
+      {
+        "TripID": "740-GUY-BRB-34522",
+        "campo": "TripStartDate / TripEndDate",
+        "justificacion": "La Decimoquinta Reunión de la Conferencia de Jefes de Gobierno de CARICOM se realizó en Bridgetown, Barbados, del 4 al 7 de julio de 1994 (confirmado por comunicado oficial de CARICOM). El registro de la base indica que Jagan viajó del 7 al 9 de julio de 1994, es decir, habría llegado recién el último día de la cumbre y permanecido dos días adicionales después de su clausura. No se encontró una fuente independiente (prensa o CARICOM) que confirme las fechas exactas de llegada/salida personal de Jagan, por lo que no puede descartarse ni confirmarse con certeza si asistió a la totalidad o solo a la parte final de la cumbre, o si permaneció por motivos bilaterales adicionales."
+      },
+      {
+        "TripID": "740-GUY-GRD-35127",
+        "campo": "NameMultilatEvent",
+        "justificacion": "Se buscó activamente una 'Caribbean Community (CARICOM) Summit' en Granada en marzo de 1996 (Search Query: 'CARICOM Grenada 1996 heads of government meeting St George's'; 'Jagan Grenada March 1996 visit Guyana president'). No se encontró ninguna reunión de CARICOM en Granada en 1996: la Séptima Reunión Intersesional de 1996 se realizó en Georgetown, Guyana (29 feb-1 marzo 1996, sede local, no hubiera implicado viaje), y la única reunión de CARICOM documentada en Granada en esa década fue la Novena Reunión Intersesional, pero en marzo de 1998 (que coincide, en cambio, con el viaje ya registrado de Janet Jagan, TripID 1203-GUY-GRD-35856). No se pudo confirmar la existencia ni la naturaleza real de este viaje de Cheddi Jagan a Granada en 1996."
+      },
+      {
+        "TripID": "740-GUY-JAM-35325",
+        "campo": "NameMultilatEvent",
+        "justificacion": "No se encontró confirmación independiente de una 'Barbados-Guyana-Jamaica-Saint Lucia-Trinidad and Tobago Multilateral Meeting' en septiembre de 1996 (Search Query: 'Jagan Jamaica September 1996 Barbados Saint Lucia Trinidad multilateral meeting'). No pudo determinarse la naturaleza exacta de este encuentro ni corroborarse con fuentes de prensa o comunicados oficiales de CARICOM disponibles públicamente."
+      },
+      {
+        "TripID": "740-GUY-NZL-35006",
+        "campo": "TripStartDate",
+        "justificacion": "La Reunión de Jefes de Gobierno del Commonwealth (CHOGM) de 1995 se realizó en Auckland, Nueva Zelanda, del 10 al 13 de noviembre de 1995 (confirmado por múltiples fuentes, incluyendo el comunicado de Auckland). La fecha de cierre del viaje registrado (1995-11-13) coincide exactamente con el cierre de la CHOGM, pero la fecha de inicio registrada (1995-11-03) es siete días anterior al comienzo oficial de la cumbre. No se encontró fuente que explique esta estadía previa (posible visita bilateral, escala u otro compromiso), por lo que la fecha de inicio no pudo verificarse de forma independiente."
+      },
+      {
+        "TripID": "740-GUY-TTO-34534",
+        "campo": "TripStartDate / TripEndDate",
+        "justificacion": "El propio registro original señala en su campo Notes: 'no info on travel dates'. No se encontró cobertura de prensa independiente que permita confirmar o corregir las fechas exactas (1994-07-19 a 1994-07-21) de este viaje de Jagan a Trinidad y Tobago (Search Query: 'Jagan Trinidad Tobago July 1994 visit Guyana president')."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "740-GUY-BHR-35374",
+        "justificacion": "El Emir Isa bin Salman Al Khalifa gobernó Bahréin desde 1961 hasta su muerte en marzo de 1999, por lo que es la contraparte correcta para la visita de noviembre de 1996. Las fechas son compatibles con una gira por Medio Oriente que incluyó Siria (3-5 nov), Bahréin (5-8 nov) y Emiratos Árabes Unidos (8-11 nov), itinerario internamente consistente."
+      },
+      {
+        "TripID": "740-GUY-BRB-35249",
+        "justificacion": "La Decimoséptima Reunión de la Conferencia de Jefes de Gobierno de CARICOM se realizó en Bridgetown, Barbados, del 3 al 6 de julio de 1996 (confirmado por comunicado oficial de CARICOM, caricom.org), coincidiendo exactamente con las fechas registradas en la base (1996-07-03 a 1996-07-06)."
+      },
+      {
+        "TripID": "740-GUY-BLZ-34746",
+        "justificacion": "La Sexta Reunión Intersesional de la Conferencia de Jefes de Gobierno de CARICOM se realizó en Belize City, Belice, el 16-17 de febrero de 1995, coincidiendo exactamente con las fechas registradas (1995-02-16 a 1995-02-17)."
+      },
+      {
+        "TripID": "740-GUY-BWA-34465",
+        "justificacion": "Quett Masire fue presidente de Botswana desde 1980 hasta 1998, por lo que es la contraparte correcta para la visita de mayo de 1994."
+      },
+      {
+        "TripID": "740-GUY-CAN-35230",
+        "justificacion": "Jean Chrétien fue Primer Ministro de Canadá entre 1993 y 2003, por lo que es la contraparte correcta para junio de 1996. Se encontró referencia independiente (Hansard de la Cámara de los Comunes de Canadá, marzo de 1997) a una reunión de Jagan en Ottawa 'el otoño/verano anterior', consistente con una visita oficial a Canadá en 1996."
+      },
+      {
+        "TripID": "740-GUY-COL-34427",
+        "justificacion": "César Gaviria Trujillo fue presidente de Colombia hasta el 7 de agosto de 1994, por lo que es la contraparte correcta para la visita de abril de 1994."
+      },
+      {
+        "TripID": "740-GUY-ITA-35382",
+        "justificacion": "La Cumbre Mundial sobre la Alimentación de la FAO se realizó en la sede de la FAO en Roma del 13 al 17 de noviembre de 1996, coincidiendo exactamente con las fechas registradas (1996-11-13 a 1996-11-17)."
+      },
+      {
+        "TripID": "740-GUY-VCT-34404",
+        "justificacion": "La Quinta Reunión Intersesional de la Conferencia de Jefes de Gobierno de CARICOM se realizó en Kingstown, San Vicente y las Granadinas, el 11-12 de marzo de 1994, coincidiendo exactamente con las fechas registradas (1994-03-11 a 1994-03-12)."
+      },
+      {
+        "TripID": "740-GUY-SUR-34505",
+        "justificacion": "Ronald Venetiaan fue presidente de Surinam entre 1991 y 1996, por lo que es la contraparte correcta para la visita de junio de 1994."
+      },
+      {
+        "TripID": "740-GUY-SYR-35372",
+        "justificacion": "Hafez al-Assad fue presidente de Siria entre 1971 y 2000, por lo que es la contraparte correcta para la visita de noviembre de 1996, consistente con la gira por Medio Oriente de ese mes."
+      },
+      {
+        "TripID": "740-GUY-TTO-34928",
+        "justificacion": "La Primera Cumbre de la Asociación de Estados del Caribe (ACS) se realizó en Puerto España, Trinidad y Tobago, el 17-18 de agosto de 1995, coincidiendo exactamente con las fechas registradas (1995-08-17 a 1995-08-18)."
+      },
+      {
+        "TripID": "740-GUY-ARE-35377",
+        "justificacion": "Las fechas (8-11 de noviembre de 1996) son consistentes con el resto de la gira por Medio Oriente documentada en la base (Siria, Bahréin) inmediatamente antes de continuar a Roma para la Cumbre de la FAO (13-17 de noviembre). No se encontró evidencia que contradiga el registro."
+      },
+      {
+        "TripID": "740-GUY-USA-34676",
+        "justificacion": "La Primera Cumbre de las Américas se realizó en Miami del 9 al 11 de diciembre de 1994, consistente con las fechas registradas (1994-12-08 a 1994-12-11, con un día de anticipación)."
+      },
+      {
+        "TripID": "740-GUY-USA-34995",
+        "justificacion": "La reunión conmemorativa especial del 50 aniversario de la ONU se realizó en Nueva York del 22 al 24 de octubre de 1995, consistente con las fechas registradas (1995-10-23 a 1995-10-25) y con la nota del registro original que menciona explícitamente la celebración del 50 aniversario de la ONU."
+      }
+    ]
+  },
+  {
+    "LeaderID": "1203",
+    "correcciones": [],
+    "hallazgos_nuevos": [],
+    "no_verificable": [
+      {
+        "TripID": "1203-GUY-SUR-36103",
+        "campo": "TripStartDate / TripEndDate",
+        "justificacion": "El registro indica que Janet Jagan asistió a la apertura del servicio de ferry Guyana-Surinam (Canawaima) el 4 de noviembre de 1998. Fuentes retrospectivas recientes (Guyana Business Journal, Guyana Chronicle) sitúan el inicio de operaciones del servicio de ferry Canawaima el 6 de noviembre de 1998, dos días después de la fecha registrada. No se encontró una fuente contemporánea (de 1998) que confirme la fecha exacta de la ceremonia de apertura a la que asistió Jagan, por lo que no se puede determinar con certeza si el registro (4 de noviembre) o las fuentes retrospectivas (6 de noviembre) son más precisos; podría tratarse de una ceremonia de apertura distinta del inicio operativo del servicio."
+      }
+    ],
+    "confirmados_sin_cambios": [
+      {
+        "TripID": "1203-GUY-BRA-36300",
+        "justificacion": "Fernando Henrique Cardoso fue presidente de Brasil entre 1995 y 2003, por lo que es la contraparte correcta para la visita de mayo de 1999."
+      },
+      {
+        "TripID": "1203-GUY-CHL-35903",
+        "justificacion": "La Segunda Cumbre de las Américas se realizó en Santiago de Chile el 18-19 de abril de 1998, coincidiendo exactamente con las fechas registradas (1998-04-18 a 1998-04-19)."
+      },
+      {
+        "TripID": "1203-GUY-GRD-35856",
+        "justificacion": "La Novena Reunión Intersesional de la Conferencia de Jefes de Gobierno de CARICOM se realizó en St. George's, Granada, del 2 al 3 de marzo de 1998, coincidiendo exactamente con las fechas registradas (1998-03-02 a 1998-03-03)."
+      },
+      {
+        "TripID": "1203-GUY-JAM-35891",
+        "justificacion": "Kofi Annan (Secretario General de la ONU) recibió un doctorado honorario de la Universidad de las Indias Occidentales (UWI, Mona) en una ceremonia especial dos días antes de cumplir 60 años; su cumpleaños es el 8 de abril de 1938, por lo que la ceremonia se realizó el 6 de abril de 1998, coincidiendo exactamente con la fecha registrada del viaje (1998-04-06), consistente con la nota original 'attended ceremony of honorary doctorate awarded to Kofi Annan'."
+      },
+      {
+        "TripID": "1203-GUY-LCA-35976",
+        "justificacion": "La Decimonovena Reunión de la Conferencia de Jefes de Gobierno de CARICOM se realizó en Castries, Santa Lucía, del 30 de junio al 4 de julio de 1998, coincidiendo exactamente con las fechas registradas (1998-06-30 a 1998-07-04)."
+      },
+      {
+        "TripID": "1203-GUY-SUR-36099",
+        "justificacion": "Jules Wijdenbosch fue presidente de Surinam entre septiembre de 1996 y agosto de 2000, por lo que es la contraparte correcta para la visita de octubre-noviembre de 1998."
+      },
+      {
+        "TripID": "1203-GUY-SUR-36223",
+        "justificacion": "La fuente ya citada en el registro original (caricom.org) confirma que la Décima Reunión Intersesional de la Conferencia de Jefes de Gobierno de CARICOM se realizó en Paramaribo, Surinam, el 4-5 de marzo de 1999, coincidiendo exactamente con las fechas registradas (1999-03-04 a 1999-03-05)."
+      },
+      {
+        "TripID": "1203-GUY-TTO-36349",
+        "justificacion": "Consistente con el relato documentado de la enfermedad de Janet Jagan: sufrió problemas cardíacos en julio de 1999 y fue sometida a exámenes médicos en Trinidad antes de continuar tratamiento en EE.UU., lo cual coincide con la nota del registro ('went to receive medical treatment') y con el viaje posterior a EE.UU. (1203-GUY-USA-36362) apenas días después."
+      },
+      {
+        "TripID": "1203-GUY-GBR-36286",
+        "justificacion": "No se encontró evidencia que contradiga el registro de este viaje de 13 días marcado como 'private visit' (visita privada) en mayo de 1999; es consistente con el patrón de viajes personales/médicos de Jagan en ese período previo a su renuncia por motivos de salud (agosto de 1999)."
+      },
+      {
+        "TripID": "1203-GUY-USA-36057",
+        "justificacion": "El 53° período de sesiones de la Asamblea General de la ONU se inauguró el 9 de septiembre de 1998, con el debate general concentrado a partir de mediados/fines de septiembre, consistente con las fechas registradas (1998-09-19 a 1998-09-25)."
+      },
+      {
+        "TripID": "1203-GUY-USA-36362",
+        "justificacion": "Consistente con el relato documentado de la enfermedad de Janet Jagan (ataque cardíaco leve en julio de 1999): tras exámenes en Trinidad, viajó a EE.UU. para tratamiento médico bajo el cuidado de un médico guyanés, coincidiendo con la nota del registro ('went to receive medical treatment') y con su renuncia a la presidencia el 8 de agosto de 1999 por motivos de salud."
+      },
+      {
+        "TripID": "1203-GUY-VEN-35997",
+        "justificacion": "Rafael Caldera fue presidente de Venezuela entre febrero de 1994 y febrero de 1999, por lo que es la contraparte correcta para la visita de julio de 1998."
+      },
+      {
+        "TripID": "1203-GUY-VEN-36193",
+        "justificacion": "Hugo Chávez asumió la presidencia de Venezuela el 2 de febrero de 1999, fecha ampliamente documentada de su ceremonia de investidura, coincidiendo exactamente con la fecha registrada del viaje (1999-02-02) y con la nota original ('attended inauguration of President Hugo Chavez')."
+      }
+    ]
+  }
+]
