@@ -1462,3 +1462,28 @@ Maduro NO realizo ningun viaje internacional entre may-2025 y su captura en ene-
 verificacion COLT completa de punta a punta dentro del alcance del proyecto
 (1994-2026), y con ella se cierran los 12 de 12 paises sudamericanos del proyecto:
 LA CAMPAÑA DE VERIFICACION COLT-SUDAMERICA QUEDA COMPLETA.
+
+[2026-09-06] NOTA | Arranca la "2da pasada" sobre las 654 filas no_verificable
+(ver plan completo en PENDIENTES_VERIFICACION.txt, seccion "PLAN DE TRABAJO —
+SEGUNDA PASADA"). FASE 0 (reconstruccion de inventario) CERRADA: Argentina (75),
+Chile (59 nuevos + 9 ya tageados = 68) y Brasil (31 nuevos + 19 ya tageados = 50)
+no tenian el marcador "no_verificable" escrito de forma pareja en la columna
+Notes del CSV de trabajo (campañas mas viejas, con esquemas de log distintos al
+estandar de colt_aplicar_workpacks.py); se reconstruyeron cruzando
+cambios_aplicados_argentina_redo.csv, argentina_colt_unico_veredictos_redo.csv,
+cambios_aplicados_chile.csv, chile_colt_unico_veredictos.csv, y los JSON crudos
+de tmp_brasil/resultados_*.json (claves discrepancias_resueltas/
+colt_unico_resueltos). Paraguay (120) y Uruguay (69) se reconstruyeron desde los
+JSON crudos de sus workpacks (tmp_paraguay/, tmp_uruguay/, resultados_workpack_
+*.json), con match EXACTO contra el Cuadro 2 del paper en ambos casos. Los 354
+TripID reconstruidos se escribieron en Notes (mismo formato que el pipeline
+estandar) con backup previo del CSV
+(base_colt_sudamerica_trabajo_backup_pre_fase0_pendientes.csv), y se exportaron
+ademas como CSV limpios por pais en
+05_BITACORA/anexos_colt_sudamerica/reconstruccion_fase0/. Verificacion final por
+query: 654 filas con marcador no_verificable en toda la base (vs. 652 del
+recuento manual de Cuadro 2 -diferencia de 2 filas, Brasil 49->50 y Venezuela
+50->49-, dentro del margen de un conteo manual). Los 12 paises quedan ahora
+parejos y consultables con el mismo query. Proximo paso: FASE 1, piloto de
+segunda pasada en un pais chico (Surinam o Peru) antes de comprometer esfuerzo
+en el resto.

@@ -447,8 +447,22 @@ if (!is.null(mandatos)) {
     mutate(
       # Etiqueta de periodo para cuadros: mismo criterio que Figura 1
       # (mandatos en curso, con placeholder 2099, se muestran como "2025").
-      term_label = paste0(format(term_start, "%Y"), "-",
-                           if_else(term_end >= ymd("2099-01-01"), "2025", format(term_end, "%Y")))
+      # AGREGADO 2026-09-06 (a pedido del usuario, surgio revisando el
+      # Cuadro de perfil regional): algunos primeros mandatos empezaron
+      # ANTES de ANIO_DESDE (1994) -ej. Menem arranco en 1989, Fujimori en
+      # 1990, Sanchez de Lozada en 1993, etc.-. term_start/term_end (las
+      # fechas REALES) no se tocan -siguen usandose para el filtro
+      # TripStartDate >= term_start mas abajo-, pero la ETIQUETA que ve el
+      # lector se clampea a ANIO_DESDE, porque nuestra base no tiene
+      # cobertura verificada antes de esa fecha y mostrar el año real de
+      # inicio daria la impresion de que faltan datos de ese tramo cuando en
+      # realidad esta fuera del alcance del proyecto.
+      term_label = paste0(
+        if_else(term_start < ymd(paste0(ANIO_DESDE, "-01-01")),
+                as.character(ANIO_DESDE), format(term_start, "%Y")),
+        "-",
+        if_else(term_end >= ymd("2099-01-01"), "2025", format(term_end, "%Y"))
+      )
     )
 } else {
   mandato_terminos <- NULL
@@ -611,9 +625,29 @@ diferencias_colt <- data.frame(
                   "33", "54", "25", "24", "56", "87"),
   Eliminados = c("4", "0", "5", "7", "0", "0",
                  "0", "16", "0", "0", "6", "0"),
-  Pendientes_de_validar = c("75", "30", "49", "68", "50", "64",
-                             "35", "120", "28", "14", "69", "50"),
+  # Pendientes_de_validar recalculado 2026-09-06 (Fase 0 de la 2da pasada):
+  # se verifico por query directa sobre el CSV de trabajo (buscar
+  # "no_verificable" en Notes, ya parejo en los 12 paises tras reconstruir
+  # Argentina/Paraguay/Uruguay/Chile/Brasil) en vez del conteo manual previo.
+  # 4 valores cambiaron por diferencias de +/-1 fila (margen normal de un
+  # conteo manual acumulado a lo largo de muchas sesiones): Bolivia 30->31,
+  # Brasil 49->50, Guyana 35->36, Venezuela 50->49. El resto no cambio.
+  Pendientes_de_validar = c("75", "31", "50", "68", "50", "64",
+                             "36", "120", "28", "14", "69", "49"),
   stringsAsFactors = FALSE
+)
+# Fila de Total: suma cada columna numerica de los 12 paises (se calcula en
+# vez de hardcodear, para que quede correcto si algun valor de arriba cambia).
+diferencias_colt <- rbind(
+  diferencias_colt,
+  data.frame(
+    Pais = "Total",
+    Agregados = as.character(sum(as.numeric(diferencias_colt$Agregados))),
+    Modificados = as.character(sum(as.numeric(diferencias_colt$Modificados))),
+    Eliminados = as.character(sum(as.numeric(diferencias_colt$Eliminados))),
+    Pendientes_de_validar = as.character(sum(as.numeric(diferencias_colt$Pendientes_de_validar))),
+    stringsAsFactors = FALSE
+  )
 )
 print(diferencias_colt)
 guardar_tabla_imagen(diferencias_colt, "00a2_diferencias_colt.png", ancho = 9, alto = 4.2)
@@ -1702,10 +1736,15 @@ write.csv(tabla_perfil_regional, file.path(RUTA_OUTPUTS, "16_perfil_regional_por
 ## patron se sostiene casi identico al original: pico y minimo caen en los
 ## mismos años (2011 / 2025), con valores muy cercanos (64.4% / 43.6%).
 ##
-## A diferencia del resto de las figuras de este script (estetica Q1, sin
-## titulo/subtitulo dentro de la imagen -eso lo pone el \caption{} de LaTeX-),
-## este grafico puntual SI lleva titulo/subtitulo/fuente adentro de la
-## imagen, replicando el estilo editorial del original que pidio el usuario.
+## NOTA (2026-09-06): esta figura originalmente rompia a proposito la
+## estetica Q1 del resto del script (llevaba titulo/subtitulo/fuente adentro
+## de la imagen, replicando el estilo editorial del grafico de referencia de
+## Diplometrics). A pedido del usuario se unifico con el resto: ahora usa el
+## mismo tema Q1 (tema_journal(), vía theme_set() -sin titulo/subtitulo/
+## caption en la imagen, eso lo pone el \caption{} de LaTeX) y las etiquetas
+## de Pico/Minimo se alinean (hjust) segun de que lado del grafico caen, para
+## que no quede texto cortado contra el borde del panel (le pasaba al label
+## de "Minimo" cuando el año minimo caia cerca del borde derecho).
 viajes_latam_por_anio <- colt %>%
   mutate(es_latam = RegionVisited == "Latin America and the Caribbean") %>%
   group_by(Year) %>%
@@ -1722,39 +1761,34 @@ viajes_latam_por_anio <- colt %>%
 punto_pico <- viajes_latam_por_anio %>% slice_max(promedio_movil, n = 1, with_ties = FALSE)
 punto_minimo <- viajes_latam_por_anio %>% slice_min(promedio_movil, n = 1, with_ties = FALSE)
 
+# hjust dinamico: si el punto cae en la mitad derecha del rango de años, el
+# label se alinea a la derecha (hjust=1, termina EN el punto en vez de
+# arrancar ahi) para que no se corte contra el borde derecho del panel; si
+# cae en la mitad izquierda, se alinea a la izquierda (hjust=0); en el medio
+# queda centrado (hjust=0.5), como antes.
+rango_anios <- range(viajes_latam_por_anio$Year)
+punto_medio_anios <- mean(rango_anios)
+hjust_para <- function(anio) {
+  if (anio > punto_medio_anios + diff(rango_anios) * 0.15) 1
+  else if (anio < punto_medio_anios - diff(rango_anios) * 0.15) 0
+  else 0.5
+}
+
 g17 <- ggplot(viajes_latam_por_anio, aes(x = Year, y = promedio_movil)) +
   geom_area(fill = gris_1, alpha = 0.6) +
   geom_line(color = "black", linewidth = 0.9) +
   geom_point(data = bind_rows(punto_pico, punto_minimo), color = "black", size = 2) +
   annotate("text", x = punto_pico$Year, y = punto_pico$promedio_movil + 3,
            label = paste0("Pico: ", round(punto_pico$promedio_movil), "% (", punto_pico$Year, ")"),
-           size = 3.2, family = FUENTE_BASE, fontface = "bold", color = "black") +
+           size = 3.2, family = FUENTE_BASE, fontface = "bold", color = "black",
+           hjust = hjust_para(punto_pico$Year)) +
   annotate("text", x = punto_minimo$Year, y = punto_minimo$promedio_movil - 3,
            label = paste0("Mínimo: ", round(punto_minimo$promedio_movil, 1), "% (", punto_minimo$Year, ")"),
-           size = 3.2, family = FUENTE_BASE, fontface = "bold", color = "black") +
-  scale_x_continuous(breaks = scales::breaks_width(5)) +
+           size = 3.2, family = FUENTE_BASE, fontface = "bold", color = "black",
+           hjust = hjust_para(punto_minimo$Year)) +
+  scale_x_continuous(breaks = scales::breaks_width(5), expand = expansion(mult = c(0.02, 0.05))) +
   scale_y_continuous(labels = function(x) paste0(x, "%"), limits = c(min(viajes_latam_por_anio$promedio_movil) - 8, NA)) +
-  labs(
-    title = "Integración regional en retirada",
-    subtitle = paste0("Viajes intra-latinoamericanos como % del total de viajes presidenciales sudamericanos\n",
-                       "Promedio móvil de 3 años · ", ANIO_DESDE, "-", ANIO_HASTA),
-    x = NULL, y = NULL,
-    caption = paste0("Fuente: base propia (cruzada y verificada contra Diplometrics COLT Dataset, Frederick S. Pardee\n",
-                      "Institute for International Futures, University of Denver), viajes de Jefes de Estado/Gobierno\n",
-                      "de Argentina, Bolivia, Brasil, Chile, Colombia, Ecuador, Guyana, Paraguay, Perú, Surinam, Uruguay y Venezuela.")
-  ) +
-  theme_minimal(base_size = 12, base_family = FUENTE_BASE) +
-  theme(
-    plot.title = element_text(face = "bold", size = rel(1.3), color = "black"),
-    plot.subtitle = element_text(size = rel(0.85), color = gris_6, margin = margin(b = 12)),
-    plot.caption = element_text(size = rel(0.6), color = gris_5, hjust = 0, margin = margin(t = 12)),
-    panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
-    panel.grid.major.y = element_line(color = gris_1, linewidth = 0.3),
-    axis.text = element_text(color = gris_6),
-    plot.background = element_rect(fill = "white", color = gris_3, linewidth = 0.4),
-    plot.margin = margin(16, 20, 12, 16)
-  )
+  labs(x = NULL, y = "% de viajes intra-latinoamericanos")
 
 print(g17)
 ggsave(file.path(RUTA_OUTPUTS, "17_integracion_regional_en_retirada.png"), g17, width = 9, height = 6, dpi = 150)
@@ -1943,6 +1977,30 @@ if (is.null(ideologia)) {
   write.csv(correlacion_ideologia_viajes,
             file.path(RUTA_OUTPUTS, "18b_correlacion_ideologia_viajes_intralatam.csv"), row.names = FALSE)
 
+  # --- Cuadro (NUEVO, 2026-09-06, pedido del usuario): mismo Cuadro que
+  # arriba, pero correlacionando cada dimension de ideologia contra la
+  # CANTIDAD ABSOLUTA de viajes intra-latinoamericanos (n_viajes_intralatam)
+  # en vez del porcentaje (pct_intralatam). Sirve para chequear si el
+  # patron de la version en % se sostiene o cambia cuando se mira el volumen
+  # bruto de viajes en vez de la proporcion -un mandato-tramo con pocos
+  # viajes en total puede tener un % alto de viajes intralatam pero un
+  # numero absoluto chico, y viceversa-.
+  correlacion_ideologia_viajes_absoluto <- lapply(dimensiones, function(dim) {
+    x <- resumen_ideologia_presidente[[dim]]
+    y <- resumen_ideologia_presidente$n_viajes_intralatam
+    ok <- complete.cases(x, y)
+    test <- suppressWarnings(cor.test(x[ok], y[ok], method = "pearson"))
+    data.frame(
+      Dimension  = etiquetas_dimensiones[[dim]],
+      r_pearson  = round(unname(test$estimate), 3),
+      valor_p    = round(test$p.value, 4),
+      n_mandatos = sum(ok)
+    )
+  }) %>% bind_rows()
+
+  write.csv(correlacion_ideologia_viajes_absoluto,
+            file.path(RUTA_OUTPUTS, "18b2_correlacion_ideologia_viajes_intralatam_absoluto.csv"), row.names = FALSE)
+
   # --- Figura A: ideologia general vs. % de viajes intra-latinoamericanos ---
   # (el hallazgo central de Merke, Reynoso & Schenoni 2020 es que la ideologia
   # presidencial es la variable que mas explica el cambio de politica exterior;
@@ -1984,6 +2042,26 @@ if (is.null(ideologia)) {
 
   print(g18b)
   ggsave(file.path(RUTA_OUTPUTS, "18d_todas_dimensiones_vs_intralatam.png"), g18b, width = 12, height = 7, dpi = 150)
+
+  # --- Figura (NUEVA, 2026-09-06, pedido del usuario): misma Figura B/18d de
+  # arriba, pero con la CANTIDAD ABSOLUTA de viajes intra-latinoamericanos
+  # (n_viajes_intralatam) en el eje Y en vez del porcentaje. ---
+  resumen_largo_ideologia_absoluto <- resumen_ideologia_presidente %>%
+    select(presidents, n_viajes_intralatam, all_of(dimensiones)) %>%
+    pivot_longer(cols = all_of(dimensiones), names_to = "dimension", values_to = "valor") %>%
+    mutate(
+      dimension = recode(dimension, !!!etiquetas_dimensiones),
+      dimension = factor(dimension, levels = unname(etiquetas_dimensiones))
+    )
+
+  g18b2 <- ggplot(resumen_largo_ideologia_absoluto, aes(x = valor, y = n_viajes_intralatam)) +
+    geom_smooth(method = "lm", se = FALSE, color = gris_6, linewidth = 0.5) +
+    geom_point(color = gris_9, alpha = 0.6, size = 1.4) +
+    facet_wrap(~dimension, scales = "free_x", ncol = 4) +
+    labs(x = "Valor de la dimension (escala 1-7)", y = "Cantidad de viajes intra-latinoamericanos")
+
+  print(g18b2)
+  ggsave(file.path(RUTA_OUTPUTS, "18d2_todas_dimensiones_vs_intralatam_absoluto.png"), g18b2, width = 12, height = 7, dpi = 150)
 
   # --- Figuras E, F y G (pedido del usuario): 3 variantes de la Figura B/18d
   # de arriba, filtrando el universo de mandato-tramos en vez de usar todos.
@@ -2117,7 +2195,8 @@ if (is.null(ideologia)) {
 ##    necesariamente porque haya una preferencia real por visitar pares-.
 ##  - "controlando": un indice observado/esperado, donde el esperado se calcula
 ##    con la composicion ideologica real de los destinos disponibles EN CADA
-##    PERIODO de 5 anios (no un promedio general de todo 1994-2025) -asi se
+##    PERIODO de 5 anios (no un promedio general de todo 1994-2024, que es el
+##    rango real de este cruce diadico -ver nota de fecha mas abajo-) -asi se
 ##    aisla la preferencia de la oferta cambiante. Un indice > 1 indica mas
 ##    visitas "propias" de las esperadas por azar; = 1, exactamente lo
 ##    esperado; < 1, menos de lo esperado.
@@ -2150,8 +2229,16 @@ if (exists("ideologia_cw") && exists("viajes_ideologia")) {
   }
 
   write.csv(dyadico, file.path(RUTA_OUTPUTS, "19a_homofilia_ideologica_diadico.csv"), row.names = FALSE)
+  # NOTA (2026-09-06): este cruce diadico -exige ideologia verificada tanto
+  # del pais de ORIGEN como del de DESTINO en la misma fecha- es mas estricto
+  # que el de la Seccion 18 (que solo exige el origen) y en la practica no
+  # llega hasta 2025: el ultimo TripStartDate de "dyadico" es 2024-12-14 (0
+  # viajes en 2025). Por eso todos los textos/captions de esta subseccion en
+  # el .Rnw (seccion 4.5, "Homofilia ideologica en los destinos") dicen
+  # "1994-2024", no "1994-2025" -a diferencia de la Seccion 18, que si llega
+  # a 2025 y mantiene ese rango en sus captions-.
 
-  # --- Cuadro: test de independencia chi-cuadrado + indice de homofilia total (1994-2025) ---
+  # --- Cuadro: test de independencia chi-cuadrado + indice de homofilia total (1994-2024) ---
   tabla_contingencia <- table(dyadico$bloque_origen, dyadico$bloque_destino)
   test_chi2 <- suppressWarnings(chisq.test(tabla_contingencia))
   esperado <- test_chi2$expected
@@ -2188,8 +2275,9 @@ if (exists("ideologia_cw") && exists("viajes_ideologia")) {
 
   # --- Figura G: CONTROLANDO -- indice observado/esperado, por periodo ---
   # El esperado de cada periodo usa la composicion ideologica real de TODOS los
-  # destinos disponibles en ESE periodo (no un promedio general de 1994-2025),
-  # para no confundir preferencia con oferta cambiante.
+  # destinos disponibles en ESE periodo (no un promedio general de 1994-2024,
+  # que es el rango real de este cruce diadico), para no confundir preferencia
+  # con oferta cambiante.
   oferta_por_periodo <- dyadico %>%
     count(Periodo5, bloque_destino) %>%
     group_by(Periodo5) %>%

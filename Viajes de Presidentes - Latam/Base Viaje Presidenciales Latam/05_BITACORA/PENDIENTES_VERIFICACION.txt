@@ -17,6 +17,113 @@ por eso quedan acá en vez de completarse a la fuerza.
 Última actualización: 2026-07-20
 
 ################################################################################
+## PLAN DE TRABAJO — SEGUNDA PASADA SOBRE LAS 652 FILAS "NO_VERIFICABLE" (2026-09-06)
+################################################################################
+Contexto: tras cerrar la verificación COLT de los 12 países (494/494 a 5426 filas
+totales), quedaron 652 filas marcadas "no_verificable" (12% de la base): se
+revisaron pero no se encontró fuente independiente para confirmar NI corregir el
+dato de COLT, asi que se dejaron como estaban. Por país (Cuadro 2 del paper):
+Paraguay 120, Uruguay 69, Chile 68, Ecuador 64, Argentina 75, Venezuela 50,
+Colombia 50, Brasil 49, Guyana 35, Bolivia 30, Peru 28, Surinam 14.
+
+--- HALLAZGO DE PREPARACION (2026-09-06): el inventario NO esta parejo ---
+Se chequeo programaticamente cuantas de esas 652 filas tienen el marcador
+"no_verificable" efectivamente escrito en la columna Notes del CSV de trabajo
+(04_BASE_FINAL/base_colt_sudamerica_trabajo.csv) -condicion necesaria para poder
+armar workpacks de la 2da pasada sin releer bitacoras a mano-:
+
+  LISTAS PARA BATCHEAR YA (marcador presente, ~272 filas):
+    Ecuador 64, Colombia 50, Venezuela 49, Guyana 36, Bolivia 31, Peru 28,
+    Surinam 14  (paises que pasaron por el pipeline colt_aplicar_workpacks.py
+    estandar, que SI escribe el marcador en Notes al aplicar "no_verificable").
+
+  NECESITAN RECONSTRUCCION PRIMERO (marcador ausente o incompleto, ~380 filas):
+    Argentina (75, 0 marcadas), Paraguay (120, ~1 marcada), Uruguay (69, 0
+    marcadas), Chile (68, solo 9 marcadas -faltan ~59-), Brasil (49, solo 19
+    marcadas -faltan ~30-). Estos 5 paises vienen de campañas mas viejas (antes
+    de estandarizar colt_aplicar_workpacks.py) cuyo "pendiente" quedo solo
+    narrado en las secciones de este archivo y en los logs originales, no
+    como flag reusable en el CSV. Hay que reconstruir el listado TripID por
+    TripID desde esos logs/bitacora antes de poder armar workpacks reales.
+
+--- FASES DEL PLAN ---
+[CERRADA 2026-09-06] FASE 0 (preparacion): se reconstruyo el inventario de los
+  5 paises que no tenian el marcador "no_verificable" parejo en Notes, cruzando
+  las fuentes originales de cada campaña:
+    - Argentina: cambios_aplicados_argentina_redo.csv (estado="NO_CAMBIO
+      (No_verificable)", 56) + argentina_colt_unico_veredictos_redo.csv
+      (veredicto="Dudoso_no_verificable", 19) = 75 TripID.
+    - Chile: cambios_aplicados_chile.csv (estado=No_verificable, 20) +
+      chile_colt_unico_veredictos.csv (Dudoso_no_verificable, 39) = 59 TripID
+      nuevos (+9 que ya estaban tageados por el pipeline estandar = 68 total).
+    - Brasil: tmp_brasil/resultados_{cardoso,dilma_temer,lula1,lula2,
+      bolsonaro_lula3}.json, claves "discrepancias_resueltas" (veredicto
+      No_verificable, 25) y "colt_unico_resueltos" (Dudoso_no_verificable, 6)
+      = 31 TripID nuevos (+19 ya tageados = 50 total; Cuadro 2 tenia 49,
+      diferencia de 1 fila dentro del margen de un recuento manual anterior).
+    - Paraguay y Uruguay: tmp_paraguay/ y tmp_uruguay/resultados_workpack_*.json
+      (campo "veredicto"/"decision" conteniendo "no_verificable", deduplicado
+      por colt_TripID) = 120 y 69 TripID respectivamente (match exacto con
+      Cuadro 2 en ambos casos).
+  Los 75+59+31+120+69=354 TripID reconstruidos se escribieron en la columna
+  Notes del CSV de trabajo (04_BASE_FINAL/base_colt_sudamerica_trabajo.csv,
+  con backup previo en base_colt_sudamerica_trabajo_backup_pre_fase0_pendientes.csv)
+  usando el tag "[PE-Latam {fecha}: RECONSTRUCCION Fase 0 (2da pasada) desde
+  campaña original de {pais} -- campo(s) '...' queda(n) No_verificable -...-]",
+  y se exportaron ademas como CSV limpios (TripID, LeaderID, fecha, campos
+  pendientes, fuente ya intentada, justificacion original) en
+  05_BITACORA/anexos_colt_sudamerica/reconstruccion_fase0/pendientes_<pais>.csv
+  para armar los lotes de la Fase 2 directamente desde ahi.
+  TOTAL VERIFICADO POR QUERY (2026-09-06): 654 filas con marcador
+  no_verificable en toda la base (vs. 652 del recuento manual original en
+  Cuadro 2 -diferencia de 2, ver detalle Brasil/Venezuela arriba-). Los 12
+  paises quedan ahora en igualdad de condiciones, todos consultables con el
+  mismo query (buscar "no_verificable" en Notes, case-insensitive).
+
+FASE 1 (piloto): antes de comprometer esfuerzo en las 652, correr un piloto
+  chico (Surinam, 14 filas, o Peru, 28) con una ESTRATEGIA DE BUSQUEDA DISTINTA
+  a la que ya fallo una vez (repetir la misma busqueda no va a rendir nada
+  nuevo). Por tipo de campo pendiente:
+    - Fechas (TripStartDate/TripEndDate, ~la mitad de los pendientes): prensa
+      de la fecha exacta +/- 1 semana, hemerotecas digitales, Wayback Machine
+      sobre comunicados de Cancilleria/Presidencia, agendas oficiales.
+    - Nombre de evento/anfitrion (NameMultilatEvent/HostHOGSName): actas
+      oficiales de cumbres, comunicados conjuntos, pie de foto oficial.
+    - Booleanos (MetHostHoGS/MetNonhostHOGS): cronicas de la visita, discursos,
+      fotos de la reunion.
+  Medir tasa de exito real del piloto antes de decidir si vale la pena
+  aplicar la misma segunda pasada a las 652 o si conviene cerrar el resto
+  como "no verificable, definitivo" y documentarlo como limitacion metodologica.
+
+FASE 2 (lotes por pais, orden sugerido -de menor a mayor, dejando Paraguay
+  para el final por ser el mas grande-): Surinam(14) -> Peru(28) -> Bolivia(31)
+  -> Guyana(36) -> Brasil(49, tras Fase 0) -> Colombia(50) -> Venezuela(49) ->
+  Ecuador(64) -> Chile(68, tras Fase 0) -> Uruguay(69, tras Fase 0) ->
+  Argentina(75, tras Fase 0) -> Paraguay(120, tras Fase 0). El usuario puede
+  reordenar esto libremente; es solo una sugerencia de chico a grande.
+
+FASE 3 (aplicar y documentar, por lote): mismo pipeline ya probado 12 veces:
+  colt_aplicar_workpacks.py --aplicar sobre los resultados de cada lote,
+  actualizar esta sección, bitacora.txt, y el Cuadro 2 (diferencias_colt en
+  graficos_exploratorios.R) con los nuevos totales de Modificados/Pendientes.
+
+FASE 4 (casos puntuales de alto valor, en paralelo a los lotes por pais):
+  - Posible confusion Bolsonaro/Lula en COLT durante la transicion presidencial
+    de Brasil (dic-2022/ene-2023): COLT extiende fechas de un viaje a EE.UU.
+    de ambos hasta 30/3/2023. No se toca la base COLT, solo se documenta.
+  - 3 viajes de Milei 2024 (EE.UU. 11-14/7, Francia 24-27/7, Chile 8/8) que
+    aparecen en Diplometrics COLT pero no en nuestra base: decidir si se
+    investigan con fuente propia antes de cargarlos como PELATAM.
+  - Discrepancias de estadia de 5-6 dias sin resolver: Santiago Peña (Reino
+    Unido, jul-2025), Jorge Batlle (España, feb-2004), Mujica (España, may-2013).
+
+FASE 5 (cierre metodologico): una vez agotadas las rondas que el usuario
+  decida correr, documentar en el codebook/paper que fraccion de las 652 se
+  logro resolver vs. quedo "no verificable, definitivo" (fuente inexistente o
+  inaccesible), y por que eso es esperable dado el tipo de fuente (prensa
+  regional, no un archivo oficial centralizado) -no un defecto del proyecto-.
+
+################################################################################
 ## ARGENTINA  (país cerrado e integrado; pendientes de completitud fina)
 ################################################################################
 

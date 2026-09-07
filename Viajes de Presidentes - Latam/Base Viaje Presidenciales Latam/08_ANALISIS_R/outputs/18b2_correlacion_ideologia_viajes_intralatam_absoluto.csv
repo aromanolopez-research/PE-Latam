@@ -1,0 +1,9 @@
+"Dimension","r_pearson","valor_p","n_mandatos"
+"Ideologia general (1=izq., 7=der.)",-0.553,0,73
+"Politica economica",-0.441,1e-04,73
+"Geopolitica",-0.562,0,73
+"Estilo diplomatico",-0.428,2e-04,73
+"Relacion con EE.UU.",-0.534,0,73
+"Soberania / autonomia",0.408,3e-04,73
+"Modelo de desarrollo",0.45,1e-04,73
+"Reputacion internacional",0.154,0.1929,73

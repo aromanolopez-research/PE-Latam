@@ -52,7 +52,10 @@
 \usepackage{float}
 \usepackage{longtable}
 \usepackage{xcolor}
-\geometry{margin=2.5cm}
+% Margen reducido de 2.5cm a 2cm (2026-09-06, a pedido del usuario): con
+% 2.5cm varias figuras/cuadros anchos quedaban muy ajustados o se salian del
+% area de texto en A4. 2cm da mas lugar horizontal sin verse amontonado.
+\geometry{margin=2cm}
 
 \title{Viajes presidenciales como indicador de pol\'itica exterior en Sudam\'erica (1994--2025)}
 \author{Alejo Roman\'o L\'opez}
@@ -97,6 +100,7 @@ tabla_destino_favorito <- tryCatch(leer_resumen("05c_destino_favorito_tabla.csv"
 tabla_perfil_regional <- tryCatch(leer_resumen("16_perfil_regional_por_presidente.csv"), error = function(e) NULL)
 primera_visita        <- tryCatch(leer_resumen("06_primera_visita_por_presidente.csv"), error = function(e) NULL)
 tabla_correlacion_ideologia <- tryCatch(leer_resumen("18b_correlacion_ideologia_viajes_intralatam.csv"), error = function(e) NULL)
+tabla_correlacion_ideologia_absoluto <- tryCatch(leer_resumen("18b2_correlacion_ideologia_viajes_intralatam_absoluto.csv"), error = function(e) NULL)
 tabla_correlacion_destinos  <- tryCatch(leer_resumen("18g_correlacion_ideologia_usa_china_europa.csv"), error = function(e) NULL)
 tabla_indice_homofilia      <- tryCatch(leer_resumen("19b_indice_homofilia_total.csv"), error = function(e) NULL)
 tabla_correlacion_vecino    <- tryCatch(leer_resumen("14b_correlacion_vecino_tiempo.csv"), error = function(e) NULL)
@@ -280,28 +284,24 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(resumen_estadisticos)
   \label{fig:viajes-por-anio-pais}
 \end{figure}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/11_viajes_por_anio_de_mandato.png}
-  \caption{Promedio de viajes por a\~no de mandato (a\~no 1, a\~no 2, ...), normalizado por la cantidad de mandatos que efectivamente llegaron a cada a\~no dentro de la ventana 1994-2025. Permite comparar presidentes con mandatos de distinta duraci\'on y detectar patrones de ``luna de miel''/``pato rengo'' (cf. \citep{ostranderPresidentsAbroadPolitics2018}). La etiqueta sobre cada barra indica cu\'antos mandatos aportan datos a ese a\~no.}
-  \label{fig:viajes-por-anio-mandato}
-\end{figure}
+% Figura 7 anterior (11_viajes_por_anio_de_mandato.png, promedio de viajes
+% por anio de mandato) ELIMINADA del paper a pedido del usuario (2026-09-06).
+% El PNG y el codigo que lo genera se mantienen en graficos_exploratorios.R
+% por si se quiere reincorporar mas adelante.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/15_evolucion_por_bloque_destino.png}
-  \caption{\colorbox{yellow}{Cantidad total de viajes por a\~no a cada bloque de destino: Sudam\'erica, Latinoam\'erica y el Caribe (incluye a Sudam\'erica), Estados Unidos, Europa, \'Africa y Asia. Sudam\'erica y Latinoam\'erica se superponen a prop\'osito -la segunda incluye a la primera-, para comparar el volumen dentro de la vecindad m\'as cercana contra el de la regi\'on en un sentido amplio. La l\'inea punteada marca el promedio anual de cada bloque (1994-2025).}}
+  \caption{Cantidad total de viajes por a\~no a cada bloque de destino: Sudam\'erica, Latinoam\'erica y el Caribe (incluye a Sudam\'erica), Estados Unidos, Europa, \'Africa y Asia. Sudam\'erica y Latinoam\'erica se superponen a prop\'osito -la segunda incluye a la primera-, para comparar el volumen dentro de la vecindad m\'as cercana contra el de la regi\'on en un sentido amplio. La l\'inea punteada marca el promedio anual de cada bloque (1994-2025).}
   \label{fig:evolucion-por-bloque-destino}
 \end{figure}
-% NOTA: descripcion resaltada en amarillo a pedido del usuario -no esta
-% convencido de dejar esta figura en el paper; revisar antes de la version
-% final.
 
-% Figura de estilo editorial (rompe a proposito la estetica Q1 del resto del
-% paper -titulo/subtitulo/fuente van adentro de la imagen-, replicando el
-% formato de un grafico de referencia de Diplometrics COLT que el usuario
-% pidio recrear con nuestra base propia). Promedio movil de 3 anios de la
-% participacion de viajes intra-latinoamericanos sobre el total.
+% NOTA (2026-09-06): estilo editorial que rompia a proposito la estetica Q1
+% (titulo/subtitulo/fuente adentro de la imagen, replicando un grafico de
+% referencia de Diplometrics COLT) DESCARTADO a pedido del usuario. Esta
+% figura ahora usa el mismo grafico base que el resto del paper
+% (17_integracion_regional_en_retirada.png regenerado en graficos_exploratorios.R
+% con el tema Q1 estandar) y la etiqueta de Minimo ya no queda cortada.
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{../08_ANALISIS_R/outputs/17_integracion_regional_en_retirada.png}
@@ -476,25 +476,34 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_vec
 % orden alfabetico por pais y, DENTRO de cada pais, cronologico por inicio
 % de mandato (ej. Argentina: Menem 1 y 2 primero, Milei ultimo -no
 % alfabetico por nombre de mandatario-).
-% Nota tecnica (2026-09-02, v2 -la v1 con pdflscape fallo por no tener ese
-% paquete instalado, "File pdflscape.sty not found"-): con 8 columnas de
-% region + Pais + Mandatario + Total viajes (11 columnas en total) la tabla
-% no entraba ni en vertical con margenes de 1cm y fuente tiny -quedaba
-% desbordada y descentrada-. En vez de rotar el CONTENIDO 90 grados (que es
-% lo que hacen lscape/pdflscape, y requiere ese paquete extra), esta version
-% agranda directamente el tama\~no de PAGINA a A4 apaisado (29.7x21cm) solo
-% para esta tabla, usando nada mas que el paquete "geometry" -que este
-% documento ya carga en el preambulo, sin dependencias nuevas-. El resultado
-% practico es el mismo (bastante mas ancho util, ~26.7cm vs ~19cm en
-% vertical con margen de 1cm) pero el texto queda derecho -no hay que girar
-% nada para leerlo, la pagina simplemente es mas ancha que alta en esa
-% seccion del PDF-.
-\newpage
+% Nota tecnica (2026-09-06, v3 -la v1 con pdflscape fallo por no tener ese
+% paquete instalado, "File pdflscape.sty not found"; la v2 uso solamente
+% \newgeometry{paperwidth=..., paperheight=...} del paquete "geometry", pero
+% se comprobo empiricamente -renderizando las paginas del PDF compilado a
+% PNG y comparando dimensiones en pixeles- que el tama\~no de pagina real
+% NUNCA cambiaba: todas las paginas salian A4 vertical estandar pese a la
+% directiva. geometry ajusta los margenes/layout de LaTeX pero no siempre
+% logra mover el media box real que pdfTeX efectivamente usa al hacer
+% \shipout de cada pagina, sobre todo en medio de un documento con una
+% longtable que genera sus propios saltos de pagina internos-): esta version
+% fuerza el tama\~no de pagina con las primitivas nativas de pdfTeX
+% (\pdfpagewidth/\pdfpageheight), que son las que pdfTeX realmente consulta
+% al momento de cada \shipout, ademas de \newgeometry (para que los margenes
+% se recalculen de forma consistente). Con 8 columnas de region + Pais +
+% Mandatario + Total viajes (11 columnas en total) la tabla no entraba ni en
+% vertical con margenes de 1cm y fuente tiny -quedaba desbordada y
+% descentrada-; en apaisado (29.7x21cm) hay bastante mas ancho util (~26.7cm
+% vs ~19cm en vertical con margen de 1cm) y el texto queda derecho -no hay
+% que girar nada para leerlo, la pagina simplemente es mas ancha que alta en
+% esa seccion del PDF-.
+\clearpage
+\pdfpagewidth=29.7cm
+\pdfpageheight=21cm
 \newgeometry{paperwidth=29.7cm, paperheight=21cm, margin=1.5cm}
 <<tab-perfil-regional, echo=FALSE, results=tex>>=
 if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_perfil_regional)) {
   print(xtable::xtable(fix_na_cuadro(tabla_perfil_regional),
-                        caption = "Perfil regional de cada MANDATO individual: porcentaje de sus viajes a cada bloque de destino. Las categor\\'ias son mutuamente excluyentes y suman 100\\% por fila.",
+                        caption = "Perfil regional de cada MANDATO individual: porcentaje de sus viajes a cada bloque de destino. Las categor\\'ias son mutuamente excluyentes y suman 100\\% por fila. Para mandatos iniciados antes de 1994 (ej. primer mandato de Menem, Fujimori, S\\'anchez de Lozada, entre otros), el a\\~no de inicio mostrado es 1994, ya que nuestra base solo tiene cobertura verificada desde esa fecha -el mandato real empez\\'o antes, pero solo se cuentan los viajes a partir de 1994.",
                         label = "tab:perfil-regional",
                         size = "\\tiny"),
         include.rownames = FALSE, caption.placement = "top",
@@ -504,7 +513,9 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_perfil_regional
 }
 @
 \restoregeometry
-\newpage
+\pdfpagewidth=21cm
+\pdfpageheight=29.7cm
+\clearpage
 
 \begin{figure}[H]
   \centering
@@ -585,6 +596,22 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_ide
 }
 @
 
+% Cuadro NUEVO (2026-09-06, pedido del usuario): mismo cruce que el Cuadro
+% anterior, pero contra la CANTIDAD ABSOLUTA de viajes intra-latinoamericanos
+% en vez del porcentaje -para chequear si el patron de la version en \%
+% se sostiene al mirar el volumen bruto de viajes.
+<<tab-correlacion-ideologia-absoluto, echo=FALSE, results=tex>>=
+if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_ideologia_absoluto)) {
+  print(xtable::xtable(tabla_correlacion_ideologia_absoluto,
+                        caption = "Correlaci\\'on de Pearson entre cada dimensi\\'on de ideolog\\'ia presidencial y la cantidad ABSOLUTA de viajes intra-latinoamericanos, por mandato-tramo (1994-2025).",
+                        label = "tab:correlacion-ideologia-absoluto"),
+        include.rownames = FALSE, caption.placement = "top",
+        latex.environments = c("center"))
+} else {
+  cat("% Falta 18b2_correlacion_ideologia_viajes_intralatam_absoluto.csv o el paquete 'xtable'.\n")
+}
+@
+
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.85\textwidth]{../08_ANALISIS_R/outputs/18c_ideologia_vs_intralatam.png}
@@ -597,6 +624,15 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_ide
   \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/18d_todas_dimensiones_vs_intralatam.png}
   \caption{Las ocho dimensiones de ideolog\'ia presidencial vs. \% de viajes intra-latinoamericanos.}
   \label{fig:todas-dimensiones-intralatam}
+\end{figure}
+
+% Figura NUEVA (2026-09-06, pedido del usuario): misma figura anterior, pero
+% contra la CANTIDAD ABSOLUTA de viajes intra-latinoamericanos en vez del \%.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../08_ANALISIS_R/outputs/18d2_todas_dimensiones_vs_intralatam_absoluto.png}
+  \caption{Las ocho dimensiones de ideolog\'ia presidencial vs. cantidad ABSOLUTA de viajes intra-latinoamericanos (compara con la Figura~\ref{fig:todas-dimensiones-intralatam}, que usa el \% en vez del valor absoluto).}
+  \label{fig:todas-dimensiones-intralatam-absoluto}
 \end{figure}
 
 % 3 variantes de la figura anterior (pedido del usuario): mandato-tramos de
@@ -662,15 +698,20 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_correlacion_des
 % de visitar presidentes de la MISMA ideologia que los de izquierda, a lo
 % largo del tiempo? Ver 08_ANALISIS_R/graficos_exploratorios.R, seccion 19,
 % para el detalle metodologico completo. Se restringe a viajes Sudamerica ->
-% Sudamerica con origen Y destino matcheados a la base de ideologia (1627
-% viajes de 1994-2025).
+% Sudamerica con origen Y destino matcheados a la base de ideologia (1642
+% viajes; el cruce diadico de esta subseccion, mas estricto que el de la
+% seccion 4.4 -exige ideologia de AMBOS lados, origen y destino-, en la
+% practica llega hasta 2024, no 2025: el ultimo viaje de 19a_homofilia_
+% ideologica_diadico.csv es de 2024-12-14. Corregido 2026-09-06 -antes decia
+% "1994-2025" en varios lugares de esta subseccion, lo cual no reflejaba la
+% cobertura real de este cruce especifico).
 
 Esta subsecci\'on cambia la pregunta: en lugar de mirar la orientaci\'on regional agregada de los viajes, compara la ideolog\'ia del presidente que viaja con la del presidente del pa\'is visitado (an\'alisis di\'adico), restringido a viajes entre pa\'ises sudamericanos con ambos lados identificados en la base de ideolog\'ia. Se presentan dos versiones deliberadamente: una \textbf{sin controlar} (el \% crudo de viajes a la misma ideolog\'ia) y una \textbf{controlando} por la oferta -un \'indice observado/esperado que usa la composici\'on ideol\'ogica real de los destinos disponibles en cada per\'iodo de 5 a\~nos como referencia-. La distinci\'on importa: en per\'iodos donde la mayor\'ia de los gobiernos de la regi\'on comparten un mismo bloque ideol\'ogico (ej. la ``marea rosa'' 2004-2015), ese bloque muestra autom\'aticamente m\'as ``viajes a la misma ideolog\'ia'' solo porque hay m\'as destinos de ese tipo disponibles, no necesariamente porque haya una preferencia real por visitar pares.
 
 <<tab-indice-homofilia, echo=FALSE, results=tex>>=
 if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_indice_homofilia)) {
   print(xtable::xtable(tabla_indice_homofilia,
-                        caption = "\\'Indice de homofilia ideol\\'ogica (viajes observados a la misma ideolog\\'ia / viajes esperados bajo independencia estad\\'istica), por bloque, 1994-2025. Un valor $>1$ indica m\\'as visitas ``propias'' de las esperadas por azar.",
+                        caption = "\\'Indice de homofilia ideol\\'ogica (viajes observados a la misma ideolog\\'ia / viajes esperados bajo independencia estad\\'istica), por bloque, 1994-2024. Un valor $>1$ indica m\\'as visitas ``propias'' de las esperadas por azar.",
                         label = "tab:indice-homofilia"),
         include.rownames = FALSE, caption.placement = "top",
         latex.environments = c("center"))
@@ -696,7 +737,7 @@ if (requireNamespace("xtable", quietly = TRUE) && !is.null(tabla_indice_homofili
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.6\textwidth]{../08_ANALISIS_R/outputs/19f_matriz_origen_destino.png}
-  \caption{Matriz de bloque ideol\'ogico del origen (fila) vs. bloque ideol\'ogico del destino (columna), \% de fila, todo el per\'iodo 1994-2025 en conjunto.}
+  \caption{Matriz de bloque ideol\'ogico del origen (fila) vs. bloque ideol\'ogico del destino (columna), \% de fila, todo el per\'iodo 1994-2024 en conjunto.}
   \label{fig:matriz-origen-destino}
 \end{figure}
 

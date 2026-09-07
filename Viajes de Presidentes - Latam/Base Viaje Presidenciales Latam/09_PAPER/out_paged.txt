@@ -1,0 +1,694 @@
+1:      Viajes presidenciales como indicador de política exterior en
+1:                       Sudamérica (19942025)
+1: 
+1:                                      Alejo Romanó López
+1: 
+1:                                     5 de septiembre de 2026
+1: 
+1: 
+1:                                              Resumen
+1: 
+1: 
+1: 1.    Introducción
+1: 
+1: 
+1: 2.    Marco teórico
+1: 
+1: 
+1: 3.    Datos y metodología
+1: 
+1: 
+1: 4.    Resultados
+1: 
+1: 4.1. Descriptivos generales
+1: 
+1: Cuadro 1: Ficha general de la base: total de viajes, período cubierto, cantidad de países y man-
+1: datarios, y participación Bilateral/Multilateral/Otro.
+1:                         Indicador                             Valor
+1:                         Total de viajes registrados           5.009
+1:                         Periodo cubierto                      1994-2025
+1:                         Cantidad de paises                    12
+1:                         Cantidad de mandatarios distintos     83
+1:                         Viajes bilaterales ( %)               39.0 %
+1:                         Viajes multilaterales ( %)            43.5 %
+1:                         Viajes 'Otro' ( %)                    16.7 %
+1: 
+1: 
+1: 
+1: 
+1:                                                   1
+2: Cuadro 2: Diferencias encontradas al cruzar y vericar la base contra la Base COLT (Diplome-
+2: trics), por país: viajes agregados que COLT no tenía, viajes con al menos un campo corregido,
+2: candidatos propios nalmente no incorporados, y las que quedan pendientes de validar por falta
+2: de fuente independiente.
+2:           País          Agregados    Modicados       Eliminados      Pendientes de validar
+2:           Argentina             25              96               4                      75
+2:           Bolivia               12               14              0                      30
+2:           Brasil                27              94               5                      49
+2:           Chile                 60              101              7                      68
+2:           Colombia               7              39               0                      50
+2:           Ecuador               20               47              0                      64
+2:           Guyana                10              33               0                      35
+2:           Paraguay              49              54               16                    120
+2:           Peru                   5               25              0                      28
+2:           Surinam                7               24              0                      14
+2:           Uruguay               29              56               6                      69
+2:           Venezuela             13               87               0                     50
+2: 
+2: 
+2: 
+2:                     Cuadro 3: Total de viajes registrados por pais (1994-2025)
+2:                                       Pais_ES         n_viajes
+2:                                       Brasil              617
+2:                                       Chile               503
+2:                                       Venezuela           502
+2:                                       Colombia            496
+2:                                       Argentina           477
+2:                                       Bolivia             436
+2:                                       Ecuador             432
+2:                                       Paraguay            425
+2:                                       Uruguay             335
+2:                                       Peru                323
+2:                                       Guyana              320
+2:                                       Surinam             143
+2: 
+2: 
+2: 
+2: 
+2:                                                   2
+3: Cuadro 4: Estadísticos descriptivos (media, desvío, mínimo, máximo) de viajes por Mandatario-
+3: Año (total, bilaterales y multilaterales) y de la duración de los viajes.
+3:     variable                                    media        de    minimo   maximo   n_obs   Unidad_n_obs
+3:     Viajes por Mandatario-Anio                   11.80      7.90        1       40     425   Combinaciones man
+3:     Duracion del viaje (dias)                        2.50   2.00        1       71    5000   Viajes individuales
+3:     Viajes Bilaterales por Mandatario-Anio           5.40   4.60        1       27     360   Combinaciones man
+3:     Viajes Multilaterales por Mandatario-Anio        5.40   3.20        1       18     402   Combinaciones man
+3: 
+3: 
+3: 
+3: 
+3: Figura 2: Tipo de actividad incluida en los viajes BILATERALES (categorías no excluyentes; cf.
+3: (charnockPresidentialTravelEisenhower2009) sobre viajes presidenciales de EE. UU.).
+3: 
+3: 
+3: 
+3: 
+3: Figura 3: Tipo de actividad incluida en los viajes MULTILATERALES (categorías no excluyen-
+3: tes).
+3: 
+3: 
+3: 
+3: 
+3:                                                  3
+4: Figura 4: Tipo de actividad incluida en los viajes de categoría Otro (categorías no excluyentes).
+4: Separar por categoría de visita (Bilateral/Multilateral/Otro; a diferencia de una versión anterior
+4: de esta gura, que mezclaba las tres) permite ver que actividades predominan según el motivo
+4: del viaje.
+4: 
+4: 
+4: 
+4: 4.2. Evolución temporal
+4: 
+4: 
+4: 
+4: 
+4: Figura 5: Cantidad de viajes presidenciales por año, Sudamérica 1994-2025. La línea punteada
+4: marca el promedio anual de todo el período.
+4: 
+4: 
+4: 
+4: 
+4:                                                 4
+5: Figura 6: Cantidad de viajes por año, desagregado por país. La línea punteada marca el promedio
+5: anual de cada país.
+5: 
+5: 
+5: 
+5: 
+5:                                               5
+6: Figura 7: Promedio de viajes por año de mandato (año 1, año 2, ...), normalizado por la cantidad
+6: de mandatos que efectivamente llegaron a cada año dentro de la ventana 1994-2025. Permite com-
+6: parar presidentes con mandatos de distinta duración y detectar patrones de luna de miel/pato
+6: rengo (cf. (ostranderPresidentsAbroadPolitics2018)). La etiqueta sobre cada barra indica
+6: cuántos mandatos aportan datos a ese año.
+6: 
+6: 
+6: 
+6: 
+6:                                                6
+7: Figura 8: Cantidad total de viajes por año a cada bloque de destino: Sudamérica, Latinoamérica y el Caribe (i
+7: 
+7: 
+7: 
+7: 
+7:                                               7
+8: Figura 9: Participación de los viajes intra-latinoamericanos sobre el total de viajes presidencia-
+8: les sudamericanos, promedio móvil de 3 años, 1994-2025. Recreación propia -con nuestra base
+8: cruzada y vericada- de un gráco de referencia de Diplometrics COLT (que usa datos crudos
+8: 1990-2025); no extendemos a 1990-1993 porque la cobertura vericada de varios países de nuestra
+8: base no llega de forma conable a esos años. El patrón se sostiene: pico y mínimo caen en los
+8: mismos años que en la fuente de referencia (2011 y 2025).
+8: 
+8: 
+8: 
+8: 
+8:                                                 8
+9: Figura 10: Cantidad de viajes BILATERALES recibidos por año por cada país sudamericano, de
+9: mandatarios de otros países sudamericanos (1994-2025). Cada panel es un país de destino, todos
+9: con la MISMA escala en el eje Y (a diferencia de la Figura    ??, que usa escala libre por panel)
+9: para poder comparar directamente cuánto recibe cada país frente a los demás; la línea punteada
+9: marca el promedio anual propio de cada país. Permite ver qué países ganan o pierden peso como
+9: destino de la diplomacia bilateral de sus vecinos a lo largo del tiempo.
+9: 
+9: 
+9: 
+9: 
+9:                                                 9
+10: Figura 11: Cantidad de viajes BILATERALES recibidos por Cuba de mandatarios sudamerica-
+10: nos, por año (1994-2025). Cuba no es un país sudamericano -por eso queda fuera de la grilla de la
+10: Figura   ??- pero se incluye aparte por su peso simbólico/histórico como destino de la diplomacia
+10: sudamericana. La línea punteada marca el promedio anual del período.
+10: 
+10: 
+10: 
+10: 
+10: Figura 12: Prioridad regional de los viajes presidenciales, por período (bloques de 5 años). Eti-
+10: quetas de dato para América Latina y el Caribe, Europa y Norteamérica.
+10: 
+10: 
+10: 
+10: 
+10:                                                 10
+11:      Figura 13: Cantidad de viajes (barras) y duración promedio en días (línea), por año.
+11: 
+11: 
+11: 
+11: 
+11: Figura 14: Participación de Bilateral / Multilateral / Otro, por período (bloques de 5 años;
+11: mismo formato que la Figura   ??). Otro = sin reunión registrada con el antrión ni asistencia a
+11: un evento multilateral. Se excluyen los viajes sin dato suciente para clasicar la categoría (Sin
+11: dato, ver Datos y metodología) hasta resolver esa cobertura.
+11: 
+11: 
+11: 
+11: 
+11:                                                 11
+12: Figura 15: Cantidad absoluta de viajes por categoría (Bilateral/Multilateral/Otro), por año. Se
+12: excluyen los viajes de categoría Sin dato hasta resolver esa cobertura.
+12: 
+12: 
+12: 
+12: 
+12: Figura 16: Participación de viajes multilaterales por año, con hitos de multilateralismo regio-
+12: nal marcados como referencia: la Comunidad Sudamericana de Naciones y la ALBA (2004), la
+12: fundación de UNASUR (2008), la fundación de la CELAC (2011), la crisis/vaciamiento de UNA-
+12: SUR (desde 2018) y la fundación de PROSUR (2019) (cf. (      nolteSummitsPlainsCrisis2021;
+12: barrosCrisisSouthAmerican2021)).
+12: 
+12: 
+12: 
+12: 
+12:                                                12
+13:  Figura 17: Estacionalidad: mes de inicio de los viajes, todos los mandatarios y años juntos.
+13: 
+13: 
+13: 4.3. Comparación entre países
+13: 
+13:                       Cuadro 5: Destino favorito BILATERAL de cada mandato
+13:                       individual (país más visitado en viajes bilaterales durante ese
+13:                       mandato especíco), con el mandato entre paréntesis. Desem-
+13:                       pates: prioridad al país que alcanzó el conteo máximo primero
+13:                       en el tiempo.
+13: 
+13: 
+13: Pais        Mandatario..mandato.                            Destino.favorito..bilateral.   Cantidad.de.viajes
+13: Argentina   Carlos Saul Menem (1989-1995)                   Mexico                                         1
+13: Argentina   Carlos Saul Menem (1995-1999)                   Brazil                                         3
+13: Argentina   Fernando de la Rua (1999-2001)                  United States                                  2
+13: Argentina   Eduardo Duhalde (2002-2003)                     Brazil                                         2
+13: Argentina   Nestor Kirchner (2003-2007)                     Spain                                          4
+13: Argentina   Cristina Fernandez de Kirchner (2007-2011)      Venezuela                                      5
+13: Argentina   Cristina Fernandez de Kirchner (2011-2015)      Holy See                                       4
+13: Argentina   Mauricio Macri (2015-2019)                      Holy See                                       2
+13: Argentina   Alberto Fernandez (2019-2023)                   Spain                                          3
+13: Argentina   Javier Milei (2023-2025)                        Italy                                          4
+13: Bolivia     Gonzalo Sanchez de Lozada (1993-1997)           Argentina                                      3
+13: Bolivia     Hugo Banzer Suarez (1997-2001)                  Italy                                          1
+13: Bolivia     Gonzalo Sanchez de Lozada (2002-2003)           Brazil                                         2
+13: Bolivia     Carlos Mesa (2003-2005)                         Brazil                                         1
+13: Bolivia     Evo Morales (2006-2010)                         Venezuela                                      3
+13: Bolivia     Evo Morales (2010-2015)                         Venezuela                                      4
+13: Bolivia     Evo Morales (2015-2019)                         Cuba                                           3
+13: Bolivia     Luis Arce (2020-2025)                           Venezuela                                      2
+13: Brasil      Itamar Franco (1992-1995)                       Colombia                                       1
+13: Brasil      Fernando Henrique Cardoso (1995-1999)           United Kingdom                                 3
+13: 
+13: 
+13: 
+13: 
+13:                                               13
+14: Brasil     Fernando Henrique Cardoso (1999-2003)    Germany               3
+14: Brasil     Luiz Inacio Lula da Silva (2003-2007)    Guyana                3
+14: Brasil     Luiz Inacio Lula da Silva (2007-2011)    Venezuela             5
+14: Brasil     Dilma Rousse (2011-2015)                Argentina             4
+14: Brasil     Dilma Rousse (2015-2016)                Bolivia               2
+14: Brasil     Michel Temer (2016-2019)                 Paraguay              2
+14: Brasil     Jair Bolsonaro (2019-2023)               Israel                2
+14: Chile      Eduardo Frei Ruiz-Tagle (1994-2000)      Argentina             4
+14: Chile      Ricardo Lagos Escobar (2000-2006)        Argentina             4
+14: Chile      Michelle Bachelet (2006-2010)            Argentina             3
+14: Chile      Sebastian Pinera (2010-2014)             Argentina             3
+14: Chile      Michelle Bachelet (2014-2018)            Uruguay               2
+14: Chile      Sebastian Pinera (2018-2022)             Brazil                3
+14: Chile      Gabriel Boric (2022-2026)                Mexico                2
+14: Colombia   Cesar Gaviria Trujillo (1990-1994)       Japan                 1
+14: Colombia   Ernesto Samper Pizano (1994-1998)        France                1
+14: Colombia   Andres Pastrana Arango (1998-2002)       United States         4
+14: Colombia   Alvaro Uribe (2002-2006)                 United States         6
+14: Colombia   Alvaro Uribe (2006-2010)                 United States         4
+14: Colombia   Juan Manuel Santos (2010-2014)           Brazil                3
+14: Colombia   Juan Manuel Santos (2014-2018)           Spain                 4
+14: Colombia   Ivan Duque (2018-2022)                   Ecuador               4
+14: Colombia   Gustavo Petro (2022-2026)                Venezuela             5
+14: Ecuador    Sixto Duran-Ballen (1992-1996)           Japan                 1
+14: Ecuador    Abdala Bucaram (1996-1997)               Peru                  1
+14: Ecuador    Fabian Alarcon (1997-1998)               Peru                  1
+14: Ecuador    Jamil Mahuad (1998-2000)                 Peru                  2
+14: Ecuador    Gustavo Noboa (2000-2003)                Colombia              1
+14: Ecuador    Lucio Gutierrez (2003-2005)              United States         1
+14: Ecuador    Alfredo Palacio (2005-2007)              Colombia              1
+14: Ecuador    Rafael Correa (2007-2009)                Brazil                3
+14: Ecuador    Rafael Correa (2009-2013)                Colombia              3
+14: Ecuador    Rafael Correa (2013-2017)                Colombia              2
+14: Ecuador    Lenin Moreno (2017-2021)                 Colombia              2
+14: Ecuador    Guillermo Lasso (2021-2023)              Colombia              4
+14: Ecuador    Daniel Noboa (2023-2025)                 United States         2
+14: Ecuador    Daniel Noboa (2025-2025)                 Italy                 1
+14: Guyana     Cheddi Jagan (1992-1997)                 Colombia              1
+14: Guyana     Janet Jagan (1997-1999)                  Venezuela             1
+14: Guyana     Bharrat Jagdeo (1999-2001)               Jamaica               1
+14: Guyana     Bharrat Jagdeo (2001-2006)               United Kingdom        3
+14: Guyana     Bharrat Jagdeo (2006-2011)               Russia                2
+14: Guyana     Donald Ramotar (2011-2015)               Suriname              1
+14: Guyana     David Granger (2015-2020)                Trinidad and Tobago   1
+14: Guyana     Irfaan Ali (2020-2025)                   Barbados              2
+14: Paraguay   Juan Carlos Wasmosy (1993-1998)          Brazil                5
+14: Paraguay   Raul Cubas Grau (1998-1999)              Brazil                1
+14: Paraguay   Luis Angel Gonzalez Macchi (1999-2003)   Brazil                1
+14: Paraguay   Nicanor Duarte (2003-2008)               Taiwan                2
+14: Paraguay   Fernando Lugo (2008-2012)                Brazil                3
+14: Paraguay   Federico Franco (2012-2013)              Taiwan                1
+14: 
+14: 
+14: 
+14: 
+14:                                             14
+15: Paraguay    Horacio Cartes (2013-2018)              Argentina       4
+15: Paraguay    Mario Abdo Benitez (2018-2023)          Brazil          5
+15: Paraguay    Santiago Pena (2023-2025)               Argentina        3
+15: Peru        Alberto Fujimori (1990-1995)            Colombia        2
+15: Peru        Alberto Fujimori (1995-2000)            Brazil           6
+15: Peru        Alejandro Toledo (2001-2006)            Ecuador          2
+15: Peru        Alan Garcia (2006-2011)                 United States   4
+15: Peru        Ollanta Humala (2011-2016)              Spain            3
+15: Peru        Pedro Pablo Kuczynski (2016-2018)       China           1
+15: Peru        Martin Vizcarra (2018-2020)             Bolivia         2
+15: Peru        Pedro Castillo (2021-2022)              Chile           2
+15: Peru        Dina Boluarte (2022-2025)               Holy See         2
+15: Peru        Jose Jeri (2025-2026)                   Ecuador          1
+15: Surinam     Ronald Venetiaan (1991-1996)            Indonesia        1
+15: Surinam     Jules Wijdenbosch (1996-2000)           China            1
+15: Surinam     Ronald Venetiaan (2000-2010)            Netherlands     1
+15: Surinam     Desi Bouterse (2010-2015)               Guyana          1
+15: Surinam     Desi Bouterse (2015-2020)               Brazil          1
+15: Surinam     Chandrikapersad Santokhi (2020-2025)    Guyana           3
+15: Surinam     Jennifer Geerlings-Simons (2025-2025)   Netherlands     1
+15: Uruguay     Luis Alberto Lacalle (1990-1995)        Brazil          1
+15: Uruguay     Julio Maria Sanguinetti (1995-2000)     Egypt           2
+15: Uruguay     Jorge Batlle (2000-2005)                United States    2
+15: Uruguay     Tabare Vazquez (2005-2010)              Brazil          4
+15: Uruguay     Jose Mujica (2010-2015)                 Argentina        6
+15: Uruguay     Tabare Vazquez (2015-2020)              Argentina        3
+15: Uruguay     Luis Lacalle Pou (2020-2025)            Paraguay        2
+15: Uruguay     Yamandu Orsi (2025-2025)                Panama          1
+15: Venezuela   Rafael Caldera (1994-1999)              Brazil           2
+15: Venezuela   Hugo Chavez (1999-2000)                 China            2
+15: Venezuela   Hugo Chavez (2000-2007)                 Cuba            10
+15: Venezuela   Hugo Chavez (2007-2013)                 Cuba            22
+15: Venezuela   Nicolas Maduro (2013-2019)              Cuba            5
+15: Venezuela   Nicolas Maduro (2019-2025)              Russia          2
+15: 
+15: 
+15: 
+15: 
+15:                                                15
+16: Figura 18: País elegido como primer viaje al exterior del mandato, cuántas veces se repite
+16: cada uno (ver ( ostranderPresidentsAbroadPolitics2018), Tabla 1, para el equivalente en
+16: EE. UU.).
+16: 
+16: 
+16: 
+16: 
+16: Figura 19: En qué año cada mandatario eligió a Estados Unidos, Brasil o Argentina como su
+16: PRIMER destino -los 3 países más elegidos como primer destino en la Figura     ??-, 1994-2025. A
+16: diferencia de una versión anterior de esta gura (que gracaba todos los viajes a estos 3 países,
+16: sin relación directa con el primer destino), esta queda directamente conectada con la Figura   ??.
+16: 
+16: 
+16: 
+16:                                                16
+17: Figura 20: Porcentaje de TODOS los viajes (no sólo el primero) que van a un país con frontera terrestre, por p
+17: 
+17: 
+17: 
+17: 
+17: Cuadro 6: Correlación de Pearson entre el año (tiempo) y el % de viajes a un vecino fronterizo,
+17: 1994-2025 (una observación por año).
+17:         Variable                                                   r   p.valor   n_anios
+17:         Anio (tiempo) vs. % de viajes a un vecino fronterizo   -0.43     0.01         32
+17: 
+17: 
+17: 
+17: 
+17:                                               17
+18: Figura 21: Porcentaje de los viajes de cada año dirigidos a un país con frontera terrestre (los 12
+18: países de la base en conjunto), 1994-2025, con línea de tendencia lineal. Extiende la Figura   ??
+18: -que da un solo valor agregado para todo el período- a una serie temporal, para ver si el sesgo
+18: hacia el vecino inmediato crece, se mantiene o cae con el correr del tiempo.
+18: 
+18: 
+18: 
+18: 
+18:                                                18
+19:                                                                   Cuadro 7: Perl regional de cada MANDATO ind
+19:                                                                   centaje de sus viajes a cada bloque de destino. L
+19:                                                                   son mutuamente excluyentes y suman 100 % po
+19: 
+19: 
+19: Pais        Mandatario..mandato.                         Total.viajes   Sudamerica   Resto.Latam.y.Caribe     Esta
+19: Argentina   Carlos Saul Menem (1989-1995)                7              43 %         14 %                     14 %
+19: Argentina   Carlos Saul Menem (1995-1999)                77             29 %         10 %                     16 %
+19: Argentina   Fernando de la Rua (1999-2001)               35             46 %         11 %                     11 %
+19: Argentina   Eduardo Duhalde (2002-2003)                  17             47 %         18 %                     0%
+19: Argentina   Nestor Kirchner (2003-2007)                  59             61 %         5%                       12 %
+19: Argentina   Cristina Fernandez de Kirchner (2007-2011)   76             47 %         11 %                     8%
+19: Argentina   Cristina Fernandez de Kirchner (2011-2015)   48             50 %         10 %                     12 %
+19: Argentina   Mauricio Macri (2015-2019)                   57             35 %         0%                       14 %
+19: Argentina   Alberto Fernandez (2019-2023)                55             38 %         7%                       7%
+19: Argentina   Javier Milei (2023-2025)                     46             20 %         2%                       30 %
+19: Bolivia     Gonzalo Sanchez de Lozada (1993-1997)        34             53 %         3%                       18 %
+19: Bolivia     Hugo Banzer Suarez (1997-2001)               24             58 %         12 %                     12 %
+19: Bolivia     Jorge Quiroga Ramirez (2001-2002)            6              67 %         0%                       17 %
+19: Bolivia     Gonzalo Sanchez de Lozada (2002-2003)        12             58 %         17 %                     17 %
+19: Bolivia     Carlos Mesa (2003-2005)                      20             55 %         20 %                     5%
+19: Bolivia     Eduardo Rodriguez (2005-2006)                6              67 %         0%                       17 %
+19: Bolivia     Evo Morales (2006-2010)                      87             56 %         18 %                     8%
+19: Bolivia     Evo Morales (2010-2015)                      108            54 %         10 %                     8%
+19: Bolivia     Evo Morales (2015-2019)                      90             36 %         21 %                     11 %
+19: Bolivia     Luis Arce (2020-2025)                        49             55 %         22 %                     10 %
+19: Brasil      Itamar Franco (1992-1995)                    7              86 %         0%                       14 %
+19: Brasil      Fernando Henrique Cardoso (1995-1999)        60             45 %         2%                       8%
+19: Brasil      Fernando Henrique Cardoso (1999-2003)        74             36 %         15 %                     7%
+19: Brasil      Luiz Inacio Lula da Silva (2003-2007)        115            42 %         7%                       6%
+19: Brasil      Luiz Inacio Lula da Silva (2007-2011)        151            34 %         13 %                     5%
+19: Brasil      Dilma Rousse (2011-2015)                    66             38 %         8%                       8%
+19: Brasil      Dilma Rousse (2015-2016)                    21             38 %         14 %                     14 %
+19: Brasil      Michel Temer (2016-2019)                     26             35 %         8%                       12 %
+19: Brasil      Jair Bolsonaro (2019-2023)                   34             21 %         0%                       21 %
+19: Chile       Eduardo Frei Ruiz-Tagle (1994-2000)          64             41 %         8%                       8%
+19: Chile       Ricardo Lagos Escobar (2000-2006)            135            36 %         17 %                     7%
+19: Chile       Michelle Bachelet (2006-2010)                80             35 %         22 %                     9%
+19: Chile       Sebastian Pinera (2010-2014)                 64             39 %         8%                       9%
+19: Chile       Michelle Bachelet (2014-2018)                59             31 %         20 %                     12 %
+19: Chile       Sebastian Pinera (2018-2022)                 48             44 %         8%                       6%
+19: Chile       Gabriel Boric (2022-2026)                    53             40 %         9%                       13 %
+19: Colombia    Cesar Gaviria Trujillo (1990-1994)           2              50 %         0%                       0%
+19: Colombia    Ernesto Samper Pizano (1994-1998)            27             30 %         4%                       15 %
+19: Colombia    Andres Pastrana Arango (1998-2002)           53             26 %         17 %                     19 %
+19: Colombia    Alvaro Uribe (2002-2006)                     66             44 %         24 %                     17 %
+19: Colombia    Alvaro Uribe (2006-2010)                     71             39 %         30 %                     17 %
+19: Colombia    Juan Manuel Santos (2010-2014)               70             34 %         24 %                     11 %
+19: Colombia    Juan Manuel Santos (2014-2018)               81             22 %         19 %                     14 %
+19: Colombia    Ivan Duque (2018-2022)                       52             31 %         17 %                     19 %
+19: Colombia    Gustavo Petro (2022-2026)                    74             32 %         22 %                     12 %
+19: Ecuador     Sixto Duran-Ballen (1992-1996)               16             75 %         0%                       6%
+19: Ecuador     Abdala Bucaram (1996-1997)                   4              100 %        0%                       0%
+19: Ecuador     Fabian Alarcon (1997-1998)                   9              67 %         0%                       22 %
+19: Ecuador     Jamil Mahuad (1998-2000)                     21             43 %         19 %                     29 %
+19: Ecuador     Gustavo Noboa (2000-2003)                    31             45 %         13 %                     10 %
+19: Ecuador     Lucio Gutierrez (2003-2005)                  22             45 %         18 %                     23 %
+19: 
+19: 
+19: 
+19:                                                     19
+20: Ecuador     Alfredo Palacio (2005-2007)                  20    50 %    20 %   10 %
+20: Ecuador     Rafael Correa (2007-2009)                    54    50 %    22 %   4%
+20: Ecuador     Rafael Correa (2009-2013)                    77    53 %    17 %   3%
+20: Ecuador     Rafael Correa (2013-2017)                    59    39 %    19 %   7%
+20: Ecuador     Lenin Moreno (2017-2021)                     35    31 %    9%     23 %
+20: Ecuador     Guillermo Lasso (2021-2023)                  36    36 %    14 %   25 %
+20: Ecuador     Daniel Noboa (2023-2025)                     33    12 %    6%     33 %
+20: Ecuador     Daniel Noboa (2025-2025)                     15    27 %    0%     27 %
+20: Guyana      Cheddi Jagan (1992-1997)                     24    12 %    42 %   12 %
+20: Guyana      Janet Jagan (1997-1999)                      14    50 %    29 %   14 %
+20: Guyana      Bharrat Jagdeo (1999-2001)                   8     12 %    75 %   12 %
+20: Guyana      Bharrat Jagdeo (2001-2006)                   60    18 %    35 %   23 %
+20: Guyana      Bharrat Jagdeo (2006-2011)                   80    15 %    29 %   19 %
+20: Guyana      Donald Ramotar (2011-2015)                   34    35 %    38 %   12 %
+20: Guyana      David Granger (2015-2020)                    48    15 %    44 %   19 %
+20: Guyana      Irfaan Ali (2020-2025)                       52    12 %    35 %   23 %
+20: Paraguay    Juan Carlos Wasmosy (1993-1998)              57    65 %    7%     5%
+20: Paraguay    Raul Cubas Grau (1998-1999)                  4     100 %   0%     0%
+20: Paraguay    Luis Angel Gonzalez Macchi (1999-2003)       31    65 %    16 %   6%
+20: Paraguay    Nicanor Duarte (2003-2008)                   60    62 %    8%     7%
+20: Paraguay    Fernando Lugo (2008-2012)                    76    59 %    14 %   7%
+20: Paraguay    Federico Franco (2012-2013)                  6     0%      0%     50 %
+20: Paraguay    Horacio Cartes (2013-2018)                   70    51 %    9%     9%
+20: Paraguay    Mario Abdo Benitez (2018-2023)               59    56 %    8%     12 %
+20: Paraguay    Santiago Pena (2023-2025)                    62    32 %    11 %   15 %
+20: Peru        Alberto Fujimori (1990-1995)                 15    67 %    7%     7%
+20: Peru        Alberto Fujimori (1995-2000)                 77    39 %    9%     10 %
+20: Peru        Alberto Fujimori (2000-2000)                 3     33 %    0%     67 %
+20: Peru        Alejandro Toledo (2001-2006)                 62    42 %    8%     18 %
+20: Peru        Alan Garcia (2006-2011)                      41    51 %    7%     10 %
+20: Peru        Ollanta Humala (2011-2016)                   67    34 %    12 %   9%
+20: Peru        Pedro Pablo Kuczynski (2016-2018)            14    50 %    0%     14 %
+20: Peru        Martin Vizcarra (2018-2020)                  16    50 %    25 %   12 %
+20: Peru        Pedro Castillo (2021-2022)                   10    60 %    10 %   30 %
+20: Peru        Dina Boluarte (2022-2025)                    17    18 %    0%     24 %
+20: Peru        Jose Jeri (2025-2026)                        1     100 %   0%     0%
+20: Surinam     Ronald Venetiaan (1991-1996)                 7     14 %    14 %   43 %
+20: Surinam     Jules Wijdenbosch (1996-2000)                16    0%      81 %   6%
+20: Surinam     Ronald Venetiaan (2000-2010)                 33    18 %    58 %   6%
+20: Surinam     Desi Bouterse (2010-2015)                    33    48 %    36 %   6%
+20: Surinam     Desi Bouterse (2015-2020)                    6     33 %    50 %   0%
+20: Surinam     Chandrikapersad Santokhi (2020-2025)         45    20 %    36 %   16 %
+20: Surinam     Jennifer Geerlings-Simons (2025-2025)        3     33 %    0%     33 %
+20: Uruguay     Luis Alberto Lacalle (1990-1995)             4     50 %    0%     50 %
+20: Uruguay     Julio Maria Sanguinetti (1995-2000)          33    45 %    15 %   9%
+20: Uruguay     Jorge Batlle (2000-2005)                     56    45 %    20 %   20 %
+20: Uruguay     Tabare Vazquez (2005-2010)                   69    52 %    10 %   7%
+20: Uruguay     Jose Mujica (2010-2015)                      82    78 %    6%     2%
+20: Uruguay     Tabare Vazquez (2015-2020)                   41    49 %    10 %   10 %
+20: Uruguay     Luis Lacalle Pou (2020-2025)                 36    53 %    11 %   14 %
+20: Uruguay     Yamandu Orsi (2025-2025)                     14    36 %    14 %   7%
+20: Venezuela   Rafael Caldera (1994-1999)                   34    44 %    15 %   12 %
+20: Venezuela   Hugo Chavez (1999-2000)                      38    11 %    21 %   8%
+20: Venezuela   Hugo Chavez (2000-2007)                      169   40 %    18 %   5%
+20: Venezuela   Hugo Chavez (2007-2013)                      138   38 %    36 %   1%
+20: Venezuela   Nicolas Maduro (2013-2019)                   95    23 %    39 %   4%
+20: 
+20: 
+20: 
+20:                                                     20
+21: Venezuela   Nicolas Maduro (2019-2025)        28   4%   43 %   0%
+21: 
+21: 
+21: 
+21: 
+21:                                          21
+22: Figura 22: Los 20 destinos bilaterales más visitados (viajes con reunión registrada con el an-
+22: trión).
+22: 
+22: 
+22: 
+22: 
+22:           Figura 23: Evolución 1994-2025 de los viajes bilaterales a Brasil y Estados Unidos.
+22: 
+22: 
+22: 
+22: 
+22:                                                   22
+23: Figura 24: Los 20 destinos multilaterales más visitados (viajes con asistencia a un evento multi-
+23: lateral).
+23: 
+23: 
+23: 
+23: 
+23: Figura 25: Evolución 1994-2025 de los viajes multilaterales a Estados Unidos, Brasil y Argentina.
+23: 
+23: 
+23: 
+23: 
+23:                                                23
+24: Figura   26:   Cantidad    de   foros/cumbres   multilaterales   distintos,   por   período   (idea:
+24: (penaComplejaRedCumbres2005)).
+24: 
+24: 
+24: 
+24: 
+24: Figura 27: Composición Bilateral / Multilateral / Otro por país, con etiquetas de dato (análisis
+24: composicional; método: (  leeTravelAlliesAdversaries2024)).
+24: 
+24: 4.4. Viajes e ideología presidencial
+24:     Esta sección examina si la orientación ideológica de cada presidente se asocia con la propor-
+24: ción de sus viajes dirigidos a América Latina. Se utilizan las ocho dimensiones relevadas por la
+24: 
+24: 
+24: 
+24: 
+24:                                                 24
+25: encuesta a expertos de (      merkeForeignPolicyChange2020) (ideología general, política econó-
+25: mica, geopolítica, estilo diplomático, relación con Estados Unidos, soberanía/autonomía, modelo
+25: de desarrollo y reputación internacional), cada una en una escala de 1 a 7. La unidad de obser-
+25: vación es el mandato-tramo (un presidente reelegido aporta una observación por cada período,
+25: ya que su valor de ideología puede cambiar de un mandato a otro); se exigió un mínimo de 5
+25: viajes por tramo para evitar que porcentajes calculados sobre muestras muy chicas distorsionen
+25: la comparación.
+25: 
+25: 
+25: 
+25: Cuadro 8: Correlación de Pearson entre cada dimensión de ideología presidencial y el % de viajes
+25: intra-latinoamericanos, por mandato-tramo (1994-2025).
+25:                 Dimension                                   r_pearson    valor_p       n_mandatos
+25:                 Ideologia general (1=izq., 7=der.)               -0.12        0.29                 73
+25:                 Politica economica                               -0.13        0.26                 73
+25:                 Geopolitica                                      -0.14        0.25                 73
+25:                 Estilo diplomatico                               -0.02        0.88                 73
+25:                 Relacion con EE.UU.                              -0.10        0.38                 73
+25:                 Soberania / autonomia                             0.04        0.75                 73
+25:                 Modelo de desarrollo                             -0.10        0.40                 73
+25:                 Reputacion internacional                         -0.01        0.93                 73
+25: 
+25: 
+25: 
+25: 
+25: Figura    28:    Ideología    presidencial   general   (1    =   izquierda,   7   =    derecha)   vs. %   de      via-
+25: jes   intra-latinoamericanos,      un   punto   por    mandato-tramo.     Este    es    el   hallazgo   central    de
+25: (merkeForeignPolicyChange2020) -la ideología presidencial es la variable que más expli-
+25: ca el cambio de política exterior- puesto a prueba especícamente para el enfoque regional de los
+25: viajes.
+25: 
+25: 
+25: 
+25: 
+25:                                                         25
+26: Figura 29: Las ocho dimensiones de ideología presidencial vs. % de viajes intra-latinoamericanos.
+26: 
+26: 
+26: 
+26: 
+26: Figura 30: Las ocho dimensiones de ideología presidencial vs. % de viajes intra-latinoamericanos,
+26: restringido a mandato-tramos de ideología general BAJA (izquierda,       ≤ 3 en la escala 1-7).
+26: Compara con la Figura   ?? para ver si el patrón diere según el bloque ideológico.
+26: 
+26: 
+26: 
+26: 
+26:                                                26
+27: Figura 31: Las ocho dimensiones de ideología presidencial vs. % de viajes intra-latinoamericanos,
+27: restringido a mandato-tramos de ideología general ALTA (derecha, ≥ 5 en la escala 1-7).
+27: 
+27: 
+27: 
+27: 
+27: Figura 32: Las ocho dimensiones de ideología presidencial vs. % de viajes intra-latinoamericanos,
+27: restringido a mandato-tramos que se solapan con la ventana 2012-2022 (los últimos 10 años con
+27: dato de ideología disponible).
+27: 
+27: 
+27: 
+27: 
+27:                                                27
+28: Figura 33: Validación cruzada: dimensión relación con EE. UU. vs. % de viajes efectivamente
+28: dirigidos a Estados Unidos (a diferencia de las Figuras   ?? y ??, acá la variable dependiente no
+28: es el % intra-latinoamericano sino el % a Estados Unidos, la que en principio debería relacionarse
+28: más directamente con esta dimensión puntual).
+28: 
+28: 
+28: 
+28: 
+28: Cuadro 9: Correlación de Pearson entre la ideología general del presidente (1=izq., 7=der.) y el % de sus viajes
+28: 
+28:                      Destino           r_pearson     valor_p     n_mandatos
+28:                      Estados Unidos           0.54        0.00            73
+28:                      China                    0.03        0.78            73
+28:                      Europa                  -0.06        0.60            73
+28: 
+28: 
+28: 
+28: 
+28:                                                28
+29: Figura 34: Ideología presidencial general vs. % de viajes a Estados Unidos, China y Europa, un
+29: punto por mandato-tramo. A diferencia de la relación con el % intra-latinoamericano (Figura   ??),
+29: acá se compara la misma variable X (ideología general) contra tres destinos extra-regionales
+29: distintos.
+29: 
+29: 
+29: 
+29: 4.5. Homolia ideológica en los destinos
+29:    Esta subsección cambia la pregunta: en lugar de mirar la orientación regional agregada de
+29: los viajes, compara la ideología del presidente que viaja con la del presidente del país visitado
+29: (análisis diádico), restringido a viajes entre países sudamericanos con ambos lados identicados en
+29: la base de ideología. Se presentan dos versiones deliberadamente: una   sin controlar (el % crudo
+29: de viajes a la misma ideología) y una   controlando por la oferta -un índice observado/esperado
+29: que usa la composición ideológica real de los destinos disponibles en cada período de 5 años
+29: como referencia-. La distinción importa: en períodos donde la mayoría de los gobiernos de la
+29: región comparten un mismo bloque ideológico (ej. la marea rosa 2004-2015), ese bloque muestra
+29: automáticamente más viajes a la misma ideología solo porque hay más destinos de ese tipo
+29: disponibles, no necesariamente porque haya una preferencia real por visitar pares.
+29: 
+29: 
+29: 
+29: Cuadro 10: Índice de homolia ideológica (viajes observados a la misma ideología / viajes espe-
+29: rados bajo independencia estadística), por bloque, 1994-2025. Un valor > 1 indica más visitas
+29: propias de las esperadas por azar.
+29:              Bloque      Viajes_observados     Viajes_esperados     Indice_homolia
+29:              Izquierda                   397               260.80                1.52
+29:              Centro                      139               138.50                1.00
+29:              Derecha                     217               157.30                1.38
+29: 
+29: 
+29: 
+29: 
+29:                                                 29
+30: Figura 35: % de viajes a un presidente de la misma ideología, por bloque de origen y período,
+30: SIN controlar por la oferta ideológica disponible en cada momento.
+30: 
+30: 
+30: 
+30: 
+30: Figura 36: Índice de homolia (observado/esperado) por bloque de origen y período, CONTRO-
+30: LANDO por la composición ideológica real de los destinos disponibles en cada período de 5 años.
+30: La línea horizontal en 1 marca el nivel esperado por azar.
+30: 
+30: 
+30: 
+30: 
+30:                                               30
+31: Figura 37: Matriz de bloque ideológico del origen (la) vs. bloque ideológico del destino
+31: (columna), % de la, todo el período 1994-2025 en conjunto.
+31: 
+31: 
+31: 
+31: 
+31: 5.   Discusión
+31: 
+31: 
+31: 6.   Conclusión
+31: 
+31: 
+31: 
+31: 
+31:                                              31
+32: 
