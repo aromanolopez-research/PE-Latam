@@ -1487,3 +1487,96 @@ recuento manual de Cuadro 2 -diferencia de 2 filas, Brasil 49->50 y Venezuela
 parejos y consultables con el mismo query. Proximo paso: FASE 1, piloto de
 segunda pasada en un pais chico (Surinam o Peru) antes de comprometer esfuerzo
 en el resto.
+
+[2026-09-11] PAPER | Pivot completo hacia "Diplomacia Presidencial" (pedido de
+reunion con Federico Merke). 8 items acordados con el usuario tras ronda de
+preguntas de aclaracion (profundidad bibliografica, tratamiento Norte/Sur
+Global, alcance de ideologia, universo de diadas con Europa). (1) Bib/
+Diplomacia Presidencial/0_Resumen_y_Prioridad_Lectura.txt: 18 papers/libros
+curados via busqueda web dirigida (no base academica con paywall), priorizados
+Alta/Media/Baja, un posible duplicado marcado explicitamente (Cavari & Ables
+2019, ya en Bib/). (2) Titulo del paper y secciones Introduccion/Marco teorico
+reescritas de cero (antes placeholders), ancladas en Chavez (2023), Malamud
+(2005) y Ostrander & Rider (2018) -unicas citas usadas verificadas contra
+referencias.bib antes de citar, dado que ese .bib se autoexporta desde Zotero
+y no se edita a mano-. (3) Seccion Resultados reestructurada en 3 areas:
+"Situacion general de Sudamerica", "Situacion particular de los mandatarios"
+y "Mandatarios, ideologia, cercania y comercio" (esta ultima agrupa el sesgo
+al vecino inmediato, ideologia, homofilia y un placeholder de Comercio
+pendiente de que el usuario sume su base de comercio bilateral). (4) Nueva
+Seccion 21 en graficos_exploratorios.R: promedio anual de viajes por pais
+sudamericano, segmentado Bilateral/Multilateral (Cuadro + grafico de barras
+agrupado). (5) Nueva clasificacion Norte Global/Sur Global construida a mano
+pais por pais (RegionVisited/SubRegionVisited usan el esquema geografico de
+la ONU, no sirven para development-level): Norte = UE-27 + EEUU + Canada +
+Israel + Japon + Australia + Nueva Zelanda + Corea del Sur + Reino Unido +
+Noruega (los ultimos 3 sumados a pedido explicito del usuario); Sur = todo
+el resto, incluida TODA America Latina a proposito (la pregunta analitica es
+si Sudamerica sub-visita al resto del Sur Global). Nueva Seccion 20 con 3
+figuras (evolucion agregada %, evolucion en valores absolutos, panel especial
+Argentina/Brasil). (6) Seccion de Ideologia (18) y Homofilia (19) restringidas
+integramente a Visit_Category=="Bilateral": se elimino por completo la version
+"todas las categorias" que convivia en paralelo desde una sesion anterior (el
+usuario decidio que un viaje a una cumbre multilateral no refleja preferencia
+bilateral real), consolidando en una unica version bilateral definitiva y
+renombrando los archivos de salida (se les saco el sufijo "2"). (7) Nueva
+Seccion 22: diadas Sudamerica-Europa via el dataset "Identifying Ideologues"
+de Herre et al. (2023, github.com/bastianherre/global-leader-ideologies,
+panel pais-anio 1945-2020). El CSV completo (10993 filas) no pudo descargarse
+por herramienta propia -raw.githubusercontent.com bloqueado en el sandbox de
+bash, y web_fetch trunca el archivo a ~200 filas, lejos de cubrir Argentina o
+cualquier pais europeo-; el usuario lo descargo manualmente y lo coloco en
+Bib/Datasets/Herre/ (junto a los 2 PDF metodologicos), resolviendo el bloqueo.
+Se uso leader_ideology (lider "efectivo" segun Archigos, ej. el Presidente en
+sistemas semipresidenciales como Francia) y no hog_ideology (jefe de gobierno
+formal), por ser la contraparte mas comparable a un presidente sudamericano en
+una visita bilateral; unico ajuste de nombres necesario, "Czechia" (nuestra
+base) = "Czech Republic" (Herre). Se agrego el chi-cuadrado de independencia
+bloque-ideologico-origen x bloque-ideologico-destino (mismo patron ya usado en
+Seccion 19), con cuadro y matriz de calor nuevos, e integracion completa en el
+.Rnw (nueva subseccion "Ideologia en diadas con Europa" dentro del area de
+Mandatarios/ideologia/cercania/comercio, con nota al pie senalando que la cita
+a Herre et al. queda pendiente de sumarse a Zotero). Limitaciones documentadas
+explicitamente en el codigo y en el paper: cobertura de Herre solo hasta 2020
+(viajes posteriores quedan sin clasificar del lado europeo, se cuentan y
+reportan, no se descartan en silencio), sin cobertura para Ciudad del
+Vaticano/Monaco/Checoslovaquia, cruce por año calendario (no fecha exacta).
+NO se pudo correr R en este sandbox: los valores reales de chi2/p/n de
+22d_chi2_sudamerica_europa.csv quedan pendientes de ver hasta que el usuario
+compile el script. (8) Confirmado que Figura 25 (antes de la reestructuracion
+de items 3/5/6/7) correspondia a fig:foros-periodo; el usuario fue advertido
+de que TODA la numeracion de Figuras/Cuadros cambio de nuevo con estas
+adiciones. Verificacion final de esta sesion: labels de Figura/Cuadro sin
+duplicados, nombres de archivo R<->Rnw consistentes para las secciones 20/21/
+22, sin citas rotas (\citep a claves inexistentes) introducidas.
+
+[2026-09-11] PAPER | El usuario compilo el .Rnw y, al ver el Cuadro 13/matriz
+de la Seccion 22 (diadas Sudamerica-Europa, chi2=5.90, df=4, p=0.21), noto que
+las 3 filas de la matriz se parecian demasiado entre si y pidio confirmar que
+no fuera un error de calculo. Auditoria completa: se recalcularon a mano (en
+Python, fuera de R) la tabla de contingencia, los porcentajes de fila y el
+chi-cuadrado a partir de 22a_diadas_sudamerica_europa.csv -coinciden exacto
+con lo que muestra el PDF-; se descarto fan-out de join (0 TripID duplicados)
+y se confirmo que el mapeo leftist/rightist/centrist -> Izquierda/Derecha/
+Centro usa exactamente los mismos strings que trae el CSV crudo de Herre (sin
+problema de mayusculas/minusculas). Diagnostico: NO hay bug. El parecido entre
+filas es el patron esperable de un chi2 no significativo, y el motivo
+sustantivo es que Rusia (35 de los 433 viajes bilaterales a Europa, el pais
+mas visitado del bloque clasificado) esta codificada "rightist" en Herre para
+absolutamente TODO 1994-2020 (Yeltsin y Putin sin excepcion), por lo que
+cualquier viaje a Rusia suma a "Derecha" sin importar la ideologia del
+presidente sudamericano que lo hace; tambien se confirmo que "Centro" es raro
+en el cruce (9/343 = 2.6%) frente a la base de Herre para esos mismos paises
+en todos los anios (13.5%), porque los destinos mas visitados (Espana,
+Francia, Alemania, Rusia) rara vez fueron codificados "centrist" en los anios
+puntuales que se visitaron. A pedido del usuario, se agrego un chequeo de
+sensibilidad excluyendo Rusia (nuevo bloque en la Seccion 22 de
+graficos_exploratorios.R: 22e_tabla_contingencia_sudamerica_europa_sin_
+rusia.csv y 22f_chi2_sudamerica_europa_sin_rusia.csv), mas un nuevo
+Cuadro~\ref{tab:chi2-europa-sin-rusia} y parrafo en el .Rnw explicando el
+hallazgo. Recalculo independiente en Python (chi-cuadrado implementado a mano,
+sin scipy disponible en el sandbox) anticipa el resultado que dara R: n=312
+sin Rusia, chi2=6.53, df=4, p=0.16 -el resultado se sostiene sin Rusia, la
+ausencia de homofilia hacia Europa no es un artefacto de ese pais puntual-,
+pero el usuario debe recompilar para confirmar el valor exacto que efectivamente
+calcule R.

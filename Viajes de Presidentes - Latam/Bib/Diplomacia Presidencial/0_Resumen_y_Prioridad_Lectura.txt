@@ -1,0 +1,179 @@
+RESUMEN Y PRIORIDAD DE LECTURA - DIPLOMACIA PRESIDENCIAL
+==========================================================
+Preparado para reorientar "Viajes Presidenciales Sudamerica" hacia la
+literatura de Diplomacia Presidencial (reunion con Federico Merke, sept. 2026).
+
+Metodologia: busqueda dirigida via motor de busqueda web (no via base de datos
+academica con paywall). Todas las referencias fueron verificadas contra un
+titulo/URL real; donde el snippet no permitio confirmar autoria exacta se
+indica "VERIFICAR" para que la chequees vos al leer el articulo completo.
+No se descargaron PDFs (a pedido tuyo, solo lista curada). Se revisaron los
+~35 PDFs ya existentes en Bib/ para evitar duplicados; un caso de posible
+duplicado se marca explicitamente abajo.
+
+==========================================================
+ALTA PRIORIDAD (leer primero - marco teorico central)
+==========================================================
+
+1. Chavez, Tizoc B. (2023). "The Diplomatic Presidency: American Foreign
+   Policy from FDR to George H.W. Bush." University Press of Kansas.
+   Por que: define "diplomacia presidencial" como institucion consolidada
+   del Poder Ejecutivo moderno (EEUU), con un marco conceptual de por que
+   los presidentes empezaron a viajar personalmente y como varia ese
+   comportamiento. Es el candidato mas directo para anclar la introduccion
+   teorica del paper reorientado.
+   URL: https://kansaspress.ku.edu/9780700632862/
+
+2. Malamud, Andres (2005). "Presidentialism and Mercosur: A Hidden Cause
+   for a Successful Experience." En Regionalism Compared (ed. Laursen), o
+   Journal of European Integration History.
+   Por que: origen del concepto de "interpresidencialismo" -la combinacion
+   de presidencialismo domestico + diplomacia presidencial como motor de
+   la integracion sudamericana-. Conecta directamente el fenomeno que
+   medimos (viajes) con la explicacion teorica de por que Sudamerica se
+   integra por via presidencial y no institucional. Nota: ya tenemos
+   "Malamud (2010)/(2022).pdf" en Bib/; este texto de 2005 es anterior y
+   fundacional del concepto, no esta duplicado.
+   URL: https://www.researchgate.net/publication/228705770_Presidentialism_and_Mercosur_a_hidden_cause_for_a_successful_experience
+
+3. Autoria a confirmar (2024). "Political Leaders' Role in Latin American
+   Foreign Policy: A Systematic Review." Uluslararasi Iliskiler Dergisi.
+   Por que: revision sistematica reciente y especifica de la literatura
+   sobre presidentes/lideres y politica exterior en America Latina. Buen
+   punto de entrada para mapear el estado del arte completo del subcampo.
+   [VERIFICAR autor exacto al leer el articulo]
+   URL: https://dergipark.org.tr/en/pub/uidergisi/article/1675147
+
+4. Ostrander, Ian; Rider, Toby J. (2019 impreso / 2018 online). "Presidents
+   Abroad: The Politics of Personal Diplomacy." Political Research
+   Quarterly.
+   Ya esta en Bib/ ("Ostrander & Rider (2018).pdf") y ya la leiste para el
+   proyecto (ver bitacora), pero para esta reorientacion re-leela con foco
+   en su marco de "por que un presidente decide viajar" (agenda-setting,
+   distraccion domestica) -es el mecanismo causal que mas se cita en el
+   resto de la literatura nueva de abajo.
+
+5. Autoria a confirmar (2024). "When Populists Meet: Presidential Diplomacy
+   and Foreign Policy in Latin America." Global Discourse, 14(4): 445-462.
+   Por que: liga explicitamente diplomacia presidencial + populismo en
+   Sudamerica; relevante para casos como Bolsonaro, Milei, Chavez/Maduro en
+   nuestra base. [VERIFICAR autor exacto al leer el articulo]
+   URL: https://bristoluniversitypressdigital.com/view/journals/gd/14/4/article-p445.xml
+
+6. Autoria a confirmar. "Foreign Policy Change in Latin America: Exploring
+   a Middle-Range Concept." Latin American Research Review.
+   Por que: formaliza el "inter-presidencialismo" como concepto de rango
+   medio para explicar cambios de politica exterior en la region -nexo
+   directo con nuestra pregunta de investigacion-. [VERIFICAR autor]
+   URL: https://www.cambridge.org/core/journals/latin-american-research-review/article/foreign-policy-change-in-latin-america-exploring-a-middlerange-concept/9F2D61ECF1AD7CA809B0F3704D0F9FFF
+
+7. Autoria a confirmar (2025). "Presidents and Diplomacy: Ideology's Impact
+   on Brazil's International Forest Engagement." Third World Quarterly.
+   doi: 10.1080/01436597.2025.2560560
+   Por que: estudio de caso de ideologia + diplomacia presidencial en un
+   pais sudamericano (Brasil) -directamente relevante para nuestras
+   secciones 18/19 de ideologia y homofilia-. [VERIFICAR autor]
+
+==========================================================
+PRIORIDAD MEDIA (mecanismos y marco complementario)
+==========================================================
+
+8. Plischke, Elmer (1958). "Summit Diplomacy: Personal Diplomacy of the
+   President of the United States." International Affairs, 35(2): 268.
+   Texto fundacional del campo de "summit diplomacy"; cita obligada para
+   cualquier genealogia conceptual de diplomacia presidencial.
+   URL: https://academic.oup.com/ia/article-abstract/35/2/268/2690857
+
+9. Holmes, Marcus; Yarhi-Milo, Keren (2017). "The Psychological Logic of
+   Peace Summits: How Empathy Shapes Outcomes of Diplomatic Negotiations."
+   International Studies Quarterly, 61(1): 107-122.
+   Mecanismo psicologico de por que el encuentro cara a cara (bilateral)
+   puede importar mas que la sola asistencia a una cumbre multilateral;
+   util para justificar por que separamos Bilateral vs Multilateral.
+   URL: https://academic.oup.com/isq/article-abstract/61/1/107/2669534
+
+10. Holmes, Marcus (2013). "The Force of Face-to-Face Diplomacy: Mirror
+    Neurons and the Problem of Intentions." International Organization,
+    67(4).
+    Complementa el anterior; base neurocientifica del argumento de "por
+    que viajar en persona en vez de mandar un enviado".
+    URL: https://www.cambridge.org/core/journals/international-organization/article/abs/force-of-facetoface-diplomacy-mirror-neurons-and-the-problem-of-intentions/041311A8E4F21E80423AA9A3565A093D
+
+11. Ku, Michelle; Mitzen, Jennifer (2022). "The Dark Matter of World
+    Politics: System Trust, Summits, and State Personhood." International
+    Organization.
+    Marco constructivista de por que las cumbres multilaterales generan
+    "confianza sistemica" mas alla del vinculo bilateral -util para
+    justificar teoricamente la categoria Multilateral de nuestra base-.
+    URL: https://polisci.osu.edu/sites/default/files/2024-06/KuMitzen-DarkMatter-print-IO-2022.pdf
+
+12. Melissen, Jan (2003). "Summit Diplomacy Coming of Age." Discussion
+    Papers in Diplomacy, No. 86, Clingendael Institute.
+    Perspectiva historica/practica de la proliferacion de cumbres desde
+    los 90; conecta con nuestra Figura 25 (foros/cumbres distintos por
+    periodo, idea de Peña 2005).
+    URL: https://www.clingendael.org/sites/default/files/pdfs/20030500_cli_paper_dip_issue86.pdf
+
+13. Cohen, Jeffrey E. (2022). "Travel to and from the United States and
+    Foreign Leader Approval." Presidential Studies Quarterly.
+    Evidencia empirica de por que lideres extranjeros viajan a EEUU;
+    relevante para nuestro analisis de sesgo hacia potencias/EEUU.
+    URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/psq.12789
+
+14. POSIBLE DUPLICADO - VERIFICAR ANTES DE AGREGAR: Cavari, Amnon; Ables,
+    Micah (2019). "Going Global: Assessing Presidential Foreign Travel."
+    Congress & the Presidency, 46(2): 306-329.
+    Ya existe "Cavari & Ables (2019).pdf" en Bib/ -con altisima probabilidad
+    es este mismo articulo (mismos autores y año). Antes de descargarlo de
+    nuevo, abri el PDF que ya tenes y confirma el titulo.
+    URL: https://polisci.wisc.edu/wp-content/uploads/sites/1053/2017/04/Cavari-Assessing-Presidential-Travel.pdf
+
+==========================================================
+PRIORIDAD BAJA (referencia metodologica / comparativa, no central)
+==========================================================
+
+15. Goldsmith, Benjamin E.; Horiuchi, Yusaku; Matush, Kelly. "Does Public
+    Diplomacy Sway Domestic Public Opinion? Presidential Travel Abroad and
+    Approval at Home." International Studies Quarterly.
+    Costo domestico (caida de aprobacion) del viaje presidencial; matiza el
+    "por que viajar mas o menos" segun ciclo politico. No es sobre
+    Sudamerica pero es un mecanismo citable.
+    URL: https://academic.oup.com/isq/article-abstract/70/2/sqag024/8661926
+
+16. Yang, Hankyeul; Kuokstyte, Ringaile (2025). "Introducing the New
+    Diplomatic Visits with France Dataset, 1950-2020."
+    Comparacion metodologica: como otro equipo construyo un dataset de
+    visitas de lideres (Francia) bilaterales 1950-2020 (~2600 visitas). Util
+    solo para comparar decisiones metodologicas de codificacion, no para
+    contenido sustantivo sudamericano.
+    URL: https://journals.sagepub.com/doi/10.1177/07388942251388461
+
+17. "The Brothers Karamazov Go Abroad: A Dataset of Russian Leaders'
+    Foreign Visits." Review of International Organizations (2025).
+    Idem anterior pero caso ruso; comparacion metodologica de construccion
+    de dataset de viajes por lider.
+    URL: https://link.springer.com/article/10.1007/s11558-025-09584-5
+
+18. "Diplomat in Chief? Assessing the Influence of Presidential Evaluations
+    on Public Diplomacy Outcomes Among Foreign Publics."
+    Angulo de opinion publica sobre diplomacia presidencial; tangencial a
+    nuestro proyecto (no medimos opinion publica) pero puede servir para
+    una nota al pie sobre "para que sirve" viajar.
+    URL: https://www.researchgate.net/publication/258122793_Diplomat_in_Chief_Assessing_the_Influence_of_Presidential_Evaluations_on_Public_Diplomacy_Outcomes_Among_Foreign_Publics
+
+==========================================================
+NOTAS METODOLOGICAS
+==========================================================
+- Los items marcados "VERIFICAR" tienen titulo y URL confirmados pero el
+  snippet de busqueda no mostro el nombre completo del autor: confirmalo
+  al abrir el articulo antes de citarlo en el paper.
+- No se evaluo la calidad/impacto de las revistas mas alla de reconocer
+  journals establecidos (ISQ, IO, PSQ, LARR, etc.) o editoriales
+  universitarias (Kansas UP, Clingendael).
+- Quedan afuera de esta lista los papers ya presentes en Bib/ que ya
+  cumplen un rol de "diplomacia presidencial" pero fueron incorporados en
+  campañas anteriores del proyecto: Ostrander & Rider (2018), Malamud
+  (2010)/(2022), Nolte (2021), Cohen (2016), Koliev & Lundgren (2021),
+  Malis & Smith (2021), Cavari & Ables (2019) [ver duplicado marcado
+  arriba], Merke (2020, 2022, 2026), Moyer et al (2025) [paper que
+  introduce el dataset COLT que usamos como benchmark metodologico].
