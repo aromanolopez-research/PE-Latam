@@ -1,0 +1,32 @@
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj.user/
+
+# LaTeX / knitr build artifacts (mantenemos el .pdf final, no los intermedios)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*-concordance.tex
+
+# OS junk
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
