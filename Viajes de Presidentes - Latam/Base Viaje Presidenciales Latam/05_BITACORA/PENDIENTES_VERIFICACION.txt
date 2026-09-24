@@ -3022,3 +3022,50 @@ mandataria en funciones (Delcy Rodriguez, investigada hasta la fecha de corte). 
 Venezuela, se cierran los 12 de 12 paises sudamericanos del proyecto: LA CAMPAÑA DE
 VERIFICACION COLT-SUDAMERICA QUEDA COMPLETA.
 ================================================================================
+
+================================================================================
+[2026-09-24] ACTUALIZACION 2026 - LOTE 1: UNGA81 (11 de 12 paises)
+================================================================================
+Contexto: nueva tarea post-2da-pasada, "Actualizar los 12 paises con viajes de 2026
+a la actualidad" (Task #287), cubriendo el gap entre la ultima fecha cargada por
+pais (entre 2025-10-07 y 2026-08-25 segun el pais) y el presente (2026-09-24).
+
+[HALLAZGO] Se detectaron 4 transiciones de liderazgo con metadata ya cargada en
+mandatos_presidenciales.csv pero cobertura de viajes desigual: Chile (Kast, desde
+11/03/2026), Peru (Keiko Fujimori, desde 28/07/2026), Venezuela (Delcy Rodriguez,
+interina desde 05/01/2026) y Colombia (Abelardo de la Espriella, desde 07/08/2026).
+De estas, Peru y Bolivia (Rodrigo Paz Pereira, desde nov-2025) tenian CERO filas de
+viaje pese a llevar meses de mandato -el hueco real mas significativo-. Colombia
+es un caso aparte: De la Espriella cumple una promesa de campaña de no salir del
+pais, por lo que probablemente no generara filas de viaje propias mientras dure
+esa politica (confirmado via cobertura de UNGA81, donde envio al vicepresidente
+Jose Manuel Restrepo en su lugar).
+
+[TRABAJO REALIZADO] Se cargaron 11 filas nuevas (participacion en el Debate General
+de la 81a Asamblea General de la ONU, 22-28/09/2026, Nueva York), una por cada
+pais salvo Colombia: Surinam, Brasil, Chile, Peru, Ecuador, Argentina, Paraguay,
+Uruguay, Guyana, Bolivia, Venezuela. Fuente: articulos pais-por-pais de NODAL
+(categoria "81 Debate General Discursos"), cada uno con fecha exacta de discurso.
+LeaderIDs sinteticos asignados: 90008 (Keiko Fujimori), 90009 (Kast, tambien
+retro-aplicado a 3 filas previas que tenian el campo en blanco), 90010 (Rodrigo
+Paz Pereira). TripStartDate=TripEndDate=fecha de discurso (conservador); duracion
+real de cada viaje probablemente mayor pero no confirmada independientemente.
+Confidence(1-5)=2 en las 11 filas.
+
+[PENDIENTE - fuente Argentina] La fila PELATAM-ARG-464 (Milei, UNGA81, 23/09/2026)
+quedo con SourceLink1 como "Search Query" en lugar de URL directa: la herramienta
+de fetch web sufrio una caida temporal durante la sesion justo al intentar
+recuperar la nota especifica de NODAL para Argentina (fecha ya confirmada por
+WebSearch antes de la caida). Pendiente re-verificar y completar la URL exacta
+(patron esperado: https://www.nodal.am/2026/09/argentina-presidente-javier-milei-unga81/)
+en la proxima sesion.
+
+[PENDIENTE - gap-fill completo] Esta fue solo la PRIMERA pasada del gap 2026, que
+cubrio unicamente el evento UNGA81 (el mas facil de verificar por su cobertura
+pais-por-pais estandarizada). Falta investigar el resto del gap 2026 -otros viajes
+bilaterales/multilaterales entre la ultima fecha cargada de cada pais y el
+24/09/2026- pais por pais, en el mismo orden (Surinam, Peru, Bolivia, Guyana,
+Brasil, Colombia, Venezuela, Ecuador, Chile, Uruguay, Argentina, Paraguay).
+Para Colombia especificamente, evaluar si corresponde documentar explicitamente
+la politica de "no viajar" de De la Espriella como nota metodologica en lugar de
+buscar viajes que probablemente no existen.

@@ -1626,3 +1626,69 @@ Tags aplicados a Notes para las 3 filas con hallazgo.
 - SIN CONFIRMAR (1/5): Uribe AGNU 2005 (1746-COL-USA-38609) - no se halló la fecha exacta del discurso de la 60a sesión.
 - NO TRABAJADAS (45/50): mayoría de bilaterales sueltas con Ecuador, Panamá, Venezuela, El Salvador, Guatemala (series de visitas de Uribe a sus pares centroamericanos/vecinos) donde COLT ya señala "TripStartDate no explícito" sistemáticamente - patrón que sugiere que la mayoría de estas son de baja resolubilidad. Quedan para Fase 4 si se decide insistir.
 Tags aplicados a Notes para las 3 filas con hallazgo.
+
+[2026-09-24] SEGUNDA PASADA - FASE 2 (Venezuela, 49 filas no_verificable) | Misma estrategia; rendimiento bajo en esta tanda. Resultado sobre 4 filas exploradas:
+- REFORZADA sin cambio (1/4): 2179-VEN-RUS-45587 (BRICS Kazan 2024, confirmado oficialmente 22-24 oct vía kremlin.ru; nuestro rango 22-23 es compatible con el inicio).
+- DESCARTADAS por no aplicar (2/4): 2179-VEN-KAZ-42990 (Kazajistán sep-2017) - la Cumbre SCO de Astana fue en JUNIO 2017, no en septiembre, así que no corresponde a ese evento; no se identificó a qué evento real corresponde el viaje, se dejó sin tocar en vez de forzar una conexión incorrecta. 1383-VEN-NIC-39993 (Nicaragua jun-2009) - la ampliación del ALBA fue una cumbre EN Venezuela (Maracay, 24-jun-2009) con la asistencia de Ortega, no un viaje de Chávez a Nicaragua; no aplica.
+- DESCARTADA por fuente no confiable (1/4): la búsqueda sobre Cuba ago-sep 2003 devolvió resultados de tratamiento médico que no corresponden cronológicamente a Chávez (el cáncer de Chávez fue diagnosticado en 2011) - se descartó como posible error de motor de búsqueda/mezcla de personas, no se usó.
+- NO TRABAJADAS (45/49): la gran mayoría son bilaterales sueltas de Chávez con registros muy escuetos en COLT ("TripStartDate no explícito" repetido sistemáticamente) - patrón consistente con las fases previas de bajo rendimiento esperado.
+Nota metodológica: Venezuela tuvo el rendimiento más bajo de las fases trabajadas hasta ahora, posiblemente porque gran parte de la cobertura de prensa de la era Chávez está fragmentada o en archivos no indexados por buscadores estándar. Tag aplicado a Notes para la única fila con hallazgo.
+
+[2026-09-24] SEGUNDA PASADA - FASE 2 (Ecuador, 64 filas no_verificable) | Misma estrategia. Resultado sobre 3 filas trabajadas:
+- CONFIRMADA (1/3): 4051-ECU-ESP-45837 (TripStartDate, Daniel Noboa con Reyes de España en Sevilla 29-jun-2025 + IV Conferencia ONU sobre Financiamiento 30-jun, vía Primicias/El Universo).
+- REFORZADA sin cambio (1/3): 1499-ECU-USA-37516 (Gustavo Noboa, premio Roosevelt sobre Discapacidad confirmado 19-sep-2002, dentro del rango cargado).
+- DESCARTADA (1/3): 1340-ECU-USA-36055 (sep-1998, "keynote address to the Conference") - no se pudo identificar la conferencia específica ni confirmar a Fabián Alarcón en EEUU esa fecha.
+- NO TRABAJADAS (61/64): el lote de Ecuador tiene un patrón particular - una enorme cantidad de filas con Notes que ya dicen "Dates unclear/implied/Limited sources" directamente en el registro original de COLT (no solo en nuestra revisión), lo que sugiere que gran parte de esta cobertura viene de fuentes muy fragmentarias desde el origen. Se decidió no perseguir cada una dado el patrón observado en fases previas.
+Tags aplicados a Notes para las 2 filas con hallazgo.
+
+[2026-09-24] SEGUNDA PASADA - FASE 2 (Chile, 68 filas no_verificable) | Misma estrategia. Resultado sobre 4 filas trabajadas:
+- CONFIRMADAS (2/4): 2134-CHL-USA-38980 (TripStartDate/TripEndDate, primer discurso de Bachelet en AGNU 20-sep-2006, coincide exacto); 2556-CHL-PER-43748 (aclarado: la Declaración de Paracas 10-oct-2019 fue un encuentro BILATERAL Perú-Chile, no cumbre de Alianza del Pacífico -que es distinta, de 2015-, coincide con la fecha cargada).
+- REFORZADA sin cambio (1/4): 907-CHL-USA-34992 (Sesión conmemorativa 50º aniversario ONU confirmada 22-24 oct 1995, dentro de nuestro rango 20-27 oct).
+- INCONSISTENCIA DETECTADA (1/4): 2134-CHL-CRI-42398 - la Cumbre CELAC de enero 2016 fue en Quito, Ecuador, NO en Costa Rica; no se identificó ningún evento CELAC en Costa Rica en esa fecha. Revisar en Fase 4.
+- NO TRABAJADAS (64/68): mayoría de bilaterales sueltas y reconstrucciones de Fase 0. Patrón similar a fases previas.
+Tags aplicados a Notes para las 4 filas con hallazgo.
+
+[2026-09-24] SEGUNDA PASADA - FASE 2 (Uruguay, 69 filas no_verificable) | Misma estrategia; UNGA fue especialmente productiva para Uruguay (varios presidentes con discursos bien documentados en medios locales). Resultado sobre 5 filas trabajadas:
+- CONFIRMADA (1/5): 2552-URY-USA-41541 (TripStartDate, discurso de Mujica en la 68a AGNU 24-sep-2013, coincide exacto).
+- REFORZADAS sin cambio (2/5): 2029-URY-USA-42631 (Tabaré Vázquez, 71a AGNU 20-sep-2016, dentro del rango); 3698-URY-USA-44460 (Lacalle Pou, 76a AGNU 22-sep-2021, dentro del rango).
+- SIN CONFIRMAR (2/5): Jorge Batlle AGNU 2001 (1514-URY-USA-37137) y Lacalle Herrera AGNU 1994 (392-URY-USA-34604) - no se hallaron las fechas exactas de sus discursos pese a confirmarse que ambos períodos de sesiones estaban en curso.
+- NO TRABAJADAS (64/69): mayoría de bilaterales sueltas con Argentina, Brasil, Paraguay, Venezuela - Uruguay tiene un patrón particular de "Pendiente de decision" en casi todas las notas, sugiriendo que esta campaña original quedó con muchas filas sin resolver definitivamente en su momento; podría ser candidata a revisión más sistemática en Fase 4.
+Tags aplicados a Notes para las 3 filas con hallazgo.
+
+[2026-09-24] SEGUNDA PASADA - FASE 2 (Argentina, 75 filas no_verificable) | Misma estrategia; CFK tiene muy buena cobertura de sus discursos en la AGNU en medios argentinos, lo que la hizo especialmente productiva. Resultado sobre 5 filas trabajadas:
+- CONFIRMADAS (3/5): 2320-ARG-USA-39714 (TripStartDate, CFK AGNU 23-sep-2008, coincide exacto); 2320-ARG-PER-41183 (TripStartDate, III Cumbre ASPA Lima 1-2 oct 2012, coincide); 1473-ARG-CHE-36553 (Davos 2000, confirmado 27ene-3feb, nuestro rango cae completamente dentro).
+- CONFIRMADA adicional (1/5): 2320-ARG-USA-40443 (TripEndDate, CFK AGNU 24-sep-2010, coincide exacto).
+- REFORZADA sin cambio (1/5): 2320-ARG-USA-41176 (CFK AGNU 25-sep-2012, dentro del rango cargado).
+- NO TRABAJADAS (70/75): mayoría reconstrucciones de Fase 0 con "campo(s) X queda pendiente" - series muy largas de bilaterales de CFK/Milei con Brasil, Bolivia, Venezuela, Paraguay, Uruguay. Se decidió no perseguir cada una individualmente.
+Tags aplicados a Notes para las 5 filas con hallazgo. Nota: Argentina fue el país con mejor rendimiento relativo hasta ahora en la Fase 2, gracias a la excelente documentación de los discursos presidenciales en la ONU en medios y sitios oficiales.
+
+[2026-09-24] SEGUNDA PASADA - FASE 2 (Paraguay, 120 filas no_verificable) | Misma estrategia; lote más grande de todos. Resultado sobre 5 filas trabajadas:
+- REFORZADAS sin cambio (2/5): 1849-PRY-USA-38611 (Duarte Frutos AGNU 17-sep-2005, dentro del rango); 3481-PRY-USA-44823 (Abdo Benitez AGNU 20-sep-2022, dentro del rango).
+- SIN CONFIRMAR (3/5): Duarte Frutos AGNU 2003 (fecha exacta no hallada), Lugo AGNU 2009 (no hallado, solo referencia a un discurso en la Asamblea Parlamentaria de la ONU en octubre, evento distinto), Cartes AGNU 2018 (no se pudo pinpointar el día exacto).
+- NO TRABAJADAS (115/120): dado el tamaño del lote (120 filas, la mayoría con notas "Pendiente de decision" genéricas de una campaña anterior con revisión más superficial), se priorizaron solo las filas de AGNU por ser la categoría de mayor rendimiento observado en las fases previas. El resto queda para Fase 4 si se decide.
+Tags aplicados a Notes para las 2 filas con hallazgo.
+
+[2026-09-24] SEGUNDA PASADA - CIERRE FASE 2 (todos los países) | Con Paraguay se completa el recorrido país por país planificado (Surinam, Perú, Bolivia, Guyana, Brasil, Colombia, Venezuela, Ecuador, Chile, Uruguay, Argentina, Paraguay). Resumen agregado: se tocaron ~60 filas de las ~830 no_verificable totales (priorizando sistemáticamente las ligadas a cumbres/eventos con archivo oficial de organismo, según la lección del piloto de Surinam). Resultado: ~18 confirmaciones/correcciones duras, ~20 refuerzos sin cambio de valor, ~10 inconsistencias reales detectadas (candidatas de alto valor para Fase 4), resto sin avance. La AGNU (discursos presidenciales en el Debate General) resultó ser, de lejos, la categoría de mayor rendimiento en todos los países -mejor incluso que las cumbres regionales-, gracias a la cobertura sistemática de medios y archivos oficiales (UN Web TV, gadebate.un.org, medios nacionales). Recomendación para Fase 4: (1) revisar sistemáticamente todas las inconsistencias detectadas (fechas de COLT que no coinciden con la fecha oficial confirmada del evento), (2) si se decide extender la pasada a las ~770 filas restantes, priorizar por tipo de evento (AGNU > cumbres de organismos regionales > bilaterales sueltas) en vez de por país.
+
+[2026-09-24] ACTUALIZACION 2026: UNGA81 (81a Asamblea General de la ONU) - 11 de 12 paises | Inicio de la tarea "Actualizar los 12 paises con viajes de 2026 a la actualidad" (pais por pais, mismo orden que la 2da pasada: Surinam, Peru, Bolivia, Guyana, Brasil, Colombia, Venezuela, Ecuador, Chile, Uruguay, Argentina, Paraguay).
+
+HALLAZGO PREVIO - transiciones de liderazgo no reflejadas en la carga de viajes: durante la revision de agenda de UNGA81 (Debate General 22-28/09/2026) via NODAL se detecto que Chile (Jose Antonio Kast, desde 11/03/2026), Peru (Keiko Fujimori, desde 28/07/2026), Venezuela (Delcy Rodriguez, jefa interina desde 05/01/2026) y Colombia (Abelardo de la Espriella, desde 07/08/2026) tienen nuevos jefes de Estado/Gobierno. Cruce contra mandatos_presidenciales.csv confirmo que la metadata de las 4 transiciones YA estaba documentada (probablemente de una sesion previa a esta compactacion), pero el nivel de cobertura de VIAJES era desigual: Kast y Delcy Rodriguez ya tenian algunas filas 2026 cargadas (aunque Kast con LeaderID en blanco en 3 filas, corregido en esta sesion a 90009); Keiko Fujimori tenia CERO filas de viaje pese a llevar ya casi 2 meses de mandato; Abelardo de la Espriella tambien tenia cero filas, pero por una razon estructural: hizo campana prometiendo "no salir de Colombia" y esta cumpliendo la promesa -confirmado por multiples medios colombianos (Semana, El Tiempo, El Espectador, Infobae, El Pais Cali) respecto a UNGA81, donde delego la intervencion en el vicepresidente Jose Manuel Restrepo, quien viajo en vuelo comercial de Avianca-. Por lo tanto Colombia probablemente seguira sin viajes presidenciales propios mientras dure esta politica, lo cual es en si un hallazgo metodologico relevante (no un hueco de investigacion).
+
+TRABAJO REALIZADO: se agregaron 11 filas nuevas (formato PELATAM-{ISO3}-{n}, ausentes en COLT, con Notes documentando fuente) correspondientes a la participacion de cada presidente/a sudamericano en el Debate General de UNGA81, con fecha de discurso confirmada individualmente via los articulos pais-por-pais de NODAL (categoria "81 Debate General Discursos", cada uno con fecha exacta "En DD/MM/YYYY" y video embebido):
+- PELATAM-SUR-8: Jennifer Geerlings-Simons, 22/09/2026
+- PELATAM-BRA-359: Luiz Inacio Lula da Silva, 22/09/2026
+- PELATAM-CHL-326: Jose Antonio Kast (LeaderID 90009, sintetico), 22/09/2026
+- PELATAM-PER-6: Keiko Fujimori (LeaderID 90008, sintetico -primera fila de viaje jamas cargada para esta mandataria-), 22/09/2026
+- PELATAM-ECU-21: Daniel Noboa, 23/09/2026
+- PELATAM-ARG-464: Javier Milei, 23/09/2026 (URL de fuente pendiente de re-verificacion por caida temporal de la herramienta de busqueda web durante la sesion; fecha confirmada por WebSearch antes de la caida)
+- PELATAM-PRY-198: Santiago Pena, 23/09/2026
+- PELATAM-URY-171: Yamandu Orsi, 24/09/2026
+- PELATAM-GUY-11: Mohamed Irfaan Ali, 24/09/2026
+- PELATAM-BOL-13: Rodrigo Paz Pereira (LeaderID 90010, sintetico -primera fila de viaje jamas cargada para este mandatario, pese a que la Tarea #130 de una sesion previa registraba haber investigado su tramo nov-dic 2025 dentro del alcance original de COLT-), 24/09/2026
+- PELATAM-VEN-14: Delcy Rodriguez (jefa interina del gobierno), 24/09/2026
+
+No se agrego fila para Colombia (De la Espriella no viajo, envio al vicepresidente).
+
+LIMITACION METODOLOGICA: por conservadurismo, TripStartDate=TripEndDate=fecha de discurso confirmada (TripDuration=1); no se confirmo independientemente la duracion real de cada visita (probablemente mayor, dado que la semana de alto nivel de UNGA81 duro del 22 al 28/09), asi que estas 11 filas subestiman la duracion real del viaje. Confidence(1-5)=2 en las 11 filas, reflejando que la fuente unica (NODAL) es solida para la fecha del discurso pero no para fechas de llegada/salida.
+
+PENDIENTE: esta primera pasada cubrio solo el evento UNGA81 (el mas facil de verificar por pais). Falta el resto del gap-fill 2026 para cada uno de los 12 paises (otros viajes bilaterales/multilaterales entre la ultima fecha cargada y el 24/09/2026, fuera de UNGA), que se abordara en las proximas sesiones, pais por pais, en el mismo orden.
