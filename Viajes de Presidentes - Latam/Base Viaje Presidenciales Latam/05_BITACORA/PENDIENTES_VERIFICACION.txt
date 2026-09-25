@@ -3069,3 +3069,107 @@ Brasil, Colombia, Venezuela, Ecuador, Chile, Uruguay, Argentina, Paraguay).
 Para Colombia especificamente, evaluar si corresponde documentar explicitamente
 la politica de "no viajar" de De la Espriella como nota metodologica en lugar de
 buscar viajes que probablemente no existen.
+
+================================================================================
+[2026-09-24] ACTUALIZACION 2026 - LOTE 2: gap-fill jul-sep + huecos previos
+================================================================================
+Continuacion del Lote 1 (solo UNGA81). Se agregaron 24 filas nuevas y se
+corrigieron/reforzaron 3 filas del Lote 1, cubriendo el resto del gap 2026
+pais por pais. Ver detalle completo en bitacora.txt (misma fecha).
+
+[CIERRES CON HALLAZGO NEGATIVO GENUINO - alta confianza]
+- Surinam (26/07-21/09): sin viajes adicionales.
+- Peru (28/07-20/09): confirmado por multiples medios que UNGA fue el PRIMER
+  viaje internacional de Fujimori. Gap cerrado.
+- Brasil (01/07-21/09): consistente con año electoral (~4 viajes en todo 2026).
+
+[CIERRES TENTATIVOS - busqueda no exhaustiva, revisar si hay tiempo]
+- Chile (02/07-21/09) y Uruguay (01/07-23/09): sin hallazgos en una sola
+  ronda de busqueda; no se agotaron fuentes.
+- Ecuador (26/08-17/09): gap muy corto, no investigado en este lote (Ecuador
+  ya tenia la mejor cobertura previa de los 12 paises).
+
+[HALLAZGOS MAYORES - nuevas filas]
+- Bolivia (Rodrigo Paz): resulto ser el mandatario MAS activo de los 12 pese
+  a la aparente falta de cobertura previa. 3 viajes nuevos con confianza alta
+  (4/5) por cruce cruzado con Argentina/Uruguay/Brasil para los mismos
+  eventos (Mercosur-UE 17/01, Escudo de las Americas 07/03, Cumbre Mercosur
+  29/06). Ademas: controversia constitucional EN CURSO al 24/09/2026 por
+  ausencia prolongada en Nueva York (Art. 169 vs. Decreto 5515); el viaje
+  UNGA queda con fecha de cierre abierta. Gira a Europa anunciada pero NO
+  confirmada como ejecutada -no cargada-.
+- Colombia (Petro, tramo final nov-2025/ago-2026): 6 filas nuevas de un total
+  de ~65 viajes historicos de Petro, tramo que estaba en CERO antes de esta
+  sesion. Confianza dispar (alta para Panama/Washington/Chicago/Barcelona;
+  BAJA para Chile 06/02 y Nueva York 09/06, pendientes de fuente primaria).
+  Reconfirmado: De la Espriella (sucesor) no viaja por politica de campaña.
+- Venezuela (Delcy Rodriguez): 5 filas nuevas (Grenada, Barbados x2, Paises
+  Bajos, Surinam), completando 6 de los 7 paises que una fuente resumen le
+  atribuye para 2026. Falta precisar agenda de Paises Bajos (10/05).
+- Argentina: 3 filas nuevas (Brasil 25/07, Peru 28/07 -asuncion Fujimori-,
+  España 01-05/07 con fechas ESTIMADAS). Viaje futuro a Francia (30/09-02/10)
+  fuera de alcance temporal, no cargado.
+- Paraguay: 2 filas nuevas (Colombia 07/08 -asuncion De la Espriella-,
+  Venezuela 18-19/09 con fechas ESTIMADAS, agenda oficial aun no publicada
+  por la Presidencia paraguaya al momento de la fuente).
+
+[CORRECCIONES A FILAS DEL LOTE 1]
+- PELATAM-PER-6: rango de fechas corregido a 21-25/09 (autorizacion formal
+  del Senado), confianza subida a 3.
+- PELATAM-BOL-13: fecha de inicio corregida a 19/09 (arribo confirmado),
+  duracion y fecha de cierre documentadas como abiertas por la controversia
+  de ausencia prolongada.
+- PELATAM-ECU-21: rango de fechas corregido a 18-23/09 (Decreto Ejecutivo
+  499), confianza subida a 4.
+
+[PENDIENTES EXPLICITOS PARA PROXIMA SESION]
+1. Guyana: resolver ambiguedad de una posible visita a Republica Dominicana
+   (fuentes contradictorias sobre direccion del viaje, sin fecha clara).
+2. Colombia/Petro: fuente primaria para el viaje a Chile (06/02) y agenda
+   completa del viaje a Nueva York (09/06); verificar un posible viaje final
+   a EEUU antes del 07/08/2026 mencionado como "en tramite" a fines de julio.
+3. Bolivia: verificar si la gira a Europa anunciada llego a concretarse.
+4. Argentina: precisar fecha exacta del viaje "express" a España de julio.
+5. Paraguay: precisar fecha/agenda del viaje a Venezuela de septiembre.
+6. Chile y Uruguay: profundizar busqueda del gap jul-sep (no exhaustiva).
+7. Ecuador: investigar el gap corto 26/08-17/09.
+8. Venezuela: completar detalle de la agenda de la visita a Paises Bajos.
+9. Considerar dar a Bolivia/Petro-Colombia el tratamiento de "mini-campaña
+   COLT dedicada" (como se hizo con otros presidentes) en una sesion futura,
+   dado el volumen de huecos reales encontrados -mayor al esperado para un
+   simple "gap-fill 2026".
+
+================================================================================
+[2026-09-24] ACTUALIZACION 2026 - LOTE 3: cierre de pendientes (CIERRE TAREA #287)
+================================================================================
+8 de los 9 pendientes del Lote 2 quedaron resueltos. Resumen:
+- Guyana/RD: falso positivo descartado (era Abinader visitando Guyana, no al reves).
+- Colombia/Petro: NUEVO hallazgo -viaje a Caracas (24/04) con Delcy Rodriguez, 7
+  acuerdos-, y correccion de fecha del viaje a Chile (de "6 feb" a fines de abril,
+  justo despues de Caracas). Queda como UNICO PENDIENTE ABIERTO: precisar la
+  agenda del viaje a Nueva York (09/06) y confirmar si hubo un viaje final a
+  EEUU antes del 07/08/2026.
+- Bolivia/gira Europa: no confirmada como ejecutada, no se carga.
+- Argentina/España julio: era un DUPLICADO de PELATAM-ARG-463 (25-27/06); fila
+  espuria (PELATAM-ARG-467) eliminada.
+- Paraguay/Venezuela: confirmado con precision (19/09, Caracas, almuerzo con
+  Delcy Rodriguez, 2do jefe de Estado en visitarla tras la captura de Maduro).
+- Chile/Uruguay jul-sep: reforzado como hallazgo negativo (actividad de Kast en
+  Magallanes 24-28/08 fue domestica -ejercicio militar-, no viaje internacional).
+- Ecuador gap corto: hallazgo negativo confirmado (actividades del periodo
+  fueron domesticas, en Carondelet).
+- Venezuela/Paises Bajos: confirmado con precision (10-11/05, La Haya, audiencia
+  CIJ por el Esequibo).
+
+RECOMENDACION PARA PROXIMA SESION: dar a "Colombia/Petro tramo final (nov-2025
+a ago-2026)" el tratamiento de mini-campaña COLT dedicada (como con otros
+presidentes en su momento), dado que ya se identificaron 7 viajes reales para
+un tramo que estaba en CERO, y aun quedan cabos sueltos (Nueva York 09/06,
+posible viaje final pre-07/08).
+
+CIERRE: con este lote, la Tarea #287 ("Actualizar los 12 paises con viajes de
+2026 a la actualidad") se considera sustancialmente completa. Total agregado
+en toda la tarea: 31 filas nuevas, 6 correcciones/refuerzos, 1 duplicado
+detectado y eliminado. Los 12 paises tienen ahora su evento UNGA81 cargado y
+el gap jul-sep 2026 investigado (cerrado por hallazgo negativo en la mayoria,
+con hallazgos sustanciales en Bolivia, Colombia y Venezuela).
