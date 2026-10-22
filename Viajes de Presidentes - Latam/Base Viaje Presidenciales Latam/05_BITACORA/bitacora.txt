@@ -2601,3 +2601,64 @@ Japon (3), Libia, Mexico (6), Paises Bajos (2), Panama, Paraguay (5), Peru
 (7), Rusia (5), Corea del Sur, Espana (5), Surinam, Suecia, Suiza, EEUU (4),
 Uruguay (4), Venezuela (10), Cuba-Raul/Diaz-Canel (8). Retomar en la proxima
 sesion desde ese punto exacto.
+
+5TA PASADA - BOLIVIA: CIERRE FILAS CON CONTRAPARTE NOMBRADA (2026-10-05)
+Procesadas 130/130 filas Confidence=1 con HostHOGSName (lotes 2026-09-28 y 2026-10-05).
+Reglas: CONFIRMADO->Conf 4; REFORZADO->3; INCONSISTENCIA/Sin avance solo nota (sin corregir ni borrar).
+Inconsistencias documentadas (no corregidas): 341-BOL-ARG-32971, 2117-BOL-BRA-43060 (fecha real 5-dic-2017), 341-BOL-MEX-33662 (cumbre San Antonio, EEUU), 3766-BOL-VEN-44371 (posible ano 2022). Nota: 1245-BOL-USA-36775 confirmada pero en Nueva York (Cumbre del Milenio), revisar ciudad.
+Base: 5457 filas, 0 duplicados.
+
+5TA PASADA - ECUADOR: CIERRE FILAS CON CONTRAPARTE NOMBRADA (2026-10-09)
+Procesadas 67/67 filas Confidence=1 con HostHOGSName. Mayoria CONFIRMADO (Conf 4), algunas REFORZADO (3), sin avance (nota solamente).
+Inconsistencias documentadas (no corregidas): 1340-ECU-CHN-36401 (Mahuad en China: cronologia indica junio 1999, no agosto), 2223-ECU-NIC-39575 (visita Correa-Ortega fue 6-mar-2008, no 7-may).
+Observacion: Noboa-Macron Elíseo 16-may-2024 podria no estar registrado por separado.
+Base: 5457 filas, 0 duplicados.
+
+5TA PASADA - PARAGUAY: CIERRE FILAS CON CONTRAPARTE NOMBRADA (2026-10-09)
+Procesadas 92/92. Resultado: CONFIRMADO (conf 4) 48; REFORZADO (conf 3) 14; INCONSISTENCIA DETECTADA 4; Sin avance 26 (principalmente viajes de Andres Rodriguez 1990-91 y Wasmosy 1994-97 sin fuentes en linea).
+Inconsistencias (no corregidas): 4034-PRY-NOR-46000 (inicio 9-dic vs ceremonia Nobel Oslo 10-dic; reunion con Store no confirmada); 4034-PRY-TWN-45429 (llego 19-may-2024; anfitrion registrado Tsai, reunion con Lai/investidura 20-may); 4034-PRY-USA-45674 (Pena no se reunio con Trump en ene-2025; vio a Rubio); 844-PRY-URY-34496 (anfitrion John Major para destino Uruguay).
+Notas: varios VAT/TWN con 1-2 dias de diferencia documentados en el CONFIRMADO. Base: 5457 filas, 0 duplicados.
+
+5TA PASADA - CHILE: CIERRE FILAS CON CONTRAPARTE NOMBRADA (2026-10-09)
+Procesadas 260/260 filas Confidence=1 con HostHOGSName. Resultado por Confidence final: 150 en 4 (CONFIRMADO), 51 en 3 (REFORZADO), 59 sin cambio de confianza (Sin avance e INCONSISTENCIA DETECTADA; muchas del periodo Aylwin/Frei sin fuentes en linea).
+Inconsistencias documentadas (no corregidas) incluyen: 2134-CHL-ARG-40235, 2134-CHL-BRB-42940, 397-CHL-BRA-32946, 1516-CHL-COL-38463, 2134-CHL-ECU-38937, 907-CHL-JPN-34654, 2134-CHL-LCA-42941, 3909-CHL-URY-45792 (Boric a Uruguay 2025-05-15: solo constan 2025-02-03 y 2025-03-01), PELATAM-CHL-296 (Salamanca honoris causa: 2005-06-16 vs 2005-10-25).
+Notas: varias fechas con 1-4 dias de diferencia documentadas dentro del CONFIRMADO (p.ej. Aylwin-Bush 1990, Piñera-Obama 2013). Base: 5457 filas, 0 duplicados.
+
+[2026-10-10] 5TA PASADA (tarea #303) - COLOMBIA CERRADA: 245/245 filas con nota "5TA PASADA".
+Resultado: CONFIRMADO (conf 4) 131; REFORZADO (conf 3) 51; INCONSISTENCIA DETECTADA 9 (sin corregir; conteo por ultima nota puede diferir en 1); Sin avance 55.
+Inconsistencias (9, sin corregir): 1337-COL-ESP-36087, 1746-COL-GTM-39613, 1746-COL-GTM-40099, 1746-COL-HND-39887, 1746-COL-USA-39240 (Uribe jun-2007: reunion con Bush fue 2007-05-02), 2597-COL-ESP-42340, 2597-COL-PRT-41948, 2597-COL-USA-42271, 3960-COL-ARE-45698 (anfitrion Mohammed bin Rashid, no bin Zayed).
+Notas: diferencias de 1-4 dias documentadas dentro del CONFIRMADO. Base: 5457 filas, 0 duplicados. Pendientes: Argentina (262), Venezuela (309), Brasil (430).
+
+[2026-10-09] 5TA PASADA ARGENTINA CERRADA: 262 filas host-named verificadas (lotes a8-a16). Ultimo lote (16): 9 CONFIRMADO, 7 REFORZADO. Inconsistencias Argentina: CHL-39786 (Punta Arenas 2008), CHL-41301 (CELAC-UE host), 334-ARG-BRA-36454, 1689-ARG-ITA-37396, 1826-ARG-CHL-38513. Base 5457 filas, 0 duplicados. Pendiente: Venezuela (309), Brasil (430).
+
+[2026-10-20] 5TA PASADA VENEZUELA CERRADA: 309 filas host-named verificadas (lotes v1-v20). Resultado: CONFIRMADO (conf 4) 146; REFORZADO (conf 3) 65; INCONSISTENCIA DETECTADA 3 (sin corregir): 1383-VEN-CUB-40283, 1383-VEN-BOL-38862, 1383-VEN-CHN-36450; Sin avance 95. Notas: diferencias de 1-4 dias documentadas dentro del CONFIRMADO; filas de cumbre/inauguracion con "bilateral no confirmado". QA opcional: 1383-VEN-IRN-37184 (Sin avance) vs. gira de octubre 2001 que segun Cooperativa incluyo Iran. Base 5457 filas, 0 duplicados. Pendiente: Brasil (430).
+
+[2026-10-20] 5TA PASADA BRASIL CERRADA: 601 filas host-named verificadas (lotes b1-b28). Resultado (por ultima nota): CONFIRMADO (conf 4) 244; REFORZADO (conf 3) 248; INCONSISTENCIA DETECTADA 11 (sin corregir): 1780-BRA-BEN-39060, 994-BRA-CHL-37394, 994-BRA-CRI-36650, 25-BRA-DEU-20470, 994-BRA-PAN-37381, 1780-BRA-PRY-39192, 1780-BRA-ESP-37918, 1780-BRA-SUR-37794, 25-BRA-GBR-20465, 25-BRA-USA-20458, 1780-BRA-URY-40302; Sin avance 98 (entre ellos 1780-BRA-ZMB-40366, 401-BRA-ZWE-33491, PELATAM-BRA-349). Notas: diferencias de 1-4 dias documentadas dentro del CONFIRMADO; filas de cumbre/inauguracion con "bilateral no confirmado". Base 5457 filas, 0 duplicados. TAREA 5TA PASADA COMPLETA: no quedan filas Confidence=1 con anfitrion nombrado sin marcador en ningun pais.
+
+[2026-10-20] POST-5TA PASADA (opciones 1-3 pedidas por el usuario). (1) 52 inconsistencias revisadas: detalle y accion recomendada por fila en REVISION_INCONSISTENCIAS_2026-10-20.csv (no se modifico la base salvo 2 filas resueltas: 2029-URY-MEX-39620 y 3766-BOL-VEN-44371, subidas a conf 4). (3) 1383-VEN-IRN-37184: probable duplicado/erroneo (visita real 18-21 may-2001 en 1383-VEN-IRN-37029); anotado, sin cambio de confianza. (2) Reintento de filas "Sin avance": BRASIL completo (97 filas reintentadas, notas con prefijo "REINTENTO OPCION 2"): 12 nuevos CONFIRMADO (conf 4), 17 REFORZADO (conf 3), 7 nuevas INCONSISTENCIAS (anos/meses mal cargados), resto sigue sin evidencia. Pendiente: reintento en Argentina, Bolivia, Chile, Colombia, Ecuador, Paraguay, Suriname, Uruguay y Venezuela (~415 filas "Sin avance"). Rendimiento observado ~35%. Base 5457 filas, 0 duplicados.
+
+=== POST-5TA PASADA: OPCION 2 (reintento "Sin avance") - AVANCE 2026-10-20 ===
+Marca en Notes: [PE-Latam 2026-10-09 5TA PASADA: REINTENTO OPCION 2: ...]
+Resultados por pais (CONFIRMADO / REFORZADO / INCONSISTENCIA / Sin avance):
+  Argentina (45): 7 / 4 / 2 / 32   (completo)
+  Bolivia (33):  12 / 6 / 1 / 14   (completo)
+  Chile (34):     8 / 5 / 3 / 18   (completo)
+  Colombia (55):  9 / 7 / 2 / 37   (completo)
+  Brasil (~97):  12 / 17 / 7 / 59   (completo; 3 filas sin reintentar)
+  Ecuador (46): 5 / 7 / 6 / 19 + 9 filas pendientes (sin buscar por limite de busquedas por turno)
+Pendientes de reintento: Ecuador 9 (USA 36272/41214/43571, CUB 40745/41253, ESP 41751/44504, SWE 40120, VEN 40526), Paraguay 63, Suriname 7, Uruguay 37, Venezuela 94.
+Inconsistencias nuevas (solo anotadas, no corregidas): ECU-BEL-40116 (visita fue 26-nov-2009), ECU-BRA-36065 (Acta de Brasilia 26-oct-1998), ECU-COL-36998 (cumbre andina fue Valencia 23-jun-2001), ECU-PER-38895, ECU-PER-40338, ECU-PER-41243 (gabinete VI fue en Cuenca), CHL-ECU-43037 (asuncion Moreno 24-may-2017), CHL-HND-42938 (visita fue 22-23 ago-2017), CHL-PRY-34915 (no hubo cumbre Mercosur ago-1995), COL-ECU-40896, COL-ECU-44575, ARG-ESP-37179 (Congreso 25-oct-2000), ARG-URY-40784 (Mujica viajo a BA 2-ago-2011), BOL-VEN-45640.
+Rendimiento de los reintentos: ~35-45% (confirmado + reforzado).
+
+OPCION 2 - CIERRE 2026-10-20
+Reintento de "Sin avance" terminado para los 12 paises (Ecuador, Suriname, Uruguay, Paraguay y Venezuela completados en esta etapa).
+Venezuela (94): 10 CONFIRMADO / 13 REFORZADO / 2 INCONSISTENCIA / 69 sin avance (aprox., ver Notes con "REINTENTO OPCION 2").
+Nuevas inconsistencias (sin corregir): ECU-USA-43571, SUR-CHN-34470, URY-CHL-38665, URY-ECU-42268, URY-PRY-40529, URY-USA-34040, PRY-USA-41248, VEN-BRA-38624, 1383-VEN-URY-39059.
+Pendiente menor: 3 filas de Brasil no reintentadas.
+
+CORRECCIONES DE INCONSISTENCIAS APLICADAS 2026-10-20 (15 filas, certeza Alta/Media-alta, aprobadas por el usuario)
+9 fechas (fin = inicio + duracion original, no verificado): 994-BRA-CHL-37394, 994-BRA-CRI-36650, 994-BRA-PAN-37381, 2117-BOL-BRA-43060, 2134-CHL-LCA-42941, 2223-ECU-NIC-39575, 3698-URY-PRY-44763, 334-ARG-BRA-36454, 1780-BRA-URY-40302.
+4 hosts: 2320-ARG-CHL-41301, 3960-COL-ARE-45698, 448-PER-CHN-33337, 1689-ARG-ITA-37396.
+2 destinos: 1826-ARG-CHL-38513 (-> Argentina), 2029-URY-ARG-38777 (-> Chile, 2006-03-11).
+Valores originales conservados en Notes. Resto de REVISION_INCONSISTENCIAS sigue pendiente.
+Brasil opcion 2 cerrada: 1780-BRA-ZMB-40366 confirmado; 401-BRA-ZWE-33491 y PELATAM-BRA-349 sin avance.

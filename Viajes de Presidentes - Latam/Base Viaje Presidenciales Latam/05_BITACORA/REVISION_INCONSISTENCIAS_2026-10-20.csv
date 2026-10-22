@@ -1,0 +1,54 @@
+TripID,Pais,Tipo,Accion_recomendada,Valor_propuesto,Evidencia,Certeza
+2029-URY-MEX-39620,URY,Resuelta: fila valida,Mantener (subida a conf 4),,Vazquez visita de Estado a Mexico jun-2008 (MercoPress; El Siglo de Torreon),Alta
+3766-BOL-VEN-44371,BOL,Resuelta: fila valida,Mantener (subida a conf 4),,Arce en Caracas 24-jun-2021 (EFE/swissinfo),Alta
+994-BRA-CHL-37394,BRA,Corregir fecha,Start 2002-03-18,2002-03-18,Emol 16-mar-2002,Alta
+994-BRA-CRI-36650,BRA,Corregir fecha,Start 2000-04-04,2000-04-04,Fundacion FHC (discurso),Alta
+994-BRA-PAN-37381,BRA,Corregir fecha,Start 2002-03-05,2002-03-05,Agencia Brasil 1-mar-2002,Alta
+2117-BOL-BRA-43060,BOL,Corregir fecha,Start 2017-12-05,2017-12-05,Encuentro Temer-Morales realizado en Planalto tras dos postergaciones,Alta
+2134-CHL-LCA-42941,CHL,Corregir fecha,Start 2017-08-25,2017-08-25,Cancilleria Chile,Alta
+2223-ECU-NIC-39575,ECU,Corregir fecha,Start 2008-03-06,2008-03-06,Correa recibido por Ortega en Managua 6-mar-2008 (verificado en esta revision),Alta
+3698-URY-PRY-44763,URY,Corregir fecha,Start 2022-05-13 (13-15),2022-05-13,Decreto Presidencia Uruguay; La Nacion PY (verificado en esta revision),Alta
+334-ARG-BRA-36454,ARG,Corregir fecha,Start 1999-10-14,1999-10-14,Discurso de Cardoso en jantar a Menem Brasilia 14-oct-1999 (Fundacion FHC; verificado),Media-alta
+3733-SUR-BRB-45707,SUR,Corregir fecha/direccion,Revisar: Mottley visito Surinam 16-ene-2025 (fila es Santokhi a Barbados),,Fuentes en nota,Media
+1383-VEN-BOL-38862,VEN,Corregir fecha,Start ~2006-05-03,2006-05-03,Mail & Guardian (no verificado en esta revision),Media
+1780-BRA-URY-40302,BRA,Corregir fecha,Start 2010-03-01 (asuncion Mujica),2010-03-01,Jornal de Brasilia 28-feb-2010,Media-alta
+2320-ARG-CHL-41301,ARG,Corregir host,Host = Sebastian Pinera,Pinera,Cumbre CELAC-UE Santiago 26-27 ene 2013,Alta
+2597-COL-PRT-41948,COL,Corregir fecha,Start ~2014-11-06,2014-11-06,Gira europea nov-2014; sin confirmacion independiente de Lisboa,Media
+1337-COL-ESP-36087,COL,Fecha o posible inexistente,Revisar; visita oficial a Espana fue mar-1999,,Sin evidencia oct-1998,Media
+1746-COL-USA-39240,COL,Corregir host,Quitar a Bush como host (reunion fue 2007-05-02),,Uribe en Washington jun-2007 por TLC,Media
+3960-COL-ARE-45698,COL,Corregir host,Host = Mohammed bin Rashid Al Maktoum (Dubai 11-feb),Mohammed bin Rashid,WAM,Media-alta
+1383-VEN-CHN-36450,VEN,Corregir host,Cena en Hong Kong 17-oct-1999 ofrecida por Anson Chan; revisar host,,Fuente en nota,Media
+448-PER-CHN-33337,PER,Corregir host,Host = Yang Shangkun (jefe de Estado),Yang Shangkun,UPI abr-1991,Alta
+1689-ARG-ITA-37396,ARG,Corregir host,Host = Carlo Azeglio Ciampi,Ciampi,Pagina/12 2002,Alta
+448-PER-ARG-34687,PER,Direccion invertida,Reemplazar por viaje de Menem a Peru (9-nov-1994) o eliminar,,Fuentes en nota,Media
+448-PER-CHL-34256,PER,Direccion invertida,Reemplazar por viaje de Aylwin a Peru oct-1993 o eliminar,,Archivo UAH,Media
+2703-PER-FRA-42521,PER,Direccion invertida,Eliminar o verificar; Hollande visito Lima feb-2016,,Fuentes en nota,Media
+2552-URY-BRA-40526,URY,Direccion invertida,Eliminar o verificar; evento es Lula en asuncion de Mujica,,Fuentes en nota,Media
+191-URY-PRT-35992,URY,Direccion invertida o fecha,Verificar; Sanguinetti a Portugal oct-1998 (Cumbre Iberoamericana),,Fuentes en nota,Media
+3733-SUR-GUY-44606,SUR,Direccion invertida,Verificar; Ali visito Paramaribo ene-2022,,Fuentes en nota,Media
+191-URY-CHN-35540,URY,Host o fecha,Verificar; visita de Jiang a Montevideo fue abr-2001 con Batlle,,Fuentes en nota,Media
+1514-URY-BRA-37595,URY,Host,Host Lula invalido en dic-2002 (presidente electo); revisar,,Fuentes en nota,Media
+1826-ARG-CHL-38513,ARG,Destino incorrecto,CountryVisited deberia ser Argentina (Rio Gallegos),Argentina,MercoPress; Pagina/12,Alta
+2029-URY-ARG-38777,URY,Destino incorrecto,CountryVisited Chile (Valparaiso 2006-03-11 asuncion Bachelet),Chile / 2006-03-11,Fuentes en nota,Alta
+1780-BRA-ESP-37918,BRA,Destino o host,Oviedo visita no oficial; sin reunion con Aznar,,Fuentes en nota,Media
+1780-BRA-SUR-37794,BRA,Destino o fecha,Reunion con Venetiaan fue en Brasilia 2003-07-22; probablemente no es viaje,,Agencia Brasil,Media
+2320-ARG-CHL-39786,ARG,Viaje no realizado,Reclasificar a cancelado/anunciado o eliminar,,Anunciado dic-2008 sin evidencia,Media
+198-PER-JPN-40127,PER,Destino incorrecto,Reubicar en APEC Singapur 12-16 nov 2009,Singapur,diputados.gob.mx,Media-alta
+25-BRA-DEU-20470,BRA,Excluir por regla de mandato,Eliminar o marcar fuera de mandato (presidente electo),,Asumio 1956-01-31,Alta
+25-BRA-GBR-20465,BRA,Excluir por regla de mandato,Eliminar o marcar fuera de mandato,,Asumio 1956-01-31,Alta
+25-BRA-USA-20458,BRA,Excluir por regla de mandato,Eliminar o marcar fuera de mandato,,Asumio 1956-01-31,Alta
+1780-BRA-BEN-39060,BRA,Host imposible,Revisar viaje; Kerekou ya no era presidente,,Boni Yayi desde abr-2006,Alta
+1780-BRA-PRY-39192,BRA,Posible duplicado,Eliminar si 1780-BRA-PRY-39222 cubre la visita,,Visita real 20-21 may 2007,Media-alta
+341-BOL-ARG-32971,BOL,Posible fecha erronea,Revisar: visitas dic-1989 y jun-1990 (Salta),,Fuentes en nota,Media
+341-BOL-MEX-33662,BOL,Destino incorrecto,Cumbre antidrogas San Antonio (EEUU) 26-27 feb 1992,Estados Unidos,Fuentes en nota,Media
+3909-CHL-URY-45792,CHL,Posible inexistente,Eliminar; viajes reales 3-feb y 28-feb/1-mar 2025,,Verificado: sin viaje en mayo,Alta
+3822-ECU-USA-45124,ECU,Posible inexistente,Eliminar o verificar; sin evidencia jul-2023,,Verificado: sin evidencia,Media-alta
+1340-ECU-CHN-36401,ECU,Fecha o inexistente,Verificar; sin evidencia de visita de Estado en 1999,,Verificado: sin evidencia,Baja
+1746-COL-GTM-39613,COL,Posible inexistente,Verificar o eliminar,,Sin evidencia,Media
+1746-COL-GTM-40099,COL,Posible inexistente,Verificar o eliminar,,Sin evidencia,Media
+1746-COL-HND-39887,COL,Posible inexistente,Verificar o eliminar,,Sin evidencia,Media
+2597-COL-ESP-42340,COL,Posible inexistente,Verificar o eliminar,,Sin evidencia,Media
+1383-VEN-CUB-40283,VEN,Fecha o destino,Verificar; ALBA abr-2010 fue en Caracas,,Verificado: sin evidencia en La Habana,Media
+PELATAM-CHL-296,CHL,Fecha ambigua,Mantener 2005-10-25 (registro USAL); anuncio previo jun-2005,,Gredos USAL vs Cooperativa,Media
+907-CHL-JPN-34654,CHL,Fecha,Verificar; Frei en APEC Bogor 15-16 nov 1994; Japon posible 17-19,,Sin confirmacion,Baja
+1383-VEN-IRN-37184,VEN,Posible duplicado/erroneo,Eliminar o marcar duplicado (visita 2001 ya en 1383-VEN-IRN-37029 18-21 may),,es.wikipedia viajes de Chavez; AFP 22-oct-2001 corresponde a Moscu,Media-alta

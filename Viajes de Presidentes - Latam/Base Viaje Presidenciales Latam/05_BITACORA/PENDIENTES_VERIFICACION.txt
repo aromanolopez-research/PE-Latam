@@ -3257,3 +3257,38 @@ Colombia, Ecuador, Guyana, Paraguay, Peru, Suriname, Venezuela) es de
 ~850-900 filas, muy superior a la estimacion original de ~370. Se acordo
 reevaluar el enfoque de la 5ta pasada para esos paises antes de continuar
 (ver AskUserQuestion respondido: "Uruguay a fondo, luego reevaluar").
+
+## 5TA PASADA - CIERRE GLOBAL (2026-10-20)
+
+Universo: filas con Confidence=1 y HostHOGSName no vacio. Todos los paises
+cerrados (Peru, Bolivia, Ecuador, Paraguay, Chile, Colombia, Argentina,
+Uruguay, Guyana, Suriname, Venezuela y Brasil). Restantes: 0.
+
+Resultado por pais, segun ultima nota 5TA PASADA
+(CONFIRMADO conf 4 / REFORZADO conf 3 / INCONSISTENCIA / Sin avance / otros formatos de nota):
+- Argentina 165 / 182 / 5 / 45 / 0
+- Bolivia 72 / 250 / 4 / 33 / 0
+- Brasil 244 / 248 / 11 / 98 / 0
+- Chile 116 / 148 / 4 / 34 / 64
+- Colombia 131 / 218 / 8 / 55 / 0
+- Ecuador 55 / 59 / 3 / 46 / 0
+- Guyana 15 / 43 / 0 / 0 / 19
+- Peru 60 / 78 / 5 / 0 / 34
+- Paraguay 43 / 122 / 0 / 63 / 60
+- Suriname 6 / 52 / 2 / 7 / 0
+- Uruguay 82 / 148 / 7 / 37 / 0
+- Venezuela 146 / 249 / 3 / 95 / 0
+("otros formatos" = notas de cierres tempranos con redaccion distinta; no clasificadas automaticamente.)
+
+Pendiente de revision humana:
+- Inconsistencias (nota sin autocorreccion): Brasil 11, Argentina 5, Bolivia 4, Chile 4, Colombia 8, Ecuador 3, Peru 5, Suriname 2, Uruguay 7, Venezuela 3.
+- Filas "Sin avance" (Confidence=1 sin evidencia hallada): ver conteos arriba.
+- QA opcional: 1383-VEN-IRN-37184 (Sin avance) vs. gira de octubre 2001.
+- Filas en Confidence 3 (REFORZADO): candidatas a una eventual 6ta pasada con fuentes primarias.
+
+=== OPCION 2 (reintento "Sin avance") - ESTADO 2026-10-20 ===
+Completos: Argentina, Bolivia, Chile, Colombia, Brasil. Ecuador casi completo (9 filas pendientes).
+Quedan por reintentar: Paraguay (63), Suriname (7), Uruguay (37), Venezuela (94), mas las 9 de Ecuador.
+Las filas "Sin avance (reintento)" ya no se vuelven a buscar salvo con fuentes nuevas (archivo nacional, prensa local, memorias presidenciales).
+
+OPCION 2 CERRADA 2026-10-20: filas "REFORZADO" (Confianza 3) requieren verificar asistencia/fecha; filas "INCONSISTENCIA DETECTADA" requieren decision (ver REVISION_INCONSISTENCIAS_2026-10-20.csv). Brasil: 3 filas sin reintentar.
