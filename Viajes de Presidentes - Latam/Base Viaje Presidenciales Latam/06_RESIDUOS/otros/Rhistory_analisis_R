@@ -1,0 +1,385 @@
+# ================================================================================
+# GRAFICOS EXPLORATORIOS - VIAJES PRESIDENCIALES DE SUDAMERICA (1994-2025)
+# Fuente: 04_BASE_FINAL/Base_COLT_Sudamerica.xlsx, hoja "Datos_COLT_Sudamerica"
+# ================================================================================
+# Version 4 (2026-08-19) — ajustes pedidos sobre la version anterior:
+#   - Ventana temporal: 1994-2025 (se deja 2026 afuera a proposito: todavia
+#     no esta tan mapeado/verificado como el resto -> ANIO_HASTA mas abajo).
+#   - Nueva seccion 2 "Descriptivos generales" al principio del script, con
+#     una ficha resumen, totales por pais, totales por mandatario y la
+#     tabla de estadisticos descriptivos -todo tambien en imagen, no solo
+#     en CSV/consola-.
+#   - Se sacaron las lineas de tendencia suavizada (loess) de todos los
+#     graficos: quedan solo los datos, sin curva superpuesta.
+#   - Nuevo grafico combinado: cantidad total de viajes (barras) superpuesta
+#     con la duracion promedio (linea), por anio.
+#   - Se saco el boxplot de duracion por periodo (no aportaba mucho).
+#   - Se aclara en el titulo/subtitulo que significa la categoria "Otro" en
+#     los graficos de Bilateral/Multilateral/Otro.
+#   - Se saco la linea de tiempo de primeras visitas (tenia errores de
+#     lectura con tantos mandatarios superpuestos).
+#   - Se saco el grafico de duracion por "año de mandato" (no mostraba un
+#     patron claro y no aportaba demasiado).
+#   - El ranking de destinos mas visitados ahora esta dividido en dos
+#     graficos: uno para viajes bilaterales y otro para multilaterales.
+#
+# Preguntas originales (siguen respondidas):
+#   1) Evolucion general de la cantidad de viajes en el tiempo
+#   2) Que regiones se priorizan en cada epoca
+#   3) Cambios en la duracion de los viajes (+ combinado con cantidad de viajes)
+#   4-5) Bilateral vs. Multilateral vs. Otro: participacion y volumen en el tiempo
+#   6) Destinos preferidos por cada mandatario
+#   7) Primera visita de cada mandatario (a que pais)
+# Extensiones (inspiradas en la bibliografia del proyecto, carpeta /Bib):
+#   8) Estacionalidad: en que meses del año se concentran los viajes
+#   9) Ranking de destinos mas visitados, separado en bilaterales y multilaterales
+#
+# Como usar: abrir este archivo en RStudio con el working directory en la
+# carpeta que CONTIENE "Base Viaje Presidenciales Latam" (ver README.txt).
+# Cada grafico/tabla se guarda como PNG (y algunas tambien como CSV) en
+# 08_ANALISIS_R/outputs/.
+# ================================================================================
+## ---- 0. Setup ----------------------------------------------------------------
+paquetes <- c("readxl", "dplyr", "ggplot2", "lubridate", "scales", "forcats", "tidyr", "stringr", "gridExtra")
+faltantes <- paquetes[!paquetes %in% installed.packages()[, "Package"]]
+if (length(faltantes) > 0) install.packages(faltantes)
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+library(scales)
+library(forcats)
+library(tidyr)
+library(stringr)
+library(gridExtra)
+library(grid)
+RUTA_EXCEL   <- "Base Viaje Presidenciales Latam/04_BASE_FINAL/Base_COLT_Sudamerica.xlsx"
+RUTA_OUTPUTS <- "Base Viaje Presidenciales Latam/08_ANALISIS_R/outputs"
+dir.create(RUTA_OUTPUTS, showWarnings = FALSE, recursive = TRUE)
+ANIO_DESDE <- 1994
+ANIO_HASTA <- 2025  # 2026 se deja afuera a proposito: todavia no esta tan
+# mapeado/verificado como el resto de la base. Cuando se
+# complete, solo hay que subir este numero.
+# Los 12 paises sudamericanos de la planilla (no hace falta filtrar por
+# pais: el archivo ya esta recortado a Sudamerica). Se deja el vector solo
+# para las etiquetas en espaniol usadas en los graficos.
+etiquetas_es <- c(
+"Argentina" = "Argentina", "Bolivia" = "Bolivia", "Brazil" = "Brasil",
+"Chile" = "Chile", "Colombia" = "Colombia", "Ecuador" = "Ecuador",
+"Guyana" = "Guyana", "Paraguay" = "Paraguay", "Peru" = "Peru",
+"Suriname" = "Surinam", "Uruguay" = "Uruguay", "Venezuela" = "Venezuela"
+)
+# --------------------------------------------------------------------------
+# PALETA: solo blanco / negro / grises, como suele verse en papers
+# academicos impresos en blanco y negro. Se combina con linetype/shape
+# donde hace falta distinguir series sin depender del color.
+# --------------------------------------------------------------------------
+gris_9   <- "#111111"  # casi negro
+gris_7   <- "#404040"
+gris_6   <- "#595959"
+gris_5   <- "#737373"
+gris_4   <- "#8C8C8C"
+gris_3   <- "#A6A6A6"
+gris_2   <- "#BFBFBF"
+gris_1   <- "#D9D9D9"  # gris muy claro
+tema_paper <- function(base_size = 11) {
+theme_minimal(base_size = base_size, base_family = "") +
+theme(
+panel.grid.minor = element_blank(),
+panel.grid.major = element_line(color = gris_1, linewidth = 0.3),
+axis.line = element_line(color = gris_9, linewidth = 0.3),
+axis.ticks = element_line(color = gris_9, linewidth = 0.3),
+strip.background = element_rect(fill = gris_1, color = NA),
+strip.text = element_text(color = "black", face = "bold", size = rel(0.85)),
+plot.title = element_text(face = "bold", size = rel(1.05)),
+plot.subtitle = element_text(color = gris_6, size = rel(0.85)),
+plot.caption = element_text(color = gris_5, size = rel(0.7)),
+legend.position = "bottom",
+legend.title = element_text(size = rel(0.85)),
+panel.background = element_rect(fill = "white", color = NA),
+plot.background = element_rect(fill = "white", color = NA)
+)
+}
+theme_set(tema_paper())
+# Funcion reutilizable para guardar cualquier data.frame como imagen de
+# tabla (ademas del CSV), en blanco/negro/grises, sin depender de paquetes
+# externos de renderizado web (gt+webshot, etc.) que pueden no estar
+# instalados.
+guardar_tabla_imagen <- function(df, archivo, titulo = NULL, ancho = 9, alto = NULL) {
+if (is.null(alto)) alto <- 1.2 + 0.32 * (nrow(df) + 1)
+tema_tabla <- gridExtra::ttheme_minimal(
+core = list(bg_params = list(fill = rep(c("white", gris_1), length.out = nrow(df)), col = NA),
+fg_params = list(col = "black", fontsize = 10)),
+colhead = list(bg_params = list(fill = gris_7, col = NA),
+fg_params = list(col = "white", fontsize = 10, fontface = "bold"))
+)
+tabla_grob <- gridExtra::tableGrob(df, rows = NULL, theme = tema_tabla)
+if (!is.null(titulo)) {
+titulo_grob <- grid::textGrob(titulo, gp = grid::gpar(fontsize = 13, fontface = "bold"), x = 0, hjust = 0)
+tabla_grob <- gridExtra::arrangeGrob(titulo_grob, tabla_grob, ncol = 1, heights = grid::unit(c(0.5, 1), "null"))
+}
+png(file.path(RUTA_OUTPUTS, archivo), width = ancho, height = alto, units = "in", res = 150)
+grid::grid.draw(tabla_grob)
+dev.off()
+}
+## ---- 1. Carga y preparacion de datos ------------------------------------------
+colt_raw <- read_excel(RUTA_EXCEL, sheet = "Datos_COLT_Sudamerica")
+# ================================================================================
+# GRAFICOS EXPLORATORIOS - VIAJES PRESIDENCIALES DE SUDAMERICA (1994-2025)
+# Fuente: 04_BASE_FINAL/Base_COLT_Sudamerica.xlsx, hoja "Datos_COLT_Sudamerica"
+# ================================================================================
+# Version 4 (2026-08-19) — ajustes pedidos sobre la version anterior:
+#   - Ventana temporal: 1994-2025 (se deja 2026 afuera a proposito: todavia
+#     no esta tan mapeado/verificado como el resto -> ANIO_HASTA mas abajo).
+#   - Nueva seccion 2 "Descriptivos generales" al principio del script, con
+#     una ficha resumen, totales por pais, totales por mandatario y la
+#     tabla de estadisticos descriptivos -todo tambien en imagen, no solo
+#     en CSV/consola-.
+#   - Se sacaron las lineas de tendencia suavizada (loess) de todos los
+#     graficos: quedan solo los datos, sin curva superpuesta.
+#   - Nuevo grafico combinado: cantidad total de viajes (barras) superpuesta
+#     con la duracion promedio (linea), por anio.
+#   - Se saco el boxplot de duracion por periodo (no aportaba mucho).
+#   - Se aclara en el titulo/subtitulo que significa la categoria "Otro" en
+#     los graficos de Bilateral/Multilateral/Otro.
+#   - Se saco la linea de tiempo de primeras visitas (tenia errores de
+#     lectura con tantos mandatarios superpuestos).
+#   - Se saco el grafico de duracion por "año de mandato" (no mostraba un
+#     patron claro y no aportaba demasiado).
+#   - El ranking de destinos mas visitados ahora esta dividido en dos
+#     graficos: uno para viajes bilaterales y otro para multilaterales.
+#
+# Preguntas originales (siguen respondidas):
+#   1) Evolucion general de la cantidad de viajes en el tiempo
+#   2) Que regiones se priorizan en cada epoca
+#   3) Cambios en la duracion de los viajes (+ combinado con cantidad de viajes)
+#   4-5) Bilateral vs. Multilateral vs. Otro: participacion y volumen en el tiempo
+#   6) Destinos preferidos por cada mandatario
+#   7) Primera visita de cada mandatario (a que pais)
+# Extensiones (inspiradas en la bibliografia del proyecto, carpeta /Bib):
+#   8) Estacionalidad: en que meses del año se concentran los viajes
+#   9) Ranking de destinos mas visitados, separado en bilaterales y multilaterales
+#
+# Como usar: abrir este archivo en RStudio con el working directory en la
+# carpeta que CONTIENE "Base Viaje Presidenciales Latam" (ver README.txt).
+# Cada grafico/tabla se guarda como PNG (y algunas tambien como CSV) en
+# 08_ANALISIS_R/outputs/.
+# ================================================================================
+## ---- 0. Setup ----------------------------------------------------------------
+paquetes <- c("readxl", "dplyr", "ggplot2", "lubridate", "scales", "forcats", "tidyr", "stringr", "gridExtra")
+faltantes <- paquetes[!paquetes %in% installed.packages()[, "Package"]]
+if (length(faltantes) > 0) install.packages(faltantes)
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+library(scales)
+library(forcats)
+library(tidyr)
+library(stringr)
+library(gridExtra)
+library(grid)
+RUTA_EXCEL   <- "Base Viaje Presidenciales Latam/04_BASE_FINAL/Base_COLT_Sudamerica.xlsx"
+RUTA_OUTPUTS <- "Base Viaje Presidenciales Latam/08_ANALISIS_R/outputs"
+dir.create(RUTA_OUTPUTS, showWarnings = FALSE, recursive = TRUE)
+ANIO_DESDE <- 1994
+ANIO_HASTA <- 2025  # 2026 se deja afuera a proposito: todavia no esta tan
+# mapeado/verificado como el resto de la base. Cuando se
+# complete, solo hay que subir este numero.
+# Los 12 paises sudamericanos de la planilla (no hace falta filtrar por
+# pais: el archivo ya esta recortado a Sudamerica). Se deja el vector solo
+# para las etiquetas en espaniol usadas en los graficos.
+etiquetas_es <- c(
+"Argentina" = "Argentina", "Bolivia" = "Bolivia", "Brazil" = "Brasil",
+"Chile" = "Chile", "Colombia" = "Colombia", "Ecuador" = "Ecuador",
+"Guyana" = "Guyana", "Paraguay" = "Paraguay", "Peru" = "Peru",
+"Suriname" = "Surinam", "Uruguay" = "Uruguay", "Venezuela" = "Venezuela"
+)
+# --------------------------------------------------------------------------
+# PALETA: solo blanco / negro / grises, como suele verse en papers
+# academicos impresos en blanco y negro. Se combina con linetype/shape
+# donde hace falta distinguir series sin depender del color.
+# --------------------------------------------------------------------------
+gris_9   <- "#111111"  # casi negro
+gris_7   <- "#404040"
+gris_6   <- "#595959"
+gris_5   <- "#737373"
+gris_4   <- "#8C8C8C"
+gris_3   <- "#A6A6A6"
+gris_2   <- "#BFBFBF"
+gris_1   <- "#D9D9D9"  # gris muy claro
+tema_paper <- function(base_size = 11) {
+theme_minimal(base_size = base_size, base_family = "") +
+theme(
+panel.grid.minor = element_blank(),
+panel.grid.major = element_line(color = gris_1, linewidth = 0.3),
+axis.line = element_line(color = gris_9, linewidth = 0.3),
+axis.ticks = element_line(color = gris_9, linewidth = 0.3),
+strip.background = element_rect(fill = gris_1, color = NA),
+strip.text = element_text(color = "black", face = "bold", size = rel(0.85)),
+plot.title = element_text(face = "bold", size = rel(1.05)),
+plot.subtitle = element_text(color = gris_6, size = rel(0.85)),
+plot.caption = element_text(color = gris_5, size = rel(0.7)),
+legend.position = "bottom",
+legend.title = element_text(size = rel(0.85)),
+panel.background = element_rect(fill = "white", color = NA),
+plot.background = element_rect(fill = "white", color = NA)
+)
+}
+theme_set(tema_paper())
+# Funcion reutilizable para guardar cualquier data.frame como imagen de
+# tabla (ademas del CSV), en blanco/negro/grises, sin depender de paquetes
+# externos de renderizado web (gt+webshot, etc.) que pueden no estar
+# instalados.
+guardar_tabla_imagen <- function(df, archivo, titulo = NULL, ancho = 9, alto = NULL) {
+if (is.null(alto)) alto <- 1.2 + 0.32 * (nrow(df) + 1)
+tema_tabla <- gridExtra::ttheme_minimal(
+core = list(bg_params = list(fill = rep(c("white", gris_1), length.out = nrow(df)), col = NA),
+fg_params = list(col = "black", fontsize = 10)),
+colhead = list(bg_params = list(fill = gris_7, col = NA),
+fg_params = list(col = "white", fontsize = 10, fontface = "bold"))
+)
+tabla_grob <- gridExtra::tableGrob(df, rows = NULL, theme = tema_tabla)
+if (!is.null(titulo)) {
+titulo_grob <- grid::textGrob(titulo, gp = grid::gpar(fontsize = 13, fontface = "bold"), x = 0, hjust = 0)
+tabla_grob <- gridExtra::arrangeGrob(titulo_grob, tabla_grob, ncol = 1, heights = grid::unit(c(0.5, 1), "null"))
+}
+png(file.path(RUTA_OUTPUTS, archivo), width = ancho, height = alto, units = "in", res = 150)
+grid::grid.draw(tabla_grob)
+dev.off()
+}
+## ---- 1. Carga y preparacion de datos ------------------------------------------
+colt_raw <- read_excel(RUTA_EXCEL, sheet = "Datos_COLT_Sudamerica")
+library(readxl)
+Base_COLT_Sudamerica <- read_excel("C:/Users/alejo/OneDrive/Escritorio/PE Latam/Política Exterior Latam/Viajes de Presidentes - Latam/Base Viaje Presidenciales Latam/04_BASE_FINAL/Base_COLT_Sudamerica.xlsx",
+sheet = "Datos_COLT_Sudamerica")
+View(Base_COLT_Sudamerica)
+# ================================================================================
+# GRAFICOS EXPLORATORIOS - VIAJES PRESIDENCIALES DE SUDAMERICA (1994-2025)
+# Fuente: 04_BASE_FINAL/Base_COLT_Sudamerica.xlsx, hoja "Datos_COLT_Sudamerica"
+# ================================================================================
+# Version 4 (2026-08-19) — ajustes pedidos sobre la version anterior:
+#   - Ventana temporal: 1994-2025 (se deja 2026 afuera a proposito: todavia
+#     no esta tan mapeado/verificado como el resto -> ANIO_HASTA mas abajo).
+#   - Nueva seccion 2 "Descriptivos generales" al principio del script, con
+#     una ficha resumen, totales por pais, totales por mandatario y la
+#     tabla de estadisticos descriptivos -todo tambien en imagen, no solo
+#     en CSV/consola-.
+#   - Se sacaron las lineas de tendencia suavizada (loess) de todos los
+#     graficos: quedan solo los datos, sin curva superpuesta.
+#   - Nuevo grafico combinado: cantidad total de viajes (barras) superpuesta
+#     con la duracion promedio (linea), por anio.
+#   - Se saco el boxplot de duracion por periodo (no aportaba mucho).
+#   - Se aclara en el titulo/subtitulo que significa la categoria "Otro" en
+#     los graficos de Bilateral/Multilateral/Otro.
+#   - Se saco la linea de tiempo de primeras visitas (tenia errores de
+#     lectura con tantos mandatarios superpuestos).
+#   - Se saco el grafico de duracion por "año de mandato" (no mostraba un
+#     patron claro y no aportaba demasiado).
+#   - El ranking de destinos mas visitados ahora esta dividido en dos
+#     graficos: uno para viajes bilaterales y otro para multilaterales.
+#
+# Preguntas originales (siguen respondidas):
+#   1) Evolucion general de la cantidad de viajes en el tiempo
+#   2) Que regiones se priorizan en cada epoca
+#   3) Cambios en la duracion de los viajes (+ combinado con cantidad de viajes)
+#   4-5) Bilateral vs. Multilateral vs. Otro: participacion y volumen en el tiempo
+#   6) Destinos preferidos por cada mandatario
+#   7) Primera visita de cada mandatario (a que pais)
+# Extensiones (inspiradas en la bibliografia del proyecto, carpeta /Bib):
+#   8) Estacionalidad: en que meses del año se concentran los viajes
+#   9) Ranking de destinos mas visitados, separado en bilaterales y multilaterales
+#
+# Como usar: abrir este archivo en RStudio con el working directory en la
+# carpeta que CONTIENE "Base Viaje Presidenciales Latam" (ver README.txt).
+# Cada grafico/tabla se guarda como PNG (y algunas tambien como CSV) en
+# 08_ANALISIS_R/outputs/.
+# ================================================================================
+## ---- 0. Setup ----------------------------------------------------------------
+paquetes <- c("readxl", "dplyr", "ggplot2", "lubridate", "scales", "forcats", "tidyr", "stringr", "gridExtra")
+faltantes <- paquetes[!paquetes %in% installed.packages()[, "Package"]]
+if (length(faltantes) > 0) install.packages(faltantes)
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+library(scales)
+library(forcats)
+library(tidyr)
+library(stringr)
+library(gridExtra)
+library(grid)
+RUTA_EXCEL   <- "Base Viaje Presidenciales Latam/04_BASE_FINAL/Base_COLT_Sudamerica.xlsx"
+RUTA_OUTPUTS <- "Base Viaje Presidenciales Latam/08_ANALISIS_R/outputs"
+dir.create(RUTA_OUTPUTS, showWarnings = FALSE, recursive = TRUE)
+ANIO_DESDE <- 1994
+ANIO_HASTA <- 2025  # 2026 se deja afuera a proposito: todavia no esta tan
+# mapeado/verificado como el resto de la base. Cuando se
+# complete, solo hay que subir este numero.
+# Los 12 paises sudamericanos de la planilla (no hace falta filtrar por
+# pais: el archivo ya esta recortado a Sudamerica). Se deja el vector solo
+# para las etiquetas en espaniol usadas en los graficos.
+etiquetas_es <- c(
+"Argentina" = "Argentina", "Bolivia" = "Bolivia", "Brazil" = "Brasil",
+"Chile" = "Chile", "Colombia" = "Colombia", "Ecuador" = "Ecuador",
+"Guyana" = "Guyana", "Paraguay" = "Paraguay", "Peru" = "Peru",
+"Suriname" = "Surinam", "Uruguay" = "Uruguay", "Venezuela" = "Venezuela"
+)
+# --------------------------------------------------------------------------
+# PALETA: solo blanco / negro / grises, como suele verse en papers
+# academicos impresos en blanco y negro. Se combina con linetype/shape
+# donde hace falta distinguir series sin depender del color.
+# --------------------------------------------------------------------------
+gris_9   <- "#111111"  # casi negro
+gris_7   <- "#404040"
+gris_6   <- "#595959"
+gris_5   <- "#737373"
+gris_4   <- "#8C8C8C"
+gris_3   <- "#A6A6A6"
+gris_2   <- "#BFBFBF"
+gris_1   <- "#D9D9D9"  # gris muy claro
+tema_paper <- function(base_size = 11) {
+theme_minimal(base_size = base_size, base_family = "") +
+theme(
+panel.grid.minor = element_blank(),
+panel.grid.major = element_line(color = gris_1, linewidth = 0.3),
+axis.line = element_line(color = gris_9, linewidth = 0.3),
+axis.ticks = element_line(color = gris_9, linewidth = 0.3),
+strip.background = element_rect(fill = gris_1, color = NA),
+strip.text = element_text(color = "black", face = "bold", size = rel(0.85)),
+plot.title = element_text(face = "bold", size = rel(1.05)),
+plot.subtitle = element_text(color = gris_6, size = rel(0.85)),
+plot.caption = element_text(color = gris_5, size = rel(0.7)),
+legend.position = "bottom",
+legend.title = element_text(size = rel(0.85)),
+panel.background = element_rect(fill = "white", color = NA),
+plot.background = element_rect(fill = "white", color = NA)
+)
+}
+theme_set(tema_paper())
+# Funcion reutilizable para guardar cualquier data.frame como imagen de
+# tabla (ademas del CSV), en blanco/negro/grises, sin depender de paquetes
+# externos de renderizado web (gt+webshot, etc.) que pueden no estar
+# instalados.
+guardar_tabla_imagen <- function(df, archivo, titulo = NULL, ancho = 9, alto = NULL) {
+if (is.null(alto)) alto <- 1.2 + 0.32 * (nrow(df) + 1)
+tema_tabla <- gridExtra::ttheme_minimal(
+core = list(bg_params = list(fill = rep(c("white", gris_1), length.out = nrow(df)), col = NA),
+fg_params = list(col = "black", fontsize = 10)),
+colhead = list(bg_params = list(fill = gris_7, col = NA),
+fg_params = list(col = "white", fontsize = 10, fontface = "bold"))
+)
+tabla_grob <- gridExtra::tableGrob(df, rows = NULL, theme = tema_tabla)
+if (!is.null(titulo)) {
+titulo_grob <- grid::textGrob(titulo, gp = grid::gpar(fontsize = 13, fontface = "bold"), x = 0, hjust = 0)
+tabla_grob <- gridExtra::arrangeGrob(titulo_grob, tabla_grob, ncol = 1, heights = grid::unit(c(0.5, 1), "null"))
+}
+png(file.path(RUTA_OUTPUTS, archivo), width = ancho, height = alto, units = "in", res = 150)
+grid::grid.draw(tabla_grob)
+dev.off()
+}
+## ---- 1. Carga y preparacion de datos ------------------------------------------
+colt_raw <- read_excel(RUTA_EXCEL, sheet = "Datos_COLT_Sudamerica")
+RUTA_EXCEL   <- "Base Viaje Presidenciales Latam/04_BASE_FINAL/Base_COLT_Sudamerica.xlsx"
+RUTA_OUTPUTS <- "Base Viaje Presidenciales Latam/08_ANALISIS_R/outputs"
+dir.create(RUTA_OUTPUTS, showWarnings = FALSE, recursive = TRUE)

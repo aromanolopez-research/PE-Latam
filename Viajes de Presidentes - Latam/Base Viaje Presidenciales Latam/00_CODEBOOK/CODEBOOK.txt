@@ -4,7 +4,7 @@ CODEBOOK — VIAJES PRESIDENCIALES DE SUDAMÉRICA (1994–2025, luego 2026)
 Versión: 2.0 (rediseño del proyecto)
 Fecha: 2026-08-24
 Versión anterior: 1.4 (2026-07-07), esquema propio de 31 columnas por país.
-  Ver 05_BITACORA/archivo_historico/ para los documentos de esa etapa.
+  Ver 02_BITACORA/archivo_historico/ para los documentos de esa etapa.
 Formato de datos canónico: xlsx (archivo madre) con espejo interno en CSV
   para los scripts. UTF-8.
 
@@ -40,9 +40,9 @@ Esto implicó tres decisiones de arquitectura:
      analíticas con su propio esquema de micro-conducta (MetHostHoGS,
      AttendedMultilatEvent, etc.), y agregar columnas propias encima puede
      evaluarse más adelante, pero no es parte del flujo de carga-.
-  3. UN SOLO ARCHIVO: 04_BASE_FINAL/Base_COLT_Sudamerica.xlsx, hoja
+  3. UN SOLO ARCHIVO: 01_BASE_FINAL/Base_COLT_Sudamerica.xlsx, hoja
      "Datos_COLT_Sudamerica", es el ARCHIVO MADRE único. Ya no se arma un CSV
-     por país. Los 6 módulos de país que existían (03_MODULOS_PAIS/) quedan
+     por país. Los 6 módulos de país que existían (06_RESIDUOS/modulos_pais/) quedan
      congelados como legado/referencia -no se tocan, no se crean nuevos-.
 
 Lo que SIGUE IGUAL: la lógica de verificación (discrepancia -> corregir la
@@ -73,31 +73,30 @@ se actualiza esta sección y se registra en bitácora.txt.
 2. ESTRUCTURA DE CARPETAS
 --------------------------------------------------------------------------------
 00_CODEBOOK/                Este documento.
-03_MODULOS_PAIS/<pais>/     LEGADO. CSV de la etapa anterior (esquema propio
-                             de 31 columnas) para Argentina, Bolivia*, Brasil,
-                             Chile, Paraguay, Uruguay. *Bolivia nunca llegó a
-                             tener CSV real, quedó en checks sueltos. No se
-                             crean archivos nuevos acá; sirven de auditoría/
-                             trazabilidad de cómo se llegó a cada fila
-                             migrada al archivo madre.
-04_BASE_FINAL/               Base_COLT_Sudamerica.xlsx = ARCHIVO MADRE único
+01_BASE_FINAL/               Base_COLT_Sudamerica.xlsx = ARCHIVO MADRE único
                              (hoja "Datos_COLT_Sudamerica", 76 columnas, ver
                              sección 4; hoja "Viajes_Cancelados" para
                              cancelaciones formales; hoja "Leame").
-                             base_consolidada.csv es legado del esquema
-                             anterior -no se actualiza más-.
-05_BITACORA/                 bitacora.txt (registro cronológico),
+                             base_colt_sudamerica_trabajo.csv = espejo de trabajo.
+                             Base_Diadas_Vecinos.xlsx (solo Sudamérica),
+                             Base_Ideologia_Presidencial.xlsx y
+                             Mandatos_Presidenciales.xlsx (insumos del análisis en R).
+02_BITACORA/                 bitacora.txt (registro cronológico),
                              PENDIENTES_VERIFICACION.txt (brechas y
                              decisiones pendientes), anexos_colt_sudamerica/
                              (logs y JSONs de cada campaña de verificación),
                              archivo_historico/ (backups de carpetas
                              eliminadas).
-06_SCRIPTS/                   schema.py, validate.py, integrate.py (legado,
-                             sobre el esquema de 31 col.), colt_verificacion_
-                             triage.py, colt_aplicar_verificacion.py,
-                             colt_country_alias.py, migrar_nuestro_unico.py
-                             (migración puntual, no recurrente).
-08_ANALISIS_R/                Análisis exploratorio en R.
+03_SCRIPTS/                   Scripts activos: colt_aplicar_workpacks.py,
+                             colt_country_alias.py, colt_export_csv.py,
+                             colt_generar_workpacks.py, colt_importar_csv.py,
+                             colt_validar_madre.py.
+04_ANALISIS_R/                Análisis exploratorio en R.
+05_PAPER/                    Paper (.Rnw, .bib, PDF).
+06_RESIDUOS/                 Material ya no usado: modulos_pais/ (CSV por país del esquema
+                             anterior, auditoría), bases_y_backups/, scripts_legado/
+                             (schema.py, validate.py, integrate.py, build_*, etc.),
+                             paper_archivos_auxiliares/, otros/.
 
 --------------------------------------------------------------------------------
 3. UNIDAD DE OBSERVACIÓN
@@ -151,7 +150,7 @@ IDENTIFICACIÓN DEL VIAJE Y DEL MANDATARIO
 DESTINO DEL VIAJE
   CountryVisited       País de destino, EN INGLÉS, vocabulario propio de
                        COLT (ej. "Holy See" no "Vatican City", "Turkiye" no
-                       "Turkey" -ver 06_SCRIPTS/colt_country_alias.py para
+                       "Turkey" -ver 03_SCRIPTS/colt_country_alias.py para
                        la lista completa de alias detectados-).
   CountryVisitedISO    ISO3 del país de destino.
   RegionVisited / SubRegionVisited  Región/subregión de COLT para el destino.
@@ -282,7 +281,7 @@ siempre sobre Datos_COLT_Sudamerica desde el principio-.
 --------------------------------------------------------------------------------
   schema.py, validate.py, integrate.py     LEGADO -operan sobre el esquema
                                             propio de 31 columnas y los CSV
-                                            de 03_MODULOS_PAIS-. Se mantienen
+                                            de 06_RESIDUOS/modulos_pais-. Se mantienen
                                             solo para no perder capacidad de
                                             auditar el trabajo histórico, no
                                             para carga nueva.
@@ -295,7 +294,7 @@ siempre sobre Datos_COLT_Sudamerica desde el principio-.
                                             auditar cómo se migró cada país.
   colt_export_csv.py                       PASO 1 de toda campaña: exporta
                                             Datos_COLT_Sudamerica ->
-                                            04_BASE_FINAL/base_colt_sudamerica_
+                                            01_BASE_FINAL/base_colt_sudamerica_
                                             trabajo.csv (csv de trabajo).
   colt_generar_workpacks.py <pais_colt>    PASO 2: arma workpacks por
                                             LeaderID desde el csv de trabajo
@@ -344,7 +343,7 @@ siempre sobre Datos_COLT_Sudamerica desde el principio-.
     único, para poder producir una base consolidada y comparable de los 12
     países de Sudamérica con vistas a un paper académico.
   - 2026-08-24: se eliminan 01_INSTRUCCIONES, 02_TABLA_MAESTRA y
-    07_ARCHIVO_TRABAJO_PREVIO (backup en 05_BITACORA/archivo_historico/).
+    07_ARCHIVO_TRABAJO_PREVIO (backup en 02_BITACORA/archivo_historico/).
   - Decisiones de la etapa anterior (Visit_Category/Visit_Subtype/
     Tema_Foro/Counterpart_Type, Journey_ID, Sideline_Bilaterals, etc.)
     quedan documentadas en el historial de versiones de este archivo (ver

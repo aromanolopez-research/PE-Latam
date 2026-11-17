@@ -14,9 +14,9 @@ QUÉ ES
 
 REDISEÑO 2026-08-24 (leer si venís de una versión anterior del proyecto)
   El proyecto originalmente mantenía un esquema propio de 31 columnas por
-  país (03_MODULOS_PAIS/<pais>/<pais>_viajes.csv) más un Excel de COLT
+  país (06_RESIDUOS/modulos_pais/<pais>/<pais>_viajes.csv) más un Excel de COLT
   aparte. Esto cambió: ahora hay UN SOLO archivo madre
-  (04_BASE_FINAL/Base_COLT_Sudamerica.xlsx, hoja "Datos_COLT_Sudamerica"),
+  (01_BASE_FINAL/Base_COLT_Sudamerica.xlsx, hoja "Datos_COLT_Sudamerica"),
   con el esquema NATIVO de COLT (76 columnas), donde se corrige y se agrega
   todo. Las columnas propias que se habían inventado (Visit_Category,
   Visit_Subtype, Tema_Foro, Counterpart_Type, Journey_ID, Verificacion_Status)
@@ -24,24 +24,34 @@ REDISEÑO 2026-08-24 (leer si venís de una versión anterior del proyecto)
   dimensiones con su propio esquema (MetHostHoGS, AttendedMultilatEvent,
   etc.)-. Las carpetas 01_INSTRUCCIONES, 02_TABLA_MAESTRA y
   07_ARCHIVO_TRABAJO_PREVIO se eliminaron (respaldo en
-  05_BITACORA/archivo_historico/backup_pre_rediseno_2026-08-24.zip).
+  02_BITACORA/archivo_historico/backup_pre_rediseno_2026-08-24.zip).
 
-CÓMO ESTÁ ORGANIZADO
-  00_CODEBOOK/             -> LEER PRIMERO. Define variables, reglas y flujo.
-  03_MODULOS_PAIS/         -> LEGADO, de solo lectura. CSV por país (Argentina,
-                               Brasil, Chile, Paraguay, Uruguay, Bolivia) de la
-                               etapa anterior al rediseño. No se crean archivos
-                               nuevos acá; sirven de referencia/auditoría.
-  04_BASE_FINAL/           -> Base_COLT_Sudamerica.xlsx es el ARCHIVO MADRE
-                               único (hoja Datos_COLT_Sudamerica). Trabajar
-                               siempre ahí. base_consolidada.csv es legado del
-                               esquema anterior (ver Codebook antes de usarlo).
-  05_BITACORA/             -> bitacora.txt (registro del trabajo),
-                               PENDIENTES_VERIFICACION.txt, anexos_colt_sudamerica/
-                               (logs de cada campaña), archivo_historico/ (backups).
-  06_SCRIPTS/               -> schema.py, validate.py, integrate.py, y el
-                               pipeline de verificación/carga contra COLT.
-  08_ANALISIS_R/            -> análisis exploratorio en R sobre la base.
+CÓMO ESTÁ ORGANIZADO (reordenado 2026-11-15: numeración consecutiva)
+  00_CODEBOOK/     -> LEER PRIMERO. Define variables, reglas y flujo.
+  01_BASE_FINAL/   -> BASES DEFINITIVAS (solo esto):
+                        Base_COLT_Sudamerica.xlsx  = ARCHIVO MADRE único: COLT +
+                          nuestro trabajo (hojas Datos_COLT_Sudamerica,
+                          Viajes_Cancelados, Leame). Trabajar siempre ahí.
+                        base_colt_sudamerica_trabajo.csv = espejo de trabajo de
+                          la hoja Datos (los scripts operan sobre él).
+                        Base_Diadas_Vecinos.xlsx = díadas de vecindad, solo los
+                          12 países de Sudamérica (132 díadas).
+                        Base_Ideologia_Presidencial.xlsx = ideología presidencial.
+                        Mandatos_Presidenciales.xlsx = fechas de mandato (lo lee R).
+  02_BITACORA/     -> bitacora.txt, PENDIENTES_VERIFICACION.txt,
+                      anexos_colt_sudamerica/ (logs de campañas), archivo_historico/.
+  03_SCRIPTS/      -> scripts activos del flujo (colt_*.py).
+  04_ANALISIS_R/   -> análisis exploratorio en R (graficos_exploratorios.R).
+  05_PAPER/        -> .Rnw / .bib / PDF del paper.
+  06_RESIDUOS/     -> TODO lo que ya no se usa (no borrar, solo referencia):
+                        modulos_pais/ (CSV por país de la etapa previa),
+                        bases_y_backups/ (backups de la base, base_consolidada.csv,
+                        mandatos_presidenciales.csv viejo), scripts_legado/
+                        (build_*, aplicar_verificacion_*, etc.),
+                        paper_archivos_auxiliares/ (.log/.bbl/...), otros/.
+  Equivalencias con los nombres anteriores: 03_MODULOS_PAIS -> 06_RESIDUOS/modulos_pais;
+  04_BASE_FINAL -> 01_BASE_FINAL; 05_BITACORA -> 02_BITACORA; 06_SCRIPTS -> 03_SCRIPTS;
+  08_ANALISIS_R -> 04_ANALISIS_R; 09_PAPER -> 05_PAPER.
 
 CÓMO TRABAJAR (resumen; detalle en el CODEBOOK)
   1) Tomar el siguiente país/mandatario a investigar o verificar.
